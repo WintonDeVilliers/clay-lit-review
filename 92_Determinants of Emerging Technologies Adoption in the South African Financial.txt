@@ -1,0 +1,1313 @@
+Read online:
+Scan this QR
+code with your
+smart phone or
+mobile device
+to read online.
+South African Journal of Business Management
+ISSN: (Online) 2078-5976, (Print) 2078-5585
+Page 1 of 12 Original Research
+http://www.sajbm.org Open Access
+Authors:
+Nkhulang T. Matsepe1
+Elma van der Lingen1
+Affiliations:
+1
+Department of Engineering
+and Technology
+Management, Faculty of
+Engineering, Built
+Environment and Information
+Technology, University
+of Pretoria, Pretoria,
+South Africa
+Corresponding author:
+Elma van der Lingen,
+elma.vanderlingen@up.ac.za
+Dates:
+Received: 04 Dec. 2020
+Accepted: 13 Jan. 2022
+Published: 24 Feb. 2022
+How to cite this article:
+Matsepe, N.T., & Van der
+Lingen, E. (2022).
+Determinants of emerging
+technologies adoption in the
+South African financial sector.
+South African Journal of
+Business Management, 53(1),
+a2493. https://doi.
+org/10.4102/sajbm.
+v53i1.2493
+Copyright:
+© 2022. The Authors.
+Licensee: AOSIS. This work
+is licensed under the
+Creative Commons
+Attribution License.
+Introduction
+The fourth industrial revolution (4IR) is rapidly transforming business processes and models
+across a range of sectors. Emerging innovative technologies – such as artificial intelligence
+(AI), machine learning (ML), distributed ledger technologies (DLT) and cloud computing –
+present various opportunities for organisations that manage to adopt these capabilities
+successfully. Studies have explored the implications of the 4IR for organisations of varying
+sizes and across various industries (Barreto, Amaral, & Pereira, 2017; Centre of Excellence in
+Financial Services, 2017; Haddud, Desouza, Khare, & Lee, 2017; Kunwar, 2019). For financial
+services organisations, investment in AI and cloud computing will improve their ability to
+implement emerging technologies most relevant to solving their critical business problems
+(Propson & Galaski, 2020).
+Emerging technologies such as blockchain present secure mechanisms for creating, transferring
+and storing data (OECD, 2018). The analysis of large complex data sets, commonly referred to as
+‘big data’, enables financial services organisations to model consumer-risk profiles accurately,
+thus providing financial products that are tailored to address the consumer’s needs (Hassani,
+Unger, & Beneki, 2020). Through interconnected ‘smart technological devices’, the internet of
+things (IOT) enables financial organisations to generate big data (OECD, 2018). The successful
+adoption of emerging technologies, therefore, may serve as a source of competitive advantage in
+the modern economic environment.
+Purpose: The fourth industrial revolution (4IR) enables firms to leverage various emerging
+technologies to reduce operating costs, improve business efficiencies and gain competitive
+advantage. This article uncovers the determinants influencing emerging technology adoption,
+particularly artificial intelligence (AI), cloud computing and distributed ledger technologies
+(DLT), in South African (SA) financial services firms.
+Design/methodology/approach: Seventeen technology experts from the SA banking,
+insurance, financial technology and financial regulation and compliance sectors were
+interviewed. A semi-structured interview was used to conduct one-on-one interviews,
+followed by a focus group interview. Qualitative data were analysed using a thematic
+network analysis.
+Findings/results: The results revealed that the determinants – adopter traits, technology
+usability, industry characteristics, organisational leadership and organisational characteristics
+– were influential towards technology adoption. It is suggested that the new model could be
+strengthened further by incorporating a new construct, leadership diversity, which had not
+been previously proposed in the literature.
+Practical implications: By understanding the influential adoption determinants, leaders can
+take bold, calculated risks in adopting AI, cloud computing and DLT. However, the importance,
+prior to adopting these technologies, of clearly understanding the need for them, and their
+business benefits is also emphasised.
+Originality/value: Research on the adoption of AI, cloud computing and DLT in the SA
+financial sector is limited. This article leverages the models of the diffusion of innovations
+(DOI), the technology–organisation–environment (TOE) and the technology readiness index
+(TRI) to propose a new model that illustrates technology adoption in the SA financial sector at
+individual and firm levels.
+Keywords: technology adoption; 4IR; fourth industrial revolution; emerging technologies;
+financial sector.
+Determinants of emerging technologies adoption
+in the South African financial sector
+Read online:
+Scan this QR
+code with your
+smart phone or
+mobile device
+to read online.
+Page 2 of 12 Original Research
+http://www.sajbm.org Open Access
+Existing research exploring adoption determinants of
+emerging technologies, particularly AI, ML, DLT and cloud
+computing, in the context of the South African (SA) financial
+sector is limited. This article contributes towards addressing
+this gap and provides financial services organisations with
+greater insights into the factors that influence the decision to
+adopt and use emerging technologies. A novel contribution
+is made through the development of a new technologyadoption model that seeks to model individuals’ adoption
+behaviour in their personal and work environments. The
+article also explores the adoption challenges encountered by
+financial services organisations during the adoption of these
+technologies, enabling technology leaders in the sector to
+revise and improve adoption strategies.
+Literature review
+Financial technology
+The literature presents a compelling argument for the
+adoption of digital technologies in the financial sector.
+According to Alt, Beck and Smits (2018), technology-driven
+financial solutions can digitally transform entire value chains
+and positively impact banking clients, channels (bank
+branches and online platforms) and traditional financial
+services providers (FSPs), for example, insurers, banks, nonbanks and interbank system networks. Financial technology
+(fintech) combines innovative business models with
+technology solutions to facilitate the provision of daily
+financial services (Md Husin, Haron, & Aziz, 2020, p. 13). For
+FSPs such as insurers, fintech solutions present opportunities
+to innovate across processes including client advisory
+management and risk management. For example, big data
+enable insurers to offer personalised risk premiums to their
+clients (Puschmann, 2017). Studies further suggest that
+various factors influence fintech adoption across different
+global locations (Arner, Barberis, & Buckley, 2016).
+For organisations and consumers in the West, fintech
+adoption appears to be largely driven by the results of the
+2008 financial crisis; whereas, in Africa, adopters are in
+pursuit of economic opportunities (Arner et al., 2016). A
+study by Saksonova and Kuzmina-Merlino (2017) noted that
+fintech adoption in Latvia was very low compared with the
+European financial sector. This was attributed to a lack of
+public awareness regarding innovative financial products
+and services. Strict regulatory requirements in the Latvian
+financial sector also inhibited the development of fintech
+start-up firms.
+In addition to the 2008 financial crisis contributing towards
+the emergence of fintech, Alt and Puschmann (2012) indicate
+that this global disaster along with the continuously evolving
+behaviour of banking customers, the emergence of nonbanking FSPs and the rate at which innovative information
+technology (IT) solutions are diffusing into downstream
+financial processes is driving the sector towards a more
+customer-oriented landscape. A customer-oriented financial
+services infrastructure increases the bargaining power of
+technology end-users by introducing new interfaces to which
+they can access financial services, thereby generating
+opportunities for fintech start-up firms to penetrate the sector
+(Alt & Puschmann, 2012). The adoption of fintech solutions
+in the sector has also generated concerns regarding the extent
+to which financial regulators supervise these technologies.
+Zalan and Toufaily (2017) discovered that technology
+executives in the Middle East and North Africa (MENA)
+region believed that fintech start-ups were not as regulated
+as incumbent banking institutions, and were, thus, more
+favourably positioned to disrupt the banking sector.
+However, in a contrasting statement, Zalan and Toufaily
+(2017) indicated that stringent regulatory requirements for
+financial advice prevented fintech start-ups from offering
+lower fees to consumers in the region. Fintech is an emerging
+concept and has not yet been formally supervised by financial
+regulators in the region. This also contributes to the varying
+opinions about the extent of fintech regulation in the MENA
+region. The rapid development of fintech products coupled
+with the significant rate at which non-regulated fintech
+providers have entered the financial market, has presented
+significant challenges for financial regulators around the
+world (Gerlach, Simmons, & Lam, 2016).
+The consequences of inadequate regulatory oversight are
+illustrated by the bankruptcy of Ezubao, a peer-to-peer (P2P)
+lending platform in China which was suspected to have
+defrauded over 900 000 victims (Albrecht, Morales, Baldwin,
+& Scott, 2017; Wang, 2018). This platform facilitated financial
+lending to individuals who had been denied loans by banks
+because they were deemed to be ‘high risk’ (Saksonova &
+Kuzmina-Merlino, 2017). As the adoption of emerging
+technologies in the SA financial sector increases, regulators
+will need to play a more critical role in protecting customers
+against incurring financial losses.
+The South African Reserve Bank (SARB) has acknowledged
+this risk and has emphasised the implications of inadequate
+regulatory oversight as fintech adoption in SA increases
+(SARB, 2017). The SARB will have to indicate clear guidelines
+on how both fintech firms and incumbent banks will need to
+comply with existing regulatory requirements. Failure to
+achieve this may result in systemic implications that will put
+the stability of the banking sector at risk (Coetzee, 2018).
+By partnering with fintech firms early during the development
+phase, regulators will be able to steer fintech development
+towards acceptable regulatory frameworks and promote sound
+financial innovation (Saksonova & Kuzmina-Merlino, 2017).
+However, adopting a ‘wait-and-see’ approach may also enable
+regulators to focus only on fintech innovations. These appear to
+be significantly adopted by the market (Arner et al., 2016),
+allowing regulators to determine whether the market adopts
+fintech innovations before amending regulatory policies.
+Technology adoption models
+Studies have summarised the most popular individual and
+firm-level technology-adoption models in information 
+Page 3 of 12 Original Research
+http://www.sajbm.org Open Access
+systems research (Taherdoost, 2018; Van den Berg & Van der
+Lingen, 2019). The complex social networks in financial
+services organisations warrant an examination of adoption
+behaviour at both individual and firm levels. This article
+leverages constructs from the diffusion of innovations (DOI),
+technology-organisation-environment (TOE) and technology
+readiness index (TRI) models to examine technology adoption.
+Diffusion of innovations
+The DOI model has its roots in sociology, and has four main
+elements: time, the innovation, channels of communication
+and the social system (Rogers & Shoemaker, 1983). The
+model considers the transfer of innovations within social
+systems via appropriate channels of communication over
+time to predict users’ adoption patterns (Rogers & Shoemaker,
+1983; Taherdoost, 2018).
+In addition to the main elements of innovation diffusion, the
+DOI model has three main characteristics: innovation
+characteristics, adopter characteristics and the innovationdecision process (Taherdoost, 2018). The innovation
+characteristics are trialability, relative advantage and
+complexity (Rogers & Shoemaker, 1983). Adopters are
+characterised as early adopters, innovators, laggards, early
+majority and late majority (Rogers & Shoemaker, 1983;
+Taherdoost, 2018). The innovation-decision process outlines
+five phases of an information-seeking process in which the
+potential adopters are encouraged to reduce their perceived
+uncertainty about a technological innovation and thus
+increase adoption (Miranda, Farias, Schwartz, Pascualote, &
+De Almeida, 2016).
+Technology–organisation–environment framework
+The TOE framework was developed as a way to unveil the
+dimensions of an organisation’s context that affect the rate
+at which innovations are adopted (Aboelmaged, 2014).
+The framework consists of three contextual dimensions:
+technological, organisational and environmental
+(Aboelmaged, 2014; Al-jabri & Alabdulhadi, 2016). The
+technological context describes adopters’ perceptions of
+the technology’s attributes, for example, perceived benefits
+and ease of use; the organisational context examines the
+organisational characteristics such as firm size and
+management structure; and the environmental context
+describes the firm’s interaction with other firms, regulatory
+bodies and consumers (Amini & Bakri, 2015; Awa, Ojiabo, &
+Orokor, 2017; Tornatzky & Fleischer in Lin, 2014). Unlike
+the DOI model, the TOE framework focuses solely on firmlevel technology adoption whilst also incorporating
+environmental aspects (Amini & Bakri, 2015).
+Scholars (Aboelmaged, 2014; Lin, 2014; Lin & Lin, 2008) have
+examined the TOE framework to validate its theoretical
+depth and effectiveness in examining readiness for various
+innovations. Aboelmaged (2014) found that the TOE
+determinants – such as anticipated benefits and firm size,
+amongst others – influenced elements of e-maintenance
+technology readiness. Competitive pressure was found to
+influence electronic business (e-business) diffusion (Lin &
+Lin, 2008), whilst the readiness of e-maintenance in
+manufacturing firms was not influenced by this determinant
+(Aboelmaged, 2014).
+Technology readiness index
+‘Technology readiness’ describes an individual’s propensity
+to embrace new technology to accomplish goals in his or her
+work lives or homes (Parasuraman & Colby (2001) in Lai,
+2017). The TRI model measures the extent to which an
+individual is ready to accept and use new technologies, and
+has four dimensions: optimism, innovativeness, discomfort
+and insecurity (Nugroho & Fajar, 2017; Nugroho, Susilo,
+Fajar, & Rahmawati, 2018). High levels of optimism and
+innovativeness promote technology adoption, whilst an
+individual’s level of discomfort and insecurity inhibit
+adoption (Aboelmaged, 2014; Awa et al., 2017). The
+technology readiness level categorises individuals into
+laggards, paranoids, sceptics, pioneers or explorers.
+Regarding 4IR technologies in the financial sector, laggards
+may prefer banking via traditional physical banking channels
+(such as visiting the bank branches) over modern digital
+banking platforms. These users are generally the last group
+to adopt emerging technology (Nugroho et al., 2018).
+Innovations excite paranoids; however, their perception of
+technology is also driven by some elements of fear, and so
+these users will consider risk factors such as the regulatory
+implications of P2P lending before completely adopting the
+technology. Sceptics have a low motivation to accept
+innovations. These users must, therefore, be exposed to the
+potential benefits of incurring lower banking fees before they
+can accept 4IR technologies. Pioneers show significant
+optimism about innovations; however, these users will
+also stop using the technology if they encounter any
+significant challenges (Nugroho et al., 2018). Lastly, explorers
+are typically the first group of users to try out new technology,
+and will eagerly commit to sharing data about
+their driving patterns with insurance firms to try out
+innovative ‘pay-as-you-drive’ capabilities (Tselentis, Yannis,
+& Vlahogianni, 2016).
+Conceptual model
+The limited research on influential determinants of AI, cloud
+computing and DLT in the SA financial sector allows for a
+deeper understanding of this phenomenon from the
+individual’s perspective. This article proposes a conceptual
+model towards addressing this gap. The model is formulated
+with relevant constructs drawn from the DOI, TOE and TRI
+models. Studies (Aboelmaged, 2014; Miranda et al., 2016;
+Rogers & Shoemaker, 1983; Taherdoost, 2018) show that
+these models have been widely referenced to model
+technology adoption at individual and firm levels.
+Table 1 outlines the proposed determinants and constructs of
+the conceptual model illustrated in Figure 1. The conceptual
+model is discussed in Table 1 to propose the influences
+exerted by the model’s constructs.
+Page 4 of 12 Original Research
+http://www.sajbm.org Open Access
+Figure 1 illustrates the proposed influences exerted by the
+determinants and constructs outlined in Table 1.
+The conceptual model in Figure 1 illustrates the proposed
+individual level determinants: adopter traits and technology
+usability, as well as the firm level determinants: industry
+characteristics, organisational leadership and organisational
+characteristics. The development of this model along with
+the proposed influences exerted by the model’s constructs on
+adoption use behaviour is discussed in the following section.
+Effects of adopter traits on innovation adoption
+‘Adopter traits’ describe an individual’s innate ability to
+acquire new technical skills, as well as his or her inclination
+to try innovations that optimise his or her current methods of
+working. Adopter traits can be characterised by constructs
+such as knowledge of innovation, technical skill and personal
+innovativeness (Awa et al., 2017; Nugroho et al., 2018; Rogers
+& Shoemaker, 1983). It is proposed that adopter traits
+(proposition – P1 in the conceptual model) will influence AI,
+cloud computing and DLT adoption.
+Aboelmaged (2014) and Nugroho and Fajar (2017) state
+that adopter traits such as personal innovativeness and
+user optimism promote innovation adoption, whilst
+insecurity and discomfort impede innovation adoption.
+Saksonova and Kuzmina-Merlino (2017) attributed the low
+penetration of fintech innovations in Latvia to a lack of
+knowledge about the innovations. Jaafar, Ramayah, AbdulAziz and Saad (2007) and Aboelmaged (2014) noted that
+employees who were highly rated in technical skills had a
+higher likelihood of being effective in technology readiness
+and support. It is proposed that knowledge of the
+innovation, technical skill and personal innovativeness
+(Propositions P1-1, P1-2, and P1-3 in the conceptual model)
+will positively influence AI, cloud computing and DLT
+adoption.
+Effects of technology usability on innovation
+adoption
+‘Technology usability’ refers to the extent to which an
+organisation believes that a technology can be learned and
+effectively integrated (Van den Berg & Van der Lingen,
+2019). Awa et al. (2017) found technology usability to be a
+critical factor in the adoption of innovative technologies in
+Nigerian service-based SMEs. This was attributed to the
+inhibition of adoption caused by complex, sophisticated
+information systems. It is proposed that technology usability
+(Proposition P2) will influence AI, cloud computing and
+DLT adoption.
+TABLE 1: Determinants and constructs supporting the conceptual model.
+Number Determinant Model constructs
+1 Adopter traits • Knowledge of innovation (DOI)
+• Technical skill (TOE)
+• Personal innovativeness (TRI)
+2 Technology usability • Trialability (DOI)
+• Complexity (DOI)
+• User insecurity (TRI)
+3 Industry characteristics • Competitive pressure (TOE)
+• Regulatory support (TOE)
+• Customer demands (TOE)
+4 Organisational leadership • Opinion leadership (DOI)
+• Risk orientation (DOI)
+5 Organisational characteristics • Firm size (TOE)
+• Top management support (TOE)
+• Communication mechanisms (TOE)
+DOI, diffusion of innovations; TRI, Technology readiness index; TOE, Technology–organisation–
+environment.
+Knowledge of innovaon
+P1-1 P1-2 P1-3
+P2-1
+P1
+P2
+P3
+P4
+P5
+P2-2 P2-3
+P3-3
+P3-2
+P3-1 P4-2
+P4-1
+P5-1
+P5-2
+P5-3
+Technical
+skill Personal
+innovaveness
+Trialability Complexity
+User
+insecurity
+Adopon use behaviour
+Customer
+demands
+Regulatory
+support
+Compeve
+pressure
+Risk
+orientaon Opinion
+leadership
+Communicaon mechanisms
+Top management support Firm size
+Adopter traits
+Technology
+usability
+Individual level
+determinants
+Industry
+characteriscs
+Organisaonal
+leadership
+Organisaonal
+characteriscs
+Firm level
+determinants
+FIGURE 1: Conceptual model for the adoption of fourth industrial revolution technology in the South African financial sector.
+Page 5 of 12 Original Research
+http://www.sajbm.org Open Access
+Cheung, Chang and Lai (2000), and Al-Jabri and Sohail (2012)
+described ‘complexity’ as the extent to which an innovation
+could be considered relatively difficult to comprehend, and
+found that it inhibited the adoption of internet-based
+technologies. Au and Kauffman (2008), Mallat (2007) and
+Ondrus and Pigneur (2006) and Al-jabri and Sohail (2012)
+found that the perceived complexity of mobile banking
+technology negatively influenced users’ intentions to adopt
+the technology. It is proposed that complexity (Proposition
+P2-1) will negatively influence AI, cloud computing and DLT
+adoption.
+‘Trialability’ describes the ability of a user to experiment with
+an innovation before adopting it (Al-jabri & Sohail, 2012). As
+potential adopters experiment with an innovation, their
+comfort increases, thus improving the chances of them
+adopting it (Agarwal & Prasad, 1998 and Rogers (2003), and
+Al-jabri & Sohail, 2012). It is proposed that trialability
+(Proposition P2-2) will positively influence AI, cloud
+computing and DLT adoption.
+‘User insecurity’ describes the user’s distrust of the new
+technology (Nugroho & Fajar, 2017). The greater the users’
+insecurity, the more they feel unsafe when using the
+technology, which in turn influences their adoption decision.
+Walczuch, Lemmink and Streukens (2007) found that
+insecure employees in financial services firms had a negative
+perception of the ease of use of IT. It is proposed that user
+insecurity (Proposition P2-3) will negatively influence AI,
+cloud computing and DLT adoption.
+Effects of industry characteristics on innovation
+adoption
+‘Industry characteristics’ describe the extent to which a firm
+believes that the industry in which the firm operates is
+conducive to innovation adoption (Van den Berg & Van der
+Lingen, 2019). Partnerships between financial regulators and
+fintech firms have had the potential to strengthen innovation
+in the sector (Saksonova & Kuzmina-Merlino, 2017). Alt and
+Puschmann (2012) indicated that the evolving needs of
+banking customers enabled fintech firms to enter the market
+and offer customer-oriented financial solutions. It is proposed
+that industry characteristics (Proposition P3) will influence
+AI, cloud computing and DLT adoption.
+‘Competitive pressure’ refers to the pressure arising from the
+probability of losing competitive advantage (Lin, 2014). Lin
+and Lin (2008) found competitive pressure to have a positive
+influence on the external diffusion of e-business. Verma and
+Chaurasia (2019) found competitive pressure to have a
+significant influence on the adoption of big data analytics. It
+is proposed that competitive pressure (Proposition P3-1) will
+positively influence AI, cloud computing and DLT adoption.
+‘Regulatory support’ describes the assistance provided by
+regulatory bodies in promoting IT innovation by firms in a
+particular industry (Ling in Amini & Bakri, 2015). Stringent
+compliance and data privacy laws may inhibit firms’ abilities
+to innovate. Regulatory support was found to positively
+influence the adoption of cloud computing technologies in
+Malaysian SMEs (Amini & Bakri, 2015). It is proposed that
+regulatory support (Proposition P3-2) will positively
+influence AI, cloud computing and DLT adoption.
+‘Customer demands’, amongst other environmental factors,
+exert normative pressures in an organisation, thus influencing
+innovation adoption (Awa et al., 2017). Awa et al. (2017)
+found that the presence of normative pressures positively
+influenced technology adoption amongst small services
+enterprises in West Africa. It is proposed that customer
+demands (Proposition P3-3) will positively influence AI,
+cloud computing and DLT adoption.
+Effects of organisational leadership on
+innovation adoption
+The tactical and strategic direction of an organisation is
+largely influenced by the peculiar attributes of powerful
+actors (Awa et al., 2017). Leadership plays a significant role
+in motivating strategic flexibility and generating higher
+business benefits (Kristianto, Ajmal, Tenkorang, & Hussain,
+2012). Aziz, Md Rami, Razali and Mahadi (2020) discovered
+authentic leadership to play a significant role in managing
+technological changes within organisations in the oil and
+gas industry. Furthermore, Schepers, Wetzels and De
+Ruyter (2005) proposed that organisational leadership
+(Proposition P4) will influence AI, cloud computing and
+DLT adoption.
+‘Opinion leadership’ refers to the extent to which a leader can
+frequently and informally influence other individuals’
+attitudes (Rogers & Shoemaker, 1983). These leaders are
+characterised as having significant access to external
+communication, possessing high socio-economic status and
+exhibiting high levels of innovativeness (Rogers & Shoemaker,
+1983). It is proposed that opinion leadership (Proposition P4-
+1) will positively influence AI, cloud computing and DLT
+adoption.
+Risk-seeking executives are more likely to pursue aggressive
+corporate growth strategies, and are, thus, more likely to
+embrace innovative initiatives, including technologies (Czaja
+& Shari, (1998) and Venkatesh & Morris (2000), in Van den
+Berg & Van der Lingen, 2019). It is proposed that decision
+makers’ risk orientation (Proposition P4-2) will positively
+influence AI, cloud computing and DLT adoption.
+Effects of organisational characteristics on
+innovation adoption
+‘Organisational characteristics’ describe the degree to which
+the attributes of the firm are perceived to promote or restrict
+innovation adoption. It is proposed that organisational
+characteristics (Proposition P5) will influence AI, cloud
+computing and DLT adoption.
+Larger firms tend to be more comfortable and assured when
+faced with decisions to adopt innovations (Aboelmaged, 
+Page 6 of 12 Original Research
+http://www.sajbm.org Open Access
+2014). Arslan, Bagchi and Kirs (2019) indicated that larger
+firms were more likely to adopt innovative information
+communication technologies owing to their comparative
+resource advantage. It is proposed that increasing firm size
+(Proposition P5-1) will positively influence AI, cloud
+computing and DLT adoption.
+Top management support is amongst the key contributing
+factors to a supportive work environment (Al-jabri &
+Alabdulhadi, 2016). Adoption levels of cloud computing
+technologies in Malaysian SMEs were higher when supported
+by top management (Amini & Bakri, 2015). It is proposed that
+top management support (Proposition P5-2) will positively
+influence AI, cloud computing and DLT adoption.
+Rogers and Shoemaker (1983) highlight the positive influence
+that open communication structures have on innovation
+diffusion, as information can be disseminated across a wider
+group of individuals. Lee, Lee and Schuman (2005) indicated
+that communication factors could serve as significant
+predictors in the adoption of electronic banking technologies.
+It is proposed that effective communication mechanisms
+(Proposition P5-3) will positively influence AI, cloud
+computing and DLT adoption.
+Methodology
+The phenomenological research philosophy is commonly
+adopted in management research, owing to the dynamic
+nature of organisational culture (Saunders, Lewis, & Thornhill,
+2000, p. 86). Although the analysis and interpretation of
+qualitative data may be a complex exercise, phenomenological
+research enables a thorough understanding into people’s
+meanings (Easterby-Smith, Thorpe, Jackson, & Jasperen, 2018).
+An exploratory research design was used to uncover adoption
+determinants and their influential constructs. A qualitative
+approach was used to generate textual data via semi-structured
+interviews and a focus group interview. The focus group
+interview consisted of four respondents from the banking
+sector, fintech fraternity, regulatory and compliance, as well as
+the insurance sector, respectively. It is important to note the
+potential threats to a qualitative study’s reliability and validity
+including participant error and bias, as well as observer error
+and bias, respectively (Saunders et al., 2000, p. 86).
+Triangulation using the literature review’s findings, one-onone interviews and a focus group interview was used to
+strengthen the study’s reliability. Because of the limited
+number of participants interviewed in this study, it follows
+then that external validity, also referred to as generalisability,
+could pose a threat to the research. The results drawn from
+this research could then be used as grounding theory towards
+generating further generalisable research on the adoption of
+AI, cloud computing and DLT in the SA financial sector.
+The semi-structured interview enabled the generation of rich
+in-depth information from the respondents’ perspectives
+(McCallum & Viviers, 2020). It is presented in Appendix 1.
+The interviews were recorded and data were transcribed as
+text and coded to eliminate irrelevant data.
+Data were collected from purposively-selected technology
+experts in the SA financial sector. Selection was based on the
+respondents’ extensive experience in the development of
+technology solutions and the administration of financial
+regulatory and compliance policies in the SA financial sector.
+Interviews were conducted using virtual online platforms
+including Google Hangouts, Microsoft Teams and Zoom.
+Seventeen respondents were interviewed from the following
+sectors: banking (five), insurance (three), fintech (five) and
+financial regulation and compliance (four respondents).
+Table 2 outlines the respondents’ roles, areas of expertise and
+total working experience.
+A thematic network analysis was used to analyse qualitative
+data emanating from the interviews. Thematic network
+diagrams are web-like structures which systematically
+summarise the main themes within textual data (AttrideStirling, 2001). The themes generated from the qualitative
+data consisted of basic themes, organising themes and global
+themes. Basic themes are the most lower-ordered themes
+evident in the text and provide little information on their
+own. They are categorised to form an organising theme.
+Organising themes are categories of basic themes which
+have been organised into clusters of similar ideas. And
+lastly, global themes are super-ordinate themes, which
+summarise the key metaphors in the text holistically
+(Attride-Stirling, 2001).
+TABLE 2: Respondents’ roles, fields of expertise and experience.
+Respondent’s
+number
+Respondent’s role Area of expertise Working
+experience
+(in years)
+[1] Data scientist AI and ML 4
+[2] Data and reporting
+specialist
+Cloud computing
+technology
+16
+[3] Managing
+director/4IR advisory
+council member
+Financial risk, compliance
+and governance
+17
+[4] Blockchain architect DLT 13
+[5] Co-founder and CEO Conversational AI/Fintech 11
+[6] Lead machine learning
+engineer
+AI, ML and cloud computing
+technology
+6
+[7] Data science manager AI, ML and cloud computing
+technology
+4
+[8] Anti-money laundering
+analyst
+Financial risk, compliance
+and governance
+14
+[9] Technical founder and
+CEO
+Fintech 5
+[10] Machine learning
+specialist
+AI and ML 5
+[11] Innovation and business
+development / author
+Fintech 4
+[12] Statistical data scientist AI and ML 10
+[13] IT and data risk
+manager
+Financial risk, compliance
+and governance
+5
+[14] Head of merchant
+analytics
+Fintech 10
+[15] Enterprise architect Cloud computing
+technology
+21
+[16] Data scientist AI and ML 8
+[17] Business development
+manager
+Financial risk, compliance,
+and governance
+19
+CEO, Chief Executive Officer; AI, artificial intelligence; ML, machine learning; DLT, distributed
+ledger technologies; 4IR, fourth industrial revolution.
+Page 7 of 12 Original Research
+http://www.sajbm.org Open Access
+Ethical considerations
+This article followed all ethical standards for research
+without direct contact with human or animal subjects.
+Results and discussion
+Individual level determinant
+The results on individual level determinants, namely,
+adopter traits and technology utilisation, and their respective
+constructs are discussed in the following subsections.
+Adopter traits
+Knowledge of innovation: Awareness, exposure and a highlevel understanding of 4IR technologies were found to
+influence technology adoption. An acute exposure to ML and
+AI was found to influence short-term usage intent, whereas
+long-term use behaviour was significantly influenced by the
+need for the technologies in the lives of consumers. This was
+prevalent amongst respondents in the banking sector.
+Exposure was influenced by individual adopters’ personal
+experiences with the technology. For example, individuals
+who had been exposed to the negative aspects of emerging
+technologies were less likely to adopt these technologies. It
+was, thus, crucial to have credible sources introducing
+concepts of 4IR technologies to potential adopters in order to
+improve adoption.
+Adequate knowledge of emerging technologies, particularly
+AI and DLT, had a role to play in reducing the fears arising
+from a lack of understanding of these technologies.
+Respondents in the insurance and financial regulatory sectors
+were concerned about potential job losses arising from the
+proliferation of 4IR technologies in the sector. These findings
+are supported by the following statements:
+[4] ‘[… I]f we say that blockchain is used for hiding illicit
+activities from government, they’re most likely to stay away
+from it.’
+[3] ‘The unions are acutely aware that robots are going to replace
+humans, and are not yet at the point of understanding what we
+are saying when we say unemployment might not increase.’
+These findings support proposition P1-1, and suggest that
+knowledge of the innovation positively influences technology
+adoption.
+Technical skill: Technical training and sufficient work
+experience were beneficial for the adoption of 4IR technologies
+amongst working professionals. However, this was not as
+relevant to end-users. Instead, end-users were more
+concerned about the value that the technologies would add
+to their lives than with the technical components comprising
+these technologies.
+Sufficient technical understanding of emerging technologies by
+professionals enabled them to develop technologies that were
+beneficial to their customers or the financial institutions that
+employed them. For example, a thorough understanding of
+DLT and ML enabled investment banks to research and develop
+technology that would reduce interbank settlement periods
+from days to minutes. Retail banks were also able to leverage AI
+to improve profitability whilst reducing operating costs.
+These findings support proposition P1-2, and suggest that
+technical skill positively influences technology adoption.
+Personal innovativeness: Personal innovativeness was
+characterised by basic constructs such as the willingness to
+innovate, a curiosity about exploration and the ability to take
+risks and try out new technologies as they become available.
+These basic constructs had a stronger influence on
+individuals’ (both professionals and customers) adoption
+intent and use behaviour than those that characterised the
+technical skill organising construct.
+Individuals who were willing to try out ML and AI were more
+likely to adopt these technologies than individuals who had the
+technical skill but lacked the willingness. This was prevalent
+amongst respondents from the banking and insurance sectors.
+Whenever individuals had the curiosity to explore the benefits
+that the bank could harness from these technologies, they were
+able to motivate the acquisition of resources (budget allocation,
+hiring of skilled professionals, etc.) for technology adoption.
+These findings are supported by the following statement:
+[1] ‘I found that your sponsor doesn’t have to be an AI expert,
+but must have the willingness to adopt data-driven principles
+and have the willingness to see that data is useful.’
+These findings support proposition P1-3, and suggest that
+personal innovativeness has a strong positive influence on
+technology adoption. It can, thus, be inferred from the
+findings that adopter traits are an influential determinant of
+the adoption intent and use behaviour with emerging 4IR
+technologies in the SA financial sector.
+Technology usability
+Trialability: The ability of data scientists to experiment with
+AI prior to large-scale development reduced the risk of
+failure. This culture encouraged technologists to ‘fail fast and
+recover quickly’, thus contributing to innovation. Deploying
+ML algorithms in a phased approach increased the chances
+of obtaining successful outcomes. It also enabled data
+scientists to demonstrate the benefits of AI to the rest of the
+business, and garner support from executives. The following
+statement supports this finding:
+[4] ‘Introducing it through small iterations, just changing one
+non-core function of the bank and putting that on a decentralised
+network and showing value, and it gets the right kind of people
+at the right levels to get excited about the technology.’
+Customers also preferred to test new technology before fully
+adopting and using it in long-term. This also minimised the
+potential risks associated with the technology, creating a
+sense of comfort for the customer. The following statement
+supports this finding:
+Page 8 of 12 Original Research
+http://www.sajbm.org Open Access
+[2] ‘People like to try things to see that it will work and benefit
+them.’
+These findings support proposition P2-1, and suggest that
+trialability positively influences technology adoption.
+Complexity: Customers were very quick to abandon the use
+of a new technology if they experienced it as complex.
+This increased firms’ technology marketing efforts, and
+subsequently the costs associated with the technology. At the
+firm level, cloud computing platforms increasingly became
+the preferred data storage mechanism owing to the reduced
+maintenance costs. The complexity associated with DLT
+inhibited firms from trying out blockchain-related technologies.
+The following statement supports these findings:
+[4] ‘Some companies are saying that this type of technology will
+never work because of the sheer complexity involved.’
+Delays caused by the complexity of deploying AI models
+rendered the models irrelevant to solving the business
+problems for which they were specifically designed. These
+models then had to be retrained with new data, which further
+reduced confidence in the adoption of AI. This was prevalent
+amongst fintech firms.
+These findings support proposition P2-2, and suggest that
+complexity has a negative influence on technology adoption.
+User insecurity: Professionals in the banking and insurance
+sectors were concerned that cloud computing and AI would
+make their current technical expertise irrelevant, potentially
+leading to job losses. This discomfort was exacerbated by the
+high unemployment levels in SA, and generated scepticism
+about the adoption of these technologies. Cyber security
+concerns also inhibited adoption, particularly in banking
+institutions. Professionals were also concerned about the
+misrepresentation of AI and ML and the types of problems
+these technologies could solve. It was feared that ongoing
+misrepresentation would generate a negative sentiment
+about the technology, and contribute to reduced adoption.
+The following statement supports these findings:
+[6] ‘[…P]eople are just like so fed up of how much under-delivery
+that AI and machine learning is bringing in. Because people
+don’t understand what it is, but they’ve pitched it in the wrong
+way.’
+These findings support proposition P2-3, and suggest that
+user insecurity negatively influences technology adoption. It
+can, thus, be inferred that technology usability is an influential
+determinant of the adoption of emerging 4IR technologies in
+the SA financial sector.
+Firm level determinant
+The results on firm level determinants, namely, industry
+characteristics, organisational leadership and organisational
+characteristics, and their respective constructs are discussed
+in the following subsection.
+Industry characteristics
+Competitive pressures: Banks relied significantly on
+technology as a source of competitive advantage, and this
+generated interest in AI adoption in the sector. The agility of
+fintech firms exerted pressure on incumbent financial
+institutions to accelerate innovation.
+Unlike AI, cloud computing technology did not generate a
+clear-cut competitive advantage for adopting firms. This was
+attributed to the costs, which often reversed the benefits of
+the technology. Firms were motivated by the ability to
+leverage cloud computing platforms to service clients more
+seamlessly, thus gaining a competitive edge over rivals. The
+following statement supports these findings:
+[6] ‘And if the competitors are making use of machine learning
+and AI, and that’s caused a lot of excitement in the market, and
+people are leaning in that direction, then people are bound to
+feel the pressure, and they’re going to try and adopt these things
+even if they aren’t ready for it.’
+These findings support proposition P3-1, and suggest that
+competitive pressure positively influences technology
+adoption.
+Regulatory support: Financial regulators in SA were reported
+to have consulted widely about the adoption of 4IR
+technologies. However, the reactive nature of the regulators
+inhibited adoption, as innovating firms would be expected to
+explain their innovations to the regulators. This was
+attributed to a lack of understanding of the technology.
+A proof-of-concept called ‘Project Khokha’, facilitated by the
+SARB, was used as one example of the consultative approach
+taken by regulators to promote the adoption of DLT and
+improve the settlements infrastructure in the banking sector.
+Amendments to the existing policy framework were
+recommended to improve the industry’s adoption of emerging
+technologies whilst maintaining regulatory oversight on the use
+of these technologies.
+The regulation of fintech start-ups was minimal to nonexistent. This was attributed to the nature of the data used by
+fintech firms, as it was deemed to be less sensitive than that
+used by regulated financial institutions. A lack of understanding
+of the risks associated with emerging innovations also
+contributed to the lack of regulatory oversight.
+These findings support proposition P3-2, and indicate that
+regulatory support positively influences technology adoption.
+Customer demands: Clients with a significant stake in a
+firm had a strong influence on the firm’s technology strategy,
+including its adoption of emerging technologies. For
+fintech firms, shareholders could significantly influence
+senior management to incorporate AI in their innovation
+strategies. Investment banks also yielded to the demands of
+clients with a significant financial stake in the bank.
+However, individual retail banking clients and insurance 
+Page 9 of 12 Original Research
+http://www.sajbm.org Open Access
+policy holders had a weaker influence on the technology
+adopted by their service providers. These clients were
+increasingly using digital channels as a way to engage. The
+wide adoption of smart devices by individual and retail
+clients was a strong motivating factor for fintech start-ups as
+they built innovations that leveraged smart devices.
+Regulators were also prompted to establish working groups
+to respond to the rate at which regulated institutions were
+adopting ML, AI and DLT. The following statement supports
+these findings:
+[4] ‘The biggest thing for us as an investment bank is that we
+need to serve our customers the best way possible.’
+These findings support proposition P3-3, and suggest that
+customer demands positively influence technology adoption.
+It can, thus, further be suggested from the findings that
+industry characteristics (proposition P3) are an influential
+determinant towards the adoption use behaviour of AI,
+cloud computing and DLT in the SA financial sector.
+Organisational leadership
+Opinion leadership: Opinion leaders played a significant
+role in persuading the organisation to accept 4IR technologies.
+In the banking environment, these leaders had great foresight
+into market trends, and were able to influence senior
+management to support the development of AI, DLT and ML
+platforms. The following statement supports these findings:
+[1] ‘When he speaks, everyone wants to listen. I think he was one
+of the early adopters.’
+Leaders who inspired employees to take part-ownership of
+the innovation strategy were more effective in influencing
+banking institutions to adopt 4IR technologies. This created a
+community of leaders in the bank, instead of a single focal
+point of leadership.
+In fintech firms, leaders were also founders and or
+shareholders in the firms, and had a significant influence
+over the firms’ technology strategies. This generated a lack of
+diversity in the leadership opinion governing the firm, and
+negatively impacted the chances of successfully adopting
+innovations. Diversity in the leadership structures was
+necessary to interrogate the business need and clearly
+articulate the capabilities of AI for the adopting firm.
+These findings provide support for proposition P4-1, and
+suggest that opinion leadership positively influences
+technology adoption. In addition to opinion leadership,
+leadership diversity was also found to influence technology
+adoption positively.
+Decision-maker risk orientation: Emerging 4IR technologies
+represented uncharted territories in which the potential
+benefits of technologies such as AI were not yet fully
+understood. Therefore, it was crucial for leaders in a firm to
+acquire resources in the awareness that the expected benefits
+might not be realised. The following statement supports these
+findings:
+[4] ‘Leaders will understand that this is a nascent technology,
+and you must be willing to take some level of risk.’
+These findings suggest that the decision-makers’ risk
+orientation positively influences technology adoption, in line
+with proposition P4-2. It can be inferred from these findings
+that organisational leadership is an influential determinant
+of the adoption of emerging 4IR technologies in the SA
+financial sector.
+Organisational characteristics
+Firm size: Fintech start-up firms were more agile than larger
+incumbent financial institutions, and had insignificant legacy
+constraints (people, processes and technologies) to overcome
+when adopting innovations. In the context of cloud computing
+technologies, fintech firms were swift to replace on-site data
+centres with cloud infrastructure. Fintech firms implementing
+conversational AI technology were able to react swiftly
+to their customers’ demands, constantly improving their
+product offerings to suit their market.
+Larger incumbent financial institutions, particularly regulated
+banks and insurance firms, were more risk-averse, and had
+significant protocols in place that hindered the proliferation
+of emerging 4IR technologies in these organisations. However,
+where technology adoption was successful, these institutions
+were able to reach larger adoption scales owing to the
+significant number of resources at their disposal. The
+following statement supports these findings:
+[5] ‘When smaller companies take on the new technology, they
+do it faster and go into market with it faster, but the bigger
+companies are slower in adopting, but they can implement them
+easier because they have the financial capacity.’
+These findings, therefore, do not support proposition P5-1,
+and indicate that neither increasing nor decreasing the firm’s
+size influences technology adoption.
+Top management support: Senior executives in the banking
+sector have a key role to play in articulating the necessity of
+AI technology adoption by a bank. These leaders could
+incentivise ideation processes in the organisation, motivating
+employees to solve business problems using ML. Senior
+managers were also tasked with outlining the bank’s strategic
+direction, and so were not expected to take a conservative
+approach to innovation. Having innovation champions at the
+senior executive level was also essential to acquiring financial
+resources and communicating the need for innovation
+amongst other senior business executives. The following
+statement supports these findings:
+[2] ‘I think it is more about having a vision and strategy from a
+CIO level of management to accept that technology needs to be
+part of the overall vision and roadmap.’
+Departments in the banks whose CEOs were cognisant of
+cloud computing technology encountered fewer challenges
+during the deployment of this technology. Amongst insurers,
+CIOs who managed to articulate an innovation strategy 
+Page 10 of 12 Original Research
+http://www.sajbm.org Open Access
+clearly, to facilitate transparency and to celebrate successes
+were more effective in encouraging cloud computing
+technology adoption in their departments.
+These findings support the proposition P5-2, and suggest that
+top management support positively influences technology
+adoption.
+Communication mechanisms: Flatter organisational structures
+were more effective in disseminating information across the
+organisation, and thus were more conducive to innovation.
+Effective communication mechanisms enabled senior bank
+managers to diffuse strategy across the organisation and enable
+employees to communicate their innovative technological
+ideas to senior management. The following statements support
+these findings:
+[2] ‘[… C]ommunication is very important, and it should be a
+two-way thing so that people can give feedback and suggestions
+and present the skills that they have.’
+[7] ‘To show that the flat system works, me as the manager of the
+data science division, I was able to communicate with the CEOs
+of the retail division and engage my teams’ work to the … group
+CEO.’
+These findings support proposition P5-3, and suggest that
+effective communication structures positively influence
+technology adoption. It can, thus, further be suggested from
+the findings that effective communication structure
+(proposition P5) is an influential determinant towards the
+adoption use behaviour of AI, cloud computing and DLT in
+the SA financial sector.
+Conclusion
+This article reveals the determinants influencing 4IR
+technology adoption in SA financial services firms. This was
+obtained by means of a proposed model using existing
+determinants from the DOI, TOE and TRI adoption models.
+A semi-structured interview tool was used to assess
+qualitatively the validity of the model in a series of one-onone interviews, followed by a focus group discussion.
+The results indicated that at the individual level, the model
+constructs of knowledge of innovation, technical skill,personal
+innovativeness and trialability promoted technology
+adoption, whilst complexity and user insecurity inhibited
+adoption. At the firm level, competitive pressure, regulatory
+support, customer demands, decision-maker risk orientation,
+opinion leadership, effective communication mechanisms
+and top management supported adoption. Firm size was
+found to have no influence on technology adoption. The
+results validated the model in predicting the adoption of
+emerging 4IR technologies in the SA financial sector at both
+individual and firm levels.
+This study contributes to the limited research on this topic by
+presenting a new model to assist technology leaders in better
+understanding the determinants of 4IR technology adoption.
+Although leaders are encouraged to take calculated risks in
+adopting technology, articulating the business need for these
+technologies is also emphasised.
+This research was limited to the SA financial sector, and
+focused on the banking, insurance, fintech and financial
+regulation and compliance sectors. It also examined the
+adoption of AI, ML, DLT and cloud computing technologies.
+Future studies could focus on a specific emerging 4IR
+capability to generate in-depth knowledge on the topic.
+Quantitative studies would improve the ability to generalise
+findings. The findings also indicated that the new model
+could be strengthened by incorporating a new construct,
+leadership diversity, which had not been proposed in the
+literature.
+Acknowledgements
+The authors are thankful to the Graduate School of
+Technology Management, University of Pretoria, for
+permission to publish the results.
+Competing interests
+The authors have declared that no competing interest exists.
+Authors’ contributions
+Both authors contributed to the development and writing of
+the article. N.T. Matsepe conducted the research as part of his
+Master’s dissertation under the supervision of Prof E. van
+der Lingen.
+Funding information
+This research received no specific grant from any funding
+agency in the public, commercial or not-for-profit sectors.
+Data availability
+Raw data were generated at the University of Pretoria.
+Derived data supporting the findings of this study are
+available from the corresponding author upon reasonable
+request.
+Disclaimer
+The views and opinions expressed in this article are those of
+the authors and do not necessarily reflect the official policy or
+position of any affiliated agency of the authors.
+References
+Aboelmaged, M.G. (2014). Predicting e-readiness at firm-level: An analysis of
+technological, organizational and environmental (TOE) effects on
+e-maintenance readiness in manufacturing firms. International Journal of
+Information Management, 34(5), 639–651. https://doi.org/10.1016/j.
+ijinfomgt.2014.05.002
+Agarwal, R., & Prasad, J. (1998). A conceptual and operational definition of personal
+innovativeness in the domain of information technology. Information Systems
+Research, 9(2), 204–215. https://doi.org/10.1287/isre.9.2.204
+Albrecht, C., Morales, V., Baldwin, J.K., & Scott, S.D. (2017). Ezubao: A Chinese Ponzi
+scheme with a twist. Journal of Financial Crime, 24(2), 56–259. https://doi.
+org/10.1108/JFC-04-2016-0026
+Page 11 of 12 Original Research
+http://www.sajbm.org Open Access
+Al-Jabri, I.M., & Alabdulhadi, M.H. (2016). Factors affecting cloud computing adoption:
+Perspectives of IT professionals. International Journal of Business Information
+Systems, 23(4), 389–405. https://doi.org/10.1504/IJBIS.2016.10000364
+Al-Jabri, I.M., & Sohail, M.S. (2012). Mobile banking adoption: Application of
+diffusion of innovation theory. Journal of Electronic Commerce Research, 13(4),
+379–391.
+Alt, R., Beck, R., & Smits, M.T. (2018). Fintech and the transformation of the financial
+industry. Electronic Markets, 28(3), 235–243. https://doi.org/10.1007/s12525-
+018-0310-9
+Alt, R., & Puschmann, T. (2012). The rise of customer-oriented banking – Electronic
+markets are paving the way for change in the financial industry. Electronic
+Markets, 4(22), 203–215. https://doi.org/10.1007/s12525-012-0106-2
+Amini, M., & Bakri, A. (2015). Cloud computing adoption by SMEs in the Malaysia: A
+multi-perspective framework based on the DOI theory and TOE framework. Journal
+of Information Technology & Information Systems Research, 9(2), 121–135.
+Arner, D., Barberis, J., & Buckley, R. (2016). The evolution of fintech: A new post-crisis
+paradigm? Georgetown Journal of International Law, 47, 1271–1319. https://doi.
+org/10.2139/ssrn.2676553
+Arslan, F., Bagchi, K.K., & Kirs, P. (2019). Factors implicated with firm-level ICT use in
+developing economies. Journal of Global Information Technology Management,
+22(3), 179–207. https://doi.org/10.1080/1097198X.2019.1642022
+Attride-Stirling, J. (2001). Thematic networks: An analytic tool for qualitative
+research. Qualitative Research, 1(3), 385–405. https://doi.org/10.1177/
+146879410100100307
+Au, Y.A., & Kauffman, R.J. (2008). The economics of mobile payments: Understanding
+stakeholder issues for an emerging financial technology application. Electronic
+Commerce Research and Applications, 7(2), 141–164. https://doi.org/10.1016/j.
+elerap.2006.12.004
+Awa, H.O., Ojiabo, O.U., & Orokor, L.E. (2017). Integrated technology–Organisation–
+Environment (T-O-E) taxonomies for technology adoption. Journal of Enterprise
+Information Management, 30(6), 893–921. https://doi.org/10.1108/JEIM-03-
+2016-0079
+Aziz, F., Md Rami, A., Razali, F., & Mahadi, N. (2020). The influence of leadership style
+towards technology acceptance in organization. International Journal of Advanced
+Science and Technology, 29(7), 218–225.
+Barreto, L., Amaral, A., & Pereira, T. (2017). Industry 4.0 implications in logistics: An
+overview. Procedia Manufacturing, 13, 1245–1252. https://doi.org/10.1016/j.
+promfg.2017.09.045
+Centre of Excellence in Financial Services. (2017). The impact of the 4th industrial
+revolution on the South African financial services market. Johannesburg: Centre of
+Excellence in Financial Services. Retrieved from www.Coefs.org.za.
+Cheung, W., Chang, M.K., & Lai, V.S. (2000). Prediction of internet and world wide web
+usage at work: A test of an extended Triandis model. Decision Support Systems,
+30(1), 83–100. https://doi.org/10.1016/S0167-9236(00)00125-1
+Coetzee, J. (2018). Strategic implications of fintech on South African retail banks.
+South African Journal of Economic and Management Sciences, 21(1), 1–11.
+https://doi.org/10.4102/sajems.v21i1.2455
+Czaja, S., & Sharit, J. (1998). Age difference in attitudes towards computer. Journal of
+Gerontology Series B: Psychological Sciences, 53(5), 329–341. https://doi.
+org/10.1093/geronb/53B.5.P329
+Easterby-Smith, M., Thorpe, R., Jackson, P.R., & Jasperen, L.J. (2018). Management &
+business research (6th ed.). London: Sage.
+Gerlach, C.A., Simmons, R., & Lam, S. (2016). U.S. regulation of FinTech – Recent
+developments and challenges. Journal of Financial Transformation, 44, 87–96.
+Haddud, A., Desouza, A., Khare, A., & Lee, H. (2017). Examining potential benefits and
+challenges associated with the Internet of things integration in supply chains.
+Journal of Manufacturing Technology Management, 28(8), 1055–1085. https://
+doi.org/10.1108/JMTM-05-2017-0094
+Hassani, H., Unger, S., & Beneki, C. (2020). Big data and actuarial science. Big Data and
+Cognitive Computing, 4(4), 40. https://doi.org/10.3390/bdcc4040040
+Jaafar, M., Ramayah, T., Abdul-Aziz, A., & Saad, B. (2007). Technology readiness among
+managers of Malaysian construction firms. Engineering, Construction and
+Architectural Management, 14(2), 180–191. https://doi.org/10.1108/096999
+80710731290
+Kristianto, Y., Ajmal, M., Tenkorang, R.A., & Hussain, M. (2012). A study of technology
+adoption in manufacturing firms. Journal of Manufacturing Technology
+Management, 23(2), 198–211. https://doi.org/10.1108/17410381211202197
+Kunwar, M. (2019). Artificial intelligence in finance: Understanding how automation
+and machine learning is transforming the financial industry. Dissertation. Centria
+University of Applied Sciences.
+Lai, P.C. (2017). The literature review of technology adoption models and
+theories for the novelty technology. Journal of Information Systems and
+Technology Management, 14(1), 21–38. https://doi.org/10.4301/S1807-
+17752017000100002
+Lee, E.-J., Lee, J., & Schumann, D. (2005). The influence of communication source and
+mode on consumer adoption of technological innovations. Journal of Consumer
+Affairs, 36, 1–27. https://doi.org/10.1111/j.1745-6606.2002.tb00418.x
+Lin, H. (2014). Understanding the determinants of electronic supply chain
+management system adoption: Using the Technology–Organization–Environment
+framework. Technological Forecasting & Social Change, 86, 80–92. https://doi.
+org/10.1016/j.techfore.2013.09.001
+Lin, H., & Lin, S. (2008). Determinants of e-business diffusion: A test of the technology
+diffusion perspective. Technovation, 28, 135–145. https://doi.org/10.1016/j.
+technovation.2007.10.003
+Mallat, N. (2007). Exploring consumer adoption of mobile payments – A qualitative
+study. Journal of Strategic Information Systems, 16(4), 413–432. https://doi.
+org/10.1016/j.jsis.2007.08.001
+McCallum, S., & Viviers, S. (2020). Exploring key barriers and opportunities in impact
+investing in an emerging market setting. South African Journal of Business
+Management, 51(1), 1–11. https://doi.org/10.4102/sajbm.v51i1.1601
+Md Husin, M., Haron, R., & Aziz, S. (2020). Adoption of financial technology in Islamic
+crowd-funding: Predicting small and medium-sized enterprises’ intention to use the
+investment account platform. In N. Naifar (Ed.), Impact of financial technology
+(FinTech) on Islamic finance and financial stability (pp. 12–35). Hershey, PA: IGI Global.
+Miranda, M.Q., Farias, J.S., Schwartz, C.D.A., Pascualote, J., & De Almeida, L. (2016).
+Technology adoption in diffusion of innovations perspective: Introduction of an
+ERP system in a non-profit organization. RAI Revista de Administração e Inovação,
+13(1), 48–57. https://doi.org/10.1016/j.rai.2016.02.002
+Nugroho, M.A., & Fajar, M.A. (2017). Effects of technology readiness towards
+acceptance of mandatory web-based attendance system. Procedia Computer
+Science, 124, 319–328. https://doi.org/10.1016/j.procs.2017.12.161
+Nugroho, M.A., Susilo, A.Z., Fajar, M.A., & Rahmawati, D. (2018). Exploratory study of
+SMEs technology adoption readiness factors. Procedia Computer Science, 124, 329–336. https://doi.org/10.1016/j.procs.2017.12.162
+OECD. (2018). Financial markets, insurance and private pensions: Digitalisation and
+finance.
+Ondrus, J., & Pigneur, Y. (2006). Towards a holistic analysis of mobile payments: A
+multiple perspectives approach. Electronic Commerce Research and Applications, 5(3), 246–257. https://doi.org/10.1016/j.elerap.2005.09.003
+Parasuraman, A., & Colby, C.L. (2001). Techno-ready marketing: How and why your
+customers adopt technology. New York, NY: The Free Press.
+Propson, D., & Galaski, R. (2020). Forging new pathways: The next evolution of innovation
+in financial services [online]. Retrieved from https://www.weforum.org/reports/
+forging-new-pathways-the-next-evolution-of-innovation-in-financial-services
+Puschmann, T. (2017). Fintech. Business & Information Systems Engineering, 59(1),
+69–76. https://doi.org/10.1007/s12599-017-0464-6
+Rogers, E. (2003). Diffusion of innovations. New York, NY: Free Press.
+Rogers, E.M., & Shoemaker, F. (1983). Diffusion of innovation: A cross-cultural
+approach (3rd ed.). New York, NY: The Free Press.
+Saksonova, S., & Kuzmina-Merlino, I. (2017). The possibilities and problems of
+implementation. European Studies Journal, 20(3A), 961–973. https://doi.
+org/10.35808/ersj/757
+Saunders, M.N.K., Lewis, P., & Thornhill, A. (2000). Research methods for business
+students (2nd ed.). London: Pearson Education Limited.
+Schepers, J., Wetzels., M., & De Ruyter, K. (2005). Leadership styles in technology
+acceptance: Do followers practice what leaders preach? Managing Service
+Quality, 15(6), 496–508. https://doi.org/10.1108/09604520510633998
+South African Reserve Bank (SARB). (2017). Financial stability review (1st ed.).
+Pretoria: Financial Stability Unit, SARB.
+Taherdoost, H. (2018). A review of technology acceptance and adoption models and
+theories. Procedia Manufacturing, 22, 960–967. https://doi.org/10.1016/j.
+promfg.2018.03.137
+Tselentis, D.I., Yannis, G., & Vlahogianni, E.I. (2016). Innovative insurance schemes:
+Pay as/how you drive. Transportation Research Procedia, 14, 362–371. https://
+doi.org/10.1016/j.trpro.2016.05.088
+Van den Berg, J., & Van der Lingen, E. (2019). An empirical study of the factors affecting
+the adoption of mobile enterprise applications. South African Journal of Industrial
+Engineering, 30(1), 124–146. https://doi.org/10.7166/30-1-1992
+Venkatesh, V., & Morris, M. (2000). Why don’t men ever stop to ask for directions?
+Gender, social influence and their role in technology acceptance and usage
+behavior. MIS Quarterly, 24(1), 115–139. https://doi.org/10.2307/3250981
+Verma, S., & Chaurasia, S. (2019). Understanding the determinants of big data
+analytics adoption. Information Resources Management Journal, 32(3), 1–26.
+https://doi.org/10.4018/IRMJ.2019070101
+Walczuch, R., Lemmink, J., & Streukens, S. (2007). The effect of service employees’
+technology readiness on technology acceptance. Information & Management, 44, 206–215. https://doi.org/10.1016/j.im.2006.12.005
+Wang, J. (2018). Reasons and theoretical explanations for the rapid development of
+Internet Finance in China. The secret worry and countermeasures. In: H.Q. Zhou
+(Ed.), International symposium on social science and management innovation
+(SSMI 2018) (pp. 415–421), 15–16 December, 2018. Xi’an City: Atlantis Press.
+Zalan, T., & Toufaily, E. (2017). The promise of fintech in emerging markets: Not as
+disruptive. Contemporary Economics, 11(4), 415–430.
+Appendix 1 starts on the next page→
+Page 12 of 12 Original Research
+http://www.sajbm.org Open Access
+TABLE 1 A1: The research instrument.
+Construct Code Description Reference
+Selection criteria N/A What is your current role in your line of work? Subject matter expertise
+N/A In which sector within the South African financial services industry do you operate? Insurance,
+banking, financial regulation or fintech sector?
+Sector classification
+N/A To which 4IR technologies have you been exposed to, and to what extent has your exposure
+been?
+4IR technology classification
+Adopter traits AT1 How does being exposed to 4IR technologies such as AI, big data, cloud computing and
+blockchain influence the intent to adopt these technologies?
+Knowledge of innovation
+AT2 In what manner does the awareness of these technologies influence an individual’s decision to
+use these technologies on a prolonged basis?
+Knowledge of innovation
+AT3 How does an individual’s technical aptitude impact on their intent to adopt and use emerging
+4IR technologies to carry out daily tasks?
+Technical skill
+AT4 How does an individual’s innate affinity with exploring new technology impact his or her intent
+to adopt and use 4IR technologies?
+Personal innovativeness
+Technology usability TU1 To what extent are users able to experiment with 4IR technologies before fully adopting and
+using the technologies? How does the ability to experiment influence their intention to adopt
+and use the technologies?
+Trialability
+TU2 To what extent are 4IR technologies relatively easy to understand and use? How does the
+complexity of the technology influence users’ adoption intent and usage?
+Complexity
+TU3 Is there any factor concerning 4IR technologies that makes you feel unsafe when using the
+technologies? If there is, how does it affect your intent to adopt and use the technologies?
+User insecurity
+Industry
+characteristics
+IC1 How does the need to gain competitive advantage over competitors influence a firm’s decision
+to adopt and use 4IR technologies?
+Competitive pressure
+IC2 What role do financial regulators play in the industry-wide adoption of 4IR technologies in
+South Africa?
+Regulatory support
+IC2 How do financial regulators promote or inhibit the adoption and use of 4IR technologies
+within South African financial services organisations?
+Regulatory support
+IC3 How have customer demands changed over time, and has this had any influence on the
+organisation’s decision to adopt and use 4IR technologies?
+Customer demands
+Organisational
+leadership
+OL1 How do opinion leaders influence members of the firm to adopt and use 4IR technologies in
+this sector?
+Opinion leadership
+OL1 Are there any other leadership styles that may be influential in 4IR technology adoption and
+usage in the firm? How do these styles promote or inhibit 4IR technology adoption?
+Opinion leadership
+OL2 How do risk-seeking leaders and or managers influence the firm’s intention to adopt and
+use 4IR technologies in this sector?
+Risk orientation
+Organisational
+characteristics
+OC1 In your experience, are larger organisations more or less inclined to adopt and use 4IR
+technologies? Why is this the case?
+Firm size
+OC2 What role do senior executives in the organisation play in promoting or inhibiting the
+adoption of 4IR technologies?
+Top management support
+OC3 Does your organisation have effective communication channels and structures in place? Communication mechanisms
+OC3 What impact do effective communication mechanisms have on 4IR technology adoption and
+usage?
+Communication mechanisms
+AT, adopter traits; OC, organisational characteristics; IC, industry characteristics; TU, technology usability; OL, organisational leadership; 4IR, fourth industrial revolution; AI, artificial intelligence.
+Appendix 1

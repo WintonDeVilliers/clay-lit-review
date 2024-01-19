@@ -1,0 +1,1233 @@
+The changing role of innovation for crisis management in times of COVID19: An integrative literature review
+Gagan Deep Sharmaa
+, Sascha Krausb,c,
+*, Mrinalini Srivastavad
+, Ritika Chopraa
+,
+Andreas Kallmuenzere
+a Guru Gobind Singh Indraprastha University, University School of Management Studies, Sector 16 C, Dwarka, New Delhi, India
+b Free University of Bozen-Bolzano, Faculty of Economics and Management, Bolzano, Italy
+c University of Johannesburg, Department of Business Management, Johannesburg, South Africa
+d Birla Institute of Management Technology, Noida, Uttar Pradesh, India
+e Excelia Business School, Department of Strategy, 102 rue de Coureillles, 17000 La Rochelle, France
+ARTICLE INFO
+Article History:
+Received 8 May 2022
+Accepted 14 October 2022
+Available online 17 October 2022
+ABSTRACT
+Since the outbreak of the COVID-19 pandemic, countries have concentrated on developing policies that
+encourage the creation of more innovative products and services in response to the global health emergency.
+Effective collaboration, communication, and Open Innovation (OI) among government entities, education
+and research institutions, and the private sector have been critical to each country’s overall effectiveness during the economic crisis. The objective of this paper is to examine the relationship between innovation and
+COVID-19 critically to have a better understanding of future research and practice developments. A systematic evaluation was conducted, analyzing papers on innovation and the COVID-19 pandemic. A total of 218
+studies were analyzed to determine the essential research directions in this domain. Our suggested framework is made of aggregate components, which include technology adaption, sustainable development,
+healthcare, and sustainable economic performance. These components form the basis for the identification
+of emerging research hotspots in the field of COVID and innovation, as well as frame the COVID-19 issue as
+an opportunity to raise awareness about the crucial role of innovation in business and society at large.
+© 2022 The Authors. Published by Elsevier España, S.L.U. on behalf of Journal of Innovation & Knowledge. This
+is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/)
+Keywords:
+Innovation
+COVID-19
+Crisis
+Review
+Sustainable development
+Technological adaptation
+Introduction
+The ongoing COVID-19 pandemic has had a significant impact on
+global health and economic development (Meyer, Niemand, Davila &
+Kraus, 2022). Apart from its direct influence on individual health, it
+also had an indirect effect on social, economic, and political institutions. COVID-19 has plunged the global economy into the worst
+slump since the Great Depression. Time restrictions and resource limits require redoubling efforts to conceptualize, create, and implement
+new ideas, goods, and services with an innovative mindset. On the
+other hand, the pandemic has also provided opportunities for future
+growth and the development of more robust and humanitarian
+responses in the case of similar future catastrophes. Innovations in
+the fields of health, pharmaceuticals, energy, artificial intelligence,
+and quantum computing (Soumitra, Bruno, Rivera Leon & Wunsch- 
+Vincent, 2021) are critical to overcoming such roadblocks. Digital
+methods and technical advancements are gaining traction as a global
+phenomenon in the fields of work, living, learning, and recreation.
+Bessonova and Battalov (2021) opine that digitalization is steering
+the strategic development of the global economy. Digital technologies accelerate economic progress driven by innovation by enabling
+the flow of ideas and data (Wendt, Adam, Benlian & Kraus, 2021).
+Governments are boosting their investment in innovation in
+response to the COVID-19 pandemic, to assist humankind in navigating the crisis by raising scientific output, extending research and
+development, and filling patents (Guderian, Bican, Riar & Chattopadhyay, 2021; Soumitra et al., 2021). Recent advances, fueled by technological revolutions (e.g., Industry 4.0), economic crises, and new
+regulations, create new opportunities for manufacturing materials,
+structures, processes, and capacities. Innovative technologies
+improve business analysis and forecasting, new product creation,
+order processing, logistics, factory automation, quality control, and
+marketing (Jemala, 2021). Wang, Zhang and Verousis (2021) examine
+the effect of the duration of the pandemic on innovation output and
+suggest that policies directing innovative firms are on the right path
+and their recovery time is reduced. Business model innovation (BMI)
+can assist SMEs in remaining competitive during crises while
+* Corresponding author.
+E-mail addresses: angrishgagan@gmail.com (G.D. Sharma), sascha.kraus@zfke.de
+(S. Kraus), mrinalinisrivastava26@gmail.com (M. Srivastava), ritikachopra67@gmail.
+com (R. Chopra), kallmuenzera@excelia-group.com (A. Kallmuenzer).
+https://doi.org/10.1016/j.jik.2022.100281
+2444-569X/© 2022 The Authors. Published by Elsevier España, S.L.U. on behalf of Journal of Innovation & Knowledge. This is an open access article under the CC BY license
+(http://creativecommons.org/licenses/by/4.0/)
+Journal of Innovation & Knowledge 7 (2022) 100281
+Journal of Innovation
+& Knowledge
+https://www.journals.elsevier.com/journal-of-innovation-and-knowledge
+focusing on revenue creation and value addition (Adam & Alarifi,
+2021; Clauss, Breier, Kraus, Durst & Mahto, 2022; Ibarra, Bigdeli, Igartua & Ganzarain, 2020). Open innovation activities (interaction with
+consumers and open exchange of knowledge about market demands
+and technological possibilities) can be beneficial in minimizing the
+impact of COVID-19 on education, the economy, and leisure
+(Almeida, 2021; Surya et al., 2021). Several organizations have
+restructured their innovation and manufacturing services to assist
+health and associated services in meeting supply shortages during
+emergencies such as COVID-19. This is accomplished most effectively
+through the use of a dynamic capabilities viewpoint centered on
+meeting societal expectations rather than chasing competitive
+advantage in a crisis scenario (Puliga & Ponta, 2022). In the future,
+innovation gaps will be obvious and noticeable across diverse industries and economies. Thus, innovation ecosystems need to be
+improved to bridge the imbalance across sectors (such as ICT, pharmaceuticals, R &D, hospitality, or automobiles) with the help of
+investments in new technology and business strategies.
+In the past two years, various studies have focused on innovation
+as a state-of-the-art strategy for surviving situations like the COVID19 pandemic, highlighting innovation’s crucial importance (e.g.,
+Sharma, Lopes de Sousa Jabbour, Jain & Shishodia, 2022). By synthesizing the knowledge generated by this scholarship, one can accomplish two critical goals: draw policy lessons for enhancing innovation
+in response to situations like the COVID-19 pandemic, and set the
+stage for future scholarship that will advance knowledge in various
+domains of innovation. We conducted this study to address these
+dual research goals and gain a better understanding of what these
+new technologies may provide in a rapidly changing world. We conduct the review of available literature in the field scientifically and
+systematically (e.g. Kraus et al., 2022).
+The COVID-19 outbreak has wreaked devastation on healthcare
+facilities and treatment systems almost all over the world (GarcíaCarbonell, Martín-Alc
+azar & S
+anchez-Gardey, 2021). Moreover, due
+to the COVID-19 pandemic, especially SMEs, face a variety of issues
+and hurdles (e.g., Emami, Ashourizadeh, Sheikhi & Rexhepi, 2021).
+The time of closure and movement prevention measures enacted by
+governments in numerous nations have severely impacted SME operations, weakened their financial standing, and exposed them to
+financial risk (Omar, Ishak & Jusoh, 2020). Consequently, numerous
+organizations were unable to deal with the problem (Ozili, 2020).
+Some firms have ceased operations and stayed closed since the outbreak’s earliest months. Insufficient research has also been conducted
+on the influence of external support obtained by SMEs after the
+COVID-19 epidemic on their performance and survival (except for
+Song, Yang & Tao, 2020). In response to the problems provided by
+COVID-19, the purpose of this study is to undertake a literature
+assessment on the efficacy of innovation approaches employed by
+diverse organizations. In the case of a pandemic, organizations must
+adapt to new technology and financial applications.
+New policies are required immediately to boost economic resilience and sustain long-term growth. Contributing to the establishment of an economic recovery strategy is critical in this respect.
+Entrepreneurship is critical for the prosperity and well-being of society. Globally competitive, the green economy is also ecologically and
+socially sustainable. Additionally, the role of innovation and initiatives is critical in the post-COVID-19 period. As a consequence, we
+present fresh insights into how to nurture innovation processes and
+R &D units in the real world through this study, to accomplish SDG 9.
+The study conducts an integrative review for consolidation and
+critical evaluation of theoretical contributions and development of
+the subject in an integrated manner with a scientific, transparent,
+and reproducible approach to deepen our understanding of innovation for crisis management during COVID-19 (Bouncken, Kraus & de
+Lucas Ancillo, 2022). We summarize the existing literature on the
+topic by using a bibliometric approach using R (Aria & Cuccurullo,
+2017). A bibliometric review is a form of theme-based review that
+emphasizes statistics and trends related to a review topic. Bibliometric analysis is a useful technique for evaluating and analyzing the
+findings of academic research. It aids in analyzing progress, locating
+the most trustworthy sources of scientific literature, creating academic frameworks for judging discoveries, establishing bibliometric
+indices to measure academic production, and identifying major scientific actors (Akpan, Udoh & Adebisi, 2022; Mahendru, Sharma, Pereira, Gupta & Mundi, 2022). Ultimately, we also offer a framework
+composed of first-order concepts, second-order themes, and aggregate dimensions (see Fig. 4). Our proposed framework includes technological adaptability, sustainable development, healthcare, and
+sustainable economic performance. These parts of the data structure
+are used to suggest new hotspots for research in the fields of crisis
+management and innovation.
+Data and methods
+The COVID-19 crisis has caused immense disruption in lives and
+livelihoods across the globe, but human ingenuity and resilience
+have endured in the form of innovation to overcome the pandemicrelated crisis. We conducted this review to embrace innovation
+through the creation and augmentation of infrastructure in the areas
+of health, education, trade, and industry. Research articles in the past
+have been less recognized and have been inconsistent in addressing
+innovation during the COVID-19 pandemic (Araujo, 2022  ; Boeing &
+Wang, 2021; Mota Veiga, Fernandes & Ambrosio, 2022  ; Rocha, Pirson
+& Suddaby, 2021). Governments worldwide have utilized innovation
+to combat pandemics through the diffusion of relevant technology,
+enhancement of medical infrastructure, and a large number of additional types of policy interventions. We use bibliometric analysis to
+analyze the current state of the subject matter and build a researchdriven policy agenda, followed by a manual review of each sample
+article.
+We have used an advanced search in the Scopus database by using
+keywords related to COVID and innovation. Scopus is a widely
+acknowledged database as it provides the most extensive overview
+of the world’s research output in the streams of science, technology,
+social science, humanities, and arts. The Scopus database is equipped
+with numerous functions that facilitate bibliometric analysis, which
+include the journal title, number of citations, type of document,
+authors, as well as authors’ affiliations, year of publication, and hindex metrics. In sum, Scopus contains 21,000 journal titles and its
+wide feature coverage facilitates faster viewing of orphaned and
+errant records (Agarwal et al., 2016).
+We filter the papers to retain only the journal articles in English
+related to the fields of “Business, Management and Accounting” and
+“Economics, Econometrics and Finance”, which leaves us with 1255
+papers (see Fig. 1 for details). These 1255 papers are categorized on
+account of the ABS list, and we review the papers published in ABS 2
+and above-ranked journals, bringing the number of finally selected
+papers to 218. We use the PRISMA (Preferred Reporting Items for Systematic Reviews and Meta-Analyses) guidelines for conducting and
+reporting research articles in Fig. 1 (Moher, Liberati, Tetzlaff & Altman, 2009). While performing an integrative review, the PRISMA
+flow diagram helps to demonstrate the various search efforts that are
+carried out throughout the review’s lifetime and the choices made
+during the inclusion and exclusion of the articles to be selected for
+the review (Stovold, Beecher, Foxlee & Noel-Storr, 2014).
+The use of quantitative approaches (i.e., bibliometric analysis—
+e.g., citation analysis) to bibliometric data (e.g., units of publication
+and citation) is referred to as bibliometrics (Broadus, 1987). Bibliometric analysis is a rigorous and thorough method for discovering
+and analyzing large volumes of scientific data. It allows us to unpack
+the evolutionary subtleties of a particular discipline while also offering insight into the budding field of the research area. However, its
+G.D. Sharma, S. Kraus, M. Srivastava et al. Journal of Innovation & Knowledge 7 (2022) 100281
+2
+use in business research is still very young and, in many cases, underdeveloped. Our bibliometric analysis helps uncover the emerging
+trends of research papers oriented toward COVID-19 and innovation
+through the use of the Bibliometrix R-tool.
+Descriptive and conceptual structures
+Thematic map
+The prevailing section illustrates the development of the theme
+"COVID-19 and Innovation" from 2019 to 2021. This longitudinal
+analysis is used to better understand the expansion of an academic
+area by identifying the development patterns and internal dynamics
+of a related discipline. As illustrated in Fig. 2, the analysis demonstrates the evolution of academic domains critical for information
+transmission and dissemination to interested stakeholders (Waila,
+Singh & Singh, 2016). The themes in the map are organized according
+to Callon’s centrality, which quantifies the degree of interaction
+between them, and Callon’s density, which quantifies the internal
+strength of the themes (Callon, Courtial, Turner & Bauin, 1983).
+These two measurements are divided into four quadrants on the
+thematic map within the two-dimensional strategy diagram
+(Chen, Lun, Yan, Hao & Weng, 2019). The four quadrants portray
+the following themes: 1. Motor themes that are well-developed
+in the upper-right quadrant; 2. Niche themes that are marginally
+significant in the upper-left quadrant; 3. Declining or emerging
+themes in the lower-left quadrant that are poorly developed; and
+finally, 4. Basic themes that are significant but undeveloped in
+the lower-right quadrant.
+This thematic evaluation map depicts the analysis of 218 publications in total. The motor theme has a high degree of centrality and
+density and includes artificial intelligence, corporate image, social
+responsibility, digital technologies, e-commerce, and tourism, whereas
+emerging themes include economic performance. Most keywords are
+observed as basic themes incorporating the COVID-19 pandemic,
+dynamic capabilities, innovation, performance, digital health, telemedicine, SDG, and sustainability.
+Artificial intelligence (AI) is a critical theme in the fight against
+COVID-19 and may accelerate the development of solutions in a variety of disciplines and applications. Since the pandemic’s breakout,
+there has been a rise in the development and usage of artificial intelligence and other data analytic technologies in a wide variety of fields
+such as supply chain management (Dilyard, Zhao & You, 2021),
+healthcare systems (S. M. Lee & Lee, 2021), predicting any virus outbreak (Chamola, Hassija, Gupta & Guizani, 2020), etc. Additionally,
+Chamola et al. (2020) examined how technologies such as the Internet of Things (IoT), Unmanned Aerial Vehicles (UAVs), blockchain,
+Artificial Intelligence (AI), and 5 G can assist in lessening the impact
+of the COVID-19 outbreak. As per Jo Hatch and Schultz (2003), corporate images are distinct perspectives on an organization produced by
+the company’s various stakeholders, including customers, the media,
+and the general public. Henna (2022) explains how sustainability
+might provide customers with charitable value. Additionally, it can
+have an impact on the corporate image via sustainable business
+model developments. This can occur as a result of businesses not
+intentionally utilizing sustainable business model innovations in
+managing their corporate image or as a result of businesses utilizing
+sustainable business model innovations in other areas, such as social
+media marketing. In previous literature, social responsibility has been
+mostly used as corporate social responsibility. Corporate social
+responsibility has been recognized as a worthwhile strategic initiative for firms. Previous research has established the benefits of corporate social responsibility activities. According to Puriwat and
+Tripopsakul (2021), social responsibility may help businesses
+improve their financial performance, brand image, and brand loyalty,
+as well as job seekers’ impressions of companies and clients, and purchase intentions. Any social responsibility activities conducted on
+digital networks might be considered digital social responsibility
+(DSR). There has been a paradigm shift away from brick-and-mortar
+businesses toward brick-and-click ones (Zhang & Wang, 2022). CSR
+Fig. 1. PRISMA diagram for inclusion of articles.
+G.D. Sharma, S. Kraus, M. Srivastava et al. Journal of Innovation & Knowledge 7 (2022) 100281
+3
+operations that are currently conducted on a paper basis must be
+transformed into digital ones. The pandemic of COVID-19 is one of
+the most serious and unanticipated causes, igniting and compelling
+organizations to adapt digitally (G. D. G. D. Sharma, Talan & Jain,
+2020; Tworzyd»o, Gawronski, Opolska-Biela  nska & Lach, 2022  ). Furthermore, four interrelated digital technologies (the Internet of Things,
+big data analytics, artificial intelligence, and blockchain) have been
+discussed in the context of enhancing two traditional public-health
+strategies for addressing COVID-19: monitoring, surveillance, detection, and prevention of COVID-19; and mitigating the impact of
+COVID-19 on healthcare indirectly (Zhao et al., 2021). E-commerce
+has been demonstrated to be one of the most effective strategies for
+resuming activities during the COVID-19 epidemic (Hoang, Nguyen &
+Nguyen, 2021). To decrease infection, it is necessary to prevent
+human-to-human transmission and to increase the virtual platform
+established by technology. Sellers can continue to find buyers online
+and provide services with the assistance of specialized logistics
+(Nuru, 2020). The new e-commerce standards build on classic marketing theories by including an understanding of digital consumer
+behavioral traits, collecting customer feedback, and generating value
+propositions that provide consumers with a higher degree of satisfaction. Consumer behavior and purchasing patterns dramatically
+changed during the COVID-19 crisis (Bartoli, Bonetti & Mattiacci,
+2021; G. D. G. D. Sharma et al., 2020). Tourism (Dileep & Nair, 2021)
+has been linked to increased environmental deterioration as a result
+of foreigners visiting the host country (Sun, Duru, Razzaq & Dinca,
+2021), with ecological innovation emerging as a potential solution
+for reducing carbon emissions. By contrast, researchers (Price, Wilkinson & Coles, 2022; Vu & Hartley, 2022) agree on the beneficial
+association. Digitalization is an illustrative example, ranging from
+online and mobile hotel reservations, airline tickets, and restaurant
+reservations to personalized travel package services. There is a global
+trend toward consumer-driven and ecologically friendly innovations
+in tourism and hospitality that encompass the range of interconnected services and goods packaged into a single quality perception
+of the destination and local community by a tourist. It is worth noting
+that both vectors of expanding and contracting research and
+inventive organizations largely parallel the patterns observed for
+travel agents and, to a lesser extent, housing facilities, sanatoriums,
+and resorts (Gorochnaya, Mikhaylov, Plotnikova & Mikhaylova,
+2021).
+Economic performance is one of the key factors directly affected by
+the COVID-19 pandemic, resulting in reduced worldwide economic
+growth estimates. The pandemic has a wide-ranging effect on economic activity, ranging from significantly reduced consumer discretionary spending to a freeze on business activities such as capital
+budgets, recruiting, and all but required operational expenses. Nonetheless, it is evident that certain businesses, such as those in the
+information and communication technology (ICT) industry, may
+become more vital to our lives and face increased demand in the current environment (International Telecommunication Union (ITU),
+2020).
+The COVID-19 pandemic has also appeared to be one of the prominent cluster names, which is a complex catastrophe that has wreaked
+havoc on communities worldwide. It is a crisis for a variety of entities,
+including individuals, organizations, and entire societies, because it
+jeopardizes their survival and objectives. Additionally, the utilization
+of IoT, Unmanned aerial vehicles (UAVs), robotics, smart wearables,
+artificial intelligence (AI), blockchain, and 5 G technologies to successfully manage the outbreak has been extensively investigated
+(Chamola et al., 2020). Furthermore, social innovation has become
+prevalent in pandemic times, which can be defined as "the use of
+novel, practical, sustainable, market-based ways to benefit society as
+a whole, and the low-income or underserved community in particular." COVID-19 has disproportionately impacted vulnerable groups
+that are already marginalized due to their gender, color, or nationality. Social innovations have been developed in response to protect
+vulnerable groups and rapidly transition health systems to COVID19. Social innovations in health are inclusive solutions that overcome
+the healthcare delivery gap by addressing the requirements of endusers through a multi-stakeholder, community-engaged process.
+Social innovation is ideally suited for the COVID-19 response because
+it focuses on local needs, provides low-cost solutions, and leverages
+community assets. Dynamic capabilities emerged as a basic theme
+Fig. 2. Thematic map.
+G.D. Sharma, S. Kraus, M. Srivastava et al. Journal of Innovation & Knowledge 7 (2022) 100281
+4
+and are defined as the capability of an organization to purposefully
+adapt an organization’s resource base, in terms of organizational theory (Shrestha & L’Espoir Decosta, 2021). Volatility, uncertainty, complexity, and ambiguity are increasing in today’s environment,
+emphasizing the critical nature of firms’ ability to adapt to changing
+market conditions in order to sustain their innovation initiatives
+(Schoemaker, Heaton & Teece, 2018). The dynamic capabilities view
+(Teece, Pisano & Shuen, 2009) provides a theoretical foundation for
+understanding the capabilities required for innovation by theorizing
+how to respond to such changing market conditions through the
+integration, development, and reconfiguration of organizational competencies. Innovation appeared as a prominent theme since it is
+directly related to the topic of study. It has been demonstrated earlier
+that the majority of innovations occur as a result of discrete events
+and new technology opportunities (Corsini, Dammicco & Moultrie,
+2021). Innovation is defined in this context as a creative response
+that necessitates the commitment of resources to the development of
+new products or processes. The coronavirus disease pandemic of
+2019 can be believed to be a distinct event that resulted in known
+innovation-inducing factors such as profit losses, increased demand
+for specialized products, and supply chain disruptions (Nasser, 2021).
+This pandemic also happened during a period of technical opportunity, as a result of ongoing research in domains such as advanced
+manufacturing, robotics, and digital technologies, as well as the
+beginning of their implementation in numerous sectors of society
+(Zimmerling & Chen, 2021). Performance has been largely used as
+organizational, firm or business performance in the extant literature.
+The pandemic served as a reminder to business leaders of the critical
+nature of expanding firm performance metrics to include resilience,
+responsiveness, and configurability (Syriopoulos, Tsatsaronis & Gorila, 2020). The digital health theme emphasizes the latest technologies
+in digital healthcare technologies. Even prior to the COVID-19 problem, the worldwide smart wearable healthcare (SWH) market was
+predicted to grow at a compound annual growth rate of more than
+5.6 percent, reaching $25 billion in 2020 (Papa, Mital, Pisano & Del
+Giudice, 2020). The increasing necessity for detection and monitoring
+during the crisis has boosted their use; for example, Hong Kong
+authorities compel foreign visitors to wear monitoring bands to
+ensure they adhere to a two-week quarantine (Brem, Viardot &
+Nylund, 2021). The bracelets are embedded with a QR code that must
+be scanned using a smartphone application. The strength of communications signals such as Wi-Fi or Bluetooth assists in determining
+whether or not the wearer is adhering to self-isolation requirements
+(Brem et al., 2021).
+Telemedicine has become prevalent in pandemic times. Telemedicine, or telehealth, is a broad term that relates to the electronic transmission of medical data from one location to another. It makes use of
+technology to provide clinical health care to patients remotely. In
+recent years, regulators have taken significant steps, such as eliminating numerous prohibitions, to aid in the promotion of telemedicine
+(Gopalakrishnan & Kovoor-Misra, 2021). From popular fitness bracelets to booming remote heart rate or respiratory monitors, telemedicine technologies have grown in popularity. By frequently combining
+off-the-shelf hardware with specialized software, the gadgets continue to shrink in size while increasing their feature set. On the soft
+infrastructure side, startups such as Nurx and Omada Health (Condry
+& Quan, 2021) have developed platforms and programs that deliver
+the benefits of telemedicine to patients ranging from diabetics to
+women in rural areas in need of birth control pills. The marriage of
+hardware and software has significantly advanced home-based care
+that requires precise remote monitoring.
+SDG has been the most talked about theme in the extant literature
+in almost all disciplines. According to the United Nations’ (UN) Sustainable Development Goals Report, the pandemic halted progress on
+all 17 Sustainable Development Goals (SDGs), which had already
+begun to regress slightly prior to the onset of COVID-19 (UN, 2021).
+Citing the 2030 Agenda for Sustainable Development, the report
+asserts that these hardships necessitate immediate but bold action by
+"... governments, parliaments, the UN system and other international institutions, local governments, civil society, business and the
+private sector, the scientific and academic community—and all people to reignite the SDGs and demonstrate our indisputable commitment to promoting economic growth with equity and social
+inclusion” (UN, 2018). Sustainability has emerged as a critical theme
+in the said area as COVID-190
+s severe consequences have created
+unprecedented issues that are affecting markets, governments’ policies, consumer preferences, and technical advancements worldwide
+(Acioli, Scavarda & Reis, 2021). In light of these problems, we may
+rediscover the urgency of addressing global climate change by focusing on new actors whose innovative ideas might pave the way for the
+creation of sustainable societies with greater standards of living for
+all inhabitants. As a result of the epidemic, global communities and
+economies have had an opportunity to think about the various areas
+in which creative solutions could result in long-term sustainability
+improvements. However, the fact is that the long-term sustainability
+of multinational firms’ social innovation business models is difficult
+to establish, and success is contingent on several criteria (Falorca,
+2020). This includes the trifecta of sustainable and innovative government policies that favor and incentivize multinational enterprises to
+create social value through business model innovation; socially innovative and environmentally conscious managers, investors, and
+shareholders; and international organizations that guide, assist, or
+aid countries in developing their strategic initiatives and providing
+roadmaps for their enterprises to create social value (Acioli et al.,
+2021).
+Keyword analysis map
+The keyword analysis indicates the themes that have happened
+more frequently in each cluster, indicating the field’s current hot
+topics, as Wang, Pan, Ke, Wang and Wei (2014) assert, in this case,
+"COVID-19 and Innovation." According to Zupic and
+Cater (2015),
+keywords are believed to reflect knowledge domain themes, and
+their presence in a document suggests linkages between document
+topics (Bamel, Pereira, Del Giudice & Temouri, 2020, p. 13). The keywords were collated using the Bibliometrix R-tool program; 50 keywords were created and classified into four groups, respectively,
+from 213 research articles. The purpose of clustering topics is to assist
+readers in becoming acquainted with the subject/theme being
+researched (Delecroix & Epstein, 2004).
+Each article includes a minimum of 4−6 author-specific keywords
+that aid in describing the content of papers. Their co-occurrence indicates how a field of study has evolved and developed through time.
+The larger the nodes, the more frequent the occurrence; the lines
+connecting these nodes show co-occurrence (see Fig. 3). The most
+frequently used keywords were “COVID-1900, “innovation”, “entrepreneurship”, “technological innovation” and “social innovation”,
+which have the highest occurrences, pointing to research emphasizing the importance of innovation and entrepreneurship during the
+pandemic. The color coding was used to differentiate the various
+clusters depicted on the map (van Nunen, Li, Reniers & Ponnet,
+2018). The keyword network analysis map depicts six distinct clusters (arranged in decreasing order of keyword count): Cluster 1 (red,
+19 keywords), cluster 2 (blue, 5 keywords), cluster 3 (purple, 2 keywords) and cluster 4 (green, 2 keywords). COVID-19, from cluster 1,
+ranks first in terms of total occurrences (59).
+Fig. 4 presents the data structure of concepts, themes, and aggregate dimensions, created using both bibliometric and manual analysis
+of sample studies. Concepts are framed using the subthemes and
+author keywords derived from the thematic map and sample studies,
+respectively. The themes are derived using the cluster name of the
+thematic map and the most co-occurred keywords from the keyword
+5
+G.D. Sharma, S. Kraus, M. Srivastava et al. Journal of Innovation & Knowledge 7 (2022) 100281
+analysis co-occurrence map. Lastly, the aggregate dimensions are
+produced by combing various second-order cluster themes.
+Technological adaptation comprises three themes: e-commerce,
+digital technology, and artificial intelligence. E-commerce contributes
+to the simplification of company procedures and their acceleration
+and efficiency. Organizations benefit from increased productivity as a
+result of e-commerce. It enables supply chain management on a pull
+basis. In pull supply management, a business process begins when a
+customer makes a request and employs a just-in-time manufacturing
+method (Nuru, 2020). Digital technologies (Sharma et al., 2022) have
+increased enormously in popularity, and their use has become
+increasingly global. Due to the widespread use of smartphones and
+the resulting access to information, social networks, and audiovisua
+entertainment, widespread and continuous connectedness has
+reached a large portion of humanity. The pace of technological
+advancement in the digital arena has made the usage of cloud computing, big data analysis, blockchains, and artificial intelligence devices and applications routine (Alvarez, Natera & Suarez, 2020  ; El
+Fig. 3. Keyword co-occurrence analysis map.
+Fig. 4. Concepts, themes and aggregate dimension.
+6
+G.D. Sharma, S. Kraus, M. Srivastava et al. Journal of Innovation & Knowledge 7 (2022) 100281
+Sayed, 2020). Technological advancement has been accompanied by
+socially negative consequences, such as the exclusion of a sizable portion of the world’s population from the advantages of digitalization,
+largely because their incomes are insufficient to provide meaningful
+connectivity (i.e., high-quality access), access to devices, fixed home
+connections, and the ability to use these on a daily basis (X. Li, Yuen,
+Wang & Wong, 2021). As a result, a sizable demand gap has developed, as appropriate coverage is not reflected in connections and
+consumption. Other issues, such as the development of fake news
+and cyber-attacks, the growing threat to privacy and personal data
+protection, and the large-scale generation of electronic waste, have
+also gotten worse (R. Sharma et al., 2022).
+Sustainable development (SD) consists of sustainability, SDGs, tourism, and crisis management. Environmental, social, and economic
+sustainability are the three pillars of SD, and these constructs must
+be integrated to produce a holistic approach. Environmental sustainability is concerned with limiting human activity to the carrying
+capacity of the ecosystem (materials, energy, land, and water, for
+example) that exists in a given area and places a premium on human
+life quality (air quality, human health). Additionally, economic sustainability takes into account the optimal use of resources to optimize
+operational profit and market value. Additionally, it addresses the
+substitution of natural for man-made resources, as well as reuse and
+recycling. However, social sustainability focuses on the populace’s
+social well-being, balancing individual needs with communal needs
+(equity), public awareness and cohesion, and engagement and usage
+of indigenous labor and enterprises (Klymenko & Lillebrygfjeld Halse,
+2021). The SDGs of the United Nations envision a peaceful future in
+which human existence flourishes in a secure, healthy, and sustainable environment devoid of disparities. However, in 2020, a global
+pandemic caused by COVID-19 occurred. In comparison to the preCOVID-19 situation, this COVID-19 had a detrimental effect on
+human life, the economy, the environment, and the energy and transportation sectors. These sectors are interconnected, and hence the
+lockdown approach (G. D. Sharma, Talan & Jain, 2020) and stay-athome policies implemented to prevent COVID-19 transmission had a
+profound influence on them (Aysan, Bergigui & Disli, 2021). The crisis
+management process entails much more than simply resolving the
+situation, although that is undoubtedly the most critical component.
+To fully grasp the intricacies of crisis management and organizational
+reaction, it can be beneficial to approach crisis management from a
+multi-level and interdisciplinary viewpoint, including individual,
+organizational, and institutional levels (Dubey, Bryde, Foropon,
+Tiwari & Gunasekaran, 2022). The connection between tourism and
+sustainable development can be viewed in a variety of ways, as demonstrated by the COVID-19 dilemma. Initially, a number of environmental benefits were identified, including significant reductions in
+pollution levels and greenhouse gas emissions as a result of the closure of numerous power plants and factories, the dramatic decline in
+air travel volume, and the restriction of people travelling by motor
+vehicle. However, such gains will almost certainly be reversed if/
+when the economy recovers (Janssen & van der Voort, 2020).
+Healthcare comprises telemedicine, social responsibility, digital
+health, and social media. Healthcare systems face major challenges,
+especially during the COVID-19 pandemic, when the strongest developed economies, such as the USA, the UK, etc., were thrashed by the
+coronavirus. Healthcare 4.0 is a newly coined concept, taken from
+Industry 4.0. Healthcare 4.0 (Jayaraman, Forkan, Morshed, Haghighi
+& Kang, 2020) is a collective term for data-driven digital health technologies such as smart health, mHealth (mobile health), wireless
+health, eHealth, online health, medical IT, telehealth/telemedicine,
+digital medicine, health informatics, pervasive health, and health
+information systems. It is motivated by the fourth paradigm—dataintensive scientific discovery (Jayaraman et al., 2020). It discusses the
+digital frontiers and disruptive innovation now affecting the health
+care sector, which are resulting in the emergence of new business
+models and value networks. Healthcare 4.0 advancements and adoptions are unfolding in a number of industrialized countries worldwide, with the digital health market anticipated to reach $223.7
+billion by 2023 (Herrmann et al., 2018). Health crises are more difficult to comprehend because they are often rare and unpredictable.
+Thus, health crises are comparable to black swans in that they occur
+unexpectedly but have catastrophic repercussions. Since December
+2019, the magnitude of COVID-190
+s impact on corporate organizations and the global economy has precipitated an unprecedented and
+unfathomable transformation in corporate social responsibility paradigms and practices as the globe tries to combat the coronavirus. Yet,
+long before COVID-19, the destabilizing effects of the Spanish flu,
+cholera, malaria, HIV-AIDS, environmental health crisis, H1N1, MES,
+E-bola, obesity, and the opioid epidemics, among others, on corporate
+stability catalyzed the gestation period of public-health-led CSR strategies aimed at pushing the boundaries of corporate social responsibility (Tworzyd»o et al., 2022). Social media has been imparting
+information to most of the people who access it. However, it has also
+been providing false information, especially during the COVID-19 crisis, which acted as another stressor for the general public. Chronic
+stress and disorientation during times of crisis can be exacerbated by
+repeated and extensive content about the virus, geographical statistics, and many sources of information. Added to this is the daily deluge of misinformation, rumor, and conspiracy theories. Boosted
+digitalization has increased media penetration, resulting in a larger
+number of people contributing to "information pollution” (Banerjee
+& Meena, 2021).
+Sustainable economic performance consists of dynamic capabilities, innovation, economic performance, entrepreneurship, and corporate image. Dynamic capabilities and flexibility in response to a
+changing business environment are required for company strategy
+and organizational behavior. Dynamic capability is centered on interdependence with other businesses, so the role of resources becomes
+critical in helping small and medium-sized firms (SMEs) improve
+performance and maximize profits, while simultaneously raising
+income and welfare (Dovbischuk, 2022). At the moment, SMEs dominate the majority of the world’s economies. As a result, they strive for
+technological superiority and continuous progress in their innovation
+operations. Surya et al. (2021) assert that facilitating business transformation, investment development, technological innovation, and
+management of SMEs will necessitate facilitating institutional reinforcement, modern business monitoring, and investment collaboration within a framework of controlling production factors and
+business opportunities. Concern for future generations’ quality of life
+has prompted a more comprehensive vision and a more sustainable
+approach to company growth. Assessing an organization’s performance, which should be multifaceted, through a single or consolidated lens would result in inaccuracies (Ch’ng, Cheah & Amran,
+2021). According to scholarly works such as Evans et al. (2017) and
+Fernando, Chiappetta Jabbour and Wah (2019), three primary characteristics of sustainable company performance should be imputed:
+economic, social, and environmental value.
+As a response to growing green consumerism and government
+laws, businesses are being compelled to include environmental considerations in their business strategies (Fernando et al., 2019). As consumer knowledge of environmental issues increases, businesses that
+portray a green image are better positioned to differentiate their
+products or services in the eyes of consumers. However, there are
+other strategies for establishing and enhancing a green corporate
+image (Fernando et al., 2019). Choudhury (2017) asserts that greenthemed or "go green" marketing strategies might aid in establishing
+a firm’s green image. Additionally, investing in environmental management provides them with power when dealing with non-profit
+organizations or governments, as well as an opportunity to improve
+their green image among customers (Fernando et al., 2019). Also, different studies (Awawdeh, Ananzeh, El-khateeb & Aljumah, 2022; Xie,
+7
+G.D. Sharma, S. Kraus, M. Srivastava et al. Journal of Innovation & Knowledge 7 (2022) 100281
+Huo & Zou, 2019; Ye & Cheng, 2019) have shown that businesses with
+a green entrepreneurial image not only increase sales volume, but
+also open up new markets, increase shopping value, and strengthen
+their competitive edge.
+Reflections and directions for future research
+Following the inductive analysis approach (Thomas & Tee, 2022),
+we propose a framework comprising first-order concepts, secondorder themes, and aggregate dimensions. Our proposed framework
+comprises components such as technology adaptation, sustainable
+development, healthcare, and sustainable economic performance.
+These data structure components serve as the foundation for proposing emerging research hotspots in the field of COVID and innovation.
+They are derived from the commonalities identified during the analysis of the descriptive and conceptual structure of the existing literature (section 3), which are bolstered by the rigorous inductive
+analysis following Gioia’s data structure recommendation (Kromidha,
+Gannon & Taheri, 2021) (see Fig. 4).
+Technology adaptation
+The COVID-19 pandemic has impacted practically every country,
+wreaking havoc on available healthcare facilities and treatment systems. There is a need for the adoption of numerous advanced technologies (such as AI, IoT, big data, etc.) in order to address the various
+issues associated with this viral epidemic. Industry 4.0, also known as
+the fourth industrial revolution, is a collection of advanced production and information technologies that enable human beings to meet
+the customized requirements of various regions in little time. These
+technologies enable wireless connectivity in manufacturing and service industries, hence increasing automation (Ahmad et al., 2022). In
+a fully implemented Industry 4.0 scenario, all of these technologies
+are connected, and medical stakeholders communicate with one
+another for vaccine manufacturing and use, healthcare equipment
+and logistics, check-up, surveillance, detection, and decision-making
+with minimal human physical involvement.
+In the future, Industry 4.0 technology will be utilized to preserve
+sensitive health care system data that could be utilized in the event
+of another pandemic comparable to COVID-19. This revolution might
+be quickly accepted by professionals, doctors, and other staff members who have the ability to affect the treatment path for COVID-19
+and other similar pandemics or epidemics (Ahmad et al., 2022). It is
+capable of centralizing all medical instruments, devices, and treatment processes. In the future, the medical industry will expand and
+will need to adapt to digital technologies in order to establish a smart
+healthcare system, necessitating the replacement of outdated software platforms and software equipment. This revolution enables disruptive innovation to mitigate the COVID-19 virus’s influence
+(Ranjbari et al., 2021).
+Adaptation to new technologies and novel financial applications is
+crucial for SME operations during a pandemic. This indicates that
+technologically integrated and financially viable SMEs are capable of
+operating in remote locations. Due to their cost-effective operations,
+they can remain untapped during a pandemic. An e-commerce application that incorporates M-banking provides the highest level of flexibility and efficiency for settling financial transactions without the
+need for a physical presence. SMEs on the route to e-commerce integration maintained an efficient supplier-customer connection during
+the lockdown state. Technology can assist SMEs in overcoming a variety of challenges they may face during COVID-19. Physical contact,
+demand forecasting, total sales and turnover improvement, market
+access, and profitability are all aided by several components of technology adoption. Until recently, businesses were unable to communicate with long-distance customers. The internet and other ecommerce resources, are currently revolutionizing and changing
+small and medium-sized businesses through the birth of the global
+concept of integration. Numerous traditional brick-and-mortar office
+buildings are obsolete as a result of the internet and e-commerce,
+which have created virtual technical offices for small and mediumsized firms. The owner should encourage personnel to leverage technology in order to increase financial and non-financial results.
+Employees will recognize the critical nature of technology adoption
+in order to deal with the current pandemic. Only technology can help
+a business continue operations in the event of a pandemic (Ranjbari,
+Morales-Alonso, Esfandabadi & Carrasco-Gallego, 2019).
+Sustainable development
+The COVID-19 problem has put an enormous strain on the global
+economy and corporate activity, causing huge financial losses, and
+increasing poverty and hunger (Singh & Singh, 2020). As a result, the
+pandemic’s global health catastrophe delays the international community’s progress towards sustainability (D. Lee, Kang & Kim, 2020).
+Barbier and Burgess (2020) suggested that COVID-190
+s negative
+effects could jeopardize the UN’s 2030 Agenda for Sustainable Development’s 12 SDGs.
+As per Filho, Brandli, Salvia, Rayman-Bacchus and Platje (2020), a
+reduction in the priority of the SDGs by COVID-19 also threatens sustainable development. While major global efforts are being made to
+contain the epidemic, post-COVID-19 sustainability should not be
+overlooked (Lambert et al., 2020). Sustainability and achieving the
+SDGs are now more important than ever. According to Elliott, Schumacher and Withagen (2020), rethinking sustainability should occur
+immediately, before the pandemic tragedy is over and people return
+to their usual lives, forgetting about future issues arising from the
+next pandemic. To assist governments, authorities, and sustainable
+development practitioners, researchers should produce a modified
+solid action plan that includes COVID-19 considerations.
+To accomplish so, addressing the two elements below after
+COVID-19 is crucial. In order to identify the goals and targets based
+on the COVID-19 implication for any area of research, a thorough
+assessment of the COVID-19 implications on the 17 SDGs and their
+respective targets is required. The present SDGs of the UN 2030
+Agenda for Sustainable Development require rethinking sustainability because they are not resilient enough to pandemic shock (IbnMohammed et al., 2021). A measurement mechanism for COVID-190
+s
+influence on progress towards sustainability pillars and sustainable
+development is also necessary (Dejardin et al., 2022). Because
+COVID-19 is so new, the lack of an acceptable and effective measurement tool for sustainability monitoring and assessment necessitates
+future research. According to Kanda and Kivimaa (2020), COVID-19
+has provided a chance for the sustainability transition and rethinking
+sustainability to build a sustainable future.
+We believe that now is the best time to encourage sustainable
+consumption and production patterns within sociotechnical regimes.
+Further research should focus on the sustainability opportunities presented by COVID-19 to SDG 12 (responsible consumption and production patterns), which ensures the sustainable use of natural
+resources. The potential of circular economy business models (Elliott
+et al., 2020), sharing economy platforms (Ranjbari et al., 2019), digitalization and digital sustainability (Pan and Zhang, 2020) as well as
+“glocalization” perspectives (Goffman, 2020) to increase community
+resilience and mitigate COVID-19 disruptive effects on sustainability
+is highly recommended. Moreover, post-COVID-19, the role of innovation and initiatives is critical. So, to fulfill SDG 9, we offer new
+insights into nurturing innovation processes and R&D units in the
+current world.
+The tourism business has been severely hampered by global travel
+restrictions. During the COVID-19 crisis, official stay-at-home orders
+and partial lockdowns in numerous nations offered opportunities
+and threats to sustainable tourism. Higgins-Desbiolles (2020)
+8
+G.D. Sharma, S. Kraus, M. Srivastava et al. Journal of Innovation & Knowledge 7 (2022) 100281
+characterized the COVID-19 pandemic as a "game-changer" for the
+tourist sector and urged tourism academy members to promote and
+contribute to sustainable tourism in the aftermath of COVID-19 as
+scholars rather than competitors. Ryan, Coppola, Canyon, Brickhouse
+and Swienton (2020) presented a sustainability framework to ensure
+community stabilization by establishing baseline standards, regulations, and suggestions, as well as triggers and implementation. The
+authorities and decision-makers responsible for managing the
+COVID-19 situation must utilize a well-considered sustainable framework to combine lockdown and restrictive rules with societal
+requirements in order to handle the crisis more sustainably.
+Healthcare
+As previously stated, the COVID-19 pandemic is the most serious
+threat to world health in 2020, placing a significant strain on global
+healthcare systems. This strain puts healthcare systems’ sustainability at risk and emphasizes the critical need for strategies and measures. According to Osingada and Porta (2020), in order to accomplish
+the SDGs following COVID-19, nursing actions and policies at the
+micro and macro levels of healthcare systems must be aligned with
+the 2030 Agenda for Sustainable Development. Additionally, healthcare system decision-makers must plan for a sustainable resume of
+elective surgeries, placing patient and surgical staff safety first during
+COVID-19, to cut costs and remain economically viable (O’Connor,
+Anoushiravani, DiCaprio, Healy & Iorio, 2020). Early detection of positive patients is critical to sustain the healthcare system’s fight against
+the COVID-19 pandemic. Moreover, the use of smartphone-based
+healthcare monitoring technologies may help ensure the healthcare
+system’s viability during the COVID-19 pandemic catastrophe.
+Strategic planning and management are critical for controlling
+and preventing the COVID-19 pandemic and its negative consequences promptly. Authorities and policymakers must develop a welldefined strategic strategy for detecting confirmed cases, tracking
+indicators, sustaining healthcare systems, and successfully managing
+resources beyond the COVID-19 crisis, taking economic, social, and
+environmental factors into account. Furthermore, recent national and
+worldwide events have illustrated the impact of a large-scale healthcare emergency on current healthcare infrastructures and the difficulties that healthcare facilities have in surging to meet these
+demands. One strategy for addressing these difficulties is to harness
+existing telemedicine and other digital health technologies to expand
+health care competency and capacity at the local, regional, and
+national levels. Scott et al. (2020) emphasize the critical importance
+of establishing a flexible, scalable, robust, and, most importantly,
+interoperable National Emergency Tele-Critical Care Network
+(NETCCN) to ensure that the appropriate digital health ecosystem is
+available to respond to future disasters or emergencies. The ability
+and capacities obtained through continued NETCCN, both during and
+between crises, will enable increased care provision, distribution,
+and quick deployment at scale, thereby enhancing our nation’s
+security.
+Additionally, the current pandemic of COVID-19 is producing
+widespread psychosocial health problems in the general population,
+including stress, anguish, fear, anxiety, depressive symptoms, sleep
+disruptions, denial, rage, impatience, and mistrust (Mukhtar, 2020).
+These psychological difficulties affect medical personnel’s concentration and decision-making capacities, posing a threat to the battle
+against COVID-19. Meyer et al. (2022) suggest that people may reveal
+that they are less susceptible to COVID-19, when amplifying their
+sense of self-efficacy, however, the stressor agents such as economic
+and social repercussions persist. Psychological difficulties account for
+between 4% to 41% of post-traumatic symptoms and 7% of depressive
+symptoms in the general population (Kang et al., 2020). The widespread dissemination of disinformation online about COVID-19 and
+the virus that causes it has greatly harmed the adoption of suggested
+preventative and control practices (Bridgman et al., 2020) and eroded
+support for critical, life-saving policies. Efforts by governments and
+health organizations, such as WHO (2020), to counteract online disinformation have generally focused on fact-checking, correcting, or
+debunking misconceptions and lies. While such reactionary behaviors are beneficial, social science research indicates that their impact
+is likely to be limited (Lewandowsky, Ecker, Seifert, Schwarz & Cook,
+2012).
+While fact-checking and corrections are critical components of
+the public health response to the COVID-19 misinformation epidemic, further efforts will be required to limit the misinformation’s
+impact. Here, we provide several other techniques for consideration.
+Boosting the public’s health and science literacy, for example, may
+greatly decrease susceptibility to misinformation: educating the public about the scientific research process may make people less likely
+to acknowledge spurious causal associations recommended by misinformation posts (MacFarlane, Hurlstone & Ecker, 2020); and educating the public about the iterative and advancing nature of scientific
+knowledge may make the public less impatient with the scientific
+process in the face of crisis. By utilizing their established relationships
+with patients, clinicians should also play a greater role in informing
+patients about COVID-19 disinformation. For example, rather than
+terminating the conversation when patients request an untested
+treatment based on information they found online, doctors could
+describe the significance of obtaining sufficient clinical evidence
+from rigorous studies, overview the possible risks of the treatment,
+and advise reliable sources of information to consult in the future.
+Sustainable economic performance
+COVID-19 has pushed the globe into the biggest economic recession since the Great Depression, resulting in the loss of 400 million
+jobs in the second quarter of 2020 and a 4.2 percent fall in GDP per
+capita in 2020 (Seth, 2015). Due to the severe economic consequences of this pandemic for society, there is an urgent need for new proposals to strengthen economic resilience and promote sustainable
+economic growth and decent work for all in line with SDG 8. Contributing to the advancement of an economic recovery strategy is critical
+in this regard, with a particular emphasis on the following research
+avenues: (1) investigating evidence-based economic analyses for
+long- and short-term recovery planning; (2) initiatives to strengthen
+the local economy following COVID-19; and (3) policy interventions
+to endorse small and medium-sized enterprises.
+The problem of poor economic performance is exacerbated in
+emerging countries, particularly in less developed countries, which
+are more financially susceptible. The consequences of COVID-19 have
+had little impact on the attainment of SDG 8 and SDG 1 (no poverty).
+Prior to the pandemic, many countries formed a global partnership
+(SDG 17) to accomplish the UN’s Sustainable Development Goals, and
+aid to least-developed countries and Africa increased by 2.6 percent
+and 1.3 percent, respectively, in 2019 (Seth, 2015). However, it is
+anticipated that the 554 billion dollars in remittances to low- and
+middle-income countries in 2019 will decline to 445 billion dollars in
+2020, and worldwide foreign investment will decline by up to 40% in
+2020 as a result of the pandemic (Seth, 2015). Therefore, while almost
+all countries are confronted with severe health and economic
+obstacles on their borders as a result of the pandemic, investigating
+practical solutions to support the partnerships specified in SDG 17
+post-COVID-19 is strongly encouraged as the focus of future research
+to assist less-developed and developing countries in their transition
+to sustainable development.
+Further, the literature demonstrates the importance of expanding
+research on innovation in the circular economy to all sectors, as
+many studies focus on the fashion and industrial sectors, with sectors
+concerned with the biological cycle receiving less attention. There is
+a need to approach new businesses and start-ups, as they may be
+9
+G.D. Sharma, S. Kraus, M. Srivastava et al. Journal of Innovation & Knowledge 7 (2022) 100281
+more efficient and successful at presenting radical innovations and
+uncovering specialized markets. Entrepreneurship is widely
+acknowledged as being critical to the development and well-being of
+society. They not only create riches through their business endeavors
+but also jobs and the circumstances necessary for a flourishing society. Ironically, the same entrepreneurial spirit is commonly blamed
+for the harmful consequences of its commercial activities on society.
+Researchers refer to such unsustainable corporate practices as a
+"business-as-usual model."
+Interestingly, a green economy, in this conception, is a globally
+competitive economy that is also ecologically and socially sustainable. It establishes a genuine link between ecology and economics by
+enhancing social protection, combatting poverty, and promoting
+social justice. In light of recognized environmental limits, the objective is to achieve ecologically friendly, qualitative, and hence sustainable growth that is founded on a thorough understanding of the
+interrelationships between economics, finance, and politics. Sustainability is a way of managing resources in such a way that future generations’ needs are not jeopardized (Purnomo, Adiguna, Widodo,
+Suyatna & Nusantoro, 2021). Green Entrepreneurship is a novel
+approach to attaining it, with the ultimate goal of developing diversified and sustainable production and consumption models that secure
+global prosperity and a high standard of living (Guan, Ahmad, Rahman & Halim, 2020).
+There is also a need for research to be cross-pollinated between
+sustainable entrepreneurship (SE) and related fields. Apart from participation in worldwide comparative CSR studies and the literature
+on national business systems, there are additional topics that can
+inform SE studies. Increased contact with the social entrepreneurship
+literature, in particular, is a viable area for future research due to SE’s
+environmental legacy. While SE research has shifted away from its
+environmental roots and toward a triple-bottom-line perspective,
+social entrepreneurship research, as its more recent brother, has the
+potential to inform SE in terms of evaluating and managing the social
+dimension of entrepreneurial activity (Emami et al., 2021). Similarly,
+cross-fertilization with the literature on social entrepreneurship
+might be advantageous, as the latter has gone into deeper detail
+about hybridity and hybrid tensions. Sustainable entrepreneurs are
+embedded in larger economic and social systems, interacting with a
+variety of other types of companies and societal stakeholder groups.
+As a result, the interaction with these other types of actors demands
+additional study. In this context, research on the varied roles and
+interactions of large and small organizations in the transition to more
+sustainable societies (Hockerts & Wustenhagen, 2010 € ) is critical.
+However, it will be necessary to investigate the longer-term dynamics of these interactions in order to fully grasp the numerous effects
+SE may have. To take one example, Holt (2012) examined a sample of
+pioneering ecopreneurs two decades after their inception and discovered that very few of them continue to operate in the same manner
+as they did in the beginning. Sustainable entrepreneurs may succeed
+or fail over time.
+Conclusion
+The COVID-19 outbreak has fostered the innovation dimension to
+mitigate the adversaries of the pandemic, and nations across the
+globe have embraced innovation as never before. The pandemic has
+naturally stimulated innovations in healthcare solutions and has catalyzed distance learning, remote working, e-commerce, and other
+mobility solutions. This paper has focused on innovation and innovation-driven policies during the time of COVID-19, based on an extensive literature review and bibliometric analysis.
+During the unprecedented times of COVID-19, many frugal innovations have been set up. For instance, India refitted trains into hospital wards, and China constructed a hospital with a 1000-bed capacity
+(Harris, Bhatti, Buckley & Sharma, 2020). Most of the companies are
+channeled towards the production of face masks, sanitizers and ventilator machines. Investment in innovation resulting in scientific output, R &D expenditure, IP filings, and patent filings has increased
+during COVID-19. Scientific article publications have seen a growth
+of 7.6% along with government funding for R &D in medical technology, biotechnology, and pharmaceuticals (Soumitra et al., 2021).
+Increased innovation has been seen in software and ICT services,
+pharmaceuticals and biotechnology firms, while the travel and tourism sectors have cut down on their innovation outlays. Education
+and the healthcare system have created an environment for remote
+learning (Gopalakrishnan & Kovoor-Misra, 2021).
+Digital tools were designed and implemented to cater to the need
+for research and innovation. The use of open data has helped in the
+promotion of the exchange of information and scientific advances
+related to health and hygiene. Many countries have also developed
+official websites for providing updated information about the spread
+of the virus and also to tackle misleading or false information (inaccurate and misinterpretation of scientific evidence) by the Federal Ministry of Education and Research in Germany. WHO launched a free
+health service alert for queries relating to COVID-19 on WhatsApp.
+Similarly, the ‘MyGOV Corona helpdesk’ in India has been launched
+to allow citizens to stay updated with the latest news and tally of
+COVID cases and monitor symptoms with further preventive measures.
+One of the most favorable developments in STI pertains to vaccine
+development, which began during the SARS and MERS breakouts in
+2003 and 2012, respectively, but newer technologies involved mRNA
+vaccines as compared to their predecessors, which mainly involve
+viral proteins or inactivated SARS-CoV-2 virus. The mRNA-based vaccines from Pfizer/BioNTech and Moderna have received their licenses
+and are quick to be manufactured and made available for combating
+the COVID-19 virus. There is a surge in public and private funding for
+the development of vaccines and facilitation of research and faster
+regulatory approvals are also seen in the trial phases of vaccine
+development (Chenevier, McCarthy & Joly, 2021; Ramalingam &
+Prabhu, 2020).
+Another rush is seen in the number of research papers being published. However, quality checks remained a concern, but the publishing and presentation of research work took a virtual route during the
+pandemic. The use of scientific evidence is pertinent and visible in
+policy making, which reflects that policy-related documents have
+exclusive citations from published academic research articles. It is
+evident from the COVID-19 pandemic that scientific research reflects
+upon the socioeconomic aspects of policy decision-making.
+Policy implications
+Science, technology and innovation (STI) have the potential to
+play a bigger role in creating a more environmentally sustainable,
+inclusive, and resilient future. Greening ideas have been incorporated
+into recovery packages that have been put in place to help the economy recover. Previous STI policies that supported green and inclusive
+growth can provide important insights for developing recovery policies. STI can help develop strategies to better prepare for future crises
+such as pandemics, climate-related shocks, and cyberattacks. Shock
+agility and reactivity are two key aspects of resilience. COVID-19
+could have an impact on several aspects of STI systems, as well as
+their resilience.
+Following the extraordinary use of real-time granular data (e.g.
+movement data, pulse surveys) and big data visualization and analysis tools during the pandemic, new tools for STI policy may become
+more important. As a result, STI policy responses may become more
+flexible, targeted, and ultimately more effective. Unconventional policy methods, such as techniques that embed strategic foresight inside
+policymaking, i.e. the organized and explicit study of multiple futures
+to guide decision-making, could acquire traction in the coming years.
+10
+G.D. Sharma, S. Kraus, M. Srivastava et al. Journal of Innovation & Knowledge 7 (2022) 100281
+Systems methods, which take into consideration linkages in socioeconomic activities, strive to develop policies that have an impact on
+the entire system rather than just one component or activity. When
+it comes to accelerating the shift to green mobility, for example, this
+necessitates investing in suitable technologies.
+International patent fillings reflect that health-related technologies
+are being upgraded for recent inventions and the pandemic crisis has
+fueled the innovations due to support from many public-private funding
+agencies. Pharmaceuticals, biotechnology, medical technology, IT solutions for management, computer technology, digital communication,
+telemedicine, telecommunications, audiovisua technology, electrical
+machinery-apparatus, and energy are the major fields of innovation.
+In times of crisis, a comprehensive approach to education that
+covers children’s learning, social, and emotional needs is critical
+(Miller, 2020; Netz, Reinmoeller & Axelson, 2022). Due to school closures caused by the COVID-19 pandemic, kids from a variety of backgrounds are less likely to receive the support and extra resources
+they require, and the gap between pupils who face additional challenges and those who do not may deepen. Closures can also have a
+significant impact on students’ emotions of belonging to schools and
+their self-worth, both of which are critical for inclusion in education.
+OECD member countries have looked forward to the re-opening of
+schools, and policymakers should ensure that COVID-19 transmission
+does not hinder students in the education system (OECD, 2020).
+Therefore, policymaking should be oriented towards ensuring and
+sustaining the vulnerable, leaving no one behind and investing in
+strategic government and private partnerships at local and national
+levels. With the prevalence of the COVID-19 pandemic, science, technology, and innovation (STI) provide implications for science, technology, and innovation policy. The impact of the COVID-19 crisis has
+raised a question about the pre-crisis condition and the role of STIs in
+government policies. Inclusion and sustainability, along with resilient
+STI policies, may prove to help prepare for any future crises (Acioli et
+al., 2021; Chenevier et al., 2021; Sampat & Shadlen, 2021).
+COVID-19 has posed one of the greatest challenges faced by mankind, and its consequences have accelerated the public health crisis
+and mortality rate, with burgeoning issues at social, economic, and
+political levels. The major setbacks for innovation involve firstly,
+technical issues within innovation itself; secondly, business planning
+issues related to testing, implementation, and scaling-up; and lastly,
+institutional and political issues that remain at the status quo level
+and suppress novel solutions. The technologies in the areas of development and humanitarian work are regressed by the institutional
+environment and political power (Ramalingam & Prabhu, 2020). The
+domination by international authorities in emerging economies and
+vulnerable communities is also a major challenge for the innovation
+process to be unsuccessful. The innovation process is not seen as a
+strategic imperative but rather as a silo. Overall, the innovation process is risk-taking and involves high failure rates. However, humanitarian response and development can be achieved through trial-anderror by enabling learning and decision-making and balancing innovation risk appetite.
+Role of the funding source
+This research did not receive any specific grant from funding
+agencies in the public, commercial, or not-for-profit sectors.
+Declaration of Competing Interest
+None
+Acknowledgement
+This work was supported by the Open Access Publishing Fund
+provided by the Free University of Bozen-Bolzano.
+References
+Acioli, C., Scavarda, A., & Reis, A. (2021). Applying Industry 4.0 technologies in the
+COVID−19 sustainable chains. International Journal of Productivity and Performance
+Management, 70(5), 988–1016. doi:10.1108/IJPPM-03-2020-0137.
+Adam, N. A., & Alarifi, G. (2021). Innovation practices for survival of small and medium
+enterprises (SMEs) in the COVID-19 times: The role of external support. Journal of
+Innovation and Entrepreneurship, 10(1). doi:10.1186/s13731-021-00156-6.
+Agarwal, A., Durairajanayagam, D., Tatagari, S., Esteves, S. C., Harlev, A.,
+Henkel, R., et al. (2016). Bibliometrics: Tracking research impact by selecting the
+appropriate metrics. Asian Journal of Andrology, 18(2), 296–309. doi:10.4103/1008-
+682X.171582.
+Ahmad, M., Sadiq, S., Eshmawi, A. A., Alluhaidan, A. S., Umer, M., Ullah, S., et al. (2022).
+Industry 4.0 technologies and their applications in fighting COVID-19 pandemic
+using deep learning techniques. Computers in Biology and Medicine, 145(4), 419–
+422. doi:10.1016/j.compbiomed.2022.105418.
+Akpan, I. J., Udoh, E. A. P., & Adebisi, B. (2022). Small business awareness and adoption
+of state-of-the-art technologies in emerging and developing markets, and lessons
+from the COVID-19 pandemic. Journal of Small Business and Entrepreneurship, 34
+(2), 123–140. doi:10.1080/08276331.2020.1820185.
+Almeida, F. (2021). Open Data’s Role in Social Innovation Initiatives to Fight COVID-19.
+Central European Management Journal, 29(3), 2–19. doi:10.7206/cemj.2658-
+0845.51.
+Alvarez, I., Natera, J. M., & Suarez, D. V. (2020). Science, technology and innovation poli- 
+cies looking backwards, forwards and beyond: Developmental challenges and
+opportunities for ibero-america in the era of covid-19. Revista de Economia Mundial, 2020(56), 1–24. doi:10.33776/rem.v0i56.4862.
+Araujo, L. (2022). Measuring tourism success: How European National Tourism Organi- 
+sations are shifting the paradigm. Worldwide Hospitality and Tourism Themes, 14
+(1), 79–84. doi:10.1108/WHATT-10-2021-0136.
+Aria, M., & Cuccurullo, C. (2017). bibliometrix: An R-tool for comprehensive science
+mapping analysis. Journal of Informetrics, 11(4), 959–975. doi:10.1016/j.
+joi.2017.08.007.
+Awawdeh, A. E., Ananzeh, M., El-khateeb, A. I., & Aljumah, A. (2022). Role of green
+financing and corporate social responsibility (CSR) in technological innovation and
+corporate environmental performance: A COVID-19 perspective. China Finance
+Review International, 12(2), 297–316. doi:10.1108/CFRI-03-2021-0048.
+Aysan, A. F., Bergigui, F., & Disli, M. (2021). Blockchain-based solutions in achieving
+sdgs after covid-19. Journal of Open Innovation: Technology, Market, and Complexity,
+7(2). doi:10.3390/joitmc7020151.
+Bamel, U., Pereira, V., Del Giudice, M., & Temouri, Y. (2020). The extent and impact of
+intellectual capital research: A two decade analysis. Journal of Intellectual Capital.
+doi:10.1108/JIC-05-2020-0142.
+Banerjee, D., & Meena, K. S. (2021). COVID-19 as an “Infodemic” in Public Health: Critical Role of the Social Media. Frontiers in Public Health, 9, 231. doi:10.3389/
+fpubh.2021.610623.
+Barbier, E. B., & Burgess, J. C. (2020). Sustainability and development after COVID-19.
+World Development, 135. doi:10.1016/j.worlddev.2020.105082.
+Bartoli, C., Bonetti, E., & Mattiacci, A. (2021). Marketing geographical indication products in the digital age: A holistic perspective. British Food Journal. doi:10.1108/BFJ03-2021-0241.
+Bessonova, E., & Battalov, R. (2021). Digitalization as a tool for innovative economic
+development. Economic Annals-XXI, 186(11−12), 66–74. doi:10.21003/EA.V186-08.
+Boeing, P., & Wang, Y. (2021). Decoding China’s COVID-19 ‘virus exceptionalism’: Community-based digital contact tracing in Wuhan. R and D Management, 51(4), 339–
+351. doi:10.1111/radm.12464.
+Bouncken, R. B., Kraus, S., & de Lucas Ancillo, A. (2022). Management in times of crises:
+Reflections on characteristics, avoiding pitfalls, and pathways out. Review of Managerial Science. doi:10.1007/s11846-022-00580-2.
+Brem, A., Viardot, E., & Nylund, P. A. (2021). Implications of the coronavirus (COVID-19)
+outbreak for innovation: Which technologies will improve our lives? Technological
+Forecasting and Social Change, 163. doi:10.1016/j.techfore.2020.120451.
+Bridgman, A., Merkley, E., Loewen, P. J., Owen, T., Ruths, D., Teichmann, L., et al. (2020).
+The causes and consequences of COVID-19 misperceptions: Understanding the
+role of news and social media. Harvard Kennedy School Misinformation Review, (3),
+1. doi:10.37016/mr-2020-028.
+Broadus, R. N. (1987). Toward a definition of “bibliometrics. Scientometrics, 12(5−6),
+373–379. doi:10.1007/BF02016680.
+Callon, M., Courtial, J. P., Turner, W. A., & Bauin, S. (1983). From translations to problematic networks: An introduction to co-word analysis. Social Science Information,
+22(2), 191–235. doi:10.1177/053901883022002003.
+Chamola, V., Hassija, V., Gupta, V., & Guizani, M. (2020). A Comprehensive Review of
+the COVID-19 Pandemic and the Role of IoT, Drones, AI, Blockchain, and 5G in
+Managing its Impact. IEEE access : practical innovations, open solutions, 8(April),
+90225–90265. doi:10.1109/ACCESS.2020.2992341.
+Chen, X., Lun, Y., Yan, J., Hao, T., & Weng, H. (2019). Discovering thematic change and
+evolution of utilizing social media for healthcare research. BMC Medical Informatics
+and Decision Making, 19(Suppl 2). doi:10.1186/s12911-019-0757-4.
+Chenevier, D., McCarthy, J., & Joly, A. (2021). ESRF-EBS: Research and Innovation in the
+Time of COVID-19. Synchrotron Radiation News, 34(1−3), 18–20. doi:10.1080/
+08940886.2021.1902716.
+Ch’ng, P. C., Cheah, J., & Amran, A. (2021). Eco-innovation practices and sustainable
+business performance: The moderating effect of market turbulence in the Malaysian technology industry. Journal of Cleaner Production, 283,(xxxx) 124556.
+doi:10.1016/j.jclepro.2020.124556.
+11
+G.D. Sharma, S. Kraus, M. Srivastava et al. Journal of Innovation & Knowledge 7 (2022) 100281
+Choudhury, A. K. R. (2017). Sustainable chemical technologies for textile production.
+Sustainable fibres and textiles (pp. 267−322). doi:10.1016/B978-0-08-102041-
+8.00010-X.
+Clauss, T., Breier, M., Kraus, S., Durst, S., & Mahto, R. V. (2022). Temporary business
+model innovation − SMEs’ innovation response to the COVID-19 crisis. R and D
+Management, 52(2), 294–312. doi:10.1111/radm.12498.
+Condry, M., & Quan, X. I. (2021). Digital Health Innovation, Informatics Opportunity,
+and Challenges. IEEE Engineering Management Review, 49(2), 81–88. doi:10.1109/
+EMR.2021.3054330.
+Corsini, L., Dammicco, V., & Moultrie, J. (2021). Frugal innovation in a crisis: The digital
+fabrication maker response to COVID-19. R and D Management, 51(2), 195–210.
+doi:10.1111/radm.12446.
+Dejardin, M., Raposo, M. L., Ferreira, J. J., Fernandes, C. I., Veiga, P. M., &
+Farinha, L. (2022). The impact of dynamic capabilities on SME performance during
+COVID-19. Review of Managerial Science. doi:10.5465/AMBPP.2018.82.
+Delecroix, B., & Epstein, R. (2004). Co-word analysis for the non-scientific information
+example of Reuters Business Briefings. Data Science Journal, 3(June), 80–87.
+doi:10.2481/dsj.3.80.
+Dileep, M. R., & Nair, B. B. (2021). COVID-19 and the Future of Tourism: Back to Normal
+or Reformation? International Journal of Hospitality and Tourism Systems, 14, 10–14.
+Retrieved from https://www.scopus.com/inward/record.uri?eid=2-s2.0-
+85122193591&partnerID=40&md5=87117da86e52d424ece3bf1585009d8c.
+Dilyard, J., Zhao, S., & You, J. J. (2021). Digital innovation and Industry 4.0 for global
+value chain resilience: Lessons learned and ways forward. Thunderbird International Business Review, 63(5), 577–584. doi:10.1002/tie.22229.
+Dovbischuk, I. (2022). Innovation-oriented dynamic capabilities of logistics service
+providers, dynamic resilience and firm performance during the COVID-19 pandemic. International Journal of Logistics Management, 33(2), 499–519. doi:10.1108/
+IJLM-01-2021-0059.
+Dubey, R., Bryde, D. J., Foropon, C., Tiwari, M., & Gunasekaran, A. (2022). How frugal
+innovation shape global sustainable supply chains during the pandemic crisis: Lessons from the COVID-19. Supply Chain Management, 27(2), 295–311. doi:10.1108/
+SCM-02-2021-0071.
+Elliott, R. J. R., Schumacher, I., & Withagen, C. (2020). Suggestions for a COVID-19 PostPandemic Research Agenda in Environmental Economics. Environmental and
+Resource Economics, 76(4), 1187–1213. doi:10.1007/s10640-020-00478-1.
+Emami, A., Ashourizadeh, S., Sheikhi, S., & Rexhepi, G. (2021). Entrepreneurial propensity for market analysis in the time of COVID-19: Benefits from individual
+entrepreneurial orientation and opportunity confidence. Review of Managerial Science, (0123456789). doi:10.1007/s11846-021-00499-0.
+Evans, S., Vladimirova, D., Holgado, M., Van Fossen, K., Yang, M., & Silva, E. A. (2017).
+Business Model Innovation for Sustainability: Towards a Unified Perspective for
+Creation of Sustainable Business Models. Business Strategy and the Environment, 26
+(5), 597–608. doi:10.1002/bse.1939.
+Falorca, J. F. (2020). Envisioning a strategic framework to streamline building operation, sustainability and users’ disease control. Journal of Facilities Management, 19
+(2), 195–227. doi:10.1108/JFM-07-2020-0039.
+Fernando, Y., Chiappetta Jabbour, C. J., & Wah, W. X. (2019). Pursuing green growth in
+technology firms through the connections between environmental innovation and
+sustainable business performance: Does service capability matter? Resources, Conservation and Recycling, 141, 8–20. doi:10.1016/j.resconrec.2018.09.031.
+Filho, W. L., Brandli, L. L., Salvia, A. L., Rayman-Bacchus, L., & Platje, J. (2020). COVID-19
+and the UN sustainable development goals: Threat to solidarity or an opportunity?
+Sustainability (Switzerland), 12(13), 5343. doi:10.3390/su12135343.
+García-Carbonell, N., Martín-Alcazar, F., & S  anchez-Gardey, G. (2021). Facing crisis peri- 
+ods: A proposal for an integrative model of environmental scanning and strategic
+issue diagnosis. Review of Managerial Science, 15(8), 2351–2376.
+Goffman, E. (2020). In the wake of COVID-19, is glocalization our sustainability future?
+Sustainability: Science, Practice, and Policy, 16(1), 48−52. doi: 10.1080/
+15487733.2020.1765678
+Gopalakrishnan, S., & Kovoor-Misra, S. (2021). Understanding the impact of the COVID19 pandemic through the lens of innovation. BRQ Business Research Quarterly, 24
+(3), 224–232. doi:10.1177/23409444211013357.
+Gorochnaya, V., Mikhaylov, A., Plotnikova, A., & Mikhaylova, A. (2021). The interdependence between tourism and innovation activity in the western borderlands of Russia. Geojournal of Tourism and Geosites, 34(1), 147–154. doi:10.30892/gtg.34119-
+630.
+Guan, N. H., Ahmad, N. H., Rahman, S. A., & Halim, H. A. (2020). Towards a sustainable
+agenda: Enhancing green entrepreneurship image among manufacturing SMEs.
+World Review of Entrepreneurship, Management and Sustainable Development, 16(5),
+466–491. doi:10.1504/WREMSD.2020.110457.
+Guderian, C. C., Bican, P. M., Riar, F. J., & Chattopadhyay, S. (2021). Innovation management in crisis: Patent analytics as a response to the COVID-19 pandemic. R and D
+Management, 51(2), 223–239. doi:10.1111/radm.12447.
+Harris, M., Bhatti, Y., Buckley, J., & Sharma, D. (2020). Fast and frugal innovations in
+response to the COVID-19 pandemic. Nature Medicine, 26(6), 814–817.
+doi:10.1038/s41591-020-0889-1.
+Henna, R. (2022). Affecting the corporate image through sustainable business model
+innovation.
+Herrmann, M., Boehme, P., Mondritzki, T., Ehlers, J. P., Kavadias, S., & Truebel, H. (2018).
+Digital transformation and disruption of the health care sector: Internet-based
+observational study. Journal of Medical Internet Research, 20(3), e9498.
+doi:10.2196/jmir.9498.
+Higgins-Desbiolles, F. (2020). The “war over tourism”: Challenges to sustainable tourism in the tourism academy after COVID-19. Journal of Sustainable Tourism, 29(4),
+551–569. doi:10.1080/09669582.2020.1803334.
+Hoang, T. D. L., Nguyen, H. K., & Nguyen, H. T. (2021). Towards an economic recovery
+after the COVID-19 pandemic: Empirical study on electronic commerce adoption
+of small and medium enterprises in Vietnam. Management and Marketing, 16(1),
+47–68. doi:10.2478/mmcks-2021-0004.
+Hockerts, K., & Wustenhagen, R. (2010). Greening Goliaths versus emerging Davids - €
+Theorizing about the role of incumbents and new entrants in sustainable entrepreneurship. Journal of Business Venturing, 25(5), 481–492. doi:10.1016/j.jbusvent.2009.07.005.
+Holt, D. (2012). The longitudinal evolution of environmental “Ecopreneurs” from the
+1990s: Mergers and acquisitions and the waste management industry. Critical
+Studies on Corporate Responsibility, Governance and Sustainability, 3, 101–120.
+doi:10.1108/S2043-9059(2012)0000003013.
+Ibarra, D., Bigdeli, A. Z., Igartua, J. I., & Ganzarain, J. (2020). Business model innovation
+in established SMEs: A configurational approach. Journal of Open Innovation: Technology, Market, and Complexity, 6(3). doi:10.3390/JOITMC6030076.
+Ibn-Mohammed, T., Mustapha, K.B., .Godsell, J., Adamu, Z., Babatunde, K.A., .Akintade,
+D.D....K.oh, S.C.L. (2021). A critical review of the impacts of COVID-19 on the global
+economy and ecosystems and opportunities for circular economy strategies.
+Resources, Conservation and Recycling, 164, 105169. doi: 10.1016/j.
+resconrec.2020.105169
+International Telecommunication Union (ITU). (2020). Economic Impact of COVID-19
+on Digital Infrastructure Report of economic experts roundtable organized by ITU.
+International Telecommunication Union.
+Janssen, M., & van der Voort, H. (2020). Agile and adaptive governance in crisis
+response: Lessons from the COVID-19 pandemic. International Journal of Information Management, 55. doi:10.1016/j.ijinfomgt.2020.102180.
+Jayaraman, P. P., Forkan, A. R. M., Morshed, A., Haghighi, P. D., & Kang, Y. Bin (2020).
+Healthcare 4.0: A review of frontiers in digital health. Wiley Interdisciplinary
+Reviews: Data Mining and Knowledge Discovery, 10(2), 1–23. doi:10.1002/
+widm.1350.
+Jemala, M. (2021). Long-term research on technology innovation in the form of new
+technology patents. International Journal of Innovation Studies, 5(4), 148–160.
+doi:10.1016/j.ijis.2021.09.002.
+Jo Hatch, M., & Schultz, M. (2003). Bringing the corporation into corporate branding.
+European Journal of Marketing, 37(7/8), 1041–1064. doi:10.1108/
+03090560310477654.
+Kanda, W., & Kivimaa, P. (2020). What opportunities could the COVID-19 outbreak
+offer for sustainability transitions research on electricity and mobility? Energy
+Research and Social Science, 68, 101666. doi:10.1016/j.erss.2020.101666.
+Kang, L., Li, Y., Hu, S., Chen, M., Yang, C., Yang, B. X., & L.iu, Z. (2020). The mental health
+of medical workers in Wuhan, China dealing with the 2019 novel coronavirus. The
+Lancet Psychiatry, 7(3), e14. doi:10.1016/S2215-0366(20)30047-X.
+Klymenko, O., & Lillebrygfjeld Halse, L. (2021). Sustainability practices during COVID19: An institutional perspective. International Journal of Logistics Management.
+doi:10.1108/IJLM-05-2021-0306.
+Kraus, S., Breier, M., Lim, W. M., Dabic, M., Kumar, S., Kanbach, D., et al. (2022). Literature reviews as independent studies in business and management: Guidelines for
+academic practice. Review of Managerial Science in press.
+Kromidha, E., Gannon, M., & Taheri, B. (2021). A Profile-Based Approach to Understanding Social Exchange: Authentic Tour-Guiding in the Sharing Economy. Journal of
+Travel Research. doi:10.1177/00472875211062616.
+Lambert, H., Gupte, J., Fletcher, H., Hammond, L., Lowe, N., Pelling, M., &
+Shanks, K. (2020). COVID-19 as a global challenge: Towards an inclusive and sustainable future. The Lancet Planetary Health, 4(8), e312–e314. doi:10.1016/S2542-
+5196(20)30168-6.
+Lee, D., Kang, J., & Kim, K. (2020). Global collaboration research strategies for sustainability in the post COVID-19 era: Analyzing virology-related national-funded projects. Sustainability (Switzerland), 12(16), 6561. doi:10.3390/su12166561.
+Lee, S. M., & Lee, D. H. (2021). Opportunities and challenges for contactless healthcare
+services in the post-COVID-19 Era. Technological Forecasting and Social Change,
+167. doi:10.1016/j.techfore.2021.120712.
+Lewandowsky, S., Ecker, U. K. H., Seifert, C. M., Schwarz, N., & Cook, J. (2012). Misinformation and Its Correction: Continued Influence and Successful Debiasing. Psychological Science in the Public Interest, Supplement, 13(3), 106–131. doi:10.1177/
+1529100612451018.
+Li, X., Yuen, K. F., Wang, X., & Wong, Y. D. (2021). Contactless technologies adoption
+during the coronavirus pandemic: A combined technology acceptance and health
+belief perspective. Technology Analysis and Strategic Management. doi:10.1080/
+09537325.2021.1988919.
+MacFarlane, D., Hurlstone, M. J., & Ecker, U. K. H. (2020). Protecting consumers from
+fraudulent health claims: A taxonomy of psychological drivers, interventions, barriers, and treatments. Social Science and Medicine, 259, 112790. doi:10.1016/j.socscimed.2020.112790.
+Mahendru, M., Sharma, G. D., Pereira, V., Gupta, M., & Mundi, H. S. (2022). Is it all about
+money honey? Analyzing and mapping financial well-being research and identifying future research agenda. Journal of Business Research, 150(November), 417–436.
+doi:10.1016/j.jbusres.2022.06.034.
+Meyer, N., Niemand, T., Davila, A., & Kraus, S. (2022). Biting the bullet: When self-efficacy mediates the stressful effects of COVID-19 beliefs. PloS one, 17(1 January), 1–
+16. doi:10.1371/journal.pone.0263022.
+Miller, M. T. (2020). Do learning organizations learn? Higher education institutions and
+pandemic response strategies. Learning Organization, 28(1), 84–93. doi:10.1108/
+TLO-09-2020-0159.
+Moher, D., Liberati, A., Tetzlaff, J., & Altman, D. G. (2009). Preferred reporting items for
+systematic reviews and meta-analyses: The PRISMA statement. BMJ (Online), 339
+(7716), 332–336. doi:10.1136/bmj.b2535.
+12
+G.D. Sharma, S. Kraus, M. Srivastava et al. Journal of Innovation & Knowledge 7 (2022) 100281
+Mota Veiga, P., Fernandes, C., & Ambrosio, F. (2022). Knowledge spillover, knowledge 
+management and innovation of the Portuguese hotel industry in times of crisis.
+Journal of Hospitality and Tourism Insights. doi:10.1108/JHTI-08-2021-0222.
+Mukhtar, S. (2020). Psychological health during the coronavirus disease 2019 pandemic outbreak. International Journal of Social Psychiatry, 66(5), 512–516.
+doi:10.1177/0020764020925835.
+Nasser, W. H. (2021). Innovation capital, sustainable entrepreneurial orientation, and
+the moderating role of entrepreneurial resilience. Entrepreneurial Business and Economics Review, 9(3), 73–85. doi:10.15678/EBER.2021.090305.
+Netz, J., Reinmoeller, P., & Axelson, M. (2022). Crisis-driven innovation of products new
+to firms: The sensitization response to COVID-19. R and D Management, 52(2),
+407–426. doi:10.1111/radm.12522.
+Nuru, M. (2020). Comprehensive Systemic eCommerce Framework : Solution for the
+COVID-19 Pandemic Impacts on Small Business Communities. (June). Retrieved
+from https://www.researchgate.net/publication/342492196
+O’Connor, C. M., Anoushiravani, A. A., DiCaprio, M. R., Healy, W. L., & Iorio, R. (2020).
+Economic Recovery After the COVID-19 Pandemic: Resuming Elective Orthopedic
+Surgery and Total Joint Arthroplasty. Journal of Arthroplasty, 35(7), S32–S36.
+doi:10.1016/j.arth.2020.04.038.
+OECD. (2020). The impact of COVID-19 on student equity and inclusion: Supporting
+vulnerable students during school closures and school re-openings. In OECD Publishing. Retrieved from https://www.oecd.org/coronavirus/policy-responses/theimpact-of-covid-19-on-student-equity-and-inclusion-supporting-vulnerable-stu
+dents-during-school-closures-and-school-re-openings-d593b5c8/
+Omar, A. R. C., Ishak, S., & Jusoh, M. A. (2020). The impact of COVID-19 Movement Control Order on SMEs’ businesses and survival strategies. Geografia, 16(2).
+Osingada, C. P., & Porta, C. M. (2020). Nursing and Sustainable Development Goals
+(SDGs) in a COVID-19 world: The state of the science and a call for nursing to lead.
+Public Health Nursing, 37(5), 799–805. doi:10.1111/phn.12776.
+Ozili, P. (2020). COVID-19 in Africa: Socio-economic impact, policy response and
+opportunities. International Journal of Sociology and Social Policy.
+Papa, A., Mital, M., Pisano, P., & Del Giudice, M. (2020). E-health and wellbeing monitoring using smart healthcare devices: An empirical investigation. Technological Forecasting and Social Change, 153, 119226. doi:10.1016/j.techfore.2018.02.018.
+Price, S., Wilkinson, T., & Coles, T. (2022). Crisis? How small tourism businesses talk
+about COVID-19 and business change in the UK. Current Issues in Tourism, 25(7),
+1088–1105. doi:10.1080/13683500.2021.2023114.
+Puliga, G., & Ponta, L. (2022). COVID-19 firms’ fast innovation reaction analyzed
+through dynamic capabilities. R and D Management, 52(2), 331–342. doi:10.1111/
+radm.12502.
+Puriwat, W., & Tripopsakul, S. (2021). The impact of digital social responsibility on preference and purchase intentions: The implication for open innovation. Journal of
+Open Innovation: Technology, Market, and Complexity, 7(1), 1–11. doi:10.3390/
+joitmc7010024.
+Purnomo, B. R., Adiguna, R., Widodo, W., Suyatna, H., & Nusantoro, B. P. (2021).
+Entrepreneurial resilience during the COVID-19 pandemic: Navigating survival,
+continuity and growth. Journal of Entrepreneurship in Emerging Economies, 13(4),
+497–524. doi:10.1108/JEEE-07-2020-0270.
+Ramalingam, B., & Prabhu, J. (2020). Innovation, development and COVID-19 : Challenges, opportunities and ways forward. In OECD Tackling Coronavirus (COVID19): Contributing to a global effort.
+Ranjbari, M., Morales-Alonso, G., Esfandabadi, Z. S., & Carrasco-Gallego, R. (2019). Sustainability and the sharing economy: Modelling the interconnections. Direccion y
+Organizacion, 68, 33–40. doi:10.37610/dyo.v0i68.549.
+Ranjbari, M., Shams Esfandabadi, Z., Zanetti, M. C., Scagnelli, S. D., Siebers, P. O.,
+Aghbashlo, M., & Tabatabaei, M. (2021). Three pillars of sustainability in the wake
+of COVID-19: A systematic review and future research agenda for sustainable
+development. Journal of Cleaner Production, 297. doi:10.1016/j.
+jclepro.2021.126660.
+Rocha, H., Pirson, M., & Suddaby, R. (2021). Business with Purpose and the Purpose of
+Business Schools: Re-Imagining Capitalism in a Post Pandemic World: A Conversation with Jay Coen Gilbert, Raymond Miles, Christian Felber, Raj Sisodia, Paul Adler,
+and Charles Wookey. Journal of Management Inquiry, 30(3), 354–367. doi:10.1177/
+1056492620970279.
+Ryan, B. J., Coppola, D., Canyon, D. V., Brickhouse, M., & Swienton, R. (2020). COVID-19
+Community Stabilization and Sustainability Framework: An Integration of the
+Maslow Hierarchy of Needs and Social Determinants of Health. Disaster Medicine
+and Public Health Preparedness, 14(5), 623–629. doi:10.1017/dmp.2020.109.
+Sampat, B. N., & Shadlen, K. C. (2021). The covid-19 innovation system. Health Affairs,
+40(3), 400–409. doi:10.1377/hlthaff.2020.02097.
+Saye, & M, E. M. A. (2020). How AI, data science and technology is used to fight the pandemic COVID-19: Case study in Saudi Arabia environment. Research in World Economy, 11(5), 409–419. doi:10.5430/RWE.V11N5P409.
+Schoemaker, P. J. H., Heaton, S., & Teece, D. (2018). Innovation, dynamic capabilities,
+and leadership. California Management Review, 61(1), 15–42.
+Scott, B. K., Miller, G. T., Fonda, S. J., Yeaw, R. E., Gaudaen, J. C., & Pavliscsak, H. H. (2020).
+Advanced digital health technologies for COVID-19 and future emergencies. Telemedicine and E-Health, 26(10), 1226–1233. doi:10.1089/tmj.2020.0140.
+Seth, N. (2015). Strengthen the means of implementation and revitalize the global
+partnership for sustainable development. doi: 10.18356/3235a110-en
+Sharma, G. D., Kraus, S., Liguori, E., Bamel, U. K., & Chopra, R. (2022). Entrepreneurial
+challenges of covid-19: Re-thinking entrepreneurship after the crisis. Journal of
+Small Business Management. doi:10.1080/00472778.2022.2089676.
+Sharma, G. D., Talan, G., & Jain, M. (2020). Policy response to the economic challenge
+from COVID-19 in India: A qualitative enquiry. Journal of Public Affairs, 20(4).
+doi:10.1002/pa.2206.
+Sharma, R., Lopes de Sousa Jabbour, A. B., Jain, V., & Shishodia, A. (2022). The role of digital technologies to unleash a green recovery: Pathways and pitfalls to achieve the
+European Green Deal. Journal of Enterprise Information Management, 35(1), 266–
+294. doi:10.1108/JEIM-07-2021-0293.
+Shrestha, R. K., & Decost, L'Espoir (2021). Developing dynamic capabilities for community collaboration and tourism product innovation in response to crisis: Nepal and
+COVID-19. Journal of Sustainable Tourism. doi:10.1080/09669582.2021.2023164.
+Singh, J., & Singh, J. (2020). COVID-19: Challenge to SDG and Globalization. Electronic
+Research Journal of Social Sciences and Humanities, 2(1), 168–172.
+Song, H., Yang, Y., & Tao, Z. (2020). How different types of financial service providers
+support small- and medium- enterprises under the impact of COVID-19 pandemic:
+From the perspective of expectancy theory. Frontiers of Business Research in China,
+14(1). doi:10.1186/s11782-020-00095-1.
+Soumitra, D., Bruno, L., Rivera Leon, L., & Wunsch-Vincent, S. (2021). Global Innovation 
+Index 2021: Tracking Innovation through the COVID-19 Crisis. In World Intellectual Property Organization. Retrieved from https://www.bloomberg.com/topics/
+global-innovation-index%0Ahttp://www.wipo.int/publications/ru/series/index.
+jsp?id=129
+Stovold, E., Beecher, D., Foxlee, R., & Noel-Storr, A. (2014). Study flow diagrams in
+Cochrane systematic review updates: An adapted PRISMA flow diagram. Systematic Reviews, 3(1), 1–5. doi:10.1186/2046-4053-3-54.
+Sun, Y., Duru, O. A., Razzaq, A., & Dinca, M. S. (2021). The asymmetric effect eco-innovation and tourism towards carbon neutrality target in Turkey. Journal of Environmental Management, 299,(May) 113653. doi:10.1016/j.jenvman.2021.113653.
+Surya, B., Menne, F., Sabhan, H., Suriani, S., Abubakar, H., & Idris, M. (2021). Economic
+growth, increasing productivity of smes, and open innovation. Journal of Open Innovation: Technology, Market, and Complexity, 7(1), 1–37. doi:10.3390/joitmc7010020.
+Syriopoulos, T., Tsatsaronis, M., & Gorila, M. (2020). The global cruise industry: Financial performance evaluation. Research in transportation business and management.
+doi:10.1016/j.rtbm.2020.100558.
+Teece, D. J., Pisano, G., & Shuen, A. (2009). Dynamic capabilities and strategic management. Knowledge and Strategy, 18(7), 77–116. doi:10.1093/0199248540.003.0013.
+Thomas, L. D. W., & Tee, R. (2022). Generativity: A systematic review and conceptual
+framework. International Journal of Management Reviews, 24(2), 255–278.
+doi:10.1111/ijmr.12277.
+Tworzyd»o, D., Gawronski, S., Opolska-Biela  nska, A., & Lach, M. (2022). Changes in the 
+demand for CSR activities and stakeholder engagement based on research conducted among public relations specialists in Poland, with consideration of the
+SARS-COV-2 pandemic. Corporate Social Responsibility and Environmental Management, 29(1), 135–145. doi:10.1002/csr.2189.
+UN. (2018). Transforming Our World: The 2030 Agenda for Sustainable Development.
+A New Era in Global Health. doi:10.1891/9780826190123.ap02.
+van Nunen, K., Li, J., Reniers, G., & Ponnet, K. (2018). Bibliometric analysis of safety culture research. Safety Science, 108(June), 248–258. doi:10.1016/j.ssci.2017.08.011.
+Vu, K., & Hartley, K. (2022). Drivers of Growth and Catch-up in the Tourism Sector of
+Industrialized Economies. Journal of Travel Research, 61(5), 1156–1172.
+doi:10.1177/00472875211019478.
+Waila, P., Singh, V. K., & Singh, M. K. (2016). A Scientometric Analysis of Research in
+Recommender Systems. Journal of Scientometric Research, 5(1), 71–84.
+doi:10.5530/jscires.5.1.10.
+Wang, B., Pan, S. Y., Ke, R. Y., Wang, K., & Wei, Y. M. (2014). An overview of climate
+change vulnerability: A bibliometric analysis based on Web of Science database.
+Natural Hazards, 74(3), 1649–1666. doi:10.1007/s11069-014-1260-y.
+Wang, L., Zhang, M., & Verousis, T. (2021). The road to economic recovery: Pandemics
+and innovation. International Review of Financial Analysis, 75. doi:10.1016/j.
+irfa.2021.101729.
+Wendt, C., Adam, M., Benlian, A., & Kraus, S. (2021). Let’s connect to keep the distance:
+How smes leverage information and communication technologies to address the
+covid-19 crisis. 1-19. doi: 10.1007/s10796-021-10210-z
+WHO. (2020). Coronavirus disease advice for the public. World Health Organization, 30.
+Retrieved from https://www.who.int/emergencies/diseases/novel-coronavirus2019/advice-for-public.
+Xie, X., Huo, J., & Zou, H. (2019). Green process innovation, green product innovation,
+and corporate financial performance: A content analysis method. Journal of Business Research, 101(June 2018), 697–706. doi:10.1016/j.jbusres.2019.01.010.
+Ye, Q., & Cheng, C. (2019). Green Technological Innovation Efficiency and Financial Ecological Environment. Open Journal of Social Sciences, 07(12), 132–151. doi:10.4236/
+jss.2019.712011.
+Zhang, J.(Mandy), & Wang, Y.(Jasmine) (2022). Effectiveness of corporate social responsibility activities in the COVID-19 pandemic. Journal of Product and Brand Management. doi:10.1108/JPBM-07-2021-3551.
+Zhao, Z., Ma, Y., Mushtaq, A., Rajper, A. M. A., Shehab, M., Heybourne, A., et al. (2021).
+Applications of Robotics, AI, and Digital Technologies during COVID-19: A Review.
+Disaster Medicine and Public Health Preparedness, 1–11. doi:10.1017/dmp.2021.9.
+Zimmerling, A., & Chen, X. (2021). Innovation and possible long-term impact driven by
+COVID-19: Manufacturing, personal protective equipment and digital technologies. Technology in Society, 65. doi:10.1016/j.techsoc.2021.101541.
+Zupic, I., &
+Cater, T. (2015). Bibliometric Methods in Management and Organization.
+Organizational Research Methods, 18(3), 429–472. doi:10.1177/
+1094428114562629.
+13
+G.D. Sharma, S. Kraus, M. Srivastava et al. Journal of Innovation & Knowledge 7 (2022) 100281

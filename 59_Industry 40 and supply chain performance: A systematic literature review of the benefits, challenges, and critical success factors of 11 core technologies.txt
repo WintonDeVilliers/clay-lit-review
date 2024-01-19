@@ -1,0 +1,3235 @@
+Industrial Marketing Management 105 (2022) 268–293
+Available online 28 June 2022
+0019-8501/© 2022 The Authors. Published by Elsevier Inc. This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).
+Industry 4.0 and supply chain performance: A systematic literature review
+of the benefits, challenges, and critical success factors of 11
+core technologies
+Fakhreddin F. Rad a
+, Pejvak Oghazi a,b,*
+, Maximilian Palmi´e c
+, Koteshwar Chirumalla d
+,
+Natallia Pashkevich a
+, Pankaj C. Patel e
+, Setayesh Sattari f
+a Sodertorn University, School of Social Sciences, Sweden b Hanken school of Business, Finland c Institute of Technology Management, University of St. Gallen, Switzerland d School of Innovation, Design and Engineering, Maalardalen University, Sweden e Villanova School of Business, Villanova University, USA f Whittier College, Whittier, CA 90602, USA
+ARTICLE INFO
+Keywords:
+Industry 4.0
+Supply chain
+Digitization
+Digitalization
+Digital technologies
+Literature review
+ABSTRACT
+The exponentially growing literature on Industry 4.0 technologies and their implications for supply chains exhibits valuable insights alongside considerable fragmentation. While prior systematic literature reviews (SLRs)
+started to consolidate the literature, an SLR that simultaneously (a) covers several core technologies of the Industry 4.0, (b) synthesizes their positive and negative implications for supply chain performance in a broad
+sense, and (c) accounts for the critical success factors that foster or impede these implications is still missing. We
+contribute to establishing a cumulative body of knowledge by conducting such an SLR. We synthesize 221 articles published on 11 Industry 4.0 technologies between 2005 and 2021. Rather than aggregate implications,
+our SLR presents the benefits, challenges, and critical success factors of each core technology vis-a-vis ` supply
+chain performance individually. We integrate our findings into a framework of Industry 4.0 supply chain performance and derive promising avenues for future research. Specifically, we call for more research on (a) the
+challenges and critical success factors of Industry 4.0 technologies; (b) hitherto underexplored core technologies
+of the Industry 4.0; (c) the interaction of multiple core technologies (are they complements or substitutes?); as
+well as for (d) further consolidation and interdisciplinary dissemination efforts.
+1. Introduction
+The significance of digitalization, defined as the application of digital
+technologies (Palmi´e, Mieh´e, Oghazi, Parida, & Wincent, 2022; Ritter &
+Pedersen, 2020), has been equated with the significance of mechanization, electrification, and information technologies – the previous industrial revolutions – earning digitalization the designation of “the
+fourth industrial revolution” (Frederico, 2018; Ghobakhloo, 2018).1
+Digitalization affords fundamental changes in intra- and interorganizational processes, with its value-creation potential estimated to
+exceed 100 trillion USD by 2025 (Hahn, 2020; Palmi´e et al., 2022).
+Many of the most valuable companies today have entered the resulting
+“Industry 4.0”, relying heavily on advanced digital technologies in their
+business models and supply chains (Büyükozkan ¨ & Goçer, ¨ 2018; Choi,
+Wen, Sun, & Chung, 2019). According to several scholars (e.g., Gebauer
+et al., 2020; Kohtamaki, ¨ Parida, Oghazi, Gebauer, & Baines, 2019), Industry 4.0 technologies hold the key to reaping the benefits of digital
+servitization, defined as the “transformation in processes, capabilities,
+and offerings within industrial firms and their associate ecosystems to
+progressively create, deliver, and capture increased service value arising
+from a broad range of enabling digital technologies” (Sjodin, ¨ Parida,
+Palmi´e, & Wincent, 2021, p. 574). Some of the main challenges associated with digital servitization are rooted in external relationships and
+frictions between firms (Khanra, Dhir, Parida, & Kohtamaki, ¨ 2021;
+* Corresponding author.
+E-mail addresses: fakhreddin.f.rad@sh.se (F.F. Rad), pejvak.oghazi@sh.se (P. Oghazi), maximilian.palmie@unisg.ch (M. Palmi´e), koteshwar.chirumalla@mdh.se
+(K. Chirumalla), natallia.pashkevich@sh.se (N. Pashkevich), pankaj.patel@villanova.edu (P.C. Patel), ssattari@whittier.edu (S. Sattari). 1 For more details on each of the four industrial revolutions, see Schwab & Davis (2018, pp. 8–11).
+Contents lists available at ScienceDirect
+Industrial Marketing Management
+journal homepage: www.elsevier.com/locate/indmarman
+https://doi.org/10.1016/j.indmarman.2022.06.009
+Received 19 August 2020; Received in revised form 9 June 2022; Accepted 12 June 2022 
+Industrial Marketing Management 105 (2022) 268–293
+269
+Porter & Heppelmann, 2014; Rabetino, Kohtam¨
+aki, Brax and Sihvonen,
+2021). Industry 4.0 technologies can help firms master these challenges
+because they support the realization of interorganizational logics,
+improve the management of supply chains, and reshape interorganizational processes (Huikkola, Rabetino, Kohtamaki, ¨ & Gebauer, 2020;
+Kohtamaki, ¨ Rabetino, Einola, Parida, & Patel, 2021). Studying the influence of Industry 4.0 technologies on supply chains is, therefore,
+particularly important (Palmi´e et al., 2022; Porter & Heppelmann,
+2014).
+Over recent years, research on Industry 4.0 technologies and their
+implications for supply chains have grown exponentially, producing
+many meaningful insights but also causing a fragmentation of the
+literature and a blurring of what we know and do not know (Büyükozkan ¨
+& Goçer, ¨ 2018; Hahn, 2020). Existing studies display two tendencies
+that impede the emergence of a comprehensive and well-balanced understanding. First, a widespread inclination to focus on the potential
+benefits of Industry 4.0 technologies, while bypassing their downsides
+and critical success factors (e.g., Fatorachian & Kazemi, 2021; Pfohl,
+Yahsi, & Kurnaz, 2015). Second, a prevalent propensity to examine only
+one or a few of these technologies in a given research project, although
+the Industry 4.0 comprises a broad variety of technologies. Indeed, it
+remains unclear to what extent insights from one technology can be
+generalized to other technologies (e.g., Frederico, Garza-Reyes, Anosike,
+& Kumar, 2019; Krykavskyy, Pokhylchenko, & Hayvanovych, 2019).
+Systematic literature reviews (SLRs) have started to consolidate our
+body of knowledge on the implications of Industry 4.0 technologies for
+supply chains. Prior SLRs in this domain have focused on individual
+technologies (e.g., mobile technologies [Barata, Da Cunha, & Stal,
+2018]), supply chains in specific industries (e.g., pharma [Ding, 2018]),
+and specific aspects of supply chains (e.g., their environmental performance [Yadav, Luthra, Jakhar, Mangla, & Rai, 2020], control issues
+[Ivanov, Sethi, Dolgui, & Sokolov, 2018], and proximity to partners
+[Dallasega, Rauch, & Linder, 2018]). Still missing is an SLR that
+simultaneously (a) covers several core technologies of the Industry 4.0,
+(b) synthesizes their positive and negative implications for supply chain
+performance in a broader sense, and (c) accounts for the critical success
+factors that maximize positive or minimize negative implications.
+Our study supports the emergence of a more comprehensive and
+better-balanced understanding of the Industry 4.0 and supply chains by
+producing an extensive SLR with these characteristics. Conducting an
+extensive review of the pertinent literature, our study covers 221 articles
+published between 2005 and 2021 to address two research questions:
+(RQ1) What benefits and challenges do the core technologies of the
+Industry 4.0 bring to supply chain performance? (RQ2) Which critical
+success factors regulate the realization of these benefits and challenges?
+Our SLR provides answers to these research questions for 11 core
+technologies of the Industry 4.0 – namely, the Internet of People, the
+Internet of Things, cloud computing, big data technologies, blockchain,
+augmented reality, automation, robotics, additive manufacturing, simulation,
+and semantic technologies. Our principal intention is not to answer these
+questions at the level of the Industry 4.0 as a whole. Rather, it is directed
+at the technology level, describing benefits, challenges, and critical
+success factors for each core technology individually. We develop a
+framework that integrates the influence of the 11 core technologies,
+their benefits, challenges, and critical success factors on supply chain
+performance. This framework provides a foundation and a structural
+perspective to discuss supply chains in the fourth industrial revolution
+(e.g., Barata, 2021; Meindl, Ayala, Mendonça, & Frank, 2021) and to
+map core technologies of the Industry 4.0 as well as their benefits,
+challenges, and critical success factors (e.g., Fatorachian & Kazemi,
+2021; Sony, Antony, Mc Dermott, & Garza-Reyes, 2021).
+2. Method
+Our study follows the established five-step process of conducting
+SLRs described by Denyer and Tranfield (2009) and illustrated in Fig. 1.
+First, we conducted an exploratory literature review with respect to
+Industry 4.0 technologies and supply chains to collate key technology
+characteristics (e.g., Büyükozkan ¨ & Goçer, ¨ 2018; Frederico, 2018;
+Ghobakhloo, 2018; Schwab & Davis, 2018) and supply chain components integrated into these technologies (Akkermans, Bogerd, Yücesan,
+& Van Wassenhove, 2003; Smith & Reece, 1999).
+Second, we based the studies for our SLR on two databases, Web of
+Science (WoS) and Business Source Premier (BSP). To identify potentially relevant articles in both databases, we used Boolean logic to
+combine the search term “supply chain” with various search terms
+referring to Industry 4.0. Specifically, we applied the following search
+string for English language journal articles (cf. Keupp, Palmi´e, & Gassmann, 2012):
+((“supply chain”) AND (“industry 4.0” OR “digit*” OR “cyber-physical
+systems” OR “fourth industrial revolution”))
+In the WoS, we restricted our search to the following domains:
+Management, Engineering, Transportation, Business, Economics, Computer Science, Operations Research, Management Science, Telecommunications, Remote Sensing, Automation Control Systems, Law,
+Robotics, and Social Issues. We did not restrict the search in either
+database to a specific period in time. Our review includes articles published before October/November 2021. These search criteria resulted in
+1440 hits in WoS and 122 hits in BSP. Fifty-two duplicate hits occurring
+in both databases were excluded, yielding 1510 unique studies. To
+evaluate the likelihood of missing relevant articles, we reran the above
+search string in Scopus in April 2022, looking for English language articles from the “business, management and accounting” domain that
+feature the search terms in the title, abstract, author-supplied keywords,
+and/or standardized index terms. Scopus returned 1079 document results. Since 1079 is fewer than 1510, the likelihood of missing a
+considerable share of relevant articles is low.
+Third, we read the 1510 abstracts resulting from step 2 to check
+whether these hits met additional criteria. Our starting point for the
+identification of Industry 4.0 core technologies were BCG’s (2015) “Nine
+Pillars” of the Industry 4.0, which have been previously utilized in academic research (e.g., Vaidya, Ambad, & Bhosle, 2018). As two of these
+nine pillars (“cybersecurity” and “horizontal and vertical system integration”) describe aims and principles rather than specific technologies,
+Fig. 1. Systematic review process.
+F.F. Rad et al. 
+Industrial Marketing Management 105 (2022) 268–293
+270
+we replaced these two pillars with associated technologies. For cybersecurity, we used “blockchain” as an enabling technology. To depict
+horizontal and vertical system integration, we used “automation”,
+“internet of people”, and “semantic technologies”. Semantic technologies support system integration because “semantic technologies [can be
+used] to achieve interoperability among heterogeneous IoT systems”
+(Patel, Ali, & Sheth, 2018, p. 85). Including three additional technologies to represent one of the original nine pillars resulted in a list of 11
+core technologies: The Internet of People (IoP) (Ghobakhloo, 2018), the
+Internet of Things (IoT) (Boyes, Hallaq, Cunningham, & Watson, 2018;
+Frederico, 2018; Schwab & Davis, 2018), cloud computing (CC) (Stergiou, Psannis, Kim, & Gupta, 2018), big data technologies (BDTs)
+(Frederico, 2018; Ghobakhloo, 2018), blockchain (BC) (Schwab &
+Davis, 2018), augmented reality (AR) (Yew, Ong, & Nee, 2016), automation (AU) (Frederico, 2018; Lu, 2017), robotics (RO) (Schwab &
+Davis, 2018), additive manufacturing (AM) (Mellor, Hao, & Zhang,
+2014; Schwab & Davis, 2018), simulation (SI) (Xu et al., 2016), and
+semantic technologies (STs) (Ghobakhloo, 2018). The 11 core technologies are briefly described in Table 1.
+Search hits that did not include one or more of these core technologies were dropped. Moreover, articles returned by the search engines
+were only retained for the subsequent steps if their abstract suggested
+that the respective article deals at least moderately with the Industry 4.0
+and/or its core technologies in the context of supply chains, which are
+defined as networks of two or more independent actors (e.g., suppliers,
+customers, and logistics service providers). Applying these criteria to the
+1510 abstracts reduced the number of articles to 283 (256 files from
+WoS and 27 additional, unique files from BSP).
+We then read the full text of these 283 documents to determine
+whether the articles actually dealt with the Industry 4.0 and/or its core
+technologies in the context of supply chains to a significant extent. This
+analysis led to the exclusion of a further 62 documents. The remaining
+221 documents represent the final set of articles synthesized in our SLR.
+Fig. 2 outlines the selection process of articles from the two databases.
+Fourth, we developed a data coding form to extract the necessary
+information to answer our research questions (Tranfield, Denyer, &
+Smart, 2003). At least two researchers coded each study to minimize the
+risk of coding errors and misinterpretations (Denyer & Tranfield, 2009).
+We then performed a thematic analysis and subsequent synthesis to
+derive the benefits, challenges, and critical success factors associated
+with the 11 Industry 4.0 core technologies in the supply-chain context
+(Cerchione & Esposito, 2016; Tranfield et al., 2003). Fifth, we used the
+results from the thematic analysis and subsequent synthesis to portray
+the current state of knowledge, develop a framework, and propose
+future research directions. Our findings are presented next.
+3. Findings
+3.1. Descriptive account of the 221 articles in our SLR
+Before we synthesize the benefits, challenges, and critical success
+factors of Industry 4.0 technologies regarding supply chain performance, we provide a descriptive account of the 221 reviewed articles.2
+Fig. 3 reveals a substantial increase in the number of relevant
+articles published over time, especially after 2017. Moreover, Fig. 3
+shows that the technologies at the core of the Industry 4.0 had already
+been studied in a supply-chain context for several years before the term
+“Industry 4.0” was first used at the Hanover Trade Fair in 2011 (Frederico, 2018; Ghobakhloo, 2018). Interest during the early years centered
+on technologies such as SI and the IoT around RFID (e.g., Chen, Fan, &
+Chen, 2009; Gessner, Volonino, & Fish, 2007).
+Table 2 shows that the International Journal of Production Research
+has published, by far, the most articles in our sample – 21 out of the 221
+Table 1
+Use of Industry 4.0 technologies in the supply chain.
+Industry 4.0
+technologies
+Description Sources discussing use of
+technology
+Additive
+manufacturing
+(AM)
+In contrast to subtractive
+manufacturing, additive
+manufacturing and production
+are characterized by joining the
+materials layer upon layer, with
+the purpose of creating physical
+output from a 3D model. AM
+disrupts the conventional
+subtractive manufacturing and
+production system, including
+logistics, shipping,
+transportation, infrastructure,
+and retail. In this paper, we
+focus on both 3D modelling and
+3D printing.
+(Mellor et al., 2014;
+Schwab & Davis, 2018)
+Augmented reality
+(AR)
+Technology through which
+computer graphics are
+superimposed on the real
+environment, allowing
+improved visualization and
+views of various environments
+within supply chains, such as
+physical stores.
+(Gustafsson et al., 2019;
+Yew et al., 2016)
+Automation (AU) Technologies that provide a
+network of self-conducting
+activities and processes. In this
+paper, automation is mainly
+grounded in predictable
+conditions and centered on
+repetitive tasks.
+(Frederico, 2018; Lu,
+2017)
+Big data
+technologies
+(BDTs)
+Technologies that enable the
+capture, manipulation, and
+analysis of large, diversified
+amounts of data (throughout the
+supply chain) for the purpose of
+creating knowledge and
+information.
+(Frederico, 2018;
+Ghobakhloo, 2018)
+Blockchain (BC) It is a distributed ledger
+technology platform that can
+store and exchange digital
+content (e.g., information and
+transactions) among
+participants (including the
+supply chain actors), without
+requiring a centralized party.
+(Schwab & Davis, 2018;
+Van Hoek, Fugate,
+Davletshin, & Waller,
+2019)
+Cloud computing
+(CC)
+Technologies that enable shared
+data storage, computation,
+applications, and services on the
+cloud, for businesses and supply
+chains.
+(Jede & Teuteberg, 2015;
+Stergiou et al., 2018)
+Internet of People
+(IoP)
+Technology that targets the
+relationship between users of
+online platforms and supply
+chain actors. Through IoP, user
+information can be gathered
+from online platforms for
+business purposes.
+(Ghobakhloo, 2018)
+Internet of Things
+(IoT)
+A network of physical objects is
+embedded with technologies,
+such as sensors, to produce,
+process, and exchange data.
+Physical objects can range from
+consumer products to
+production equipment and
+transportation vehicles,
+throughout the supply chain. In
+this paper, industrial IoT is
+considered a subset of IoT.
+(Boyes et al., 2018;
+Frederico, 2018; Schwab
+& Davis, 2018)
+Robotics (RO) Technologies that are capable of
+cognition, navigation and
+mobility, and complex
+interactions. Robots can be used
+for various supply chain
+(Schwab & Davis, 2018)
+(continued on next page) 2 A list of the 221 reviewed articles is provided in the Appendix.
+F.F. Rad et al. 
+Industrial Marketing Management 105 (2022) 268–293
+271
+articles (9.5%). Other prominent journals in decreasing order are: Production Planning & Control (8 articles; 3.6%), the Journal of Cleaner
+Production (7 articles; 3.2%), Supply Chain Management: An International
+Journal (7 articles; 3.2%), and Sustainability (7 articles; 3.2%). Three
+more journals have each published 5 or 6 articles. The remaining 155
+articles are distributed across 117 different journals. The dispersion of
+papers is indicative of the multi-faceted and multidisciplinary nature of
+this topic (cf. Junge, 2019; Krykavskyy et al., 2019).
+Fig. 4 illustrates that most studies on the topic have applied empirical
+methods. With a share of 57.9% (128 articles), empirical approaches
+outnumber all other methods combined. There is, therefore, much
+empirical evidence for our SLR to integrate.
+Fig. 5 presents the distribution of research interest across the 11 core
+technologies that constitute the Industry 4.0. A single paper may address
+two or more constituting technologies together (e.g., BC with IoT). The
+most heavily discussed core technology is the Internet of Things, which
+is featured in 19.3% of the reviewed articles – attracting even more
+attention than the Industry 4.0 in general (15.2%). Blockchain (13.7%)
+and additive manufacturing (12.4%) are the second and third most
+prominent core technologies of the Industry 4.0. In contrast, the Internet
+of People (1.3%), semantic technologies (1.5%), and augmented reality
+Table 1 (continued )
+Industry 4.0
+technologies
+Description Sources discussing use of
+technology
+processes, such as
+transportation and production.
+Semantic
+technologies
+(STs)
+Technology for standardizing
+heterogenous data.
+(Ghobakhloo, 2018)
+Simulation (SI) Technologies that offer tools to
+evaluate and model complex
+systems (including supply
+chains) and to virtually
+represent objects. In this paper,
+digital twin is considered a
+subset of SI.
+(Defraeye et al., 2019; Xu
+et al., 2016)
+Fig. 2. Process of article selection.
+Fig. 3. Distribution of sampled articles over time.
+F.F. Rad et al. 
+Industrial Marketing Management 105 (2022) 268–293
+272
+Table 2
+Distribution of papers by journal.
+Name of journal Number
+of papers
+Name of journal Number
+of papers
+International Journal of
+Production Research
+21 Information Processing
+& Management
+1
+Production Planning &
+Control
+8 Information Systems
+Frontiers
+1
+Journal of Cleaner
+Production
+7 Information Systems
+Management
+1
+Supply Chain Management:
+An International Journal
+7 International Journal of
+Conceptual Modelling
+1
+Sustainability 7 International Journal of
+Logistics Management
+1
+IEEE Access 6 International Journal of
+Logistics Research and
+Applications
+1
+Computers in Industry 5 International Journal of
+Mathematical
+Engineering and
+Management Science
+1
+International Journal of
+Production Economics
+5 International Journal of
+Physical Distribution &
+Logistics Management
+1
+Brazilian Journal of
+Operations & Production
+Management
+4 International Journal of
+Simulation Modelling
+1
+Business Process
+Management Journal
+4 Journal of Cases on
+Information Technology
+1
+Industrial Management &
+Data Systems
+4 Journal of
+Computational Design
+and Engineering
+1
+International Journal of
+Computer Integrated
+Manufacturing
+3 Journal of Construction
+Engineering and
+Management
+1
+International Journal of
+Operations & Production
+Management
+3 Journal of Engineering
+and Technology
+Management
+1
+Journal of Enterprise
+Information Management
+3 Journal of Engineering,
+Design, and Technology
+1
+Journal of Manufacturing
+Technology Management
+3 Journal of Fashion
+Marketing and
+Management: An
+International Journal
+1
+Operations and Supply Chain
+Management – An
+International Journal
+3 Journal of Industrial
+Information Integration
+1
+Technological Forecasting
+and Social Change
+3 Journal of Industrial
+Integration and
+Management Innovation
+and Entrepreneurship
+1
+Annals of Operations
+Research
+2 Journal of Management
+in Engineering
+1
+Automation in Construction 2 Journal of
+Manufacturing Systems
+1
+Benchmarking – An
+International Journal
+2 Journal of Modelling in
+Management
+1
+Building Research &
+Information
+2 Journal of Operations
+Management
+1
+Journal of Retailing and
+Consumer Services
+1
+Computers & Industrial
+Engineering
+2 Journal of Risk and
+Reliability
+1
+International Journal of
+Productivity and
+Performance Management
+2 Journal of System
+Science Systems
+Engineering
+1
+International Journal of
+Sustainable Engineering
+2 Machines 1
+Journal of Business Logistics 2 Management and
+Production Engineering
+Review
+1
+Journal of Industrial Ecology 2 Management of
+Environmental Quality
+1
+LogForum 2 Management Science 1
+Operations Management
+Research
+2 Manufacturing &
+Service Operations
+Management
+1
+Table 2 (continued )
+Name of journal Number
+of papers
+Name of journal Number
+of papers
+Proceedings of the IEEE 2 Mindanao Journal of
+Science and Technology
+1
+Resources, Conservation and
+Recycling
+2 MIS Quarterly Executive 1
+ACM Transactions on Design
+Automation of Electronic
+Systems
+1 Multimedia Systems 1
+Additive Manufacturing 1 Oeconomia Copernicana 1
+Advanced Engineering
+Informatics
+1 Omega – International
+Journal of Management
+Science
+1
+Advances in Computers 1 Operational Research 1
+Advances in Manufacturing 1 Peer-to peer Networking
+and Applications
+1
+Annual Review of Resource
+Economics
+1 Polish Journal of
+Management Studies
+1
+Applied Health Economics
+and Health Policy
+1 Proceedings of the
+Institution of
+Mechanical Engineers,
+Part B: Journal of
+Engineering
+Manufacture
+1
+Australasian Journal of
+Information Systems
+1 Process Safety and
+Environmental
+Protection
+1
+Automatisierungstechnik 1 Production and
+Operations Management
+1
+Business Horizons 1 Production Engineering 1
+Complexity 1 Rapid Prototyping
+Journal
+1
+Computer-Aided Design 1 Resources Conservation
+and Recycling
+1
+Computer-Aided Civil and
+Infrastructure Engineering
+1 Robotics and ComputerIntegrated
+Manufacturing
+1
+Computers and Electronics in
+Agriculture
+1 SAM Advanced
+Management Journal
+1
+Cyberpsychology, Behavior,
+and Social Networking
+1 Science of the Total
+Environment
+1
+Decision Sciences 1 Science, Technology,
+and Society
+1
+EEE/ACM Transactions on
+Networking
+1 Sensors 1
+Electronics 1 Simulation 1
+European Journal of
+Management and Business
+Economics
+1 Simulation Modelling
+Practice and Theory
+1
+European Journal of
+Operational Research
+1 Smart and Sustainable
+Manufacturing Systems
+1
+Expert Systems 1 South African Journal of
+Industrial Engineering
+1
+Expert Systems with
+Applications
+1 Sustainable Production
+and Consumption
+1
+Financial and Credit Activity:
+Problems of Theory and
+Practice
+1 Systems Engineering 1
+FME Transactions 1 Tehniˇcki Vjesnik 1
+Fujitsu Scientific & Technical
+Journal
+1 The International
+Journal
+Entrepreneurship and
+Sustainability Issues
+1
+Future Internet 1 The International
+Journal of Advanced
+Manufacturing
+Technology
+1
+IEEE Antennas and
+Propagation Magazine
+1 The International
+Journal of Logistics
+Management
+1
+IEEE Internet of Things
+Journal
+IEEE Transactions of
+Engineering Management
+1
+1
+Technology Innovation
+Management Review
+1
+IEEE Transactions on
+Industrial Informatics
+IISE Transactions
+1
+1
+Technology in Society 1
+(continued on next page)
+F.F. Rad et al. 
+Industrial Marketing Management 105 (2022) 268–293
+273
+(2.3%) remain relatively unexplored.
+3.2. The benefits, challenges, and critical success factors of Industry 4.0
+technologies with respect to supply chain performance
+This section is structured according to the core technologies of the
+Industry 4.0. For each Industry 4.0 technology, we will start by
+providing a definition before we synthesize its benefits, challenges, and
+critical success factors. Finally, we will describe the benefits, challenges,
+and critical success factors that have been emphasized for the Industry
+4.0 as a whole. Table 3 provides an overview of our respective findings.
+3.2.1. Additive manufacturing
+Following the definition of the American Society for Testing and
+Materials, Additive Manufacturing (AM) describes “a process of joining
+materials to make objects from 3D model data, usually layer upon layer,
+Table 2 (continued )
+Name of journal Number
+of papers
+Name of journal Number
+of papers
+IJCNDS 1 Transport Problems 1
+Industrial & Engineering
+Chemistry Research
+1 Transportation Research
+Part E: Logistics and
+Transportation Review
+1
+Informatics 1 Waste Management
+Worldwide Hospitality
+and Tourism Themes
+1
+1
+Information 1 Total 221
+Fig. 4. Distribution of sampled articles by methodology.
+Fig. 5. Distribution of sampled articles by Industry 4.0 technology.
+F.F. Rad et al. 
+Industrial Marketing Management 105 (2022) 268–293
+274
+Table 3
+A list of references for the specific benefits, challenges, and critical success factors in Industry 4.0 for the supply chain.
+Industry 4.0 and subtechnologies
+Benefits, challenges, and critical success factors Relevant literature
+Additive
+Manufacturing (AM)
+Benefits ● Optimized supply chain flows Baumers et al. (2013); Hormozi (2013); Holmstrom ¨ et al. (2016); Holmstrom ¨ et al.
+(2017); Papadonikolaki & Wamelink (2017); Chang et al. (2017); Togwe et al. (2018);
+Pfouga and Stjepandi´c (2018); Khajavi et al. (2018a); Chan et al. (2018); Tziantopoulos
+et al. (2019); Verboeket and Krikke (2019).
+● Product customization Baumers et al. (2013); Hormozi (2013); Parn et al. (2015); Achillas et al. (2015);
+Holmstrom ¨ et al. (2016); Lyly-Yrj¨
+an¨
+ainen et al. (2016); Holmstrom ¨ et al. (2017); Kim
+et al. (2017); Cerdas et al. (2017); Togwe et al. (2018); Chan et al. (2018); Sandvik and
+Stubbs (2019); Tziantopoulos et al. (2019); Verboeket and Krikke (2019); Hahn (2020);
+Gupta, Tiwari, et al. (2020); Hohn and Durach (2021); Agrawal and Narain (2021).
+● Improved environmental
+performance (“green supply chain”)
+Baumers et al. (2013); Achillas et al. (2015); Sasson & Johnson (2016); Holmstrom ¨ et al.
+(2017); Kim et al. (2017); Papahristou & Bilalis (2017); Chekurov et al. (2018); Togwe
+et al. (2018); Khajavi et al. (2018a); Sandvik and Stubbs (2019); Tziantopoulos et al.
+(2019); Nascimento et al. (2019); Verboeket and Krikke (2019); Sanders et al. (2019);
+Kunovjanek and Reiner (2020).
+● Integration Parn et al. (2015); Poirier et al. (2017); Holmstrom ¨ et al. (2017); Chang et al. (2017);
+Pfouga and Stjepandi´c (2018); Tziantopoulos et al. (2019); Verboeket and Krikke (2019).
+● Improved research and development
+(R&D)
+Achillas et al. (2015); Sasson & Johnson (2016); Lyly-Yrjan¨ ainen ¨ et al. (2016); Kim et al.
+(2017); Cerdas et al. (2017); Togwe et al. (2018); Khajavi et al. (2018a); Chan et al.
+(2018); Mandolla et al. (2019); Tziantopoulos et al. (2019); Verboeket and Krikke (2019);
+Hohn and Durach (2021).
+Challenges ● Costs Holmstrom ¨ & Partanen (2014); Holmstrom ¨ et al. (2016); Lyly-Yrjan¨ ainen ¨ et al. (2016);
+Strong et al. (2018); Chekurov et al. (2018); Togwe et al. (2018); Chan et al. (2018);
+Tziantopoulos et al. (2019); Verboeket and Krikke (2019); Hohn and Durach (2021).
+● Design and production team
+management
+Holmstrom ¨ et al. (2016); Holmstrom ¨ et al. (2017); Pfouga and Stjepandi´c (2018);
+Kleinschrodt & Rieg (2019); Gupta et al. (2020).
+● Restructuring the supply chain Holmstrom ¨ et al. (2016); Sasson & Johnson (2016); Holmstrom ¨ et al. (2017); Oberg ¨
+(2019); Arora et al. (2020); Corsini et al. (2020).
+● Availability of printing materials Hormozi (2013); Kim et al. (2017); Tziantopoulos et al. (2019); Verboeket and Krikke
+(2019); Corsini et al. (2020).
+● Continuous customization and design
+complications
+Holmstrom ¨ et al. (2016); Hohn and Durach (2021).
+Critical success
+factors
+● Collaborative and integrated product
+design
+Vezzetti (2009); Holmstrom ¨ et al. (2016); Poirier et al. (2017); Verboeket and Krikke
+(2019).
+● Information platform Chan et al. (2018); Khajavi et al. (2018a); Verboeket and Krikke (2019); Gupta, Tiwari,
+et al. (2020).
+● Step-by-step implementation Holmstrom ¨ et al. (2016); Holmstrom ¨ et al. (2017).
+● Software-printer compliance Holmstrom ¨ et al. (2016); Mandolla et al. (2019).
+Augmented Reality
+(AR)
+Benefits ● Customer service Gustafsson et al. (2019).
+● Improved order picking, routing, and
+delivery
+Agrawal and Narain (2021).
+Challenges None was found in relevant reviewed papers.
+Critical success
+factors
+● Training and new competences Patrucco et al. (2020).
+Automation (AU) Benefits ● Process optimization Buil et al. (2011); Kohli & Johnson (2011); Harrison et al. (2016); Navickas et al. (2017);
+Simchi-Levi & Wu (2018); Al-Saeed et al. (2019); Ghadimi et al. (2019); Gustafsson et al.
+(2019); Junge (2019); Sandvik and Stubbs (2019); Rejeb et al. (2019); Lüthje (2019);
+Klumpp & Zijm (2019); Krykavskyy et al. (2019); Jagtap et al. (2019); Moreno et al.
+(2019); Esmaeilian et al. (2020); Hahn (2020).
+● Integration Kohli & Johnson (2011); Harrison et al. (2016); Moreno et al. (2019); Ghadimi et al.
+(2019).
+Challenges ● Cost Bechtsis et al. (2018); Buil et al. (2011); Dolgui et al. (2019a); Sanders et al. (2019).
+● Artificial divide Klumpp et al. (2019).
+Critical success
+factors
+● Preparation and alignment Kohli & Johnson (2011); Frazzon et al. (2015); Lin (2018); Roy and Satpathy (2019);
+Martín-Gomez ´ et al. (2019).
+Big Data Technologies
+(BDTs)
+Benefits ● Awareness and informed decision
+making
+Kache and Seuring (2017); Ding et al. (2018); Gravili et al. (2018); Brinch et al. (2018);
+Zaki et al. (2018); Vieira et al. (2019); Raut et al. (2019); Ardito et al. (2019); Ivanov
+et al. (2019); Hahn (2020); Winkelhaus and Grosse (2020); Gupta et al. (2020a); Jabbour
+et al. (2020); Benzidia et al. (2021); Agrawal and Narain (2021).
+● Reliability Kache and Seuring (2017); Molka-Danielsen et al. (2018); Jabbour et al. (2020).
+● Information connectivity Kache and Seuring (2017); Brinch et al. (2018).
+Challenges ● Infrastructure and human resources Frazzon et al. (2015); Kache and Seuring (2017); Kache and Seuring (2017); Zaki et al.
+(2018); Weersink et al. (2018); Zaki et al. (2018); Gruˇzauskas et al. (2018); Raut et al.
+(2019); Jabbour et al. (2020); Gupta et al. (2020a).
+● Big data governance Kache and Seuring (2017); Brinch et al. (2018); Molka-Danielsen et al. (2018); Weersink
+et al. (2018); Spanaki et al. (2018); Gravili et al. (2018); Ivanov et al. (2019); Jabbour
+et al. (2020); Nguyen et al. (2021).
+● Cybersecurity threat, information
+leakage, and privacy concerns
+Kache and Seuring (2017); Spanaki et al. (2018); Klumpp et al. (2019); Sanders et al.
+(2019); Ivanov et al. (2019); Jabbour et al. (2020); Nguyen et al. (2021).
+● Financial value measurement Kache and Seuring (2017); Weersink et al. (2018).
+Critical success
+factors
+● Integration Kache and Seuring (2017); Molka-Danielsen et al. (2018); Spanaki et al. (2018); Raut
+et al. (2019).
+● Data readability and relevance Kache and Seuring (2017); Molka-Danielsen et al. (2018).
+Molka-Danielsen et al. (2018); Ding et al. (2018).
+(continued on next page)
+F.F. Rad et al. 
+Industrial Marketing Management 105 (2022) 268–293
+275
+Table 3 (continued )
+Industry 4.0 and subtechnologies
+Benefits, challenges, and critical success factors Relevant literature
+● Data modularization and
+prioritization
+● Managerial approach Raut et al. (2019); Bamel & Bamel (2020); Jabbour et al. (2020); Gupta et al. (2020).
+● Compatibility with governmental
+laws
+Raut et al. (2019).
+Blockchain (BC) Benefits ● Data security Gromovs and Lammi (2017); Sharma et al. (2018); Yanovich et al. (2018); Radanovi´c and
+Liki´c (2018); Mandolla et al. (2019); Rejeb et al. (2019); Choi et al. (2019); Dolgui et al.
+(2019a); Mondal et al. (2019); Cole et al. (2019); Saberi et al. (2019); Rouhani & Deters
+(2019); Min (2019); Sarkis et al. (2020); Wang et al. (2020); Kamble et al. (2021).
+● Data traceability, transparency, and
+management
+Gromovs and Lammi (2017); Sharma et al. (2018); Yanovich et al. (2018); Perboli et al.
+(2018); Mandolla et al. (2019); Rejeb et al. (2019); Choi et al. (2019); Dolgui et al.
+(2019a); Mondal et al. (2019); Cole et al. (2019); Saberi et al. (2019); Rouhani & Deters
+(2019); Min (2019); Sarkis et al. (2020); Wamba et al. (2020); Wang et al. (2020); Batwa
+and Norrman (2020); Kamble et al. (2021); Mubarik et al. (2021); Esmaeilian et al.
+(2020); Agrawal and Narain (2021).
+● Smart contracting Sharma et al. (2018); Rejeb et al. (2019); Choi et al. (2019); Cole et al. (2019); Dolgui
+et al. (2019a); Rouhani & Deters (2019); Saberi et al. (2019); Batwa and Norrman (2020);
+Sarkis et al. (2020); Wang et al. (2020); Kamble et al. (2021).
+● Efficiency Gromovs and Lammi (2017); Radanovi´c and Liki´c (2018); Perboli et al. (2018); Gausdal
+et al. (2018); Sharma et al. (2018); Dolgui et al. (2019a); Krykavskyy et al. (2019); Cole
+et al. (2019); Choi et al. (2019); Min (2019); Rouhani & Deters (2019); Saberi et al.
+(2019); Batwa and Norrman (2020); Sarkis et al. (2020); Wang et al. (2020); Kamble et al.
+(2021).
+● Decentralization Sharma et al. (2018); Yanovich et al. (2018); Choi et al. (2019); Junge (2019); Saberi
+et al. (2019); Wang et al. (2020); Kamble et al. (2021).
+Challenges ● Technical issues Radanovi´c and Liki´c (2018); Cole et al. (2019); Min (2019); Mondal et al. (2019); Rejeb
+et al. (2019); Rouhani & Deters (2019); Saberi et al. (2019); Du et al. (2020); Sahebi et al.
+(2020); Shoaib et al. (2020); Batwa and Norrman (2020); Kumar et al. (2020); Omar et al.
+(2020); Kayikci et al. (2020); Kohler & Pizzol (2020); Esmaeilian et al. (2020); Etemadi
+et al. (2021); Jabbar et al. (2021); Sundarakani et al. (2021).
+● Human resources Cole et al. (2019); Min (2019); Saberi et al. (2019); Sahebi et al. (2020); Omar et al.
+(2020); Wang et al. (2020); Jabbar et al. (2021); Mathivathanan et al. (2021).
+● Governance Cole et al. (2019); Min (2019); Saberi et al. (2019); Alkhader et al. (2020); Chod et al.
+(2020); Esmaeilian et al. (2020); Sahebi et al. (2020); Batwa and Norrman (2020); Du
+et al. (2020); Lambourdiere & Corbin (2020); Rogerso & Parry (2020); Omar et al. (2020);
+Kayikci et al. (2020); Kohler & Pizzol (2020); Sobb et al. (2020); Wang et al. (2020);
+Jabbar et al. (2021); Etemadi et al. (2021); Sundarakani et al. (2021).
+● Altering smart contracts Dolgui et al. (2019b); Saberi et al. (2019); Kumar et al. (2020); Omar et al. (2020); Sobb
+et al. (2020); Etemadi et al. (2021).
+Critical success
+factors
+● Preparation and alignment Gausdal et al. (2018); Radanovi´c and Liki´c (2018); Perboli et al. (2018); Cole et al. (2019);
+Rouhani & Deters (2019); Min (2019); Batwa and Norrman (2020); Kayikci et al. (2020);
+Kohler & Pizzol (2020); Wang et al. (2020); Jabbar et al. (2021); Tezel et al. (2021).
+● Strategic approach and the support of
+top management
+Saberi et al. (2019); Min (2019); Wamba et al. (2020).
+Cloud Computing (CC) Benefits ● Supply chain integration Jede and Teuteberg (2015); Wu et al. (2015); Junge (2019); Lüthje (2019); Sundarakani
+et al. (2019); Ardito et al. (2019); Frank et al. (2019); Agrawal and Narain (2021).
+● On-demand services Jede and Teuteberg (2015); Wu et al. (2015); Dolgui et al. (2019a); Frank et al. (2019).
+● Scalability and flexibility Jede and Teuteberg (2015); Wu et al. (2015); Sundarakani et al. (2019); Hahn (2020);
+Sobb et al. (2020); Agrawal and Narain (2021).
+● Efficiency Jede and Teuteberg (2015); Wu et al. (2015); Krykavskyy et al. (2019); Sundarakani et al.
+(2019); Sobb et al. (2020); Agrawal and Narain (2021).
+Challenges ● Information gap Sundarakani et al. (2021).
+● Security Sobb et al. (2020).
+Critical success
+factors
+● Collaborative planning and
+alignment
+Jede and Teuteberg (2015); Wu et al. (2015); Satit and Somjit (2017); Leung et al. (2018).
+Internet of People (IoP) Benefits ● Customer intelligence and
+relationship management
+Stiakakis and Georgiadis (2011); Oh et al. (2012); Daú et al. (2019).
+Challenges ● Privacy concern Chang et al. (2010).
+Critical success
+factors
+None was found in relevant reviewed papers.
+Internet of Things (IoT) Benefits ● Performance optimization Tserng et al. (2005); Gessner et al. (2007); Roussos (2008); Wang et al. (2010); Exposito
+et al. (2013); Maier et al. (2015); Bogataj et al. (2017); Agrifoglio et al. (2017); Gromovs
+and Lammi (2017); Li et al. (2018); De Vass et al. (2018); Anke et al. (2018); MolkaDanielsen et al. (2018); Ding et al. (2018); Teucke et al. (2018); Al-Saeed et al. (2019);
+Sandvik and Stubbs (2019); Rejeb et al. (2019); Daú et al. (2019); Krykavskyy et al.
+(2019); Mondal et al. (2019); Jagtap et al. (2019); Jagtap and Rahimifard (2019); Huang
+et al. (2020); Hahn (2020); De Vass et al. (2021a); De Vass et al. (2021b); Rebelo et al.
+(2021).
+● Transparency and traceability Tserng et al. (2005); Gessner et al. (2007); Roussos (2008); Wang et al. (2010); Buil et al.
+(2011); Exposito et al. (2013); Suresh et al. (2015); Maier et al. (2015); Moneimne et al.
+(2016); Bogataj et al. (2017); Szozda (2017); Agrifoglio et al. (2017); Gromovs and
+Lammi (2017); Li et al. (2018); De Vass et al. (2018); Molka-Danielsen et al. (2018); Ding
+et al. (2018); Teucke et al. (2018); Bienhaus and Haddud (2018); Al-Saeed et al. (2019);
+Sandvik and Stubbs (2019); Rejeb et al. (2019); Daú et al. (2019); Mondal et al. (2019);
+Jagtap et al. (2019); Jagtap and Rahimifard (2019); Ardito et al. (2019); Hahn (2020);
+(continued on next page)
+F.F. Rad et al. 
+Industrial Marketing Management 105 (2022) 268–293
+276
+Table 3 (continued )
+Industry 4.0 and subtechnologies
+Benefits, challenges, and critical success factors Relevant literature
+Huang et al. (2020); Mastos et al. (2020); Sarkis et al. (2020); De Vass et al. (2021a); De
+Vass et al. (2021b); Rebelo et al. (2021); Yang et al. (2021).
+● Connectivity and integration Maier et al. (2015); Nishioka et al. (2016); Harrison et al. (2016); Bogataj et al. (2017);
+Kache and Seuring (2017); Szozda (2017); Agrifoglio et al. (2017); Gromovs and Lammi
+(2017); Li et al. (2018); Bechtsis et al. (2018); De Vass et al. (2018); Ding et al. (2018);
+Teucke et al. (2018); Bienhaus and Haddud (2018); Al-Saeed et al. (2019); Rejeb et al.
+(2019); Ardito et al. (2019); Hahn (2020); Huang et al. (2020); Shahzad et al. (2020); De
+Vass et al. (2021b); Rebelo et al. (2021).
+● Awareness and flexibility Maier et al. (2015); Bogataj et al. (2017); Agrifoglio et al. (2017); Gromovs and Lammi
+(2017); Li et al. (2018); De Vass et al. (2018); Molka-Danielsen et al. (2018); Ding et al.
+(2018); Teucke et al. (2018); Dunke et al. (2018); Al-Saeed et al. (2019); Rejeb et al.
+(2019); Mondal et al. (2019); Jagtap et al. (2019); Jagtap and Rahimifard (2019); Hahn
+(2020); Huang et al. (2020); De Vass et al. (2021a); De Vass et al. (2021b); Rebelo et al.
+(2021).
+Challenges ● Technological infrastructure and
+human resources
+Gessner et al. (2007); Roussos (2008); Buil et al. (2011); Exposito et al. (2013); Kamble
+et al. (2019); Sandvik and Stubbs (2019); Shahzad et al. (2020); de Vass et al. (2021a).
+● Control and coordination Roussos (2008); Exposito et al. (2013); Junge (2019); Ben-Daya et al. (2019); Yang et al.
+(2019); de Vass et al. (2020); Sobb et al. (2020).
+● Data security and privacy concern Suresh et al. (2015); Szozda (2017); Ding et al. (2018); Rejeb et al. (2019); Ben-Daya et al.
+(2019); Mondal et al. (2019); Shahzad et al. (2020); Sobb et al. (2020); de Vass et al.
+(2021a).
+Critical success
+factors
+● IoT alignment Dunke et al. (2018); Bienhaus and Haddud (2018); Kamble et al. (2019); Yang et al.
+(2019); Huang et al. (2020).
+● Top management support Wang et al. (2010); Ardito et al. (2019).
+● Performance monitoring Leite et al. (2019); Huang et al. (2020).
+● Proactive IoT Molka-Danielsen et al. (2018).
+Robotics (RO) Benefits ● Process optimization Bechtsis et al. (2018); Krykavskyy et al. (2019); Tsolakis et al. (2019); Sanders et al.
+(2019); Agrawal and Narain (2021).
+● Connectivity Bechtsis et al. (2018); Pekarˇcíkov´
+a et al. (2019); Tsolakis et al. (2019); Agrawal and
+Narain (2021).
+Challenges ● Cost Bechtsis et al. (2018); Sanders et al. (2019).
+Critical success
+factors
+● Infrastructure Bechtsis et al. (2018).
+Semantic Technologies
+(STs)
+Benefits ● Data linkage and information
+integration.
+Van Leeuwen & van der Zee (2005); Vujasinovic et al. (2009); Janssen and Feenstra
+(2010); Stiakakis and Georgiadis (2011); Agyapong-Kodua et al. (2013).
+Challenges None was found in relevant reviewed papers.
+Critical success
+factors
+● Ontology and standard Vujasinovic et al. (2009); Stiakakis and Georgiadis (2011); Jardim-Goncalves et al.
+(2013).
+Simulation (SI) Benefits ● Assessment of future outcomes Chen et al. (2009); Buil et al. (2011); Baron et al. (2011); Lai, Wu, Shi, Wang, and Kong
+(2015); Dogan & Güner (2015); Bechtsis et al. (2018); Sharma et al. (2018); Vieira et al.
+(2019); Pekarˇcíkov´
+a et al. (2019); Baruffaldi et al. (2019); Ivanov and Dolgui (2020);
+Barykin et al. (2020).
+● Assessment of the current system Bechtsis et al. (2018); Vieira et al. (2019); Defraeye et al. (2019); Ivanov and Dolgui
+(2020); Barykin et al. (2020).
+● Digital visualization Defraeye et al. (2019); Gustafsson et al. (2019); Kumar & Singh (2021).
+Challenges ● Technological infrastructure and
+human resources
+Bechtsis et al. (2018); Tsolakis et al. (2019); Barykin et al. (2020).
+● Information capture Baruffaldi et al. (2019); Tsolakis et al. (2019).
+Critical success
+factors
+● Data input quality Tsolakis et al. (2019); Baruffaldi et al. (2019); Vieira et al. (2019); Ivanov and Dolgui
+(2020).
+Industry 4.0 Benefits ● Optimization Kov´
+acs & Kot (2016); Strandhagen et al. (2017); Szozda (2017); Büyükozkan ¨ and Goçer ¨
+(2018); B´
+anyai et al. (2018); Oeser et al. (2018); Asdecker and Felch (2018); Barata et al.
+(2018); Lugert et al. (2018); B¨
+ar et al. (2018); Dunke et al. (2018); Krykavskyy et al.
+(2019); Frazzon et al. (2019); Martínez-Olvera & Mora-Vargas (2019); Frank et al.
+(2019); Ivanov et al. (2019); Esfahani et al. (2019); Birkel et al. (2019); Hahn (2020);
+Ghadge et al. (2020); Esmaeilian et al. (2020); Sharma et al. (2021); Fatorachian and
+Kazemi (2021); Eslami et al. (2021).
+● Integration Kov´
+acs & Kot (2016); Strandhagen et al. (2017); Szozda (2017); Büyükozkan ¨ and Goçer ¨
+(2018); Banyai ´ et al. (2018); Barata et al. (2018); Asdecker and Felch (2018); Bar ¨ et al.
+(2018); Krykavskyy et al. (2019); Frazzon et al. (2019); Martínez-Olvera & Mora-Vargas
+(2019); Frank et al. (2019); Ivanov et al. (2019); Hahn (2020); Winkelhaus and Grosse
+(2020); Sharma et al. (2021); Fatorachian and Kazemi (2021).
+● Green supply chain Kov´
+acs & Kot (2016); Strandhagen et al. (2017); Büyükozkan ¨ and Goçer ¨ (2018); B´
+anyai
+et al. (2018); Lugert et al. (2018); Luthra and Mangla (2018); Daú et al. (2019);
+Krykavskyy et al. (2019); Martínez-Olvera & Mora-Vargas (2019); Frank et al. (2019);
+Birkel et al. (2019); Junge (2019); Sandvik and Stubbs (2019); Esmaeilian et al. (2020);
+Sharma et al. (2021); Fatorachian and Kazemi (2021).
+● Customer value Kov´
+acs & Kot (2016); Strandhagen et al. (2017); Szozda (2017); Büyükozkan ¨ and Goçer ¨
+(2018); Bar ¨ et al. (2018); Krykavskyy et al. (2019); Pekarˇcíkov´
+a et al. (2019); Frazzon
+et al. (2019); Martínez-Olvera & Mora-Vargas (2019); Frank et al. (2019); Ivanov et al.
+(2019); Birkel et al. (2019); Hahn (2020); Ghadge et al. (2020); Fatorachian and Kazemi
+(2021).
+Challenges ● Business adjustment Luthra and Mangla (2018); Martínez-Olvera & Mora-Vargas (2019); Frank et al. (2019);
+Birkel et al. (2019); Krykavskyy et al. (2019); Ghadge et al. (2020); Gawankar et al.
+(continued on next page)
+F.F. Rad et al. 
+Industrial Marketing Management 105 (2022) 268–293
+277
+as opposed to subtractive manufacturing methodologies” (Frazier, 2014:
+p. 1917). This technology provides a precise and transparent understanding of a supply chain’s requirements in terms of materials and information flows for production purposes. This type of precision can
+contribute significantly to supply chain performance through, for
+example, reduced logistics and inventory costs, and just-in-time production (Baumers et al., 2013; Khajavi et al., 2018; Tziantopoulos,
+Tsolakis, Vlachos, & Tsironis, 2019; Verboeket & Krikke, 2019). These
+benefits can be summarized as optimized supply chain flows. Moreover,
+AM delivers configurable product design and production based on
+specificities as well as demands (and, where needed, compatibility with
+government requirements). Consequently, customized offerings deliver
+an added benefit of AM (Agrawal & Narain, 2021; Chan, Griffin, Lim,
+Zeng, & Chiu, 2018; Hohn & Durach, 2021). Additionally, precise and
+transparent information on the materials required for production and
+non-subtractive layer-on-layer manufacturing helps reduce waste of
+materials and energy and contributes to environmental sustainability
+(Achillas, Aidonis, Iakovou, Thymianidis, & Tzetzis, 2015; Kunovjanek
+& Reiner, 2020; Sandvik & Stubbs, 2019). Furthermore, as AM opens up
+the space for collaboration among various actors, such as designers and
+customers, it can strengthen supply chain integration (Chang, Pan, &
+Howard, 2017; Holmstrom, ¨ Liotta, & Chaudhuri, 2017; Verboeket &
+Krikke, 2019). Finally, AM can contribute to advancements in R&D. AM
+eliminates the need for grounded production lines and reduces the time
+to market. A firm can manufacture products in small quantities for
+instant placement in the market, obtain customer feedback, make
+required changes, and then produce the products in large quantities
+(Hohn & Durach, 2021; Lyly-Yrjan¨ ¨
+ainen, Holmstrom, ¨ Johansson, &
+Suomala, 2016; Verboeket & Krikke, 2019).
+However, three-dimensional printing of certain components, a type
+of AM, is associated with high costs (e.g., the cost of materials) and time
+consumption (e.g., Chekurov, Metsa-Kortelainen, ¨ Salmi, Roda, & Jussila,
+2018; Hohn & Durach, 2021; Verboeket & Krikke, 2019). Threedimensional modelling offers plenty of room for collaborative design
+and production among multiple supply chain actors. However, coordinating multi-sided design and production efforts can place significant
+demands on management (e.g., Arora, Arora, Kumar, & Pant, 2020; Corsini, Aranda-Jan, & Moultrie, 2020; Holmstrom ¨ et al., 2017; Pfouga &
+Stjepandi´c, 2018). For example, certain suppliers’ offerings can become
+less relevant, whereas other suppliers can become more central in the
+production process. Hence, there is an emerging need for supply chain
+restructuring, which is rarely easy to accomplish. Occasionally, the
+availability of suitable construction materials for three-dimensional
+printing can cause supply problems (e.g., Corsini et al., 2020; Verboeket
+& Krikke, 2019). Lastly, when customization occurs continuously, wide
+variations in a product emerge that can cause complexity issues with the
+digital design model (Hohn & Durach, 2021; Holmstrom, ¨ Holweg,
+Khajavi, & Partanen, 2016).
+The critical success factors that allow firms to realize the benefits and
+master the challenges of AM for supply chain performance include a
+collaborative and integrated product design for 3D modelling and printing
+(e.g., Holmstrom ¨ et al., 2016; Poirier, Forgues, & Staub-French, 2017;
+Verboeket & Krikke, 2019). AM is strongly dependent on product
+modelling, which often involves different supply chain actors (e.g., designers and suppliers). Hence, supply chains need to develop appropriate strategies for collaborative multi-sided design, in alignment with
+the various stakeholders involved. Several scholars (e.g., Chan et al.,
+2018; Gupta, Tiwari, Bukkapatnam, & Karri, 2020; Khajavi et al., 2018;
+Verboeket & Krikke, 2019) also highlight the need for a well-developed
+information platform to process relevant information for optimizing AM.
+Furthermore, it may be advisable to implement AM in a gradual, step-bystep manner (Holmstrom ¨ et al., 2016; Holmstrom ¨ et al., 2017). Initially,
+it can settle for operational improvement. As a next step, it can move to
+tool-based manufacturing replacement, followed by a shift to innovative
+practices enabled by discrete three-dimensional printing capabilities
+(Holmstrom ¨ et al., 2016). To make full use of three-dimensional printing
+options and possibilities, the design software used needs to conform
+with the printers’ requirements. For example, not all CAD versions cover
+every option offered by three-dimensional printers (Mandolla, Petruzzelli, Percoco, & Urbinati, 2019). In other words, there needs to be
+software–printer compliance.
+3.2.2. Augmented reality
+Augmented reality (AR) is defined as a “real-time direct or indirect
+view of a physical real-world environment that has been enhanced/
+augmented by adding virtual computer-generated information to it”
+(Carmigniani et al., 2011, p. 342). AR facilitates improvements in
+customer service. AR tools, such as smart glasses, wearable devices, and
+cameras, can improve the efficiency and quality of order picking, routing,
+and delivery activities with the support of vision picking, data synchronization, and information retrieval (Agrawal & Narain, 2021).
+While the reviewed literature described the benefits of AR, none of
+the articles in our SLR pointed to specific challenges that AR pose for
+supply chain performance. However, at least one article mentioned a
+critical success factor for utilizing AR in supply chains successfully –
+Training and new competences (Patrucco, Ciccullo, & Pero, 2020). Firms
+should, therefore, consider developing a training strategy and investing
+in training efforts to foster the development of additional competencies.
+Table 3 (continued )
+Industry 4.0 and subtechnologies
+Benefits, challenges, and critical success factors Relevant literature
+(2020); Frederico et al. (2020); Winkelhaus and Grosse (2020); Ali and Aboelmaged
+(2021); Kumar & Singh (2021); Sharma et al. (2021); Agrawal and Narain (2021).
+● Cost Bar ¨ et al. (2018); Luthra and Mangla (2018); Frank et al. (2019); Birkel et al. (2019);
+Krykavskyy et al. (2019); Luthra (2020); Gawankar et al. (2020); Winkelhaus and Grosse
+(2020); Esmaeilian et al. (2020); Ghadge et al. (2020); Sharma et al. (2021); Sarkis et al.
+(2021); Agrawal and Narain (2021); Kumar & Singh (2021).
+● Data security and legal issues Szozda (2017); Luthra and Mangla (2018); Birkel et al. (2019); Esfahani et al. (2019);
+Gawankar et al. (2020); Winkelhaus and Grosse (2020); Ghadge et al. (2020); Esmaeilian
+et al. (2020); Sobb et al. (2020); Sharma et al. (2021); Majdalawieh et al. (2021); Agrawal
+and Narain (2021); Eslami et al. (2021).
+● Human resources Büyükozkan ¨ and Goçer ¨ (2018); Luthra and Mangla (2018); Martínez-Olvera & MoraVargas (2019); Birkel et al. (2019); Krykavskyy et al. (2019); Gawankar et al. (2020);
+Winkelhaus and Grosse (2020); Ghadge et al. (2020); Sharma et al. (2021).
+Critical success
+factors
+● Industry 4.0 – business –supply chain
+alignment
+Szozda (2017); Asdecker and Felch (2018); Barata et al. (2018); Ding et al. (2018); Oeser
+et al. (2018); Krykavskyy et al. (2019); Sandvik and Stubbs (2019); Birkel et al. (2019);
+Frederico et al. (2019); Patrucco et al. (2020); Erboz et al. (2021); Shao et al. (2021);
+Agrawal and Narain (2021); Ali and Aboelmaged (2021); Barata (2021).
+● Knowledge development Bar ¨ et al. (2018); Frazzon et al. (2019); Junge (2019); Frederico et al. (2019);
+Strandhagen et al. (2020); Ghadge et al. (2020); Ali and Aboelmaged (2021).
+● Managerial support and commitment Birkel et al. (2019); Frederico et al. (2019).
+F.F. Rad et al. 
+Industrial Marketing Management 105 (2022) 268–293
+278
+3.2.3. Automation
+Automation (AU) can be defined as “the creation and application of
+technology to monitor and control the production and delivery of
+products and services” (International Society of Automation, 2022). AU
+of supply chain processes enables optimization. Automation improves
+efficiency, including reductions in labor costs and energy consumption
+(Esmaeilian, Sarkis, Lewis, & Behdad, 2020; Gustafsson, Jonsson, &
+Holmstrom, ¨ 2019; Moreno, Court, Wright, & Charnley, 2019). AU is
+associated with increased self-governance and pace that lead to quality
+improvements (Hahn, 2020; Moreno et al., 2019). It reduces human
+interventions and errors (Ghadimi, Wang, Lim, & Heavey, 2019; Jagtap
+& Rahimifard, 2019; Klumpp & Zijm, 2019) and facilitates supply chain
+interoperability as well as integration (Ghadimi et al., 2019; Moreno
+et al., 2019).
+In terms of downside factors, AU is associated with high investment
+requirements and coordination costs (Dolgui et al., 2019; Sanders,
+Boone, Ganeshan, & Wood, 2019). Furthermore, AU can create an artificial divide between human workers and automated logistics and supply
+chain components (Klumpp & Zijm, 2019), plausibly resulting in suboptimal human–machine cooperation. The critical success factors to
+make the most of AU comprise preparation and alignment (Frazzon,
+Dutra, & Vianna, 2015; Martín-Gomez, ´ Aguayo-Gonzalez, ´ & Luque,
+2019; Roy & Satpathy, 2019). Both business and technology aspects
+need to be considered and compatibly understood by the actors
+involved. Firms need to determine whether the financial resource allocation fits the business landscape and whether their infrastructure is
+sufficiently well developed and fit for the purposes of automation.
+3.2.4. Big data technologies
+Big data has been defined as data characterized by “high volume,
+velocity and variety to require specific technology and analytical
+methods for its transformation into value” (De Mauro, Greco, & Grimaldi, 2016, p. 122). Big data technologies (BDTs) provide three main
+benefits: awareness and informed decision making, reliability, and information connectivity. BDTs equip supply chain actors with analytical
+capability that generates business insights based on a large volume of
+real-time data with high velocity and from diversified sources. Such
+insights improve decision making across the supply chain in a range of
+areas, such as forecasting, risk management, planning, marketing, sustainability, and efficiency (Agrawal & Narain, 2021; Jabbour, Fiorini,
+Ndubisi, Queiroz, & Piato, 2020; Kache & Seuring, 2017). Furthermore,
+as BDTs strengthen the data-driven business decision-making process,
+each actor in the supply chain will be expected to make better-informed
+decisions, which can strengthen the reliability perceived by other actors
+and enhance the overall reliability of the supply chain and the collaboration among actors (Jabbour et al., 2020; Molka-Danielsen, Engelseth,
+& Wang, 2018). Finally, BDTs facilitate data sharing and enrich the
+information environment across the supply chain, supporting supply
+chain connectivity (Brinch, Stentoft, Jensen, & Rajkumar, 2018; Kache
+& Seuring, 2017).
+The first challenges of BDTs for supply chain performance are related
+to infrastructure and human resources. Acquiring the required skillsets
+for BDT utilization can be difficult because adequate human resources
+are often scarce (Gupta, Kumar, Kusi-Sarpong, Jabbour, & Agyemang,
+2020; Weersink, Fraser, Pannell, Duncan, & Rotz, 2018; Zaki, Theodoulidis, Shapira, Neely, & Tepel, 2019). BDTs also require an infrastructure that is well formulated (e.g., control towers and analytics
+algorithms), which can mean high costs (Gruˇzauskas, Baskutis, &
+Navickas, 2018; Raut et al., 2019; Zaki et al., 2019). Moreover, big data
+governance is not a trivial issue (Jabbour et al., 2020; Nguyen, Lamouri,
+Pellerin, Tamayo, & Lekens, 2021; Spanaki, Gürgüç, Adams, & Mulligan,
+2018). Coordinating BDTs among supply chain actors with diverse
+backgrounds (techno-geographical, cultural, and socio-economical) and
+differing perceptions can be a challenging task (Gravili, Benvenuto,
+Avram, & Viola, 2018; Ivanov, Dolgui, & Sokolov, 2019; Nguyen et al.,
+2021). Issues concerning cybersecurity threats and information leakage, as
+well as privacy concerns of individuals and customers need to be taken
+very seriously (Ivanov et al., 2019; Kache & Seuring, 2017; Nguyen
+et al., 2021). Lastly, the accurate measurement of big data’s business value
+and its financial return can complicate supply chain relationships if not
+handled appropriately (Kache & Seuring, 2017; Weersink et al., 2018).
+The critical success factors for the utilization of BDTs and the
+exploitation of the resulting insights throughout the supply chain in real
+time include integration, both internally (e.g., IT and business departments) and externally with other actors (Kache & Seuring, 2017;
+Raut et al., 2019; Spanaki et al., 2018). Furthermore, the analytical
+output produced by BDTs needs to be readable, relevant, and capable of
+spotting patterns, trends, and outliers (Kache & Seuring, 2017; MolkaDanielsen et al., 2018). To analyze big data, modularization and prioritization can be important. When big data variety is high, the focus may
+need to shift to the most critical data (Ding, 2018; Molka-Danielsen
+et al., 2018). Moreover, the managerial approach and the leadership style
+play important roles in gaining value from BDTs (Raut et al., 2019;
+Jabbour et al., 2020; Dolgui, Ivanov, Sethi, & Sokolov, 2019. Since BDTs
+are, by nature, centered on information, every related strategy and activity needs to be compatible with information privacy laws enforced by the
+government (Raut et al., 2019).
+3.2.5. Blockchain (distributed ledger technology)
+Blockchain technology “refers to a fully distributed system for
+cryptographically capturing and storing a consistent, immutable, linear
+event log of transactions between networked actors” (Risius & Spohrer,
+2017, p. 386). Using Blockchain (BC) across the supply chain offers a
+number of potential benefits: data security; data traceability, transparency;
+smart contracting; efficiency; and decentralization. First, BC protects supply chain information by ensuring authenticable and secure data storage
+and transmission among actors and by preventing unauthorized data
+mutation (Dolgui, Ivanov, Potryasaev, et al., 2019; Kamble et al., 2021;
+Sharma, Kumar, & Park, 2018). Second, the history and current status of
+materials, transactions, processes, and products throughout the supply
+chain are transparent and traceable, which provides various opportunities to ensure standard control and authentication, gain information
+on bottlenecks, improve supply chain trust and awareness, and
+contribute to green supply chain practices and the emergence of a circular economy (Agrawal & Narain, 2021; Sarkis, Kouhizadeh, & Zhu,
+2020; Yanovich et al., 2018). Third, BC enables the adoption of smart
+contracts among supply chain actors because BC is associated with
+certain features (Kamble et al., 2021; Rejeb, Keogh, & Treiblmaier,
+2019; Sarkis et al., 2020). BC hashing and cryptographic mechanisms
+make it possible to authenticate the identity of actors/parties that are
+involved in the contract (Choi et al., 2019; Saberi, Kouhizadeh, Sarkis, &
+Shen, 2019). Reliable data storage and transmission are also provided,
+facilitating the implementation of contract-based business logic and
+operations (Choi et al., 2019; Rejeb et al., 2019; Sharma et al., 2018). In
+addition, BC allows for operational fulfilment control through smart
+contracts, based on specific plans, negotiation terms, and policies
+(Dolgui, Ivanov, Potryasaev, et al., 2019). BC also supports the automation of contract-related activities, such as payments and insurance
+claims (Batwa & Norrman, 2020; Saberi et al., 2019; Sharma et al.,
+2018). Fourth, BC contributes to supply chain efficiency and cost
+reduction (Dolgui, Ivanov, Potryasaev, et al., 2019; Gromovs & Lammi,
+2017; Wang, Wu, Chen, & Evans, 2020). Likewise, dependency on
+middlemen can be reduced or eliminated (Choi et al., 2019; Kamble
+et al., 2021; Sarkis et al., 2020), and the resulting contractual arrangements and connectivity will lower supply chain transaction costs (Min,
+2019; Sarkis et al., 2020).
+However, BC is also facing a number of significant challenges. It faces
+technical issues due to the low maturity of the technology (Esmaeilian
+et al., 2020; Etemadi, Van Gelder, & Strozzi, 2021; Radanovi´c & Liki´c,
+2018). Maintaining efficient and consistent interlinkages among BC
+shards can be a challenging task (Jabbar, Lloyd, Hammoudeh, Adebisi,
+& Raza, 2021; Rejeb et al., 2019). In addition, BC transaction mining can
+F.F. Rad et al. 
+Industrial Marketing Management 105 (2022) 268–293
+279
+involve intensive computing power, and adding a single block to an
+existing BC can mean enormous energy consumption (Esmaeilian et al.,
+2020; Mondal et al., 2019; Sahebi, Masoomi, & Ghorbani, 2020). Thus
+far, BC has not demonstrated outstanding results in managing largescale transactions (Esmaeilian et al., 2020; Jabbar et al., 2021; Min,
+2019; Sundarakani, Ajaykumar, & Gunasekaran, 2021). Furthermore,
+there is a scarcity of human resources with relevant skills and expertise
+(Cole, Stevenson, & Aitken, 2019; Jabbar et al., 2021; Mathivathanan,
+Mathiyazhagan, Rana, Khorana, & Dwivedi, 2021). Governance can also
+be an issue for a supply-chain-wide blockchain. Implementing a BC may
+face resistance across the supply chain. There is a need for policies and
+approaches to be coordinated, which can be a difficult task (Etemadi
+et al., 2021; Jabbar et al., 2021; Saberi et al., 2019; Sobb, Turnbull, &
+Moustafa, 2020). Moreover, legal and relational trust issues can arise,
+and penalties for deviating from a smart contract can occur (Jabbar
+et al., 2021; Sobb et al., 2020; Sundarakani et al., 2021). It may also be
+complicated to implement changes in smart contracts when they are
+needed because it is difficult to modify the data in the BC (Dolgui, Ivanov, Sethi, & Sokolov, 2019; Etemadi et al., 2021; Sobb et al., 2020).
+The critical success factors for the beneficial use of BC in supply
+chains include preparation and alignment (Min, 2019; Tezel, Febrero,
+Papadonikolaki, & Yitmen, 2021; Wang et al., 2020). Implementing BC
+requires a clear understanding of the strategies, needs, and objectives
+that the businesses and actors aim to serve. Combining BCs with other
+relevant technologies can improve benefits and enhance the features of
+BCs (Jabbar et al., 2021; Kohler ¨ & Pizzol, 2020). The involved parties
+need to agree on implementation plans and infrastructure designs. In
+addition, a strategic approach and the support of top management are
+critical for successful blockchain adoption (Min, 2019; Saberi et al.,
+2019; Wamba, Queiroz, & Trinchera, 2020).
+3.2.6. Cloud computing
+The term “cloud computing” (CC) refers to “a model for enabling
+convenient, on-demand network access to a shared pool of configurable
+computing resources (e.g., networks, servers, storage, applications, and
+services) that can be rapidly provisioned and released with minimal
+management effort or service provider interaction” (Dillon, Wu, &
+Chang, 2010, p. 27). CC offers the prospect of improved supply chain
+integration, on-demand services, scalability, flexibility, and efficiency.
+Compared to local servers, a cloud solution facilitates data integration,
+delivers faster, more secure, and enhanced information, and supports
+service sharing among supply chain actors. Consequently, there is a
+beneficial impact on collaboration and process performance (Agrawal &
+Narain, 2021; Frank, Dalenogare, & Ayala, 2019; Jede & Teuteberg,
+2015). Second, CC enables on-demand services, offering on-demand
+cloud solutions (Dolgui, Ivanov, Potryasaev, et al., 2019; Jede & Teuteberg, 2015; Wu, Rosen, Wang, & Schaefer, 2015). Third, cloud solutions can easily be adjusted to different scales based on data
+requirements (Agrawal & Narain, 2021; Sobb et al., 2020; Sundarakani,
+Kamran, Maheshwari, & Jain, 2019). Moreover, such a characteristic
+provides flexibility in data management (Hahn, 2020; Jede & Teuteberg,
+2015) and reduces the costs of the information environment throughout
+the supply chain (Agrawal & Narain, 2021; Jede & Teuteberg, 2015;
+Sundarakani et al., 2019).
+One of the main challenges with CC technologies for supply chains
+concerns information gaps (Sundarakani et al., 2021). Communication
+among partners may suffer and the information exchanged may become
+less rich. Moreover, CC can cause security issues for IoT devices (Sobb
+et al., 2020). Regarding critical success factors, the benefits of utilizing
+CC on the supply chain level depend on collaborative planning and
+alignment, both internally and externally (Jede & Teuteberg, 2015;
+Leung et al., 2018; Satit & Somjit, 2017).
+3.2.7. Internet of People
+The term “Internet of People” (IoP) means that “humans and their
+personal devices […] will be active elements of applications, services,
+and network functions provisioning [… and that] personal devices
+operate in the cyber world as proxies of humans and behave as humans
+do in the physical world” (Conti, Passarella, & Das, 2017, p. 9). According to the reviewed literature (Daú, Scavarda, Scavarda, & Portugal,
+2019; Oh, Teo, & Sambamurthy, 2012; Stiakakis & Georgiadis, 2011),
+IoP benefits the supply chain by improving customer intelligence and
+relationship management. Through the IoP, various kinds of data are
+constantly generated by users who may be current or future customers of
+the supply chain. In this way, businesses utilize the data of users to gain
+intelligence regarding their interests, experiences, and opinions on
+products and services, and to identify the cause of changes in their
+behavior. Businesses can use these insights to create more value for their
+customers.
+In terms of downside factors, the IoP has increased privacy concerns.
+Building customer intelligence through IoP is centered on the accessibility and utilization of users’ data for business purposes. Such a feature
+can heighten user concerns about how their data is used, and there is an
+elevated risk of users perceiving companies to violate their privacy
+(Chang, Wu, & Liao, 2010). In contrast to its potential upsides and
+downsides, the reviewed literature does not highlight specific critical
+success factors of the fruitful use of the IoP in the supply chain context.
+3.2.8. Internet of Things
+The Internet of Things (IoT) is defined as the entirety of “smart,
+connected products [which are] made possible by vast improvements in
+processing power and device miniaturization and by the network benefits of ubiquitous wireless connectivity” (Porter & Heppelmann, 2014,
+p. 66). According to the reviewed literature, the IoT offers a variety of
+benefits. The first benefit is performance optimization. The IoT is underpinned by an interlinked ecosystem of “things” at the supply chain level,
+through which resource unification and synergy occur within the
+interconnected network. Hence, the performance of supply chain processes (e.g., transportation), products, and physical assets (e.g., equipment and systems) can be optimized (Huang, Chen, Sun, Zhang, & Yao,
+2020; Li, Palau, & Parlikad, 2018; Rebelo, Pereira, & Queiroz, 2021).
+Furthermore, the IoT enables constant data generation, the monitoring
+of physical objects (i.e., “things”) throughout the supply chain, and data
+access in a defined manner. These characteristics facilitate information
+transparency and product traceability – for example, with respect to
+consumption patterns, status, composition, physical assets, as well as
+processes and activities. Thus, the IoT improves supply chain sustainability and circular economy practices (Mastos et al., 2020; Rebelo et al.,
+2021; Teucke, Broda, Boerold, & Freitag, 2018; Yang, Fu, & Zhang,
+2021). The third benefit refers to connectivity and integration. As the
+IoT creates a network that connects physical objects with one another
+and with actors across the supply chain, collaborative business decision
+making becomes possible and integration occurs (Bienhaus & Haddud,
+2018; De Vass, Shee, & Miah, 2021b; Rebelo et al., 2021). Lastly, the IoT
+contributes to supply chain awareness and flexibility. Access to extensive and real-time granular data provides supply chains with enhanced
+insight and knowledge on various business facets, leading to betterinformed business decisions and greater flexibility (Agrifoglio, Cannavale, Laurenza, & Metallo, 2017; Hahn, 2020; Rebelo et al., 2021).
+The IoT also poses a number of challenges. There is often a struggle
+to acquire the required skillset and the technological infrastructure for the
+IoT to be utilized throughout the supply chain (De Vass, Shee, & Miah,
+2021a; Kamble, Gunasekaran, Parekh, & Joshi, 2019). The IoT requires
+significant investment and can be costly to adopt (Buil, Piera, & Laserna,
+2011; De Vass et al., 2021a; Sandvik & Stubbs, 2019). Furthermore, as
+the IoT generates a large volume of detailed data, it may be challenging
+to put adequate coordination and control mechanisms in place (Exposito,
+Gay-Fernandez, ´ & Cuinas, 2013; Sobb et al., 2020). Another central
+challenge concerns data security and privacy (De Vass et al., 2021a; Rejeb
+et al., 2019; Sobb et al., 2020). Supply chain actors may have concerns
+about the potential leakage of confidential information, or they may be
+anxious about information asymmetry because data storage,
+F.F. Rad et al. 
+Industrial Marketing Management 105 (2022) 268–293
+280
+management, and security is centralized and beyond their control as
+decentralized actors (Rejeb et al., 2019). Privacy concerns can cause
+actors to impose restrictions on data accessibility, which can hinder
+supply chains in fully realizing the potential of IoT use (Ding, 2018).
+The reviewed literature has also highlighted certain critical success
+factors for the fruitful application of the IoT in supply chains. The IoT
+requires actors to interconnect their “things”, constructing an underlying foundation that is properly aligned to run the IoT on the supply chain
+level (e.g., Bienhaus & Haddud, 2018; Dunke, Heckmann, Nickel, &
+Saldanha-da-Gama, 2018; Huang et al., 2020; Kamble et al., 2019). The
+implications of the IoT for conducting business may be so huge that top
+management involvement can play an important role in the success of the
+IoT on the supply chain level (Ardito, Petruzzelli, Panniello, & Garavelli,
+2019; Wang, Chen, & Xie, 2010). Moreover, technologies that enable the
+connectivity of physical objects need to be monitored to deliver the expected performance (Huang et al., 2020; Leite, Pinto, & Alves, 2019).
+Connected objects might be required to take action proactively without
+external intervention. For this purpose, they should be equipped with
+components such as actuators (Molka-Danielsen et al., 2018).
+3.2.9. Robotics
+Robotics (RO) is described as “the generation of computer-controlled
+motions of physical objects” (Halperin, Kavraki, & Solovey, 2017, p. 1).
+RO provide opportunities for process optimization and connectivity. RO
+can optimize the performance of supply chain processes by offering
+improvements in, for example, agility, speed, quality, and efficiency
+(Agrawal & Narain, 2021; Sanders et al., 2019). Moreover, RO is characterized by communicability based on real-time information. It facilitates connectivity between supply chain actors, processes, and
+infrastructure (Agrawal & Narain, 2021; Tsolakis, Bechtsis, & Srai,
+2019).
+A challenge impeding large-scale utilization of robotics is cost. For
+instance, the reviewed literature has highlighted the financial resources
+needed to embrace intelligent autonomous vehicles in supply chains
+(Bechtsis, Tsolakis, Vlachos, & Srai, 2018; Sanders et al., 2019). A critical success factor for the utilization of robotics in supply chains is the
+proper definition and development of the required infrastructure. Several
+actors may need to agree on the communication infrastructure and other
+elements of the technical infrastructure to enable the interoperability of
+robotic solutions across the supply chain (Bechtsis et al., 2018).
+3.2.10. Semantic technologies
+Semantic technologies (STs) are defined as “technical approaches
+that facilitate or make use of the interpretation of meaning by machines”
+(Fürber, 2016, p. 56). STs can benefit the supply chain by enabling data
+linkage and information integration. Throughout the supply chain, a large
+volume of data is generated and stored in different formats, languages,
+and syntaxes. STs allow relationships to be established between these
+varied data and their meanings, facilitating readability and communicability of data for machines, applications, and actors in the supply
+chain (Agyapong-Kodua, Lohse, Darlington, & Ratchev, 2013; Janssen &
+Feenstra, 2010; Stiakakis & Georgiadis, 2011).
+While no explicit downside of STs was discussed in the reviewed
+literature, the literature nevertheless identified a related critical success
+factor for realizing the potential benefits of STs for supply chain performance: establishing a strong ontology and standards (Jardim-Goncalves, Agostinho, Sarraipa, Grilo, & Mendonça, 2013; Stiakakis &
+Georgiadis, 2011; Vujasinovic et al., 2009).
+3.2.11. Simulation
+Simulation (SI) is defined as “the process of designing a model of a
+real or hypothetical system to describe and analyze the behaviors of the
+system” (de Paula Ferreira, Armellini, & De Santa-Eulalia, 2020, pp.
+5–6). Assessment of future outcomes and the current system along with
+digital visualization are identified as the main benefits of SI in the literature. SI enables the prediction and evaluation of potential future
+outcomes from diverse events that can affect supply chain systems. Examples are disruptions in material flows, changes in client behaviors,
+product innovations by competitors, new policies, and unilateral process
+alterations of a supply chain partner (Baruffaldi, Accorsi, & Manzini,
+2019; Barykin, Kalinina, Bochkarev, & Yadykin, 2020; Bechtsis et al.,
+2018; Ivanov & Dolgui, 2020). SI evaluates supply chain behavior by
+developing a deeper understanding of system dynamics, problems, and
+solutions that allow firms to monitor various parameters, such as environmental impacts (Barykin et al., 2020; Bechtsis et al., 2018; Vieira,
+Dias, Santos, Pereira, & Oliveira, 2019). SI enables the detailed digital
+visualization of the characteristics and behaviors of objects and targets,
+providing comprehensive insights for different purposes, such as offering customization (Gustafsson et al., 2019; Kumar & Singh, 2021).
+Supply chain companies wanting to utilize SI often find it challenging to acquire the required skillset, build the technological infrastructure, and to develop a digital twin of the supply chain to conduct simulations
+(Barykin et al., 2020; Tsolakis et al., 2019). There may also be difficulties associated with capturing dynamic operational information needed
+for a simulation (Baruffaldi et al., 2019; Tsolakis et al., 2019). Data input
+quality is a critical success factor in running simulations related to supply
+chains. Such data needs to be accurate, relevant, and collected at the
+right time (Ivanov & Dolgui, 2020; Tsolakis et al., 2019; Vieira et al.,
+2019).
+3.2.12. Industry 4.0 in general
+Overall, the Industry 4.0 can be described as “a new sociotechnical
+paradigm that depends on further development, access, and integration
+of information and communication technologies (ICT) with automation
+technologies to promote end-to-end systems integration across the entire
+value chain” (de Paula Ferreira et al., 2020, p. 2). The reviewed literature emphasizes that the core technologies can offer enhanced contributions to supply chain performance when they are utilized in
+combination with one another (e.g., Hahn, 2020; Junge, 2019). For
+example, Vieira et al. (2019) argue for combining BDTs and SI to
+improve the data input to assess system behavior and potential scenarios
+under different circumstances. Rejeb et al. (2019) and Mondal et al.
+(2019) draw attention to the security that blockchain brings to the IoT.
+Moreover, our SLR revealed four general benefits of the Industry 4.0 for
+supply chains — optimization, integration, better environmental performance (“green” supply chains), and improved customer value. In
+terms of supply chain optimization, the Industry 4.0 has been found to
+facilitate self-organization and to contribute to improvements in scalability, innovation, productivity, quality of operations, and efficiency
+(Esfahani et al., 2019; Fatorachian & Kazemi, 2021; Hahn, 2020;
+Strandhagen et al., 2017). Moreover, the Industry 4.0 provides supply
+chains with connectivity, transparency, and traceability based on realtime information. This can result in analytical insights that foster flexibility in a supply chain when circumstances change; it can support
+decision making and planning, and improve the anticipation of issues
+before they occur (Banyai, ´ Ill´es, & Banyai, ´ 2018; Eslami, Jafari, Achtenhagen, Carlb¨
+ack, & Wong, 2021; Krykavskyy et al., 2019). Furthermore, the Industry 4.0 makes integration possible by enhancing
+intelligence, transparency, and connectivity on the supply chain level. It
+facilitates the coordination of material flows and reduced transaction
+costs, which promote closer collaboration and enhanced reliability
+among supply chain actors (Barata et al., 2018; Sharma et al., 2021;
+Winkelhaus & Grosse, 2020). The Industry 4.0 contributes to the
+emergence of green supply chains because it helps improve recycling
+streams (Esmaeilian et al., 2020; Sandvik & Stubbs, 2019), reduce energy/resource consumption, and lessen waste creation (Fatorachian &
+Kazemi, 2021; Junge, 2019; Sharma et al., 2021). The Industry 4.0 enables customization associated with product/service bundling, which
+can enhance customer value, establish close ties with customers, and
+provide the opportunity to respond rapidly to their demands (B¨
+ar,
+Herbert-Hansen, & Khalid, 2018; Fatorachian & Kazemi, 2021; Ghadge,
+Kara, Moradlou, & Goswami, 2020).
+F.F. Rad et al. 
+Industrial Marketing Management 105 (2022) 268–293
+281
+Firms need to overcome many challenges to realize these benefits for
+their supply chains. Business adjustment is a challenging task in seeking
+to exploit the promises of the Industry 4.0 at the supply chain level. To
+make the most of the Industry 4.0, business and supply chain processes
+must be re-engineered and new protocols, models, and standards
+developed (Agrawal & Narain, 2021; Luthra & Mangla, 2018; Winkelhaus & Grosse, 2020). Moreover, the adoption of Industry 4.0 solutions
+at the supply chain level can mean large initial investments as well as high
+operating expenditures since some technologies can consume large
+quantities of energy (Bar ¨ et al., 2018; Gawankar, Gunasekaran, &
+Kamble, 2020; Kumar & Singh, 2021). Another challenge concerns data
+security and legal issues. As the Industry 4.0 expands, data integration
+among supply chain actors is vital in order to strengthen security,
+although it is a cumbersome process (Birkel, Veile, Müller, Hartmann, &
+Voigt, 2019; Eslami et al., 2021; Luthra & Mangla, 2018; Szozda, 2017).
+In addition, governments need to establish relevant and responsive laws
+on various aspects of the Industry 4.0 (e.g., information privacy), and
+firms adopting Industry 4.0 solutions will be mandated to comply with
+them. However, this legal process will take time to secure a smooth
+enactment (Birkel et al., 2019; Luthra & Mangla, 2018). Moreover,
+skilled employees are in demand to deal with Industry 4.0 applications,
+but they are often in short supply (Büyükozkan ¨ & Goçer, ¨ 2018;
+Gawankar et al., 2020; Sharma et al., 2021).
+One of the most critical success factors in benefitting from the Industry 4.0 is business-supply-chain alignment with the applied Industry 4.0
+solutions. Both technology and business perspectives need to be considered (e.g., Ali & Aboelmaged, 2021; Asdecker & Felch, 2018; Patrucco
+et al., 2020). These considerations should include Industry 4.0 adoption
+strategies and goals, business models, business culture and structures,
+and associated risks. Proper communication and integration channels
+are required to facilitate cooperation, interaction, and consistent decision making on the supply chain level (e.g., Barata, 2021; Sandvik &
+Stubbs, 2019; Szozda, 2017). Managerial and technological knowledge
+and awareness regarding benefits, challenges, and critical success factors should be developed along the supply chain (e.g., Frazzon, Rodriguez, Pereira, Pires, & Uhlmann, 2019; Ghadge et al., 2020;
+Strandhagen, Buer, Semini, Alfnes, & Strandhagen, 2020). To make a
+successful transition to the Industry 4.0, top management teams need to
+understand what the Industry 4.0 can bring to the table and what it
+cannot. If top management teams are confident and the initial steps into
+the Industry 4.0 show promise, top management support and commitment
+are likely to grow, and further steps will likely follow (Birkel et al., 2019;
+Frederico et al., 2019).
+3.3. Benefits, challenges, and critical success factors of Industry 4.0
+technologies for supply chain performance: A framework
+Based on the analyses and syntheses of the systematic review, we
+propose a framework that depicts the influence of benefits, challenges,
+and critical success factors on supply chain performance (see Fig. 6).
+Supply chain performance is defined as the ability of a supply chain to
+create value for its stakeholders and satisfy their interests (e.g., Akkermans et al., 2003; Smith & Reece, 1999). Benefits refer to potential
+positive implications that Industry 4.0 technologies have for supply
+chain performance, and challenges refer to potential negative implications of Industry 4.0 technologies. Critical success factors refer to conditions that need to be present and measures that need to be taken in
+order to realize the value-creation potential of benefits or to prevent the
+value-destruction potential of challenges from materializing.
+Across the Industry 4.0 and the 11 core technologies investigated in
+our SLR, the most commonly emphasized benefits are supply chain
+integration and optimization. Supply chain integration comprises the
+integration of information along the supply chain as well as the integration of supply chain actors (i.e., enhanced collaboration). Optimization alludes to improvements in supply chain processes that are
+manifested in, for example, superior efficiency, quality, and speed. In
+contrast, high cost and human resource (HR) issues are the most
+frequently highlighted challenges associated with Industry 4.0 technologies, which could negatively affect supply chain performance. Costrelated challenges are predominantly related to high up-front investments necessary to acquire the respective technologies and to prepare the infrastructure for their application. HR-related challenges
+emerge from the fact that Industry 4.0 technologies often require
+existing employees to adopt their work routines, develop new skills and/
+or require the hiring of new employees with specialized expertise.
+Existing employees may be hesitant to do so, while new hires with the
+Fig. 6. Framework of the benefits, challenges, and critical success factors regarding supply chain performance in Industry 4.0.
+F.F. Rad et al. 
+Industrial Marketing Management 105 (2022) 268–293
+282
+desired competence profile are not always available in sufficient quantity and quality. Finally, alignment and managerial support are the most
+commonly cited critical success factors. Alignment designates congruence and compatibility of business goals, technological vision, strategies, and activities. For a strong supply chain performance, these
+elements not only need to be aligned among the actors involved in the
+individual firm, but there also needs to be a corresponding fit among the
+interdependent, yet formally often independent, firms in the supply
+chain. Since the implementation of Industry 4.0 technologies requires
+fundamental changes in intra- and inter-organizational processes and
+plans, the committed involvement of top management in the transformation of their individual firms and their entire supply chains is
+pivotal.
+4. Benefits, challenges, and critical success factors of Industry
+4.0 technologies for supply chain performance: A future research
+agenda
+Our literature review indicates that the interest in the implications of
+Industry 4.0 technologies for supply chains grew exponentially from
+2015 to 2019 and has remained at a high level since. As a consequence,
+about three times as many studies on this topic were published in the
+period 2018 to 2021 as had been published before. This development
+can be seen as a testament to the topic’s economic and organizational
+significance. Hence, developing a sound understanding and a cumulative body of knowledge is essential. Our analysis has revealed that future
+research can benefit from focusing on different elements of the proposed
+framework separately or jointly – benefits, challenges, critical success
+factors, and core Industry 4.0 technologies for supply chain performance. Table 4 offers a detailed future research agenda, which can assist
+scientists in supply chain management, Industry 4.0 technologies, and
+related fields.
+Our SLR reveals that, in general, the benefits of Industry 4.0 technologies for supply chains have been discussed more extensively than
+their challenges and critical success factors. Paying too little attention to
+their challenges and critical success factors is problematic and detrimental. For one thing, it leaves firms without evidence-based academic
+guidance on how to implement Industry 4.0 technologies. For another,
+overemphasizing the upsides can result in biased expectations. If the
+technologies do not very quickly live up to the unrealistic expectations
+of managers, firms may abort their transition to the Industry 4.0 and
+forego the associated benefits. Failing to meet expectations is more
+likely when managers lack guidance on how to implement their technologies. In other words, research on challenges and on critical success
+factors are complementary, and both strands should be pursued with
+equal vigor in the future. At the same time, studying the benefits of
+Industry 4.0 technologies will remain crucial as technologies develop,
+new technologies emerge, and new application areas for given technologies are explored. Thus, the benefits of the Industry 4.0 described in
+previous research and consolidated in our SLR are by no means
+exhaustive.
+Additionally, our SLR shows that the diverse technologies at the core
+of the Industry 4.0 vary in the extent to which they have been covered by
+prior research. While some core technologies are discussed frequently
+(e.g., additive manufacturing and the Internet of Things), others are
+under-explored (e.g., semantic technologies, augmented reality, the
+Internet of People, and robotics). Scholars should aim for a better understanding of the implications of hitherto under-researched technologies for supply chains to balance the disproportionate coverage.
+Moreover, not all components and facets of the heavily covered core
+technologies are equally well understood. For example, a significant
+share of papers subsumed under the IoT label have focused on RFID (e.
+g., Gessner et al., 2007; Roussos, 2008; Wang et al., 2010), but IoT goes
+far beyond RFID. Conversely, there can be technological components
+and facets in seemingly mature areas that are still in dire need of more
+research. There are also differences in interpretation and categorization
+Table 4
+Theme-based gaps and potential questions for future research.
+Main theme Gaps/underexplored areas Potential questions for
+future research
+Benefits of core
+Industry 4.0
+technologies for SC
+performance
+1. Detailed analysis of
+benefits and new
+application areas of some
+existing I4.0 technologies
+with respect to SCs, e.g., AR,
+IoP, and SI
+2. Conceptual research on
+new and emerging
+technologies e.g., quantum
+computers, to explore their
+benefits and their
+interdependencies with
+existing technologies
+3. Interdependencies among
+benefits and combinations
+of several I4.0 technologies
+4. The business side of I4.0
+technologies and their
+economic benefits to
+complement the currently
+dominant technological
+view
+RQ1: How can the
+combination of several
+core technologies
+possibly impact benefits
+for the SC?
+RQ2: How can the
+emergence of new
+technologies impact SC
+performance?
+RQ3: Do these new
+technologies complement
+the current benefits or
+substitute them with new
+ones? How? Why?
+RQ4: How are the
+economic benefits of I4.0
+technologies realized?
+How can technological
+readiness be improved
+from a business
+perspective?
+Challenges of core
+Industry 4.0
+technologies for SC
+performance
+1. Detailed analysis of
+challenges of some existing
+I4.0 technologies with
+respect to SCs, e.g., AR, CC,
+IoP, RO, ST, SI, and AU
+2. Detailed discussion of the
+challenges of current I4.0
+technologies and the role of
+new and emerging
+technologies (or
+combinations of existing
+technologies) in addressing
+these challenges
+3. Analysis of strategies/
+firm actions to mitigate
+challenges
+4. Quantifying the impact of
+several challenges and their
+interdependencies
+RQ1: Which challenges
+accompany the
+implementation of AR,
+CC, IoP, RO, ST, SI, and
+AU?
+RQ2: Why is there a lack
+of research on the above
+technologies? Does this
+depend on any contextual
+factors related to SCs? If
+yes, what are these
+contextual factors?
+RQ3: How might the
+identified challenges be
+addressed by other
+existing or new emerging
+technologies (or a
+combination of
+technologies)?
+RQ4: What can
+companies do to mitigate
+the impact of these
+challenges?
+Critical success factors
+of core Industry 4.0
+technologies for SC
+performance
+1. Detailed analysis of
+critical factors of some I4.0
+technologies with respect to
+SCs, e.g., AR, RO, IoP, CC,
+ST, SI, and AU
+2. Interdependencies among
+success factors of I4.0
+technologies
+3. Critical success factors of
+combinations of several I4.0
+technologies
+4. Impact of context on
+critical success factors of
+I4.0 technologies
+RQ1: What are critical
+success factors in
+implementing AR, RO,
+IoP, CC, ST, SI, and AU?
+RQ2: How do critical
+success factors change
+when two or more I4.0
+technologies are
+considered in
+combination?
+RQ3: How do the critical
+success factors of I4.0
+technologies vary across
+contexts?
+RQ4: Which contextual
+factors are more relevant
+in which context?
+Core Industry 4.0
+technologies for SC
+performance
+1. Differences in
+interpretations and
+categorization of I4.0
+technologies/ Development
+of a common terminology
+2. Detailed analysis of
+under-explored or untapped
+I4.0 technologies with
+respect to SCs, e.g., IoP, AR,
+ST, and robotics
+3. Sub-variants of each I4.0
+RQ1: How can the impact
+of technologies, such as
+IoP, AR, ST, and Robotics,
+be conceptualized and
+realized for supply chain
+performance? How do
+benefits, challenges, and
+critical success factors
+vary across sub-variants
+of a given I4.0
+technology?
+(continued on next page)
+F.F. Rad et al. 
+Industrial Marketing Management 105 (2022) 268–293
+283
+of core technologies across scholars. Hence, further conceptualization of
+core Industry 4.0 technologies and their boundaries is needed to achieve
+common ground on terminologies, capabilities, characteristics, and subvariants in specific technological categories.
+Moreover, we have observed that multiple core technologies of the
+Industry 4.0 can complement or substitute for one another. The interaction of technologies and the question of how the benefits, challenges,
+and critical success factors can change when two or more Industry 4.0
+technologies are considered in combination represents a highly promising avenue for future research. Many technologies continue to evolve,
+and new functions and capabilities are emerging (e.g., the “Industry
+5.0”; Maddikunta et al., 2021). The alignment of core Industry 4.0
+technologies with the existing legacy information systems – and with the
+newest technologies in the process of development, such as quantum
+computers – is an interesting future research avenue.
+Our SLR reveals that relevant research is spread across an enormous
+number of journals and even across very diverse scientific domains (see
+Table 2), reflecting the multidisciplinary nature of the topic. Additional
+literature reviews and other consolidation techniques could, therefore,
+contribute to an interdisciplinary dissemination of insights and detect
+inconsistencies in assumptions and findings across domains. In particular, more studies are needed that consider the business perspective of
+Industry 4.0 technologies and their implications for the supply chain.
+Currently, the majority of studies have been grounded in a computer
+science perspective. This technology-centered view needs to be complemented with socio-economic analyses to generate the necessary
+knowledge that can guide the implementation of these technologies. In
+particular, we encourage researchers to adopt a holistic perspective in
+future studies, considering the analytical lenses of business, computer
+science, and organizational science to overcome “the silos of disciplines”
+and the risk of being “lost in translation”. In addition, future studies
+could seek to uncover differences in the use of Industry 4.0 technologies
+in supply chains across various types of firms (e.g., small and mediumsized enterprises [SMEs] vs. large, multinational corporations),
+various levels of digital maturity, and across sectors, geographical locations, and cultural contexts.
+Finally, we observed that more than 50% of the articles selected have
+applied empirical methods. However, since the technologies at the core
+of Industry 4.0 are still constantly evolving, there is an opportunity to
+conduct more conceptual and mixed-methods research to exploit the full
+potential of these technologies. The application of quantitative research
+methods is nevertheless important to test and validate the constructs.
+For example, approaches such as interpretive structural modelling and
+analytical hierarchy processing could be well-suited to an examination
+of the relationships between benefits, challenges, and success factors.
+Embracing Industry 4.0 technologies and an interorganizational logic
+are key for successful servitization (Khanra et al., 2021; Kohtamaki ¨
+et al., 2021).
+5. Conclusions
+This study investigates and consolidates the benefits, challenges, and
+success factors of 11 technologies that characterize the Industry 4.0 with
+Table 4 (continued )
+Main theme Gaps/underexplored areas Potential questions for
+future research
+technology and their
+boundaries/differences
+4. New or future
+technologies at the core of
+Industry 4.0 or Industry 5.0
+and their interplay/conflicts
+with existing technologies
+5. Alignment/compatibility
+of I4.0 technologies with
+legacy systems
+6. Sustainability aspects/
+considerations in the
+selection and
+implementation of I4.0
+technologies
+7. Decision guidelines/
+frameworks for the
+selection of suitable I4.0
+technologies, given the
+needs of the supply chain
+8. Combinations of I4.0
+technologies from a
+business perspective,
+considering interactions
+among features
+RQ2: How can
+technologies at the core of
+the Industry 4.0 be
+conceptualized to achieve
+common ground in terms
+of characteristics,
+capabilities, etc.? How to
+define the boundaries of
+each I4.0 technology?
+RQ3: How can different
+I4.0 technologies be
+combined to maximize
+their contribution to SC
+performance, e.g., IoT +
+BC, IoT + CC + BDT, IOT
++ BC + BDT? How might
+these technologies align
+with existing legacy
+systems?
+RQ4: How do emerging
+new technologies such as
+I5.0 contribute to SC
+performance? How do
+new technologies interact
+with existing I4.0
+technologies with respect
+to SC performance (e.g.,
+when do they support or
+when do they demerit
+each other)? How to deal
+with conflicts between
+similar or dissimilar
+technologies (e.g., when a
+function of a new
+technology might
+cannibalize the function
+of a previous
+technology)?
+RQ5: How can the
+business perspective and
+the IT perspective be
+balanced in the supply
+chain 4.0?
+RQ6: How can companies
+select relevant I4.0
+technologies? What are
+the decision criteria that
+support SC performance?
+How can companies
+consider sustainability
+aspects in the selection of
+technologies?
+Benefits, challenges,
+and success factors
+of Industry 4.0
+technologies on
+supply chain
+performance
+1. Interrelations between
+the most common benefits,
+challenges, and success
+factors
+2. Role of context (i.e.,
+sector, size, geographical
+spread, digital maturity,
+culture) in the supply chain
+4.0
+3. Impact of SC context on
+benefits, challenges, and
+critical success factors of
+I4.0 technologies
+4. Integration of I4.0
+technologies into intra- and
+interorganizational
+processes
+5. Multi-disciplinary
+perspectives on the impact
+of I4.0 technologies on SC
+performance
+RQ1: How are the most
+common benefits,
+challenges, and success
+factors of I4.0
+technologies interrelated?
+RQ2: Which contextual
+factors affect the benefits,
+challenges, and success
+factors of I4.0
+technologies on SC
+performance? How and
+why?
+RQ3: How to overcome
+such contextual
+differences in studying
+the benefits, challenges,
+and success factors of I4.0
+technologies?
+RQ4: How to develop
+guidelines to integrate
+and implement core I4.0
+technologies for SC
+performance, both at the
+Table 4 (continued )
+Main theme Gaps/underexplored areas Potential questions for
+future research
+firm and supply chain
+level?
+RQ5: How to study the
+impact of I4.0
+technologies on SC
+performance from a
+multi-disciplinary or even
+transdisciplinary
+perspective?
+F.F. Rad et al. 
+Industrial Marketing Management 105 (2022) 268–293
+284
+regards to supply chain performance through a systematic literature
+review. The study covers 221 articles from more than 100 different
+journals, comprising the Internet of People, the Internet of Things, cloud
+computing, big data technologies, blockchain, augmented reality, automation, robotics, additive manufacturing, simulation, and semantic technologies
+as core technological components of the Industry 4.0. The most
+frequently discussed implications in the reviewed literature across the
+11 core technologies are integration and optimization in terms of benefits,
+high costs and human resources in terms of challenges, and alignment and
+top management support in terms of critical success factors. We integrated
+the benefits, challenges, and critical success factors of the 11 Industry
+4.0 technologies with respect to supply chain performance in an overarching framework (Fig. 6). Finally, we derived a detailed agenda for
+future research from our analysis. This detailed future research agenda
+(see Table 4) can assist scholars in the supply chain and Industry 4.0
+domains in conducting highly relevant and impactful further research.
+In summary, further work is needed with respect to i) the challenges and
+critical success factors of Industry 4.0 technologies; ii) hitherto underresearched technologies (e.g. Semantic Technologies, Augmented Reality, and the Internet of People), newly emerging technologies, and
+under-represented components and facets of heavily covered technologies (such as the Internet of Things); iii) synergies and trade-offs among
+the core technologies; and (iv) the interdisciplinary dissemination and
+consolidation of relevant findings.
+5.1. Theoretical implications
+This study offers three contributions to the supply chain management and Industry 4.0 literatures. First, the study contributes to the
+discussion on how to implement different Industry 4.0 technologies in
+the supply chain context (Fatorachian & Kazemi, 2021; Pfohl et al.,
+2015). Although several SLRs on the impact of Industry 4.0 on supply
+chains already exist (e.g., Barata, 2021; Frederico et al., 2019; Meindl
+et al., 2021; Ghadge et al., 2020), these SLRs do not comprehensively
+cover multiple technologies at the core of the Industry 4.0. Instead, the
+existing SLRs have used rather specific focuses, such as mobile technologies (Barata et al., 2018), sustainability (Bag, Telukdarie, Pretorius,
+& Gupta, 2018; Yadav et al., 2020), proximity of partners (Dallasega
+et al., 2018), technology transfer (Da Silva, Kovaleski, & Pagani, 2019),
+and various levels of integration (Tiwari, 2021). By covering an extensive set of 11 core technologies of the Industry 4.0, our study helps
+identify the broader implications of these technologies for supply chain
+performance in terms of benefits, challenges, and success factors. Such a
+comprehensive review of several core technologies establishes a good
+foundation for scientists to build on. This exceptionally comprehensive
+perspective makes a significant contribution to supply chain management because existing technologies are continuously changing, and new
+technologies are continuously emerging.
+Second, this study maps the benefits, challenges, and critical success
+factors of 11 core technologies for supply chain performance. This
+mapping is an important and novel contribution that could help us understand the complex technological components of the Industry 4.0. In
+fact, many researchers acknowledge that a good starting point for the
+adaptation and transformation of supply chains in the move towards the
+Industry 4.0 is the identification of benefits, challenges, and critical
+success factors (e.g., Sony et al., 2021; Fatorachian & Kazemi, 2021;
+Ghadge et al., 2020; Bag et al., 2018). The exiting literature on the Industry 4.0 for supply chains either covers benefits (Barata, 2021; Da
+Silva et al., 2019; Frederico et al., 2019), challenges (Ghadge et al.,
+2020; Luthra & Mangla, 2018), success factors (Yadav et al., 2020;
+Tiwari, 2021) or several combinations (Bag et al., 2018; Dallasega et al.,
+2018; Ding et al., 2018), but not all of them comprehensively at once.
+Third, this study contributes to the implementation of Industry 4.0
+technologies in supply chains by providing a structured foundation for
+further discussion of potential benefits, challenges, and success factors
+of specific Industry 4.0 technologies. The framework we develop
+advances a holistic approach to supply chain management (Bag et al.,
+2018; Barata, 2021; Fatorachian & Kazemi, 2021; Meindl et al., 2021).
+5.2. Practical implications
+Our study will benefit supply chain managers, digitalization managers, technology officers, and related practitioners, who are driving
+digitalized supply chain or Industry 4.0 initiatives. The proposed
+framework could help these managers develop a more holistic understanding of technologies at the core of the Industry 4.0 and their implications in terms of potential benefits, challenges, and success factors.
+In particular, the 11 core technologies offer managers a broad set of
+potential options to fulfil the needs of their specific supply chains. As
+companies struggle to build advanced digital supply chains, this
+framework could be used to assess the strengths, weaknesses, opportunities, and threats of a focal company, coordinate the corresponding
+investment efforts, and prepare the related operational steps. For
+example, the potential benefits and challenges of different core technologies can be discussed and compared to the needs of the company
+and the corresponding supply chain.
+Additionally, managers could use the proposed framework to discuss
+the limitations of available legacy systems in the company and possible
+means to overcome them with Industry 4.0 technologies. Furthermore,
+companies could use this framework when they formulate a reference
+architecture model (Moghaddam, Cadavid, Kenley, & Deshmukh, 2018)
+for digitalized/smart supply chains. Hence, the proposed descriptive
+framework can act as a guiding tool for managers to select and integrate
+Industry 4.0 technologies to improve their supply chain performance. As
+digitalization is unlikely to disappear and the fourth industrial revolution forces more and more businesses and supply chains to undergo a
+digital transformation, our study can hopefully inspire much more
+research on this relevant topic. Finally, Industry 4.0 supply chains
+(alternatively, “supply chain 4.0”) could naturally be part of and play a
+significant role in many current trends, such as digital servitization, the
+circular economy, the sharing economy, and electrification (e.g., Palmi´e
+et al., 2021; Palmi´e, Wincent, Parida, & Caglar, 2020). Researchers in
+these domains could use the results of our study to conceptualize and
+prepare a successful digital transformation of supply chains.
+Appendix A. 221 articles featured in our literature review.
+Achillas, C., Aidonis, D., Iakovou, E., Thymianidis, M., & Tzetzis, D.
+(2015). A methodological framework for the inclusion of modern additive manufacturing into the production portfolio of a focused factory.
+Journal of Manufacturing Systems, 37, 328–339.
+Agrawal, P., & Narain, R. (2021). Analysis of enablers for the digitalization of supply chain using an interpretive structural modelling
+approach. International Journal of Productivity and Performance
+Management.
+Agrifoglio, R., Cannavale, C., Laurenza, E., & Metallo, C. (2017).
+How emerging digital technologies affect operations management
+through co-creation. Empirical evidence from the maritime industry.
+Production Planning & Control, 28(16), 1298–1306.
+Agyapong-Kodua, K., Lohse, N., Darlington, R., & Ratchev, S. (2013).
+Review of semantic modelling technologies in support of virtual factory
+design. International Journal of Production Research, 51(14), 4388–4404.
+Al-Saeed, Y., Parn, E., Edwards, D. J., & Scaysbrook, S. (2019). A
+conceptual framework for utilizing BIM digital objects (BDO) in
+manufacturing design and production. Journal of Engineering, Design and
+Technology.
+Ali, I., & Aboelmaged, M. G. S. (2021). Implementation of supply
+chain 4.0 in the food and beverage industry: Perceived drivers and
+barriers. International Journal of Productivity and Performance
+Management.
+Alkaabi, N., Salah, K., Jayaraman, R., Arshad, J., & Omar, M. (2020).
+Blockchain-based traceability and management for additive
+F.F. Rad et al. 
+Industrial Marketing Management 105 (2022) 268–293
+285
+manufacturing. IEEE Access, 8, 188,363–188,377.
+Anke, J., Wellsandt, S., & Thoben, K. D. (2018). Modelling of a Smart
+Service for Consumables Replenishment–A Life Cycle Perspective. Enterprise Modelling and Information Systems Architectures (EMISAJ) – International Journal of Conceptual Modelling, 13(17).
+Ardito, L., Petruzzelli, A. M., Panniello, U., & Garavelli, A. C. (2019).
+Towards Industry 4.0. Business Process Management Journal.
+Arora, R., Arora, P. K., Kumar, H., & Pant, M. (2020). Additive
+manufacturing enabled supply chain in combating COVID-19. Journal of
+Industrial Integration and Management, 5(04), 495–505.
+Asdecker, B., & Felch, V. (2018). Development of an Industry 4.0
+maturity model for the delivery process in supply chains. Journal of
+Modelling in Management.
+Bamel, N., & Bamel, U. (2020). Big data analytics-based enablers of
+supply chain capabilities and firm competitiveness: A fuzzy-TISM
+approach. Journal of Enterprise Information Management, 34(1), 559–571.
+Banyai, ´ T., Ill´es, B., & Banyai, ´ A. ´ (2018). Smart scheduling: An integrated first mile and last mile supply approach. Complexity, 2018.
+Bar, ¨ K., Herbert-Hansen, Z. N. L., & Khalid, W. (2018). Considering
+Industry 4.0 aspects in the supply chain for an SME. Production Engineering, 12(6), 747–758.
+Barata, J. (2021). The fourth industrial revolution of supply chains: A
+tertiary study. Journal of Engineering and Technology Management, 60,
+101,624.
+Barata, J., Da Cunha, P. R., & Stal, J. (2018). Mobile supply chain
+management in the Industry 4.0 era. Journal of Enterprise Information
+Management.
+Baron, O., Hajizadeh, I., & Milner, J. (2011). Now playing: DVD
+purchasing for a multilocation rental firm. Manufacturing & Service Operations Management, 13(2), 209–226.
+Baruffaldi, G., Accorsi, R., & Manzini, R. (2019). Warehouse management system customization and information availability in 3pl
+companies. Industrial Management & Data Systems.
+Barykin, S. Y., Kalinina, O. V., Bochkarev, A. A., & Yadykin, V. K.
+(2020). Concept for a supply chain digital twin. International Journal of
+Mathematical, Engineering and Management Sciences, 5(6), 1498–1515.
+Batwa, A., & Norrman, A. (2020). A framework for exploring
+blockchain technology in supply chain management. Operations and
+Supply Chain Management: An International Journal, 13(3), 294–306.
+Baumers, M., Tuck, C., Wildman, R., Ashcroft, I., Rosamond, E., &
+Hague, R. (2013). Transparency built-in: Energy consumption and cost
+estimation for additive manufacturing. Journal of Industrial Ecology, 17
+(3), 418–431.
+Bechtsis, D., Tsolakis, N., Vlachos, D., & Srai, J. S. (2018). Intelligent
+autonomous vehicles in digital supply chains: a framework for integrating innovations towards sustainable value networks. Journal of
+Cleaner Production, 181, 60–71.
+Ben-Daya, M., Hassini, E., & Bahroun, Z. (2019). Internet of things
+and supply chain management: A literature review. International Journal
+of Production Research, 57(15–16), 4719–4742.
+Benzidia, S., Makaoui, N., & Bentahar, O. (2021). The impact of big
+data analytics and artificial intelligence on green supply chain process
+integration and hospital environmental performance. Technological
+Forecasting and Social Change, 165, 120,557.
+Bienhaus, F., & Haddud, A. (2018). Procurement 4.0: factors influencing the digitisation of procurement and supply chains. Business Process Management Journal.
+Birkel, H. S., Veile, J. W., Müller, J. M., Hartmann, E., & Voigt, K. I.
+(2019). Development of a risk framework for Industry 4.0 in the context
+of sustainability for established manufacturers. Sustainability, 11(2),
+384.
+Blos, M. F., da Silva, R. M., & Wee, H. M. (2018). A framework for
+designing supply chain disruptions management considering productive
+systems and carrier viewpoints. International Journal of Production
+Research, 56(15), 5045–5061.
+Bogataj, D., Bogataj, M., & Hudoklin, D. (2017). Mitigating risks of
+perishable products in the cyber-physical systems based on the extended
+MRP model. International Journal of Production Economics, 193, 51–62.
+Brinch, M., Stentoft, J., Jensen, J. K., & Rajkumar, C. (2018). Practitioners understanding of big data and its applications in supply chain
+management. International Journal of Logistics Management, 29(2),
+555–574.
+Buil, R., Piera, M. A., & Laserna, T. (2011). Operational and strategic
+supply model redesign for an optical chain company using digital
+simulation. Simulation, 87(8), 668–679.
+Büyükozkan, ¨ G., & Goçer, ¨ F. (2018). Digital Supply Chain: Literature
+review and a proposed framework for future research. Computers in Industry, 97, 157–177.
+Calatayud, A., Mangan, J., & Christopher, M. (2019). The selfthinking supply chain. Supply Chain Management: An International
+Journal.
+Cerdas, F., Juraschek, M., Thiede, S., & Herrmann, C. (2017). Life
+cycle assessment of 3D printed products in a distributed manufacturing
+system. Journal of Industrial Ecology, 21(S1), S80–S93.
+Chan, H. K., Griffin, J., Lim, J. J., Zeng, F., & Chiu, A. S. (2018). The
+impact of 3D Printing Technology on the supply chain: Manufacturing
+and legal perspectives. International Journal of Production Economics,
+205, 156–162.
+Chang, C. W., Wu, C. R., & Liao, C. C. (2010). The virtual cooperation
+platform in enterprise and supplier cooperation models. Cyberpsychology, Behavior, and Social Networking, 13(4), 473–475.
+Chang, C. Y., Pan, W., & Howard, R. (2017). Impact of building information modelling implementation on the acceptance of integrated
+delivery systems: Structural equation modelling analysis. Journal of
+Construction Engineering and Management, 143(8), 04017044.
+Chekurov, S., Metsa-Kortelainen, ¨ S., Salmi, M., Roda, I., & Jussila, A.
+(2018). The perceived value of additively manufactured digital spare
+parts in industry: An empirical investigation. International Journal of
+Production Economics, 205, 87–97.
+Chen, J. C., Fan, Y. C., & Chen, C. W. (2009). Capacity requirements
+planning for twin Fabs of wafer fabrication. International Journal of
+Production Research, 47(16), 4473–4496.
+Chod, J., Trichakis, N., Tsoukalas, G., Aspegren, H., & Weber, M.
+(2020). On the financing benefits of supply chain transparency and
+blockchain adoption. Management Science, 66(10), 4378–4396.
+Choi, T. M., Wen, X., Sun, X., & Chung, S. H. (2019). The meanvariance approach for global supply chain risk analysis with air logistics in the blockchain technology era. Transportation Research Part E:
+Logistics and Transportation Review, 127, 178–191.
+Chryssolouris, G., Mavrikios, D., Papakostas, N., Mourtzis, D.,
+Michalos, G., & Georgoulias, K. (2009). Digital manufacturing: history,
+perspectives, and outlook. Proceedings of the Institution of Mechanical
+Engineers, Part B: Journal of Engineering Manufacture, 223(5), 451–462.
+Cole, R., Stevenson, M., & Aitken, J. (2019). Blockchain technology:
+implications for operations and supply chain management. Supply Chain
+Management: An International Journal, 24(4), 469–483.
+Corsini, L., Aranda-Jan, C. B., & Moultrie, J. (2020). The impact of
+3D printing on the humanitarian supply chain. Production Planning &
+Control, 1–13.
+Cozmiuc, D., & Petrisor, I. (2018). Industry 4.0 by Siemens: steps
+made next. Journal of Cases on Information Technology (JCIT), 20(1),
+31–45.
+Daú, G., Scavarda, A., Scavarda, L. F., & Portugal, V. J. T. (2019). The
+healthcare sustainable supply chain 4.0: The circular economy transition
+conceptual framework with the corporate social responsibility mirror.
+Sustainability, 11(12), 3259.
+De Vass, T., Shee, H., & Miah, S. (2021a). IoT in supply chain management: Opportunities and challenges for businesses in early Industry
+4.0 context. Operations and Supply Chain Management: An International
+Journal, 14(2), 148–161.
+De Vass, T., Shee, H., & Miah, S. J. (2018). The effect of “Internet of
+Things” on supply chain integration and performance: An organizational
+F.F. Rad et al. 
+Industrial Marketing Management 105 (2022) 268–293
+286
+capability perspective. Australasian Journal of Information Systems, 22.
+De Vass, T., Shee, H., & Miah, S. J. (2021b). IoT in supply chain
+management: A narrative on retail sector sustainability. International
+Journal of Logistics Research and Applications, 24(6), 605–624.
+Defraeye, T., Tagliavini, G., Wu, W., Prawiranto, K., Schudel, S.,
+Kerisima, M. A., … & Bühlmann, A. (2019). Digital twins probe into food
+cooling and biochemical quality changes for reducing losses in refrigerated supply chains. Resources, Conservation and Recycling, 149,
+778–794.
+Ding, K., Jiang, P., & Su, S. (2018). RFID-enabled social
+manufacturing system for inter-enterprise monitoring and dispatching
+of integrated production and transportation tasks. Robotics and
+Computer-Integrated Manufacturing, 49, 120–133.
+Dogan, I., & Güner, A. R. (2015). A reinforcement learning approach
+to competitive ordering and pricing problem. Expert Systems, 32(1),
+39–48.
+Dolgui, A., Ivanov, D., Potryasaev, S., Sokolov, B., Ivanova, M., &
+Werner, F. (2019a). Blockchain-oriented dynamic modelling of smart
+contract design and execution in the supply chain. International Journal
+of Production Research, 1–16.
+Dolgui, A., Ivanov, D., Sethi, S. P., & Sokolov, B. (2019b). Scheduling
+in production, supply chain and Industry 4.0 systems by optimal control:
+Fundamentals, state-of-the-art and applications. International Journal of
+Production Research, 57(2), 411–432.
+Du, M., Chen, Q., Xiao, J., Yang, H., & Ma, X. (2020). Supply chain
+finance innovation using blockchain. IEEE Transactions on Engineering
+Management, 67(4), 1045–1058.
+Dunke, F., Heckmann, I., Nickel, S., & Saldanha-da-Gama, F. (2018).
+Time traps in supply chains: Is optimal still good enough?. European
+Journal of Operational Research, 264(3), 813–829.
+Erboz, G., Hüseyinoglu, ˘ I. O. ¨ Y., & Szegedi, Z. (2021). The partial
+mediating role of supply chain integration between Industry 4.0 and
+supply chain performance. Supply Chain Management: An International
+Journal.
+Esfahani, A., Mantas, G., Ribeiro, J., Bastos, J., Mumtaz, S., Violas,
+M. A., … & Rodriguez, J. (2019). An Efficient Web Authentication
+Mechanism Preventing Man-In-The-Middle Attacks in Industry 4.0
+Supply Chain. IEEE Access, 7, 58,981–58,989.
+Eslami, M. H., Jafari, H., Achtenhagen, L., Carlback, ¨ J., & Wong, A.
+(2021). Financial performance and supply chain dynamic capabilities:
+The moderating role of Industry 4.0 technologies. International Journal of
+Production Research, 1–18.
+Esmaeilian, B., Sarkis, J., Lewis, K., & Behdad, S. (2020). Blockchain
+for the future of sustainable supply chain management in Industry 4.0.
+Resources, Conservation and Recycling, 163, 105,064.
+Etemadi, N., Van Gelder, P., & Strozzi, F. (2021). An ism modelling of
+barriers for blockchain/distributed ledger technology adoption in supply chains towards cybersecurity. Sustainability, 13(9), 4672.
+Exposito, I., Gay-Fernandez, ´ J. A., & Cuinas, I. (2013). A complete
+traceability system for a wine supply chain using radio-frequency
+identification and wireless sensor networks [wireless corner]. IEEE Antennas and Propagation Magazine, 55(2), 255–267.
+Fatorachian, H., & Kazemi, H. (2021). Impact of Industry 4.0 on
+supply chain performance. Production Planning & Control, 32(1), 63–81.
+Frank, A. G., Dalenogare, L. S., & Ayala, N. F. (2019). Industry 4.0
+technologies: Implementation patterns in manufacturing companies.
+International Journal of Production Economics, 210, 15–26.
+Frazzon, E. M., Dutra, M. L., & Vianna, W. B. (2015). Big data applied
+to cyber-physical logistic systems: Conceptual model and perspectives.
+Brazilian Journal of Operations & Production Management, 12(2015),
+330–337.
+Frazzon, E. M., Rodriguez, C. M. T., Pereira, M. M., Pires, M. C., &
+Uhlmann, I. (2019). Towards Supply Chain Management 4.0. Brazilian
+Journal of Operations & Production Management, 16(2), 180–191.
+Frederico, G. F., Garza-Reyes, J. A., Anosike, A., & Kumar, V. (2019).
+Supply Chain 4.0: Concepts, maturity and research agenda. Supply Chain
+Management: An International Journal, 25(2), 262–282.
+Gausdal, A. H., Czachorowski, K. V., & Solesvik, M. Z. (2018).
+Applying blockchain technology: evidence from Norwegian companies.
+Sustainability, 10(6), 1985.
+Gawankar, S. A., Gunasekaran, A., & Kamble, S. (2020). A study on
+investments in the big data-driven supply chain, performance measures
+and organizational performance in Indian retail 4.0 context. International Journal of Production Research, 58(5), 1574–1593.
+Gessner, G. H., Volonino, L., & Fish, L. A. (2007). One-up, one-back
+ERM in the food supply chain. Information Systems Management, 24(3),
+213–222.
+Ghadge, A., Kara, M. E., Moradlou, H., & Goswami, M. (2020). The
+impact of Industry 4.0 implementation on supply chains. Journal of
+Manufacturing Technology Management, 31(4), 669–686.
+Ghadimi, P., Wang, C., Lim, M. K., & Heavey, C. (2019). Intelligent
+sustainable supplier selection using multi-agent technology: Theory and
+application for Industry 4.0 supply chains. Computers & Industrial Engineering, 127, 588–600.
+Gravili, G., Benvenuto, M., Avram, A., & Viola, C. (2018). The influence of the Digital Divide on Big Data generation within supply chain
+management. The International Journal of Logistics Management.
+Gromovs, G., & Lammi, K. (2017). Blockchain and internet of things
+require innovative approach to logistics education. Transport Problems,
+12.
+Gruˇzauskas, V., Baskutis, S., & Navickas, V. (2018). Minimizing the
+trade-off between sustainability and cost-effective performance by using
+autonomous vehicles. Journal of Cleaner Production, 184, 709–717.
+Gupta, H., Kumar, S., Kusi-Sarpong, S., Jabbour, C. J. C., & Agyemang, M. (2020a). Enablers to supply chain performance on the basis of
+digitization technologies. Industrial Management & Data Systems, 121(9),
+191–1938.
+Gupta, N., Tiwari, A., Bukkapatnam, S. T., & Karri, R. (2020b). Additive manufacturing cyber-physical system: Supply chain cybersecurity
+and risks. IEEE Access, 8, 47,322–47,333.
+Gustafsson, E., Jonsson, P., & Holmstrom, ¨ J. (2019). Digital product
+fitting in retail supply chains: maturity levels and potential outcomes.
+Supply Chain Management: An International Journal.
+Hahn, G. J. (2020). Industry 4.0: a supply chain innovation
+perspective. International Journal of Production Research, 58(5),
+1425–1441.
+Han, L., Hou, H., Bi, Z. M., Yang, J., & Zheng, X. (2021). Functional
+requirements and supply chain digitalization in Industry 4.0. Information
+Systems Frontiers, 1–13.
+Harrison, R., Vera, D., & Ahmad, B. (2016). Engineering methods
+and tools for cyber–physical automation systems. Proceedings of the IEEE,
+104(5), 973–985.
+Hohn, M. M., & Durach, C. F. (2021). Additive manufacturing in the
+apparel supply chain—impact on supply chain governance and social
+sustainability. International Journal of Operations & Production Management, 41(7), 1035–1059.
+Holmstrom, ¨ J., & Partanen, J. (2014). Digital manufacturing-driven
+transformations of service supply chains for complex products. Supply
+Chain Management: An International Journal.
+Holmstrom, ¨ J., Holweg, M., Khajavi, S. H., & Partanen, J. (2016).
+The direct digital manufacturing (r) evolution: definition of a research
+agenda. Operations Management Research, 9(1–2), 1–10.
+Holmstrom, ¨ J., Liotta, G., & Chaudhuri, A. (2017). Sustainability
+outcomes through direct digital manufacturing-based operational
+practices: A design theory approach. Journal of Cleaner Production, 167,
+951–961.
+Hormozi, A. M. (2013). Means of transportation in the next generation of supply chains. SAM Advanced Management Journal, 78(1), 42.
+Huang, F., Chen, J., Sun, L., Zhang, Y., & Yao, S. (2020). Value-based
+contract for smart operation and maintenance service based on equitable entropy. International Journal of Production Research, 58(4),
+1271–1284.
+F.F. Rad et al. 
+Industrial Marketing Management 105 (2022) 268–293
+287
+Ivanov, D., & Dolgui, A. (2020). A digital supply chain twin for
+managing the disruption risks and resilience in the era of Industry 4.0.
+Production Planning & Control, 1–14.
+Ivanov, D., Dolgui, A., & Sokolov, B. (2019). The impact of digital
+technology and Industry 4.0 on the ripple effect and supply chain risk
+analytics. International Journal of Production Research, 57(3), 829–846.
+Jabbar, S., Lloyd, H., Hammoudeh, M., Adebisi, B., & Raza, U.
+(2021). Blockchain-enabled supply chain: Analysis, challenges, and
+future directions. Multimedia Systems, 27(4), 787–806.
+Jabbour, C. J. C., Fiorini, P. D. C., Ndubisi, N. O., Queiroz, M. M., &
+Piato, E. ´ L. (2020). Digitally-enabled sustainable supply chains in the
+21st century: A review and a research agenda. Science of the Total
+Environment, 725, 138,177.
+Jagtap, S., & Rahimifard, S. (2019). The digitisation of food
+manufacturing to reduce waste–Case study of a ready meal factory.
+Waste Management, 87, 387–397.
+Jagtap, S., Bhatt, C., Thik, J., & Rahimifard, S. (2019). Monitoring
+potato waste in food manufacturing using image processing and Internet
+of Things approach. Sustainability, 11(11), 3173.
+Janssen, M., & Feenstra, R. (2010). Service portfolios for supply
+chain composition: Creating business network interoperability and
+agility. International Journal of Computer Integrated Manufacturing, 23
+(8–9), 747–757.
+Jardim-Goncalves, R., Agostinho, C., Sarraipa, J., Grilo, A., & Mendonça, J. P. (2013). Reference framework for enhanced interoperable
+collaborative networks in industrial organisations. International Journal
+of Computer Integrated Manufacturing, 26(1–2), 166–182.
+Jede, A., & Teuteberg, F. (2015). Integrating cloud computing in
+supply chain processes. Journal of Enterprise Information Management.
+Jia, R., Jin, B., Jin, M., Zhou, Y., Konstantakopoulos, I. C., Zou, H., …
+& Nuzzo, P. (2018). Design automation for smart building systems.
+Proceedings of the IEEE, 106(9), 1680–1699.
+Junge, A. L. (2019). Digital transformation technologies as an
+enabler for sustainable logistics and supply chain processes – an
+exploratory framework. Brazilian Journal of Operations & Production
+Management, 16(3), 462–472.
+Kache, F., & Seuring, S. (2017). Challenges and opportunities of
+digital information at the intersection of Big Data Analytics and supply
+chain management. International Journal of Operations & Production
+Management.
+Kamble, S. S., Gunasekaran, A., Parekh, H., & Joshi, S. (2019).
+Modelling the internet of things adoption barriers in food retail supply
+chains. Journal of Retailing and Consumer Services, 48, 154–168.
+Kamble, S. S., Gunasekaran, A., Subramanian, N., Ghadge, A., Belhadi, A., & Venkatesh, M. (2021). Blockchain technology’s impact on
+supply chain integration and sustainable supply chain performance:
+Evidence from the automotive industry. Annals of Operations Research,
+1–26.
+Kayikci, Y., Subramanian, N., Dora, M., & Bhatia, M. S. (2020). Food
+supply chain in the era of Industry 4.0: Blockchain technology implementation opportunities and impediments from the perspective of people, process, performance, and technology. Production Planning &
+Control, 1–21.
+Khajavi, S. H., Baumers, M., Holmstrom, ¨ J., Ozcan, ¨ E., Atkin, J.,
+Jackson, W., & Li, W. (2018a). To kit or not to kit: Analyzing the value of
+model-based kitting for additive manufacturing. Computers in Industry,
+98, 100–117.
+Khajavi, S. H., Holmstrom, ¨ J., & Partanen, J. (2018b). Additive
+manufacturing in the spare parts supply chain: hub configuration and
+technology maturity. Rapid Prototyping Journal.
+Kim, D. B., Witherell, P., Lu, Y., & Feng, S. (2017). Towards a digital
+thread and data package for metals-additive manufacturing. Smart and
+Sustainable Manufacturing Systems, 1(1), 75.
+Kitajima, M., & Sakurai, A. (2019). COLMINA: Manufacturing Digital
+Place to Create New Value in Manufacturing Industry. Fujitsu Scientific &
+Technical Journal, 55(1), 14–19.
+Kleinschrodt, C., & Rieg, F. (2019). Normalisation of STEP Files for
+Improving the Data Compatibility of Transferred Tool Models. Tehniˇcki
+Vjesnik, 26(1), 248–255.
+Klumpp, M., & Zijm, H. (2019). Logistics innovation and social sustainability: How to prevent an artificial divide in Human–Computer
+Interaction. Journal of Business Logistics, 40(3), 265–278.
+Kohler, ¨ S., & Pizzol, M. (2020). Technology assessment of
+blockchain-based technologies in the food supply chain. Journal of
+Cleaner Production, 269, 122,193.
+Kohli, R., & Johnson, S. (2011). Digital Transformation in Latecomer
+Industries: CIO and CEO Leadership Lessons from Encana Oil & Gas
+(USA) Inc. MIS Quarterly Executive, 10(4).
+Kov´
+acs, G., & Kot, S. (2016). New logistics and production trends as
+the effect of global economy changes. Polish Journal of Management
+Studies, 14.
+Krykavskyy, Y., Pokhylchenko, O., & Hayvanovych, N. (2019).
+Supply chain development drivers in Industry 4.0 in Ukrainian enterprises. Oeconomia Copernicana, 10(2), 273–290.
+Kumar, A., Liu, R., & Shan, Z. (2020). Is blockchain a silver bullet for
+supply chain management? Technical challenges and research opportunities. Decision Sciences, 51(1), 8–37.
+Kamble, S.S., Gunasekaran, A., & Sharmac, R. (2018). Analysis of the
+driving and dependence power of barriers to adopt Industry 4.0 in Indian manufacturing industry, Computers in Industry, 101, 107–119.
+Kumar, P., & Singh, R. K. (2021). Application of Industry 4.0 technologies for effective coordination in humanitarian supply chains: A
+strategic approach. Annals of Operations Research, 1–33.
+Kunovjanek, M., & Reiner, G. (2020). How will the diffusion of additive manufacturing impact the raw material supply chain process?.
+International Journal of Production Research, 58(5), 1540–1554.
+Lai, X. D., Wu, G. D., Shi, J. G., Wang, H. M., & Kong, Q. S. (2015).
+Project value-adding optimization of project-based supply chain under
+dynamic reputation incentives. International Journal of Simulation
+Modelling, 14(1), 121–133.
+Lambourdiere, E., & Corbin, E. (2020). Blockchain and maritime
+supply-chain performance: Dynamic capabilities perspective. Worldwide
+Hospitality and Tourism Themes, 12(1), 24–34.
+Leite, M., Pinto, T. P., & Alves, C. (2019). A real-time optimization
+algorithm for the integrated planning and scheduling problem towards
+the context of Industry 4.0. FME Transactions, 47(4), 775–781.
+Leung, K. H., Choy, K. L., Siu, P. K., Ho, G. T., Lam, H. Y., & Lee, C. K.
+(2018). A B2C e-commerce intelligent system for re-engineering the eorder fulfilment process. Expert Systems with Applications, 91, 386–401.
+Li, H., Palau, A. S., & Parlikad, A. K. (2018). A social network of
+collaborating industrial assets. Proceedings of the Institution of Mechanical
+Engineers, Part O: Journal of Risk and Reliability, 232(4), 389–400.
+Lin, K. Y. (2018). User experience-based product design for smart
+production to empower Industry 4.0 in the glass recycling circular
+economy. Computers & Industrial Engineering, 125, 729–738.
+Lugert, A., Batz, A., & Winkler, H. (2018). Empirical assessment of
+the future adequacy of value stream mapping in manufacturing industries. Journal of Manufacturing Technology Management.
+Lüthje, B. (2019). Platform Capitalism ‘Made in China’? Intelligent
+Manufacturing, Taobao Villages and the Restructuring of Work. Science,
+Technology and Society, 24(2), 199–217.
+Luthra, S., & Mangla, S. K. (2018). Evaluating challenges to Industry
+4.0 initiatives for supply chain sustainability in emerging economies.
+Process Safety and Environmental Protection, 117, 168–179.
+Luthra, S., Kumar, A., Zavadskas, E. K., Mangla, S. K., & Garza-Reyes,
+J. A. (2020). Industry 4.0 as an enabler of sustainability diffusion in
+supply chain: An analysis of influential strength of drivers in an
+emerging economy. International Journal of Production Research, 58(5),
+1505–1521.
+Lyly-Yrjan¨ ¨
+ainen, J., Holmstrom, ¨ J., Johansson, M. I., & Suomala, P.
+(2016). Effects of combining product-centric control and direct digital
+manufacturing: The case of preparing customized hose assembly kits.
+F.F. Rad et al. 
+Industrial Marketing Management 105 (2022) 268–293
+288
+Computers in Industry, 82, 82–94.
+Maier, M. A., Korbel, J. J., & Brem, A. (2015). Innovation in supply
+chains-solving the agency dilemma in supply networks by using Industry
+4.0 technologies. IJCNDS, 15(2/3), 235–247.
+Majdalawieh, M., Nizamuddin, N., Alaraj, M., Khan, S., & Bani-Hani,
+A. (2021). Blockchain-based solution for secure and transparent food
+supply chain network. Peer-to-Peer Networking and Applications, 14(6),
+3831–3850.
+Mandolla, C., Petruzzelli, A. M., Percoco, G., & Urbinati, A. (2019).
+Building a digital twin for additive manufacturing through the exploitation of blockchain: A case analysis of the aircraft industry. Computers in
+Industry, 109, 134–152.
+Manupati, V. K., Schoenherr, T., Ramkumar, M., Wagner, S. M.,
+Pabba, S. K., & Inder Raj Singh, R. (2020). A blockchain-based approach
+for a multi-echelon sustainable supply chain. International Journal of
+Production Research, 58(7), 2222–2241.
+Martín-Gomez, ´ A., Aguayo-Gonzalez, ´ F., & Luque, A. (2019). A
+holonic framework for managing the sustainable supply chain in
+emerging economies with smart connected metabolism. Resources,
+Conservation and Recycling, 141, 219–232.
+Martínez-Olvera, C., & Mora-Vargas, J. (2019). A Comprehensive
+Framework for the Analysis of Industry 4.0 Value Domains. Sustainability, 11(10), 2960.
+Mastos, T. D., Nizamis, A., Vafeiadis, T., Alexopoulos, N., Ntinas, C.,
+Gkortzis, D., … & Tzovaras, D. (2020). Industry 4.0 sustainable supply
+chains: An application of an IoT enabled scrap metal management solution. Journal of Cleaner Production, 269, 122,377.
+Mathivathanan, D., Mathiyazhagan, K., Rana, N. P., Khorana, S., &
+Dwivedi, Y. K. (2021). Barriers to the adoption of blockchain technology
+in business supply chains: A total interpretive structural modelling
+(TISM) approach. International Journal of Production Research, 1–22.
+Mazzola, L., Waibel, P., Kaphanke, P., & Klusch, M. (2018). Smart
+process optimization and adaptive execution with semantic services in
+cloud manufacturing. Information, 9(11), 279.
+Mehta, D., Tanwar, S., Bodkhe, U., Shukla, A., & Kumar, N. (2021).
+Blockchain-based royalty contract transactions scheme for Industry 4.0
+supply-chain management. Information Processing & Management, 58(4),
+102,586.
+Min, H. (2019). Blockchain technology for enhancing supply chain
+resilience. Business Horizons, 62(1), 35–45.
+Molka-Danielsen, J., Engelseth, P., & Wang, H. (2018). Large scale
+integration of wireless sensor network technologies for air quality
+monitoring at a logistics shipping base. Journal of Industrial Information
+Integration, 10, 20–28.
+Mondal, S., Wijewardena, K. P., Karuppuswami, S., Kriti, N., Kumar,
+D., & Chahal, P. (2019). Blockchain inspired RFID-based information
+architecture for food supply chain. IEEE Internet of Things Journal, 6(3),
+5803–5813.
+Moneimne, W., Hajdul, M., & Mikołajczak, S. (2016). Seamless
+communication in supply chains based on M2M technology. LogForum,
+12.
+Monizza, G. P., Bendetti, C., & Matt, D. T. (2018). Parametric and
+Generative Design techniques in mass-production environments as
+effective enablers of Industry 4.0 approaches in the Building Industry.
+Automation in Construction, 92, 270–285.
+Moreno, M., Court, R., Wright, M., & Charnley, F. (2019). Opportunities for redistributed manufacturing and digital intelligence as enablers of a circular economy. International Journal of Sustainable
+Engineering, 12(2), 77–94.
+Mubarik, M., Rasi, R. Z. R. M., Mubarak, M. F., & Ashraf, R. (2021).
+Impact of blockchain technology on green supply chain practices: Evidence from emerging economy. Management of Environmental Quality: An
+International Journal, 32(5), 1023–1039.
+Mukherjee, A. A., Singh, R. K., Mishra, R., & Bag, S. (2021). Application of blockchain technology for sustainability development in
+agricultural supply chain: Justification framework. Operations
+Management Research, 1–16.
+Nandi, S., Sarkis, J., Hervani, A. A., & Helms, M. M. (2021). Redesigning supply chains using blockchain-enabled circular economy and
+COVID-19 experiences. Sustainable Production and Consumption, 27,
+10–22.
+Nascimento, D. L. M., Alencastro, V., Quelhas, O. L. G., Caiado, R. G.
+G., Garza-Reyes, J. A., Rocha-Lona, L., & Tortorella, G. (2019).
+Exploring Industry 4.0 technologies to enable circular economy practices in a manufacturing context. Journal of Manufacturing Technology
+Management.
+Navickas, V., Kuznetsova, S., & Gruzauskas, V. (2017). Cyber–physical systems expression in Industry 4.0 context. Financial and Credit
+Activity: Problems of Theory and Practice, 2(23), 188–197.
+Nguyen, A., Lamouri, S., Pellerin, R., Tamayo, S., & Lekens, B.
+(2021). Data analytics in pharmaceutical supply chains: State of the art,
+opportunities, and challenges. International Journal of Production
+Research, 1–20.
+Nishioka, Y., Horimizu, O., Chino, S., Saleck, A. H., & Usl¨
+ander, T.
+(2016). Design of an ecosystem platform for manufacturing operations
+using loosely defined standards. at-Automatisierungstechnik, 64(9),
+718–728.
+Oberg, ¨ C. (2019). Additive manufacturing–digitally changing the
+global business landscape. European Journal of Management and Business
+Economics.
+Oeser, G., Aygün, T., Balan, C. L., Corsten, T., Dechˆene, C., Ibald, R.,
+… & Schuckel, M. T. (2018). Implications of the ageing population for
+the food demand chain in Germany. International Journal of Retail &
+Distribution Management.
+Oh, L. B., Teo, H. H., & Sambamurthy, V. (2012). The effects of retail
+channel integration through the use of information technologies on firm
+performance. Journal of Operations Management, 30(5), 368–381.
+Omar, I. A., Jayaraman, R., Salah, K., Debe, M., & Omar, M. (2020).
+Enhancing vendor managed inventory supply chain operations using
+blockchain smart contracts. IEEE Access, 8, 182,704–182,719.
+Papadonikolaki, E., & Wamelink, H. (2017). Inter-and intra-organizational conditions for supply chain integration with BIM. Building
+Research & Information, 45(6), 649–664.
+Papahristou, E., & Bilalis, N. (2017). Should the fashion industry
+confront the sustainability challenge with 3D prototyping technology.
+International Journal of Sustainable Engineering, 10(4–5), 207–214.
+Parn, E., Mayouf, M., Laycock, P., & Edwards, D. J. (2015). Building
+Information Modelling (BIM) for UK Housing: Exploring Potential
+Drivers and Opportunities to Deliver Better Customer Experience.
+Mindanao Journal of Science and Technology, 13, 51–64.
+Patrucco, A., Ciccullo, F., & Pero, M. (2020). Industry 4.0 and supply
+chain process re-engineering: A coproduction study of materials management in construction. Business Process Management Journal, 26(5),
+1093–1119.
+Pekarˇcíkova, ´ M., Trebuna, ˇ P., Kliment, M., & Trojan, J. (2019). Demand driven material requirements planning. Some methodical and
+practical comments. Management and Production Engineering Review, 10,
+50–59.
+Perboli, G., Musso, S., & Rosano, M. (2018). Blockchain in logistics
+and supply chain: A lean approach for designing real-world use cases.
+IEEE Access, 6, 62,018–62,028.
+Pfouga, A., & Stjepandi´c, J. (2018). Leveraging 3D geometric
+knowledge in the product lifecycle based on industrial standards. Journal of Computational Design and Engineering, 5(1), 54–67.
+Poirier, E. A., Forgues, D., & Staub-French, S. (2017). Understanding
+the impact of BIM on collaboration: a Canadian case study. Building
+Research & Information, 45(6), 681–695.
+Prause, G. (2016). E-Residency: a business platform for Industry
+4.0?. Entrepreneurship and Sustainability Issues, 3(3), 216–227.
+Radanovi´c, I., & Liki´c, R. (2018). Opportunities for use of blockchain
+technology in medicine. Applied Health Economics and Health Policy, 16
+(5), 583–590.
+F.F. Rad et al. 
+Industrial Marketing Management 105 (2022) 268–293
+289
+Raut, R. D., Mangla, S. K., Narwane, V. S., Gardas, B. B., Priyadarshinee, P., & Narkhede, B. E. (2019). Linking big data analytics and
+operational sustainability practices for sustainable business management. Journal of Cleaner Production, 224, 10–24.
+Rebelo, R. M. L., Pereira, S. C. F., & Queiroz, M. M. (2021). The
+interplay between the Internet of things and supply chain management:
+Challenges and opportunities based on a systematic literature review.
+Benchmarking: An International Journal.
+Rejeb, A., Keogh, J. G., & Treiblmaier, H. (2019). Leveraging the
+Internet of Things and Blockchain Technology in Supply Chain Management. Future Internet, 11(7), 161.
+Rogerson, M., & Parry, G. C. (2020). Blockchain: Case studies in food
+supply chain visibility. Supply Chain Management: An International
+Journal, 25(5), 601–614.
+Rouhani, S., & Deters, R. (2019). Security, performance, and applications of smart contracts: A systematic survey. IEEE Access, 7,
+50,759–50,779.
+Roussos, G. (2008). Computing with RFID: drivers, technology, and
+implications. Advances in Computers, 73, 161–217.
+Roy, S., & Satpathy, B. (2019). Strategic alliance between information intensive services and supply chain integration: impact on firm
+performance. Brazilian Journal of Operations & Production Management,
+16(2), 241–260.
+Saberi, S., Kouhizadeh, M., Sarkis, J., & Shen, L. (2019). Blockchain
+technology and its relationships to sustainable supply chain management. International Journal of Production Research, 57(7), 2117–2135.
+Sahebi, I. G., Masoomi, B., & Ghorbani, S. (2020). Expert oriented
+approach for analyzing the blockchain adoption barriers in humanitarian supply chain. Technology in Society, 101,427.
+Sanders, N. R., & Ganeshan, R. (2018). Big data in supply chain
+management. Production and Operations Management, 27(10),
+1745–1748.
+Sanders, N. R., Boone, T., Ganeshan, R., & Wood, J. D. (2019). Sustainable supply chains in the age of AI and digitization: Research challenges and opportunities. Journal of Business Logistics, 40(3), 229–240.
+Sandvik, I. M., & Stubbs, W. (2019). Circular fashion supply chain
+through textile-to-textile recycling. Journal of Fashion Marketing and
+Management: An International Journal.
+Sarkis, J., Kouhizadeh, M., & Zhu, Q. S. (2020). Digitalization and
+the greening of supply chains. Industrial Management & Data Systems, 121
+(1), 65–85.
+Sasson, A., & Johnson, J. C. (2016). The 3D printing order: variability, supercenters, and supply chain reconfigurations. International
+Journal of Physical Distribution & Logistics Management.
+Satit, K., & Somjit, A. I. (2017). RESTful economic-ADS model for
+cost-effective chain-wide traceability system-based cloud computing.
+Computers and Electronics in Agriculture, 139, 164–179.
+Shahzad, A., Zhang, K., & Gherbi, A. (2020). Intuitive development
+to examine collaborative IoT supply chain system underlying privacy
+and security levels and perspective powering through proactive blockchain. Sensors, 20(13), 3760.
+Shao, X. F., Liu, W., Li, Y., Chaudhry, H. R., & Yue, X. G. (2021).
+Multistage implementation framework for smart supply chain management under Industry 4.0. Technological Forecasting and Social Change,
+162, 120,354.
+Sharma, M., Kamble, S., Mani, V., Sehrawat, R., Belhadi, A., &
+Sharma, V. (2021). Industry 4.0 adoption for sustainability in multi-tier
+manufacturing supply chain in emerging economies. Journal of Cleaner
+Production, 281, 125,013.
+Sharma, P. K., Kumar, N., & Park, J. H. (2018). Blockchain-based
+distributed framework for automotive industry in a smart city. IEEE
+Transactions on Industrial Informatics, 15(7), 4197–4205.
+Shoaib, M., Lim, M. K., & Wang, C. (2020). An integrated framework
+to prioritize blockchain-based supply chain success factors. Industrial
+Management & Data Systems, 120(11), 2103–2131.
+Sikorski, J. J., Inderwildi, O., Lim, M. Q., Garud, S. S., Neukaufer, ¨ J.,
+& Kraft, M. (2019). Enhanced Procurement and Production Strategies
+for Chemical Plants: Utilizing Real-Time Financial Data and Advanced
+Algorithms. Industrial & Engineering Chemistry Research, 58(8),
+3072–3081.
+Simchi-Levi, D., & Wu, M. X. (2018). Powering retailers’ digitization
+through analytics and automation. International Journal of Production
+Research, 56(1–2), 809–816.
+Sobb, T., Turnbull, B., & Moustafa, N. (2020). Supply chain 4.0: A
+survey of cyber security challenges, solutions and future directions.
+Electronics, 9(11), 1864.
+Spanaki, K., Gürgüç, Z., Adams, R., & Mulligan, C. (2018). Data
+supply chain (DSC): research synthesis and future directions. International Journal of Production Research, 56(13), 4447–4466.
+Stiakakis, E., & Georgiadis, C. K. (2011). Drivers of a tourism ebusiness strategy: the impact of information and communication technologies. Operational Research, 11(2), 149–169.
+Strandhagen, J. O., Vallandingham, L. R., Fragapane, G., Strandhagen, J. W., Stangeland, A. B. H., & Sharma, N. (2017). Logistics 4.0 and
+emerging sustainable business models. Advances in Manufacturing, 5(4),
+359–369.
+Strandhagen, J. W., Buer, S. V., Semini, M., Alfnes, E., & Strandhagen, J. O. (2020). Sustainability challenges and how Industry 4.0 technologies can address them: A case study of a shipbuilding supply chain.
+Production Planning & Control, 1–16.
+Strong, D., Kay, M., Conner, B., Wakefield, T., & Manogharan, G.
+(2018). Hybrid manufacturing–integrating traditional manufacturers
+with additive manufacturing (AM) supply chain. Additive Manufacturing,
+21, 159–173.
+Sundarakani, B., Ajaykumar, A., & Gunasekaran, A. (2021). Big data
+driven supply chain design and applications for blockchain: An action
+research using case study approach. Omega, 102, 102,452.
+Sundarakani, B., Kamran, R., Maheshwari, P., & Jain, V. (2019).
+Designing a hybrid cloud for a supply chain network of Industry 4.0: A
+theoretical framework. Benchmarking: An International Journal, 28(5),
+1524–1542.
+Suresh, C. K., Ozev, S., & Sinanoglu, O. (2015). Adaptive generation
+of unique IDs for digital chips through analog excitation. ACM Transactions on Design Automation of Electronic Systems (TODAES), 20(3),
+1–18.
+Szozda, N. (2017). Industry 4.0 and its impact on the functioning of
+supply chains. LogForum, 13.
+Teucke, M., Broda, E., Boerold, A., & Freitag, M. (2018). Using
+Sensor-Based Quality Data in Automotive Supply Chains. Machines, 6(4),
+53.
+Tezel, A., Febrero, P., Papadonikolaki, E., & Yitmen, I. (2021). Insights into blockchain implementation in construction: Models for supply chain management. Journal of Management in Engineering, 37(4),
+04021038.
+Tien, J. M. (2012). The next industrial revolution: Integrated services
+and goods. Journal of Systems Science and Systems Engineering, 21(3),
+257–296.
+Togwe, T., Tanju, B., & Eveleigh, T. J. (2018). Using a systems engineering framework for additive manufacturing. Systems Engineering, 21
+(5), 466–475.
+Tombido, L. L., Louw, L., & Van Eeden, J. (2018). A systematic review of 3PLs’ entry into reverse logistics. South African Journal of Industrial Engineering, 29(3), 235–260.
+Tserng, H. P., Dzeng, R. J., Lin, Y. C., & Lin, S. T. (2005). Mobile
+construction supply chain management using PDA and bar codes.
+Computer-Aided Civil and Infrastructure Engineering, 20(4), 242–264.
+Tsolakis, N., Bechtsis, D., & Srai, J. S. (2019). Intelligent autonomous
+vehicles in digital supply chains. Business Process Management Journal.
+Tziantopoulos, K., Tsolakis, N., Vlachos, D., & Tsironis, L. (2019).
+Supply chain reconfiguration opportunities arising from additive
+manufacturing technologies in the digital era. Production Planning &
+Control, 30(7), 510–521.
+F.F. Rad et al. 
+Industrial Marketing Management 105 (2022) 268–293
+290
+Van Leeuwen, J. P., & van der Zee, A. (2005). Distributed object
+models for collaboration in the construction industry. Automation in
+Construction, 14(4), 491–499.
+Varriale, V., Cammarano, A., Michelino, F., & Caputo, M. (2021).
+Sustainable supply chains with blockchain, IoT and RFID: A simulation
+on order management. Sustainability, 13(11), 6372.
+Verboeket, V., & Krikke, H. (2019). The disruptive impact of additive
+manufacturing on supply chains: A literature study, conceptual framework, and research agenda. Computers in Industry, 111, 91–107.
+Vezzetti, E. (2009). Product lifecycle data sharing and visualization:
+Web-based approaches. The International Journal of Advanced
+Manufacturing Technology, 41(5–6), 613–630.
+Vieira, A. A., Dias, L. M., Santos, M. Y., Pereira, G. A., & Oliveira, J.
+A. (2019). Supply chain hybrid simulation: From Big Data to distributions and approaches comparison. Simulation Modelling Practice and
+Theory, 97, 101,956.
+Vujasinovic, M., Ivezic, N., Kulvatunyou, B., Barkmeyer, E., Missikoff, M., Taglino, F., … & Miletic, I. (2009). A semantic-mediation architecture for interoperable supply-chain applications. International
+Journal of Computer Integrated Manufacturing, 22(6), 549–561.
+Wamba, S. F., Queiroz, M. M., & Trinchera, L. (2020). Dynamics
+between blockchain adoption determinants and supply chain performance: An empirical investigation. International Journal of Production
+Economics, 229, 107,791.
+Wang, H., Chen, S., & Xie, Y. (2010). An RFID-based digital warehouse management system in the tobacco industry: a case study. International Journal of Production Research, 48(9), 2513–2548.
+Wang, M., Wu, Y., Chen, B., & Evans, M. (2020). Blockchain and
+supply chain management: A new paradigm for supply chain integration
+and collaboration. Operations and Supply Chain Management: An International Journal, 14(1), 111–122.
+Weersink, A., Fraser, E., Pannell, D., Duncan, E., & Rotz, S. (2018).
+Opportunities and challenges for Big Data in agricultural and environmental analysis. Annual Review of Resource Economics, 10, 19–37.
+Westerlund, M., Nene, S., Leminen, S., & Rajahonka, M. (2021). An
+Exploration of blockchain-based traceability in food supply chains: On
+the benefits of distributed digital records from farm to fork. Technology
+Innovation Management Review, 11(6).
+Winkelhaus, S., & Grosse, E. H. (2020). Logistics 4.0: A systematic
+review towards a new logistics system. International Journal of Production
+Research, 58(1), 18–43.
+Wu, D., Rosen, D. W., Wang, L., & Schaefer, D. (2015). Cloud-based
+design and manufacturing: A new paradigm in digital manufacturing
+and design innovation. Computer-Aided Design, 59, 1–14.
+Xiao, Q., Chen, S., Liu, J., Cheng, G., & Luo, J. (2019). A Protocol for
+Simultaneously Estimating Moments and Popular Groups in a Multigroup RFID System. IEEE/ACM Transactions on Networking, 27(1),
+143–158.
+Yang, H., Kumara, S., Bukkapatnam, S. T., & Tsung, F. (2019). The
+internet of things for smart manufacturing: A review. IISE Transactions,
+51(11), 1190–1216.
+Yang, M., Fu, M., & Zhang, Z. (2021). The adoption of digital technologies in supply chains: Drivers, process and impact. Technological
+Forecasting and Social Change, 169, 120,795.
+Yanovich, Y., Shiyanov, I., Myaldzin, T., Prokhorov, I., Korepanova,
+D., & Vorobyov, S. (2018). Blockchain-Based Supply Chain for Postage
+Stamps. Informatics, 5(4), 42.
+Zaki, M., Theodoulidis, B., Shapira, P., Neely, A., & Tepel, M. F.
+(2019). Redistributed manufacturing and the impact of big data: a
+consumer goods perspective. Production Planning & Control, 30(7),
+568–581.
+Zheng, M., Wu, K., Sun, C., & Pan, E. (2019). Optimal decisions for a
+two-echelon supply chain with capacity and demand information.
+Advanced Engineering Informatics, 39, 248–258.
+References3
+Achillas, C., Aidonis, D., Iakovou, E., Thymianidis, M., & Tzetzis, D. (2015).
+A methodological framework for the inclusion of modern additive manufacturing
+into the production portfolio of a focused factory. Journal of Manufacturing Systems,
+37, 328–339.
+Agrawal, P., & Narain, R. (2021). Analysis of enablers for the digitalization of supply
+chain using an interpretive structural modelling approach. International Journal of
+Productivity and Performance Management. https://doi.org/10.1108/IJPPM-09-2020-
+0481. In press.
+Agrifoglio, R., Cannavale, C., Laurenza, E., & Metallo, C. (2017). How emerging digital
+technologies affect operations management through co-creation. Empirical evidence
+from the maritime industry. Production Planning and Control, 28(16), 1298–1306.
+Agyapong-Kodua, K., Lohse, N., Darlington, R., & Ratchev, S. (2013). Review of semantic
+modelling technologies in support of virtual factory design. International Journal of
+Production Research, 51(14), 4388–4404.
+Akkermans, H. A., Bogerd, P., Yücesan, E., & Van Wassenhove, L. N. (2003). The impact
+of ERP on supply chain management: Exploratory findings from a European Delphi
+study. European Journal of Operational Research, 146(2), 284–301.
+Ali, I., & Aboelmaged, M. G. S. (2021). Implementation of supply chain 4.0 in the food
+and beverage industry: Perceived drivers and barriers. International Journal of
+Productivity and Performance Management, 71(4), 1426–1443.
+Ardito, L., Petruzzelli, A. M., Panniello, U., & Garavelli, A. C. (2019). Towards Industry
+4.0. Business Process Management Journal, 25, 323–346.
+Arora, R., Arora, P. K., Kumar, H., & Pant, M. (2020). Additive manufacturing enabled
+supply chain in combating COVID-19. Journal of Industrial Integration and
+Management, 5(04), 495–505.
+Asdecker, B., & Felch, V. (2018). Development of an Industry 4.0 maturity model for the
+delivery process in supply chains. Journal of Modelling in Management, 13(4),
+840–883.
+Bag, S., Telukdarie, A., Pretorius, J. C., & Gupta, S. (2018). Industry 4.0 and supply chain
+sustainability: Framework and future research directions. Benchmarking: An
+International Journal, 28(5), 1410–1450.
+Banyai, ´ T., Ill´es, B., & Banyai, ´ A. ´ (2018). Smart scheduling: An integrated first mile and
+last mile supply approach. Complexity, 5, 180,156.
+Bar, ¨ K., Herbert-Hansen, Z. N. L., & Khalid, W. (2018). Considering Industry 4.0 aspects
+in the supply chain for an SME. Production Engineering, 12(6), 747–758.
+Barata, J. (2021). The fourth industrial revolution of supply chains: A tertiary study.
+Journal of Engineering and Technology Management, 60(101), 624.
+Barata, J., Da Cunha, P. R., & Stal, J. (2018). Mobile supply chain management in the
+Industry 4.0 era: An annotated bibliography and guide for future research. Journal of
+Enterprise Information Management, 31(1), 173–193.
+Baruffaldi, G., Accorsi, R., & Manzini, R. (2019). Warehouse management system
+customization and information availability in 3pl companies. Industrial Management
+& Data Systems, 119(2), 251–273.
+Barykin, S. Y., Kalinina, O. V., Bochkarev, A. A., & Yadykin, V. K. (2020). Concept for a
+supply chain digital twin. International Journal of Mathematical, Engineering and
+Management Sciences, 5(6), 1498–1515.
+Batwa, A., & Norrman, A. (2020). A framework for exploring blockchain technology in
+supply chain management. Operations and Supply Chain Management: An International
+Journal, 13(3), 294–306.
+Baumers, M., Tuck, C., Wildman, R., Ashcroft, I., Rosamond, E., & Hague, R. (2013).
+Transparency built-in: Energy consumption and cost estimation for additive
+manufacturing. Journal of Industrial Ecology, 17(3), 418–431.
+BCG. (2015). Industry 4.0 – The future of productivity and growth in manufacturing
+industries. Boston Consulting Group.
+Bechtsis, D., Tsolakis, N., Vlachos, D., & Srai, J. S. (2018). Intelligent autonomous
+vehicles in digital supply chains: A framework for integrating innovations towards
+sustainable value networks. Journal of Cleaner Production, 181, 60–71.
+Bienhaus, F., & Haddud, A. (2018). Procurement 4.0: factors influencing the digitisation
+of procurement and supply chains. Business Process Management Journal, 24(4),
+965–984.
+Birkel, H. S., Veile, J. W., Müller, J. M., Hartmann, E., & Voigt, K. I. (2019). Development
+of a risk framework for Industry 4.0 in the context of sustainability for established
+manufacturers. Sustainability, 11(2), 384.
+Boyes, H., Hallaq, B., Cunningham, J., & Watson, T. (2018). The industrial internet of
+things (IIoT): An analysis framework. Computers in Industry, 101, 1–12.
+Brinch, M., Stentoft, J., Jensen, J. K., & Rajkumar, C. (2018). Practitioners understanding
+of big data and its applications in supply chain management. International Journal of
+Logistics Management, 29(2), 555–574.
+Buil, R., Piera, M. A., & Laserna, T. (2011). Operational and strategic supply model
+redesign for an optical chain company using digital simulation. Simulation, 87(8),
+668–679.
+3 This reference list provides the references used in the main text. It does not
+include all articles featured in our literature review. The complete set of articles
+covered by our literature review is provided in the Appendix.
+F.F. Rad et al. 
+Industrial Marketing Management 105 (2022) 268–293
+291
+Büyükozkan, ¨ G., & Goçer, ¨ F. (2018). Digital Supply Chain: Literature review and a
+proposed framework for future research. Computers in Industry, 97, 157–177.
+Carmigniani, J., Furht, B., Anisetti, M., Ceravolo, P., Damiani, E., & Ivkovic, M. (2011).
+Augmented reality technologies, systems and applications. Multimedia Tools and
+Applications, 51(1), 341–377.
+Cerchione, R., & Esposito, E. (2016). A systematic review of supply chain knowledge
+management research: State of the art and research opportunities. International
+Journal of Production Economics, 182, 276–292.
+Chan, H. K., Griffin, J., Lim, J. J., Zeng, F., & Chiu, A. S. (2018). The impact of 3D
+Printing Technology on the supply chain: Manufacturing and legal perspectives.
+International Journal of Production Economics, 205, 156–162.
+Chang, C. W., Wu, C. R., & Liao, C. C. (2010). The virtual cooperation platform in
+enterprise and supplier cooperation models. Cyberpsychology, Behavior and Social
+Networking, 13(4), 473–475.
+Chang, C. Y., Pan, W., & Howard, R. (2017). Impact of building information modelling
+implementation on the acceptance of integrated delivery systems: Structural
+equation modelling analysis. Journal of Construction Engineering and Management, 143
+(8), 04017044.
+Chekurov, S., Mets¨
+a-Kortelainen, S., Salmi, M., Roda, I., & Jussila, A. (2018). The
+perceived value of additively manufactured digital spare parts in industry: An
+empirical investigation. International Journal of Production Economics, 205, 87–97.
+Chen, J. C., Fan, Y. C., & Chen, C. W. (2009). Capacity requirements planning for twin
+Fabs of wafer fabrication. International Journal of Production Research, 47(16),
+4473–4496.
+Choi, T. M., Wen, X., Sun, X., & Chung, S. H. (2019). The mean-variance approach for
+global supply chain risk analysis with air logistics in the blockchain technology era.
+Transportation Research Part E: Logistics and Transportation Review, 127, 178–191.
+Cole, R., Stevenson, M., & Aitken, J. (2019). Blockchain technology: implications for
+operations and supply chain management. Supply Chain Management: An International
+Journal, 24(4), 469–483.
+Conti, M., Passarella, A., & Das, S. K. (2017). The Internet of People (IoP): A new wave in
+pervasive mobile computing. Pervasive and Mobile Computing, 41, 1–27.
+Corsini, L., Aranda-Jan, C. B., & Moultrie, J. (2020). The impact of 3D printing on the
+humanitarian supply chain. Production Planning and Control, 1–13.
+Da Silva, V. L., Kovaleski, J. L., & Pagani, R. N. (2019). Technology transfer in the supply
+chain oriented to Industry 4.0: A literature review. Technology Analysis & Strategic
+Management, 31(5), 546–562.
+Dallasega, P., Rauch, E., & Linder, C. (2018). Industry 4.0 as an enabler of proximity for
+construction supply chains: A systematic literature review. Computers in Industry, 99,
+205–225.
+Daú, G., Scavarda, A., Scavarda, L. F., & Portugal, V. J. T. (2019). The healthcare
+sustainable supply chain 4.0: The circular economy transition conceptual framework
+with the corporate social responsibility mirror. Sustainability, 11(12), 3259.
+De Mauro, A., Greco, M., & Grimaldi, M. (2016). A formal definition of Big Data based on
+its essential features. Library Review, 65(3), 122–135.
+De Vass, T., Shee, H., & Miah, S. (2021a). IoT in supply chain management:
+Opportunities and challenges for businesses in early Industry 4.0 context. Operations
+and Supply Chain Management: An International Journal, 14(2), 148–161.
+De Vass, T., Shee, H., & Miah, S. J. (2021b). IoT in supply chain management: A narrative
+on retail sector sustainability. International Journal of Logistics Research and
+Applications, 24(6), 605–624.
+Defraeye, T., Tagliavini, G., Wu, W., Prawiranto, K., Schudel, S., Kerisima, M. A., …
+Bühlmann, A. (2019). Digital twins probe into food cooling and biochemical quality
+changes for reducing losses in refrigerated supply chains. Resources, Conservation and
+Recycling, 149, 778–794.
+Denyer, D., & Tranfield, D. (2009). Producing a systematic review. In D. Buchanan, &
+A. Bryman (Eds.), The Sage Handbook of Organizational Research Methods (pp.
+671–689). London: Sage Publications.
+Dillon, T., Wu, C., & Chang, E. (2010, April). Cloud computing: issues and challenges. In
+2010 24th IEEE International Conference on Advanced Information Networking and
+Applications (pp. 27–33). IEEE.
+Ding, B. (2018). Pharma Industry 4.0: Literature review and research opportunities in
+sustainable pharmaceutical supply chains. Process Safety and Environmental
+Protection, 119, 115–130.
+Dolgui, A., Ivanov, D., Potryasaev, S., Sokolov, B., Ivanova, M., & Werner, F. (2019).
+Blockchain-oriented dynamic modelling of smart contract design and execution in
+the supply chain. International Journal of Production Research, 1–16.
+Dolgui, A., Ivanov, D., Sethi, S. P., & Sokolov, B. (2019). Scheduling in production,
+supply chain and Industry 4.0 systems by optimal control: Fundamentals, state-ofthe-art and applications. International Journal of Production Research, 57(2), 411–432.
+Dunke, F., Heckmann, I., Nickel, S., & Saldanha-da-Gama, F. (2018). Time traps in supply
+chains: Is optimal still good enough? European Journal of Operational Research, 264
+(3), 813–829.
+Esfahani, A., Mantas, G., Ribeiro, J., Bastos, J., Mumtaz, S., Violas, M. A., …
+Rodriguez, J. (2019). An efficient web authentication mechanism preventing manin-the-middle attacks in Industry 4.0 Supply Chain. IEEE Access, 7, 58,981–58,989.
+Eslami, M. H., Jafari, H., Achtenhagen, L., Carlback, ¨ J., & Wong, A. (2021). Financial
+performance and supply chain dynamic capabilities: The moderating role of Industry
+4.0 technologies. International Journal of Production Research, 1–18.
+Esmaeilian, B., Sarkis, J., Lewis, K., & Behdad, S. (2020). Blockchain for the future of
+sustainable supply chain management in Industry 4.0. Resources, Conservation and
+Recycling, 163, 105,064.
+Etemadi, N., Van Gelder, P., & Strozzi, F. (2021). An ism modelling of barriers for
+blockchain/distributed ledger technology adoption in supply chains towards
+cybersecurity. Sustainability, 13(9), 4672.
+Exposito, I., Gay-Fernandez, ´ J. A., & Cuinas, I. (2013). A complete traceability system for
+a wine supply chain using radio-frequency identification and wireless sensor
+networks [wireless corner]. IEEE Antennas and Propagation Magazine, 55(2),
+255–267.
+Fatorachian, H., & Kazemi, H. (2021). Impact of Industry 4.0 on supply chain
+performance. Production Planning and Control, 32(1), 63–81.
+Frank, A. G., Dalenogare, L. S., & Ayala, N. F. (2019). Industry 4.0 technologies:
+Implementation patterns in manufacturing companies. International Journal of
+Production Economics, 210, 15–26.
+Frazier, W. E. (2014). Metal additive manufacturing: a review. Journal of Materials
+Engineering and Performance, 23(6), 1917–1928.
+Frazzon, E. M., Dutra, M. L., & Vianna, W. B. (2015). Big data applied to cyber-physical
+logistic systems: Conceptual model and perspectives. Brazilian Journal of Operations
+& Production Management, 12(2015), 330–337.
+Frazzon, E. M., Rodriguez, C. M. T., Pereira, M. M., Pires, M. C., & Uhlmann, I. (2019).
+Towards Supply Chain Management 4.0. Brazilian Journal of Operations & Production
+Management, 16(2), 180–191.
+Frederico, G. F. (2018). Operations and Supply Chain Strategy in the Industry 4.0 Era:
+Concepts and Implementation.
+Frederico, G. F., Garza-Reyes, J. A., Anosike, A., & Kumar, V. (2019). Supply Chain 4.0:
+concepts, maturity, and research agenda. Supply Chain Management: An International
+Journal., 25(2), 262–282.
+Fürber, C. (2016). Semantic Technologies. In Data Quality Management with Semantic
+Technologies (pp. 56–68). Springer Gabler.
+Gawankar, S. A., Gunasekaran, A., & Kamble, S. (2020). A study on investments in the
+big data-driven supply chain, performance measures and organizational
+performance in Indian retail 4.0 context. International Journal of Production Research,
+58(5), 1574–1593.
+Gebauer, H., Arzt, A., Kohtam¨
+aki, M., Lamprecht, C., Parida, V., Witell, L., &
+Wortmann, F. (2020). How to convert digital offerings into revenue
+enhancement–Conceptualizing business model dynamics through explorative case
+studies. Industrial Marketing Management, 91, 429–441.
+Gessner, G. H., Volonino, L., & Fish, L. A. (2007). One-up, one-back ERM in the food
+supply chain. Information Systems Management, 24(3), 213–222.
+Ghadge, A., Kara, M. E., Moradlou, H., & Goswami, M. (2020). The impact of Industry 4.0
+implementation on supply chains. Journal of Manufacturing Technology Management,
+31(4), 669–686.
+Ghadimi, P., Wang, C., Lim, M. K., & Heavey, C. (2019). Intelligent sustainable supplier
+selection using multi-agent technology: Theory and application for Industry 4.0
+supply chains. Computers & Industrial Engineering, 127, 588–600.
+Ghobakhloo, M. (2018). The future of manufacturing industry: A strategic roadmap
+towards Industry 4.0. Journal of Manufacturing Technology Management, 29(6),
+910–936.
+Gravili, G., Benvenuto, M., Avram, A., & Viola, C. (2018). The influence of the Digital
+Divide on Big Data generation within supply chain management. The International
+Journal of Logistics Management., 29(2), 592–628.
+Gromovs, G., & Lammi, K. (2017). Blockchain and internet of things require innovative
+approach to logistics education. Transport Problems, 12.
+Gruˇzauskas, V., Baskutis, S., & Navickas, V. (2018). Minimizing the trade-off between
+sustainability and cost-effective performance by using autonomous vehicles. Journal
+of Cleaner Production, 184, 709–717.
+Gupta, H., Kumar, S., Kusi-Sarpong, S., Jabbour, C. J. C., & Agyemang, M. (2020).
+Enablers to supply chain performance on the basis of digitization technologies.
+Industrial Management & Data Systems, 121(9), 1915–1938.
+Gupta, N., Tiwari, A., Bukkapatnam, S. T., & Karri, R. (2020). Additive manufacturing
+cyber-physical system: Supply chain cybersecurity and risks. IEEE Access, 8,
+47,322–47,333.
+Gustafsson, E., Jonsson, P., & Holmstrom, ¨ J. (2019). Digital product fitting in retail
+supply chains: maturity levels and potential outcomes. Supply Chain Management: An
+International Journal, 24(5), 574–589.
+Hahn, G. J. (2020). Industry 4.0: a supply chain innovation perspective. International
+Journal of Production Research, 58(5), 1425–1441.
+Halperin, D., Kavraki, L. E., & Solovey, K. (2017). Robotics. In Handbook of Discrete and
+Computational Geometry (pp. 1343–1376). Chapman and Hall/CRC.
+Hohn, M. M., & Durach, C. F. (2021). Additive manufacturing in the apparel supply
+chain—impact on supply chain governance and social sustainability. International
+Journal of Operations & Production Management, 41(7), 1035–1059.
+Holmstrom, ¨ J., Holweg, M., Khajavi, S. H., & Partanen, J. (2016). The direct digital
+manufacturing (r) evolution: definition of a research agenda. Operations Management
+Research, 9(1–2), 1–10.
+Holmstrom, ¨ J., Liotta, G., & Chaudhuri, A. (2017). Sustainability outcomes through
+direct digital manufacturing-based operational practices: A design theory approach.
+Journal of Cleaner Production, 167, 951–961.
+Huang, F., Chen, J., Sun, L., Zhang, Y., & Yao, S. (2020). Value-based contract for smart
+operation and maintenance service based on equitable entropy. International Journal
+of Production Research, 58(4), 1271–1284.
+Huikkola, T., Rabetino, R., Kohtamaki, ¨ M., & Gebauer, H. (2020). Firm boundaries in
+servitization: Interplay and repositioning practices. Industrial Marketing Management,
+90, 90–105.
+International Society of Automation. (2022). What is Automation?. https://www.isa.org
+/about-isa/what-is-automation.
+Ivanov, D., & Dolgui, A. (2020). A digital supply chain twin for managing the disruption
+risks and resilience in the era of Industry 4.0. Production Planning and Control, 1–14.
+Ivanov, D., Dolgui, A., & Sokolov, B. (2019). The impact of digital technology and
+Industry 4.0 on the ripple effect and supply chain risk analytics. International Journal
+of Production Research, 57(3), 829–846.
+F.F. Rad et al. 
+Industrial Marketing Management 105 (2022) 268–293
+292
+Ivanov, D., Sethi, S., Dolgui, A., & Sokolov, B. (2018). A survey on control theory
+applications to operational systems, supply chain management, and Industry 4.0.
+Annual Reviews in Control, 46, 134–147.
+Jabbar, S., Lloyd, H., Hammoudeh, M., Adebisi, B., & Raza, U. (2021). Blockchainenabled supply chain: Analysis, challenges, and future directions. Multimedia
+Systems, 27(4), 787–806.
+Jabbour, C. J. C., Fiorini, P. D. C., Ndubisi, N. O., Queiroz, M. M., & Piato, E. ´ L. (2020).
+Digitally-enabled sustainable supply chains in the 21st century: A review and a
+research agenda. Science of the Total Environment, 725(138), 177.
+Jagtap, S., & Rahimifard, S. (2019). The digitisation of food manufacturing to reduce
+waste–Case study of a ready meal factory. Waste Management, 87, 387–397.
+Janssen, M., & Feenstra, R. (2010). Service portfolios for supply chain composition:
+Creating business network interoperability and agility. International Journal of
+Computer Integrated Manufacturing, 23(8–9), 747–757.
+Jardim-Goncalves, R., Agostinho, C., Sarraipa, J., Grilo, A., & Mendonça, J. P. (2013).
+Reference framework for enhanced interoperable collaborative networks in
+industrial organisations. International Journal of Computer Integrated Manufacturing,
+26(1–2), 166–182.
+Jede, A., & Teuteberg, F. (2015). Integrating cloud computing in supply chain processes.
+Journal of Enterprise Information Management, 28(6), 872–904.
+Junge, A. L. (2019). Digital transformation technologies as an enabler for sustainable
+logistics and supply chain processes–an exploratory framework. Brazilian Journal of
+Operations & Production Management, 16(3), 462–472.
+Kache, F., & Seuring, S. (2017). Challenges and opportunities of digital information at the
+intersection of Big Data Analytics and supply chain management. International
+Journal of Operations & Production Management, 37(1), 10–36.
+Kamble, S. S., Gunasekaran, A., Parekh, H., & Joshi, S. (2019). Modelling the internet of
+things adoption barriers in food retail supply chains. Journal of Retailing and
+Consumer Services, 48, 154–168.
+Kamble, S. S., Gunasekaran, A., Subramanian, N., Ghadge, A., Belhadi, A., &
+Venkatesh, M. (2021). Blockchain technology’s impact on supply chain integration
+and sustainable supply chain performance: Evidence from the automotive industry.
+Annals of Operations Research, 1–26.
+Keupp, M. M., Palmi´e, M., & Gassmann, O. (2012). The strategic management of
+innovation: A systematic review and paths for future research. International Journal
+of Management Reviews, 14(4), 367–390.
+Khajavi, S. H., Baumers, M., Holmstrom, ¨ J., Ozcan, ¨ E., Atkin, J., Jackson, W., & Li, W.
+(2018). To kit or not to kit: Analyzing the value of model-based kitting for additive
+manufacturing. Computers in Industry, 98, 100–117.
+Khanra, S., Dhir, A., Parida, V., & Kohtam¨
+aki, M. (2021). Servitization research: A review
+and bibliometric analysis of past achievements and future promises. Journal of
+Business Research, 131, 151–166.
+Klumpp, M., & Zijm, H. (2019). Logistics innovation and social sustainability: How to
+prevent an artificial divide in Human–Computer Interaction. Journal of Business
+Logistics, 40(3), 265–278.
+Kohler, ¨ S., & Pizzol, M. (2020). Technology assessment of blockchain-based technologies
+in the food supply chain. Journal of Cleaner Production, 269(122), 193.
+Kohtamaki, ¨ M., Parida, V., Oghazi, P., Gebauer, H., & Baines, T. (2019). Digital
+servitization business models in ecosystems: A theory of the firm. Journal of Business
+Research, 104, 380–392.
+Kohtamaki, ¨ M., Rabetino, R., Einola, S., Parida, V., & Patel, P. (2021). Unfolding the
+digital servitization path from products to product-service-software systems:
+Practicing change through intentional narratives. Journal of Business Research, 137,
+379–392.
+Krykavskyy, Y., Pokhylchenko, O., & Hayvanovych, N. (2019). Supply chain
+development drivers in Industry 4.0 in Ukrainian enterprises. Oeconomia
+Copernicana, 10(2), 273–290.
+Kumar, P., & Singh, R. K. (2021). Application of Industry 4.0 technologies for effective
+coordination in humanitarian supply chains: A strategic approach. Annals of
+Operations Research, 1–33.
+Kunovjanek, M., & Reiner, G. (2020). How will the diffusion of additive manufacturing
+impact the raw material supply chain process? International Journal of Production
+Research, 58(5), 1540–1554.
+Lai, X. D., Wu, G. D., Shi, J. G., Wang, H. M., & Kong, Q. S. (2015). Project value-adding
+optimization of project-based supply chain under dynamic reputation incentives.
+International Journal of Simulation Modelling, 14(1), 121–133.
+Leite, M., Pinto, T. P., & Alves, C. (2019). A real-time optimization algorithm for the
+integrated planning and scheduling problem towards the context of Industry 4.0.
+FME Transactions, 47(4), 775–781.
+Leung, K. H., Choy, K. L., Siu, P. K., Ho, G. T., Lam, H. Y., & Lee, C. K. (2018). A B2C ecommerce intelligent system for re-engineering the e-order fulfilment process. Expert
+Systems with Applications, 91, 386–401.
+Li, H., Palau, A. S., & Parlikad, A. K. (2018). A social network of collaborating industrial
+assets. Proceedings of the Institution of Mechanical Engineers, Part O: Journal of Risk and
+Reliability, 232(4), 389–400.
+Lu, Y. (2017). Industry 4.0: A survey on technologies, applications, and open research
+issues. Journal of Industrial Information Integration, 6, 1–10.
+Lüthje, B. (2019). Platform capitalism ‘made in China’? Intelligent manufacturing,
+Taobao villages and the restructuring of work. Science, Technology and Society, 24(2),
+199–217.
+Luthra, S., & Mangla, S. K. (2018). Evaluating challenges to Industry 4.0 initiatives for
+supply chain sustainability in emerging economies. Process Safety and Environmental
+Protection, 117, 168–179.
+Lyly-Yrj¨
+an¨
+ainen, J., Holmstrom, ¨ J., Johansson, M. I., & Suomala, P. (2016). Effects of
+combining product-centric control and direct digital manufacturing: The case of
+preparing customized hose assembly kits. Computers in Industry, 82, 82–94.
+Maddikunta, P. K. R., Pham, Q. V., Prabadevi, B., Deepa, N., Dev, K., Gadekallu, T. R., …
+Liyanage, M. (2021). Industry 5.0: A survey on enabling technologies and potential
+applications. Journal of Industrial Information Integration, 100(257).
+Mandolla, C., Petruzzelli, A. M., Percoco, G., & Urbinati, A. (2019). Building a digital
+twin for additive manufacturing through the exploitation of blockchain: A case
+analysis of the aircraft industry. Computers in Industry, 109, 134–152.
+Martín-Gomez, ´ A., Aguayo-Gonz´
+alez, F., & Luque, A. (2019). A holonic framework for
+managing the sustainable supply chain in emerging economies with smart connected
+metabolism. Resources, Conservation and Recycling, 141, 219–232.
+Mastos, T. D., Nizamis, A., Vafeiadis, T., Alexopoulos, N., Ntinas, C., Gkortzis, D., …
+Tzovaras, D. (2020). Industry 4.0 sustainable supply chains: An application of an IoT
+enabled scrap metal management solution. Journal of Cleaner Production, 269,
+122,377.
+Mathivathanan, D., Mathiyazhagan, K., Rana, N. P., Khorana, S., & Dwivedi, Y. K. (2021).
+Barriers to the adoption of blockchain technology in business supply chains: A total
+interpretive structural modelling (TISM) approach. International Journal of Production
+Research, 1–22.
+Meindl, B., Ayala, N. F., Mendonça, J., & Frank, A. G. (2021). The four smarts of Industry
+4.0: Evolution of ten years of research and future perspectives. Technological
+Forecasting and Social Change, 168, 120,784.
+Mellor, S., Hao, L., & Zhang, D. (2014). Additive manufacturing: A framework for
+implementation. International Journal of Production Economics, 149, 194–201.
+Min, H. (2019). Blockchain technology for enhancing supply chain resilience. Business
+Horizons, 62(1), 35–45.
+Moghaddam, M., Cadavid, M. N., Kenley, C. R., & Deshmukh, A. V. (2018). Reference
+architectures for smart manufacturing: A critical review. Journal of Manufacturing
+Systems, 49, 215–225.
+Molka-Danielsen, J., Engelseth, P., & Wang, H. (2018). Large scale integration of wireless
+sensor network technologies for air quality monitoring at a logistics shipping base.
+Journal of Industrial Information Integration, 10, 20–28.
+Mondal, S., Wijewardena, K. P., Karuppuswami, S., Kriti, N., Kumar, D., & Chahal, P.
+(2019). Blockchain inspired RFID-based information architecture for food supply
+chain. IEEE Internet of Things Journal, 6(3), 5803–5813.
+Moreno, M., Court, R., Wright, M., & Charnley, F. (2019). Opportunities for redistributed
+manufacturing and digital intelligence as enablers of a circular economy.
+International Journal of Sustainable Engineering, 12(2), 77–94.
+Nguyen, A., Lamouri, S., Pellerin, R., Tamayo, S., & Lekens, B. (2021). Data analytics in
+pharmaceutical supply chains: State of the art, opportunities, and challenges.
+International Journal of Production Research, 1–20.
+Oh, L. B., Teo, H. H., & Sambamurthy, V. (2012). The effects of retail channel integration
+through the use of information technologies on firm performance. Journal of
+Operations Management, 30(5), 368–381.
+Palmi´e, M., Boehm, J., Friedrich, J., Parida, V., Wincent, J., Kahlert, J., Gassmann, O., &
+Sjodin, ¨ D. (2021). Startups versus incumbents in ‘green’ industry transformations: A
+comparative study of business model archetypes in the electrical power sector.
+Industrial Marketing Management, 96, 35–49.
+Palmi´e, M., Mieh´e, L., Oghazi, P., Parida, V., & Wincent, J. (2022). The evolution of the
+digital service ecosystem and digital business model innovation in retail: The
+emergence of meta-ecosystems and the value of physical interactions. Technological
+Forecasting and Social Change, 177(121), 496.
+Palmi´e, M., Wincent, J., Parida, V., & Caglar, U. (2020). The evolution of the financial
+technology ecosystem: An introduction and agenda for future research on disruptive
+innovations in ecosystems. Technological Forecasting and Social Change, 151(119),
+779.
+Patel, P., Ali, M. I., & Sheth, A. (2018). From raw data to smart manufacturing: AI and
+semantic web of things for Industry 4.0. IEEE Intelligent Systems, 33(4), 79–86.
+Patrucco, A., Ciccullo, F., & Pero, M. (2020). Industry 4.0 and supply chain process reengineering: A coproduction study of materials management in construction.
+Business Process Management Journal, 26(5), 1093–1119.
+de Paula Ferreira, W., Armellini, F., & De Santa-Eulalia, L. A. (2020). Simulation in
+Industry 4.0: A state-of-the-art review. Computers & Industrial Engineering, 149,
+106,868.
+Pfohl, H. C., Yahsi, B., & Kurnaz, T. (2015). The impact of Industry 4.0 on the Supply
+Chain. In , 20. Innovations and Strategies for Logistics and Supply Chains: Technologies,
+Business Models and Risk Management. Proceedings of the Hamburg International
+Conference of Logistics (HICL) (pp. 31–58). Berlin: epubli GmbH.
+Pfouga, A., & Stjepandi´c, J. (2018). Leveraging 3D geometric knowledge in the product
+lifecycle based on industrial standards. Journal of Computational Design and
+Engineering, 5(1), 54–67.
+Poirier, E. A., Forgues, D., & Staub-French, S. (2017). Understanding the impact of BIM
+on collaboration: a Canadian case study. Building Research and Information, 45(6),
+681–695.
+Porter, M. E., & Heppelmann, J. E. (2014). How smart, connected products are
+transforming competition. Harvard Business Review, 92(11), 64–88.
+Rabetino, R., Kohtam¨
+aki, M., Brax, S. A., & Sihvonen, J. (2021). The tribes in the field of
+servitization: Discovering latent streams across 30 years of research. Industrial
+Marketing Management, 95, 70–84.
+Radanovi´c, I., & Liki´c, R. (2018). Opportunities for use of blockchain technology in
+medicine. Applied Health Economics and Health Policy, 16(5), 583–590.
+Raut, R. D., Mangla, S. K., Narwane, V. S., Gardas, B. B., Priyadarshinee, P., &
+Narkhede, B. E. (2019). Linking big data analytics and operational sustainability
+practices for sustainable business management. Journal of Cleaner Production, 224,
+10–24.
+Rebelo, R. M. L., Pereira, S. C. F., & Queiroz, M. M. (2021). The interplay between the
+Internet of things and supply chain management: Challenges and opportunities
+F.F. Rad et al. 
+Industrial Marketing Management 105 (2022) 268–293
+293
+based on a systematic literature review. Benchmarking: An International Journal, 29
+(2), 683–711.
+Rejeb, A., Keogh, J. G., & Treiblmaier, H. (2019). Leveraging the internet of things and
+blockchain technology in supply chain management. Future Internet, 11(7), 161.
+Risius, M., & Spohrer, K. (2017). A blockchain research framework. Business &
+Information Systems Engineering, 59(6), 385–409.
+Ritter, T., & Pedersen, C. L. (2020). Digitization capability and the digitalization of
+business models in business-to-business firms: Past, present, and future. Industrial
+Marketing Management, 86, 180–190.
+Roussos, G. (2008). Computing with RFID: drivers, technology, and implications.
+Advances in Computers, 73, 161–217.
+Roy, S., & Satpathy, B. (2019). Strategic alliance between information intensive services
+and supply chain integration: impact on firm performance. Brazilian Journal of
+Operations & Production Management, 16(2), 241–260.
+Saberi, S., Kouhizadeh, M., Sarkis, J., & Shen, L. (2019). Blockchain technology and its
+relationships to sustainable supply chain management. International Journal of
+Production Research, 57(7), 2117–2135.
+Sahebi, I. G., Masoomi, B., & Ghorbani, S. (2020). Expert oriented approach for analyzing
+the blockchain adoption barriers in humanitarian supply chain. Technology in Society,
+101, 427.
+Sanders, N. R., Boone, T., Ganeshan, R., & Wood, J. D. (2019). Sustainable supply chains
+in the age of AI and digitization: Research challenges and opportunities. Journal of
+Business Logistics, 40(3), 229–240.
+Sandvik, I. M., & Stubbs, W. (2019). Circular fashion supply chain through textile-totextile recycling. Journal of Fashion Marketing and Management: An International
+Journal., 23(3), 1366–1381.
+Sarkis, J., Kouhizadeh, M., & Zhu, Q. S. (2020). Digitalization and the greening of supply
+chains. Industrial Management & Data Systems, 121(1), 65–85.
+Satit, K., & Somjit, A. I. (2017). RESTful economic-ADS model for cost-effective chainwide traceability system-based cloud computing. Computers and Electronics in
+Agriculture, 139, 164–179.
+Schwab, K., & Davis, N. (2018). Shaping the future of the fourth industrial revolution.
+Currency.
+Sharma, M., Kamble, S., Mani, V., Sehrawat, R., Belhadi, A., & Sharma, V. (2021).
+Industry 4.0 adoption for sustainability in multi-tier manufacturing supply chain in
+emerging economies. Journal of Cleaner Production, 281, 125,013.
+Sharma, P. K., Kumar, N., & Park, J. H. (2018). Blockchain-based distributed framework
+for automotive industry in a smart city. IEEE Transactions on Industrial Informatics, 15
+(7), 4197–4205.
+Sjodin, ¨ D., Parida, V., Palmi´e, M., & Wincent, J. (2021). How AI capabilities enable
+business model innovation: Scaling AI through co-evolutionary processes and
+feedback loops. Journal of Business Research, 134, 574–587.
+Smith, T. M., & Reece, J. S. (1999). The relationship of strategy, fit, productivity, and
+business performance in a services setting. Journal of Operations Management, 17(2),
+145–161.
+Sobb, T., Turnbull, B., & Moustafa, N. (2020). Supply chain 4.0: A survey of cyber
+security challenges, solutions and future directions. Electronics, 9(11), 1864.
+Sony, M., Antony, J., Mc Dermott, O., & Garza-Reyes, J. A. (2021). An empirical
+examination of benefits, challenges, and critical success factors of Industry 4.0 in
+manufacturing and service sector. Technology in Society, 67, 101,754.
+Spanaki, K., Gürgüç, Z., Adams, R., & Mulligan, C. (2018). Data supply chain (DSC):
+research synthesis and future directions. International Journal of Production Research,
+56(13), 4447–4466.
+Stergiou, C., Psannis, K. E., Kim, B. G., & Gupta, B. (2018). Secure integration of IoT and
+cloud computing. Future Generation Computer Systems, 78, 964–975.
+Stiakakis, E., & Georgiadis, C. K. (2011). Drivers of a tourism e-business strategy: the
+impact of information and communication technologies. Operational Research, 11(2),
+149–169.
+Strandhagen, J. O., Vallandingham, L. R., Fragapane, G., Strandhagen, J. W.,
+Stangeland, A. B. H., & Sharma, N. (2017). Logistics 4.0 and emerging sustainable
+business models. Advances in Manufacturing, 5(4), 359–369.
+Strandhagen, J. W., Buer, S. V., Semini, M., Alfnes, E., & Strandhagen, J. O. (2020).
+Sustainability challenges and how Industry 4.0 technologies can address them: A
+case study of a shipbuilding supply chain. Production Planning and Control, 1–16.
+Sundarakani, B., Ajaykumar, A., & Gunasekaran, A. (2021). Big data driven supply chain
+design and applications for blockchain: An action research using case study
+approach. Omega, 102(102), 452.
+Sundarakani, B., Kamran, R., Maheshwari, P., & Jain, V. (2019). Designing a hybrid
+cloud for a supply chain network of Industry 4.0: A theoretical framework.
+Benchmarking: An International Journal, 28(5), 1524–1542.
+Szozda, N. (2017). Industry 4.0 and its impact on the functioning of supply chains.
+LogForum, 13.
+Teucke, M., Broda, E., Boerold, A., & Freitag, M. (2018). Using Sensor-Based Quality Data
+in Automotive Supply Chains. Machines, 6(4), 53.
+Tezel, A., Febrero, P., Papadonikolaki, E., & Yitmen, I. (2021). Insights into blockchain
+implementation in construction: Models for supply chain management. Journal of
+Management in Engineering, 37(4), 04021038.
+Tranfield, D., Denyer, D., & Smart, P. (2003). Towards a methodology for developing
+evidence-informed management knowledge by means of systematic review. British
+Journal of Management, 14(3), 207–222.
+Tsolakis, N., Bechtsis, D., & Srai, J. S. (2019). Intelligent autonomous vehicles in digital
+supply chains. Business Process Management Journal, 25(3), 414–437.
+Tziantopoulos, K., Tsolakis, N., Vlachos, D., & Tsironis, L. (2019). Supply chain
+reconfiguration opportunities arising from additive manufacturing technologies in
+the digital era. Production Planning and Control, 30(7), 510–521.
+Vaidya, S., Ambad, P., & Bhosle, S. (2018). Industry 4.0–a glimpse. Procedia
+Manufacturing, 20, 233–238.
+Van Hoek, R., Fugate, B., Davletshin, M., & Waller, M. A. (2019). Integrating Blockchain
+into Supply Chain Management: A Toolkit for Practical Implementation. Kogan Page.
+Verboeket, V., & Krikke, H. (2019). The disruptive impact of additive manufacturing on
+supply chains: A literature study, conceptual framework, and research agenda.
+Computers in Industry, 111, 91–107.
+Vieira, A. A., Dias, L. M., Santos, M. Y., Pereira, G. A., & Oliveira, J. A. (2019). Supply
+chain hybrid simulation: From Big Data to distributions and approaches comparison.
+Simulation Modelling Practice and Theory, 97(101), 956.
+Vujasinovic, M., Ivezic, N., Kulvatunyou, B., Barkmeyer, E., Missikoff, M., Taglino, F., …
+Miletic, I. (2009). A semantic-mediation architecture for interoperable supply-chain
+applications. International Journal of Computer Integrated Manufacturing, 22(6),
+549–561.
+Wamba, S. F., Queiroz, M. M., & Trinchera, L. (2020). Dynamics between blockchain
+adoption determinants and supply chain performance: An empirical investigation.
+International Journal of Production Economics, 229(107), 791.
+Wang, H., Chen, S., & Xie, Y. (2010). An RFID-based digital warehouse management
+system in the tobacco industry: a case study. International Journal of Production
+Research, 48(9), 2513–2548.
+Wang, M., Wu, Y., Chen, B., & Evans, M. (2020). Blockchain and supply chain
+management: A new paradigm for supply chain integration and collaboration.
+Operations and Supply Chain Management: An International Journal, 14(1), 111–122.
+Weersink, A., Fraser, E., Pannell, D., Duncan, E., & Rotz, S. (2018). Opportunities and
+challenges for Big Data in agricultural and environmental analysis. Annual Review of
+Resource Economics, 10, 19–37.
+Winkelhaus, S., & Grosse, E. H. (2020). Logistics 4.0: A systematic review towards a new
+logistics system. International Journal of Production Research, 58(1), 18–43.
+Wu, D., Rosen, D. W., Wang, L., & Schaefer, D. (2015). Cloud-based design and
+manufacturing: A new paradigm in digital manufacturing and design innovation.
+Computer-Aided Design, 59, 1–14.
+Xu, J., Huang, E., Hsieh, L., Lee, L. H., Jia, Q. S., & Chen, C. H. (2016). Simulation
+optimization in the era of Industrial 4.0 and the Industrial Internet. Journal of
+Simulation, 10(4), 310–320.
+Yadav, G., Luthra, S., Jakhar, S. K., Mangla, S. K., & Rai, D. P. (2020). A framework to
+overcome sustainable supply chain challenges through solution measures of Industry
+4.0 and circular economy: An automotive case. Journal of Cleaner Production, 254,
+120,112.
+Yang, M., Fu, M., & Zhang, Z. (2021). The adoption of digital technologies in supply
+chains: Drivers, process and impact. Technological Forecasting and Social Change, 169
+(120), 795.
+Yanovich, Y., Shiyanov, I., Myaldzin, T., Prokhorov, I., Korepanova, D., & Vorobyov, S.
+(2018). Blockchain-Based Supply Chain for Postage Stamps. Informatics, 5(4), 42.
+Yew, A. W. W., Ong, S. K., & Nee, A. Y. C. (2016). Towards a griddable distributed
+manufacturing system with augmented reality interfaces. Robotics and ComputerIntegrated Manufacturing, 39, 43–55.
+Zaki, M., Theodoulidis, B., Shapira, P., Neely, A., & Tepel, M. F. (2019). Redistributed
+manufacturing and the impact of big data: a consumer goods perspective. Production
+Planning and Control, 30(7), 568–581.
+F.F. Rad et al. 

@@ -1,0 +1,92 @@
+~ Visit AskYourPDF.com ~
+Literature review Generated From AskYourPDF
+
+# Literature Review: Cyber-security Implications for Australian Small Businesses
+
+## Introduction
+
+Cyber-security has become a critical concern for organizations of all sizes, including small businesses.
+Small businesses, which employ a significant proportion of the workforce, are increasingly becoming
+attractive targets for cyber-criminals. However, small businesses struggle to implement cyber-security
+measures that are routinely deployed by larger organizations. This literature review aims to explore the
+challenges faced by small businesses in implementing cyber-security measures and highlight the gaps in
+current research and products in the Australian context.
+
+## Cyber-security Challenges for Small Businesses
+
+Small businesses face unique challenges in implementing effective cyber-security measures. Tam et al.
+(2021) emphasize that small businesses struggle to implement cyber-security measures that are routinely
+deployed by larger organizations. This puts them at a higher risk of cyber-attacks. The authors argue
+that small businesses lack the necessary resources, expertise, and awareness to effectively address
+cyber-security concerns.
+Ludwig et al. (2018) further highlight the socio-technical challenges faced by small and medium
+enterprises (SMEs) within the context of Industry 4.0. The authors argue that SMEs often lack the
+necessary knowledge and skills to understand and address cyber-security risks associated with emerging
+technologies. This lack of awareness and expertise further exacerbates the cyber-security challenges faced
+by small businesses.
+
+## Relevance to Australian Small Businesses
+
+The cyber-security challenges faced by small businesses are not limited to a specific geographical context.
+However, it is important to understand these challenges within the Australian context. Tam et al. (2021)
+contextualize the cyber-security implications for Australian small businesses. They argue that small
+businesses in Australia struggle to implement cyber-security measures due to various factors such as
+limited resources, lack of awareness, and inadequate support structures.
+
+## Knowledge Gaps and Future Research Directions
+
+1 / 3
+~ Visit AskYourPDF.com ~
+Despite the growing importance of cyber-security for small businesses, there are several knowledge gaps
+that need to be addressed through future research. The following research insights highlight potential
+areas for further investigation:
+
+1. Integration of social and IoT technologies: Mendhurwar and Mishra (2019) discuss the architectural
+   framework for digital transformation and the challenges associated with integrating social and IoT
+   technologies. This insight suggests the need for research on the cyber-security implications of integrating
+   these technologies in the context of small businesses.
+2. Utilizing blockchain to overcome cyber-security concerns in IoT: Alotaibi (2019) reviews the use of
+   blockchain technology to address cyber-security concerns in the Internet of Things (IoT). This insight
+   calls for further research on the applicability of blockchain in enhancing the cyber-security posture of
+   small businesses in Australia.
+3. Cyber security in the maritime industry: Farah et al. (2022) conduct a systematic survey of recent
+   advances and future trends in cyber-security in the maritime industry. This insight suggests the need for
+   research on the specific cyber-security challenges faced by small businesses operating in the maritime
+   sector in Australia.
+4. Generalized FDIA-based cyber topology attack: Liang et al. (2018) propose a generalized cyber
+   topology attack with application to the Australian electricity market trading mechanism. This insight highlights the importance of understanding specific cyber-security threats and attacks relevant to Australian
+   small businesses.
+   By addressing these knowledge gaps, future research can contribute to the development of effective and
+   suitable cyber-security solutions for Australian small businesses.
+
+## Conclusion
+
+Small businesses in Australia face significant challenges in implementing effective cyber-security measures. These challenges arise due to limited resources, lack of awareness, and inadequate support
+structures. The existing literature highlights the need for further research on integrating social and
+IoT technologies, utilizing blockchain for cyber-security, and addressing cyber-security concerns in the
+maritime industry. By addressing these knowledge gaps, future research can provide valuable insights into
+cyber-security implications for Australian small businesses and contribute to the development of effective
+solutions.
+2 / 3
+~ Visit AskYourPDF.com ~
+
+## References:
+
+1. https://www.semanticscholar.org/paper/ff716e28bad6633a3ec8f232f766d323f3fddd5c
+2. Tam, Tracy., Rao, A.., & Hall, J.. (2021). The Good, The Bad and The Missing: A Narrative Review of Cyber-security Implications for Australian Small Businesses. <i>ArXiv</i> , abs/2109.00733 .
+   http://doi.org/10.1016/j.cose.2021.102385
+3. Mendhurwar, Subodh., & Mishra, Rajhans. (2019). Integration of social and IoT technologies: architectural framework for digital transformation and cyber security challenges. <i>Enterprise Information
+   Systems</i> , 15 , 565 - 584 . http://doi.org/10.1080/17517575.2019.1600041
+4. Farah, M. A. Ben., Ukwandu, Elochukwu A.., Hindy, Hanan., Brosset, David., Bures, Miroslav.,
+   Andonovic, I.., & Bellekens, X.. (2022). Cyber Security in the Maritime Industry: A Systematic Survey
+   of Recent Advances and Future Trends. <i>Inf.</i> , 13 , 22 . http://doi.org/10.3390/info13010022
+5. Ludwig, Thomas., Kotthaus, Christoph., Stein, Martin., Pipek, V.., & Wulf, V.. (2018). Revive Old
+   Discussions! Socio-technical Challenges for Small and Medium Enterprises within Industry 4.0. .
+   http://doi.org/10.18420/ecscw2018_15
+6. Liang, Gaoqi., Weller, S.., Luo, F.., Zhao, Junhua., & Dong, Z.. (2018). Generalized FDIA-Based Cyber
+   Topology Attack With Application to the Australian Electricity Market Trading Mechanism. <i>IEEE
+   Transactions on Smart Grid</i> , 9 , 3820-3829 . http://doi.org/10.1109/TSG.2017.2677911
+7. Alotaibi, Bandar. (2019). Utilizing Blockchain to Overcome Cyber Security Concerns in
+   the Internet of Things: A Review. <i>IEEE Sensors Journal</i> , 19 , 10953-10971 .
+   http://doi.org/10.1109/JSEN.2019.2935035
+   3 / 3

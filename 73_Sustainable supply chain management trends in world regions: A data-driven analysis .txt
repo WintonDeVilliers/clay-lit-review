@@ -1,0 +1,2668 @@
+Resources, Conservation & Recycling 167 (2021) 105421
+Available online 23 January 2021
+0921-3449/© 2021 Elsevier B.V. All rights reserved.
+Full length article
+Sustainable supply chain management trends in world regions: A
+data-driven analysis
+Feng Ming Tsai a
+, Tat-Dat Bui b
+, Ming-Lang Tseng c,d,e,*
+, Mohd Helmi Ali f,g
+, Ming K. Lim h
+,
+Anthony SF Chiu i
+a Department of Shipping and Transportation Management, National Taiwan Ocean University, Taiwan b Department of Shipping and Transportation Management, National Taiwan Ocean University, Taiwan c Institute of Innovation and Circular Economy, Asia University, Taiwan d Department of Medical Research, China Medical University Hospital, Taiwan e Faculty of Economics and Management, Universiti Kebangsaan Malaysia, Malaysia f School of Management, Faculty of Economics and Management, National University of Malaysia, Malaysia g Institute for Manufacturing, University of Cambridge, United Kingdom h Faculty Research Centre for Business in Society, Coventry University, United Kingdom i Department of Industrial Engineering, De La Salle University, Manila, Philippines
+ARTICLE INFO
+Keywords:
+Sustainable supply chain management
+Data-driven analysis
+Fuzzy Delphi method
+Entropy weight method
+Fuzzy decision-making trial and evaluation
+laboratory
+ABSTRACT
+This study proposes a data-driven analysis that describes the overall situation and reveals the factors hindering
+improvement in the sustainable supply chain management field. The literature has presented a summary of the
+evolution of sustainable supply chain management across attributes. Prior studies have evaluated different parts
+of the supply chain as independent entities. An integrated systematic assessment is absent in the extant literature
+and makes it necessary to identify potential opportunities for research direction. A hybrid of data-driven analysis,
+the fuzzy Delphi method, the entropy weight method and fuzzy decision-making trial and evaluation laboratory
+is adopted to address uncertainty and complexity. This study contributes to locating the boundary of fundamental knowledge to advance future research and support practical execution. Valuable direction is provided by
+reviewing the existing literature to identify the critical indicators that need further examination. The results
+show that big data, closed-loop supply chains, industry 4.0, policy, remanufacturing, and supply chain network
+design are the most important indicators of future trends and disputes. The challenges and gaps among different
+geographical regions is offered that provides both a local viewpoint and a state-of-the-art advanced sustainable
+supply chain management assessment.
+1. Introduction
+Sustainable supply chain management (SSCM) has grown significantly and has become a subject of increased concern due to environmental resource limitations, a global population explosion, the
+corruption of logistics production and consumption activities, and waste
+and pollution increases (Rebs et al., 2019). Over the last decade, academics and practitioners have endeavored to expand the frontier of
+sustainable development into supply chain management (SCM) to
+investigate SSCM (Bui et al., 2021; Tseng et al., 2016; Tseng and Chiu,
+2013). The progression of exploration into sustainability has resulted in
+an increased emphasis on understanding various aspects of the
+sustainable supply chain (Brandenburg et al., 2014; Hu et al., 2020;
+Rajeev et al., 2017). As a result, the literal concept of SSCM is
+wide-ranging and varied and needs to be explored as a whole together
+with different viewpoints (Ansari and Kant, 2017). Integrated perception
+approaches are required to address firms’ internal operations along with
+their external upstream and downstream operations while also considering the potential diverging opinions regarding the overall benefits.
+The literatures have presented summaries of the SSCM evolution
+across different aspects (Rajeev et al., 2019; Tseng et al., 2019;
+Mohammed et al., 2020). For Instance, Gomez-Luciano ´ et al. (2018)
+linked supply markets and globalization based on the theoretical foundation of SSCM and the related literature. Ciccullo et al. (2018)
+* Corresponding author.
+E-mail addresses: chucktsai@email.ntou.edu.tw (F.M. Tsai), tsengminglang@gmail.com (M.-L. Tseng), mohdhelmiali@ukm.edu.my (M.H. Ali), ac2912@coventry.
+ac.uk (M.K. Lim), anthony.chiu@dlsu.edu.ph (A.S. Chiu).
+Contents lists available at ScienceDirect
+Resources, Conservation & Recycling
+journal homepage: www.elsevier.com/locate/resconrec
+https://doi.org/10.1016/j.resconrec.2021.105421
+Received 6 June 2020; Received in revised form 26 October 2020; Accepted 8 January 2021 
+Resources, Conservation & Recycling 167 (2021) 105421
+2
+addressed the integration of the lean, agile and SSCM paradigms with
+sustainable environmental and social dimensions. Bastas and Liyanage
+(2018) adopted an interorganizational view to study the state of the art
+of sustainable supply chain quality management. Meherishi et al. (2019)
+provided a better understanding of sustainable packaging in SCM in the
+circular economy through a systematic approach. Wang et al. (2019)
+categorized the research on precast SCM for off-site construction.
+Rajeev et al. (2019) delineated the SSCM trends across theoretical angles
+over various stages of economic growth. Prior studies have yet to
+distinguish different parts of the supply chain as independent entities,
+treating them instead with conventional imprecise consideration (K.
+Govindan et al., 2020; Ni and Sun, 2019). A comprehensive integrated
+assessment of SSCM is still absent in the extant literature, making it
+necessary to identify potential opportunities for new study directions
+(Ansari and Kant, 2017; Farooque et al., 2019). This study proposes a
+data-driven analysis to illustrate a clear overall concept of SSCM and
+reveals factors hindering improvement of the field.
+SSCM helps to link development and environmental issues and drives
+political and economic change locally, nationally and globally (Bui et al.,
+2020b; Mangla et al., 2017). Sustainable practices must focus on local
+social development and interconnected environmental issues as well as
+on global economic consequences (Bendul et al., 2017; Tan et al., 2016).
+Grimm et al. (2014) and Wu and Pullman (2015) argued that environmental and social corollaries regularly depend on the production site and
+cultural elements, causing prospects to deviate among supply chain
+partners. Ciccullo et al. (2018) claimed that the geographical concentration of the supply base improves operational performance due to
+integration within the sustainable supply chain paradigm. Firms may
+lack prominence in the supply base beyond the primary tier of their
+supply chain partner; others may view them as sites where environmental
+and existing execution is uncertain. The supply chain is characterized as
+complicated, composed of different players, and detached across various
+levels and different geographies; thus, the distinction between different
+areas poses serious challenges to sustainability (Carter et al., 2015;
+Koberg and Longoni, 2018). An emphasis on setting aside an overall
+viewpoint to explore the regional phenomena of state-of-the-art SSCM is
+necessary. This study has the following the aims as follows:
+• To identify data-driven indicators for future trends and debates
+• To determine the challenges and knowledge gaps among geographical regions
+This study contributes to identifying the boundary of fundamental
+SSCM knowledge to advance future studies and support practical
+execution. Valuable direction is provided by the existing data-driven
+literature and identifying the critical indicators needed for further examination. The challenges and gaps among different geographical regions are addressed not only to provide a local standpoint for advanced
+assessment but also to comprehensively capture the global SSCM stateof-the-art. Since the supply chain environment has suffered uncertainties due to the urgent need to endorse sustainable development
+and create competitive advantages (Tseng et al., 2019; Liu et al., 2019a).
+This study employs both quantitative and qualitative approaches. A
+hybrid approach combining data-driven analysis, the fuzzy Delphi
+method (FDM), the entropy weight method (EWM) and the fuzzy
+decision-making trial and evaluation laboratory (FDEMATEL) is adopted
+due to the uncertainty and complexity of SSCM. The VOSviewer is
+applied to identify the SSCM indicators based on the big data in the
+Scopus database (Shukla et al., 2019). The FDM is used to refine the
+valid indicators by computing their perception levels from experts’
+linguistic references (Bui et al., 2021; Tsai et al., 2020; Tseng and Bui,
+2017). The EWM is to convert the indicator occurrence information into
+comparable weights to determine the indicators’ performance among
+regions; and the FDEMATEL identifies the perceptions through linguistic
+preferences and the important indicators that require urgent attention in
+future research to improve SSCM (Tseng, 2017; Tseng et al., 2018a).
+The rest of this study is arranged into five sections. The next section
+discusses the related literature on SSCM. The data collection process,
+methodologies, and proposed analysis steps are reviewed in the third
+section. The fourth section presents the results. Then, the study trends,
+future challenges and regional implications are addressed in the fifth
+section. The last section remarks upon the conclusions and limitations of
+this study and provides suggestions for future studies.
+2. Literature review
+This section presents the related literature on SSCM from a regional
+perspective.
+2.1. Sustainable supply chain management
+Seuring and Muller (2008) defined SSCM as managing the flow of
+materials, information and capital as well as cooperation and collaboration among firms within the supply chain while adopting all the sustainable development goals entailed by the economic, environmental,
+and social aspects (the triple bottom line; TBL) expectations of stakeholders and customers. Carter and Rogers (2008) describe SSCM as the
+strategic, transparent, and complete integration of the TBL in the systematic coordination of business processes to improve the long-term
+relationship between organizations and their supply chain. Ahi and
+Searcy (2015) defined SSCM as the design of coordinated supply chains
+including voluntary TBL integration to effectively and efficiently
+manage product or service acquisition, manufacture, and distribution to
+meet the requirements of stakeholders and improve the organization’s
+profitability, resilience, and competitiveness in the short and long term.
+Many classifications have been proposed. Türkay et al. (2016) proposed integrating dimensions of sustainability in supply chain design
+and organization to comprehensively assess supply chain sustainability
+strategies. Franco (2017) identified the challenges faced by supply chain
+participants from product design to the recovery and reprocessing of
+products in circular production. Golev and Corder (2017) performed an
+in-depth examination of the sustainable supply chain associated with
+e-waste management in the production chain. Liu et al. (2018) highlighted the significance of collaboration with different third parties at
+distinct stages of supplier resourcefulness. The external and internal
+sustainable supply chain perspectives are considered related viewpoints
+in which tensions arising from inequitably distributed benefits are
+apparent (Rebs et al., 2018). The SSCM literature reiterates that information flow, collaboration, coordination, and connectivity across the
+supply chain network are key to achieving a higher level of organizational and supply chain sustainability performance (Liebetruth, 2017;
+Rajeev et al., 2017; Reefke and Sundaram, 2016). Few contributions
+cover both environmental and social influences, since focusing on the
+economic scope is part of the conventional supply chain archetype
+(Feng et al., 2017; Ciccullo et al., 2018).
+In this context, environmental supply chains, green supply chains, and
+closed-loop supply chains have been presented and used interchangeably
+to extend the integration concepts of SSCM (Gurtu et al., 2015; Govindan
+et al., 2015; Leszczynska and Maryniak, 2017). Shaharudin et al. (2019a)
+identify past, present and future research developments for low-carbon
+SCM. Tseng et al. (2019) reviewed green SCM to present insights and
+directions for future investigation. Jia et al. (2020) established fundamental premises, tendencies and new paths for exploration through a
+structured systematic review of sustainable supply chain finance motivations, accomplishments and performance. SSCM is essentially the effort
+to integrate sustainable development into supply chain monitoring.
+Incorporating sustainability concepts into principal business areas enables the organization to achieve competitive advantages, especially
+given the dynamics of the global environment (Khodakarami et al., 2015).
+Although the concept of SSCM has risen to prominence in recent decades
+in response to growing challenges, the implications are that focusing on
+progression and competences in the supply chain is not sufficient for an
+F.M. Tsai et al. 
+Resources, Conservation & Recycling 167 (2021) 105421
+3
+organization to gain an advantageous position in the market (Ansari and
+Kant, 2017). Firms are facing serious threats to the sustainability of their
+existing supply chains due to globalization, uncertain demand, challenging markets, and pecuniary effectiveness (Roy et al., 2018). The
+literature on SSCM has expanded; nevertheless, guidance for scholars and
+future research opportunities are needed.
+2.2. Sustainable supply chain management among regions
+SSCM offers opportunities for regions to improve their ecological and
+social performance as well as their competitiveness and to achieve
+business goals (McMurray et al., 2014; van Hoof and Thiell, 2015).
+Silvestre et al. (2018) stated that the supply chain consists of various
+participants in different geographical regions; for example, manufacturers are usually located in developing countries. Ciccullo et al. (2018)
+indicated that suppliers’ proximity concentrates the geographical supply
+base, reduces supply lead time, and facilitates suppliers’ relationships
+and deliveries. Mancheri et al. (2019) claimed that the supply chain’s
+complexity and resilience are not reliant on physical disruptions alone
+but also on dynamic factors such as societal and geopolitical factors.
+Thus, it is important to confirm that regional issues are one of the key
+elements influencing global SSCM because they drive global relevance.
+Prior studies do not adequately address this specific issue (Fahimnia
+et al., 2015; Khalid et al., 2015). Bendul et al. (2017) debated whether
+sustainable development and the SCM relationship not only relate to
+broader interconnected environmental issues with global consequences
+but also express local community development. Vasquez ´ et al. (2019)
+argued that a lack of adequate infrastructure among regions is a major
+barrier to adopting SSCM practices and expanding business in a context
+of heavy demand coupled with requests for rapid supply. There is a lack
+of studies originating regionally as well as discontent among local suppliers who are underrepresented by common business policies and
+strategies for sustainability (Jia et al., 2018). Hence, this study seeks to
+fill this gap by proposing a regional comparison in the SSCM context.
+3. Method
+The proposed analysis steps are presented in this section to provide a
+clear explanation of the data collection process, data-driven analysis, the
+FDM, the EWM, and the FDEMATEL.
+3.1. Proposed methods
+Prior studies have identified the components of a big database for
+building capabilities in the SCM (Akter et al., 2016; Zhan and Tan,
+2020). Pereira and Frazzon (2020) proposed a data-driven approach that
+combines machine-learning petition estimating and operational
+planning simulation-based optimization for adaptive demand and supply synchronization in retail supply chains. Maroufkhani et al. (2020)
+used the technological-organizational-environmental model to examine
+the implementation of data-driven analysis to enhance sustainable solutions for resource and emission reduction among supply chain systems. Majeed et al. (2021) developed a modeling structure by uniting big
+data analytics, additive manufacturing, and sustainable smart
+manufacturing technologies, which is advantageous for additive
+manufacturing initiatives. There is a lack of big data assessments using
+multi-attribute decision making to enrich SSCM (Tseng et al., 2019). The
+capacity to refine and validate important indicators for future directions,
+and the numerical description for data incidences are absent in traditional data-driven analysis (Tsai et al., 2020). Interdependence and interrelationships among attributes and the integration of augmented
+data-driven solutions into supply chain networks must be addressed to
+achieve greater efficiency and effectiveness (Tseng et al., 2018b).
+Due to the uncertainty and complexity of SSCM, this study proposed a
+hybrid multi-attribute decision-making approach including data-driven
+analysis, fuzzy set theory combined in the FDM, the EWM and the FDEMATEL. The FDM is used to refine and validate the indicators by
+computing their perceived levels from experts’ linguistic references
+(Tseng and Bui, 2017). The EWM is used to convert the indicator occurrence information into comparable weights to determine the indicators’
+performance among regions (Tseng, 2017). The FDEMATEL method is
+used to identify the perceptions through linguistic preferences and the
+important indicators that require urgent attention in future research to
+improve SSCM (Tseng et al., 2018a). Still, the fuzzy interpretive structural
+modeling or analytic network process are more focusing on constructing
+the hierarchical framework compared to other multi-criteria decision-making technique (Bui et al., 2020b, Tseng et al., 2018a). FDEMATEL is
+more suitable to indicate the important indicators in the field by
+addressing the causal inter-relationship between the trends and challenges. Tsai et al. (2020) used a hybrid method, including a data-driven
+bibliometric analysis, FDM, and EWM to address to future study trend
+and challenges of municipal solid waste management in a circular economy. Bui et al. (2021) applied a combination of data-driven analysis based
+on content-bibliometric analyses, FDM, EWM, and FDEMATEL to obtain
+the experts’ evaluation on SSWM towards disruption and organizational
+ambidexterity. Hence, this study not only provides in-depth technique for
+data-driven analysis, determine the SSWM performance of different regions, but also distinguish the critical indicators as gaps for supplementary knowledge for future studies provisions and practical executions.
+3.2. Proposed analysis steps
+This study offers a data-driven analysis, identifies indicators for the
+improvement of future studies and outlines the differences in state-ofFig. 1. Analytical process.
+F.M. Tsai et al. 
+Resources, Conservation & Recycling 167 (2021) 105421
+4
+the-art regional SSCM. A board of 30 experts, with no threshold for
+experiences time, was selected to ensure the reliability of the evaluation
+processes. The expert committee was gathered from among researchers
+and practitioners with at least 10 years of experience working in and
+studying SSCM, including 14 experts from academia, 5 experts from
+government and nongovernment organizations (NGOs) and 11 experts
+from the practical field. From regional viewpoint, the committee includes 10 experts from Asia and Oceania region, 5 experts from North
+America region, 8 experts from Europe, 4 experts from Latin America
+and Caribbean region (shown in Appendix A). The analysis steps are
+proposed as follows:
+1 Feasible search terms are identified to filter the SSCM big data from
+the Scopus database for data collection.
+2 The data-driven analysis of the collected database is conducted with
+VOSviewer to identify the SSCM indicators as well as country couplings based on the authors, keywords, titles, and abstracts.
+3 The FDM is used to refine the valid indicators following Eqs. (1)-(2).
+The experts’ assessment of the proposed indicators is solicited using
+the questionnaire.
+4 The indicators’ frequency is calculated, and the EWM is employed to
+convert the indicators’ entropy into comparable scales using Eqs. (3)-
+(7). The regional comparison is specified for this study.
+5 The important indicators for each region and the overall SSCM are
+identified using the FDEMATEL and Eqs. (8)-(15) to examine future
+study gaps.
+A systematic diagram of the data analysis steps is presented in Fig. 1.
+3.3. Data collection
+Koberg and Longoni (2019) employed data on SSCM in global supply
+chains from Proquest, JSTOR Archival Journals, Business SourcePremier, PLoS, ScienceDirect, the Arts and Humanities Citation Index,
+Emerald Journals, Dialnet Plus, the Social Sciences Citation Index, and
+the Science Citation Index. Rebs et al. (2019) used Web of Science to
+retrieve relevant data on SSCM. These databases cover a smaller array of
+information. In this study, the Scopus database is employed because it
+covers a broader range of data than other data sources (Ansari and Kant,
+2017; He et al., 2017; Jin et al., 2018). To generate the SSCM database,
+the search terms “("sustainable supply chain management") OR ("supply
+chain management" AND "sustainability")” were used, with the results
+being generated from the titles, abstracts, or keywords. The search was
+limited to English-language articles and reviews.
+3.4. Data-driven analysis
+This study performs a data-driven analysis using VOSviewer version
+1.6.11, open source software that creates scientific topographies by
+categorizing documents that have similar meaning into the same cluster
+to describe the relationships between them (van Eck and Waltman,
+2018). In the supply chain context, Feng et al. (2017) used VOSviewer to
+develop a quantitative illustration of the knowledge structure and the
+intellectual progress of corporate social responsibility in SCM. Wang
+et al. (2019) created a taxonomy to properly classify SCM indicators for
+off-site construction using VOSviewer. Thus, VOSviewer is suitable for
+use to visualize the SSCM indicators because it reveals study gaps and
+opportunities for future investigation.
+3.5. Fuzzy Delphi method
+The combination of fuzzy set theory and the Delphi method helps
+decision groups address the lack of expert references and improve
+questionnaire quality (Ishikawa et al., 1993). It is used to screen out
+invalid indicators by generating experts’ linguistic references (Tseng
+and Bui, 2017). The method has advantages in reducing the quantity of
+responses and feedback time, providing an effective assessment of experts’ judgment and relevant remarks to transform their fuzzy evaluation into exact numbers (Lee et al., 2018).
+In the analytical process, assuming that there are n experts and m
+indicators, expert a has to evaluate the magnitude of indicator b. This
+evaluation is transformed into triangular fuzzy numbers as j =
+(xab; yab; zab), a = 1,2,3,…,n; b = 1,2,3,…,m, where the jb weight of b is
+presented as jb = (xb; yb; zb) with xb = min(xab), yb = (
+∏n
+1
+yab)
+1/n
+, and
+zb = max(zab). Formally, the experts’ linguistic references are converted
+into triangular fuzzy numbers, as presented in Table 1.
+The convex combination value Db is computed using a γ cut as:
+ub = zb − γ(zb − yb), lb = xb − γ(yb − yxb), b = 1, 2, 3,…, m (1)
+This γ value can be customized from 0 to 1 to reflect a positive or
+negative tendency in evaluators’ perceptions. The value of 0.5 is used to
+represent a balance (Bui et al., 2020a).
+Then, Db is determined by:
+Db =
+∫ (ub ,lb )
+= δ[ub + (1 − δ)lb] (2)
+with δ representing the positivity perception of the evaluators; a balance
+in the ultimate assessment of the expert committee is represented by a
+value of 0.5.
+The threshold to refine the valid indicators is calculated using t = ∑n
+a=1(Db /n). If Db ≥ t, indicator b is accepted. Otherwise, it must be
+removed.
+The FDM process is implemented in 2 rounds in this study. A face-toface interview with the expert committee is held to refine the SSCM
+keywords and select the indicators for the FDM analysis. Round 1 aims to
+eliminate the unnecessary attributes by assimilating expert judgments,
+and round 2 allows experts to use their knowledge and experience to
+simplify the complex attribute set from round 1 through discussion (Lee
+et al., 2018). The process allows group decision making, reducing the
+number of selections through rapid convergence in predicting sentiments
+and thereby helping decision makers validate the decision requirement
+(Bui et al., 2020a; Bui et al., 2021; Tsai et al., 2020).
+3.6. Entropy weighted method
+The differences across geographical regions are determined by
+adopting the entropy weighted method. All tracking activities are coded
+in an equivalent Excel file to prevent repeating the same actions and to
+improve the results’ reliability. A content analysis is used for regional
+consistency checks of independent coding to count the indicator frequencies for each specific region by searching the SSCM regional data
+generated from the Scopus database (see Appendix B). For instance, the
+search term used to generate the regional data for Africa is “TITLE-ABSKEY ("Cameroon" or "Egypt" or "Ethiopia" or "Ghana" or "Kenya" or
+"Morocco" or "Nigeria" or "South Africa" or "Tanzania" or "Tunisia" or
+"Uganda" or "Zimbabwe")”. The search terms are used to search the title,
+abstracts, and keywords. Therefore, studies and authors addressing
+multiple regions can be avoided, while the geographical issues in the
+studies’ scope are still accounted for.
+The indicator frequency ε takes a coefficient value between zero and
+Table. 1
+Transformation table of linguistic terms for FDM.
+Linguistic terms (performance/
+importance)
+Corresponding triangular fuzzy numbers
+(TFNs)
+Extreme (0.75, 1.0, 1.0)
+Demonstrated (0.5, 0.75, 1.0)
+Strong (0.25, 0.5, 0.75)
+Moderate (0, 0.25, 0.5)
+Equal (0, 0, 0.25)
+F.M. Tsai et al. 
+Resources, Conservation & Recycling 167 (2021) 105421
+5
+one. The value is generally set to 0.5 to reflect the general effects of the
+indicators on the structure (Tseng, 2017), with:
+τ0,i = ∑n
+m=1
+wmε0,i(m) for i = 1, 2, …m (3)
+where the weight (wm,
+∑wm = 1) for each distinguishing indicator is
+calculated using the entropy method.
+The entropy method quantifies a disorganized structure by employing weight measurement. An indicator with large entropy means and
+high response diversity has a more substantial effect when it reacts to the
+structure (Wen et al., 1998; Tseng, 2017). The method comprises
+functionfi : [0, 1]→[0, 1] and justifies three constraints, (1) fi(0) = 0, (2)
+fi(x) = fi(1 − x), and (3) fi(x), to enlarge the range of x ∈ (0, 0.5). The
+largest value of this function is at x = 0.5, and the value (∂0.5 − 1) puts
+the result in the range [0, 1]. The entropy weighted computational processes are as follows:
+The coefficient arrangements for each indicator are computed as
+follows:
+Cj = ∑n
+i=1
+εi(j) (4)
+Each indicator’s entropy weight is generated using:
+ej = k
+∑n
+j=1
+we
+(εi(j)
+ej
+)
+(5)
+The total entropy values are calculated as follows:
+E = ∑p
+j=1
+ej (6)
+Each indicator’s weighted value is determined as follows:
+wj =
+1
+p − E
+(
+1 − ej
+)
+∑p
+j=11
+/
+p − E
+(
+1 − ej
+) , j = 1, 2, 3,…, p (7)
+3.7. Fuzzy decision-making trial and evaluation laboratory
+In this method, fuzzy set theory is employed to measure equivocal
+perceptions related to linguistic judgments in an uncertain environment
+and generate a crisp value, while the DEMATEL technique is designed to
+causally construct intercorrelations among indicators under complex
+conditions (Tseng et al., 2018a).
+The method uses the defuzzification technique to convert linguistic
+information into fuzzy triangular numbers and then transforms them
+into crisp values. The fuzzy membership functions ̃e
+k
+ij = (̃e
+k
+1ij,̃e
+k
+2ij,̃e
+k
+3ij) are
+used to compute the total weighted values. Formally, the left and right
+values are calculated by the minimum and maximum fuzzy numbers.
+The crisp values are subsequently obtained in the form of a total direct
+relation matrix that can be used to draw a diagram to simplify the
+analytical results. The interrelationship structure contains certain indicators that represent important means in the system. A set of indicators is addressed as F = {f1, f2, f3, ⋯, fn}, and accurate pairwise
+evaluation is then used to create the mathematical relation.
+In particular, this study obtained and accumulated crisp values using
+linguistic scales from VL (very low influence) to VHI (very high influence), as presented in Table 2. If there are k experts involved in the
+evaluation procedure, ̃e
+k
+ij specifies the fuzzy weight of the i
+th indicator’s
+influence on attribute j
+th evaluated by expert kth.
+The fuzzy numbers are abridged as follows:
+F =
+(
+f̃e
+k
+1ij , f̃e
+k
+2ij, f̃e
+k
+3ij)
+=
+[(
+ek
+1ij − minek
+1ij)
+Δ ,
+(
+ek
+2ij − minek
+2ij)
+Δ ,
+(
+ek
+3ij − minek
+3ij)
+Δ
+]
+(8)
+whereΔ = maxek
+3ij − mine
+The left (lv) and right (rv) normalized values are determined using:
+(
+lvn
+ij, rvn
+ij)
+=
+[ (
+fek
+2ij
+(
+1 + fek
+2ij − fek
+1ij) , fek
+3ij (
+1 + fek
+3ij − fek
+2ij)
+]
+(9)
+The total normalized crisp values (cv) are formulated as:
+cvk
+ij =
+[
+lvk
+ij(
+1 − lvk
+ij)
++
+(
+rvk
+ij)2]
+(
+1 − lvk
+ij + rvk
+ij) (10)
+The synthetic values’ symbolization to accrue individual insight
+from k respondents is afterward implemented by:
+̃e
+k
+ij =
+(
+cv1
+ij + cv2
+ij + cv3
+ij + ⋯ + cv3
+ij)
+k (11)
+A pairwise comparison is manipulated to acquire a direct relation
+(IM) n × n initial matrix, where ̃e
+k
+ij refers to the efficient level of indicator i on indicator j, moderated as IM = [̃e
+k
+ij]n×n.
+The normalized direct relation matrix (U) is formed as:
+U = τ ⊗ IM
+τ = 1
+max
+1≤i≤k
+∑k
+j=1
+̃e
+k
+ij
+(12)
+The interrelationship matrix (W) is obtained from the normalized
+direct relation matrix using:
+W = U(I − U)
+− 1 (13)
+where W is[wij]
+n×n i,j = 1,2,⋯n
+The values of the driving power (α) and dependence power (β) are
+assimilated from the summation of the row and column values in the
+interrelationship matrix using:
+=
+[
+∑n
+i− 1
+wij]
+n×n
+= [wi]n×1 (14)
+=
+[
+∑n
+j− 1
+wij]
+n×n
+= [
+wj
+]
+1×n (15)
+The indicators are positioned in an interrelationship diagram derived
+from [( + ), ( − )], which in turn presents horizontal and vertical
+axes. The indicators are grouped into cause and affect groups based on
+whether the ( − ) values are positive or negative. (α + β) displays the
+importance of the indicators: the higher the (α + β) value an indicator
+has, the more important it is. This study uses the average value of (α + β)
+to identify the most important causal indicators, which then require
+further focus.
+4. Results
+The SSCM data-driven method is shown in this section. The FDM and
+EWM results are also shown. The critical indicators for identifying future
+Table 2
+TFNs linguistic scale for FDEMATEL.
+Scale Linguistic terms Corresponding TFNs
+1 No influence (0.0, 0.1, 0.3)
+2 Very low influence (0.1, 0.3, 0.5)
+3 Low influence (0.3, 0.5, 0.7)
+4 High influence (0.5, 0.7, 0.9)
+5 Very high influence (0.7, 0.9, 1.0)
+F.M. Tsai et al. 
+Resources, Conservation & Recycling 167 (2021) 105421
+6
+Table 3
+Final List of FDM indicator result.
+ID Indicators Description References
+I1 Big data The big data concept is
+defined as high volume, high
+velocity and high variety data
+that are used in the decisionmaking process and require
+innovative techniques to be
+managed.
+Beyer and Laney,
+2012
+I2 Circular economy Circular economy is a closed
+loop supply chain which
+focuses on the restorative and
+regenerative aspects that aim
+to eliminate the use of toxic
+materials, reuse and
+eliminates the wastage
+through the explicit
+implementation of the design
+models, product systems and
+design of the materials.
+Rajput and Singh,
+2019
+I3 Cleaner production Cleaner production regards to
+better management practices,
+substitution of toxic and
+hazardous materials, process
+modifications, and reuse of
+waste products to improve
+resource use efficiency,
+reduce loss and recover
+resources from waste.
+Pingmuanglek et al.,
+2017
+I4 Closed-loop supply
+chain
+Closed-loop supply chain
+include two fundamental
+phases: the forward and the
+reverse supply chain, in which
+the forward chain refers to the
+flow of new products that are
+delivered from manufacturers
+to consumers, while the
+reverse chain is described as
+the return flow of used,
+defective, and open box
+products collected from
+consumers and transferred to
+manufacturers or recycling
+centers .
+2019
+; Assarzadegan and
+Rasti-Barzoki, 2019
+I5 Eco-efficiency Eco-efficiency refers to a
+quantitative management
+solution that enables a
+product system to balance
+resource use through the
+adoption of a more
+sustainable concept while still
+bringing profit to
+stakeholders.
+V´
+asquez et al., 2019
+I6 Emerging markets Emerging markets (also called
+the emerging economies)
+refer to the markets which
+have developed to a state
+which has some similarities as
+the developed markets but are
+not yet fully developed.
+Choi and Luo, 2019
+I7 Ethics An ethical supply chain
+focuses on the need for
+corporate social
+responsibility, working to
+produce products and services
+in a way that incorporate
+social, human rights and
+environmental considerations
+into the way they do business
+Quintens, 2017
+I8 Financial
+performance
+Firm financial performance
+refers to how well a firm
+fulfills its financial goals
+compared with the firm’s
+primary competitors which
+comprise growth in return on
+sales, growth in profit, growth
+in market share, return on
+Yu et al., 2019
+Table 3 (continued )
+investment, and return on
+assets
+I9 Globalization Globalization has been a
+strategical trend for the past
+decades, leading to
+international supply chains.
+Kandil et al., 2020
+I10 Industry 4.0 The concept of industry 4.0 is
+founded based on three
+principal elements: cyberphysical systems, the internet
+of things, and smart factories.
+Hofmann and
+Rusch, 2017; Tseng
+et al., 2018b
+I11 Knowledge
+management
+Knowledge management
+transforms information, data
+and intellectual assets to
+firms’ perdurable value
+through recognizing useful
+knowledge for running and
+managing operations.
+Lim et al., 2017
+I12 Optimization Optimization models can be
+used to consider the
+deterministic characteristics
+in the supply chain and
+translated into recommended
+actions to support
+management decisions to
+achieve the best solution.
+Aqlan and Lam,
+2016
+I13 Policy The policy and influence of
+regulation legislation in
+forming the SSCM is one of
+the key tactical elements
+requiring focused attention.
+Manavalan and
+Jayakrishna, 2019
+I14 Raw materials Better raw material
+management helps to (1)
+decrease the manufacturing
+complexity related to sourced
+components, (2) focusing on
+new product development as
+firms have more information
+about the raw material, better
+predict the problems in new
+product development cycle,
+and thereby develop more
+robust products, (2) reduce
+costs of sourcing by cost
+control at the design stage of
+components.
+Agrawal, 2014
+I15 Remanufacturing Remanufacturing is a multiprocess that transforms endof-use products by recovering,
+checking, disassembling,
+polishing, renovating, and
+reassembling to a “like-new”
+product
+Govindan et al.,
+2016; Kafuku et al.,
+2016.
+I16 Reverse logistics Reverse logistics is the process
+of moving products from their
+typical final destination with
+the purpose of revalorization
+or proper disposal.
+Bouzon et al., 2018
+I17 Risk management Risk management defines
+supply chain responses that
+will contradict vulnerabilities
+by choosing the most
+appropriate risk response
+solution and planning how
+that solution should be
+applied.
+Manuj et al., 2014,
+Sahebjamnia et al.,
+2018
+I18 Social
+sustainability
+Social sustainability is one of
+the pillars of the TBL,
+addresses three points: wellbeing of human beings,
+society, and safety of
+consumers.
+K. Govindan et al.,
+2020
+I19 Supply chain
+collaboration
+Supply chain collaboration is
+a model in which members of
+the supply chain share risks
+and resources in order to
+improve the competitive
+Manthou et al.,
+2004
+(continued on next page)
+F.M. Tsai et al. 
+Resources, Conservation & Recycling 167 (2021) 105421
+7
+implications obtained from the FDEMATEL analysis are examined.
+4.1. Data-driven analysis
+This study generates co-occurrence couplings of author keywords
+extracted from Scopus (see Appendix C). There are 251 keywords listed
+with at least 5 occurrences. There are 92 countries/territories listed,
+with the minimum number of documents for a country being equal to 1.
+Then, for further evaluation, the countries/territories are separated into
+5 geographical regions based on the UN countries list (2019), namely,
+Asia and Oceania, Europe, North America, Latin America and the
+Caribbean, and Africa (shown in Appendix D).
+4.2. Fuzzy Delphi method
+There are 127 indicators identified from the 151 author keywords
+that co-occur. The summaries from rounds 1 and 2 of the FDM are shown
+in Appendix E and Appendix F, along with the weights and the threshold
+for validating the indicator attributes. In round 1, the set of SSCM indicators is evaluated based on the experts’ experience and judgment,
+and the linguistic terms are converted into conforming triangular fuzzy
+numbers in Table 1. The FDM refines the indicator, which can be found
+in Appendix E. There are 54 barriers that are accepted with a threshold
+of 0.302.
+Then, the refined set is used for input in round 2. In this round, the
+indicators set in round 1 are reproduced for the experts’ redefinition.
+The results show that 22 out of 54 indicators are accepted, while the
+other 32 are rejected (as presented in Appendix F) with a threshold of
+0.298. The final FDM indicator set is shown in Table 3.
+4.3. Entropy weighted method
+Table 4 presents the indicator entropy weights for each region. The
+EWM uses entropy to represent the amount of information. The higher
+the indicator values are, the more information they contain. In other
+words, the larger the entropy value is, the smaller the entropy weight
+(He et al., 2016) and the more information the indicator provides.
+Hence, this study uses the average weighted technique to determine the
+level of indicator information in each region. If the weight is greater
+than the average, the indicator must be improved, shown in Table 5. The
+results show that Asia and Oceania have the highest amount of information in the field of SSCM, followed by Europe and North America. In
+contrast, Africa and Latin America and the Caribbean have less information, and there is still much room for SSCM development in these
+regions.
+4.4. Fuzzy decision-making trial and evaluation laboratory
+From the FDM indicator set, the experts evaluated the indicator interrelationships using the provided linguistic scales (see Table 2). The
+fuzzy direct relation matrix and the defuzzification are characterized to
+compute the average crisp value for all respondents and used to create
+the initial direction matrix, presented in Table 6. The total interrelationship matrix is generated (see Table 7), as is the interrelationship
+among indicators, shown in Table 8. Fig. 2 presents the interrelationship
+diagram among regions based on the (α +β) and (α − β) axes. The
+average value of (α + β) is used to identify the most important causal
+indicators that require attention. The results show that there are some
+differences between regions. In particular, Asia and Oceania focus on big
+data (I1), industry 4.0 (I10), policy (I13), remanufacturing (I15), and
+supply chain network design (SCND) (I20). The important indicators for
+Table 3 (continued )
+advantage of the entire supply
+chain.
+I20 Supply chain
+network design
+Supply chain network design
+represents the facility location
+problem, and SCM contains
+facility location
+determination, magnitude,
+network capabilities and the
+material flow among the
+located facilities.
+Pishvaee and
+Razmi, 2012
+I21 Sustainable
+supplier selection
+Supplier selection process
+considers the processes
+resulting in adopting a
+developed evaluation
+approach to select the most
+potential suppliers from a
+pool of candidates.
+Ghadimi et al., 2019
+I22 System dynamics System dynamics is a
+technique to model and
+simulate complex systems, e.
+g., the relationships between
+economic, environmental,
+and social variables in
+connection with societal
+action to uncover alternative
+paths of evolution
+Rebs et al., 2019
+Table 4
+Regional entropy weights.
+Indicators Asia and Oceania Europe North America Africa Latin-America and Caribbean Overall
+I1 Big data 0.0454708 0.0454850 0.0454850 0.0454850 0.0454850 0.0454822
+I2 Circular economy 0.0454494 0.0454180 0.0454559 0.0454850 0.0454212 0.0454459
+I3 Cleaner production 0.0454708 0.0454850 0.0454850 0.0454850 0.0454212 0.0454694
+I4 Closed-loop supply chain 0.0454636 0.0454448 0.0454267 0.0454850 0.0454850 0.0454610
+I5 Eco-efficiency 0.0454779 0.0454716 0.0454850 0.0454850 0.0454850 0.0454809
+I6 Emerging markets 0.0454708 0.0454716 0.0454559 0.0454850 0.0454531 0.0454673
+I7 Ethics 0.0454779 0.0454448 0.0454267 0.0453733 0.0454850 0.0454415
+I8 Financial performance 0.0454494 0.0454716 0.0454559 0.0453733 0.0454850 0.0454470
+I9 Globalization 0.0453923 0.0454046 0.0453976 0.0454850 0.0453254 0.0454010
+I10 Industry 4.0 0.0454708 0.0454850 0.0454850 0.0454850 0.0454850 0.0454822
+I11 Knowledge management 0.0454494 0.0454180 0.0454850 0.0454850 0.0454850 0.0454645
+I12 Optimization 0.0454708 0.0454180 0.0453101 0.0454850 0.0454531 0.0454274
+I13 Policy 0.0454066 0.0454582 0.0453976 0.0453733 0.0453254 0.0453922
+I14 Raw materials 0.0454636 0.0454850 0.0454559 0.0454850 0.0454531 0.0454685
+I15 Remanufacturing 0.0454850 0.0454716 0.0454850 0.0454850 0.0454850 0.0454823
+I16 Reverse logistics 0.0454351 0.0454582 0.0454850 0.0454850 0.0454531 0.0454633
+I17 Risk management 0.0454066 0.0454716 0.0454850 0.0454850 0.0454850 0.0454667
+I18 Social sustainability 0.0454422 0.0454582 0.0454559 0.0452615 0.0454850 0.0454206
+I19 Supply chain collaboration 0.0454351 0.0454448 0.0454559 0.0454850 0.0453892 0.0454420
+I20 Supply chain network design 0.0454779 0.0454582 0.0454850 0.0454850 0.0454850 0.0454782
+I21 Sustainable supplier selection 0.0454708 0.0454582 0.0454559 0.0453733 0.0454850 0.0454486
+I22 System dynamics 0.0454636 0.0454180 0.0454850 0.0454850 0.0454850 0.0454673
+F.M. Tsai et al. 
+Resources, Conservation & Recycling 167 (2021) 105421
+8
+Europe are big data (I1), closed-loop supply chain (I4), policy (I13), and
+remanufacturing (I15). The most important indicators of the Latin
+American and Caribbean regions include industry 4.0 (I10), policy (I13),
+remanufacturing (I15), and risk management (I17) SCND (I20). For
+North America, the important indicators consist of big data (I1), closedloop supply chain (I4), industry 4.0 (I10), remanufacturing (I15), and
+SCND (I20). Big data (I1), eco-efficiency (I5), policy (I13), risk management (I17), and SCND (I20) are important indicators for Africa.
+Overall, the most important indicators for SSCM are big data (I1),
+closed-loop supply chain (I4), industry 4.0 (I10), policy (I13), remanufacturing (I15), and SCND (I20). These indicators are considered to have
+continuing effects as well as response effects within SSCM. They are
+identified as the most critical study trends enhancing SSCM.
+5. Discussions
+This section discusses the state-of-the-art of SSCM, future study
+trends and challenges and the geographical regional implications.
+5.1. SSCM state-of-the-art, study trends, and challenges
+The results show that the most important indicators for SSCM are big
+data, closed-loop supply chain, industry 4.0, policy, remanufacturing,
+and SCND. These indicators are considered to play critical roles in
+guiding the research and posing challenges for SSCM enhancement.
+5.1.1. Big data
+Big data has attracted researchers and practitioners’ attention in the
+past few years because of its ability to generate insights in real time that
+can then be incorporated (Kaur and Singh, 2018). Big data is defined as
+high volume, high velocity and high variety data that are used in the
+decision-making process and require innovative techniques to be
+managed (Beyer and Laney, 2012). The parameters for big data based on
+inter-intra heterogeneity with the 3Vs—variety, volume and velocity—in
+which (i) variety considers development sources involving multiple
+products, periods, suppliers, and carriers; numerous emissions, capacity,
+cost, and demand issues; and supplier, product, time, and carrier functions; (ii) volume refers to big data storage with the number of suppliers,
+available carriers, number of products and periods; and (iii) velocity is
+related to data acquisition and reflects the propensity of data to adjust on
+a real-time basis, an example being the supplier and carrier capability
+and product demand fluctuations that occur within each period (Lamba
+and Singh, 2016). Big data has rapidly grown and extended based on its
+application and operating procedures in each specific business. Two
+additional parameters are (iv) value-added with the intention of generating value from cloud computing or the internet of things and (v) veracity regarding the effectiveness and efficiency of the big data analysis
+used by manufacturing, because the value of big data cannot be scrutinized only by simple statistics (Sandhu and Sood, 2015; Addo-Tenkorang
+and Helo, 2016; Wang et al., 2016; Wang and Hajli, 2017).
+Indeed, big data analytics now plays a crucial role in SSCM (Li et al.,
+2019). It is useful to develop supply chain capability in practice using
+new technologies, such as data-driven analysis, providing instruments to
+optimize the data generation process, offering data integration from
+various foundations, conforming different categories of findings to the
+business process, and visualizing the data to simplify decision-making
+(Dubey et al., 2018; Ren et al., 2019, Zhang et al., 2017). Big data influences the supply chain and integrates both upstream and downstream
+operations to improve the organization’s sustainable performance
+(Singh and El-Kassar, 2019). Therefore, the big data concept contributes
+to SSCM by building knowledgeable decisions, providing administration
+and risk mitigation, enhancing operational processes, presenting new
+products to the market, and scrutinizing the market (Schoenherr and
+Speier-Pero, 2015). This also has positive impacts on supply chain and
+operational performance, business values, sustainable procurement, and
+sustainable manufacturing (Kaur and Singh, 2018; Ren et al., 2019).
+These help to form an expressive understanding that supports multifaceted SSCM assessments (Gandomi and Haider, 2015; Tsai et al., 2015;
+Wang et al., 2018).
+In the literature, a social media data analytics technique has been
+developed for analyzing supply chain and logistics operations (Singh
+et al., 2018). An environmentally sustainable procurement and logistics
+model for a supply chain has been proposed that uses big data to assess
+the variety of real-time boundaries from the purchaser and supplier
+sides, including lead times, capabilities, costs, and discharge (Kaur and
+Singh, 2018). SSCM knowledge was explored by determining barriers to
+big data analytics in manufacturing supply chains (Moktadir et al.,
+2019a). The role of big data in extending sustainable capabilities was
+examined as driven by the firm’s commitment, the practices of green
+human resources and SCM to improve sustainability performance
+Table 5
+Region Entropy weight comparison.
+Indicators Asia and Pacific Ocean Europe North America Africa Latin-America and Caribbean
+I1 Big data ↓ ↑ ↑ ↑ ↑
+I2 Circular economy ↑ ↓ ↑ ↑ ↓
+I3 Cleaner production ↑ ↑ ↑ ↑ ↓
+I4 Closed-loop supply chain ↑ ↓ ↓ ↑ ↑
+I5 Eco-efficiency ↓ ↓ ↑ ↑ ↑
+I6 Emerging markets ↑ ↑ ↓ ↑ ↓
+I7 Ethics ↑ ↑ ↓ ↓ ↑
+I8 Financial performance ↑ ↑ ↑ ↓ ↑
+I9 Globalization ↓ ↑ ↓ ↑ ↓
+I10 Industry 4.0 ↓ ↑ ↑ ↑ ↑
+I11 Knowledge management ↓ ↓ ↑ ↑ ↑
+I12 Optimization ↑ ↓ ↓ ↑ ↑
+I13 Policy ↑ ↑ ↑ ↓ ↓
+I14 Raw materials ↓ ↑ ↓ ↑ ↓
+I15 Remanufacturing ↑ ↓ ↑ ↑ ↑
+I16 Reverse logistics ↓ ↓ ↑ ↑ ↓
+I17 Risk management ↓ ↑ ↑ ↑ ↑
+I18 Social sustainability ↑ ↑ ↑ ↓ ↑
+I19 Supply chain collaboration ↓ ↑ ↑ ↑ ↓
+I20 Supply chain network design ↓ ↓ ↑ ↑ ↑
+I21 Sustainable supplier selection ↑ ↑ ↑ ↓ ↑
+I22 System dynamics ↓ ↓ ↑ ↑ ↑
+Notes:↑: above the average (Need for improvement).
+↓: below the average.
+F.M. Tsai et al. 
+Resources, Conservation & Recycling 167 (2021) 105421
+9
+Table. 6
+Overall initial direction matrix.
+I1 I2 I3 I4 I5 I6 I7 I8 I9 I10 I11 I12 I13 I14 I15 I16 I17 I18 I19 I20 I21 I22
+I1 0.776 0.543 0.463 0.471 0.520 0.518 0.445 0.534 0.549 0.503 0.528 0.512 0.508 0.523 0.445 0.518 0.538 0.481 0.486 0.492 0.537 0.510
+I2 0.530 0.758 0.461 0.516 0.433 0.397 0.383 0.388 0.453 0.406 0.397 0.519 0.484 0.519 0.434 0.441 0.473 0.502 0.434 0.481 0.479 0.523
+I3 0.466 0.495 0.758 0.478 0.461 0.471 0.386 0.506 0.461 0.526 0.489 0.462 0.453 0.467 0.439 0.469 0.456 0.535 0.499 0.462 0.460 0.511
+I4 0.550 0.454 0.460 0.763 0.499 0.455 0.415 0.458 0.480 0.487 0.489 0.475 0.407 0.448 0.503 0.493 0.494 0.554 0.487 0.495 0.435 0.458
+I5 0.515 0.492 0.447 0.541 0.759 0.529 0.437 0.500 0.446 0.473 0.457 0.524 0.459 0.431 0.458 0.449 0.443 0.463 0.434 0.460 0.465 0.433
+I6 0.389 0.496 0.391 0.485 0.466 0.761 0.499 0.493 0.454 0.402 0.474 0.415 0.451 0.402 0.531 0.447 0.481 0.458 0.408 0.457 0.465 0.395
+I7 0.382 0.335 0.457 0.449 0.446 0.448 0.760 0.414 0.395 0.332 0.385 0.429 0.468 0.551 0.612 0.418 0.403 0.439 0.401 0.448 0.550 0.492
+I8 0.415 0.487 0.451 0.461 0.448 0.491 0.422 0.773 0.444 0.389 0.445 0.356 0.453 0.405 0.486 0.656 0.502 0.487 0.440 0.414 0.468 0.466
+I9 0.380 0.418 0.411 0.417 0.420 0.469 0.355 0.411 0.779 0.474 0.431 0.344 0.502 0.511 0.420 0.441 0.650 0.463 0.430 0.447 0.491 0.460
+I10 0.455 0.542 0.490 0.477 0.458 0.487 0.406 0.453 0.513 0.778 0.513 0.422 0.517 0.505 0.466 0.506 0.545 0.682 0.512 0.479 0.546 0.537
+I11 0.457 0.489 0.411 0.521 0.478 0.428 0.323 0.420 0.487 0.474 0.766 0.434 0.422 0.461 0.401 0.449 0.496 0.491 0.559 0.386 0.451 0.459
+I12 0.369 0.458 0.433 0.400 0.482 0.521 0.366 0.508 0.512 0.485 0.403 0.770 0.470 0.417 0.400 0.474 0.528 0.566 0.426 0.662 0.498 0.396
+I13 0.440 0.479 0.480 0.518 0.513 0.506 0.451 0.533 0.503 0.529 0.447 0.497 1.000 0.488 0.418 0.500 0.513 0.527 0.419 0.513 0.770 0.454
+I14 0.413 0.541 0.459 0.418 0.462 0.414 0.378 0.444 0.472 0.496 0.493 0.446 0.496 0.774 0.367 0.442 0.526 0.488 0.483 0.468 0.466 0.650
+I15 0.508 0.506 0.444 0.546 0.490 0.565 0.502 0.547 0.574 0.441 0.488 0.553 0.528 0.665 0.642 0.439 0.498 0.528 0.536 0.421 0.391 0.611
+I16 0.507 0.544 0.472 0.482 0.428 0.449 0.446 0.483 0.516 0.471 0.427 0.482 0.478 0.504 0.468 0.628 0.309 0.497 0.474 0.350 0.557 0.549
+I17 0.534 0.521 0.464 0.426 0.480 0.488 0.479 0.477 0.464 0.466 0.492 0.547 0.495 0.231 0.589 0.291 0.633 0.478 0.319 0.565 0.451 0.380
+I18 0.526 0.537 0.485 0.457 0.479 0.525 0.555 0.472 0.500 0.428 0.506 0.461 0.412 0.207 0.640 0.530 0.503 0.565 0.475 0.470 0.552 0.355
+I19 0.509 0.475 0.401 0.437 0.447 0.498 0.477 0.427 0.447 0.421 0.463 0.548 0.575 0.266 0.582 0.530 0.470 0.441 0.626 0.470 0.451 0.413
+I20 0.488 0.424 0.478 0.527 0.409 0.473 0.499 0.529 0.504 0.451 0.461 0.546 0.590 0.609 0.393 0.573 0.614 0.581 0.532 0.632 0.438 0.542
+I21 0.414 0.470 0.420 0.472 0.415 0.445 0.408 0.476 0.394 0.488 0.448 0.492 0.512 0.605 0.429 0.299 0.562 0.589 0.557 0.586 0.775 0.594
+I22 0.494 0.464 0.452 0.450 0.453 0.467 0.466 0.502 0.457 0.395 0.485 0.436 0.488 0.517 0.547 0.534 0.479 0.468 0.498 0.461 0.499 0.636
+Table 7
+Overall total inter-relationship matrix.
+I1 I2 I3 I4 I5 I6 I7 I8 I9 I10 I11 I12 I13 I14 I15 I16 I17 I18 I19 I20 I21 I22
+I1 0.644 0.647 0.598 0.628 0.618 0.637 0.578 0.636 0.640 0.609 0.620 0.630 0.657 0.620 0.623 0.621 0.657 0.660 0.613 0.626 0.662 0.637
+I2 0.573 0.614 0.549 0.581 0.560 0.575 0.526 0.571 0.580 0.551 0.559 0.580 0.602 0.570 0.571 0.564 0.598 0.608 0.559 0.574 0.603 0.587
+I3 0.582 0.606 0.590 0.593 0.577 0.597 0.540 0.597 0.596 0.576 0.582 0.589 0.615 0.580 0.587 0.582 0.612 0.627 0.580 0.587 0.617 0.601
+I4 0.592 0.605 0.566 0.621 0.583 0.598 0.545 0.596 0.601 0.576 0.585 0.593 0.613 0.581 0.596 0.587 0.619 0.632 0.581 0.593 0.617 0.599
+I5 0.581 0.601 0.558 0.593 0.599 0.597 0.540 0.592 0.590 0.567 0.574 0.590 0.610 0.572 0.584 0.575 0.606 0.616 0.569 0.582 0.612 0.589
+I6 0.549 0.579 0.532 0.567 0.552 0.596 0.526 0.570 0.569 0.540 0.555 0.559 0.587 0.548 0.569 0.554 0.587 0.593 0.546 0.560 0.590 0.564
+I7 0.539 0.554 0.529 0.554 0.541 0.559 0.540 0.553 0.554 0.524 0.537 0.550 0.579 0.553 0.567 0.541 0.570 0.581 0.536 0.550 0.587 0.563
+I8 0.558 0.586 0.545 0.572 0.557 0.580 0.526 0.602 0.575 0.545 0.559 0.561 0.595 0.555 0.573 0.580 0.596 0.603 0.556 0.564 0.598 0.577
+I9 0.543 0.567 0.530 0.556 0.543 0.566 0.509 0.558 0.593 0.542 0.546 0.548 0.587 0.553 0.555 0.548 0.598 0.588 0.543 0.555 0.587 0.565
+I10 0.611 0.641 0.595 0.623 0.607 0.629 0.570 0.623 0.631 0.628 0.614 0.616 0.652 0.612 0.620 0.615 0.652 0.672 0.610 0.619 0.657 0.634
+I11 0.558 0.581 0.536 0.573 0.556 0.569 0.512 0.565 0.574 0.549 0.583 0.563 0.587 0.555 0.560 0.556 0.591 0.598 0.562 0.557 0.591 0.572
+I12 0.564 0.594 0.553 0.577 0.571 0.593 0.530 0.589 0.592 0.564 0.565 0.608 0.607 0.567 0.575 0.574 0.610 0.621 0.565 0.597 0.611 0.581
+I13 0.621 0.648 0.606 0.639 0.623 0.643 0.585 0.642 0.643 0.618 0.619 0.635 0.709 0.623 0.627 0.626 0.662 0.672 0.614 0.634 0.690 0.638
+I14 0.571 0.604 0.557 0.581 0.571 0.585 0.533 0.585 0.591 0.568 0.576 0.582 0.612 0.601 0.574 0.573 0.612 0.616 0.572 0.581 0.611 0.607
+I15 0.621 0.644 0.596 0.635 0.615 0.642 0.583 0.637 0.643 0.603 0.617 0.633 0.659 0.633 0.641 0.615 0.654 0.664 0.618 0.619 0.649 0.646
+I16 0.576 0.601 0.555 0.583 0.565 0.585 0.536 0.585 0.591 0.562 0.567 0.581 0.607 0.574 0.580 0.586 0.589 0.614 0.568 0.567 0.616 0.594
+I17 0.566 0.586 0.543 0.566 0.558 0.577 0.528 0.573 0.574 0.550 0.561 0.575 0.596 0.537 0.579 0.544 0.606 0.599 0.542 0.575 0.593 0.567
+I18 0.583 0.606 0.562 0.587 0.575 0.598 0.552 0.590 0.596 0.564 0.579 0.586 0.607 0.553 0.601 0.583 0.612 0.626 0.574 0.584 0.621 0.583
+I19 0.569 0.587 0.542 0.572 0.560 0.583 0.533 0.574 0.578 0.551 0.563 0.581 0.609 0.545 0.583 0.571 0.596 0.601 0.574 0.571 0.599 0.575
+I20 0.613 0.630 0.594 0.627 0.602 0.627 0.578 0.629 0.630 0.598 0.609 0.627 0.658 0.621 0.613 0.620 0.657 0.663 0.611 0.632 0.647 0.633
+I21 0.584 0.611 0.567 0.600 0.580 0.602 0.549 0.602 0.597 0.580 0.586 0.600 0.628 0.599 0.594 0.574 0.630 0.640 0.592 0.606 0.653 0.616
+I22 0.581 0.600 0.560 0.587 0.573 0.593 0.544 0.594 0.593 0.561 0.578 0.584 0.615 0.581 0.594 0.584 0.611 0.618 0.576 0.584 0.617 0.609
+F.M. Tsai et al. 
+Resources, Conservation & Recycling 167 (2021) 105421
+10
+(Singh and El-Kassar, 2019). Big data addresses capabilities to handle
+the problem of carbon emission costs by coordinating a low-carbon
+supply chain, along with identifying a firm’s financial situation by
+providing advanced technological tools for data management wherein
+datasets are aggregated in a structured manner (Liu, 2019; Raut et al.,
+2019). Therefore, the decision-making efficiency and effectiveness of
+big data must be utilized to offer competitive advantages to firms and to
+make their supply chain resilient as it approaches SSCM performance.
+Failures still exist due to a lack of big data assessment infrastructure
+and understanding, and other data utilization and implementation issues related to supply chains (Moktadir et al., 2019a). Traditional big
+data collection, retrieval and evaluation methods are no longer appropriate for the current challenges and opportunities of SSCM and business
+operations, though they have the potential to renovate business and
+guarantee organizational response implementation (Hampton et al.,
+2013; Papadopoulos et al., 2017; Seles et al., 2018;). In SCM, firms are
+challenged by insufficient resources, time-consuming behavioral issues,
+return on investment and financial problems, and privacy-security
+anxieties (Arunachalam et al., 2018). Despite the enormous scope of
+big data, very few attempts have been made to develop big data applications in SSCM. The fundamental competencies, capabilities, internal
+mechanisms and processes through which big data formulation may
+result in better performance strategies have not yet been fully investigated (Singh and El-Kassar, 2019). Most supply chain resolutions have
+yet to integrate big data features into the decision-making process
+despite the enormous amount of data generated for both the supplier
+and buyer sides (Kaur and Singh, 2018). Hence, there is a substantial
+need to jointly consider big data in SSCM. Because big data are essential
+in highly uncertain and competitive marketplaces, there is much room
+for further development and investigation.
+5.1. 2. Closed-loop supply chain
+Closed-loop supply chains (CLSCs) are studied and implemented
+because they play a substantial role by taking advantage of recyclable
+resources and inhibiting waste inflows into the environment (Wang et al.,
+2018). CLSCs include two fundamental phases: the forward and reverse
+supply chains (Amin and Zhang, 2012). The forward chain refers to the
+flow of new products that are delivered from manufacturers to consumers, while the reverse chain is described as the return flow of used,
+defective, and open box products collected from consumers and transferred to manufacturers or recycling centers (Assarzadegan and Rasti-Barzoki, 2019; Das and Dutta, 2016; Fathollahi-Fard and HajiaghaeiKeshteli, 2018). The practices include identifying product waste, collecting, separating, packing, storing, recalling, transferring, distributing
+and recovering value (Mohtashami et al., 2020). The aim is to optimize
+the product used throughout its entire life cycle by incorporating reverse
+logistics as a preliminary advanced supply chain from purchase to final
+sale for used product recovery (Guide and Van Wassenhove, 2009).
+Hence, an efficient CLSC design may result in reducing the environmental
+impact in addition to meeting economic and social goals.
+The CLSC is essential to creating supplementary logistics infrastructure in terms of synchronizing a robust return supply chain involving
+steps such as sorting, remanufacturing and allocating to disposal centers
+(Darbari et al., 2019). Previous studies have addressed different issues
+related to CLSCs, such as network design, production planning, and inventory management. Two-level reverse logistics were compared between online recycling and traditional recycling to investigate CLSC
+design and coordination (Feng et al., 2017). A risk and disruption
+handling model for the CLSC was proposed to minimize costs while
+identifying facility distribution and quantities for transportation (Jabbarzadeh et al., 2018). A decision model for service, pricing, and
+third-party recycling in three distinct remanufacturing positions and
+authorized technology was developed (Zhao et al., 2019). Multiproduct
+circular supplier selection decision-making and order allocation were
+assessed considering multiple depots and green routing capacity using
+Table
+heterogeneous vehicles (K. Govindan et al., 2020). Closed-loop optimal
+8
+Causal inter-relationship among indicators.
+Asia and Oceania Europe Latin America and Caribbean North America Africa Overall
+α β (α + β) (α − β) α β (α + β) (α − β) α β (α + β) (α − β) α β (α + β) (α − β) α β (α + β) (α − β) α β (α + β) (α − β)
+I1 10.053 8.748 18.801 1.305 8.744 8.033 16.777 0.711 13.355 13.733 27.087 (0.378) 7.137 6.366 13.503 0.771 6.198 5.741 11.939 0.457 13.861 12.780 26.641 1.082
+I2 9.422 9.938 19.361 (0.516) 8.163 8.712 16.875 (0.550) 13.651 14.795 28.446 (1.143) 5.973 6.081 12.054 (0.108) 5.333 5.476 10.809 (0.143) 12.656 13.292 25.948 (0.637)
+I3 9.330 8.410 17.740 0.919 8.979 8.087 17.066 0.892 13.627 13.562 27.189 0.065 6.135 6.012 12.147 0.123 5.436 5.382 10.818 0.053 13.011 12.362 25.373 0.649
+I4 9.213 9.677 18.889 (0.464) 8.970 8.671 17.641 0.299 13.617 14.031 27.648 (0.414) 6.792 6.015 12.807 0.777 5.066 5.382 10.448 (0.316) 13.077 13.014 26.091 0.063
+I5 8.427 9.479 17.906 (1.052) 8.502 8.394 16.896 0.108 12.987 13.417 26.404 (0.430) 6.217 6.224 12.441 (0.007) 6.280 5.075 11.355 1.205 12.895 12.687 25.582 0.209
+I6 9.207 9.742 18.949 (0.535) 8.261 8.470 16.730 (0.209) 13.423 14.012 27.435 (0.589) 5.608 6.235 11.842 (0.627) 5.251 5.583 10.835 (0.332) 12.391 13.133 25.525 (0.742)
+I7 8.462 9.147 17.609 (0.684) 7.691 8.133 15.824 (0.443) 13.639 12.597 26.236 1.042 5.816 5.448 11.264 0.368 5.343 4.868 10.211 0.475 12.161 11.962 24.123 0.199
+I8 9.112 9.001 18.112 0.111 8.119 8.547 16.667 (0.428) 13.072 14.009 27.080 (0.937) 6.194 6.376 12.571 (0.182) 5.397 5.712 11.109 (0.315) 12.561 13.062 25.623 (0.501)
+I9 9.248 9.297 18.545 (0.049) 8.924 8.808 17.732 0.115 13.646 13.298 26.944 0.348 5.419 6.242 11.662 (0.823) 4.553 5.898 10.450 (1.345) 12.281 13.131 25.412 (0.850)
+I10 10.253 8.459 18.711 1.794 9.016 8.530 17.546 0.486 14.497 13.697 28.193 0.800 7.011 5.482 12.494 1.529 5.296 5.807 11.104 (0.511) 13.730 12.526 26.257 1.204
+I11 9.246 9.726 18.972 (0.480) 8.450 8.242 16.692 0.209 12.557 13.368 25.924 (0.811) 5.664 6.319 11.983 (0.655) 5.499 5.059 10.558 0.440 12.449 12.734 25.183 (0.285)
+I12 9.332 9.414 18.746 (0.083) 8.107 7.941 16.048 0.166 14.120 13.182 27.302 0.938 6.068 6.215 12.284 (0.147) 5.495 6.149 11.644 (0.654) 12.807 12.970 25.777 (0.163)
+I13 10.305 9.769 20.074 0.536 9.603 9.330 18.933 0.274 14.750 13.556 28.306 1.193 5.900 6.250 12.150 (0.350) 6.345 6.105 12.450 0.239 14.018 13.591 27.608 0.427
+I14 9.824 8.586 18.410 1.237 8.632 8.435 17.067 0.197 13.902 12.879 26.782 1.023 6.098 6.417 12.516 (0.319) 4.964 5.733 10.698 (0.769) 12.863 12.734 25.597 0.129
+I15 9.939 9.740 19.680 0.199 9.117 8.834 17.951 0.283 14.787 14.233 29.020 0.554 6.854 5.619 12.474 1.235 5.747 5.404 11.151 0.342 13.868 12.965 26.833 0.903
+I16 8.845 9.429 18.275 (0.584) 8.683 8.161 16.844 0.521 13.670 14.046 27.716 (0.376) 6.007 6.195 12.203 (0.188) 5.586 5.242 10.828 0.344 12.782 12.775 25.558 0.007
+I17 8.478 9.738 18.216 (1.260) 7.872 9.064 16.936 (1.192) 14.312 13.905 28.218 0.407 5.671 6.663 12.334 (0.992) 5.795 5.674 11.470 0.121 12.496 13.526 26.022 (1.030)
+I18 8.567 9.951 18.518 (1.384) 8.082 9.226 17.308 (1.144) 14.445 15.223 29.667 (0.778) 6.261 5.864 12.125 0.396 5.966 6.024 11.990 (0.058) 12.922 13.712 26.634 (0.790)
+I19 9.288 9.355 18.643 (0.066) 8.204 8.017 16.221 0.187 13.421 13.685 27.106 (0.264) 5.766 6.066 11.832 (0.301) 5.575 5.398 10.973 0.177 12.617 12.662 25.279 (0.045)
+I20 9.691 9.316 19.007 0.375 8.465 8.072 16.537 0.393 14.195 13.960 28.155 0.234 6.475 6.266 12.741 0.209 6.604 5.638 12.242 0.965 13.719 12.918 26.637 0.802
+I21 9.173 9.288 18.461 (0.115) 8.814 9.222 18.036 (0.407) 13.434 13.736 27.170 (0.302) 6.109 6.404 12.513 (0.294) 6.150 6.359 12.509 (0.209) 13.192 13.627 26.819 (0.434)
+I22 9.351 8.557 17.908 0.794 8.852 9.321 18.173 (0.469) 13.672 13.854 27.527 (0.182) 6.127 6.542 12.669 (0.415) 5.333 5.501 10.834 (0.168) 12.938 13.134 26.072 (0.196)
+Average 18.615 17.114 27.525 12.300 11.201 25.936
+F.M. Tsai et al. 
+Resources, Conservation & Recycling 167 (2021) 105421
+11
+operational planning of supply chains with rapid product quality dynamics was studied, with byproduct quality dynamics and environmental
+conditions explicitly considered (Lejarza and Baldea, 2020).
+Although the CLSC has been positively assessed, as it recovers
+returned products’ value, ensures that environmental standards are
+upheld and enhances customer rights, few studies have developed
+quantitative approaches to adopting a holistic perspective of sustainability (Heydari et al., 2017). Most attention has been directed toward
+economic perspectives, though considerations have been given to
+capability positioning decisions and multiple stakeholders themselves
+(Sahebjamnia et al., 2018). Few scholars have sought to design sustainable networks to solve such problems because of the uncertainty and
+low demand for remanufactured products (Bouzon et al., 2018; Govindan and Bouzon, 2018; Chouman et al., 2018). In addition, managerial
+measures, extended manufacturer responsibility systems, regulatory
+guidance for intellectual property protection, technical and quality
+standards for recycling systems, and social issues such as consumers’
+awareness and quality concerns regarding remanufactured products are
+still under investigation (Rahmaniani et al., 2018; Shi et al., 2019).
+Because CLSCs are highly important due to their direct impact on political, economic, and environmental problems, accurate and efficient
+solutions are required.
+5.1.3. Industry 4.0
+The concept of industry 4.0 is founded on three principal elements:
+cyber-physical systems, the internet of things, and smart factories (Hofmann and Rusch, 2017; Tseng et al., 2018b). Industrial evolution is reflected in smart production or integrated manufacturing capabilities,
+which affect the entire industry in terms of product design,
+manufacturing and transportation (Hofmann and Rüsch, 2017). Industry
+4.0 provides more efficient solutions for monitoring the production system and transforming the manufacturing industry scenario by changing
+supply chain processes, changing business activities and integrating
+sustainability to enhance the flexibility of supply chain operations
+(Bechtsis et al., 2017; de Sousa Jabbour et al., 2018). Industry 4.0 is
+recognized as a future development in SSCM, with prearranged interrelationships among materials, equipment, and products and sufficient consumer demand in a dynamic situation. Industry 4.0 represents
+the application of a mixture of digital technology and intelligence to
+interlocking supply chain networks and enables product customization
+(Lasi et al., 2014). It can be applied to production lines and can advance a
+total cyber-corporal system of equipment, machines, and smart infrastructure to achieve superior data interchange and mechanisms using
+appropriate information technology safety solutions, product maintenance and human skills through professional skill sets and shared information among supply chain partners (Branke et al., 2016).
+Industry 4.0 considerably changes the approach to SCM (Tjahjono
+et al., 2017). Its applications beyond a sustainability orientation
+encompass environmental protection and mechanical advantages as
+well as advanced safety issues, resource efficiency, human resources,
+communication, and smarter and flexible measurement in the supply
+chain (Luthra and Mangla, 2018). Rajput and Singh (2019) found a
+hidden relationship between the circular economy and industry 4.0 from
+the two sides of enablers and barriers in the supply chain context. Singh
+et al. (2019) approached SSCM development through the enhancement
+of resource utilization and proficiency along with the improvement of
+the supply chain functions of automated procurement, production, and
+delivery. There are four significant SSCM paradigms, agile, green, lean,
+and resilient, to industry 4.0 machines to increase supply chain performance and sustainability (Ramirez-Pena ˜ et al., 2019). Different aspects
+Fig. 2. Causal inter-relationship of indicators among regions.
+F.M. Tsai et al. 
+Resources, Conservation & Recycling 167 (2021) 105421
+12
+of embedded sustainable supply chains and formulated an outline for
+evaluating organizational readiness to meet the requirements of the
+industry 4.0 revolution (Manavalan and Jayakrishna, 2019). An intelligent sustainable supplier selection using multiagent technology for
+industry 4.0 supply chains to offer advanced communication networks,
+information exchange structures and transparency among supply chain
+partners (Ghadimi et al., 2019). Organizational supply chains and sustainability are now forced to adopt industry 4.0 modern technological
+improvements and promote innovation. These advances provide vast
+opportunities for industry 4.0 supply chain intelligence and autonomy,
+creating a critical role for these features in terms of sustainability
+development (Kamble et al., 2018).
+The concept requires in-depth understanding and empirical practice
+(Hofmann and Rüsch, 2017). Although the exploratory use of industry
+4.0 to identify sustainability in the supply chain has gained considerable
+attention, it may not yet be fully recognized. Academic and managerial
+implications are limited and still at an early stage of development
+(Tseng et al., 2018b). Little effort has been made to incorporate sustainability issues, and the sustainability TBL dimensions (environmental, social, and economic) still lack integration within SSCM for an
+extended industry 4.0 (Ghadimi et al., 2016, 2019; Wang et al., 2019).
+Coordination and collaboration problems, security concerns, a lack of
+governmental support and policies, and the absence of sufficient
+financial resources to make investments may make it challenging for
+small-scale industries to implement industry 4.0 (Govindan and Hasanagic, 2018; Pfohl et al., 2017; Manavalan and Jayakrishna, 2019).
+Additionally, industry 4.0 is difficult to integrate with SSCM due to data
+quality and credibility problems, unemployment, complexity, reduced
+human control, and higher negative environmental impacts. Problems
+with a lack of technological innovation; strategic, ethical, and global
+policy; the management of supply chain disruptions; facilities planning;
+and the development of international manufacturing networks remain
+unsolved (Branke et al., 2016; Pereira et al., 2017; Singh et al., 2019).
+Hence, further studies are needed to address such issues based on the
+value of smart industry.
+5.1.4. Supply chain policy
+The supply chain is a complicated phenomenon and flexible system
+affected not only by technical upheaval but also by dynamic and uncertain
+factors, for example, sociocultural and geopolitical issues such as export
+bans, unpredictable markets, and environmental regulations (Mancheri
+et al., 2019). The influence of regulatory legislation on the formation of
+the SSCM is one of the key tactical elements requiring focused attention
+(Manavalan and Jayakrishna, 2019). Supply chain policy endorsements
+aim to control the effects of location, production, inventory and the
+disposal of products and create a trade-off between transportation,
+holding costs and profit (Waltho et al., 2018). Supply chain policy is
+considered to encourage remanufacturing and improved resource efficiency (Zhang et al., 2019a). The policy generally plays an important role
+in modifying the sustainable development of the whole supply chain,
+being integrated as a decision-maker to maximize sustainable benefits
+rather than as a measured constraint on firm profit functions in the effort
+to synchronize supply chain operations (Liu et al., 2019b).
+An increasing number of researchers have turned their attention to
+this area of study, as policies have begun to impact SSCM. The influence
+of government taxes and policy related to environmental protection on
+the optimum assessment of the supply chain considering government
+financial involvement has been analyzed (Hafezalkotob, 2015; Hafezalkotob et al., 2016). The effect of three types of government policies on
+two rival supply chain decision-making processes is under either
+decentralization or centralization (Zhang and Wang, 2017). Different
+environmental tax policies in a multi-tiered supply chain network rivalry under stable governing circumstances were captured (Yu and
+Cruz, 2018). A sustainable supply chain optimization system considering lead time in different production-distribution and inventory scenarios was proposed, with three carbon emission policies: strict carbon
+capping, carbon cap and trade, and a carbon tax (Manupati et al., 2019).
+The influence of critical success factors on the development of
+energy-efficient supply chains and their energy policy implications were
+presented (Moktadir et al., 2019b). A trade credit policy that enriches
+SSCM under green manufacturing optimization and payment records
+(Tiwari et al., 2018). The impacts of transfer pricing policies and subsidy
+policies on CLSCs with retailer and third-party dual collection channels
+have been analyzed (Wan and Hong, 2019). The optimal inspection
+policy for customers to encourage responsible sourcing efforts and the
+relationship of this mechanism to customer awareness was investigated
+in the context of the supply chain (Zarei et al., 2020).
+Nevertheless, the appropriate policy and legislative framework to
+regulate supply chain actors in the direction of sustainable goals has
+presented a constant challenge. It was found that some national legislation does not satisfy the objective of environmental protection and
+violates international policy (Gavin, 2013; Mancheri, 2015; Mancheri
+et al., 2019). Advancements in carbon emission standards due to rapid
+industrialization require SCM assessment to avoid compromising social
+responsibility, environmental performance, and economic mechanisms
+(Babazadeh et al., 2017; Samadi et al., 2018). Globalization policies
+have eliminated restrictions on market boundaries, making it hard for
+small and medium-sized firms to compete with large global organizations, as small firms are incapable of adapting advanced technologies to
+process new types of materials or of effectively utilizing resources and
+reducing energy consumption (Thomas and Trentesaux, 2014).
+Although many countries and geographical regions are employing
+standard environmental mechanisms, including incentives or mandatory targets for firms to reduce their environmental impacts, the advocated interventions still address internal problems in SSCM, such as
+illegal production, transaction and processing; lack of innovation;
+congestion; and poor legal and regulatory systems (Yu and Cruz, 2018;
+Zhang and Yousaf, 2019). In developing regions, inadequate laws and
+regulations result in serious social problems, such as manufacturing
+using child labor, unsustainable performance, and unsanctioned activities, which arise in the early stages of the supply chain (Awaysheh and
+Klassen, 2010; Silvestre, 2015; Jia et al., 2020). Hence, there are opportunities in the optimization of the number of manufacturers and
+stowage to integrate sustainability elements, improve supply chain
+network allocation, and enhance capacity in supply chain facilities and
+infrastructure, and other solutions present themselves in supplier selection and remanufacturing regulatory systems. The lack of study in
+this direction hinders the transition to SSCM for both policy makers and
+their initial stakeholders.
+5.1.5. Remanufacturing
+Remanufacturing is defined as a multi-processes that transforms endof-use products by recovering, checking, disassembling, polishing,
+renovating, and reassembling to produce a “like-new” product (Govindan et al., 2016; Kafuku et al., 2016). The processes consist of raw
+material acquisition, reverse delivery, manufacturing procedures, and
+distribution operations, which ultimately offer large reductions in
+resource and energy consumption and waste emissions, increased care
+for the environment, and support for sustainable development (Jiang
+et al., 2019). Remanufacturing is emphasized as an urgent innovation
+strategy to slow resource circles. It calls for the integration of design and
+business system innovations supporting new forms of collaboration,
+including multiple transactions between suppliers and manufacturers
+and among manufacturers and buyers and consumers, to comprehend
+and apply new circular business models combined with new product
+design considerations (Opresnik and Taisch, 2015). Hence, benefits from
+remanufacturing implementation could be realized by all business firms,
+their consumers, the environment, society, and several third parties
+(Ansari et al., 2019).
+Remanufacturing is an emergent but rapidly developing sector that
+slows environmental degradation and resource diminution through
+material reuse and recycling to meet the sustainable goals of SCM (Zhang
+F.M. Tsai et al. 
+Resources, Conservation & Recycling 167 (2021) 105421
+13
+et al., 2011; Subramoniam et al., 2013; Liu et al., 2017). Case studies in
+four remanufacturing organizations were conducted to study the influence of implementing lean practices on reducing needless processes and
+decreasing lead time, thus improving the organizations’ operational
+performance (Kurilova-Palisaitiene et al., 2018). A remanufacturing
+process that adopts adaptive design was proposed to classify the factors
+that influence environmental and economic performance (Krystofik
+et al., 2018). The prioritized performance outcomes obtained via
+implementing critical success factors in supply chain remanufacturing
+were investigated (Ansari et al., 2019). Recycling and remanufacturing
+approaches in the supply chain were explored through the heterogeneous
+considerations of consumers (Long et al., 2019). An integrated perspective for determining sustainable value creation was investigated in the
+context of remanufacturing models (Jensen et al., 2019). A supply chain
+consisting of a manufacturer and retailer was assessed in terms of managing a CLSC with process innovation for remanufacturing (Reimann
+et al., 2019). The trade-offs related to cap-and-trade and carbon taxes
+were analyzed based on a CLSC model (Hu et al., 2020). Integrating
+remanufacturing into the supply chain is a critical strategy that positively
+encourages sustainable organizational performance.
+Although remanufacturing is one of the economic and environmental
+factors that has received considerable attention, the literature mostly
+focuses on technology and management, and relatively few studies have
+evaluated sustainability (Taleizadeh et al., 2017, 2019; Zerang et al.,
+2018; Shaharudin et al., 2019b). Ensuring the evaluation of remanufacturing sustainability would be helpful for generating insights into
+resource utilization and environmental safety and should be prioritized
+by researchers (Zhang et al., 2019b). Gaps remain in the TBL indicator
+measurements (Jensen et al., 2019). To date, previous studies have only
+scratched the surface and are limited to exploring each single indicator,
+and the full picture of the social, environmental and economic problems
+of remanufacturing has not been fully recognized as an integral part of
+SSCM (Souza, 2013; Reimann et al., 2019). While the fact that economic
+concerns are positioned at the forefront of remanufacturing is widely
+acknowledged, there is little awareness of the possibility of improving
+remanufacturability to support environmental protection and benefit
+social wellbeing.
+There is still immense recklessness due to the inadequate study and
+expansion of remanufacturing systems. In reality, the reselling and
+remarketing of remanufactured products is challenging because consumers may have few incentives to purchase remanufactured products
+(Xu et al., 2017). Only a few studies integrate both collaboration and
+competition into remanufacturing optimization systems, which would
+adjust the functional level and organizational strategies (Rau et al.,
+2019). The manufacturer may distrust third-party remanufacturers or
+retailers due to their limited production scope or brand issues while
+charging them an inconstant or stationary rate (Zhao et al., 2019). Many
+studies do not consider multilevel construction or discrete changes in
+value parameters such as pricing or demand patterns, even though these
+may have long-term negative influences (Hong et al., 2017). Further
+investigation of remanufacturing supply chain behavior is urgent and
+requires more attention. In addition, the lack of laws and policies, the
+evaluation of waste product remanufacturability, energy conservation
+problems, comparisons of different remanufacturing systems, how to
+ensure that the quality of new and remanufactured products is the same,
+and technology licenses have been discussed (Taleizadeh et al., 2019;
+Zhang et al., 2019b). Remanufacturing studies have several shortcomings and are still far from fulfilling the needs of the current context.
+5.1.6. Supply chain network design
+SCND plays a major role in manipulating supply chain operations
+(Waltho et al., 2018). The concept refers to constructing an effective
+network for different supply chain entities (Farahani et al., 2014). It
+represents the facility location problem, and SCM encompasses facility
+location determination, magnitude, network capabilities and the material flow among the located facilities (Pishvaee and Razmi, 2012). In
+designing a sustainable supply chain, SCND attempts to delineate the
+best supply chain alignment to maximize economic profitability, environmental performance, and social performance in the long term
+(Chaabane et al., 2012). Considering all parts of the system together and
+inspecting the product flow and information effects through the network
+are essential to making a supply chain ready for operation (Rodger,
+2014). Because the supply chain network is a set of people, activities,
+and information that interact to convert raw material into useful products and deliver them to the end customer, the SCND covers decisions
+regarding supplier selection, transportation, production technology,
+storage capacity, and market demand allocation (Moreno-Camacho
+et al., 2019). Integration creates more complex problems for the supply
+chain, with multiple conflicts and contradictory intent in multidimensional decision making (Sherafati et al., 2019).
+Recent studies have considered SCND perspectives. An optimization
+model for SCDN was developed that accounted for financial resources
+such as trade credit and bank credit (Alavi and Jabbarzadeh, 2018). The
+SCND problem with the assembly balancing process was analyzed
+considering a three-layer supply chain including manufacturers, assemblers, and customers that could be decomposed into an upper-level
+problem and two lower-level problems (Sun and Wang, 2019). A bilevel
+programming model for hierarchized SCND that thoroughly considers
+inducements to use cleaner technologies was presented (Chalmardi and
+Camacho-Vallejo, 2019). Three pillars of sustainability were considered
+and discussed to design a supply chain network that maximizes turnover
+while seizing opportunities for social development in less developed regions as a priority (Sherafati et al., 2019). An optimal multi-objective
+multiproduct supply chain network was designed for efficient and
+optimal product quantity plans (Mohammed and Duffuaa, 2020).
+These studies have only considered regional development and
+concentrated on balancing economic development. Environmental objectives such as pollutant emissions play a significant role but have been
+ignored in network design problems (Zohal and Soleimani, 2016). The
+innovative design and planning of supply chain networks needs to give
+more consideration to all TBL dimensions due to the global sustainable
+development trend. There should be further investigation into the
+optimal solution for SCND entities. Increasing competitiveness, a global
+market and a dynamic environment are required to meet customers’
+demand while minimizing costs (Sherafati et al., 2019). This sequence
+has a substantial effect on society and the environment (Manupati,
+2019). The uncertainty in SCND could be an interesting topic for future
+studies. Few studies have developed strong simulations for resolving
+multi-objective SCND, and reverse logistics and closed-loop supply
+chain networks are significant issues (Mohammed and Duffuaa, 2020).
+The development of a model considering facility disruptions will also
+further SCND. Hence, proposals for sustainable SCND should still be
+pursued and need to be improved as a future trend in SSCM research.
+5.2. Regional implications
+The results show that Latin America and the Caribbean and Africa are
+two regions that need to improve their SSCM performance. These regions also show different trends than the other regions. In particular,
+Latin America and the Caribbean should focus more on risk management, industry 4.0, policy, remanufacturing, and SCND, while Africa
+shows concerning patterns related to eco-efficiency and risk management, in addition to the other common trends.
+5.2.1. Latin America and the Caribbean
+Supply chains involve complex environmental and social elements
+aligned with varied participant prospects that aggravate risk-related
+sustainability (Rebs et al., 2018). Firms refuse to change their goods
+to satisfy regulations, bribe government agencies to fake inspection
+documents to gain legitimacy, and lack operational transparency
+(Azmat and Ha, 2013). Suppliers cheat their customers by buying guarantees through certification labels from third-party auditors without
+F.M. Tsai et al. 
+Resources, Conservation & Recycling 167 (2021) 105421
+14
+satisfying the practical requirements (Jia et al., 2018). Purchasers
+continue to buy products produced with child labor or that causes
+environmental pollution due to their low price without calling for
+responsible practices (Otanez and Glantz, 2011). There is acquiescence
+to crises and imitation among supply chain stakeholders, certification
+providers and the government (Silvestre, 2015), implying that SSCM
+may expose a high level of risk that corrupts network performance. The
+perceived impacts and effects from the risks that actually exist may
+cause serious damage to SCs (Soni and Kodali, 2013). Nevertheless, the
+region is a fast-growing market; poor infrastructure, booming urbanization, expensive and inefficient logistics, and many social issues
+continue to cause major problems, as noted by both practitioners and
+scholars (Yoshizaki et al., 2018). Therefore, future studies should invest
+in offering better support for the risk management decision-making
+process in Latin America and the Caribbean region.
+Risk management entails supply chain responses that counteract
+vulnerabilities by choosing the most appropriate risk response solution
+and planning how that solution should be applied (Manuj et al., 2014;
+Sahebjamnia et al., 2018). The main practice is to ensure the capability
+to prevent the unnecessary disruption of barriers, which represents a
+disadvantage for environmental performance due to the negative impact
+of supply chain activities on resource consumption (Carvalho and
+Cruz-Machado, 2011). The type of response chosen by decision makers
+is affected by the risk consequences (Heckmann et al., 2015). In fact,
+uncertainty drives firms to move from an effective approach to integrated efficient solutions where efficiency is only important when it
+ensures an adequate level of SCM to address unpredicted events. The
+increasing market volatility in the region, as well as the increasing
+fluctuation of demand and risk of supply disruption lead to a push for
+more agile, less expensive and more flexible supply chain design due to
+natural disasters or human activity.
+Supply chain risk management practices could impact environmental
+performance, but studies do not investigate further whether this impact is
+positive or negative (Govindan et al., 2014). More elaboration of the
+complex challenges associated with SSCM methods is needed, given that
+the multidimensional sustainable viewpoints proposed by SSCM bring
+together a set of goals and agendas that include a potential risk of conflict
+between organizations and insiders (Bastas and Liyanage, 2018). This
+requires firms to standardize and replicate their virtual supply chain
+process as globalization advances. Risk identification, assessment,
+management, monitoring, control, and communication and the development of simulation models and optimization technology combined
+with efficient SCND models represent potential gaps for further exploration (Oliveira et al., 2019). The Latin America and Caribbean supply
+chain sector now has great potential to invest in not only practical
+implementation but also academic development with the aggregate of
+countries having high production capabilities and global interaction.
+5.2.2. Africa
+Africa holds a small market share in the global supply chain network
+but has high potential to reduce the risk for new entrants, as
+manufacturing is expected to expand widely due to active investment
+from India and China. The region faces complex elements that have
+permanently changed the supply chain environment. This context requires strong analytical ability, a holistic competitive model design, and
+significant improvement in decision-making ability to meet the market
+demand or even the global standard. Only a few countries can achieve
+the distinct capability to develop economic development-based, ongoing
+innovation and the technology associated with low-cost labor. Poor
+supply chain infrastructure and facilities, a lack of training and education, a large knowledge gap, energy consumption problems, a lack of
+leadership, payment delays on initial investments, an unequal structure
+and high management risks are issues that remain unsolved (Moktadir
+et al., 2019b). The integration of multidimensional assessments into
+SCM will result in more balanced, comprehensive and efficient SSCM
+implementation, thereby minimizing the risk by prioritizing certain aspects over others (Bastas and Liyanage, 2018). In addition,
+eco-efficiency is also a critical challenge that the region must tackle to
+improve its SSCM. Eco-efficiency refers to a quantitative management
+solution that enables a product system to balance resource use through
+the adoption of a more sustainable concept while still bringing profit to
+stakeholders (Vasquez ´ et al., 2019). Sustainability concerns have highlighted the significant role of eco-efficient supply chain identification in
+balancing social, environmental, and economic objectives (Jonkman
+et al., 2019). The solution quantifies the operating costs associated with
+reducing environmental impacts without changing consumption and
+resource productivity, which is calculated as the value or produced
+quantity divided by the natural resources required for production of the
+product (Kulak et al., 2016).
+Experiential and reliable data are not sufficient to develop more ecoefficient modes in Africa. As national and local data are difficult to
+collect, the impact of uncertainty on the TBL and other eco-efficient
+solutions must be quantified through measurement. Nevertheless,
+most studies in this region assume all data to be deterministic, and uncertainty is rarely taken into account when presenting decision support
+models for eco-efficient supply chains (Banasik et al., 2019), which
+presents challenges for further investigation. There are limitations, and
+research gaps have been identified. The conceptual framework between
+“efficiency” and “eco-efficiency” in theoretical, practical and empirical
+studies is not clearly addressed (Huang et al., 2018). Procurement and
+infrastructure activities are not precise and do not clearly define how
+they meet sustainable development targets, and a lack of sound legislation and policy frameworks hinders SSCM implementation (Vasquez ´
+et al., 2019). Operational barriers; a lack of administration commitment,
+financial costs and constraints; environmental sustainability problems;
+poorly integrated monitoring information and traceability systems; poor
+multitier suppliers; low consumer awareness and demand; and inadequate provision and leadership from industry alliances, NGOs and
+development agencies still need to be addressed (Agyemang et al., 2018;
+Jov´e-Llopis and Segarra-Blasco, 2018).
+Concluding remarks
+SSCM has grown rapidly in recent decades and has received much
+attention from both scholars and practitioners. Although different aspects of the literature and its evolution have been summarized, previous
+studies have evaluated different parts of the supply chain as independent
+entities. An integrated assessment is still missing in the extant literature,
+making it necessary to reveal potential directions for future studies.
+Hence, this study proposed a hybrid method integrating data-driven
+analysis, the FDM, the EWM, and the FDEMATEL to (1) identify the
+critical indicators for future study trends and debate and (2) determine
+the challenges and knowledge gaps among geographical regions.
+Quantitative and qualitative approaches are proposed to complement
+the systematic review and address the challenges of uncertainty and
+complexity in SSCM. The data-driven analysis applied the VOSviewer
+and identified the SSCM indicators based on big data from Scopus, with
+the results represented as visualized information. The FDM is used to
+refine the valid indicators by computing their perception levels from
+experts’ linguistic references. The EWM is applied to convert the indicator occurrence information into comparable weights to determine the
+indicator performance among regions. The FDEMATEL method is used
+to capture the perceptions through linguistic preferences and identify
+the substantial indicators that should be urgently addressed in future
+F.M. Tsai et al. 
+Resources, Conservation & Recycling 167 (2021) 105421
+15
+work to improve SSCM. This study contributes to detecting critical indicators as gaps to provide knowledge that assists further studies and
+practical implementations.
+• A data-driven analysis is delivered to determine the critical indicators as gaps for future studies. There are 251 keywords listed,
+and 21 indicators are of critical concerns based on the experts’
+evaluation. The most important indicators are chosen as essential for
+future research and include big data, closed-loop supply chain, industry 4.0, policy, remanufacturing, and SCND.
+• A prioritization of exploration opportunities is proposed. Since supply chain systems are large and complex, integrating and considering
+the effect of the flow of products, services, and information through
+the network are important to operational management (Mohammed
+et al., 2020). The relationship between the trends and challenges is
+also worth investigating in future studies.
+• The identified gaps between geographical regions not only
+contribute local viewpoints but also delineate the comprehensive
+global state of the art of SSCM. Ninety-two countries/territories were
+accumulated and then rearranged to provide results for 5 regions:
+Asia and Oceania, Europe, North America, Africa, Latin America and
+the Caribbean. The results showed that the largest amount of SSCM
+information is provided for Asia and Oceania, followed by Europe
+and North America. Latin America and the Caribbean and Africa
+show a need for improvement. Latin America and the Caribbean
+should focus more on risk management, while Africa shows a distinct
+pattern of concern regarding eco-efficiency and risk management, in
+addition to other common trends.
+• SSCM actors can treat this study as a reference source for decision
+making. Firms, governments and professionals can refer to this study
+for useful information supporting practical design, policy strategies
+and perceived planning based on regional insights to endorse innovative accomplishments.
+Some limitations exist in this study. The data-driven analysis may not
+be sufficiently detailed to initiate quality assessment because Scopus
+also includes low-impact sources and is limited to the most recent information (Shukla et al., 2019). A future study is proposed that engages
+a more refined database for better results. Third, the expert committee
+consisted of only 30 members, which may result in biases in the analysis
+process due to their experience, knowledge, and familiarity with the
+research field. Increasing the volume of respondents is recommended to
+avoid this problem. As this study offers an exhaustive method for
+data-driven analysis, both academic and practical investigations are
+encouraged to exploit it in other sectors.
+Credit author statement
+Conceptualization; Data curation; Formal analysis; Funding acquisition; Investigation; Methodology; Project administration; Resources;
+Software; Supervision; Validation; Visualization; Roles/Writing - original draft; Writing - review & editing
+Declaration of Competing Interest
+This study is free of Conflict of interests
+Appendix A
+Table. A.1
+Table. A.1
+Respondents’ demographic.
+Expert Position Education levels Years of experience Organization type (academia/practice) Regional location
+1 Professor Ph.D. 10 Academia Asia and Oceania
+2 Professor Ph.D. 13 Academia Asia and Oceania
+3 Professor Ph.D. 12 Academia North America
+4 Distinguished Professor pH. D 12 Academia Asia and Oceania
+5 Professor Ph.D. 11 Academia Europe
+6 Professor Ph.D. 10 Academia Europe
+7 Professor Ph.D. 15 Academia North America
+8 Professor Ph.D. 11 Academia Europe
+9 Professor Ph.D. 17 Academia Asia and Oceania
+10 Professor Ph.D. 11 Academia North America
+11 Professor Ph.D. 10 Academia Europe
+12 Professor Ph.D. 16 Academia Latin America and Caribbean
+13 Professor Ph.D. 14 Academia North America
+14 Distinguished Professor Ph.D. 10 Academia Africa
+15 Researcher & Section Chief (Professor) Ph.D. 13 NGOs (Research center) Asia and Oceania
+16 Researcher & Section Chief (Professor) Ph.D. 15 NGOs (Research center) Europe
+17 Researcher & Section Chief Ph.D. 12 NGOs (Research center) Africa
+18 Researcher Master 11 NGOs (Research center) Latin America and Caribbean
+19 Researcher Master 11 NGOs (Research center) Asia and Oceania
+23 Chief supply chain Officer Ph.D. 10 Practices Asia and Oceania
+21 Chief Operating Officer Ph.D. 10 Practices Latin America and Caribbean
+22 Information Officer Ph.D. 11 Practices Africa
+20 Financial Officer Master 13 Practices Asia and Oceania
+24 Financial Officer Master 14 Practices Europe
+25 Operating Officer Master 10 Practices North America
+26 Executive manager Master 11 Practices Asia and Oceania
+27 Supply chain manager Master 14 Practices Europe
+28 Project manager Master 10 Practices Latin America and Caribbean
+29 Supply chain manager Master 10 Practices Europe
+30 Executive manager Master 15 Practices Asia and Oceania
+The expert committee was approach thanks to the connections of Institute of Innovation and Circular Economy, Asia University, Taiwan.
+F.M. Tsai et al. 
+Resources, Conservation & Recycling 167 (2021) 105421
+16
+Appendix B
+Table. B.1
+Appendix C
+Table. C.1
+Table. B.1
+Region search terms.
+Region Search terms
+Asia and Oceania TITLE-ABS-KEY ("Australia" or "Bangladesh" or "Cambodia" or "China" or "Hong Kong" or "India" or "Indonesia" or "Iran" or "Iraq" or "Israel" or "Japan" or
+"Kazakhstan" or "Kuwait" or "Lebanon" or "Macau" or "Malaysia" or "Myanmar" or "New Zealand" or "Oman" or "Pakistan" or "Palestine" or "Papua New
+Guinea" or "Philippines" or "Qatar" or "Saudi Arabia" or "Singapore" or "South Korea" or "Sri Lanka" or "Taiwan" or "Thailand" or "Turkey" or "United Arab
+Emirates" or "Viet Nam")
+North America TITLE-ABS-KEY ("Canada" or "United States")
+Latin America and
+Caribbean
+TITLE-ABS-KEY ("Argentina" or "Brazil" or "Chile" or "Colombia" or "Dominican Republic" or "Ecuador" or "Mexico" or "Peru" or "Puerto Rico" or
+"Uruguay")
+Europe TITLE-ABS-KEY ("Austria" or "Belgium" or "Bulgaria" or "Croatia" or "Czech Republic" or "Denmark" or "Estonia" or "Finland" or "France" or "Germany" or
+"Greece" or "Hungary" or "Iceland" or "Cyprus" or "Ireland" or "Italy" or "Latvia" or "Netherlands" or "Poland" or "Russian Federation" or "Spain" or
+"Switzerland" or "United Kingdom" or "Lithuania" or "Romania" or "Serbia" or "Slovakia" or "Slovenia" or "Sweden" or "Norway" or "Monaco" or "Portugal")
+Africa TITLE-ABS-KEY ("Cameroon" or "Egypt" or "Ethiopia" or "Ghana" or "Kenya" or "Morocco" or "Nigeria" or "South Africa" or "Tanzania" or "Tunisia" or
+"Uganda" or "Zimbabwe")
+Table. C.1
+List of co-occurrences of author keywords.
+ID Label
+1 Agriculture
+2 Ahp
+3 Analytic hierarchy process
+4 Analytic network process
+5 Anp
+6 Asia
+7 Automotive industry
+8 Balanced scorecard
+9 Barriers
+10 Base of the pyramid
+11 Beef
+12 Benchmarking
+13 Bibliometric analysis
+14 Big data
+15 Bioenergy
+16 Biomass
+17 Brazil
+18 Business model
+19 Business strategy
+20 Buyer-supplier relationships
+21 Carbon emission
+22 Carbon emissions
+23 Carbon footprint
+24 Carbon management
+25 Case studies
+26 Case study
+27 Certification
+28 China
+29 Circular economy
+30 Cleaner production
+31 Climate change
+32 Closed-loop supply chain
+33 Closed-loop supply chains
+34 CO2 emissions
+35 Cocoa
+36 Collaboration
+37 Competitive advantage
+38 Competitiveness
+39 Conceptual framework
+40 Construction
+41 Content analysis
+42 Corporate responsibility
+43 Corporate social responsibility
+44 Corporate social responsibility (csr)
+(continued on next page)
+Table. C.1 (continued )
+45 Corporate sustainability
+46 Critical success factors
+47 Csr
+48 Data envelopment analysis
+49 Data envelopment analysis (dea)
+50 Dea
+51 Decision making
+52 Decision support systems
+53 Decision-making
+54 Delphi method
+55 Dematel
+56 Developing countries
+57 Distribution management
+58 Drivers
+59 Dynamic capabilities
+60 Eco-design
+61 Eco-efficiency
+62 Economic performance
+63 Economic sustainability
+64 Ecosystem services
+65 Efficiency
+66 Emerging economies
+67 Emerging economy
+68 Emerging markets
+69 Empirical study
+70 Energy
+71 Energy efficiency
+72 Environment
+73 Environmental
+74 Environmental impact
+75 Environmental impacts
+76 Environmental issues
+77 Environmental management
+78 Environmental performance
+79 Environmental supply chain management
+80 Environmental sustainability
+81 Ethics
+82 Extended producer responsibility
+83 Factor analysis
+84 Fashion industry
+85 Financial performance
+86 Firm performance
+87 Flexibility
+88 Food
+89 Food industry
+90 Food security
+91 Food supply chain
+92 Food system
+93 Food waste
+(continued on next page)
+F.M. Tsai et al. 
+Resources, Conservation & Recycling 167 (2021) 105421
+17
+Table. C.1 (continued )
+94 Framework
+95 Fuzzy dematel
+96 Fuzzy inference system
+97 Fuzzy set theory
+98 Game theory
+99 Germany
+100 Global supply chain
+101 Global supply chains
+102 Globalization
+103 Goal programming
+104 Governance
+105 Green
+106 Green logistics
+107 Green manufacturing
+108 Green marketing
+109 Green supply chain
+110 Green supply chain management
+111 Green supply chain management (gscm)
+112 Green supply chain practices
+113 Green supply chains
+114 Greenhouse gas emissions
+115 Gscm
+116 India
+117 Industrial ecology
+118 Industry 4.0
+119 Innovation
+120 Institutional theory
+121 Integration
+122 Interpretive structural modeling
+123 Interpretive structural modeling
+124 Ism
+125 Just-in-time
+126 Knowledge
+127 Knowledge management
+128 Lca
+129 Lean
+130 Life cycle assessment
+131 Life cycle assessment (lca)
+132 Literature review
+133 Logistics
+134 Logistics service providers
+135 Malaysia
+136 Management
+137 Manufacturing
+138 Manufacturing industry
+139 Mathematical programming
+140 Mcdm
+141 Metrics
+142 Multi-criteria decision making
+143 Multi-criteria decision-making
+144 Multi-objective optimization
+145 Network design
+146 New zealand
+147 Oil and gas
+148 Operational performance
+149 Operations management
+150 Optimization
+151 Organizational performance
+152 Outsourcing
+153 Packaging
+154 Palm oil
+155 Performance
+156 Performance analysis
+157 Performance assessment
+158 Performance evaluation
+159 Performance management
+160 Performance measurement
+161 Performance measures
+162 Policy
+163 Practices
+164 Pricing
+165 Procurement
+166 Product development
+167 Production
+168 Purchasing
+169 Quality
+170 Quality management
+171 Raw materials
+172 Recycling
+Table. C.1 (continued )
+173 Remanufacturing
+174 Renewable energy
+175 Research
+176 Resilience
+177 Resource efficiency
+178 Resource-based view
+179 Reverse logistics
+180 Reverse supply chain
+181 Review
+182 Risk
+183 Risk management
+184 Scm
+185 Simulation
+186 Smes
+187 Social
+188 Social performance
+189 Social responsibility
+190 Social sustainability
+191 Sscm
+192 Stakeholder
+193 Stakeholder theory
+194 Stakeholders
+195 Standards
+196 Strategy
+197 Structural equation modeling
+198 Structural equation modeling
+199 Supplier development
+200 Supplier evaluation
+201 Supplier management
+202 Supplier selection
+203 Supply chain
+204 Supply chain collaboration
+205 Supply chain design
+206 Supply chain integration
+207 Supply chain management
+208 Supply chain management (scm)
+209 Supply chain network design
+210 Supply chain risk management
+211 Supply chain strategy
+212 Supply chain sustainability
+213 Supply chains
+214 Supply management
+215 Supply-chain management
+216 Survey
+217 Survey methods
+218 Sustainability
+219 Sustainability assessment
+220 Sustainability indicators
+221 Sustainability performance
+222 Sustainability practices
+223 Sustainability reporting
+224 Sustainable
+225 Sustainable development
+226 Sustainable innovation
+227 Sustainable manufacturing
+228 Sustainable operations
+229 Sustainable operations management
+230 Sustainable performance
+231 Sustainable practices
+232 Sustainable production
+233 Sustainable sourcing
+234 Sustainable supplier selection
+235 Sustainable supply chain
+236 Sustainable supply chain management
+237 Sustainable supply chain management (sscm)
+238 Sustainable supply chains
+239 System dynamics
+240 Systematic literature review
+241 Textile industry
+242 Topsis
+243 Traceability
+244 Trade
+245 Transportation
+246 Triple bottom line
+247 Trust
+248 Uncertainty
+249 Value chain
+250 Vietnam
+251 Waste management
+F.M. Tsai et al. 
+Resources, Conservation & Recycling 167 (2021) 105421
+18
+Appendix D
+Table. D.1
+Appendix E
+Table. E.1
+Table. D.1
+List of productive countries/territories according to region (UN, 2019).
+Asia and
+Oceania
+North
+America
+Latin America
+and Caribbean
+Europe Africa
+Australia Canada Argentina Austria Cameroon
+Bangladesh United
+States
+Brazil Belgium Egypt
+Cambodia Chile Bulgaria Ethiopia
+China Colombia Croatia Ghana
+Hong Kong Dominican
+Republic
+Czech
+Republic
+Kenya
+India Ecuador Denmark Morocco
+Indonesia Mexico Estonia Nigeria
+Iran Peru Finland South
+Africa
+Iraq Puerto Rico France Tanzania
+Israel Uruguay Germany Tunisia
+Japan Greece Uganda
+Kazakhstan Hungary Zimbabwe
+Kuwait Iceland
+Lebanon Cyprus
+Macau Ireland
+Malaysia Italy
+Myanmar Latvia
+New Zealand Netherlands
+Oman Poland
+Pakistan Russian
+Federation
+Palestine Spain
+Papua New
+Guinea
+Switzerland
+Philippines United
+Kingdom
+Qatar Lithuania
+Saudi Arabia Romania
+Singapore Serbia
+South Korea Slovakia
+Sri Lanka Slovenia
+Taiwan Sweden
+Thailand Norway
+Turkey Monaco
+United Arab
+Emirates
+Portugal
+Viet Nam
+Total
+Table. E.1
+FDM indicators refined – round 1.
+Indicators lb ub Db Decision
+Balanced scorecard 0.000 0.500 0.250 Unaccepted
+Barriers 0.000 0.500 0.250 Unaccepted
+Benchmarking 0.000 0.500 0.250 Unaccepted
+Big data (0.025) 0.900 0.444 Accepted
+Bioenergy 0.000 0.500 0.250 Unaccepted
+Biomass 0.000 0.500 0.250 Unaccepted
+Business model 0.000 0.500 0.250 Unaccepted
+Business strategy 0.000 0.500 0.250 Unaccepted
+Buyer-supplier relationships 0.000 0.500 0.250 Unaccepted
+Carbon emissions (0.348) 0.848 0.337 Accepted
+Carbon footprint 0.000 0.500 0.250 Unaccepted
+Carbon management 0.000 0.500 0.250 Unaccepted
+Certification 0.000 0.500 0.250 Unaccepted
+Circular economy (0.042) 0.917 0.448 Accepted
+Cleaner production (0.030) 0.905 0.445 Accepted
+Climate change 0.000 0.500 0.250 Unaccepted
+Closed-loop supply chain (0.411) 0.911 0.353 Accepted
+CO2 emissions 0.000 0.500 0.250 Unaccepted
+Collaboration 0.000 0.500 0.250 Unaccepted
+Competitive advantage (0.386) 0.886 0.346 Accepted
+Corporate responsibility 0.000 0.500 0.250 Unaccepted
+Corporate social responsibility (0.363) 0.863 0.341 Accepted
+Corporate sustainability 0.000 0.500 0.250 Unaccepted
+Decision support systems 0.000 0.500 0.250 Unaccepted
+Developing countries 0.000 0.500 0.250 Unaccepted
+Distribution management 0.000 0.500 0.250 Unaccepted
+Dynamic capabilities (0.367) 0.867 0.342 Accepted
+Eco-design (0.381) 0.881 0.345 Accepted
+Eco-efficiency (0.361) 0.861 0.340 Accepted
+Economic performance 0.000 0.500 0.250 Unaccepted
+Economic sustainability (0.328) 0.828 0.332 Accepted
+Ecosystem services (0.037) 0.912 0.447 Accepted
+Emerging economy (0.328) 0.828 0.332 Accepted
+Emerging markets (0.383) 0.883 0.346 Accepted
+Energy efficiency (0.348) 0.848 0.337 Accepted
+Environmental impact (0.348) 0.848 0.337 Accepted
+Environmental issues 0.000 0.500 0.250 Unaccepted
+Environmental management 0.000 0.500 0.250 Unaccepted
+Environmental performance 0.000 0.500 0.250 Unaccepted
+Environmental supply chain
+management
+0.000 0.500 0.250 Unaccepted
+Environmental sustainability (0.006) 0.881 0.439 Accepted
+Ethics (0.334) 0.834 0.333 Accepted
+Extended producer responsibility 0.000 0.500 0.250 Unaccepted
+Financial performance (0.023) 0.898 0.443 Accepted
+Firm performance 0.000 0.500 0.250 Unaccepted
+Flexibility 0.000 0.500 0.250 Unaccepted
+Global supply chain 0.000 0.500 0.250 Unaccepted
+Globalization (0.014) 0.889 0.441 Accepted
+Governance 0.000 0.500 0.250 Unaccepted
+Green logistics (0.425) 0.925 0.356 Accepted
+Green manufacturing 0.000 0.500 0.250 Unaccepted
+Green marketing 0.000 0.500 0.250 Unaccepted
+Green supply chain management (0.400) 0.900 0.350 Accepted
+Green supply chain practices 0.000 0.500 0.250 Unaccepted
+Greenhouse gas emissions 0.000 0.500 0.250 Unaccepted
+Industrial ecology 0.000 0.500 0.250 Unaccepted
+Industry 4.0 (0.055) 0.930 0.451 Accepted
+Innovation 0.000 0.500 0.250 Unaccepted
+Institutional theory 0.000 0.500 0.250 Unaccepted
+Integration 0.000 0.500 0.250 Unaccepted
+Just-in-time (0.332) 0.832 0.333 Accepted
+Knowledge 0.000 0.500 0.250 Unaccepted
+Knowledge management (0.429) 0.929 0.357 Accepted
+Lean 0.000 0.500 0.250 Unaccepted
+Life cycle assessment (0.423) 0.923 0.356 Accepted
+Logistics 0.000 0.500 0.250 Unaccepted
+Logistics service providers (0.411) 0.911 0.353 Accepted
+Multi-objective optimization 0.000 0.500 0.250 Unaccepted
+(continued on next page)
+F.M. Tsai et al. 
+Resources, Conservation & Recycling 167 (2021) 105421
+19
+Appendix F
+Table. F.1
+References
+Addo-Tenkorang, R., Helo, P.T., 2016. Big data applications in operations/supply-chain
+management: a literature review. Comput. Ind. Eng. 101, 528–543.
+Agrawal, A., 2014. Managing raw material in supply chains. Eur. J. Oper. Res. 239 (3),
+685–698.
+Agyemang, M., Zhu, Q., Adzanyo, M., Antarciuc, E., Zhao, S., 2018. Evaluating barriers
+to green supply chain redesign and implementation of related practices in the West
+Africa cashew industry. Resour. Conserv. Recycl. 136, 209–222.
+Ahi, P., Searcy, C., 2015. An analysis of metrics used to measure performance in green
+and sustainable supply chains. J. Cleaner Prod. 86, 360–377.
+Akter, S., Wamba, S.F., Gunasekaran, A., Dubey, R., Childe, S.J., 2016. How to improve
+firm performance using big data analytics capability and business strategy
+alignment? Int. J. Prod. Econ. 182, 113–131.
+Table. E.1 (continued)
+Network design 0.000 0.500 0.250 Unaccepted
+Operational performance (0.051) 0.926 0.450 Accepted
+Operations management 0.000 0.500 0.250 Unaccepted
+Optimization (0.020) 0.895 0.442 Accepted
+Organizational performance 0.000 0.500 0.250 Unaccepted
+Outsourcing (0.353) 0.853 0.338 Accepted
+Packaging (0.068) 0.943 0.454 Accepted
+Performance analysis 0.000 0.500 0.250 Unaccepted
+Performance assessment 0.000 0.500 0.250 Unaccepted
+Performance evaluation 0.000 0.500 0.250 Unaccepted
+Performance management 0.000 0.500 0.250 Unaccepted
+Performance measurement 0.000 0.500 0.250 Unaccepted
+Policy (0.409) 0.909 0.352 Accepted
+Pricing 0.000 0.500 0.250 Unaccepted
+Product development 0.000 0.500 0.250 Unaccepted
+Production 0.000 0.500 0.250 Unaccepted
+Purchasing 0.000 0.500 0.250 Unaccepted
+Quality management (0.402) 0.902 0.350 Accepted
+Raw materials (0.392) 0.892 0.348 Accepted
+Recycling 0.000 0.500 0.250 Unaccepted
+Remanufacturing (0.391) 0.891 0.348 Accepted
+Renewable energy 0.000 0.500 0.250 Unaccepted
+Resilience 0.000 0.500 0.250 Unaccepted
+Resource efficiency 0.000 0.500 0.250 Unaccepted
+Resource-based view 0.000 0.500 0.250 Unaccepted
+Reverse logistics (0.422) 0.922 0.356 Accepted
+Reverse supply chain 0.000 0.500 0.250 Unaccepted
+Risk management 0.004 0.871 0.437 Accepted
+Simulation (0.382) 0.882 0.345 Accepted
+Social performance 0.000 0.500 0.250 Unaccepted
+Social responsibility 0.000 0.500 0.250 Unaccepted
+Social sustainability (0.376) 0.876 0.344 Accepted
+Stakeholder 0.000 0.500 0.250 Unaccepted
+Standards 0.000 0.500 0.250 Unaccepted
+Strategy (0.095) 0.970 0.461 Accepted
+Supplier development (0.402) 0.902 0.350 Accepted
+Supplier evaluation 0.000 0.500 0.250 Unaccepted
+Supplier management (0.409) 0.909 0.352 Accepted
+Supplier selection 0.000 0.500 0.250 Unaccepted
+Supply chain collaboration (0.395) 0.895 0.349 Accepted
+Supply chain design 0.000 0.500 0.250 Unaccepted
+Supply chain integration (0.387) 0.887 0.347 Accepted
+Supply chain network design (0.032) 0.907 0.446 Accepted
+Supply chain risk management 0.000 0.500 0.250 Unaccepted
+Supply chain strategy 0.000 0.500 0.250 Unaccepted
+Sustainable innovation 0.000 0.500 0.250 Unaccepted
+Sustainable manufacturing 0.000 0.500 0.250 Unaccepted
+Sustainable operations (0.050) 0.925 0.450 Accepted
+Sustainable production (0.371) 0.871 0.343 Accepted
+Sustainable sourcing (0.383) 0.883 0.346 Accepted
+Sustainable supplier selection (0.365) 0.865 0.341 Accepted
+System dynamics (0.380) 0.880 0.345 Accepted
+Traceability (0.375) 0.875 0.344 Accepted
+Transportation 0.000 0.500 0.250 Unaccepted
+Triple bottom line (0.368) 0.868 0.342 Accepted
+Trust 0.000 0.500 0.250 Unaccepted
+Uncertainty (0.387) 0.887 0.347 Accepted
+Value chain (0.383) 0.883 0.346 Accepted
+Waste management 0.000 0.500 0.250 Unaccepted
+Threshold 0.302
+Table. F.1
+FDM indicators refined – round 2.
+Indicators lb ub Db Decision
+Big data (0.368) 0.868 0.342 Accepted
+Carbon emissions 0.000 0.500 0.250 Unaccepted
+Circular economy (0.353) 0.853 0.338 Accepted
+Cleaner production (0.383) 0.883 0.346 Accepted
+Closed-loop supply chain (0.064) 0.939 0.453 Accepted
+Competitive advantage 0.000 0.500 0.250 Unaccepted
+Corporate social responsibility 0.000 0.500 0.250 Unaccepted
+Dynamic capabilities 0.000 0.500 0.250 Unaccepted
+Eco-design 0.000 0.500 0.250 Unaccepted
+Eco-efficiency (0.056) 0.931 0.452 Accepted
+Economic sustainability 0.000 0.500 0.250 Unaccepted
+Ecosystem services 0.000 0.500 0.250 Unaccepted
+Emerging economy 0.000 0.500 0.250 Unaccepted
+Emerging markets (0.019) 0.894 0.442 Accepted
+Energy efficiency 0.000 0.500 0.250 Unaccepted
+Environmental impact 0.000 0.500 0.250 Unaccepted
+Environmental sustainability 0.000 0.500 0.250 Unaccepted
+Ethics (0.380) 0.880 0.345 Accepted
+Financial performance (0.402) 0.902 0.350 Accepted
+Globalization (0.366) 0.866 0.342 Accepted
+Green logistics 0.000 0.500 0.250 Unaccepted
+Green supply chain management 0.000 0.500 0.250 Unaccepted
+Industry 4.0 (0.300) 0.800 0.325 Accepted
+Just-in-time 0.000 0.500 0.250 Unaccepted
+Knowledge management (0.391) 0.891 0.348 Accepted
+Life cycle assessment 0.000 0.500 0.250 Unaccepted
+Logistics service providers 0.000 0.500 0.250 Unaccepted
+Operational performance 0.000 0.500 0.250 Unaccepted
+Optimization (0.361) 0.861 0.340 Accepted
+Outsourcing 0.000 0.500 0.250 Unaccepted
+Packaging 0.000 0.500 0.250 Unaccepted
+Policy (0.394) 0.894 0.348 Accepted
+Quality management 0.000 0.500 0.250 Unaccepted
+Raw materials (0.338) 0.838 0.335 Accepted
+Remanufacturing (0.091) 0.966 0.460 Accepted
+Reverse logistics (0.392) 0.892 0.348 Accepted
+Risk management (0.356) 0.856 0.339 Accepted
+Simulation 0.000 0.500 0.250 Unaccepted
+Social sustainability (0.042) 0.917 0.448 Accepted
+Strategy 0.000 0.500 0.250 Unaccepted
+Supplier development 0.000 0.500 0.250 Unaccepted
+Supplier management 0.000 0.500 0.250 Unaccepted
+Supply chain collaboration (0.356) 0.856 0.339 Accepted
+Supply chain integration 0.000 0.500 0.250 Unaccepted
+Supply chain network design (0.325) 0.825 0.331 Accepted
+Sustainable operations 0.000 0.500 0.250 Unaccepted
+Sustainable production 0.000 0.500 0.250 Unaccepted
+Sustainable sourcing 0.000 0.500 0.250 Unaccepted
+Sustainable supplier selection (0.398) 0.898 0.349 Accepted
+System dynamics (0.378) 0.878 0.345 Accepted
+Traceability 0.000 0.500 0.250 Unaccepted
+Triple bottom line 0.000 0.500 0.250 Unaccepted
+Uncertainty 0.000 0.500 0.250 Unaccepted
+Value chain 0.000 0.500 0.250 Unaccepted
+Threshold 0.298
+F.M. Tsai et al. 
+Resources, Conservation & Recycling 167 (2021) 105421
+20
+Alavi, S.H., Jabbarzadeh, A., 2018. Supply chain network design using trade credit and
+bank credit: a robust optimization model with real world application. Comput. Ind.
+Eng. 125, 69–86.
+Amin, S.H., Zhang, G., 2012. An integrated model for closed-loop supply chain
+configuration and supplier selection: multi-objective approach. Expert Syst. Appl. 39
+(8), 6782–6791.
+Ansari, Z.N., Kant, R., 2017. A state-of-art literature review reflecting 15 years of focus
+on sustainable supply chain management. J. Clean. Prod. 142, 2524–2543.
+Ansari, Z.N., Kant, R., Shankar, R., 2019. Prioritizing the performance outcomes due to
+adoption of critical success factors of supply chain remanufacturing. J. Clean. Prod.
+212, 779–799.
+Aqlan, F., Lam, S.S., 2016. Supply chain optimization under risk and uncertainty: a case
+study for high-end server manufacturing. Comput. Ind. Eng. 93, 78–87.
+Arunachalam, D., Kumar, N., Kawalek, J.P., 2018. Understanding big data analytics
+capabilities in supply chain management: unravelling the issues, challenges and
+implications for practice. Transp. Res. Part E. 114, 416–436.
+Assarzadegan, P., Rasti-Barzoki, M., 2019. A game theoretic approach for pricing under a
+return policy and a money back guarantee in a closed loop supply chain. Int. J. Prod.
+Econ. Press.
+Awaysheh, A., Klassen, R.D., 2010. The impact of supply chain structure on the use of
+supplier socially responsible practices. Int. J. Oper. Prod. Manag. 30 (12),
+1246–1268.
+Azmat, F., Ha, H., 2013. Corporate social responsibility, customer trust, and
+loyalty—perspectives from a developing country. Thunderbird Int. Bus. Rev. 55 (3),
+253–270.
+Babazadeh, R., Razmi, J., Pishvaee, M.S., Rabbani, M., 2017. A sustainable secondgeneration biodiesel supply chain network design problem under risk. Omega
+(Westport) 66, 258–277.
+Banasik, A., Kanellopoulos, A., Bloemhof-Ruwaard, J.M., Claassen, G.D.H., 2019.
+Accounting for uncertainty in eco-efficient agri-food supply chains: a case study for
+mushroom production planning. J. Clean. Prod. 216, 249–256.
+Bastas, A., Liyanage, K., 2018. Sustainable supply chain quality management: a
+systematic review. J. Clean. Prod. 181, 726–744.
+Bechtsis, D., Tsolakis, N., Vlachos, D., Iakovou, E., 2017. Sustainable supply chain
+management in the digitalisation era: the impact of Automated Guided Vehicles.
+J. Clean. Prod. 142, 3970–3984.
+Bendul, J.C., Rosca, E., Pivovarova, D., 2017. Sustainable supply chain models for base of
+the pyramid. J. Clean. Prod. 162, S107–S120.
+Beyer, M.A., Laney, D., 2012. The importance of “big data”: a definition. Gartner,
+G00235055.
+Bouzon, M., Govindan, K., Rodriguez, C.M.T, 2018. Evaluating barriers for reverse
+logistics implementation under a multiple stakeholders’ perspective analysis using
+grey decision making approach. Resour. Conserv. Recycl. 128, 315–335.
+Brandenburg, M., Govindan, K., Sarkis, J., Seuring, S., 2014. Quantitative models for
+sustainable supply chain management: developments and directions. Eur. J. Oper.
+Res. 233 (2), 299–312.
+Branke, J., Farid, S.S., Shah, N., 2016. Industry 4.0: a vision for personalized medicine
+supply chains? Cell Gene Ther. Insights 2 (2), 263–270.
+Bui, T.D., Tsai, F.M., Tseng, M.L., Ali, M.H., 2020. Identifying sustainable solid waste
+management barriers in practice using the fuzzy Delphi method. Resour. Conserv.
+Recycl. 154, 104625.
+Bui, T.D., Tsai, F.M., Tseng, M.L., Tan, R.R., Yu, K.D.S., Lim, M.K, 2021. Sustainable
+supply chain management towards disruption and organizational ambidexterity: a
+data driven analysis. Sustain. Prod. Consum. 26, 373–410.
+Carter, C.R., Rogers, D.S., 2008. A framework of sustainable supply chain management:
+moving toward new theory. Int. J. Phys. Distrib. Logist. Manag. 38 (5), 360–387.
+Carter, C.R., Rogers, D.S., Choi, T.Y., 2015. Toward the theory of the supply chain.
+J. Supply Chain Manag. 51 (2), 89–97.
+Carvalho, H., Cruz-Machado, V., 2011. Integrating lean, agile, resilience and green
+paradigms in supply chain management (LARG_SCM). Supply Chain Management
+27–48.
+Chaabane, A., Ramudhin, A., Paquet, M., 2012. Design of sustainable supply chains
+under the emission trading scheme. Int. J. Prod. Econ. 135 (1), 37–49.
+Chalmardi, M.K., Camacho-Vallejo, J.F., 2019. A bi-level programming model for
+sustainable supply chain network design that considers incentives for using cleaner
+technologies. J. Clean. Prod. 213, 1035–1050.
+Choi, T.M., Luo, S., 2019. Data quality challenges for sustainable fashion supply chain
+operations in emerging markets: roles of blockchain, government sponsors and
+environment taxes. Transp. Res. Part E. 131, 139–152.
+Chouman, M., Crainic, T.G., Gendron, B., 2018. The impact of filtering in a branch-andcut algorithm for multicommodity capacitated fixed charge network design. EURO J.
+Comput. Optim. 6 (2), 143–184.
+Ciccullo, F., Pero, M., Caridi, M., Gosling, J., Purvis, L., 2018. Integrating the
+environmental and social sustainability pillars into the lean and agile supply chain
+management paradigms: a literature review and future research directions. J. Clean.
+Prod. 172, 2336–2350.
+Darbari, J.D., Kannan, D., Agarwal, V., Jha, P.C., 2019. Fuzzy criteria programming
+approach for optimising the TBL performance of closed loop supply chain network
+design problem. Ann. Oper. Res. 273 (1–2), 693–738.
+Das, D., Dutta, P., 2016. Performance analysis of a closed-loop supply chain with
+incentive-dependent demand and return. Int. J. Adv. Manuf. Technol. 86 (1–4),
+621–639.
+de Sousa Jabbour, A.B.L., Chiappetta Jabbour, C.J., Sarkis, J., Gunasekaran, A., Furlan
+Matos Alves, M.W., Ribeiro, D.A., 2018. Decarbonisation of operations
+management–looking back, moving forward: a review and implications for the
+production research community. Int. J. Prod. Res. 57 (15–16), 4743–4765.
+Dubey, R., Gunasekaran, A., Childe, S.J., Luo, Z., Wamba, S.F., Roubaud, D., Foropon, C.,
+2018. Examining the role of big data and predictive analytics on collaborative
+performance in context to sustainable consumption and production behaviour.
+J. Clean. Prod. 196, 1508–1521.
+Eck, N.V., & Waltman, L. (2018). VOSviewer manual: manual for VOSviewer version
+1.6.11.
+Fahimnia, B., Sarkis, J., Davarzani, H., 2015. Green supply chain management: a review
+and bibliometric analysis. Int. J. Prod. Econ. 162, 101–114.
+Farahani, R.Z., Rezapour, S., Drezner, T., Fallah, S., 2014. Competitive supply chain
+network design: an overview of classifications, models, solution techniques and
+applications. Omega (Westport) 45, 92–118.
+Farooque, M., Zhang, A., Thurer, M., Qu, T., Huisingh, D., 2019. Circular supply chain
+management: a definition and structured literature review. J. Clean. Prod. 228,
+882–900.
+Feng, Y., Zhu, Q., Lai, K.H., 2017. Corporate social responsibility for supply chain
+management: a literature review and bibliometric analysis. J. Clean. Prod. 158,
+296–307.
+Franco, M.A., 2017. Circular economy at the micro level: a dynamic view of incumbents’
+struggles and challenges in the textile industry. J. Clean. Prod. 168, 833–845.
+Gandomi, A., Haider, M., 2015. Beyond the hype: big data concepts, methods, and
+analytics. Int. J. Inf. Manag. 35 (2), 137–144.
+Gavin, B., 2013. China’s growing conflict with the WTO. Intereconomics 48 (4),
+254–261.
+Ghadimi, P., Azadnia, A.H., Heavey, C., Dolgui, A., Can, B., 2016. A review on the
+buyer–supplier dyad relationships in sustainable procurement context: past, present
+and future. Int. J. Prod. Res. 54 (5), 1443–1462.
+Ghadimi, P., Wang, C., Lim, M.K., Heavey, C., 2019. Intelligent sustainable supplier
+selection using multi-agent technology: theory and application for Industry 4.0
+supply chains. Comput. Ind. Eng. 127, 588–600.
+Golev, A., Corder, G.D., 2017. Quantifying metal values in e-waste in Australia: the value
+chain perspective. Miner. Eng. 107, 81–87.
+Gomez-Luciano, ´ C.A., Domínguez, F.R.R., Gonzalez-Andr ´ ´es, F., De Meneses, B.U.L, 2018.
+Sustainable supply chain management: contributions of supplies markets. J. Clean.
+Prod. 184, 311–320.
+Govindan, K., Bouzon, M., 2018. From a literature review to a multi-perspective
+framework for reverse logistics barriers and drivers. J. Clean. Prod. 187, 318–337.
+Govindan, K., Hasanagic, M., 2018. A systematic review on drivers, barriers, and
+practices towards circular economy: a supply chain perspective. Int. J. Prod. Res. 56
+(1–2), 278–311.
+Govindan, K., Azevedo, S.G., Carvalho, H., Cruz-Machado, V., 2014. Impact of supply
+chain management practices on sustainability. J. Clean. Prod. 85, 212–225.
+Govindan, K., Mina, H., Esmaeili, A., Gholami-Zanjani, S.M., 2020a. An integrated hybrid
+approach for circular supplier selection and closed loop supply chain network design
+under uncertainty. J. Clean. Prod. 242, 118317.
+Govindan, K., Shankar, K.M., Kannan, D., 2016. Application of fuzzy analytic network
+process for barrier evaluation in automotive parts remanufacturing towards cleaner
+production–a study in an Indian scenario. J. Clean. Prod. 114, 199–213.
+Govindan, K., Soleimani, H., Kannan, D., 2015. Reverse logistics and closed-loop supply
+chain: a comprehensive review to explore the future. Eur. J. Oper. Res. 240 (3),
+603–626.
+Grimm, J.H., Hofstetter, J.S., Sarkis, J., 2014. Critical factors for sub-supplier
+management: a sustainable food supply chains perspective. Int. J. Prod. Econ. 152,
+159–173.
+Gurtu, A., Searcy, C., Jaber, M.Y., 2015. An analysis of keywords used in the literature on
+green supply chain management. Manag. Res. Rev. 38 (2), 166–194.
+Hafezalkotob, A., 2015. Competition of two green and regular supply chains under
+environmental protection and revenue seeking policies of government. Comput. Ind.
+Eng. 82, 103–114.
+Hafezalkotob, A., Alavi, A., Makui, A., 2016. Government financial intervention in green
+and regular supply chains: multi-level game theory approach. Int. J. Manag. Sci. Eng.
+Manag. 11 (3), 167–177.
+Hampton, S.E., Strasser, C.A., Tewksbury, J.J., Gram, W.K., Budden, A.E., Batcheller, A.
+L., Porter, J.H., 2013. Big data and the future of ecology. Front. Ecol. Environ. 11 (3),
+156–162.
+He, Q., Wang, G., Luo, L., Shi, Q., Xie, J., Meng, X., 2017. Mapping the managerial areas
+of Building Information Modeling (BIM) using scientometric analysis. Int. J. Project
+Manage. 35 (4), 670–685.
+Heckmann, I., Comes, T., Nickel, S., 2015. A critical review on supply chain
+risk–definition, measure and modeling. Omega (Westport) 52, 119–132.
+Heydari, J., Govindan, K., Jafari, A., 2017. Reverse and closed loop supply chain
+coordination by considering government role. Transp. Res. Part D. 52, 379–398.
+Hofmann, E., Rüsch, M., 2017. Industry 4.0 and the current status as well as future
+prospects on logistics. Comput. Ind. 89, 23–34.
+Hong, X., Govindan, K., Xu, L., Du, P., 2017. Quantity and collection decisions in a
+closed-loop supply chain with technology licensing. Eur. J. Oper. Res. 256 (3),
+820–829.
+Hu, X., Yang, Z., Sun, J., Zhang, Y., 2020. Carbon tax or cap-and-trade: which is more
+viable for Chinese remanufacturing industry? J. Clean. Prod. 243, 118606.
+Huang, J., Xia, J., Yu, Y., Zhang, N., 2018. Composite eco-efficiency indicators for China
+based on data envelopment analysis. Ecol. Indic. 85, 674–697.
+Ishikawa, A., Amagasa, M., Shiga, T., Tomizawa, G., Tatsuta, R., Mieno, H., 1993. The
+max-min Delphi method and fuzzy Delphi method via fuzzy integration. Fuzzy Sets
+Syst. 55 (3), 241–253.
+Jabbarzadeh, A., Haughton, M., Khosrojerdi, A., 2018. Closed-loop supply chain network
+design under disruption risks: a robust approach with real world application.
+Comput. Ind. Eng. 116, 178–191.
+F.M. Tsai et al. 
+Resources, Conservation & Recycling 167 (2021) 105421
+21
+Jensen, J.P., Prendeville, S.M., Bocken, N.M., Peck, D., 2019. Creating sustainable value
+through remanufacturing: three industry cases. J. Clean. Prod. 218, 304–314.
+Jia, F., Zhang, T., Chen, L., 2020. Sustainable supply chain finance: towards a research
+agenda. J. Clean. Prod., 118680
+Jia, F., Zuluaga-Cardona, L., Bailey, A., Rueda, X., 2018. Sustainable supply chain
+management in developing countries: an analysis of the literature. J. Clean. Prod.
+189, 263–278.
+Jiang, Z., Ding, Z., Zhang, H., Cai, W., Liu, Y., 2019. Data-driven ecological performance
+evaluation for remanufacturing process. Energy Convers. Manag. 198, 111844.
+Jin, R., Gao, S., Cheshmehzangi, A., Aboagye-Nimo, E., 2018. A holistic review of off-site
+construction literature published between 2008 and 2018. J. Clean. Prod. 202,
+1202–1219.
+Jonkman, J., Kanellopoulos, A., Bloemhof, J.M., 2019. Designing an eco-efficient
+biomass-based supply chain using a multi-actor optimisation model. J. Clean. Prod.
+210, 1065–1075.
+Jov´e-Llopis, E., Segarra-Blasco, A., 2018. Eco-efficiency actions and firm growth in
+European SMEs. Sustainability 10 (1), 281.
+Kafuku, J.M., Saman, M.Z.M., Yusof, S.R.M., Mahmood, S, 2016. A holistic framework
+for evaluation and selection of remanufacturing operations: an approach. Int. J. Adv.
+Manuf. Technol. 87 (5–8), 1571–1584.
+Kamble, S.S., Gunasekaran, A., Sharma, R., 2018. Analysis of the driving and dependence
+power of barriers to adopt industry 4.0 in Indian manufacturing industry. Comput.
+Ind. 101, 107–119.
+Kandil, N., Battaïa, O., Hammami, R., 2020. Globalisation vs. Slowbalisation: a literature
+review of analytical models for sourcing decisions in supply chain management.
+Annu. Rev. Control.
+Kaur, H., Singh, S.P., 2018. Heuristic modeling for sustainable procurement and logistics
+in a supply chain using big data. Comput. Oper. Res. 98, 301–321.
+Khalid, R.U., Seuring, S., Beske, P., Land, A., Yawar, S.A., Wagner, R., 2015. Putting
+sustainable supply chain management into base of the pyramid research. Supply
+Chain Manag.: Int. J. 20 (6), 681–696.
+Khodakarami, M., Shabani, A., Saen, R.F., Azadi, M., 2015. Developing distinctive twostage data envelopment analysis models: an application in evaluating the
+sustainability of supply chain management. Measurement 70, 62–74.
+Koberg, E., Longoni, A., 2019. A systematic review of sustainable supply chain
+management in global supply chains. J. Clean. Prod. 207, 1084–1098.
+Krystofik, M., Luccitti, A., Parnell, K., Thurston, M., 2018. Adaptive remanufacturing for
+multiple lifecycles: a case study in office furniture. Resour. Conserv. Recycl. 135,
+14–23.
+Kulak, M., Nemecek, T., Frossard, E., Gaillard, G., 2016. Eco-efficiency improvement by
+using integrative design and life cycle assessment. The case study of alternative
+bread supply chains in France. J. Clean. Prod. 112, 2452–2461.
+Kurilova-Palisaitiene, J., Sundin, E., Poksinska, B., 2018. Remanufacturing challenges
+and possible lean improvements. J. Clean. Prod. 172, 3225–3236.
+Lamba, K., Singh, S.P., 2016. Big Data analytics in supply chain management: some
+conceptual frameworks. Int. J. Autom. Logist. 2 (4), 279–293.
+Lasi, H., Fettke, P., Kemper, H.G., Feld, T., Hoffmann, M., 2014. Industry 4.0. Bus. Inf.
+Syst. Eng. 6 (4), 239–242.
+Lee, C.H., Wu, K.J., Tseng, M.L., 2018. Resource management practice through ecoinnovation toward sustainable development using qualitative information and
+quantitative data. J. Clean. Prod. 202, 120–129.
+Lejarza, F., Baldea, M., 2020. Closed-loop optimal operational planning of supply chains
+with fast product quality dynamics. Comput. Chem. Eng. 132, 106594.
+Leszczynska, A., Maryniak, A., 2017. Sustainable supply chain-a review of research fields
+and a proposition of future exploration. Int. J. Sustain. Econ. 9 (2), 159–179.
+Li, C., Zhang, F., Cao, C., Liu, Y., Qu, T., 2019. Organizational coordination in sustainable
+humanitarian supply chain: an evolutionary game approach. J. Clean. Prod. 219,
+291–303.
+Liebetruth, T., 2017. Sustainability in performance measurement and management
+systems for supply chains. Procedia Eng. 192, 539–544.
+Lim, M.K., Tseng, M.L., Tan, K.H., Bui, T.D., 2017. Knowledge management in
+sustainable supply chain management: improving performance through an
+interpretive structural modelling approach. J. Clean. Prod. 162, 806–816.
+Liu, H.C., Quan, M.Y., Li, Z., Wang, Z.L., 2019a. A new integrated MCDM model for
+sustainable supplier selection under interval-valued intuitionistic uncertain
+linguistic environment. Inf. Sci. (Ny) 486, 254–270.
+Liu, L., Zhang, M., Hendry, L.C., Bu, M., Wang, S., 2018. Supplier development practices
+for sustainability: a multi-stakeholder perspective. Bus. Strat. Environ. 27 (1),
+100–116.
+Liu, P., 2019. Pricing policies and coordination of low-carbon supply chain considering
+targeted advertisement and carbon emission reduction costs in the big data
+environment. J. Clean. Prod. 210, 343–357.
+Liu, W., Wu, C., Chang, X., Chen, Y., Liu, S., 2017. Evaluating remanufacturing industry
+of China using an improved grey fixed weight clustering method-a case of Jiangsu
+Province. J. Clean. Prod. 142, 2006–2020.
+Liu, Y., Quan, B.T., Xu, Q., Forrest, J.Y.L, 2019b. Corporate social responsibility and
+decision analysis in a supply chain through government subsidy. J. Clean. Prod. 208,
+436–447.
+Long, X., Ge, J., Shu, T., Liu, Y., 2019. Analysis for recycling and remanufacturing
+strategies in a supply chain considering consumers’ heterogeneous WTP. Resour.
+Conserv. Recycl. 148, 80–90.
+Luthra, S., Mangla, S.K., 2018. Evaluating challenges to Industry 4.0 initiatives for supply
+chain sustainability in emerging economies. Process Saf. Environ. Prot. 117,
+168–179.
+Manavalan, E., Jayakrishna, K., 2019. A review of Internet of Things (IoT) embedded
+sustainable supply chain for industry 4.0 requirements. Comput. Ind. Eng. 127,
+925–953.
+Mancheri, N.A., Sprecher, B., Bailey, G., Ge, J., Tukker, A., 2019. Effect of Chinese
+policies on rare earth supply chain resilience. Resour. Conserv. Recycl. 142,
+101–112.
+Mangla, S.K., Govindan, K., Luthra, S., 2017. Prioritizing the barriers to achieve
+sustainable consumption and production trends in supply chains using fuzzy
+analytical hierarchy process. J. Clean. Prod. 151, 509–525.
+Manthou, V., Vlachopoulou, M., Folinas, D., 2004. Virtual e-Chain (VeC) model for
+supply chain collaboration. Int. J. Prod. Econ. 87 (3), 241–250.
+Manuj, I., Esper, T.L., Stank, T.P., 2014. Supply chain risk management approaches
+under different conditions of risk. J. Bus. Logist. 35 (3), 241–258.
+Manupati, V.K., Jedidah, S.J., Gupta, S., Bhandari, A., Ramkumar, M., 2019.
+Optimization of a multi-echelon sustainable production-distribution supply chain
+system with lead time consideration under carbon emission policies. Comput. Ind.
+Eng. 135, 1312–1323.
+Maroufkhani, P., Tseng, M.L., Iranmanesh, M., Ismail, W.K.W., Khalid, H, 2020. Big data
+analytics adoption: determinants and performances among small to medium-sized
+enterprises. Int. J. Inf. Manag. 54, 102190.
+McMurray, A.J., Islam, M.M., Siwar, C., Fien, J., 2014. Sustainable procurement in
+Malaysian organizations: practices, barriers and opportunities. J. Purchas. Supply
+Manag. 20 (3), 195–207.
+Meherishi, L., Narayana, S.A., Ranjani, K.S., 2019. Sustainable packaging for supply
+chain management in the circular economy: a review. J. Clean. Prod. 237, 117582.
+Mohammed, A.M., Duffuaa, S.O., 2020. A tabu search based algorithm for the optimal
+design of multi-objective multi-product supply chain networks. Expert Syst. Appl.
+140, 112808.
+Mohtashami, Z., Aghsami, A., Jolai, F., 2020. A green closed loop supply chain design
+using queuing system for reducing environmental impact and energy consumption.
+J. Clean. Prod. 242, 118452.
+Moktadir, M.A., Ali, S.M., Jabbour, C.J.C., Paul, A., Ahmed, S., Sultana, R., Rahman, T,
+2019b. Key factors for energy-efficient supply chains: implications for energy policy
+in emerging economies. Energy 189, 116129.
+Moktadir, M.A., Ali, S.M., Paul, S.K., Shukla, N., 2019a. Barriers to big data analytics in
+manufacturing supply chains: a case study from Bangladesh. Comput. Ind. Eng. 128,
+1063–1075.
+Moreno-Camacho, C.A., Montoya-Torres, J.R., Jaegler, A., Gondran, N., 2019.
+Sustainability metrics for real case applications of the supply chain network design
+problem: a systematic literature review. J. Clean. Prod. 231, 600–618.
+Ni, W., Sun, H., 2019. The effect of sustainable supply chain management on business
+performance: implications for integrating the entire supply chain in the Chinese
+manufacturing sector. J. Clean. Prod. 232, 1176–1186.
+Opresnik, D., Taisch, M., 2015. The manufacturer’s value chain as a service-the case of
+remanufacturing. J. Remanuf. 5 (1), 2.
+Papadopoulos, T., Gunasekaran, A., Dubey, R., Altay, N., Childe, S.J., Fosso-Wamba, S.,
+2017. The role of big data in explaining disaster resilience in supply chains for
+sustainability. J. Clean. Prod. 142, 1108–1118.
+Pereira, M.M., Frazzon, E.M., 2020. A data-driven approach to adaptive synchronization
+of demand and supply in omni-channel retail supply chains. Int. J. Inf. Manag.,
+102165
+Pereira, T., Barreto, L., Amaral, A., 2017. Network and information security challenges
+within Industry 4.0 paradigm. Procedia Manuf. 13, 1253–1260.
+Pfohl, H.C., Yahsi, B., Kurnaz, T., 2017. Concept and diffusion-factors of industry 4.0 in
+the supply chain. Dynamics in Logistics. Springer, Cham, pp. 381–390.
+Pingmuanglek, P., Jakrawatana, N., Gheewala, S.H., 2017. Supply chain analysis for
+cassava starch production: cleaner production opportunities and benefits. J. Clean.
+Prod. 162, 1075–1084.
+Pishvaee, M.S., Razmi, J., 2012. Environmental supply chain network design using multiobjective fuzzy mathematical programming. Appl. Math. Modell. 36 (8), 3433–3446.
+Quintens, L., 2017. Supply chain ethics: using CSR and sustainability to create
+competitive advantage. John Manners-Bell 297 (2017)ISBN: 978-0-7494-7945-9.
+Rahmaniani, R., Crainic, T.G., Gendreau, M., Rei, W., 2018. Accelerating the Benders
+decomposition method: application to stochastic network design problems. SIAM J.
+Optim. 28 (1), 875–903.
+Rajeev, A., Pati, R.K., Padhi, S.S., 2019. Sustainable supply chain management in the
+chemical industry: evolution, opportunities, and challenges. Resour. Conserv.
+Recycl. 149, 275–291.
+Rajeev, A., Pati, R.K., Padhi, S.S., Govindan, K., 2017. Evolution of sustainability in
+supply chain management: a literature review. J. Clean. Prod. 162, 299–314.
+Rajput, S., Singh, S.P., 2019. Connecting circular economy and Industry 4.0. Int. J. Inf.
+Manag. 49, 98–113.
+Ramirez-Pena, ˜ M., Sotano, A.J.S., P´erez-Fernandez, V., Abad, F.J., Batista, M, 2019.
+Achieving a sustainable shipbuilding supply chain under I4. 0 perspective. J. Clean.
+Prod., 118789. Press.
+Rau, H., Budiman, S.D., Regencia, R.C., Salas, A.D.P, 2019. A decision model for
+competitive remanufacturing systems considering technology licensing and product
+quality strategies. J. Clean. Prod. 239, 118011.
+Raut, R.D., Mangla, S.K., Narwane, V.S., Gardas, B.B., Priyadarshinee, P., Narkhede, B.E.,
+2019. Linking big data analytics and operational sustainability practices for
+sustainable business management. J. Clean. Prod. 224, 10–24.
+Rebs, T., Brandenburg, M., Seuring, S., 2019. System dynamics modeling for sustainable
+supply chain management: a literature review and systems thinking approach.
+J. Clean. Prod. 208, 1265–1280.
+F.M. Tsai et al. 
+Resources, Conservation & Recycling 167 (2021) 105421
+22
+Rebs, T., Brandenburg, M., Seuring, S., Stohler, M., 2018. Stakeholder influences and
+risks in sustainable supply chain management: a comparison of qualitative and
+quantitative studies. Bus. Res. 11 (2), 197–237.
+Reimann, M., Xiong, Y., Zhou, Y., 2019. Managing a closed-loop supply chain with
+process innovation for remanufacturing. Eur. J. Oper. Res. 276 (2), 510–518.
+Ren, S., Zhang, Y., Liu, Y., Sakao, T., Huisingh, D., Almeida, C.M., 2019.
+A comprehensive review of big data analytics throughout product lifecycle to
+support sustainable smart manufacturing: a framework, challenges and future
+research directions. J. Clean. Prod. 210, 1343–1365.
+Rodger, J.A., 2014. Application of a fuzzy feasibility Bayesian probabilistic estimation of
+supply chain backorder aging, unfilled backorders, and customer wait time using
+stochastic simulation with Markov blankets. Expert Syst. Appl. 41 (16), 7005–7022.
+Roy, V., Schoenherr, T., Charan, P., 2018. The thematic landscape of literature in
+sustainable supply chain management (SSCM) A review of the principal facets in
+SSCM development. Int. J. Oper. Prod. Manag. 38 (4), 1091–1124.
+Sahebjamnia, N., Fathollahi-Fard, A.M., Hajiaghaei-Keshteli, M., 2018. Sustainable tire
+closed-loop supply chain network design: hybrid metaheuristic algorithms for largescale networks. J. Clean. Prod. 196, 273–296.
+Samadi, A., Mehranfar, N., Fathollahi Fard, A.M., Hajiaghaei-Keshteli, M., 2018.
+Heuristic-based metaheuristics to address a sustainable supply chain network design
+problem. J. Ind. Prod. Eng. 35 (2), 102–117.
+Sandhu, R., Sood, S.K., 2015. Scheduling of big data applications on distributed cloud
+based on QoS parameters. Cluster Comput. 18 (2), 817–828.
+Schoenherr, T., Speier-Pero, C., 2015. Data science, predictive analytics, and big data in
+supply chain management: current state and future potential. J. Bus. Logist. 36 (1),
+120–132.
+Seles, B.M.R.P., de Sousa Jabbour, A.B.L., Jabbour, C.J.C., de Camargo Fiorini, P., MohdYusoff, Y., Thom´e, A.M.T, 2018. Business opportunities and challenges as the two
+sides of the climate change: corporate responses and potential implications for big
+data management towards a low carbon society. J. Clean. Prod. 189, 763–774.
+Shaharudin, M.R., Tan, K.C., Kannan, V., Zailani, S., 2019. The mediating effects of
+product returns on the relationship between green capabilities and closed-loop
+supply chain adoption. J. Clean. Prod. 211, 233–246.
+Shi, J., Zhou, J., Zhu, Q., 2019. Barriers of a closed-loop cartridge remanufacturing
+supply chain for urban waste recovery governance in China. J. Clean. Prod. 212,
+1544–1553.
+Shukla, A.K., Janmaijaya, M., Abraham, A., Muhuri, P.K., 2019. Engineering applications
+of artificial intelligence: a bibliometric analysis of 30 years (1988–2018). Eng. Appl.
+Artif. Intell. 85, 517–532.
+Silvestre, B.S., 2015. Sustainable supply chain management in emerging economies:
+environmental turbulence, institutional voids and sustainability trajectories. Int. J.
+Prod. Econ. 167, 156–169.
+Silvestre, B.S., Monteiro, M.S., Viana, F.L.E., de Sousa-Filho, J.M, 2018. Challenges for
+sustainable supply chain management: when stakeholder collaboration becomes
+conducive to corruption. J. Clean. Prod. 194, 766–776.
+Singh, A., Shukla, N., Mishra, N., 2018. Social media data analytics to improve supply
+chain management in food industries. Transp. Res. Part E. 114, 398–415.
+Singh, S.K., El-Kassar, A.N., 2019. Role of big data analytics in developing sustainable
+capabilities. J. Clean. Prod. 213, 1264–1273.
+Singh, S.P., Singh, R.K., Gunasekaran, A., Ghadimi, P., 2019. Supply chain management,
+Industry 4.0, and the circular economy. Resour. Conserv. Recycl. 142, 281–282.
+Soni, G., Kodali, R., 2013. A decision framework for assessment of risk associated with
+global supply chain. J. Model. Manag. 8 (1), 25–53.
+Souza, G.C., 2013. Closed-loop supply chains: a critical review, and future research.
+Decis. Sci. 44 (1), 7–38.
+Subramoniam, R., Huisingh, D., Chinnam, R.B., Subramoniam, S., 2013.
+Remanufacturing Decision-Making Framework (RDMF): research validation using
+the analytical hierarchical process. J. Clean. Prod. 40, 212–220.
+Sun, B.Q., Wang, L., 2019. A decomposition-based matheuristic for supply chain network
+design with assembly line balancing. Comput. Ind. Eng. 131, 408–417.
+Taleizadeh, A.A., Haghighi, F., Niaki, S.T.A, 2019. Modeling and solving a sustainable
+closed loop supply chain problem with pricing decisions and discounts on returned
+products. J. Clean. Prod. 207, 163–181.
+Taleizadeh, A.A., Moshtagh, M.S., Moon, I., 2017. Optimal decisions of price, quality,
+effort level and return policy in a three-level closed-loop supply chain based on
+different game theory approaches. Eur. J. Ind. Eng. 11 (4), 486–525.
+Tan, C.L., Zailani, S.H.M., Tan, S.C., Shaharudin, M.R, 2016. The impact of green supply
+chain management practices on firm competitiveness. Int. J. Bus. Innov. Res. 11 (4),
+539–558.
+Thomas, A., Trentesaux, D., 2014. Are intelligent manufacturing systems sustainable?
+Service Orientation in Holonic and Multi-Agent Manufacturing and Robotics.
+Springer, Cham, pp. 3–14.
+Tiwari, S., Ahmed, W., Sarkar, B., 2018. Multi-item sustainable green production system
+under trade-credit and partial backordering. J. Clean. Prod. 204, 82–95.
+Tjahjono, B., Esplugues, C., Ares, E., Pelaez, G., 2017. What does industry 4.0 mean to
+supply chain? Procedia Manuf. 13, 1175–1182.
+Tsai, C.W., Lai, C.F., Chao, H.C., Vasilakos, A.V., 2015. Big data analytics: a survey. J. Big
+Data 2 (1), 21.
+Tsai, F.M., Bui, T.D., Tseng, M.L., Lim, M.K., Hu, J., 2020. Municipal solid waste
+management in a circular economy: a data-driven bibliometric analysis. J. Clean.
+Prod. 275, 124132.
+Tseng, M.L., 2017. Using social media and qualitative and quantitative information
+scales to benchmark corporate sustainability. J. Clean. Prod. 142, 727–738.
+Tseng, M.L., Bui, T.D., 2017. Identifying eco-innovation in industrial symbiosis under
+linguistic preferences: a novel hierarchical approach. J. Clean. Prod. 140,
+1376–1389.
+Tseng, M.L., Chiu, A.S., 2013. Evaluating firm’s green supply chain management in
+linguistic preferences. J. Clean. Prod. 40, 22–31.
+Tseng, M.L., Tan, K., Chiu, A.S., 2016. Identifying the competitive determinants of firms’
+green supply chain capabilities under uncertainty. Clean Technol. Environ. Policy 18
+(5), 1247–1262.
+Tseng, M.L., Tan, R.R., Chiu, A.S., Chien, C.F., Kuo, T.C., 2018b. Circular economy meets
+industry 4.0: can big data drive industrial symbiosis? Resour. Conserv. Recycl. 131,
+146–147.
+Tseng, M.L., Wu, K.J., Lee, C.H., Lim, M.K., Bui, T.D., Chen, C.C., 2018a. Assessing
+sustainable tourism in Vietnam: a hierarchical structure approach. J. Clean. Prod.
+195, 406–417.
+Tseng, M.L., Wu, K.J., Lim, M.K., Wong, W.P., 2019. Data-driven sustainable supply
+chain management performance: a hierarchical structure assessment under
+uncertainties. J. Clean. Prod. 227, 760–771.
+Türkay, M., Saraçoglu, ˘ O., ¨ Arslan, M.C., 2016. Sustainability in supply chain
+management: aggregate planning from sustainability perspective. PLoS ONE 11 (1),
+e0147502.
+van Hoof, B., Thiell, M., 2015. Anchor company contribution to cleaner production
+dissemination: experience from a Mexican sustainable supply programme. J. Clean.
+Prod. 86, 245–255.
+Vasquez, ´ J., Aguirre, S., Fuquene-Retamoso, C.E., Bruno, G., Priarone, P.C., Settineri, L.,
+2019. A conceptual framework for the eco-efficiency assessment of small-and
+medium-sized enterprises. J. Clean. Prod. 237, 117660.
+Waltho, C., Elhedhli, S., Gzara, F., 2018. Green supply chain network design: a review
+focused on policy adoption and emission quantification. Int. J. Prod. Econ.
+Wan, N., Hong, D., 2019. The impacts of subsidy policies and transfer pricing policies on
+the closed-loop supply chain with dual collection channels. J. Clean. Prod. 224,
+881–891.
+Wang, G., Gunasekaran, A., Ngai, E.W., Papadopoulos, T., 2016. Big data analytics in
+logistics and supply chain management: certain investigations for research and
+applications. Int. J. Prod. Econ. 176, 98–110.
+Wang, S., Wang, J., Yang, F., Wang, Y., Li, J., 2018. Consumer familiarity, ambiguity
+tolerance, and purchase behavior toward remanufactured products: the implications
+for remanufacturers. Bus. Strat. Environ. 27 (8), 1741–1750.
+Wang, Y., Hajli, N., 2017. Exploring the path to big data analytics success in healthcare.
+J. Bus. Res. 70, 287–299.
+Wang, Z., Hu, H., Gong, J., Ma, X., Xiong, W., 2019. Precast supply chain management in
+off-site construction: a critical literature review. J. Clean. Prod. 232, 1204–1217.
+Wen, K.L., Chang, T.C., You, M.L., 1998. The grey entropy and its application in
+weighting analysis. In: SMC’98 Conference Proceedings. 1998 IEEE International
+Conference on Systems, Man, and Cybernetics (Cat. No. 98CH36218), 2. IEEE,
+pp. 1842–1844.
+Wu, Z., Pullman, M.E., 2015. Cultural embeddedness in supply networks. J. Oper.
+Manag. 37, 45–58.
+Xu, X., Zeng, S., He, Y., 2017. The influence of e-services on customer online purchasing
+behavior toward remanufactured products. Int. J. Prod. Econ. 187, 113–125.
+Yoshizaki, H.T., Vel´
+azquez Martínez, J.C., Argueta, C.M, 2018. Supply Chain
+Management and Logistics in Latin America: A Multi-Country Perspective. Emerald
+Publishing Limited.
+Yu, M., Cruz, J.M., 2018. The sustainable supply chain network competition with
+environmental tax policies. Int. J. Prod. Econ. 217, 218–231.
+Yu, W., Jacobs, M.A., Chavez, R., Yang, J., 2019. Dynamism, disruption orientation, and
+resilience in the supply chain and the impacts on financial performance: a dynamic
+capabilities perspective. Int. J. Prod. Econ. 218, 352–362.
+Zarei, H., Rasti-Barzoki, M., Moon, I., 2020. A mechanism design approach to a buyer’s
+optimal auditing policy to induce responsible sourcing in a supply chain. J. Environ.
+Manag. 254, 109721.
+Zerang, E.S., Taleizadeh, A.A., Razmi, J., 2018. Analytical comparisons in a threeechelon closed-loop supply chain with price and marketing effort-dependent
+demand: game theory approaches. Environ. Dev. Sustain. 20 (1), 451–478.
+Zhan, Y., Tan, K.H., 2020. An analytic infrastructure for harvesting big data to enhance
+supply chain performance. Eur. J. Oper. Res. 281 (3), 559–574.
+Zhang, P., Huang, G., An, C., Fu, H., Gao, P., Yao, Y., Chen, X., 2019b. An integrated
+gravity-driven ecological bed for wastewater treatment in subtropical regions:
+process design, performance analysis, and greenhouse gas emissions assessment.
+J. Clean. Prod. 212, 1143–1153.
+Zhang, T., Chu, J., Wang, X., Liu, X., Cui, P., 2011. Development pattern and enhancing
+system of automotive components remanufacturing industry in China. Resour.
+Conserv. Recycl. 55 (6), 613–622.
+Zhang, X., Yousaf, H.A.U, 2019. Green supply chain coordination considering
+government intervention, green investment, and customer green preferences in
+petroleum industry. J. Clean. Prod., 118984
+Zhang, X., Ao, X., Cai, W., Jiang, Z., Zhang, H., 2019a. A sustainability evaluation
+method integrating the energy, economic and environment in remanufacturing
+systems. J. Clean. Prod. 239, 118100.
+Zhang, Y.H., Wang, Y., 2017. The impact of government incentive on the two competing
+supply chains under the perspective of Corporation Social Responsibility: a case
+study of Photovoltaic industry. J. Clean. Prod. 154, 102–113.
+Zhao, J., Wang, C., Xu, L., 2019. Decision for pricing, service, and recycling of closedloop supply chains considering different remanufacturing roles and technology
+authorizations. Comput. Ind. Eng. 132, 59–73.
+Zohal, M., Soleimani, H., 2016. Developing an ant colony approach for green closed-loop
+supply chain network design: a case study in gold industry. J. Clean. Prod. 133,
+314–337.
+F.M. Tsai et al. 

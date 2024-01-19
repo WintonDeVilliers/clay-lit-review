@@ -1,0 +1,2722 @@
+Index
+Note: Page numbers followed by f indicate figures and t indicate tables.
+A
+Acca sellowiana, 177
+Acetobacter xylium, 711
+Acha-pigeon pea bread, 173–174
+Acmella oleracea, 178
+Acoustic technique, 660, 660f
+Active barriers, 708
+Active food package systems, in food industry,
+384, 705, 708f, 711, 723
+Active packaging, 44
+Adansonia digitata, 178
+Adaptation to the environment, 632, 636
+“Adaptive nutrition” approach, 640
+Adulterations of distilled alcoholic beverages,
+676
+Aerospace industry, 640
+Agave-derived spirits, 680
+Aged distillates, 675–676
+Aged-whiskies’ authentication, 675–676
+Aged wine spirits, 679
+Agenda for Sustainable Development, 23
+“Age of veganism,”, 290
+Agglomeration process, 237
+Agricultural food production system
+biodiversity, 2, 4f
+consumers, 13–14
+Covid-19, 5, 7–8, 11
+food ingredients, 8–9
+food security, 11–12
+innovative technologies, 2–8
+opportunities, 14–15
+pressured situations on, 2, 3f
+sustainability challenges, 1–2
+traditional foods, 12–13
+underutilized resources, 9–11
+Agricultural productivity, food supply and
+challenges, 550–551
+climate change effects, 539
+definition, 544
+demand for, 545–546
+developing countries, 539
+food production, history of, 540–543
+artificial fertilizers, 541
+biological and organic fertilizers, 541
+British Agricultural Revolution, 540–541
+Green Revolution, 541
+steam engines, 541
+three-way crop rotation system and
+moldboard plow, 540
+traditional and modern-day agricultural
+systems, 541–543, 547–550
+human resources, 539
+increase, methods to, 544–545
+labor productivity, 544
+land productivity, 544
+opportunities, 550–551
+population growth, 539–540
+technology, 546–550
+“yield per unit,”, 544
+Agriculture, 24–26, 40
+coastal agriculture, sea-level rise impact on,
+57–59
+Covid-19 pandemic, negative effects of,
+81
+expansion, challenges in, 51
+extreme weather events, impact of, 55–56
+cyclone, 56–57
+drought, 56
+flooding, 56
+heat waves and fire, 57
+invasive alien plants, impact of (see Invasive
+alien plants (IAPs))
+sustainable agriculture, 107–108
+technology application in, 99–101
+Agriculture, Forestry, and Land Use Change
+(AFLU), 116
+AgriFood 4.0, 40–42
+Agri-food production, climate change impact
+on. See Climate change
+Agri-food residues, 698
+Agri-food sector, 46–47
+biotechnology in
+green extraction techniques and
+valorization of food wastes, 700–702
+industrially useful value-added compounds,
+702–703
+resources and actives biomolecules,
+698–703, 699f
+circular economy, 39, 46t
+digital technologies, role of, 40–41, 45
+AgriFood 4.0, 40–42
+analytics techniques, 42–43
+artificial intelligence (AI), 42–43
+Big Data techniques, 42–43
+blockchain technology, 43–45
+cyber-physical systems, 42–43
+data analysis strategies, 42–43
+decision support tools (DSSs), 42–43
+digital transformation process, 41–43
+digital twin, 42–43
+packaging techniques, 44
+sensing techniques, 42–43
+sustainable intensification of agriculture,
+42–43
+3D printing technology, 44–45
+food loss and waste (FLW) (see Food loss and
+waste (FLW))
+smartness and sustainability, 40–41
+sustainable development goals (SDGs),
+39–40, 45
+Agroecological Organization of Vale do Taquari
+(AAVT), 531
+Agroecology, 24–25, 25f
+Agroforestry, 68
+AI-based food industrial startups, 619
+Air jet cooling system, 636–637
+Alcalase, 325–326
+Alcohol-based beverage industry
+challenges, 264
+global wine market, 259
+honey, contribution of, 260
+opportunities, 264
+“prickly pear” fruit, 259
+nutritional and functional properties of, 259
+in vitro antioxidant activity of, 260–263
+volatile compounds, 261, 262–263t
+Alcohol-based beverages authentication, 669
+Alcoholic beverages, 669, 682–686t
+Algae, 197–198
+bioactive substances, 183
+carotenoids, 190, 191f
+consumption and market, 183
+food, use in, 194–197
+lipids, 188–190, 189f, 189t
+macroalgae (see Macroalgae)
+microalgae (see Microalgae)
+minerals, 192–194, 193–194t
+nutraceuticals, 184
+nutrients, 183
+oil, 213–215, 214t
+polyphenols, 190–192, 192f
+polysaccharides, 184–185, 185t, 186f
+proteins, 185–188, 188t
+selenium (Se), 183
+Almond beverage, 235
+Alphalinolenic acid (ALA), 203
+algae oil, 213–215
+insect oil, 207
+single cell oils (SCOs), 209–213
+Alpinia officinarum, 657–658
+Alternanthera sessilis, 178
+Amaranth, 87
+“Ambrosus” network, 31
+745
+Amino acids, 89, 187
+Anacardium othanianum Rizz, 166–171t, 172
+Analysis of variance (ANOVA), 647–648
+Andean berry (Vaccinium meridionale Swartz),
+166–171t, 172
+Andres Bello Convention, 159
+Anemia, 118
+Animal-based food products, 353, 712–713
+cause aquatic nutrient pollution, 353–354
+emit high greenhouse gas, 353
+exposed to antibiotics, 354
+technology, 712–713
+Animal-based oil
+algae oil, 213–215, 214t
+cell-based oil, 209–215
+fish by-products oil, 209
+insect oil, 207, 208t
+krill oil, 207–209
+Animal origin, foods of
+dairy products, 631
+egg products, 631–632
+meat products, 630–631
+Antibiotics, animal-based foods exposed to, 354
+Anti-caking agents, 237
+Antimicrobial activity, 709
+Antimicrobial packaging, 44
+Antimicrobial resistance determinants, 736–737
+Antinutrients, in underutilized legumes,
+156–157, 156t, 159
+Antioxidants, 475–476, 705–707, 707f
+capacity, 705–706
+Apache Kafka, 739–740
+Apache Storm, 739–740
+Aquaculture, 28
+Arabic gum, 236
+Arbin, 158
+Arbutus unedo L. fruit, 166–171t, 173
+Artificial intelligence (AI), 42–43, 99–101, 547
+tools, for collected data, 619
+Artificial neural network (ANN) model,
+651–653
+Asian Development Bank (ADB), 116–117
+Aspergillus oryzae, 714–715
+Association of Southeast Asian Nations
+(ASEAN), 112
+Authentication, 669
+of fermented beverages, 681–687
+through sensory evaluation, 674–675
+in wine industry (see Wine)
+winemaking procedures, 671
+Authentication needs, in distilled alcoholic
+beverages industry, 675–681
+discrimination approaches for, 682–686t
+methods of, 676–681
+fruit spirits, 680
+rum and other spirits, 680–681
+tequila, 680
+whiskey/whisky and grain fermented
+distillates, 676–678
+wine and grape marc spirits, 678–679
+types of, 675–676
+Authenticity assurance, 623
+Authentic tequilas, 680
+Automated mechanical robots, 619
+Automated steering tractor, 459
+Automation, for food process chain, 623
+Averrhoa bilimbi, 140
+Avocado oil (AO), 215
+B
+Back propagation neural network (BPNN)
+model, 648–649, 652–653, 657–658
+Backscattering imaging system, 650–651
+Bacteria
+single cell oils (SCOs), 210–213t, 213
+sources, designer foods
+gut microbiome, 484
+paraprobiotics and postbiotics, 486
+prebiotics, 484–485
+probiotics, 484
+synbiotics, 485–486
+Bacteriocins, 711
+Bacteriophages, 712–713
+Bakery products, from underutilized fruits and
+vegetables, 166–171t
+Acha-pigeon pea bread, 173–174
+broken rice and split beans, 174
+carob (Ceratonia siliqua L.), 173
+date palm (Phoenix dactylifera L.), 165, 172
+Maya nut (Brosimum alicastrum), 172
+pigeon pea (Cajanus cajan), 173
+Bambara groundnut (Vigna subterranea), 159
+Barley
+global yield, 84–85, 85f
+history of, 84–85
+nutrients and minerals in, 89, 90t
+pests and diseases in, 94–99t
+total phenolic acids and flavonoids in, 90–92,
+92t
+vitamins in, 89–90, 91t
+Bauhinia sp., 157–158
+Bayesian networks (BN), 601
+Beer adulteration, 681–687
+Beverages
+almond beverage, 235
+fermented beverage products, 241
+boza, 242–243, 242f
+Haria, 241
+Kunun-zaki, 241
+lactic acid bacteria, 240
+non-dairy yogurts, 240
+probiotic non-dairy beverages, 240–241
+multi-grain beverages, 90–92
+soy beverage, 235
+soy-tiger nut beverages, 235
+from underutilized fruits and vegetables,
+166–171t, 172
+Anacardium othanianum Rizz, 172
+Andean berry (Vaccinium meridionale
+Swartz), 172
+black common beans, 174
+chia seed and flaxseed, 175
+faba bean, 174
+guarana´ (Paullinia cupana), 172
+huauzontle, 174
+jabuticaba (Myrciaria cauliflora Mart.),
+172
+longan (Dimocarpus longan Lour), 172
+moth bean (Vigna aconitifolia), 174
+navy beans, 174
+Ziziphus jujuba Mill, 172
+b-glucan, 471
+Big data
+analysis, 617
+in monitoring food quality, 739–740
+techniques, 42–43
+Bimetallic nanoparticles, 726–727t
+Binding agents, ingredients in meat analog, 358
+Bioactive compounds, 698–700
+Bioactive packaging, 384
+Bioactive peptides (BPs), 479–480
+Bio-based food packaging, renewable
+feedstocks for, 382–383
+Bio-based nanofillers, 384
+Bio-based packaging materials, 709
+Bio-based plastics, 378
+Bioclimatic modeling approaches, 64
+Biocompatible system, 706
+Biodegradability
+packaging films, 709
+packaging innovations for, 385
+Bioeconomy
+food packaging innovations for, 382–384
+sustainability challenges, 378–382
+Bioinformatics, in monitoring food quality, 733,
+736–739, 736–737t, 739f
+BioKES, 459
+Biological synthesis of nanoparticles, 725–728
+mechanism of action, 727–728
+Bio-meat, 44
+Bioplastic packaging, 383
+Biopolymers, 705
+materials, 706
+Biosensors, 617
+Biotechnological innovations, microbes in,
+710–712
+Biotechnological production, 702–703
+Biotechnology, 715
+Blackcurrant, 166–171t, 173
+Blockchain technology, 31, 43–44
+of food chain, 600–602, 600f
+Blood fruit, 140
+Blue River Technology, 100
+Bottom-up method of synthesizing
+nanoparticles, 724–725, 725f
+Boza, 242–243, 242f
+BPNN model. See Back propagation neural
+network (BPNN) model
+Brazilian native fruits (BNF), 177
+Brazil nut milk powder, 237
+British Agricultural Revolution, 540–541,
+543
+Brix content, 659
+Broken rice, 174
+Brown macroalgae, 184–185, 185t, 189–190,
+189f
+Buckwheat, 88
+Buffer action, 557
+Burkitt’s hypothesis, 290
+“Business as usual” model, 40
+Butylated hydroxyanisole (BHA), 476
+Butylated hydroxytoluene (BHT), 476
+746 Index
+C
+Caesalphinia pulcherrima, 175
+Can˜ahua, 88–89
+Canavalia ensiformis, 152f
+Cannabidiol (CBD), 215–216
+Carbohydrates, 81–82, 89, 93, 184
+macroalgae, 184, 185t
+microalgae, 185, 187t
+Carbon dioxide (CO2)
+atmospheric emissions, 55, 55f
+crop photosynthesis and stomatal
+conductance, influence on, 55
+Carob (Ceratonia siliqua L.), 166–171t, 173, 175
+Carotenoids, 190, 191f
+Catch shares, 27–28
+Cave-harvested edible bird’s nest (cave E-BN),
+316–317, 319–320t
+CCT. See Cloud computing technology (CCT)
+Cell-based oil, 209–215
+Cellular agriculture, 714
+Cereal crops, production and global
+population trends, 49–50, 50f
+Cereal grains
+barley, 84–85, 85f
+maize, 82, 83f
+millets, 85, 86f
+nutritional compositions of, 89–90, 90t
+oats, 85–86, 86f
+pests and diseases in, 93–99, 94–99t
+polyphenolic components (see Polyphenols,
+in cereal grains)
+pseudocereals (see Pseudocereals)
+rice, 83, 84f
+rye, 86, 87f
+sorghum, 84, 84f
+wheat, 82–83, 83f
+Chang’e4 biosphere moon experiment, 456–457
+Cheese, 238–239
+Chemical antimicrobial agents, 708f
+Chemical-based assays, monitoring of food
+quality, 735–736
+Chemical markers, 672–673, 688
+Chemical sensors, 387
+Chemometrics, 677
+multivariate data analysis, 739–740
+Chia (Salvia hispanica), 88, 166–171t, 175–176
+China database, food adulteration in, 601
+Chinese quince (Pseudocydonia sinensis), 178
+Chitosan, 712
+Chord diagram, 10–11, 10f
+Circular bioeconomy (CBE) model, 569,
+572–588
+Circular economy, 1, 7–8, 10–11, 39, 46t
+food packaging innovations for, 384–386
+principles, 705
+sustainability challenges, 379–381
+Circular food packaging, digital technology for,
+388
+Climate change, 49, 68–69, 81–82
+coastal agriculture, sea-level rise impact on,
+57–59
+crop production, impact on, 53
+carbon dioxide (CO2), projected changes in,
+55
+mean temperatures, changes in, 53–54, 54t
+rainfall, projected changes in, 54
+definition, 51–52
+El Nina and La Nina cycles, 51–52
+extreme weather events, agricultural impacts,
+55–56
+cyclone, 56–57
+drought, 56
+flooding, 56
+heat waves and fire, 57
+food security, adaptation and mitigation
+practices
+agroforestry, 68
+barriers, 68
+challenge to, 116–117
+consumption and diet pattern, change in, 68
+crop diversification, 67–68
+crop insurance, 67–68
+crop–livestock farming system, 67–68
+food waste reduction, 68
+organic farming, 68
+policy and institutional level constraints, 68
+sustainable land management, 68
+technology and management systems, 68
+weather-index insurance schemes, 67–68
+global land and ocean temperature anomalies,
+52–53, 53f
+impacts, food security, 11–12
+invasive alien plants, agricultural impact
+(see Invasive alien plants (IAPs))
+La Nina cycle, 51–52
+Milankovitch cycles, 51–52
+neglected, underutilized, and wild edible
+plants (NUWEPs), 64–67
+oil crops, impact on, 205–207
+Pacific Decadal Oscillation, 52
+pests and diseases, impact on food production,
+61–64
+and short-term weather variability, 51–52, 52f
+Climate, definition of, 51–52
+Climate-resilient crop production technologies,
+57
+Climate smart agriculture (CSA), 121–122
+Closed-loop recycling of permanent packaging
+materials, 381
+Clostridium botulinum, 710
+Cloud computing technology (CCT), 618–619
+CNN model. See Convolutional neural network
+(CNN) model
+Coagulants, 238
+Coagulation process, of soymilk, 238
+Coastal agriculture, 57–59
+Coconut oil, 203–205
+Cognitive Salience Index (CSI), 416–417
+Cold pressing technique, 216
+Colorimetric sensors, 733
+Coloring agents, ingredients in meat analog, 358
+Commercialized optical biosensor, 387
+Common Agriculture Policy (CAP), 41
+Community-based fisheries management
+systems, 27–28
+Comprehensive quality detection, 645–646
+Conflict famines, 110
+Conjugated linoleic acid (CLA), 478–479
+Conservation Agricultural and Sustainable
+Intensification technology (CASI), 120
+Consumers
+as analyst of food fraud, 607
+food industries and, 714f
+and food industry, 4, 13–14
+perception and acceptability, of printed
+products, 627, 634–635, 637–638
+transparency, 622
+“Contrasting Elements Zone,”, 419
+Controlled Environment Agriculture (CEA), 454
+Conventional analytical-based food quality
+monitoring tools, 734–736
+chemical-based assays, 735
+equipment-based techniques, 734–735
+limitations of conventional approaches,
+735–736
+sensors, 734
+Conventional approaches, to monitor food
+quality, 735–736
+Convolutional neural network (CNN) model,
+647–648
+Corn germ oil (CGO), 218
+Counterfeit whiskies, 675–676
+Counterfeit wines, 688
+COVID-19 pandemic, 121, 124, 139
+on food security, 515
+Cow’s milk protein allergy (CMPA), 233–234
+Crop-animal rotation, 548
+Crop-harvest rotation, 548
+Crop insurance, 67–68
+Crop–livestock farming system, 67–68
+Crop production
+cereal crop production and global population
+trends, 49–50, 50f
+climate change impact on, 53
+carbon dioxide (CO2), projected changes in,
+55
+mean temperatures, changes in, 53–54,
+54t
+rainfall, projected changes in, 54
+food crops, regional production of, 50, 51t
+CubeSat, 453–454
+Culinary 3D printers, 636
+Cultured meat, 272–273
+cellular agriculture, 331
+challenges, 343–346
+consumer perception of
+information, role of, 340
+price and taste, 342
+socio-demographic factors, 340–341
+conventional meat supply chains, 336–339
+muscle-specific stem cells, living animal,
+331
+naming, terminology and regulatory
+framework for, 342–343
+opportunities, 343–346
+positive externalities of
+animal welfare, 334–335
+environmental benefits, 332–334
+food safety, 335
+food security, 335–336
+Cyber-physical systems, 42–43
+Cyclones, 56–57
+Index 747
+D
+Dairy products, 166–171t, 631
+Caesalphinia pulcherrima seeds, 175
+monk fruit (Siraitia grosvenorii), 172
+passion fruit (Passiflora cincinnata Mast.),
+173
+riceberry rice (Oryza sativa), 175
+sacha inchi (Plukenetia volubilis L.), 175
+salal berry (Gaultheria shallon), 173
+strawberry tree (Arbutus unedo L.), 173
+yacon (Smallanthus sonchifolius), 175
+Data analytics, 100
+of food fraud, 600–602
+Database, on food adulteration in China, 601
+Data collection, 615
+wireless sensors in, 615–617
+Data communication devices and applications,
+in food industry, 620, 621t
+Data mining, for prediction of missing data,
+619
+Data processing technologies
+artificial intelligence tools, 619
+big data analysis, 617
+cloud computing, 618
+data mining, 619
+data storage, 619–620
+image processing, 619
+machine learning, 617–618, 618t
+statistical tools and processes, 620
+Data storage, 619–620
+Date palm (Phoenix dactylifera L.), 165,
+166–171t, 172
+Decernis food fraud database, 601
+Decision support tools (DSSs), 42–43
+Deep learning approach, 740–741
+Defatting process, 735–736
+Designer foods, 5, 9
+animal sources
+bioactive peptides (BPs), 479–480
+conjugated linoleic acid (CLA), 478–479
+polyunsaturated fatty acids (PUFAs),
+477–478
+bacteria sources
+gut microbiome, 484
+paraprobiotics and postbiotics, 486
+prebiotics, 484–485
+probiotics, 484
+synbiotics, 485–486
+challenges, 488
+classic nutrients, 469
+development, 486–488
+functional foods, 469
+health claims, 469–470
+insect sources
+edible insects, mean nutritional
+composition of, 480, 481t
+entomophagy, 480
+insect-based bioactive components,
+482–483
+opportunities, 488
+plant sources
+antioxidants, 475–476
+phytosterols, 475
+polysaccharides, 470–472
+polyunsaturated fatty acids (PUFAs),
+473–475
+protein, 473
+resistant starch, 472–473
+whole foods, 469
+Designer foods and feeds, 179
+health benefits, 176–178, 177f
+from underutilized fruits (UFs), 166–171t, 173
+artificial additives, 173
+bakery products, 165–172
+beverages, 172
+dairy products, 172–173
+flour, from Juc¸ara peel, 173
+health benefits, 177f, 178–179
+underutilized vegetables, cereals, and pulses,
+166–171t, 176, 177f
+bakery products, 173–174
+beverages, 174–175
+dairy products, 175
+health benefits, 177f, 178–179
+meat products, 175–176
+PulseON® powders, 176
+snacks, 176
+syrup, 176
+Design-for-recycling (DfR) guidelines, 380, 385
+Detection tools, for food fraud, 605–607
+consumers as analyst, 607
+Deterrence, 602
+Dextran, 240
+Dielectric constant, 659
+Dielectric properties of food products, 659–660
+Dielectric sensing device, 659–660
+Dietary carotenoids, 476
+Dietary energy supply (DES), 111–112
+Dietary fibers (DFs), 470–471, 577
+Digitalization, 6–7
+Digital technology, 40–41, 45–47
+AgriFood 4.0, 40–42
+analytics techniques, 42–43
+artificial intelligence (AI), 42–43
+Big Data techniques, 42–43
+blockchain technology, 31, 43–45
+for circular food packaging, 388
+cyber-physical systems, 42–43
+data analysis strategies, 42–43
+decision support tools (DSSs), 42–43
+digital transformation process, 41–43
+digital twin, 42–43
+of food chain, 600–602
+food packaging innovations in, 386–388
+of food processing industries, 613–615,
+622–623
+packaging techniques, 44
+sensing techniques, 42–43
+sustainability challenges in, 381–382
+sustainable intensification of agriculture,
+42–43
+3D printing technology, 33, 44–45
+Digital temperature sensors, 560
+Digital twin, 42–43
+Direct farming, 555, 564
+Distilled alcoholic beverages, 689
+authentication of, 675–681
+Distributed ledger paradigm, 43–44
+DJI Phantom, 563
+Docosahexaenoic acid (DHA), 203
+algae oil, 213–215
+fish oil, 209
+krill oil, 207–209
+single cell oils (SCOs), 209–213
+tree nuts oil, 216
+Domestication, of underutilized fruits, 134,
+145–146
+centralized strategy, 141
+challenges and constraints for
+agricultural sector, expansion of, 143
+agronomic management, lack of, 142
+commercialization of, 143, 143f
+established propagation centers, lack of,
+142
+few species, commercialization of, 143
+genetic resources, unavailability of, 142
+inadequate research funding, 142
+information, knowledge, and awareness,
+lack of, 144
+limiting factors, 144
+low marketability, 144
+low yields and slow growth cycles, 142
+poor organoleptic attributes, 144
+decentralized strategy, 141
+key players in, 141, 141f
+simplified strategy, 144–145, 145f
+Drone, 99–100
+Drought, 56, 109
+Drought-tolerant maize varieties (DTMVs), 121
+Drying process, 735–736
+Dual modification-treatment (DMT), 472
+Dynamics of traditional food heritage, 521
+E
+EAEx. See Enzyme-assisted extraction
+(EAEx)
+Early Warning System (EWS), 601
+EAT-Lancet Commission, 31–32, 32f
+E-commerce, food packaging for, 388
+Economic impact of 3D printing, 634
+EDEN International Space Station (ISS)
+mission, 454
+Edible bird’s nest (E-BN), sustainability
+challenges in, 316–324
+anti-inflammatory activity, 315
+cave-harvested edible bird’s nest (cave
+E-BN), 316–317, 319–320t
+color of, 318–321
+grading of, 318
+house-harvested edible bird’s nest (house
+E-BN), 317–318
+hygiene in, 315
+identification technique, 323–324
+nutritive values, 321–323
+amino acids, 321, 322t
+minerals, 323
+proteins, 321
+sialic acid, 321–322
+opportunities, 327
+sustainability challenges, in E-BN
+valorization
+748 Index
+applications and commercialization of,
+326–327
+value-added E-BN co-products, 324–326
+value-added products, 315
+Edible food packaging, 386, 705
+Edible insect proteins, 712
+Edible oils (EO), 224
+animal-based oil
+algae oil, 213–215, 214t
+cell-based oil, 209–215
+fish by-products oil, 209
+insect oil, 207, 208t
+krill oil, 207–209
+blending, 223–224
+characteristics, 205–206t
+definition, 203
+fatty acids (FA) (see Fatty acids (FA))
+improvement, 224
+industry, challenges in, 205–207
+plant-based oil
+avocado oil (AO), 215
+by-products, 219, 220–221t
+germ oil (GO), 216–218
+hemp oils, 215–216
+mustard oil (MO), 216
+rice bran oil (RBO), 219
+tree nuts oil, 216, 217–218t
+policy, 224
+structuring, 219–222
+Edible polymers-based packaging, 706
+Edible vaccines
+advanced rDNA technology
+gene gun bombardment method,
+308–309
+advantages, conventional vaccines, 307
+agrobacterium-mediated production of, 309f,
+312
+biotechnological approach, 305–306
+challenges, 312
+COVID-19, 311
+crops for production
+banana, 309
+potato, 309–310
+rice, 310
+spinach, 310
+tomato, 310–311
+development of, 306
+immunity, 305
+infectious diseases, 306
+limitations, 307
+manufacturing cost and side effects,
+305–306
+mechanism of action, 307
+opportunities, 312
+production of
+plant-based vaccine production, 308
+stable transformation system (STS), 308
+transient transformation system (TTS), 308
+second-generation edible vaccines, 311–312
+“Therapeutic Food,”, 306
+Educational game attitudes, 507
+Education, on healthy diets, 32–33
+EFSA. See European Food Safety Authority
+(EFSA)
+Egg products, 631–632
+Eicosapentaenoic acid (EPA), 203
+algae oil, 213–215
+fish oil, 209
+krill oil, 207–209
+single cell oils (SCOs), 209–213
+Elaidic acid, 204f
+Electric field (EF) processing, 274
+Electrochemical biosensors, 387
+Electrolyzed water, 714–715
+Electromagnetic spectrum, 653
+Electronic nose (e-nose) device, 657–658, 674,
+688
+Electronic tongue (e-tongue), 658–659, 659f
+ELISA. See Enzyme-linked immunosorbent
+assay (ELISA)
+Ellen-MacArthur Foundation, 379–380
+Elliott Review, 597
+El Nina cycle, 51–52
+Emulsion encapsulation techniques, 474–475
+Encapsulation, 705–706
+Enhanced food quality monitoring, 741
+“Enological tourism,”, 421
+Enteric fermentation, 26–27, 26f
+Entomophagy, 361
+Environmental impact of packaging, in food
+supply chains, 377
+Environmental pollution, 688
+Enzyme-assisted extraction (EAEx), 700
+Enzyme-linked immunosorbent assay (ELISA),
+735
+Equipment-based techniques, monitoring food
+quality, 734–735
+Equivalent umami concentration values (EUC),
+473
+Erythrina indica, 152f
+Essential amino acids, 187
+Essential fatty acids (EFAs), 203
+Eugenol, 706
+EU Rapid Alert System for Food and Feed
+(RASFF), 600–601
+European food safety authority (EFSA), 216,
+600–601
+European Green Deal, 41
+European Union, 380, 669
+Europe Media Monitor, 601
+Evolutionary breeding, 25
+EWS. See Early Warning System (EWS)
+Exopolysaccharide (EPS), 240
+Expiration labels, rationalization of, 29
+Extraction and recovery technologies, food
+proteins
+electric field (EF) processing, 274
+electrostatic separation, 275
+enzymatic extraction, 275
+high hydrostatic pressure (HHP), 275
+microwaves (MWs), 274–275
+solvent-based techniques, 275
+ultrasound (US) technology, 274
+Extreme weather events
+agriculture, impact on
+cyclone, 56–57
+drought, 56
+flooding, 56
+heat waves and fire, 57
+definition, 55–56
+Extrusion type of 3D printing, 710
+F
+Faba bean, 166–171t, 174
+Famine, 110
+FAO. See Food and Agriculture Organization
+(FAO)
+Farm automation technology, 555
+Farming agroecologic systems, 25
+Farm mechanization, 120
+Farm to fork (F2F) strategy, 41, 45, 499
+Farrell’s diffusion theory, 650
+Fast food, 183
+Fat/lipid metabolism, 441–442
+Fats, in meat analog, 358
+Fatty acid methyl esters (FAMEs), 219
+Fatty acids (FA), 203, 219–222
+classifications of, 203
+fish oil, 209
+hemp oil, 216
+insect oil, 207
+mustard oil (MO), 216
+rice bran oil (RBO), 219
+single cell oils (SCOs), 209–213
+structure, 204f, 204t
+trans-fatty acids (TFA), 203–205, 219–222
+unsaturated fatty acid (USFA), 203–205, 215,
+219–222
+wheat germ oil (WGO), 218
+FDA. See Fisher discriminant analysis (FDA)
+Feedomics, 5, 6f
+Fermentation, of grains, 93
+Fermented beverages
+authentication of, 681–687
+products, 241
+boza, 242–243, 242f
+Haria, 241
+Kunun-zaki, 241
+lactic acid bacteria, 240
+non-dairy yogurts, 240
+probiotic non-dairy beverages, 240–241
+Fermented plant-based milk and derivatives, 240
+Fetal bovine serum (FBS), 334
+FFISM. See Food Fraud Initial Screening Model
+(FFISM)
+Fiber-based food packaging, 384
+Fibrous proteins, 268–269
+First additive manufacturing technologies,
+627
+Fisher discriminant analysis (FDA), 657–658
+Fish oil, 197, 209
+Flakes, E-BN, 324–325
+Flavonoids, 90–93, 476
+Flavorings, in meat analog, 355–358
+Flaxseed, 175
+Flexitarianism, 638–639
+Flooding, 56
+Fluorescence imaging system, 652
+Fluorescence spectrometry, 679
+Fluorescent-based tongue, 677–678
+Fluorescent fingerprinting technique, 678
+Index 749
+Food Adulteration Database (FADB)—China,
+601
+Food allergy, 234
+Food and Agriculture Organization (FAO),
+23–24, 253–254, 267, 515, 517, 522,
+570–571, 697–698, 733
+Food and Drug Administration (FDA), 633
+Food and Drug Administrative (FDA), 219–222
+Food applications, innovation and challenges,
+703, 713–715, 714f
+advanced food packaging and biopolymers,
+703–710
+animal-based food technology, 712–713
+microbes in biotechnological innovations,
+710–712
+Food biotechnology, 697–698, 715
+in agri-food sector
+green extraction techniques and
+valorization of food wastes, 700–702
+industrially useful value-added compounds,
+702–703
+resources and actives biomolecules,
+698–700, 699f
+innovation and challenges, 703, 713–715,
+714f
+advanced food packaging and biopolymers,
+703–710
+animal-based food technology, 712–713
+microbes in biotechnological innovations,
+710–712
+Food chain, blockchain and digitization of,
+600–602, 600f
+“Food citizenship,”, 530
+Food crisis
+agricultural production, impact on, 108
+dietary supply problem, 111–112
+disproportionate price increase, 108
+drought, 109
+farmers, impact on, 108
+food insecurity, famine, and hunger, 109–111
+malnourishment, problem of, 109
+Food crops, regional production of, 50, 51t
+Food culture, 521
+Food defense, 9
+Food Fraud Flying Squad, 601–602
+Food Fraud Initial Screening Model (FFISM),
+599
+Food frauds, 6–7, 11, 45, 597–598
+altered foods, 29–30
+assessment, 598–599
+Food Fraud Initial Screening Model
+(FFISM), 599
+Safe Supply of Affordable Food
+Everywhere (SSAFE), 599
+techniques, 30–31
+blockchain and digitization of food chain,
+600–602, 600f
+data analytics, 600–602
+blockchain and food traceability, 31
+definition, 29–30
+detection, 605–607
+consumers as analyst, 607
+deterrence, 602
+incidents, 598t
+prevention
+people-related preventive measures,
+602–604
+place-related preventive measures, 605
+process and data-related preventive
+measures, 604–605
+Food industry
+active food package systems, 384, 705, 708f,
+711, 723
+applications in, 613–614
+and consumers, 714f
+data communication devices and applications,
+620, 621t
+innovative food industries, 614
+intelligent package systems, 723
+robots in, 614, 614f
+Food innovation, 713–715
+Food insecurity, 50–51, 107–109, 111
+factors, 109
+famine, 110
+Food Insecurity Experience Scale (FIES),
+109
+and hunger, 109, 115–117
+moderate and severe, prevalence of, 109–110,
+109f
+and poverty, 117–118, 120
+undernourishment, 108–110, 110f, 117–118,
+121, 133
+Food Insecurity Experience Scale (FIES), 109
+Food integrity culture, 602
+Food loss and waste (FLW), 39–40, 45, 296, 353,
+570
+food security, challenge to, 119–120
+reduction at consumption phase, 123
+reduction of, 23
+blockchain and food traceability, 31
+expiration labels, rationalization of, 29
+food fraud, prevention of, 29–31
+food preservation, 29
+reutilization and revalorization, 29, 30f
+tech-based solutions for, 46
+Food packaging, 703–710
+films, 705
+innovation, 375–378
+for bioeconomy, 382–384
+for circular economy, 384–386
+in digitalized world, 386–388
+environmental impact of, 377
+Food preservation technologies, 29
+Food production, 33–34, 183
+food loss and waste (FLW) reduction
+blockchain and food traceability, 31
+expiration labels, rationalization of, 29
+food fraud, prevention of, 29–31
+food preservation, 29
+reutilization and revalorization, 29, 30f
+future demand for, 23–24
+global healthy diets, 31
+education, 32–33
+functional foods and 3D printing, 33
+reference diet, for human and global health,
+31–32, 32f
+goal, 23
+Green Revolution, 23–24, 112
+harvested area and production, of primary
+crops, 113–115, 113–114t
+Middle East and North Africa (MENA),
+112
+Near East and North Africa (NENA) region,
+112–113
+pests and diseases, climate change impact on,
+61–64
+Southeast Asia, 112
+Sub-Saharan Africa, 112
+sustainable development of food systems,
+challenges, 23, 24f
+land degradation and agriculture, 24–26
+marine ecosystems, overexploitation of,
+27–28
+ruminant livestock, greenhouse gases
+associated with, 26–27, 26f
+Food products, children
+authoritative parents, 500
+demandingness, 500
+exploratory behaviors, 500
+food waste practices, 500
+fungi pack, coffee grounds, 501–502
+healthy and sustainable diet, 499–500
+home-cooked food, 500
+indulgent parents, 500
+interventions, 500
+obesity, economic costs of, 499
+parental ‘affectionless control,’ obesity in
+adults, 500
+plant-based alternatives, 499
+responsiveness, 500
+ultra-processed plant-based food, 500–501
+Food proteins
+biorefinery, concept of, 267–268
+challenges, 280
+dietary shifts, 267–268
+emergent protein sources
+aquatic and herbaceous plants, 273
+cultured meat, 272–273
+insects, 271
+microbial protein, 271–272
+food wastes, agro-food industry, 268–270,
+269–270t
+innovative protein systems, design of
+food components, interaction with,
+278–279
+health implications, 279–280
+techno-functional properties, 277–278
+opportunities, 280
+protein recovery
+extraction and recovery technologies,
+274–275
+intensification, 273
+substrate, consideration of, 276–277
+sustainable renewable supply chain,
+267–268
+Food quality, 721, 733
+big data, 739–740
+bioinformatics, 736–739, 736–737t, 739f
+conventional analytical-based food quality
+monitoring tools, 734–736
+chemical-based assays for monitoring of
+food quality, 735
+750 Index
+equipment-based techniques for monitoring
+food quality, 734–735
+limitations of conventional approaches to
+monitor food quality, 735–736
+sensors, as food quality monitoring tool,
+734
+and safety, 2–4, 4f, 6–7, 14–15
+Food quality detection, non-destructive methods
+for, 645–646
+imaging-based techniques, 646–655
+backscattering imaging system, 650–651
+fluorescence imaging system, 652
+hyperspectral imaging system, 647–648,
+648f
+magnetic resonance system, 652–653, 653f
+multispectral imaging system, 648–650
+RGB imaging system, 646–647, 647f
+thermal imaging system, 651–652, 651f
+ultrasonic imaging system, 654–655
+X-ray, 653–654, 654f
+non-destructive approaches
+acoustic technique, 660, 660f
+dielectric properties of food products,
+659–660
+electronic nose (e-nose) device, 657–658
+electronic tongue (e-tongue), 658–659, 659f
+spectroscopy-based techniques, 655–657
+near-infrared (NIR) spectroscopy, 656
+Raman spectroscopy, 657
+visible-near infrared (VIS-NIR)
+spectroscopy, 655–656
+Food safety (and integrity) culture, 602, 721
+Food security, 151, 351–353, 361–362, 366, 515,
+522
+adaptation and mitigation practices
+agroforestry, 68
+barriers, 68
+consumption and diet pattern, change in, 68
+crop diversification, 67–68
+crop insurance, 67–68
+crop–livestock farming system, 67–68
+food waste reduction, 68
+organic farming, 68
+policy and institutional level constraints, 68
+sustainable land management, 68
+technology and management systems, 68
+weather-index insurance schemes, 67–68
+challenges, 107–108, 124
+climate change, 116–117
+Covid-19 pandemic, 121, 124
+food loss and waste (FLW), 119–120
+gender, poverty, conflicts, and inequality,
+117–118
+global population growth, 115–116
+nutritional issues, 118–119
+technology development and scaling,
+120–121
+climate change impacts, 11–12
+Covid-19, 12, 13f
+food production (see Food production)
+self-sufficiency, 11
+sustainable food systems
+active investment, in new technologies, 122
+climate smart agriculture (CSA), 121–122
+consumption, 123–124
+pre-production stage, innovations and
+measures, 122–123
+production stage, innovations and
+measures, 123
+rural resilience, 122
+short message service (SMS), 122
+supply chain, 123
+underutilized fruits (UFs), 136
+zero hunger SDG, 107–108, 124
+Food spoilage, 721
+Food sterilization systems, 714–715
+Food supply chains, environmental impact of
+packaging, 377
+Food traceability, 600
+Food waste, 375–377, 382–383, 385–388
+reduction in, 622–623
+valorization of, 700–702
+Food waste and by-product valorization
+bio-based products, 569–570
+challenges, 589
+circular bioeconomy (CBE) model, 569
+food production and processing, role of,
+570–572
+FUSIONS, 570
+legislation and regulations, 588–589
+opportunities, 589
+wastes and by-products, valorization
+strategies
+fruit and vegetable processing industry,
+573–579, 574t
+plant-based drink production industry,
+584–588
+vegetable oil extraction industry, 579–584
+Forensic accounting, 601–602
+4D printing, 640
+Fourier transform infrared spectroscopy (FTIR),
+323, 673, 676–677
+Fourier transform ion cyclotron resonance mass
+spectrometry (FT-ICR-MS), 677,
+680–681
+Fourier transform near-infrared spectroscopy
+(FT-NIR), 740
+Fraudsters, 608
+Fraud Triangle, 602
+Fraudulent wine, 670–671
+Free fatty acids (FFAs), 203
+algae oil, 213–215
+fish oil, 209
+rice bran oil (RBO), 219
+Freeze-dried legume powder, 237
+Freeze-drying method, 235
+Freshness indicators, 387
+Front-face fluorescence spectroscopy, 673
+Fruits, 113–114t, 114–115
+definition, 133
+Fruit spirits, 680
+Fucoidan, 184–185
+Fucoxanthin, 190
+Fully automated system, 658–659
+Functional foods, 8–9, 14, 33, 184
+Functional MRI (fMRI) imaging studies,
+428–429
+Fungi-based meat alternative, 360–361
+Fungi pack plant game, coffee grounds,
+501–502, 512
+assessing parents’ preferences, fungi-pack
+plant game, 510–511
+challenges, 511–512
+choice experiments (CE), 503
+cluster analysis, 507–509
+clustering parents
+eating habits, 506
+educational game attitudes, 507
+food waste behavior, 506
+data, 502
+eating habits, food waste and educational
+product, 503
+feeding styles, 502–503
+modeling approach, 504
+opportunities, 511–512
+questionnaire, 502
+socio-demographics and feeding style,
+504–505
+Fusarium head blight (FHB), 62
+Fusarium infection, 652
+Fusarium wilt, 62
+FUSIONS, 570
+Future Smart Food (FSF) program, 64–67
+G
+Gamma irradiation, 712–713
+Gas indicators, 387
+“Gastronomic tourism,”, 421
+Gastronomy, social representations, 9, 15,
+411–412, 421–422
+Cognitive Salience Index (CSI), 416–417
+consumers language, in two Latin American
+countries, 417
+central core and peripheral areas, 418–420
+cognitive and attitudinal importance of,
+420–421
+opportunities, 421
+sustainability challenges, 421
+definition of, 412–413
+foods and their conception, 413–414
+projective technique, of word association,
+414–415
+structural approach and Central Core Theory,
+415–416
+Gaussian process regression, 740
+Gelatin, 712
+Gene pharming, 712
+Genetic modification, 25–26, 28
+Genetic risk scores (GRS), 436
+Genome-wide association studies (GWAS),
+438
+Genomic analysis web tools, 710–711
+Genomics, 30–31, 737–739
+Geographic information system (GIS), 560, 564,
+737–738
+Germ oil (GO), 216–218
+Global bioactive ingredients market, 700
+Global e-Sustainability Initiative, 6
+Global food supply chain, 613
+Global mean sea level (GMSL), 57
+Global Navigation Satellite System (GNSS), 458
+“Global Report on Food Crises,”, 515
+Index 751
+Global Value Chain (GVC) perspective, 338
+Global warming, 52
+Good Manufacturing Practices (GMP), 602
+Grab-and-go packaging, 705
+Gram-negative bacteria, 727–728
+Gram-positive food pathogens, 711
+Grape-based spirits, 678–679
+Green biocomposites, 383–384
+Green Deal, 499
+Green extraction techniques, 697–698,
+700–702
+Green gardens, 29
+Greenhouse gas emissions (GHGEs), 26–27,
+51–53, 287, 294–296, 393, 396
+Greenhouse Guardian, 99–100
+Green macroalgae, 184, 185t, 189–190, 189f
+“Green” processing technologies, 274
+Green Revolution, 23–24, 112, 541, 545
+Green synthesis of silver nanoparticles, 725
+Green technologies, 2–4, 8–11
+Ground connector action, 557
+Guarana´ (Paullinia cupana), 172
+Guar gum, 239
+H
+Haria, 241
+Hazard Analysis and Critical Control Point
+(HACCP), 599, 605, 606t
+Hazelnut milk powder, 235
+Health issue, 638
+Health-promoting properties, 738
+Healthy diets, 31
+education on, 32–33
+functional foods, 33
+reference diet, for human and global health,
+31–32, 32f
+3D printing technology, 33
+Heating, 637–638
+Heat-sensitive bioactive compounds, 701
+Heat treatment, 93
+Heat waves and fire, 57
+“Hedonism,” social representation of, 419
+Hemp oils, 215–216
+Herbal beverages, 253
+High hydrostatic pressure (HHP), 275
+High-intensity discharge (HID) lighting systems,
+559–560
+High to low-density lipoprotein (HDL-LDL)
+ratio, 203–205
+High-yielding varieties (HYVs), 544
+Home gardening method, 549
+Homofermentative LAB, 712
+Horizon scan, 601
+Horsemeat Scandal, 597
+House-harvested edible bird’s nest
+(house E-BN), 317–318
+HS-SPME-GCMS method, 679, 687
+Huauzontle (Chenopodium berlandieri spp.
+nuttalie), 166–171t, 174
+Human population genomics, in food
+metabolism
+behavioral risk, 433
+challenges, 443–444
+Covid-19 pandemic, 433
+dietary selection and food metabolism,
+population genetics of, 436–440
+allele-frequency based approaches, 437
+comparative genomics, 437
+fatty acid desaturase (FADS1 and FADS2)
+genes, 439–440
+genome-wide association studies (GWAS),
+438
+haplotype-based approaches, 437
+lactose persistence (LP), 439
+starch digestion, 438–439
+food choices, 433
+gene-diet interaction, complications of
+fat/lipid metabolism, 441–442
+lactose metabolism, 441
+genetic adaptation, 433–435
+genetic variation, 435–436
+modern “industrialized” diet, 433–434
+Neolithic phenomenon, 433–434
+nutritional genomics, budding field of
+cardiovascular and Alzheimer’s disease,
+APOE gene in, 442–443
+opportunities, 443–444
+Humidity sensor, 740
+Hybrid gas sensors, 734
+Hybrid technologies, integration of, 661
+Hydrogel-forming extrusion, 710
+Hydroponic technology, for increasing food
+production
+aquaponic system, plant and fish culture,
+561–562
+basic principles of, 556
+challenges, 564–566
+conventional/modern industrial agriculture,
+556
+new innovative technologies, hydrophobic
+system productivity, 559–561
+opportunities, 564–566
+precision/smart agricultural technologies, for
+increasing food production, 562–564
+soil conversion, 556
+technical requirements, 557–559
+Hyperlipidemias, 293
+Hyperspectral imaging system, 647–648, 648f
+I
+Ice cream
+definition of, 239
+plant-based milk substitutes
+chickpeas and split yellow peas, 239
+egg yolk, 239
+guar gum, 239
+mung bean, 239
+sensory analysis, 239
+soymilk, 239
+stabilizers, 239
+skim milk powder, 239
+types of, 239
+ICP-OES. See Inductively coupled plasma
+optical emission spectrometry
+(ICP-OES)
+Identity, 671
+Image processing, 646, 648, 650
+software, 619
+Imaging-based techniques, 646–655
+backscattering imaging system, 650–651
+fluorescence imaging system, 652
+hyperspectral imaging system, 647–648, 648f
+magnetic resonance system, 652–653, 653f
+multispectral imaging system, 648–650
+RGB imaging system, 646–647, 647f
+thermal imaging system, 651–652, 651f
+ultrasonic imaging system, 654–655
+X-ray, 653–654, 654f
+Immunomodulatory molecules, 710–711
+Impossible Food (USA), 639
+Improved food safety and quality, 622
+Indigenous food systems, 517
+Inductively coupled plasma optical emission
+spectrometry (ICP-OES), 673
+Industrial Revolution 4.0, 645
+Industry authentication, 669
+Industry 4.0 evolution, in food-processing
+sector, 614–615, 615f
+Information Age technology, 547
+Information and communication technology
+(ICT) applications, in food industry,
+613–614
+components, 615–620
+collection of data, 615
+data processing technologies, 617–620
+wireless sensors in data collection, 615–617
+data communication devices and, 620, 621t
+industry 4.0 evolution, 614–615, 615f
+Internet of Things (IoT), 620–622
+robots, 614, 614f
+in sustainable food systems, 622–623
+Information technology (IT), 562, 564–566
+Infrared spectroscopy, 734–735
+Innovations
+in food behavior, 638
+on food data systems, 602
+Innovative food industries, 614
+Innovative technologies, 2–8
+“INNUENDO,” for genomics integration,
+738–739
+Insect-based meat alternative, 361–362,
+363–364t
+Insect oil, 207, 208t
+Insects, as protein source, 27
+Institutional resilience, 516
+Integrated chemical analysis, 738
+Integrated multitrophic aquaculture, 28
+Integrated proteomics studies, 738
+Integration of hybrid technologies, 661
+Intelligent package systems, in food industry,
+723
+Intelligent packaging, 44, 387
+Intergovernmental Panel on Climate Change
+(IPCC), 81–82, 116
+Intergovernmental Science-Policy Platform on
+Biodiversity and Ecosystem Services
+(IPBES), 24, 27
+International Federation of Organic Agriculture
+Movements (IFOAM), 527
+International Network of Food Data Systems
+(INFOODS), 64–67
+International Potato Center (CIP), 453
+752 Index
+Internet of things (IoT), 44, 615–616, 619–622,
+661
+Inundation, of agricultural lands, 56, 58
+Invasive alien plants (IAPs)
+challenges, 59
+climate change, agricultural impact
+crop and livestock production, 59, 60t
+distribution, 61
+economic impacts, 59–61, 63t
+Investigated thermal imaging, 651
+IoT. See Internet of Things (IoT)
+Isotopolomics approach, 30–31
+J
+Jabuticaba (Myrciaria cauliflora Mart.),
+166–171t, 172
+Juc¸ara, 173
+Jujube, 172
+K
+Kei-apple, 178
+Knowledge, on traditional foods, 518
+Krill oil, 207–209
+Kunun-zaki. See Millets
+L
+LAB. See Lactic Acid Bacteria (LAB)
+Lablab purpurens, 152f
+Laboratory cultured meat, 714
+Lactic acid bacteria (LAB), 240, 702–703,
+710–711
+Lactobacillus mudanjiangensis, 710–711, 711f
+Lactococcus lactis strain, 711
+Lactose intolerance (LI), 233
+Lactose metabolism, 441
+Lactose persistence (LP), 439
+Land degradation, 24–26
+La Nina cycle, 51–52
+Large diameter centrifuge (LDC) facility, 464
+Laser-induced breakdown spectroscopy (LIBS),
+735–736
+Laser scattering images, 650f
+Laser spectroscopy, 734–735
+LDA model. See Linear discriminant analysis
+(LDA) model
+Leaner inventory management, 622
+Least squares-support vector machines
+(LS-SVM), 648–649
+Lectins, 187–188
+Legumes, 151
+antinutrients, 362–365
+metabolites, 152
+proteins, 151, 366
+underutilized legumes (see Underutilized
+legumes)
+LIBS. See Laser-induced breakdown
+spectroscopy (LIBS)
+Life cycle assessment (LCA), 393–394
+Lima beans, 176
+Limitations of conventional approaches, food
+quality, 735–737
+Linear discriminant analysis (LDA) model,
+646–647
+Linoleic acid (LA), 203, 204f
+algae oil, 213–215
+insect oil, 207
+single cell oils (SCOs), 209–213
+Lipids, 89
+algae, 188–190, 189f, 189t
+Liquid binding (LB) method, 710
+Listeria monocytogenes, 734
+Locust bean gum (LGB), 239
+Longan (Dimocarpus longan Lour), 166–171t,
+172
+Loop packaging, 386
+Low Earth orbit (LEO), 452
+Low-field nuclear magnetic resonance
+imaging, 652–653
+LS-SVM. See Least squares-support vector
+machines (LS-SVM)
+“Luohan guo.” See Monk fruit
+Lycium ruthenicum, 734
+M
+Machine-learning
+algorithms, 660
+approach, 740–741
+technologies, 617–618, 618t
+Macroalgae, 183
+food products, use in, 195, 196t
+lipids, 188–190, 189f
+minerals, 192, 193t
+polysaccharides, 183–185, 185t
+proteins, 186–187, 188t
+Magnetic resonance system, 652–653, 653f
+Maize, 83f
+disproportionate price increase, 108
+drought-tolerant maize varieties (DTMVs),
+121
+history of, 82
+nutrients and minerals in, 89, 90t
+pests and diseases in, 94–99t
+total phenolic acids and flavonoids in, 90–92,
+92t
+vitamins in, 89–90, 91t
+Malnutrition, 133–134, 139
+Maltodextrin (MD), 236–237
+Maqui, 166–171t, 172
+Marine ecosystems, overexploitation of, 27–28
+Mass spectral analysis, 738–739
+Mass spectroscopy (MS), 30
+Mass spectroscopy-based proteomics, 736–737
+Mathematical modeling, thermal imaging with,
+651–652
+Maya nut (Brosimum alicastrum), 166–171t, 172
+Meat alternatives, 351–352
+meat-free protein alternatives
+fungi-based alternative, 360–361
+insect-based alternative, 361–362,
+363–364t
+plant-based alternative, 354–360
+sustainable meat-free protein alternatives,
+352–354
+Meat analog, ingredients in
+binding agents, 358
+coloring agents, 358
+fats, 358
+flavorings, 355–358
+textured and non-textured proteins, 355
+water, 355
+Meat-free protein alternatives
+fungi-based alternative, 360–361
+insect-based alternative, 361–362, 363–364t
+plant-based alternative, 354–360
+“Meat-masculinity” bias, 292
+Meat products, 630–631
+chia (Salvia hispanica), 166–171t, 175–176
+quinoa (Chenopodium quinoa Willd),
+166–171t, 176
+Meat proteins, oxidation of, 706
+Melon seed milk powder, 237
+Melon spawn milk powder, 237
+Melting extrusion, 710
+Membrane film sensor, 734
+Memphis meat, 639
+Mesoamerican indigenous people, 515–516
+Metabolomics, 30–31
+Metallic nanoparticles, 724–725, 726–727t
+silver and its forms, 724
+synthesis of metallic nanoparticles, 724–725,
+725f, 726–727t
+Metallic nanoparticles, synthesis of, 724–725,
+725f, 726–727t
+Methane (CH4) emissions, 26–27, 26f
+Mexico gastronomy, 418–419
+Microalgae, 183
+advantage of, 183
+carotenoids, 190, 191f
+food products, use in, 195
+lipids, 188–190, 189t
+minerals, 194, 194t
+oil, 213–215, 214t
+polysaccharides, 184–185, 187t
+proteins, 186–187
+Spirulina, health benefits, 183
+Microbes, in biotechnological innovations,
+710–712
+Microbial bioactive compounds, 703
+Microbial bioproducts, 703
+Microbial enzymes, 725–726
+Microbial protein, 271–272
+Microbial transglutaminase (MTG), 711–712
+Microgravity simulations, earth gravity and
+moon, mars and venus, plant growth
+investigations on, 465
+Micronutrient deficiency, 118–119, 139
+Micronutrient-enriched functional beverages,
+252–253
+Microorganisms, 712
+Microwaves (MWs), 274–275
+Milankovitch cycles, 51–52
+Millets, 85, 86f
+beverage, 241
+history of, 85
+nutrients and minerals in, 89, 90t
+pests and diseases in, 94–99t
+total phenolic acids and flavonoids in, 90–92,
+92t
+vitamins in, 89–90, 91t
+Minerals, 81–82, 673
+algae, 183, 192–194, 193–194t
+Index 753
+Minerals (Continued)
+in cereal grains, 89–90, 90t
+Mixed antibody-based immunoassays, 735
+Mixed sowing, 548
+MLR models. See Multiple linear regression
+(MLR) models
+Modern plant-based meat products, 355
+“Modum” network, 31
+Molecular analysis, 30
+“Molecular gastronomy,”, 411
+MongoDB, 739–740
+Monk fruit (Siraitia grosvenorii), 166–171t, 172
+Monosodium glutamate (MSG), 473, 658–659
+Mono-unsaturated fatty acids (MUFAs), 203,
+204f
+insect oil, 207
+oleic acid, 204f
+rice bran oil (RBO), 219
+soybean oil, 205–207
+tree nuts oil, 216
+Moth bean (Vigna aconitifolia), 166–171t, 174
+Mucuna pruriens, 152f
+Multianalyte immunoassays, 735
+Multi-drug resistance-associated protein
+(MRP), 92
+Multi-grain beverages, 90–92
+Multi-hapten antigen, 735
+Multiple linear regression (MLR) models, 654,
+660
+Multiplicative scatter correction method, 655
+Multi-sensor system, 658–659
+Multispectral imaging system, 648–650
+Multispectral raits of wheat, 650
+Mung bean, 239
+Mustard oil (MO), 216
+Mycoprotein, 271–272, 287
+challenges, 296–298
+futuristic portrayal
+movements, 289–290
+human health
+aging populations, feeding of, 291
+choline, 291
+diabetes management, 292–293
+feeding the young, 293–294
+gut health, 293
+narrowing fiber gaps, 290
+regulating blood lipids, 293
+regulating body weight, 291–292
+opportunities, 296–298
+origin of, 288–289
+planetary health
+carbon, water and nitrogen footprints, 294
+food loss and waste (FLW), 296
+greenhouse gas emissions, 294–296
+production, 288–289
+N
+Nano-based food packaging materials, 722
+Nanocellulose, 383–384
+Nanocomposites, 708
+Nano-enabled antimicrobial food packaging,
+708
+Nanoparticles, biological synthesis of, 725–728
+Nanoparticles, productivity of, 721
+Nanoscience in food packaging industry,
+721–722
+biological synthesis of nanoparticles, 725–728
+mechanism of, 727–728, 728f
+intelligent and active packaging, 723
+metallic nanoparticles, 724–725
+silver and its forms, 724
+synthesis of metallic nanoparticles,
+724–725, 725f, 726–727t
+Nanosensors, 714
+Nanostructured paper-based electrodes, 687
+Nanotechnology-based foods and drugs, 728
+Nanotechnology, in food packaging industry,
+549–550, 708–709, 714, 721–722, 728
+biological synthesis of nanoparticles, 725–728
+mechanism of, 727–728, 728f
+intelligent and active packaging, 723
+metallic nanoparticles, 724–725
+silver and its forms, 724
+synthesis of metallic nanoparticles,
+724–725, 725f, 726–727t
+National Aeronautics and Space Administration
+(NASA), 560–561, 640
+National Food Crime Unit (NFCU), 597
+Natural antimicrobial agents, 708, 712–713
+Natural antioxidants, 476
+Navy beans, 166–171t, 174
+Near field communication (NFC), 31
+Near-infrared (NIR) spectroscopy, 656, 680,
+734–735
+Neglected and underutilized plant species
+(NUPS), 64–67
+Neglected, underutilized, and wild edible plants
+(NUWEPs), 64–67
+“Neolithic Revolution,”, 540
+Nest residues, 325–326
+Neurobiology, food addiction
+binge eating disorder (BED), 425–426
+challenges, 429
+drug and neural circuit pathways, 427, 427f
+evidence
+animal studies, 428–429
+human studies, 428–429
+free marketing, processed foods, 425
+neurophysiology, food consumption and
+energy production, 426
+opportunities, 429
+substance use disorders, in DSM-IV, 425
+YFAS 2.0, 425
+“Neurogastronomy,”, 411
+Neuropeptide Y (NPY), 426
+Nextflow workflow manager, 738–739
+Next-generation sequencing (NGS), 30–31,
+736–737, 737f
+NFCU. See National Food Crime Unit (NFCU)
+NMR spectroscopy, 679
+Non-dairy beverages, 253
+Non-dairy ice cream, 239
+Non-destructive methods for detection, of food
+quality, 645–646
+imaging-based techniques, 646–655
+backscattering imaging system, 650–651
+fluorescence imaging system, 652
+hyperspectral imaging system, 647–648,
+648f
+magnetic resonance system, 652–653, 653f
+multispectral imaging system, 648–650
+RGB imaging system, 646–647, 647f
+thermal imaging system, 651–652, 651f
+ultrasonic imaging system, 654–655
+X-ray, 653–654, 654f
+non-destructive approaches
+acoustic technique, 660, 660f
+dielectric properties of food products,
+659–660
+electronic nose (e-nose) device, 657–658
+electronic tongue (e-tongue), 658–659, 659f
+spectroscopy-based techniques, 655–657
+near-infrared (NIR) spectroscopy, 656
+Raman spectroscopy, 657
+visible-near infrared (VIS-NIR)
+spectroscopy, 655–656
+Non-targeted HS-SPME-GCMS methodology,
+681
+Non-textured protein, ingredients in meat
+analog, 355
+Nonthermal processing methods, 2–4, 4f
+Novel aerosol-jet-printed graphene
+electrochemical sensors, 734
+Novel bioinformatic strategy, 736–737
+Novel cellular antioxidant activity (CAA) assay,
+735
+Novel food processing technologies, 712
+Novel Food Regulation 2015/2283, 342–343
+Novel packaging system, 709
+Nuclear magnetic resonance (NMR), 323
+Nutraceuticals, 184, 723f
+challenges, 256
+clinical evaluation, 251–252
+definition, 251–252
+functional beverages, 252–253
+opportunities, 256
+prebiotics
+dairy and non-dairy beverages, therapeutic
+performance and properties of, 254–255
+definition, 253–254
+probiotics
+dairy and non-dairy beverages, therapeutic
+performance and properties of, 254–255
+definition, 253–254
+synbiotics
+dairy and non-dairy beverages, therapeutic
+performance and properties of, 254–255
+definition, 253–254
+health effects, examples of, 255t
+Nutrient film technique (NFT), 557
+Nutritional insecurity, 151
+Nutritional security, 151
+underutilized fruits (UFs), 136–139, 138t
+underutilized legumes (see Underutilized
+legumes)
+O
+Oats, 86f
+history of, 85–86
+nutrients and minerals in, 89, 90t
+pests and diseases in, 94–99t
+754 Index
+production, 85–86
+total phenolic acids and flavonoids in, 90–92,
+92t
+vitamins in, 89–90, 91t
+Ohmic dehydration, 399–400, 401t
+Ohmic heating (OH), 274
+Oil crops, 113–114t, 114
+Oil/fat content, of underutilized legumes,
+153–154, 155t
+Oleic acid, 204f
+Olive-mill wastewater (OMWW), 579–580
+Omic techniques, 30
+One-dimensional convolutional neural network
+model, 740
+Optical sensors, 387
+Organic anion transporter (OAT), 92
+Organic anion transporting peptide (OATP), 92
+Organic food market organization
+agroecological narrative, 528, 534
+agroecology, 527–528, 532
+autonomous agri-food models, 529–530
+"buy to change" logic, 534
+certification of conformity, 527
+challenges, 534–536
+conventional food crops, 528–529
+conventionalization and co-optation, 529
+cultural frameworks, 534
+direct selling, 533–534
+environmental gains, 533
+exchange system, 531–532
+health gains, 528–529, 533
+heterogeneous narratives, 528
+industrial narrative, 528, 532–534
+“in-nature” no-label products, 534
+material category, 528
+methodological path, 531
+opportunities, 534–536
+rural producers, 531
+social reorganization, of agrifood markets,
+530
+theoretical and empirical analysis, 533–534
+Organic-inorganic hybrid sensors, 734
+Origin authenticity, 669, 671
+Origin markers, 672–673
+Orphan crops, 151–153
+legumes
+characteristic features, 153, 154t
+genetic improvement of, 152–153
+Orthogonal Projections to Latent Structures
+Discriminant Analysis (OPLS-DA)
+model, 677
+Outlier sensor data, 739–740
+Overfishing, 27
+Oxidation of meat proteins, 706
+Oxidative rancidity of food, 706
+P
+Pacific Decadal Oscillation, 52
+Packaging innovations
+for biodegradability, 385
+for recycling, 385–386
+for reuse, 386
+for waste prevention, 386
+Packaging techniques, 44
+Palm oil, 203–205
+Papain, 238–239
+Paris Agreement, 23, 41
+Parkia roxburghii, 152f
+Partial least square (PLS) regression analysis,
+646–647, 652, 655–656, 658–659, 677
+Passion fruit (Passiflora cincinnata Mast.),
+166–171t, 173
+Pasture cover, 548
+Pathogens, climate change impact on
+distribution patterns, change in, 64, 65–66t
+food production, 61–62
+infectious pathogens, of crops and
+livestock, 62
+PCA-LDA tools on SFS data, 680
+PCA models, 647–649, 655, 660
+PCR model. See Principal component regression
+(PCR) model
+Pearson’s correlation, 261
+Pediocin, 711
+People-related preventive measures, food fraud,
+602–604
+Personalized nutrition, 3DFP, 632–633
+Pesticides, 93–99
+Pests and diseases
+in cereal grains, 93–99, 94–99t
+climate change impact on
+distribution patterns, change in, 64, 65–66t
+food production, 61–62
+infectious pests of, crops and livestock, 63
+Phase-based time-resolved reflectance
+spectroscopy, 734–735
+Phenolic acids, 90–93
+Phlorotannins, 191–192, 192f
+Photometric measurements via RGB-based
+digital imaging, 647
+pH sensors, 560
+Phycobiliproteins (PBPs), 187–188
+Phyllanthus emblica, 178
+Phytic acids, 156
+Phytohemaglutinins, 156
+Pigeon pea (Cajanus cajan), 166–171t, 173
+Place-related preventive measures, food fraud,
+605
+Plant-based drink production industry
+cereal-based beverages, 586–587
+potential of zero-waste approaches, soya
+beverage, 588
+soya beverage by-product, 585–586
+Plant-based meat
+alternatives, 352, 354–360
+uses less water, 353
+Plant-based milk products, 233, 243
+advantages, 235
+brands of, 233, 234t
+cheese, 238–239
+consumption, pros and cons of, 233, 234t
+fermented beverage products, 241
+boza, 242–243, 242f
+Haria, 241
+Kunun-zaki, 241
+lactic acid bacteria, 240
+non-dairy yogurts, 240
+probiotic non-dairy beverages, 240–241
+fermented plant-based milk and derivatives,
+240
+ice cream, 239
+market scenario, 233–235
+powdered milk, 235–238
+raw materials, 235, 236t
+vegetable extracts, microbiological
+contamination in, 243
+Plant-based oil
+avocado oil (AO), 215
+germ oil (GO), 216–218
+hemp oils, 215–216
+mustard oil (MO), 216
+plant by-products, 219, 220–221t
+rice bran oil (RBO), 219
+tree nuts oil, 216, 217–218t
+Plant-based proteins, 712
+Plant-based vaccines. See Edible vaccines
+Plant origin, foods of, 629–630
+Plastics packaging sector, 378
+Plastics recycling, 380
+Pm3e gene, 25–26
+Polymerase chain reaction (PCR)-based
+techniques, 30–31
+Polyphenols, 190–192, 192f, 672
+algae, 190–192, 192f
+in cereal grains, 90–93, 92t
+bioavailability, 92–93
+fermentation, effects of, 93
+heat treatment, effects of, 93
+Polysaccharides, 183–185, 185t, 186f, 383, 705
+Polyunsaturated fatty acids (PUFAs), 195, 197,
+203, 219–222, 477–478
+algae oil, 213–215
+fish oil, 209
+hemp oil, 215–216
+insect oil, 207
+linoleic acid (LA), 204f
+rice bran oil (RBO), 219
+single cell oils (SCOs), 209–213
+soybean oil, 205–207
+tree nuts oil, 216
+wheat germ oil (WGO), 218
+Popularizing traditional Western foods, 518–522
+Porphyran, 184–185
+Post-hydrolysis rice bran (PHRB), 219
+Potential artificial nose system, 734
+Poverty, 117–118
+Powdered milk
+additives, 237
+agglomeration process, 237
+bulk and tapped densities, 237
+flowability, 237
+freeze-dried legume powder, 237
+moisture content, 237
+selenium content, 237
+sensory analysis, 237
+shelf life, 237–238
+soymilk, evaporation/concentration process
+of, 236
+spray and freeze-drying methods, 235, 237
+stabilizers, 236–237
+Precision agriculture
+communication, 458
+Index 755
+Precision agriculture (Continued)
+satellite-based navigation, 458
+Precision spraying, 100
+Predictive analytics of food fraud, 600–601
+Prevalence of undernourishment (PoU),
+109–110, 110f
+Prevention
+nutrition, 3DFP, 632
+people-related preventive measures, 602–604
+place-related preventive measures, 605
+process and data-related preventive measures,
+604–605
+“Prickly pear” fruit, Saccharomyces cerevisiae
+(ex r.f. bayanus) yeast strain, 259
+in vitro antioxidant activity of, 260–263
+ethanolic extracts, Pearson’s correlation,
+261
+nutritional and functional properties of, 259
+sensory and flavor indices, sugar and blossom
+honey during aging, 261–263
+TPC, sugar and blossom honey combination,
+261
+Principal component regression (PCR) model,
+654–655
+Printable food product families, 629–632
+animal origin, 630–632
+plant origin, 629–630
+Printed zein-based material, 633
+Printing technology, 710
+Probiotic non-dairy beverages, 240–241
+Process and data-related preventive measures,
+food fraud, 604–605
+Production failure famines, 110
+Proteins, 81–82, 89, 197
+algae, 185–188, 188t
+residues, 698
+sources, 27
+underutilized legumes, 153–155, 155t
+Proteomics, 30–31, 736–738
+Pseudocereals, 87
+amaranth, 87
+buckwheat, 88
+can˜ahua, 88–89
+chia seeds, 88
+quinoa, 87–88
+Pulsed electric field technique (PEFT), 399
+PulseON® powders, 166–171t, 176
+Q
+Qanats, 540
+QR code, 31, 41, 43–44, 46
+Quadratic discriminant analysis (QDA), 648
+Quinoa (Chenopodium quinoa Willd), 87–88,
+166–171t, 176
+R
+Radio frequency dehydration, 403
+Radio frequency identification (RFID), 31, 44,
+617
+Rainfall, on crop production, 54
+Raman spectroscopy, 323, 657
+Random positioning machines (RPM), 463
+Rapid digitalization, 615
+RASFF. See EU Rapid Alert System for Food
+and Feed (RASFF)
+Raspberry Pi, 740
+Real-time quality monitoring, 617
+Recombinant DNA (rDNA) technology, 133
+Recommended daily intakes (RDIs), 89–90
+Recommended dietary allowance (RDA), 237
+Recycling, packaging innovations for, 385–386
+Red-edge chlorophyll index, 650
+Red macroalgae, 184, 185t, 189–190, 189f
+Reduced gravity platforms (RGP), 463–464
+for celestial bodies plant research, 464
+Reduction, in food wastage, 622–623
+Re-evaluation, of traditional foods, 522
+Relay replanting, 548
+Renewable feedstocks for bio-based food
+packaging, 382–383
+Representative concentration pathways (RCPs),
+68–69, 81–82
+Residual prediction deviation (RPD), 648
+Resilience, 522
+of food systems, 24
+evolutionary breeding and genetic editing,
+25–26
+Resistant starch, 472–473
+Resource depletion problems, 700
+Reusable food packaging, 380, 386
+RGB imaging system, 646–647, 647f
+Rhynchophorus ferrugineus, 365f
+Rice, 84f
+beer, 241
+beverages, 235
+disproportionate price increase, 108
+drought-tolerant rice varieties, 122–123
+history of, 83
+nutrients and minerals in, 89, 90t
+pests and diseases in, 94–99t
+rice bran oil (RBO), 219
+sea-level rise, impact of, 58
+total phenolic acids and flavonoids in, 90–92,
+92t
+vitamins in, 89–90, 91t
+Rice bean (Vigna umbellata), 159
+Riceberry rice (Oryza sativa), 166–171t, 175
+Rice bran oil (RBO), 219
+Rice-fish farming, 548
+Rice grit, 174
+Robots, 99–100
+in food industries, 614, 614f
+Rocket revolution of communication
+technologies, 614
+Roots and tuber, 113–114t, 114
+Rosary pea (Abrus precatorius), 158
+RPD. See Residual prediction deviation (RPD)
+Rum, 680–681
+Ruminant enteric fermentation, 26–27, 26f
+Russian company 3D Bioprinting Solutions, 639
+Rye, 87f
+history of, 86
+nutrients and minerals in, 89, 90t
+pests and diseases in, 94–99t
+total annual yield, 86
+total phenolic acids and flavonoids in, 90–92,
+92t
+vitamins in, 89–90, 91t
+S
+Saccharomyces cerevisiae (ex r.f. bayanus) yeast
+strain, 260–263
+Sacha inchi (Plukenetia volubilis L.), 166–171t,
+175
+Sachets/capsules, 705
+Safe Supply of Affordable Food Everywhere
+(SSAFE), 599
+Safety, 670
+Salal berry (Gaultheria shallon), 166–171t, 173
+Salinity, 58–59
+Sapogenol, 156
+Saponins, 156
+Saturated fatty acids (SFAs), 203–205, 204f,
+219–222
+insect oil, 207
+soybean oil, 205–207
+stearic acid, 204f
+Savitzky-Golay correction method, 655
+Scannable digital tags, 623
+ScienceDirect platform, 628f
+Scotch whiskey, 681
+Sea-level rise, impact on coastal agriculture,
+57–59
+Seaweeds and microalgal biomass. See Algae
+Second-generation edible vaccines, 311–312
+Selected edible insects, chemical composition
+of, 363–364t
+Selective Hot Air Sintering (SHASAM), 710
+Selective laser sintering (SLS), 710
+Selenium (Se), 183
+Sensors, food quality monitoring tool, 734
+SensorTag, 31
+Sensory evaluation, authentication through,
+674–675
+Sensory perception of printed food, 634–635
+Shelf life, 721, 723
+Short-chain fatty acids (SCFAs), 177, 290
+Short message service (SMS), 122
+Shotgun proteomics, 738
+Shriveling process, 652–653
+Silver nanoparticles (AgNPs), 709, 724
+SIMCA models. See Soft independent modeling
+of class analogy (SIMCA) models
+Simulated transport vibration, 652–653
+Single cell oils (SCOs), 209–213, 210–213t
+Single nucleotide polymorphisms (SNPs), 436
+Site frequency spectrum (SFS), 437
+Skim milk powder, 239
+SLS. See Selective laser sintering (SLS)
+Small and medium food enterprises (SMEs),
+143
+Smart contracts, 43–44, 739–740
+“Smart farming” technology, 555
+“Smart gel,”, 31
+Smart packaging, 44
+Smart phone camera technology, 100
+Snacks, 176–177
+Socio-economic pathways (SSPs), 68–69
+Socio-economic status (SES), 32–33
+Soft independent modeling of class analogy
+(SIMCA) models, 647–648
+756 Index
+Soft-material extrusion, 710
+Soft-textured food materials, 735–736
+Solid-state fermentation (SSF), 702–703
+Soluble solids content (SSC), 659
+Sorghum, 84f
+history of, 84
+nutrients and minerals in, 89, 90t
+pests and diseases in, 94–99t
+total phenolic acids and flavonoids in, 90–92,
+92t
+vitamins in, 89–90, 91t
+Soybean oil, 205–207
+Soy beverage, 235
+Soy milk, 235
+cheese, 238
+evaporation/concentration process of, 236
+ice cream, 239
+probiotic beverage, 240–241
+Soy proteins, 238
+Soy-tiger nut beverages, 235
+Space-based technologies (SBT), 458
+earth’s agriculture
+aeroponic and hydroponic methods, 460
+agricultural/control robots, 459
+automated steering tractor, 459
+BioKES, 459
+light-emitting diode systems target plant
+growth, 459
+paper making, sturdy plants, 460
+photosynthetic/chlorophyll meter, 458–459
+sensors, 459
+simulated microgravity equipment,
+459–460
+Space farming
+aeroponic process, 455
+aquaponics, 456
+astrobotany, 453
+benefits of, 457–460
+challenges, 453
+closed and controlled environment, 453–454
+genetic engineering of crops, 455
+greenhouse, 455
+habitat, radiation prevention from affecting
+plants, 454–455
+hydroponics, 456
+interplanetary spaceships, 452–453
+plant agar, 455
+plant pillows, 455
+soil-less/in soil cultivation, 454
+soil simulation, 454
+water, on celestial body, 454
+Space food, on celestial bodies
+asteroid mining, 451
+challenges, 465–466
+Chang’e4 biosphere moon experiment,
+456–457
+long-duration missions, 452
+microgravity science
+laboratory platforms, 461
+moon, mars and venus, plant growth
+simulation, 464–465
+plant microgravity researches, 460–461
+terrestrial microgravity platforms, plant
+research on earth, 461–464
+zero-gravity, 460
+one-way mission, 452
+opportunities, 465–466
+outer space environment, 451
+plant-based food, 452
+radiation and microgravity, 451
+space-based research commercialization, of
+plants, 465
+space farming
+aeroponic process, 455
+aquaponics, 456
+astrobotany, 453
+benefits of, 457–460
+challenges, 453
+closed and controlled environment,
+453–454
+genetic engineering of crops, 455
+greenhouse, 455
+habitat, radiation prevention from affecting
+plants, 454–455
+hydroponics, 456
+interplanetary spaceships, 452–453
+plant agar, 455
+plant pillows, 455
+soil-less/in soil cultivation, 454
+soil simulation, 454
+water, on celestial body, 454
+spaceflight, 452
+space nutrition, 457
+space spin-offs, 451
+space tourism, 451–452
+Spanish company Novameat, 639
+Species distribution models (SDMs), 61
+Spectral pre-processing methods, 734–735
+Spectral techniques, 687
+Spectroscopy-based techniques, 655–657
+near-infrared (NIR) spectroscopy, 656
+Raman spectroscopy, 657
+visible-near infrared (VIS-NIR) spectroscopy,
+655–656
+Spirulina, 183
+Split beans, 174
+Spondias pinnata, 178
+Spray drying method, 235
+SSAFE. See Safe Supply of Affordable Food
+Everywhere (SSAFE)
+SSF. See Solid-state fermentation (SSF)
+Stabilizers, 236–237, 239
+Stable isotopes, 672–673
+Stable transformation system (STS), 308
+Starch digestion, 438–439
+Statistical analysis tools, 620
+Stearic acid, 203–205, 204f
+Stefan–Boltzmann law, 396–397
+Streptomyces, 711–712
+Streptovericillium, 711–712
+Super computers, 740–741
+Super-heated steam (SHS) dehydration,
+397–398
+Suppliers’ ranking and performance matrix, 603,
+604t
+Support vector regression, 740
+Sustainability, food supply chain
+challenges, 406–407
+dehydration technologies, in food supply
+chain
+drying technologies, 397
+electro-osmosis dewatering, 401, 401t
+freeze drying process, 397
+hybrid dehydration systems, 403–405
+microwave drying, 399, 399f
+ohmic dehydration, 399–400, 401t
+pulsed electric field technique
+(PEFT), 399
+radio frequency dehydration, 403
+spray drying process, 397
+super-heated steam (SHS) dehydration,
+397–398
+ultrasound, 402
+emerging dehydration technologies
+on cost savings, 406
+on food quality, 405–406
+GHG emissions, 406
+energy consumption, 396–397
+energy efficiency improvements, 394–395
+environmental assessment, 393–394
+“Green Food Processing,”, 393
+greenhouse gas (GHG) emissions, 393, 396
+opportunities, 406–407
+Sustainable development goals (SDGs), 39–40,
+45, 107, 597
+aim, 39
+circular economy, 39
+definition, 39
+economic growth, 39
+environmental protection, 39
+social equality, 39
+sustainable development goals
+(SDGs), 39
+Sustainable development goal 2 (SDG2) Zero
+Hunger, 470
+Sustainable diet, 134
+Sustainable food packaging, 7–8
+Sustainable food systems
+active investment, in new technologies, 122
+climate smart agriculture (CSA), 121–122
+consumption, 123–124
+pre-production stage, innovations and
+measures, 122–123
+production stage, innovations and measures,
+123
+rural resilience, 122
+short message service (SMS), 122
+supply chain, 123
+Sustainable intensification agriculture
+technology, 120
+Sustainable land management, 68
+Sustainable packaging, 376, 382
+challenges, food innovation, 518–521
+bioeconomy, 378–379
+circular economy, 379–381
+digitalization, 381–382
+transition to sustainable food systems, 382
+development of, 636
+of 3DFP, 633–634
+food systems, 382, 622–623
+in meat analog highlights, 359–360
+meat-free protein alternatives, 352–354
+Index 757
+Sword bean (Canavalia sp.), 158
+Synergy interval PLS model, 658
+Syntegon, 384
+Synthetic meat, 27
+Synthetic pesticides, 93–99
+Syrup, 166–171t, 176
+T
+Tannins, 156
+Targeted HS-SPME-GCMS methodology, 681
+Technological innovations, 2–8
+Temperature
+control, 636–637
+on crop production, 53–54, 54t
+Tequila, 680
+Terpenes, 156
+Terrestrial microgravity platforms, plant
+research on earth
+centrifuges, 463–464
+clinostats, 461–463
+magnetic levitation device, 463
+random positioning machines (RPM), 463
+Textured protein, ingredients in meat analog,
+355
+Texture of printed foodstuffs, 639–640
+Theory of social representations (TSR), 411,
+413–414, 421
+Thermal imaging system, 651–652, 651f
+Thermal inkjet print, 710
+Thermocouple-type temperature sensor,
+636–637
+Three-dimensional food printing (3DFP), 7, 33,
+44–45, 627–628, 628f, 640, 714
+bioprinting technologies, 703, 709–710,
+709f
+consumer perception and acceptability,
+634–635
+digital model, 634
+emerging trends and long-term prospects,
+636–640
+health issue, 638
+mastering the post-treatment, 637–638
+short-and medium-term applications,
+638–639
+temperature control, 636–637
+inkjet printing method, 710
+legal framework for, 635–636
+personalized nutrition, 632–633
+printable food product families, 629–632
+animal origin, 630–632
+plant origin, 629–630
+sustainability of, 633–634
+trends for, 639–640
+Tinospora cordifolia, 176
+Tocopherols, 216
+Tomato by-products, bioactive compounds
+extraction
+carotenoids, lycopene, 576–577
+dietary fibers (DFs), 577
+drying process, 576
+extraction, 576
+extract purification, 576
+pretreatment, 575
+seed oil, 577
+whole valorization approaches, vegetable and
+fruit by-products, 577–579
+Top-down method of synthesizing
+nanoparticles, 724–725, 725f
+Total amino acid analysis (TAA), 186–187
+Totonac ethnic group, case study, 516–517
+Traceability systems, 387, 617
+Trachinotus ovatus, 734
+Tracking sensors, 622
+Traditional diet, 518
+Traditional foods, 12–13
+packaging material, 384
+value of, 515–516, 519–521t
+challenges, 521–522
+indigenous food systems, 517
+institutional resilience, 516
+and sustainability challenges, 518–521
+Totonac ethnic group, case study, 516–517
+Traditional foods, values of, 515–516, 519–521t
+challenges of, 521–522
+indigenous food systems, 517
+institutional resilience, 516
+and sustainability challenges, 518–521
+Totonac ethnic group, case study, 516–517
+Traditional machine learning algorithms,
+617–618
+Traditional meat products ingredient lists,
+356–357t
+Traditional plant-based landscape, 354–355
+Trans-fatty acids (TFA), 203–205, 219–222
+Transient transformation system
+(TTS), 308
+Tree bean (Parkia sp.), 157
+Tree nuts oil, 216, 217–218t
+Triacylglycerols (TAGs), 203, 207, 209,
+213–215, 219
+Trypsin inhibitors, 156
+Tucum-do-cerrado, 178
+Two-step microwave-assisted extraction
+(TSMAE), 219
+Typical thermal imaging system, 651
+Typicity, 671
+U
+UAV. See Unmanned aerial vehicle
+(UAV)
+Ultrasonic imaging system, 654–655
+Ultrasonic waves, velocity and attenuation of,
+654–655
+Ultrasound (US) technology, 274, 402
+Ultraviolet (UV) light, 459
+Undernourishment, 107–108, 133–134
+in Africa and South Asia, 118
+prevalence of, 109–110, 110f
+prevalence of stunting, height for age,
+prevalence of, 118, 119f
+Underutilized fruits (UFs), 133–134, 165
+definition, 134
+designer foods from, 166–171t, 173
+artificial additives, 173
+bakery products, 165–172
+beverages, 172
+dairy products, 172–173
+flour, from Juc¸ara peel, 173
+health benefits, 177f, 178–179
+domestication, 134
+centralized strategy, 141
+challenges and constraints for, 142–144
+decentralized strategy, 141
+key players in, 141, 141f
+simplified strategy, 144–145, 145f
+vs. exotic fruits, nutritional composition of,
+136, 137t
+potential use, 135t, 136
+ecological importance, 140
+economic importance and poverty
+alleviation, 139
+food security, 136
+industrial potential, 140
+nutritional security, 136–139, 138t
+therapeutic potential, 140
+sustainable diet, 134
+Underutilized legumes, 152, 152f, 157
+antinutrients, 156–157, 156t, 159
+bambara groundnut (Vigna subterranea), 159
+Bauhinia sp., 157–158
+challenges, 159–160
+distribution of, 152, 153t, 154f
+improvement of, 159
+nutritional benefits, 153–154, 155t
+orphan legumes
+characteristic features, 153, 154t
+genetic improvement of, 152–153
+phytonutrients, source of, 155–156
+rice bean (Vigna umbellata), 159
+rosary pea (Abrus precatorius), 158
+sword bean (Canavalia sp.), 158
+tree bean (Parkia sp.), 157
+winged bean (Psophocarpus tetragonolobus),
+158
+Underutilized resources, 9–11
+Underutilized vegetables, designer foods from,
+166–171t, 176, 177f
+bakery products, 173–174
+beverages, 174–175
+dairy products, 175
+health benefits, 177f, 178–179
+meat products, 175–176
+PulseON® powders, 176
+snacks, 176
+syrup, 176
+Uniform global strategies, 515–516
+Unmanned aerial vehicle (UAV), 649–650
+Unsaturated fatty acid (USFA), 203–205, 215,
+219–222
+Urban farming, 555
+US Pharmacopeia (USP) Food Fraud Mitigation
+Database, 601
+UV-Vis spectroscopy methods, 673, 677
+V
+Vacuum impregnation processing technique,
+487
+Valorization of food wastes, 700–702
+Variable rate technology (VRT), 564
+Variety authenticity, 671
+Veganism, 233–234
+Vegetable oil extraction industry, olive pomace
+758 Index
+bioactive compounds extraction, 581–582
+potential whole valorization approaches,
+582–584
+Vegetables, 113–114t, 114–115
+designer foods from (see Underutilized
+vegetables, designer foods from)
+extracts, microbiological contamination in,
+243
+Vegetal proteins, 27
+Vegetarian diet, 196–197
+Vegetation index, 650
+Viruses, 62–63
+Visible-near infrared (VIS-NIR) spectroscopy,
+655–656
+Vitamins, 81–82
+in cereal grains, 89–90, 90t
+Volatile compounds, 672
+Volatile profile analysis, 674, 678
+W
+Waste management, 700
+Waste prevention, packaging innovations for,
+386
+Water, ingredients in meat analog, 355
+Water Vapor Adsorption Reactor
+(WAVAR), 454
+Weather, 51–52
+Weather-index insurance schemes, 67–68
+Weibull distribution function, 655
+Well-planned plant-based diets, 359
+Wheat, 83f
+germ oil (WGO), 218
+global yield, 82–83
+history of, 82–83
+nutrients and minerals in, 89, 90t
+pests and diseases in, 94–99t
+total phenolic acids and flavonoids in, 90–92,
+92t
+vitamins in, 89–90, 91t
+Whiskey/whisky, 676–678
+Whitefly-borne viral pathogens, 62
+Wild edible plants (WEPs), 64–67
+Wine, 687–689
+adulteration, 670–671
+authentication, 670
+future needs, 671–672, 675
+methods based on chemical
+markers, 672–673
+origin and variety, 671
+profile analysis methods, 673–674
+safety, 670
+through sensory evaluation, 674–675
+typicity and identity, 671
+winemaking practices, 671
+fingerprint, 673–674
+making practices, 671
+spirits, 679
+Winged bean (Psophocarpus tetragonolobus),
+158
+Wireless monitoring of food quality, 740–741
+Wireless sensors, in data collection, 615–617
+World Health Organization, 632–633
+World population, 81
+and agricultural production trends, 49–50
+feeding, challenges in, 50–51
+X
+Xanthan gum, 236
+X-ray, 653–654, 654f
+Y
+Yacon (Smallanthus sonchifolius), 166–171t,
+175–176
+Yale Food Addiction Scale (YFAS), 425
+Yeast, single cell oils (SCOs), 209–213,
+210–213t
+Yellow revolution, 224
+Z
+Zero Hunger, 107–108, 124
+“Zero-waste” goal, 573
+Zinc oxide nanoparticles (ZnO NPs), 709
+Ziziphus jujuba Mill, 172
+Zymomonas mobilis, 712
+Index 759

@@ -1,0 +1,1613 @@
+Journal of Purchasing & Supply Management 29 (2023) 100820
+Available online 8 February 2023
+1478-4092/© 2023 Elsevier Ltd. All rights reserved.
+The role of buyers justice in achieving socially sustainable global supply
+chains: A perspective of apparel suppliers and their workers☆
+Mohammad Alghababsheh a,*
+, Atif Saleem Butt b
+, Syed Mithun Ali c
+a Department of Business Management, School of Business, Mutah University, Alkarak 61710, Jordan b Department of Management, School of Business, American University of Ras Al Khaimah, United Arab Emirates c Department of Industrial and Production Engineering, Bangladesh University of Engineering and Technology, Dhaka, Bangladesh
+ARTICLE INFO
+Keywords:
+Developing countries
+Justice
+Risk
+Social sustainability
+CSR
+Supply chain
+ABSTRACT
+The absence of an effective public model (e.g., government regulations and law enforcement) in developing
+countries has driven clothing brands and retailers to rely on a private voluntary formal model (e.g., compliance
+and collaboration approaches) to manage suppliers’ internal social issues (e.g., poor working conditions).
+However, this model has been recently criticised for falling short in addressing these issues as it overlooks their
+main root causes. In this study, we suggest that suppliers’ internal social issues can be driven by buyers’ unfair
+practices, and therefore, we propose and examine that buyers’ justice can ensure suppliers’ internal social
+performance. We further postulate and investigate that addressing these issues would result in advantages for
+buyers beyond traditional performance outcomes in the form of reduced supply operational risk. Based on a
+census of the 117 suppliers comprising the ready-made garment industry in a Middle Eastern country (Jordan),
+we received survey responses from 97 suppliers and their shop floor workers. The analysis revealed that only
+buyer’s distributive and procedural justice, but not interactional justice, are positively related to suppliers’ internal social performance. We also found evidence that improving suppliers’ internal social performance can
+diminish supply operational risk. This study contributes to the extant research by empirically investigating a new
+approach to handle the increase in suppliers’ internal social issues in a developing country context. It also does
+by capturing suppliers’ internal social performance from the workers’ perspective and highlighting the role of
+improved suppliers’ internal social performance on mitigating supply operational risk.
+1. Introduction
+To cope with dynamic business environment (e.g., shrinking products lifecycles) and cut down labour costs, clothing brands and retailers,
+benefiting from international trade liberalisation and technological
+advancement, have turned to suppliers in the developing world to obtain
+finished items (Anner et al., 2013; Teng and Jaramillo, 2005). However,
+although this efficient supply chain strategy can support firms’ business
+strategy, it leaves them susceptible to substantial negative publicity risk
+that can potentially result from social sustainability issues in their supply chains, particularly suppliers’ internal social issues. Over the history
+of industrial apparel production, media reports have documented
+various shocking internal social issues of suppliers contracted by leading
+global brands and retailers, ranging from child labour, unfair wages,
+management abuses to poor working conditions, among others
+(Bellingan et al., 2020; Marshall et al., 2019). Brands and retailers
+worldwide are now facing enormous pressure from customers, human
+rights activists and non-government organisations (NGOs) to address
+these issues by suppliers (Andersen and Skjoett-Larsen, 2009; Mani and
+Gunasekaran, 2018).
+The absence of an effective public model (e.g., government regulations and law enforcement) in the developing countries has driven
+clothing brands and retailers to relay on a private voluntary formal
+model (e.g., compliance and collaboration approaches) to manage suppliers’ internal social issues (Alghababsheh and Gallear, 2022; Yawar
+and Seuring, 2017). However, this model has been recently criticised for
+falling short in addressing these issues (e.g., Alghababsheh and Gallear,
+2021; Barrientos and Smith, 2007; Locke et al., 2009; Sancha et al.,
+2016). This may be due to the fact that this model was designed based on
+a fundamental assumption that suppliers’ internal social issues are
+☆ This research did not receive any specific grant from funding agencies in the public, commercial, or not-for-profit sectors.
+* Corresponding author.
+E-mail addresses: m.alghababsheh@mutah.edu.jo (M. Alghababsheh), atif.butt@aurak.ac.ae (A.S. Butt), mithun@ipe.buet.ac.bd (S.M. Ali).
+Contents lists available at ScienceDirect
+Journal of Purchasing and Supply Management
+journal homepage: www.elsevier.com/locate/pursup
+https://doi.org/10.1016/j.pursup.2023.100820
+Received 2 May 2022; Received in revised form 7 January 2023; Accepted 22 January 2023 
+Journal of Purchasing and Supply Management 29 (2023) 100820
+2
+factory technical problems and therefore it overlooks their main root
+causes (Alghababsheh et al., 2020; Anner et al., 2013; Reinecke and
+Donaghey, 2021). Although suppliers’ weak formal institutional environment (Huq and Stevenson, 2018), their country’s socio-economic
+culture (Huq et al., 2014) and management failures (e.g., lack of capacity and knowledge) can create a fertile ground for social issues to
+flourish in their facilities, it has become increasingly recognised that
+such issues can also emerge due to buyers’ unfair return distribution,
+procedures and interactions in the relationship (Alghababsheh et al.,
+2020; Anner et al., 2013). Constant unfair prices reduction pressure,
+inconsistent relationship procedures (e.g., violate orders volumes,
+specifications and payments) and lack of timely and complete information by buyers can lead to an unstable production environment for
+suppliers that, in turn, can force them to adopt unethical labour practices such as cutting workers’ wages, forcing excessive overtime and
+reducing investment in occupational health and safety requirements
+(Anner et al., 2013; Locke and Samel, 2018). Yet, despite the central role
+of buyers in generating conditions that encourage labour violations by
+suppliers, the examination of whether fairer purchasing practices of
+buying firms in terms of return distribution, relationship procedures and
+interactions would enhance suppliers’ internal social performance has
+been entirely lacking to date.
+Buyer justice can have broad implications on supplier social sustainability because its three dimensions – distributive, procedural and
+interactional – reflect the management of the economic (returns),
+structural (procedures) and social (interactions) aspects of the relationship, respectively. Delivering fair returns in the relationship by
+buyers can enhance suppliers’ financial capability to meet minimum
+acceptable working conditions and abandon unethical cost-saving
+employment practices (e.g., child labour) within their facilities (Alghababsheh et al., 2020; Yawar and Seuring, 2018). Moreover, consistent
+sourcing procedures and providing timely information about unexpected changes by buyers can be reflected in a more stable production
+environment within the suppliers’ facilities, leading to less violation of
+labour rights (e.g., excessive overtime shifts). Despite this, the role that
+buyer justice can play in enhancing supplier’s social performance has
+received limited research attention. However, some studies have more
+recently recognised and investigated the importance of buyer justice in
+the context of supply chain social sustainability (e.g., Alghababsheh
+et al., 2020; Bag et al., 2022; Chen and Chen, 2019; Lim et al., 2022).
+However, although these studies have greatly contributed to our understanding of the role of justice in achieving sustainable supply chains,
+they have predominantly focussed on the role of justice on the implementation of the private voluntary formal model (i.e., compliance and
+collaboration approaches) to supply chain social sustainability. As such,
+the direct impact of the three justice dimensions on supplier’s internal
+social performance has not received empirical attention.
+The business case of managing suppliers’ social sustainability issues
+has received increasing research attention in recent years (e.g., Mani
+et al., 2020). However, the majority of the research has primarily
+focussed on the impact of improving supplier’s social performance on
+traditional performance outcomes, such as the operational, environmental and/or financial, for both the buyer and the supplier. Although
+adverse workplace incidents and possible labour strikes that can occur
+due to social issues in suppliers’ facilities can potentially affect suppliers’ manufacturing and operations (Pullman et al., 2009), and hence
+disrupt the supply process from suppliers, examining whether improved
+suppliers’ internal social performance would mitigate supply operational risk (i.e., the deviation from supply orders from suppliers in terms
+of time, quality and quantity) has been, perhaps somewhat surprisingly,
+overlooked to date. Moreover, the majority of the research has sought
+the buyers’ perspective in the context of developed countries when
+exploring supplier’s social sustainability. While a small number of
+studies have recently added some balance to and enriched the extant
+literature by including developing countries’ suppliers’ perspectives (e.
+g., Huq et al., 2016; Yawar and Seuring, 2018), it intended to capture
+suppliers’ internal social performance from the top management
+perspective, or in other words whilst neglecting the voice of the suppliers’ workers (i.e., own shop floor workers who are directly engaged in
+the production in the factory). Managerial perceptions of what constitute acceptable working conditions may not match the views of the
+affected workers, and may therefore lead to biased conclusions
+(Alghababsheh et al., 2020).
+To address these gaps, this study proposes and examines the positive
+impact of buyers’ justice (i.e., distributive, procedural and interactional)
+on suppliers’ internal social performance and, in turn, on supply operational risk. In doing so, we carried out a census of the 117 suppliers
+comprising the ready-made garment industry in a Middle Eastern
+country (Jordan), which resulted in receiving survey responses from 97
+suppliers and their shop floor workers. Accordingly, this study makes
+three important contributions to the supply chain management (SCM)
+literature. First, unlike previous research that has predominately
+focussed on private voluntary formal approaches (i.e., compliance and
+collaboration approaches), this study theoretically proposes and
+empirically investigates the positive role of buyer’s distributive, procedural and interactional justice on enhancing suppliers’ internal social
+performance. As such, our study extends and complements the existing
+approaches to managing supplier social sustainability by highlighting a
+relational-oriented approach. Second, this study examines the impact of
+suppliers’ internal social performance on mitigating the supply operational risk that stems from the supplier’s side. Finally, rather than
+relying on the buyer’s or supplier’s managerial perceptions, the study
+captures suppliers’ internal social performance from the suppliers’ shop
+floor workers’ perspectives in an emerging market context. This can help
+in eliminating the potential bias that may emerge when the buyer’s or
+the supplier’s top management reports on this sensitive issue, understanding the characteristics of the suppliers’ shop floor workers and
+obtaining valuable input that can reshape government employment
+regulations and redesign social sustainability strategies in the supply
+chain.
+The paper develops as follows. In the next section, a brief theoretical
+background on justice in the buyer-supplier relationship, suppliers’ internal social performance and supply operational risk is provided.
+Following this, the development of the study hypotheses is presented in
+Section 3. Section 4 presents the study method. The results are reported
+in Section 5. Section 6 provides the study’s theoretical and practical
+implications and highlights its limitations.
+2. Theoretical background
+2.1. Justice in the buyer-supplier relationship
+Justice has long been an important aspect in managing and ensuring
+long-term successful buyer-supplier relationships because it is capable of
+explaining and predicting a wide range of relevant behaviours, attitudes
+and outcomes in such relationships (Alghababsheh et al., 2022; Griffith
+et al., 2006). It encompasses three dimensions in the buyer-supplier
+relationship, namely distributive, procedural and interactional justice
+(Narasimhan et al., 2013; Trada and Goyal, 2017). In recent years,
+studies have begun to highlight the vital importance of justice in the
+buyer-supplier relationship for achieving sustainable supply chains (see
+Table 1). For instance, Boyd et al. (2007) suggested that procedural
+justice in corporate social responsibility (CSR) implementation along
+with a lower level of supplier monitoring can yield more effective means
+of increasing supplier CSR compliance. Similarly, Alghababsheh et al.
+(2020) proposed theoretically that buyer justice can advance supplier
+social sustainability directly and indirectly through enhancing the
+effectiveness of the assessment and collaboration approaches. Empirically, Chen and Chen (2019) uncovered that justice enhances the role of
+sustainable supplier management on supplier sustainability performance. Likewise, Bag et al. (2022) revealed that justice improves the
+positive impact of collaborative buyer–supplier relationships on supplier
+M. Alghababsheh et al. 
+Journal of Purchasing and Supply Management 29 (2023) 100820
+3
+social sustainability. Lim et al. (2022) found that, surprisingly, distributive justice can adversely affect the social collaboration-buyer’s social
+performance nexus. However, it can be observed that prior studies have
+predominantly focussed on the role of justice in the implementation of
+the private voluntary formal model (i.e., compliance and collaboration
+approaches) to supply chain social sustainability. As such, none of these
+studies have empirically considered the direct impact of the three justice
+dimensions on supplier’s internal social performance.
+During the relationship, supplier may evaluate the justice of an event
+(e.g., joint project) or the whole relationship either in terms of overall
+justice (deemphasising dimensional distinctions) or in relation to a
+particular justice dimension(s) (emphasising dimensional distinctions)
+(Alghababsheh et al., 2022). Our study focuses on the justice of the
+whole relationship on the part of the buyer in terms of all justice dimensions (i.e., distributive, procedural and interactional) from the
+supplier’s perspective.
+Distributive justice is grounded in equity theory (Adams, 1965) and
+it is concerned with the allocation of the valued returns created in the
+relationship by the buyer and the supplier (Carnovale et al., 2019). It
+signals the extent to which a supplier observes that its returns to inputs
+in the relationship are equal to those of the buyer. The inputs can be
+tangible (e.g., equipment) and/or intangible (e.g., technology) and the
+returns can be monetary (e.g., profits) and/or nonmonetary (e.g.,
+knowledge acquisition) for the supplier. Following the logic of equity
+theory, supplier compares the inputs that have been put into by and the
+returns accrued throughout the course of the relationship for each party
+based on the available information. This comparison process leads to
+two possible outcomes: distributive justice and distributive injustice. A
+supplier perceives distributive justice in the relationship when his/her
+return-to-input ratio is equal to that of the buyer, whilst he/she perceives distributive injustice when the return-to-input ratio is less
+(negative distributive injustice) or greater (positive distributive injustice) than that of the buyer (Alghababsheh et al., 2020).
+Procedural justice deals with the structural and instrumental part of
+the relationship. It reflects the degree to which a supplier perceives that
+the formal rules and procedures that organise and manage the relationship that eventually impact his/her gains are believed to be
+consistent over the relationship, bias-free, accurate, correctable, ethical
+(Leventhal, 1980) and follow the contracted terms and stipulations (Luo,
+2007). For example, a supplier may perceive a consistent relationship
+procedure when it is applied in the same way over time and to all peer
+suppliers dealing with the buyer. Similarly, the perception of a bias-free
+relationship procedure is evident when it is developed in a way that
+ensures mutual and joint benefits for both parties (Luo, 2007). However,
+the number and importance of assessment criteria (i.e., consistency,
+unbiasedness, accuracy, correctability, ethicality and conformity with
+Table (1)
+Analysis of justice studies in the context of sustainable supply chain management.
+Author(s) Justice dimension
+(s)
+Type of
+relationship
+Perspective Method Empirical setting Relevant empirical/theoretical findings
+Boyd et al. (2007) • Procedural Buyer-supplier N/A Conceptual N/A Procedural justice in CSR implementation with a
+lower level of supplier monitoring is a more effective
+means of increasing supplier CSR compliance.
+Normann et al.
+(2017)
+• Distributive Buyer-supplier Supplier Case study Textile industry
+across countries
+Assessment-based governance of supplier
+sustainability creates perception of distributive
+injustice, which in turn leads to non-compliance by
+suppliers with the buyer’s sustainability
+requirements.
+Soundararajan and
+Brammer (2018)
+• Procedural Intermediaries
+-suppliers
+Supplier Multiple case
+study
+Garment industry in
+India
+Framings of sustainability requirements and
+associated procedures adopted by intermediaries
+influence supplier’s perception of procedural
+justice, which in turn, influences the types of
+reciprocal behaviours by the supplier.
+Chen and Chen
+(2019)
+Deemphasised
+dimensional
+distinctiona
+Buyer-supplier Supplier Survey Multiple industries in
+China
+Justice enhances the moderating impact of
+sustainable supplier management on supplier
+sustainable performance.
+Alghababsheh et al.
+(2020)
+• Distributive Buyer-supplier N/A Conceptual N/A Buyer’s distributive, procedural and interactional
+justice can improve supplier’s social performance
+direct and indirectly through enhancing the
+implementation of socially sustainable supply chain
+management practices.
+• Procedural
+• Interactional
+Lee and Ha (2021) • Interpersonal Seller-buyer Not
+specified
+Survey Pharmaceutical
+industry in South
+Korea
+Interpersonal and informational justice have a
+positive impact on informational quality, which in
+turn, positively influences sustainable supply chain
+performance.
+• Informational
+Oyedijo et al.
+(2021)
+• Distributive Buyer-supplier Dyadic Qualitative
+interviews
+Food industry Buyer
+(UK) Supplier (India)
+Fairness perceptions positively influence
+collaborative activities (information sharing, joint
+relationship effort and dedicated investment)
+between multi-tier supply chain partners for
+sustainability.
+• Procedural
+• Interactional
+Bag et al. (2022) Deemphasised
+dimensional
+distinctiona
+Buyer-supplier Dyadic Survey Automotive parts in
+South Africa
+Justice improves the positive impact of collaborative
+buyer–supplier relationships on supplier social
+sustainability
+Lim et al. (2022) • Distributive Buyer-supplier Buyer Survey Multiple industries in
+China
+Distributive justice adversely affects the social
+collaboration-buyer’s social performance positive
+link. Procedural justice has no moderating effect on
+the link.
+• Procedural
+Qiao et al. (2022) Deemphasised
+dimensional
+distinctiona
+Buyer-supplier Supplier Survey Multiple industries in
+china
+Supplier perceived justice enhances the positive
+moderating role of perceived relationship
+attractiveness on the impact of environmental
+assessment and collaboration on supplier
+environmental commitment.
+Note: N/A = Not Applicable. a Justice treated as a unidimensional concept.
+M. Alghababsheh et al. 
+Journal of Purchasing and Supply Management 29 (2023) 100820
+4
+contractual terms) used by the supplier may vary depending on the
+importance of the procedure whose justice is being assessed and relationship characteristics (e.g., dependence structure, transactional vs.
+strategic relationship, new vs. old relationship) (Alghababsheh et al.,
+2022). Relationship procedures cover a wide range of areas in the
+relationship, including outcomes allocation, product return, order payment, lead time, resource sharing, information exchange and dispute
+resolution.
+Interactional justice is associated with the quality of the social and
+relational sides of the buyer-supplier exchange. It indicates the degree to
+which a supplier observes that it is being treated impartially at the
+interpersonal level by and receives fair relevant information from the
+buyer during the enactment of relationship procedures (Alghababsheh
+et al., 2020; Narasimhan et al., 2013; Wang et al., 2014). As such, the
+supplier assesses the buyer’s interactional justice from both an interpersonal and informational perspective. Specifically, from an interpersonal perspective, the supplier perceives interactional justice when the
+buyer treats him/her with respect, sensitivity, politeness and dignity
+during their interactions and communications (Liu et al., 2012). From an
+informational perspective, the supplier senses interactional justice when
+the buyer provides sufficient, timely and truthful explanations for and
+information on given decisions, actions, changes or outcomes in the
+relationship (Luo et al., 2015).
+2.2. Suppliers’ internal social performance
+Sustainability has become an integral part of managing global supply
+chains. This has primarily been motivated by the increasing pressure
+from powerful stakeholders as well as by the possible performance and
+competitive advantage that can be realised from implementing sustainable supply chain management (SSCM) (Sajjad et al., 2015; Markley
+and Davis, 2007). SSCM revolves around planning, organising, coordinating and controlling the flow of materials/services, information and
+capital from suppliers, and within the focal company, to final customers
+in an approach that supports the simultaneous achievement of environmental, social and economic goals to satisfy stakeholders and subsequently generates economic value to the focal company and supply
+chain partners (Carter and Rogers, 2008; Seuring and Müller, 2008). As
+such, the performance aim of SCM has been redefined under the sustainability perspective to involve addressing equally and simultaneously
+economic, environmental and social issues to realise advanced performance. This is because neglecting specific SCM issues may undermine
+the company’s efforts in managing the other issues. For instance, serious
+internal social issues at suppliers may damage the focal company’s
+reputation that it has built through environmental protection efforts,
+and thus negatively impacting economic performance. However, despite
+this fact, managing these three issues of SCM has received imbalance
+scholarly attention in the extant literature, with the management of the
+social issues receiving the least attention (Quarshie et al., 2016; Yawar
+and Seuring, 2017; Zorzini et al., 2015). The imbalanced attention
+among the three SCM issues suggests that considerable research on
+SSCM has not integrated and examined all these issues simultaneously.
+However, although it is necessary to integrate and study them simultaneously (Carter and Rogers, 2008), this would not be possible without a
+deeper understanding of the nuances of the social issues.
+A wide range of social sustainability issues can occur in the supply
+chain, adversely affecting the health, safety and welfare of the focal
+company’s employees, supplier’s employees, local community and
+customers (Alghababsheh and Gallear, 2022; Maloni and Brown, 2006).
+In recent years, clothing brands and retailers have paid more attention to
+the internal social issues of the suppliers that can have a detrimental
+impact on the suppliers’ workers (i.e., shop floor workers who are
+directly engaged in the garment production in the factory) and the local
+communities in which they operate (Yawar and Kauppi, 2018; Yawar
+and Seuring, 2017). It therefore follows that a supplier’s social performance can be divided into internal and external performance based on
+the targeted stakeholders. Emphasising the external stakeholders, supplier’s external social performance represents the extent of the voluntary
+support provided by the supplier towards the development and welfare
+of the community in which they operate, such as through donations,
+inclusion of marginalised people and sourcing from minority-owned
+businesses (Gimenez et al., 2012; Huq et al., 2016). By contrast, supplier’s internal social performance focusses on internal stakeholders
+(employees) and reflects the level of human and employment rights (e.
+g., child labour, freedom of association, fair payment, paid sick leave,
+paid over time and employee compensation) (Forsman-Hugg et al.,
+2013; Huq et al., 2016; Lund-Thomsen et al., 2012; Maloni and Brown,
+2006; Sancha et al., 2015) and working conditions (e.g., forced labour,
+corporal punishment, sexual harassment, working hours, health and
+safety and occupational welfare) (Awaysheh and Klassen, 2010; Sancha
+et al., 2016; Yawar and Seuring, 2017; Yu, 2008) prevalent in the supplier’s workplace.
+It is important to note that supplier’s external social performance is
+beyond the scope of this study. Our emphasis on supplier’s internal social performance can be explained from three perspectives. First, it can
+be argued that, in general, advancing supplier’s internal social performance is relatively more important than enhancing its external social
+performance. This is because poor internal social performance can lead
+to a more adverse direct impact compared to poor external social performance. For instance, if a supplier does not provide decent and
+acceptable working conditions in the facilities, work accidents will most
+likely increase. On the other hand, if a supplier does not offer donations
+to the external community, no negative direct impact will occur.
+Moreover, supplier’s internal social issues can have external social
+consequences, but not vice versa. For instance, a work-related injury or
+occupational illness will create suffer for the worker and also for his/her
+family in the form of deep emotional and financial pain. Second, buyer’s
+fair treatment of the supplier in terms of distribution of returns, procedures and interactions can help the supplier invest in better working
+conditions for the employees and avoid the use of unethical employment
+practices to reduce costs (e.g., child labour). Therefore, fair treatment of
+the supplier by the buyer can have a more direct impact on supplier’s
+internal social performance than on supplier’s external social performance. Finally, better internal working conditions in the supplier’s facilities are more likely to ensure a stable production environment and
+process, which can enable them to consistently meet the buyer’s quality
+specifications, delivery times and volume requirements. As such,
+reduced supply operational risk can be observed in the case of improving
+supplier’s internal social performance than in the case of enhancing
+supplier’s external social performance.
+2.3. Supply operational risk
+The increased reliance on other firms upstream and downstream the
+supply chain to obtain better materials and services in terms of quality
+and cost and deliver products and services to customers has resulted in
+firms that are nowadays more interdependent and interconnected
+(Christopher and Peck, 2004; Gunasekaran et al., 2015; Kamalahmadi
+and Parast, 2016) with relatively less control over the process of
+manufacturing and delivering their own products and services. However, although the increased interdependency and interconnectedness in
+supply networks and the implementation of operational excellence
+strategies (e.g., lean thinking and just-in-time) have increased overall
+efficiency, these conditions have amplified firms’ vulnerability to supply
+chain risks (Christopher and Peck, 2004; Craighead et al., 2007; Tukamuhabwa et al., 2015), which can lead to disruptions in the supply chain
+in the form of interruption to the forward and reverse flow of material,
+products, services, information and money (DuHadway et al., 2019;
+Scholten et al., 2014).
+Supply chain risk is “the likelihood and impact of unexpected macro
+and/or micro level events or conditions that adversely influence any
+part of a supply chain leading to operational, tactical, or strategic level
+M. Alghababsheh et al. 
+Journal of Purchasing and Supply Management 29 (2023) 100820
+5
+failures or irregularities” (Ho et al., 2015, p. 5). Supply chain risks can be
+broadly divided into external supply chain risks and internal supply
+chain risks (also known as operational risks) that can result from
+man-made or natural events (Christopher and Peck, 2004; Olson and
+Wu, 2010; Wu and Chiu, 2018). External supply chain risks that stem
+from outside the supply chain are uncontrollable in nature and occur
+due to natural, political, health or technological events, such as hurricanes (Kim and Bui, 2019), political unrest and conflicts (Elzarka, 2013),
+pandemics (Mollenkopf et al., 2020) and cyber-attacks (Pandey et al.,
+2020). In contrast, internal supply chain risks that originate from within
+the supply chain are somewhat more controllable: from the supplier’s
+side, the focal company’s (manufacturer) side and/or from the customer’s side. As such, internal supply chain risks are perceived to consist
+of three main types depending on the source of the risk namely, supply
+operational risk, process risk and demand risk (Chen et al., 2013; Kumar
+et al., 2010; Manuj and Mentzer, 2008). While process risk represents
+potential deviations in the level of production caused by disruptions of
+internal processes (e.g., machine breakdown) and demand risk reflects
+potential deviations in the forecasted demand from the actual demand,
+supply operational risk is the potential deviations in the level of the
+supply orders from suppliers in terms of time, quality and quantity that
+may result in incomplete orders (Chen et al., 2013; Kumar et al., 2010).
+Supply operational risk can cause disruptions that are more critical
+(Pereira et al., 2014) since the inability of suppliers to deliver the
+required material will negatively affect the firm’s ability to serve its
+customers at the right time, quantity and cost (Chen et al., 2013).
+3. Hypotheses development
+The conceptual model in this study (Fig. 1) establishes a positive
+relationship between the three dimensions of buyer’s justice (i.e.,
+distributive, procedural and interactional) and supplier’s internal social
+performance. The model also proposes that supplier’s internal social
+performance is negatively related to supply operational risk. These arguments are developed in the following subsections.
+3.1. Buyers’ justice and suppliers’ internal social performance
+3.1.1. Distributive justice and suppliers’ internal social performance
+The contemporary global apparel supply chains are “buyer-driven”
+(Locke and Samel, 2018), which means that brands and retailers are
+central to establishing decentralised production networks, mainly in
+exporting developing countries (Gereffi, 1994). They do not own the
+factories but their dominant bargaining power in the global industrial
+apparel market stems from their extensive purchasing power, as attained
+from consolidation and the prevailing high marketing and brand position in the consumer market (Locke et al., 2009). In these circumstances,
+suppliers’ business survival depends largely on brands and retailers
+(Lund-Thomsen and Lindgreen, 2014), leaving them without bargaining
+power (Kim et al., 2022). They earn lower profits compared to brands
+and retailers (Soundararajan and Brammer, 2018), although they do
+own the capital-intensive production process. Brands and retailers usually threaten to switch to a different source to gain a price reduction
+from suppliers (Anner, 2019). Suppliers who perceive unfair distribution
+of the relationship returns may attempt to address the imbalance by
+decreasing inputs or terminating the relationship in question
+(Malagueno ˜ et al., 2019). However, the potential consequences of losing
+powerful buyers might be more damaging to weaker suppliers without
+bargaining power (they might go out of business) than if they accept the
+price reductions (Schleper et al., 2017). Suppliers attempt to restore
+equity will be made indirectly by turning to the weakest link, its workers
+(i.e., own shop floor workers who are directly engaged in the garment
+production in the factory). To survive, suppliers seek to transfer the cost
+pressure generated from lower unit prices to their workers by cutting
+wages (Lund-Thomsen and Lindgreen, 2018), integrating child labour
+into their workforce (Awaysheh and Klassen, 2010; Jiang, 2009),
+avoiding expensive safety procedures in buildings (Anner et al., 2013)
+and/or keeping a smaller workforce to avoid training and fixed-benefit
+costs associated with hiring new and large numbers of workers and then
+forcing these workers to process excessive workloads during periods of
+high demand (Locke and Samel, 2018). Anner et al. (2013) observed that
+deteriorating labour rights and work conditions in suppliers globally
+typically coincides with a considerable drop in the prices that brands
+and retailers pay to suppliers. Conversely, if suppliers obtain a fair return and prices for their efforts produced items from buyers, they will be
+in a better financial position to be able to invest in improving workplace
+occupational health and safety conditions, provide fair wages to their
+workers and avoid unethical employment practices (e.g., child labour)
+(Alghababsheh et al., 2020). Buying firms should primarily aim to
+improve the economic performance of suppliers if they are to truly
+improve suppliers’ social performance (Yawar and Seuring, 2018).
+Based on the above, the study proposes the following.
+H1. Buyer’s distributive justice is positively related to supplier’s internal social performance.
+3.1.2. Procedural justice and supplier’s internal social performance
+Today’s apparel industry business environment is characterised by
+ever-changing consumer needs, dynamic demand and shorter item shelflives (Barrientos, 2013). Under these circumstances, to stay competitive,
+global brands and retailers have redesigned and coordinated supply
+chains to maximise flexibility and efficiency and avoid risk (Locke and
+Samel, 2018). Instead of stocking extra products in a store inventory,
+they usually reorder on a continual basis to avoid the risks associated
+with fluctuating consumer demand, creating volatile orders volumes for
+suppliers (Anner et al., 2013; Barrientos, 2013). Additionally, brands
+and retailers frequently place orders with suppliers requesting shorter
+lead times to allow them to respond quickly to the latest fashion trends
+and to introduce new products to consumers multiple times within a
+single season (Anner et al., 2013; Locke and Samel, 2018). However,
+such volatile purchasing practices represent a violation of relationship
+procedural justice and can create unstable operations and
+manufacturing environment for the suppliers that can adversely affect
+working conditions and labour rights. To make the most of a given order
+from brands and retailers (due to unstable orders) and to meet their tight
+delivery deadlines, suppliers may speed up production and simultaneously process multiple production orders to a scale that is considerably above the normal physical and phycological capacity of the workers
+to handle (Awaysheh and Klassen, 2010; Lund-Thomsen and Lindgreen,
+2014; Yu, 2008; Soundararajan et al., 2018). Moreover, suppliers may
+use the piece-work pay system under which workers are paid only a
+fixed piece rate (no other benefits) for each unit produced given the
+unstable order volumes (Anner, 2019). Furthermore, to reduce lead
+times and handle volatile orders volume, suppliers may force employees
+to work overtime and excessive hours and perform assigned tasks faster
+during periods of peak demand (Alghababsheh et al., 2020; Anner et al.,
+2013; Lund-Thomsen and Lindgreen, 2018). Alternatively, consistent
+and stable sourcing practices by dominating brands and retailers would
+allow for manageable working hours, less violation and abuse of labour
+Fig. 1. Conceptual model.
+M. Alghababsheh et al. 
+Journal of Purchasing and Supply Management 29 (2023) 100820
+6
+rights and reduced work-related injuries and illnesses within the suppliers’ facilities. It is then reasonable to argue that procedural justice
+within the relationship practices and policies on the part of the buyers
+can ensure more acceptable levels of social performance from suppliers,
+and therefore the study suggests the following.
+H2. Buyer’s procedural justice is positively related to supplier’s internal social performance.
+3.1.3. Interactional justice and supplier’s internal social performance
+Power imbalance in and consolidations at the retail end of global
+apparel value chains have enabled brands and retailers to exert
+increasing influence over relatively small suppliers in order to gain
+advantage (Locke et al., 2009). To face uncertainties and increase
+responsiveness in a highly dynamic market, dominating brands and retailers pursue unfair purchasing practices with suppliers including
+changing order volumes and specifications subsequent to suppliers
+starting production (Anner, 2019; Locke et al., 2009). Suppliers are
+likely to be understanding of the need for changes to order volumes and
+specifications by buyers in response to unexpected events; however,
+when these changes are repeated and made without timely and adequate
+notice and information (interactional injustice), vulnerable suppliers
+will have no option but turn to the type of unethical and non-standard
+employment practices that can lead to a dramatic deterioration in
+wages and working conditions to satisfy lead firms and keep contracts
+(Alghababsheh et al., 2020; Anner, 2019). To reduce the impact of the
+losses generated from late changes to order specifications by buyers,
+suppliers will try to save costs at the expense of weak workers by
+lowering their wages and benefits (Anner, 2019) and minimising investment in facilities’ health and safety infrastructures (Jiang, 2009).
+Moreover, variations in order volumes can push suppliers to employ
+significant numbers of contingent or agency workers and then lay them
+off, or to rely on current employees to work long hours to fulfil unanticipated high order volumes (Locke and Samel, 2018). On the contrary,
+buyers offering better trading conditions in terms of providing complete
+and timely information about unexpected changes in order volumes and
+specifications would allow suppliers sufficient time to adjust and
+manage current production operations in order to avoid losses and thus
+reduce the potential cost pressure being transferred to workers. This
+would also enable suppliers to increase production capacity by hiring
+new employees rather than relying on the current workforce effectively
+being forced into extensive overtime (Alghababsheh et al., 2020). Thus,
+it can be expected that increased interactional justice in business relationship with suppliers, as applied by brands and retailers, could
+contribute to more stable working hours and reduced costs. Therefore, it
+can be argued that:
+H3. Buyer’s interactional justice is positively related to supplier’s internal social performance.
+3.2. Supplier’s internal social performance and supply operational risk
+The negative effect of supplier’s poor internal social performance can
+go beyond damaging the buying firm’s reputation and sales to potentially disrupting all sourcing process activities, potentially harming their
+operational performance (i.e., quality, delivery and cost) (Sancha et al.,
+2015). Supplier’s internal social deterioration in the form of health and
+safety violations can not only affect the safety and well-being of the
+workers but also affect the supplier’s internal operations and production, resulting, in extreme circumstances, in factory closure (Porteous
+et al., 2015; Pullman et al., 2009; Rodríguez et al., 2016). The most
+devastating incident in the industrial apparel production history, the
+collapse of Rana Plaza building in Bangladesh in 2013, highlights the
+danger that the supply process, and most importantly, the workers face
+as a result of poor health and safety conditions in the workplace (i.e., the
+building did not meet the construction legislation standards) (ILO,
+2018a). The collapse of the building killed 1132 people and injured
+thousands; the majority of whom were working in the five ready-made
+garment factories located in the building that produce clothes for
+major western brands (ILO, 2018a).
+Conversely, enhancing working conditions and safety procedures in
+suppliers’ facilities can result in a reduction of potential work accidents
+(e.g., employee work-related injuries) and thus fewer interruptions and
+delays in the supply process and product delivery to the buying companies (Freire and Alarcon, ´ 2002; Sancha et al., 2015). Moreover, if the
+working conditions and welfare of the supplier’s workers are improved,
+the quality of the supplied product can improve due to increased
+employee’ satisfaction, motivation and retention (Carter and Jennings
+2002; Huq et al., 2014; Pagell et al., 2010). This is because when an
+organisation provides favourable working conditions (e.g., fair payment
+and high safety) that make employees more satisfied and motivated, the
+latter will in return tend to be more dedicated to delivering high product
+and service quality as a means of reciprocity to the organisation (Yee
+et al., 2008; Zhou et al., 2008). Furthermore, cooperation with suppliers
+with regard to social targets through development programmes has been
+found to lead to improved supplier performance in terms of product
+costs, quality and delivery (Akamp and Müller, 2013) and increase
+supply chain resilience capabilities (Silva and Ruel, 2022). Based on the
+above discussion, it is hypothesised that.
+H4. Supplier’s internal social performance is negatively related to
+supply operational risk.
+4. Method
+4.1. Sample and data collection
+In this study, data were collected from garment suppliers and their
+workers (i.e., own shop floor workers who are directly engaged in the
+garment production in the factory) in the country of Jordan. This setting
+was selected for three important reasons. Firstly, the Jordanian garment
+industry has seen enormous growth in terms of production and exportation since the country received preferential duty-free and quota-free
+access to the United States (US) market following the finalisation of
+two trade agreements in 1996 and 2001. The preferential access to the
+US market that Jordan enjoys has driven the entry of foreign garment
+investors and manufacturers into Jordan from the South Asia region,
+particularly China, Hong Kong, Taiwan and India, making Jordan one of
+the leading garment exporters to the US in the MENA region (Azmeh and
+Nadvi, 2013). In 2019, the value of garment exports exceeded US$ 1.8
+billion, accounting for 24 per cent of Jordan’s total exports (International Trade Centre, 2019). With the rapid expansion of Jordan’s
+garment production and exports, there has been an increase in the use of
+migrant workers, who represent more than three-quarters of its total of
+60,000 (ILO, 2018b). However, the flow of cheap migrant workers to the
+Jordanian garment industry can potentially create fertile ground for the
+rise of labour exploitation. A recent study on South Asia migrant
+workers’ experiences in Jordan’s garment industry by the ILO reported
+some serious employment issues including forced overtime and passport
+confiscation (ILO, 2018b). Secondly, the garment industry was deemed
+appropriate because, among the forms of workplace social misconduct
+(e.g., product safety and animal welfare) that can develop in the
+manufacturing industries, working conditions and employment rights
+misconduct (e.g., unfair payment, long working hours, unsafe work
+environment and lack of freedom of association) tend to be more prevalent in the garment industry, this is likely to be due to its
+labour-intensive nature (Huq et al., 2016; Zorzini et al., 2015). Finally,
+Jordan has relatively weak institutional environment (Organisation for
+Economic Co-operation and Development, 2018). Recent data reported
+by the World Bank revealed that Jordan scores relatively poorly on three
+of the important dimensions that reflect the level of the quality of the
+institutional environment. It was placed 79th, 78th, and 73rd out of 193
+countries on the index of Government Effectiveness, the index of
+M. Alghababsheh et al. 
+Journal of Purchasing and Supply Management 29 (2023) 100820
+7
+Regulatory Quality and Rule of Law index, respectively (The World
+Bank, 2019). This could potentially pave the way for the use of unethical
+practices by companies to gain additional economic advantages.
+The Jordanian garment industry is dominated by relatively large
+producers located in industrial estates with “Satellite Units” (i.e., smallscale garment branch factories) based in different locations across Jordan. These “Satellite Units” were established by the garment producers
+with support from the Jordanian government to address the logistical
+challenge that the Jordanian workers face when travelling from
+different locations to the industrial estates and minimise the travel
+allowance costs incurred by the producers (ILO, 2019). The garment
+industry also has a number of informal and home-based businesses that
+cannot be underestimated, the majority of which are owned and led by
+women. The informal economy constitutes a significant part of Jordan
+economy, which contributes around 25% to the national income and
+employs 47 of the country’s workforce (Sobh and Rumman, 2019). The
+size of the informal economy in Jordan might be explained by the lack of
+high-quality institutional environment (e.g., government effectiveness
+and law enforcement).
+A count of all the firms operating in the garment sector, excluding
+their “Satellite Units”, by September 2018 revealed a population of 117
+firms. It was decided to approach the entire population given its
+manageable size and that most such firms are clustered within specific
+industrial estates in the northern, central and southern regions of Jordan. Access was facilitated by Jordan Chamber of Industry and Jordan
+Industrial Estates Corporation. For each of the of the 117 firms identified, we targeted supplier’s manager who directly manages the relationship with the buyer and its shop floor worker. Therefore, two
+surveys were designed, one for the manager and the other for the shop
+floor worker. Both surveys were originally developed in the English
+language and translated into Arabic and then back translated into English to ensure measurement equivalence since both versions were used
+in data collection from Jordanian and non-Jordanian managers and
+workers. The supplier’s manager’s survey consisted of closed-ended
+questions on general information (i.e., firm age, firm size, buyersupplier relationship length and the respondent’s current position)
+and on buyer’s justice (distributive, procedural and interactional) and
+supply operational risk. The shop floor worker’s survey included closedended questions on demographic information (i.e., gender, marital status, age, educational, work experience and nationality) and on internal
+social performance. As such, we have adopted a multi-informant design
+in our study: both buyer’s justice and supply operational risk were reported by the manager, while internal social performance was reported
+by a shop floor worker. However, the use of a single-informant design for
+capturing both buyer’s justice and supply operational risk was due to
+two factors. First, in small and medium-sized enterprises (SMEs), which
+is the case of our sample, it is highly unlikely to find more than one
+individual sufficiently knowledgeable to deliver a well-informed
+response (Kull et al., 2018). Second, such a design allowed us to
+spread the data collection effort and time across more suppliers, which
+helped in increasing the sample size (Kull et al., 2018).
+Due to the relational nature of the Middle Eastern managers and
+workers, in-person administered survey (through visiting respondents’
+workplaces) was deemed appropriate in order to establish trust, which is
+itself necessary to permit open dialogue of a sensitive nature (Hawkins
+et al., 2014), such as social issues in the workplace. This approach also
+helped to obtain a high response rate and enabled the determination of
+whether the participants were sufficiently knowledgeable to understand
+the survey questions and did not answer them in a slipshod manner.
+Additionally, the on-site administration of the survey ensured that it was
+the shop floor workers who filled in their survey. The survey was
+delivered by hand and collected in person over the period from October
+2018 to July 2019. In total, 97 complete and useable surveys from
+suppliers and 97 matched surveys from their workers were received.
+Table 2 provides descriptive statistics of the sampled suppliers, while
+Table 3 provides demographic information of the shop floor workers.
+4.2. Measurement
+The measurement items of the study variables were existing measures adopted/adapted from prior research and all were captured on a 5-
+point Likert Scale ranging from “1 = strongly disagree” to “5 = strongly
+agree”. Distributive justice is a first-order reflective construct was
+measured using four items based on the work of Poppo and Zhou (2014)
+and Luo et al. (2015). Suppliers were asked to report whether both
+parties received a fair share of the revenues from the relationship given
+the tasks, responsibilities, efforts and investments that each do and make
+in the relationship. Procedural justice is a first-order reflective construct
+that was captured using five items adapted from Poppo and Zhou (2014)
+and Luo (2007). Suppliers were instructed to indicate whether buyers
+conformed to the appropriate rules and procedures when negotiating
+and stipulating agreement, implementing decisions and changes and
+sharing information, and whether these rules and procedures are fair
+when planning and managing purchasing relationship activities.
+Table (2)
+Characteristics of the suppliers (N = 97).
+Characteristics No. %
+Position
+Manager/CEO 41 42.2
+Sales manager 24 24.7
+Marketing manager 15 15.4
+Production manager 11 11.3
+Customer relationship manager 6 6.1
+Firm Size (No. of employees)
+<100 18 18.6
+100–199 37 38.1
+200–299 25 25.8
+300–399 12 12.4
+>399 5 5.2
+Firm age (No. of years)
+<5 29 29.9
+5–9 43 44.3
+10–14 17 17.5
+>14 8 8.2
+Relationship length (No. of years)
+<5 46 47.4
+5–9 39 40.2
+10–14 12 12.4
+>14 0 0
+Table (3)
+Characteristics of the suppliers’ shop floor workers (N = 97).
+Characteristics No. %
+Gender
+Female 68 70.1
+Male 29 29.9
+Marital status
+Single 55 56.7
+Married 42 43.3
+Age
+18–25 23 23.7
+26–33 39 40.2
+34–41 21 21.6
+>41 14 14.4
+Education
+High School or less 44 45.4
+College 31 32
+Undergraduate 19 19.6
+Postgraduate 3 3.1
+Work experience
+<3 30 30.9
+3–6 46 47.4
+7–10 14 14.4
+>10 7 7.2
+Nationality
+Non-Jordanian 61 62.9
+Jordanian 36 37.1
+M. Alghababsheh et al. 
+Journal of Purchasing and Supply Management 29 (2023) 100820
+8
+Interactional justice is a first-order reflective construct that was measured
+using four items adopted from Luo et al. (2015) and Narasimhan et al.
+(2013). Respondents were asked to indicate whether both parties
+explain to each other the reasons behind relevant policies and decisions,
+inform each other of any changes and how quickly they exchange
+information.
+Supplier’s internal social performance is a first-order reflective
+construct was measured using a four-item scale that was developed
+based on the work of Closon et al. (2015) and Mory et al. (2016). The
+scale items reflect employees’ perception of employment rights, working
+conditions, and health and safety and social dialogue, which fit the
+study’s conceptualization of supplier’s internal social performance.
+Supply operational risk is a first-order reflective construct that was
+captured using six items based on the work of Chen et al. (2013). Suppliers were requested to reveal the extent to which they consistently
+meet buyers’ quality specifications, delivery times and volume requirements and their capacity to meet their overall requirements.
+Control variables. The study controlled for two set of variables,
+namely firm-level and individual-level control variables. Consistent with
+previous research, the firm-level control variables included were firm
+age (the numbers of years in business) and firm size (measured by
+number of employees) when examining supplier’s internal social performance (Alghababsheh and Gallear, 2021; Sancha et al., 2015) and
+supply operational risk. We also controlled for the potential effect of the
+buyer-supplier relationship length (captured by the number of years
+both sides had been involved in the relationship) on supply operational
+risk. Prior studies revealed that buyers usually assess supply risk more
+when sourcing from new suppliers (Zsidisin et al., 2004). Based on this,
+we can expect that supply operational risk might be higher in the early
+stages of the relationship. Firm age, firm size and the buyer-supplier
+relationship length were all reported by the managers.
+Since supplier’s internal social performance was captured from the
+employees’ perception, the study also controlled for individual-level
+effects. This is because individual differences can play in shaping employees’ judgments of internal social responsibility (Abd-Elmotaleb
+et al., 2015; Farrukh et al., 2020). Six individual-level variables were
+included in the model: gender, age, material status, education level,
+work experience and employees’ nationality, all of which were provided
+by the employees (see Table 3).
+5. Results
+Partial least squares structural equation modelling (PLS-SEM) was
+adopted to estimate both the measurement and structural models using
+SmartPLS 3.0. The main rationale behind using PLS-SEM is that it produces robust estimates with small sample sizes, such as with the current
+study (97), compared to other SEM techniques (Hair et al., 2014).
+5.1. The measurement model
+Common method bias (CMB) is one of the more serious problems
+facing behavioural research that may result in misleading conclusions. It
+indicates that the estimated relationship between two constructs is
+attributable to the measurement method rather than to the constructs
+the measures represent (Podsakoff et al., 2003). CMB can potentially
+occur due to a single informant rating of both the predictors and criterion variables and to item characteristic effects (Podsakoff et al., 2003).
+This study followed measures pre- and during data collection to address
+CMB. Firstly, the study obtained information on the predictors and criterion variables from different informants (managers and shop floor
+workers), as previously described in the sample and data collection
+section (Guide and Ketokivi, 2015; Podsakoff et al., 2003). Secondly,
+respondent’s anonymity was ensured, and measurement items were
+pre-tested for clarity to reduce their characteristic effects (Podsakoff
+et al., 2003; Tourangeau et al., 2000). However, to be assured that these
+measures were effective, Harman’s (1967) single-factor test was
+employed to examine for potential CMB. The analysis revealed that no
+single factor explained more than of 50% of the variance in the model
+(the highest variance explained by a single factor was 18.3%), suggesting that CMB was not a problem.
+The quality of the measurement model was evaluated from both the
+reliability and validity perspectives (see Table 4). To assess reliability,
+the composite reliability (Werts et al., 1974) values of the constructs
+were obtained, all of which exceeded the recommended value of 0.70,
+pointing towards a satisfactory level of internal consistency among the
+constructs’ items (Bagozzi and Yi, 2012). To evaluate the validity of the
+constructs’ measurement, convergent validity and discriminant validity
+analysis were conducted. The values of the standardised factor loading
+of the constructs’ items and the average variance extracted (AVE) for the
+Table (4)
+Measurement items.
+Construct Standardised
+loadings
+tvalue
+Distributive justice (C.R. = 0.94 AVE = 0.79)
+DJ1: Both parties have received a fair share of the
+revenues resulted from this relationship that given
+the tasks and responsibilities we do.
+0.89 48.51
+DJ2: Our returns and rewards relative to our
+contribution to this relationship is about the same
+as that of our buyer.
+0.89 39.48
+DJ3: Our returns and rewards relative to our
+contribution to this relationship is about the same
+as that of other firms in similar supply relationship.
+0.88 44.15
+DJ4: Each party has received a just share of the
+outcomes from this relationship given the amount
+of efforts and investments that each make.
+0.89 41.55
+Procedural justice (C.R. = 0.92 AVE = 0.70)
+PJ1: When negotiating and stipulating agreement or
+changes, the buyer and supplier consistently apply
+the same procedures and policies.
+0.77 15.35
+PJ2: When implementing decisions, the buyer and
+supplier conform to agreed-upon standards and
+procedures.
+0.85 28.61
+PJ3: The procedures for implementing changes to the
+contract are consistently used by both parties.
+0.91 50.49
+PJ4: Both parties share information and resources in
+the relationship through specified rules and
+procedures.
+0.87 37.16
+PJ5: The procedures we follow in planning,
+organising, and managing our purchasing
+relationship activities are fair.
+0.76 18.26
+Interactional justice (C.R. = 0.93 AVE = 0.76)
+IJ1: Both parties often explain the reasons behind
+relevant policies and decisions.
+0.86 30.02
+IJ2: Both parties agree on what is important in this
+engagement.
+0.89 42.01
+IJ3: We exchange information in a timely manner. 0.88 30.21
+IJ4: We keep each other informed of any changes may
+affect the other party.
+0.86 20.01
+Suppliers’ internal social performance (C.R. = 0.93 AVE = 0.79)
+SP1: Our company implements fair pay policies. 0.88 31.29
+SP2: Our company implement policies that allow us
+to balance work and private life.
+0.87 27.86
+SP3: Our company implements health and safety
+measures in the workplace.
+0.90 44.17
+SP4: Our company promotes the social dialogue with
+employee representatives.
+0.90 45.67
+Supply operational risk (C.R. = 0.94 AVE = 0.78)
+SR1: We do not meet buyers’ quality specification
+requirements on a consistent basis.
+0.91 55.19
+SR2: We do not meet buyers’ required delivery lead
+times on a consistent basis.
+0.87 41.07
+SR3: We do not meet buyers’ volume requirements on
+a consistent basis.
+0.87 35.44
+SR4: We do not consistently meet buyers’ overall
+requirements.
+0.88 36.28
+SR5: We do not always deliver buyers’ orders as
+promised.
+0.90 49.93
+SR6: We do not have the capacity to meet buyers’
+requirements.
+0.85 32.58
+M. Alghababsheh et al. 
+Journal of Purchasing and Supply Management 29 (2023) 100820
+9
+construct were used as criteria to predict convergent validity (Hair et al.,
+2014). All the standardised loadings of the constructs’ items are above
+the required threshold value (0.5) (Hulland, 1999). All the AVE values of
+the constructs are higher than 0.5 and significant (Fornell and Larker,
+1981), providing evidence that convergent validity had been
+established.
+To estimate discriminant validity, the study applied Fornell and
+Larker’s (1981) criterion, which has been noted as an effective procedure for this purpose (Voorhees et al., 2016). According to this criterion, a construct can establish discriminant validity when the square
+root of its AVE is greater than its bivariate correlation with any other
+construct within the same measurement model (Fornell and Larker,
+1981). Table 5 shows that all the square roots of the AVEs (in the diagonal line) of the continuous constructs are greater than their intercorrelations, demonstrating discriminant validity.
+The study also examined for potential multicollinearity issues (i.e.,
+the existence of extraordinary high correlations among the exogenous
+variables) by calculating Variance Inflation Factor (VIF) values (i.e., the
+increase in standard error as a result of collinearity between two variables) (Hair et al., 2014). All VIF values for the exogenous variables (i.e.,
+distributive justice = 3.55, procedural justice = 2.43, interactional
+justice = 2.54) are lower than 5, suggesting that multicollinearity was
+not an issue (Tabachnick and Fidell, 2014).
+5.2. The structural model
+The structural model includes the supplier’s internal social performance as an endogenous variable whose value is predicted by exogenous
+variables (distributive, procedural and interactional justice) and as an
+exogenous variable predicting the value of supply operational risk. As
+such, the results for supplier’s internal social performance and supply
+operational risk are presented in the two main columns in Table 6. The
+results demonstrate that all the control variables (gender, marital status,
+age, work experience, education level, nationality, firm size and firm
+age) explain only 0.05 of the variance in the supplier’s internal social
+performance, while firm size, firm age and relationship length explain
+only 0.01 of the variance in supply operational risk (see Table 6). All of
+the control variables are insignificant predictors of both the supplier’s
+internal social performance and supply operational risk.
+The results also indicate that the addition of the buyer’s justice dimensions (model 2) increases R2 for the supplier’s internal social performance significantly, from 0.05 to 0.57 (ΔR2 = 0.52), whilst all the
+control variables remained insignificant. Distributive justice (β = 0.31,
+p < 0.05) and procedural justice (β = 0.38, p < 0.01) have a positive
+significant effect on supplier’s internal social performance. However,
+the proposed positive effect of interactional justice (β = 0.12, p > 0.05)
+on supplier’s internal social performance is insignificant. Thus, H1 and
+H2 are supported, while H3 is not. The analysis also shows that the
+relationship between supplier’s internal social performance and supply
+operational risk is negative and significant (β = − 0.80, p < 0.001),
+providing support for H4.
+It is very important to note that although we did not conceptualise
+the mediating role of supplier’s internal social performance in the relationships between justice dimensions (i.e., distributive, procedural
+and interactional) and supply operational risk, we empirically tested this
+potential mediating role using the bootstrapping method (Preacher and
+Hayes, 2008). Our results reveal that the indirect effect of distributive
+justice on supply operational risk via supplier’s internal social performance (β = − 0.066, p > 0.05) and the indirect effect of procedural
+justice on supply operational risk via supplier’s internal social performance (β = − 0.097, p > 0.05) are insignificant. As the proposed direct
+impact of interactional justice on the mediator, supplier’s internal social
+performance, was insignificant (β = 0.12, p > 0.05) (see Table 6), a
+mediating effect of supplier’s internal social performance in the relationship between interactional justice and supply operational risk could
+not be established and tested (Preacher and Hayes, 2008).
+6. Discussion
+6.1. Theoretical implications
+This study makes three contributions to the SCM literature. Firstly,
+this study theoretically proposes and empirically examines the positive
+role of buyers’ distributive, procedural and interactional justice on
+enhancing suppliers’ internal social performance. As such, the study
+enriches the current knowledge on socially SSCM by proposing a novel
+relational approach that can be truly effective in tackling supplier’s internal social issues. Our proposition of this approach is based on the fact
+that one of the main root causes of suppliers’ social issues is buyers’
+unfair relationship practices (Anner et al., 2013; Alghababsheh et al.,
+2020), and therefore, to achieve improvement in suppliers’ internal
+social performance, unfair relationship practices by buyers should be
+restored. As such, our study departs from the general assumption on
+which the compliance and collaboration practices were designed, that
+suppliers’ internal social issues are a factory technical problem. Our
+findings demonstrated that distributive and procedural justice are
+positively related to supplier’s internal social performance. However,
+our data failed to support the proposed positive impact of interactional
+justice on supplier’s social internal social performance. It seems that
+providing complete and timely information during the relationship is
+not as important as the delivery of fair returns and the implementation
+of consistent fair procedures to ensure supplier’s internal social performance. Our result is surprising given the fact that information sharing
+helps in coordinating the supply process between the buyer and the
+supplier. A potential explanation for this result is that, when compared
+to implementing consistent procedures, providing complete and timely
+information to the supplier might not be essential to ensuring a more
+stable production environment and thus less poor working conditions
+and practices (e.g., extreme overtime shifts) in its facility on the
+long-term. Providing complete and timely information (interactional
+justice) to the supplier might be more vital to maintaining a stable
+production environment in the supplier’s factory only when there are
+unexpected and major changes to the agreed supply and delivery procedures (e.g., order volume and timing). In other words, interactional
+justice, through timely information sharing, can serve as a coordination
+mechanism between the buyer and the supplier in the case of unforeseen
+events in the relationship, while procedural justice, through following
+consistent procedures, can function as a coordination mechanism that
+guides regular and daily exchanges between the buyer and the supplier.
+Secondly, a business case for supplier social sustainability in the
+supply chain represents one of the main deciding factors by which
+buyers implement such initiatives. Accordingly, the link between
+improving supplier’s social performance and different outcomes at both
+the individual partner (i.e., buyer and supplier) level and at the relationship level has received growing but limited research attention in the
+recent years. However, although the extant research has contributed to
+better understanding of the business case of supplier social sustainability
+initiatives, the majority has predominantly focussed on investigating the
+impact of improving supplier’s social performance on traditional performance outcomes (e.g., operational, environmental or financial performance) with the various studies providing contrasting results. This
+study, however, examined the impact of suppliers’ internal social performance on the mitigation of the supply operational risk that stems
+from the supplier’s side (i.e., the deviation in the supply orders from
+suppliers in terms of time, quality and quantity), which has not been
+previously advanced. This extends the knowledge base by highlighting a
+new outcome that buyers can realise from their investments and efforts
+in tackling current suppliers’ internal social issues. This also contributes
+to the exiting literature on supply chain risk management by suggesting
+that addressing social issues and promoting improvements in labour
+standards in suppliers’ facilities represents a potential proactive strategy
+by which to reduce the probability of supply operational risk. Our
+findings revealed that improved suppliers’ internal social performance is
+M. Alghababsheh et al. 
+Journal of Purchasing and Supply Management 29 (2023) 100820
+10
+Table (5)
+Descriptive statistics, intercorrelations and the square root of the AVE (N = 97).
+Construct Mean SD 1 2 3 4 5 6 7 8 9 10 11 12 13 14
+1. Gendera 1.70 0.46 –
+2. Marital statusb 1.43 0.49 − 0.42k –
+3. Agec 2.27 0.98 − 0.37k 0.75k –
+4. Education leveld 1.80 0.86 0.45k − 0.48k − 0.49k –
+5. Work experiencee 1.98 0.86 − 0.30k 0.57k 0.83k − 0.38k –
+6. Nationalityf 1.63 0.48 − 0.50k − 0.06 − 0.18 − 0.22j − 0.19 –
+7. Firm sizeg 2.47 1.09 0.05 0.09 0.25i − 0.07 0.40k − 0.19 –
+8. Firm ageh 2.04 0.90 − 0.27k 0.56k 0.78k − 0.32k 0.93k − 0.25j 0.44k –
+9. Relationship lengthi 1.65 0.69 − 0.26k 0.53k 0.70k − 0.34k 0.78k − 0.23j 0.34k 0.84k –
+10. Distributive justice 3.03 0.99 0.10 − 0.03 − 0.04 0.05 − 0.07 0.02 − 0.03 − 0.06 − 0.09 0.89
+11. Procedural justice 3.04 0.89 0.19 − 0.08 − 0.07 0.08 − 0.09 − 0.07 − 0.04 − 0.07 − 0.06 0.76k 0.83
+12. Interactional justice 3.60 0.90 0.17 − 0.05 − 0.01 0.07 − 0.01 − 0.04 0.01 0.01 0.01 0.76k 0.61k 0.87
+13. Supplier’s social perf. 3.57 0.90 0.14 − 0.10 − 0.07 0.09 − 0.11 0.02 − 0.08 − 0.11 − 0.17 0.69k 0.68k 0.59k 0.89
+14. Supply operational risk 2.82 1.02 − 0.12 0.11 0.05 − 0.02 0.09 − 0.10 0.06 0.08 0.09 − 0.73k − 0.72k − 0.63k − 0.78k 0.88
+Note: Figures in the diagonal line represent the square root of AVE.
+a 1 = male; 2 = female.
+b 1 = single; 2 = married.
+c 1 = 18–25 years; 2 = 26–33 years; 3 = 34–41 years; 4 = > 41 years.
+d 1 = high school or less; 2 = college; 3 = undergraduate; 4 = postgraduate.
+e 1 = < 3 years; 2 = 3–6 years; 3 = 7–10 years; 4 = > 10 years.
+f 1 = Jordanian; 2 = non-Jordanian.
+g 1 = < 100 employees; 2 = 100–199 employees; 3 = 200–299 employees; 4 = 300–399 employee; 5 = >399 employees.
+h 1 = < 5 years; 2 = 5–9 years; 3 = 10–14 years; 4 = >14 years.
+i 1 = < 5 years; 2 = 5–9 years; 3 = 10–14 years; 4 = >14 years.
+j P ≤ 0.10.
+k p ≤ 0.05.
+M. Alghababsheh et al. 
+Journal of Purchasing and Supply Management 29 (2023) 100820
+11
+negatively related to supply operational risk.
+Finally, previous studies have primarily focussed on the perceptions
+of the traditional supply chain actors (i.e., buyer and supplier companies), concerned civil society organisations and trade unions of what
+constitutes decent working conditions in the supply chain, while the
+perception of the central actors, the shop floor workers in the suppliers’
+facilities, remains, surprisingly, largely unexplored (Reinecke and
+Donaghey, 2021; Soundararajan et al., 2021). In our study, we moved
+forward and captured suppliers’ internal social performance from the
+shop floor workers’ perspective. Understanding what constitutes decent
+working conditions from the shop floor workers’ perspective is a
+necessary step to advance and promote real social sustainability in
+global supply chains. It can not only allow us to understand the characteristics of the shop floor workers and the composition of the workforce in the suppliers’ facilities, but it also allows us to control for
+potential social desirability bias that may emerge when supplier’s top
+management reports on this sensitive issue and to reveal the actual
+status of the working conditions in the light of rampant ‘mock compliance’ by suppliers (Huq et al., 2014) and audit fraud and deception in
+the developing world (LeBaron, 2021). Moreover, examining the suppliers’ internal social performance from the shop floor workers’
+perspective enables us to obtain valuable input that can help in
+reshaping government employment regulations (Knudsen, 2018; Reinecke and Donaghey, 2021) and redesigning the buying companies’
+traditional supply chain social sustainability practices (e.g., codes of
+conduct and development and training programmes) to ensure that they
+are aligned with the current working conditions and labour issues in the
+suppliers’ facilities.
+6.2. Practical implications
+The shift towards a global sourcing strategy has undoubtedly enabled
+firms to gain certain advantages. However, managers of global supply
+chains often face different challenges when sourcing from suppliers
+based in low-cost countries. Of the primary challenges that have been
+highlighted as being critical in recent years, and that could have a
+dramatic and detrimental effect on the performance of their purchasing
+departments (e.g., delayed orders delivery) as well as overall company
+performance (e.g., lost sales and damaged reputation), are managing
+suppliers’ internal social issues (e.g., unfair wages and substandard
+working conditions) and supply operational risk (i.e., the deviation in
+the supply orders from suppliers in terms of time, quality and quantity).
+This study provides a set of practical implications that can be of help in
+handling these critical challenges in today’s global supply chains.
+Firstly, distributive justice, as enacted by buyers in the relationship, can
+contribute to better social conditions in suppliers’ workplaces. Therefore, buying firms should deliver fair returns and prices to suppliers
+commensurate with their efforts in the relationship, which would reduce
+suppliers’ transfer of cost pressure onto workers (e.g., cutting wages)
+and increase their investment in their facilities’ conditions. Secondly,
+procedural justice in the relationship can also sustain an acceptable level
+of internal social performance by suppliers. Therefore, managers should
+establish procedural justice towards suppliers by ensuring stable and
+consistent purchasing routines and practices (consistent order volumes
+and manageable lead times), which can help them in the creation of
+stable production environments and, ultimately, minimise the likelihood of the use of poor working practices such as forced overtime.
+Finally, although promoting and enhancing working conditions and labour rights in suppliers’ facilities by buyers can sometimes be regarded
+as a costly and infeasible investment, this study provides evidence that
+this approach can actually pay off in the long run. Specifically, this study
+found evidence that the resulting benefit of improving supplier’s internal social performance is not limited to reducing reputational risk
+(negative publicity) but also to mitigating supply operational risk from
+suppliers. Thus, by helping and addressing suppliers’ internal social
+problems, supply chain managers can ensure that orders from suppliers
+meet quality specification, delivery times and volume requirements on a
+consistent basis and thus be able to deliver their products to customers at
+the right time and with the right quality.
+6.3. Limitations and future research
+Despite the contribution made by this work, it has certain limitations
+that should be acknowledged, and suggests a number of important directions for future research. Firstly, this study highlighted how establishing justice by buyers in their business relationship with suppliers in
+terms of the economic and procedural aspects can help to reduce suppliers’ internal social issues in the garment industry in a single emerging
+country context. Although these results may be generalised to other
+countries and industries with similar characteristics, attempts to extend
+Table (6)
+Results of the structural model.
+Construct Supplier’s internal social performance (SISP) Supply operational risk
+Model 1 Model 2 Model 1 Model 2
+β t-value В t-value β t-value β t-value
+Control variables
+Gender 0.02 1.35 0.02 0.22
+Marital status − 0.05 0.34 − 0.06 0.66
+Age 0.23 0.87 0.15 0.78
+Work experience 0.05 0.43 0.06 0.23
+Education level − 0.06 0.17 0.03 0.51
+Nationality 0.15 1.00 0.05 0.51
+Firm size − 0.07 0.53 − 0.02 0.24 0.01 0.12 0.01 0.02
+Firm age − 0.06 0.18 − 0.16 0.63 0.01 0.05 0.08 0.69
+Relationship length − 0.10 0.45 − 0.11 0.99
+Predictors
+Distributive justice 0.31 2.17*
+Procedural justice 0.38 3.22**
+Interactional justice 0.12 1.14
+SISP − 0.80 20.89***
+R2 0.05 0.57 0.01 0.63
+Δ R2 0.52 0.62
+Note: N = 97.
+*p ≤ 0.05
+**p ≤ 0.01
+***p ≤ 0.001
+M. Alghababsheh et al. 
+Journal of Purchasing and Supply Management 29 (2023) 100820
+12
+them to other countries and industries with different characteristics may
+be misleading. Therefore, future research could retest our hypotheses in
+other countries and industries, such as the service industry (e.g.,
+construction).
+Secondly, the level of justice in the buyer-supplier relationship in this
+study was captured from the perspective of 97 suppliers, representing a
+one-sided perspective of a dyadic relationship. Although the 97 responses we received from the total 117 suppliers comprising the readymade garment industry in Jordan is an effective response number, from
+a statistical point of view, these responses might be considered a small
+sample size. Future research is advised to examine our model with larger
+samples to verify our results. Additionally, despite the difficulty in
+accessing and gathering complete, valid and reliable data from both
+sides of the relationship, future research could adopt a dyadic perspective, thereby providing a matched view of the level of justice in the
+relationship and therefore addressing the potential single informant
+concern.
+Thirdly, endogeneity might be of concern in our study due to omitting some explanatory variables. However, while one could argue that
+the compliance and collaboration practices can predict supplier’s internal social performance and, therefore, leaving them out from the
+model may lead to an endogeneity problem, this predication ability has
+been recently theoretically and empirically questioned. From a theoretical perspective, the compliance and collaboration practices were
+designed based on the assumption that poor supplier’s internal social
+performance is factory technical problem of the supplier, and therefore
+they overlook one of its main root causes, buyer’s unfair practices
+(Alghababsheh et al., 2020; Anner et al., 2013; Lund-Thomsen and
+Lindgreen, 2014). For this reason, the majority of the empirical research
+demonstrated that the compliance practices have no effect on supplier’s
+internal social performance (e.g., Alghababsheh and Gallear, 2021;
+Jiang, 2009; Sancha et al., 2016; Lim and Phillips, 2008; Yu, 2008).
+Nevertheless, to mitigate potential endogeneity, we included several
+appropriate control variables that can potentially explain the two
+endogenous variables (Lu et al., 2018): supplier’s internal social performance and supply operational risk. Firm age and firm size were
+controlled for when examining supplier’s internal social performance
+and supply operational risk. Additionally, six individual-level variables
+(i.e., gender, age, material status, education level, work experience and
+employees’ nationality) were included in the model when testing supplier’s internal social performance. However, despite this measure to
+minimise the endogeneity concern, caution is warranted in interpreting
+our model’s results.
+Fourthly, the study provides no evidence that the positive impact of
+buyer’s justice on supplier’s internal social performance is universally
+applicable. This opens up an interesting avenue for further work to
+examine the boundary conditions of the established justice-performance
+link to provide insights as to whether it is context specific. In this vein,
+valuable insights can be gained by considering macro- and micro-level
+conditions and circumstances. At the macro-level, for example, the
+quality of the formal institutional environment (i.e., the level of formal
+rules and policy) in which suppliers are located could potentially explain
+the (in)effectiveness of buyers’ justice to address suppliers’ social
+misconduct. Legal effectiveness and enforceability represent the most
+salient features of the formal institutional environment, which refers to
+the extent to which a country’s legal framework and system is complete
+and well defined and laws can be enforced to protect a firm’s or an individual’s property and interests (Zhou and Poppo, 2010). In developing
+countries, legal systems are underdeveloped, and law enforcement is
+inefficient (Peng, 2003). Under such circumstances, social issues can
+arise in the suppliers’ workplace (Kelling et al., 2020) and therefore one
+might predict that delivering fair returns to suppliers and establishing
+fair procedures will become weaker and insufficient with regard to
+ensuring a supplier’s implementation of internal social sustainability
+initiatives. At the micro-level, the buyer-supplier relationship characteristics and structures (e.g., power imbalance) could also potentially
+highlight when the positive impact of buyers’ justice can be held,
+reduced or negated.
+Fifthly, the study established only the direct impact of supplier’s
+internal social performance on supply operational risk. A promising
+research opportunity for future work is therefore to unpack the mechanism by which supplier’s internal social performance can reduce supply
+operational risk by exploring potential mediating variables. Employeelevel outcomes such as employees’ work engagement or organisational
+identification could potentially serve as mediating variables that could
+clarify the relationship between supplier’s social performance and
+supply operational risk. The logic of the employees’ work engagement
+argument is that improving working conditions (e.g., reasonable working hours and fair pay), providing a safe and healthy workplace environment, and promoting social dialogue can drive more work
+engagement by employees, which in turn can ensure supplier’s capacities to meet buyer’s quality specification requirements, delivery lead
+times and volume requirements on a consistent basis. On the other hand,
+the reasoning behind the organisational identification’s postulation is
+that the implementation of the aforementioned internal social sustainability practices could increase employees’ respect for and identification
+with the organisation, which in turn can improve employees’ motivation
+and task performance because they want to support the company in
+order to establish increased internal social sustainability. This increased
+motivation and task performance by employees can then translate into
+improved capacity of supplier to meet buyer’s order requirements.
+Finally, this study added a new approach to the existing private
+voluntary formal approaches (i.e., compliance and collaboration) that
+buyers can use to address and drive suppliers’ social performance. Thus,
+the study highlighted the potential of more relational-oriented approaches in managing suppliers’ internal social issues and therefore calls
+for more scholarly efforts and discussion in this direction. A potential
+relational mechanism that can be investigated in future research and
+that could advance our understanding is the role of buyer power in the
+relationship on suppliers’ implementation of internal and external social
+sustainability practices. Although Marshall et al.’s (2019) study has
+recently provided some initial insights into the role of power in
+achieving socially SSCM, it looked at how direct customer power affects
+first-tier suppliers’ adoption of socially responsible procurement
+process-based (assessment) and market-based practices (collaboration)
+by which they drive other supply chain partners to enhance their social
+sustainability. As such, we know little about what role buyer power,
+whether mediated (coercive, legitimate and reward) or non-mediated
+(expert and referent), can play on suppliers’ level of implementation
+of internal social sustainability practices that are directed towards employees (e.g., fair pay, health and safety measures, freedom of association, etc.) and external social sustainability practices that are focussed
+on external stakeholders (e.g., community, customers and government).
+Author statement
+Mohammad Alghababsheh: Investigation, Conceptualization,
+Formal analysis, Writing-Original Draft. Atif Saleem Butt: Methodology, Resources, Writing-Original draft preparation. Syed Mithun Ali:
+Formal analysis, Writing- Reviewing and Editing, Visualization.
+Declaration of competing interest
+None.
+Data availability
+Data will be made available on request.
+M. Alghababsheh et al. 
+Journal of Purchasing and Supply Management 29 (2023) 100820
+13
+References
+Abd-Elmotaleb, M., Saha, S.K., Hamoudahb, A.E.M., 2015. Rethinking the employees’
+perceptions of corporate social responsibility. Int. Bus. Res. 8 (3), 121.
+Adams, J.S., 1965. Inequity in social exchange. In: Berkowitz, L. (Ed.), Advances in
+Experimental Social Psychology, vol. 2. Academic Press, New York, pp. 267–299.
+Akamp, M., Müller, M., 2013. Supplier management in developing countries. J. Clean.
+Prod. 56, 54–62.
+Alghababsheh, M., Gallear, D., 2021. Socially sustainable supply chain management and
+suppliers’ social performance: the role of social capital. J. Bus. Ethics 173 (4),
+855–875.
+Alghababsheh, M., Gallear, D., 2022. Social sustainability in the supply chain: a
+literature review of the adoption, approaches and (un)intended outcomes. Manag.
+Sustain.: An Arab Rev. 1 (1), 84–109.
+Alghababsheh, M., Gallear, D., Saikouk, T., 2022. Justice in Supply Chain Relationships:
+a comprehensive review and future research directions. Eur. Manag. Rev. press.
+https://doi.org/10.1111/emre.12541.
+Alghababsheh, M., Gallear, D., Rahman, M., 2020. Balancing the scales of justice: do
+perceptions of buyers’ justice drive suppliers’ social performance? J. Bus. Ethics 163
+(1), 125–150.
+Andersen, M., Skjoett-Larsen, T., 2009. Corporate social responsibility in global supply
+chains. Supply Chain Manag.: Int. J. 14 (2), 75–86.
+Anner, M., 2019. Predatory purchasing practices in global apparel supply chains and the
+employment relations squeeze in the Indian garment export industry. Int. Lab. Rev.
+158 (4), 705–727.
+Anner, M., Bair, J., Blasi, J., 2013. Toward joint liability in global supply chains:
+addressing the root causes of labor violations in international subcontracting
+networks. J. Comp. Labor Law and Pol. 35, 1–43.
+Awaysheh, A., Klassen, R.D., 2010. The impact of supply chain structure on the use of
+supplier socially responsible practices. Int. J. Oper. Prod. Manag. 30 (12),
+1246–1268.
+Azmeh, S., Nadvi, K., 2013. Greater Chinese’ global production networks in the Middle
+East: the rise of the Jordanian garment industry. Dev. Change 44 (6), 1317–1340.
+Bag, S., Choi, T.M., Rahman, M.S., Srivastava, G., Singh, R.K., 2022. Examining
+collaborative buyer–supplier relationships and social sustainability in the “new
+normal” era: the moderating effects of justice and big data analytical intelligence.
+Ann. Oper. Res. 1–46.
+Bagozzi, R.P., Yi, Y., 2012. Specification, evaluation, and interpretation of structural
+equation models. J. Acad. Market. Sci. 40 (1), 8–34.
+Barrientos, S., 2013. Corporate purchasing practices in global production networks: a
+socially contested terrain. Geoforum 44, 44–51.
+Barrientos, S., Smith, S., 2007. Do workers benefit from ethical trade? Assessing codes of
+labour practice in global production systems. Third World Q. 28 (4), 713–729.
+Bellingan, M., Tilley, C., Batista, L., Kumar, M., Evans, S., 2020. Capturing the
+psychological well-being of Chinese factory workers. Int. J. Oper. Prod. Manag. 40
+(7/8), 1269–1289.
+Boyd, D.E., Spekman, R.E., Kamauff, J.W., Werhane, P., 2007. Corporate social
+responsibility in global supply chains: a procedural justice perspective. Long. Range
+Plan. 40 (3), 341–356.
+Carnovale, S., Henke Jr., J.W., DuHadway, S., Yeniyurt, S., 2019. Unintended
+consequences: how suppliers compensate for price concessions and the role of
+organizational justice in buyer-supplier relations. J. Bus. Logist. 40 (3), 187–203.
+Carter, C.R., Jennings, M.M., 2002. Logistics social responsibility: an integrative
+framework. J. Bus. Logist. 23 (1), 145–180.
+Carter, C.R., Rogers, D.S., 2008. A framework of sustainable supply chain management:
+moving toward new theory. Int. J. Phys. Distrib. Logist. Manag. 38 (5), 360–387.
+Chen, J., Sohal, A.S., Prajogo, D.I., 2013. Supply chain operational risk mitigation: a
+collaborative approach. Int. J. Prod. Res. 51 (7), 2186–2199.
+Chen, Y., Chen, I.J., 2019. Mediated power and sustainable supplier management (SSM):
+linking power use, justice, and supplier performance. Int. J. Phys. Distrib. Logist.
+Manag. 49 (8), 861–878.
+Christopher, M., Peck, H., 2004. Building the resilient supply chain. Int. J. Logist. Manag.
+15 (2), 1–13.
+Closon, C., Leys, C., Hellemans, C., 2015. Perceptions of corporate social responsibility,
+organizational commitment and job satisfaction. Manag. Res. 13 (1), 31–54.
+Craighead, C.W., Blackhurst, J., Rungtusanatham, M.J., Handfield, R.B., 2007. The
+severity of supply chain disruptions: design characteristics and mitigation
+capabilities. Decis. Sci. J. 38 (1), 131–156.
+DuHadway, S., Carnovale, S., Hazen, B., 2019. Understanding risk management for
+intentional supply chain disruptions: risk detection, risk mitigation, and risk
+recovery. Ann. Oper. Res. 283 (1), 179–198.
+Elzarka, S.M., 2013. Supply chain risk management: the lessons learned from the
+Egyptian revolution 2011. Int. J. Logist. Res. Appl. 16 (6), 482–492.
+Farrukh, M., Sajid, M., Lee, J.W.C., Shahzad, I.A., 2020. The perception of corporate
+social responsibility and employee engagement: examining the underlying
+mechanism. Corp. Soc. Responsib. Environ. Manag. 27 (2), 760–768.
+Fornell, C., Larker, D., 1981. Structural equation modeling and regression: guidelines for
+research practice. J. Market. Res. 18 (1), 39–50.
+Forsman-Hugg, S., Katajajuuri, J.M., Riipi, I., Makel ¨ ¨
+a, J., Jarvel ¨ a, ¨ K., Timonen, P., 2013.
+Key CSR dimensions for the food chain. Br. Food J. 115 (1), 30–47.
+Freire, J., Alarcon, ´ L.F., 2002. Achieving lean design process: improvement
+methodology. J. Construct. Eng. Manag. 128 (3), 248–256.
+Gereffi, G., 1994. The organization of buyer-driven global commodity chains: how
+United States retailers shape overseas production networks. In: Gereffi, G.,
+Korzeniewicz, M. (Eds.), Commodity Chains and Global Capitalism. Praeger,
+Westport, CT, pp. 95–122.
+Gimenez, C., Sierra, V., Rodon, J., 2012. Sustainable operations: their impact on the
+triple bottom line. Int. J. Prod. Econ. 140 (1), 149–159.
+Griffith, D.A., Harvey, M.G., Lusch, R.F., 2006. Social exchange in supply chain
+relationships: the resulting benefits of procedural and distributive justice. J. Oper.
+Manag. 24 (2), 85–98.
+Guide, V.D.R., Ketokivi, M., 2015. Notes from the Editors: redefining some
+methodological criteria for the journal. J. Oper. Manag. 37, 5–8.
+Gunasekaran, A., Subramanian, N., Rahman, S., 2015. Supply chain resilience: role of
+complexities and strategies. Int. J. Prod. Res. 53 (22), 6809–6819.
+Hair, J.F., Hult, G.T.M., Ringle, C.M., Sarstedt, M., 2014. A Primer on Partial Least
+Squares Structural Equation Modeling (PLS-SEM). Sage, Thousand Oaks.
+Harman, H.H., 1967. Modern Factor Analysis, second ed. University of Chicago Press,
+Chicago.
+Hawkins, T.G., Randall, W.S., Coyne, A.V., Baitalmal, M.H., 2014. Sustainable integrity:
+how reverse auctions can benefit suppliers in emerging markets. Supply Chain
+Manag.: Int. J. 19 (2), 126–141.
+Ho, W., Zheng, T., Yildiz, H., Talluri, S., 2015. Supply chain risk management: a
+literature review. Int. J. Prod. Res. 53 (16), 5031–5069.
+Hulland, J., 1999. Use of partial least squares (PLS) in strategic management research: a
+review of four recent studies. Strat. Manag. J. 20 (2), 195–204.
+Huq, F.A., Stevenson, M., 2018. Implementing socially sustainable practices in
+challenging institutional contexts: building theory from seven developing country
+supplier cases. J. Bus. Ethic. 161 1–28.
+Huq, F.A., Chowdhury, I.N., Klassen, R.D., 2016. Social management capabilities of
+multinational buying firms and their emerging market suppliers: an exploratory
+study of the clothing industry. J. Oper. Manag. 46, 19–37.
+Huq, F.A., Stevenson, M., Zorzini, M., 2014. Social sustainability in developing country
+suppliers: an exploratory study in the ready-made garments industry of Bangladesh.
+Int. J. Oper. Prod. Manag. 34 (5), 610–638.
+International Labour Organization, 2018a. Bangladesh Move towards Employment
+Injury Insurance: the Legacy of rana Plaza. International Labour Organization,
+Geneva, Switzerland. Retrieved October 8, 2022 from. https://www.ilo.org/global/t
+opics/geip/publications/WCMS_632364/lang–en/index.htm.
+International Labour Organization, 2018b. Recruitment Experiences of South Asian
+Migrant Workers in Jordan’s Garment Industry. International Labour Organization,
+Geneva, Switzerland. Retrieved October 13, 2019 from. https://www.ilo.org/
+wcmsp5/groups/public/–-ed_norm/–-ipec/documents/publication/wcms_638703.
+pdf.
+International Labour Organization, 2019. Advancing Jordan’s Satellite Garment
+Factories. International Labour Organization, Geneva, Switzerland. Retrieved
+December 15, 2022 from. https://labordoc.ilo.org/discovery/fulldisplay/alma99
+5079393402676/41ILO_INST:41ILO_V2.
+International Trade Center, 2019. Trade map – international trade statistics. Geneva,
+Switzerland: International Trade Center. Retrieved October 13, 2019 from. http
+s://www.trademap.org/tradestat/Product_SelCountry_TS.aspx?nvpm=1%7c400%
+7c%7c%7c%7cTOTAL%7c%7c%7c2%7c1%7c1%7c2%7c2%7c1%7c1%7c1%7c1%
+7c1.
+Jiang, B., 2009. The effects of interorganizational governance on supplier’s compliance
+with Scc: an empirical examination of compliant and non-compliant suppliers.
+J. Oper. Manag. 27 (4), 267–280.
+Kamalahmadi, M., Parast, M.M., 2016. A review of the literature on the principles of
+enterprise and supply chain resilience: major findings and directions for future
+research. Int. J. Prod. Econ. 171, 116–133.
+Kelling, N.K., Sauer, P.C., Gold, S., Seuring, S., 2020. The role of institutional uncertainty
+for social sustainability of companies and supply chains. J. Bus. Ethics 173, 813–833.
+Kim, K., Bui, L., 2019. Learning from Hurricane Maria: island ports and supply chain
+resilience. Int. J. Disaster Risk Reduc. 39, 101244.
+Kim, S., Chae, S., Wagner, S.M., Miller, J.W., 2022. Buyer abusive behavior and supplier
+welfare: an empirical study of truck owner–operators. J. Supply Chain Manag. 58
+(4), 90–111.
+Knudsen, J.S., 2018. Government regulation of international corporate social
+responsibility in the US and the UK: how domestic institutions shape mandatory and
+supportive initiatives. Br. J. Ind. Relat 56 (1), 164–188.
+Kull, T.J., Kotlar, J., Spring, M., 2018. Small and medium enterprise research in supply
+chain management: the case for single-respondent research designs. J. Supply Chain
+Manag. 54 (1), 23–34.
+Kumar, S.K., Tiwari, M.K., Babiceanu, R.F., 2010. Minimisation of supply chain cost with
+embedded risk using computational intelligence approaches. Int. J. Prod. Res. 48
+(13), 3717–3739.
+LeBaron, G., 2021. The role of supply chains in the global business of forced labour.
+J. Supply Chain Manag. 57 (2), 29–42.
+Lee, C., Ha, B.C., 2021. Interactional justice, informational quality, and sustainable
+supply chain management: a comparison of domestic and multinational
+pharmaceutical companies. Sustainability 13 (2), 998.
+Leventhal, G.S., 1980. What should be done with equity theory? New approaches to the
+study of fairness in social relationships. In: Gergen, K., Greenberg, M., Willis, R.
+(Eds.), Social Exchange: Advances in Theory and Research. Plenum Press, New York,
+pp. 27–55.
+Lim, J.J., Dai, J., Paulraj, A., 2022. Collaboration as a structural aspect of proactive social
+sustainability: the differential moderating role of distributive and procedural justice.
+Int. J. Oper. Prod. Manag. https://doi.org/10.1108/IJOPM-06-2021-0402 ahead-ofprint.
+Lim, S.J., Phillips, J., 2008. Embedding CSR values: the global footwear industry’s
+evolving governance structure. J. Bus. Ethics 81 (1), 143–156.
+Liu, Y., Huang, Y., Luo, Y., Zhao, Y., 2012. How does justice matter in achieving
+buyer–supplier relationship performance? J. Oper. Manag. 30 (5), 355–367.
+M. Alghababsheh et al. 
+Journal of Purchasing and Supply Management 29 (2023) 100820
+14
+Locke, R.M., Samel, H., 2018. Beyond the workplace: “Upstream” business practices and
+labor standards in the global electronics industry. Stud. Comp. Int. Dev. 53 (1), 1–24.
+Locke, R., Amengual, M., Mangla, A., 2009. Virtue out of necessity? Compliance,
+commitment, and the improvement of labor conditions in global supply chains. Polit.
+Soc. 37 (3), 319–351.
+Lu, G., Ding, X.D., Peng, D.X., Chuang, H.H.C., 2018. Addressing endogeneity in
+operations management research: recent developments, common problems, and
+directions for future research. J. Oper. Manag. 64, 53–64.
+Lund-Thomsen, P., Lindgreen, A., 2014. Corporate social responsibility in global value
+chains: where are we now and where are we going? J. Bus. Ethics 123 (1), 11–22.
+Lund-Thomsen, P., Lindgreen, A., 2018. Is there a sweet spot in ethical trade? A critical
+appraisal of the potential for aligning buyer, supplier and worker interests in global
+production networks. Geoforum 90, 84–90.
+Lund-Thomsen, P., Nadvi, K., Chan, A., Khara, N., Xue, H., 2012. Labour in global value
+chains: work conditions in football manufacturing in China, India and Pakistan. Dev.
+Change 43 (6), 1211–1237.
+Luo, Y., 2007. The independent and interactive roles of procedural, distributive, and
+interactional justice in strategic alliances. Acad. Manag. J. 50, 644–664.
+Luo, Y., Liu, Y., Yang, Q., Maksimov, V., Hou, J., 2015. Improving performance and
+reducing cost in buyer–supplier relationships: the role of justice in curtailing
+opportunism. J. Bus. Res. 68, 607–615.
+Malagueno, ˜ R., Golgeci, ¨ I., Fearne, A., 2019. Customer categorization, relational justice
+and SME performance in supermarket supply chains. Supply Chain Manag.: Int. J. 24
+(3), 417–429.
+Maloni, M.J., Brown, M.E., 2006. Corporate social responsibility in the supply chain: an
+application in the food industry. J. Bus. Ethics 68 (1), 35–52.
+Mani, V., Gunasekaran, A., 2018. Four forces of supply chain social sustainability
+adoption in emerging economies. Int. J. Prod. Econ. 199, 150–161.
+Mani, V., Jabbour, C.J.C., Mani, K.T., 2020. Supply chain social sustainability in small
+and medium manufacturing enterprises and firms’ performance: empirical evidence
+from an emerging Asian economy. Int. J. Prod. Econ. 227, 107656.
+Manuj, I., Mentzer, J.T., 2008. Global supply chain risk management strategies. Int. J.
+Phys. Distrib. Logist. Manag. 38, 192–223.
+Markley, M.J., Davis, L., 2007. Exploring future competitive advantage through
+sustainable supply chains. Int. J. Phys. Distrib. Logist. Manag. 37 (9), 763–774.
+Marshall, D., McCarthy, L., Claudy, M., McGrath, P., 2019. Piggy in the middle: how
+direct customer power affects first-tier suppliers’ adoption of socially responsible
+procurement practices and performance. J. Bus. Ethics 154 (4), 1081–1102.
+Mollenkopf, D.A., Ozanne, L.K., Stolze, H.J., 2020. A transformative supply chain
+response to COVID-19. J. Serv. Manag. 32 (2), 190–202.
+Mory, L., Wirtz, B.W., Gottel, ¨ V., 2016. Factors of internal corporate social responsibility
+and the effect on organizational commitment. Int. J. Hum. Resour. Manag. 27 (13),
+1393–1425.
+Narasimhan, R., Narayanan, S., Srinivasan, R., 2013. An investigation of justice in supply
+chain relationships and their performance impact. J. Oper. Manag. 31, 236–247.
+Normann, U., Ellegaard, C., Møller, M.M., 2017. Supplier perceptions of distributive
+justice in sustainable apparel sourcing. Int. J. Phys. Distrib. Logist. Manag. 47 (5),
+368–386.
+Olson, D.L., Wu, D.D., 2010. A review of enterprise risk management in supply chain,.
+Kybernetes 39, 694–706.
+Organisation for Economic Co-operation and Development, 2018. Compact for economic
+governance stocktaking report. Retrieved November 2, 2019 from. https://www.oec
+d.org/mena/competitiveness/Compact-for-Governance-Stocktaking-Report-Jor
+dan-2018-EN.pdf.
+Oyedijo, A., Yang, Y., Koukpaki, A.S.F., Mishra, N., 2021. The role of fairness in multitier sustainable supply chains. Int. J. Prod. Res. 1–25.
+Pagell, M., Wu, Z., Wasserman, M.E., 2010. Thinking differently about purchasing
+portfolios: an assessment of sustainable sourcing. J. Supply Chain Manag. 46 (1),
+57–73.
+Pandey, S., Singh, R.K., Gunasekaran, A., Kaushik, A., 2020. Cyber security risks in
+globalized supply chains: conceptual framework. J. Glob. Oper. Strat. Sourc. 13 (1),
+103–128.
+Peng, M.W., 2003. Institutional transitions and strategic choices. Acad. Manag. Rev. 28
+(2), 275–296.
+Pereira, C.R., Christopher, M., Da Silva, A.L., 2014. Achieving supply chain resilience:
+the role of procurement. Supply Chain Manag.: Int. J. 19 (5/6), 626–642.
+Podsakoff, P.M., MacKenzie, S.B., Lee, J.Y., Podsakoff, N.P., 2003. Common method
+biases in behavioral research: a critical review of the literature and recommended
+remedies. J. Appl. Psychol. 88 (5), 879–903.
+Poppo, L., Zhou, K.Z., 2014. Managing contracts for fairness in buyer–supplier
+exchanges. Strat. Manag. J. 35, 1508–1527.
+Porteous, A.H., Rammohan, S.V., Lee, H.L., 2015. Carrots or sticks? Improving social and
+environmental compliance at suppliers through incentives and penalties. Prod. Oper.
+Manag. 24 (9), 1402–1413.
+Preacher, K.J., Hayes, A.F., 2008. Asymptotic and resampling strategies for assessing and
+comparing indirect effects in multiple mediator models. Behav. Res. Methods 40 (3),
+879–891.
+Pullman, M.E., Maloni, M.J., Carter, C.R., 2009. Food for thought: social versus
+environmental sustainability practices and performance outcomes. J. Supply Chain
+Manag. 45 (4), 38–54.
+Qiao, J., Li, S., Capaldo, A., 2022. Green supply chain management, supplier
+environmental commitment, and the roles of supplier perceived relationship
+attractiveness and justice. A moderated moderation analysis. Bus. Strat. Environ. 31
+(7), 3523–3541.
+Quarshie, A.M., Salmi, A., Leuschner, R., 2016. Sustainability and corporate social
+responsibility in supply chains: the state of research in supply chain management
+and business ethics journals. J. Purch. Supply Manag. 22 (2), 82–97.
+Reinecke, J., Donaghey, J., 2021. Towards worker-driven supply chain governance:
+developing decent work through democratic worker participation. J. Supply Chain
+Manag. 57 (2), 14–28.
+Rodríguez, J.A., Gim´enez Thomsen, C., Arenas, D., Pagell, M., 2016. NGOs’ initiatives to
+enhance social sustainability in the supply chain: poverty alleviation through
+supplier development programs. J. Supply Chain Manag. 52 (3), 83–108.
+Sajjad, A., Eweje, G., Tappin, D., 2015. Sustainable supply chain management:
+motivators and barriers. Bus. Strat. Environ. 24 (7), 643–655.
+Sancha, C., Gimenez, C., Sierra, V., 2016. Achieving a socially responsible supply chain
+through assessment and collaboration. J. Clean. Prod. 112, 1934–1947.
+Sancha, C., Gimenez, C., Sierra, V., Kazeminia, A., 2015. Does implementing social
+supplier development practices pay off? Supply Chain Manag.: Int. J. 20 (4),
+389–403.
+Schleper, M.C., Blome, C., Wuttke, D.A., 2017. The dark side of buyer power: supplier
+exploitation and the role of ethical climates. J. Bus. Ethics 140 (1), 97–114.
+Scholten, K., Scott, P., Fynes, B., 2014. Mitigation processes – antecedents for building
+supply chain resilience. Supply Chain Manag.: Int. J. 19 (2), 211–228.
+Seuring, S., Müller, M., 2008. From a literature review to a conceptual framework for
+sustainable supply chain management. J. Clean. Prod. 16 (15), 1699–1710.
+Silva, M.E., Ruel, S., 2022. Inclusive purchasing and supply chain resilience capabilities:
+lessons for social sustainability. J. Purch. Supply Manag. 28 (5), 100767.
+Sobh, Rumman, Abu, 2019. State of the Informal Economy in Jordan: Opportunities for
+Integration. AlQuds Center for Political Studies, Amman. Retrieved December 15,
+2022 from. https://www.alqudscenter.org/index.php?l=en&pg=UFVCTElDQVRJT
+05T&catID=21&id=2391.
+Soundararajan, V., Brammer, S., 2018. Developing country sub-supplier responses to
+social sustainability requirements of intermediaries: exploring the influence of
+framing on fairness perceptions and reciprocity. J. Oper. Manag. 58, 42–58.
+Soundararajan, V., Spence, L.J., Rees, C., 2018. Small business and social irresponsibility
+in developing countries: working conditions and “evasion” institutional work. Bus.
+Soc. 57 (7), 1301–1336.
+Soundararajan, V., Wilhelm, M.M., Crane, A., 2021. Humanizing research on working
+conditions in Supply chains: building a path to decent work. J. Supply Chain Manag.
+57 (2), 3–13.
+Tabachnick, B., Fidell, L., 2014. Using Multivariate Statistics: Pearson New International
+Edition. Pearson Education Limited, Essex.
+Teng, S.G., Jaramillo, H., 2005. A model for evaluation and selection of suppliers in
+global textile and apparel supply chains. Int. J. Phys. Distrib. Logist. Manag. 35 (7),
+503–523.
+The World Bank, 2018. The worldwide governance indictors project. Retrieved August
+25, 2019 from. https://info.worldbank.org/governance/wgi/.
+Tourangeau, R., Rips, L.J., Rasinski, K., 2000. The Psychology of Survey Response.
+Cambridge University Press, Cambridge, UK.
+Trada, S., Goyal, V., 2017. The dual effects of perceived unfairness on opportunism in
+channel relationships. Ind. Market. Manag. 64, 135–146.
+Tukamuhabwa, B.R., Stevenson, M., Busby, J., Zorzini, M., 2015. Supply chain resilience:
+definition, review and theoretical foundations for further study. Int. J. Prod. Res. 53
+(18), 5592–5623.
+Voorhees, C.M., Brady, M.K., Calantone, R., Ramirez, E., 2016. Discriminant validity
+testing in marketing: an analysis, causes for concern, and proposed remedies.
+J. Acad. Market. Sci. 44 (1), 119–134.
+Wang, Q., Craighead, C.W., Li, J.J., 2014. Justice served: mitigating damaged trust
+stemming from supply chain disruptions. J. Oper. Manag. 32 (6), 374–386.
+Werts, C.E., Linn, R.L., Joreskog, ¨ K.G., 1974. Intraclass reliability estimates: testing
+structural assumptions. Educ. Psychol. Meas. 34 (1), 25–33.
+Wu, L., Chiu, M.L., 2018. Examining supply chain collaboration with determinants and
+performance impact: social capital, justice, and technology use perspectives. Int. J.
+Inf. Manag. 39, 5–19.
+Yawar, S.A., Kauppi, K., 2018. Understanding the adoption of socially responsible
+supplier development practices using institutional theory: dairy supply chains in
+India. J. Purch. Supply Manag. 24 (2), 164–176.
+Yawar, S.A., Seuring, S., 2017. Management of social issues in supply chains: a literature
+review exploring social issues, actions and performance outcomes. J. Bus. Ethics 141
+(3), 621–643.
+Yawar, S.A., Seuring, S., 2018. The role of supplier development in managing social and
+societal issues in supply chains. J. Clean. Prod. 182, 227–237.
+Yee, R.W., Yeung, A.C., Cheng, T.E., 2008. The impact of employee satisfaction on
+quality and profitability in high-contact service industries. J. Oper. Manag. 26 (5),
+651–668.
+Yu, X., 2008. Impacts of corporate code of conduct on labor standards: a case study of
+reebok’s athletic footwear supplier factory in China. J. Bus. Ethics 81 (3), 513–529.
+Zhou, K.Z., Poppo, L., 2010. Exchange hazards, relational reliability, and contracts in
+China: the contingent role of legal enforceability. J. Int. Bus. Stud. 41 (5), 861–881.
+Zhou, K.Z., Li, J.J., Zhou, N., Su, C., 2008. Market orientation, job satisfaction, product
+quality, and firm performance: evidence from China. Strat. Manag. J. 29 (9),
+985–1000.
+Zorzini, M., Hendry, L.C., Huq, F.A., Stevenson, M., 2015. Socially responsible sourcing:
+reviewing the literature and its use of theory. Int. J. Oper. Prod. Manag. 35 (1),
+60–109.
+Zsidisin, G.A., Ellram, L.M., Carter, J.R., Cavinato, J.L., 2004. An analysis of supply risk
+assessment techniques. Int. J. Phys. Distrib. Logist. Manag. 34 (5), 397–413.
+M. Alghababsheh et al. 

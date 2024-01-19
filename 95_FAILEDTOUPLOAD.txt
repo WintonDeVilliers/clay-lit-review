@@ -1,0 +1,494 @@
+Calculated risk? A cybersecurity evaluation tool for SMEs
+Michael Benz a
+, Dave Chatterjee b,
+*
+a Vice President, Information Technology, Kraus-Anderson Construction Co., 501 S.
+Eighth Street, Minneapolis, MN 55404, U.S.A.
+b Terry College of Business, The University of Georgia, Athens, GA 30602-6114, U.S.A.
+KEYWORDS
+NIST;
+Cyber-risk mitigation;
+Cybersecurity
+evaluation tool;
+Cybersecurity risk
+management;
+Cyber resilience
+Abstract Small and medium-sized enterprises (SMEs) are among the least mature and
+most vulnerable in terms of their cybersecurity risk and resilience. In this article, we
+describe a methodology developed using the National Institute of Standards and Technology’s (NIST) Cybersecurity Framework (CSF) as a starting point. The NIST CSF does
+not meet all the needs of the SME IT leader, but it offers a solid foundation for a useful
+evaluation and recommendation methodology. We propose an SME cybersecurity evaluation tool (CET) that consists of a 35-question online survey to be completed by IT
+leaders to self-rate their maturity within the five NIST framework categories: identify,
+protect, detect, respond, and recover. We outline this approach to cybersecurity risk
+management before discussing its effectiveness and implications for practitioners.
+Many cybercriminals are specifically targeting
+midsize companies that are in the cybercrime
+“sweet spot.” They’re big enough to have
+significant bank accounts, but they often
+don’t use the latest cybersecurity defenses.
+Also, middle-market firms are often the
+gateway to bigger targets for cyberthieves.
+d Tom Clark, CIO Cadence Bank
+1. Why are SMEs most vulnerable to
+cybersecurity risks?
+With the cyber epidemic gathering momentum, no
+industry or organization type will be spared
+(Deppen, 2018; Manworren, Letwat, & Daily, 2016;
+Slowey, 2016). Cybercrime damages are expected
+to cost the world $6 trillion annually by 2021, up
+from $3 trillion just a year ago. Global spending on
+cybersecurity products and services is predicted to
+exceed $1 trillion by 2021 (Morgan, 2019). The
+number of unique cyber incidents in the second
+* Corresponding author
+E-mail addresses: benz0018@umn.edu (M. Benz), dchatte@
+uga.edu (D. Chatterjee)
+https://doi.org/10.1016/j.bushor.2020.03.010
+Business Horizons (2020) 63, 531e540
+Available online at www.sciencedirect.com
+ScienceDirect
+www.journals.elsevier.com/business-horizons
+quarter of 2018 was 32% higher than in the same
+quarter the previous year (Deppen, 2018; Positive
+Technologies, 2018). Thus, cybersecurity preparedness is emerging as a critical competency
+central to organizational survival and growth
+(Chatterjee, 2019; Hooper & McKissack, 2016).
+Small and medium-sized enterprises (SMEs) face
+many of the same cybersecurity issues as large
+enterprises, but they do not have the commensurate resources to address the risks effectively
+(Horn, 2017). These businesses often serve as
+vendors, contractors, and partners of larger organizations and are digitally connected. Therefore,
+cyber attackers use them as gateways to hack into
+the systems of larger organizations (Better
+Business Bureau, 2017).
+Ignorance can be bliss, and that is often the
+case with SME leaders who are overly confident
+about the level of preparedness and defense capabilities in their organization. A particular study
+found that 95% of the surveyed SME information
+technology (IT) leaders believe they have an
+above-average security posture (Bisson, 2017; RSM
+US LLP, 2018).
+Contrary to the predominant leadership belief,
+the actual state of cybersecurity preparedness and
+maturity of these SMEs can be quite subpar. According to a National Center for the Middle Market
+(2016) survey, “55% of SME companies lack either
+an up-to-date cyber-risk strategy or any defined
+cyber-risk strategy at all,” and “50% of IT leaders
+say they don’t know where to start to improve
+their security posture.” It is rare for these organizations to conduct a thorough cyber-risk assessment, and their IT and business leadership teams
+are often not on the same page when it comes to
+cybersecurity risk management (Sweeney, 2016;
+Visner, 2016). Saddled with small IT teams and
+inadequate security budgets, these midrange organizations are often at a significant disadvantage
+to deal with cyber threats effectively (Howard,
+2018; Stasiak, 2018).
+SME IT leaders are bombarded with anecdotal
+information about daily cybersecurity incidents
+but do not have solid information about the relevance to their business or appropriate riskreduction strategies. While they may be confident in their ability to manage their company’s
+technology stack (i.e., network infrastructure,
+software development, end-user support), cybersecurity is new, obscure, and potentially catastrophic (Osborn, 2014).
+For senior management, cybersecurity has not
+been a high priority for most SMEs. Few business
+executives understand the risks and do not see
+themselves as likely targets. They underestimate
+the value of their information to competitors and
+consider cybersecurity to be a problem for larger
+companies, not theirs. Security-related activities
+do not appear to add any measurable value to the
+bottom line. If they are aware of the risks, they do
+not perform the standard risk calculation: risk Z
+threat ) vulnerability ) likelihood ) impact.
+Managers do not perceive sufficient risk to justify
+the expenditure of resources, nor do they desire to
+slow down their employees’ workflows or change
+their relationships with business partners (Stasiak,
+2018).
+2. How do you correct this ineffective
+approach to cybersecurity risk
+management?
+To correct this ineffective approach to cybersecurity risk management, SME IT leaders need to
+adopt a more systematic approach guided by the
+following types of questions (Kaila & Nyman,
+2018):
+ Where is our company exposed to serious
+cybersecurity risks?
+ What is an acceptable level of risk?
+ How do we compare with others in our
+industry?
+ What can we do to improve in areas where we
+are sub-standard?
+The challenge is to find an effective cybersecurity
+risk evaluation methodology. While there are many
+information security governance frameworks and
+resourcesdincluding ISO, CIS, PCI DSS, and
+COBITdthey can be complicated to interpret and
+evaluate as well as expensive to implement
+(Abraham, Chatterjee, & Sims, 2019). For
+example, the National Institute of Standards and
+Technology (2018) Framework for Improving Critical Infrastructure Cybersecurity Version 1.1 contains 55 pages describing the process for
+implementing the framework, which would be no
+easy task for an SME organization with limited resources and expertise in this type of work. Also
+absent in NIST’s methodology are any specific riskreduction recommendations based on an organization’s measured weaknesses.
+Outsourcing cybersecurity management is always an option, but it creates an overdependence
+on consultants and a lack of in-house capability.
+There is anecdotal evidence to suggest that
+532 M. Benz, D. Chatterjee
+Table 1. NIST CSF standards and self-rating options*
+Calculated risk? A cybersecurity evaluation tool for SMEs 533
+external vendors are unlikely to provide the quality of customized care that a dedicated in-house
+team can provide (Austin & Short, 2009).
+Another option is for the IT leader to continue
+to buy and implement security products in reaction
+to newly perceived risks, emerging threats, or the
+company’s most recent cybersecurity incident.
+However, these purchases are ineffective as they
+are not part of a well-planned strategy (Conick,
+2017). Reactive solutions may not fill the most
+important gaps or be the best use of resources.
+Unless organizations develop a robust, formalized
+cybersecurity governance approach, reactivity is
+often the worst possible option (Downing &
+Jackson, 2018).
+The purpose of our study is to offer a validated
+methodology that informs SME IT leaders about
+their cybersecurity risk exposure and provide
+strategies for risk reduction.
+3. Developing an SME cybersecurity
+evaluation tool
+We present a tool and methodology that builds
+upon the National Institute of Standards and
+Technology’s (NIST) cybersecurity framework
+(CSF). While the NIST CSF does not meet all the
+security needs of the SME IT leader, it does offer a
+strong foundation to develop a useful evaluation
+and recommendation system.
+3.1. What is NIST CSF?
+This framework is one of the most respected and
+widely used standard cybersecurity methodologies.
+Its mission goes beyond serving the security needs
+of individual organizations. It was established to
+guide the development of the nation’s cyber resiliency infrastructure and thereby help maintain a
+safe and secure environment.
+The NIST CSF provides a common language to
+describe cybersecurity activities, risk profiles,
+business objectives, and goals for improvements.
+It is designed to meet specific business requirements, risk tolerance levels, and resources of
+public and private organizations. The NIST CSF lists
+96 standards that are grouped into categories and
+subcategories (see Table 1).
+Unfortunately, the NIST CSF has several
+limitations. While “The Framework enables
+organizations e regardless of size, degree of
+cybersecurity sophistication e to apply the principles and best practices to risk management”
+(National Institute of Standards and Technology,
+2018) it is not a trivial effort to undertake. For
+example, it requires learning an entirely new vocabulary described in a detailed 55-page guidebook. The framework is also very complicated to
+comprehend and implement. While the NIST CSF
+allows the IT leader to rate themselves on each of
+the stated standards, it does not specify acceptable ratings for those standards. In the absence of
+comparative data, organizations are unable to
+gauge the effectiveness of implementing the recommended security policies and procedures. The
+NIST CSF does not provide best practices or specific
+recommendations on how to improve, requiring
+each organization to set its target for improvement based on its environment (Abraham et al.,
+2019; Lord, 2018).
+Figure 1. SME cybersecurity evaluation tool (CET) methodology
+534 M. Benz, D. Chatterjee
+3.2. SME cybersecurity evaluation tool
+As mentioned earlier, the NIST CSF provides the
+basis for the development of this cybersecurity
+evaluation tool (CET). More specifically, the CET
+draws upon 35 of the 96 standards set by NIST;
+these 35 standards (see Table 1) are the most
+relevant from the standpoint of measuring the
+Figure 2. CET report card
+Calculated risk? A cybersecurity evaluation tool for SMEs 535
+Figure 3. CET recommendations
+536 M. Benz, D. Chatterjee
+typical SME company’s operational risk profile. We
+selected these standards based on our experience
+with risk-reduction evaluation. Using a smaller but
+representative set of controls would also make it
+easier for the respondents to complete the
+cybersecurity risk assessment survey. Besides, an
+SME may not have the time to address each of the
+96 controls as they have limited resources and will
+want to apply its effort where it will have the most
+impact. The steps involved in developing CET are
+depicted in Figure 1.
+3.2.1. Step 1: Online survey
+We invited 50 SME IT leaders to participate in an
+online survey to rate their company’s cybersecurity
+preparedness maturity for each of the 35 standards.
+The lead author sent out invitations to 50 IT leaders
+in his circle of peersdmostly SMEs in architecture,
+engineering, and construction organizations who
+often collaborate on industry trends. He did not
+narrow the selection to eliminate any participants.
+The relatively short list of 35 standards enabled the
+respondents to complete the rating survey in under
+10 minutes. This minimal time commitment
+contributed to a 52% response rate. Reasons for
+nonparticipation ranged from lack of time to lack of
+interest, as well as concern about sharing details of
+the vulnerabilities in their organizations.
+3.2.2. Step 2: CET evaluation engine
+In advance of distributing the survey, we established a best practices maturity score for each
+standard. After all survey responses were collected,
+the evaluation engine computed an average maturity score for each standard. Whenever an individual
+response fell more than one point below the average
+or it fell two points below the best-practices scores,
+the evaluation engine flagged a serious gap. Each
+gap signaled the need to suggest a specific recommendation for improvement. Then, the CET engine
+prints a report card and a recommendation report
+for the respondent.
+The list of recommendations, rating scale, and
+estimation tools were developed by the lead
+author based on his experience and were validated
+by academic and industry experts.
+3.2.3. Step 3: CET report card and
+recommendations
+The CET report card groups the 35 questions into
+these NIST CSF categories: identify, protect,
+detect, respond, and recover. As shown in
+Figure 2, the rating scores for each group of
+standards were plotted on a graph showing:
+ The respondent’s average maturity score
+(blue bars);
+ The industry average maturity score (yellow
+circles); and
+ The best practices maturity score (green
+diamonds).
+Whenever an individual response fell more than
+one point below the average or it fell two points
+below the best-practices scores, the evaluation
+engine suggests a specific recommendation for
+Table 2A. Key to external costs (rough order of
+magnitude for a typical SME company)
+External
+Cost
+Description
+$ Low cost (under $5,000 year)
+$$ Medium cost ($5,000 d $10,000 year)
+$$$ High cost (over $10,000 year)
+*Cost estimates are based on quotes obtained from cybersecurity solution vendors. These are based on the cost for a
+typical SME company with 500 employees, 100 servers, 500
+computers, and 1,000 mobile devices.
+Table 2B. Key to effort (rough order of magnitude
+for a typical SME)
+Effort Description
+L Low Effort e Under 40 hours per year. This
+effort may be able to be added to a current
+employee’s workload without major
+disruption. Calculate the diversion cost (40
+hours x $50/hour burdened labor rate [
+under $2,000 per year for this
+improvement).
+M Medium Effort e 40e200 hours per year.
+This effort may not easily be added to a
+current employee’s workload without
+major disruption. Calculate the diversion
+cost (40e200 hours x $50/hour burdened
+labor rate [ $2,000-$10,000 per year for
+this improvement).
+H High Effort e Over 200 hours per year. This
+will require additional staffing. Calculate
+the diversion cost (200 hours x $50/hour
+burdened labor rate [ over 10,000 per year
+for this improvement).
+*These estimates of labor hours recognize that existing staff
+can only absorb a limited number of additional hours per year.
+At some point, the IT leader will need to assign resources to
+additional security efforts by (1) diverting employee hours
+from existing responsibilities, (2) adding additional staff, or
+(3) hiring a consultant or fractional employee. These estimates serve to help the IT leader with understanding the
+comparative of one risk-reduction effort vs. another.
+Calculated risk? A cybersecurity evaluation tool for SMEs 537
+improvement. Each recommendation includes a
+cost/benefit value of correcting the gap as well as
+advice on how best to implement the recommendation (see Figure 3).
+The CET methodology and tool provides
+actionable recommendations for each potential
+gap. These recommendations are based on 10
+years of SME IT security experience, a literature
+review, and feedback from experts in the cybersecurity industry and academia. The original NIST
+CSF publication does not offer any specific recommendations, which are sorely needed by SME IT
+leaders. A second useful feature of the CET
+methodology is that for each recommendation, the
+typical implementation cost and effort details are
+also provided to the SME user.
+The CET tool also provides a cost/benefit score.
+This score is based on the estimated external costs
+(see Table 2A) and internal effort (see Table 2B)
+compared with the anticipated benefits of implementing each recommendation.
+To get the most benefit from the CET recommendation report, the IT leader must evaluate the
+identified risks and suggested recommendations
+and create a plan to prioritize and implement the
+most appropriate improvements. The report card
+and recommendations report can be a valuable
+communications tool to explain the gaps and sell
+improvements to the organization.
+4. Tool validation
+After administering the survey, compiling the results,
+and sharing the specific recommendations with survey participants, we solicited feedback from 12 of
+the participants. All respondents found the rating
+scale, recommendations, cost, and effort estimates
+to be surprisingly accurate. Here is a sampling of the
+feedback from the survey participants:
+ “The graphic definitely represents our overall
+status in a clear manner.” e Vice President of
+an engineering firm in southern Minnesota
+ “This report accurately depicts our current
+state of affairs as it relates to cybersecurity. I
+recently promoted one of our IT professionals
+and have included in his responsibilities
+cybersecurity as I want to be more proactive in
+this area. I find that many mid-sized companies rely on detection rather than reviewing
+the source systems. I have recently reviewed
+our servers and applications patches and found
+that we were behind by more than one patch
+in many systems. We are currently making
+changes to not only catch up but also to put in
+our work plans to patch consistently and to
+have quarterly reviews. This report helps a
+nontechnical person by bucketing the security
+phases from identifying to recovery and
+therefore creates some focus on where to
+spend time and money to improve security
+efforts. Great job!” e Senior vice president &
+CFO, SME construction company, Chicago, IL
+ “The recommendations matched the weakness that I had already identified.” e IT director, SME company, San Diego, CA
+ “It definitely helped reinforce that we were
+working on the right things; it will also help us
+communicate that to the rest of the leadership team.” e IT director, SME industrial
+company, Toledo, OH
+ “The recommended improvements were
+valid.” e IT director, SME construction company, Atlanta, GA
+ “This compared favorably to the services
+offered by audit and consulting firms costing
+$20,000e30,000. I’m going to use those dollars somewhere else.” e CIO, SME real estate
+firm, Minneapolis, MN
+5. Implications for practitioners
+SME companies have lagged in their adoption of
+technology and the security protections necessary
+to manage their risk effectively (Bougaardt &
+Kyobe, 2011; Stasiak, 2018). They cannot afford
+to look away as cybersecurity preparedness is key
+to sustenance and survival in today’s digital environment. The Consumer Data Protection Act proposed by Senator Ron Wyden of Oregon is seeking
+to impose significant sanctions on executives and
+companies not being proactive and diligent. The
+penalties could be as severe as “jail time of up to
+20 years for executives who knowingly sign off on
+incorrect or inaccurate annual certifications of
+their companies’ data-security practices” (U.S.
+Congress, 2018). The bill also recommends a fine
+of up to 4% of a company’s annual revenue.
+The proposed CET tool and recommendation
+system is representative of an approach that
+538 M. Benz, D. Chatterjee
+executives could adopt to evaluate their current
+level of cybersecurity readiness. This methodology
+will not only help identify strengths and weaknesses but it also makes best-practice recommendations for how to plug security loopholes
+effectively. In other words, by using an evaluation
+methodology such as the one described in this
+article, IT leaders can quickly:
+ Identify their greatest vulnerabilities;
+ Compare their maturity to their peers based
+on a set of standard measures; and
+ Choose the most valuable improvement
+efforts.
+SMEs cannot afford to delay. Every company surveyed fell well below the ideal level of maturity
+recommended by the SME CET. Every reasonable
+effort made to take stock of the state of information security and act on the recommendations is
+a step in the right direction. At least the striving
+company will be in a credible position to respond
+to this fundamental post-breach question: Did the
+institution make every reasonable effort to proactively secure sensitive data?
+References
+Abraham, C., Chatterjee, D., & Sims, R. (2019). Muddling
+through cybersecurity: Insights from the U.S. healthcare
+industry. Business Horizons, 62(4), 539e548.
+Austin, R. D., & Short, J. C. (2009). iPremier (B): Denial of
+service attack (HBS Case 601115-PDF-ENG). Available at
+https://store.hbr.org/product/ipremier-co-b-denial-ofservice-attack/601115
+Better Business Bureau. (2017). 2017 state of cybersecurity
+among small businesses in North America. Available at
+https://www.bbb.org/globalassets/shared/media/state-ofcybersecurity/updates/cybersecurity_final-lowres.pdf
+Bisson, D. (2017, January 31). Small companies overconfident about
+their security posture, finds survey. Tripwire. Available at
+https://www.tripwire.com/state-of-security/risk-basedsecurity-for-executives/connecting-security-to-the-business/
+small-companies-overconfident-security-posture-finds-survey/
+Bougaardt, G., & Kyobe, M. (2011). Investigating the factors
+inhibiting SMEs from recognizing and measuring losses from
+cyber crime in South Africa. Electronic Journal of Information Systems Evaluation, 14(2), 167e178.
+Chatterjee, D. (2019). Should executives go to jail over cyber
+attacks? Journal of Organizational Computing & Electronic
+Commerce, 29(1), 1e3.
+Conick, H. (2017, February 12). Four things middle market
+companies must do to improve cybersecurity. American
+Marketing Association. Available at https://www.ama.org/
+marketing-news/four-things-middle-market-companiesmust-do-to-improve-cybersecurity/
+Deppen, L. (2018, July 17). Why cybersecurity incidents are up
+32% from last year. TechRepublic. Available at https://www.
+techrepublic.com/article/why-cybersecurity-incidents-areup-32-from-last-year/
+Downing, J., & Jackson, C. (2018, October 9). Midmarket tech
+investments: IT governance falls short. The Wall Street Journal. Available at https://deloitte.wsj.com/cio/2018/10/09/
+midmarket-tech-investments-it-governance-falls-short/
+Hooper, V., & McKissack, J. (2016). The emerging role of the
+CISO. Business Horizons, 59(6), 585e591.
+Horn, A. (2017, December 11). Why cybersecurity should be a
+top concern for middle-market companies. SmallBizDaily.
+Available at https://www.smallbizdaily.com/cybersecuritymiddle-market-companies/
+Howard, L. S. (2018, February 21). SMEs underestimate cyber
+risks which could prove ‘fatal’: Allianz report. Insurance
+Journal. Available at https://www.insurancejournal.com/
+news/international/2018/02/21/481113.htm/?comments
+Kaila, U., & Nyman, L. (2018). Information security best practices: First steps for startups and SMEs. Technology Innovation Management Review, 8(11), 32e42.
+Lord, N. (2018, June 25). Healthcare information security: The
+top INFOSEC considerations for healthcare organizations
+today. Digital Guardian. Available at https://
+digitalguardian.com/blog/healthcare-information-securitytop-infosec-considerations-healthcare-organizations-today
+Manworren, N., Letwat, J., & Daily, O. (2016). Why you should
+care about the Target data breach. Business Horizons, 59(3),
+257e266.
+Morgan, S. (2019, June 10). Global cybersecurity spending
+predicted to exceed $1 trillion from 2017e2021. Cybercrime
+Magazine. Available at https://cybersecurityventures.com/
+cybersecurity-market-report/
+National Center for the Middle Market. (2016). National Center
+for Middle Market Study. Available at https://www.
+middlemarketcenter.org
+National Institute of Standards and Technology. (2018, April 16).
+Framework for improving critical infrastructure cybersecurity (Version 1.1). Available at https://nvlpubs.nist.gov/
+nistpubs/CSWP/NIST.CSWP.04162018.pdf
+Osborn, E. (2014). Business versus technology: Sources of the
+perceived lack of cyber security in SMEs [Working Paper].
+Oxford University Research Archive. Available at https://
+ora.ox.ac.uk/objects/uuid:4363144b-5667-4fdd-8cd3-
+b8e35436107e
+Positive Technologies. (2018, July 17). Positive Technologies
+report: Number of cyber incidents in Q1 jumped by 32 percent.
+Available at https://www.ptsecurity.com/ww-en/about/
+news/number-of-cyber-incidents-in-q1-jumped-by-32-
+percent/
+RSM US LLP. (2018, May 15). Middle market businesses advance
+cybersecurity protections but might underestimate risk, RSM
+survey finds. PR Newswire. Available at https://www.
+prnewswire.com/news-releases/middle-market-businessesadvance-cybersecurity-protections-but-mightunderestimate-risk-rsm-survey-finds-300648315.html
+Calculated risk? A cybersecurity evaluation tool for SMEs 539
+Slowey, K. (2016, August 11). A future ‘hot target’ for attackers:
+How construction companies can improve cybersecurity.
+Construction Dive. Available at https://www.
+constructiondive.com/news/how-construction-companiescan-improve-cybersecurity/424217/
+Stasiak, K. (2018, July 26). Middle-market companies underestimate cybersecurity risks. IndustryWeek. Available at
+https://www.industryweek.com/leadership/article/
+22026028/middlemarket-companies-underestimatecybersecurity-risks
+Sweeney, B. (2016, September 13). Cybersecurity is every executive’s job. Harvard Business Review. Available at
+https://hbr.org/2016/09/cybersecurity-is-everyexecutives-job
+U.S. Congress. (2018). S.2188 e Consumer data protection act.
+Available at https://www.congress.gov/bill/115thcongress/senate-bill/2188/text
+Visner, C. (2016, November 15). Cybersecurity is everyone’s
+responsibility e and it starts at the top. CSO. Available at
+https://www.csoonline.com/article/3140924/
+cybersecurity-is-everyones-responsibility-and-it-starts-atthe-top.html
+540 M. Benz, D. Chatterjee

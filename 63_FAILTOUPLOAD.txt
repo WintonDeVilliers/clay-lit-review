@@ -1,0 +1,646 @@
+ScienceDirect
+Available online at www.sciencedirect.com
+www.elsevier.com/locate/procedia
+Procedia CIRP 107 (2022) 21–27
+2212-8271 © 2022 The Authors. Published by Elsevier B.V.
+This is an open access article under the CC BY-NC-ND license (https://creativecommons.org/licenses/by-nc-nd/4.0)
+Peer-review under responsibility of the International Programme committee of the 55th CIRP Conference on Manufacturing Systems
+10.1016/j.procir.2022.04.004
+© 2022 The Authors. Published by Elsevier B.V.
+This is an open access article under the CC BY-NC-ND license (https://creativecommons.org/licenses/by-nc-nd/4.0)
+Peer-review under responsibility of the International Programme committee of the 55th CIRP Conference on Manufacturing Systems
+Keywords: Lean Manufacturing; Industry 4.0; Wastes; Operations Management
+1. Introduction
+The operations function exists to create and deliver services
+and products [1], and operations management is the practice of
+management decision-making and systems design that covers
+the input-process-output cycle. The flow of operations –
+materials flow, or information flow – from the supplier to the
+customer, constitutes the most important task for manufacturing
+companies and, through its link to cash flow, it is one of the
+areas of management with the highest impact on business
+results [2]. Time is one of the most valuable resources with
+respect to business effectivity, where the minimization of
+production time ensures higher client satisfaction [3].
+Eliminating wastes of both time and resources helps improve
+manufacturing systems [4]. Moreover, the reduction of
+operational costs while preserving a product’s full value is
+crucial to defining lean manufacturing [5]. Lean Manufacturing
+is amongst the most researched topics in the modern area of
+operations management [6]. The origins of lean have been
+traced back in time far beyond the automotive era yet is
+commonly associated with the power of the Toyota Production
+System (TPS) and lean models of operational management.
+Lean manufacturing is evolving to become a method of
+maximizing a company’s efficiency and reducing its waste with
+respect to digital and physical business processes [7]. Any
+actions or resources that don’t benefit the customer or client
+55th CIRP Conference on Manufacturing Systems
+Using Industry 4.0 Capabilities for Identifying and Eliminating Lean
+Wastes
+Sulaiman Rajaba, Mohamed Afy-Shararaha*, Konstantinos Salonitisa
+a
+Sustainable Manufacturing Systems Centre, Cranfield University, Bedford, MK43 0AL, UK
+* Corresponding author. Tel.: +44 1234 750111. E-mail address: M.A.Shararah@Cranfield.ac.uk
+Abstract
+This paper conducts a review of the literature to identify associations in operations between Industry 4.0 capabilities such as Additive
+Manufacturing, Augmented Reality, Autonomous Robots, Big Data, Cloud Computing, IIoT, Simulation, and Systems Integration wit h the
+commonly identified lean manufacturing wastes of Trans port, Inventory, Movement, Waiting, Overproduction, Overprocessing, Defects, and
+Underutilized skills. The paper documents research that links various capabilities and wastes, including how IIoT can be used to reduce defects
+in manufacturing, and how it can mitigate overproduction across industries. There is also evidence that big data implementation in manufacturing
+has positive effects on reducing waiting times across the manufacturing process and delivery, and that cloud computing techno logies guarantee
+better estimates for product and predicted inventory amounts. The research finds impacts on the social aspect of manufacturing by how augmented
+reality tools are increasingly used in the manufacturing sector to improve workers’ knowledge, skills, and abilities, and that simulation software
+applications are capable of decreasing operator motion wastes. The paper concludes that there is a clear benefit for SMEs in using Industry 4.0
+in lean implementation journeys, and it supports the efforts of manufacturing organizations to become leaner using Industry 4.0 capabilities and
+solutions.
+This is a resupply of March 2023 as the template used in the publication of the original article contained errors. The content of the article has remained unaffected.
+22 Sulaiman Rajab et al. / Procedia CIRP 107 (2022) 21–27
+directly are considered waste [8]. There are seven commonly
+identified types of manufacturing waste which are defects,
+overproduction, waiting, transportation, overprocessing, and
+inventory. Moreover, “underutilized skills” have been added to
+the manufacturing waste category by various authors [9.10].
+Beginning in 2011, the digitalization of manufacturing has
+impacted the industrial revolution, allowing business
+processing to happen in real-time [11, 12]. The fourth industrial
+revolution, also known as Industry 4.0, is a group of
+technological advances used to increase business digitization
+and to enable businessesto be a part of an interconnected world
+[13]. Industry 4.0 is often categorized by nine enablers, these
+are the Internet of Things (IoT), Big Data, Autonomous Robots,
+Additive Manufacturing, Cloud Computing, Simulation,
+Cybersecurity, Augmented Reality, and Systems Integration
+[14]. Research suggests that businesses will see bigger benefits
+with the introduction of Industry 4.0. However, Small &
+Medium-sized Enterprises (SMEs) can suffer from the
+introduction, due to high investment costs and incorrect scope
+and planning within its implementation [15].
+Industry 4.0 has been attributed to increased levels of
+manufacturing productivity, decreased lead times, and
+improved efficacy due to growing amounts of technology in the
+industrial and manufacturing fields [16, 17, 18]. It has also been
+found to support the implementation of Just in Time systems
+through the digitalizing of the supply chain to enable timely and
+accurate communication regarding inventory location and
+levels [19] and detecting bottlenecks to ensure continuous flow
+[20]. Industry 4.0 capabilities and technologies can also be used
+to support the implementation of lean manufacturing through
+the identification of manufacturing wastes in the manufacturing
+system [21]. Lean manufacturing waste can be defined as the
+non-use, loss, or over-use of digital and physical business
+technologies. This includes but is not limited to simulations,
+virtual models, and data analytic systems [7].
+The relationship between Industry 4.0 and lean
+manufacturing is increasingly explored in the operations
+management literature [22, 23, 24, 25]. Although different in
+many ways, both concepts share the same goal or increasing
+added value [26].Previous studies have explored how JIT can
+be supported by a digital supply chain [27], that Jidoka can be
+improved via enhanced information sharing using the Internet
+of Things [24], and Quality can be enhanced by digitizing the
+quality control process [28]. This paper sets out to answer the
+question of ‘what are the associations between lean
+manufacturing waste and Industry 4.0’, and to explore how the
+various Industry 4.0 capabilities can be used to identify and
+eliminate the different types of lean wastes in manufacturing.
+Identification of the wastes will generate more targeted and
+efficient approaches in the lean implementation journey, and
+the elimination will further enhance the value provided from
+within the manufacturing system. The following section
+explains the methodology applied, which is followed by the
+research Findings section, and finally the Conclusions section.
+2. Methodology
+The literature review performed for this paper used
+SCOPUS as the database to identify the relevant studies.
+Combinations of the following keywords were used to identify
+the pool of papers to be screened, “lean manufacturing”,
+“wastes”, Industry 4.0”, and “digital”. An excess of 200 papers
+were identified and screened at the abstract stage.A total of 53
+papers, published between the years of 2008 and 2021, were
+chosen as relevant for this study to explore how Industry 4.0
+capabilities can be used to identify and eliminatelean wastes in
+manufacturing systems. Despite of the great interest in the
+concept of Industry 4.0 worldwide, there is no one formally
+respected definition for it [29], and although there are many
+technologies and capabilities directly related to the
+digitalization of manufacturing there still is a lack of agreed
+upon classification in the literature. As such, the key Industry
+4.0 capabilities identified and used in this research are the
+Additive Manufacturing, Augmented Reality, Autonomous
+Robots, Big Data, Cloud Computing, the Industrial Internet of
+Things (IIoT), Simulation, and Systems Integration. Whereas
+the lean manufacturing wastes identified and included were
+Defects, Overproduction, Waiting, Transportation,
+Overprocessing, Inventory, Underutilized skills, and Motion.
+The following section describes the different types of lean
+wastes and how the various Industry 4.0 capabilities can
+support in their identification within manufacturing systems.
+3. Findings
+3.1.Defects,IIoT, and Autonomous Robots
+Defect waste is producing any product that is not suitable for
+use for whatever reason such as defective materials and
+components or produced not per specification [30]. The
+Industrial Internet of Things (IIoT) reduces information defects
+and increases product traceability [31, 32]. In the steel industry,
+Cao et al. [33] tested the use of a blockchain platform that
+allows producers, logistics services providers, and consumers
+to participate in information certification on improving steel
+products’ information integrity and traceability. Results
+indicated that stakeholders in the steel industry were able to
+certify steel products, and express confidence in the
+information provided on the platform helping them reduce
+existing information defects. The authors suggested the
+universalization of blockchain technology in other complex
+industries to mitigate the information deficiency and defects
+problem. Potyrailo [34] proposed an IIoT based sensing
+technology for detecting gases in industrial and clinical
+environments. Advanced sensors that read many variables, and
+act autonomously can reduce risks of gases leaks or unexpected
+overflows. The author concluded with the suggestion that the
+sensors allow manufacturers to maintain smooth production
+without dealing with defective manufacturing environments.
+Velandia et al. [35] investigated the problem of defects in
+crankshafts manufacturing. They proposed a feasible solution
+capable of reducing process and product defects along the
+assembly line. The authors recommended the placement of
+radio-frequency identifiers on bolts along the assembly line.
+They also suggested the placement of a reading antenna on the
+gantry overlooking every step of the manufacturing process
+line. A reading of bolts will be taken at every stage, and
+immediate corrections will be made once any deviation is
+This is a resupply of March 2023 as the template used in the publication of the original article contained errors. The content of the article has remained unaffected.
+Sulaiman Rajab et al. / Procedia CIRP 107 (2022) 21–27 23
+detected and flagged by the automated system. The Industrial
+Internet of Things (IIoT) capability has shown to have a clear
+impact on the identification of defective products and
+components at the various stages of production. Whereas the
+use of autonomous robots on the floor, which are machines
+programmed to achieve a task or a collection of functions in the
+manufacturing process [36], increases standardization and
+mitigates the occurrence of errors and defects on the production
+line, and stations. This helps the manufacturer achieve a better
+integration level, as well as flow improvement[37, 38].
+3.2.Overproduction and IIoT
+Overproduction waste is manufacturing extra products that
+are not required or have no customer demand [30], it is a major
+cause of other types of manufacturing wastes including
+inventory and waiting. Ghouat et al. [39] suggested that
+Industry 4.0 carries significant improvements on the production
+systems of manufacturers. First, the use of IIoT increases the
+real-time data collection of customer needs making the
+manufacturing of only desired products realized. Second, the
+enhancement of machine-to-machine communication increases
+optimal production generating only needed amounts requested
+by customers. Xu and Chen [40] proposed an IIoT based
+framework to enhance the implementation of Just-in-Time
+manufacturing, and thus avoid overproduction. The authors
+identified the frequently cited challenges surrounding the
+application of JIT in manufacturing settings. Then, the authors
+proposed a solution to address these challenges based on IIoT
+technologies. The proposed framework is celebrated to enhance
+lean manufacturing production and reduce excessive
+communication among varying departments in the enterprise.
+Korchagin et al. [41] used ARENA to simulate the effects of
+IIoT technologies on the lean production of the aviation
+industry in Russia and China. Based on a Boeing case study, the
+authors concluded that the use of IIoT results in the lean
+manufacturing of safe and quality aircraft products. The authors
+suggested that this application is profitable, and implementable
+across countries, and industries. The use of the Industrial
+Internet of Things has been associated with the identification of
+overproduction, as well as the implementation of JIT which aids
+in the reduction of overproduction.
+3.3. Waiting and Big Data
+“Waiting” waste is the delay time for employees such as
+equipment downtime, delay in processing, being out of stock of
+materials, or production equipment not ready [30]. Kho et al.
+[42] integrated big data analytics solutions to decrease lead time
+in the manufacturing process. Within a manufacturing shop
+floor, the authors proposed a radio frequency identificationbased solution to track time at each stage of the manufacturing
+process. Results indicated that manufacturing time at each
+phase of the batch input manufacturing decreased since the big
+data solution suggested needed changes in the process. Big data
+analytics improves manufacturer’s ability to build to order
+systems. Consumers may channel their preferences along the
+manufacturing process allowed by intelligent data systems that
+integrate consumers’ desires in the manufacturing process of
+products [43]. Ye et al. [44] concluded that big data analytics
+decreased waiting time in tracking products, their locations, and
+features. The authors suggested that manufacturers increase
+their supply chain efficiency by relying on intelligent big data
+transportation systems. The use and the analysis of big data
+capabilities have shown to have an impact on the identification
+of waiting wastes and on increasing the operators’ productivity.
+3.4. Transportation, Big Data, and SystemsIntegration
+Transportation waste is the movement of components and
+products between stations that aren’t required to reach
+customers’ needs [30]. Big Data applications in transportation
+manufacturing sectors carry a wide range of positive benefits
+[45]. The authors surveyed 320 manufacturers across industries
+and reported positive gains on their supply chain sustainability
+performance because of implementing big data analytics.
+Specifically, big data analytics helped manufacturers improve
+their circular economy practices, and sustainable supply chain
+activities, which resulted in efficient lean transportation. Bag
+[46] concluded a positive relationship between the
+implementation of big data and sustainable supply chain
+practice among South African engineering companies. The
+author suggested that big data applications improve real-time
+knowledge about problematic routes, equipment, vehicles,
+personnel, and suppliers making manufacturers correct their
+choices to guarantee smooth transportation quickly. Moktadir
+et al. [47] demonstrated how big data analytics is an important
+element in the establishment of robust transportation systems in
+the manufacturing field. The authors reported that once the data
+types are known to the manufacturer and a big data tool is
+specified, waste in the supply chain phase will be minimized.
+Similarly, the use and the analysis of big data capabilities has
+shown to have an impact on the identification of transportation
+wastes and on increasing the transporters’ productivity. System
+integration refers to the increased connectivity and linking of
+cyber-physical systems in the manufacturing operation. The
+more connected the systems are within an operation, the easier
+the detection of waste sources, and customers’ needs, which
+aids manufacturers in providing further value to their customers
+– which is the core concept of lean [48].On the other hand, the
+more diverse systems are, and the more technically advanced
+they are, the harder their integration is. Therefore, it is best for
+manufacturers to standardize their systems and tools to
+guarantee higher degree of integration, which will result in
+enhanced continuous flow and improvement at all levels of the
+operation [49, 50].
+3.5.Overprocessing and Big Data
+Overprocessing waste is the addition of unrequired
+processes to produce a product or utilizing a more capable
+machine when a simpler one would be sufficient for the task at
+hand [30]. The application of big data analytics in the
+manufacturing process is a promising practice enhancing lean
+manufacturing outcomes [51]. Abell et al. [52] applied big data
+to manufacturing process control and proposed a new method
+to improve quality assurance called process monitoring for
+quality. The authors implemented their new proposed
+This is a resupply of March 2023 as the template used in the publication of the original article contained errors. The content of the article has remained unaffected.
+24 Sulaiman Rajab et al. / Procedia CIRP 107 (2022) 21–27
+assessment method in the battery industry and found significant
+improvements in process streamlining and standardization.Big
+data tools could be linked with machines to autonomously
+correct any deviations from standardized processes using the
+information generated and recommended by the intelligent
+data-based systems [33]. Majeed et al. [53] proposed a
+framework for integrating big data analytics for optimizing
+manufacturing processes. Applying the framework in 3D
+printing company, the proposed application resulted in benefits
+for products manufacturing. Big data analytics helped
+automated machines identify customers’ needs and integrate
+them into every phase of the manufacturing process.
+3.6.Inventory and Cloud Computing
+Inventory waste is all the materials, components, or products
+in storage for a longer than necessary [30]. Cloud computing
+technologies guarantees better estimates for product and
+predicted inventory amounts compared to traditional software
+downloads on personalized computers [54]. Cloud computing
+increases the cost-effectiveness of inventory handling by
+eliminating the need for servers, as well as human-related
+services rendered in inventory management on-site. Inventory
+amounts could be accessed anytime, anywhere, a nd from any
+device with a high degree of accuracy. This saves time spent on
+updating computer software and systems used to estimate
+inventory, as well as manage it [55]. Most importantly, cloud
+computing allows manufacturers to centralize inventory
+management activities. All processes relevant to inventory
+organization, arrangement, and ordering could be handled in
+one location, the cloud, where every stakeholder has access to
+the needed information [56].
+3.7.Underutilized Skills and Augmented Reality.
+Underutilized skills waste is the failure of tapping into
+employees’ skills and knowledge to make improvements [30].
+Augmented reality tools are increasingly used in the
+manufacturing sector to improve workers’ knowledge, skills,
+and abilities in lean manufacturing and Industry 4.0
+applications [57]. Augmented reality tutorials, programs, and
+workshops could be delivered to demotivated individuals who
+are not utilizing their skills to achieve lean objectives at the
+workplace. Augmented reality could be used to teach managers
+how to reward hard work, recognize employees, and stimulate
+innovation [58]. Augmented reality could open new horizons
+and avenues to the application of technical skills endowed by
+manufacturers’ personnel [59]. The technology could be used
+in demonstrating additive manufacturing processes or
+simulated optimized systems [60]. Moreover, employees could
+utilize their existing knowledge to achieve the desired future
+states of optimized quality products and processes [61].
+3.8. Motion, Simulation, and Additive Manufacturing
+Motion waste is the unnecessary human movement, whether
+on the shop floor or micro-movement within a workstation [30].
+Simulation software applications have been shown to have the
+capability of decreasing motion wastes [62]. Lean
+manufacturing experts could design optimal workstation
+layouts, and physical environments and assess their efficiency
+by using simulation software. Simulation software could
+eliminate wastes in the production planning phase [63] by the
+evaluation of alternative planning strategies to determine the
+optimal course of action. Simulations allow the design of
+process maps and the test of insertion or deletion of different
+phases to generate the most effective and efficient results
+desired. Manufacturing simulations allow manufacturers to
+integrate siloed operations within the general system by
+eliminating excess resources, people, or equipment. Moreover,
+simulation platforms allow manufacturers to evaluate the
+performance of their process designs [64, 65]. Additive
+manufacturing refers to the creation of high-dimensional
+objects by the disposition of materials like 3D printing [66].
+Additive manufacturing saves large amounts of resources and
+minimizes the waste of operator motion, resources, costs, and
+energy used in production [67], this helps manufacturers
+achieve the objectives of lean manufacturing.
+4. Discussion and Conclusions
+The literature review has shown how Industry 4.0
+capabilities and their different applications have a significant
+and growing role in the successful implementation of lean
+manufacturing initiatives, as shown in Fig. 1.
+The different solutions provided by these capabilities can be
+used in the process of identifying andeliminatinglean wastes.
+The identification of the lean wastes will have a clear benefit
+for SMEs, as they typically operate on small transformational
+budgets related to the lean implementation journeys, therefore
+Fig. 1. The associations between the Industry 4.0 capabilities
+and lean wastes
+Big Data
+Cloud Computing
+Augmented Reality
+Simulation
+Industrial Internet of
+Things
+Defects
+Overproduction
+Waiting
+Transportation
+Overprocessing
+Inventory
+Underutilized Skills
+Motion
+Industry 4.0 Capability Associations Lean Manufacturing Waste
+Autonomous Robots
+Systems Integration
+Additive
+Manufacturing
+This is a resupply of March 2023 as the template used in the publication of the original article contained errors. The content of the article has remained unaffected.
+Sulaiman Rajab et al. / Procedia CIRP 107 (2022) 21–27 25
+having digital capabilities that improve the identification of
+waste and will ensure that the transformational budgets are
+allocated effectively. This will result in successful lean
+journeys that deliver more efficient and productive
+manufacturing systems.
+It can be concluded that all lean manufacturing wastes can
+be identified, as well as eliminated, using various digital tools
+that are considered part of Industry 4.0. This research has
+shown how IIoT mitigates overproduction across industries,
+and how its implementation is associated with a lower process
+and product defects. Moreover, the implementation of big data
+in manufacturing has been found to have positive effects on
+reducing waiting times across the manufacturing process and
+delivery, as well as transportation of parts, and the need for
+overprocessing. Studies have also shown how instant access to
+records stored on the cloud can reduce inventory, and how
+augmented reality can be used for upskilling of operators and
+in the identification of unutilized skills. Finally, how simulation
+and digital modelling has been extensively used in the
+identification and reduction of motion. Further research that
+builds on this work would seek to understand the relationships
+between Industry 4.0 and lean manufacturing, such as the
+associations linking Industry 4.0 capabilities with lean
+manufacturing metrics, and how Industry 4.0 can improve the
+lean manufacturing tools.
+References
+[1] Slack, N., & Lewis, M. (2011). Operations strategy. Harlow, England.
+[2] Afy-Shararah, M. and Rich, N. (2018), "Operations flow effectiveness: a
+systems approach to measuring flow performance", International Journal
+of Operations & Production Management, Vol. 38 No. 11, pp. 2096-2123.
+[3] Johansson, P. E., & Osterman, C. (2017). Conceptions and operational use
+of value and waste in lean manufacturing–an interpretivist approach.
+International Journal of Production Research, 55(23), 6903-6915.
+[4] Santosa, W. A., & Sugarindra, M. (2018). Implementation of lean
+manufacturing to reduce waste in production line with value stream
+mapping approach and Kaizen in division sanding upright piano, case
+study in: PT. X. In MATEC Web of Conferences (Vol. 154, p. 01095).
+EDP Sciences.
+[5] Nassereddine, A., & Wehbe, A. (2018). Competition and resilience: Lean
+manufacturing in the plastic industry in Lebanon. Arab Economic and
+Business Journal, 13(2), 179-189.
+[6] Mackelprang, A. W., & Nair, A. (2010). Relationship between just-intime manufacturing practices and performance: A meta-analytic
+investigation. Journal of Operations Management, 28(4), 283-302.
+[7] Romero, D., Gaiardelli, P., Powell, D., Wuest, T., & Thürer, M. (2018,
+August). Digital lean cyber-physical production systems: the emergence
+of digital lean manufacturing and the significance of digital waste. In IFIP
+International Conference on Advances in Production Management
+Systems (pp. 11-20). Springer, Cham.
+[8] Nadeem, K., & Siddiqui, D. A. (2017). The Effect of Strategic Orientation
+on Green Supply Chain Practices and Performance: A Case of
+Manufacturing Companies in Pakistan. Nadeem, K. and Siddiqui, DA
+(2017). The Effect of Strategic Orientation on Green Supply Chain
+Practices and Performance: A Case of Manufacturing Companies in
+Pakistan. Asian Business Review, 7(2), 59-70.
+[9] Wahab, ANA, Mukhtar, M., & Sulaiman, R. (2013). A conceptual model
+of lean manufacturing dimensions. Procedia Technology, 11, 1292-1298.
+[10] Ghobadian, A., Talavera, I., Bhattacharya, A., Kumar, V., Garza-Reyes,
+J. A., & O'regan, N. (2020). Examining legitimatisation of additive
+manufacturing in the interplay between innovation, lean manufacturing
+and sustainability. International Journal of Production Economics, 219,
+457-468.
+[11] Bartodziej, C. J. (2017). The concept industry 4.0. In The concept
+industry 4.0 (pp. 27-50). Springer Gabler, Wiesbaden.
+[12] Jagtap S, Bader F, Garcia-Garcia G, Trollman H, Fadiji T & Salonitis K
+(2020) Food logistics 4.0: opportunities and challenges, Logistics, 5 (1)
+Article No. 2.
+[13] Kang, H. S., Lee, J. Y., Choi, S., Kim, H., Park, J. H., Son, J. Y., ... &
+Do Noh, S. (2016). Smart manufacturing: Past research, present findings,
+and future directions. International journal of precision engineering and
+manufacturing-green technology, 3(1), 111-128.
+[14] Zheng, T., Ardolino, M., Bacchetti, A., & Perona, M. (2021). The
+applications of Industry 4.0 technologies in manufacturing context: a
+systematic literature review. International Journal of Production Research,
+59(6), 1922-1954.
+[15] Sommer, L. (2015). Industrial revolution-industry 4.0: Are German
+manufacturing SMEs the first victims of this revolution?. Journal of
+Industrial Engineering and Management, 8(5), 1512-1532.
+[16] Bittighofer, D., Dust, M., Irslinger, A., Liebich, M., & Martin, L. (2018,
+June). State of Industry 4.0 across German companies. In 2018 IEEE
+International Conference on Engineering, Technology and Innovation
+(ICE/ITMC) (pp. 1-8). IEEE.
+[17] Saxena, P., Papanikolaou, M., Pagone, E., Salonitis, K., & Jolly, M. R.
+(2020). Digital manufacturing for foundries 4.0. In Light Metals 2020 (pp.
+1019-1025). Springer.
+[18] del Castillo AC, Patsavellas J, Salonitis K & Emmanouilidis C (2021)
+The productivity impact of the digitally connected 5 - layer stack in
+manufacturing enterprises, Procedia CIRP, 104, 342-350.
+[19] Zelbst, P. J., Green Jr, K. W., Sower, V. E., & Abshire, R. D. (2014).
+Impact of RFID and information sharing on JIT, TQM and operational
+performance. Management Research Review.
+[20] Rosin, F., Forget, P., Lamouri, S., & Pellerin, R. (2020). Impacts of
+Industry 4.0 technologies on Lean principles. International Journal of
+Production Research, 58(6), 1644-1661.
+[21] Mouritz, A. P. (2020). Review of z-pinned laminates and sandwich
+composites. Composites Part A: Applied Science and Manufacturing,
+106128.
+[22] Krzysztof Ejsmont, K., Gladysz, B., Corti, D., Castaño, F., Mohammed,
+W. M., & Martinez Lastra, J. L. (2020). Towards ‘Lean Industry 4.0 ʹ–
+Current trends and future perspectives. Cogent Business & Management,
+7(1), 1781995.
+[23] Buer, S. V., Strandhagen, J. O., & Chan, F. T. (2018). The link between
+Industry 4.0 and lean manufacturing: mapping current research and
+establishing a research agenda. International journal of production
+research, 56(8), 2924-2940.
+[24] Kolberg, D., & Zühlke, D. (2015). Lean automation enabled by industry
+4.0 technologies. IFAC-PapersOnLine, 48(3), 1870-1875.
+[25] Wagner, T., Herrmann, C., & Thiede, S. (2017). Industry 4.0 impacts on
+lean production systems. Procedia Cirp, 63, 125-131.
+[26] Prinz, C., Kreggenfeld, N., & Kuhlenkötter, B. (2018). Lean meets
+Industrie 4.0–a practical approach to interlink the method world and
+cyber-physical world. Procedia Manufacturing, 23, 21-26
+[27] Zelbst, P. J., Green Jr, K. W., Sower, V. E., & Abshire, R. D. (2014).
+Impact of RFID and information sharing on JIT, TQM and operational
+performance. Management Research Review
+This is a resupply of March 2023 as the template used in the publication of the original article contained errors. The content of the article has remained unaffected.
+26 Sulaiman Rajab et al. / Procedia CIRP 107 (2022) 21–27
+[28] Garcia-Garcia, G., Coulthard, G., Jagtap, S., Afy-Shararah, M.,
+Patsavellas, J., & Salonitis, K. (2021). Business process re-engineering to
+digitalise quality control checks for reducing physical waste and resource
+use in a food company. Sustainability, 13(22), 12341
+[29] Mrugalska, B., & Wyrwicka, M. K. (2017). Towards lean production in
+industry 4.0. Procedia engineering, 182, 466-473.
+[30] Thakur, A. (2016). A review on Lean Manufacturing implementation
+techniques: A conceptual model of Lean Manufacturing dimensions.
+REST Journal on Emerging trends in Modelling and Manufacturing, 2(3),
+62-72.
+[31] Karmakar, A., Dey, N., Baral, T., Chowdhury, M., & Rehan, M. (2019,
+March). Industrial internet of things: a review. In 2019 International
+Conference on Opto-Electronics and Applied Optics (Optronic) (pp. 1-6).
+IEEE.
+[32] Garcia-Garcia G, Coulthard G, Jagtap S, Afy-Shararah M, Patsavellas J
+& Salonitis K (2021) Business process re-engineering to digitalise quality
+control checks for reducing physical waste and resource use in a food
+company, Sustainability, 13 (22) Article No. 12341.
+[33] Cao, Y., Jia, F., & Manogaran, G. (2019). Efficient traceability systems
+of steel products using blockchain-based industrial Internet of Things.
+IEEE Transactions on Industrial Informatics, 16(9), 6004-6012.
+[34]Potyrailo, R. A. (2016). Multivariable sensors for ubiquitous monitoring
+of gases in the era of internet of things and industrial internet. Chemical
+reviews, 116(19), 11877-11923.
+[35] Velandia, D. M. S., Kaur, N., Whittow, W. G., Conway, P. P., & West,
+A. A. (2016). Towards industrial internet of things: Crankshaft
+monitoring, traceability and tracking using RFID. Robotics and
+Computer-Integrated Manufacturing, 41, 66-77.
+[36] Valamede, L. S., & Akkari, A. C. S. (2020, February). Lean
+Manufacturing and Industry 4.0: A Holistic Integration Perspective in the
+Industrial Context. In 2020 9th International Conference on Industrial
+Technology and Management (ICITM) (pp. 63-68). IEEE.
+[37] Buer, S. V., Strandhagen, J. O., & Chan, F. T. (2018). The link between
+Industry 4.0 and lean manufacturing: mapping current research and
+establishing a research agenda. International Journal of Production
+Research, 56(8), 2924-2940.
+[38] Amjad, M. S., Rafique, M. Z., Hussain, S., & Khan, M. A. (2020). A
+new vision of LARG Manufacturing—A trail towards Industry 4.0. CIRP
+Journal of Manufacturing Science and Technology, 31, 377-393.
+[39] Ghouat, M., Haddout, A., & Benhadou, M. (2021). Impact of Industry
+4.0 Concept on the Levers of Lean Manufacturing Approach in
+Manufacturing Industries. International Journal of Automotive and
+Mechanical Engineering, 18(1), 8523-8530.
+[40] Xu, Y., & Chen, M. (2018). An Internet of Things based framework to
+enhance just-in-time manufacturing. Proceedings of the Institution of
+Mechanical Engineers, Part B: Journal of Engineering Manufacture,
+232(13), 2353-2363.
+[41] Korchagin, A., Deniskina, A., & Fateeva, I. (2019). Lean and energy
+efficient production based on internet of things (IOT) in aviation industry.
+In E3S Web of Conferences (Vol. 110, p. 02124). EDP Sciences.
+[42] Kho, D. D., Lee, S., & Zhong, R. Y. (2018). Big data analytics for
+processing time analysis in an IoT-enabled manufacturing shop floor.
+Procedia Manufacturing, 26, 1411-1420.
+[43] Cadavid, J. P. U., Lamouri, S., Grabot, B., Pellerin, R., & Fortin, A.
+(2020). Machine learning applied in production planning and control: a
+state-of-the-art in the era of industry 4.0. Journal of Intelligent
+Manufacturing, 1-28.
+[44] Ye, Y., Wang, M., Yao, S., Jiang, J. N., & Liu, Q. (2019). Big data
+processing framework for manufacturing. Procedia CIRP, 83, 661-664.
+[45] Edwin Cheng, T. C., Kamble, S. S., Belhadi, A., Ndubisi, N. O., Lai, K.
+H., & Kharat, M. G. (2021). Linkages between big data analytics, circular
+economy, sustainable supply chain flexibility, and sustainable
+performance in manufacturing firms. International Journal of Production
+Research, 1-15.
+[46] Bag, S. (2017). Big data and predictive analysis is key to superior supply
+chain performance: a South African experience. International Journal of
+Information Systems and Supply Chain Management (IJISSCM), 10(2),
+66-84.
+[47] Moktadir, M. A., Ali, S. M., Paul, S. K., & Shukla, N. (2019). Barriers to
+big data analytics in manufacturing supply chains: A case study from
+Bangladesh. Computers & Industrial Engineering, 128, 1063-1075.
+[48] Husen, Y. A. (2020, June). Integration of Lean Manufacturing and
+Industry 4.0: A Conceptual Framework. In Proceedings of the 3rd Asia
+Pacific Conference on Research in Industrial and Systems Engineering
+2020 (pp. 272-277).
+[49] Balaji, V., Venkumar, P., Sabitha, M. S., & Amuthaguka, D. (2020).
+DVSMS: Dynamic value stream mapping solution by applying IIoT.
+Sādhanā, 45(1), 1-13.
+[50] Sanders, A., Elangeswaran, C., & Wulfsberg, J. P. (2016). Industry 4.0
+implies lean manufacturing: Research activities in industry 4.0 function as
+enablers for lean manufacturing. Journal of Industrial Engineering and
+Management (JIEM), 9(3), 811-833.
+[51] Belhadi, A., Zkik, K., Cherrafi, A., & Sha'ri, M. Y. (2019).
+Understanding big data analytics for manufacturing processes: insights
+from literature review and multiple case studies. Computers & Industrial
+Engineering, 137, 106099.
+[52] Abell, J. A., Chakraborty, D., Escobar, C. A., Im, K. H., Wegner, D. M.,
+& Wincek, M. A. (2017). Big data-driven manufacturing—processmonitoring-for-quality philosophy. Journal of Manufacturing Science and
+Engineering, 139(10).
+[53] Majeed, A., Lv, J., & Peng, T. (2019). A framework for big data driven
+process analysis and optimization for additive manufacturing. Rapid
+Prototyping Journal.
+[54] Qi, Q., & Tao, F. (2019). A smart manufacturing service system based
+on edge computing, fog computing, and cloud computing. IEEE Access,
+7, 86769-86777.
+[55] Wu, D., Rosen, D. W., Wang, L., & Schaefer, D. (2015). Cloud-based
+design and manufacturing: A new paradigm in digital manufacturing and
+design innovation. Computer-Aided Design, 59, 1-14.
+[56] Georgakopoulos, D., Jayaraman, P. P., Fazia, M., Villari, M., & Ranjan,
+R. (2016). Internet of Things and edge cloud computing roadmap for
+manufacturing. IEEE Cloud Computing, 3(4), 66-73.
+[57] Jagtap S, Saxena P & Salonitis K (2021) Food 4.0: implementation of
+the augmented reality systems in the food industry, Procedia CIRP, 104
+1137-1142.
+[58] Egger, J., & Masood, T. (2020). Augmented reality in support of
+intelligent manufacturing–a systematic literature review. Computers &
+Industrial Engineering, 140, 106195.
+[59] Ong, S. K., Yuan, M. L., & Nee, A. Y. C. (2008). Augmented reality
+applications in manufacturing: a survey. International journal of
+production research, 46(10), 2707-2742.
+[60] Cai, Y., Wang, Y., & Burnett, M. (2020). Using augmented reality to
+build digital twin for reconfigurable additive manufacturing system.
+Journal of Manufacturing Systems, 56, 598-604.
+[61] Wang, X., Ong, S. K., & Nee, A. Y. (2016). A comprehensive survey of
+augmented reality assembly research. Advances in Manufacturing, 4(1),
+1-22.
+This is a resupply of March 2023 as the template used in the publication of the original article contained errors. The content of the article has remained unaffected.
+Sulaiman Rajab et al. / Procedia CIRP 107 (2022) 21–27 27
+[62] Coors, T., Pape, F., Kruse, J., Blohm, T., Beermann, R., Quentin, L., &
+Poll, G. (2020). Simulation assisted process chain design for the
+manufacturing of bulk hybrid shafts with tailored properties. The
+International Journal of Advanced Manufacturing Technology, 108, 2409-
+2417.
+[63] Mourtzis, D. (2020). Simulation in the design and operation of
+manufacturing systems: state of the art and new trends. International
+Journal of Production Research, 58(7), 1927-1949.
+[64] Baumer-Cardoso, M. I., Campos, L. M., Santos, P. P. P., & Frazzon, E.
+M. (2020). Simulation-based analysis of catalyzers and trade-offs in Lean
+& Green manufacturing. Journal of Cleaner Production, 242, 118411.
+[65] Shararah, M. A., El-Kilany, K. S., & El-Sayed, A. E. (2010). Component
+based modeling and simulation of value stream mapping for lean
+production systems. In FAIM Conference (pp. 881-888).
+[66] Ghobadian, A., Talavera, I., Bhattacharya, A., Kumar, V., Garza-Reyes,
+J. A., & O'regan, N. (2020). Examining legitimatisation of additive
+manufacturing in the interplay between innovation, lean manufacturing
+and sustainability. International Journal of Production Economics, 219,
+457-468.
+[67] Brito, M. F., Ramos, A. L., Carneiro, P., & Gonçalves, M. A. (2019).
+Ergonomic Analysis in Lean Manufacturing and Industry 4.0—A
+Systematic Review. Lean Engineering for Global Development, 95-127.
+This is a resupply of March 2023 as the template used in the publication of the original article contained errors. The content of the article has remained unaffected.

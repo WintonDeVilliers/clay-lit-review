@@ -1,0 +1,56 @@
+# Literature Review: Managing Cyber Risk in Supply Chains
+
+## Introduction
+
+Cyber risk has become a significant concern for supply chain management in recent years. As supply chains become more interconnected and reliant on digital technologies, they are increasingly vulnerable to cyber attacks and disruptions. Effectively managing cyber risk in supply chains is crucial to ensure the resilience and robustness of the entire system. This literature review aims to explore the current state of research on managing cyber risk in supply chains and identify potential future research directions.
+
+## Supply Chain Disruption Management: A New Perspective
+
+One approach to managing cyber risk in supply chains is through the adoption of a low-certainty-need (LCN) supply chain framework. Baz and Ruel (2020) suggest that traditional supply chain disruption management methods may not be effective in dealing with the uncertainty and complexity of cyber risk. The LCN framework proposes a new perspective in supply chain disruption management, where supply chain behavior is less dependent on the certainty of knowledge about the environment and its changes. The authors identify key LCN supply chain characteristics that ensure efficient disruption resistance and recovery resource allocation.
+
+## The Role of Supply Chain Innovation in Risk Management
+
+Ivanov and Dolgui (2018) propose a theoretical model that investigates the positive impact of supply chain innovation on risk management capabilities in global supply chain operations. They find that innovative supply chains have a discernible positive influence on all dimensions of risk management capability, including resilience and robustness. The research provides empirical evidence for the importance of supply chain innovation and risk management capability in enhancing competitive advantage.
+
+## Sustainability Practices and Supply Chain Risk
+
+Tang, Gurnani, and Gupta (2014) examine the impact of sustainability practices on supply chain risk. They find that while risk mitigation strategies may not always reduce the actual supply chain risk experienced by firms, sustainability efforts help reduce supply chain risk, especially in emerging market contexts. The research suggests that reactive risk mitigation strategies are effective when used in conjunction with
+
+sustainability efforts, and preventive risk mitigation efforts are effective in mature supply chains.
+Gouda and Saranga (2018) also investigate the impact of sustainability efforts on supply chain risk. They argue that sustainable supply chains contribute to supply chain sustainability and help manage supply chain risk. The authors propose an Internet of Things (IoT)-based risk monitoring system (IoTRMS) for controlling product quality and occupational safety risks in cold chains. The IoTRMS utilizes a wireless sensor network, cloud database services, and fuzzy logic approach to monitor environmental conditions and assess occupational safety risks.
+
+## Climate Change Risks and Supply Chain Management
+
+Climate change poses significant risks to global supply chains, affecting food production, natural re- sources, and transportation. Freise and Seuring (2015) propose a supply chain risk management frame- work for managing climate change risks. The framework captures the nexus between climate change and supply chain management and contributes to the literature on supply chain risk management.
+
+## Managing Volatility and Risk in Supply Chains
+
+Tsang et al. (2018) emphasize the need for new mental models that embrace volatility in supply chain design. They introduce the concept of the Supply Chain Volatility Index (SCVI) and present a conceptual framework for dealing with persistent volatility, risk, and cost implications in supply chain operations. The framework helps firms manage volatility-induced risk by minimizing adverse cost implications in their supply chains.
+
+## Knowledge Gaps and Future Research Directions
+
+Despite the existing research on managing cyber risk in supply chains, there are still several knowledge gaps that need to be addressed. First, further research is needed to develop comprehensive frameworks and methodologies for assessing and managing cyber risk in supply chains. This includes the identification of key cyber risk indicators, the development of risk assessment models, and the integration of cyber risk management into existing supply chain risk management frameworks.
+Second, there is a need for empirical studies that examine the effectiveness of different cyber risk mitigation strategies in supply chains. This includes investigating the impact of proactive measures, such as cybersecurity training and awareness programs, as well as reactive measures, such as incident response plans and recovery strategies.
+
+Third, future research should focus on the role of collaboration and information sharing in managing cyber risk in supply chains. This includes exploring the benefits and challenges of sharing cyber risk information among supply chain partners and developing mechanisms for collaborative cyber risk management.
+Lastly, the impact of emerging technologies, such as blockchain and artificial intelligence, on managing cyber risk in supply chains should be explored. These technologies have the potential to enhance supply chain transparency, traceability, and security, but their effectiveness in managing cyber risk needs to be empirically validated.
+In conclusion, managing cyber risk in supply chains requires a multidisciplinary approach that integrates supply chain management, risk management, and cybersecurity. The research findings discussed in this literature review provide valuable insights into the current state of research on managing cyber risk in supply chains. However, there are still several knowledge gaps that need to be addressed to develop effective strategies and frameworks for managing cyber risk in supply chains. Future research should focus on filling these gaps and exploring the potential of emerging technologies in enhancing cyber risk management in supply chains.
+
+## References
+
+Baz, J. E., & Ruel, S. (2020). Can supply chain risk management practices mitigate the disruption impacts on supply chains' resilience and robustness? Evidence from an empirical survey in a COVID-19 outbreak era. _International Journal of Production Economics, 233_, 107972.
+Ivanov, D., & Dolgui, A. (2018). Low-Certainty-Need (LCN) supply chains: a new perspective in managing disruption risks and resilience. _International Journal of Production Research, 57_, 5119-5136.
+Tang, S., Gurnani, H., & Gupta, D. (2014). Managing Disruptions in Decentralized Supply Chains with Endogenous Supply Process Reliability. _Production and Operations Management, 23_, 1198-1211.
+Gouda, S., & Saranga, H. (2018). Sustainable supply chains for supply chain sustainability: impact of sustainability efforts on supply chain risk. _International Journal of Production Research, 56_, 5820-5835.
+Freise, M., & Seuring, S. (2015). Social and environmental risk management in supply chains: a survey in the clothing industry. _Logistics Research, 8_, 1-12.
+Tsang, Y., Choy, K., Wu, C.-H., Ho, G., Lam, C., & Koo, P. S. (2018). An Internet of Things (IoT)-based risk monitoring system for managing cold supply chain risks. _Ind. Manag. Data Syst., 118_, 1432-1462.
+
+## References:
+
+1. Ivanov, D.., & Dolgui, A.. (2018). Low-Certainty-Need (LCN) supply chains: a new perspective in managing disruption risks and resilience. <i>International Journal of Production Research</i> , 57 , 5119 - 5136 . http://doi.org/10.1080/00207543.2018.1521025
+2. Gouda, S.., & Saranga, H.. (2018). Sustainable supply chains for supply chain sustainability: impact of sustainability efforts on supply chain risk. <i>International Journal of Production Research</i> , 56 , 5820 - 5835 . http://doi.org/10.1080/00207543.2018.1456695
+3. Tsang, Y.., Choy, K.., Wu, Chun-Ho., Ho, G.., Lam, C.., & Koo, P. S.. (2018). An Internet of Things (IoT)-based risk monitoring system for managing cold supply chain risks. <i>Ind. Manag. Data Syst.</i> , 118 , 1432-1462 . http://doi.org/10.1108/IMDS-09-2017-0384
+4. Tang, S.., Gurnani, H.., & Gupta, D.. (2014). Managing Disruptions in Decentralized Supply Chains with Endogenous Supply Process Reliability. <i>Production and Operations Management</i> , 23 , 1198 - 1211 . http://doi.org/10.1111/poms.12160
+5. Freise, Matthew., & Seuring, S.. (2015). Social and environmental risk management in
+   supply chains: a survey in the clothing industry. <i>Logistics Research</i> , 8 , 1-12 . http://doi.org/10.1007/s12159-015-0121-8
+6. Baz, Jamal El., & Ruel, Salomée. (2020). Can supply chain risk management practices mitigate the disruption impacts on supply chains’ resilience and robustness? Evidence from an empirical survey in a COVID-19 outbreak era. <i>International Journal of Production Economics</i> , 233 , 107972 - 107972 . http://doi.org/10.1016/j.ijpe.2020.107972

@@ -1,0 +1,733 @@
+African Journal of Business Management Vol. 6(21), pp. 6324-6330, 30 May, 2012
+Available online at http://www.academicjournals.org/AJBM
+DOI: 10.5897/AJBM11.2709
+ISSN 1993-8233 ©2012 Academic Journals
+Review
+A literature review of small and medium enterprises
+(SME) risk management practices in South Africa
+Yolande Smit* and J. A. Watkins
+Department of Internal Auditing and Management Accounting, Cape Peninsula University of Technology, South Africa.
+Accepted 3 January, 2012
+The inherent characteristics of small and medium enterprises (SMEs) afford these enterprises the
+potential to absorb unskilled labour and to nurture and develop entrepreneurial skills. However, in the
+South African economy, these benefits are not forthcoming due to the high failure rate of SMEs. The
+impediments to SME success includes numerous and varied obstacles. Studies conducted confirmed
+SME owner-managers ignorant pertaining to the risks their enterprise face with risk management
+techniques deployed reactively and ineffectively. By embedding a structured approach to enterprise
+risk management within SMEs, potential benefits such as reducing the over-management of risks and
+organisational alignment towards the SME’s vision can be realised.
+Key words: Small and medium enterprises (SMEs), risk, risk management, strategic risk management.
+INTRODUCTION
+Small and medium enterprises (SMEs) operate in the
+same environment as their larger counterparts, but
+without the associated benefits such as adequate capital
+and extended human resources of the larger
+organisations. SMEs encounter increasing competitive
+pressure fuelled by globalisation, legislation and the
+relaxing of trade barriers, as well as an increase in
+market expansion due to emerging technologies and
+innovation. Small and medium enterprises often flourish
+on their adaptability and agility such as their close
+proximity to their customers, their openness towards new
+ways of working, and their risk taking approach, but many
+micro, small and medium enterprise are susceptible to
+major external shocks (Berry, 2002; Laforet and Tann,
+2006). Although SMEs experience difficulties in
+absorbing and coping with these obstacles, they need to
+develop an ability to deal with the ever increasing
+challenges, that is, risks faced by the organisation
+(Leopoulos, 2006).
+SME owner-managers need to escalate the importance
+of risk identification and minimisation in their
+*Corresponding author. E-mail: smity@cput.ac.za. Tel: +27 (0)
+21 864 5264, +27 (0) 84 423 275. Fax: +27 (0) 21 864 5262.
+organisations or they can suffer catastrophic
+consequences if they are ill prepared for the outcome of a
+possible risk. This entails that entrepreneurs in SMEs
+need to be conversant with risk identification and analysis
+to manage risks from a diverse range of sources
+(Schultz, 2001). By incorporating risk management into
+SMEs operations, SMEs are better equipped to exploit
+their resources, thereby enabling organisations to
+transform an expenditure activity into an activity that can
+yield a positive return (Kirytopoulos et al., 2001; Banham,
+2004).
+DEFINING SMALL AND MEDIUM ENTERPRISES
+(SMEs)
+Although the term SME or SMME is used interchangeably worldwide, there is no common definition of
+these terms. The geographical placement of SMEs as
+well as country specific legislation influences the
+numerous SME definitions (Leopoulos, 2006). In South
+Africa, the National Small Business Act 102 of 1996
+(South Africa, 1996) amended by Act 29 of 2004 (South
+Africa, 2004) categorise small organisations into four
+categories namely micro enterprises, including survivalist
+ enterprises; very small enterprises; small enterprises; 
+and medium enterprises. The differentiating factor
+between these categories, excluding micro enterprises, is
+the number of employees. For micro enterprises, the
+criterion is turnover level (South Africa, 1996, 2004; Von
+Broembsen, 2003).
+Importance of small and medium enterprises (SMEs)
+to the economy
+The importance of small businesses is recognised in
+numerous African countries such as Togo, Uganda,
+Ghana, Cote d’Lvoire, Nigeria, Kenya, Malawi, Burkina
+Faso, as well as others. According to Rwigema and
+Karungu (1999), SMEs are dominant in numbers in most
+economies. In First World countries like the United States
+of America and the United Kingdom, small enterprises
+play an important role in the economy, accounting for an
+estimated one third of industrial employment and a lower
+percentage of output. In Third World countries where
+SMEs dominate economically active enterprises, the
+SMEs prosperity is considered far more important than in
+First World countries (Rwigema and Karungu, 1999).
+The activities of SME enterprises in Africa (Rogerson,
+2001a), is of vital importance for the promotion of
+economic growth, job creation and the mitigation of
+poverty. However, research conducted on SMEs in Africa
+by Mead and Liedholm (1998) confirmed that on average,
+there are more SME closures than expansions, with
+approximately only 1% of micro enterprises growing from
+five or less employees to ten or more. It has long been
+debated that SMEs are pivotal to employment creation
+and economic growth, particularly in countries such as
+South Africa that has a high unemployment rate,
+estimated at up to 40% (Friedrich, 2004; Watson, 2004).
+Upgrading the roles of the SME sector in the South
+African economy to improve economic growth through
+increasing competitiveness, and by generating employment and redistributing income (Rogerson, 2004, 2006),
+has been the focus of new development policies since
+the democratic transition (Berry et al., 2002; GCIS, 2002).
+In order to aid in the facilitation of the SME environment,
+the South African government tabled the National Small
+Business Act of 1996 amended with Act 29 of 2004 to
+provide equal standing to SME enterprises (Rwigema
+and Venter, 2004; Ntsika, 2001) in South Africa’s
+economy. The vital role the SME sector plays in the
+South African economy in addressing sustainable
+development, was highlighted by the 2003 Human
+Development Report (UNDP, 2003) for South Africa
+(Rogerson, 2004).
+In South Africa, it is estimated that 90% of all formal
+businesses are small, medium or micro enterprises
+(Rwigema and Karungu, 1999). The SME sector is one of
+the largest contributors to the South African economy.
+The SME is not only seen as an employment creator, but
+this sector also acts as an absorbent of retrenched
+people coming from the private and public sector
+Smit and Watkins 6325
+(Ntsika, 2001).
+Although the SME sector is responsible for 75% of new
+jobs, largely due to the emergence of new micro
+enterprise formations, it compares poorly to Asian
+countries where SME employment contribution is
+estimated at 80% (Friedrich, 2004; Watson and Godfrey,
+1999). Even in countries less developed than South
+Africa, their SME sector contributes a much higher
+proportion to the GDP and employment (UNDP, 2003;
+OECD, 19971
+ cited by Watson and Godfrey, 1999). It is
+noted that the majority of South African SMEs are micro
+and survivalist enterprises which show no signs of
+enterprise growth due to inadequate firm dynamics,
+resulting in SMEs conservative contribution to employment compared to other countries. Even in dynamic
+South African SMEs, it seems that a ‘jobless growth’
+strategy (Kesper, 2000) is employed.
+The South African government has identified the SME
+sector as the means to achieve accelerated economic
+growth. However, this objective was not achieved partly
+due to the high failure rate of 80% of enterprises
+(Watson, 2004; Van Niekerk, 2005) in the SME sector. As
+SMEs growth depends to a larger extent on the macro
+economic growth, it can be said that the slack micro
+economic growth of the past few years has inhibited
+entrepreneurial performance and therefore SMEs to grow
+to their full potential (Watson, 2004; Berry et al., 2002).
+SME failure can further be partly ascribed to the lack of
+management skills. South African SMEs do not aspire to
+corporate governance best practices such as the noncompulsory implementation of King III (King, 2009). Risk
+management, a component of King III, is therefore, also
+regarded as an optional organisational activity, and not
+as a vital component to organisational success.
+Critical success factors for small and medium
+enterprises (SMEs)
+Caution should be levied against viewing SMEs as
+smaller versions of larger enterprises as SMEs do not in
+any regard resemble large organisations. Generally,
+SMEs experience a scarcity of resources (Wong, 2005;
+Jun and Cai, 2003) such as time, financial and human
+resources.
+Studies have identified a number of factors that
+influence enterprise expansion and success. A
+fundamental element (McGrath and King, 1996;
+Rogerson, 2001a) that has a positive impact on an
+organisation’s growth is the depth of “human capital” or
+“brain power”. The importance of human capital as a
+critical success factor was also confirmed in a study
+conducted on African enterprises where it was
+determined that successful entrepreneurs more likely
+
+1
+ Small Business Research and Policy 1997b, Organisation for Economic Cooperation and Development (OECD). Retrieved August 10,2004 from
+http://strategic.ic.gc.ca/epic/internet/insbrp-rppe.nsf/en/rd00259e.html 
+6326 Afr. J. Bus. Manage.
+have education and training beyond the primary school
+level (Rogerson, 2001a).The merit of this finding is based
+on the argument that entrepreneurs with a greater level of
+education and training are more able to adapt their
+business to the ever changing business environment. In a
+study conducted on enterprise success factors in SMEs
+Gauteng, South Africa, it was concluded that a lack of
+technical and managerial skills (Brink et al., 2003;
+Rogerson, 2008) impedes on business development.
+Research conducted on SME failures in South Africa
+revealed that failure was primarily caused by a lack of
+management skill and training. This finding is confirmed
+(Rogerson, 2008) by 90% of a sample of 1000
+entrepreneurs who believe that SME failure is due to a
+lack of managerial skills. However, taking the importance
+of training and skill into account, it is cautioned by
+Rogerson (2008) that skills are not the only or even
+primary answer to the challenges facing SME
+development.
+It can be gleaned from various literature sources
+(Berger and Udell, 2001; Reynolds and Lancaster, 2006;
+Bank of England, 2001) that a high percentage of small
+organizations fail in the first five years of trading, often as
+a result of over trading and financial strain. Access to
+finance has therefore featured prominently in a number of
+studies as a constraint on SME development. According
+to Rogerson (2001b) and Skinner (2005), a lack of credit
+is a major constrained experienced by emerging African
+SME entrepreneurs, who is depended on personal
+savings or loans from relatives and friends, as the source
+of their start-up capital. Finance, skills, business training
+and less rigid regulations are the key elements to
+promote entrepreneurship, to enhance the enterprise
+environment, to improve competitiveness and capacity in
+the SME enterprise (Rogerson, 2008).
+Problems experienced by small and medium
+enterprises (SMEs)
+SME owner-managers are most conversant with their
+enterprises, but are frequently not able to identify all the
+factors impacting on their enterprise activities and/or
+overrate the significance of external factors, while
+underrating internal weaknesses (Kesper, 2000).
+According to Naicker (2006), problems experienced by
+SMEs can be categorised as follows:
+i. Economic based problems: SMEs success is tied in
+with the local economic conditions as the SME sectors
+market growth is usually at the same rate as the macro
+economy as a whole, therefore, if there is an economic
+downturn, SMEs will usually also experience difficulty
+(Berry et al., 2002).
+ii. Enterprise based problems: Internal factors such as
+human resource problems encompassing poor staff
+planning, multi-functional management, high employee
+turnover rate, inadequate trained employees, low
+productivity and difficulties in recruiting quality staff
+ (Rogerson, 2004; Beaver, 2002; Williamson, 2000;
+Lighthelm et al., 2002; Watt, 2007) are impediments to
+SME success. It is argued that the role of labour, labour
+markets and skills levels are the most important factors
+contributing to small enterprise growth (Berry et al.,
+2002).
+Managerial skills not only influence owners perceptions
+regarding their business, but various literature sources
+(Watson, 2004) acknowledge that a lack of managerial
+skills and training is an important cause of enterprise
+failure (Naicker, 2006) complimented by lack of
+experience and lack of organisational culture acting as an
+impediment to the establishment of SMEs. The ownermanagers characteristics (O’Gorman, 2001) can also act
+as a barrier to growth in that the personality, managerial
+skills and style including the entrepreneur’s and/or
+management’s negative attitude towards change can
+negatively influence an enterprise (Leopoulos, 2006;
+Naicker, 2006).
+South African bankers are less inclined to finance
+SMEs (Pretorius and Shaw, 2004), due to their perceived
+high level of risk and a weak expected return (St-Pierre
+and Bahri, 2006) and this is emphasised by the South
+African micro enterprise surveys, with the inaccessibility
+to finance listed as one of the primary external constrains
+faced by SMEs. Some of the factors that contribute to the
+complex financing problem are the insufficient knowledge
+of the SME entrepreneur, for example, their inability to
+draw up a business plan; the lenders inability to
+determine the SMEs credit risk attributed to their lack of
+enterprise information; and general communications
+issues (Berry et al., 2002) leading to low levels of
+entrepreneurship and a high failure rate (Kotze and Smit,
+2008) of South African SMEs (Rajaram, 2008).
+It is therefore important to develop an effective and
+efficient process whereby all SME dimensions is
+evaluated when measuring the borrower’s risk. The
+development of a more inclusive SME risk measurement
+framework will enable lenders to make rapid and
+objective decisions based on the actual business
+environment, while SME management cannot criticise the
+banking environment of over-valuating the risk. At
+present, few risk evaluation models exists that allows for
+an overall evaluation of SME risk. The lack of suitable
+risk models is emphasised by the banking sectors
+continued reliance on financial models where information
+is derived by way of financial statements, as this
+information is considered more objectives than
+information obtained from other sources.
+iii. Industry related problems: According to Naicker (2006)
+and Haung and Brown (1999), market related factors that
+exerts the most negative influence on enterprise success
+are increase competition, limited market size, low
+demand, inefficient marketing, poor competitor
+understanding, poor location and market understanding 
+and the inability to identify the target market (Naicker,
+2006; Watt, 2007). South African SMEs are hampered by
+a structural problem, in that, South African SMEs,
+contrary to SMEs in other developing countries, do not
+complement larger organisations with specialised
+products or services, but they compete with larger
+enterprises in the same product markets (Rogerson,
+2004), albeit for different consumer segments. For SME
+owner-managers it is important to identify the most
+problematic areas in managing their small enterprise. By
+identifying the problem areas, owner-managers can
+address problems through education, training and
+information gathering activities (Huang and Brown, 1999).
+EXPLOITING RISK
+According to Plourd (2009), the importance of risk
+management is now escalated above issues such as
+long-term and short-term financing constrains. Proclaiming the existence of a risk management strategy is
+insufficient, enterprises need to actively engage in risk
+management practices to address the convergence of
+major risks as experienced in the current economic
+climate where the credit crisis risk, fluctuating commodity
+prices, increased government debt, rising unemployment
+and declining consumer spending are impacting
+individually and combined, on enterprises.
+The use of enterprise risk management (ERM) can be
+viewed as a business competency enabling managers to
+optimise opportunities associated with risks (Hofmann,
+2009). ERM should apply basic risk management
+activities, embedding the risk champion’s knowledge of
+exposures, across the entire scope of an enterprise’s
+risks such as strategic risks, operational risks, financial
+risks and regulatory compliance risks (Engle, 2009), and
+should not be reduced to a process based solely on risk
+formula’s (Bradford, 2009).
+A structured risk management approach enables an
+enterprise to pursue its strategies aggressively and
+efficiently as management can anticipate the risk
+exposure of each activity engaged in, thus achieving
+more acceptable results at a reduced cost (Ntlhane,
+1995).
+Risk management for small business
+Risk and risk management is a major concern for all
+companies, especially small and medium sized
+enterprises which are particularly sensitive to business
+risk and competition (Alquier and Lagasse, 2006). In
+SMEs, the risk management function usually resides with
+the owner’s assessment of threats and opportunities
+pertaining to the enterprise (Watt, 2007). Although risk
+management principles are common to all types of
+enterprises, the owner-manager’s risk perception and his
+Smit and Watkins 6327
+attitude towards risk management influences the
+adequacy of the enterprise’s risk management actions
+deployed (Ntlhane, 1995).
+Implied in SME, risk management is the core principle
+that entrepreneurial or management focus should be
+focussed at recognising future uncertainty, deliberating
+risks, possible manifestations and effects, and formulating plans to address these risks and reduce or
+eliminate its impact on the enterprise (Ntlhane, 1995).
+One of the skills required of entrepreneurs is the ability to
+identify and analyse risks to ensure that advantage is
+taken of calculated risks (Watson, 2004). According to
+Watt (2007), SME owner-managers should take regard of
+the following steps in their risk management process:
+i. Establishing the SMEs risk strategy
+ii. Determining the SMEs risk appetite
+iii. Identification and assessment of risk
+iv. Prioritising and managing risks
+The fact that a risk is beyond the control of the ownermanager, does not absolve the owner-manager from the
+need to anticipate the risk, and reducing the impact of the
+risk occurrence to achieve organisational goals. Ownermanagers should furthermore take cognisance of
+managerial risks that arise as a result of the ownermanagers own actions when planning and executing
+business strategies (Berkeley et al., 1991). South African
+SMEs owner managers should be educated in risk
+management principles, risk handling techniques
+available and risk control programmes that can be used,
+but care should be taken in the application of risk
+management principles, as although risk principles are
+common to all types of enterprises, the application
+thereof differs substantially between small and larger
+enterprises. However, many SMEs practice intuitive risk
+management when they assess the risk involved in
+decisions (Ntlhane, 1995; Dupre, 2009).
+Components of risk in small and medium enterprises
+(SMEs)
+Determining the components of total risk in SMEs is
+complex due to SMEs great heterogeneity as well as
+difficulty in separating property from management (StPierre and Bahri, 2006). Entrepreneurs have implied (StPierre and Bahri, 2006), inconsistent (LeCornu et al.,
+1996), and in certain instances, unique (Naffziger et al.,
+1994) objectives that exerts both direct and indirect
+influences on management practices, rendering
+comparisons between SMEs difficult. Information derived
+by way of financial data analysis cannot yield all the
+dimensions of enterprise performance, as emphasised by
+St-Pierre and Bahri (2006). Strategic information such as
+quality, client satisfaction, and innovation reflects the
+enterprise’s competitiveness and performance, but are 
+6328 Afr. J. Bus. Manage.
+not forthcoming in the income earned. Cumby and
+Conrod (2001) emphasises that long term sustainable
+financial performance is attributable to non-financial
+factors like client loyalty, employee satisfaction
+and internal processes. This view is affirmed by Ittner
+and Larcker (1998) who states that the investment in
+intangible assets, that is, client satisfaction, is not
+accommodated in the accounting data. The same
+argument applies to the risk of an enterprise that is
+difficult to understand if attention is solely directed at the
+financial statements. Through the incorporation of nonfinancial data, the problems associated with the
+manipulation of financial statements are reduced. By
+following a systematic approach and by taking into
+account both financial and non-financial information
+related to the organisation, an enhanced understanding
+of SME risks can be achieved (St-Pierre and Bahri,
+2006).
+Small and medium enterprises inadequately manage
+their risk
+Few SME owners and managers are risk aware and they
+focus their risk actions on “loss control” programmes in
+areas of fire, safety, security, health, and quality
+assurance. These “loss control” programmes are
+overseen either by the entrepreneur or other
+management along with their other duties; therefore,
+increasing the chance of mismanagement as adequate
+time is not spent on the risk function. As no structured
+risk identification is undertaken by SMEs, SMEs assume
+unaware or unplanned risk exposure to their limited
+financial resources. Control measures implemented to
+counter risk are ineffective as controls are reactive and
+non-automated (Ntlhane, 1995).
+To limit the effect of risks on the enterprise, risks need
+to managed/controlled once it has been identified. In
+SMEs, the control of risk exposure is construeded
+reactively, holding disastrous consequences for the
+enterprise as losses are taken on while the enterprise is
+ill prepared to finance the loss. In most SMEs, risks are
+left unmanaged till it realise, only then spurring on action
+to address it (Ntlhane, 1995).
+Through interviewing, Ntlhane (1995) confirms that
+SME owners and managers are not versed in the
+availability and use of risk reduction techniques (that is,
+risk elimination/avoidance, reduction, transfer or
+acceptance) to reduce the adverse effects of risks on the
+enterprise. It can be gleaned from the interviewee results
+that entrepreneurs prefer avoiding risks, but they fail to
+take into account that every risk action undertaken by
+them has an effect on the risk pattern. Thereby, although
+a specific risk is avoided, the probability or impact of
+other risks may change and new and potentially serious
+risks can be created. The study identified that entrepreneurial actions are centred on avoiding risk, rather
+than devising risk control methods. This impedes on the
+economic progress of a country as every business can be
+defined by its ability to take on greater risks. Apart from
+risk avoidance, the study identified risk transfer as the
+alternative risk technique used by SMEs, whereby
+insurance brokers were contracted to undertake all risk
+actions, that is, risk identification, risk assessment, risk
+control and risk financing. Risk retention techniques
+whereby risks are financed by internal reserves such as
+current income are little known and rarely applied in
+SMEs (Ntlhane, 1995).
+CONCLUSION
+The impediments to SME success are numerous and
+varied, and include inherent organisational obstacles
+such as poor managerial skills and education and
+training; industry-related problems such as the
+entrepreneur’s inability to understand market expectations, and poor market access; and economy-based
+obstacles such as interest rate fluctuations.
+SME owner-managers are primarily responsible for the
+management of their enterprises’ activities. Studies
+conducted confirmed SME owner-managers’ ignorance
+pertaining to the risks their enterprises face from internal
+and external sources, including risks emanating from
+entrepreneurial actions. SME risk management techniques are primarily limited to risk avoidance actions, and
+to a lesser extent, risk transfer through insurance
+activities. Most risk activities tend to be construed
+reactively, thereby affecting the availability of enterprise
+resources in addressing these risks.
+By embedding a structured approach to enterprise risk
+management within SMEs, potential benefits such as
+cost reductions, reducing the over-management of risks
+and organisational alignment towards the SME’s mission
+and objectives can be realised.
+Rationale for developing a strategic risk management
+strategy
+Entrepreneurs operate in a macro, micro and market
+environment that is affected by numerous internal and
+external influences which continuously change. These
+‘change factors’ enable an entrepreneur to identify
+opportunities and threats (Watson, 2004). It is therefore
+essential that an entrepreneur has the capability to
+evaluate decisions to determine the enterprise’s future
+strategy (Watson, 2004). Strategic risk management
+enables SME owner-managers to objectively evaluate
+their actions. One of the difficulties encountered in risk
+management is that most risk assessments are linked to
+a specific discipline which is not necessarily known by
+owner-managers. Furthermore, owner-managers may be
+able to identify the obvious risk, but their depth of risk 
+knowledge may impede on their activities to identify
+indirect risks, or to take cognisance of the interconnectness of risks (Watt, 2007).
+Watson (2004) emphasizes that owner-managers
+should develop a risk strategy to avoid, reduce or
+respond to potential risks. It is therefore essential that
+owner-managers are equipped with the necessary skills
+to compare risks and to identify appropriate risk
+strategies in adequately addressing these risks. Depending on the specific circumstances, owner-managers
+should engage in actions limiting the probability of risk
+occurrence, or if need be, to plan strategies that
+maximise the probability of recovery (Watt, 2007).
+By embedding a strategic risk management strategy in
+the SMEs processes, significant advantages can be
+achieved, such as (Watt, 2007):
+i. It ensures that the SMEs activities are aligned to its
+mission and objectives, and not diverted by external
+influences.
+ii. It ensures that organisational activities comply with
+industry best practices and that regulative compliance is
+achieved.
+iii. It may provide legal protection if difficulties occurs.
+iv. It may result in cost savings by reducing insurance
+expenses.
+Strategic risk management facilitates an effective risk
+approach by prioritising risks, thereby reducing surprises,
+and directing the focus on important risks. This has the
+effect of reducing the possible over-management of
+insignificant risks. In the risk management process,
+management should be aware that risk actions should be
+tailored to the specific needs of the enterprise taking into
+account its resources, needs and opportunities that
+prevail. Although risk assessment should be a comprehensive function, guard should be taken into devising an
+excessive risk strategy (Watt, 2007). Given the size and
+managerial structure of SMEs, the process of
+establishing and using a strategic risk management
+function is relatively simple given the close relationship
+between owners, managers and operators of the
+enterprise. Compared to larger enterprises, it is easier for
+SME executive management to embed a risk
+management policy and to be routinely and actively
+involved in the application of the strategic risk
+management policy, especially if these activities is seen
+as a performance enhancing processes (Watt, 2007).
+In a study conducted by Friedrich (2004) on South
+African SMEs, it is emphasised that personal initiative
+consisting of the owner’s characteristics such as being a
+self-starter, having a proactive approach, specifically
+regarding risk management, and persistent actions, is a
+vital key to enterprise success. In addition to a proactive
+business approach, innovation and learning, goal setting
+and achievement orientation was linked to enterprise
+success. Where SME owners follow a reactive business
+approach including reactive risk management practices,
+Smit and Watkins 6329
+the enterprise was more likely to fail.
+SME owner managers need to be aware that through
+joint discussion of risk with SME employees, which
+include an effective feedback process and a risk
+valuation process, organisational trust is established. The
+way of conducting risk management, that is, the shape of
+the risk management process will depend on all the
+participants risk propensity as well as the situational
+control that is exercised at present. Therefore, risk
+tolerant participants may prefer an informal risk review
+process, while risk adverse participants will favour
+comprehensive contractual arrangements (Beckett,
+2005). Through experience, it has been gleaned that:
+i. The creation of a positive organisational risk culture
+whereby all participants concerns are understood and
+experiences are shared, is facilitated through a constant
+evolving process of risk identification and the planning of
+containment strategies.
+ii. Through joint proactive identification of risks, and by
+employing holistic risk management practices,
+management can establish a positive environment to deal
+with all issues.
+Regardless of the risk propensity of the participants, a
+structured approach to risk management will assist in
+providing a goal orientated and consistent risk
+management process (Beckett, 2005).
+REFERENCES
+Banham R (2004). Enterprising View of Risk Management. J. Account.,
+197(6): 65-71.
+Bank of England (2001). Quarterly Report on Small Business Statistics.
+Bank of England, London, January: pp 1-46.
+Beaver G (2002). Small Business, Entrepreneurship and Enterprise
+Development. Harlow: Pearson Education.
+Beckett RC (2005). Collaboration now a strategic necessity. Handb.
+Bus. Strategy, 6(1): 327-332.
+Berger AN, Udell G (2001). Small business credit availability and
+relationship lending: the importance of bank organisational structures.
+FEDS Working Paper No 2001–36. [Online].
+http://ssrn.com/abstact=285937 [10/4/2010].
+Berkeley D, Humphreys PC, Thomas RD (1991). Project risk action
+management. Constr. Manag. Econ., 9: 3-17.
+Berry A (2002). The role of the small and medium enterprise sector in
+Latin America: implications for South Africa. Unisa Latin American
+Report, 18(1): 4-14.
+Berry A, Von Blottnitz M, Cassim R, Kesper A, Rajaratnam B, Van
+Seventer DE (2002). The Economics of SMMES in South Africa. T. &
+I. Policy Strategy, December, 2002.
+Alquier BAM, Lagasse TMH (2006). Risk management in small- and
+medium-sized enterprises. Prod. P. & C., 17(3): 273-282.
+Bradford M (2009). Sovay turns risk into opportunity. Bus. Ins., 43(20):
+4-28.
+Brink A, Cant M, Ligthelm A (2003). Problems experienced by small
+business in South Africa. [Online].
+http://sbaer.uca.edu/research/icsb/2003/230.doc [13/4/2010]
+Cumby J, Conrod J (2001). Non-financial performance measures in the
+Canadian biotechnology industry. J. Intel. Cap., 2(3): 261-272.
+Engle P (2009). Enterprise risk management time. Ind. Eng., 41(5): 20.
+Friedrich C (2004). Taking it personally: The crucial success factor for
+small businesses is its entrepreneurs. Finance. Week, 51, December.
+GCIS (2002). Government Communications South Africa Yearbook 
+6330 Afr. J. Bus. Manage.
+2001/2002. [Online]. http://www.govza/yearbook/2001/economy
+ [3/3/2010]
+Hofmann MA (2009). Interest in enterprise risk management is growing.
+Bus. Ins., 43(18): 14-16.
+Huang X, Brown A (1999). An analysis and classification of problems in
+small business. Int. Small Bus. J., 18(1): 73-85.
+Ittner CD, Larcker DF (1998). Are nonfinancial measures leading
+indicators of financial performance? An analysis of customer
+satisfaction. J. Account. Res., 36(3): 1-35.
+Jun M, Cai S (2003). Key obstacles to Edi success: from the US small
+manufacturing companies’ perspective. Ind. Manag. Data Sys.,
+103(3): 192-203.
+Kesper A (2000). Failing or not aiming to grow? Manufacturing SMMEs
+and their contribution to employment growth in South Africa. T. & I.
+Policy Sect. Working Paper. 15: 1-36.
+King K (2009) refer to the Institute of Directors Southern Africa.
+Kirytopoulos K, Leopoulos V, Malandrakis C (2001). Risk management:
+A powerful tool for improving efficiency of project oriented SMEs.
+Proceedings of the 4th SME International Conference. 2001.
+Denmark.
+Kotze L, Smit A (2008). Personal Financial Literacy and Personal Debt
+Management: The Potential Relationship With New Venture Creation.
+SAJESBM, 1(1): 35-50.
+Laforet S, Tann J (2006). Innovative Characteristics of Small
+Manufacturing Firms. J. Small Bus. Entrep. Dev., 13(3): 363-380.
+LeCornu MR, McMahon RGP, Forsaith DM, Stanger AMJ (1996). The
+small enterprise financial objective function. J. Small Bus. Manag.,
+34(3): 1-14.
+Leopoulos V (2006). Editorial. Prod. Plan Cont., 17(3): 225-228.
+Ligthelm AA, Cant MC (2002). Business Success Factors of SMEs in
+Gauteng: A proactive entrepreneurial approach. Research Report
+311, Faculty of Economic and Management Science, UNISA Bureau
+of Market Research.
+McGrath S, King K (1996). Learning to Compete: African Education,
+Training and Small Enterprise Development in the Era of
+Globalisation. Int. J. Urban Lab. Leis., 2(2): 1976-96. [Online].
+http://www.ijull.co.uk/vol2/2/000016.htm [26/3/2010]
+Mead DC, Liedholm C (1998). The Dynamics of Micro and Small
+Enterprises in Developing Countries. World Dev., 26(1): 61-74.
+Naffziger DW, Hornsby JS, Kuratko DF (1994). A proposed research
+model of entrepreneurial motivation. Entrep. Theor. Pract., 18(3): 29-
+42.
+Naicker NI (2006). Factors contributing to women being successful in
+the SMME sector. A mini dissertation submitted in partial fulfilment of
+the requirements for the degree Masters in Business Administration
+in the Faculty of Management at the University of Johannesburg.
+Ntlhane KE (1995). The application of risk management principles to
+smaller enterprises. A research report submitted in partial fulfilment of
+the requirements for the degree of Masters of Business
+Administration in the Faculty of Management at the University of the
+Witwatersrand.
+Ntsika Enterprise Promotion Agency (Ntsika) (2001). State of Small
+Business Development in South Africa. Annual Review 2001 [Online].
+http://www.transformationaudit.org.za/researchdatabase/government-1/other-government-output/2000-
+2006/2001ntsika/ [3/3/2010].
+O’Gorman C (2001). The sustainability of growth in small and mediumsized enterprises. Int. J. Entrep. Behav. Res, 7(2): 60-75.
+Plourd K (2009). Rethinking risk. CFO. January: 66-69.
+Pretorius M, Shaw G (2004). Business plans in bank decision-making
+when financing new ventures in South Africa. South Afr. J. Econ.
+Manage. Sci., 7(2): 221-241. [Online].
+http://www.journals.co.za/ej/ejour_ecoman.html [3/3/2010]
+Rajaram R (2008). A need analysis of financial management and
+accounting skills in the SME sector in KwaZulu-Natal. A research
+report submitted in fulfilment of the requirements for the degree of
+Master of Commerce in the School of Management at the University
+of KwaZulu-Natal.
+Reynolds PL, Lancaster G (2006). A scheme to increase profitability in
+entrepreneurial SMEs. J. Small Bus. Entrep. Dev., 13(3): 395-410.
+Rogerson CM (2001a). Growing the SMME Manufacturing Economy of
+South Africa: Evidence from Gauteng Province. J. Contemp. Afr.
+Stud., 19(2): 267-291.
+Rogerson CM (2001b). In search of the African miracle – debate on
+successful small enterprise development in Africa. Habit Int., 25: 115-
+142.
+Rogerson CM (2004). The impact of the South African government’s
+SMME programmes: a ten year review (1994-2003). Dev. South. Afr.,
+21(5): 765-784.
+Rogerson CM (2006). The Market Development Approach to SMME
+Development: Implications for Local Government in South Africa.
+Urban Forum, 17(1): 54-78.
+Rogerson CM (2008). Tracking SMME Development in South Africa:
+Issues of Finance, Training and the Regulatory Environment. Urban
+Forum, 19(1): 61-81.
+Rwigema H, Karungu P (1999). SMME development in Johannesburg’s
+Southern Metropolitan Local Council: an assessment. Dev. South.
+Afr., 16(1): 101-124.
+Rwigema H, Venter R (2004). Advanced Entrepreneurship. Cape Town:
+Oxford University Press.
+Schultz AG (2001). Risk assurance model for the small medium and
+micro enterprise sector. A dissertation submitted in partial fulfilment
+of the requirements for the degree of Master Technologiae in the
+Faculty of Management at the Cape Technikon.
+Skinner C (2005). Constraints to Growth and Employment in Durban:
+Evidence from the Informal Economy. Research Report No. 65,
+School of Development Studies, University of KwaZulu-Natal,
+Durban.
+South Africa (1996). National Small Business Act, No. 102 of 1996.
+Notice No. 1901, 27 November. [Online].
+http://www.info.gov.za/view/DownloadFileAction?id=70848
+[2/10/2009]
+South Africa (2004). National Small Business Amendment Act, No. 29
+of 2004. Government Gazette, 461 (25763), November. [Online].
+http://www.acts.co.za/national_small_business_act_1996.htm
+[27/1/2010]
+St-Pierre J, Bahri M (2006). The use of the accounting beta as an
+overall risk indicator for unlisted companies. J. Small Bus. Entrep.
+Dev., 13(4): 546-561.
+UNDP see United Nations Development Programme
+United Nations Development Programme (UNDP) (2003). The
+challenge of sustainable development in South Africa: unlocking
+people’s creativity. South African Development Report, 2003. Cape
+Town: Oxford University Press.
+Van Niekerk L (2005). Information security risk management in the
+South African Small, Medium and Micro Enterprise Environment: The
+Peculium Model. A dissertation submitted in fulfilment of the
+requirements for the degree of Master of Science in Informatics in the
+Faculty of Science of the University of Johannesburg.
+Watt J (2007). Strategic risk management for small businesses. [In:
+Reuvid, J. (ed.). Managing Business Risk 2nd Edition – a practical
+guide to protecting your business. London – Philadelphia: Kogan
+Page].
+Watson GEH (2004). A situational analysis of entrepreneurship mentors
+in South Africa. A dissertation submitted in fulfilment of the
+requirements for the degree Masters of Commerce in Business
+Management at the University of South Africa.
+Watson LM, Godfrey NF (1999). Entrepreneurial Support for Rural
+Small, Medium and Micro Enterprises (SMMEs) in South Africa.
+University of South Africa (UNISA) & Council for Scientific and
+Industrial Research (CSIR), South Africa. [Online]
+http://161.31.108.27/research/icsb/2005/119pdf [23/7/2008]
+Williamson IO (2000). Employer legitimacy and recruitment success in
+small business. Entrep.: Theory Pract., 25(1): 27.
+Wong KY (2005). Critical success factors for implementing knowledge
+management in small and medium enterprises. Ind. Manag. Data
+Syst., 105(3): 261-279. 

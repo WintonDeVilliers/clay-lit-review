@@ -1,0 +1,566 @@
+ScienceDirect
+Available online at www.sciencedirect.com
+Procedia Computer Science 219 (2023) 778–788
+1877-0509 © 2023 The Authors. Published by Elsevier B.V.
+This is an open access article under the CC BY-NC-ND license (https://creativecommons.org/licenses/by-nc-nd/4.0)
+Peer-review under responsibility of the scientific committee of the CENTERIS – International Conference on ENTERprise
+Information Systems / ProjMAN - International Conference on Project MANagement / HCist - International Conference
+on Health and Social Care Information Systems and Technologies 2022
+10.1016/j.procs.2023.01.351
+© 2023 The Authors. Published by Elsevier B.V.
+This is an open access article under the CC BY-NC-ND license (https://creativecommons.org/licenses/by-nc-nd/4.0)
+Peer-review under responsibility of the scientific committee of the CENTERIS – International Conference on ENTERprise Information
+Systems / ProjMAN - International Conference on Project MANagement / HCist - International Conference on Health and Social Care
+Information Systems and Technologies 2022
+Available online at www.sciencedirect.com
+ScienceDirect
+Procedia Computer Science 00 (2022) 000–000
+www.elsevier.com/locate/procedia
+1877-0509 © 2022 The Authors. Published by ELSEVIER B.V.
+This is an open access article under the CC BY-NC-ND license (https://creativecommons.org/licenses/by-nc-nd/4.0)
+Peer-review under responsibility of the scientific committee of the CENTERIS – International Conference on ENTERprise Information Systems /
+ProjMAN - International Conference on Project MANagement / HCist - International Conference on Health and Social Care Information Systems
+and Technologies 2022
+CENTERIS – International Conference on ENTERprise Information Systems / ProjMAN –
+International Conference on Project MANagement / HCist – International Conference on Health
+and Social Care Information Systems and Technologies 2022
+Industry 5.0 – Past, Present, and Near Future
+João Barataa,
+*, Ina Kayserb
+a
+University of Coimbra, CISUC, Department of Informatics Engineering, P-3030 290 Coimbra, Portugal. b
+IST University of Applied Sciences, Department of Communication & Business, Erkrather Straße 220a-c, 40233 Düsseldorf, Germany.
+Abstract
+The industrial transformation is sociotechnical. Industry 5.0 is one of the recent terms to describe this phenomenon, defined as a
+humanized vision of technological transformations in industry, balancing the current and future needs of the workers and society
+with the sustainable optimization of energy consumption, materials processing, and product lifecycles. This paper presents a
+tertiary study of thirty-two literature reviews on Industry 5.0, supported by a bibliometric analysis in the Scopus database. The
+results show three stages of Industry 5.0 research since 2018, starting with the Industry 4.0 separation. The latest priority is to
+deploy circular manufacturing strategies supported by human-friendly digitalization capable of anticipating and acting
+proactively on impacts. Therefore, Industry 5.0 is future-oriented and cross-sectoral, (interactively) diverging from the original
+configuration of Industry 4.0. For theory, we highlight the findings of recent literature reviews, clarifying the landscape of
+Industry 5.0 research and suggesting future developments. For practice, this paper presents examples of societal priorities that
+industries should consider in their digital transformation investments, as crucial as improving economic competitiveness.
+© 2022 The Authors. Published by ELSEVIER B.V.
+This is an open access article under the CC BY-NC-ND license (https://creativecommons.org/licenses/by-nc-nd/4.0)
+Peer-review under responsibility of the scientific committee of the CENTERIS – International Conference on ENTERprise
+Information Systems / ProjMAN - International Conference on Project MANagement / HCist - International Conference on
+Health and Social Care Information Systems and Technologies 2022
+Keywords: Industry 5.0; bibliometric analysis; tertiary study; research agenda.
+* Corresponding author.
+E-mail address: barata@dei.uc.pt
+Available online at www.sciencedirect.com
+ScienceDirect
+Procedia Computer Science 00 (2022) 000–000
+www.elsevier.com/locate/procedia
+1877-0509 © 2022 The Authors. Published by ELSEVIER B.V.
+This is an open access article under the CC BY-NC-ND license (https://creativecommons.org/licenses/by-nc-nd/4.0)
+Peer-review under responsibility of the scientific committee of the CENTERIS – International Conference on ENTERprise Information Systems /
+ProjMAN - International Conference on Project MANagement / HCist - International Conference on Health and Social Care Information Systems
+and Technologies 2022
+CENTERIS – International Conference on ENTERprise Information Systems / ProjMAN –
+International Conference on Project MANagement / HCist – International Conference on Health
+and Social Care Information Systems and Technologies 2022
+Industry 5.0 – Past, Present, and Near Future
+João Barataa,
+*, Ina Kayserb
+a
+University of Coimbra, CISUC, Department of Informatics Engineering, P-3030 290 Coimbra, Portugal. b
+IST University of Applied Sciences, Department of Communication & Business, Erkrather Straße 220a-c, 40233 Düsseldorf, Germany.
+Abstract
+The industrial transformation is sociotechnical. Industry 5.0 is one of the recent terms to describe this phenomenon, defined as a
+humanized vision of technological transformations in industry, balancing the current and future needs of the workers and society
+with the sustainable optimization of energy consumption, materials processing, and product lifecycles. This paper presents a
+tertiary study of thirty-two literature reviews on Industry 5.0, supported by a bibliometric analysis in the Scopus database. The
+results show three stages of Industry 5.0 research since 2018, starting with the Industry 4.0 separation. The latest priority is to
+deploy circular manufacturing strategies supported by human-friendly digitalization capable of anticipating and acting
+proactively on impacts. Therefore, Industry 5.0 is future-oriented and cross-sectoral, (interactively) diverging from the original
+configuration of Industry 4.0. For theory, we highlight the findings of recent literature reviews, clarifying the landscape of
+Industry 5.0 research and suggesting future developments. For practice, this paper presents examples of societal priorities that
+industries should consider in their digital transformation investments, as crucial as improving economic competitiveness.
+© 2022 The Authors. Published by ELSEVIER B.V.
+This is an open access article under the CC BY-NC-ND license (https://creativecommons.org/licenses/by-nc-nd/4.0)
+Peer-review under responsibility of the scientific committee of the CENTERIS – International Conference on ENTERprise
+Information Systems / ProjMAN - International Conference on Project MANagement / HCist - International Conference on
+Health and Social Care Information Systems and Technologies 2022
+Keywords: Industry 5.0; bibliometric analysis; tertiary study; research agenda.
+* Corresponding author.
+E-mail address: barata@dei.uc.pt
+João Barata et al. / Procedia Computer Science 219 (2023) 778–788 779
+2 João Barata & Ina Kayser / Procedia Computer Science 00 (2019) 000–000
+1. Introduction
+Industry 4.0 started as a policy-driven transformation of manufacturing using digital technologies [36]. The term
+appeared in 2011 and became integrated into the high-tech strategy issued by the German government [36]. The
+technological portfolio of Industry 4.0 is vast and includes cloud computing, the Internet of things (IoT), artificial
+intelligence, autonomous robots, augmented reality, or blockchain, aiming to create smart factories [19]. A decade
+of Industry 4.0 research revealed many advances in manufacturing connectivity and created the foundations for
+Industry 5.0 [31,19], “dictated primarily by the need to expose man’s role in cyber-physical systems” [12].
+There is now a future-oriented and societal-driven transformation of manufacturing. It also includes policy
+priorities, like the outstanding efforts made by the European Union to advance Industry 5,0, simultaneously
+addressing: “an economy that works for people”, “European Green Deal”, and “Europe fit for the digital age” [10].
+Nevertheless, academia has had a vital role since the early stages of Industry 5.0. The industry is taking the first
+steps, confirmed by their recent roundtable on 27 April 2022 [10], stressing the disruptions faced by our society and
+the need to avoid going back to unsustainable practices. More importantly, the experts’ conclusions point to the
+unique importance of cross-sectoral approaches, resilience, governance, and shifting from the competitiveness
+priority of Industry 4.0 to the “digitalization with a purpose” (report available in [10]).
+Recent systematic literature reviews on Industry 5.0 provided inspiration and a starting point for our research.
+These examples include a bibliometric analysis in Web of Science and a review of 22 Industry 5.0-related papers
+[12], the comprehensive evaluation of 196 abstracts [1], or the review of [22] based on 92 papers published in
+Scopus, between 2015 and 2021. However, a review of literature reviews (tertiary study) is still absent in the
+Industry 5.0 literature. As advised by [22], “Industry 5.0 will continue to grow, at least in the short term (…[and]) it
+will be interesting to follow [its…] future evolutionary trajectory”. Therefore, the research objectives addressed in
+this paper are to assess the evolution of Industry 5.0 literature since its appearance, clarify the current research
+landscape, and suggest guidelines for future work.
+Our method follows two stages: (1) a bibliometric analysis in Scopus extending the work of [22] with 277 recent
+publications (adding 185 published between 2021 and 2022) and (2) a tertiary study. We followed recommendations
+for performing systematic literature reviews in information systems research [29]. After defining the review
+purpose, protocol, and work preparation by the two reviewers, we evaluated the 277 publications indexed in Scopus
+since 2018, using VOSViewer [9] - stage 1 - bibliometric analysis. The keyword “Industry 5.0” was used, excluding
+three unrelated publications before 2018. This phase allowed us to understand the different eras of Industry 5.0 and
+the articles’ characteristics (e.g., authors, location). Next, we assessed reviews published exclusively in journals
+(initial set of 184 articles) – stage 2. The selection of literature reviews was made from two samples: automatic
+selection according to Scopus classification (type = review) and a manual analysis made by the two authors in the
+list of journal reviews, providing 16 and 53 papers, respectively. After removing duplicates and performing content
+analysis, we reached 32 papers. We excluded publications that did not provide a distinct conceptualization of
+Industry 5.0 and/or only briefly approached the term and/or did not have a scientific approach (e.g., a comment).
+The rest of this paper is organized as follows. Section 2 presents the bibliometric assessment. Next, section 3
+presents the tertiary study of 32 recent literature reviews (appendix A) on Industry 5.0. The discussion proceeds in
+section 4, and the paper closes with the main conclusions in section 6.
+2. Bibliometric analysis of Industry 5.0
+2.1. Network evolution – the three stages of Industry 5.0 research
+Four main clusters were identified in the aggregated analysis (no time restriction). The first cluster integrates the
+most fundamental keywords of Industry 5.0, namely, Industry 4.0, manufacturing, personalization, digital
+transformation, the vision of society 5.0, and sustainability. The second cluster aggregates the future workplace
+shared by humans and machines (e.g., operator 4.0) and a recent trend related to supply chain resilience. The third
+highlights the importance of digital twins (e.g., for simulation, optimization, and prediction of physical objects'
+behavior), and the most numerous cluster (the fourth) shows essential technologies (e.g., blockchain, IoT,
+augmented reality, 5G, and 6G). Fig. 1 illustrates how research has evolved since 2018, according to three stages.
+780 João Barata et al. / Procedia Computer Science 219 (2023) 778–788 João Barata & Ina Kayser / Procedia Computer Science 00 (2019) 000–000 3
+Fig. 1. The three stages of Industry 5.0 research (2018-2022).
+2018-2019
+2020-2021
+Jan-Jul 2022
+João Barata et al. / Procedia Computer Science 219 (2023) 778–788 781 4 João Barata & Ina Kayser / Procedia Computer Science 00 (2019) 000–000
+The first stage (2018-2019 – digital transformation consequences) helps understanding how Industry 4.0 shifted
+to the 5.0 perspective. The human-machine interaction (orange cluster) and technologies (red) provide the initial
+links, paving the way for more “social” clusters of digitalization like customer experience. The next group of papers
+(2020-2021 – the societal priorities for digital transformation) already include sustainability, maintaining a
+technological background migrating from Industry 4.0, and showing the links to operator 4.0 and society 5.0. The
+most recent research (since 2022) presents more complex scenarios like smart cities and digital twin technology.
+The aspects of security (and related technologies like blockchain) are also found in this set of papers. Compared to
+the birth of Industry 5.0, containing more general terms and two most significant nodes (Industry 4.0 and Industry
+5.0), the third stage opens new avenues for synergies between technological advances and better futures.
+2.2. An overview of search results in journals
+The number and impact of Industry 5.0 publications are increasing at an exponential rate (Fig. 2).
+Fig. 2. Number of journal papers (on the left) and citations (on the right) indexed in Scopus for Industry 5.0 (2018-July 2022).
+Fig. 2 confirms the importance of this topic, more than doubling the number of contributions in Scopus each year
+and revealing an h-index of 15. Fig. 3 depicts the number of papers per country.
+Fig. 3. Country map for Industry 5.0 journal publications, indexed in Scopus since 2018.
+1 7
+18
+48
+109
+2018 2019 2020 2021 2022
+5 21
+84
+350
+608
+2018 2019 2020 2021 2022
+782 João Barata et al. / Procedia Computer Science 219 (2023) 778–788 João Barata & Ina Kayser / Procedia Computer Science 00 (2019) 000–000 5
+The top three countries include India, China, and the United States of America, followed by a few European
+countries (Italy, Spain, United Kingdom). South Asia (Pakistan), the middle east (Saudi Arabia), and Australia
+complete the regions with at least eight publications. The interest in the topic is global, but it can also be noticed the
+prevalence of the most industrialized countries and the need for more advances in transition economies in Africa
+(only South Africa presents at least four papers, although Egypt in the northeast or Morocco can be found in the list
+with two papers each), or South/Central America (e.g., Mexico or Brazil with less than three papers).
+Fig. 4. Area of knowledge (on the left) and top journal publications in Industry 5.0.
+The areas of engineering and computer science represent 50% of the sample (Fig. 4). Social and economic
+sciences follow in the list with almost 20%, but the topic is transversal to fields like energy, mathematics, materials,
+or the environment. The top outlets publishing Industry 5.0 research are leaded by IEEE Transactions on Industrial
+Informatics (7), two multidisciplinary open access publications (Sustainability and Applied Sciences), Journal of the
+Knowledge Economy, and Computers and Industrial Engineering. Important information systems journals like the
+Journal of Industrial Information Integration or Information Systems Frontiers are also aware of Industry 5.0
+emergence. The most active funders of Industry 5.0 research are the European Union structures (e.g., European
+Commission with five or Horizon 2020 with six) and the National Natural Science Foundation of China (six papers).
+However, the list of funders includes dozens of countries around the globe, starting with the Slovak Republic with
+four studies, completing the top three. The descriptive analysis of the 184 journal publications indexed in Scopus
+since 2018 confirmed (1) the continuous growth of Industry 5.0, (2) the worldwide interest, mostly in more
+advanced economies struggling with sustainability concerns, and (3) the focus on computing and engineering,
+derived from its close relationship with Industry 4.0.
+3. A review of Industry 5.0 literature reviews
+The focus of the meta-reviewed articles is heterogeneous. Nonetheless, our research discloses that most articles
+center around (1) a broader perspective on global issues such as the sustainability and health care or (2) industry and
+technology development to solve these global issues. Moreover, we reviewed two articles that shed light on
+education-related topics. Nonetheless, the articles we reviewed show different views regarding the Industry 5.0
+terminology and the question of whether Industry 5.0 is a new paradigm or an advancement of Industry 4.0, for
+example, as the answer to a changed customer and purchasing behavior triggered by personalization in Industry 4.0.
+Rowan et al. [38], for example, argue that innovation in peatlands will be driven by digital solutions that include
+process automation, data analysis and processing, control and management systems. They present a rather humancentric consideration of Industry 5.0, in which these technological-driven activities align with the main principles of
+Industry 5.0, which puts people at the center, and with many of the UN's Sustainable Development Goals [38].
+Rowan [39] also promotes a human-centric approach to Industry 5.0, in more detail the use of artificial intelligence
+(AI) and human-computer interfaces to solve global food chain issues. Moreover, Rowan [39] presents the concept
+of social marketing at the “interface of human and natural systems and their interconnected dynamic forces as a
+Engineering
+26%
+Computer Science
+24%
+Business, Management and
+Accounting
+9%
+Social
+Sciences
+9%
+Mathematics
+6%
+Energy
+5%
+Environmental
+Science
+5%
+Physics and
+Astronomy
+5%
+Materials
+Science
+4%
+Decision Sciences
+4%
+Chemical
+Engineering
+3%
+João Barata et al. / Procedia Computer Science 219 (2023) 778–788 783 6 João Barata & Ina Kayser / Procedia Computer Science 00 (2019) 000–000
+powerful means of influencing behaviors for the accorded transformation and betterment of individuals,
+communities, society and the planet” [39]. In their more specific view of Industry 5.0, they instead stress the aspects
+of mass personalization, increased human-computer interaction as a means for social problem solving, and
+advancement from Industry 4.0 to Industry 5.0 [17]. Dhawan et al. [7] focus on technological elements such as
+transport optimization, data and information sharing, and collaboration for transport decarbonization to transition the
+current 4.0-construction industry to a 5.0 industry in New Zealand [7]. Hence, they refer more to technological
+advancements regarding the achievement of sustainability goals.
+Orea-Giner et al. [30] explore the relationship between clients’ emotions and sentiments created by the
+interaction with hotel robots and the possible effect on a hotel’s rating. In their view, Industry 5.0 is the “enhanced
+experience of the final customer by applying the different tools available considering artificial intelligence (AI) and
+robotics” [30]. Kaasinen et al. [16] foster the focus on intelligence and resilience regarding next-generation
+manufacturing systems and human operators. They present three core elements of future Industry 5.0 factories:
+human-centricity, sustainability, and resilience [16], aligned with the European vision [10]. The authors present a
+design approach in which human operators and smart machines form collaborative teams [16]. In a different line of
+research, Popov et al. [35] establish a high-level link between Industry 5.0 and healthcare describing it as a
+trajectory. Coronado et al. [6] present Industry 5.0 as a paradigm change to overcome societal and planetary
+challenges resulting from prior industrial revolutions by promoting the idea of human-centered smart environments
+and human-robot interaction. Moreover, like Kaasinen et al. [16], they refer to the conceptualization of the European
+Union of Industry 5.0 as means to reach human-centered, sustainable, and resilient industries [10,6]. Additionally,
+they center the idea of Industry 5.0 as value-driven scenario around the manufacturing sector and summarize the
+more human-centric considerations under the term “Society 5.0” [6]. Among others, Carayannis et al. [5] explicitly
+distinguish between the concepts of Industry 5.0 and Society 5.0. In their commonly accepted view, Society 5.0 is a
+human-centered “mutual societal infrastructure for prosperity based on advanced service platforms”, whereas
+Industry 5.0 is a “renewed human centric industrial architype” that restructures industrial production processes [5].
+As enabling technologies for this transformation, artificial intelligence, blockchain, and IoT are presented [5]. Maier
+et al. [23] analogously promote the term “Society 5.0” for the more human-centered approach to production, rather
+than anchoring this under the broader concept of Industry 5.0. Duggal et al. [8] present a roadmap with two main
+phases: synergetic co-production and bio-upgradation. They define Industry 5.0 as a concept where robotic
+assistance and the human workforce work together seamlessly with the human component while simultaneously
+stressing the importance of personalization and customization, especially personalized bioengineering [8].
+Shahbakhsh et al. [41] identify human-robot co-operation and personalization as change factors in Industry 5.0.
+According to Maddikunta et al. [21], Industry 5.0 can lead to applications such as intelligent healthcare, cloud
+manufacturing or the integration of mass-customization into supply chain management [21], in deeper collaboration
+between humans and machines. Fatima et al. [11] present a review on the maximization of benefits through human–
+machine interaction regarding production plant and warehouse automation. They consider Industry 5.0 an evolution
+of Industry 4.0 “in which human creativity will collaborate with smart systems, such as robots and machines,
+especially in the production plants and warehouse systems” to make “production plants and industries faster,
+efficient, and more scalable.” [11]. Paul et al. [33] view Industry 5.0 as an extension of Industry 4.0, with a stronger
+focus on human-centered computer interactions. Pereira Guimarães et al. [34] also consider Industry 5.0 as an
+extension of Industry 4.0 with an increased focus on personalization and human-computer interaction in their critical
+review regarding the cutting of temperature measurement in production processes.
+Especially technological safety and security, legal issues concerning human-robot-interaction and artificial
+intelligence [44,42], as well as human adaption to Industry 5.0 [41,27] are considered major challenges. The last
+topic is taken up by two articles that focus on education and the necessary skills and competencies for workers to
+adapt to the evolving Industry 5.0 environment [13] and changes to the university landscape [5].
+There is a continuum in the technological advances in manufacturing, and several authors have studied Industry
+5.0 and Industry 4.0 side-by-side. For example, detailing the extensive technological elements shared by Industry
+4.0 and 5.0 [2] or including a section in their papers dedicated to the prospects of more personalized manufacturing,
+combining humans and machines in more humanized environments [19]. Other examples include Ergonomics 4.0
+and 5.0 [33] adopting cyber physical systems, including its structures, technologies, or the operator 4.0 in deeper
+collaboration with robots. The digital twins, human modeling methods, and real-time monitoring enabled by 
+784 João Barata et al. / Procedia Computer Science 219 (2023) 778–788 João Barata & Ina Kayser / Procedia Computer Science 00 (2019) 000–000 7
+Industry 4.0 are important tools to protect humans and ensure performance [33] towards a humancentric Industry
+5.0. Other Industry 5.0 reviews point to the importance of personalization and the role of technology in societal
+needs (e.g., green housing [17]), the synergies with Society 5.0 [37], cognition of robots and digital twins [28], and
+the use of technology fostering societal development goals and sustainable engineering [25]. Both the “4.0” and
+“5.0” concepts are relevant and exploring their synergies can contribute to knowledge accumulation in the ongoing
+industrial transformations.
+4. Discussion and near future recommendations for Industry 5.0
+The principal streams in the literature on Industry 5.0 are future-oriented and cross-sectoral. Whereas Industry
+4.0 seems to have a particular technology-oriented purpose, i.e., the use of digital technologies to solve particular
+manufacturing problems and productivity improvements, Industry 5.0 pursues a more holistic purpose with not only
+a more customer-centric [44] but a more human-centric view in general [41,38]. In Industry 5.0, digitalization is
+used to answer broader questions regarding environmental, energy, and social challenges. It is hence the integration
+of the technological determinants that shaped Industry 4.0 into the larger context of humanity, spanning the
+boundaries of the factory floor. One can therefore argue that Industry 5.0 is not technology-driven but value-driven
+[45]. Industry 5.0 perceives, on the one hand, the human being as a consumer who expects personalized products on
+a broad scale. On the other hand, there is the appropriately skilled human being as a worker who will interact with
+robots to make this possible. A more global view describes humans as an element in a set of global challenges that
+must be solved for the survival of the human species. Industry 5.0 is seen here as a paradigm shift that allows this
+integration of industry and production and solving global crises through value orientation.
+Ethical use of technology is not an option in Industry 5.0 [16], and essential research lines are already open for
+the improved well-being of human workers. Nevertheless, using artificial intelligence for decision support in more
+digitalized factories should adopt sustainability criteria by design (e.g., supplier selection may use criteria to
+minimize transport or prefer suppliers that also contribute to carbon reduction). How artificial intelligence can be
+used to minimize waste (e.g., predict product demand) and make fair manufacturing decisions is an essential
+research line. Moreover, more specific key performance indicators (KPI) must be developed for Industry 5.0. A
+societal-friendly industry needs to be able to disclose best practices and prove the adoption of responsible processes.
+The recent European priority for energy saving and responsible water use in industrial settings are two examples of
+practices requiring trustable KPIs. Blockchain technology and data science advances in this area are promising.
+The regulatory space of Industry 5.0 is vast. On the one hand, voluntary regulations (e.g., IoT interoperability
+standards) in Industry 4.0 will continue to be relevant, ensuring data sharing and communication between machines
+and/or humans. On the other hand, legal (enforced) regulations affecting specific resources, work practices, or
+resource use are also relevant since the early stages of diagnosis or requirements elicitation for Industry 5.0 projects.
+For example, several segments in the clothing supply chain (e.g., raw materials, fiber processing, production,
+transport, distribution, or recycling) should implement (and disclose) traceability, circularity, and waste reductions
+to comply with the new regulations of digital product passports. The digitalization challenge of “5.0” is regulatory,
+cross-sectoral, and cultural, influencing how industries invest and how consumers make informed choices.
+More use cases of Industry 5.0 are needed to guide the practitioners, opening opportunities for additional
+literature reviews. For example, how to use technology to create products protecting the human during the
+production process (e.g., wearables) and product use (e.g., autonomous vehicles, medical devices) or use cases for
+data-driven environmental footprint reduction should be on the agenda of researchers. Industry 5.0 is a pillar of
+future smart cities [15]. For example, using intelligent systems to reuse smart city wastes, reach zero carbon impact
+in production or transport, and offer the best smart workplaces for the citizens.
+Literature reviews on Industry 5.0 safety and security or regulatory issues (e.g., standardization, support for legal
+initiatives) are still scarce. Society 5.0 will only be complete if Industry 5.0 achieves the same level of humancentric performance. Therefore, future systematic literature reviews can strengthen the pillars of Industry 5.0. For
+example, how to improve the resilience of specific regional economies and manufacturing processes, review of
+technologies that may support sustainable policies (e.g., responsible use of water), and meta-analysis to assess the
+results of specific solutions for the workers or external stakeholders. The impacts of transformation are central to
+“5.0” research.
+
+João Barata et al. / Procedia Computer Science 219 (2023) 778–788 785 8 João Barata & Ina Kayser / Procedia Computer Science 00 (2019) 000–000
+Industry 5.0 research lines include the enhanced use of technology for human-related concerns (e.g., healthcare,
+ergonomics, worker protection, cobot operation) and the transformation to more sustainable factories. Additional
+research is necessary for the viewpoints of Industry 5.0 as (1) the assessment of technology sustainability [5], (2) the
+impact analysis of technology transformations, (3) the increase of competitiveness via sustainability improvements
+driven by technology, and (4) the use of technology to eliminate physical resources depletion and assist resource
+changes (e.g., decarbonization).
+It will be crucial to involve more developing countries to make Industry 5.0 an impactful initiative; technology
+shaping better futures will not have a future if it stays concentrated in the northern hemisphere, as shown in Fig. 3.
+Although understandably, more polluting societies have a great share of the problem side, they will need to
+cooperate globally on the solutions. Examples of future studies include digital transformation to support circular
+manufacturing, simultaneously promoting responsible work practices and assisting the sustainable development of
+emerging economies. Additionally, cross-sectoral supply chain resilience can adopt Industry 5.0 technologies and
+priorities, involving small communities, small and medium-sized companies, and individual producers.
+The future orientation of Industry 5.0 is challenging for researchers. Several methods available for technology
+forecasting, future impacts analysis, or resilience efforts (e.g., scenario planning) can be explored. Moreover,
+design-oriented studies will be essential to consolidate the Industry 5.0 space. While proofs-of-concept are
+fundamental to Industry 4.0, illustrating how technology can be deployed, the 5.0 movement can extend past
+contributions with the proofs-of-impact (e.g., longitudinal studies) that may require multidisciplinary efforts.
+5. Conclusion
+This paper presented a bibliometric analysis and tertiary study on Industry 5.0 research. Our analysis reveals the
+three eras of Industry 5.0 since its initial decoupling from 4.0 in 2018. The third era shows that Industry 5.0
+conquered its own space in the cross-sectoral, future-oriented, societal-driven transformation of manufacturing. Our
+tertiary study is a forerunner in Industry 5.0, collecting recommendations for the near future.
+Several limitations must also be stated. First, we used a single database, albeit an important one. Many studies are
+appearing in this area, including conferences. Second, Industry 5.0 literature is intertwined with its complementary
+4.0 counterpart. Although we used a systematic process and specific inclusion and exclusion criteria, our selection
+of the degree of Industry 5.0 focus may be subjective. Therefore, other literature reviews, publication types, or
+source databases may be included in future work. Finally, our recommendations also considered policy initiatives in
+the European area and preliminary insights from major industries collaborating with academia.
+Cross-sectoral contexts are complex [45] and require effective collaborations between academia, industry, and
+regulators. Both Industry 4.0 (technology-driven) and Industry 5.0 (sociotechnical-driven) are expected to continue
+their vibrant progress, side-by-side, revolutionizing manufacturing. Aiming to improve the distinctive nature of
+Industry 5.0 papers, it is suggested that researchers state in their contributions (1) the sociotechnical context
+addressed, (2) the sustainability elements (e.g., environmental, social, or economical) addressed by technology, (3)
+the expected societal impacts of their study, (4) motivations for industry investment, (5) skills, and competencies
+[45] that need to be created to endure change, (6) regulatory implications (e.g., working with robots [42]), and (7)
+how the achieved sustainability improvements can be continuously measured [6] and disclosed, to ensure better
+futures for manufacturing agents (e.g., workers, customers) and indirect stakeholders (e.g., local populations, future
+generations). These aspects can be used to enrich the discussion of and increase the impact of Industry 5.0 papers.
+Acknowledgements
+This work was supported by national funds through the FCT – Foundation for Science and Technology, I.P.,
+within the scope of the project CISUC-UID/CEC/00326/2020 and by European Social Fund, through the Regional
+Operational Program Centro 2020.
+786 João Barata et al. / Procedia Computer Science 219 (2023) 778–788 João Barata & Ina Kayser / Procedia Computer Science 00 (2019) 000–000 9
+Appendix A. List of 32 Secondary Studies
+Ref. Application Area(s) Examples of Challenges/Future Avenues
+[1] Manufacturing industry Better perspective on what Industry 5.0 is and how it is perceived among the research community.
+[3] Occupational safety and
+health (OSH)
+Development of a multi-level and multi-scale information system architecture for compliance with
+OSH incentive policies and their alignment with the SDGs of the Agenda 2030
+[4] (Food) supply chain
+management in agriculture
+Strengthening of information security and confidentiality; the scalability of innovation; financial
+investments in agriculture; uniform standards
+[5] N/A Open challenges of artificial intelligence: Neural network opacity; data security and data quality
+Open challenges for blockchain: scalability, energy consumption, transaction costs, and speed
+Open challenges of IoT: data security and privacy, energy consumption, interoperability
+[6] Manufacturing sector Identification of measures and metrics able to assess hedonomics (e.g., fun, pleasure, and emotional
+reactions) and sustainability (e.g., carbon footprint, energy consumption, waste reduction)
+[8] Manufacturing, e.g., medical
+healthcare
+Trajectory to Industry 6.0 with renewable energy, total machine independence, interplanetary
+resource gathering and manufacturing, Aerial manufacturing platforms, anatomical enhancements,
+quantum control.
+[11] Production Plant and
+Warehouse Automation
+Privacy and security requirements; clarification of the role of blockchain and cyber-physical
+systems in Industry 5.0
+[12] sociotechnical and human
+segments
+Development of the Industry 5.0 concept, analysis of the human role in the processes of industry
+digitalization, and development of the economy 4.0 and the Society 5.0 in the context of sustainable
+development
+[13] Engineering education Requirement of higher education environments to reconsider their role in addition to reconsidering
+the role of future engineers
+[14] Trauma and Orthopedics Sustainability, cost-effectiveness, user-friendliness, validation of systems, efficient system design,
+complex systems
+[15] Smart cities Technological inefficiencies, power sources, cyber security
+[16] Manufacturing sector Further understanding of the design challenges, e.g., ethical issues
+[17] Green housing before, during,
+and after Covid-19
+Interdisciplinary research is required for a more comprehensive analysis of the interactions between
+COVID-19, the housing policies of relevant countries and cities, and their residents' behaviors and
+their demands for green housing.
+[18] Urban and rural farming in
+society 5.0
+IoT connectivity
+[20] Manufacturing Societal and technical challenges
+[21] Intelligent healthcare, cloud
+manufacturing, supply chain
+management, and
+manufacturing production
+Critical security and privacy issues; human-robot collaboration, scalability, skilled workforce,
+regulatory compliance
+[22] Not specified Call for more research in the realm of Industry 5.0
+[24] Industry in general Worker skills and competencies, regulatory challenges, labor law, mental health
+[26] New generation of human
+operators, the Operator 5.0
+Required changes to work organizations, skills
+[40] Manufacturing Standardization and legalization, human adaption to Industry 5.0, implementation issues; ethical
+issues; skill development
+[30] Robots in hotels for improved
+customer experience
+Determine the effect of the emotions and sentiments
+[32] Manufacturing and production
+industries
+Proposal of a general research agenda around Industry 5.0
+[33] Ergonomics Reorientation from a population-based approach toward an individual based science in support of
+Ergonomics 4.0, e.g., using AR
+[34] Manufacturing, esp.
+temperature in cutting
+processes
+Design of sensors capable of providing large amounts of data that are linked to providing users with
+personalized products in real-time
+[35] healthcare Technologies related to digitalization in medicine and healthcare, including virtual reality
+experiments, biological additive manufacturing, development of cybersecurity, and pandemic
+predictive big data analysis
+[38] Peatlands and agriculture To reach an agreed consensus from stakeholders on the implementation of appropriate digital
+strategies to develop the peatlands, including the use of georeferencing, drones, and satellites to map
+the peatlands matched with physiochemical parameters, carbon sink and biodiversity
+[39] Fishery and global food
+supply chain
+Food-water-energy nexus, circular economy, climate change and biodiversity protection, and fish
+welfare that includes a supply chain for safe, nutritious feed and disease mitigation
+[41] Maritime industry,
+autonomous shipping
+Required skills and competencies; implementation issues
+[42] Cross-industry perspective Legal and regulatory issues regarding robots, psychological issues
+[43] Discrete Event Simulation
+(DES)
+Reality integration, hybrid simulation, interoperability of production machines, artificial intelligence
+and its narratives, neutrality
+João Barata et al. / Procedia Computer Science 219 (2023) 778–788 787 10 João Barata & Ina Kayser / Procedia Computer Science 00 (2019) 000–000
+Ref. Application Area(s) Examples of Challenges/Future Avenues
+[44] Taxonomy of Blockchain
+Applications in Industry 5.0.
+Development challenges, security, and safety challenges
+[45] manufacturing Social heterogeneity in terms of values and acceptance; Measurement of environmental and social
+value generation; Integration from customers across entire value chains to SMEs; Interdisciplinarity
+of research disciplines and system complexity; Ecosystem-oriented innovation policy with agile,
+outcome orientation; Productivity is required, while large investments are needed
+An extended table version is available online: https://data.mendeley.com/datasets/nd48nwsnjn/1
+References
+[1] Akundi A, Euresti D, Luna S, et al. (2022) "State of Industry 5.0—Analysis and Identification of Current Research Trends". Applied System
+Innovation 5: (1): 1–14.
+[2] Alvarez-Aros EL, Bernal-Torres CA. (2021) "Technological competitiveness and emerging technologies in industry 4.0 and industry 5.0".
+Anais da Academia Brasileira de Ciencias 93: (1): 1–20.
+[3] Ávila-Gutiérrez MJ, Suarez-Fernandez de Miranda S, Aguayo-González F. (2022) "Occupational Safety and Health 5.0—A Model for
+Multilevel Strategic Deployment Aligned with the Sustainable Development Goals of Agenda 2030". Sustainability 14: (11): 6741.
+[4] Bhat SA, Huang N-F, Sofi IB, et al. (2021) "Agriculture-Food Supply Chain Management Based on Blockchain and IoT: A Narrative on
+Enterprise Blockchain Interoperability". Agriculture 12: (1): 40.
+[5] Carayannis EG, Christodoulou K, Christodoulou P, et al. (2022) "Known Unknowns in an Era of Technological and Viral Disruptions—
+Implications for Theory, Policy, and Practice". Journal of the Knowledge Economy 13: (1): 587–610.
+[6] Coronado E, Kiyokawa T, Ricardez GAG, et al. (2022) "Evaluating quality in human-robot interaction: A systematic search and
+classification of performance and human-centered factors, measures and metrics towards an industry 5.0". Journal of Manufacturing Systems
+63: (March): 392–410.
+[7] Dhawan K, Tookey JE, GhaffarianHoseini A, et al. (2022) "Greening Construction Transport as a Sustainability Enabler for New Zealand: A
+Research Framework". Frontiers in Built Environment 8: (May): 1–19.
+[8] Duggal AS, Malik PK, Gehlot A, et al. (2022) "A sequential roadmap to Industry 6.0: Exploring future manufacturing trends". IET
+Communications 16: (5): 521–531.
+[9] van Eck NJ, Waltman L. (2010) "Software survey: VOSviewer, a computer program for bibliometric mapping". Scientometrics 84: (2): 523–
+538.
+[10]European Commission. (2021) "Industry 5.0", 2021. Available from: https://ec.europa.eu/info/research-and-innovation/researcharea/industrial-research-and-innovation/industry-50_en.
+[11]Fatima Z, Tanveer MH, Waseemullah, et al. (2022) "Production Plant and Warehouse Automation with IoT and Industry 5.0". Applied
+Sciences (Switzerland) 12: (4).
+[12]Grabowska S, Saniuk S, Gajdzik B. (2022) "Industry 5.0: improving humanization and sustainability of Industry 4.0". Scientometrics 127:
+(6): 3117–3144.
+[13]Gürdür Broo D, Kaynak O, Sait SM. (2022) "Rethinking engineering education at the age of industry 5.0". Journal of Industrial Information
+Integration 25: (October 2021): 100311.
+[14]Iyengar KP, Zaw Pe E, Jalli J, et al. (2022) "Industry 5.0 technology capabilities in Trauma and Orthopaedics". Journal of Orthopaedics 32:
+(June): 125–132.
+[15]Javed AR, Shahzad F, Rehman S ur, et al. (2022) "Future smart cities requirements, emerging technologies, applications, challenges, and
+future aspects". Cities 129: (June): 103794.
+[16]Kaasinen E, Anttila AH, Heikkilä P, et al. (2022) "Smooth and Resilient Human–Machine Teamwork as an Industry 5.0 Design Challenge".
+Sustainability (Switzerland) 14: (5): 1–20.
+[17]Kaklauskas A, Lepkova N, Raslanas S, et al. (2021) "COVID-19 and green housing: A review of relevant literature". Energies 14: (8).
+[18]Kumar Singh D, Sobti R. (2022) "Long-range real-time monitoring strategy for Precision Irrigation in urban and rural farming in society
+5.0". Computers and Industrial Engineering 167: (February): 107997.
+[19]Lu Y. (2021) "The Current Status and Developing Trends of Industry 4.0: a Review". Information Systems Frontiers (October).
+[20]Lu Y, Zheng H, Chand S, et al. (2022) "Outlook on human-centric manufacturing towards Industry 5.0". Journal of Manufacturing Systems
+62: (January): 612–627.
+[21]Maddikunta PKR, Pham QV, B P, et al. (2022) "Industry 5.0: A survey on enabling technologies and potential applications". Journal of
+Industrial Information Integration 26: (July 2021): 100257.
+[22]Madsen DØ, Berg T. (2021) "An exploratory bibliometric analysis of the birth and emergence of industry 5.0". Applied System Innovation 4:
+(4): 1–15.
+[23]Maier M, Ebrahimzadeh A, Beniiche A, et al. (2022) "The Art of 6G (TAO 6G): how to wire Society 5.0 [Invited]". Journal of Optical
+Communications and Networking 14: (2): A101.
+[24]Majerník M, Daneshjo N, Malega P, et al. (2022) "Sustainable Development of the Intelligent Industry from Industry 4.0 to Industry 5.0". 
+788 João Barata et al. / Procedia Computer Science 219 (2023) 778–788
+João Barata & Ina Kayser / Procedia Computer Science 00 (2019) 000–000 11
+Advances in Science and Technology Research Journal 16: (2): 12–18.
+[25]de Miranda SSF, Córdoba-Roldán A, Aguayo-González F, et al. (2021) "Neuro-competence approach for sustainable engineering".
+Sustainability (Switzerland) 13: (8).
+[26]Mourtzis D, Angelopoulos J, Panopoulos N. (2022) "Operator 5.0: a Survey on Enabling Technologies and a Framework for Digital
+Manufacturing Based on Extended Reality". Journal of Machine Engineering 22: (1): 43–69.
+[27]Nahavandi S. (2019) "Industry 5.0-a human-centric solution". Sustainability (Switzerland) 11: (16).
+[28]Nguyen T, Duong QH, Nguyen T Van, et al. (2022) "Knowledge mapping of digital twin and physical internet in Supply Chain Management:
+A systematic literature review". International Journal of Production Economics 244: (July 2021): 108381.
+[29]Okoli C, Schabram K. (2010) "A Guide to Conducting a Systematic Literature Review of Information Systems Research". Sprouts Working
+Papers on Information Systems 10: (26): 1–49.
+[30]Orea-Giner A, Fuentes-Moraleda L, Villacé-Molinero T, et al. (2022) "Does the Implementation of Robots in Hotels Influence the Overall
+TripAdvisor Rating? A Text Mining Analysis from the Industry 5.0 Approach". Tourism Management 93: (June).
+[31]Özdemir V, Hekim N. (2018) "Birth of Industry 5.0: Making Sense of Big Data with Artificial Intelligence, ‘the Internet of Things’ and
+Next-Generation Technology Policy". OMICS A Journal of Integrative Biology 22: (1): 65–76.
+[32]Pathak P, Pal PR, Shrivastava M, et al. (2019) "Fifth revolution: Applied AI & human intelligence with cyber physical systems".
+International Journal of Engineering and Advanced Technology 8: (3): 23–27.
+[33]Paul G, Abele ND, Kluth K. (2021) "A Review and Qualitative Meta-Analysis of Digital Human Modeling and Cyber-Physical-Systems in
+Ergonomics 4.0". IISE Transactions on Occupational Ergonomics and Human Factors 9: (3–4): 111–123.
+[34]Pereira Guimarães BM, da Silva Fernandes CM, Amaral de Figueiredo D, et al. (2022) "Cutting temperature measurement and prediction in
+machining processes: comprehensive review and future perspectives". International Journal of Advanced Manufacturing Technology 120:
+(5–6): 2849–2878.
+[35]Popov V V., Kudryavtseva E V., Katiyar NK, et al. (2022) "Industry 4.0 and Digitalisation in Healthcare". Materials 15: (6).
+[36]Reischauer G. (2018) "Industry 4.0 as policy-driven discourse to institutionalize innovation systems in manufacturing". Technological
+Forecasting and Social Change 132: (March): 26–33.
+[37]Roblek V, Meško M, Podbregar I. (2021) "Mapping of the Emergence of Society 5.0: A Bibliometric Analysis". Organizacija 54: (4): 293–
+305.
+[38]Rowan NJ, Murray N, Qiao Y, et al. (2022) "Digital transformation of peatland eco-innovations (‘Paludiculture’): Enabling a paradigm shift
+towards the real-time sustainable production of ‘green-friendly’ products and services". Science of The Total Environment 838: (April):
+156328.
+[39]Rowan NJ. (2022) "The role of digital technologies in supporting and improving fishery and aquaculture across the supply chain – Quo
+Vadis ?". Aquaculture and Fisheries (June).
+[40]Salaken SM, Nahavandi S, McGinn C, et al. (2019) "Development of a cloud-based computational framework for an empathetic robot". ACM
+International Conference Proceeding Series 102–108.
+[41]Shahbakhsh M, Emad GR, Cahoon S. (2022) "Industrial revolutions and transition of the maritime industry: The case of Seafarer’s role in
+autonomous shipping". Asian Journal of Shipping and Logistics 38: (1): 10–18.
+[42]Sindhwani R, Afridi S, Kumar A, et al. (2022) "Can industry 5.0 revolutionize the wave of resilience and social value creation? A multicriteria framework to analyze enablers". Technology in Society 68: (January): 101887.
+[43]Turner CJ, Garn W. (2022) "Next generation DES simulation: A research agenda for human centric manufacturing systems". Journal of
+Industrial Information Integration 28: (September 2021): 100354.
+[44]Verma A, Bhattacharya P, Madhani N. (2022) "Blockchain for Industry 5 . 0 : Vision , Opportunities , Key Enablers , and Future Directions".
+IEEE Access 10: (June): 69160–69199.
+[45]Xu X, Lu Y, Vogel-Heuser B, et al. (2021) "Industry 4.0 and Industry 5.0—Inception, conception and perception". Journal of Manufacturing
+Systems 61: (September): 530–535.

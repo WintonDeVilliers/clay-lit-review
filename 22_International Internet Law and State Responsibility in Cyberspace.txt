@@ -1,0 +1,867 @@
+computer law & security review 40 (2021) 105531
+Available online at www.sciencedirect.com
+journal homepage: www.elsevier.com/locate/CLSR
+Protecting the Internet with international law
+Joanna Kuleszaa,∗
+, Rolf H. Weber b
+a University of Lodz, Kopcinskiego 8/12, 90-232 Lodz, Poland
+b University of Zurich, Bahnhofstrasse 70/ P.O. Box, Zürich CH 8021, Switzerland
+a r t i c l e i n f o
+Keywords:
+International law
+Internet’s core
+Due diligence
+State responsibility
+International liability
+Cybersecurity
+a b s t r a c t
+The Internet remains the odd child of international law. While forever more universal law
+venues such as conferences, edited volumes or research projects consider “the Internet” a
+peculiar, interesting aspect of its well-recognized disciplines, international scholarship fails
+to address the global network as a whole, stalling the application of the fully developed and
+well-suited international law apparatus to the global community’s biggest contemporary
+challenge. “Internet governance” is still perceived by legal scholars as construed to international relations and, at best, a potential ground for soft law in a distant future. That is not
+the case: Internet governance, with all its challenges, has been shaping international law for
+almost two decades. The latest unveilings of the ways in which the Internet impacts global
+policies and laws caught the public eye with the 2018 Cambridge Analytica scandal and,
+previously, with the 2013 Snowden revelations, yet as surprising as they might have been to
+the average user, they are direct results of network’s architecture and its governance model.
+This paper looks at the evolving concept of “Internet’s public core” as an opportunity to
+bridge this dogmatic gap. We identify the scope and meaning of “Internet’s core” and assess its legitimacy within existing international normative frameworks. We argue that the
+technical components crucial to the flawless operation of the global network, such as the
+Domain Name System and Internet’s backbone networks, can be effectively protected with
+international law.
+1. International law and the global network –
+facing the challenge
+The Internet is an environment where international law, with
+all its perplexities, needs to be coherently and effectively applied. Yet current international law approach to Internet governance shows a pertaining reluctance of scholars and practitioners to embrace the challenges posed by global governance of the biggest international open electronic network.
+The few Internet-related works strongly rooted in international law, most predominantly the Tallinn Manual and the
+∗ Corresponding author.
+E-mail addresses: joannakulesza@gmail.com (J. Kulesza),
+rolf.weber@rwi.uzh.ch (R.H. Weber).
+Tallinn Manual 2.0, have been commissioned by NATO and
+effectively strongly rely on the law of armed conflict, with
+both: their dogmatic approach and the selection of commissioned experts, while, as those experts rightfully observed, no
+armed conflict, as per international law terminology, has yet
+occurred in cyberspace.1 Despite Internet’s rapid growth since
+1 Reliable, expertise-based research and reporting by e.g. the International Law Commission on the appropriate application of
+international law norms and principles to the challenges posed
+by cyberspace might prove the solution to the pertaining political challenge surrounding cybersecurity and Internet governance.
+Most recently this need was made explicitly evident by the failure
+of the UN Group of Governmental Experts on Developments in the
+Field of Information and Telecommunications in the Context of
+International Security, discussed further in this text.
+https://doi.org/10.1016/j.clsr.2021.105531
+2 computer law & security review 40 (2021) 105531
+the early 1990s and its significant impact on global politics,
+trade and social paradigms,the global network is still not seen
+as a stable part of international legal scholarship, with “Internet” or “information and communication technology” related
+papers, presentations or works appearing in dispersed narratives, each focused on e.g. the law of armed conflicts, human
+rights, democratic accountability or international trade. There
+is no general perspective on the Internet as a part of the international legal system.
+In this paper we argue (once again)2 that the Internet – an
+open global network operating on a uniform system of domain
+names and Internet Protocol addresses – deserves a steady
+place in the international law dogmatic. This is not an attempt
+to take on the decades old argument of “the law of the horse”3
+but rather a confirmation of the need for a comprehensive
+look at the challenges which the global Internet-based communications have had on international law and community.
+We look at the relatively novel concept of “Internet’s public
+core” as a good opportunity to apply well-established norms
+and principles of international law to global Internet governance. We see the need for such response rising from the increasing risks posed to core Internet operations by the growing
+expectations from local governments and different groups of
+interest and identify the most appropriate means and venues
+to address the growing need to secure Internet functions and
+stability of its core infrastructures. We argue that the recognized principles of international law, in particular those on
+state responsibility, due diligence and international liability
+can be applied to cyberspace and its most fundamental subsets.
+In our analysis, we look at various existing venues where
+Internet governance related issues are being discussed and
+assess their relevance for addressing Internet security challenges. Following the current trend in academic debates on
+Internet governance, we recognize the need for a versatile
+approach. Many international fora, such as the International
+Telecommunications Union (ITU),the Internet Governance Forum (IGF) or the Internet Corporation for Assigned Names
+and Numbers (ICANN), offer possibilities to embrace the security and stability issues relevant for Internet governance. We
+recommend coordination of their individual efforts, paving
+the way for an international customary compromise, possibly
+leading to a more tangible “contractual” framework. The arguments made in this paper are intended to fuel a discussion on
+other areas “shared” by Internet governance and international
+law, such as freedom of expression, privacy, private and public
+accountability or the no-harm principle.
+The first section of the paper briefly covers the phenomenon of Internet governance and describes its multistakeholder approach.We emphasize the fundamental role of three
+2 For comprehensive arguments on the pressing need to govern
+cyberspace with international law see our previous works, in particular: J. Kulesza, International Internet Law (2012); R. H. Weber, Realizing a New Global Cyberspace Framework, Normative Foundations and
+Guiding Principles (2014). 3 L. Lessig, ‘Commentaries the Law of the Horse: What Cyberlaw Might Teach’, 113 Harvard Law Review (1999) 501 ff., referring
+to Frank H. Easterbrook, ‘Cyberspace and the Law of the Horse’, 1
+University of Chicago Legal Forum (1996) 207 ff.
+groups of stakeholders: states, business (including the technical community) and civil society in the process of Internet
+standard-setting and policy-making. Then we move on to discuss the notion of Internet’s “public core”. We understand the
+“public core of the open internet” as described in the EU Cybersecurity Act, namely as “its main protocols and infrastructure”, seen as
+“a global public good”, offering “essential functionality of the internet as a whole” and “underpinning its normal operation.”4 We link
+this need of protecting Internet “critical resources” to the wellknown concepts of critical infrastructure protection and address the latest developments in relevant international policies. The following section discusses the ways states and private parties deal with managing critical infrastructures and
+how they avoid threats. Drawing analogies to international
+law, we refer to e.g. environmental law and international trade
+law as proof of the changing face of international law and policy making, pertinent also to Internet governance and cybersecurity. We focus on four principles crucial to Internet governance and international law, with emphasis put on due diligence and state responsibility. The current model of international law and policy making shifts from state-centered to
+more distributed and informal forms, just to point to environmental law or international trade specifics, strongly relying on private parties input. This is relevant also for international telecommunications and Internet governance, as discussed in more detail below. We recommend applying the
+lessons learned from other areas of law, in particular those
+dealing with the environment and global trade for Internet
+governance, with due concern for the necessary, accompanying political tension.
+2. Internet governance and international law
+2.1. Elements of Internet governance
+Internet governance, once a purely technical exercise that
+later evolved to cover nearly all Internet-related activities, is
+now being perceived as one of many tools to enforce national
+policies and local laws. States reach out to operators providing
+core Internet services, expecting them to assist with issues of
+national security, crime prevention or anti-terrorist measures.
+This increasing trend shows a misconception of the way the
+network operates, putting at risk its fundamental end-to-end
+principle: the design within the infrastructure of the network
+becomes subject to policy constraints that should be dealt
+with at the end nodes. If Internet infrastructures are to be
+tweaked and used for the purposes of national security, copyright protection, curtailing free speech according to local standards or shriveling local citizens, we risk damaging the global
+network as it is now known. What has been referred to as
+“Spliternet” – the creation of numerous smaller networks, dis4 Regulation (EU) 2019/881 of the European Parliament and of the
+Council of 17 April 2019 on ENISA (the European Union Agency for
+Cybersecurity) and on information and communications technology cybersecurity certification and repealing Regulation (EU) No
+526/2013 (Cybersecurity Act) (Text with EEA relevance), OJ L 151,
+7.6.2019, p. 15–69, para 23, 14.
+computer law & security review 40 (2021) 105531 3
+connected, reflective of local legal and cultural values – might
+lead to fragmentation and the end of global communications.
+Originally, “governing” the Internet referred to the performance of the purely technical administration of online services and was done by academics. Yet as the commercial, social and political potential of the Internet grew, the term has
+become all-encompassing, covering “the development and application by governments, the private sector and civil society,
+in their respective roles, of shared principles, norms, rules,
+decision-making procedures, and programmes that shape the
+evolution and use of the Internet”.5 Once “managing” Internet resources found its way onto the international diplomatic
+agenda, it covered all issues relevant to the reliable and stable operation of the network. As reiterated in the WSIS Tunis
+Agenda, “international management of the Internet should
+be multilateral, transparent and democratic, with the full involvement of governments,the private sector, civil society and
+international organizations”.6 It should aim to secure “equitable distribution of resources” as well as “facilitate access for
+all” while ensuring a “a stable and secure functioning of the
+Internet”.7 The Tunis Agenda clearly sets out the roles of individual stakeholder groups. It characterized “the management
+of the Internet” as encompassing both: “technical and public policy issues” and as such recommended for all relevant
+processes to “involve all stakeholders and relevant intergovernmental and international organizations”.8 In this respect it
+recognized that the “policy authority for Internet-related public policy issues” rests within “the sovereign right of states” as
+they are the ones endowed with “rights and responsibilities
+for international Internet-related public policy issues”.9
+The complex concept of sovereignty remains outside the
+scope of this paper, yet it is not possible to speak of international law and its implications for cyberspace without referencing the rich variety of state positions and academic writing
+on state sovereignty online.10 The notion of sovereignty is ambiguous in international law itself. The Westphalian perception of state’s exclusive competence to decide over its internal
+matters and external relations. The Westphalian concept of
+state sovereignty relied on heads of states (sovereigns) agreeing to govern their peoples within territorial borders as agreed
+upon in 1648.11 This was to allow for the enforcement of certain shared cultural values within and not beyond communi5 World Summit on the Information Society (WSIS), Tunis Agenda
+for the Information Society (2005), para. 35, U. N. Doc. WSIS05/TUNIS/DOC/6(Rev.1)-E.
+6 Ibid., at para. 29 7 Idem.
+8 Ibid., at para. 35. 9 Idem. 10 The concept of Westphalian sovereignty, its evolution and
+(in)applicability vis-à-vis cyberspace has been discussed at length
+here: R. Balleste, J. Kulesza, Signs and Portents in Cyberspace: The Rise
+of Jus Internet as New Order in International Law, 23 Fordham Intell.
+Prop. Media & Ent. L.J. 1311 (2013). Available at: https://ir.lawnet.
+fordham.edu/iplj/vol23/iss4/4. 11 Stephen D. Krasner, Compromising Westphalia, 20 International
+Security 115 (Winter, 1995–1996). See also, Jouni Häkli, The Politics
+of Belonging: Complexities of Identity in the Catalan Borderlands, 83 Geografiska Annaler. Series B, Human Geography, 111, 112 (2001). (It
+took France and Spain 11 more years to find a satisfying consensus, embodied within the Treaty of the Pyrenees of 1659.)
+ties which followed them. The Westphalian notion developed
+into the sovereignty of “nation-states,” underlaying contemporary international relations. “Nation states” were perceived
+to be communities of individuals sharing joint values, history
+and culture. They represented more than just the exercise of
+power of a single ruler over a group of individuals.12 The idea
+of “sovereign nation states,” relying upon the Westphalian order of law, necessitated for nation-states to exist peacefully.
+This was achieved by allowing communities to exercise their
+common culture and beliefs, communicate in common language(s) and govern themselves in a way they found appropriate within certain territorial limits, and agreed upon among
+the nation-states so construed.13 As international law evolved,
+so did the concept of sovereignty giving way to contractual
+obligations of states, the pacts sunt servanda principle and ius
+cogens norms prohibiting certain states actions even within
+their borders. “Sovereignty” – term crucial to the architects of
+the Westphalian regime – is being substituted by its derivatives. What once safeguarded peaceful coexistence of diverse
+views, values and communities were replaced by notions of
+“shared” and/or “aligned” sovereignty.14
+These novel notions have evolved far from the original concept agreed upon in Westphalia, just as international law itself. The Westphalian notion of sovereignty has been refined
+to a much narrower scope with international law instruments
+such as peremptory norms or humanitarian intervention setting contemporary limits to this original understanding of
+state exclusive competence. Therefore its re-introduction for
+the cyber-sphere seems particularly ill suited, as has been argued at length by various authors.15 At first glance the original notion of sovereignty might be perceived as an obstacle to
+protecting the “public core” of the Internet. Yet its contemporary understanding with strong focus on sustainable development, human rights and capacity building could easily be an
+argument in aligning efforts to ensure maintaining the network secure and resilient in the shared interest of the international community. The application of international law in its
+entirety, as accepted by the UN GGE and individual states in
+their statements leaves no room for the original, renaissance
+understanding of sovereignty. Any states arguing to the contrary are likely acting solely to protect their individual interests, be it those instigated by national security concerns or
+motivated by an attempt to avoid international liability or responsibility.
+12 See, J. Samuel Barkin and Bruce Cronin, The State and the Nation:
+Changing Norms and the Rules of Sovereignty in International Relations,
+48 International Organization 107–130 (Winter, 1994), available at
+http://www.jstor.org/stable/2706916. 13 Id. at 115–117. 14 For a practical exercise in applying these novel notion of
+sovereignty see e.g. Jean-Claude Juncker, State of the Union Address,
+12 September 2018 available at: https://ec.europa.eu/commission/
+sites/beta-political/files/soteu2018-factsheet-sovereignty_en.pdf
+where the former EC chief spoke of a shared belief that “that
+sharing sovereignty makes nation states stronger”. 15 See e.g. S.D. Krasner, The case for shared sovereignty, Journal
+of Democracy, 2005; S.D. Krasner, The Hole in the Whole: Sovereignty,
+Shared Sovereignty, and International Law, 25 Mich. J. Int’l L., 2004;
+Milton L Mueller, Against Sovereignty in Cyberspace, 22 International
+Studies Review 4, 779–801, 2020.
+4 computer law & security review 40 (2021) 105531
+This is the case also because a the growing role of the private sector and civil society being predominantly designated
+in the technical and economic development of the Internet,
+while civil society takes the lead at community level. Intergovernmental organizations help coordinate “internet-related
+public policy issues” while international organizations take
+the lead in developing “internet-related technical standards
+and relevant policies”.16 This all-encompassing definition has
+been fundamental for the multistakeholder approach to Internet governance (also known as the multistakeholderism
+principle), representing the joint management of Internet resources by three groups: states, business and civil society “in
+their respective roles”.17 This comprehensive build-up of the
+Internet governance community has been recognized by various international fora that include e.g. the Council of Europe (CoE). In its 2011 Declaration on Internet governance
+principles the CoE Committee of Ministers refers indirectly to
+“multi-stakeholder governance” of the network when it states
+that the “development and implementation of Internet governance arrangements should ensure, in an open, transparent and accountable manner, the full participation of governments, the private sector, civil society, the technical community and users, taking into account their specific roles and responsibilities”.18 Also the NETMundial initiative, a state-led
+Internet governance platform, put in place by Brazil as a reaction to the Snowden revelations, revealing US mass cybersurveillance, reiterated the principle of multistakeholderism
+at the very top of its list, defining it as “the full participation
+of governments, the private sector, civil society, the technical
+community, academia and the users in their respective roles
+and responsibilities”.19
+2.2. Internet governance and international law in practice
+The 10 years period after the WSIS summit (2005–2015) fostered debates on making the ambiguous notion of “Internet
+governance” more specific. In particular defining the “respective roles” of states, business and civil society proved challenging. Some authors emphasized the role of private actors
+in national and international policy making.20 Others called
+for linking Internet governance with the framework of international human rights law, viewing the network as a global
+enabler for free speech, right to assembly and other human
+rights, following the path set by media law, relying on freedom of expression guarantees as the baseline of state commit16 World Summit on the Information Society (WSIS), Tunis Agenda
+for the Information Society (2005), para. 35, U. N. Doc. WSIS05/TUNIS/DOC/6(Rev.1)-E.
+17 For a detailed discussion on multistakeholderism see: J.
+Kulesza, supra note 2, 138–139; R. Radu, J. M. Chenou, R. H. Weber (Eds.), The Evolution of Global Internet Governance: Principles and
+Policies in the Making (2014) 79–141; R. H. Weber, Legal foundations
+of multistakeholder decision-making, 135 Zeitschrift für Schweizerisches Recht (2016), 247 ff.; Global Commission of Internet Governance, Who Runs the Internet?, Vol. 2, 2016. 18 Council of Europe (CoE), Declaration by the Committee of Ministers
+on Internet governance principles (2011) para. 2. 19 NetMundial Initiative, NETMundial principles (2014). 20 See e.g. L. A. Bygrave, Internet Governance by Contract (2015).
+ment to the free flow of information online.21Another group
+of discussants argued for a return to the initial, technical, narrow perception of the term,22 and so e.g. Broeders relies on
+the evolving two-tier approach to the notion of Internet governance, when he argues that Internet’s infrastructure (its core
+infrastructure and protocols) are the “first instance” of Internet governance, whereas “it is this public core that drives the
+Internet’s development”.23 He views the “using” of Internet’s
+infrastructure as a “second instance” of Internet governance,
+where “the Internet becomes a tool in the battle to control online content and behavior”, from protecting intellectual property interests to censorship and surveillance.24
+Such a distinction is fundamental to the concept of the
+“public core of the Internet” and the policy proposal to consider it a “global good”, both discussed in that same paper
+and focal to this paper.25 Corresponding to a current trend in
+cybersecurity debates which redefines Internet governance to
+better reflect current policy needs, many authors offer novel
+approaches to the distribution of competence among stakeholders. Savage and McConnell recommend “simplifying Internet governance (IG) by partitioning it into issues that can
+be addressed by existing international agencies and those that
+cannot”.26 They suggest modifying the way how international
+agencies dealing with Internet governance related issues operate so as to reflect the multistakeholder model specific to
+ICANN.
+The international fora to be considered as possibly addressing the issues relevant to the Internet’s public core are:
+1) the International Telecommunications Union (ITU) – an intergovernmental organization within the ambit of the United
+Nations, which, despite having taken steps towards multistakeholderism, still lacks the recognition from civil society
+or business; 2) the Internet Governance Forum (IGF) – run under UN auspices for over a decade, but never designed to actively attend to pertinent policy issues or serve as a platform
+for diplomatic negotiations, hence still enjoying little interest
+from states, perceived more as a talk shop formula for civil
+society; and 3) the Internet Corporation for Assigned Names
+and Numbers (ICANN), the current paradigm of multistakeholderism, yet, unlike the ITU, ill-suited for facilitating intergovernmental negotiations.
+21 See e.g. R. Balleste, Internet Governance: Origins, Current Issues,
+and Future Possibilities (2015). 22 D. Broeders, The public core of the Internet (2015); D. Broeders,
+Defining the protection of the ’Public core of the internet’ as a national
+interest 190 ORF Issue Brief (2017); L. DeNardis, Protocol Politics. The
+Globalisation of Internet Governance (2009). 23 D. Broeders, supra note 22) 10; for a comprehensive discussion
+on trends in Internet governance discourse see generally: R. Radu,
+J. M. Chenou, R. H.Weber, supra note 17); for an analysis of different
+approaches to Internet governance see therein: D. Sylvan, Global
+Internet Governance: Governance without Governors (2014) 23–37. 24 Idem. 25 For a comprehensive analysis of policies and trends in governance of global public goods see also: N. Krisch, ‘The Decay of
+Consent: International Law in an Age of Global Public Goods’, 108
+American Journal of International Law (2014), 1–40. 26 J. E. Savage, B. McConnell, Exploring Multi-Stakeholder Internet
+Governance (2015) 2.
+computer law & security review 40 (2021) 105531 5
+As the issue of telecommunication and information systems security rises on national and international policy agendas, more venues, traditionally used for international security debates, come into play. Among state-led actions targeting
+cybersecurity challenges one should note the North Atlantic
+Treaty Organization (NATO) – the most significantintergovernmental organization focused on armed conflicts and international peace. In 2016 NATO officially recognized cyberspace as
+the fifth warfare domain and confirmed that a cyberattack on
+any of its allies will be considered an act of war.27 Another outcome of NATO’s cybersecurity focus was the Tallinn Manual
+(with its two editions thus far), offering a first every study of
+international law applicable to cyberspace.However,the NATO
+model is purely governmental and in no way resembles the
+paradigmatic multistakeholder model of Internet governance.
+NATO’s cybersecurity focus followed over a decade of statelead efforts in the Internet governance domain, initiated with
+the ITU WSIS process and culminated in 2012 with the World
+Conference on International Telecommunications (WCIT-12)
+in Dubai. Both: NATO and ITU enjoy a strong US presence,
+which proved highly significant in the light of the “Snowden
+revelations”. The 2013 disclosure of long-lasting US surveillance targeting global communications casts a shadow over
+White House international policies, raising serious concerns
+as to the trustworthiness of US leadership, also with regard to
+Internet governance. As a counterbalance to US-led efforts in
+governing the global network, Brazil initiated the NetMundial
+Initiative (NMI), another intergovernmental forum debating
+Internet governance, cybersecurity and human rights.28
+As already mentioned, the most recent, relevant and
+promising attempt at finding ways of appropriate application
+of international law to cyberspace was the UN Group of Governmental Experts (GGE) on Developments in the Field of Information and Telecommunications in the Context of International Security. The UN has traditionally called upon experts
+to facilitate its work in various areas of international law in
+similar ways, yet this particular exercise – the GGE on cybersecurity with the 2016–2017 mandate – was unique in both:
+the scope of its mandate and expectations for its result. It built
+upon the success of its predecessors. Thus far there have been
+five Groups of Governmental Experts (GGEs) working on “existing and potential threats from the cyber-sphere and possible
+cooperative measures to address them”.29
+The first one, dating back to 2004, consisted of 15 members and failed to produce a consensus report due to two crucial unresolved policy questions, namely: 1) the scope of the
+needed debate, in particular whether the focus should be only
+directed to infrastructure management or put also on content, especially whether regulating transboundary flow of information was a national security issue, and 2) the need to
+27 NATO, Warsaw Security Summit Communique (2016) para.
+70–71, available at https://www.nato.int/cps/en/natohq/
+official_texts_133169.htm (last visited 31 August 2018). 28 http://netmundial.org/. 29 For a detailed timeline of GGEs and their political composition
+within particular mandates see the United Nations Office for Disarmament Issues (UNODA) archive, available at https://www.un.
+org/disarmament/topics/informationsecurity/ (last visited 31 December 2020).
+include some language emphasizing new threats originating
+from state exploitation of new ICTs for military and security
+purposes.
+The second GGE (2009/2010) produced a report recommending a dialogue on “norms for state use of ICTs to reduce risk
+and protect critical infrastructure” and “confidence-building
+and risk-reduction measures”.30
+The third Group (2012/2013) argued for international law
+and in particular the UN Charter to be applicable to cyberspace
+which should remain “open, secure, peaceful and accessible”.31 It also confirmed the state sovereignty applied to conduct in cyberspace and to state territorial jurisdiction over ICT
+infrastructure located within its borders. It also emphasized
+the need to respect human rights online, arguing that “state
+efforts to address the security of ICTs must go hand-in-hand
+with respect for human rights and fundamental freedoms”
+while “states must not use proxies to commit internationally
+wrongful acts and must ensure that their territories are not
+used by non-state actors for unlawful use of ICTs”.32
+The fourth Group (2015) produced a comprehensive consensus report on norms, rules or principles of the responsible behavior of states in cyberspace as well as on confidence building measures, international cooperation and capacity building.33 Its findings confirmed four principles of international
+law’s application to cyberspace:
+1 “In their use of ICTs, States must observe, among other
+principles of international law, State sovereignty, the
+settlement of disputes by peaceful means, and nonintervention in the internal affairs of other States.
+2 Existing obligations under international law are applicable to State use of ICTs and States must comply with their
+obligations to respect and protect human rights and fundamental freedoms.
+3 States must not use proxies to commit internationally
+wrongful acts using ICTs, and should seek to ensure that
+their territory is not used by non-State actors to commit
+such acts.
+4 The UN should play a leading role in promoting dialogue on
+the security of ICTs in their use by States, and in developing common understandings on the application of international law and norms, rules and principles for responsible
+State behavior.”34
+The fifth Group (2016/2017) was therefore to face a significant challenge,transposing those general principles into more
+detailed obligations. It was to tackle cyberspace, Internet governance and cybersecurity – points of particular contention
+in the era of rising international tensions on cybersecurity,
+the ambiguity of legal qualifications of cyberattacks and the
+limit of state due care in preventing foreign harm originating from their territory through computer networks. It operated with traditional intergovernmental tools in a multistake30 U.N. Doc A/65/201. 31 U.N Doc A/68/98. 32 Idem. 33 UN Doc. A/70/174. 34 Idem.
+6 computer law & security review 40 (2021) 105531
+holder domain, seeking intergovernmental consensus where
+governments are no longer the only rule makers. The failure
+of the last GGE was due to two factors: increasing political tension over attribution of cyberattacks, fuelled by mutual accusations and a low willingness to share expertise on the part of
+all major players and the lack of consideration for non-state
+partners in Internet governance norm making.35
+While Internet governance is eagerly discussed by governments, the current Internet governance landscape was
+originally designed as the effect of bottom-up governance
+models, rooted strongly in the technical community, just to
+mention the Internet Society (ISOC) or the Internet Engineering Task Force (IETF) with its “Requests for Comments”
+(RfCs), community-developed common standards voluntarily
+followed by its members: Internet service providers or software developers. While “security by design” remains a common paradigm within both: ISOC and IETF,36 there is no connection to be made between this extra-legal, communitybased rule making approach and the hard norm setting model
+of e.g. NATO. While ICANN, ISOC, and IGF have been attending
+to the issue,this communications’ gap holds crucial relevance
+for the development of any effective international cybersecurity policies and must be addressed by whatever model of
+global cybersecurity. There can be no effective cybersecurity
+policy developed solely at governmental level, without strong
+presence of the technical community and vigilant input from
+civil society. This is particularly relevant to a highly technical
+issue that is the protection of Internet’s fundamental functions and resources, referred to as the Internet’s core.
+3. Critical Internet infrastructure and “public
+core” of the Internet
+The concept behind Internet’s public core is a functional one
+– it aims to ensure an open and reliable Internet, free from
+third party influence, regardless of reasons or interests behind it. As Broeders argues, for the Internet to be considered
+35 For an analysis of the UN GEE process see e.g.: Ann Väljataga, “Back to Square One? The Fifth UN GGE Fails to
+Submit a Conclusive Report at the UN General Assembly,”
+NATO CCDCOE, 2017, https://ccdcoe.org/back-square-one-fifthun-gge-fails-submit-conclusive-report-un-general-assembly.
+html. For a detailed analysis of the UN GGE report see: Eneken Tikk
+et al., Voluntary, Non-Binding Norms for Responsible State Behaviour
+in the Use Of Information and Communications Technology: A Commentary, ed. Eneken Tikk (New York, NY: United Nations Office for
+Disarmament Affairs, 2017), https://www.un.org/disarmament/
+wp-content/uploads/2018/04/Civil-Society-2017.pdf. An interesting initiative focused on this particular challenge is the Microsoft
+proposal of an Internet Geneva convention facilitated by a global
+center for cyber-expertise, focusing on forensic attribution of
+cyberattacks. While the initiative lacks political support, deeming
+it unsuccessful, the fact that a substantial solution for a global
+problem is offered by a private party, taking equal footing with
+its governmental partners, reflects the very nature of multistakeholder governance. For a more detailed discussion on the
+Microsoft’s proposal see further in this text. 36 See e.g.: E. Rescorla, ‘Guidelines for Writing RFC Text on Security
+Considerations’, 3552 Requestfor Comments (RfC) (2003) available at
+https://tools.ietf.org/html/rfc3552 (last visited 31 December 2020).
+a global public good one must “establish and disseminate an
+international standard stipulating that the Internet’s public
+core”. Although ambiguous, the notion is used to describe
+the network’s main protocols and infrastructure, “which are
+a global public good”.37 Such an international standard must
+safeguard those resources against any intervention by governments.
+One of the few international attempts to directly address the issue of Internet’s core at the policy level is CoE’s
+2009 report on ”Internet governance and Critical Internet Resources”.38 It identified “Critical Internet Resources” (CIRs)
+that require particular care from the international community to ensure the free and reliable flow of information online.
+According to the CoE, the CIRs include: root servers, Domain
+Name System, Internet Protocol and the Internet “backbone
+structures”, including Internet Exchange Points (IXPs).39 It emphasized also the need to secure universal broadband access
+and network neutrality and linked the need to protect CIRs
+with the existing critical resources dogmatic, indicating the
+Internet itself as a “critical resource”, arguing that for it to remain “sustainable, robust, secure and stable” it must be protected “in the same way that other critical common resources
+are protected”.40
+Another guideline helping to identify the Internet’s core
+stems from ISOC, which in its 2005 Comments on the
+Chair’s Internet Governance Paper identified “Infrastructure
+and management of critical Internet resources” among the
+“public policy issues relevant to Internet Governance”.41 The
+comments named IP addressing, DNS and the secure operation of RIRs as crucial elements of the Internet’s ecosystem,
+claiming that a balanced “equitable access to IP addressing
+resources and commend the establishment and evolution of
+the Regional Internet Registry system that has responsibility
+for this important role”.42
+These two documents illustrate well the basis for the existing compromise on the need to protect fundamental Internet
+functions reflected in national policies and community-based
+technical standards.43 While other elements might be considered crucial for the network’s operation, as for 2018 the consensus on critical Internet resources amounts to a short list
+and includes: 1) Internet backbone networks, 2) DNS servers,
+3) Internet Exchange Points (IXPs) and 4) TLD related services (registries and registrars). While a progressive, open catalogue of critical Internet resources is to be identified through
+37 Broeders, supra note 22 at 13. 38 Council of Europe, Internet governance and critical internet resources a report prepared by the Council of Europe Secretariat Media and Information Society Division Directorate General of Human Rights and Legal Affairs Council of Europe, April 2009. 39 Ibid., at 13–15. 40 Ibid., at 23. 41 Internet Society, Comments on the Chair’s Internet Governance Paper (2005) 4. 42 Ibid., at para. 47 43 For a thorough study on national documents and technical standards regarding cybersecurity and critical Internet resources see e.g.: D. Broeders, supra note 17 (2017); see now
+also Microsoft, Cybersecurity Policy Framework (2018), available
+at https://www.microsoft.com/en-us/cybersecurity/content-hub/
+Cybersecurity-Policy-Framework (last visited 31 December 2020).
+computer law & security review 40 (2021) 105531 7
+dialogue and diplomacy, the international need for its legal
+and organizational protection is beyond doubt. These four resources are to be perceived as “Internet’s public core”, whose
+security and stability is indispensable for the reliable operation of the network.
+One of the starting points for a discussion on protecting the
+Internet’s core could be the political concept of “global public good”, focal to this paper. Although not perfectly aligned
+to the needs of Internet governance and the network’s architecture, it is worth a closer look. A complementary concept of “critical infrastructures” and their protection will serve
+as another point of reference. The idea of “Internet’s public
+core” as a “global public good” can therefore be perceived as a
+derivative of two policy concepts: 1) The ambiguous notion of
+“global public goods”, once generated by the era of globalization, derived from the economic writings of Paul Samuelson
+on “public goods”. It refers to all globally available goods that
+are non-rivalrous (consumption does not influence the quantity available to others) and non-excludable (their use cannot
+be prevented); the examples of global public goods include
+knowledge as well as the common heritage of mankind.44 2)
+Critical infrastructure protection as provided by existing national regimes and international cooperation programs, such
+as the European Programme for Critical Infrastructure Protection (EPCIP), securing networks fundamental to the daily
+operation of any modern day society: water and energy supply, mass transportation, health and emergency services and
+alike.
+This is not to imply that either of those two concepts offers readymade solutions for protecting the public core of the
+Internet. It is rather to indicate the network of reference for
+further research, attempting to identify those areas of existing international relations, law and policy, which can be relevant for Internet governance at a time of increasing threats to
+national security and international peace. The following sections of this paper look at both concepts: critical infrastructure
+protection and international law analogies, seeking to identify existing solutions that can be imported to the protection
+of Internet’s critical infrastructures and their protection as a
+“global public good”.
+4. Managing critical infrastructures and
+avoiding threats
+The Tallinn Manual defines critical infrastructure (CI) as all
+systems and assets, physical and virtual, within a nationstate’s jurisdiction that “are so vital that their incapacitation
+or destruction may debilitate a State’s security, economy, public health or safety or the environment.”45 It also defines “cyber infrastructure” covering “communications, storage, and
+computing resources upon which computer systems operate”.46 This handbook, based on NATO Cooperative Cyber De44 The discussion on “globally public goods” reaches far beyond
+the scope of this study. For an introduction to the discussion on
+the issue see e.g.: Krisch (supra note 19) 1–40. 45 M.N. Schmitt (ed.), The Tallinn Manual (2013) 258; see also 2nd
+ed. (2017). 46 Idem.
+fence Centre of Excellence sponsored research, designed as a
+non-binding, draft set of cyber norms at a time of war, stipulates in Rule 81 that it is prohibited to attack, destroy, remove
+or render useless “objects indispensable to the survival of the
+civilian population by means of cyberoperations”.47
+Referring to the law on armed conflicts the experts behind
+the Tallinn Manual agreed that this provision should cover
+“objects indispensable to the survival of the civilian population” that include: “foodstuffs, agricultural areas for the production of foodstuffs, crops, livestock, drinking water installations and supplies and irrigation works”. This list clearly indicates that neither the Internet as such nor its infrastructure
+fall within the ambit of the existing customary law behind
+the proposed rule, although, “depending on circumstances”,
+include “cyber infrastructure indispensable to the functioning of electrical generators, irrigation works and installations,
+drinking water installations and food production facilities.”48
+These observations are to be considered only with reference to a time of war, as per Art. 54(2) Additional Protocol I,
+since the first edition of the Tallinn Manual discusses international humanitarian law and its applicability to cyberconflicts, while observing that thus far possibly only the Stuxnet
+malware incident (2010) amounted to an “armed attack”, and
+that also not without controversy among the experts involved.
+With that in mind the discussion on an “armed attack” in cyberspace and its legal consequences remains beyond the ambit of this paper, as for this study the legal qualification of critical Internet infrastructures at the time of war is of little significance. As already stated no cyberconflict has yet been considered an armed conflict according to international law. This
+is why rather than a reference to the law of war, one applicable
+to the time of peace should be made.
+The Tallinn Manual 2.0, advertised by the authors to address the time of peace, follows the same logic and criteria,
+addressing crucial infrastructures with the same reference to
+Article 52(1) of the Additional Protocol I and explicitly limiting
+its application to “international and non-international armed
+conflict” following an “attack”.49 While thorough and detailed,
+it fails to provide clear guidance on the application of the law
+of peace to cyberspace. The experts agreed that interferences
+with critical infrastructure fail to “qualify as violations of the
+principle of sovereignty” as per contemporary international
+law, failing to address core Internet networks as parts of their
+legal analysis.50 This conclusion contradicts the current EU
+approach to critical Internet infrastructures and cybersecurity.
+At the time of peace, networks providing vital resources to national communities are managed as part of national civil defence. One of the more recent examples of international cooperation on protecting critical infrastructure and computer networks is the EU Directive on Security of Network and Information Systems (NIS Directive).51 It builds upon prior European
+47 Ibid., at 226. 48 For a detailed discussion on criteria allowing to recognize infrastructures as critical see the cited source: M.N. Schmitt, supra
+note 45, at 227 ff. 49 Ibid., at 435. 50 Ibid., at 25–26. 51 Directive (EU) 2016/1148 of the European Parliament and of the
+Council of 6 July 2016 concerning measures for a high common
+8 computer law & security review 40 (2021) 105531
+cooperation framed within the 2008 Directive on European
+Critical Infrastructures (DirECI).52Annexed to the NIS Directive
+are non-exclusive lists of networks considered crucial to the
+security of the European Union. EU recognizes “digital infrastructures” as part of critical infrastructures and uniformly implements measures of protection to infrastructures used for
+the supply of: 1) energy,53 2) transport services,54 3) banking
+services, including credit institutions; 4) financial market services, including operators of trading venues; 5) health care services, including hospitals and private clinics as well as healthcare providers; 6) drinking water intended for human consumption.
+The last and newest category included in Annex II to the
+NIS Directive covers “digital Infrastructures” and includes a)
+Internet exchange points (IXPs), b) Domain Name System service providers and c) Top Level Domain name registries. While
+the six former categories reflect those of the 2008 DirECI, the
+last, seventh category, mirrors the current EU approach to cybersecurity, viewing crucial Internet infrastructures as part
+of the European critical infrastructures ecosystem. Effectively
+they all require the same level of protection from their operators, including e.g. security due diligence measures and risk
+assessments. While other services or networks might be considered critical by different states or regions (just to mention
+the US including election infrastructures in its critical infrastructures list), the recent EU Directive serves as a relevant
+point of view for the discourse on international (as opposed
+to national) approaches to CI protection.
+This latest development in EU cybersecurity policy is interesting for two reasons. First, it lists “digital infrastructures” together with services well-recognized as parts of national critical infrastructures, such as water supply or transportation.
+It therefore represents a well deliberated policy decision by
+the 28 EU states to use the existing resilience network, represented by e.g. the European Programme for Critical Infrastructure Protection (EPCIP), for key Internet resources: IXPs,
+DNS operators and TLD registries. Interestingly, the EU debate
+on the NIS Directive was prolonged not only due to the inclusion of “digital infrastructures” as critical networks, but also
+because obligations similar to those imposed on critical infrastructure operators were to apply also to “digital services”
+level of security of network and information systems across the
+Union; OJ L 194, July 19, 2016, 1–30. 52 Council Directive 2008/114/EC of 8 December 2008 on the identification and designation of European critical infrastructures and
+the assessment of the need to improve their protection; OJ L 345,
+Dec. 23, 2008, 75–82. 53 Including electricity, gas and oil operators, such as those in
+charge of oil transmission pipelines, oil production, refining and
+treatment facilities, its storage and transmission. 54 Including air transport (air carriers, airport managing bodies
+and entities operating ancillary installations contained within airports, traffic management control operators providing air traffic
+control (ATC) services), railtransport(infrastructure managers and
+railway undertakings, including operators of service facilities), water transport (inland, sea and coastal passenger and freight water
+transport companies, managing bodies of ports and operators of
+vessel traffic services) and road transport(road authorities responsible for traffic management control as well as operators of Intelligent Transport Systems).
+offered within the “digital marketplace”: to online search engines and all cloud computing services.55
+The use of well-known legal methods and cooperation
+mechanisms for critical infrastructure protection with regard
+to the Internet backbone seems well justified. Yet imposing obligatory cybersecurity audits and/or insurance on all ecommerce services operating within the EU, not just digital
+infrastructures operators, is bound to raise practical concerns,
+to be faced after the implementation of the NIS Directive (May
+2018). The way EU deals with this practical challenge to CI protection, including parts of what is to be considered the public
+core of the Internet, will offer a valuable lesson to other world
+regions and set a precedent for further international cooperation on the issue.
+Regardless of this practical challenges, it is important to
+note that one of the world’s biggest economies decided to take
+the critical infrastructure protection route for securing Internet’s operation. The EU example is non-exhaustive as other
+states draw different lines for identifying CI sectors and approaches to the “Internet’s public core”, yet due to its practical
+impact EU recognition of Internet’s protocols and key services
+as a part of civilian critical infrastructure protection must be
+noted. Should the EU example prove effective and other countries chose to follow it, this policy line cannot be disregarded
+in the discussion on the “Internet’s public core” as a “global
+public good” and effective means of protecting it. Therefore,
+the concept of “Internet’s public core” can be easily referred to
+within the existing legal framework for critical infrastructure
+protection and adapted to the needs of the global network.
+While the national or regional lists for critical infrastructure
+differ, the tools and means for their protection remain similar
+and always include a high standard of professional due care
+on behalf of its operators. Those are to be considered when
+a framework for protecting the “Internet’s public core” is discussed.
+5. Lessons learnt from international law
+International cooperation on critical infrastructure protection
+is not the only analogy to be drawn from existing legal frameworks. Also, for example, the concept of shared spaces, to
+be used by all states in a uniform, non-harmful way is not
+new to the international community, international relations
+and international law. Areas of international law that can be
+used for reference with regard to protecting the core of the
+Internet include: 1) the law of the sea; 2) air law; 3) space
+law; 4) diplomatic and consular law; 5) international human
+rights law; 6) international telecommunication law ;
+56 7) environmental law; 8) law on international liability; 9) law of
+treaties; 10) international trade law; 11) antiterrorist laws and
+policies as well as 12) international sports law and policies.
+While each of these legal regimes offers interesting insights
+that can be useful to Internet governance, the limited scope
+of this study encourages a concise and general conclusion,
+one derived from all those areas of international law and rela55 NIS Directive, Annex III. 56 Those are discussed in more detail in the Tallinn Manual 2.0,
+Schmitt, supra note 45, at 179–298.
+computer law & security review 40 (2021) 105531 9
+tions. The Tallinn Manual 2.0 indicates that there are overarching international law principles relevant to all those specified regimes: 1) sovereignty, 2) jurisdiction, 3) state responsibility, and 4) due diligence.While the notion of 1) sovereignty and
+2) the matrix of jurisdictional principles remain an unresolved
+challenge for Internet governance and critical infrastructure
+protection, subject to enhanced debate and still far from consensus, the two other principles of international law: 3) state
+responsibility and 4) due diligence can be easily applied to the
+biggest international open network and its key components –
+Internet’s public core.
+The law on state responsibility is perceived as a secondary
+regime, applicable to all other specified international law
+norms imposing obligations upon states. Once an international obligation of a state is breached – be it an obligation of
+conduct or one of result – the consequences provided for in the
+law of state responsibility entail.57 The principle of due diligence implies a state’s duty to act with due care in preventing
+a violation of international law.58 Indications of what is meant
+as “due care” in particular circumstances are to be derived
+from the law and practice within individual areas of state
+practice and international relations. It is therefore only with
+e.g. reference to the law of the sea that a standard of due diligence for protecting maritime resources can be established.
+Analogically, a due diligence standard for cybersecurity could
+serve as a point of reference for state’s responsibility for an
+omission resulting in transboundary harm, e.g. a malfunction
+of a foreign power plant caused by a cyberattack initiated or
+an incident generated from within state territory. The existing
+community standards with regard to good business practice
+within each ofthe specific sectors (e.g. root zone operation,IXP
+operation, DNS and TLD management) could be referred to by
+both: the victim state in filing its claims and the adjudicating
+court. Due diligence appears in all the regimes named above,
+and is also relevant, as argued by Heintschel von Heinegg, for
+the law on neutrality in armed conflicts, which “is, in principle, applicable to cyberspace”. He goes on to argue that “governments should closely cooperate in a continuing effort to
+arrive at an operable consensus that takes into consideration
+global interoperability, network stability, reliable access and
+cybersecurity due diligence.59
+A closer look at individual regimes and their accompanying
+practice lead to the identification of specific, necessary efforts
+57 This is notto imply the law on state responsibility is unambiguous or a binding character of the 2001 ILC Articles on state responsibility for internationally wrongful acts. This phrasing refers to
+the general applicability of recognized customary norms on state
+responsibility for a acts prohibited by international law. For a detailed discussion on state responsibility, international liability and
+due diligence see: J. Kulesza, Due diligence in international law (2016),
+at 115–221.
+58 See: Kulesza, supra note 57, at 262–270. The perspectives of the
+respective discussions should also be widened looking at strategies of connection and global political economy; for these aspects
+see: A.-M. Slaughter, The Chessboard and the Web, Yale University
+Press (2017); D. Kennedy, A World of Struggle. How Power, Law, and
+Expertise Shape Global Political Economy, Princeton University Press
+(2016).
+59 W.Heintschel von Heinegg,Territorial Sovereignty and Neutrality in Cyberspace, 89 International Legal Studies (2013) at 34–35.
+to protect particular resources. They are usually the result of
+consensus on the object and scope of its needed protection,
+at times facilitated by specialized bodies (e.g.the International
+Maritime Organization). Similar mechanisms could be applied
+to cyberspace, its fundamental resources and procedures necessary to protect them. When seeking similarities between
+Internet governance with regard to protecting the Internet’s
+public core and other areas of international law, the need to
+identify a central arena for focused debates becomes apparent.Within the Internet governance landscape itis ICANN that
+is arguably the most representative forum for a multistakeholder debate, yet, as already discussed above, not only is it
+not the exclusive venue for Internet governance related debates, but, more significantly, it lacks the power to set internationally binding obligations, other than those imposed by its
+contracts upon contracted parties – operators of generic Top
+Level Domains (gTLDs)60 and the five Regional Internet Registries (RIRs).61
+By its design, however, ICANN lacks the necessary international recognition to ensure an effective diplomatic dialogue
+and the following, binding international obligations. The role
+of the Governmental Advisory Committee (GAC), although increasing, remains advisory. ICANN’s Root Server System Advisory Committee (RRSAC) and Security and Stability Advisory Committee (SSAC) together with its Security, Stability
+and Resiliency Framework (SSR), while offering a possible avenue to pursue the purpose of protecting the Internet’s core,
+remain a primarily technology-focused forum, with little involvement from governments and civil society.The GAC Public
+Safety Working Group lacks the needed multistakeholder representation, operating as a temporary, internal GAC structure
+for pursuing dialogue between governments, law enforcement
+and the technical community, with a strong representation
+from the United States governmental sector. While either of
+these venues might be modified to have an enhanced impact
+and offer a versatile platform for further discussion on protecting Internet’s public core, their current position falls short
+of a truly representative and influential international forum.
+If international legal methods are to be applied to secure
+the Internet’s core, significant action on the part of states,
+rather than other stakeholders, must be taken, as they are the
+only ones directly bound by international law and in the position to secure enforcement of agreed principles and codes
+of conduct. The traditional international law approach is to
+operate on state level through international treaties, entailing state duties that are to be later implemented against private actors by national laws. This traditional model of international law-making as of its definition fails to directly address duties of private parties. Instead it is focuses on the duties of states, both positive and negative, with the latter resulting in state responsibility for omissions in securing particular duties to be met by private parties, as is the case with
+environmental law or protection of aliens or diplomatic staff,
+required from states within their territories. This model can
+60 It’s worth noting that country-code Top Level Domain registrars
+are under no contractual obligation with ICANN. 61 Those include: AFRINIC for Africa, APNIC for Asia-Pacific, ARIN
+for North America, LACNIC for Latin America and the Caribbean
+and RIPE NCC for Europe.
+10 computer law & security review 40 (2021) 105531
+be applied to Internet’s public core, obliging states to introduce particular obligations onto operators of individual services (DNS) or infrastructures (root zone). The discussion on
+the need for a relevant Internet convention precising these
+duties has been present in academic debates and political dialogues for decades, yet has thus far been futile due to lack of
+political incentives.62 2019 could be the year when the discussion on a cybersecurity framework convention becomes more
+tangible, with a contractual regime for cyberspace building
+upon the lessons of the GGE and regional cooperation.63
+A particularly interesting proposal for attempting to this
+challenge was offered in 2017 by Microsoft – a private “global
+governance actor”64 – suggesting adopting an international
+treaty to guarantee the peaceful use of cyberspace.65 As the
+company argues, “the world needs [new] (emphasis added)
+international rules to protect the public from nation-state
+threats in cyberspace”, being contained in a “Digital Geneva
+Convention”, referring to the Treaty on the Non-Proliferation
+of Nuclear Weapons and the Chemical Weapons Convention as examples of successful international, treaty-based
+regimes limiting vital threats to human existence. As the policy brief explains, “a Digital Geneva Convention would create a legally binding framework to govern states’ behavior
+in cyberspace”.66 Microsoft facilitates its proposal with the
+suggestion of setting up a global center for attribution of
+cyberattacks, relying on international, independent experts
+in cyber-forensics. This proposal seems tempting to international lawyers – treaties have, arguably, thus far proven to be
+the most reliable international law making tools. And while
+the concept is not new,the key argument against any Internetrelated treaty remains: states, including key players like US,
+China, Russia and the EU, are not ready to even start negotiations on the issues primarily due to the lack of consensus on the limits of state sovereignty and responsibility in
+cyberspace. It is far more than just a questions of trust – it
+is the lack of existing, trustworthy cooperation mechanisms
+that proves the primary challenge. All the Internet governance
+venues discussed above might facilitate taking the bumpy
+road towards a Digital Geneva Convention, an Internet framework convention or any other cyberspace treaty.
+Another possibility would be to offer a novel approach to
+traditional international treaty making by including particular
+62 M. Mueller et al., ‘The Internet and Global Governance: Principles and Norms for a New Regime’, 13 Global Governance (2007) at
+237–252; J. Kulesza, Towards and Internet Framework Convention:
+the State of Play, in: N. Lavranos, R. Kok (Eds), Hague Yearbook of
+International Law (2013) at 84–115; R.H. Weber and R.S. Gunnarson,
+‘A Constitutional Solution for Internet Governance’, 18 Columbia
+Science and Technology Law Review (2012), at 1–254. 63 V. Radunovic, ‘Towards a secure cyberspace via regional
+co-operation’ (2017) (Diplo Foundation policy paper) available
+at https://www.diplomacy.edu//sites/default/files/Diplo-Towards_
+a_secure_cyberspace-GGE.pdf (last visited 31 December 2020). 64 E. Benvenisti, ‘Upholding Democracy Amid the Challenges of
+New Technology: What Role for the Law of Global Governance’, 29
+European Journal of International Law (2018) at 9–18. 65 B. Smith, A Digital Geneva Convention to protect cyberspace (2017)
+available at https://www.microsoft.com/en-us/cybersecurity/
+content-hub/a-digital-geneva-convention-to-protect-cyberspace
+(last visited 31 December 2020). 66 Idem, 1.
+private operators as signatories of a cybersecurity convention.
+This would allow to apply the existing international law mechanisms of state responsibility vis-a-vis states as well as to codify the rules of international liability with regard to Internet’s
+public core. Should ICANN and, optionally, the five RIRs enter an international cybersecurity treaty, they would obtain
+a framework of reference for designing contractual compliance with network operators (short of ccTLD registrars who,
+as noted above, are not ICANN contracted parties). It would
+be directly through contracts with private parties that ICANN
+and RIRs could demand a particular standard of care in securing the network’s core services and infrastructures.67 This
+would discard the need for harmonizing almost two hundred
+national laws on securing Internet’s public core, yet would require a novel,flexible approach to traditional international law
+making. The concept of Global Administrative Law (GAL), discussed below, might provide for a broader perspective on this
+issue.
+6. Governing the core vs the multistakeholder
+challenge
+The academic discourse on various governance models has
+put Internet governance into a broader context of Global Administrative Law, drawing analogies to contracts, laws, regulations and principles within sports law, trade law or human rights law, reflecting the complex, comprehensive institutional settings.68 Kingsbury, Krisch and Stewart identified
+five types of global administration:
+1 administration by formal international organizations;
+2 administration based on collective action by transnational
+networks of cooperative arrangements between national
+regulatory officials;
+3 distributed administration conducted by national regulators under treaty, network, or other cooperative regimes;
+4 administration by hybrid intergovernmental–private arrangements;
+5 administration by private institutions with regulatory
+functions.
+They locate ICANN and its multistakeholder model
+of governance within the fourth category: the hybrid
+intergovernmental-private administration, next to e.g. the
+Codex Alimentarius Commission, which operates based on
+consensus and adopts standards on food safety. While their
+original observations echo the GAC enhancement of 2002,
+they remain even more relevant for the internationalized
+ICANN oversight following the IANA functions transition in
+2016. Its decisions, similarly to those within ICANN, are made
+67 The concept of ICANN contractual framework as a constitutional order for Internet governance has been discussed in: R. H.
+Weber, R. S. Gunnarson, supra note 62. 68 B. Kingsbury, N. Krisch, R. B. Stewart, ‘The Emergence of Global
+Administrative Law’, 14 New York University Public Law and Legal
+Theory Working Papers (2005), paper 17; R. B. Hall,T. J. Biersteker (Eds)
+The Emergence of Private Authority in Global Governance (2002); R. H.
+Weber, supra note 2, at 111.
+computer law & security review 40 (2021) 105531 11
+Table 1 – Comparison of fora debating various elements of protecting Internet’s public core.
+Organization/characteristics ICANN ITU IGF ISOC IETF NMI NATO
+Multistakeholder X X X
+Bottom-up model of governance X X X X X
+Standard setting X X X
+Operates based on contractual compliance X
+Governmental X X
+Sets internationally enforceable obligations for states X X
+with a significant participation of private actors, working
+together with state representatives. It produces standards
+that have a “quasi-mandatory effect” as per the SPS Agreement under WTO law. As Kingsbury, Krisch, Stewart observe,
+the participation of state actors, as shaped by national and
+international law, acting next to private actors who are not
+directly, legally bound by international law and “who may
+indeed have conflicting duties such as commercial confidentiality, threatens a very uneven and potentially disruptive set
+of controls”.69
+The concept of Global Administrative Law (GAL) remains
+disputed, with some academics arguing it is more of an idealistic attempt at categorizing certain trends that an actual
+policy or regulation trend. The GAL project offers, however,
+some interesting insights into the Internet governance domain and options for administering the Internet’s public core.
+Krisch uses it as the background for a discussion on the changing models of governing “global public goods”.70 As he argues,
+the “dynamics of multilateral treaty-making, including the decline in recent decades, take a similar form across issue areas, whether these areas are dominated by club goods, like
+trade, or public goods, like the environment”.71 Also Broeders and DeNardis locate the need to protect Internet’s universality, interoperability and accessibility within the category
+of “non-excludable” and “non-rivalrous” “global public goods”
+that “provide benefits to everyone in the world”,to be attained
+only through targeted, public-private cooperation.72
+While the shared use remains a valid argument, the two
+traits indicated as fundamental to the Internet as a global
+good – non-exclusion and non-rivalry – do not hold true.73
+These observations alone imply that the global public goods
+dogmatic applies only partially to Internet governance and administering the network’s core. This is not to imply, however,
+that international law has nothing to offer to solve this challenge – the link to club goods, administered within contractual
+international regimes like environmental law,may prove help69 Kingsbury, Krisch, Stewart, supra note 68, 11. An interesting argument for applying global governance norms and principles towards private “global governance actors” (such as Google or Facebook) was presented recently by E. Benvenisti, supra note 64, at
+9–18.
+70 N. Krisch, supra note 25, at 1–40. 71 N. Krisch, supra note 25, at 37. 72 For a comprehensive discussion on the role of infrastructure
+in Internet governance see: L. DeNardis, Protocol Politics: The Globalization of Internet Governance, 2009. The concept and significance
+of global public goods is discussed in more detail at 181 ff. 73 D. Broeders, supra note 22, at 19–20.
+ful.74 As the case of environmental law, antiterrorist law or
+trade law and policies proves, administering a public resource
+can be done with the help of informal, polycentric regimes.
+Thus far ICANN remains the contemporary paradigm multistakeholder governance model. The constitution and evolution of ICANN follows the policy trend of “presence and prominence of informal institutions and norms in global governance”.75 As discussed above it still fails to address the needs
+of international law making, one that could be used to implement effective protection of Internet’s public core. Yet none
+of the organizations named in part one of this article paper
+ideally meets the needs of multistakeholder Internet governance and effective international law making. Below is their
+brief comparison (Table 1):
+In this context ICANN meets the needs of the dialogue on
+protecting the Internet’s public core in many aspects, yet fails
+the most significant prerequisite – the power to introduce internationally enforceable norms. That is rightfully so as the
+corporation was designed to avoid all political conflict. While
+"public interest" has been discussed within ICANN, in the context of "public interest commitments" in registrar accreditation agreements, such references have been rejected by the
+community as a possible incentive for undesired governmental oversight.
+The current Internet governance landscape fails to offer an
+ideal venue for discussing means of protecting Internet’s public core. Contemporary debates on the issue are distributed
+among various fora, ranging from the dispersed ISOC community to the highly organized NATO. While there exists an
+international law framework to be referred to, one relying on
+state responsibility and due diligence, the precise reiteration
+of its applicability to Internet’s key resources has not yet been
+addressed in a coordinated manner. This approach has been
+reflected in the 2017 communique from the Global Commission on the Stability in Cyberspace, an international expert
+based body, administered by the Hague Centre for Strategic
+Studies and the East-West Institute, who proposed a first international cybersecurity norm, one focused on protecting the
+“public core of the Internet” through diligent precaution.76
+74 N. Krisch, supra note 25, at 4. 75 N. Krisch, supra note 25, at 29. 76 The brief wording of the proposed norm calls for “(…) state
+and non-state actors should not conduct or knowingly allow activity that intentionally and substantially damages the general
+availability or integrity of the public core of the Internet, and
+therefore the stability of cyberspace.” Global Commission on the
+Stability of Cyberspace, “Call to Protect the Public Core of the
+12 computer law & security review 40 (2021) 105531
+7. Recommendations and foresight –
+governing shared Internet resources
+There seems to be little debate on the need to protect the
+stability and security of the “Internet’s public core” seen as
+its protocols and standards. The short list of Internet’s core
+resources includes 1) Internet backbone networks, 2) DNS
+servers, 3) IXPs and 4) TLD related services (registries and registrars). Legal tools to govern Internet’s public core can be derived from general international law, in particular the principles of due diligence and state responsibility. With reference
+to existing practice within other areas of international law, a
+cybersecurity due diligence standard can be identified based
+on good business practice, benchmarking and exchange of information. Other areas of international law allow to anticipate
+direct next steps in the evolution of this area of international
+relations. Those will likely include 1) cybersecurity audits for
+all critical Internet infrastructures operators and 2) testing the
+preparedness of the organizations managing the infrastructure against best available practices.
+Other areas of international law, in particular maritime
+oil transportation and nuclear energy production indicate the
+need to account for mandatory insurance of all such operators. It is therefore to be anticipated that similar obligations will be introduced also for critical Internet infrastructure operators. Uniform, universal standards of protection for
+all networks and services recognized as fundamental to the
+global networks’ stable and reliable operation are to be identified through 1) international cooperation, 2) exchange of good
+practices and 3) benchmarking.77 States must facilitate the
+creation and support the maintenance of international forum/fora for cybersecurity practice and experience exchange,
+either within existing specialized organizations (dealing with
+e.g. energy supply or air transportation) or within a separate,
+Internet-focused venue.
+The multistakeholder model of Internet governance necessitates the transposition of international norms on protecting
+the Internet’s core onto national laws, regulations and sanctions for any protection of this global asset to be effective.
+This might prove the most challenging item on the agenda,
+as the experience of e.g. international environmental law has
+shown. While there is a broad international consensus on the
+Internet,” 2017, 1, https://cyberstability.org/wp-content/uploads/
+2017/11/call-to-protect-the-public-core-of-the-internet.pdf (last
+visited 31 December 2020). The Final Report of the Global Commission on the Stability of Cyberspace was published at the occasion
+of the IGF 2019 (November) in Berlin. 77 For a general overview see also R.H. Weber, Internet Governance
+at the Point of No Return (2021), chapter 5.
+need to protect the natural environment and a series of international agreements to put this consensus into detail, effective enforcement of environmental standards remains low. It
+is however likely that the Internet’s multistakeholder model,
+as defined in the Tunis Agenda, with its unique distribution of
+power and authority will help to better enforce private obligations among various actors. As discussed in detail above, the
+international community can consider one of the two following scenarios: 1) traditional international law making through
+a treaty (e.g. a cybersecurity framework convention) effective
+against all signatories, necessitating its transposition onto national laws; 2) a novel approach to international law making,
+inclusive of non-state actors, in particular open to ICANN and
+RIRs, which could use the conventional framework as a point
+of departure for their contractual compliance mechanisms.
+From among the existing venues useful for enhancing
+the Internet stability and security debate, ICANN seems best
+equipped to fuelthe discussion on technical standards for protecting the Internet’s core. Yet by its very design it lacks effective tools to make any technical compromise internationally binding. With that in mind it can serve as a discussion
+platform, but not a diplomatic venue for advancing intergovernmental dialogue in its traditional sense. The contemporary
+international landscape lacks one venue where pertaining issues of protecting Internet’s key resources can be discussed.
+It is therefore to be recommended for the existing venues to
+continue their work, aiming to ensure a coherent approach to
+cybersecurity. As has been the case with the law of the sea
+or, more recently, environmental law, the principles shared
+among those dispersed initiatives may serve as a foundation
+for a comprehensive customary framework, later to be transposed onto an international contractual compromise.
+Declaration of Competing Interest
+The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+Data Availability
+No data was used for the research described in the article.

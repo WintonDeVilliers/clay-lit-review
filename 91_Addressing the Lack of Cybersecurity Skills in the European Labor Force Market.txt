@@ -1,0 +1,1272 @@
+Technology in Society 67 (2021) 101769
+Available online 28 September 2021
+0160-791X/© 2021 The Author(s). Published by Elsevier Ltd. This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).
+The cybersecurity labour shortage in Europe: Moving to a new concept for
+education and training☆
+Borka Jerman Blaˇziˇc
+Laboratory for Open Systems and Network, Joˇzef Stefan Institute, Jamova 39, Ljubljana, Slovenia
+ARTICLE INFO
+Keywords:
+Cybersecurity skills
+Cybersecurity knowledge
+Market skill shortage
+Cybersecurity educational ecosystem in EU
+Accreditation and certification
+ABSTRACT
+Recruiting, retaining and maintaining sufficient numbers of cybersecurity professionals in the workplace is a
+constant battle, not only for the technical side of cybersecurity, but also for the overlooked area of non-technical,
+managerial-related jobs in the cyber sector. This paper addresses the lack of cybersecurity skills in the European
+labour force market and the actions taken to improve the education in cybersecurity for meeting the identified
+needs. The paper analyses what kind of topics are missing within the cybersecurity curricula of the high-level
+educational institutions in Europe and in the courses provided by the cybersecurity trainers on the market.
+The findings are based on the data collected by the surveys carried out by the European competence centres on
+cybersecurity and the European CyberSecurity organization. These findings show that there are missing topics in
+the context of higher education cybersecurity programmes and within the private courses offered on the market.
+The problem of common programme accreditation of European higher education institutes (HEI) and the
+competence certifications for different work profiles in the area of cybersecurity are briefly presented and discussed as well. The actions undertaken to improve the education in both sectors are presented and the emerging
+educational landscape is proposed based on our findings. Recommendations to the stakeholders and scholars for
+improving the current state of cybersecurity education and training are explained in the concluding section.
+1. Introduction
+Cybersecurity has increasingly been a headline feature in news
+media in recent years, generally prompted by spectacular breaches of
+various information systems, including airlines, health organizations,
+credit agencies, administrations, financial institutions, telecoms and
+many others [1]. Until recently, cybersecurity was viewed as an ICT
+challenge, rather than a business risk. Cybersecurity is a part of the
+management with a task to minimize the risk to an organization’s cyberspace and prevent any cybersecurity incident. Despite the warnings
+by cybersecurity experts, it has taken many years of cyber-attacks and
+losses caused to many kinds of enterprises in different sectors this view
+to be changed. Many large, reputable companies have several times
+announced huge losses arising from different incidents in various
+economies, including infrastructure sectors like traffic, health, energy
+and water supply [2]. Although smaller companies (SMEs) have not
+reported such incidents regularly, they are also frequently victims of
+cyber-attacks [3]. From being mainly a problem for ICT professionals,
+cybersecurity has today become an acknowledged business risk as it
+appears within the organizational, human and social aspects of the
+business processes. This finding is now driving long-term changes in the
+approach to how cybersecurity risk should be managed and by whom,
+especially within SMEs. The importance of cybersecurity knowledge is
+now recognized widely, but the need for its widespread application
+depends on the cybersecurity skills possessed by the work force. The
+main identified problem today is the lack of cybersecurity skills among
+the work force, which is estimated globally to be about 3 million
+workers, according to cybersecurity workforce studies for the years
+2018 and 2019 [4,5]. In that context, skills are understood to represent a
+combination of abilities, knowledge, and experience that enable an individual to complete a task well [6]. The identified extreme shortage of
+qualified cybersecurity professionals has had an impact on the market
+lag in meeting the demand that started to occur in the past decade
+following the intensive digitalisation of the society. Larger, wealthier
+organizations and service providers are able to attract talent and pay for
+external professional security support from cybersecurity experts and
+purchase the appropriate technology for protection of their digital assets, infrastructure and business processes. This left the smaller
+☆ Position: full professor at International postgraduate school Joˇzef Stefan leading the program: Advanced internet technologies, member of the Laboratory for
+Open system and Networks of Joˇzef Stefan Institute.
+E-mail address: borka@e5.ijs.si.
+Contents lists available at ScienceDirect
+Technology in Society
+journal homepage: www.elsevier.com/locate/techsoc
+https://doi.org/10.1016/j.techsoc.2021.101769
+Received 4 July 2021; Received in revised form 15 September 2021; Accepted 23 September 2021 
+Technology in Society 67 (2021) 101769
+2
+companies and non-profit organizations struggling to attract experts
+with knowledge and skills that would allow them to run their businesses
+safely. Their problem is in the shortage of cybersecurity skilled workforce on the market and the rise of the experts salary. These needs and
+findings are backed by the results of a large workforce study by the
+Cybersecurity Certification and Training Organization and other institutions [7].
+Failure to address this problem impacts negatively on the capacity of
+the business sector and other parts of the modern, digitized society to
+successfully react to the rising number of cybercrime cases [8]. Cybersecurity skills are becoming very important as the digital economy’s
+winners and losers will be determined by who has these skills. The European Union (EU) General Data Protection Regulation (GDPR) that
+came into effect in May 2018 requires much more attention to be paid to
+data security in every data-processing or information system, as before.
+Due to the skills shortage many organizations find themselves unprepared for a compliance GDPR as the ICT practitioners are usually not
+aware about the GDPR requirements and how to apply them. Several
+GDPR webinars conducted in the EU in 2019 have shown that 60% of
+businesses are underprepared for GDPR, a figure which is low in comparison to research conducted in 2020 by computerweekly.com [9]
+which put the figure as high as 90%.
+Another problem in this area is that the skills required for security
+professionals are changing at a faster pace than usual within advancedtechnology fields, due to the changes introduced by the new digital
+technology and fast digitalisation of the society. The research into Information communication technologies (ICT) skills conducted annually
+by the Enterprise Strategy Group [9], has revealed that the skills gap in
+cybersecurity continues to widen and has doubled in the past five years.
+The percentage of answers where organizations reported a shortage of
+skills rose from 23% to 51% in just two years. This issue is being felt
+across many industries and organizations, and concern extends much
+beyond regular ICT education and skills building. What appears to be of
+even greater concern was revealed in a survey carried out by Tripware
+[10]. This survey not only revealed that the skills gap is growing, but
+that it is getting harder for industry to find and then hire skilled
+cybersecurity professionals. Cybersecurity Ventures [11] has also
+reviewed and synthesized dozens of employment figures from the
+media, analysts, job boards, vendors, governments, and organizations
+around the world, with the aim to predict the number of cybersecurity
+job openings over the next 5 years. Their prediction for 2021 is that
+there will be 3.5 million unfilled cybersecurity positions on the world
+labour market. These numbers indicate that cybersecurity job forecasts
+have been unable to keep pace with the dramatic rise in cybercrime and
+the need for more cybersecurity professionals. Cybersecurity Ventures
+predicted that lost due to cybercrime would cost six USD trillion annually by 2021, up from three USD trillion in 2015 [11].
+Similar numbers relating to the world’s cybersecurity skills gap were
+reported by many familiar ICT industries (Telecom, Finance, Transport,
+Defence, e-Health), and companies like Intel, Symantec and others [12].
+The problem is wide-ranging and clear, and it needs to be addressed.
+Both the higher-education institutions (HEIs) and the professional education providers are working to address the increased skills shortage, but
+as reported by ECSO, the European CyberSecurity Organization paper
+[13] and by other organizations [14,15], cybersecurity should be
+viewed as an emerging meta-discipline that is not simply an ICT academic area. This finding comes from the inspection [13] of the HEI
+programmes contents for which was found to be focused mainly on the
+traditional cybersecurity topics. Modern learning methodology with
+hands-on training and range platforms that build skills in HEI was left
+behind [16].
+The demand for cybersecurity skills in the industry sectors also
+makes it difficult for academia to attract academics to join the HEI, with
+knowledge, practical experience, a research background and academic
+aspirations. Another problem that needs to be addressed in combating
+the current cybersecurity skills shortage is the understanding of the
+diverse needs in this field that have developed with the digitalisation,
+which should be used to shape the curriculum of cybersecurity educational programmes. The rapid evolution of cybersecurity attacks coupled
+with the static nature of academia has contributed to the emerging
+discrepancies between the knowledge taught in educational programmes and the skills expected by employers, thereby contributing to
+the growing gap in the skills of cybersecurity professionals [17,18]. The
+need to build and upgrade the knowledge, skills and capacity in the area
+of cybersecurity has led to the establishment of a number of strategic
+policy initiatives by several governments like by the UK Cabinet Office
+[19] ] along with the setting up of cybersecurity competence centres at
+the European Union level. CEN (Comit´e Europ´een de Normalisation) has
+provided recently in 2020 certification schemes for cybersecurity skills
+and competences based on the Role Profiles in the work place [20].
+Other international initiatives, such as the Information Assurance and
+Security Program by the USA’s National Initiatives for Cybersecurity
+Education - NICE [21,22] and the European Union Agency for Cybersecurity (ENISA) [23] launched as well actions with the tasks of collecting data about the existing cybersecurity educational offers and with
+an aim to propose appropriate changes for improving the current state.
+This paper presents and discusses widely the actions undertaken to
+support the development of a new cybersecurity educational landscape
+in the EU and aims as well to find out whether these actions help an
+answer to the shortage of cybersecurity skills workforce to be found.
+The paper is organized as follows. The next section provides a brief
+overview of previous studies and theoretical approaches. The applied
+methodology is presented in Section 3. Short overview of the results are
+presented in Section 4. The same section introduces the actions of EU
+industry gathered around the Concordia cybersecurity competence
+centre from the European Program Horizon 2020 [24] and the ECSO
+organization [13]. The analysis of the collected data about the programmes of the EU HEIs in the area of cybersecurity and the proposed
+recommendations are presented in Section 4.2. Findings about the current accreditation systems for cybersecurity educational programmes
+are presented in Section 5.1. Section 5.2 presents and discusses the
+certification schemes for cybersecurity competence. A discussion about
+the findings is provided in Section 6. The process of building a new
+cybersecurity ecosystem in the EU is commented in Section 7. The paper
+ends with a concluding section.
+2. An overview of previous work
+Cybersecurity encompasses a broad range of specialty areas and
+working roles, and this is the reason that no single educational programme can cover all of the specialized skills and sector-specific
+knowledge desired by each employer. However, there are certain
+knowledge sets and skills that are essential for any new employee in his/
+her critical technical working role, dealing with cybersecurity, regardless of the ICT field they are educated in or the cybersecurity special area
+they are or will adopt. This includes an understanding of basic computer
+architectures, data, cryptography, networking, secure coding principles,
+and operating system internals, as well as working proficiency with OSs,
+fluency in low-level programming languages, and familiarity with
+common exploitation methods and mitigation techniques.
+Having in mind the broad range of speciality areas, it is not surprising that cybersecurity education has been addressed differently by
+the various countries building cybersecurity strategies with their
+different emphases. The educational part of these strategies is mostly
+formulated as strategies for improving the general state of cybersecurity,
+which also includes education. This includes the US Department of
+Homeland Security, the US National Institute of Standards and Technology (NIST) [25], the US National Security Agency (NSA), the UK
+Government Communications Headquarters (UK GCHQ), the United
+Nations (UN), the European Union (EU) and think tanks from international professional organizations like the Association for Computing
+Machines (ACM), and the International Federation for Information
+B.J. Blaˇziˇc 
+Technology in Society 67 (2021) 101769
+3
+Processing (IFIP). In the US, the National initiative for Cybersecurity
+Education NICE was created with the aim to improve the long-term
+cybersecurity position of the USA [21]. NICE addresses awareness,
+formal education, professional training and workforce structure. However, employers in the US are still finding that the graduates from US
+HEIs are lacking the NICE foundation. One recent response from a major
+corporation to a request for information issued by NICE indicated that
+“the current education environment does not provide a common baseline set of skills from which to build the specific knowledge necessary for
+meeting the employer’s workforce requirements”. Another body, NIST,
+has developed a common language (lexicon and taxonomy) to be used
+by academia, industry and government for dealing with cybersecurity
+content [26]. However, experts have found that the proposed terms are
+tediously dense, making it difficult to apply the included guidelines from
+the instructors and the instructional designers [27]. Despite that criticism, the use of selected portions of the NIST framework has impacted
+on the way cybersecurity education is being conducted today in most of
+the developed countries. The EU adopted a cybersecurity strategy in
+2013 [28], where education was addressed as well. ENISA as the
+Cybersecurity Agency was set up a few years earlier with specific tasks to
+be performed in the area, like enhancing awareness and providing information and guidelines for an effective cybersecurity education. In
+December 2019, ENISA delivered an exhaustive report describing the
+state of cyber-skills development in the EU [29] stressing the
+ever-growing lack of cybersecurity skills and cybersecurity professionals
+in most of the EU’s Member States. In the second decade of 21st century
+enhancing the cybersecurity education and skills has become one the
+four main components of the UK’s national programme for ensuring a
+secure cyberspace [19]. The current UK cyber policy is incorporating
+cybersecurity at all levels of education, starting at the age of 11 years
+[30]. Other developed nations, like Australia and New Zealand, have
+launched similar strategies and approaches [31]. However, most of the
+EU countries were left behind due to the uneven distribution of educational programmes in cybersecurity and the late restructuring of the
+cybersecurity programmes’ content among the EU HEIs.
+Several researchers [32,33] have reported that the HEIs’ cybersecurity programmes in the EU, despite the adopted strategies, are
+emphasizing cybersecurity-policy planning, compliance audits, and
+other skills, which ultimately have less impact on the security position of
+an organization than the tasks enabled by a deep technical background.
+They also point out the lack of a faculty able to teach security and the
+lack of teaching resources. The majority of studies have consistently
+pointed out that some tasks, like penetration testing, secure system
+design, incident response, and tool development, represent the greatest
+need in terms of the knowledge required by the ICT employees of an
+organization [34]. These roles can only be filled by workers that have
+mastered computing fundamentals and have a detailed understanding of
+how an organization’s information systems operate [16]. How to provide effective cybersecurity education was also discussed by McGettrick
+[18]. More recent works on the subject have been provided by Ackerman
+[4], Catota [35] and Ruiz [30]. Conklin and collaborators [36]. They
+have as well identified that the biggest concerns in cybersecurity education are the students’ lack of hands-on experience, resulting in a skills
+mismatch between what industry would like to see in a candidate for
+employment and the skills that the candidates actually possess after
+graduating.
+The recent actions launched by the European Commission to
+improve the overall situation in cybersecurity labour market clearly
+addresses the changes that should be made by the EU’s educational
+stakeholders for narrowing the gap in cybersecurity labour skills. The
+central theme of the efforts is how to combine the training with
+appropriated educational curricula for provision of necessary skills and
+competence. The research presented in the sections that follow is
+attempting to find answers to the following questions: “is the current EU
+HEI system ready to provide graduate students with the required
+cybersecurity skills and competences?” and “if the new approach of
+defining courses for the market and the new developed certification
+schemes specifying the competences for the work roles in the area of
+cybersecurity help the industry’s needs for cybersecurity skills to be met
+by the EU educational system?” In looking for answers to these questions, the research presented in this paper is analysing the key missing
+items in the on-going cybersecurity educational programmes in both
+sectors: the market-based education providers and the HEI programmes
+EU. The study presents the actions undertaken, the emerging results and
+elaborate on the expectation the main goal to be met: improving the
+cybersecurity education within the EU and narrowing the skill gap.
+3. Methodology
+In order to build knowledge, skills and capacity in cybersecurity, as
+required by European employers in the area of cybersecurity, four
+competence centres were established in 2019 by the European Commission with the mission to provide leading research, technology, industrial and public competences. Leaderships in technology, processes
+and services for establishing a user-centric EU-integrated cybersecurity
+ecosystem for digital sovereignty in Europe are the main objectives of
+the competence centres’ work. Two of the established centres, Concordia [24] and Cybersec4Europe [37], have also specified tasks that are
+focussed on re-shaping the cybersecurity educational ecosystem in the
+EU. There are 52 participating partners in the Concordia centre coming
+from both sectors, industry is represented by 26 entities and HEIs by 21
+universities with additional 5 research centres, from all over Europe and
+Israel. The focus of the educational tasks and efforts of Concordia team is
+to develop a new cybersecurity educational ecosystem for industrial
+needs, while Cybersecurity4Europe, with 40 partners from industry, HEI
+and public institutions, where the number of European HEI is dominating, is focused to help in the restructuring of the EU’s HEI programmes. Both approaches are intended to contribute to the
+development of a new cybersecurity educational landscape in Europe,
+with the main underlying goal being to narrow the cybersecurity skills
+gap and to answer to the needs of an increasingly digitized society.
+The starting points for identifying the problems and for collecting the
+relevant data were the surveys carried out by both competence centres
+all over Europe. Intensive cooperation to identify the needs was set up
+with ECSO where most of the cybersecurity competence centres partners
+are members and ENISA. The participating organizations provided inputs for the final reports produced from the collected surveys’ results.
+The findings were then used to design the approaches for EU cybersecurity educational ecosystems’ re-shaping and for the preparation of
+recommendations for the development of more diverse curricula in HEI
+oriented to answer identified needs. Special focus deserved the study of
+the emerging certification schemes in EU for competence and cybersecurity skills. Any findings from the exploratory research study such are
+the surveys carried by both centres and ECSO need to be compared with
+the findings addressing the same topic in other part of the world, and
+this approach is applied in Section 5 and 6. Section 7 discusses whether
+the current findings of the studies are promising and will probably lead
+to the cybersecurity educational landscape in the EU to change.
+Data for this paper was sourced through the work of the Concordia
+project team. This survey provided data about the cybersecurity needs
+within industrial sectors. It was carried out between April and October
+2019. European companies from the selected industry sectors (Telecom,
+Finance, Transport, Defence, e-Health) within the LinkedIn network
+were approached, with the inquiry addressing the type of cybersecurity
+types/profiles of job openings they have and the needed cybersecurity
+skills for building a career within different industrial sectors. In addition, a market search was made about the courses offering cybersecurity
+education by different professional education providers on the market.
+The outcomes were used to design the five pillars of cybersecurity areas
+with courses prepared for the selected industry sectors. Access to the
+data collected by the Concordia team was based on partnership status
+and active participation in Task 3.4. dedicated to establishing European
+B.J. Blaˇziˇc 
+Technology in Society 67 (2021) 101769
+4
+educational ecosystem for cybersecurity. The study about the existing
+certification schemes and the educational programme accreditation was
+carried out in from June to October 2020. Membership in ECSO enabled
+the access to other survey data addressing the necessary cybersecurity
+skills within the EU industrial sector carried by ECSO working group.
+The Cyber4Europe competence centre’s survey targeted MSc
+educational programmes teaching cybersecurity in the EU Member
+States. More than one hundred MSc programmes from 28 countries were
+inspected from the end of 2019 to January 2020. The survey’s questions
+were sent to HEI study heads, being part of the Cybersecurity4Europe
+partnership network and the data from the HEI level educational map
+developed by ENISA were used as well. The goal of the survey was to
+find the set of cybersecurity knowledge areas and topics that are not
+sufficiently covered or are missing from the EU’s educational programmes and in the existing cybersecurity curricula. Access to these
+data was based on cooperation with the Cyber4Europe partnership
+network and by participation in the survey. Accreditation and certification data were taken from available public sources as well from the
+ENISA portal.
+4. Results
+4.1. Cybersecurity education and training shaped according to the
+industry needs
+The need to match the cybersecurity candidates with the requirements for available jobs was put on the table few years earlier from
+the competence centre’s actions by the leading European industry and in
+other regions in the world. The investigation from PriceWaterhouseCoopers [38] on the studied subject disclosed that the failed hires for
+cybersecurity jobs lowered the workforce’s moral and lengthened the
+hiring time lines, thereby introducing additional employer’s costs [39,
+40]. One-third of surveyed executives revealed that the inefficient
+skills-matching among the candidates was the leading cause of failed
+hires. Another pilot study was carried out in 2020 about the indusial
+needs by the European Cybersecurity Organization [41] where the
+majority of the industrial partners of Concordia and Cybersec4Europe
+competence centres are members. Additional support was provided by
+the third competence centre in cybersecurity ECHO [42] from the EU
+H2020 program. The survey intended to discover what kinds of
+competence and skills development are required by industry and
+whether these competences can be acquired through exercise and
+cybersecurity ranges, offering a simulation of the real environment.
+Cybersecurity range in this context is understood as a platform for the
+development, delivery and use of interactive simulation environments
+[41]. A simulation environment is a representation of an organisation’s
+ICT infrastructure that includes mobile and physical systems and applications. User activities and any other internet, public or third-party
+services as well potential simulated attacks are part of the platform.
+The technology areas identified by the participating industry sectors
+where cybersecurity skills are most needed are presented in Fig. 1.
+The responses from the surveys showed that cybersecurity is understood as an important part of the business. The results pointed also to
+several gaps in the organizational capabilities and of the employee’s
+skills required for implementing cybersecurity rules and tools in
+everyday business life. In general, the preparedness and mitigation with
+respect to cybersecurity threats were estimated to be as low as 39%.
+Most of the responders reported that they have provided forms of insurance to cover the losses in the case of cyber-attacks. The surveys
+confirmed that the required skills are not uniform, as different skills
+requirements were identified by each sector and, as a consequence,
+different approaches by the participating organizations to tackle them
+were expected. One common feature was that the competence and skills
+development can be achieved more successfully with use of the cyber
+range services. Some of these services are offered by the European
+Cybersecurity Hub and the use of the Cyber Range Market Place, which
+was assessed as a potential trusted solution that connects supply and
+demand for an applicable cyber-threat intelligence solution for education and training.
+The development of the Concordia eco-education system started with
+building a portfolio of cybersecurity courses that are offered by different
+categories of industry addressing the education of cybersecurity professionals, such as technologists, mid-level managers, and executives.
+The final goal of this activity was to prepare a cybersecurity-specific
+methodology for the creation of new courses by using independent
+modules of knowledge with a broad range of content as an answer to the
+various industrial needs for cybersecurity skills. The methodology for
+developing courses was created to serve as a tool that enables a creation
+of specific cybersecurity courses with typical cybersecurity topics and
+content for different types of cybersecurity experts. The course modules
+can be combined in a course that cover the knowledge needs of different
+types of employees that have different roles. For example, for middlemanagers leading ICT departments that need to know about the new
+practical techniques for attack prevention, and in the case of an attack,
+to get the capacity to react quickly and enable a rapid recovery are
+allocated in the module prepared for them. Middle managers that are not
+leading ICT departments need to understand the general risks and
+methods that protect the company’s ICT and other facilities, so the
+module dedicated to them is to teach how to recognize the risk and act in
+the case of an incident. Executives are another group for which was
+found to have a general understanding of the cybersecurity area and its
+impact on business, investment and insurance. Other findings from the
+survey data was that non-ICT employees are not very interested in
+developing cybersecurity skills, although they are frequently asked by
+the employers to have basic knowledge in the cybersecurity area in
+order to be able to understand the challenges and to react properly in the
+case of an incident. General employer’s opinion was they also need to
+attend specific courses that address cybersecurity. According to the
+Concordia and ECSO survey data extracted from the industrial employers answers the demand for experts has high numbers in the group
+of mid-senior manager level, associate technologist level and entry
+expert level. Regarding the country demand the highest demand for
+experts was found to be within the most developed countries in EU:
+Germany, UK, Netherlands, France, Spain, Ireland, Italy and Belgium.
+The Concordia centre study revealed that there are a plethora of
+courses on the market addressing the cybersecurity professional. Most
+known are the free courses offered within the MOOC platform [45]. For
+employees the offered courses are attractive, especially the on-line
+courses, as they offer control over the time spent studying the material
+and make it possible to accommodate the education according to the
+professional business engagement. Face-to face courses for middle and
+senior managers or executives, or specific training within the cyber
+ranges for technical experts, have been found in the study to be popular
+and frequently attended. The Concordia and ECSO surveys have identified several learning platforms on the market with cybersecurity content. Among them, the following are very popular:
+- Coursera1 – has 33 million users and has in its portfolio about 50
+courses on cybersecurity, with most of them addressing introductory
+topics.
+- edX2 platform – has 14 million users, who are offered only around 30
+cybersecurity-related courses
+- LinkedIn Learning3 - a learning platform with 9.5 million users, hosts
+around 120 courses on cybersecurity, with half of them addressing
+an intermediate skill level, closely followed by courses aimed at
+developing basic skills
+1 https://www.coursera.org/. 2 http://www.edx.org/. 3 https://www.lynda.com/.
+B.J. Blaˇziˇc 
+Technology in Society 67 (2021) 101769
+5
+- Cybrary platform4 offers to its 2 million users about 500 cyberspecific video courses for professionals to develop their careers,
+but also for businesses in view of workforce development.
+- IASACA5 [Information Systems Audit and Control Association] provides online, offline and mixed courses at different levels [foundation, practitioner] for both information security and cybersecurity,
+including courses for cybersecurity auditors. The courses are sanctioned by certifications.
+- Udacity platform6 – has 8 million users, but has only a small number
+of security/cybersecurity courses.
+- Cyberwiser7 is offering the “Civil Cyber Range Platform as a novel
+approach to Cybersecurity threats simulation and professional
+training”. It was launched at the end of 2018 and benefited from
+H2020 funding. The platform aims to provide a set of innovative
+tools for highly detailed exercise scenarios, simulating ICT infrastructures intended for use in cybersecurity professional training,
+together with tools and solutions that simulate cyberattacks and
+defensive countermeasures.
+Although the above listed cybersecurity educational platforms in EU
+are addressing the same market, it should be noted that each platform
+has structured the content of the courses based on the education provider model, and without having any reference to any common
+competence or skill framework. Having this in mind, a comparison of the
+different offers and their attractiveness becomes difficult. Some common
+content was identified and it was presented by the Concordia team in the
+form of five cybersecurity pillars that emerged from the analysis of the
+skills adoption that specific courses are providing for specific application
+areas of the cybersecurity. The areas were defined according to the data
+driven model [42]. The pillar’s content development has its source in the
+60 courses collected during the two-months study carried in 2020. The
+identified five pillars are presented in Fig. 2. The pillars address the skills
+related to the following ICT areas: software, networks, data application,
+devices and user behaviour.
+The software content within the five pillars is centred on topics such
+as middleware, secure OSs and security by design, malware analysis,
+system-security validation, detection of zero-days and recognizing
+service dependencies. The network-security content refers to the transportation of data as well as to data within the networking and the underlying infrastructure. Data-application security addresses issues like
+data visualization, while other topics range from DDoS (Denial of Service attacks) protection, to software-defined networking [SDN], and to
+encrypted-traffic analyses. Security of applications like cloud services
+are also addressed. The device security deals mainly with data acquisition and the devices that produce raw data in embedded systems, by
+sensors, drones and other security-centric issues, such as IoT security.
+User behaviour is the least-addressed topic that includes privacy, social
+networks, fake news, and identity management.
+Most of the content reported by the education providers was
+designed and selected to meet the needs of a corporate audience, mainly
+for the technical team members, but also for the managers of the non-IT
+departments and the senior management group. The courses are usually
+offered as a face-to-face model, but some time they are also dedicated to
+on-line delivery and as a blended format using cyber range environment.
+Later the initial set of courses was augmented and altogether, 70+
+courses were published on the Concordia [42] interactive educational
+map, which is available on the Concordia website [46]. The attempt to
+provide a roadmap resulted as a proposal for an educational ecosystem
+prepared for the five selected industry sectors. It is based on the identified pillars and presented on Fig. 3.
+4.2. The cybersecurity higher-level cybersecurity educational programmes
+and the missing topics
+According to ENISA and other stakeholders in the field, European
+labour market needs to ensure a sufficient number of skilled engineers,
+scientist and practitioners in all areas of cybersecurity. Most of these
+groups have to be educated by the HEI and are expected to support and
+lead solutions to the current and future industrial, scientific, societal and
+political challenges in the area of cybersecurity. In a search to see
+whether the current educational system is capable of providing graduate
+students at M.Sc. level with the required cybersecurity skills, two surveys were organized to deliver an answer: one was launched by the
+competence centre Cybersecurity4Europe [37] and the other by ENISA.
+The Cybersecurity 4Europe survey has investigated the content provided
+in the tertiary education level in EU awarding master degrees in
+cybersecurity [16]. M.Sc. educational level within the European HEI
+offers programmes dedicated to cybersecurity as the undergraduate
+level in the Bologna educational system introduced in EU several years
+Fig. 1. Technology areas where cybersecurity skills are most needed identified by the participating EU industry sectors.
+4 https://www.cybrary.it/. 5 https://www.isaca.org/pages/default.aspx. 6 https://www.udemy.com/. 7 htttps://www.dpoconsultancy.com/.
+B.J. Blaˇziˇc 
+Technology in Society 67 (2021) 101769
+6
+ago does not provide specific educational programmes in the cybersecurity, as some knowledge units belonging to cybersecurity areas are
+thought within the computer science undergraduate level. The two
+surveys offered information about the kind of content present in the EU’s
+HEIs programmes and how this content is aligned with the much-needed
+cybersecurity skills and competence. The terminology used in the study
+was based on the ACM Cybersecurity Curricula [48] and the one suggested by the National Initiative for Cybersecurity Education within the
+Cybersecurity Workforce Framework [26], but missing items were also
+included from the NICE framework for cybersecurity education [21].
+The final number of topics was extended with topics from the knowledge
+area named “Customer Service and Technical Support” that was found to
+be missing from the ACM framework.
+The collected data from 104 educational programmes in most of the
+EU member state universities with M.Cs programmes in cybersecurity
+were then analysed to find out whether the required topics that build
+cybersecurity skills are sufficiently well or are not at all covered within
+the HEI programmes of a particular EU Member States. The number of
+Fig. 2. The five pillars as identified by Concordia cybersecurity competence centre.
+Fig. 3. The roadmap for the evolving cybersecurity education ecosystem where hats are representing the courses.
+B.J. Blaˇziˇc 
+Technology in Society 67 (2021) 101769
+7
+HEI cybersecurity programs found in the large countries was smaller due
+to the presence of a large number of higher-level educational organizations, compared with the smaller countries there were just one or two
+programmes.
+In general, the analysis of the collected data showed that all
+knowledge units specified in the survey are covered in the mandatory
+courses that were provided by the HEIs participating in the survey. The
+higher frequency of present topics was shown by units belonging to data
+security (cryptography, digital forensic, data integrity and authentication). These topics were present in 92% of the studied programmes that
+are mandatory and in 46% in courses that are not. 84% presence among
+the programmes was found for topics addressing connection security
+(hardware architecture, distributed systems, network architecture).
+System security was present in 75% of the studied program with topics
+like common system architecture and system management. The main
+lack of sufficient coverage within the studied programmes was found in
+the area of organizational, human, social, operate and maintain subjects
+which is reflected in the missing skills for managing and operating the
+systems. This finding is in line with identified missing topics within the
+courses offered to the industry that focus mainly on technical aspects.
+Not sufficiently covered are the Customer Service and Technical Support, Organizational Security address Risk management, Policy and
+Administration, Human and Social Security, Cybercrime, Privacy and
+Social engineering. The same applies to some topics of utmost importance in areas like Privacy by design, which was found in only 30% of
+the mandatory courses. Additional topics that are not well covered were
+also the Documentation area which is related to cybersecurity as it was
+found to be present in only 15% of the programmes. The major concern
+the study revealed was that the national coverage was that the offered
+education in EU is not homogenous, as large countries have much more
+programmes with more diverse content than the smaller ones. Large
+countries show as well greater coverage of the required framework
+knowledge units. For example, Spain, France, Germany and Italy cover
+75% of knowledge units specified in the survey by their mandatory
+courses. Countries with better coverage of the topics tend to have also a
+more uniform distribution of each knowledge area, whereas countries
+with lower coverage of the knowledge areas exhibit a more unbalanced
+distribution of the topics in their programmes. For more details please
+refer to the Cybersec4Europe Report [37].
+ENISA produced in 2019 the Cybersecurity EU Educational Map with
+the list of educational programmes in cybersecurity [29]. This version
+was renewed in 2020 with a description of the introduced user interface
+for more friendlier user interface. The main purpose of the map is its
+content to become the premiere source of information for EU citizens
+looking for updating of the cybersecurity knowledge and skills. In
+following this goal, the map was designed as a tool providing links to
+qualitative educational programmes with degrees in cybersecurity and
+therefore enabling better access to the available knowledge. The current
+data collected in the database provides 105 programmes from 23
+countries. The map is available on-line on the ENISA portal.
+The ENISA map lists cybersecurity programmes from EU, EFTA, and
+other European countries and is now considered as a point of reference
+that allows talented young people to make informed decisions about the
+variety of possibilities offered by the EU higher education in cybersecurity and helps the universities to attract high-quality students motivated to keep Europe cyber-secure. The map enables search by country
+where the programme is held, by language used in the education of the
+programme, type of programme, e.g., master degree, postgraduate PhD
+course, the type of delivery method, e.g., classroom, blended or as online course. The selection of programmes is supported as well with the
+information about the requested fee. The list of educational programmes
+in the map is not closed, as a protocol is provided for further additions.
+Any higher-education institution can submit a recognized (by an EU
+Member State or EFTA country) programme by submitting the degree’s
+information with the dedicated ENISA template. If the programme meets
+the basic quality-assurance parameters, the degree is accepted. Each
+degree becomes “out of date” after one year from the submission date as
+the submitter is responsible for updating the degree information each
+year. The requirements for the inclusion of a programme in the database
+are as follows: for a bachelor degree, at least 25% of the taught modules
+have to be cybersecurity topics; and for a master degree, at least 40% of
+the taught modules have to be cybersecurity topics. For a postgraduate
+specialization programme, at least 40% of the taught modules must be in
+cybersecurity topics and the programme must have a minimum of 60
+ECTS. However, these requirements are just the basic information about
+the cybersecurity educational programmes in the EU and EFTA countries
+and will not, on their own, solve the skills shortage in Europe.
+The major drawbacks regarding adequate education and training in
+cybersecurity is presented in an another ENISA report from 2020 year
+[23]. The report points to the lack of strong interactions during the HEI
+education with the industry. The identified barriers have mainly source
+in the lack of technical support and funding availability. An important
+finding in the report, is the poor understanding of the cybersecurity
+labour market and the fact that EU HEIs do not understand correctly the
+requests of employers for manpower with the necessary cybersecurity
+skills. A major factor that prevents good cybersecurity education is
+found to be the lack of specialization of the HEI teachers and the lack of
+feedback from the cooperation with industry in cases when it is present.
+The ECSO study from 2020 [13] clearly stresses that it is necessary the
+cybersecurity professionals to understand all the disciplines that make
+up the area of cybersecurity, ranging from more technical topics to the
+subjects from social sciences. Most of these findings lead to the
+conclusion that a sharper definition of the knowledge and skills a student graduating in cybersecurity should possess have to be specified
+more exactly and clearly. Activities like training and practice should
+take place during and after a student’s graduation. One step towards that
+goal could be a common accreditation and educational standards that
+follow the knowledge specification within the certification schemes
+being recently developed in EU. This may help the EU HEI current
+educational programmes to be adopted in line with the labour market
+expectation.
+5. Accreditation and certifications
+5.1. National accreditation schemes of the HEI programmes
+Studies presented in the previous chapters and the one by Dawenport
+[48] and Malan [49], have shown that a degree in cybersecurity can
+cover a wide spectrum of disciplines, depending on the area of emphasis
+of the educational programme. Many substantially different degree
+programmes all over the world are taking on the “cybersecurity” title or
+another similarly generic name that may mislead the potential students.
+Due to the existing variety within the current programme and degree
+names, distinguishing a cybersecurity programme using some scheme of
+accreditation and certification appeared to be necessary in shaping the
+new educational eco-system. Such schemes helps in classifying the skills
+and the related competences. The latest studies from Dawson and
+Thomson [50] have also discussed different views on the cybersecurity
+educational subject, like the impact of necessary skills beyond the
+technical area of cybersecurity that are expected to have a major impact
+on the future workforce skills. Having this in mind, it is not surprising
+that some large countries (Australia, USA, UK and France) have established accreditation schemes for their national cybersecurity degrees
+that include items that are not directly technical. They award accreditation by attesting whether the degree meets the standards and criteria
+that a group of experts have decided are necessary to obtain a degree
+that focuses on cybersecurity. These accreditation are overseen by the
+countries’ main national cybersecurity institutions, i.e., the Agence
+Nationale de la S´ecurit´e des Syst`emes d’Information (ANSSI) in France,
+the Department of Homeland Security (DHS) and the National Security
+Agency (NSA) in the United States, and the National Cyber Security
+Centre (NCSC) in the United Kingdom. The exception being Australia,
+B.J. Blaˇziˇc 
+Technology in Society 67 (2021) 101769
+8
+where the process is supervised by the Department of Education [31].
+In France, the cybersecurity degree programme is labelled according
+to the SecNumedu committee that labels programmes according to the
+rules maintained by ANSSI. The main purpose of such labelling is to
+inform students and employers that the university degree in cybersecurity meets the required criteria for teaching and training defined by
+ANSSI’s experts. These criteria have been developed by ANSSI in partnership with industry, academia, professional associations and the
+Ministry of Education. The accredited accreditation lasts 3 years. The
+programme is considered to be predominantly technical when more
+than 50% of the course is dedicated to practical technical activities, and
+when the practical technical activities account for less than 50% of the
+course, the programme is regarded as predominantly organisational.
+The higher proficiency levels require practical activities to be included
+in the programme, such as laboratory work, and this has to last for at
+least 50% of the course. Training is considered predominantly technical
+when more than 50% of the training by the course is dedicated to
+practical technical activities. If they are less, the course is allocated to
+the organizational group of courses. Currently, 13 master degree, 7
+master specialisations, 17 engineering (including one engineering
+specialist) are labelled in SecNumedu and published on ANSSI’s website.
+In the United Kingdom, the National Cyber Security Centre [52] and
+its experts certify bachelor, integrated master and master degrees, as
+well as apprenticeships. The NCSC provides either a provisional or a full
+accreditation, which is valid for 5 years. To receive it, the programmes
+must be focused on the main cybersecurity domain, while emphasizing
+also the multidisciplinary scope of the programme. Furthermore, the
+programme needs to be aligned with the United Kingdom’s cybersecurity needs. It should detail also how the admission process for students
+will take place and what kind of profiles meet the national cybersecurity
+strategy. Evidence is also desired for the successful delivery of a master
+or a doctoral course and the production of scientific research, as well as
+the provision of external training. Engagement with industry and users
+should be part of the planned activities, together with dissemination
+activities and outreach strategies. Besides NSCS, in UK other professional bodies are developing certification schemes for cybersecurity in
+the last decade. One of them, BCS, the Chartered Institute for IT and the
+Institution of Engineering and Technology (IET) accredit programmes in
+the general area of computer science and the more specialist area of
+cybersecurity disciplines [53]. The accreditations provided by these
+institutes are underpinned by international initiatives such as the
+Washington Accord [54], and the Seoul Accord [55]. These memoranda
+support the internationalising of the prepared curricula and promote
+consistency and parity in computer-science education globally.
+In the United States, the NSA and DHS jointly sponsor the Centres of
+Academic Excellence (CAEs) in cybersecurity that started with activity
+in 2019. Their experts and professionals provide opinions for each
+programme that seeks accreditation. There are two types of CAE: the
+cyber defence (CAE-CD] and the cyber operations (CAE-CO) accreditation. There are currently 272 institutions in the United States that are
+recognized as CAEs-CD. Depending on the level of the programme, organizations must meet different criteria. For example, for a CAE-CDE
+bachelor, master, or doctoral designation an organisation should submit documentation about the delivery of a cyber-defence curriculum
+over the previous three years from the application date, student skills
+development and assessment, details about how the development of
+scholarly skills are performed, information about the courses requiring
+laboratory exercises/hands-on assignments, student’s participations in
+cybersecurity competitions and how the programme facilitates interactions with cybersecurity practitioners. It is clear from the CAE
+scheme that the cybersecurity should be taught in a multidisciplinary
+manner and should be integrated into other degree programmes of the
+academic institution. Outreach and collaboration activities that go
+beyond the institution and the CAE community and industry should be
+provided as well. The CAE in cyber operations (CAE-CO) programmes is
+complementary to the CAE-CD, with the aim of supporting the National
+Initiative for Cybersecurity Education [21]. This programme has a
+strong foundation in computer science, computer engineering and
+electrical engineering, and is particularly devoted to the study of technologies and tools enabling cyber operations such as collection,
+exploitation and response [51]. The programme must include 100% of
+the mandatory academic content of the cybersecurity knowledge unit
+and 10 out of the 17 available optional content units. The curriculum
+must expose students to the policy, social, legal and ethical aspects of
+cyber operations and it can include courses from multiple colleges
+within the university. Currently there are 21 CAE-CO designated institutions, 13 providing bachelor courses and 8 providing master courses. Institutions can apply for accreditation either for the fundamental or
+the advanced programme.
+A common property of the presented accreditations is that they are
+awarded to degrees that provide an adequate number of taught courses
+and activities that are specific to cybersecurity area. Although the
+accreditation schemes do not offer guidelines for changing the curricula
+for meeting the needs for better equipped graduated students with
+knowledge and practice, they are still considered as a framework that
+provides an adequate number of high quality courses and activities that
+are specific to the cybersecurity area, even when a broader interdisciplinary focus in the programmes is maintained. Accreditation also enables, in great detail, visibility with regard to how the cybersecurity
+education is provided and the quality of the faculty engaged in the education. Accredited programmes provide as well the competence that a
+student adopt with graduation. However, the main problem in the EU
+educational ecosystem in cybersecurity is the lack of general accreditation scheme for the cybersecurity programmes like one developed in
+France, UK and USA and more even distribution of the accredited programs among the member states.
+5.2. Skill and competence certification and in the area of cybersecurity
+Presenting certification schemes produced by standard organization
+for defining the Roles and Role profiles in an organization for performing specific cybersecurity tasks and responsibility requires clear
+definition of the used terms. Currently known adopted terms applied in
+the definitions of the cybersecurity Role profile are as follows:
+Competence is related to knowledge for achieving observable results;
+Skills are defined as ability to use know-how and expertise to complete
+tasks and solve problems, sometimes it is defined as competence to
+perform a learned psychomotor act; Knowledge is defined as body of
+facts, principles, theories and practices related to particular field of work
+or study; Role and Role profile is derived from an organisational
+assignment to an employee and its profile is related to specific activities
+or tasks; Task is a specific piece of work combined with other task
+composing the work in a specific speciality area.
+In EU there are two adopted CEN (Committee European for Norms)
+documents in 2018 and 2020 that provide references and competences
+for the Role profiles in the ICT area. The first CEN standard document EN
+16234–1 (e-CF) [56] is implementing the European Qualification
+Framework (EQF) for work place profiles in the ICT area. These profiles
+are based on 41 defined competences, skills and knowledge required for
+performing jobs in the ICT sector. The second document, known as EN
+16458 is identifying the EU ICT Professional Role Profiles. The Incorporation of the competences defined by EQF produced 30 ICT professional Role Profiles descriptions. Among them there are only four Role
+Profiles dedicated to the cybersecurity area. They are: Cybersecurity
+manager, System administrator, Network specialist and Cyber Security
+Specialist. Another relevant document for the area was produced by EU
+Commission and is known as ESCO document (European skills, Competences, Qualifications and Occupations). The document provides
+multi-lingual classification of skills and competence which is of high
+importance for a multi-lingual EU for enabling easier workforce and job
+mobility. The document provides definitions for 2942 occupations and
+13.485 skills linked to these occupations. Occupations in the
+B.J. Blaˇziˇc 
+Technology in Society 67 (2021) 101769
+9
+cybersecurity addressed are: ICT security administrator, ICT security
+consultant, Chief ICT security officer and ICT security manager, Director
+of compliance and information security in gambling, ICT security
+technician. All essential skills and competences as well the knowledge
+required by any of the specified occupations are very clearly described.
+Competence and Role profiles in USA are addressed by the NICE
+initiative. NICE describes the workforce categories with the number of
+speciality areas each category should possess. There are seven specified
+areas and their presence in particular category differ, e.g. from 2 areas to
+7 areas in particular category. The categories are classified according to
+the description of the related tasks and the related responsibilities. NICE
+recognize the following categories within the Cybersecurity area:
+Securely provision (SP), Operate and maintain (OM), Oversee and
+Govern (OV), Protect and Defend (PR), Analyse (AN), Collect and
+Operate (CO), Investigate (IN). The Work Roles in the Cybersecurity
+areas are then defined by using the task to be performed in particular
+category and connecting them with the required skills and competences
+for each of the Work Roles. This approach produced 52 Work Roles. The
+NICE scheme enables a search of cybersecurity workers across USA with
+the Jobs Heat Map from the Cyberseek tool prepared to tackle the
+increasingly critical problem of cybersecurity skill gaps and the cybersecurity worker shortages in USA. The current interactive map of
+Cyberseek provides description of the following identified Work Roles:
+Cybersecurity Specialist, Cyber Crime analyst, Incident Analyst, IT
+Auditor, Cybersecurity Consultant, Penetration & Vulnerability tester,
+Cybersecurity Administrator, Cybersecurity Manager, Cybersecurity
+Engineer, Cybersecurity Architect.
+In year 2020 additional certification schemes by several organizations appeared on the organization’s web platforms. They can be found
+on the organisation’s web sites under the name Cyberseek website,
+Cybrary website, Cyberdegrees website and the ECSO web site. The
+Concordia feasibility study within task 4.3 has come to an identification
+of the existing Role Profiles on one side and the specification Cybersecurity skills on the other side by considering all available sources of
+cybersecurity certification schemes [43]. The study provided the existence of 62 defined Work Profiles and 52 Cybersecurity Skills Certification Schemes for these profiles, but most important findings from the
+study was the missing certification schemes for 19 cybersecurity Work
+Profiles. Among these missing certification schemes are for example the
+certification scheme for ICT Security consultant, Security architect,
+Cyber instructional curriculum developer and others.
+Taking in account the big shortage of cybersecurity skills among the
+world labour market, the emerging specification of the cybersecurity
+skills provided by the presented certification schemes are certainly a
+step forward that will help the development of adequate education and
+training programmes within industry and HEI sector to happen. Certification schemes enable validation of the required skills, competences
+and knowledge of the job candidates and contribute the employment
+process to become more tailored to the identified needs. The information
+provided within the formal Role profiles schemes helps as well in the
+building of consistent professional profiles and verified quality levels of
+the employees skills and knowledge. However, the observation of the
+presented findings about the current offer of the certification schemes
+for the cybersecurity Role profiles shows that the system is far away
+from to be completed and is not sufficiently adjusted to the existing
+needs of many diverse roles and profiles in the cybersecurity area as
+most of them are developed for performing technical tasks. Some profiles in the studied sources of data have redundant number of certification schemes (e.g. 16 schemes for ICT Security technician exist) and
+some profiles have been left without any certification scheme like the
+Cybercrime investigator, Data analyst, Security architecture, Information system security developer etc. This finding is in line with the results
+presented in Section 4. They suggest that the certification area should be
+further developed, harmonized among actors and completed for a more
+successful narrowing of the world cybersecurity skills labour gap with
+appropriate education.
+6. Discussion
+The findings from the presented studies indicate that cybersecurity
+encompasses a very broad range of specialty areas and work roles, and
+that no single educational programme can be expected to cover all of the
+specialized skills and sector-specific knowledge desired by each
+employer. However, the studies pointed clearly that there are certain
+knowledge sets and skills that are essential for any new employee performing critical technical work where cybersecurity issues are present,
+regardless of the field they are in or the specialty they adopt. This includes an understanding of computer architecture, data, cryptography,
+networking, secure-coding principles, and operating-system internals, as
+well as working some proficiency with Linux-based systems, fluency in
+low-level programming languages, and familiarity with common
+exploitation methods and mitigation techniques [25]. However, even in
+that aspect dealing with basic knowledge experts opinions differ, Martin
+and Collier [57] claim that the mitigating current cybersecurity problems mean that is more important countries and their education systems
+to adopt more interdisciplinary approaches in the educational programmes than very deep technical knowledge. They claim that the
+approach will allow a better integration of people with different technical skill sets and a better comprehension of the cyber-security challenges. Similar opinion is provided in the paper of Dawson and
+Thompson [50], where by having in mind the highly complex and heterogeneous cyber world, they claim that the social aspects should have
+more important role in cybersecurity education and workforce development. They have identified in their paper six traits for the future
+cybersecurity professional: systematic thinking, collaboration, strong
+communication, continuous learning and a sense of civic duty that
+should be a mix of technical and social skills. On other hand, Malan et al.
+[49] and Cabaj et al. [58] argue that cybersecurity should be a very
+technical subject requiring years of study and training. Other experts
+also have claimed that the specific and purpose-driven cybersecurity
+degrees at HEIs should better prepare the graduates for the labour
+market as one of the biggest concerns in the cybersecurity education is
+the students’ lack of hands-on experience, resulting in a skills mismatch
+between what industry would like to see in a candidate for employment
+and the skills that they actually possess [59]. The central theme of this
+concern is the training in real environment provided by the cyber ranges
+versus the traditional class education. Class education tends to focus on
+the reasons, the theory and the mechanisms behind the material [60]
+and the hands-on training deserve less attention. The industry usually
+prefers workers who are ready to work from day one. On the other hand,
+it is evident that the cyber technology changes very quickly and in that
+case students need to learn transferable skills that can be used
+throughout a lifelong career. Therefore, the following conclusion can be
+derived: the cybersecurity-degree providers should balance the
+employability of the students with providing the foundations of the
+cybersecurity science for future professionals to be capable of updating
+their skills in the current dynamic environment. Following that
+conclusion the market course providers should give in their courses
+much more emphasis on practice and experience gathering.
+On the other side, the survey among the EU HEIs found that the
+European education ecosystem with the development of the new
+cybersecurity courses is growing, but the main drawback is that they are
+unevenly spread up across Europe. In some countries there are only one
+or two programmes in cybersecurity. That contributes the shortage of
+skilled workers to grow among the member states differently. The situation is worsened also due to the different conceptualisations of the
+science of cybersecurity and, as a consequence, EU is facing currently
+with a variety of educational offerings that introduce obstacles to the
+creation of a common cybersecurity educational framework and application of the developed certification schemes. Another problem that was
+noticed in some countries is the presence of constraints on students who
+wish to acquire an all-round skill set in cybersecurity, but they are
+pushed to specialise in either technical or societal cybersecurity issues,
+B.J. Blaˇziˇc 
+Technology in Society 67 (2021) 101769
+10
+but not both [60]. Another challenge found is the low responsiveness of
+the content of the cybersecurity curricula to the evolution of the field
+itself as there is a lack of mechanisms for the rapid incorporation of
+material in the existing curricula addressing the new emerging threats or
+new skills, especially if the rapid digitalisation of the society and industry is considered.
+In that context it is important to mention the work addressing the
+future by the four international organizations, i.e., the Association for
+Computing Machinery (ACM), IEEE Computer Society Association for
+Information Systems Special Interest Group on Information Security and
+Privacy, and the International Federation for Information Processing
+Technical, Committee on Information Security Education (IFIP WG
+11.8), that have written a report about the “Curriculum Guidelines for
+Post-Secondary Degree Programs in Cybersecurity from 2017” [47,61].
+Later, the leading author of this study, Parriish with several other researchers [62] published a paper that discusses the global perspectives
+on cybersecurity education for 2030, based on the study carried out
+within the ACM group, known as Innovation and Technology in Computer Science Education – ITiCSE. Their study is based on the evaluation
+of all the educational institutions in the USA from the CAE group where
+Europe was not present. The ITiCSE group has provided reports on the
+subject of cybersecurity education for many consecutive years, starting
+with year 2009. However, the main source of information used for
+developing educational prospects for 2030 was the USA based NICE
+approach and the competency levels defined by the ITiCSE initiative.
+Competences in cybersecurity in their study are understood as the ability
+to perform work activities at a stated competency levels, which are
+denoted as roles like the ones for the technician, entry-level practitioner,
+technical leader or senior software engineer, which is very close to the
+methods for course creation developed by Concordia centre [24].
+Competence itself in this scheme is recognized as the combination of
+knowledge, skill and abilities. The authors suggest that cybersecurity
+competence for the future, e.g., for 2030, can be constructed by developing two models of education [62]. The first is an
+information-technology programme with a cybersecurity track for students that are information-technology specialists with programme
+topics like governance, risk management, constraints and control. The
+second model is cybersecurity bachelor programmes with students that
+are cybersecurity specialists with a high level of expertise that should
+contain the same main topics as the first programme, but with a changed
+focus, e.g., risk management should address threat modelling, asset
+evaluation and methods for vulnerability removal. Each of the topics
+should be taught at different levels within the selected model. This type
+of dichotomy, focusing on the needs of cybersecurity specialists, but also
+on the ICT specialists that need to know some cybersecurity, is becoming
+part of many opinions, like the one suggested in the work of Moller and
+Crick [63] and Davenport et al., [48]. However, some changes and the
+recent evolution of cybersecurity education shows that it has begun to
+take shape as a true academic field in form of a meta-science, as opposed
+to previously used approach as being a technical training domain for
+certain specialized jobs [38]. Other proposals appeared recently with
+suggestions the cybersecurity topics to be formally thought in the high
+schools as a part of school-level education [63]. Regarding the education
+provided by the professional providers on the market it can be expected
+that they will reshape their courses in line with the certification schemes
+for Role Profiles recently developed by the state owned institutions and
+their emerging platforms on the market. Promotion of the cyber range
+usage as very useful tool in cybersecurity education is also on the way.
+Importantly, standard setting both through industry self-regulation and
+imposed governmental regulation will influence cybersecurity education in Europe and internationally [64].
+7. Building the new educational ecosystem in EU – will the new
+approach help the skilled labour shortage to be reduced?
+Interest in cybersecurity education and skills is long standing within
+the EU and it has been a policy concern since the publication by the
+European Commission of the first EU cybersecurity strategy in 2013
+[28]. This document invites the Member States to increase their education and training efforts around the network and information security
+(NIS) topics and to plan for a “NIS driving licence” as a voluntary certification programme to promote the enhanced skills and competence of
+ICT professionals and cybersecurity people. One of the actions was the
+setting up of the four cybersecurity competence centres, with the aim to
+develop the European Secure, Resilient and Trusted Ecosystem,
+including the Education. In 2019, the four competence centres, Concordia, ECHO, SPARTA and CyberSec4Europe collected within the CCN
+cooperation network [44], were launched with tasks to establish and
+operate pilot projects with the goal to develop an innovation cybersecurity roadmap, including the development of a new educational
+ecosystem for cybersecurity. As a starting point about what is exactly
+needed, the views of the main stakeholders were collected in surveys
+carried out by the four competence centres within being CCN network
+members [44]. The main message received from the industry participating in the surveys was that the cybersecurity education and training
+in EU is still not sufficiently regarded as a factor that influences the
+success of the digital market’s development. The main reason identified
+was the lack of an even distribution of cybersecurity education in the EU
+member states, poor alignment between educational offers at HEIs and
+the labour market’s demands, little paid emphasis on the multidisciplinary knowledge, and the prominence of theory-based education
+rather than students hands-on training. All the collected comments
+revolved around the need to redefine the educational and training
+pathways for achieving a more unified standard for the knowledge,
+competence and skills that students should develop to meet the needs.
+Regarding the required competences, a concerted effort to define the
+competences needed to be jointly owned/developed by different European actors playing a role in the cybersecurity market or impacted by it,
+was pursued in a collaboration with ECSO organization and its members
+in year 2020. The contributions from the CCN network in building the
+new educational ecosystem were welcomed as well but the CCN network
+is addressing other important issues within the cybersecurity scene, and
+education is just one of the segments. Concordia, having specific task on
+education has provided a course map as an answer to the needs for
+collaboration with the industrial partners that are mainly representatives of the national and international corporate segment of some
+important industry sectors. The produced map shows the available
+courses and is periodically updated with new courses which number is
+growing. The industry fields covered in the map are various, but the
+telecoms sector is the most addressed, although other sectors are also
+covered, like the critical information infrastructure, IoT and cloud
+computing. This limitation should be removed and the map should be
+upgraded with new courses for covering the needs of other sectors of the
+society. Adding missing contents that address other aspects of cybersecurity is as well necessary. The map specify which industrial fields are
+addressed and the target audiences coming from the industrial sectors
+addressed, the learner entry requirements and the most important information is also provided, the type of certification given to the professionals that have successfully passed some of the courses. However,
+these certifications are not yet fully aligned with the EU EQF which can
+become a source of confusedness. The other competence centre,
+Cybersec4Europe is working on the educational programmes at European HEIs and try to address the responsible bodies that manage the
+educational institution in EU to take actions. The pilot project of the
+third competence centre ECHO [42] is looking to develop a cyber-skills
+framework (E-CSF) to address the needs and skills gap of the cybersecurity professionals based on a mapping of the cybersecurity
+multi-sector assessment framework developed by the centre in 2019. In
+the first year of the cybersecurity centres network, the CCN Education
+Cross-Pilots Group (covering all educational activities) defined the
+content of the courses for four types of cybersecurity professionals by
+specifying their Role Profiles [43] which is certainly not sufficient for
+B.J. Blaˇziˇc 
+Technology in Society 67 (2021) 101769
+11
+the complex field of cybersecurity Role profiles. The pilot is designing as
+well a general cybersecurity skills-certification scheme based on the
+current certification schemes for provision of examination mechanism of
+the acquired knowledge, skills and other competences for the defined
+profiles of cybersecurity professionals. The main aim of these efforts is
+the proposals to be adopted at EU level, but how it will be aligned with
+EQF and the individual organizational certification schemes that
+emerged in 2020 is not evident. The European common and general
+accreditation scheme for HEI cybersecurity programmes in the member
+states is also missing.
+The outcomes of the four competence centres work and the CCN
+Education Pilot, the recent works within CEN and EQF promise a move
+towards an improved and re-shaped EU cybersecurity educational
+ecosystem consisting of more structured curricula with a practical/
+training component, specific types of examinations, accreditation of HEI
+curricula, certification schemes for Role Profiles and additional activities such as cybersecurity competitions with serious games and wider
+use of cyber ranges.
+However, some elements of the accreditation schemes as is set in
+USA are still missing in the EU. Collaborations between the countries
+that have set up the accreditation schemes for their HEI programmes and
+those that do not have such a system and represent the majority in the
+EU member states should be enhanced, but the timing of adoption of
+general applicable scheme’s remains still unknown. The cybersecurity
+knowledge topics proposed by the industry are in line with the ACM s
+and the NICE framework, but topics to be included in the HEI curricula
+are still missing like for example the topics addressing Organizational
+security, Anonymising data, Social Security, Physical interface and
+connectors. The later need special attention due to the expansion of IoTconnected devices. In addition all programmes in cybersecurity education should acknowledge the importance of the human-centric factors,
+which include elements from sociology and psychology and are required
+due to the extensive digitalisation of the overall society. Similar attention should be given to the areas of utmost importance, like Privacy by
+design, which was found not to be sufficiently present in the EU HEI
+educational programmes. The work on the expected changes is on the
+way, but a guarantee that the expected implementations will come soon
+is not yet visible.
+On the other hand, despite the innovations within the HEI programmes in cybersecurity being prepared, companies still continuously
+face the problem of filling their cybersecurity-related positions. The
+total number of unfilled cybersecurity job openings in the 28 EU
+Member States remains stable from one year to the next, and is around
+3500 a month. The fact that the total number remains almost the same
+suggests that the education is becoming more adjusted to the company
+needs for professionals, as the changes in the educational programmes
+provided by the professional providers are being developed by following
+the needs and the recommendation. All these developments will
+certainly have a positive impact on the current situation regarding the
+missing skilled work force in Europe, however, each transition needs
+time the positive changes to be noticed.
+Based on these facts the research questions from section 2. have in
+general positive answers, however the process of building new educational eco system has just started and its full implementation will need
+more time.
+8. Conclusion and recommendation
+The work presented in this paper is a step towards a better understanding of the changing landscape of the cybersecurity education in the
+EU provided by recent results of surveys, studies and initiatives from
+actors in both important fields: the high-level education and the industrial sector. Both sector have shown that they are aware of the great
+demand for experts, professionals and other skilled people with relevant
+competence in cybersecurity areas. The existing shortage of skilled labour in the cybersecurity area is not typical for Europe only as the skill
+shortage is present in the most part of the world. This situation is
+demanding new pathways in the education to be developed and applied
+for provision of an increased number of cybersecurity workforce applicants. Another aspect to be considered is the socialization of the
+cybersecurity industry and the expert career verticals. Actions and initiatives are also expected as a remedy for the uneven distribution of
+qualified cybersecurity educational programmes in the EU and the
+training offers by the professional education providers.
+The lack of cybersecurity-skilled people has its source in the nature of
+the new meta-science of cybersecurity, which is a rapidly changing
+discipline that has been evolving since the creation of the educational
+frameworks for the cybersecurity are. The rapid development of the
+digital world and the needs for protection of digital assets is another
+factor that contributed to the big shortage of cybersecurity-skilled
+workforce all over the world. By taking this situation into account,
+integration of the new topics within the existing frameworks supported
+by hands-on training should become a continuous practice for provision
+of a successful answer to the identified social and economic needs for
+protection of digital assets and user identities. Mutual cooperation and
+the exchange of information between both sectors, the education and the
+industry can lead to better understanding what is needed for improvement of the current situation. The shortage of workforce with cybersecurity skills can be reduced by defining and introducing in the education
+programmes sharper set of knowledge and skills that learners should
+possess and implementing regular training activities and use of modern
+learning technology like cyber ranges and serious games. When major
+stakeholders from industry and other society sectors underline the poor
+alignment between the educational outcomes provided by the HEI and
+the market demands and propose more multidisciplinary expertise to be
+acquired they actually point to the organizational and social challenges.
+They are asking the educators, especially belonging to the EU HEIs, to
+include in the curricula a more practice and hands-on approach in the
+education. This is one of the major challenges for the reshaping process
+of the European cybersecurity education landscape.
+One way to circumvent the existing situation is the relevant stakeholders – namely academia, governments and employers – to regularly
+exchange information about the foundational knowledge and skills to be
+developed and the activities that should be undertaken the current
+cyber-skills workforce gap to be reduced. Another approach that may
+help is a provision of general European cybersecurity-degree accreditation for courses that educate for different cybersecurity profiles. Certification schemes should be further developed and the current list
+enlarged for covering the missing Role profiles certification schemes as
+identified by the industry and the cybersecurity competence centres.
+This will allow an adequate number of taught courses and activities
+specific to be further developed and offered on the market. Good examples and practices are available in the most developed countries in
+the EU, but their number is very small and an initiative for spreading
+their experience in other member states should be welcomed and supported by politics and HEI management. Most of the EU national authorities in education are involved in collaboration with educational
+programmes implemented in other member states as it contributes to the
+educational quality of the country, so cooperation and support in setting
+national accreditation schemes of the cybersecurity programmes where
+they are not present will certainly contribute the relevant knowledge in
+cybersecurity to be equally spread up within EU. Such action will
+facilitate the exchange of experts and the mobility of the work force with
+standardised levels of cybersecurity skills and knowledge.
+Author statement
+The paper was revised according to the requests issued by the reviewers. They are minor and marked » yellow« in the marked revised
+paper. The references were checked and corrected. Links to the web
+were also checked and updated. The details are provided in the file »
+Answers to the reviewers«.
+B.J. Blaˇziˇc 
+Technology in Society 67 (2021) 101769
+12
+Acknowledgment
+This work was funded by Slovenian Research Agency based on the
+contract for P2 0037. The Laboratory for Open systems and networks is a
+member of ESCO and partner in Concordia competence centre. All
+support from both organizations is appreciated.
+References
+[1] EU, Resilience, Deterrence and Defence: Building Strong Cybersecurity for the EU,
+2017. https://eur-lex.europa.eu/legal-content/en/TXT/?uri=CELEX%3A52
+017JC0450.
+[2] British Airways, Customer Data Theft, 2019. Retrieved January 2020 from, https
+://www.bbc.com/news/business-48905907.
+[3] N. Vakakis, O. Nikolis, D. Ioannidis, K. Votis, D. Tzovaras, Cybersecurity in SMEs:
+the smart-home/office use case, IEEE International Workshop on Computer-Aided
+Modeling, Analysis, and Design of Communication Links and Networks (2019),
+https://doi.org/10.1109/CAMAD.2019.8858471.
+[4] A. Ackerman, Too Few Cybersecurity Professionals Is a Gigantic Problem for 2019,
+2019 retrieved July 2020 from, https://techcrunch.com/2019/01/27/too-fewcybersecurity-professionals-is-a-gigantic-problem-for-2019/.
+[5] B. Caulkins, T. Marlowe, A. Reardon, Cybersecurity skills to address Today’s
+Threats, in: T. Ahram, D. Nicholson (Eds.), Advances in Human Factors in
+Cybersecurity, AHFE 2018. Advances in Intelligent Systems and Computing, 2018,
+pp. 782–788. https://link.springer.com/chapter/10.1007/978-3-319-94782-2_18.
+[6] M. Carlton, Y. Levy, Expert assessment of the top platform independent
+cybersecurity skills for non-IT professionals, in: Proceedings of IEEE Southeast
+Conference on Privacy, Fort Lauderdale, FL, USA, 2015. https://ieeexplore.ieee.
+org/abstract/document/7132932.
+[7] ISC2, Cybersecurity Workforce Study, 2018. Retrieved in July 2020 from, https://
+www.isc2.org/-/media/7CC1598DE430469195F81017658B15D0.ashx.
+[8] S. Mirza, M. Brown, Computer Weekly in April 2020, 2020. Retrieved in September
+2020 from, https://computerweekly.com.
+[9] ESG, J. Oltisk, Enterprise strategy group. ESG Infographic: the Life and Times of
+Cybersecurity Professionals 2021Cybersecurity Pending Trends, 2021. Retrieved
+June 2021 from, https://www.esg-global.com/research/esg-infographic-the-life
+-and-times-of-cybersecurity-professionals-2021.
+[10] Tripwire, The Experts’ Guide on Tackling the Cybersecurity Skills Gap, 2020.
+Retrieved in June 2020 from, https://www.tripwire.com/state-of-security/feature
+d/expert-guide-tackling-cybersecurity-skills-gap/.
+[11] Cybercrime Magazine, Page One for the Cybersecurity, July 2020. Retrieved from,
+https://cybersecurityventures.com.
+[12] T. Blair, Investigating the Cybersecurity Skills Gap, Utica College, ProQuest
+Dissertations Publishing, 2017, 2017. Retrieved March 2021 from, https://search.
+proquest.com/docview/1989786177?pq-origsite=gscholar&fromopenview=true.
+[13] ECSO, Gaps in European Cyber Education and Professional Training, 2020.
+Retrieved in December 202 from, https://ecs-org.eu/documents/publications/5fd
+b282a4dcbd.pdf.
+[14] P. Michael, Closing the Information Security Skill Gap, 2018. Retrieved in
+September 2020 from, https://www.michaelpage.co.uk/our-expertise/techn
+ology/closing-information-security-skills-gap.
+[15] C.M. LIibicki, D. Senty, J. Pollak, An Examination of the Cybersecurity Labour
+Market, RANDcorp, 2014. Retrieved in July 2020 from, https://www.rand.org/con
+tent/dam/rand/pubs/research_reports/RR400/RR430/RAND_RR430.pdf.
+[16] N. Dragoni, A.L. Lafuente, F. Massacci, A. Schlichkrull, Are we preparing students
+to build security in? A Survey of European cybersecurity education programs, IEEE
+on security and privacy, IEEE Security and Privacy 19 (1) (2021) 81–88. https
+://backend.orbit.dtu.dk/ws/files/245510488/09336077.pdf.
+[17] M. Hentea, H.S. Dhillon, Towards changes in information security education, J. Inf.
+Technol. 5 (1) (2006) 221–233.
+[18] A. McGettrick, Towards effective cybersecurity education, IEEE Security and
+Privacy 11 (6) (2013) 66–68.
+[19] Uk Cabinet Office, The UK Cybersecurity Strategy Protecting and Promoting the UK
+in the Digital World, 2011. Retrieved in September 2019 from, https://connectio
+ns-qj.org/article/uk-cyber-security-strategy-protecting-and-promoting-uk-digitalworld.
+[20] CEN/TC 428, Role Profiles, 2020. https://www.ecompetences.eu/e-cf-overview/.
+[21] NICE, National Initiative for Cybersecurity Education . Cybersecurity Workforce
+Framework, 2013. Retrieved September 2019 from, https://www.nist.gov/it
+l/applied-cybersecurity/nice/nice-framework-resource-center.
+[22] W. Newhouse, S. Keith, B. Scribner, G. Witte, National initiative for cybersecurity
+education (NICE), Retrieved October 2019 from, https://nvlpubs.nist.gov/nistpub
+s/SpecialPublications/NIST.SP.800-181.pdf.
+[23] ENISA, Cybersecurity Skills Development in the EU, 2020, 2020, https://www.eni
+sa.europa.eu/publications/the-status-of-cyber-security-education-in-the-europe
+an-union/.
+[24] Concordia Competence Centre, 2019. Retrieved in February 2021 from, https
+://www.concordia-h2020.eu/deliverables/.
+[25] NIST, National Institute for Standard and Technology, Retrieved in March 2020,
+https://www.nist.gov/sites/default/files/documents/2017/08/04/t-mobile.pdf,
+2017.
+[26] S. Sharkey, D. Morin, J. Hunter, Comment of T-Mobile USA. National Institute for
+Standard and Technology ), The national cybersecurity workforce framework,
+2013. Retrieved March 2020, https://www.nist.gov/system/files/documents/
+2017/08/04/t-mobile.pdf.
+[27] CPHC, Cybersecurity Principles and Learning Outcomes for Computer Science and
+IT Related Degrees, 2015. Retrieved in June 2019 from, https://cphcuk.files.word
+press.com/2015/06/j0028-isc2-white-paper-a4-v5-260515lr.pdf.
+[28] EU, European Commission, Policy, Cybersecurity Strategy of the European Union:
+an Open, Safe and Secure Cyberspace, 2013. Retrieved in March 2021 from, http
+s://digital-strategy.ec.europa.eu/en/policies/cybersecurity-policies.
+[29] ENISA, Cybersecurity eHEI Data Base, 2019. Retrieved in April 2021 from, http
+s://www.enisa.europa.eu/about-enisa/data-protection/register_data_processin
+g_activities/39-cybersecurity-higher-education-database.pdf/view.
+[30] R. Ruiz, A study of the UK undergraduate computer science curriculum: a vision of
+cybersecurity, IEEE international conference on global security, safety and
+sustainability (ICGS3), in: Proc. Of 12th IEEE Int. Conf. on Global Security, Safety
+and Sustainability, IEEE, 2019, pp. 1–8.
+[31] AUG, Australian Government, Update, Innovation, Growth & Prosperity, 2017.
+Retrieved September 2019 from, https://cybersecuritystrategy.pmc.gov.au/assets
+/img/PMC-Cyber-Strategy.pdf, https://www.homeaffairs.gov.au/about-us/our
+-portfolios/cyber-security/strategy/. Retrieved August 2021 from.
+[32] A. Siraj, B. Taylor, S. Kaza, S. Ghafoor, Integrating security in the computer science
+curriculum, ACM Inroads 6 (2) (2015) 77–81.
+[33] D. Rowe, B. Lunt, J. Ekstrom, The role of cyber-security in information technology
+education, in: Proceedings of the 2011 Conference on Information Technology
+Education - SIGITE, vol. 11, ACM Press, New York, New York, USA, 2011,
+pp. 113–121.
+[34] C.M. LIibicki, D. Senty, J. Pollak, An Examination of the Cybersecurity Labour
+Market, RANDcorp, 2014. Retrieved in July 2020 from, https://www.rand.org/con
+tent/dam/rand/pubs/research_reports/RR400/RR430/RAND_RR430.pdf.
+[35] M. Catota, M. Granger, D.C. Sicker, Cybersecurity education in a developing
+nation: the Ecuadorian environment, Journal of Cybersecurity (2) (2019) 1–19, 10-
+1093/cybsec/tyz001.
+[36] W.A. Conklin, R.E. Cline, T. Roosa, Re-engineering Cybersecurity Education in the
+US: an Analysis of the Critical Factors, 47th Hawaii International Conference on
+System Sciences, Waikoloa, HI, 2014, pp. 2006–2014, https://doi.org/10.1109/
+HICSS.2014.254.
+[37] Cybersec4Europe, Report on the HEI Education in Cybersecurity. D 6.2, 2020.
+Retrieved in March 2020 from, https://cybersec4europe.eu/publications/delivera
+bles/.
+[38] PWC, Retrieved in January 2021 from, https://www.pwc.com/gx/en/issues/
+cybersecurity/digital-trust-insights/cyber-talent-workforce.html, 2021.
+[39] J.S. Galliano, Improved Matching of Cybersecurity Professionals Skills to JobRelated Competence: an Exploratory Study, PhD University of Fairfax, 2017.
+Retrieved from, https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3076897.
+[40] R. Omolohunnu, Cybersecurity: A Nonexperimental Correlational Study of
+Organizational Employees’ Security Perceptions and Vulnerabilities in Information
+Technology Infrastructure, 2019. https://search.proquest.com/docview/23077850
+16?pq-origsite=gscholar&fromopenview=true.
+[41] ECSO, Understanding Cyber Ranges: from Hype to Reality, 2020. Retrieved
+September 20th, 2020 from, https://ecs-org.eu/documents/publications/5fd
+b291cdf5e7.pdf.
+[42] ECHO, Retrieved January 2021 from, https://echonetwork.eu, 2020.
+[43] Concordia Report on Certification Schemes. D 7.1, 2020. Retrieved March 2021
+from, https://echonetwork.eu/publications/.
+[44] CCN – Comcordia, Cyber Competence Network– about, 2019. Retrieved July 2020
+from, https://cybercompetencenetwork.eu/about.
+[45] MOOC, 20021. Learn with MOOCs about Cybersecurity | Free Online Courses,
+March 2021. Retrieved from https://www.my-mooc.com 〉 categorie 〉
+cybersecurity.
+[46] Concordia report on Cybersecurity education, Deliverable 3.4, Establishing a
+European Education Ecosystem for Cybersecurity, 2020. Retrieved in September
+2020 from, https://www.concordia-h2020.eu/concordia-reports/.
+[47] IFIP, ACM/IEEE/AIS/IFIP Joint Task Force on Cybersecurity Education,
+Cybersecurity Curricula, 2017. https://cybered.hosting.acm.org/wp/.
+[48] J.H. Davenport, T. Crick, A.R. Hayes, R. Hourizi, The institute of coding:
+addressing the UK digital skills crisis, Proc. of 3rd Computing Education Practice
+Conf. CEP 19 (10) (2019) 1–4, https://doi.org/10.1145/3294016.3298736.
+[49] J. Malan, E. Lale-Demoz, J. Rampton, Identifying the role of further and higher
+education in cyber security skills development. Skills mismatch: concepts,
+measurement and policy, approaches, J. Econ. Surv. 32 (4) (2018) 985–992.
+[50] J. Dawson, R. Thomson, The future cybersecurity workforce: going beyond
+technical skills for successful cyber performance, Front. Psychol. 12 (2018),
+https://doi.org/10.3389/fpsyg.2018.00744.
+[51] Nsa-Dhs, National Centres of Academic Excellence in Cyber Defence Education
+Program (CAE-CDE) - Criteria for Measurement Bachelor, Master, and Doctoral
+Level, 2019. Retrieved in September 2020, https://www.ncyte.net/cae-program.
+[52] NCSC, UK National Cyber Security Centre. NCSC-Certified Degrees, 2017.
+https://www:ncsc:gov:uk/information/ncsc-certified-degrees/.
+[53] BCS, The Chartered Institute for IT. Guidelines on Course Accreditation, 2018.
+Retrieved, September 2017 from, http://www:bcs:org/content/ConMediaFile/
+30202.
+[54] USA accord, The international Washington accord, https://www.ieagreements.
+org/accords/washington/, 2019.
+[55] SAGM, Seul Accord, 2019 https://https://www.seoulaccord.org/.
+[56] CEN/TC 428, Methodology and Framework of the E-CF, 2020. Retrieved on March
+2021from https:/https://standards.iteh.ai/catalog/standards/cen/843eb75f-d024-
+4a43-b274-073423eb0d8c/cen-tr-16234-2-2021/.
+B.J. Blaˇziˇc 
+Technology in Society 67 (2021) 101769
+13
+[57] A. Martin, J. Collier, Beyond Awareness: the Breadth and Depth of the Cyber Skills
+Demand, Center for Technology and Global Affairs, Oxford University, 2019.
+Retrieved in July 2020 from, https://www.ctga.ox.ac.uk/article/beyond-awaren
+ess-breadth-and-depth-cyber-skills-demand.
+[58] l. Cabaj, D. Domingos, Z. Kotulski, A. Respício, Cybersecurity education: evolution
+of the discipline and analysis of master programs, Comput. Secur. (75) (2018)
+24–35. June 2018.
+[59] M. Carlton, Y. Levy, Cybersecurity skills: foundational theory and the cornerstone
+of advanced persistent threats (APTs) mitigation, Online Journal of Applied
+Knowledge Management - iiakm.org (2) (2017) 16–28, https://doi.org/10.36965/
+OJAKM.2017.5.
+[60] C. Parr, Cybersecurity Skills Need Boost in Computer Science Degrees, 2014.
+Retrieved in April 2020 from, https://www:timeshighereducation:com/news/cybe
+rsecurity-skills-need-boost-in-computer-science-degrees/2016933:article/.
+[61] A. Parrish, J. Impagliazzo, K.R. Rajendra, H. Santos, M. Rizwan, Curriculum
+guidelines for post-secondary degree programs in cybersecurity, in: A Report in the
+Computing Curricula Series, Joint Task Force on Cybersecurity Education, 2017.
+https://www.acm.org/binaries/content/assets/education/curricula-recommenda
+tions/csec2017.pdf/.
+[62] J. Parrish, A. Impagliazzo, K. Rj Rajendra, H. Santos, M. Rizwan, Jsang A. Asghar,
+T. Pereira, E. Stavrou, Global perspectives on cybersecurity education for 2030: a
+case for a meta-discipline, in: Proc. Of ITiCSE 2018, ACM, 2018, pp. 36–54.
+[63] F. Moller, T. Crick, A university-based model for supporting computer science
+curriculum reform, Journal of Computers in Education 5 (4) (2018) 415–434, in
+Cybersecurity. Retrieved in June 2020 from, https://link.springer.com/article/10
+.1007/s40692-018-0117-x.
+[64] T. Hemphill, P. Longstreet, Financial data breaches in the U.S. retail economy:
+restoring confidence in information technology security standards, Technol. Soc.
+44 (2016) 30–38.
+B.J. Blaˇziˇc 

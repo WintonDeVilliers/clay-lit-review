@@ -1,0 +1,764 @@
+Computers in Industry 137 (2022) 103614
+    Contents lists available at ScienceDirect
+Computers in Industry
+journal homepage: www.elsevier.com/locate/compind
+ Cybersecurity awareness in the context of the Industrial Internet of Things: A systematic literature review
+Angelo Corallo, Mariangela Lazoi, Marianna Lezzi⁎, Angela Luperto Università del Salento, Dipartimento di Ingegneria dell’Innovazione, Campus Ecotekne, Via per Monteroni, 73100 Lecce, Italy
+  article info
+Article history:
+Received 30 July 2021
+Received in revised form 10 December 2021 Accepted 22 January 2022
+Available online 3 February 2022
+Keywords:
+Cybersecurity awareness Information security awareness Industrial internet of things Industry 4.0
+Cybersecurity awareness techniques
+Contents
+abstract
+  1. 2. 3. 4.
+5. 6.
+⁎
+Introduction............................................................................................................. 2 Researchmethod.......................................................................................................... 2 Selectionprocessforliteratureresources...................................................................................... 3 Analysisofliteratureresources.............................................................................................. 4
+4.1. 4.2. 4.3.
+Cybersecurity is one of the main challenges faced by companies in the context of the Industrial Internet of Things (IIoT), in which a number of smart devices associated with machines, computers and people are networked and communicate with each other. In this connected industrial scenario, personnel need to be aware of cybersecurity issues in order to prevent or minimise the occurrence of cybersecurity incidents and corporate data breaches, and thus to make companies resilient to cyber-attacks. In addition, the recent increase in smart working due to the COVID-19 pandemic means that the need for cybersecurity awareness is more relevant than ever.
+In this study, we carry out a systematic literature review in order to analyse how the existing state of the art deals with cybersecurity awareness in the context of IIoT, and to provide a comprehensive overview of this topic. Four areas of analysis are considered: (i) definitions of the concepts of cybersecurity awareness and information security awareness, with keyword extrapolation (e.g. cybersecurity control level, in- formation and responsibility); (ii) the industrial context of the analysed studies (e.g. manufacturing, critical infrastructure); (iii) the techniques adopted to raise company awareness of cybersecurity (e.g. serious games, online questionnaires); and (iv) the main benefits of a large-scale campaign of cybersecurity awareness (e.g. the effectiveness of employees in terms of managing cybersecurity issues, identification of cyber-attacks). Practitioners and researchers can benefit from our analysis of the features of each area in their future research and applications.
+  Definitions......................................................................................................... 5 Industrialcontext................................................................................................... 5 Techniquesforraisingcybersecurityawareness ........................................................................... 6
+4.3.1. Cybersecurityawarenesssystems................................................................................ 6
+4.3.2. Cybersecurityawarenessmethodsandmethodologies............................................................... 7
+4.3.3. Cybersecurityawarenessmethodologicalframeworks ............................................................... 7
+4.3.4. Cybersecurityawarenessmodels ................................................................................ 8
+4.3.5. Surveys..................................................................................................... 9
+4.3.6. Insightsintothemainfeaturesofcybersecurityawarenesstechniques..................................................11
+Benefitsofcybersecurityawareness.................................................................................... 12
+4.4. Discussion.............................................................................................................. 13 Conclusions............................................................................................................. 14
+ Corresponding author.
+E-mail address: marianna.lezzi@unisalento.it (M. Lezzi).
+https://doi.org/10.1016/j.compind.2022.103614
+
+A. Corallo, M. Lazoi, M. Lezzi et al. Computers in Industry 137 (2022) 103614
+DeclarationofCompetingInterest........................................................................................... 14 References.............................................................................................................. 14
+ 1. Introduction
+The shift in the industrial world towards the Industrial Internet of Things (IIoT) paradigm, also known as the Industrial Internet, involves an increasing number of physical systems being connected to the Internet with the aim of increasing the efficiency and effec- tiveness of business processes (Craggs et al., 2019) and the reliability of the entire company (Al-Hawawreh et al., 2019). IIoT is the appli- cation of the Internet of Things (i.e., the ubiquitous connection of physical objects based on advanced communication and information processing technologies) to industrial systems, with the aim of of- fering effective solutions in terms of transforming their operations and roles (Gurtov et al., 2016; Boyes et al., 2018). This paradigm is based on the use of certain enabling technologies (for example, wireless sensor networks and cloud technologies) that, with the support of advanced industrial analytics and intelligence machine applications, are playing increasingly central roles in the control and monitoring functionalities of facilities (Lezzi et al., 2018). According to (Van Lier, 2017), IIoT can be defined as “a new combination of physical machines with digital possibilities, where machines, com- puters and people are networked and communicate and interact”. The key objectives of industrial systems based on the IIoT paradigm include (Gurtov et al., 2016): (i) increasing productivity; (ii) reducing process maintenance costs; (iii) ensuring personnel safety; and (iv) making work attractive. However, such industrial environments, which involve the intensive use of smart devices, wireless sensor networks, Internet protocols, the cloud, and data analytics technol- ogies, contribute to making physical systems vulnerable to cyber- attacks (Tuptuk and Hailes, 2018). Moreover, within IIoT-based sce- narios, the increasing integration of operational technology (OT) with information technology (IT) has caused industrial systems to be exposed to a worrying number of new cyber threats (Colelli and Pascucci, 2019). In general, the fact that OT has started to adopt IT technologies (for example, Internet Protocol, which is used as a network protocol in common operating systems such as Windows, is increasingly found in many devices) has highlighted gaps in en- terprise security (Karampidis et al., 2019). Lee (2020) and Lu and Xu (2019) refer to IoT cybersecurity when highlighting the security challenges that characterise the vast amount of network-based ob- jects in today's industrial environments. The aim is to mitigate the cybersecurity risks faced by organisations, by protecting IoT assets and user privacy.
+According to a study conducted by Kaspersky (Kaspersky Lab, 2018), 52% of companies report that employees constitute the most significant weakness in terms of cybersecurity. In line with this statement, Verizon’s annual report on data breaches (Verizon, 2021) claims that 85% of such breaches involve a human element. Although data breaches resulting from malicious attempts are more expensive, data breaches caused by system or human error still represent a considerable cost, with an average value of €2.74 million (ENISA, 2020). Among the mitigation vectors for data-related attacks and incidents, ENISA (ENISA, 2021) mentions the importance of defining a cybersecurity awareness plan, which involves providing employees with training and using simulation scenarios to identify social en- gineering and phishing campaigns.
+In order to prevent or minimise the impact of cyber-attacks on business performance, and hence the violation of intellectual capital and organisational knowledge, companies should conduct regular training of all staff, with the aim of increasing cybersecurity awareness (He et al., 2020). Cybersecurity awareness and training programmes inform employees about the security requirements that
+need to be in place to preserve critical data, and about company guidelines, policies and procedures for better management of cy- bersecurity issues. Through practice and repeated application of this knowledge (Beats and van der Linden, 2003), staff can acquire the cybersecurity skills necessary to effectively manage and respond to cybersecurity threats and risks. In this way, employees can gain an understanding of the cybersecurity threats and risks that companies face, and become more confident in managing cybersecurity tasks (Li et al., 2019). Employees with specialised competences are able to execute activities faster and with higher performance (Grandiri, 1999).
+The need to increase cybersecurity awareness has become even more urgent in today's business environment, where the practice of smart working is gaining in popularity. Evidence of this was pre- sented in a study conducted by IBM (IBM, 2020), which found that the increase in remote working during the COVID-19 pandemic was expected to increase data breach costs and incident response times.
+Although there is growing interest in the literature in the dif- ferent key elements that characterise cybersecurity management in IIoT industrial contexts (e.g., critical assets, cyber threats, system vulnerabilities and cyber risks) (Lezzi et al., 2018; Corallo et al., 2020, 2021b), little attention has been paid to the various aspects of cy- bersecurity awareness in the same industrial contexts.
+In order to fill this gap, the paper focuses on a study of cyber- security awareness in modern networked industrial contexts, in order to provide a solid knowledge base to support companies in achieving compliance with cybersecurity policies and analysing the security-related behaviour of employees. We consider the relevant definitions, industrial contexts of application, techniques and ben- efits. A complete overview is also provided as a basis for future re- search and applications in the field of cybersecurity awareness, within contexts associated with the IIoT paradigm.
+The next section of the paper describes our research method. Section 3 discusses the process used to select literature resources. In Section 4, we present an analysis of these literature resources, which is divided into four main areas: (i) an analysis of definitions relating to cybersecurity and information security awareness; (ii) a review of industrial contexts; (iii) a study of the techniques adopted to raise cybersecurity awareness; and (iv) an investigation of the benefits of a large-scale campaign of cybersecurity awareness. The final sections present the results of the literature review and the conclusions of this research work.
+2. Research method
+This study is based on the systematic literature review (SLR) approach, as a transparent, scientific and replicable process enabling researchers to control decisions, procedures and conclusions (Bryman and Bell, 2015), with the aim of understanding the role of cybersecurity awareness in the context of IIoT. To achieve this ob- jective, we focus on the following points: (i) an analysis of defini- tions relating to cybersecurity and information security awareness within industrial contexts; (ii) an investigation of the relevant target industries; (iii) an analysis of the main techniques used to support companies in achieving compliance with cybersecurity policies and enforcing security-related behaviour by employees; (iv) identifica- tion of the business benefits arising from improved cybersecurity awareness within companies.
+Although a number of strategies have been proposed for sys- tematic literature reviews (Stokes and Wall, 2015; Creswell and Poth, 2018; Lacerda and von Wangenheim, 2018; Centobelli et al., 2017),
+2
+
+A. Corallo, M. Lazoi, M. Lezzi et al.
+Computers in Industry 137 (2022) 103614
+ 1.1 Defini�on of analysis objec�ves
+1.2 Selec�on of sources of informa�on to consult
+1.3 Selec�on of search keywords
+1.4 Iden�fica�on of filters to refine the results
+1.5 Planning of qualita�ve mechanisms for content selec�on
+1.6 Determina�on of a standard for tracking references
+2.1 Source interroga�on through search queries
+2.2 Preliminary filtering and selec�on
+3.1 Examina�on of selected documents
+3.2 Detec�on of specific contents, elements, key concepts
+3.3 Final selec�on of documents
+3.4 Comparison of rela�onships among papers
+3.5 Cri�cal analysis of the content of papers
+3.6 Narra�ve/structured summary of documents
+4.1 Quan�ta�ve descrip�on of consulted references
+4.2 Benchmark analysis and summary of research results
+4.3 Tracking of consulted references
+Fig. 1. Steps and activities in a systematic literature review. Adapted from Corallo et al. (2021a).
+the SLR procedure proposed by Corallo et al. (2021a) was adopted in this work, as it was considered most suitable with respect to the objectives of this research paper. An SLR was carried out following four steps: (i) review planning; (ii) search execution, (iii) analysis of documents; and (iv) reporting of results. Each stage involves specific activities that were performed in sequential order, as illustrated in Fig. 1.
+Although our literature review cannot be considered exhaustive, we provide an important overview of the role played by cyberse- curity awareness in industrial contexts as a means of preventing or minimising the occurrence of cybersecurity incidents and corporate data breaches, and of making companies resilient to cyber-attacks. This is an emerging field of research at the international level.
+3. Selection process for literature resources
+Using the SLR strategy, once the objective of the analysis has been defined, our search process involved the selection of scientific papers from Scopus (www.scopus.com) and Web of Science (www.webofknowledge.com), as the two major and most compre- hensive sources of publication metadata and impact indicato (Pranckutė,2021;Pranckutė,2021).Allsourceswereaccessedin June 2021.
+Our search criteria were based on two keywords: “cybersecurity awareness” and “Industrial Internet of Things”. However, in order to strengthen the search, several variants were considered. In parti- cular, with regard to the first keyword, we also used the term “in- formation security awareness”, which is better known in the literature. With regard to the second keyword, we included the ac- ronym “IIoT” and the terms “Industrial Internet”, “Industry 4.0′′, “smart manufacturing” and “smart factory” in the search query. A preliminary analysis of the definitions of IIoT found in the literature (Xu et al., 2017; Van Lier, 2017; Smith, 2017; Palavicini et al., 2017; Urquhart and McAuley, 2018; Hassanzadeh et al., 2015; Gurtov et al., 2016) indicated that all of these terms could be related to the con- cept of IIoT.
+Following this preparatory analysis, the following search query was established:
+• (“Cybersecurity awareness” OR “Information security awareness” OR “Cyber security awareness”) AND (“Industry 4.0′′ OR “Smart manufacturing” OR “Smart Factory” OR “Industrial Internet of Things” OR “IIoT” OR “Industrial Internet”).
+However, even when both selected scientific databases were searched, only four papers resulted as research output. This in- dicates that the concept of cybersecurity awareness has been
+•
+poorly investigated in the literature in reference to modern in- dustrial contexts, characterised by the use of IoT, big data ana- lytics, cloud computing technologies, and wireless sensor networks. We therefore added the term “Industr* ” to the query to extend our analysis to the entire industrial scenario. The complete search query was then as follows:
+(“Cybersecurity awareness” OR “Information security awareness” OR “Cyber security awareness”) AND (“Industr*” OR “Industry 4.0′′ OR “Smart manufacturing” OR “Smart Factory” OR “Industrial Internet of Things” OR “IIoT” OR “Industrial Internet”).
+3
+We then applied a process of filtering and selection to these papers with respect to the research objective. This process is re- presented numerically in Fig. 2.
+The Scopus search, which was conducted using the 'title', 'ab- stract' and 'keywords' fields, returned 98 articles, whereas the Web of Science search, conducted based on the 'topic' field (involving title, abstract, author keywords and ‘keywords plus’), returned 41 articles. In view of the search requirements, these articles were then filtered, based on language (to select only documents in English) and document type (to exclude conference papers). At this stage, no filter wasappliedwithrespecttothesubjectarea.
+From an initial selection of 139 scientific papers (as shown in the “#Results” column in Fig. 2), the application of filters for language and document type reduced the number of papers to 120 (as shown in the “#Filtered Results” column in Fig. 2). A comparative analysis of the title and authors of the papers was carried out to avoid multiple inclusions of the same paper from different sources (Scopus and Web of Science), which reduced this number to 83 (as shown in the “Filter duplicate documents” column in Fig. 2). After reading the title, abstract and keywords, 50 papers were discarded from the analysis, as they were not in line with the objectives of the study. We then analysed the entire content of the remaining 33 articles (shown in the “Selection after reading title and abstract” column in Fig. 2). This revealed that some of the papers did not make explicit re- ference to the concepts of cybersecurity awareness or information
+ Fig. 2. Results of the filtering and selection process.
+REVIEW PLANNING
+SEARCH EXECUTION
+DOCUMENT ANALYSIS
+REPORTING OF RESULTS
+
+A. Corallo, M. Lazoi, M. Lezzi et al.
+Computers in Industry 137 (2022) 103614
+Table 1
+Details of selected scientific papers. ID Reference
+1 (Maggi et al., 2021)
+2 (Lechner et al., 2020)
+3 (Kam et al., 2020)
+4 (Prins et al., 2020)
+5 (Bello and Maurushat, 2020)
+6 (Aldawood and Skinner, 2020)
+7 (Gundu, 2019)
+8 (Li, Wang, and Qj, 2018)
+9 (Tsohou and Holtkamp, 2018a, 2018b)
+10 (Cook et al., 2018)
+11 (Kritzinger et al., 2018)
+12 (Tsuchiya et al., 2018)
+13 (Adu and Adjei, 2020)
+14 (Lee et al., 2016)
+15 (Daniel Ani, et al., 2016)
+16 (Cholez and Girard, 2014)
+17 (Kaur and Mustafa, 2013)
+18 (Haeussinger and Kranz, 2013)
+19 (Gundu and Flowerday, 2013)
+20 (Tsohou et al., 2010)
+21 (Kritzinger and Smith, 2008a, 2008b)
+22 (Abawajy et al., 2008)
+23 (Dojkovski et al., 2006)
+Authors’ institution
+2021 Trend Micro Italy Politecnico di Milano
+2020 Siemens AG
+Universität der Bundeswehr München
+Instituto Universitario de Lisboa 2020 University of Tampa
+University of Richmond
+University at Albany
+2020 University of Johannesburg
+2020 School of Social Sciences, WSU 2020 University of Newcastle
+2019 Sol Plaatje University
+2018 Space Engineering University 2018 Ionian University
+Università di Jyväskylä 2018 De Montfort University
+2018 University of South Africa 2018 Nagoya Institute of Technology 2018 University of South Africa
+University of Ghana 2016 SK Infosec
+Yonsei University 2016 Cranfield University
+2014 CRP Henri Tudor
+2013 Universiti Teknologi MARA 2013 University of Göttingen 2013 University of Fort Hare 2010 University of the Aegean
+Athens University of Economics and Business 2008 University of South Africa
+2008 Deakin University Hannam University
+2010 Deakin University
+Country
+Italy Italy Germany Germany Portugal USA
+USA
+USA
+South Africa Australia Australia South Africa China Greece Finland
+UK
+South Africa Japan
+South Africa Ghana Korea
+Korea
+UK Luxembourg Malaysia Germany South Africa Greece Greece South Africa Australia Korea Australia
+ security awareness, or did not mention any methods or tools for supporting compliance with corporate cybersecurity policies. As a result, a total of 23 papers (shown in the “Selection after reading paper” column in Fig. 2) were found to be highly relevant references in terms of investigating the role of cybersecurity/information se- curity awareness in smart industrial environments.
+Table 1 shows a summary of the selected references. In particular, it can be observed that although cybersecurity awareness began to be investigated in industrial contexts in 2008, a significant increase in scientific production has occurred since 2018. Of the 23 scientific papers selected, the majority were conference papers (13), a large proportion were articles (eight) and only two were book chapters. An examination of the country of origin of the authors shows that there are six papers from South Africa, four from Australia, two each from Germany, Korea, Greece and the UK, and only one each from Italy, Finland, the USA, China, Luxembourg, Ghana, Malaysia and Japan.
+4. Analysis of literature resources
+To evaluate the selected papers, a matrix was created to record certain metadata about each paper and its authors. This matrix was composed of 13 records, in which the following information was stored: title; authors and their affiliations; year of publication;
+source; reference; abstract; keywords; focus of the study; industry of reference; definition of cybersecurity awareness; definition of information security awareness; techniques used to investigate company compliance with cybersecurity policies and employees’ security-related behaviour; and the benefits of cybersecurity awareness within the company. The first eight fields of the matrix consisted of general information on the papers, which made it possible to track the consulted references, while the remaining five fields corresponded to the objectives of our research work (i.e., to investigate the terms in which the concept of cybersecurity aware- ness is addressed in Internet-based industrial contexts). In parti- cular, it was important to create a taxonomy of the concepts of cybersecurity awareness and information security awareness, in order to identify the main differences and similarities; it was also important to identify the industries to which these concepts were mainly applied, in order to highlight any gaps that needed to be filled. Moreover, in order to systematise the knowledge base re- garding techniques for supporting companies in increasing cyber- security awareness, we carried out a review of the solutions available in the literature. These techniques are referred to using a wide number of different terms, such as systems, methods, models, methodologies, methodological frameworks, and surveys. Finally, the main benefits to companies, in terms of business performance, of increasing cybersecurity awareness were highlighted.
+Table 2
+Areas of analysis. TOPIC
+1. Definitions
+2. Industrial context
+3. Techniques for raising cybersecurity awareness
+4. Benefits of cybersecurity awareness
+FOCUS
+Type Year
+ Conference paper Article
+Article
+Conference paper Conference paper Article Conference paper Conference paper Article
+Book chapter Conference paper Book chapter Article
+Conference paper
+Conference paper Article Conference paper Conference paper Article Conference paper
+Article Conference paper
+Conference paper
+   • Cybersecurity awareness
+• Information security awareness
+• Target industries
+• Main solutions used to support companies in achieving compliance with cybersecurity policies and
+employees’ security-related behaviours
+• Business benefits resulting from improving cybersecurity awareness within companies
+ 4
+
+A. Corallo, M. Lazoi, M. Lezzi et al.
+Computers in Industry 137 (2022) 103614
+These categories of information were analysed and compared between the different papers, and the main results are discussed. Table 2 shows the four areas of analysis considered in this study, and the results of this comparative review are discussed in the following sections.
+4.1. Definitions
+An analysis of the selected papers showed that several definitions of information security awareness were used. However, none of the studies provided a definition of cybersecurity awareness, which is a key aspect of our study. A further literature search was therefore conducted through which the following definitions of cybersecurity awareness were collected:
+• “The degree of understanding of users about the importance of information security and their responsibilities and acts to ex- ercise sufficient levels of information security control to protect the organization’s data and networks” (Shaw et al., 2009);
+• “All the steps that are taken to raise the cyber security knowledge level at the end-users and direct them to react properly online” (Shamsi, 2019);
+• “The security training that is used to inspire, stimulate, establish and rebuild cyber security skills and expected security practise from a specific audience. Cybersecurity awareness is used to promote and encourage Internet users to practise safety pre- cautions, and train them on online defence methods. Furthermore, it equips these users with cyber security skills on all the aspects of cyber security so that not only the nation net- work infrastructures are kept resilience to cyber-attacks and threats, but also the users are well informed” (Dlamini and Modise, 2012);
+• “A methodology to educate internet users to be sensitive to the various cyber threats and the vulnerability of computers and data to these threats” (Siponen, 2000).
+A comparative analysis of these definitions made it possible to identify several keywords: data and network infrastructures (Shaw et al., 2009; Shamsi, 2019; Dlamini and Modise, 2012; Siponen, 2000), cybersecurity knowledge/control level (Shaw et al., 2009; Shamsi, 2019), cyber threats, cyber-attacks and vulnerabilities (Dlamini and Modise, 2012; Siponen, 2000). Based on these defini- tions and keywords, it can be seen that cybersecurity awareness has two main roles: (i) to educate industrial workers to become con- scious of cyber threats and cyber-attacks (Dlamini and Modise, 2012) in order to protect companies' data and network infrastructures (Shaw et al., 2009); and (ii) to increase their level of knowledge about cyber threats and vulnerabilities (Siponen, 2000).
+By analysing the papers found in the literature in terms of the concept of information security awareness, it was possible to acquire a number of further definitions. Some of the most significant defi- nitions of information security awareness are as follows:
+• “Understanding of security threats and their consequences, in- formation security policies rules, as well as resulting responsi- bilities” (Tsohou and Holtkamp, 2018a, 2018b);
+• “A measure of the extent to which an organisation’s employees understand the importance and implications of maintaining an acceptable level of security of their organisation’s information assets” (Pattinson et al., 2017);
+• “An employee’s state of mind, which is characterized by re- cognizing the importance of information security systems and being aware and conscious about information systems security objectives, risks and threats, and having the required knowledge
+to use information system responsibly” (Kaur and
+Mustafa, 2013);
+• “Ensuring that all employees in an organisation are aware of their
+role and responsibility towards securing the information they work with” (Kritzinger and Smith, 2008a and, 2008b).
+A comparative analysis of the different definitions was also car- ried out for the concept of information security awareness, leading to several keywords: awareness/consciousness (Haeussinger and Kranz, 2013; Kritzinger and Smith, 2008a and, 2008b), threats and risks (Tsohou and Holtkamp, 2018a, 2018b; Haeussinger and Kranz, 2013), understanding/knowledge (Tsohou and Holtkamp, 2018a, 2018b; Kaur and Mustafa, 2013; Haeussinger and Kranz, 2013), in- formation (Tsohou and Holtkamp, 2018a, 2018b; Kaur and Mustafa, 2013; Haeussinger and Kranz, 2013; Kritzinger and Smith, 2008a, 2008b) (Tsohou et al., 2010) and responsibility (Tsohou and Holtkamp, 2018a, 2018b; Kaur and Mustafa, 2013; Kritzinger and Smith, 2008a, 2008b). In this case, it was revealed that being aware of the risks and threats to information security, and hence having the knowledge to use information responsibly and understand its im- portance to the company, allows employees to be responsible for the security of the information they work with. These concepts are ex- tremely important, since for many companies, employees represent the main source of weakness in terms of cybersecurity (Kaspersky Lab, 2018). In fact, it has been estimated that 85% of company data breaches are related to human error (Verizon, 2021).
+Finally, when we put together these concepts, it can be seen that there are some slight differences between cybersecurity awareness and information security awareness; unlike the latter, the former has a ‘cyber’ component and a focus on protecting networks, data and information. However, the goals of the two concepts are the same: both cybersecurity and information security awareness increase the employees' level of knowledge about possible security threats, system vulnerabilities and security risks, and allow them to be re- sponsible in terms of information security and aware of possible cyber-attacks, thus ensuring that the information, systems and networks they interact with are well protected. Fig. 3 shows a gra- phical representation of the main elements extracted from the concepts of cybersecurity awareness and information security awareness.
+4.2. Industrial context
+In this section, we give an overview of the industries in which the topic of cybersecurity awareness has been addressed, to highlight any gaps that need to be filled. This study was carried out based on the 83 papers resulting from the first stage of the filtering process (see Fig. 2), in which only the filters for language, document type and duplicate papers were applied. From this analysis, it was possible to identify a number of industries that were not relevant to the focus of interest (see Table 3). Table 4 shows the relevant industries, i.e., those in which the issue of cybersecurity awareness has been ad- dressed by explicitly or implicitly referring to IIoT environments. This table also includes papers in which cybersecurity awareness has been addressed with reference to IIoT environments, but where no specific industry was mentioned.
+From Table 3, it can be inferred that the concept of cybersecurity awareness is most popular in the following domains: academia and education (with 10 papers); legal and banking, business operations and health (with seven papers each). Table 4 reveals that cybersecurity awareness was referred to in relation to the following Internet-based industries: manufacturing (mentioned only in one paper) and critical infrastructure (mentioned in two papers).
+A comparison was therefore carried out between the industries shown in Table 3 and those within the IIoT environment, shown in Table 4. From this comparison, it first emerged that more targeted
+5
+
+A. Corallo, M. Lazoi, M. Lezzi et al.
+Computers in Industry 137 (2022) 103614
+ studies would be needed in the field of cybersecurity awareness, both in the manufacturing industry and in the critical infrastructure industry, as these are still under-represented in the literature. Sec- ondly, these studies should include specific discussions with respect to high-tech manufacturing sectors (such as automotive and aero- space), in order to provide a solid knowledge base of techniques that would be useful in increasing the level of cybersecurity awareness in these critical sectors, which are representative of the IIoT paradigm.
+Finally, although there were many papers in which the industry was not made explicit, these were useful in terms of providing an overview of techniques for supporting companies to increase cy- bersecurity awareness in the context of IIoT.
+4.3. Techniques for raising cybersecurity awareness
+After providing an overview of the industrial sectors in which the concept of cybersecurity awareness was addressed, the next step was to identify techniques in the literature aimed at increasing cy- bersecurity awareness within the industrial context. As previously mentioned, several terms may be used to refer to such techniques (i.e., systems, methods, models, methodologies, methodological frameworks, and surveys). The following sections are dedicated to each of these, as treated in the selected papers.
+Table 3
+Industry analysis of papers that were not relevant to the research objective.
+4.3.1. Cybersecurity awareness systems
+Special Publication 800–34 from NIST (Swanson et al., 2010) defines a system as “a discrete set of resources organized for the collection, processing, maintenance, use, sharing, dissemination, or disposition of information”.
+With the aim of raising awareness of cybersecurity, (Maggi et al., 2021) propose a smart manufacturing system that is able to analyse possible attacks and promote a more compartmentalised security architecture. This system comprises seven stations, each with pro- grammable logic controllers (PLCs) and human machine interfaces (HMIs), various physical actuators (e.g., drills, presses), Arduino- based sensors, an inspection camera, a conveyor belt, and an in- dustrial robot. The countermeasures adopted to achieve a more compartmentalised architecture are: (i) employing a behavioural- based detection system that can recognise when any software component is performing generically suspicious activities (e.g., suddenly modifying numerous files); (ii) detecting vulnerable or malicious apps and implementing an authentication mechanism to prevent phishing attacks.
+In their study, (Gasiba et al., 2020) assume that one possible way to raise cybersecurity awareness is by employing serious games. In particular, they propose the use of a new cybersecurity awareness platform called Sifu, which allows these games to take place online by combining serious game techniques with cybersecurity. This platform automatically assesses challenges in terms of compliance
+Industry type
+Chemical Mining Transportation Health
+Business operations
+Home users
+Legal and banking
+Public Telecommunication Maritime
+Academic and Education
+Social media
+Paper reference
+Fig. 3. Main elements of cybersecurity awareness and information security awareness.
+  (Policastro, 2007)
+(Kruger and Kearney, 2008)
+(Eminaǧaoǧlu et al., 2009)
+(Adawiyah et al., 2019;Jeremiah et al., 2019;Ghazvini and Shukur, 2018a, 2018b;Holdsworth and Apeh, 2017;Park et al., 2017;Chakraborty et al., 2016)
+(Mawgoud et al., 2020; Lejaka et al., 2019; Sari and Prasetio, 2018; Hills and Atkinson, 2016; Chapman and Smalov, 2004; Murane, 2008; Choi et al., 2008)
+(Alotaibi et al., 2020; Talib et al., 2010)
+(Persky, 2020; Malik and Islam, 2019; Kanobe et al., 2019; Wu et al., 2018b, 2018a;Pattinson, Butavicius et al., 2017;Kajtazi and Bulgurcu, 2013)
+(Nguyen and Nguyen, 2021; Ibrahim and Ali, 2019; Bernabe and Skarmeta, 2019)
+(Alshaikh and Adamson, 2021; Sari et al., 2014; Kajava and Varonen, 2005)
+(Wang et al., 2021; Zhao and Silverajan, 2020; Silverajan and Vistiaho, 2019; Bothur et al., 2017; Kolev and Dimitrov, 2017) (Zhang-Kennedy and Chiasson, 2021; Blue and Weiss, 2020; Hassandoust et al., 2019; Catota et al., 2019; Jin et al., 2018; Bin Yeop et al., 2018; Kritzinge et al., 2017; Amankwa et al., 2016; Grobler et al., 2011)
+(Chung et al., 2021)
+ 6
+
+A. Corallo, M. Lazoi, M. Lezzi et al.
+Computers in Industry 137 (2022) 103614
+Table 4
+Industry analysis of papers that were relevant to the research objective.
+ Industry type
+Manufacturing Critical Infrastructure Not specified
+Paper reference
+(Maggi et al., 2021)
+(Tsuchiya et al., 2018; Daniel et al., 2016)
+(Gasiba et al., 2020; Kam et al., 2020; Bello and Maurushat, 2020; Gundu, 2019; Li et al., 2018; Tsohou and Holtkamp, 2018a, 2018b; Cook et al., 2018; Kritzinger et al., 2018; Adu and Adjei, 2020; Lee et al., 2016; Tsohou et al., 2010; Cholez and Girard, 2014; Kaur and Mustafa, 2013; Kritzinger and Smith, 2008a , 2008b; Abawajy et al., 2008; Dojkovski et al., 2006; Gundu and Flowerday, 2013; Haeussinger and Kranz, 2013; Prins et al., 2020; Aldawood and Skinner, 2020)
+  with secure coding guidelines and uses an artificial intelligence method to provide players with solution-guiding hints to rectify or rewrite parts of the source code of a simple software project, in order to eliminate one or more known vulnerabilities and preserve the functionality of the system. In this way, the Sifu platform enables remote (online) learning and provides a preliminary analysis of the suitability of the proposed architecture in terms of increasing the cybersecurity awareness of software developers in industrial en- vironments. Table 5 characterises the systems found in the literature that aim to increase cybersecurity awareness.
+4.3.2. Cybersecurity awareness methods and methodologies
+According to the Guide to the Software Engineering Body of Knowledge (IEEE Computer Society, 2014), a formal method is used “to specify, develop, and verify the software through application of a rigorous mathematically based notation and language”. A metho- dology is considered to be a system of methods.
+(Cook et al., 2018) and (Tsuchiya et al., 2018) show that cyber- security awareness can be increased through the adoption of learning methods based on the use of serious games. In particular, the work of (Cook et al., 2018) uses SCIPS (Simulated Critical Infra- structure Protection Scenarios), a configurable serious gaming en- vironment for experiential learning, which can be adapted to specific industries. This serious game raises awareness of cybersecurity using fear appeals, and is intended for senior stakeholders within critical national infrastructure (CNI) organisations. For this reason, the game focuses on the strategic risks to a CNI facility, and presents scenarios in which participants experience the financial implications of a cyber-attack on an industrial control system. This game is mainly collaborative (multiplayer), with some competitive elements that drive conversation among players about how to reallocate budgets in order to mitigate cyber threats. The flow of the game follows a campaign that models a series of events based on a typical cyber kill- chain, in order to provide a credible scenario that leads to cyber- attacks. Moreover, the game consists of time-limited rounds. (Tsuchiya et al., 2018) propose Kaspersky Interactive Protection Si- mulation (KIPS), a hybrid game with a game board, action cards and a game console. This game aims to deepen the common under- standing of cyber incidents in order to improve cybersecurity awareness for critical infrastructure companies. The game board represents the plant and the network configuration of the virtual company, as it is useful for players to understand how the plant and the devices related to its operation work. The action cards represent a set of cybersecurity countermeasures. Finally, the game console is used to simulate the game and provides players with information about the virtual company.
+(Lee et al., 2016) adopt the latent Dirichlet allocation (LDA) topic modelling method and use an algorithm to identify information security issues by analysing words in a body of text that specifically relate to people's concerns about cybersecurity issues. They also implement a sentiment analysis technique in accordance with ISO270:2014 to compare the results and to improve the accuracy of their analysis. To conduct this analysis, a scale with scores ranging from zero to five was used to analyse three aspects of security, re- lating to technical, administrative, and physical factors. The authors
+believe that it is possible to improve the awareness of information security in this way.
+Finally, the work of (Bello and Maurushat, 2020) uses a qualita- tive methodology to identify cybersecurity awareness and educa- tional solutions that can be used to mitigate the risks of socially engineered ransomware attacks. The qualitative data for the study were collected via semi-structured interviews with 30 senior man- agement employees. These data are analysed using a thematic con- tent analysis technique to identify themes and models from the responses. The themes and models that are identified as ensuring cybersecurity training and awareness are: (i) serious games, in which the training technique is based on virtual, real-time scenario formation, which enables a trainee to learn about different attack situations and how to deal with them; (ii) the use of remote virtual labs to enable trainees to learn about security threats; (iii) simula- tion training, where a model of a real threat can be deployed to conduct experiments, which is useful in understanding the beha- viour of trainees or evaluating various mitigation strategies; (iv) gamification training, with a focus on assessing the behaviour of hypothetical victims using gaming strategies in non-game activities; and (v) software applications based on the security threats that need to be addressed by the companies.
+Table 6 gives an overview of the methods and methodologies found in the literature that aim to increase cybersecurity awareness.
+4.3.3. Cybersecurity awareness methodological frameworks
+A methodological framework provides structured practical gui- dance or a tool to guide the user through a process, using stages or a step-by-step approach (McMeekin et al., 2020).
+Three research papers (Tsohou et al., 2010; Cholez and Girard, 2014) (Dojkovski et al., 2006) propose methodological frameworks for promoting, sensitising and evaluating information security awareness in industries. In the first case, the work conducted by (Tsohou et al., 2010) suggests a theoretical and methodological fra- mework based on the actor network theory (ANT) and the due process model, which allows researchers and practitioners to more effectively analyse, understand and manage security awareness ac- tivities. An ANT-based analysis is carried out to consider the dif- ferent roles of the actors involved, in order to improve understanding of information security awareness based on their interests and activities within the organisation and to examine how network stability emerges and evolves. Stability means that the actor-network and its underlying ideas have become in- stitutionalised, and are no longer seen as controversial. The due process model is applied to the process of decision-making in order to provide a dynamic view of the transformation of the network over time and to identify the most suitable actors to ensure that this network is protected. In the second paper, (Cholez and Girard, 2014) present a framework composed of (i) a concept (in this case, a ma- turity assessment for small and medium enterprises (SMEs)); (ii) a method (consisting of interviews with stakeholders on organisa- tional and operational issues) and (iii) a tool (based on the ISO/IEC 27001 standard) to assess the level of maturity of information se- curity and to provide an overview of information security in these enterprises. Their framework can be useful as a first approach to information security, to identify critical problems and associated
+7
+
+A. Corallo, M. Lazoi, M. Lezzi et al.
+Computers in Industry 137 (2022) 103614
+   8
+recommendations. In the third case, (Dojkovski et al., 2006) design a conceptual framework for developing an information security cul- ture in SMEs. This framework is based on five categories: (i) in- dividual and organisational learning, which enables companies to learn information security in a step-by-step manner; (ii) e-learning, which includes cooperation, collaboration, and knowledge sharing via computer-based training or online courses to disseminate knowledge about information security threats, controls and so on; (iii) awareness, training and education programs in which awareness measures (such as threats of disciplinary action, clauses in em- ployment contracts, demonstrations, written materials, formal awareness programs, and computer-based training) are included and the use of policies and procedures, benchmarking, risk analysis, adequate budgets, and leadership are suggested; (iv) management initiatives to develop behaviours of responsibility, integrity, trust and ethicality among organisations, employees, and other stake- holders; and (v) a value network allowing companies to share re- levant knowledge on information security.
+Table 7 summarises the methodological frameworks found in the literature that aim to increase cybersecurity awareness.
+4.3.4. Cybersecurity awareness models
+The NIST glossary (FIPS 201, 2021) defines a model as “a very detailed description or scaled representation of one component of a larger system that can be created, operated, and analyzed to predict actual operational characteristics of the final produced component”.
+Some authors in the literature believe that increased cyberse- curity awareness can be achieved through constructing, applying or developing models. In particular, (Li et al., 2018) present a cyberse- curity awareness model based on connectionism theories to facil- itate the construction and evaluation of a cybersecurity awareness training system. This model has five main features based on neural network theory: (i) a parallel structure and processing mechanism; (ii) distributed characterisation and processing; (iii) continuity and sub-symbol characterisation; (iv) huge tolerance; (v) self-learning, self-adaptation and self-organising functions. This means that the model simulates the real situation of the human brain in terms of its functioning, in which different nodes resembling neurons can op- erate simultaneously according to different rules, and reveals its structure and function at the sub-symbol level from a more micro- scopic perspective. Moreover, it possesses features such as self- learning, self-adaptation and self-organisation through the use of artificial intelligence. Finally, the model has a high tolerance and performs well under stable conditions. Another model is the Workforce Cyber Security Capability (WCSC) presented by (Daniel et al., 2016), which helps enterprises to evaluate the employees’ level of cybersecurity awareness and responsiveness. WCSC is based on (i) a knowledge level with regard to an understanding of possible cyber threats, vulnerabilities and attacks, and (ii) a skill level, meaning the ability to use knowledge gained from experience or training to de- tect attempted cyber-attacks. The evaluation phase of the WCSC model includes the collection of information on the company's ad- herence to current security standards and policies, operational processes, cybersecurity trends and the skill gaps of each staff member.
+(Kritzinger and Smith, 2008a and, 2008b) propose a multi-di- mensional Information Security Retrieval and Awareness (ISRA) model that consists of three parts: (i) ISRA dimensions (a three-di- mensional approach is followed that incorporates non-technical information security issues, IT authority levels, and state-of-the-art information security documents); (ii) information security retrieval and awareness (which focuses on retrieving relevant information from the ISRA dimensions that will be of interest to different IT authorities depending on their needs for security awareness); and (ii) measuring and monitoring the actual state of information
+Table 5
+Cybersecurity awareness systems. Name
+Description
+Compartmentalised architecture to raise cybersecurity awareness for Industry 4.0 applications
+Main Features
+Year Reference
+2021 (Maggi et al., 2021)
+Smart manufacturing system
+• Attack analysis
+• Behavioural-based detection
+• Detection of vulnerable or malicious apps
+• Implementation of authentication mechanism • Online serious games
+• Automatic assessment of challenges
+• Artificial intelligence
+Sifu platform
+Use of a new platform called Sifu to raise cybersecurity awareness through online serious games
+2020 (Gasiba et al., 2020)
+
+A. Corallo, M. Lazoi, M. Lezzi et al.
+Computers in Industry 137 (2022) 103614
+Table 6
+Cybersecurity awareness methods and methodologies.
+ Name
+SCIPS (Simulated Critical Infrastructure Protection Scenarios)
+KIPS (Kaspersky Interactive Protection Simulation)
+LDA (latent Dirichlet allocation)
+TCA (thematic content analysis) technique
+Table 7
+Description
+Learning method using a configurable serious gaming environment to raise cybersecurity awareness
+Learning method using a hybrid game to raise cybersecurity awareness
+LDA (latent Dirichlet allocation) topic modelling method to improve the awareness of information security
+Qualitative methodology using a thematic content analysis technique to identify solutions to ensure cybersecurity awareness
+Main features
+• Configurable serious game • Experiential learning
+• Fear appeals
+• Strategic risks
+• Hybrid game
+• Game board, action cards and
+game console
+• Game simulator
+• Incident simulation
+• Countermeasure’s analysis • Algorithm focusing on
+information security issues • Word analysis
+• Sentiment analysis
+• Comparison of results
+• Education solutions
+• Qualitative data collection • Semi-structured interviews • Themes and models
+identification
+• Remote virtual labs
+• Training on virtual scenario
+• Simulation training
+• Gamification training
+• Evaluation of the hypothetical
+behaviour of victims
+Main features
+• Actor network theory
+• Due process model
+• Analysis of security awareness
+activities
+• Management of security
+awareness activities
+• Process of decision-making
+• Maturity assessment
+• Interviews with stakeholders • ISO/IEC 27001 standard
+• Individual and organisational
+learning
+• Cooperation, collaboration, and
+knowledge sharing
+• Awareness programs, training
+and education
+• Management initiatives
+• Value network for companies to
+share knowledge
+Year Reference
+2018 (Cook et al., 2018)
+2018 (Tsuchiya et al., 2018)
+2016 (Lee et al., 2016)
+2020 (Bello and Maurushat, 2020)
+  Methodological frameworks for cybersecurity awareness.
+ Name
+Theoretical and methodological framework
+Maturity assessment and process improvement framework
+Conceptual framework
+Description
+Theoretical and methodological framework based on the actor network theory and the due process model
+Framework to assess the level of maturity of information security and to provide an overview of information security in enterprises
+Conceptual framework for developing an information security culture in SMEs
+Year Reference 2010 (Tsohou
+et al., 2010)
+2014 (Cholez and Girard, 2014)
+2006 (Dojkovski et al., 2006)
+  security awareness in the organisation, to ensure that all new in- formation security issues are handled and integrated.
+(Tsohou and Holtkamp, 2018a, 2018b) develop an ISP (Informa- tion Security Policies) compliance competence model that can be used by organisations to communicate their rules on the use of in- formation systems. This model is based on three main dimensions of competence: attitudes towards compliance with information se- curity policies; skills in terms of perceiving the benefits resulting from compliance behaviour; and knowledge of security awareness and related policies.
+An awareness campaign on the information security awareness process is presented by (Gundu and Flowerday, 2013). This campaign uses a behavioural intention model based on three persuasive the- ories: (i) the theory of reasoned action, which explains how an employee’s behaviour towards information security is influenced by perceived corporate expectations; (ii) protection motivation theory, which is based on a prediction of an individual’s intention to engage in protective actions; and (iii) behaviourism theory, in which the
+learning represents the acquisition of new behaviour through con- ditioning.
+Lastly, to fill the gap between knowledge of cybersecurity and associated attitudes toward cybersecurity practices, (Gundu, 2019) develops a model built on the theory of planned behaviour (TPB) and deterrence theory (DT). The TPB asserts that employee behaviour is motivated by behavioural intentions: stronger behavioural intent is more likely to be translated into actual behaviour. On the other hand, the DT claims that control over employees is achieved through fear of punishment or loss of remuneration, as this is the only way to improve their attitudes towards compliance with cybersecurity po- licies.
+Table 8 summarises the models found in the literature that are useful in raising cybersecurity awareness.
+4.3.5. Surveys
+A survey "provides a quantitative description of trends, attitudes, and opinions in a population, or tests associations between variables in a population, by studying a sample of that population" (Creswell
+9
+
+A. Corallo, M. Lazoi, M. Lezzi et al.
+Computers in Industry 137 (2022) 103614
+   10
+Table 8
+Cybersecurity awareness models. Name
+Description
+Main features
+Year Reference 2018 (Li et al., 2018)
+Cybersecurity awareness model
+Cyber security awareness model based on connectionism theories to facilitate the evaluation of cybersecurity awareness training
+• Connectionism theories
+• Construction and evaluation of cybersecurity
+WCSC (Workforce Cyber Security Capability)
+The WCSC model can help enterprises to evaluate the level of cybersecurity awareness of employees and their responsiveness
+organising functions
+• Knowledge level
+• Skill level
+• Knowledge accumulated from experience • Three-dimensional approach
+2016 (Daniel et al., 2016)
+ISRA (Information Security Retrieval and Awareness)
+Multi-dimensional Information ISRA model that consists of three parts: ISRA dimensions, information security retrieval and awareness, and measuring and monitoring
+• Relevant information is retrieved
+• Measuring and monitoring of security
+2008 (Kritzinger and Smith, 2008a, 2008b)
+ISP (Information Security Policies) BIM (Behavioural Intention Model)
+ISP compliance competence model can be applied to investigate the competencies associated with users' ISP compliance behaviour
+Awareness campaign using a information security awareness model based on three theories: theory of reasoned action, protection motivation theory and behaviourism theory
+information
+• Attitudes, skills and knowledge
+2018 (Tsohou and Holtkamp, 2018a, 2018b)
+Cybersecurity policy compliance motivation/
+Model based on the theory of planned behaviour (TPB) and deterrence theory (DT) to fill the gap between knowledge of cybersecurity and associated attitudes towards cybersecurity practices
+2019 (Gundu, 2019)
+reinforcement model
+awareness training systems
+• Parallel structure and processing mechanisms • Distributed characterisation and processing
+• Continuity and sub-symbol characterisation
+• Huge tolerance
+• Self-learning, self-adaptation and self-
+• Theory of reasoned action
+• Protection motivation theory
+• Behaviourism theory
+• Information security behaviour
+• Perceived expectation
+• Engagement in protective actions
+• Acquisition of new behaviour
+• Theory of planned behaviour
+• Deterrence theory
+• Attitudes towards cybersecurity practices • Behavioural intentions
+2013 (Gundu and Flowerday, 2013)
+
+A. Corallo, M. Lazoi, M. Lezzi et al.
+Computers in Industry 137 (2022) 103614
+Table 9
+Cybersecurity awareness surveys.
+ Name
+Online questionnaire
+Online questionnaire
+Online questionnaire
+Online questionnaire
+Online questionnaire
+Online questionnaire Online questionnaire Online questionnaire
+Description
+Questionnaire as an appropriate tool to empirically investigate the relationship between industry and information security awareness
+Questionnaire as an appropriate tool to collect data about the participant’s knowledge of cybersecurity awareness and perceived level of impact regarding risks Questionnaire as tool to find the best working tools to mitigate threats besides awareness programs and then to provide reliable solutions to create a safe work environment.
+Questionnaire as tool to explore possible new trends in creating awareness among cyber users
+Questionnaire as appropriate tool to collect data on employees' knowledge of cybersecurity awareness and to assess their awareness of information security
+Questionnaire used to evaluate employees' information security awareness
+Questionnaire as appropriate tool to collect data about information security awareness
+Questionnaire as tool to investigate the availability of security-related training programs
+Main features
+Year Reference
+2020 (Kam et al., 2020)
+2020 (Prins et al., 2020)
+2020 (Aldawood and Skinner, 2020)
+2018 (Kritzinger et al., 2018)
+2020 (Adu and Adjei, 2020)
+2013 (Kaur and Mustafa, 2013)
+2013 (Haeussinger and Kranz, 2013)
+2008 (Abawajy
+et al., 2008)
+ • Collection of data
+• Neo-institutional theory
+• Data analysis
+• Partial least squares (PLS) with SmartPLS 3.2
+software
+• Collection of data
+• Four-point Likert scale
+• Document analysis
+• Collection of data
+• Qualitative research approach
+• Questions based on intuition, opinion and
+experience
+• Semi-structured questions
+• Theoretical thematic analysis
+• Collection of data
+• Qualitative research approach
+• Inductive approach
+• Open-ended questions
+• Collection of data
+• Information on different aspects
+(demographics, cyber security practices,
+cybercrime awareness, and incident reporting)
+• Collection of data
+• Seven-point Likert scale
+• Collection of data
+• Seven-point Likert scale
+• Collection of data
+• Investigation of the degree of IT security
+awareness
+• Investigation of interest in being trained in IT
+security
+ and Creswell, 2018). Of the four main data collection methods (i.e., online, face-to-face, telephone and paper surveys), an online survey is the most cost-effective and time-efficient method of reaching the maximum number of people in a company.
+In the field of cybersecurity awareness, the use of online surveys is important, as it allows the necessary information to be collected and grouped into similar topics, in order to identify gaps that need to be filled in the company, such as the most relevant threats and vulnerabilities, countermeasures to be taken, and the implementa- tion of more targeted and appropriate cybersecurity courses (Aldawood and Skinner, 2020).
+Our literature search resulted in eight papers (Kam et al., 2020; Prins et al., 2020; Aldawood and Skinner, 2020; Kritzinge et al., 2018; Adu and Adjei, 2020; Kaur and Mustafa, 2013; Haeussinger and Kranz, 2013; Abawajy et al., 2008) that consider the online ques- tionnaire to be the most appropriate tool for collecting data on employees' knowledge of cybersecurity awareness and to assess their awareness of information security. In particular, (Kritzinger et al., 2018) and (Aldawood and Skinner, 2020) use a qualitative research approach to define the content of the questionnaire. The former follow an inductive approach with open-ended questions, in order to collect information on new trends in creating awareness among cyber users, while the latter base their questions around the employees' insights, opinions, and experiences of the most up-to- date measures, tools, and solutions against cybersecurity threats.
+In contrast, (Prins et al., 2020; Kaur and Mustafa, 2013) and (Haeussinger and Kranz, 2013) adopt a Likert scale as an instrument to assess the level of cybersecurity awareness and knowledge of each respondent. (Kaur and Mustafa, 2013) and (Haeussinger and Kranz, 2013) use a seven-point Likert scale (ranging from strongly disagree, with a score of one, to strongly agree, with a score of seven), while (Prins et al., 2020) use a four-point Likert scale (not aware, some- what aware, moderately aware and extremely aware).
+(Abawajy et al., 2008) use a questionnaire to investigate not only the degree of IT security awareness of employees, but also their in- terest in being trained on IT security within their workplace.
+Finally, (Kam et al., 2020) provide a questionnaire that uses neo- institutional theory as a basis for a empirical investigation of the relationship between industry and information security awareness. They employ a partial least squares (PLS) method with SmartPLS 3.2 software to analyse the collected data.
+Table 9 provides an overview of the surveys found in the litera- ture in relation to increasing cybersecurity awareness.
+4.3.6. Insights into the main features of cybersecurity awareness techniques
+By comparing the cybersecurity awareness techniques in the literature, it was possible to make some interesting observations and to define some common features.
+In particular, (Maggi et al., 2021; Bello and Maurushat, 2020; Gundu and Flowerday, 2013; Gundu, 2019) and (Dojkovski et al., 2006) believe that the best practice for increasing cybersecurity awareness is the employment of solutions based on a study of be- haviour. Research on employee behaviour in regard to cybersecurity practices has been a growing trend, especially in recent years (Gundu, 2019). it has been shown to be to be a useful tool to identify employees' attitudes towards corporate cybersecurity policies (Gundu and Flowerday, 2013; Gundu, 2019) and to propose man- agement initiatives enabling the development of behaviours of re- sponsibility, integrity and trust (Dojkovski et al., 2006), as well as more appropriate educational solutions to increase employees' cy- bersecurity awareness and to reduce the possibility of cyber-attacks (Bello and Maurushat, 2020). The use of a behaviour-based system is also very important because it can recognise when any software component is performing suspicious activities (Maggi et al., 2021).
+Another feature that is common to various papers is related to the use of serious games. (Gasiba et al., 2020; Cook et al., 2018; Tsuchiya et al., 2018) and (Bello and Maurushat, 2020) believe that
+11
+
+A. Corallo, M. Lazoi, M. Lezzi et al.
+Computers in Industry 137 (2022) 103614
+ the adoption of serious games in the field of cybersecurity allows for a deeper understanding of cyber incidents, resulting in an increase in cybersecurity awareness. This is because credible cyber-attack sce- narios that could occur within the company are provided, allowing players to simulate responses to cyber incidents and thus determine the most suitable cybersecurity countermeasures. This feature is interesting, and should be considered by companies that want to increase cybersecurity awareness, as it allows them to provide game-like training on different attack solutions and how to deal with them in real time.
+Finally, employees’ attitudes, skills and knowledge of cyberse- curity issues are recurring themes in several papers. In particular, according to (Daniel et al., 2016; Tsohou and Holtkamp, 2018a, 2018b; Gundu, 2019), the use of these three characteristics by the proposed models allows a company to estimate its employees' level of cybersecurity awareness and their ability to react to potential cyber vulnerabilities and attacks. (Dojkovski, Lichtenstein, and Warren, 2006) find that sharing knowledge about information se- curity threats is important in order to develop a cybersecurity cul- ture in companies.
+Of the different cybersecurity awareness techniques analysed here, the aspect of fear-related appeals is an outlier. Indeed, the use of fear appeals to motivate people to take a particular action in the cybersecurity domain (Cook, Smith, Maglaras, and Janicke, 2018) has not been shown to be an effective tool, as increasing cybersecurity awareness depends exclusively on the individual's ability to respond to the situation.
+4.4. Benefits of cybersecurity awareness
+In this section, we discuss the main benefits of increasing cy- bersecurity awareness within industries that have adopted the IIoT paradigm.
+According to (Li et al., 2018) and (Aldawood and Skinner, 2020), solid cybersecurity awareness and effective implementations of cy- bersecurity practices are essential for companies to: (i) prevent cyber threats, especially those affecting employees; (ii) reduce the associated business risks; and (iii) ensure the security and stability of systems, while improving the effectiveness of processes across the organisation. In order for the level of cybersecurity awareness to be such that employees act correctly, they must (Cook et al., 2018):
+• Know that threats exist and be able to identify them if they occur;
+• Be able to assess both the immediate and long-term impact of cyber-attacks;
+• Be conscious of how an attack can evolve over time;
+• Understand the attacker's intentions;
+• Recognise the conditions under which an attack might occur;
+• Have evaluated the information that is needed to make decisions
+during an attack;
+• Consider the possible actions attackers might take to achieve
+their intent.
+For this reason, cybersecurity awareness and training initiatives are important. There is considerable evidence to show that security awareness training is the most cost-effective form of security control (Adu and Adjei, 2020). It is only through proper training that em- ployees can:
+• Recognise the importance of security and the negative con- sequences of information security failure (Gundu and Flowerday, 2013);
+• Become inclined to adopt appropriate information security be- haviour (Gundu and Flowerday, 2013);
+Fig. 4. Main elements representing the benefits of increased cybersecurity awareness.
+12
+
+A. Corallo, M. Lazoi, M. Lezzi et al.
+Computers in Industry 137 (2022) 103614
+Table 10
+Tabular outline of cybersecurity awareness research in the context of IIoT. AREAS OF ANALYSIS
+  Topic
+1 Definitions
+Focus
+Cybersecurity awareness
+Information security awareness
+Main Features Keywords:
+Keywords:
+Both cybersecurity and information security awareness:
+Mentioned industries:
+Most commonly used techniques:
+ 2 Industrial context
+3 Models and tools for raising cybersecurity awareness
+Target industries
+Cybersecurity awareness techniques
+• Data and network infrastructures
+• Knowledge/control level
+• Cyber threats, cyber-attacks and vulnerabilities • Awareness/consciousness
+• Risks and threats
+• Understanding/knowledge
+• Information
+• Responsibility
+Ensure greater protection of:
+• Data and information • Systems
+• Networks
+Raise the level of knowledge about:
+• Security threats
+• Security risks
+• System vulnerabilities
+Provide knowledge to employees to allow them to be:
+• Responsible in terms of information security • Aware of cyber attacks
+• Manufacturing
+• Critical infrastructure
+• Unspecified (associated with IIoT environments)
+• Systems
+(Smart Manufacturing system, Sifu platform)
+• Methods
+(Simulated Critical Infrastructure Protection Scenarios (SCIPS), Kaspersky Interactive Protection Simulation (KIPS) and Latent Dirichlet Allocation (LDA) topic modelling methods)
+• Methodologies
+(thematic content analysis (TCA) technique)
+• Models
+(cybersecurity awareness model; Workforce Cyber Security Capability (WCSC) model; Information Security Retrieval and Awareness (ISRA); information security policies (ISPs); Behavioural Intention Model (BIM); cybersecurity policy compliance motivation/reinforcement model)
+• Methodological frameworks
+(theoretical and methodological framework; conceptual framework; maturity assessment and process improvement framework)
+• Survey
+(online questionnaire) More easily identify:
+• The occurrence of cyber-attacks
+• Cyber threats
+• Information security requirements
+Reduce:
+• Cyber risks
+Prevent:
+• Cyber-attacks
+Improve:
+• The effectiveness of employees in terms of cybersecurity intervention/cyber incident response
+• The specific knowledge and skills of employees in regard to security behaviour
+Protect:
+• Systems and infrastructure (e.g., from operational shutdowns, equipment damage, financial losses, intellectual property losses, health and safety risks)
+The main representative elements of the benefits that can be achieved through greater cybersecurity awareness are shown in Fig. 4.
+5. Discussion
+The results presented above show that the issue of cybersecurity awareness needs to be better investigated, in order to provide an overview of the main features and instruments that are useful in terms of supporting companies to face cybersecurity challenges.
+Table 10 provides a tabular outline of the results obtained from our systematic literature review. They are divided into four areas of analysis: definitions of cybersecurity awareness and information
+4 Benefits of cybersecurity awareness
+Business benefits
+Main elements
+ • Acquire knowledge and skills that are specific to security (Tsohou and Holtkamp, 2018a, 2018b);
+• Refine and improve their cybersecurity interventions to max- imise their effectiveness (Gundu, 2019);
+• Prevent, or improve their response to, any cyber incident (Daniel et al., 2016).
+Moreover, greater cybersecurity awareness ensures the adequate protection of systems and infrastructure in organisations, and can prevent significant damage to daily business operations, including operational shutdowns, equipment damage, financial losses, in- tellectual property losses, and health and safety risks (Prins et al., 2020).
+13
+
+A. Corallo, M. Lazoi, M. Lezzi et al.
+Computers in Industry 137 (2022) 103614
+security awareness; the industrial context; the main techniques for raising cybersecurity awareness; and the benefits of cybersecurity awareness. For each of these categories, the focus and main features of each study are given. This table provides a unique overview of the main evidence for each area of analysis, which will be useful in guiding not only future research but also managerial actions in the field of cybersecurity awareness.
+This summary offers researchers an immediate overview of the topics that have been treated in the literature in relation to cyber- security awareness in the context of IIoT, which will allow them to focus their research by applying content developed by other fields or to create something new and specific to IIoT. Furthermore, it can be used as a basis for defining new conceptual models that can be ex- plored or explained using qualitative and quantitative data. The features identified here can also be applied to define the topic of a survey on cybersecurity awareness within companies, or to establish experience levels and goals to be achieved associated with cyber- security awareness maturity models (both at employee and com- pany level).
+Practitioners can consider this overview as a form of inspiration with respect to new techniques that they can apply to increase cy- bersecurity awareness in their organisation, leverage cybersecurity awareness to achieve specific benefits, or extend the results achieved in other industrial sectors to their own field.
+6. Conclusions
+This study has explored the issue of cybersecurity awareness within industrial contexts based on the IIoT paradigm, using a structured literature review approach. Although this topic re- presents a relevant research field in the current networked in- dustrial environment, which has also been affected by the COVID-19 pandemic, in which it is a strategic aim for companies to prevent the occurrence of cyber-attacks and breaches of corporate data, in- vestigations in the literature are scarce. Although there are a few studies that have carried out preliminary reviews of methods, models and frameworks in the field of cybersecurity awareness (Cook et al., 2018; Tsohou et al., 2010) and (Dojkovski et al., 2006), none of these aimed to carry out a systematic literature review of industrial scenarios based on the IIoT paradigm.
+The papers selected for this study were analysed by means of a qualitative content analysis, and a comparative evaluation of the- matic areas also made it possible to highlight their main features. In particular, our evaluation of these papers focused on the following four areas of analysis: (i) definitions of cybersecurity awareness and information security awareness; (ii) the industrial context; (iii) the main models and tools for enhancing cybersecurity awareness; and (iv) the benefits of cybersecurity awareness. As a result, we were able to define a framework for the main findings for each area. To create this framework, we gathered the most relevant evidence for each area of analysis and summarised it to provide a useful overview to guide future research and management decisions in the field of cybersecurity awareness.
+In general, our literature review revealed that there are a number of studies that have addressed information security awareness within industrial domains; however, little attention has been given to the concept of cybersecurity awareness within modern networked industrial contexts, which are characterised by the use of advanced IoT technologies, big data analytics and cloud computing. In parti- cular, more focused studies are needed in the field of cybersecurity awareness, in both the manufacturing and critical infrastructure sectors, as these are still underrepresented in the literature. These studies should include specific discussions with respect to high-tech manufacturing sectors (such as automotive and aerospace), in order to provide a solid knowledge base of techniques that would be useful
+for companies in terms of increasing their level of cybersecurity awareness.
+Future researchers can use this study as a reference framework for further investigations in industrial settings, thus extending the current state of the art. From a managerial point of view, this study can be used to support managers in activities with the aim of in- creasing the level of cybersecurity awareness, and thus the resilience of the company to cyber-attacks, with reference to contexts based on the IIoT paradigm.
+Declaration of Competing Interest
+The authors declare that they have no known competing fi- nancial interests or personal relationships that could have appeared to influence the work reported in this paper.
+References
+IBM, 2020. Cost of a Data Breach Report. IBM Corporation, Armonk, NY.
+Abawajy, J., Thatcher, K., Kim, T.-H., 2008. Investigation of stakeholders commitment to information security awareness programs. 2008 International Conference on Information Security and Assurance (isa 2008) (p. 472- 476). Busan, Korea
+(South): IEEE.
+Adawiyah, R., Hidayanto, A., Chandra Hapsari, I., Samik Ibrahim, R., 2019. Identification of how health information security awareness (HISA) influence in patient’ health information protection awareness (PHIPA). Computing Engineering and Design (ICCED). IEEE, Singapore.
+Adu, K., Adjei, E., 2020. The phenomenon of data loss and cyber security issues in Ghana. Foresight 150–161.
+Aldawood, H., Skinner, G., 2020. Analysis and findings of social engineering industry experts explorative interviews: perspectives on measures, tools, and solutions. IEEE Access 67321–67329.
+Al-Hawawreh, M., den Hartog, F., Sitnikova, E., 2019. Targeted ransomware: a new cyber threat to edge system of brownfield industrial internet of things. IEEE Internet Things J. 6 (4), 7137–7151.
+Alotaibi, F., Clarke, N., Furnell, S., 2020. A novel approach for improving information security management and awareness for home environments. Inf. Comput. Secur. 25–48.
+Alshaikh, M., Adamson, B., 2021. From awareness to influence: toward a model for improving employees’ security behaviour. Pers. Ubiquitous Comput.
+Amankwa, E., Loock, M., Kritzinger, E. , 2016. Enhancing information security educa- tion and awareness: Proposed characteristics for a model. 2015 Second International Conference on Information Security and Cyber Forensics (InfoSec) (p. 72 - 77). Cape Town, South Africa: IEEE.
+Beats, W.R., van der Linden, G., 2003. Virtual Corporate Universities: A Matrix of Knowledge and Learning for the New Digital Dawn. Springer.
+Bello, A., Maurushat, A., 2020. Technical and behavioural training and awareness so- lutions for mitigating ransomware attacks. Applied Informatics and Cybernetics in Intelligent Systems. Springer, Cham, pp. 164–176.
+Bernabe, J., Skarmeta, A., 2019. Challenges in Cybersecurity and Privacy - The European Research Landscape. River Publishers, Spain.
+Bin Yeop, Y., Othman, Z., Abdullah, S., Mokhtar, U., Fauzi, W., 2018. BYOD im- plementation factors in schools: a case study in Malaysia. Int. J. Adv. Comput. Sci. Appl. 311–317.
+Blue, C., Weiss, C., 2020. Cybersecurity awareness in the printing industries: variable data and direct mail enterprises. Proc. Tech. Assoc. Graph. Arts 145–152.
+Bothur, D., Zheng, G., Valli, C. (2017). A critical analysis of security vulnerabilities and countermeasures in a smart ship system. The Proceedings of 15th Australian Information Security Management Conference (p. 81 - 87). Western Australia: Cowan University.
+Boyes, H., Hallaq, B., Cunningham, J., Watson, T., 2018. The industrial internet of things (IIoT): an analysis framework. Comput. Ind. 101, 1–12.
+Bryman, A., Bell, E., 2015. Business Research Methods. Oxford University Press, Oxford. Catota, F., Granger Morgan, M., Sicker, D., 2019. Cybersecurity education in a devel-
+oping nation: the Ecuadorian environment. J. Cybersecur.
+Centobelli, P., Cerchione, R., Esposito, E., 2017. Knowledge management in startups:
+systematic literature review and future research agenda. Sustainability 9, 1–19. Chakraborty, N., Sharma, V., Ranjan, J., 2016. A perceptual study on factors of medical
+data security in Indian organizations. J. Theor. Appl. Inf. Technol. 59–78. Chapman, D., Smalov, L., 2004. On information security guidelines for small/medium enterprises. e Sixth International Conference on Enterprise Information Systems
+(p. 3 - 9). SciTePres.
+Choi, N., Kim, D., Goo, J., Whitmore, A., 2008. Knowing is doing: an empirical vali- dation of the relationship between managerial information security awareness and action. Inf. Manag. Comput. Secur. 484–501.
+Cholez, H., Girard, F., 2014. Maturity assessment and process improvement for in- formation security management in small and medium enterprises. J. Softw. Evol. Process 496–503.
+14
+
+A. Corallo, M. Lazoi, M. Lezzi et al.
+Computers in Industry 137 (2022) 103614
+Chung, K.C., Chen, C.H., Tsai, H.H., Chuang, Y.H., 2021. Social media privacy manage- ment strategies: a SEM analysis of user privacy behaviors. Comput. Commun. 122–130.
+Colelli, R.P., Pascucci, F. , 2019. Securing connection between IT and OT: the Fog Intrusion Detection System prospective. 2019 II Workshop on Metrology for Industry 4.0 and IoT (MetroInd4.0&IoT). Naples, Italy.
+Cook, A., Smith, R., Maglaras, L., Janicke, H., 2018. SCIPS: using experiential learning to raise cyber situational awareness in industrial control system. Cyber Security and Threats: Concepts, Methodologies, Tools, and Applications. IGI Global, pp. 1168–1183.
+Corallo, A., Lazoi, M., Lezzi, M., 2020. Cybersecurity in the context of industry 4.0: a structured classification of critical assets and business impacts. Computers in Industry. 114, 1–15. https://doi.org/10.1016/j.compind.2019.103165
+Corallo, A., Crespino, A.M., Del Vecchio, V., Lazoi, M., Marra, M., 2021a. Understanding and Defining Dark Data for the Manufacturing Industry. IEEE Transaction on Engineering Management 1–13. https://doi.org/10.1109/TEM.2021.3051981
+Corallo et al. 2021b. Cybersecurity challenges for manufacturing systems 4.0: Assessment of the Business Impact Level, IEEE Transactions on Engineering Management, 1–21,10.1109/TEM.2021.3084687.
+Craggs, B., Rashid, A., Hankin, C., Antrobus, R., Şerban, O., Thapen, N. , 2019. A reference architecture for IIoT and industrial control systems testbeds. Living in the Internet of Things (IoT 2019). London, UK.
+Creswell, J.W., Creswell, J.D., 2018. Research Design. SAGE, Los Angeles.
+Creswell, J.W., Poth, C.N., 2018. Qualitative Inquiry Research Design: Choosing
+AmongFive Approaches. SAGE, Newbury Park, CA, USA.
+Daniel Ani, U., He, H., Tiwari, A., 2016. Human capability evaluation approach for cyber
+security in critical industrial infrastructure. Advances in Human Factors in
+Cybersecurity. Springer, Cham, pp. 169–182.
+Dlamini, Z., Modise, M., 2012. Cyber security awareness initiatives in South Africa: a
+synergy approach. 7th International Conference on Information Warfare and
+Security, ICWI 2012, (p. 98 - 102). Seattle.
+Dojkovski, S., Lichtenstein, S., Warren, M., 2006. Challenges in fostering an informa-
+tion security culture in australian small and medium sized enterprises. European Conference on Information Warfare and Security (p. 31- 40). Helsinki, Finland: Remenyi, Dan.
+Eminaǧaoǧlu, M., Uçar, E., Eren, S., 2009. The positive outcomes of information se- curity awareness training in companies - a case study. Inf. Secur. Tech. Rep. 223–229.
+ENISA , 2020. Data breach. ENISA Threat Landscape. ENISA.
+ENISA , 2021. ENISA Threat Landscape 2021. ENISA.
+FIPS 201. (2021, November 22). Information Technology Laboratory. Computer
+Security Resource Center. Tratto da NIST: https://csrc.nist.gov/glossary/term/
+model.
+Gasiba, T., Lechner, U., Pinto-Albuquerque, M., 2020. Sifu - a cybersecurity awareness platform with challenge assessment and intelligent coach. Cybersecurity.
+Ghazvini, A., Shukur, Z., 2018a. A serious game for healthcare industry: information security awareness training program for Hospital Universiti Kebangsaan Malaysia. Int. J. Adv. Comput. Sci. Appl. 236–245.
+Ghazvini, A., Shukur, Z., 2018b. Review of information security guidelines for aware- ness training program in healthcare industry. Electrical Engineering and Informatics (ICEEI). IEEE, Langkawi, Malaysia, pp. 1–6.
+Grandiri, A., 1999. Organizzazione e Comportamento Economico. Il Mulino, Bologna. Grobler, M., Van Vuuren, J., Zaaiman, J. , 2011. Evaluating cyber security awareness in South Africa. Proceedings of the 10th European Conference on Information
+Warfare and Security, (p. 113 - 121). Estonia.
+Gundu, T. , 2019. Acknowledging and reducing the knowing and doing gap in em-
+ployee cybersecurity compliance. 14th International Conference on Cyber Warfare
+and Security, (p. 94 - 102).
+Gundu, T., Flowerday, S., 2013. Ignorance to awareness: Towards an information se- curity awareness process. SAIEE Afr. Res. J. 69–79.
+Gurtov, A., Liyanage, M., Korzun, D., 2016. Secure communication and data processing challenges in the industrial internet. Balt. J. Mod. Comput. 4 (4), 1058–1073. Haeussinger, F., Kranz, J. , 2013. Understanding the antecedents of information se-
+curity awareness - An empirical study. 19th Americas Conference on Information
+Systems, AMICIS 2013, (p. 3762 - 3770). Chicago.
+Hassandoust, F., Singh, H., Williams, J., 2019. How contextualisation affects the vul- nerability of individuals to phishing attempts. PACIS 2019 Proc.
+Hassanzadeh, A., Modi, S., Mulchandani, S. , 2015. Towards effective security control assignment in the Industrial Internet of Things. 2015 IEEE 2nd World Forum on Internet of Things (WF-IoT). Milan, Italy.
+He, W., Ash, I., Anwar, M., Li, L., Yuan, X., Xu, L., Tian, X., 2020. Improving employees’ intellectual capacity for cybersecurity through evidence-based malware training. J. Intellect. Cap. 21 (2) 2013-213.
+Hills, M., Atkinson, L., 2016. Towards cyber-resilient and sustainable smes: the case study of added value from a large IT Re-seller. In: Hills, M. (Ed.), Why Cyber Security is a Socio-Technical Challenge: New Concepts and Practical Measures to Enhance Detection Prevention and Response. Nova Science Publishers, New York, pp. 71–80.
+Holdsworth, J., Apeh, E. , 2017. An effective immersive cyber security awareness learning platform for businesses in the hospitality sector. 25th International Requirements Engineering Conference Workshops (REW) (p. 111 - 117). Lisbon, Portugal: IEEE.
+Ibrahim, N., Ali, N., 2019. An empirical exploration of information security manage- ment system (ISMS) in Malaysian Public Sector: A PLS-SEM method. Test. Eng. Manag. 3266–3275.
+IEEE Computer Society. (2014). SWEBOK V3.0. Guide to the Software Engineering Body of Knowledge. IEEE.
+Jeremiah, P., Samy, G., Shanmugam, B., Ponkoodalingam, K., Perumal, S., 2019. Potential measures to enhance information security compliance in the healthcare internet of things. Reliable Information and Communication Technology. Springer, pp. 726–735.
+Jin,G.,Tu,M.,Kim,T.,Heffron,J.,White,J.,2018.Gamebasedcybersecurity training for High School Students. in: SIGCSE 2018 - Proceedings of the 49th ACM Technical Symposium on Computer Science Education 2018-January. SIGCSE 2018 - Proceedings of the 49th ACM Technical Symposium on Computer Science Education, (p. 68 - 73). USA.
+Kajava, J., Varonen, R., 2005. Experiences from building an information security e- learning environment for industry. Proceedings of the 5th European Conference on Information Warfare and Security (p. 151 - 156). Ireland: Dan Remenyi.
+Kajtazi, M., Bulgurcu, B. , 2013. Information security policy compliance: An empirical study on escalation of commitment. 19th Americas Conference on Information Systems, AMCIS 2013 (p. 2011 - 2020). New York: Curran Associates, Inc.
+Kam, H., Mattson, T., Goel, S., 2020. A cross industry study of institutional pressures on organizational effort to raise information security awareness. Inf. Syst. Front. 1241–1264.
+Kanobe, F., Alexander, M., Bwalya, K., 2019. Information security management scaffold for mobile money systems in uganda. 18th European Conference On Cyber Warfare & Security, (p. 239 - 247). Portugal.
+Karampidis, K., Panagiotakis, S., Vasilakis, M., Markakis, E.K., Papadourakis, G. , 2019. Industrial CyberSecurity 4.0: Preparing the Operational Technicians for Industry 4. 0. 2019 IEEE 24th International Workshop on Computer Aided Modeling and Design of Communication Links and Networks (CAMAD). Limassol, Cyprus.
+Kaspersky Lab. , 2018. The Human Factor in IT Security: How Employees are Making Businesses Vulnerable from Within. Kaspersky. Tratto da Kaspersky daily.
+Kaur, J., Mustafa, N. , 2013. Examining the effects of knowledge, attitude and beha- viour on information security awareness: A case on SME. Research and Innovation in Information Systems, ICRIIS (p. 286 - 290). Kuala Lumpur: IEEE.
+Kolev, K., Dimitrov, N. , 2017. Cyber threat in maritime industry-Situational awareness and educational aspect. 18th Annual General Assembly of the International Association of Maritime Universities - Global Perspectives in MET: Towards Sustainable, Green and Integrated Maritime Transport, (p. 352 - 360).
+Kritzinger, E., Smith, E., 2008a. Information security management: an information security retrieval and awareness model for industry. Comput. Secur. 224–231.
+Kritzinger, E., Smith, E., 2008b. Information security management: an information security retrieval and awareness model for industry. Comput. Secur. 224–231.
+Kritzinger, E., Bada, M., Nurse, J., 2017. A study into the cybersecurity awareness in- itiatives for school learners in South Africa and the UK. 10th World Conference on Information Security Education, (p. 110 - 120).
+Kritzinger, E., Loock, M., Mwim, E., 2018. Cyber Safety Awareness and Culture Planning in South Africa. International Symposium on Cyberspace Safety and Security (p. 317 - 326). Springer, Cham.
+Kruger, H., Kearney, W., 2008. Consensus ranking - an ICT security awareness case study. Comput. Secur. 254–259.
+Lacerda, T.C., von Wangenheim, G.C., 2018. Systematic literature review of usability capability/maturity models. Comput. Stand. Interfaces 55, 95–105.
+Lechner, U., Pinto-Albuquerque, M., Gasiba, T., 2020. Sifu - a cybersecurity awareness platform with challenge assessment and intelligent coach. Cybersecurity.
+Lee, I., 2020. Internet of things (IoT) cybersecurity: literature review and iot cyber risk management. Future Internet 12 (9), 157.
+Lee, T.-H., Sung, W.-K., Kim, H.-W., 2016. A text mining approach to the analysis of information security awareness: Korea, United States, and China. Pacific Asia Conference on Information Systems, PACIS 2016 - Proceedings. Taiwan, Province of China: Pacific Asia Conference on Information Systems.
+Lejaka, T., Da Veiga, A., Loock, M., 2019. Cyber security awareness for small, medium and micro enterprises (SMMEs) in South Africa. Information Communications Technology and Society. IEEE, Durban, South Africa.
+Lezzi, M., Lazoi, M., Corallo, A., 2018. Cybersecurity for Industry 4.0 in the current literature: a reference framework. Comput. Ind. 103, 97–110. https://doi.org/10. 1016/j.compind.2018.09.004
+Li, J., Wang, Y.,Qj, B. , 2018. Discussion on cyber security awareness and awareness model building based on connectionism. 2018 IEEE 4th Information Technology and Mechatronics Engineering Conference (ITOEC) (p. 259 - 263). China: IEEE.
+Li, L., He, W., Xu, L., Ash, I., Anwar, M., Yuan, X., 2019. Investigating the impact of cybersecurity policy awareness on employees’ cybersecurity behavior. Int. J. Inf. Manag. 45, 13–24.
+Lu, Y., Xu, L.D., 2019. Internet of things (IoT) cybersecurity research: a review of cur- rent research topics. IEEE Internet Things J. 6 (2), 2103–2115.
+Maggi, F., Balduzzi, M., Vosseler, R., Rösler, M., Quadrini, W., Tavola, G.,. Zanero, S. (2021). Smart Factory Security: A Case Study on a Modular Smart Manufacturing System. International Conference on Industry 4.0 and Smart Manufacturing, (p. 666 - 675). Austria.
+Malik, M., Islam, U., 2019. Cybercrime: an emerging threat to the banking sector of Pakistan. J. Financ. Crime. 50–60.
+Mawgoud, A., Taha, M., Khalifa, N., Loey, M., 2020. Cyber security risks in MENA re- gion: threats. Challenges and Countermeasures. Advances Intelligent Systems and Informatics 2019. Springer, Cham, pp. 912–921.
+McMeekin, N., Wu, O., Germeni, E., Briggs, A., 2020. How methodological frameworks are being developed: evidence from a scoping review. BMC Med. Res. Methodol. 20 (173), 1–9.
+15
+
+A. Corallo, M. Lazoi, M. Lezzi et al.
+Computers in Industry 137 (2022) 103614
+Murane, I., 2008. Raising awareness in information security: Everyone should parti- cipate. Proceedings of the 2008 International Conference on Security and Management, (p. 190 - 195).
+Nguyen, H., Nguyen, D., 2021. Drone application in smart cities: the general overview of security vulnerabilities and countermeasures for data communication. Development and Future of Internet of Drones (IoD): Insights, Trends and Road Ahead. Springer, pp. 185–210.
+Palavicini, G., Bryan, J., Sheets, E., Kline, M., San Miguel, J., 2017. Towards Firmware Analysis of Industrial Internet of Things (IIoT) - Applying Symbolic Analysis to IIoT Firmware Vetting. 2nd International Conference on Internet of Things, Big Data and Security. Porto, Portugal.
+Park, E., Kim, J., Park, Y., 2017. The role of information security learning and individual factors in disclosing patients’ health information. Comput. Secur. 65, 64–76. Pattinson, M., Butavicius, M., Parsons, K., McCormac, A., Calic, D., 2017. Managing
+information security awareness at an Australian bank: a comparative study. Inf.
+Comput. Secur. 181–189.
+Persky, A.S., 2020. Other industries are well ahead when it comes to cybersecurity
+awareness and prevention. What can the legal industry learn from them? ABA J.
+30–31.
+Policastro, E., 2007. Sniffing out rats. InTech 24–30. Pranckutė,R.,2021.Webofscience(WoS)andscopus:thetitansofbibliographic
+information in today’s academic world. Publications 9 (12), 1–59. https://doi.org/
+10.3390/publications9010012
+Prins, S., Marnewick, A.,Von Solms, S., 2020. Cybersecurity awareness in an industrial control systems company. European Conference on Information Warfare and Security (p. 314 - 323). UK: ACPI.
+Sari, P., Prasetio, A., 2018. Customer awareness towards digital certificate on E- Commerce: Does it affect purchase decision? 2018 Third International Conference on Informatics and Computing (ICIC). Palembang, Indonesia: IEEE.
+Sari, P., Candiwan, Trianasari, N., 2014. Information security awareness measurement with confirmatory factor analysis. 2014 International Symposium on Technology Management and Emerging Technologies (p. 218 - 223). Bandung, Indonesia: IEEE.
+Shamsi, A.A., 2019. Effectiveness of cyber security awareness program for young children: a case study in UAE. Int. J. Inf. Technol. Lang. Stud. IJITLS 8–29.
+Shaw, R., Chen, C.C., Harris, A.L., Huang, H.-J., 2009. The impact of information richness on information security awareness training effectiveness. Comput. Educ.
+Silverajan, B. , Vistiaho, P. , 2019. Enabling cybersecurity incident reporting and co- ordinated handling for maritime sector. 2019 14th Asia Joint Conference on Information Security (AsiaJCIS) (p. 88 - 95). Kobe, Japan: IEEE.
+Siponen, M., 2000. A conceptual foundation for organizational information security awareness. Inf. Manag. Comput. Secur. 31–41.
+Smith, C., 2017. IoT decision making with process and energy control architectures. 2017 Petroleum and Chemical Industry Conference Europe (PCIC Europe). Vienna, Austria.
+Stokes, P., Wall, T., 2015. Research Methods. Palgrave Macmillan, London, UK. Swanson, M., Bowen, P., Phillips, A.W., Gallup, D., Lynes, D., 2010. NIST special pub- lication 800-34. Contingency Planning Guide for Federal Information Systems.
+NIST.
+Talib, S., Clarke, N., Furnell, S., 2010. An analysis of information security awareness
+within home and work environments. 2010 International Conference on
+Availability, Reliability and Security (p. 196 - 203). Krakow, Poland: IEEE.
+Tsohou, A., Holtkamp, P., 2018a. Are users competent to comply with information security policies? An analysis of professional competence models. Information Technology and People. Emerald Publishing Limited, pp. 1047–1068.
+Tsohou, A., Holtkamp, P., 2018b. Are users competent to comply with information security policies? An analysis of professional competence models. Information Technology and People. Emerald Publishing Limited, pp. 1047–1068.
+Tsohou, A., Karyda, M., Kokolakis, S., Kiountouzis, E., 2010. Analyzing information security awareness through networks of association. Trust, privacy and security in digital business. Bilbao. Springer, Berlin, Heidelberg, pp. 227–237.
+Tsuchiya, A., Ota, Y., Takayama, Y., Tomomi Aoyama, Takashi. Hamaguchi, Hashimoto, Y., Koshijima, I., 2018. Cyber Incident Exercise Admitting Inter-Organization for Critical Infrastructure Companies. In M. Eden, M. Ierapetritou, & G. Towler, 13th International Symposium on Process Systems Engineering (p. 1645- 1650). California, USA: Elsevier B.V.
+Tuptuk, N., Hailes, S., 2018. Security of smart manufacturing systems. J. Manuf. Syst. 47, 96–106.
+Urquhart, L., McAuley, D., 2018. Avoiding the internet of insecure industrial things. Comput. Law Secur. Rev. 34 (3), 450–466.
+Van Lier, B., 2017. The Industrial Internet of Things and Cyber Security. An ecological and systemic perspective on security in digital industrial ecosystems. 2017 21st International Conference on System Theory, Control and Computing (ICSTCC). Sinaia, Romania.
+Verizon, 2021. DBIR 2021 data breach investigation report. Verizon.
+Wang, H.W., Kuo, S.Y., Chen, L.B., 2021. Exploring the relationship between internal information security, response cost, and security intention in container shipping.
+Appl. Sci.
+Wu, S. , Guo, D. , Wu, Y. , 2018a. The effects of bank employees’ information security
+awareness on performance of information security governance. International
+Conference on Intelligent and Interactive Systems and Applications (p. 657- 663).
+Springer, Cham.
+Wu, Y. , Linfeng, Wu, S. 2018b. A study on the impact of regulatory compliance
+awareness on security management performance and information technology capabilities. 13th International Conference on Natural Computation, Fuzzy Systems and Knowledge Discovery (p. 2866 - 2871). China: IEEE.
+Xu, P., He, S., Wang, W., Susilo, W., Jin, H., 2017. Lightweight searchable public-key encryption for cloud-assisted wireless sensor networks. IEEE Trans. Ind. Inform. 14 (8), 3712–3723.
+Zhang-Kennedy, L., Chiasson, S., 2021. A systematic review of multimedia tools for cybersecurity awareness and education. ACM Comput. Surv.
+Zhao, H., Silverajan, B. , 2020. A Dynamic Visualization Platform for Operational Maritime Cybersecurity. International Conference on Cooperative Design, Visualization and Engineering (p. 202 - 208). Springer, Cham.
+Angelo Corallo received his M.Sc. degree in physics from the University of Lecce, Lecce, Italy, in 1999. He is an Associate Professor at the Department of Engineering for Innovation, University of Salento, Lecce, and is re- sponsible for CORELab (Collaborative hOlistic Research Approach Laboratory) at the same University. His main research interests include technologies and organiza- tional strategies in complex industries, knowledge management, collaborative working environments and cybersecurity management with specific reference to the manufacturing industry. He is coordinator and scientific responsible of several European, national and regional research projects.
+Mariangela Lazoi, PhD, is a researcher at the Department of Engineering for Innovation, University of Salento. She received her PhD degree in eBusiness from the University of Salento, Lecce, in 2009. She is responsible for the Digital Engineering for Industry area in CORELab (Collaborative hOlistic Research Approach) at the University of Salento and collaborates with different companies addressing tecno-organizational solutions. Her research interests are product design methods and tools, product lifecycle management, business process management and cybersecurity management. She is scientifically responsible for European, national and re- gional research projects.
+Marianna Lezzi, PhD, is a researcher at the Department of Engineering for Innovation at the University of Salento. She received her PhD degree in Complex Systems Engineering from the University of Salento, Lecce, in 2020. Her research focuses on cybersecurity manage- ment for networked industrial contexts. She is currently involved in the OK-INSAID research project (funded by Italian MIUR) for activities related to the analysis and management of cybersecurity issues within networked manufacturing systems. She has taken part in European research projects (such as PRACTICE and TOREADOR) based on the development of Big Data management models for aeronautical companies. She also has ex- perience in the definition of innovative business man-
+agement methodologies and secure collaborative processes within the aeronautical supply chain.
+Angela Luperto is a research fellow at the Department of Engineering for Innovation at the University of Salento. She received her Master's Degree in management en- gineering from the University of Salento, Italy, in 2021. Her research interests include model based enterprise approach, product lifecycle management, ICT for Industry 4.0 and cybersecurity management. She is cur- rently working on regional and national research pro- jects.
+    16

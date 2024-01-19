@@ -1,0 +1,91 @@
+~ Visit AskYourPDF.com ~
+Literature review Generated From AskYourPDF
+
+# Literature Review: Cyber Security Implementation Challenges for Small-to-Medium Sized Businesses
+
+(SMBs)
+
+## Introduction
+
+Small-to-medium-sized businesses (SMBs) play a significant role in many economies. However, existing
+literature suggests that SMBs often fail to adequately implement cybersecurity measures, leaving them
+vulnerable to cyber-attacks. Despite the prevalence of SMBs, research focused on cybersecurity is largely
+directed towards larger organizations. This paper aims to review recent research on the cybersecurity
+practices of SMBs, with a specific focus on the alignment of this research with the NIST Cyber
+Security Framework (CSF). Additionally, the key challenges faced by SMBs in implementing effective
+cybersecurity measures will be discussed, and recommendations for improving cybersecurity practices
+among SMBs will be provided.
+
+## Cybersecurity Implementation Challenges for SMBs
+
+The literature reveals several key challenges that SMBs face in implementing good cybersecurity
+practices. Buczak and Guven (2016) highlight these challenges, emphasizing the need for effective
+cybersecurity intrusion detection. They argue that SMBs face difficulties in detecting and mitigating cyber
+threats due to limited resources and expertise. This lack of technical knowledge and skilled personnel
+makes it challenging for SMBs to identify potential cybersecurity vulnerabilities and proactively address
+them (Buczak & Guven, 2016).
+In addition to resource limitations, SMBs also face challenges related to the rapidly evolving nature of
+cyber threats. Parkinson et al. (2017) mention that autonomous and connected vehicles are particularly
+susceptible to cyber threats. While this finding does not directly focus on SMBs, it highlights the broader
+issue of emerging cyber threats that may affect SMBs as well. The dynamic nature of cyber threats
+necessitates continuous monitoring and adaptation of cybersecurity practices, which can be challenging
+for SMBs with limited resources and expertise (Parkinson et al., 2017).
+Another challenge faced by SMBs is the increasing prevalence of Distributed Denial of Service (DDoS)
+attacks. Bawany, Shamsi, and Salah (2017) discuss the detection and mitigation of DDoS attacks using
+Software-Defined Networking (SDN). Although this study does not explicitly address SMBs, it underscores the growing threat landscape and the need for effective cybersecurity measures. SMBs, in particular,
+1 / 3
+~ Visit AskYourPDF.com ~
+may struggle to protect their networks and infrastructure from these attacks due to limited financial and
+technical resources (Bawany et al., 2017).
+
+## Aligning SMB Cybersecurity Practices with the NIST CSF
+
+To assess the alignment of research on SMB cybersecurity with the NIST CSF, the findings from the
+reviewed literature are insufficient. Further research is required to examine the extent to which existing
+studies align with the framework and identify any gaps. This represents a knowledge gap in the current
+literature and suggests a potential avenue for future research.
+
+## Recommendations for Implementing Good Cybersecurity in SMBs
+
+Based on the available research findings, several recommendations can be made to improve cybersecurity
+practices among SMBs. First, SMBs should prioritize cybersecurity awareness and education for their
+employees. By providing training and raising awareness about potential cyber threats, SMBs can enhance
+their overall cybersecurity posture (Buczak & Guven, 2016).
+Second, SMBs should consider leveraging emerging technologies, such as deep learning models, to
+enhance their cybersecurity capabilities. Roopak, Tian, and Chambers (2019) suggest that deep learning
+models can be effective in securing Internet of Things (IoT) networks. SMBs can explore the adoption of
+such technologies to improve threat detection and response mechanisms (Roopak et al., 2019).
+Lastly, SMBs should collaborate with industry associations, government agencies, and other SMBs to
+share best practices and exchange information about emerging cyber threats. Such collaboration can help
+SMBs overcome resource limitations and stay updated with the latest cybersecurity trends and practices
+(Romanosky, 2016).
+
+## Conclusion
+
+In conclusion, the literature indicates that SMBs face significant challenges in implementing effective
+cybersecurity measures. Limited resources, technical expertise, and the evolving nature of cyber threats
+contribute to their vulnerability. To address these challenges, SMBs should prioritize cybersecurity
+awareness, leverage emerging technologies, and foster collaboration with relevant stakeholders. Further
+research is needed to assess the alignment of existing studies with the NIST CSF and explore additional
+strategies for improving cybersecurity practices among SMBs. By implementing these recommendations,
+SMBs can enhance their cybersecurity posture and mitigate the risks associated with cyber-attacks.
+2 / 3
+~ Visit AskYourPDF.com ~
+
+## References:
+
+1. Roopak, Monika., Tian, G.., & Chambers, J.. (2019). Deep Learning Models for Cyber Security in
+   IoT Networks. <i>2019 IEEE 9th Annual Computing and Communication Workshop and Conference
+   (CCWC)</i> , 0452-0457 . http://doi.org/10.1109/CCWC.2019.8666588
+2. Romanosky, Sasha. (2016). Examining the costs and causes of cyber incidents. <i>J. Cybersecur.</i>
+   , 2 , 121-135 . http://doi.org/10.1093/cybsec/tyw001
+3. Buczak, A.., & Guven, Erhan. (2016). A Survey of Data Mining and Machine Learning Methods for
+   Cyber Security Intrusion Detection. <i>IEEE Communications Surveys & Tutorials</i> , 18 , 1153-1176
+   . http://doi.org/10.1109/COMST.2015.2494502
+4. Bawany, N.., Shamsi, J.., & Salah, K.. (2017). DDoS Attack Detection and Mitigation Using SDN:
+   Methods, Practices, and Solutions. <i>Arabian Journal for Science and Engineering</i> , 42 , 425 - 441
+   . http://doi.org/10.1007/s13369-017-2414-5
+5. https://www.semanticscholar.org/paper/2aadb938af2f77a6ad9321ff873c1c9b9a579fcb
+6. Parkinson, S.., Ward, Paul., Wilson, Kyle M.., & Miller, Jonathan. (2017). Cyber Threats Facing
+   Autonomous and Connected Vehicles: Future Challenges. <i>IEEE Transactions on Intelligent Transportation Systems</i> , 18 , 2898-2915 . http://doi.org/10.1109/TITS.2017.2665968
+   3 / 3

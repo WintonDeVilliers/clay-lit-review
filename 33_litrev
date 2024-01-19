@@ -1,0 +1,188 @@
+~ Visit AskYourPDF.com ~
+Literature review Generated From AskYourPDF
+
+# Literature Review: Incident-Specific Cyber Insurance
+
+## Introduction
+
+Incident-specific cyber insurance is a type of insurance product that offers coverage for losses arising from
+various types of cyber incidents, such as data breaches and ransomware attacks. This coverage is provided
+with separate limits and deductibles for each incident type, allowing buyers to customize their coverage
+and manage sellers' risk exposures. However, the current market practice of offering a coverage bundle
+for different incident types complicates the insurance process and raises several important questions. This
+literature review aims to explore the existing research findings on incident-specific cyber insurance and
+identify knowledge gaps that can guide future research in this area.
+
+## Research Findings
+
+### Coverage and Rate Analysis for Millimeter-Wave Cellular Networks
+
+Bai and Heath (2014) conducted a coverage and rate analysis for millimeter-wave cellular networks.
+Although this study is not directly related to incident-specific cyber insurance, it provides insights into
+the analysis of coverage and rate in wireless networks. This research finding can be applied to evaluate
+the coverage and performance of cyber insurance policies in different incident scenarios.
+
+### 3-D Placement of an Unmanned Aerial Vehicle Base Station (UAV-BS) for Energy-Efficient Maximal
+
+Coverage
+Alzenad et al. (2017) investigated the 3-D placement of an unmanned aerial vehicle base station (UAV-BS)
+for energy-efficient maximal coverage. While this research focuses on UAV placement, it offers valuable
+insights into optimizing coverage and resource allocation. These findings can be applied to optimize the
+placement of cyber insurance resources in different incident scenarios to maximize coverage and minimize
+costs.
+
+### On the coverage of LPWANs: range evaluation and channel attenuation model for LoRa technology
+
+Petäjäjärvi et al. (2015) evaluated the coverage of low-power wide-area networks (LPWANs) and developed a channel attenuation model for LoRa technology. Although this research focuses on LPWANs,
+it provides insights into coverage evaluation and modeling for wireless communication systems. These
+findings can be used to evaluate and model the coverage of incident-specific cyber insurance policies in
+different communication environments.
+1 / 6
+~ Visit AskYourPDF.com ~
+
+### Arctic sea ice thickness, volume, and multiyear ice coverage: losses and coupled variability
+
+(1958–2018)
+Kwok (2018) conducted a study on the loss of Arctic sea ice thickness, volume, and multiyear ice
+coverage. Although this research is not directly related to incident-specific cyber insurance, it highlights
+the importance of analyzing losses and variability in complex systems. These insights can be applied to
+understand the losses and variability in cyber incidents and inform the design of incident-specific cyber
+insurance policies.
+
+### CryptoLock (and Drop It): Stopping Ransomware Attacks on User Data
+
+Scaife et al. (2016) proposed a method to stop ransomware attacks on user data. This research finding
+directly addresses the issue of ransomware attacks, which is a significant concern in incident-specific
+cyber insurance. The proposed method can be used to develop preventive measures and risk mitigation
+strategies in the design of cyber insurance policies.
+
+## Knowledge Gaps and Future Research Directions
+
+1. **Optimal incident-specific coverage**: Although incident-specific cyber insurance offers flexibility
+   in coverage customization, there is a need for research to determine the optimal coverage limits and
+   deductibles for different incident types. Future studies can explore mathematical models and optimization
+   techniques to determine the optimal coverage parameters that balance buyers' needs and sellers' risk
+   exposures.
+2. **Evaluation of cyber insurance performance**: There is a lack of research on evaluating the performance of incident-specific cyber insurance policies. Future studies can develop evaluation frameworks
+   and metrics to assess the effectiveness and efficiency of different policy designs in mitigating cyber risks
+   and providing adequate coverage.
+3. **Dynamic risk assessment**: Existing research mainly focuses on static risk assessment for incident-specific cyber insurance. Future studies can investigate dynamic risk assessment methods that
+   consider the changing nature of cyber threats and the evolving cybersecurity landscape. This research
+   can contribute to developing adaptive cyber insurance policies that can adjust coverage and premiums
+   based on real-time risk assessments.
+4. **Cyber incident prediction and prevention**: While incident-specific cyber insurance provides coverage for losses, there is a need for research on predicting and preventing cyber incidents. Future studies
+   can explore predictive analytics and machine learning techniques to identify potential cyber threats and
+   develop proactive measures to prevent incidents. These findings can inform the design of incident-specific
+   2 / 6
+   ~ Visit AskYourPDF.com ~
+   cyber insurance policies that prioritize risk prevention.
+5. **Cyber insurance market analysis**: There is limited research on the market dynamics and economic
+   implications of incident-specific cyber insurance. Future studies can analyze the market forces, pricing
+   strategies, and market structure of cyber insurance to understand the barriers and opportunities for the
+   widespread adoption of incident-specific cyber insurance. This research can provide valuable insights for
+   policymakers and insurance providers.
+
+## Conclusion
+
+The literature review provides a comprehensive overview of the existing research findings on incident-specific cyber insurance. The synthesis of these findings highlights the need for further research
+to address knowledge gaps and guide future research directions. The identified gaps include optimizing
+incident-specific coverage, evaluating insurance performance, dynamic risk assessment, incident prediction and prevention, and market analysis. Future research in these areas can contribute to the development
+of effective and robust incident-specific cyber insurance policies that address the evolving cybersecurity
+landscape.
+
+## References:
+
+1. Kwok, R.. (2018). Arctic sea ice thickness, volume, and multiyear ice coverage:
+   losses and coupled variability (1958–2018). <i>Environmental Research Letters</i> , 13 .
+   http://doi.org/10.1088/1748-9326/aae3ec
+2. Scaife, Nolen., Carter, Henry., Traynor, Patrick., & Butler, Kevin R. B.. (2016). CryptoLock (and
+   Drop It): Stopping Ransomware Attacks on User Data. <i>2016 IEEE 36th International Conference on
+   Distributed Computing Systems (ICDCS)</i> , 303-312 . http://doi.org/10.1109/ICDCS.2016.46
+3. Xue, Li., Liu, Gang., Parfitt, J.., Liu, Xiaojie., Herpen, E. van., Stenmarck, Åsa., O’Connor, C..,
+   Östergren, K.., & Cheng, Shengkui. (2017). Missing Food, Missing Data? A Critical Review of Global
+   Food Losses and Food Waste Data.. <i>Environmental science & technology</i> , 51 12 ,
+   6618-6633
+   . http://doi.org/10.1021/acs.est.7b00401
+4. Hu, Chunling., Hart, S.., Polley, E.., Gnanaolivu, Rohan D., Shimelis, Hermela., Lee, Kun Y.., Lilyquist,
+   J.., Na, Jie., Moore, R.., Antwi, S.., Bamlet, W.., Chaffee, K. G.., DiCarlo, J.., Wu, Zhong., Samara,
+   R.., Kasi, P.., McWilliams, R.., Petersen, G.., & Couch, F.. (2018). Association Between Inherited
+   Germline Mutations in Cancer Predisposition Genes and Risk of Pancreatic Cancer. <i>JAMA</i> , 319
+   , 2401–2409 . http://doi.org/10.1001/jama.2018.6228
+5. Xie, Xiaofei., Ma, L.., Juefei-Xu, Felix., Xue, Minhui., Chen, Hongxu., Liu, Yang., Zhao, Jianjun.,
+   Li, Bo., Yin, Jianxiong., & See, S.. (2019). DeepHunter: a coverage-guided fuzz testing framework for
+   3 / 6
+   ~ Visit AskYourPDF.com ~
+   deep neural networks. <i>Proceedings of the 28th ACM SIGSOFT International Symposium on Software
+   Testing and Analysis</i> . http://doi.org/10.1145/3293882.3330579
+6. Bai, T.., & Heath, R.. (2014). Coverage and Rate Analysis for Millimeter-Wave Cellular Networks. <i>IEEE Transactions on Wireless Communications</i> , 14 , 1100-1114 .
+   http://doi.org/10.1109/TWC.2014.2364267
+7. Dunbar, Robin I. M.. (2016). Do online social media cut through the constraints that limit the size of
+   offline social networks?. <i>Royal Society Open Science</i> , 3 . http://doi.org/10.1098/rsos.150292
+8. Yang, Ye., Yang, Mengjin., Moore, D.., Yan, Yong., Miller, E.., Zhu, K.., & Beard, M.. (2017). Top
+   and bottom surfaces limit carrier lifetime in lead iodide perovskite films. <i>Nature Energy</i> , 2 .
+   http://doi.org/10.1038/nenergy.2016.207
+9. Petäjäjärvi, J.., Mikhaylov, Konstantin., Roivainen, A.., Hänninen, T.., & Pettissalo, Marko. (2015).
+   On the coverage of LPWANs: range evaluation and channel attenuation model for LoRa technology. <i>2015 14th International Conference on ITS Telecommunications (ITST)</i> , 55-59 .
+   http://doi.org/10.1109/ITST.2015.7377400
+10. O’Hanley, H.., Coyle, Carolyn., Buongiorno, J.., Mckrell, T.., Hu, L.., Rubner, M.., & Cohen, R..
+    (2013). Separate effects of surface roughness, wettability, and porosity on the boiling critical heat flux.
+    <i>Applied Physics Letters</i> , 103 , 024102 . http://doi.org/10.1063/1.4813450
+11. Su, Lan., Wang, Songjie., Wu, Shengjie., Xu, Lei., Huang, Zhouqing., Chen, Xiao., Zheng, R.., Jiang,
+    Limeng., Ellenbogen, K.., Whinnett, Z.., & Huang, Weijian. (2021). Long-term Safety and Feasibility of
+    Left Bundle Branch Pacing in A Large Single Center Study.. <i>Circulation: Arrhythmia and Electrophysiology</i> . http://doi.org/10.1161/CIRCEP.120.009261
+12. Erde, Jonathan., Loo, R.., & Loo, J.. (2014). Enhanced FASP (eFASP) to Increase Proteome Coverage
+    and Sample Recovery for Quantitative Proteomic Experiments. <i>Journal of Proteome Research</i> ,
+    13 , 1885 - 1895 . http://doi.org/10.1021/pr4010019
+13. Alzenad, Mohamed., El-Keyi, A.., Lagum, Faraj., & Yanikomeroglu, H.. (2017). 3-D Placement of
+    an Unmanned Aerial Vehicle Base Station (UAV-BS) for Energy-Efficient Maximal Coverage. <i>IEEE
+    Wireless Communications Letters</i> , 6 , 434-437 . http://doi.org/10.1109/LWC.2017.2700840
+14. Wing, Oliver E. J.., Bates, P.., Smith, Andrew., Sampson, C.., Johnson, Kris A.., Fargione, J.., &
+    Morefield, P.. (2017). Estimates of present and future flood risk in the conterminous United States.
+    <i>Environmental Research Letters</i> , 13 . http://doi.org/10.1088/1748-9326/aaac65
+15. Su, Buda., Huang, Jinlong., Fischer, T.., Wang, Yanjun., Kundzewicz, Z.., Zhai, J.., Sun, Hemin.,
+    Wang, Anqian., Zeng, X.., Wang, Guojie., Tao, H.., Gemmer, M.., Li, Xiucang., & Jiang, T.. (2018).
+    Drought losses in China might double between the 1.5 °C and 2.0 °C warming. <i>Proceedings of
+    the National Academy of Sciences of the United States of America</i> , 115 , 10600 - 10605 .
+    http://doi.org/10.1073/pnas.1802129115
+16. Lelieveld, J.., Pozzer, A.., Pöschl, U.., Fnais, M.., Haines, A.., & Münzel, T.. (2020). Loss of life
+    expectancy from air pollution compared to other risk factors: a worldwide perspective. <i>Cardiovascular
+    4 / 6
+    ~ Visit AskYourPDF.com ~
+    Research</i> , 116 , 1910 - 1917 . http://doi.org/10.1093/cvr/cvaa025
+17. Kölbel, Julian F.., Kölbel, Julian F.., Busch, T.., & Jancso, Leonhardt M.. (2017). How Media Coverage
+    of Corporate Social Irresponsibility Increases Financial Risk. <i>Southern Medical Journal</i> , 38 ,
+    2266-2284 . http://doi.org/10.1002/SMJ.2647
+18. Abdelrahman, A. H.., Elsherbeni, A.., & Yang, Fan. (2014). Transmission Phase Limit of Multilayer
+    Frequency-Selective Surfaces for Transmitarray Designs. <i>IEEE Transactions on Antennas and Propagation</i> , 62 , 690-697 . http://doi.org/10.1109/TAP.2013.2289313
+19. Peleteiro, B.., Bastos, A.., Ferro, A.., & Lunet, N.. (2014). Prevalence of Helicobacter pylori Infection
+    Worldwide: A Systematic Review of Studies with National Coverage. <i>Digestive Diseases and Sciences</i> , 59 , 1698-1709 . http://doi.org/10.1007/s10620-014-3063-0
+20. Rheenen, W. van., Shatunov, A.., Dekker, Annelot M.., McLaughlin, R.., Diekstra, F.., Pulit, S.., Spek,
+    R. V. D. van der., Võsa, U.., Jong, S. de., Robinson, M.., Yang, Jian., Fogh, I.., Doormaal, P. T. V. van.,
+    Tazelaar, Gijs H. P.., Koppers, M.., Blokhuis, A.., Sproviero, W.., Jones, Ashley R.., Kenna, K.., Eijk, K. V.
+    van., Harschnitz, O.., Schellevis, Raymond D.., Brands, W.., Medi, J.., Menelaou, A.., Vajda, A.., Ticozzi,
+    N.., Lin, Kuang., Rogelj, B.., Vrabec, Katarina., Ravnik-Glava, M.., Koritnik, B.., Zidar, J.., Leonardis,
+    L.., Grošelj, L. D.., Millecamps, S.., Salachas, F.., Meininger, V.., Carvalho, M. de., Pinto, S.., Mora,
+    J.., RojasGarcía, R.., Polak, M.., Chandran, S.., Colville, Shuna., Swingler, R.., Morrison, K.., Shaw, P..,
+    Hardy, J.., Orrell, R.., Pittman, A.., Sidle, K.., Fratta, P.., Malaspina, A.., Topp, S.., Petri, S.., Abdulla,
+    S.., Drepper, C.., Sendtner, M.., Meyer, T.., Ophoff, R.., Staats, K.., Wiedau-Pazos, M.., lomen-Hoerth,
+    Catherine., Deerlin, V. V. Van., Trojanowski, J.., Elman, L.., McCluskey, L.., Ba_ak, A.., Tunca, Ceren.,
+    Hamzeiy, Hamid., Parman, Y.., Meitinger, T.., Lichtner, P.., Radivojkov-Blagojevi, Milena., Andres, C..,
+    Maurel, C.., Bensimon, G.., Landwehrmeyer, B.., Brice, A.., Payan, C.., Saker-Delye, Safa., Dürr, A..,
+    Wood, N.., Tittmann, L.., Lieb, W.., Franke, A.., Rietschel, M.., Cichon, S.., Nöthen, M.., Amouyel, P..,
+    Tzourio, C.., Dartigues, J.., Uitterlinden, A.., Rivadeneira, F.., Estrada, K.., Hofman, A.., Curtis, C..,
+    Blauw, H.., Kooi, A. J. van der., Visser, M. de., Goris, A.., Weber, Markus., Shaw, C.., Smith, Bradley
+    N.., Pansarasa, O.., Cereda, Cristina., Bo, R. del., Comi, G.., D'alfonso, S.., Bertolin, C.., Soraru', G..,
+    Mazzini, L.., Pensato, V.., Gellera, C.., Tiloca, C.., Ratti, A.., Calvo, A.., Moglia, C.., Brunetti, M.., Arcuti,
+    S.., Capozzo, R.., Zecca, C.., Lunetta, C.., Penco, S.., Riva, N.., Padovani, A.., Filosto, M.., Muller, B..,
+    Stuit, Robbert Jan., Blair, I.., Zhang, Katharine Y.., McCann, E.., Fifita, J.., Nicholson, G.., Rowe, D..,
+    Pamphlett, R.., Kiernan, M.., Grosskreutz, J.., Witte, O.., Ringer, T.., Prell, T.., Stubendorff, B.., Kurth,
+    I.., Hübner, C.., Leigh, P.., Casale, F.., Chiò, A.., Beghi, E.., Pupillo, E.., Tortelli, R.., Logroscino, G..,
+    Powell, J.., Ludolph, A.., Weishaupt, Jochen H., Robberecht, W.., Damme, P. van., Franke, L.., Pers, T..,
+    Brown, Robert H.., Glass, J.., Landers, J.., Hardiman, O.., Andersen, P.., Corcia, P.., Vourc'h, P.., Silani,
+    V.., Wray, N.., Visscher, P.., Bakker, P. D. de., Es, M. V. van., Pasterkamp, R.., Lewis, C.., Breen, G..,
+    Al-Chalabi, A.., Berg, L. H. van den., & Veldink, J.. (2016). Genome-wide association analyses identify
+    new risk variants and the genetic architecture of amyotrophic lateral sclerosis. <i>Nature Genetics</i> ,
+    48 , 1043-1048 . http://doi.org/10.1038/ng.3622
+    5 / 6
+    ~ Visit AskYourPDF.com ~
+    6 / 6

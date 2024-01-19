@@ -1,0 +1,880 @@
+Cyber-risk Perception and Prioritization for Decision-Making and Threat Intelligence
+1
+Mario Angelelli1,2,3, Serena Arima2,4, Christian Catalano1,5, and Enrico Ciavolino2,4
+1Department of Innovation Engineering, University of Salento
+2Centre of Applied Mathematics and Physics for Industry, University of Salento 3INdAM - Istituto Nazionale di Alta Matematica, GNSAGA 4Department of Human and Social Sciences, University of Salento 5CRLab - Cybersecurity Research Lab, University of Salento
+Abstract
+Proactive cyber-risk assessment is gaining momentum due to the wide range of sectors that can benefit from the prevention of cyber-incidents. The increasing connectivity of digital and (cyber-)physical systems requires more attention to cybersecurity to enhance the integrity, confidentiality, and availability of data.
+We introduce a statistical framework for the prioritisation of cyber-vulnerabilities, using robust and interpretable regression models to support decision-making. Specifically, we take advantage of mid-quantile regression to deal with ordinal risk assessments, and we compare it to current alternatives for cyber-risk ranking and graded responses, identifying a novel accuracy measure suited for rankings with partial knowledge of existing vulnerabilities.
+Our model is tested on both simulated and real data from selected databases that sup- port the exploitation of cyber-vulnerabilities in real contexts. The variety of information arising from such datasets allows us to compare multiple models based on their predic- tive performance, showing how accessible information can influence perception and, hence, decision-making in operational scenarios. Applications to threat intelligence are discussed too.
+Keywords: Cyber-risk; Rank accuracy; Mid-Quantile regression; Risk perception; MCMC simulations.
+Introduction
+Cyber-vulnerabilities of devices, networks, or other kinds of Information and Communication Technologies (ICTs) can generate system failures or pave the way for different types of cyber- attacks, including denial-of-service, malware injection, and data exfiltration. These incidents can also be enhanced by social engineering, with secondary cascading effects in complex ICTs (system-of-systems, see e.g. [15]) that can compromise or interrupt service supply, undermining the operational continuity of critical infrastructures.
+New vulnerabilities are emerging from the increasing number of connections among digital systems, now including personal devices, sensors, (computational or storage) cloud services, and
+1
+arXiv:2302.08348v3 [stat.ME] 1 Aug 2023
+
+even vehicles [6], which represent an access point to other information systems through privilege escalation; the latter amplifies the severity of cyber-vulnerabilities and represents a weakness when local access points may lead to violations of classified information at the national level, as is the case of public administration [8].
+Cyber-incidents lead to economic losses, risks to safety, reputational damage, and violation of personal rights such as privacy, right-to-be-anonymous, and proper use of personal or sensitive data. The effect of these damages is not always measurable, due to the intangible nature of social and reputational effects and the lack of high-quality data, which are often kept secret to prevent additional reputational issues [17].
+Proactive cyber-risk assessment refers to a set of methods, standards, approaches, and good practises aimed at informed decision-making in the management of cyber domains, in particular, cyber-vulnerabilities, to prevent cyber-incidents. Currently, cyber-risk assessment standards are based on severity levels assessed by institutions, such as the National Institute of Standards and Technology (NIST) and national Computer Security Incident Response Teams (CSIRTs). Although NIST provides a harmonised approach to evaluate the general impact of a cyber- vulnerability, contextual factors (e.g. exposure to a vulnerable technology and its identifiability) may influence exploitability both directly and in terms of attackers’ perception, thus affecting the actual perceived risk. These factors often arise in reserved reports, data collections, or expert evaluations that are not disclosed. In addition to this limited knowledge, multiple cyber- vulnerabilities can be relevant to individuals and organisations, which have to prioritise them in order to better allocate their cybersecurity (economic, temporal, professional) resources based on accessible information and personal criteria.
+These issues prompt a deeper analysis of the way risk about cyber-vulnerabilities is perceived and evaluated based on available information: this leads to the following Research Questions (RQs):
+(RQ1) How to estimate risk assessment based on a previously acquired knowledge base and actual information on new vulnerabilities, without relying on specific assumptions that could hardly be verified?
+(RQ2) How to measure the accuracy of the previous assessment taking into account the lack of complete information on the set of vulnerabilities?
+To answer these questions, we propose a new statistical framework to address the need for flexible and interpretable models relating to cyber-vulnerability assessment and their prioriti- sation, in this way supporting adaptive decision-making. Flexibility is required to allow differ- ent users to adapt the framework based on the information they have access to, e.g. adding explanatory variables or considering different response variables based on their own ranking. Interpretability is needed to prompt appropriate interventions, e.g. counteractions to fix vul- nerabilities or prevent their exploitation.
+As will be detailed in the following sections, the focus on vulnerabilities, rather than actual incidents, requires appropriate models, in terms of both estimation procedures and accuracy measures, to deal with uncertainty and partial information. Specifically, to address RQ1 we adopt mid-quantile regression as a means to provide robust estimates of ordinal (quantitative
+2
+
+and qualitative) risk assessments of cyber-vulnerabilities depending on available information (predictors). Regarding the research question RQ2, we introduce a new accuracy measure that meets an invariance requirement for cyber-vulnerability severity rankings with respect to unobserved vulnerabilities.
+These proposals are tested on both simulated and real data. While the statistical ap- proach presented in this work is flexible enough to include other sources of threat beyond cyber-vulnerabilities, the data we consider in this work do not involve factors such as social engineering, insider threats, and physical effects (e.g. overload of ICT capacities). However, it is worth stressing that such factors may be as critical as cybervulnerabilities and may combine with them in the execution of a cyber-attack [9].
+The paper is organised as follows: the notions of cybersecurity and cyber-vulnerabilities that are relevant for this work are described in the following Section 2, where we also introduce the required preliminaries on the statistical models used in the paper, with special reference to rank transform and mid-quantile regression (Subsection 2.2). Section 3 describes the data sources that are used for the specification and validation of the proposed model. Our proposal is pre- sented and motivated in Section 4, also discussing the appropriate index to assess performance and model comparison suited to our research questions in the cyber-risk domain. In Section 5, following a descriptive analysis of the data, we summarise and comment on the results of simu- lations and the exploration of the real dataset in terms of prioritisation of cyber-vulnerabilities. After the discussion of the results in Section 6, conclusions are drawn in Section 7, where we point out future work and applications of the present proposal.
+2 State of the art
+2.1 Related work on cyber-risk assessments
+Cyber-risk assessment is a well-recognised problem that plays a key role in different domains, e.g. the management of critical infrastructures [31] and industrial sectors [10]. The diffusion of IoT [32] is opening the way to new sources of cyber-risk, and also cyber-physical systems and personal devices require adequate solutions to ensure data protection [4]. On the other hand, peculiar aspects of operational scenarios may cause limitations of the efficacy of cyber- risk modelling [31] and, furthermore, require an appropriate trade-off between the validity of the assessment and usability for decision-making.
+In cyber-risk analysis, one should distinguish between cyber-vulnerability and cyber-incident: a vulnerability is an access point, but this does not necessarily entail a cyber-incident, that is, actual (intentional or not) damage to a digital system. Each known cyber-vulnerability is uniquely identified by a Common Vulnerability Exposure (CVE) code: in the NIST classifica- tion, the CVE acts as a primary key to retrieve both the impacts, in terms of CIA dimensions (Confidentiality, Integrity, and Availability), and the severity assessment of relevant intrinsic characteristics of the vulnerability. These features are described in detail in the next section. Focusing on cyber-risk in relation to cyber-vulnerabilities, the current approach to properly score emerging vulnerabilities is driven by the NIST’s methodology [33, 21].
+In addition to such intrinsic features of cyber-vulnerabilities, other extrinsic factors affect the 3
+
+risk of cyber-threats, in particular, the exposure of the technology, which refers to the number of exposed hosts (devices or systems) for a given CVE, i.e. devices or systems where a given vulnerability has been recognised. Exposure, together with the availability of exploits and their cost, concurs to define targets and feasible attacks.
+An exploit is defined as a software component, a process, or any human or physical resource that can be directly executed to perform a cyber-attack: in this work, we primarily deal with software exploits, but related work also addresses the role of interactions between malicious software and human factors in the definition of new attack techniques [35]. We talk about a 0-day when the vulnerability has not been disclosed before and there are no solutions available to patch it.
+Proactive defence aims at increasing resilience at the individual and network level (pre- venting criticalities), preserving individuals and community rights in the cyber-space (privacy, GDPR compliance, right-to-be-anonymous), and supporting efficient management of resources and ICT maintenance. In particular, proactive defence is needed to choose appropriate counter- actions that mitigate the occurrence of cyber-incidents from cyber-vulnerabilities. There exist several techniques to enhance cybersecurity, including vulnerability assessment, penetration testing, and static or dynamic analysis of applications. However, proactive defence is subject to bounded resources: time constraints, verification costs [34], a specific effort for proprietary software, limits to automation, and contextual security analysis in highly connected systems. Therefore, accurate methods to support experts in risk assessment are a relevant premise for prioritising interventions and, hence, better use of resources. In this regard, (semi-)automatic tools and applications based on AI, especially Deep Learning, are gaining increasing attention as a practical support to detect malware [11]. Unfortunately, they do not provide complete protection against malware attacks: in a recent work [9], it is shown that CNN classification could be deceived by masking malware with a goodware component to bypass automatic con- trols, also suggesting feasible counteractions. This approach is called polymorphism and is a software property that is often used in cyber guerrilla attacks [36]. This notwithstanding, new approaches are being investigated to take advantage of deep learning while overcoming some of its limitations, including explainability [22].
+Different research streams are investigated to further support cybersecurity experts through different methodological or algorithmic techniques, including applications of fuzzy logic to intru- sion detection systems [20], game-theoretic modelling [29, 13], and stochastic processes toward a successful attack to evaluate the resilience of a system based on Markov chains [37]. In line with the research questions stated in the Introduction, here we focus on interpretable statistical modelling and recently proposed applications to promote proper cyber-risk assessment and cy- bersecurity analysis [17, 18], concentrating on their extension to deal with prioritisation under partial information on cyber-vulnerability. Two primary sources of uncertainty to take into account in a preventive approach to cybersecurity have already been mentioned in the previous discussion, namely, resource limitations in the implementation of vulnerability assessments and non-disclosure policies to avoid sharing confidential information on cyber-threats and reputa- tional losses. In fact, limited data accessibility has been widely recognised as a relevant issue [17], with an economic impact on estimates [1] and consequent effects on insurance [7].
+4
+
+To better define the scope of the research, in the following subsections we introduce the required notions about the statistical models considered in this work.
+2.2 Preliminaries on statistical models
+Before discussing the two specific models addressed in this work in the cybersecurity domain, we briefly review the ordered logit model as a benchmark for regression with ordinal responses [28]. As is well known, it is a Generalised Linear Model (GLM) suited to deal with cumulative probability distributions for ordinal responses conditioned on explanatory variables. Specifically, let y1,...,yn be a sample of n ordinal responses and X be a vector of explanatory variables. The model aims at describing the effect of covariates on the odds
+logP(y≤h|X)=αh−β·X, h1≤h2⇔αh1 ≤αh2 (2.1) P(y ≥ h|X)
+where P(y ≤ h|X) (respectively, P(y ≥ h|X) is the left (respectively, right) cumulative prob- ability associated with the h-th level of the response and conditioned to the observed values X. In this way, the log-ratio of the odds on the left-hand side depends on the ordinal level h only through the scale coefficient αh, which does not depend on the variables X (proportional odds assumption). This model is well adapted, among all, to qualitative (ordinal) assessments, including the risk factor of cyber-vulnerabilities, which is described in Section 3.
+We used the ordered logit model as the data generation mechanism in our simulations, comparing it with two alternative models. Indeed, despite the wide applicability of ordered logit or probit, more general approaches can be envisaged to overcome limitations from the potential violation of model assumptions, e.g. proportional odds in ordered logit.
+Another motivation stimulating the research for new methodologies to deal with ordinal re- sponses is the reduced interpretability of parameter estimates of GLMs with respect to simpler linear regression; this aspect is relevant in operational scenarios, where decision-makers should be able to interpret and quantify the impact of an explanatory variable without assuming back- ground knowledge on the underlying statistical model. For this reason, Giudici and Raffinetti [17] proposed the use of a regression model with ordinal responses in cyber-risk assessment, which we briefly present in the following.
+Rank transform in linear regression
+A recent approach in [17] involves a linear regression model for data regarding cyber-incidents and is based on the rank transform of a n-dimensional ordinal variable Y with k levels, that is, the set of ranks for each observation with a given prescription to handle ties [19]. Formally, we move from the ordinal response to the rank-transformed variable R(Y ) defined by
+Y 􏰀→ R(Y)∈{r1,r2,...,rk},
+r1 =1, rh+1 =rh +#Y(−1)({h+1}), h∈{1,...,k−1} (2.2)
+ 5
+
+where #Y (−1)({h + 1}) denotes the cardinality of the components of Y that are the pre-image of h + 1. The fit of the regression model
+Ri =β0 +β·Xi +εi, ε∼N(0,σ2) (2.3) where N(0,σ2) is the centred Normal distribution with variance σ2, is compared to the Rank
+Graduation Accuracy (RGA) [17]
+RGA:= i·ny·
+i=1
+􏰄n n  1 􏰄i i  2
+where test data y are ranked using the estimated ranks rˆ obtained by fitting (2.3).
+As anticipated, the choice of model (2.2)-(2.3) in [17] is argued to provide more interpretable results supporting decision-making with respect to GLMs. On the other hand, we note that the use of linear regression with rank transform may not be suited to deal with cyber-vulnerabilities: contrary to cyber-incidents, which actually happened, vulnerabilities are subject to different
+types of uncertainty mentioned above, especially in the cyber guerrilla context [36].
+From the methodological perspective, this means that several assumptions underlying the linear regression model may not be fulfilled when dealing with cyber-vulnerabilities. In particu- lar, linear models rely on the normality assumption for the residuals, which may not be met in networks of digital systems; in fact, evidence shows that some relevant features of data breach datasets are well described by heavy-tail distributions [12]. Even the homoscedasticity assump- tion may not be fulfilled and, together with class unbalancing that we observe in Subsection 5.1, makes the linear model more sensitive with respect to this violation, while quantile regression
+does not assume homoscedasticity.
+A final remark comes from a practical requirement, namely, a prioritisation method that is
+based on the risk assessment of individual vulnerabilities (i.e. it is local) to support decision- making based on available information; the values assumed by the rank transform are informa- tive only related to the number of observations, which is appropriate for cyber-incidents, but might not be representative of the full set of vulnerabilities, as argued above.
+Quantile regression: remarks for cyber-risk assessment
+Both the linear and regression models rely on assumptions that may be unverifiable in real datasets: unbalanced classes, deviations from normality, and lack of complete knowledge of the space of potential vulnerabilities (unknown ones or 0-days) can reduce the effectiveness of regression methods the aforementioned regression methods. Regarding linear regression, even for quantitative responses, severe deviations from the normality assumption of the residuals invalidate the use of linear regression (see the discussion in Subsection 5.1); as for ordered logit, in the following (see the last paragraph in Section 6), we will see that the observed behaviour in simulations generated from such a generalised linear model highly deviates from the corresponding outcomes obtained from real data. In the specific cybersecurity domain, such hypotheses may actually be not verifiable, due to the already mentioned confidentiality and restrictions to data sharing. For this reason, it is appropriate to consider distribution-
+6
+yrˆj −n (2.4) j=1
+
+free approaches to make the analysis more robust against violations of statistical assumptions, leading to quantile regression [23].
+Let Qτ := infy{y : τ ≤ F(y)) be the τ-th quantile of a random variable with cumulative distribution function (CDF) F . Quantile regression estimates Qτ conditioning on k regressors
+Qτ(yi|Xi,β)=XTi ·β(τ), i∈{1,...,n}. Estimates β(τ) come from the minimization of the loss function
+n
+βˆ(τ ) := argminβ∈Rk 􏰄 ρτ (yi − XTi · β),
+i=1 ρτ(u) := u·(τ−I(u<0))
+(2.5)
+(2.6)
+where I(X) is the characteristic function of X ⊆ R.
+In addition to increased robustness against model misspecification, the choice of quantile
+regression leads to a new parameter τ that naturally relates to the notion of Value-at-Risk (VaR) (also see [32, 7] for a discussion of VaR in the cybersecurity context), which is in line with the purposes of this work.
+Mid-quantile regression
+Different estimates can arise from different choices of the quantile level, which let us compare different rankings or prioritisations at different quantile levels by looking at parameters associ- ated with regressors. However, this aspect may lead to ambiguities if it is not properly linked to risk evaluation and decision-making, e.g. when ranking the attributes associated with regressors [3]. This leads us to consider quantile regression, where the response itself assesses the risk or severity of a vulnerability.
+Dealing with an ordinal response, we have to extend the quantile regression approach to
+discrete variables; for this purpose, we take advantage of mid-quantile (MidQR hereafter) re-
+gression methods. Recent work by Geraci and Farcomeni [16] applies mid-quantile regression
+[30] to discrete data: starting from samples (Xi, Yi) where Y ∼ cat(ph, 1 ≤ h ≤ k) is extracted
+from a categorical distribution, πh = 1 ph + 􏰃h−1 pl , define the mid-Cumulative Distribution 2 l=1
+Function GY (y) := p(Y ≤ y) − 12 p(Y = y) and mid-quantile function
+􏰅 1 􏰄k 0 h=1
+SettingF(y):=p(Y ≤y)asbefore,estimatorsforunconditionedMidQRareobtainednaturally, i.e. by the substitution of the estimates in the expression of the mid-quantile function. Such estimators enjoy good asymptotic consistency and normality for the sampling distribution (see [27, 16] and references therein).
+When Hh(Y )|X (p) = XT · β(p) for a given link function h(·), we can estimate GˆY |X (y|x) through a non-parametric estimator that encompasses both continuous and discrete predictors
+HY(p)=
+((1−γ)·yh +γ·yh+1)·δ((1−γ)·πh +γ·πh+1 −p)dγ. (2.7)
+7
+
+[25]:
+FˆY|X(y|x)= n−1 ·􏰃ni=1I(Yi ≤y)Kλ(Xi,x), mˆY|X(zj|x):=FˆY|X(zj|x)−FˆY|X(zj−1|x) (2.8)
+where Kλ(Xi,x) is a kernel function with bandwidth λ and δˆX(x) is the kernel estimator of the marginal density of the explanatory variables X. In this way, we can obtain GˆY |X (y|x) = FˆY |X (y|x) − 21 · mˆ Y |X (y|x). Estimates of coefficients β follow from the minimization of the following quadratic loss function
+arg minψn(β; p), ψn(β; p) := n−1 · 􏰄n 􏰁p − GˆY |X (h−1(XTi · β)􏰂2 . (2.9) i=1
+The estimation and fitting procedures can be carried out using the R package Qtools developed by the authors of [16].
+MidQR is used here to deal with ordinal response variables representing risk factor levels, beyond NIST’s assessment. Together with the statistical model, an appropriate index should be considered to evaluate its performance and compare it with other reference models. For this purpose, we adapt RGA (2.4) to the specific case of cyber-vulnerability assessment, analysing the nature of the variables involved in the model in terms of criteria to be satisfied in the decision process. We discuss this aspect in more detail in the following section.
+3 Data sources for cyber-risk analysis 3.1 Databases
+Several databases can be used to assess the cybersecurity of a digital system. Among the most widely used by practitioners are the following ones:
+• the NVD database includes the assessments of vulnerabilities’ severity by the NIST in terms of data impact dimensions (Confidentiality, Integrity, Availability) and three addi- tional technical features describing the accessibility prompted by the cyber-vulnerability, namely, Access Vector (AV), Access Complexity (AC), and Authentication (Au). The severity assessments of these six components compose the attack vector1.
+• the CSIRT database2, which reports relevant updates on vulnerabilities in line with the evaluation by NIST. Such reports are communicated by the Italian CSIRT, which is es- tablished within the National Cybersecurity Agency (ACN).
+• The Shodan database3 reports exposed hosts or IP addresses affected by known vulner- abilities, which may represent a relevant driver for attackers’ intervention. The Shodan database can be queried by specifying a CVE and the Country of exposed hosts. Data are collected by the Shodan monitor platform by combining different techniques, such as crawling, IP lookups, and metadata analysis.
+1 https://nvd.nist.gov/vuln/search
+2 https://www.csirt.gov.it/contenuti/ 3 https://exposure.shodan.io
+ δˆ X ( x )
+ 8
+
+• Reported exploits for CVEs can be extracted from ExploitDB4. Information about exploits can be further refined from VulnDB5, a database that collects information on the price range of exploits associated with a CVE. The fields extracted from VulnDB include the 0-day price range, the price at the time of querying, and the exploitability.
+• Tenable6 risk factor interprets CVSSs and assigns an ordinal risk factor through threat and vulnerability analysis. It constitutes qualitative risk information in Tenable’s Vulnerability Priority Rating (VPR) assessment.
+For all these databases, we prepared Python scripts in order to automatically extract the re- quired data through APIs:
+• We started by selecting vulnerabilities identified in Italy through Shodan (querying for vuln: and country:IT) to obtain a base set of CVEs. Then, the shodan API was used to extract the exposure data using the api.count function.
+• Subsequently, the scripts were adapted to extract the Attack Vectors associated with these CVEs from the NVD database: for each line/CVE retrieved in the previous step, the func- tion requests.get on the URL https://services.nvd.nist.gov/rest/json /cve/1.0/ combined with the CVE code. This returns a JSON file that can be inspected to get the CVSS scores.
+• Then, we checked the availability of the exploits from ExploitDB and VulnDB. For Ex- ploitDB, we used cve_searchsploit [14] and the function cve_searchsploit.edbid_ from_cve to obtain the exploits for the selected CVEs.
+• In conclusion, a dedicated script was used to obtain Tenable’s risk factor assessment of the CVEs under consideration: also in this case, by using requests.get on the URL https://www.tenable.com/cve/’+line+’/plugins combined with each CVE, we can get the risk factor associated with the CVE re.search command.
+Running these Python scripts, the final dataset for model validation consists of n = 714 units. This data extraction procedure is graphically depicted as a component of the overall analysis (see Figure 4.1 in the next section).
+3.2 Data description
+The above data manipulation procedure leads to a dataset with the following variables:
+1. Ordinal regressors extracted from the NIST vulnerability assessment (attack vector).
+2. Exposure is a discrete variable that counts exposed hosts, but the variety of such count data lets us consider a continuous approximation of this variable.
+3. For each CVE, the existence or absence of an exploit is encoded in a Boolean variable.
+4 https://www.exploit- db.com/
+5 https://vuldb.com/
+6 https://www.tenable.com/cve/search
+ 9
+
+4. Risk factors are ordinal responses conditioned by different types of explanatory variables.
+For the present investigation, we selected p = 7 explanatory variables returned by the procedure described above, whose interpretation is summarised in Table 3.1. They are put in connection with an ordinal variable assessing the risk factor of a cyber-vulnerability, here represented by Tenable’s risk factor.
+Table 3.1: Main attributes of the variables and their interpretation for statistical modelling. For each set of variables, the data source is provided in the leftmost column. The quantification for the ordinal assessments of the components XC, XI, XA, XAV, XAC of the attack vector (rightmost column) are provided by the NIST.
+ Source
+NIST
+Shodan ExploitDB
+Variables Type
+XC
+XI
+XA Discrete
+Ordinal
+XAV XAC
+Nexp Count data qexpl Binary
+Interpretation
+Severity for Confidentiality Severity for Integrity Severity for Availability
+Type and severity of the access vector
+Type and severity of access complexity
+Number
+Existence (Boolean)
+Values
+• “none: 0”
+• “partial: 0.275”
+• “complete: 0.660”
+• “Requires local access: 0.395
+• “Local Network accessible: 0.646” • “Network accessible: 1”
+• “high: 0.35
+• “medium: 0.61”
+• “low: 0.71”
+Integers
+{0, 1} (binary)
+             Tenable
+  Y
+ Discrete Ordinal
+ Risk factor following threat/vulnerability analysis
+ “Low” “Medium”, “High”, “Critical”
+ 4 Contribution and proposed methodology 4.1 MidQR for cyber-risk assessment
+For our purposes, MidQR is used to provide estimates of the conditional quantile given a set of regressors that includes both intrinsic vulnerability characteristics and external variables (exposure and, additionally, exploit availability). Tenable’s risk factor is our ordinal response variable of interest. It is worth remarking that quantile regression is also robust against class unbalance in discrete regressors, which is indeed observed in real data, as we will see. This section aims at contextualising the ranking accuracy index within the decision problem under consideration in cyber-vulnerability assessment.
+A quantitative index used in risk factor assessment should enjoy some invariance properties with respect to different attributions of quantitative values to each ordinal level so that the accuracy only depends on their order. This requirement has a practical effect in regression models dealing with estimated ranking or, more generally, distributions of ordinal variables, such as the linear model for rank-transformed variables and MidQR. These models estimate the conditional distributions, and the estimates concern the quantity
+FY|X(Y ≤y|x)= P(Y ≤y∧X=x) P(X = x)
+where we focus on regressors X with a non-zero point mass. This quantity has an interesting 10
+ 
+interpretation, as it is a balance of the impact (P (Y ≤ y ∧ X = x)) and the rarity (P (X = x)) of the event. As mentioned in the Introduction, the latter is subject to different forms of uncer- tainty: among all, subjectivity in the assessment of impact dimensions X and, more importantly, the uncertainty on the representativeness of the sample due to unknown vulnerabilities, 0-days, and other situational factors that affect the identification and severity of a vulnerability, and non-disclosure policies that may underreport the occurrence of vulnerabilities. This paper does not aim at modelling these types of measurement errors, whose efficacy depends on the aspects of cyber-risk under consideration and the level of investigation, as already mentioned at the beginning of Section 2. However, the model and the performance index we propose can be discussed in relation to the aforementioned sources of uncertainty: we postpone this discussion to Section 6.
+4.2 A new performance index for cyber-risk estimation
+The aforementioned uncertainty about the sample spaces, with consequent effects on the esti- mation of the risk factor, is a major driver that prompts our research for a new approach to evaluate the accuracy of the assessment.
+Specifically, the use of quantitative values in (2.4) should take into account the nature of the variables in the model. The evaluation of (2.4) takes into account an algebraic struc- ture (formally, the semiring (N, +, ·, 0, 1) of natural numbers for rankings, or the ordered field (R, +, ·, 0, 1) from the regression) that is not necessarily linked to the original ordinal variables assessing the risk factor of a cyber-vulnerability. This algebraic structure is an artefact suited to the regression model and, hence, to the estimated variables (let them be the rank transform or the mid-quantile); the only effect derived from the ordinal variables is the order defining the summands in (2.4). It is worth noting that a similar observation also applies in other algebraic- statistical frameworks, e.g. when dealing with inequivalence of micro- and macro-statistical descriptions of a physical system [2].
+Starting from the previous comments, we now introduce a novel goodness-of-fit index more suited to accommodate the characteristics of cyber-vulnerability data. We consider a reverse RGA index, which we refer to as AGR, defined as RGA(rtr, rest), namely, we exchange the roles of the estimated rest and the “true” rtr rankings.
+To better appreciate the need for appropriate use of the RGA index for unconventional cyber-risk assessment, we consider the case of sub-sampling, i.e. known subsets of an unknown family of cyber-vulnerabilities. This emulates the partial information available on 0-days.
+Example 1. We can consider the following 5-dimensional rank vectors:
+cest := (1,3,2,2.9,10), ctr,1 := (1,3,2,2,9), ctr,2 := (1,5,3,3,7) (4.1)
+where cest derives from a given estimation procedure, while ctr,u, u ∈ {1,2}, are two “true” rankings obtained from different knowledge about the state of a digital system and its sample space. Although they are different, the rankings ctr,1 and ctr,2 are consistent with the same attribution of ordinal levels: for the sake of concreteness, we can assume that the components of both ctr,1 and ctr,2 are generated by ranking the same ordinal assessment (“10”,“6”,“8”,“8”,“3”),
+11
+
+where risk factor levels are ordered from “10” to “1”. In this case, the differences between ctr,1 and ctr,2 can arise from the existence of other elements in the two ranked sample spaces, beyond those associated with the components of ctr,1 and ctr,2. The evaluation of RGA(yest,ytr,u) for u ∈ {1, 2} following the definition (2.4) does not satisfy invariance under changes of rankings that are generated by the same ordinal assessment. Indeed, we have
+RGA(cest, ctr,1) = 0.5161 ̸= 0.3232 = RGA(cest, ctr,2). (4.2) On the other hand, we find
+AGR(cest, ctr,1) = RGA(ctr,1, cest) = 0.5272 = RGA(ctr,2, cest) = AGR(cest, ctr,2). (4.3) It is clear that the latter equality holds for all the choices of cest,ctr,1,ctr,2.
+This shows that the AGR index resolves the lack of invariance under sub-sampling in RGA. The favourable invariance of the AGR index under rank transformations that are compatible with the same underlying ordinal assessment is in line with Luce’s axiom of Independence of Irrelevant Alternatives [26], while some algebraic conditions related to this type of symmetry have been discussed in a physical setting in [2]. Practically, this invariance is required when dealing with partial information about the space of potential cyber-vulnerabilities, which is the general situation faced by a decision-maker, due to the occurrence of unknown vulnerabilities not exploited yet, 0-days, and unconventional cyber-attacks [36, 35].
+The description of the full experimental procedure that will be carried out to validate the proposal and investigate its scope of applicability is shown in Figure 4.1.
+Figure 4.1: Graphical description of the experiments to validate the efficiency of mid-quantile regression for risk-factor estimates and AGR as an accuracy index of predicted risk levels.
+5 Experiments and results
+5.1 Descriptive analysis of the dataset
+Data extracted from the databases described in Section 3 select n = 714 cyber-vulnerabilities in Italy. The time span of the CVEs is 1999-2021.
+ 12
+
+We note that each variable in the attack vector is characterised by manifest unbalancing among the different levels, as shown in Figures 5.1a-5.1b.
+  (b) Distribution of features (AV, AC) and risk (a) Distribution of impact dimension levels factor
+Figure 5.1: Distribution of levels of variables from the cyber-vulnerability dataset.
+When the response in a regression model is (well approximated by) a continuous variable, then unbalancing could make linear regression more sensitive to deviations from homoscedas- ticity, hence quantile regression could be favourable. This is the case when the exposure of vulnerable hosts is related to intrinsic features of the vulnerabilities [3]: it is easily checked from the QQ-plots in Figures 5.2a-5.2b that the residuals of the exposure Nexp and its log-transform log(1+Nexp), considered as responses in a linear model with regressors (XC, XI, XA, XAV, XAC), show strong deviations from normality.
+  (a) Regressors (XC, XI, XA, XAV, XAC). (b) Free model.
+Figure 5.2: QQ-plots of the theoretical (Normal) quantiles compared to the empirical quantiles
+of residuals of y = log(1 + Nexp) derived from the exposure Nexp of cyber-vulnerabilities.
+This remark also entails that linear regression would not fit the distribution assumptions when a proxy of cyber-risk such as exposure is used as the response. We also note that even the residuals of the “free model”, i.e. the QQ-plot of the exposure Nexp itself, violate the normality assumption (see Figure 5.2b). The use of the transform Nexp 􏰀→ log(Nexp + 1) in the previous QQ-plots slightly reduces the deviation from normality: more importantly, it highlights multimodality in the distribution of exposure, as it is manifest in the histograms depicted in Figures 5.3a-5.3b.
+13
+
+  (a) y = Nexp. (b) y = log(1 + Nexp).
+Figure 5.3: Histograms for the empirical distributions of the exposure Nexp compared to log(1 + Nexp). The corresponding continuous approximations (red dashed lines) highlight mul- timodality.
+This suggests the need to go beyond linear models for an appropriate description of external characteristics of cyber-vulnerabilities, starting from their intrinsic (attack vector) and extrinsic (exposure, exploits) features as regressors.
+5.2 Rankings and mid-quantile regression
+Simulation study
+We start by specifying the preliminary simulation study to provide a general comparative anal- ysis between the model presented in [17] and the MidQR.
+• We used ntr = 320 units for training and ntest = 80 units for testing the accuracy per- formance of the models. We started with a response variable having k = 4 levels, in line with Tenable’s risk factor that is used in the analysis of real data. However, we also tested k ∈ {3, 6, 8} to evaluate the behaviour and performance of the different models when the number of levels of the response variable changes.
+• Two continuous and two discrete explanatory variables were considered, each of the latter having three categories. This induced P := 2 + 2 · (3 − 1) = 6 regressors after moving to ANOVA variables.
+• Following the generation of the so-specified variables, we considered the parameters αh, h ∈ {1, . . . , k − 1} and βp, p ∈ {1, . . . , P } to obtain the corresponding probabilities based on the ordered logit model (2.1).
+• This scheme was iterated to obtain niter = 100 samples of the response variable Y .
+In this way, we got the coefficient estimates and the mean, over the simulation runs, of the standard error (SE) estimates for each coefficient. For MidQR, we adapted a function in Qtools to overcome computational issues in the estimation of the conditional (mid-)CDF, which involves the kernel method based on [24]. Specifically, we acted on the estimation of the covariance matrix of the coefficients, making its computation compatible with cases where the quantile level lies outside the range of the sample mid-CDF. However, the outcomes of this procedure, which
+14
+
+is analogous to censoring, may lead to an overestimation of the SE obtained from the kernel method. For this reason, we also present two additional indicators that provide information on the SE: “Regular” Standard Error (Reg.SE) of each parameter, which is defined as the average SE over the simulation runs where the parameter is significant at a given level (here, 0.05); Monte Carlo Standard Error (MCSE), that is, the standard error calculated from the coefficient estimates. Finally, the percentage of iteration runs where a given parameter is statistically significant at level 0.05 is reported (% sign.).
+The analysis compares the three models under consideration, namely, the data-generating model (ordered logit), linear regression for rank-transformed variables, and mid-quantile re- gression with τ ∈ {0.1,0.3,0.5,0.7,0.9}. For each iteration, the RGA and AGR indices were evaluated on the test dataset. The same analysis was subsequently carried out with the real dataset, in order to compare the relative performance of linear regression for rank-transformed variables and mid-quantile regression based on real evidence.
+The use of both continuous and discrete regressors mimics the occurrence of exposure (con- sidered continuous) and attack vector components (discrete variables). We generated
+X(cont) ∼ N (μ, σ), X(cat) ∼ p(π1, π2) (5.1)
+where N(μ,σ) is the normal distribution with mean μ = 0 and variance σ2 = 1; p(π1,π2) is the categorical distribution with three support points associated with probability weights π1,π2,1−π1−π2 >0,inparticular,wechoseπ1 =π2 = 31. Then,theresponsesYi,i∈{1,...,n}, were extracted from a categorical distribution with probability derived from (2.1), i.e.
+p(Y =h|X)=P(Y ≤h|X)−P(Y ≤h−1|X), h∈{1,...,k}. (5.2) Multiple simulation runs were performed at different choices of βtrue with different quantile
+levels.
+Simulation results
+We start presenting the results of simulations where the response variable contains k = 4 possible levels: as mentioned above, this situation is in line with the real dataset structure since the Tenable risk factor involves k = 4 levels too.
+In Tables 5.1-5.2 we show the outcomes from two different scenarios: the parameters defining the theoretical distribution from the Ordered Logit model can be tuned to obtain the uniform probability distribution on the k response levels (Table 5.1) or they can be chosen generically; in the latter case, we can get a non-uniform distribution (Table 5.2). In the tables, we report the estimates of the model parameters (Est) and the corresponding standard errors (SE) averaged over 100 simulations. We also report the Monte Carlo standard error (MCSE) in order to evaluate the stability of the estimates over the simulations. For LinReg and MidQR, we report the percentage of times the parameters resulted significant at 5% level (% sign.).
+The resulting RGA and AGR indices are reported in Table 5.3. To provide an informative view of RGA and AGR, we present the boxplots associated with each model in Figure 5.4.
+15
+
+Table 5.1: Coefficient estimates from simulations with k = 4 levels for the response variable; parameters in the generative model are tuned in order to get the uniform probability distribution on the k possible response levels.
+  X1 X2
+X3 X4 1 2 1 2 Intercept
+   OrdReg
+LinReg
+MidQR(τ1 )
+MidQR(τ2 )
+MidQR(τ3 )
+MidQR(τ4 )
+MidQR(τ5 )
+Est SE MCSE
+Est
+SE MCSE % sign.
+Est
+SE Reg.SE MCSE % sign.
+Est
+SE Reg.SE MCSE % sign.
+Est
+SE Reg.SE MCSE % sign.
+Est
+SE Reg.SE MCSE % sign.
+Est
+SE Reg.SE MCSE % sign.
+-3.097 0.312 0.032
+-37.012 2.947 0.230 100.0%
+-0.238 2.896 0.036 0.002 71.0%
+-0.274 1.283 0.025 0.002 71.0%
+2.094 0.244 0.029
+24.156 2.818 0.235 100.0%
+0.156 2.466 0.035 0.002 71.0%
+0.168 1.192 0.024 0.002
+1.017 0.368 0.033
+14.856 7.173 0.566 55.0%
+0.038 7.227 N.D. 0.004 0.0%
+0.058 3.365 0.061 0.005
+4.141 0.530 0.052
+44.762 7.107 0.626 100.0%
+0.359 6.083 0.086 0.007 70.0%
+0.359 2.648 0.060 0.006
+-2.062 0.402 0.042
+-27.017 7.280 0.651 99.0%
+-0.146 7.972 0.092 0.007 19.0%
+-0.184 3.563 0.066 0.008 57.0%
+4.227 0.540 0.050
+46.337 7.302 0.544 100.0%
+0.482 6.670 0.090 0.007 71.0%
+0.433 3.178 0.062 0.006 71.0%
+98.235 6.823 0.489 100.0%
+0.291 7.338 0.089 0.007 66.0%
+0.563 3.150 0.061 0.006 71.0%
+   0.022 0.002 54.0%
+-0.202 1.267 0.029 0.001 71.0%
+-0.125 3.237 0.040 0.001 68.0%
+0.021 0.058 0.002 0.004 54.0% 7.0%
+0.117 0.029 1.148 2.258 0.027 N.D. 0.002 0.003
+70.0% 0.0%
+0.075 0.001 2.428 5.298 0.034 N.D. 0.001 0.002
+0.056 0.005 54.0%
+0.193 3.299 0.067 0.004 66.0%
+0.086 7.221 0.077 0.003
+0.061 0.007 48.0%
+-0.144 2.433 0.077 0.006 30.0%
+-0.097 5.278 0.094 0.004
+0.056 0.005 54.0%
+0.213 3.350 0.067 0.004 67.0%
+0.085 8.288 0.073 0.003
+0.057 0.006 54.0%
+1.057 2.410 0.074 0.005 71.0%
+1.262 6.373 0.100 0.004
+71.0% 12.0% 71.0%
+ -0.270 0.163 0.046 0.300
+705.709 340.703 372.360 1024.919 578.466 1078.914 520.001
+-0.188
+0.344
+0.827
+  46.0% 0.0% 2.0% 1.0% 1.0% 71.0%
+ 16
+
+Table 5.2: Coefficient estimates from simulations with k = 4 levels for the response variable; generic parameters in the generative model leading to a non-uniform probability distribution on the k possible response levels.
+  X1 X2
+X3 X4 1 2 1 2 Intercept
+   OrdReg
+LinReg
+MidQR(τ1 )
+MidQR(τ2 )
+MidQR(τ3 )
+MidQR(τ4 )
+MidQR(τ5 )
+Est -3.123 2.061 1.012 SE 0.289 0.226 0.361 MCSE 0.030 0.021 0.040
+4.064 -2.102 4.076 0.494 0.391 0.495 0.052 0.040 0.052
+ Est
+SE MCSE %sign.
+Est
+SE Reg.SE MCSE % sign.
+Est
+SE Reg.SE MCSE % sign.
+Est
+SE Reg.SE MCSE % sign.
+Est
+SE Reg.SE MCSE % sign.
+Est
+SE Reg.SE MCSE % sign.
+-46.974 2.901 0.269
+28.359 2.884 0.225
+18.304 6.938 0.670
+59.905 7.136 0.612
+-34.439 7.185 0.645
+54.792 7.099 0.609
+102.372 6.381 0.506
+100.0% 100.0% 78.0% 100.0% 100.0% 100.0% 100.0%
+ -0.311 3.032 0.036 0.002 72.0%
+-0.316 1.214 0.023 0.002 72.0%
+-0.285 1.303 0.021 0.002 72.0%
+-0.202 1.413 0.027 0.001 72.0%
+-0.113 2.867 0.038 0.002 68.0%
+0.166 0.083 2.475 6.167 0.034 0.079 0.002 0.004
+72.0% 2.0%
+0.178 0.064 1.111 2.664 0.023 0.057 0.002 0.004 72.0% 13.0%
+0.161 0.055 1.756 2.397 0.021 0.052 0.002 0.004
+72.0% 7.0%
+0.114 0.038 1.321 2.591 0.026 0.065 0.001 0.003
+72.0% 1.0%
+0.062 0.022 2.164 3.590 0.034 N.D. 0.001 0.002
+25.0% 0.0%
+0.385 6.780 0.086 0.006 72.0%
+0.392 2.707 0.057 0.005 72.0%
+0.347 2.540 0.053 0.004 72.0%
+0.244 3.351 0.065 0.003 72.0%
+0.132 5.085 0.078 0.003 9.0%
+-0.140 0.453 0.288 7.080 6.875 7.375 0.086 0.088 0.084 0.006 0.006 0.006
+18.0% 72.0%
+-0.172 0.440 2.776 2.612 0.061 0.058 0.006 0.006 57.0% 72.0%
+-0.188 0.372 2.926 2.497 0.057 0.052 0.006 0.005 68.0% 72.0%
+-0.147 0.249 2.722 3.631 0.073 0.062 0.005 0.004 43.0% 71.0%
+-0.114 0.115 4.094 7.379 0.094 0.073 0.004 0.003 2.0% 8.0%
+66.0%
+0.552 2.566 0.056 0.005 72.0%
+0.797 3.089 0.053 0.005 72.0%
+1.023 2.508 0.067 0.004 72.0%
+1.231 4.220 0.090 0.004 72.0%
+     17
+
+Table 5.3: RGA and AGR from simulations with k = 4 levels in the response variable; columns 2-5 are generated from a model tuned to produce uniform probabilities for the k levels in the response.
+         OrdLog LinReg MidQR(τ1) MidQR(τ2) MidQR(τ3) MidQR(τ4) MidQR(τ5) Self
+k = 4, uniform k = 4, non-uniform RGA AGR RGA AGR
+Est SD Est SD Est SD Est SD 2.517 0.496 2.823 0.507 5.889 0.897 6.494 0.723 3.276 0.578 1.516 0.193 6.762 0.796 3.254 0.282 3.093 0.551 3.016 0.394 6.600 0.767 4.316 0.348 3.212 0.555 3.143 0.391 6.657 0.768 4.356 0.342 3.239 0.562 3.214 0.389 6.684 0.773 4.377 0.343 3.193 0.565 3.207 0.398 6.670 0.797 4.371 0.349 3.016 0.573 3.146 0.418 6.491 0.862 4.276 0.370 4.299 0.614 4.299 0.614 8.614 0.677 8.614 0.677
+     (a)RGA,k=4,uniform(b)AGR,k=4,uniform(c) RGA, k = 4, non-(d) AGR, k = 4, non- distribution. distribution. uniform distribution. uniform distribution.
+Figure 5.4: Boxplots for RGA and AGR when k = 4; both uniform and non-uniform prob- ability distributions are considered starting from the data-generating OrdLog model. Box- plots refer, from left to right of the x-axis, to OrdLog, LinReg, MidQR with τ taking values 0.1, 0.3, 0.5, 0.7, 0.9, and the reference value RGA(rtrue, rtrue).
+Then, we move to different numbers of levels in order to better assess the behaviour of the different methods in different decision scenarios. We address this aspect first considering k = 3: this is a typical scale in several operational or tactical decisions, where levels are generally interpreted as “low”, “medium”, and “high”, respectively. The outcomes of this set of simulations are presented in Table 5.4. The corresponding RGA and AGR indices are shown in Table 5.5. Also in this case, we provide a graphical representation of these outcomes in Figure 5.5.
+Finally, we complete the simulation study considering more than 4 levels in the response variable. Specifically, we report the results at k = 6 (Table 5.6) and k = 8 (Table 5.7), with the associated boxplots in Figure 5.6.
+18
+
+Table 5.4: Coefficient estimates from simulations with k = 3 levels for the response variable.
+  X1 X2
+X3 X4 1 2 1 2 Intercept
+   OrdReg
+LinReg
+MidQR(τ1 )
+MidQR(τ2 )
+MidQR(τ3 )
+MidQR(τ4 )
+MidQR(τ5 )
+4.193 0.755 0.082
+24.575 4.568 0.346 100.0%
+0.291 25.530 0.071 0.005 70.0%
+0.277 18.942 0.048 0.004 70.0%
+-0.206
+753.120 344.070 171.833 819.444 253.610 970.775 573.024
+Est -3.173 2.083 SE 0.395 0.298 MCSE 0.038 0.028
+Est -23.122 15.755 SE 1.825 1.827 MCSE 0.199 0.168
+1.053 0.466 0.050
+9.877 4.439 0.379 69.0%
+4.249 0.745 0.072
+28.192 4.732 0.403 100.0%
+-2.086 0.499 0.042
+-17.554 4.609 0.395 99.0%
+ % sign.
+Est
+SE Reg.SE MCSE % sign.
+Est
+SE Reg.SE MCSE % sign.
+Est
+SE Reg.SE MCSE % sign.
+Est
+SE Reg.SE MCSE % sign.
+Est
+SE Reg.SE MCSE % sign.
+100.0%
+-0.195 12.519 0.027 0.002 70.0%
+100.0%
+74.764 4.152 0.418 100.0%
+0.341 31.305 0.070 0.004 70.0%
+0.550 16.774 0.049 0.004 70.0%
+ 0.019 0.002 60.0%
+-0.129 22.573 0.028 0.001 69.0%
+-0.061 48.199 0.030 0.001 20.0%
+0.018 0.002 60.0%
+0.087 11.780 0.024 0.001 67.0%
+0.042 25.136 0.027 0.001 10.0%
+0.046 0.003 16.0%
+0.040 28.125 N.D. 0.002 0.0%
+0.029 34.366 N.D. 0.002 0.0%
+0.046 0.050 0.004 0.005 60.0% 49.0%
+0.121 -0.086 42.421 27.902 0.058 0.061 0.003 0.004 43.0% 13.0%
+0.045 -0.045 61.267 41.685
+0.042 0.004 60.0%
+0.116 57.145 0.053 0.003 25.0%
+0.036 82.775 N.D. 0.001 0.0%
+0.045 0.004 60.0%
+0.924 31.146 0.061 0.003 70.0%
+1.036 74.481 0.119 0.002 70.0%
+0.114 0.038 0.270 -0.129 16.381 27.625 34.324 37.952 0.028 N.D. 0.072 0.072 0.002 0.003 0.004 0.004 69.0% 0.0% 70.0% 25.0%
+ 0.138 0.047 0.259 -0.133 6.741 17.770 18.895 19.943
+-0.218
+8.409
+0.019 0.019 0.049 0.050 0.054 0.001 0.002 0.003 0.004 0.005
+70.0%
+70.0% 8.0% 70.0% 50.0%
+ 0.134 0.056 0.219 -0.133
+0.222
+0.765
+  0.060 0.002 1.0%
+N.D. 0.003 0.0%
+ 19
+
+  Table 5.5: RGA and AGR from simulations with a low number k = 3 of levels for the re- sponse variable.
+  RGA AGR
+   OrdLog LinReg MidQR(τ1) MidQR(τ2) MidQR(τ3) MidQR(τ4) MidQR(τ5) Self
+Est SD
+1.439 0.488 2.203 0.667 2.113 0.677 2.193 0.677 2.162 0.677 2.082 0.667 1.785 0.616 3.499 0.819
+Est SD
+1.545 0.538 0.865 0.169 2.733 0.487 2.871 0.473 2.883 0.470 2.848 0.470 2.631 0.468 3.499 0.819
+(a) RGA, k = 3.
+(b) AGR, k = 3.
+Figure 5.5: Boxplots for RGA and AGR when k = 3. Boxplots refer, from left to right of the x-axis, to OrdLog, LinReg, MidQR with τ taking values 0.1,0.3,0.5,0.7,0.9, and RGA(rtrue, rtrue).
+     (c) RGA, k = 8. (d) AGR, k = 8.
+Figure 5.6: Boxplots
+right of the x-axis, to OrdLog, LinReg, MidQR with τ taking values 0.1,0.3,0.5,0.7,0.9, and the reference value RGA(rtrue, rtrue).
+(a) RGA, k = 6.
+(b) AGR, k = 6.
+for RGA and AGR when k = 6 or k = 8. Boxplots refer, from left to
+20
+
+Table 5.6: Coefficient
+estimates from simulations with k = 6 levels for the response variable.
+X1 X2
+X3 X4 1 2 1 2 Intercept
+     OrdReg
+LinReg
+MidQR(τ1 )
+MidQR(τ2 )
+MidQR(τ3 )
+MidQR(τ4 )
+MidQR(τ5 )
+Est SE MCSE
+Est
+SE MCSE %sign.
+Est
+SE Reg.SE MCSE % sign.
+Est
+SE Reg.SE MCSE % sign.
+Est
+SE Reg.SE MCSE % sign.
+Est
+SE Reg.SE MCSE % sign.
+Est
+SE Reg.SE MCSE % sign.
+-3.116 0.237 0.024
+-61.725 3.038 0.202
+2.064 0.179 0.015
+41.627 2.943 0.230
+1.046 0.306 0.029
+23.455 7.577 0.635
+4.120 0.407 0.037
+76.997 7.588 0.603
+-2.074 0.335 0.035
+-48.392 7.754 0.716
+4.094 0.394 0.040
+80.101 7.355 0.624
+108.517 6.525 0.521
+ 100.0% 100.0% 89.0% 100.0% 100.0% 100.0% 100.0%
+ -0.347 0.821 0.033 0.001 89.0%
+-0.342 0.388 0.023 0.001 89.0%
+-0.314 2.967 0.023 0.002 81.0%
+-0.253 0.320 0.026 0.001 89.0%
+-0.185 0.500 0.036 0.001 89.0%
+0.217 0.717 0.033 0.002 89.0%
+0.230 0.395 0.022 0.002 89.0%
+0.213 2.491 0.021 0.002 80.0%
+0.173 0.293 0.025 0.002 89.0%
+0.130 0.409 0.035 0.002 89.0%
+0.007 0.387 2.078 2.096 N.D. 0.084 0.004 0.006
+-0.203 2.573 0.090 0.005 58.0%
+-0.254 1.054 0.063 0.005 89.0%
+-0.230 1.992 0.062 0.005 83.0%
+-0.192 0.695 0.075 0.005 69.0%
+-0.131 0.936 0.103 0.005 6.0%
+0.532 1.958 0.084 0.006 89.0%
+0.518 0.944 0.055 0.005 89.0%
+0.437 6.140 0.049 0.004 80.0%
+0.337 0.688 0.057 0.003 89.0%
+0.219 1.179 0.075 0.003 88.0%
+0.366 2.207 0.078 0.004 89.0%
+0.597 0.935 0.051 0.004 89.0%
+0.830 4.738 0.052 0.004 85.0%
+1.077 0.555 0.064 0.004 89.0%
+1.347 0.846 0.090 0.004 89.0%
+0.0%
+0.075 0.984 0.056 0.004 18.0%
+0.089 2.748 0.053 0.004 31.0%
+0.080 0.689 0.066 0.003 8.0%
+0.059 0.962 N.D. 0.003 0.0%
+89.0%
+0.404 0.993 0.058 0.005 89.0%
+0.363 5.410 0.053 0.005 81.0%
+0.285 0.675 0.064 0.004 89.0%
+0.186 1.050 0.086 0.004 58.0%
+     21
+
+Table 5.7: Coefficient
+estimates from simulations with k = 8 levels for the response variable.
+X1 X2
+X3 X4 1 2 1 2 Intercept
+     OrdReg
+LinReg
+MidQR(τ1 )
+MidQR(τ2 )
+MidQR(τ3 )
+MidQR(τ4 )
+MidQR(τ5 )
+Est SE MCSE
+Est
+SE MCSE %sign.
+Est
+SE Reg.SE MCSE % sign.
+Est
+SE Reg.SE MCSE % sign.
+Est
+SE Reg.SE MCSE % sign.
+Est
+SE Reg.SE MCSE % sign.
+Est
+SE Reg.SE MCSE % sign.
+-3.062 0.217 0.021
+-67.507 2.987 0.202
+2.053 0.170 0.019
+44.804 2.963 0.301
+1.008 0.289 0.027
+24.680 7.007 0.634
+4.047 0.373 0.033
+90.220 7.248 0.614
+-2.045 0.305 0.031
+-44.497 6.947 0.650
+4.040 0.363 0.037
+92.607 6.999 0.613
+111.317 6.752 0.559
+ 100.0% 100.0% 95.0% 100.0% 100.0% 100.0% 100.0%
+ -0.414 6.789 0.036 0.002 73.0%
+-0.409 1.017 0.025 0.002 74.0%
+-0.363 0.988 0.024 0.002 74.0%
+-0.297 0.729 0.031 0.002 74.0%
+-0.221 1.905 0.042 0.002 74.0%
+0.241 0.127 0.585 2.250 12.100 12.866
+-0.267 6.430 0.093 0.008 61.0%
+-0.271 2.397 0.062 0.007 73.0%
+-0.251 1.624 0.060 0.006 72.0%
+-0.219 1.645 0.074 0.006 68.0%
+-0.185 2.830 0.100 0.005 23.0%
+0.596 6.874 0.085 0.007 73.0%
+0.525 2.045 0.057 0.005 74.0%
+0.427 1.879 0.051 0.004 74.0%
+0.335 1.672 0.059 0.004 73.0%
+0.212 2.480 0.080 0.003 70.0%
+0.488 12.916 0.094 0.007 73.0%
+0.811 2.049 0.062 0.006 74.0%
+1.090 1.754 0.062 0.005 74.0%
+1.339 1.582 0.077 0.005 74.0%
+1.628 2.603 0.106 0.004 74.0%
+0.037 0.002 73.0%
+0.266 0.950 0.024 0.002 74.0%
+0.250 0.983 0.024 0.002 74.0%
+0.208 0.652 0.030 0.002 74.0%
+0.154 1.125 0.041 0.002 74.0%
+0.087 0.004 14.0%
+0.095 2.209 0.061 0.004 23.0%
+0.048 1.959 0.061 0.004 6.0%
+0.021 1.655 N.D. 0.003 0.0%
+-0.004 1.831 N.D. 0.002 0.0%
+0.091 0.007 73.0%
+0.537 2.224 0.061 0.006 74.0%
+0.436 1.558 0.058 0.005 74.0%
+0.337 1.725 0.070 0.004 74.0%
+0.220 3.658 0.094 0.003 65.0%
+     22
+
+Table 5.8: RGA and AGR from simulations with a higher number of levels for the response variable: k = 6 (columns 2-5) and k = 8 (columns 6-9).
+k=6 k=8
+RGA AGR RGA AGR Est SD Est SD Est SD Est SD
+OrdLog 7,468 0,679 8,865 0,717 6,999 0,603 8,344 0,644 LinReg 8,124 0,652 5,932 0,426 7,709 0,494 6,365 0,303
+MidQR.1 8,025 0,683 5,206 0,248 7,636 0,495 5,164 0,234
+MidQR.2 8,064 0,664 5,268 0,246 7,682 0,493 5,222 0,221
+MidQR.3 8,080 0,661 5,268 0,249 7,641 0,513 5,206 0,237
+MidQR.4 8,067 0,657 5,256 0,253 7,598 0,510 5,177 0,241
+MidQR.5 7,989 0,645 5,183 0,273 7,475 0,558 5,080 0,267
+Self 9,533 0,515 9,533 0,515 8,932 0,436 8,932 0,436
+Real dataset analysis
+In parallel with the investigation of the simulated data, we report the study of the dataset whose construction has been described in Section 3. In particular, we present the same type of indicators considered for the simulations; however, here we stress that multiple datasets are constructed from the original one through its random splitting into a training set (ntr = 664) and a test set (ntest = 50). We generated 10 random extraction of test sets, whose complements return the associated training sets, to evaluate averaged parameter estimates, standard errors, and predictive performance indices; 16 quantile levels equally spaced between 0.1 and 0.9 are considered in this case.
+We start from parameter estimates, which are shown in Table 5.9: here, the whole set of variables described in Table 3.1 is used to implement the regression models. Then we restrict these models by considering only technical (XAC, XAV) and contextual (exposure, exploit) variables; the corresponding outcomes are presented in Table 5.10.
+Moving to the performance indices, both RGA and AGR for all the regression models under examination are reported in Table 5.11. In addition, we provide two graphical representations regarding the behavior of the predictive performance at different quantile levels: the boxplots in Figure 5.7 and the plots of average RGA and AGR for all the 16 quantile levels in Figure 5.8.
+6 Discussion
+This work proposed MidQR to enhance the flexibility, interpretability, and robustness of cyber- risk assessments: a quantile-based approach can extract relevant information beyond means to prevent rare events, which is a primary need for the continuity of a network or critical infrastructure. Then, we introduced the AGR index to evaluate predictive performance without relying on a quantitative structure on the ordinal responses.
+Here, we discuss the outcomes of the analysis of synthetic and real data.
+          23
+
+                 24
+OrdReg
+-0.002 0.009
+LinReg
+84.827 50.777 5.617 3.592
+87.973 52.871 3.786 2.826 0.0% 0.0%
+38.624 24.041 44.040 1.999 0.741 6.825 0.0% 0.0% 0.0%
+26.250 26.260 19.493 4.016 2.403 1.768 100.0% 0.0% 0.0%
+20.182 37.839 1.723 4.214 0.0% 100.0%
+MidQR(τ1 ) MidQR(τ4 ) MidQR(τ7 ) MidQR(τ10 ) MidQR(τ13 )
+-0.023 1.520
+MidQR(τ16 )
+Est 16 SE 16 MCSE
+-0.004 0.019 16 0.000
+-0.058 1.442 0.003
+-0.032 0.902 0.002
+0.072 0.014 1.559 0.972 0.001 0.001
+0.004 -0.002 0.006 0.833 0.530 1.009 0.002 0.001 0.004
+0.046 0.020 0.592 0.632 0.002 0.001
+0.003 0.485 0.001
+0.005 1.285 0.523 0.854 0.001 0.005
+Table 5.9: Parameter estimates from data regarding real cyber-vulnerabilities. All the variables have been used as regressors.
+Est
+SE
+MCSE 0.001
+-0.398 -0.413 1.086 0.289 0.649 -0.199 0.175 0.499 -0.063 0.114 0.202 -2.499 1.191 3.333 0.837 0.505 0.884 0.535 0.435 0.270 0.483 0.287 0.289 0.213 0.218 0.435 0.424 0.474 0.055 0.041 0.045 0.034 0.029 0.015 0.084 0.050 0.031 0.026 0.020 0.063 0.059 0.053
+Est -1.995 SE 0.809 MCSE 0.064
+-113.680 -60.712 145.483 61.944 24.812 -1.404 -30.366 82.213 -13.484 17.780 15.138 299.034
+% sign.
+90.0%
+0.0%
+0.0%
+Est SE MCSE
+0.002 0.034 0.000
+0.027
+2.450
+0.004 0.003
+0.053 -0.015 2.621 1.631 0.004 0.003
+0.046 -0.018 0.031 1.421 0.910 1.618 0.001 0.001 0.002
+0.021 0.007 -0.010 0.914 1.012 0.739 0.002 0.001 0.001
+0.006 0.080 0.771 1.559 0.001 0.003
+Est 4 SE4 MCSE
+4
+0.000 0.031 0.000
+0.008 2.431 0.005
+-0.049 1.500 0.004
+0.070 -0.007 2.719 1.685 0.005 0.003
+0.071 -0.021 0.053 1.399 0.883 1.895 0.003 0.001 0.004
+0.034 0.016 1.119 1.009 0.002 0.002
+-0.006 0.769 0.001
+0.006 0.409 0.829 1.492 0.001 0.005
+Est 7 SE7 MCSE
+7
+-0.001 0.025 0.000
+-0.007 2.654 0.004
+-0.044 1.615 0.003
+0.070 0.000 2.854 1.739 0.003 0.002
+0.057 -0.015 0.041 1.453 0.898 2.215 0.003 0.001 0.005
+0.037 0.019 1.283 0.976 0.003 0.001
+-0.005 0.731 0.001
+0.007 0.670 0.719 1.409 0.001 0.005
+Est 10 SE 10 MCSE
+10
+-0.001 0.019 0.000
+-0.011 1.976 0.003
+-0.033 1.203 0.003
+0.060 0.003 2.183 1.334 0.002 0.002
+0.043 -0.009 0.031 0.992 0.619 1.725 0.002 0.001 0.004
+0.034 0.018 0.996 0.749 0.002 0.001
+-0.004 0.562 0.001
+0.008 0.868 0.553 1.072 0.001 0.004
+Est 13 SE 13 MCSE
+13
+-0.002 0.016 0.000
+-0.017 1.775 0.002
+-0.024 1.073 0.002
+0.051 0.008 1.956 1.189 0.001 0.001
+0.026 -0.003 0.024 0.838 0.517 1.281 0.002 0.001 0.004
+0.032 0.016 0.740 0.638 0.002 0.001
+-0.002 0.491 0.001
+0.008 1.036 0.462 0.852 0.001 0.004
+Exposure
+C I A AV AC L Q L Q L Q L Q L Q
+Exploit
+Intercept(s) 1|2 2|3 3|4
+
+               25
+Table 5.10: Parameter estimates from data regarding real cyber-vulnerabilities. Only technical and contextual variables have been used as regressors.
+OrdReg
+Est -0.009 SE 0.009 MCSE 0.001
+-0.064 0.464 0.068
+0.636 -0.023 0.136 0.278 0.279 0.210 0.037 0.038 0.016
+0.190 0.218 0.009
+-2.566 0.959 0.422 0.407 0.065 0.059
+3.124 0.461 0.068
+LinReg
+43.024 25.670 5.794 3.062 0.0% 100.0%
+25.757 3.227 0.0%
+19.419 1.133 0.0%
+20.164 0.678 0.0%
+36.936 4.905 100.0%
+MidQR(τ1 ) MidQR(τ4 ) MidQR(τ7 ) MidQR(τ10 ) MidQR(τ13 ) MidQR(τ16 )
+Est 0.001 SE 0.032 MCSE 0.000
+0.045 0.007 1.795 1.036 0.003 0.002
+0.009 1.061 0.001
+-0.007 -0.004 0.782 0.781 0.001 0.001
+0.052 1.508 0.003
+Est -2.078 SE 0.794 MCSE 0.094 % sign. 90.0%
+-43.265 90.509 -16.164 19.103 19.928 295.752
+Est 0.000 SE 0.026 MCSE 0.000
+0.044 0.034 2.439 1.427 0.004 0.002
+0.023 0.977 0.002
+-0.003 -0.007 0.764 0.763 0.001 0.001
+0.414 1.511 0.003
+Est -0.001 SE 0.022 MCSE 0.000
+0.033 0.037 2.245 1.312 0.004 0.002
+0.024 0.904 0.001
+-0.003 -0.004 0.701 0.701 0.001 0.001
+0.674 1.358 0.003
+Est -0.002 SE 0.015 MCSE 0.000
+0.021 0.034 1.553 0.906 0.003 0.001
+-0.002 -0.001
+0.870 0.930 0.003
+Est -0.002 SE 0.014 MCSE 0.000
+0.011 0.031 1.331 0.777 0.002 0.001
+0.018 -0.001 0.515 0.413 0.001 0.001
+0.000 0.424 0.000
+1.032 0.805 0.002
+Est -0.004 SE 0.017 MCSE 0.000
+0.011 0.048 1.310 0.761 0.003 0.001
+0.029 0.001 0.631 0.516 0.002 0.001
+0.004 0.492 0.001
+1.270 0.892 0.005
+Exposure
+AV AC Q L Q
+Exploit
+Intercept(s) 1|2 2|3 3|4
+L
+0.022
+0.590 0.474 0.001 0.001
+0.483 0.000
+
+Table 5.11: RGA and AGR indices from real data analysis. Columns 2-5 refer to models with the full set of regressors; columns 6-9 follow from the restriction to technical (AV, AC) and contextual (exposure, exploit) variables as regressors.
+  Full set of regressors Only technical regressors
+RGA AGR RGA AGR
+Est SD Est SD Est SD Est SD
+       OrdLog LinReg MidQR(τ1) MidQR(τ2) MidQR(τ3) MidQR(τ4) MidQR(τ5) MidQR(τ6) MidQR(τ7) MidQR(τ8) MidQR(τ9) MidQR(τ10) MidQR(τ11) MidQR(τ12) MidQR(τ13) MidQR(τ14) MidQR(τ15) MidQR(τ16) Self
+0.542 0.248 0.000 0.000 1.006 0.839 0.042 0.025 0.982 0.724 0.358 0.172 0.929 0.837 0.328 0.150 0.926 0.786 0.283 0.121 0.916 0.735 0.253 0.117 0.909 0.728 0.207 0.116 0.950 0.795 0.208 0.122 1.008 0.821 0.215 0.142 1.034 0.845 0.204 0.139 1.082 0.865 0.203 0.147 1.085 0.894 0.197 0.147 1.163 1.001 0.199 0.160 1.147 0.979 0.181 0.137 1.191 1.008 0.174 0.125 1.159 1.050 0.159 0.106 1.132 1.094 0.151 0.096 0.905 0.798 0.146 0.086 6.120 0.880 6.120 0.880
+0.716 0.565 0.000 0.000 1.006 1.005 0.042 0.028 0.825 0.764 0.130 0.059 0.786 0.649 0.127 0.065 0.733 0.389 0.129 0.062 0.786 0.559 0.153 0.102 0.812 0.475 0.162 0.084 0.839 0.479 0.159 0.084 0.881 0.579 0.171 0.099 0.899 0.625 0.175 0.107 0.932 0.659 0.177 0.111 0.945 0.734 0.182 0.116 0.937 0.762 0.180 0.117 0.966 0.824 0.181 0.114 0.974 0.829 0.175 0.108 0.989 0.844 0.179 0.111 1.005 0.830 0.185 0.117 1.017 0.824 0.185 0.107 5.991 1.182 5.991 1.182
+     (a) RGA from real data, (b) AGR from real data, (c) RGA from real data, (d) AGR from real data, full model. full model. partial model. partial model.
+Figure 5.7: Boxplots of RGA and AGR for real data. Boxplots refer, from left to right of the x-axis, to OrdLog, LinReg, and MidQR with τ taking values 0.1, 0.26, 0.42, 0.58, 0.74, 0.9.
+26
+
+  (a) RGA. (b) AGR.
+Figure 5.8: Behaviour of average RGA and AGR for real data and the 16 quantile levels τ under consideration. Circles and triangles denote the index estimates for the full and partial models, respectively. The y-intercepts of the dotted and dot-dashed lines represent the value of the index from the ordered logit and the linear regression on rank-transformed variables, respectively.
+AGR as an appropriate measure of predictive accuracy From simulations, we see that the data-generating models are generally associated with a higher AGR value, while its RGA is often worse than other models (see Figures 5.4, 5.5, and 5.6).
+It is plausible that the specific model underlying the data generation process provides better predictive performance compared to other models. This criterion identifies AGR as a more appropriate performance index for our purposes, since it better distinguishes the data-generating model in terms of predictive capacity, as it is manifest from the above-mentioned figures.
+In addition, AGR enjoys the invariance property under sub-sampling, as discussed in Section 4, which is desirable since the relative order between two vulnerabilities is not affected by other vulnerabilities in the sample. In this way, we can better prioritise the relative risk factors for the vulnerabilities under consideration, without incurring order reversal due to new vulnerabilities not previously detected. From a different perspective, such new information may be needed to update individual risk factors and adapt to the dynamic behaviour of the cyber-space, as is discussed in the following paragraph.
+Vulnerabilities vs. incidents: dynamical and subjective cyber-risk assessment We already pointed out the distinction between cyber-incidents and cyber-vulnerability, recalling that the analysis in [17] focuses on the former. This distinction is relevant for decision-makers, namely, cybersecurity experts and ICT managers, Security Operational Centres, National Agen- cies, etc. The analysis of cyber-incidents is fundamental for cyber-forensic activities, but the prevention of new cyber-incidents in operational scenarios should use all fungible information to better manage security resources and take appropriate counteractions.
+This condition underlies a dynamic environment characterising cyber-risk assessment, which affects both regressors and responses. Indeed, for each statistical unit identified by a CVE, both intrinsic characteristics (NIST’s evaluation of the attack vector) and external variables (expo- sure, exploits) can change in time; furthermore, risk factors may vary due to internal priorities in the organisation and evolution of the overall digital system (new products, legislation, etc.).
+Direct consequences of the dynamics of cyber-risk assessment concern the prioritisation of 27
+
+fixing activities and the specification of subjective cyber-risk. Fixing being resource-expensive, decision-makers have to allocate their efforts based on their current state of knowledge. The driver of such choices is the individual risk perception. While the present work uses Tenable’s risk factor for the analysis, each decision-maker can customise the present risk assessment model (as well as the quantile level), adapting it in time to get new estimates and quantile effects, or comparing different risk factors attributions (e.g. derived from different criteria) in terms of their predictive power.
+These observations are mainly related to cybersecurity data and their usefulness for distinct decision-making stages, which led us to select the databases described in Section 3. Information granularity in data from cyber-incidents does not often suffice to extract useful insights on the current threats: as recalled in [17], the type of data that is likely to be accessed when analysing cyber-incidents is rarely disclosed. This leads to data aggregation and censoring that could not allow cybersecurity operational experts to prioritise the current vulnerabilities, as is the case in the classification of attack technique reported in [17] where multiple types of attack are grouped together (e.g. SQL injection is a particular attack model upon which malware can be based, and malware can exploit one or more 0-days). This has to be interpreted as complementarity between the analyses on cyber-incidents, like the one conducted in [17], and the present one: they serve different phases (strategic, tactic, or operative) of a process with a common objective, and each phase should identify appropriate data for its scope.
+Implications of MidQR on secure information disclosure As a consequence of the observations in the last paragraph, we draw attention to the information the individual decision- maker has, uses, and communicates about cyber-risk.
+Agencies such as NIST share their evaluation through dedicated information channels: how- ever, this information can also be acquired by potential attackers, who can use them to prioritise their own objectives. Indeed, resources are needed also by attackers (e.g. costs for exploit ac- quisition, time and effort for detection of vulnerable hosts, integration of multiple components to avoid countermeasures), and information on risk factors from different organisations can be useful to suggest relevant criticalities.
+Our proposal addresses this issue in two ways: first, as already recalled, MidQR enhances robustness against violation of assumptions in parametric methods; censored data on cyber- vulnerabilities, due to no-disclosure policies, may limit or distort the verification of such as- sumptions, which results in misleading analysis and results.
+Second, AGR better identifies the added information content provided by the variables for the cyber-vulnerability data: referring to Table 5.11, two different models are considered, the full one (all the relevant variables in the dataset derived from Table 3.1 are involved) and a restricted one, where the “CIA” components of attack vectors are excluded. We note that LinReg does not distinguish these two models (up to the third significant digit), while MidQR always does (except for MidQR(τ12) using AGR).
+Furthermore, restricting our attention to MidQR, we see that AGR is more sensitive than RGA with respect to the choice of the quantile level in terms of model discrimination: formally,
+28
+
+let us consider the ratios
+ρRGA := RGAtech , ρAGR := AGRtech (6.1) RGAfull AGRfull
+of RGA and AGR evaluated for the technical and the full models, respectively. Excluding τ16, for the remaining MidQR models we can observe ρRGA ∈ [0.792; 0.893], while ρAGR ∈ [0.363; 1.225]. These observations confirm the utility of the combined use of RGA and AGR to get a more representative view of cyber-risk models and, in this specific case, of the potential value of
+information communicated when sharing risk assessment.
+Dependence of MidQR performance on k A final remark regarding the comparison of RGA and AGR involves the number of chosen levels of the response variable: MidQR performs better when k is small (less than 6), as can be seen comparing 5.4-5.5 with 5.6. In the lat- ter, AGR highlights a divergence between the data-generating model (OrdLog) and alternative models (LinReg or MidQR); on the other hand, RGA returns a performance comparable to that of LinReg and MidQR.
+SE of the estimates As remarked in the previous section, an arbitrary choice of the quantile level may lead to overestimating the parameter SE through the kernel approach adopted in [16] and based on [25]; this is confirmed by the outputs of the simulations. When this overestimation happens, the remaining indices (i.e. the regular SE and the MCSE) provide a more informative picture of the sampling distribution.
+Real data and implications for cyber-threat intelligence While the different models considered in this work are comparable in terms of RGA performance on real data, using AGR, we can see that OrdLog performs poorly since the predicted values are restricted to the set {1,...,k}; when the dataset has low variability, the estimated values collapse to a typical value, which contains no information and drastically reduces predictive performance. This also suggests a severe deviation from the OrdLog model assumptions in the present cyber- vulnerability dataset.
+Another indirect test of the deviation of real data from the OrdLog model comes from the relative magnitude of RGA and AGR: in Tables 5.1, 5.2, 5.4, 5.6, and 5.7, which refer to data simulated starting from the ordered logit model, AGR is comparable with RGA (i.e. with the same order of magnitude). At low values of k, especially at k = 3, AGR is larger than RGA when we focus on MidQR and on the data-generating model. On the other hand, real data lead to a different behaviour, where the ratios AGR/RGA lie in [0.1334; 0.365] for the full model and in [0.088; 0.238] for the “technical” model. While these ratios are useful as an additional check of the deviation from the OrdLog model used in simulations, AGR and RGA indices for the same model should not be compared, as they measure different performance aspects of a given model.
+As a final observation, we stress that the choice of the quantile level plays an important role: this choice can be driven by the empirical distribution of risk factor levels, but it can also be seen as a latent trait to be estimated through Bayesian approaches.
+  29
+
+7 Conclusion and Future Work
+This work investigates statistical modelling for threat intelligence, with particular attention to the information resources regarding cyber-vulnerabilities and to the effects of risk accep- tance/aversion. The statistical model and the index proposed for cyber-vulnerability assess- ment are complementary to other approaches developed in cyber-risk literature: in general, multiple models should be considered in parallel, to highlight distinct aspects of relevance to the decision-makers.
+The actual realisation of cyber-attacks relies on several information sources that can enhance or inhibit cyber-attacks. It is plausible that access to information plays a more important role than expected: cybersecurity data are subject to limited disclosure and underestimation, as recalled in [17], both to adhere to security standards and to prevent reputational loss. On the other hand, even data communicated by organisations to prevent cyber-incidents can guide cyber-attackers, as discussed in Section 6. The present work opens the way to further appli- cations supporting secure information disclosure on cyber-vulnerabilities, since the advantages of the framework discussed in the previous sections can highlight the effects of both informa- tion sources (in terms of available regressors) and cyber-risk perception or severity assessments (e.g. a suited data-generating model). A more accurate evaluation of such effects is a necessary premise to avoid indirect and unintended communication of information.
+In addition to the methodological interest, the present contribution and its extensions may integrate the functionalities of current tools for the development of secure digital products [5]. In this regard, future work will explore specific models for the quantitative assessment of latent traits in cyber-risk perception, including Bayesian approaches, e.g. global-local priors to shrink weak signals and highlight relevant risk responses. A deeper investigation is needed for the emergence of multiple prioritisations due to different decision criteria and uncertainty sources, possibly involving information-theoretic methods to quantify their compatibility or, dually, their divergence.
+References
+[1] R. Anderson, C. Barton, R. Böhme, R. Clayton, M. J. Van Eeten, M. Levi, T. Moore, and S. Savage. Measuring the cost of cybercrime. The economics of information security and privacy, pages 265–300, 2013.
+[2] M. Angelelli. Tropical limit and a micro-macro correspondence in statistical physics. J. Phys. A-Math. Theor., 50(41):415202, 2017.
+[3] M. Angelelli and C. Catalano. A quantile regression ranking for cyber-risk assessment. In N. Torelli, R. Bellio, and V. Muggeo, editors, Proceedings of the 36th International Workshop on Statistical Modelling. Trieste: EUT Edizioni, 2022.
+[4] M. Angelelli, C. Catalano, D. Hill, H. Koshutanski, C. Pascarelli, and J. Rafferty. A reference architecture proposal for secure data management in mobile health. In 2022 7th
+30
+
+International Conference on Smart and Sustainable Technologies (SpliTech), pages 1–6. IEEE, 2022.
+[5] M. T. Baldassarre, V. S. Barletta, D. Caivano, and A. Piccinno. A visual tool for supporting decision-making in privacy oriented software development. In AVI ’20: Proceedings of the International Conference on Advanced Visual Interfaces, pages 1–5, 2020.
+[6] V. S. Barletta, D. Caivano, M. D. Vincentiis, A. Ragone, M. Scalera, and M. Á. S. Martín. V-SOC4AS: A Vehicle-SOC for Improving Automotive Security. Algorithms, 16(2):112, 2023.
+[7] M. Carfora, F. Martinelli, F. Mercaldo, and A. Orlando. Cyber risk management: An actuarial point of view. Journal of Operational Risk, 14(4), 2019.
+[8] C. Catalano, P. Afrune, M. Angelelli, G. Maglio, F. Striani, and F. Tommasi. Security Testing Reuse Enhancing Active Cyber Defence in Public Administration. In ITASEC, pages 120–132, 2021.
+[9] C. Catalano, A. Chezzi, M. Angelelli, and F. Tommasi. Deceiving AI-based malware detection through polymorphic attacks. Comput. Ind., 143:103751, 2022.
+[10] A. Corallo, M. Lazoi, and M. Lezzi. Cybersecurity in the context of industry 4.0: A structured classification of critical assets and business impacts. Comput. Ind., 114:103165, 2020.
+[11] Z. Cui, F. Xue, X. Cai, Y. Cao, G.-g. Wang, and J. Chen. Detection of malicious code variants based on deep learning. IEEE T. Ind. Inform., 14(7):3187–3196, 2018.
+[12] B. Edwards, S. Hofmeyr, and S. Forrest. Hype and heavy tails: A closer look at data breaches. J. Cybersecur., 2(1):3–14, 2016.
+[13] A. Fielder, E. Panaousis, P. Malacaria, C. Hankin, and F. Smeraldi. Decision support approaches for cyber security investment. Decision support systems, 86:13–23, 2016.
+[14] A. Fioraldi. CVE SearchSploit. GitHub, June 2017.
+[15] G. Fortino, C. Savaglio, G. Spezzano, and M. Zhou. Internet of things as system of systems: A review of methodologies, frameworks, platforms, and tools. IEEE T. Syst. Man Cy.-S., 51(1):223–236, 2020.
+[16] M. Geraci and A. Farcomeni. Mid-quantile regression for discrete responses. Stat. Methods Med. Res., 31(5):821–838, 2022.
+[17] P. Giudici and E. Raffinetti. Cyber risk ordering with rank-based statistical models. ASTA- Adv. Stat. Anal., 105(3):469–484, 2021.
+[18] P. Giudici and E. Raffinetti. Explainable AI methods in cyber risk management. Qual. Reliab. Eng. Int., 38(3):1318–1326, 2022.
+31
+
+[19] R. L. Iman and W. J. Conover. The use of the rank transform in regression. Technometrics, 21(4):499–509, 1979.
+[20] D. Javaheri, S. Gorgin, J.-A. Lee, and M. Masdari. Fuzzy logic-based ddos attacks and net- work traffic anomaly detection methods: Classification, overview, and future perspectives. Information Sciences, 2023.
+[21] B. Jung, Y. Li, and T. Bechor. Cavp: A context-aware vulnerability prioritization model. Comput. Secur., 116:102639, 2022.
+[22] M. Keshk, N. Koroniotis, N. Pham, N. Moustafa, B. Turnbull, and A. Y. Zomaya. An ex- plainable deep learning-enabled intrusion detection framework in iot networks. Information Sciences, page 119000, 2023.
+[23] R. Koenker and K. F. Hallock. Quantile regression. J. Econ. Perspect., 15(4):143–156, 2001.
+[24] Q. Li, J. Lin, and J. S. Racine. Optimal bandwidth selection for nonparametric conditional distribution and quantile functions. J. Bus. Econ. Stat., 31(1):57–65, 2013.
+[25] Q. Li and J. S. Racine. Nonparametric estimation of conditional CDF and quantile func- tions with mixed categorical and continuous data. J. Bus. Econ. Stat., 26(4):423–434, 2008.
+[26] R. D. Luce. Individual choice behavior: A theoretical analysis. Dover Publications, 2005.
+[27] Y. Ma, M. G. Genton, and E. Parzen. Asymptotic properties of sample quantiles of discrete
+distributions. Ann. I. Stat. Math., 63(2):227–243, 2011.
+[28] P. McCullagh. Regression models for ordinal data. J. Roy. Stat. Soc. B Met., 42(2):109–127,
+1980.
+[29] P. Paruchuri, J. P. Pearce, J. Marecki, M. Tambe, F. Ordonez, and S. Kraus. Playing games for security: An efficient exact algorithm for solving bayesian stackelberg games. In Proceedings of the 7th international joint conference on Autonomous agents and multiagent systems-Volume 2, pages 895–902, 2008.
+[30] E. Parzen. Quantile probability and statistical data modeling. Stat. Sci., 19(4):652–662, 2004.
+[31] M.-E. Paté-Cornell, M. Kuypers, M. Smith, and P. Keller. Cyber risk management for critical infrastructure: a risk analysis model and three case studies. Risk Anal., 38(2):226– 241, 2018.
+[32] P. Radanliev, D. C. De Roure, R. Nicolescu, M. Huth, R. M. Montalvo, S. Cannady, and P. Burnap. Future developments in cyber risk assessment for the internet of things. Comput. Ind., 102:14–22, 2018.
+32
+
+[33] R. Sharma and R. Singh. An improved scoring system for software vulnerability prioriti- zation. In Quality, IT and Business Operations: Modeling and Optimization, pages 33–43. Springer, 2018.
+[34] B. Srinidhi, J. Yan, and G. K. Tayi. Allocation of resources to cyber-security: The effect of misalignment of interest between managers and investors. Decis. Support Syst., 75:49–62, 2015.
+[35] F. Tommasi, C. Catalano, U. Corvaglia, and I. Taurino. MinerAlert: an hybrid approach for web mining detection. J. Comput. Virol. Hacking Tech., pages 1–14, 2022.
+[36] J. Van Haaster, R. Gevers, and M. Sprengers. Cyber guerilla. Syngress, 2016.
+[37] Y. Zhang and P. Malacaria. Optimization-time analysis for cybersecurity. IEEE Transac-
+tions on Dependable and Secure Computing, 19(4):2365–2383, 2021.
+33

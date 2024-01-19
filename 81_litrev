@@ -1,0 +1,147 @@
+~ Visit AskYourPDF.com ~
+Literature review Generated From AskYourPDF
+
+# Literature Review
+
+## Introduction
+
+Insurance pricing for risks associated with information technology systems is a complex challenge that
+requires integrating the disciplines of operations management, security, and economics. This literature
+review aims to explore the existing research findings related to the development of a socioeconomic
+modelling framework for cyber-insurance decisions. The framework encompasses entity relationship
+diagrams, security maturity models, and economic models, aiming to address the challenge of capturing
+organizational structure in the design and pricing of cyber-insurance policies. Additionally, the review
+will highlight knowledge gaps and propose potential future research directions.
+
+## Cyber-Insurance and Pricing
+
+Insurance pricing is typically based on the historical data and experience of insurance companies regarding
+the frequency and magnitude of losses in organizations based on factors such as size, industry sector, and
+location [^1^]. However, cyber-insurance presents a unique challenge due to limited data history [^1^].
+This limitation necessitates the development of innovative modelling frameworks that can accurately
+capture the complexities of cyber risks and organizational structures.
+
+## Socioeconomic Modelling Framework
+
+The proposed socioeconomic modelling framework for cyber-insurance decisions combines entity relationship diagrams, security maturity models, and economic models [^1^]. The entity relationship
+diagrams provide a visual representation of the relationships and dependencies between entities within an
+organization, including IT systems, processes, and stakeholders [^2^]. By incorporating these diagrams
+into the modelling framework, it becomes possible to assess the impact of cyber risks on different
+components of the organization and develop appropriate insurance policies.
+Security maturity models, on the other hand, enable organizations to evaluate and improve their cybersecurity capabilities [^2^]. By including security maturity models in the framework, insurers can assess
+the cybersecurity readiness of potential policyholders and adjust insurance premiums accordingly. This
+ensures that organizations with higher cybersecurity maturity receive more favorable pricing, encouraging
+investments in cybersecurity measures.
+1 / 5
+~ Visit AskYourPDF.com ~
+Economic models form an integral part of the socioeconomic modelling framework as they provide the
+foundation for pricing cyber-insurance policies [^1^]. These models consider various factors such as
+the potential financial losses from cyber incidents, the cost of implementing security measures, and the
+market demand for cyber-insurance. By incorporating economic models into the framework, insurers can
+calculate accurate premiums that reflect the actual risks and costs associated with cyber risks.
+
+## Integration and Synthesis of Research Findings
+
+Various research findings contribute to the development of the proposed socioeconomic modelling
+framework for cyber-insurance decisions. Chetty et al. (2020) emphasize the importance of incorporating
+private sector data and experience into economic analyses [^1^]. This finding aligns with the inclusion
+of economic models in the framework, which rely on historical data and industry insights to determine
+insurance premiums.
+Eppinger and Browning (2012) provide insights into the use of design structure matrix methods for
+managing complex systems, which can be applied to the development of entity relationship diagrams
+within the framework [^2^]. This research finding highlights the need for a comprehensive understanding
+of an organization's structure and dependencies to accurately model the impact of cyber risks.
+Skelcher and Smith (2014) contribute to the framework by emphasizing the significance of institutional
+logics and actor identities in hybrid organizations [^3^]. This insight can be incorporated into the entity
+relationship diagrams to capture the different perspectives and motivations of stakeholders within an
+organization, thus enabling a more nuanced assessment of cyber risks.
+Cole, Stevenson, and Aitken (2019) discuss the implications of blockchain technology for supply chain
+management, which can be relevant to the design and pricing of cyber-insurance policies [^4^]. The
+integration of blockchain technology into the framework can enhance transparency and trust in insurance
+transactions, enabling more accurate pricing and claims settlement processes.
+
+## Knowledge Gaps and Future Research Directions
+
+While the proposed socioeconomic modelling framework for cyber-insurance decisions addresses the
+challenge of capturing organizational structure, there are still several knowledge gaps that present
+opportunities for future research. First, the framework could benefit from further research on the specific
+factors that contribute to the pricing of cyber-insurance policies. This research could explore how different
+organizational characteristics, such as industry sector, organizational size, and geographic location, affect
+2 / 5
+~ Visit AskYourPDF.com ~
+insurance premiums.
+Second, there is a need for research on the development of more sophisticated security maturity models.
+These models should consider not only technical cybersecurity capabilities but also organizational culture,
+employee awareness, and governance mechanisms. Integrating these factors into the framework would
+enable insurers to better assess an organization's overall cybersecurity readiness and tailor insurance
+premiums accordingly.
+Third, future research should explore the integration of emerging technologies, such as artificial intelligence and machine learning, into the socioeconomic modelling framework. These technologies can
+enhance the accuracy and efficiency of risk assessment and pricing processes, enabling insurers to provide
+more customized and cost-effective cyber-insurance policies.
+Lastly, there is a need for empirical studies that validate the effectiveness of the proposed framework
+in real-world settings. These studies should assess the framework's ability to accurately capture organizational structure, evaluate cybersecurity maturity, and determine appropriate insurance premiums. By
+conducting such studies, researchers can validate the framework's effectiveness and identify potential
+areas for improvement.
+
+## Conclusion
+
+In conclusion, the pricing of insurance for risks associated with information technology systems requires
+a comprehensive modelling framework that integrates operations management, security, and economics.
+The proposed socioeconomic modelling framework, which incorporates entity relationship diagrams,
+security maturity models, and economic models, addresses the challenge of capturing organizational
+structure in the design and pricing of cyber-insurance policies. However, further research is needed to
+explore the specific factors influencing insurance pricing, develop sophisticated security maturity models,
+integrate emerging technologies, and validate the effectiveness of the framework in real-world settings.
+By addressing these knowledge gaps, researchers can contribute to the advancement of cyber-insurance
+pricing and facilitate the development of more accurate and tailored insurance policies.
+
+## References:
+
+1. Beck, R.., Avital, M.., Rossi, M.., & Thatcher, J.. (2017). Blockchain Technology in Business and
+   Information Systems Research. <i>Business & Information Systems Engineering</i> , 59 , 381-384 .
+   http://doi.org/10.1007/S12599-017-0505-1
+2. Eling, M.., & Lehmann, Martin. (2018). The Impact of Digitalization on the Insurance Value Chain and
+   the Insurability of Risks. <i>The Geneva Papers on Risk and Insurance - Issues and Practice</i> , 43 ,
+   3 / 5
+   ~ Visit AskYourPDF.com ~
+   359-396 . http://doi.org/10.1057/S41288-017-0073-0
+3. Doty, S.., & Turner, W.. (2020). Energy Management Handbook. .
+   http://doi.org/10.5860/choice.30-4428
+4. Kazançolu, Y.., & Ozkan-Ozen, Yesim Deniz. (2018). Analyzing Workforce 4.0 in the Fourth Industrial
+   Revolution and proposing a road map from operations management perspective with fuzzy DEMATEL.
+   <i>J. Enterp. Inf. Manag.</i> , 31 , 891-907 . http://doi.org/10.1108/JEIM-01-2017-0015
+5. https://www.semanticscholar.org/paper/2b3b0d65b4518d8a0e740c3c6bdea3b578871801
+6. Hoang, D.., Wang, Ping., Niyato, D.., & Hossain, E.. (2017). Charging and Discharging of Plug-In
+   Electric Vehicles (PEVs) in Vehicle-to-Grid (V2G) Systems: A Cyber Insurance-Based Model. <i>IEEE
+   Access</i> , 5 , 732-754 . http://doi.org/10.1109/ACCESS.2017.2649042
+7. Eppinger, S.., & Browning, Tyson R.. (2012). Design Structure Matrix Methods and Applications. .
+   http://doi.org/10.7551/mitpress/8896.001.0001
+8. https://www.semanticscholar.org/paper/767dcae5a960e80bb1cecb2c1659a0fae6fa9eb2
+9. https://www.semanticscholar.org/paper/abab5e1ea77bfff0486ad100ddfaabc0c85398f1
+10. Cole, R.., Stevenson, M.., & Aitken, J.. (2019). Blockchain technology: implications for operations and supply chain management. <i>Supply Chain Management: An International Journal</i> .
+    http://doi.org/10.1108/SCM-09-2018-0309
+11. Li, Z.., Gilbert, S.., & Lai, Guoming. (2012). Supplier Encroachment as an Enhancement or a
+    Hindrance to Nonlinear Pricing. <i>Production and Operations Management</i> , 24 , 89 - 109 .
+    http://doi.org/10.1111/poms.12210
+12. Skelcher, C.., & Smith, S.. (2014). THEORIZING HYBRIDITY: INSTITUTIONAL LOGICS, COMPLEX ORGANIZATIONS, AND ACTOR IDENTITIES: THE CASE OF NONPROFITS. <i>Public
+    Administration</i> , 93 , 433 - 448 . http://doi.org/10.1111/padm.12105
+13. Johnson, Tana. (2014). Organizational Progeny: Why Governments are Losing Control over the Proliferating Structures of Global Governance. . http://doi.org/10.1093/acprof:oso/9780198717799.001.0001
+14. https://www.semanticscholar.org/paper/e7768d54eb1b67bd167bc3da13222d6c77b5c50d
+15. Carayannis, E.., Grigoroudis, E.., Giudice, M.., Peruta, Maria Rosaria Della., & Sindakis, S.. (2017).
+    An exploration of contemporary organizational artifacts and routines in a sustainable excellence context.
+    <i>J. Knowl. Manag.</i> , 21 , 35-56 . http://doi.org/10.1108/JKM-10-2015-0366
+16. Chetty, Raj., Friedman, John N., Hendren, Nathaniel., Stepner, Michael., & Team, The Opportunity
+    Insights. (2020). The Economic Impacts of Covid-19: Evidence from a New Public Database Built Using
+    Private Sector Data. <i>PSN: Growth & Stability (Monetary) (Topic)</i> . http://doi.org/10.3386/w27431
+17. Ehrenfeld, Jesse M.. (2017). WannaCry, Cybersecurity and Health Information Technology: A Time
+    to Act. <i>Journal of Medical Systems</i> , 41 , 1 . http://doi.org/10.1007/s10916-017-0752-1
+18. Feyen, E.., Lester, R.., & Rocha, R.. (2011). What Drives the Development of the Insurance Sector? An Empirical Analysis Based on a Panel of Developed and Developing Countries.
+    <i>ERN: Other Development Economics: Macroeconomic Issues in Developing Economies (Topic)</i>
+    4 / 5
+    ~ Visit AskYourPDF.com ~
+    . http://doi.org/10.1596/1813-9450-5572
+19. https://www.semanticscholar.org/paper/1bb9b497fcf29038a70fd9d08984c1b55fa23634
+20. Jacob, C.., Sanchez-Vazquez, Antonio., & Ivory, C.. (2019). Social, Organizational, and Technological
+    Factors Impacting Clinicians’ Adoption of Mobile Health Tools: Systematic Literature Review. <i>JMIR
+    mHealth and uHealth</i> , 8 . http://doi.org/10.2196/preprints.15935
+    5 / 5

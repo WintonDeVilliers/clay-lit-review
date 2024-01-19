@@ -1,0 +1,702 @@
+International Journal of Information Management 65 (2022) 102498
+  Contents lists available at ScienceDirect
+International Journal of Information Management journal homepage: www.elsevier.com/locate/ijinfomgt
+   Research article
+Security breaches and organization response strategy: Exploring
+consumers’ threat and coping appraisals
+Carol Xiaojuan Ou a, Xiaowei Zhang a, Spyros Angelopoulos b, Robert M. Davison c, *,
+Noury Janse d
+a Department of Management Tilburg University, The Netherlands
+b Durham University Business School Durham University, Durham, UK c City University of Hong Kong, Hong Kong
+d Dept of Management, Tilburg University, The Netherlands
+ARTICLEINFO ABSTRACT
+    Keywords:
+Security breach
+Organization response strategy (ORS) Protection motivation theory (PMT) Perceived risk
+Corporate reputation
+Intention to re-transact
+1. Introduction
+The exposure of confidential information or privacy-sensitive data during security breach incidents can result in serious losses to both consumers (e.g., Ayaburi & Treku, 2020; Ioannou, Tussyadiah, & Lu, 2020) and organizations (e.g., Ioannou et al., 2020). Organizations exposed to breach incidents usually take different actions against the incidents with the aim to recover from and to control damages of the breach incidents (Gwebu, Wang, & Wang, 2018). In line with the recent trend of information management (IM) research on privacy and security (e.g., Angelopoulos et al., 2021; Stacey, Taylor, Olowosule, & Spanaki, 2021), scholars increasingly show interest in investigating organiza- tions’ effective post-breach recovery or damage control strategies since complete security breach prevention is practically infeasible (Gwebu et al., 2018). Whereas previous studies on organizations’ post-breach actions have recognized that organization response strategy (ORS) matters in general (Bansal & Zahedi, 2015; Choi, Kim, & Jiang, 2016),
+* Corresponding author.
+We address a long-standing lacuna in the Information Management literature on the relationships among security breaches, organization response strategy as well as consumers’ threat and coping appraisal. Security breaches can involve the leak of sensitive data, and potentially lead to negative consumer reactions. It is, thus, timely and critical to theorize and empirically investigate the ways in which organization can respond effectively to security breaches and how consumers’ threat and coping appraisals vary according to the different response strategies. Our study addresses this lacuna by developing a conceptual model of i) security breach, ii) organization response strategies, and iii) consumer appraisal, grounded on the risk theory and protection motivation theory. We use the principal and agent perspectives to portray the breached organization as the agent providing the coping strategy, and consumers as the principal actors who evaluate the strategy. We incorporated a vignette-based survey to test the model with empirical data. We identify that the variations in the response strategy of organization after a security breach can lead to significantly different consumers’ reactions. We discuss the implications of our findings for theory and practice and delineate an agenda for future research.
+ the ways in which an ORS and consumers’ perceptions regarding a focal security breach incident jointly affect consumers’ post-breach reactions remains a black box. Thus, we aim to contribute to the literature on organizations’ post-breach response strategies by theorizing and empirically investigating the ways in which organizations can effec- tively respond to security breach incidents, as well as how consumers’ threat and coping appraisals vary according to these different response strategies.
+The literature on individuals’ volitional coping behaviors when facing IT security threats demonstrates that the threat appraisal and coping appraisal responses emerge automatically (Liang, Xue, Pinson- neault, & Wu, 2019). The threat appraisal itself motivates individuals to take actions against the security threat (Chakraborty, Lee, Bagchi-Sen, Upadhyaya, & Rao, 2016; Rogers, 1975). Combining the literature on individuals’ volitional coping behaviors against IT security threats with the research on organizations’ post-breach response strategies, we maintain that consumers’ post-breach reactions are likely to be a
+ E-mail addresses: carol.ou@tilburguniversity.edu (C.X. Ou), X.Zhang_8@tilburguniversity.edu (X. Zhang), Spyros.Angelopoulos@durham.ac.uk (S. Angelopoulos), isrobert@cityu.edu.hk (R.M. Davison), hello@nouryjanse.nl (N. Janse).
+https://doi.org/10.1016/j.ijinfomgt.2022.102498
+Received 14 September 2020; Received in revised form 1 March 2022; Accepted 2 March 2022
+Available online 12 March 2022
+0268-4012/© 2022 Elsevier Ltd. All rights reserved.
+
+C.X. Ou et al.
+function of both the attributes of ORS and consumers’ threat and coping appraisals against the security breach incidents. However, such inte- gration, to the best of our knowledge, has not been sufficiently theo- rized. To fill this research gap, we aim to answer the following research question: How do organizations’ post-breach response strategy and security breach incidents jointly affect consumers’ threat and coping appraisals and thus their post-breach reactions, such as the re-transaction intentions?
+We ground our work on the protection motivation theory (PMT). PMT is widely used to understand threat appeals, and how an individual copes with them (Rogers, 1983). PMT theorizes individuals’ cognitive and behavioral processes to manage a focal threat. The PMT model consists of two cognitive mediating processes: the threat appraisal and the coping appraisal (Anderson & Agarwal, 2010; Floyd, Prentice-Dunn, & Rogers, 2000; Li et al., 2019; Rogers, 1983). The PMT model has been widely used in studies on individuals’ volitional coping behaviors against the IT security threats (Li et al., 2019; Liang et al., 2019; Menard, Bott, & Crossler, 2017; Vedadi & Warkentin, 2020). However, its usage in the literature on organizations’ post-breach response strategies is still rare, though highly relevant. By answering our research question, we also attempt to theoretically extend the PMT model in two ways: i) focusing on the perceived vulnerability in the threat appraisal process, in which a threat leads to various risks with some risk dimensions that might be more relevant to a security breach than others and thus perceived vulnerability should be formally conceptualized and oper- ationalized as a multidimensional construct associating with different types of risks; ii) focusing on the response efficacy in the coping appraisal process, we argue that actors who appraise the threats may evaluate the response efficacy of the coping mechanisms taken by the external agents, especially when such mechanisms are critical yet un- available to the actors. In our context, that means consumers (i.e., consumers as the principal) implicitly delegate to the agent (i.e., the breached organization) the duty to protect them from further losses due to the focal and any potential security breach events (Poddar, Mosteller, & Ellen, 2009). Thus, consumers evaluate the response efficacy of coping actions taken by the breached organization, forming a typical principal-agent perspective (Pavlou, Liang, & Xue, 2007). We argue that these two appraisal processes ultimately affect customers’ re-transaction intention with the breached web shop. To validate the proposed con- ceptual model, we incorporate a vignette-based approach with varia- tions of security breach types and organizations’ response strategies and collect survey data from Amazon Mechanical Turk (AMT) for the empirical tests.
+Our findings demonstrate how the response strategies of organiza- tions following a security breach incident affect consumers’ evaluation of the situation, the way organizations conduct business, and the po- tential ramifications for failing to adequately protect sensitive data. By conceptualizing the impact of security breach incidents and the ORS on consumers’ evaluation of risk severity, and response efficacy, and sub- sequently their intention to re-transact with the breached organization, we identify that the variations in the response strategy of organizations after a security breach incident can lead to different reactions from consumers. We show that only the financial and privacy risks are influential determinants of consumers’ intention to re-transact after a security breach incident, which provides for interesting explanations that deviate from the existing literature and suggest that consumers do not give equal weight to the risk dimensions. Furthermore, using the principal-agent perspective of the PMT model to conceptualize the overall threats and coping appraisal open the black box of consumers’ assessment of security breach and organizations’ response strategies. Our study, therefore, brings novel insights on the topic, has important implications for both theory and practice, and can provide a springboard for future investigation in this domain, and broadly contribute to IM research (c.f. Struijk, Ou, Davison, & Angelopoulos, 2022) on the im- plications of technology, security and privacy to organizations and users.
+The rest of this paper is organized as follows. In the next section, we
+International Journal of Information Management 65 (2022) 102498
+provide the theoretical background of our study on security breaches and consumer perceptions of risk in e-commerce. This is followed by the hypothesis development section, where we introduce our models and hypotheses based on PMT. After that, we describe the vignette and survey methodology of our study, followed by the data analysis. Finally, we discuss our key findings, implications, and contributions, and delineate an agenda for future research on the topic.
+2. Theoretical background
+Our literature review focused on the relevant academic outlets in the field, specifically the International Journal of Information Management and the “senior scholars’ basket of eight” journals from the Association for Information Systems’.1 The choice of these nine journals is attributed to their well-recognized leadership role in the IS/IM field with leading impact factors and article influence scores. These journals also have the reputation for topical, methodological, and geographical diversity and more importantly intellectual depth. As a result, the theoretical and practical rigor and relevance of articles published in these nine journals provide a solid foundation for us to conduct the literature review. Pro- cedurally, we first identified within these 9 journals all papers with the keywords "security", "breach" or "security breach", coming up with 362 papers. Subsequently, each paper was manually scanned with a focus on its research topic and theory by two of the authors independently, and all papers were labelled as either relevant or irrelevant to our study. For example, papers that focused on asset security rather than cyber security were labelled as irrelevant. Finally, 66 papers were identified as relevant to our study and were further examined.2
+2.1. Security Breach and Information Security Management
+Whilst leveraging information systems can facilitate the exchange of enormous amounts of information, products, and services (Dwivedi et al., 2021), it increasingly exposes organizations to risks that their information systems fail to protect themselves against different kinds of damages or losses due to security breaches (Straub & Welke, 1998; Chan & Janjarasjit, 2019). Security breaches, caused by either insiders (e.g., employees) or outsiders (e.g., hackers), can lead to the leakage of sen- sitive data such as corporate secrets or confidential consumer informa- tion and can negatively affect both the organization and its consumers (Angelopoulos et al., 2021). Software source code can be modified, services can be purposefully interrupted, and data can be deleted or stolen. When hackers obtain personal data, organizations may face lawsuits, governmental sanctions, and potential loss of their competitive position (Choi et al., 2016; Ioannou et al., 2020).
+Security breaches can vary, but the most common categories include the distributed denial-of-service (DoS) attack, virus attack, and theft of information (Table 1) any of which can result in significant losses to organizations and users (Kumar, Park, & Subramaniam, 2008; Yayla & Hu, 2011). Among the types of security breaches, DoS attacks have the greatest impact on organizations that conduct business over the Internet (Ettredge & Richardson, 2002). While DoS attacks can significantly in- fluence the cumulative abnormal returns of organizations in the stock market, unauthorized access, and other security attacks such as virus attacks have no influence (Hovav & D’Arcy, 2003; Yayla & Hu, 2011).
+Multiple studies have explored the financial impact of security breach announcements on the stock market to provide policy makers and risk managers with accurate measures of the financial impact of security breaches but returned with mixed results (Appendix 1). Along
+1 MIS Quarterly, Information Systems Research, Journal of Management In- formation Systems, Journal of Strategic Information Systems, Journal of AIS, European Journal of Information Systems, Journal of Information Technology, and Information Systems Journal.
+ 2
+2 These papers are listed in Supplementary Material I for review.
+
+C.X. Ou et al.
+Table 1
+Most Common Security Breaches Based on Yayla and Hu (2011) and Kumar et al. (2008).
+International Journal of Information Management 65 (2022) 102498
+appraisal regarding the security breach event itself are largely over- looked. On the contrary, the literature on individuals’ volitional coping behaviors against the IT security threats emphasizes that facing an un- pleasant situation, individuals’ threat appraisal and coping appraisal against the situation emerge automatically (Liang et al., 2019), and that the threat appraisal itself will motivate individuals to take actions against the situation (Rogers, 1975; Chakraborty et al., 2016).
+Combining the literature on individuals’ volitional coping behaviors against the IT security threats with the literature on organizations’ post- breach response strategies, we argue that consumers’ post-breach re- actions are likely to be a function of both the attributes of ORS and consumers’ appraisals regarding the security breach event itself. How- ever, such integration, to the best of our knowledge, has not been suf- ficiently theorized despite its both conceptual and practical importance in the IT security breach domain. To fill this research gap, we aim to study how organizations’ post-breach responses and security breach incidents jointly affect consumers’ appraisals, which, in turn, affect consumers’ post-breach reactions, such as the re-transaction intentions. To achieve our purpose, we extend the PMT in two ways, as explained below.
+2.3. Protective Motivation Theory (PMT)
+PMT theorizes individuals’ cognitive and behavioral processes to manage a focal threat (Rogers, 1983). The model consists of two cognitive mediating processes: the threat appraisal and the coping appraisal (Rogers, 1983; Floyd et al., 2000; Anderson & Agarwal, 2010; Li et al., 2019). Whereas the threat appraisal process stresses that the perceived threat and a desire to avoid the potential losses associated with the threat trigger the motivation toward protection (Menard et al., 2017), the coping appraisal refers to individuals’ assessment over the available coping mechanisms against the focal threat. Specifically, the threat appraisal includes perceived vulnerability and perceived severity when individuals face a certain threat. Perceived vulnerability refers to one’s likelihood of being exposed to a threat. Perceived severity stresses the impact of the potential consequences related to the threat, stressing the level of the threat. Together, the two factors drive individuals to take actions to cope with the perceived threat (Vance, Anderson, Kirwan, & Eargle, 2014). In the coping appraisal, three more factors to consider are response efficacy, response costs and self-efficacy. Whereas response efficacy refers to individuals’ evaluation on the effectiveness of the coping mechanism, self-efficacy reflects individuals’ perceived ability to conduct the available coping mechanism. Together, the perceived effi- cacy will increase the likelihood of adopting the available coping mechanism. However, the perceived extrinsic or intrinsic personal costs of performing the coping mechanism (i.e., response costs) will decrease the likelihood of adopting the available coping mechanism (Lee & Larsen, 2009).
+The threat appraisal and the coping appraisal together determine individuals’ behavioral intention, which is the typical dependent vari- able in PMT research. Underlying the threat appraisal is the trade-off between rewards associated with undertaking the protection activities and the potential losses of not doing so. The coping appraisal is associ- ated with the cost-benefit analysis of taking certain coping mechanisms (Vedadi & Warkentin, 2020). Thus, PMT provides a good framework to understand individuals’ behavioral intention or to persuade individuals to follow certain recommendations (Floyd et al., 2000). In the literature on individuals’ volitional coping behaviors against IT security threats, PMT has been used to understand employees’ information security policy (ISP) compliance (Herath & Rao, 2009; Johnston, Warkentin, & Siponen, 2015; Li et al., 2019; Menard et al., 2017), ISP violations (D’Arcy, Herath, & Shoss, 2014; Johnston, Warkentin, McBride, & Carter, 2016), executives’ decision of anti-malware software adoption (Lee & Larsen, 2009), individuals’ continuance intention of using certain security solution (Vedadi & Warkentin, 2020), and computer users’ se- curity behaviors (Anderson & Agarwal, 2010; Liang et al., 2019).
+ Security Breach Category
+Denial of service (DoS)
+Virus attack
+Theft of Information
+Descriptions
+In DoS attacks, the attacker sends large number of information requests to the web servers of the target organization. The purpose of this attack is to overload the web servers and make the websites unavailable for legitimate use.
+In these attacks, the attacker gains access to the host program via a program. When the program is executed, the attacker can alter the website with a message, logo or inappropriate material, or delete all the files and completely shut down the website.
+In these attacks, unauthorized individuals gain access to customer data. Depending on the target organization, the customer data can be names, addresses, birthdates, credit card details, social security numbers, medical records, online purchasing behavior, etc. These types of attacks are mostly considered as breach of confidentiality.
+   with these studies on the stock market reactions towards the security breach events, how to systematically manage the information security has aroused the interest of many information systems scholars. Nowa- days, the information security management has become one of the most extensively investigated topics in information system control literature (Cram, Brohman, & Gallupe, 2016). Scholars have studied various as- pects in information security management (Soomro, Shah, & Ahmed, 2016), such as developing and implementing an information security policy, human aspects of information security management, and post-breach management.
+2.2. Organizations’ Post-Breach Response Strategies
+Partly because of the difficulties in developing, implementing, and executing effective information security policies, and partly because of the inevitable "unforeseen holes" (Choi et al., 2016, p. 905) in daily information security management, complete security breach prevention is practically infeasible (Gwebu et al., 2018). Therefore, the other stream of literature pays the attention to investigate organizations’ effective post-breach recovery or damage control strategies.
+Focusing on what attributes good response strategies should have, on the one hand, some studies adopt the lens of justice and argue that the perceived fairness of organizations’ post-breach responses could recover service failure (Bansal & Zahedi, 2015; Choi et al., 2016). For example, one study suggests that response strategies that facilitate distributive, procedural and interactional justice positively affect consumers’ word of mouth and likelihood of switching (Choi et al., 2016). On the other hand, some studies maintain that effective response strategies help consumers reduce their cognitive dissonance based on the argument that individuals avoid the cognitive dissonance (Goode, Hoehle, Venkatesh, & Brown, 2017; Gwebu et al., 2018). In terms of the compensation as a post-breach recovery tool, any discrepancy between consumers’ ex- pected compensation and experienced compensation will negatively affect consumer repurchase intentions (Goode et al., 2017). Considering that corporate reputation (CR) and negative opinions towards a security breach event create a natural cognitive dissonance, it is found that response strategies’ effectiveness vary depending on CR (Gwebu et al., 2018). Specifically, if organizations have high reputation, response strategies can appear less relevant to their post-breach stock market performance. On the contrary, for less reputable organizations, moder- ate response strategies and image renewal response strategies can effectively alleviate the negative post-breach stock market reactions (ibid.).
+Whereas studies on organizations’ post-breach response strategies have made admirable efforts in investigating the desired attributes good response strategies should have, consumers’ threat appraisal and coping
+3
+
+C.X. Ou et al.
+Before utilizing PMT to understand how security breaches and ORS jointly affect consumers’ threat and coping appraisal toward the re- transaction intention, it is important to extend the original PMT model in two ways. Firstly, focusing on the perceived vulnerability in the threat appraisal of the PMT model, previous studies typically argue the perceived vulnerability as reflecting one’s perceived likelihood of exposing to a focal threat, e.g., password being breached (Menard et al., 2017). However, the security breach may lead to different types of losses and thus is associated with various risks. Inspired by the risk literature, we argue that the perceived vulnerability suits to be formally concep- tualized and operationalized as a multidimensional construct associ- ating with different types of risks. Specifically, in line with previous risk studies, we focus on financial risk, performance risk, social risk, time risk, psychological risk, and privacy risk (Almousa, 2011; Ariffin, Mohan, & Goh, 2018; Bertea, 2015). We explain the key concepts in Table 2 and more details in Appendix 2.
+Secondly, focusing on the response efficacy in the coping appraisal of the PMT, the original model assumes that actors who appraise the threats evaluate their response efficacy on the coping actions available to them (Rogers, 1975; Vishwanath, Xu, & Ngoh, 2018). We term this as the unitary actor perspective. Facing a security breach event, individuals can certainly take some problem-focused coping actions against the security breach event. For example, studies show that individuals may alleviate their concerns over the security breach by actively monitoring their bank transactions (Aivazpour, Valecha, & Chakraborty, 2018; Chakraborty et al., 2016). However, systematic post-breach manage- ment is critical in preventing the organization from future possible se- curity breach events. Such complex coping actions can only be taken by
+Table 2
+A Summary of Risk Dimensions Based on the Literature.
+International Journal of Information Management 65 (2022) 102498
+the organization rather than individuals such as consumers (Gwebu et al., 2018). Organizations may take different coping actions and these coping actions are typically reflected by their post-breach response strategies. Focusing on varied ORS, in our study, we argue that con- sumers implicitly delegate an organization the duties to protect them from further losses due to the focal and any potential security breach events (Poddar et al., 2009). Losses include such as losses of personal or monetary information (in the case of theft of information security breach) or service failure (in the case of DoS security breach). Following Pavlou et al. (2007), we label this understanding as the principal-agent perspective of PMT, proposing that in the coping appraisal processes, individuals evaluate the response efficacy of the coping mechanisms taken by the external agents, especially when such mechanisms are critical yet unavailable to the individuals. The understanding is in line with the psychological contract theory, “specifically, the psychological contract perspective posits that social exchange partners establish a contract, which can be developed explicitly or implicitly, to delineate obligations between partners in the exchange (Choi et al., 2016, p. 910)”. Below we use this principal-agent perspective of PMT to further develop the hypotheses.
+3. Hypothesis development
+PMT allows us to model the individual’s responses to threat and protective actions via a threat appraisal and coping appraisal process (Floyd et al., 2000; Anderson & Agarwal, 2010). Whereas the PMT model is widely used in studies on individuals’ volitional coping be- haviors against the IT security threats, we apply the PMT model to study how security breach incidents and organizations’ post-breach response strategies jointly affect consumers’ threat and coping appraisals, which, in turn, affect consumers’ post-breach reactions, such as the re-transaction intentions. To achieve this purpose, we theoretically extend the original PMT model in two ways. Firstly, by focusing on the perceived vulnerability in the threat appraisal process, we argue that a threat leads to various risks with some risk dimensions that might be more relevant to a security breach than others. As a result, perceived vulnerability should be formally conceptualized and operationalized as a multidimensional construct associated with different types of risks. Secondly, focusing on the response efficacy in the coping appraisal process, we argue that actors who appraise the threats may evaluate the response efficacy of the coping mechanisms taken by the external agents, especially when such mechanisms are critical yet unavailable to the actors.
+In our study, while the focal threat is security breach, covering DoS, virus attack and theft of information (Yayla & Hu, 2011), it may lead to different types of losses and thus is associated with various risks, namely the financial risk, performance risk, social risk, time risk, psychological risk, and privacy risk (Almousa, 2011; Ariffin et al., 2018; Bertea, 2015). We assume that consumers implicitly delegate the organization the duty to protect them from further losses due to the focal and any potential security breach incidents (Poddar et al., 2009) as systematic coping mechanisms against a security breach incident are unavailable to con- sumers (Gwebu et al., 2018). In our research design, consumers learn the information about the security breach together with the ORS, ranging from defensive strategy, moderate strategy accommodating strategy, and image renewal strategy (Gwebu et al., 2018), supplemented with a fifth baseline strategy, “no response”. After that the threat appraisal and coping appraisal are practiced and depending on the security breach types and different response strategies, consumers will react differently in terms of their threat and coping appraisals. We further argue that these PMT constructs are directly relevant to consumers’ intention to re-transact after a security breach announcement. Fig. 1 captures the proposed model. We justify each of the hypotheses below, starting from the PMT in the theoretical development.
+The threat appraisal process includes the evaluation of perceived vulnerability and perceived severity. Perceived vulnerability is one’s
+ Risk Dimensions
+Financial risk
+Privacy risk
+Performance risk
+Time risk
+Psychological risk
+Social risk
+Descriptions
+Financial risk is “the potential monetary outlay associated with the initial purchase price as well as the subsequent maintenance cost of the product” (Grewal, Gotlieb, & Marmorstein, 1994). This definition is currently expanded with financial loss occurring due to fraud (Featherman & Pavlou, 2003). So, financial risk is the potential monetary loss consumers may experience after buying a product or service.
+Privacy risk is the probable loss of control over personal information, for instance when data is used without data subject’s awareness or approval. Identity theft in general is a severe example of privacy loss where criminals use the victim’s identity to perform fraudulent transactions. Privacy was found relevant byFeatherman and Pavlou (2003) andJarvenpaa and Todd (1997).
+Performance risk is the potential loss that will occur due to the failure of a product to perform as expected (Mitchell, 1999). Performance risk addresses the circumstance of the product to be bought and ‘the possibility of the product malfunctioning and not performing as it was designed and advertised and therefore failing to deliver the desired benefits’ (Grewal et al., 1994).
+Time risk is defined as the time that consumers face losing when making a bad purchase decision by wasting time on searching and making the purchase, learning how a product works or needing to use support when the product does not function as predicted (Featherman & Pavlou, 2003).
+Psychological risk is the risk that the consumer’s peace of mind or self-perception will be disturbed negatively by the performance of the e-commerce merchant or the product ( Mitchell, 1999). It is the potential loss of self-esteem stemming from the failure to not achieve the buying of the intentioned product or service. Psychological risk captures the chance that the selected product will not match with the buyers’ self-image. Social risk is the final aspect of risk (Cunningham, 1967) and constitutes the potential risk of losing a certain status in one’s social group as a result of buying a product or service ( Featherman & Pavlou, 2003). So social risk is associated with perceptions that others have towards the product that is bought. For instance, it could make the buyer look foolish or untrendy.
+   4
+
+C.X. Ou et al. International Journal of Information Management 65 (2022) 102498
+ assessment of the probability of being exposed to a threat, or the perception of experiencing possible negative consequences from per- forming a risky behaviour (ibid.). In our study, a security breach event represents the focal threat. The threat potentially leads to different losses and thus various risks. Thus, we formally conceptualize the perceived vulnerability as the perceived risk (Pavlou, 2003) with some risk dimensions that might be more relevant to a security breach. In- dividuals who perceive vulnerability (i.e., the perceived risks in our contexts) will likely cope with the breach threat and adapt their behaviour accordingly (Rogers, 1983). Previous studies have related perceived risk to different information security protective actions in organizations (Menard et al., 2017). In our context, we argue that not to further transact with the breached organization is a reasonable reaction of a consumer to deal with the potential threat in information leakage and virus attacks. As we argue below, consumers’ threat appraisals also depend on ORS. If all else is equal, in line with the above logic, we argue that a security breach incident, exhibiting various types of risk, can significantly affect consumers’ intention to re-transact with the breached organization. Hence, we propose:
+H1. There is a negative relationship between consumers’ risk evaluation of an online merchant with a security breach and their intention to re-transact with the breached merchant.
+The second factor in the threat appraisal process is the perceived severity of the breach. The significance of a threat affects individuals’ willingness to cope with it and adapt their behaviour accordingly (Rogers, 1983). Whereas perceived risks underscore a consumer’s ex- pectancy of exposure of a threat, perceived severity refers to one’s fear about the impact of the potential consequences related to a threat, stressing the level of the threat in the focal context. Similar to the aforementioned logic that no remedies means no actions, if a consumer deems the perceived risks to be nothing serious, the consumer will not take any actions against the threat (Rogers, 1983). All else being equal, given various risks potentially associated with a security breach, we argue that as the perceived severity increases, a consumer’s intention to re-transact with the breached organization decreases. Therefore, we propose:
+H2. There is a negative relationship between consumers’ evaluation of severity of a security breach and their intention to re-transact with the breached merchant.
+In most security breaches, the organization also announces the ac- tions taken against the breaches. As argued above on the principal-agent perspective of PMT, response efficacy in this context is the degree to which the individual consumer’s belief that the actions taken by the
+breached organization are effective in alleviating the associating prob- lems. Given the security breach incident and breached ORS, they eval- uate whether the response sufficiently mitigates, controls, or compensates for the perceived damage associating with the security breach incident (Anderson & Agarwal, 2010). Suggested by PMT related studies, the efficacy of the focal coping mechanism has a significant positive relationship with the intention to practice proactive behaviours (e.g., Goode et al., 2017; Gwebu et al., 2018), and if the actions taken can address the potential risks associating with the security breach incident, consumers will have a higher chance to restore their confi- dence to the breached organization. Thus, we argue that all else being equal, higher perceived response efficacy is associated with higher consumers’ intention to re-transact with the breached merchant. In our exploration of how consumers appraise the response strategy of orga- nizations after a security breach, we treat the response costs and self-efficacy as control variables, while we hypothesize that:
+H3. Consumers’ positive appraisal of the organization’s response efficacy has a positive effect on their intention to re-transact with the breached merchant.
+As mentioned above, we deem the perceived risk as a multidimen- sional construct with some risk dimensions that might be more relevant to a security breach. The construct includes six dimensions, viz., finan- cial risk, performance risk, social risk, time risk, psychological risk and privacy risk (Almousa, 2011; Ariffin et al., 2018; Bertea, 2015). After a security breach, consumers may be concerned that their personal in- formation (e.g., credit card or bank account data) will be leaked resulting in financial consequences. Also, security breaches might lead to service downtime, and time risk increases when consumers want to shop from an online merchant that is not available. They might search for the product elsewhere or wait until the web shop is back online, which might lead to increased time risk, or the performance of web shop may not match the expected standard. The psychological risk, defined as a consumer’s dissatisfaction in choosing a poor service despite having a huge array of choices (Mitchell, 1999), can take place when a shopping goal is not attained (Ariffin et al., 2018) due to the security breach. Consumers might also be concerned about the potential loss of reputa- tion in their social groups (i.e., social risk) due to dissatisfaction of using the breached shopping channel (c.f., Stone & Grønhaug, 1993). Broadly speaking, whereas DoS and virus attacks usually target at damaging organizations’ service level, the theft of information aims at organiza- tions’ or customers’ confidential data. Arguably, depending on their purposes, different types of security breach can lead to different risks. Accordingly, consumers’ appraisal of the risk will vary with types of security breach. We thus hypothesize:
+Fig. 1. The Proposed Model Based on the PMT.
+5
+
+C.X. Ou et al.
+H4a. The type of security breach determines a consumer’s appraisal of the risk.
+Although each type of security breach can have different conse- quences, DoS and virus attacks have a strong negative impact on the presence of web shops (Yayla & Hu, 2011), leading to system outages, and decreased service availability. Such attacks, however, rarely result in loss of confidential data (Yayla & Hu, 2011). Theft of information is often categorized as a breach of confidential information and may result in both intangible and tangible costs. Comparing to DoS and virus at- tacks, we argue that the theft of information breach triggers consumers to feel the damage is greater (i.e., higher perceived severity) because such information breaches can cause direct losses for consumers. As a result, our next hypothesis is:
+H4b. The type of security breach determines a consumer’s appraisal of the severity.
+Whereas in hypothesis 3, we argue that the response efficacy of ORS is positively associated with consumers’ re-transaction intention, the level of response efficacy of a specific response strategy perceived by consumers arguably depends on the type of security breach incident as well. For example, no response could be more harmful in the case of the theft of information rather than the case of the DoS. Besides, a perceived proactive and more protective response strategy could be typically seen as more effective. Furthermore, for bigger security breaches, consumers will demand a more effective response from the focal organization and hence, assuming everything else to be equal, more serious, or bigger security breaches will dilute the efficacy of organizations’ responses. So, we derive the following hypothesis:
+H4c. The type of security breach determines a consumer’s appraisal of the breached organization’s response efficacy.
+Returning to organizations’ post-breach response strategies, in gen- eral, acknowledging a security breach is more effective than denial or no response (Bansal & Zahedi, 2015) in rebuilding consumers’ trust. A taxonomy of ORS is outlined by Gwebu et al. (2018), including defen- sive, moderate, accommodating, and image renewal. The efficacy of such strategies on stock market performance was examined via an event study. The moderate and image renewal strategies seemed to be more effective than the defensive or accommodating ones, but their effec- tiveness is subject to CR. We speculate that the accommodating and image renewal strategies are more effective in reducing consumers’ concerns and contribute to their appraisal. To the extent that a response strategy suggests the risk mitigation mechanisms (such as files are pro- tected, security measures are used, etc.), consumers’ feeling of risks will be reduced because of these security measures are provided by the or- ganization. Consequently, we propose our hypothesis as:
+H5a. An organization’s response strategy to handle the security breach determines a consumer’s appraisal of the risk.
+Similarly, security measures taken by the organization may also reduce consumers’ perception of severity regarding the risks. For example, if the files are protected, consumers may perceive the theft of information attack to be less severe. If the security breach is announced as one single incident where consumers are protected, the perception of the seriousness of the incidents can be managed at a reduced level (c.f. Gwebu et al., 2018). Given a focal security breach, different response strategies signal different capabilities or willingness of organizations to deal with the breach event. We thus argue:
+H5b. An organization’s response strategy to handle the security breach determines a consumer’s appraisal of the severity.
+Overall, more protective strategies can demonstrate better the efforts of the breached organization, its willingness to invest in handling the security breach incident, its commitment and sincerity to rebuild stakeholder’s confidence, and its pledge to avoid similar security breach
+International Journal of Information Management 65 (2022) 102498
+incidents from happening in the future. Depending on different types of response strategies and the experienced security breach incident, argu- ably one’s evaluation over the response efficacy also vary. Thus, we have:
+H5c. An organization’s response strategy to handle the security breach determines a consumer’s appraisal of the breached organization’s response efficacy.
+4. Methodology
+4.1. Research Design and Measurement
+We conducted a vignette-based survey to collect empirical data to test our conceptual model. Vignettes represent simulations of real-life situations (Gould, 1996) in the form of “stories about individuals, situ- ations and structures which can make reference to important points in the study of perceptions, beliefs, and attitudes” (Hughes, 1998; p. 381), where participants are presented with a hypothetical situation and are questioned about their beliefs and perceptions (e.g., Daft, Lengel, & Trevino, 1987; El-Shinnawy & Markus, 1992; Russ, Daft, & Lengel, 1990). Whilst vignettes are not commonly used in IS studies (but see Couger, 1989; Dennis, Robert, Curtis, Kowalczyk, & Hasty, 2012; Gat- tiker & Kelley, 1999; Harrington, 1996; Jarvenpaa & Staples, 2000; Robert, Dennis, & Hung, 2009 for exceptions), they can be particularly useful for the investigation of perceptions, beliefs, and attitudes (Hughes, 1998; Murphy, Herr, Lockhart, & Maguire, 1986; Pierce, Aguinis, & Adams, 2000), while prior research has also incorporated vignettes for the study of trust (Buskens & Raub, 2002; Dennis et al., 2012; Elsbach & Elofson, 2000; Nakayachi & Watabe, 2005; Robert et al., 2009).
+We focus on five ORS and investigate their efficacy to deal with the three types of security breaches. As a result, 5 * 3 scenarios are used in this study. We relied on examples from databreachtoday.com and the literature to design our vignettes. Specifically, three types of security breaches (DoS attack, virus attack and theft of information) are derived from Yayla and Hu (2011). The five ORS include the defensive, mod- erate, accommodating, and image renewal strategies from Gwebu et al. (2018), supplemented with a fifth response strategy of no response. The details of the scenarios are listed in Appendix 3.
+During the data collection, the participants were first asked to pro- vide the name of a web shop they had visited recently and to evaluate the CR. Then they were presented with one of three vignettes describing the security breach, followed by one of five vignettes describing the ORS. Participants were randomly assigned to one of these fifteen sce- narios (3*5). After that, they answered questions regarding the perceived risks (six dimensions), perceived severity, response efficacy, and intention to re-transact with the breached organization, as well as other control variables (response costs, self-efficacy, and demographic data).
+To establish the survey questions, we adapted all measures from prior studies. Appendix 4 lists the items we adopted to measure the principal constructs and key control variables, which, apart from the security breach announcement, are all measured with the use of a seven- point Likert scale from strong disagreement to strong agreement. To increase validity, some Likert scale items were reversed. Before launching the large-scale data collection, a pre-test with a small group of fifteen respondents was organized to check for consistency and improve the clarity of the questionnaire for each of the two studies.
+4.2. Data Collection, Manipulation and Collinearity Checks
+We used Amazon Mechanical Turk (AMT) to collect the empirical data between June and July 2021. AMT is increasingly considered as a valuable source to support research in information systems (IS) (Mamonov & Koufaris, 2020; Windasari, Lin, & Kato-Lin, 2021) and is
+6
+
+C.X. Ou et al.
+Table 3
+Demographics of Participants (n = 573).
+International Journal of Information Management 65 (2022) 102498
+ Gender
+Female Male Others
+Annual income
+$9,999 and below $10,000–29,999 $30,000–49,999 $50,000–69,999 $70,000–89999 $90,000 and above
+Web shop category
+Percentage
+46.6% 52.7% 0.6%
+Percentage
+14.2% 24.6% 26.5% 14.5% 10.8% 9.4%
+Education
+high school or below bachelor
+master
+doctorate
+Age
+Under 20 20–29 30–39 40–49 50–59 60–69
+70 or above Percentage 25.8% 8.4%
+0.9% 6.6%
+Percentage
+25% 50.3% 23% 1.7%
+Percentage
+Flowers and Gifts Others
+Work experience
+>=5years
+6–10 years
+11–20 years
+21–30 years
+30–40 years
+30 years or above
+Online purchases in the past one year (times) 1–10
+Percentage
+15%
+15% 25.6% 20.3% 14.7% 9.6% Percentage 29.3% 22.7% 15.7% 5.9% 15.7% 13.4%
+Percentage
+9.1% 15.2% 5.2% 0.2% 28.6%
+ Fashion, Clothing and Accessories Health and Beauty
+Toys and Baby Equipment
+Books, CDs, and Other Physical Media
+Table 4
+0.2%
+13.3%
+26.5%
+24.1%
+17.8%
+14.3%
+3.8%
+Web shop category
+Groceries, Food and Drink
+Technology (including Phones and Computers) Home and Furniture
+11–20 21–30 31–40 41–50
+51 or above
+  Distributions of 573 Valid Responses across Different Scenarios (3 *5).
+well recognized by IS scholars (Lowry, D’Arcy, Hammer, & Moody, 2016). To obtain sufficient survey respondents and to avoid potential cross-cultural effects, we have limited the AMT survey participants to those living in the United States. To encourage participation commit- ment, we pay for each valid response at the market’s hourly rate of US $6. We conducted two rounds of data collection. We first explored the validity of the survey responses with 100 responses in June 2021. We then proceeded with the rest of data collection at AMT in July 2021. After three weeks of data collection, we obtained 964 responses. After checking the answering time and removing the duplicated IP address, 573 responses were confirmed as valid data to proceed with the further data analysis. Table 3 summarizes the demographics and Table 4 shows the distributions of survey responses to each vignette scenario.
+5. Data analysis
+5.1. Manipulation checks, construct validity and reliability
+As the vignette contains two manipulations, we first conducted manipulation checks. For the three security breach types, we ask the respondents to rate the damage level after reading one of the three randomized security breach announcements. Then we ran an ANOVA testasamanipulationchecktoexaminewhetherthedamagelevel(1− 7) varies across the three security breach types. The ANOVA result con- firms the significant between-group difference (F=30.742, p < 0.01), with low to high damage (1− 7) ranging from DoS attack, virus attack, and to theft of information. For the manipulation of ORS, we asked survey respondents to rate the protective level (1− 5) after reading one of the five randomized ORS. The manipulation check for ORS also sug- gests a significant between-group difference (F=149.206, p < 0.01), ranging from no response, defensive, moderate, accommodating, and image renewal response strategies. These two manipulation checks
+suggest our vignette setting is valid initially.
+We next used PLS-SEM for further data analysis considering the
+predictive nature of our study and the explanations of the target con- structs (Hair, Ringle, & Sarstedt, 2011). We conducted the analysis on Smart-PLS (v.3.3.3). Table 5 shows the construct reliability and validity analysis, with all Cronbach’s Alphas above 0.82, composite reliability higher than 0.83, and the average variance extracted above 0.71. We tested for potential common method bias. Our principal components factor analysis, as shown in online supplementary materials II, indicated each factor explains roughly equal variance (6.229%~8.296%), with all eigenvalues larger than 1, suggesting the lack of serious common method bias (Podsakoff & Organ, 1986). Furthermore, the correlation matrix (Table 5) shows that the highest inter-construct correlations are below 0.67, while common method bias is usually evidenced by extremely high correlations (r > 0.90) (Bagozzi, Yi, & Phillips, 1991; Hong & Pavlou, 2014). Collinearity is not an issue as all Variance Inflation Factors (VIF) are smaller than 3.0 (Hair, Anderson, Tatham, & Black, 1995). The discriminant validity is confirmed by the exploratory and confirmatory factor analysis, with all the self-loading scores being much higher than the cross-loading scores (as detailed in the online supplementary material II), and each AVE is larger than the latent var- iable correlations.
+5.2. Structural Models
+After confirming the reliability and validity of the construct mea- sures, we examine the research model in a two-stage analysis in Smart- PLS v3.3.3. We first analysed the model related to PMT, by including the six dimensions of risk, severity, response efficacy, response costs and self-efficacy, intention to re-transact in the statistical model. The results of the statistical model shown in Table 6 indicates that only financial risk, privacy risk, severity and response efficacy assert significant
+    7
+
+C.X. Ou et al.
+Table 5
+Construct Validity and Reliability.
+Corporate Reputation (CR) Financial Risk (FR) Privacy Risk (PR) Performance Rick (PER) Psychology Risk (PSR) Social Risk (SR)
+Severity (SEV)
+Response Efficacy (RE) Response Costs (RC) Self-Efficacy (SE)
+Intention to Re-transact (IR) Cronbach’s Alpha Composite Reliability
+International Journal of Information Management 65 (2022) 102498
+ CR FR
+PR PER
+PSR SR SEV
+0.749
+0.224 0.707
+0.466 0.182 0.739
+-0.059 0.306 -0.033 0.306 0.475 0.386 -0.067 0.431 -0.017 -0.338 0.044 -0.294 0.841 0.930 0.824 0.899 0.825 0.895
+RE RC
+0.883
+0.075 0.785 0.438 0.323 0.430 -0.153 0.934 0.912 0.958 0.936
+SE IR
+0.762
+0.294 0.916 0.854 0.954 0.906 0.970
+ 0.758
+-0.158 -0.225 -0.173 -0.013
+0.048 0.080 0.203
+-0.091 0.047 0.186 0.894 0.926
+0.890
+0.325 0.662 0.599 0.375 0.474
+-0.047 0.543 0.108
+-0.431 0.877 0.942
+0.894
+0.210
+0.301 -0.213 0.197 -0.578 -0.020 -0.477 -0.670 0.941 0.962
+0.832
+0.517 0.497 0.330
+-0.005 0.559 0.217
+-0.312 0.901 0.937
+  Note: Diagonal elements are the Average Variance Extracted (AVE) value from their indicators. Off-diagonal elements are correlations between constructs.
+Table 6
+The Statistical Model of PMT.
+Path Coefficients
+Financial Risk Privacy Risk Performance Risk Psychological Risk Social Risk Severity
+Response Efficacy
+Response Costs
+Self-Efficacy
+R Square Adjusted
+Model_Fit (Estimated Model): SRMR: 0.236
+NFI: 0.687
+Note: * *p < 0.01; * 0.01 <p < 0.05; ns: not significant, p > 0.05.
+impacts on intention to re-transact. The insignificant effects of time risk, performance risk, psychology risk and social risk are consistent with our speculations and findings in our pilot study.
+Considering self-efficacy and response costs are not the focus of the current study and the current model fit index in Table 6 is low (SRMR=0.236; NFI=0.687), we excluded these factors from the statis- tical models to examine the model fit again. When financial risk, privacy risk, severity, and response efficacy are included as the determinants of intention to re-transact, the model fit indicators (SRMR=0.039; NFI=0.886) became satisfactory (Bagozzi & Yi, 1988; Hair, Hult, Ringle, & Sarstedt, 2021). Therefore, we focus on our research hypotheses with the better-fit model as shown in Table 7 to statistically examine the relationships among three types of security breaches, five types of re- sponses, CR and PMT.
+Although the fifteen (3 *5) scenarios are designed as manipulations, it is practically infeasible to compare fifteen models. We thus take the following two steps for the analyses.
+5.2.1. Step 1: Binary Dummy Variables and Separate Regressions
+We first explore the impacts of each security breach type and each response strategy on consumers’ threat and coping appraisal. To make the whole statistical model manageable, we created a second-order construct of perceived risk, by including the two significant risk di- mensions as the two formative measures of perceived risk with signifi- cant loadings of financial risk (weights of 0.348, p < 0.01) and privacy risk (weights of 0.839, p < 0.01) in the formative measured construct. Then in each of the regression test, we created binary dummy variables for three security breach types and five response strategies. Each binary dummy variable represents one category of the explanatory variable and is coded with 1 if the case falls in the category and with 0 if not. For example, in the binary dummy variable DoS attack, all cases in which the respondent sees the DoS attack scenario are coded as 1, and all other cases, in which the respondent doesn’t see the DoS attack scenario, are coded as 0. The same is done in the Virus attack and Theft of Information attack, as well as for each of the five types of ORS. As a result, we created three binary dummy variables for security breach and another five bi- nary dummy variables for ORS. This allows us to enter in the security breach type values and ORS as numerical (i.e., either 0 or 1), which is meaningful and feasible.3 Meanwhile, to avoid the dummy variable trap (i.e., a case of perfect multicollinearity),4 we take DoS Attack and No Response as the base lines and pool the other six binary dummy vari- ables into three separate regressions to explore the respective impacts of each security breach type and each response strategy on consumers’ threat and coping appraisal in three separate models. Below it is one example formula.
+Perceived Risk = a+b1 Virus Attack + b2 Theft of Information + b3 Defensive Response + b4 Accommodating Response + b5 Moderate Response + b6 Image Renewal + b7 Corporate Reputation (model 1)
+From the coefficients summarized in Table 8, theft of information has much bigger impacts on consumers’ risk perception and severity eval- uation. Meanwhile, when facing security breach, organizations’ response efficacy ranges from no response (baseline), defensive response, moderate response, accommodating to image renewal strategy with increasing positive effects in consumers’ coping appraisal. These separate regression results provide a good foundation to code security breach as an ordinal variable, and ORS as the other ordinal variable in the structural model, as further explained in the second step below.
+4 See https://www.jigsawacademy.com/understanding-dummy-variable-tra ps-regression/.
+ DV: Intention to Re-transact
+-0.180**
+-0.494**
+-0.060 (ns)
+0.004 (ns)
+0.009 (ns)
+-0.082*
+0.109*
+-0.027 (ns)
+0.046 (ns)
+0.509
+Chi-Square: 5139.338 d_ULS: 31.286
+ d_G: 1.696
+  Table 7
+The Statistical Model of PMT with A Better Fit.
+Path Coefficients
+Financial Risk
+Privacy Risk
+Severity
+Response Efficacy
+R Square Adjusted
+Model_Fit (Estimated Model) SRMR: 0.039
+NFI: 0.886
+DV: Intention to Re-transact
+-0.217 * *
+-0.513 * *
+-0.087 *
+0.120 * *
+0.511
+Chi-Square: 804.364 d_ULS: 0.156
+d_G: 0.217
+3 See
+   https://www.southampton.ac.uk/passs/confidence_in_the_police/m ultivariate_analysis/linear_regression.pagethe.
+  8
+
+C.X. Ou et al.
+Table 8
+Coefficients in the Regressions of Binary Dummy and Control Variables.
+International Journal of Information Management 65 (2022) 102498
+(β = 0.177, p < 0.01). We also tested the interaction effects of ORS with security breach, as well as CR, but found that they have no significant effects on the model. The total variance explained for perceived risk, severity, response efficacy, and intention to re-transact are 12.7%, 9.4%, 28.1%, and 51.2%, respectively.
+5.3. Mediation tests
+The current research focuses on the role of ORS in handling security breach to decide consumers’ intention to re-transact. We further examined the mediating role of key constructs of PMT (i.e., perceived risk, severity, and response efficacy) in the proposed path between ORS and intention to re-transact. Following Zhao, Lynch, and Chen (2010), we conducted mediation tests using the classical bootstrapping method (Preacher & Hayes, 2008). The test results, as detailed in Appendix 5, indicate the mediation effect of perceived risk (β = − 0.9128, p < 0.01), severity (β = − 0.1109, p < 0.01), and response efficacy (β = 0.0862, p < 0.01) exists, but ORS has no direct effect (β = 0.0368, p > 0.05) on intention to re-transact. We discuss the key findings and implications below.
+6. Discussion
+6.1. Key findings
+We set out to enhance our understanding on the impacts of security breaches and ORS on consumers’ threat and coping appraisals. By integrating the existing risk theories in e-commerce (Featherman & Pavlou, 2003; Forsythe & Shi, 2003; Forsythe, Liu, Shannon, & Gardner, 2006; Nepomuceno, Laroche, & Richard, 2014), we extend PMT (Rogers, 1983) to the security breach context. Several important find- ings can be observed from our empirical analysis. First, the proposed overall model was largely supported. Within the PTM, perceived risk, severity and response efficacy are identified as the major influential determinants of consumers’ security threat and coping appraisal pro- cess, while response costs and self-efficacy are not the focus of con- sumers in reacting to the security breach. Specifically in the threat appraisal, six risk dimensions are identified in the literature (see Table 2 and Appendix 2). Our empirical analysis suggested that only financial risk and privacy risk were influential in determining consumers’ inten- tion to re-transact with the focal organization after the incident of a security breach. This finding provides interesting explanations that differ from the existing risk literature in the e-commerce domain (e.g., Aghekyan-Simonian, Forsythe, Kwon, & Chattaraman, 2012; Feather- man & Pavlou, 2003; Forsythe et al., 2006; Forsythe & Shi, 2003; Nepomuceno et al., 2014; Almousa, 2011; Ariffin et al., 2018) and suggests consumers do not give equal weight to risk dimensions. Ap- pendix 2 has suggested that financial risk, privacy risk, performance risk and time risk are the most relevant risks investigated in the literature, as also indicated by Nepomuceno et al. (2014). Our empirical data further demonstrated in the online shopping contexts privacy and financial consequences are the two major concerns hindering consumers to repurchase, while making use of the explanations from Parks, Xu, Chu, and Lowry (2017), consumers are less sensitive to the other conse- quences of security breaches because of deindividuation (i.e., as an in- dividual they feel it is irrelevant to them) such as in our context for social risk and psychological risk or apathy (i.e., there is nothing they can do about it) such as in our context for time risk and performance risk also because consumers can easily find a replacement website to shop online.
+Regarding the security breach, ORS and CR, our data analysis also demonstrated important findings. Consumers consider theft of infor- mation having the most negative effects in their appraisal of the security breach situation and hence a security breach requires a more sophisti- cated and nuanced handling process. The announcement of a security breach alone did increase consumers’ concerns of financial and privacy consequences, as well as severity, but understandably not directly
+ IVs
+Virus Attack
+Theft of Information Defensive Response Moderate Response Accommodating Response Image Renewal
+Corporate Reputation Adjusted R Square
+Model 1: DV= Perceived Risk
+0.012(ns)
+0.172 * *
+-0.085(ns)
+-0.284 * * -0.268 * * -0.239 * * -0.228 * * 15.0%
+Model 2: DV= Severity
+-0.002(ns)
+0.356 * *
+-0.074(ns)
+-0.189 * *
+-0.061(ns) 0.021(ns) 0.073 * 15.1%
+Model 3: DV= Response Efficacy
+0.075(ns) -0.051(ns) 0.154 * 0.420 * * 0.468 * * 0.535 * * 0.176 * * 30.3%
+   Baseline: DoS Attack and No Response
+5.2.2. Step 2: The Overall Structural Model
+Consistent with the empirical results in the first step, types of secu- rity breach can be conceptualized and operationalized as the level of breach, while types of ORS can be conceptualized as the extent of organizational efforts to provide explanations and taking the re- sponsibility and actions (c.f. Bansal & Zahedi, 2015). With this conceptualization and according to the results of those dummy variable regressions in the first step, we code security breach as an ordinal var- iable (1-denial of service; 2-virus attack; 3-theft of information) and similarly for ORS (1-no response, 2-defensive strategy, 3-moderate strategy, 4-accomodating strategy, and 5-image renewal strategy). Then we include these two ordinal variables, i.e., security breach and ORS, together with CR, into the full model for the data analysis of the overall structural model at Smart-PLS.
+As shown in Table 9, the overall structural model is largely supported by the empirical data. Consistent with the PMT model tested earlier, perceived risk (β = − 0.606, p < 0.01), severity (β = − 0.069, 0.01 <p < 0.05) and response efficacy (β = 0.118, p < 0.01) have sig- nificant impacts on the intention to re-transact, supporting H1, H2 and H3. The control variables response costs (β = − 0.033, p > 0.50), self- efficacy (β = 0.049, p > 0.50), and the demographics variables assert no significant influence on consumers’ intention to re-transact. Security breach has a significant direct effect on perceived risk (β = 0.142, p < 0.01) and severity (β = 0.306, p < 0.01), but not response efficacy (β = − 0.040, p > 0.50), thus supporting H4a and H4b, but rejecting H4c. ORS can influence consumers’ risk perception (β = − 0.241, p < 0.01) and response efficacy (β = 0.494, p < 0.01), but not severity (β = 0.010, p > 0.50), thus supporting H5a and H5c, while rejecting H5b. We have also included the key control variable CR in the model and found it significant in determining perceived risk (β = − 0.230, p < 0.01), severity (β = 0.080, 0.01 <p < 0.05), and response efficacy
+Table 9
+Statistics of The Overall Structural Model.
+ Path Coefficients
+Corporate Reputation (CR)
+Security Breach (SB) Organizational
+Response Strategy
+(ORS) ORS*CR
+ORS*SB
+Perceive Risk Severity
+Response Efficacy Response Costs Self-Efficacy Demographics control
+variables
+Perceived Risk
+-0.230 * *
+0.142 * * -0.241 * *
+-0.016(ns) 0.012(ns)
+Severity
+0.080 *
+0.306 * * 0.010 (ns)
+0.030 (ns) 0.021 (ns)
+Response Efficacy
+0.177 * *
+-0.040(ns) 0.494 * *
+0.016(ns) 0.049(ns)
+Intention to Re-transact
+-0.606 * * -0.069 * 0.118 * * -0.033(ns) 0.049(ns) ns
+51.2%
+ R Square Adjusted
+12.7%
+9.4%
+28.1%
+  9
+
+C.X. Ou et al.
+response efficacy as the security breach itself has not yet touched upon on organization’s response and the breach management. Furthermore, our empirical data also suggests when evaluating response efficacy, ORS dominates the appraisal result, hence further explaining the unsup- ported H4c. Specifically, our study suggests an organization can choose among no response, defensive, moderate, accommodating and image renewal strategies. When a more protective ORS is included, consumers’ risk perception can be effectively reduced, and consumers’ appraisal of a breached organization’s response efficacy can be very positive. How- ever, the proposed influence from ORS on perceived severity (H5b) was not supported by our empirical data. We speculate the insignificant ef- fect is first because the direct overwhelming impacts from security beach on consumers’ severity evaluation (β = 0.306, p < 0.01). Also, the announcement of security beach might have already introduced some anchoring effects on consumers’ evaluation of how serious of the secu- rity incident.
+We deliberately collected the data of CR prior to the security breach announcement. It is interesting to observe that CR can assert a persistent and significant impact on consumers’ security threat and coping appraisal. This implies that CR, as based on historical performance and past transaction experience, can play a major role in risk mitigation, and serve as a quality signalling mechanism to consumers when organiza- tions are faced with a security breach. The findings of our study demonstrate the competing effects of one-time events such as a security breach versus the long-standing impact of organizational image on consumers’ security threat and coping appraisal. Furthermore, our mediation tests (as shown in Appendix 5) demonstrate that consumers’ security threat and coping appraisal fully mediates the direct effect of ORS on consumers’ intention to repurchase from the breached organi- zation. We discuss the corresponding theoretical and practical implica- tions below.
+6.2. Theoretical implications
+Our work fills the research gap on security breach, ORS and con- sumers’ appraisal of threat and coping. Consumers are the important stakeholders and affected by the security breach. It is critical to under- stand consumers’ threat and coping appraisal of ORS to handle the se- curity breach incidents. Our study is among the first research to extend PMT in the security breach context. The conceptualizations of security breach and ORS, as well as the principal and agent perspectives, in the current PMT model provides researchers with a conceptual opportunity to further investigate PMT and its determinants. Specifically, we extend the PMT model in two ways. On the one hand, we integrate PMT with the theory of consumer risk in e-commerce. We recognize that the perceived vulnerability should be operationalized as a multi- dimensional construct as the security breach incidents may lead to different types of losses. On the other hand, we challenge the long- standing presumption that coping mechanisms against a threat are al- ways available to actors who evaluate the threat. We synergize the principal-agent perspective (following Pavlou et al., 2007) in the adapted PMT in which the breached organization is the agent who provides the coping strategy, while consumers are the principal actors who evaluate the breached organization’s coping strategy. We argue that actors who appraise the threats may evaluate the response efficacy of the coping mechanisms taken by the external agents, especially when such mechanisms are critical yet unavailable to the actors. Focusing on varied organizations’ response strategies, we argue that consumers implicitly delegate an organization the duties to protect them from further losses due to the focal and any potential security breach events. We label this understanding as the principal-agent perspective of PMT, proposing that in the coping appraisal processes, individuals evaluate the response efficacy of the coping mechanisms taken by the external agents, especially when such mechanisms are critical yet unavailable to the individuals.
+Furthermore, our study also sheds light on the theoretical
+International Journal of Information Management 65 (2022) 102498
+applicability of PMT in the security breach context and implies response costs and self-efficacy are not the major concern in consumers’ security threat and coping appraisal. Our conceptualization demonstrates that PMT is an effective theoretical lens to explain the phenomenon of se- curity breach and ORS. Our mediation tests further imply consumers’ threat and coping appraisal is the necessary and critical process for ORS to make effects to mitigate the damaging effects of security breach in consumers’ perceptions and intentions. These findings provide a good theoretical starting point to a fine-grained enhancement of PMT in se- curity breach research.
+More specifically, the proposed model (and the empirical data) im- plies that risk cannot be regarded as one single-dimensional construct. Different types of risk can render a distinct influence on consumers’ perceptions and can lead to different judgements as to whether to transact with the organization in the future. More importantly, this study is among the first to deploy the current risk theories to the context of security breaches and to conceptualize the theoretical relationship between security breaches, ORS, and risk evaluation in e-commerce. CR is incorporated based on the risk literature, serving as the risk mitigation mechanism in the proposed theoretical model. Overall, we offer fresh insights about the competing impacts of one-time security breaches and ORS, as well as long-standing CR, in determining consumers’ security threat and coping appraisal associated with online transactions.
+6.3. Practical Implications
+Along with the aforementioned novel contributions to the extant IM theory, our study also brings a number of implications at the level of both the organization itself and the consumers who avail themselves of the services of the organization. There are also policy implications.
+When it comes to the consumer implications of our study, our empirical findings indicate that a sense of risk occurs when personal data is stolen during a security breach, along with a sense of fear that a breach will result in significant concerns about financial and privacy loss. The concerns raised by the security breach announcement and ORS vary significantly across different scenarios. Among different types of secu- rity breaches, theft of information is evaluated by consumers as the most serious incident. Consumer’s risk perception is salient; however, to some extent it can be compensated by one-time ORS and a long-standing CR based on historical records and brand image.
+It is important, therefore, to highlight that more proactive, long-term visioned ORS are much more effective in managing consumers’ perception of damage. This suggests that to mitigate potential damage to consumer confidence in the short run, breached organizations could publicly announce the occurrence of a security breach by emphasizing that it is a rare, one-off event and by further highlighting the long-term outstanding CR. This is in effect a form of crisis communication (Zheng, Liu, & Davison, 2018) and the intention would be to help the consumers to trust that they will not suffer any financial or privacy losses due to possible future security breaches with these organizations. In the long run, however, organizations cannot risk damaging their reputation because a breach is a major source of negative evaluation when con- sumers consider the risk levels of engaging in transactions with the or- ganizations. Organizations, thus, should take seriously the occurrence of any types of security breaches, and ensure that such incidents are indeed rare and one-off.
+Concurrently, the implications of our findings provide nuanced ex- positions for legislative as well as policy-making processes. The ongoing pandemic has accentuated that the internet and e-commerce are essential elements of our lives, especially in times of crisis, and therefore legislative efforts related to security breach announcements are increasingly critical. The legislation to mandate the announcement of security breaches, at least for publicly listed organizations, will bring needed transparency to the public, and increase the trust of consumers towards organizations that take privacy and security issues seriously. The effect of a security breach announcement, however, can be
+10
+
+C.X. Ou et al.
+compensated by the ORS in handling the security breach and the long- standing CR. Therefore, legislators and policymakers should engage security experts from the industry and academia, who could help by incorporating measures that ensure privacy and security, as well as processes on promptly announcing security breaches. These measures may extend or augment current privacy legislation (such as GDPR) if it is in place. Such teams of experts will be able to appreciate the timeliness and importance of the topic, and the adverse implications that security breaches can have. Consequently, these changes may further strengthen the confidence of consumers.
+6.4. Limitations and Future Research
+Our work has limitations that open avenues for further research. First, due to the design of a cross-sectional survey, we only examine consumers’ re-transaction intention. Future research can use the com- bination of objective data (such as transaction records) and subjective data (such as survey questions) to scrutinize the differences in consumer behaviour before and after an actual security breach. For instance, we collected the data about CR before a security breach. Future research can focus on how security breach announcements can affect CR over time. A longitudinal design can also help address the potential common method bias associated with the current cross-sectional study.
+Second, we only collected data from a sample population of the United States through AMT, despite the fact that the security breach has attracted much interest in wider population from research in the field. We, thus, invite future researchers in the field to conduct cross-country studies and consider constructs like uncertainty avoidance and other cultural dimensions (Hofstede, Hofstede, & Minkov, 2005) to further investigate and validate our findings.
+Thirdly, while we incorporated a vignette-based approach, the par- ticipants might respond differently when presented with a vignette instead of a real context (Greenberg & Eskew, 1993). Studies in general have demonstrated that vignettes can reach the same conclusions as other research approaches (de Cremer, Van Dijke, & Bos, 2007; Shaw, Wild, & Colquitt, 2003), supporting the view that individuals respond in a similar way regardless of whether they are presented with a vignette or a more realistic setting. While our findings are statistically significant, vignettes represent a more subtle arrangement of different scenarios and might not be strong enough to induce the genuine thoughts and be- haviours of participants, so treatments are more likely to fail in vignette studies, resulting in non-significant results (Hughes & Huby, 2002). Future research should investigate further our model in a more realistic setting.
+Last, the world is now focused on security breaches, perhaps more so than previous cybersecurity threats. In June 2021,5 McDonald’s security breach announcement exposed Korean and Taiwanese customers’
+International Journal of Information Management 65 (2022) 102498
+personal data taken from the delivery system. In the same month, Volkswagen and Audi notified 3.3 million people in the U.S. and Canada of a breach of personal information including driver’s license numbers, and a smaller number within that group may also have had their birth dates, social security or social insurance numbers, account or loan numbers and tax identification numbers leaked. A security breach rep- resents a real concern for businesses of all sizes. It is worthwhile to study and scrutinize the evolving attitudes of consumers regarding these se- curity breaches, the determination of organizations to prevent future security issues, as well as the associated legislative developments.
+7. Conclusion
+Our study sheds light on the interwoven relationship among security breaches, ORS, CR, consumers’ security threat and coping appraisal, and consumers’ intention to re-transact with a breached web shop. Nowa- days, organizations and institutions are managing a huge volume of sensitive data about their customers (Angelopoulos et al., 2021). Data security and privacy are paramount concerns for both consumers and organizations (Lowry, Dinev, & Willison, 2017). As consumers continue to share data for online transactions and organizations become more dependent to store data on the cloud, the concerns of potential security breaches and the demand for data protection will continue to grow. Our work demonstrates how security breaches and ORS may affect con- sumers’ evaluation of the situation, the way an organization conducts business, and the potential ramifications for failing to adequately pro- tect sensitive data. This study provides a springboard for future inves- tigation in this domain. We, thus, call on IM scholars to further focus on security breach, data privacy, risk management, and ORS.
+Funding
+This research is partially supported by the National Natural Science Foundation of China (NSFC) - grant #71901075, Science Foundation of Education Ministry in China - grant #19YJCZH278; Natural Science Foundation of Guangdong Province - grants #2020A151501507 and #2020A1414010270.
+Acknowledgements
+All persons whohave made substantial contributions to the work reported in the manuscript(e.g., technical help, writing and editing assistance, general support), butwho do not meet the criteria for authorship, are named in the Acknowledgementsand have given us their written permission to be named. If we have not includedan Acknowl- edgements, then that indicates that we have not received sub- stantialcontributions from non-authors.
+Appendix 1. . Overview of Security Breach Literature Related to Stock Market
+  Study
+Goel and Shawky (2009) Cavusoglu, Mishra, and Raghunathan (2004)
+Campbell, Gordon, Loeb, and Zhou (2003)
+Telang and Wattal (2007) Ko and Dorantes (2006)
+# of Breach Events
+168 66
+43 attacks, 38 firms
+147 incidents, 18 firms
+19
+Impacts on Stock Performance
+-1% SM* -2.1% SM*
+Yes
+-0.63% SM*
+Additional Findings
+Confidential breaches impacted the financial performance significantly, whereas non-confidential breaches did not.
+Greater loss if the business is small. Greater loss if the market is highly competitive. Change in stock price is greater when the breach is not fixed by the time the announcement is made. Greater loss if the security flaw is perceived to be more severe.
+  5 https://www.databreachtoday.com/.
+No long-term impact could be found.
+(continued on next page)
+ 11
+
+C.X. Ou et al.
+(continued ) Study
+Garg, Curtis, and Halper (2003)
+Hovav and D’Arcy (2003) Hovav and D’Arcy (2004)
+Yayla and Hu (2011)
+Gordon, Loeb, and Zhou (2011)
+International Journal of Information Management 65 (2022) 102498
+*SM: Stock Market; * *AR: Annual Revenue
+# of Breach Events
+22
+20
+186 104–123
+121 incidents, 85 firms
+Impacts on Stock Performance
+-0.5%− 1.0% AR* *
+-0.9% SM*
+Additional Findings
+Only focuses on DoS (Denial of Service) attacks. Losses shown when the Websites were a component of the core sources of income.
+The market does not penalize companies that are faced with a virus attack.
+Pure E-commerce businesses are more heavily influenced than conventional brick and mortar stores. DoS attacks have a greater impact than other types of security breaches. Time period around the days of the breach influences the degree of impact. Results from event year show that breaches had a significant impact around 1994–2000, but not in the period of 2001–2006, indicating a change in attitude towards security breaches.
+Breaches related to availability had a significant impact on financial performance, but impact has shifted from significant of the major security incident to insignificant over time.
+     Appendix 2. . Overview of Studies on Perceived Risk Dimensions
+  Risk Dimension Featherman and Crespo, del Bosque, / Study Pavlou (2003) and de los Salmones
+Sanchez (2009)
+Financial * * Privacy** Product/ * *
+Performance
+Time/ * *
+Convenience
+Psychological * * Social * * Physical
+Overall *
+Nepomuceno et al. (2014)
+* * *
+Hassan, Kunz, Pearson, and Mohamed (2006)
+Pavlou (2003)
+Forsythe
+et al. (2006)
+Bertea Almousa (2015) (2011)
+Ariffin et al. (2018)
+ Note: * The risk dimension is investigated in the corresponding study.
+Appendix 3. . Survey Setup and the Vignettes
+* * * * * * ***** * * * * *
+* * * *
+* *** * *** **
+  Before answering this questionnaire, please read the story on the next page carefully. Then keep this story in mind while responding to the questions following this story. This test takes about 15 min and is completely anonymous. Thank you for your participation.
+Story for questionnaire (3 *5 vignettes)
+Consider the most recent web shop where you have purchased something. Any web shop may be chosen, but it must be a purchase that you have completed over the internet. During this purchase you have entered some details that were needed to complete the transaction. This data included your name, email address, password, home address, your telephone numbers, and also your bank or credit card number(s).
+Now imagine that a few months after your purchase, the web shop is affected by a security breach.
+[Then survey response will see one of the three types of security breaches, followed by one of the five organizational response strategies].
+Vignettes for three types of security breaches (SB)
+SB1-DenialofService. Specifically,thewebshopexperiencedaDenialofService(DoS)attack.TheDoSattackisacyber-attackthattheattackerseeks to make the target services (i.e., services of web store in this case) unavailable to its legitimated users by temporarily or indefinitely disrupting services of the target. Though the web shop can limit the concurrent connections to its web store, the countermeasure is often prone to high degree of false- positives. That means that you, as a legitimated user, probably cannot access its web store either. In fact, indeed, if you visit its web store right now, you cannot access the store. You don’t know when the attack will be over.
+SB2 - Virus Attack. Specifically, the web shop experienced a malicious virus attack. Though it is not uncommon that web shops have anti-virus software to prevent such virus attacks, the virus apparently found its way to self-replicate in the web shop’s computer system. As a result, at least some files and data, stored and recorded in the systems of the web shop were destroyed. That may include your personal information. In that case, you may need to retype the information again in your next shopping in this web shop. In any cases, the web shop needs to install patches to repair the damaged files and data. The repairs may lead to system downtime.
+SB3 - Theft of information. Specifically, the web shop experienced an attack of theft of information. This means that privacy-sensitive data, recorded and stored in the web shop during your purchase transaction, was acquired by hackers. It is not uncommon that hackers publish data online or sell sensitive data to another party. This may grant other people access to your data. You may thus, for example, receive spam or malicious messages. Strange bank account transactions may also occur because your credit card data was sold. The combination of your email address and password may give others the opportunity to login to your accounts including your social media accounts, online bank accounts and email accounts.
+ 12
+
+C.X. Ou et al. International Journal of Information Management 65 (2022) 102498
+Vignettes for five organizational response strategies (ORS)
+CRS1 – No Response. [Message empty].
+CRS2 - Defensive Strategy. You also learn that the web shop claims the breach occurred due to their security provider’s negligence. The web shop itself only has limited or even no responsibilities.
+CRS3 – Moderate Strategy. You also learn that the web shop states it has a strong history of data privacy. The web shop values the relationship with its customers and other stakeholders. The breach is rather an isolated act.
+■ For SB1: The web shop also claims that it believes the breach won’t affect customers after the breach is fixed.
+■ For SB2: The web shop also claims that the lost data were encrypted and password protected.
+■ For SB3: The web shop also claims that it believes the breach won’t affect customers after the breach is fixed. The web shop also claims that the lost
+data were encrypted and password protected.
+CRS4 – Accommodating Strategy. You also learn that the web shop explicitly apologized for the occurrence of the security breach. The web shop also takes steps to repair and control the damage. Financial compensations are possible if customers experience damages during the attack.
+CRS5 – Image Renewal. You also learn that the web shop claims it has implemented security measures to prevent a recurrence of such an attack. The web shop will, in any cases, help customers and other stakeholders. The web shop values stakeholders’ privacy. It claims that safeguarding the privacy data is a top priority and that it committed to protect stakeholder data.
+Appendix 4. . Survey Items for Principal Constructs
+Scale: Strongly disagree (1) ~ Strongly agree (7).
+Perceived Financial Risk (Nepomuceno et al., 2014)
+○ If I bought an item for myself within the next twelve months, I would be concerned that the decision to spend money on
+the item would not be wise.
+○ Purchasing this item could involve important financial losses.
+○ If I bought this item for myself within the next twelve months, I would be concerned that I would not get my money’s
+worth.
+Perceived Privacy Risk (Nepomuceno et al., 2014)
+○ I feel my personal privacy is protected when shopping at this web shop. (Reverse coded)
+○ I feel safe in my transactions when shopping at this web shop. (Reverse coded)
+○ This web shop has adequate security features. (Reverse coded) Perceived Time Risk (Nepomuceno et al., 2014)
+○ Purchasing an item at this web shop could lead to an inefficient use of my time.
+○ Purchasing an item at this web shop could involve important time losses.
+○ Purchasing an item on this web shop wastes my time. Perceived Performance Risk (Nepomuceno et al., 2014)
+○ If I were to purchase an item within the next twelve months, I would become concerned that the item will not provide
+the level of benefits that I would be expecting.
+○ As I consider the purchase of an item soon, I worry about whether it will really “perform” as well as it is supposed to.
+○ The thought of purchasing an item at this web shop causes me to be concerned for how reliable that product will be. Psychological Risk (Littler & Melanthiou, 2006; Zhao, Hanmer-Lloyd, Ward, & Goode, 2008)
+○ I would feel annoyed with myself in case I decided to use the web shop again and something went wrong in the
+transaction, since I would think I made the wrong decision to use the web shop.
+○ If something went wrong with the web shop, I would feel frustrated.
+○ If something went wrong with the web shop, I would feel concerned.
+Social Risk (Featherman & Pavlou, 2003; Hanafizadeh & Khedmatgozar, 2012)
+○ I am sure that if I decide to use the web shop again and mistakes or fraud happen in my transactions, I will lose my good
+position among my friends, family, and colleagues.
+○ Using the web shop will negatively affect the way others think of me. Severity (Herath & Rao, 2009)
+○ The security breach affects me directly.
+○ The security breach is severe.
+○ I think security breach is serious and needs attention.
+○ The security breach is exaggerated (Reverse coded). Response efficacy (Li et al., 2019)
+○ The organization’s response will keep security breaches down.
+○ Based on the organization’s response, the chance of information security breaches occurring will be reduced.
+○ The organization’s response helps to solve the security problems Intention to Re-transact (Pavlou, 2003)
+○ When given the possibility I intend to use this web shop, knowing that it has been breached.
+○ When given the possibility I predict that I should use this web shop in the future.
+○ It’s likely that I will transact with this web shop in the near future.
+Key Control Variable: Corporate reputation (Jarvenpaa, Tractinsky, & Saarinen, 1999; Park, Gunn, & Han, 2012)
+○ I believe that the web shop has a reputation for being fair.
+○ The web shop is well respected.
+○ This web shop has a reputation for being honest.
+Key Control Variable: Response costs (Menard et al., 2017)
+○ The organization’s response is burdensome for me.
+  13
+(continued on next page)
+
+ C.X. Ou et al.
+International Journal of Information Management 65 (2022) 102498
+(continued )
+○ The organization’s response would require too much from me.
+○ The organization’s response is not worth it.
+Key Control Variable: Self-Efficacy (Lee & Larsen, 2009) ○ It is easy for me to address this security breach issue.
+○ I can fix the security breach problem by myself.
+○ I have the capability to solve possible security beach errors or problems.
+Appendix 5. . Mediation Tests
+14
+(continued on next page)
+
+ C.X. Ou et al.
+International Journal of Information Management 65 (2022) 102498
+(continued )
+Appendix B. Supporting information
+Supplementary data associated with this article can be found in the online version at doi:10.1016/j.ijinfomgt.2022.102498.
+References
+Aghekyan-Simonian, M., Forsythe, S., Kwon, W. S., & Chattaraman, V. (2012). The role of product brand image and online store image on perceived risks and online purchase intentions for apparel. Journal of Retailing and Consumer Services, 19(3), 325–331.
+Aivazpour, Z., Valecha, R. & Chakraborty, R. (2018). The impact of data breach severity on post-breach online shopping intention." Thirty Ninth International Conference on Information Systems (ICIS), San Francisco, U.S.
+Almousa, M. (2011). Perceived risk in apparel online shopping: a multi dimensional perspective. Canadian Social Science, 7(2), 23–31.
+Anderson, C. L., & Agarwal, R. (2010). Practicing safe computing: A multimethod empirical examination of home computer user security behavioral intentions. MIS Quarterly, 34(3), 613–643.
+Angelopoulos, S., Brown, M., McAuley, D., Merali, Y., Mortier, R., & Price, D. (2021). Stewardship of personal data on social networking sites. International Journal of Information Management, 56, Article 102208.
+Ariffin, S. K., Mohan, T., & Goh, Y. N. (2018). Influence of consumers’ perceived risk on consumers’ online purchase intention. Journal of Research in Interactive Marketing, 12 (3), 309–327.
+Ayaburi, E. W., & Treku, D. N. (2020). Effect of penitence on social media trust and privacy concerns: The case of Facebook. International Journal of Information Management, 50, 171–181.
+Bagozzi, R. P., & Yi, Y. (1988). On the evaluation of structural equation models. Journal of the Academy of Marketing Science, 16(1), 74–94.
+Bagozzi, R. P., Yi, Y., & Phillips, L. W. (1991). Assessing construct validity in organizational research. Administrative Science Quarterly, 36, 421–458.
+Bansal, G., & Zahedi, F. M. (2015). Trust violation and repair: the information privacy perspective. Decision Support Systems, 71, 62–77.
+Bertea, P. E. (2015). From fearful to trustful - How perceived risk dimensions in e- commerce differentiate between consumers. Review of Economic and Business Studies, 8(1), 47–54.
+Buskens, V., & Raub, W. (2002). Embedded trust: Control and learning. Advances in Group Processes, 19(2002), 167–202.
+Campbell, K., Gordon, L. A., Loeb, M. P., & Zhou, L. (2003). The economic cost of publicly announced information security breaches: empirical evidence from the stock market. Journal of Computer Security, 11, 431–448.
+Cavusoglu, H., Mishra, B., & Raghunathan, S. (2004). The effect of Internet security breach announcements on market value: capital market reactions for breached firms
+and Internet security developers. International Journal of Electronic Commerce, 9(1),
+69–104.
+Chakraborty, R., Lee, J., Bagchi-Sen, S., Upadhyaya, S., & Rao, H. R. (2016). Online
+shopping intention in the context of data breach in online retail stores: an
+examination of older and younger adults. Decision Support Systems, 83, 47–56. Chan, S. H., & Janjarasjit, S. (2019). Insight into hackers’ reaction toward information security breach. International Journal of Information Management, 49, 388–396. Choi, B. C., Kim, S. S., & Jiang, Z. (2016). Influence of firm’s recovery endeavors upon
+privacy breach on online customer behavior. Journal of Management Information
+Systems, 33(3), 904–933.
+Cram, W. A., Brohman, K., & Gallupe, R. B. (2016). Information systems control: A
+review and framework for emerging information systems processes. Association for
+Information Systems, 17(4), 216–266.
+Couger, J. D. (1989). Preparing IS students to deal with ethical issues. MIS Quarterly, 13
+(2), 211–218.
+de Cremer, D., Van Dijke, M., & Bos, A. E. (2007). When leaders are seen as
+transformational: the effects of organizational justice. Journal of Applied Social
+Psychology, 37(8), 1797–1816.
+Crespo, A. H., del Bosque, I. R., & de los Salmones Sanchez, M. G. (2009). The influence
+of perceived risk on Internet shopping behavior: a multidimensional perspective.
+Journal of Risk Research, 12(2), 259–277.
+Cunningham, S. M. (1967). The Major Dimensions of Perceived Risk, Risk Taking and
+Information Handling in Consumer Behavior. Cambridge, MA: Harvard University
+Press.
+Daft, R. L., Lengel, R. H., & Trevino, L. K. (1987). Message equivocality, media selection,
+and manager performance: Implications for information systems. MIS Quarterly, 11
+(3), 355–366.
+D’Arcy, J., Herath, T., & Shoss, M. K. (2014). Understanding employee responses to
+stressful information security requirements: A coping perspective. Journal of
+Management Information Systems, 31(2), 285–318.
+Dennis, A. R., Robert, L. P., Curtis, A. M., Kowalczyk, S. T., & Hasty, B. K. (2012).
+Research note—trust is in the eye of the beholder: a vignette study of postevent behavioral controls’ effects on individual trust in virtual teams. Information Systems Research, 23(2), 546–558.
+Dwivedi, Y. K., Ismagilova, E., Hughes, D. L., Carlson, J., Filieri, R., Jacobson, J., & Wang, Y. (2021). Setting the future of digital and social media marketing research: perspectives and research propositions. International Journal of Information Management, 59, Article 102168.
+15
+
+C.X. Ou et al.
+Elsbach, K. D., & Elofson, G. (2000). How the packaging of decision explanations affects perceptions of trustworthiness. Academy of Management Journal, 43(1), 80–89. El-Shinnawy, M. M., & Markus, M. L. (1992). Media richness theory and new electronic
+communication media: A study of voice mail and electronic mail. In proceedings of
+the International Conference in Information Systems (ICIS), 91-105.
+Ettredge, M., & Richardson, V. J. (2002). Assessing the risk in e-commerce. Proceedings of
+the 35th Annual Hawaii International Conference on System Sciences (HCISS), Big
+Island, Hawaii.
+Featherman, M. S., & Pavlou, P. A. (2003). Predicting e-services adoption: a perceived risk facets perspective. International Journal of Human-Computer Studies, 59(4), 451–474.
+Floyd, D. L., Prentice-Dunn, S., & Rogers, R. W. (2000). A meta-analysis of research on protection motivation theory. Journal of applied social psychology, 30(2), 407–429. Forsythe, S., Liu, C., Shannon, D., & Gardner, L. C. (2006). Development of a scale to measure the perceived benefits and risks of online shopping. Journal of Interactive
+Marketing, 20(2), 55–75.
+Forsythe, S. M., & Shi, B. (2003). Consumer patronage and risk perceptions in Internet
+shopping. Journal of Business Research, 56(11), 867–875.
+Garg, A., Curtis, J., & Halper, H. (2003). The financial impact of IT security breaches:
+what do investors think? Information Systems Security, 12(1), 22–33.
+Gattiker, U. E., & Kelley, H. (1999). Morality and computers: attitudes and differences in
+moral judgments. Information Systems Research, 10(3), 233–254.
+Goode, S., Hoehle, H., Venkatesh, V., & Brown, S. A. (2017). User compensation as a data
+breach recovery action: An investigation of the Sony PlayStation network breach.
+MIS Quarterly, 41(3), 703–727.
+Goel, S., & Shawky, H. A. (2009). Estimating the market impact of security breach
+announcements on firm values. Information & Management, 46(7), 404–410. Gordon, L., Loeb, M. P., & Zhou, L. (2011). The impact of information security breaches: Has there been a downward shift in costs? Journal of Computer Security, 19(1), 33–56. Gould, D. (1996). Using vignettes to collect data for nursing research studies: How valid
+are the findings? Journal of Clinical Nursing, 5(4), 207–212.
+Greenberg, J., & Eskew, D. E. (1993). The role of role playing in organizational research.
+Journal of Management, 19(2), 221–241.
+Grewal, D., Gotlieb, J., & Marmorstein, H. (1994). The moderating effects of message
+framing and source credibility on the price-perceived risk relationship. Journal of
+Consumer Research, 21(1), 145–153.
+Gwebu, K. L., Wang, J., & Wang, L. (2018). The role of corporate reputation and crisis
+response strategies in data breach management. Journal of Management Information
+Systems, 35(2), 683–714.
+Hair, J. F., Anderson, R. E., Tatham, R. L., & Black, W. C. (1995). Multivariate Data
+Analyses: With Readings. Englewood Cliffs, NJ: Prentice Hall.
+Hair, J. F., Jr, Hult, G. T. M., Ringle, C. M., & Sarstedt, M. (2021). A Primer on Partial
+Least Squares Structural Equation Modeling (PLS-SEM). Sage publications.
+Hair, J. F., Ringle, C. M., & Sarstedt, M. (2011). PLS-SEM: Indeed a silver bullet. Journal
+of Marketing Theory and Practice, 19(2), 139–152.
+Hanafizadeh, P., & Khedmatgozar, H. R. (2012). The mediating role of the dimensions of
+the perceived risk in the effect of customers’ awareness on the adoption of Internet
+banking in Iran. Electronic Commerce Research, 12(2), 151–175. Harrington, S. J. (1996). The effect of codes of ethics and personal denial of
+responsibility on computer abuse judgments and intentions. MIS Quarterly, 20(3),
+257–278.
+Hassan, A. M., Kunz, M. B., Pearson, A. W., & Mohamed, F. A. (2006). Conceptualization
+and measurement of perceived risk in online shopping. Marketing Management
+Journal, 16(1), 138–147.
+Herath, T., & Rao, H. R. (2009). Protection motivation and deterrence: a framework for
+security policy compliance in organisations. European Journal of Information Systems,
+18(2), 106–125.
+Hofstede, G., Hofstede, G. J., & Minkov, M. (2005). Cultures and Organizations: Software of
+the Mind (Vol. 2). New York, NY: McGraw-Hill.
+Hong, Y., & Pavlou, P. A. (2014). Product fit uncertainty in online markets: nature,
+effects, and antecedents. Information Systems Research, 25(2), 328–344.
+Hovav, A., & D’Arcy, J. (2003). The impact of denial-of-service attack announcements on
+the market value of firms. Risk Management and Insurance Review, 6(2), 97–121. Hovav, A., & D’Arcy, J. (2004). The impact of virus attack announcements on the market
+value of firms. Information Systems Security, 13(3), 32–40.
+Hughes, R. (1998). Considering the vignette technique and its application to a study of
+drug injecting and HIV risk and safer behaviour. Sociology of Health & Illness, 20(3),
+381–400.
+Hughes, R., & Huby, M. (2002). The application of vignettes in social and nursing
+research. Journal of Advanced Nursing, 37(4), 382–386.
+Ioannou, A., Tussyadiah, I., & Lu, Y. (2020). Privacy concerns and disclosure of biometric
+and behavioral data for travel. International Journal of Information Management, 54,
+Article 102122.
+Jarvenpaa, S. L., & Todd, P. A. (1997). Is there a future for retailing on the Internet. In
+Peterson, R.A.Electronic Marketing and the Consumer, 139–154.
+Jarvenpaa, S. L., & Staples, D. S. (2000). The use of collaborative electronic media for information sharing: an exploratory study of determinants. The Journal of Strategic
+Information Systems, 9(2–3), 129–154.
+Jarvenpaa, S. L., Tractinsky, N., & Saarinen, L. (1999). Consumer trust in an internet
+store. Journal of Computer-Mediated Communication, 5(2). https://doi.org/10.1111/
+j.1083-6101.1999.tb00337
+Johnston, A. C., Warkentin, M., McBride, M., & Carter, L. (2016). Dispositional and
+situational factors: Influences on information security policy violations. European
+Journal of Information Systems, 25(3), 231–251.
+Johnston, A. C., Warkentin, M., & Siponen, M. (2015). An enhanced fear appeal
+rhetorical framework. MIS Quarterly, 39(1), 113–134.
+International Journal of Information Management 65 (2022) 102498
+Ko, M., & Dorantes, C. (2006). The impact of information security breaches on financial performance of the breached firms: an empirical investigation. Journal of Information Technology Management, 17(2), 13–22.
+Kumar, R. L., Park, S., & Subramaniam, C. (2008). Understanding the value of countermeasure portfolios in information systems security. Journal of Management Information Systems, 25(2), 241–280.
+Lee, Y., & Larsen, K. R. (2009). Threat or coping appraisal: determinants of SMB executives’ decision to adopt anti-malware software. European Journal of Information Systems, 18(2), 177–187.
+Li, L., He, W., Xu, L., Ash, I., Anwar, M., & Yuan, X. (2019). Investigating the impact of cybersecurity policy awareness on employees’ cybersecurity behavior. International Journal of Information Management, 45, 13–24.
+Liang, H., Xue, Y., Pinsonneault, A., & Wu, Y. (2019). What users do besides problem- focused coping when facing it security threats: An emotion-focused coping perspective. MIS Quarterly, 43(2), 373–394.
+Littler, D., & Melanthiou, D. (2006). Consumer perceptions of risk and uncertainty and the implications for behaviour towards innovative retail services: the case of internet banking. Journal of Retailing and Consumer Services, 13(6), 431–443.
+Lowry, P. B., D’Arcy, J., Hammer, B., & Moody, G. D. (2016). “Cargo Cult” science in traditional organization and information systems survey research: a case for using nontraditional methods of data collection, including Mechanical Turk and online panels. Journal of Strategic Information Systems, 25(3), 232–240.
+Lowry, P. B., Dinev, T., & Willison, R. (2017). Why security and privacy research lies at the centre of the information systems (IS). artefact: proposing a bold research agenda. European Journal of Information Systems, 26(6), 546–563.
+Mamonov, S., & Koufaris, M. (2020). Fulfilment of higher-order psychological needs through technology: the case of smart thermostats. International Journal of Information Management, 52, Article 102091.
+Menard, P., Bott, G. J., & Crossler, R. E. (2017). User motivations in protecting information security: Protection motivation theory versus self-determination theory. Journal of Management Information Systems, 34(4), 1203–1230.
+Mitchell, V. (1999). Consumer perceived risk: conceptualisations and models. European Journal of Marketing, 33(1/2), 163–195.
+Murphy, K. R., Herr, B. M., Lockhart, M. C., & Maguire, E. (1986). Evaluating the performance of paper people. Journal of Applied Psychology, 71(4), 654.
+Nakayachi, K., & Watabe, M. (2005). Restoring trustworthiness after adverse events: the signaling effects of voluntary “hostage posting” on trust. Organizational Behavior and Human Decision Processes, 97(1), 1–17.
+Nepomuceno, M. V., Laroche, M., & Richard, M. O. (2014). How to reduce perceived risk when buying online: the interactions between intangibility, product knowledge, brand familiarity, privacy and security concerns. Journal of Retailing and Consumer Services, 21(4), 619–629.
+Park, J., Gunn, F., & Han, S. L. (2012). Multidimensional trust building in e-retailing: cross-cultural differences in trust formation and implications for perceived risk. Journal of Retailing and Consumer Services, 19(3), 304–312.
+Parks, R., Xu, H., Chu, C. H., & Lowry, P. B. (2017). Examining the intended and unintended consequences of organisational privacy safeguards. European Journal of Information Systems, 26(1), 37–65.
+Pavlou, P. A. (2003). Consumer acceptance of electronic commerce: integrating trust and risk with the technology acceptance model. International Journal of Electronic Commerce, 7(3), 101–134.
+Pavlou, P. A., Liang, H., & Xue, Y. (2007). Understanding and mitigating uncertainty in online exchange relationships: a principal-agent perspective. MIS Quarterly, 31(1), 105–136.
+Pierce, C. A., Aguinis, H., & Adams, S. K. (2000). Effects of a dissolved workplace romance and rater characteristics on responses to a sexual harassment accusation. Academy of Management Journal, 43(5), 869–880.
+Podsakoff, P. M., & Organ, D. W. (1986). Self-reports in organizational research: problems and prospects. Journal of Management Information Systems, 12, 531–544.
+Preacher, K. J., & Hayes, A. F. (2008). Assessing Mediation in Communication Research (pp. 13–54). London: The Sage Sourcebook of Advanced Data Analysis Methods for Communication Research.
+Poddar, A., Mosteller, J., & Ellen, P. S. (2009). Consumers’ rules of engagement in online information exchanges. Journal of Consumer Affairs, 43(3), 419–448.
+Robert, L. P., Dennis, A. R., & Hung, Y. T. C. (2009). Individual swift trust and knowledge-based trust in face-to-face and virtual team members. Journal of Management Information Systems, 26(2), 241–279.
+Rogers, R. W. (1975). A protection motivation theory of fear appeals and attitude change1. The journal of psychology, 91(1), 93–114.
+Rogers, R. W. (1983). Cognitive and psychological processes in fear appeals and attitude change: a revised theory of protection motivation. Social Psychophysiology: A Sourcebook, 153–176.
+Russ, G. S., Daft, R. L., & Lengel, R. H. (1990). Media selection and managerial characteristics in organizational communications. Management Communication Quarterly, 4(2), 151–175.
+Shaw, J. C., Wild, E., & Colquitt, J. A. (2003). To justify or excuse?: a meta-analytic review of the effects of explanations. Journal of Applied Psychology, 88(3), 444.
+Soomro, Z. A., Shah, M. H., & Ahmed, J. (2016). Information security management needs more holistic approach: A literature review. International Journal of Information Management, 36(2), 215–225.
+Stone, R. N., & Grønhaug, K. (1993). Perceived risk: further considerations for the marketing discipline. European Journal of Marketing, 27(3), 39–50.
+Stacey, P., Taylor, R., Olowosule, O., & Spanaki, K. (2021). Emotional reactions and coping responses of employees to a cyber-attack: A case study. International Journal of Information Management, 58, Article 102298.
+16
+
+C.X. Ou et al.
+Straub, D. W., & Welke, R. J. (1998). Coping with systems risk: Security planning models for management decision making. MIS Quarterly, 22(4), 441–469.
+Struijk, M., Ou, C. X. J., Davison, R. M., & Angelopoulos, S. (2022). Putting the IS back into IS research. Information Systems Journal, 32(3), 469–472.
+Telang, R., & Wattal, S. (2007). An empirical analysis of the impact of software vulnerability announcements on firm stock price. IEEE Transactions on Software Engineering, 33(8), 544–557.
+Vance, A., Anderson, B. B., Kirwan, C. B., & Eargle, D. (2014). Using measures of risk perception to predict information security behavior: Insights from electroencephalography (EEG). Journal of the Association for Information Systems, 15 (10), 679–722.
+Vedadi, A., & Warkentin, M. (2020). Can secure behaviors be contagious? A two-stage investigation of the influence of herd behavior on security decisions. Journal of the Association for Information Systems, 21(2), 428–459.
+Vishwanath, A., Xu, W., & Ngoh, Z. (2018). How people protect their privacy on Facebook: A cost-benefit view. Journal of the Association for Information Science and Technology, 69(5), 700–709.
+International Journal of Information Management 65 (2022) 102498
+Windasari, N. A., Lin, F. R., & Kato-Lin, Y. C. (2021). Continued use of wearable fitness technology: a value co-creation perspective. International Journal of Information Management, 57, Article 102292.
+Yayla, A. A., & Hu, Q. (2011). The impact of information security events on the stock value of firms: the effect of contingency factors. Journal of Information Technology, 26 (1), 60–77.
+Zhao, A. L., Hanmer-Lloyd, S., Ward, P., & Goode, M. M. (2008). Perceived risk and Chinese consumers’ internet banking services adoption. International Journal of Bank Marketing, 26(7), 505–525.
+Zhao, X., Lynch, J. G., & Chen, Q. (2010). Reconsidering Baron and Kenny: myths and truths about mediation analysis. Journal of Consumer Research, 37(2), 197–206.
+Zheng, B. W., Liu, H. F., & Davison, R. M. (2018). Exploring the relationship between corporate reputation and the public’s crisis communication on social media. Public Relations Review, 44(1), 56–64.
+17

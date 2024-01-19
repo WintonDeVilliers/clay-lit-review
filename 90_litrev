@@ -1,0 +1,174 @@
+~ Visit AskYourPDF.com ~
+Literature review Generated From AskYourPDF
+
+# Literature Review: Cyber Threat Intelligence for SMEs
+
+## Introduction
+
+Cyber Threat Intelligence (CTI) has become a critical aspect of organizations' efforts to counter the rise
+of cyber-attacks. With the increasing sophistication and frequency of cyber threats, SMEs (Small and
+Medium-sized Enterprises) also need effective CTI solutions to protect their systems and assets. This
+literature review aims to provide a comprehensive overview of the research findings related to CTI for
+SMEs. The integration and synthesis of these findings will help identify knowledge gaps and suggest
+potential future research directions in this field.
+
+## CTI and Its Importance
+
+CTI plays a crucial role in enabling organizations to anticipate, detect, respond to, and mitigate cyber
+threats effectively. Liao et al. (2016) emphasize the significance of CTI in discovering and analyzing
+open-source cyber threat intelligence, which aids in understanding the tactics, techniques, and procedures
+employed by adversaries [^1^]. Furthermore, Hoglund (2014) highlights that CTI is being considered
+by many organizations to counter the advanced persistent threat (APT) [^2^]. This indicates that SMEs
+should also prioritize CTI to enhance their cybersecurity posture.
+
+## Challenges and Opportunities in CTI
+
+Conti et al. (2018) highlight that the Department of Defense has not developed a secure communication
+network or certification standards for secure smart devices [^3^]. This gap suggests that there is a
+need for research and development of secure communication networks and standards for smart devices
+used by SMEs. Abu et al. (2018) discuss the challenges faced in CTI, including the lack of expertise,
+limited resources, and inadequate information sharing mechanisms [^4^]. Addressing these challenges
+and developing effective information sharing mechanisms can significantly improve CTI capabilities for
+SMEs.
+
+## Log-based Cyber Threat Hunting
+
+Mansfield et al. (2013) emphasize the importance of log-based cyber threat hunting as a solution to counter
+sophisticated attacks [^5^]. This approach enables proactive detection and response to cyber threats by
+analyzing system logs. Integrating log-based threat hunting techniques into CTI solutions can enhance
+SMEs' ability to identify and mitigate potential threats.
+
+## Malware Detection and Cybersecurity
+
+1 / 5
+~ Visit AskYourPDF.com ~
+Sillaber et al. (2016) highlight the increasing importance of malware detection in cybersecurity operations
+[^6^]. Detecting and analyzing malware samples can provide valuable insights into the techniques used
+by adversaries and help develop effective countermeasures. Therefore, SMEs should focus on developing
+robust malware detection capabilities as part of their CTI strategies.
+
+## Fake CTI and Subversion of Defense Systems
+
+Adversaries can exploit fake CTI examples to subvert cyber defense systems [^7^]. Gao et al. (2020)
+discuss the use of fake CTI as training input to deceive cyber defense systems and propose techniques
+for efficient cyber threat hunting using CTI [^8^]. This research finding highlights the need for SMEs
+to validate the authenticity and reliability of CTI sources and develop advanced techniques to detect and
+mitigate fake CTI.
+
+## Information Sharing for Defense Against Cyber Threats
+
+Effective information sharing is crucial for organizations to defend against cyber threats. Jahromi et al.
+(2020) emphasize the importance of sharing CTI as part of multi-layered defense tools [^9^]. Collaborative sharing of CTI among SMEs can enhance their collective ability to detect and respond to cyber
+threats effectively.
+
+## Securing Wearable Devices
+
+With the increasing popularity of wearable devices, securing these devices is vital for protecting user
+data and preventing cyber-attacks. Fransen et al. (2015) highlight the need for cyber security information
+exchange to gain insights into the effects of cyber threats on wearable devices [^10^]. SMEs should
+prioritize the development of security mechanisms and protocols specific to wearable devices to ensure
+their protection against cyber threats.
+
+## Conclusion
+
+In conclusion, this literature review provides a comprehensive overview of the research findings related
+to CTI for SMEs. The integration and synthesis of these findings highlight the importance of CTI, the
+challenges and opportunities in its implementation, the significance of log-based cyber threat hunting,
+the need for robust malware detection, the risks associated with fake CTI, the importance of information
+sharing, and the need for securing wearable devices. The identified knowledge gaps and potential future
+research directions include the development of secure communication networks and standards for smart
+devices, addressing the challenges in CTI implementation for SMEs, improving information sharing
+mechanisms, detecting and mitigating fake CTI, and developing security mechanisms specific to wearable
+devices. Future research in these areas can significantly contribute to enhancing the CTI capabilities of
+SMEs and improving their cybersecurity posture.
+2 / 5
+~ Visit AskYourPDF.com ~
+
+## References
+
+[^1^]:
+    Liao, X., Yuan, K., Wang, X., Li, Z., Xing, L., & Beyah, R. (2016). Acing the IOC
+    Game: Toward Automatic Discovery and Analysis of Open-Source Cyber Threat Intelligence. Proceedings of the 2016 ACM SIGSAC Conference on Computer and Communications Security.
+    http://doi.org/10.1145/2976749.2978315
+
+[^2^]:
+    Hoglund, G. (2014). Advanced Persistent Threat. Engineering & Technology Reference, 1.
+    http://doi.org/10.1049/ETR.2014.0025
+
+[^3^]:
+    Conti, M., Dehghantanha, A., & Dargahi, T. (2018). Cyber Threat Intelligence: Challenges and
+    Opportunities. ArXiv, abs/1808.01162. http://doi.org/10.1007/978-3-319-73951-9_1
+
+[^4^]:
+    Abu, S., Selamat, S. R., Ariffin, A., & Yusof, R. (2018). Cyber Threat Intelligence – Issue
+    and Challenges. Indonesian Journal of Electrical Engineering and Computer Science, 10, 371-379.
+    http://doi.org/10.11591/IJEECS.V10.I1.PP371-379
+
+[^5^]:
+    Mansfield, K., Eveleigh, T., Holzer, T., & Sarkani, S. (2013). Unmanned aerial vehicle smart device
+    ground control station cyber security threat model. 2013 IEEE International Conference on Technologies
+    for Homeland Security (HST), 722-728. http://doi.org/10.1109/THS.2013.6699093
+
+[^6^]:
+    Sillaber, C., Sauerwein, C., Mussmann, A., & Breu, R. (2016). Data Quality Challenges and Future
+    Research Directions in Threat Intelligence Sharing Practice. Proceedings of the 2016 ACM on Workshop
+    on Information Sharing and Collaborative Security. http://doi.org/10.1145/2994539.2994546
+
+[^7^]:
+    Gao, P., Shao, F., Liu, X., Xiao, X., Qin, Z., Xu, F., Mittal, P., Kulkarni, S. R., & Song, D. (2020).
+    Enabling Efficient Cyber Threat Hunting With Cyber Threat Intelligence. 2021 IEEE 37th International
+    Conference on Data Engineering (ICDE), 193-204. http://doi.org/10.1109/ICDE51399.2021.00024
+
+[^8^]:
+    Gao, P., Shao, F., Liu, X., Xiao, X., Qin, Z., Xu, F., Mittal, P., Kulkarni, S. R., & Song, D. (2020).
+    Enabling Efficient Cyber Threat Hunting With Cyber Threat Intelligence. 2021 IEEE 37th International
+    Conference on Data Engineering (ICDE), 193-204. http://doi.org/10.1109/ICDE51399.2021.00024
+
+[^9^]:
+    Jahromi, A. N., Hashemi, S., Dehghantanha, A., Parizi, R., & Choo, K. (2020). An Enhanced
+    Stacked LSTM Method With No Random Initialization for Malware Threat Hunting in Safety and
+    Time-Critical Systems. IEEE Transactions on Emerging Topics in Computational Intelligence, 4, 630-640.
+    http://doi.org/10.1109/TETCI.2019.2910243
+    3 / 5
+    ~ Visit AskYourPDF.com ~
+
+[^10^]:
+    Fransen, F., Smulders, A., & Kerkdijk, R. (2015). Cyber security information exchange to gain
+    insight into the effects of cyber threats and incidents. e & i Elektrotechnik und Informationstechnik, 132,
+    106-112. http://doi.org/10.1007/s00502-015-0289-2.
+
+## References:
+
+1. Conti, M.., Dehghantanha, A.., & Dargahi, T.. (2018). Cyber Threat Intelligence : Challenges and
+   Opportunities. <i>ArXiv</i> , abs/1808.01162 . http://doi.org/10.1007/978-3-319-73951-9_1
+2. Liao, Xiaojing., Yuan, Kan., Wang, Xiaofeng., Li, Zhou., Xing, Luyi., & Beyah, R.. (2016). Acing
+   the IOC Game: Toward Automatic Discovery and Analysis of Open-Source Cyber Threat Intelligence.
+   <i>Proceedings of the 2016 ACM SIGSAC Conference on Computer and Communications Security</i>
+   . http://doi.org/10.1145/2976749.2978315
+3. Hoglund, Greg. (2014). Advanced Persistent Threat. <i>Engineering & Technology Reference</i> , 1
+   . http://doi.org/10.1049/ETR.2014.0025
+4. Abu, Sahrom., Selamat, S. R.., Ariffin, A.., & Yusof, R.. (2018). Cyber Threat Intelligence – Issue and
+   Challenges. <i>Indonesian Journal of Electrical Engineering and Computer Science</i> , 10 , 371-379 .
+   http://doi.org/10.11591/IJEECS.V10.I1.PP371-379
+5. Sillaber, Christian., Sauerwein, Clemens., Mussmann, Andrea., & Breu, R.. (2016). Data Quality Challenges and Future Research Directions in Threat Intelligence Sharing Practice. <i>Proceedings of the 2016 ACM on Workshop on Information Sharing and Collaborative Security</i> .
+   http://doi.org/10.1145/2994539.2994546
+6. Jahromi, Amir Namavar., Hashemi, S.., Dehghantanha, A.., Parizi, R.., & Choo, K.. (2020). An
+   Enhanced Stacked LSTM Method With No Random Initialization for Malware Threat Hunting in Safety
+   and Time-Critical Systems. <i>IEEE Transactions on Emerging Topics in Computational Intelligence</i>
+   , 4 , 630-640 . http://doi.org/10.1109/TETCI.2019.2910243
+7. Ranade, P.., Piplai, Aritran., Mittal, Sudip., Joshi, A.., & Finin, Tim. (2021). Generating Fake Cyber
+   Threat Intelligence Using Transformer-Based Models. <i>2021 International Joint Conference on Neural
+   Networks (IJCNN)</i> , 1-9 . http://doi.org/10.1109/IJCNN52387.2021.9534192
+8. Fransen, F.., Smulders, A.., & Kerkdijk, R.. (2015). Cyber security information exchange to gain insight
+   into the effects of cyber threats and incidents. <i>e & i Elektrotechnik und Informationstechnik</i> , 132
+   , 106-112 . http://doi.org/10.1007/s00502-015-0289-2
+9. Mansfield, Katrina., Eveleigh, T.., Holzer, T.., & Sarkani, S.. (2013). Unmanned aerial vehicle smart
+   device ground control station cyber security threat model. <i>2013 IEEE International Conference on
+   Technologies for Homeland Security (HST)</i> , 722-728 . http://doi.org/10.1109/THS.2013.6699093
+10. Gao, Peng., Shao, Fei., Liu, Xiaoyuan., Xiao, Xusheng., Qin, Zheng., Xu, Fengyuan., Mittal, Prateek.,
+    Kulkarni, Sanjeev R.., & Song, D.. (2020). Enabling Efficient Cyber Threat Hunting With Cyber Threat
+    Intelligence. <i>2021 IEEE 37th International Conference on Data Engineering (ICDE)</i> , 193-204 .
+    http://doi.org/10.1109/ICDE51399.2021.00024
+    4 / 5
+    ~ Visit AskYourPDF.com ~
+    5 / 5

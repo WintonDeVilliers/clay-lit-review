@@ -1,0 +1,1069 @@
+International Journal of Information Management 59 (2021) 102334
+Available online 1 March 2021
+0268-4012/© 2021 Elsevier Ltd. All rights reserved.
+Research Article
+Real-time analytics, incident response process agility and enterprise
+cybersecurity performance: A contingent resource-based analysis
+Ayesha Naseer a
+, Humza Naseer b,d
+, Atif Ahmad b
+, Sean B. Maynard b,
+*, Adil Masood Siddiqui c
+a Department of Computer Software Engineering, National University of Sciences and Technology, Rawalpindi, Pakistan b School of Computing and Information Systems, Faculty of Engineering and IT, University of Melbourne, Melbourne, Australia c Department of Electrical Engineering, National University of Sciences and Technology, Rawalpindi, Pakistan d Centre for Future Enterprise, Queensland University of Technology, Brisbane, Australia
+ARTICLE INFO
+Keywords:
+Real-time analytics
+Incident response
+Agility
+Resource-based view
+Enterprise cybersecurity performance
+ABSTRACT
+Emerging paradigms of attack challenge enterprise cybersecurity with sophisticated custom-built tools, unpredictable patterns of exploitation, and an increasing ability to adapt to cyber defenses. As a result, organizations
+continue to experience incidents and suffer losses. The responsibility to respond to cybersecurity incidents lies
+with the incident response (IR) function. We argue that (1) organizations must develop ‘agility’ in their IR
+process to respond swiftly and efficiently to sophisticated and potent cyber threats, and (2) Real-time analytics
+(RTA) gives organizations a unique opportunity to drive their IR process in an agile manner by detecting
+cybersecurity incidents quickly and responding to them proactively. To better understand how organizations can
+use RTA to enable IR agility, we analyzed in-depth data from twenty expert interviews using a contingent
+resource-based view. The results informed a framework explaining how organizations enable agile characteristics
+(swiftness, flexibility, and innovation) in the IR process using the key features of the RTA capability (complex
+event processing, decision automation, and on-demand and continuous data analysis) to detect and respond to
+cybersecurity incidents as-they-occur which, in turn, improves their overall enterprise cybersecurity
+performance.
+1. Introduction
+From large-scale manufacturers to government agencies and
+healthcare providers, no enterprise remains safe from today’s sophisticated and targeted cyber-attacks. Whether attackers are after trade secrets, intellectual property, classified information, or financial data, the
+constantly evolving cyber threat landscape and the rapid growth of
+network environments are providing more opportunities for attackers
+(Lemay, Calvet, Menet, & Fernandez, 2018; Naseer, Maynard, & Desouza, 2021). It is no longer a matter of if, but when, attackers will break
+into enterprise networks. That is why the ability to swiftly detect and
+respond efficiently to complex, dynamic and evolving cybersecurity
+threats is becoming a major concern for organizations (Ahmad, Desouza,
+Maynard, Naseer, & Baskerville, 2020; Baskerville, Spagnoletti, & Kim,
+2014).
+Organizations employ an incident response (IR) function to detect,
+contain, eradicate, and recover from cybersecurity incidents. The
+overarching IR process involves receiving and reviewing cybersecurity
+events and reports by an IR team that is part of a multi-layered approach
+towards protecting enterprise assets (Ahmad, Maynard, & Shanks, 2015;
+Creasy & Glover, 2013). In this paper, we argue that for the IR process to
+be effective in addressing emerging, sophisticated, and dynamic threats,
+its core activities (detection, containment, eradication, and recovery)
+must be conducted in an agile manner (Grispos, Glisson, & Storer, 2014).
+A key factor in achieving agility is the length of time taken from
+detection to recovery. The longer the time taken to respond to the
+incident, the greater the likely impact on the organization (Ahmad et al.,
+2020; Eastman & Versace, 2015). Therefore, the success of cybersecurity
+IR is dependent on responding to, and thwarting, cybersecurity attacks
+before they cause any damage (i.e., while they are happening).
+One of the major activities in dealing with cybersecurity incidents is
+the collection, storage and analysis of all data related to the incident that
+has happened or is happening (Naseer et al., 2021; Pierazzi, Casolari,
+Colajanni, & Marchetti, 2016). Business analytics (BA) is an
+* Corresponding author.
+E-mail addresses: ayeshanaseer@mcs.edu.pk (A. Naseer), humza.naseer@qut.edu.au (H. Naseer), atif@unimelb.edu.au (A. Ahmad), seanbm@unimelb.edu.au
+(S.B. Maynard), dradil@mcs.edu.pk (A. Masood Siddiqui).
+Contents lists available at ScienceDirect
+International Journal of Information Management
+journal homepage: www.elsevier.com/locate/ijinfomgt
+https://doi.org/10.1016/j.ijinfomgt.2021.102334
+Received 8 November 2019; Received in revised form 18 February 2021; Accepted 19 February 2021 
+International Journal of Information Management 59 (2021) 102334
+2
+organizational capability that helps in collection, storage and analysis of
+business data to generate insights that can help business executives in
+making informed business decisions (Grover, Chiang, Ting-Peng, &
+Dongosng, 2018; Wixom, Yen, & Relich, 2013). Building on a BA
+capability, BA scholars have proposed a real-time analytics capability
+(RTAC), which is a specialized BA capability that helps organizations to
+monitor and analyze business events as they occur (Phillips-Wren,
+Lakshmi, Kulkarni, & Ariyachandra, 2015; Wixom et al., 2013). Therefore, we propose that RTAC provides organizations with a unique opportunity to detect ongoing cybersecurity incidents as they happen and
+respond to them proactively.
+Information Systems (IS) scholars have used the resource-based view
+(RBV) theory to argue that BA capabilities contribute to superior firm
+performance (Seddon, Constantinidis, Tamm, & Dod, 2017; Sharma,
+Mithas, & Kankanhalli, 2014). This argument has been backed by
+empirical evidence demonstrating that BA does indeed contribute to
+superior firm performance (Kevin, Yang, Olson, & Sheu, 2014). Despite
+the significant appeal of the concept, there is a lack of agreement in IS
+literature regarding how BA capability contributes to superior organizational performance (Seddon et al., 2017). Rather than drawing a direct
+relationship between BA capabilities and firm performance, our
+approach is to consider intermediate processes by which an organization
+utilizes its BA capabilities to achieve superior performance (Aydiner,
+Tatoglu, Bayraktar, Zaim, & Delen, 2019; Bronzo et al., 2013).
+To this end, we draw on the RBV argument that internal business
+processes are crucial for linking BA capabilities and firm performance
+(Bronzo et al., 2013). We focus on incident response process agility, a
+feature of the internal IR business process (Grispos et al., 2014; Tallon,
+Queiroz, Coltman, & Sharma, 2019). Agility in the IR process refers to
+how efficiently and swiftly organizations can alter their IR resources and
+processes to detect and respond to complex and new cybersecurity
+threats. Agility is critical to the IR process, since an organization’s
+capability to achieve superior cybersecurity performance depends on its
+response to cybersecurity incidents which are happening or have
+happened within the unpredictable cyber threat environment (Baskerville et al., 2014). Building on the fact that the main drivers of business
+process agility are technology and analytics, organizations can
+strengthen their IR process by leveraging RTAC (Park, El Sawy, & Fiss,
+2017). Even though organizations are paying increasing attention to
+enable IR agility, not enough is known about the role of RTAC in
+enabling IR agility and its impact on enterprise cybersecurity performance. This gap in the literature motivates our study’s research question: How does the use of real-time analytics in the incident response process
+improve enterprise cybersecurity performance?
+To investigate this research question, we conducted twenty in-depth
+expert interviews with cybersecurity analytics professionals discussing
+how RTA is being used in the IR process. Based on the findings from the
+empirical data, we developed a framework that explains the application
+and key features of RTA in the IR process. The details of the framework
+advance and simplify our understanding of how organizations instill
+agile characteristics (innovation, flexibility, and swiftness) in the IR
+process using the key features of the RTA capability (complex event
+processing, decision automation, and on-demand and continuous data
+analysis) to detect and respond to cybersecurity incidents as-they-occur
+which, in turn, improves their overall enterprise cybersecurity
+performance.
+In the following sections, we provide theoretical background on
+RTAC, IR process agility and contingent RBV theory. In the Research
+methodology section, we provide the details of the expert interviews
+data collection and analysis process, and then go on to present the results of the fieldwork. A discussion of our findings follows, in which we
+identify implications for theory and practice and conclude the paper by
+providing limitations of our study and directions for future research.
+2. Theoretical background
+2.1. Real-time analytics – a specialized business analytics capability
+Organizations are increasingly using BA capability to achieve
+competitive advantage (Cao, Duan, & Cadden, 2019; Seddon et al.,
+2017; Wixom et al., 2013). The most vital feature of BA capability is the
+development of reporting and analysis applications (Eckerson, 2012;
+Holsapple, Lee-Post, & Pakath, 2014) that enable the collection, storage,
+and analysis of important business data to generate new business insights. Analytics in particular refers to a systematic computational
+analysis of data or statistics (Davenport & Kudyba, 2016; Wixom et al.,
+2013). From an analytical perspective, BA capability has three main
+types: (1) descriptive analytics, (2) predictive analytics, and (3) prescriptive analytics. Descriptive, predictive, and prescriptive analytics
+are valuable as these provide insights for both historical analysis and
+future planning (Naseer et al., 2021). However, they are affected by
+latency (data latency, analysis latency, and decision latency) as data are
+first saved to an analytical platform before insight generation occurs
+(Phillips-Wren et al., 2015). These applications are therefore not ideal
+for business events that need to be analyzed as they occur (for example,
+situational intelligence, event-based campaigns, and fraud detection).
+To address this problem, BA scholars have proposed the concept of
+real-time analytics which is a specialized BA capability that enables
+monitoring and analysis of business events as they occur (Phillips-Wren
+et al., 2015; Russom, Stodder, & Halper, 2014).
+Although the concept of RTA has existed in BA for more than a
+decade, the understanding of this concept is still limited (Townsend
+et al., 2018). There are two major reasons for this limited understanding.
+First, the keyword “real-time” has many meanings in terms of how
+frequently and quickly data should be fetched and processed to deliver
+business insights. Second, implementation of RTA requires several
+additional capabilities in a typical BA architecture such as real-time
+event processing and interoperability across multiple analytical platforms (Phillips-Wren et al., 2015; Russom et al., 2014). In this study, we
+define real-time analytics capability as the ability to leverage people,
+process and technology towards delivering analytical insights within the
+timeframe that meets the requirements of a particular business process
+(Davenport & Kudyba, 2016; Phillips-Wren et al., 2015). Since the
+concept of RTA is still developing and needs more investigation, this
+study investigates the key features of an RTA capability, its role in
+enabling IR agility and its impact on overall enterprise cybersecurity
+performance.
+2.2. Agility in cybersecurity incident response process
+In the cybersecurity IR process, cybersecurity IR teams aim to detect,
+analyze, eradicate, and recover from potential cybersecurity incidents in
+a timely and cost-effective manner (Cichonski, Millar, Grance, & Scarfone, 2012). This is a critical enterprise process as organizations are not
+always able to prevent breaches and a quick response to an attack can
+reduce the impact on their reputation and competitive advantage
+(Ahmad et al., 2020; Desouza, Ahmad, Naseer, & Sharma, 2020).
+In our review of the cybersecurity IR literature, we found that the
+goal of the cybersecurity strategy in many organizations is to invest in
+sophisticated preventive controls aimed at combating known threats,
+rather than in a dynamic and sophisticated response process to address
+unknown complex and new threats (Baskerville et al., 2014; Eastman &
+Versace, 2015). The result of using a prevention-oriented strategy is that
+organizations are better equipped to deal with cybersecurity threats that
+are predictable and static in nature. However, they are more vulnerable
+to dynamic, unpredictable, and new cybersecurity threats, such as
+zero-day threats (Eastman & Versace, 2015; Naseer, Maynard, Ahmad,
+& Shanks, 2018).
+In a zero-day attack, the perpetrator exploits an unknown vulnerability in the organizational infrastructure such as hardware, software, or
+A. Naseer et al. 
+International Journal of Information Management 59 (2021) 102334
+3
+firmware (Kaur & Singh, 2015). The organization remains oblivious to
+the vulnerability or threat and there are no predefined controls in place
+to prevent the breach. These vulnerabilities are highly sought after by
+cyber criminals, software vendors, and governments who will pay high
+prices for access to the exploit (Desouza et al., 2020). The attackers take
+advantage of the unknown nature of zero-day exploits and use them to
+carry out targeted and highly sophisticated attacks (Ahmad, Webb,
+Desouza, & Broom, 2019).
+It is difficult to defend against such exploits as the data is generally
+only available for analysis after the attack has completed its course
+(Lemay et al., 2018). Therefore, organizations need to a develop a dynamic response capability that can help them detect cyber-attackers’
+activity such as spying, spreading, and stealing inside the perimeter in
+real-time and provide security managers with actionable insights in a
+timely manner to stop the attack and prevent damage. Agility is a key
+characteristic of the dynamic IR capability (Baskerville et al., 2014).
+Although organizations are paying increasing attention to enable IR
+agility, not enough is known about how agility can be realized in IR
+(Baskerville et al., 2014). Therefore, we apply the contingent RBV lens to
+examine how RTAC helps organizations to achieve IR agility.
+2.3. A contingent resource-based view
+The RBV argues that organizations can generate competitive
+advantage by developing bundles of resources (Barney, 1991; Newbert,
+2007). These resources consist of assets and capabilities and may be
+tangible or intangible. Assets include data, people, infrastructure, and
+applications, while capabilities include knowledge and skills of the
+people, routines, and organizational processes that use assets to perform
+business tasks. While many assets are readily available and some are
+commodities, an organization’s superior performance can be mainly
+attributed to the unique, valuable, rare, inimitable and
+non-substitutable capabilities that enable the organization to perform
+activities more efficiently and effectively than its competitors (Wade &
+Hulland, 2004). In the literature, there are many examples of analytical
+resources which include analytical systems and combination of people,
+data-analysis processes, and technologies that enable business executives to make evidence-based decisions (Grover et al., 2018; Seddon
+et al., 2017).
+Although the RBV theory is dominant within the extant literature, it
+has been considered to be essentially static in nature (Ling-yee, 2007).
+This implies that the RBV is inadequate in identifying and explaining the
+conditions in which capabilities are most valuable (Barreto, 2010). The
+notion of contingent conditions is addressed in contingency theory
+which suggests that external and internal conditions will impact the way
+the organization is managed and subsequently may affect the capabilities required to be competitive in changing environments (Aragon-Correa & Sharma, 2003; Barreto, 2010; Naseer, Shanks, Ahmad, &
+Maynard, 2016).
+Organizational capability development and orchestration has contingencies that impact the outcomes or effectiveness of their capabilities’ integration processes. Environmental factors may change the effect
+of capabilities on competitive outcomes (Sirmon, Hitt, Ireland, &
+Gilbert, 2011). Contingency theory argues that organizations must adapt
+to changing environments. Therefore, our research explores the
+contingent cybersecurity threat environment factors on the relationship
+between RTAC and IR agility. Furthermore, the BA and RBV theory
+literature suggests that future research should link BA capabilities to
+competitive advantage (Holsapple et al., 2014; Naseer, Maynard, &
+Ahmad, 2016). Enterprise cybersecurity primarily serves to protect
+competitive advantage (Naseer, Shanks, Ahmad, & Maynard, 2017;
+Stoll, 2015). Therefore, we investigate the process through which RTAC
+affects enterprise cybersecurity performance in an unpredictable threat
+environment.
+The development of contingent RBV is valuable for three reasons: (1)
+for further improvement of the utility of the RBV, (2) for identification of
+the conditions that affect the usefulness of RTA in enabling agile IR, and
+(3) for the assessment of the extent to which various analytical capabilities contribute towards the improvement of enterprise cybersecurity
+performance (Aragon-Correa & Sharma, 2003; David & Noble, 2016).
+However, the contingent perspective on the RBV is underdeveloped in
+cybersecurity management and IR literature. Therefore, in this study we
+use the contingent RBV to explain how RTAC influences enterprise
+cybersecurity performance through the mediating effect of IR agility and
+how environmental factors moderate the effect of RTAC on IR agility.
+3. Research methodology
+The aim of our research is to investigate how organizations improve
+their overall enterprise cybersecurity performance using RTA in their
+cybersecurity IR process. Taking into consideration that the cybersecurity threat environment is highly dynamic, we employed an inductive
+and exploratory research method to be open to new and unexpected
+findings. We followed the guidelines outlined in Eisenhardt and
+Graebner (2007) and Gioia, Corley, and Hamilton (2013). Although we
+used contingent RBV as the sensitizing tool, we inferred our findings and
+claims from, and grounded them in, the empirical data. Consistent with
+the exploratory purpose of our study, we conducted twenty face-to-face
+semi-structured interviews with cybersecurity analytics experts to
+collect qualitative data (Silverman, 2015). The criteria for the selection
+of participants for our study was that the participant needed to have at
+least 5 years of experience in both cybersecurity and business analytics.
+Table 1 provides a summary of the profile of the interviewees.
+We opted for expert interviews as this approach enables our research
+to be grounded in current practice and provides rich and in-depth information regarding the use of analytics in cybersecurity IR and how it
+impacts enterprise cybersecurity performance (Silverman, 2015). The
+interviewees were selected based on their cybersecurity and business
+Table 1
+Interviewee Profiles.
+ID Role Industry Sector Experience
+(Cybersecurity, BA)
+1 Senior Cybersecurity
+Manager
+Finance 12 years, 10 years
+2 Senior Security Architect ICT 13 years, 8 years
+3 Head of Cybersecurity Insurance 20 years, 15 years
+4 Chief Security Architect Big data and
+Cybersecurity
+10 years, 20 years
+5 Head of IT Risk Finance 10 years, 7 years
+6 Enterprise Security
+Architect
+Cross Industry 10 years, 12 years
+7 Director of Cybersecurity
+risk
+Cross industry 11 years, 20 years
+8 Cybersecurity manager Finance 8 years, 10 years
+9 Data Scientist Banking and
+Finance
+6 years, 10 years
+10 Senior Cybersecurity
+Analyst
+Banking and
+Finance
+10 years, 5 years
+11 Cybersecurity Risk Manager ICT 12 years, 19 years
+12 Chief Information Security
+Officer
+Banking and
+Finance
+20 years, 25 years
+13 IT Risk Manager Insurance 8 years, 5 years
+14 General manager of IT risk Banking and
+Finance
+22 years, 25 years
+15 IT Risk partner ICT 21 years, 12 years
+16 Senior Cybersecurity
+Analyst
+Banking and
+Finance
+8 Years, 5 Years
+17 Threat Hunter Banking and
+Finance
+9 Years, 7 Years
+18 Cybersecurity and IT
+architecture Specialist
+ICT 13 years, 8 years
+19 Threat intelligence leader Banking and
+Finance
+15 years, 12 years
+20 General manager of data
+science & analytics
+Cross industry 10 years, 20 years
+A. Naseer et al. 
+International Journal of Information Management 59 (2021) 102334
+4
+analytics experience and their job roles. The interviewees came from 18
+distinct organizations (interviewees 6 and 7 came from the same organization as did interviewees 16 and 17). As we were using expert interviews, we asked the interviewees to reflect on their overall
+experiences rather than those just in their current organization. Additionally, interviewees 6, 7 and 20 came from consulting organizations
+and thus had a rich and diverse set of experiences across multiple industry sectors. Based on the concepts of RTA, cybersecurity IR and
+corresponding literature on RBV theory, an interview guide was developed which contained open-ended questions about BA and IR in general.
+The semi-structured interviews of approximately one-hour were
+audio-recorded and transcribed. We also took detailed notes during the
+interviews.
+We used thematic content analysis to analyze the data. The raw
+qualitative data was systematically transformed into theoretical interpretations using a three-stage process following Gioia et al. (2013).
+Fig. 1 provides an example of the data structure that was developed after
+several iterations of analyzing the data from first order concepts to
+second order themes and then to final aggregate dimensions.
+In the first stage, we did initial coding to develop first-order concepts
+from the data by adhering to participants’ wording and terms. In the
+second stage, we relied on the existing literature and our knowledge to
+analyze and develop concepts that explained the data. We re-analyzed
+the data by acting as knowledgeable agents and using researchercentric concepts. Focusing on the deep structure underlying the firstorder concepts and the similarities and differences between them, we
+reduced the first-order concepts to more abstract second-order themes.
+In the third stage, the data was further analyzed by investigating
+whether it is possible to aggregate the concepts identified in second
+order themes to form higher-level more abstract concepts (aggregate
+dimensions). Although this paper is necessarily presented in a linear
+structure, the entire process of data analysis that we carried out was
+iterative to improve insights and generalizability. Table 2 below provides an example data table supporting emergent concepts and themes.
+Although we have provided only a few examples of raw data in Table 2,
+there are numerous examples for each first order concept and second
+order theme.
+Using the data structure, we revalidated the final concepts back to
+the underlying data and established a clear connection between data,
+the emerging concepts, and the aggregate dimensions. By preserving the
+voices of both informants and researchers, we could rigorously develop
+detailed and accurate definitions of concepts from the data. The integration of insights from empirical data analysis with extant literature
+resulted in a framework (see Fig. 2) that explains how RTA indirectly
+impacts enterprise cybersecurity performance through development of
+agile characteristics of flexibility, swiftness, and innovation in the IR
+process.
+4. Findings
+In this section, we present and provide evidence for the findings that
+emerged during the analysis of the expert interviews.
+4.1. Real-time analytics capability
+In the highly dynamic and constantly changing cybersecurity environment, cybersecurity threats are continuously growing in volume and
+sophistication. Time delays incurred in the detection and response to
+cyber threats are a source of significant expense to organizations. As a
+result, organizations look to adopt analytical practices and methods to
+Fig. 1. Data Structure.
+A. Naseer et al. 
+International Journal of Information Management 59 (2021) 102334
+5
+help them to quickly detect, mitigate, and respond to cybersecurity incidents and thereby improve their cybersecurity resilience. Expert 14
+noted that: “A security incident can be anything and we need to understand
+what it is. It can be an active threat, an attempted intrusion or a successful
+data compromise or breach…real-time analytics helps us to determine what
+type of incident we are facing and then decide whether it requires our
+attention right now and also to determine which assets are impacted by the
+incident”.
+Expert 7 identified complex event processing as a key aspect of RTAC
+as it helps in the analysis of streaming data and explained that: “Using
+real-time analytics, our focus is on continuous monitoring of cybersecurity events. Complex event processing enables us to analyze streaming
+data from sensors, network flow, and meta-data…we look for anomalous
+or suspicious network activities that give us a strong indication that a
+security incident is in progress”. Similarly, Expert 3 highlighted decision
+automation as an essential feature of RTA: “We use real-time analytics to
+reduce our incident response decision times by automating the cybersecurity incident response activities”. Expert 12 explained the critical
+role of RTA in enabling decision automation in IR as follows: “Real-time
+analytics plays a key role in aggregating key data on the fly and identifying the actual threats which helps our security managers to decide
+which are the priority incidents”. Finally, Expert 4 highlighted the ondemand and continuous data analysis feature of RTA and explained it
+as: “On-demand data analysis is a reactive approach as it waits for the
+security analyst to request a query and then delivers the insights,
+whereas continuous data analysis is a proactive approach that continuously alerts security analysts with updates in real-time”.
+4.2. Cybersecurity incident response agility
+Based on the aforementioned features of RTAC, there are three ways
+identified in the data through which RTAC can help organizations
+achieve IR agility: (1) enabling flexibility in IR (2) enabling swiftness in IR,
+and (3) enabling innovation in IR.
+First, RTAC enables flexibility in IR as it provides two types of data
+analysis in real-time (1) Continuous and (2) On-demand. Expert 9 noted
+that the use of continuous and on-demand real-time data analysis helps
+in the detection and analysis of different kinds of cyber-attacks and then
+determines the specific type of attack: “We encounter phishing and spearphishing attacks on a daily basis. Our tier 1 security analysts are using security information and event monitoring tools to continuously monitor our
+communication servers to detect any phishing attacks. Once a tier 1 security
+analyst detects an attack, our tier 2 security analysts use threat intelligence
+tools to further investigate if it is a phishing or spear-phishing attack”. He
+further explained that threat intelligence helps them to understand in
+particular the attacker’s intent: “Intent reflects the desire of the attacker in
+targeting our assets … analyzing this information within a broader business
+context is extremely vital and threat intelligence provides us this information”. Similarly, Expert 10 explained how they are using continuous data
+analysis to rapidly identify alerts that are worthy of deeper investigation
+and then initiating an appropriate response as soon as an incident is
+detected: “Our security monitoring systems run all day and these systems
+continuously monitor cybersecurity events as they occur and generate alerts
+as soon as an incident is detected that needs a response. The response can
+either come from the system itself or from our incident response team”.
+Table 2
+Data supporting emergent concepts and themes.
+Representative Quotes First Order Concepts Second Order
+Themes
+Aggregate
+Dimensions
+“We use both
+continuous and ondemand real-time
+data analytics for
+making IR related
+decisions quickly…
+On-demand waits for
+the analyst to request
+a query and therefore
+is reactive. But in
+contrast, continuous
+analytics is more
+proactive as it
+generates threat
+alerts in real-time as
+the events are
+occurring”. (Expert
+12)
+• Continuous data
+analysis helps
+incident responders
+to monitor, detect
+and analyze
+different kinds of
+cyber threats.
+• On-demand data
+analysis helps to
+identify events that
+require deeper
+investigation.
+Flexibility in
+incident
+response
+Incident
+response
+agility
+“The complex event
+processing engine
+ingests the streaming
+data and analyzes it,
+correlates values and
+blends different
+cybersecurity events
+streams together…
+we also use complex
+event processing to
+analyze cause-andeffect relationships
+among cybersecurity
+events”. (Expert 20)
+• Incident responders
+use complex event
+processing to
+capture, process,
+integrate, and
+analyze streaming
+data in real-time.
+• Probing cause-andeffect relationship
+among cyber events
+is vital for swift
+response.
+Swiftness in
+incident
+response
+“Real-time analytics
+helps in reducing the
+incident response
+time by automating
+and speeding up the
+whole decisionmaking process…
+this allows incident
+responders to focus
+on threat hunting
+and other valuable
+tasks”. (Expert 15)
+• Real-time analytics
+enables innovation
+in incident response
+by building realtime decision automation systems.
+• Decision automation
+enables incident
+responders to focus
+on important tasks
+Innovation in
+incident
+response
+Fig. 2. A framework linking RTAC with enterprise cybersecurity performance.
+A. Naseer et al. 
+International Journal of Information Management 59 (2021) 102334
+6
+Therefore, both the on-demand and continuous data analysis features of
+RTAC provide flexibility in detection and analysis phases of IR and can
+be used in building an effective IR strategy.
+Second, the security data generated by the different systems is mostly
+streaming data that comes from various sources in the form of logs such
+as firewalls, intrusion detection systems, intrusion prevention systems,
+databases, applications, and servers; the challenge for the IR function is
+to integrate and analyze this continuously growing stream of data in
+real-time. Having the ability to swiftly detect dynamic and new cybersecurity threats and respond to them in a timely and proactive manner
+can be a decisive factor in IR success or failure. Expert 5 noted that: “In
+complex event processing systems, cybersecurity events act as a trigger…we
+continuously monitor cybersecurity events by integrating and analyzing
+streaming data and based on the alerts take appropriate actions against
+suspicious events”. Therefore, the complex event processing feature of
+RTAC enables capturing, processing, and integration of streaming data,
+and helps in analyzing cause-and-effect relationships among cybersecurity events in real-time.
+Third, organizations can use RTAC to enable innovation in IR by
+building real-time IR decision automation systems. Expert 11 explained
+that one of the major benefits of using RTA in IR is that it helps to
+generate automatic threat alerts and trigger actions based on the predefined rules: “Everyday there is a new challenge for our security operations center. They need to deal with new threats and the most significant way
+to combat against them is through an automated and intelligent defense
+mechanism that can quickly identify new and existing threats and then has
+the ability to generate alerts and trigger actions to mitigate them”. According
+to Expert 14, the complete real-time automation system requires both
+streaming analytics and rules. In the context of IR, these are the correlation rules that are built in the security information and event management systems (SIEM). Expert 14 noted that: “Our network security
+appliances are constantly generating large amount of security log data that
+goes to the SIEM system. We have built in correlation rules in SIEM to detect
+which sequences of cybersecurity events could be indicative of anomalous
+behavior that may suggest cyber-attack or security weaknesses. So, for
+example, when a sequence of “x” and “y” or “x” and “y” plus “z” events
+happen, then this action should be taken, or this person should be notified”.
+Therefore, the combination of real-time event processing, advanced
+analytical systems, IR strategy, complex algorithms, and predictive
+models provides a data analysis and storage infrastructure that can
+enable innovation in the IR process by delivering real-time automated
+IR.
+4.3. Cyber threat environment
+The complex and dynamic nature of the cyber threat environment
+drives organizations to develop RTAC in their IR process. Expert 4 noted
+that: “Attackers use complex and dynamic ways to break into our networks.
+For example, they will use zero-day attacks, stolen access credentials,
+infected mobile devices, a vulnerable business partner, or other tactics to
+carry out the cyber-attack. Having a real-time analytics capability means that
+we have the ability to detect such attacks in real-time and respond to them in a
+proactive way”. The complexity of the cyber threat environment originates from the interdependencies and interactions between threat
+agents. Expert 1 explained that: “There is a direct correlation between security, complexity and stability…the complex environment like ours that have
+multiple networks, databases and operating systems introduces instability into
+the environment and therefore requires more security controls”.
+In contrast, dynamism in the cyber threat environment refers to the
+unpredictable, dynamic, and evolving nature of cybersecurity threats.
+Expert 7 explained the dynamic nature of cybersecurity threats as:
+“Attackers are continuously creating new tools and methods to leverage new
+weaknesses and also exploit existing vulnerabilities…they are adapting to
+their environment. With attackers looking back and forward to select best-fit
+attack characteristics, how do organizations effectively respond to this is a big
+challenge”. Thus, in dynamic and complex threat environments, RTAC
+becomes more valuable as it enables organizations to detect cybersecurity incidents as they happen and respond to them in an agile manner.
+4.4. Enterprise cybersecurity performance
+Enterprise cybersecurity performance refers to the overall efficiency
+and effectiveness of organizational cybersecurity processes that help in
+the protection of business assets. According to Expert 12: “The main
+benefit of using real-time analytics in incident response process is to proactively detect and respond to cyber threats…so that we can operate and
+innovate our business processes in such a way that make them efficient and
+effective”. The IR agility enabled by RTA allows organizations to proactively address cybersecurity incidents that have happened or are
+happening in an unpredictable threat environment. Expert 12 noted
+that: “The practice of incident response in an agile way ensures that we are
+prepared to face cybersecurity incidents confidently and effectively and
+manage both existing and emerging threats quickly”. Expert 3 explained the
+role of RTAC in improving enterprise cybersecurity performance as
+follows: “If we don’t invest in real-time analytics, we cannot improve our
+security [performance] and we are at a competitive disadvantage. I think that
+our peer organizations will all be making similar investments in such technology to improve their security performance and if we don’t, then we are at
+competitive disadvantage”.
+5. A framework relating real-time analytics capability to
+enterprise cybersecurity performance
+Up to this point, we have described how real-time analytics enables
+agility in the cybersecurity IR process and thereby its impact on enterprise cybersecurity performance. Combining these insights with existing
+literature informs a framework linking RTAC with enterprise cybersecurity performance (see Fig. 2). We use the ‘process view’ of the RBV and
+propose that RTAC has an indirect impact on enterprise cybersecurity
+performance and that IR agility serves as a mediator of this relationship
+(Pang, Lee, & Delone, 2014). In addition, cyber threat environment
+complexity and dynamism moderate the effect of RTAC on IR agility. In
+particular, organizations use complex event processing, decision automation, and continuous and on-demand data analysis features of RTAC to
+enable agile characteristics of swiftness, flexibility, and innovation in the
+IR process. This, in turn, helps them to respond to dynamic and complex
+cybersecurity threats quickly and proactively and thereby improves the
+efficiency and effectiveness of their overall enterprise cybersecurity
+performance. We now develop this framework in more depth.
+Scholars have proposed a combination of prevention, detection and
+response approaches to deal with both predictable and unpredictable
+cybersecurity threats (Ahmad et al., 2020; Baskerville et al., 2014).
+Ultimately, whatever response strategy is chosen by cybersecurity executives, it must be agile and timely so that it can influence the outcome
+(Tallon et al., 2019). Our findings suggest that one way to achieve agile
+and rapid IR is by utilizing the RTAC in the IR process. The complex
+event processing, automated decision-making and on-demand and
+continuous data analysis features of RTAC enable capturing and processing of streaming data and help to analyze cause-and-effect relationships among cybersecurity events in real-time, thereby enabling
+agility in IR. Cybersecurity events cannot always be predicted (Eastman
+& Versace, 2015; Naseer et al., 2021). In complex event processing,
+events function as a trigger, therefore IR teams can proactively respond
+to cybersecurity events as they occur by taking effective actions against
+suspicious events.
+RTA, as an innovative technology, requires architectural changes in a
+traditional BA architecture (Phillips-Wren et al., 2015; Russom et al.,
+2014). Our findings provide empirical evidence for this observation and
+suggest that the implementation of RTA in the IR process requires
+additional capabilities (such as in-memory analytics, data virtualization
+and interoperability across multiple analytical platforms) than provided
+in a typical security analytics architecture. For example, when data
+A. Naseer et al. 
+International Journal of Information Management 59 (2021) 102334
+7
+needs to travel across multiple analytical platforms in real-time, each
+platform and tool requires some type of real-time capability (e.g.,
+streaming input and data analysis, complex event processing, and
+business rules). As such, the findings from this study correspond closely
+to use of real-time business intelligence at Continental Airlines (Watson,
+Wixom, Hoffer, Anderson-Lehman, & Reynolds, 2006). In summary, our
+findings expand the current conceptualization of RTAC and extend the
+prior literature by describing its specific features. Accordingly, we
+formulate the following proposition:
+Proposition 1. Complex event processing, decision automation, and
+on demand and continuous data analysis are critical elements of realtime analytics capability.
+Recent research observes that firms that have built process-oriented
+analytical capabilities are able to improve their business process agility
+so that they are better able to detect changes, threats and opportunities
+in the environment which, in turn, help them to exploit opportunities for
+innovation and competitive action (Chen et al., 2014; Queiroz, Tallon,
+Sharma, & Coltman, 2018; Van Oosterhout, Waarts, & Van Hillegersberg, 2006). Further, business process agility is an important
+mechanism through which firms can outperform competitors by
+responding more effectively to changing business environments (Tallon
+& Pinsonneault, 2011; Tallon, 2008). Our study supports these findings
+and suggests that RTAC enables organizations to adopt to changes in
+their cyber threat environment and become agile in responding to
+cybersecurity incidents. Improving agility through RTAC instills the
+characteristics of speed, flexibility, and innovation in the cybersecurity
+incident response process. It provides organizations with the ability to
+respond quickly to dynamic and emerging cyber threats.
+With improvement in cybersecurity IR agility, organizations can
+rapidly and flexibly redesign existing processes or create new ones to
+cope with the dynamic threat environment (Lu & Ramamurthy, 2011;
+Salvato & Vassolo, 2018; Sambamurthy, Bharadwaj, & Grover, 2003).
+This kind of agility can be demonstrated by swiftness in sensing relevant
+events, interpreting what is happening and assessing the impact and
+consequences for the organization, exploring options, and making decisions, and implementing appropriate responses. We define IR agility as
+the extent to which an organization can add and/or reconfigure its IR
+resources and processes to detect and respond to unpredictable, unknown and new cybersecurity threats (Naseer, 2018; Tallon et al.,
+2019). Although most of the RBV literature investigates BA capabilities’
+role in achieving competitive advantage and/or creating value, our
+study suggests that RTA-enabled IR agility is crucial for sustaining or
+protecting competitive advantage. To summarize, given the increasing
+need to address ongoing cybersecurity threats, the extent to which an
+organization can swiftly alter or modify its IR resources and processes
+appears to be heavily dependent upon its ability to implement and
+leverage RTAC. Thus, we propose that:
+Proposition 2. Real-time analytics capability enables organizations to
+execute agile incident response by instilling the agile characteristics of
+swiftness, flexibility, and innovation in their cybersecurity incident
+response process and thereby respond to the complex and dynamic cyber
+threat environment proactively.
+Cybersecurity IR agility is beneficial for organizations as it enables
+them to adapt and align their activities in a manner that helps to
+improve the efficiency and effectiveness of their enterprise cybersecurity
+performance. Enterprise cybersecurity relates to all the risks and threats
+that can affect the core business of an organization (Naseer et al., 2017).
+These include failed software processes, human error and both internal
+and external cybersecurity threats (David & Noble, 2016). An organization’s level of IR agility indicates the manner and swiftness with which
+it can adapt and respond to changing cyber threat environment. Our
+findings suggest that an organization with a high level of IR agility can
+respond to changing cyber threat environment swiftly and innovatively.
+In addition, both IR process effectiveness and efficiency have been
+individually linked to enhance the enterprise cybersecurity performance
+by either reducing the cost of prevention, mitigation, and remediation,
+or by reducing the cost of losses (Harrer & Wald, 2016). Based on RBV
+theory, IR agility represents a valuable capability that can contribute to
+superior enterprise cybersecurity performance. Hence, we propose that:
+Proposition 3. Increasing agility in the incident response process enhances the efficiency and effectiveness of overall enterprise cybersecurity performance.
+Building on the RBV, BA capabilities can influence firm performance
+through the mediating role of other resources or capabilities (Aydiner
+et al., 2019; Bronzo et al., 2013; Pang et al., 2014). Our findings suggest
+that RTAC impacts the enterprise cybersecurity performance through
+the mediating role of IR process agility. IR agility is dependent on the
+organization’s ability to implement and leverage RTAC. IR agility indicates the manner and swiftness with which an organization responds
+to dynamic and complex cyber threats. A mature RTAC may enable
+organizations to strengthen their IR process in a way that infuses
+swiftness, flexibility and innovation (Chen et al., 2014; Tallon et al.,
+2019). The improvement in IR agility gives organizations a unique opportunity to swiftly detect cybersecurity incidents and respond to them
+in a proactive manner. Without IR agility, organizations are less likely to
+achieve superior enterprise cybersecurity performance and sustain their
+competitive advantage. Therefore, we propose that RTAC has an indirect
+impact on enterprise cybersecurity performance and that IR agility
+serves as a mediator of this relationship. Accordingly, the following
+proposition is derived from these arguments:
+Proposition 4. Incident response agility mediates the relationship
+between RTAC and enterprise cybersecurity performance.
+Kraaijenbrink, Spender, Groen, Spender, and Groen (2010, p.365)
+argue in their review and assessment of RBV that “the moment we try to
+explain or predict the firm’s actual performance… the RBV turns out to
+be incomplete because it ignores the material contingencies of the firm’s
+situation”. Our research responds to this challenge by proposing cyber
+threat environment complexity and dynamism as the contingent factors
+that affect the relationship between RTAC and IR agility.
+Complexity in the cyber threat environment refers to the heterogeneity and diverse range of threats that can expose enterprise assets
+(Bojanc & Jerman-Blaˇziˇc, 2008; Eastman & Versace, 2015). Any event
+that can have an undesirable impact on enterprise cybersecurity is a
+threat. Various types of enterprise assets and media within which these
+assets reside results in an increased number of targets for attack (Naseer
+et al., 2021; Pierazzi et al., 2016). Furthermore, the distribution of assets
+across different targets, such as data, software, network, physical components and applications increases the number of threat vectors and
+thereby complexity (Creasy & Glover, 2013; Eastman & Versace, 2015).
+Our findings suggest that threat complexity creates greater uncertainty
+and thus an additional opportunity for RTAC to enable IR agility. Organizations with a smaller number of targets and vectors for attack have
+less uncertainty and thereby a lower threat complexity. In contrast, organizations with a larger number of targets and vectors for attack have
+greater uncertainty. In such situations, organizations that have superior
+RTAC can better deal with the complexity induced by the large number
+of targets and attack vectors. To summarize, in a complex threat environment, organizations with superior RTAC are better equipped to deal
+with threats in a proactive manner and are therefore more likely to
+achieve IR agility. Based on this rationale, we propose that:
+Proposition 5a. Cyber threat environment complexity positively
+moderates the impact of real-time analytics capability on incident
+response agility.
+Dynamism in the cyber threat environment is explained by the unpredictable and evolving nature of cybersecurity threats (Baskerville
+et al., 2014; Naseer et al., 2021). Our findings suggest that in a dynamic
+or highly unpredictable threat landscape, IR teams experience high
+A. Naseer et al. 
+International Journal of Information Management 59 (2021) 102334
+8
+degrees of uncertainty and have a greater need for both real-time information and the capacity to process it. Thus, in dynamic cyber threat
+environments, RTAC becomes more valuable as it enables organizations
+to detect cybersecurity incidents as they happen and respond to them in
+a proactive way. Furthermore, when organizations are exposed to dynamic and evolving threats such as zero-day attacks, they need to
+discover these new threats and new forms of attacks before they can
+cause any damage (Ahmad et al., 2021; Grispos et al., 2014). To achieve
+this, organizations require frequent reconfiguration of their IR process,
+creation of new IR plans, and the ability to constantly look out for
+innovative approaches to respond. Therefore, greater threat dynamism
+is expected to create highly unpredictable and evolving threats, thereby
+demanding superior RTAC to detect and respond to them. Accordingly,
+we propose the following:
+Proposition 5b. Cyber threat environment dynamism positively
+moderates the impact of real-time analytics capability on incident
+response agility.
+6. Discussion
+In this paper, we explain how organizations can improve their enterprise cybersecurity performance by using RTAC to enable an agile
+response to sophisticated, unknown, and dynamic threats. We utilize the
+contingent RBV theory to explain how RTAC indirectly impacts enterprise cybersecurity performance through the mediating role of IR agility
+and how this effect is dependent on cyber threat environment
+complexity and dynamism. We discuss the theoretical and practical
+implications of our research results in the following subsections.
+6.1. Theoretical contributions and implications
+Our study advances current knowledge by developing a conceptual
+understanding underpinned by relevant theories and empirical evidence. First, we identify the salient features of a RTAC and explain how
+these features play a critical role in enabling agility in the cybersecurity
+IR process. In this way, we explain how analytics-enabled IR agility may
+help organizations to balance their efforts across the reactive and proactive approaches for cybersecurity IR. Second, following the work of
+Baskerville et al. (2014) highlighting the need for enabling agility in IR,
+we examine how the RTAC helps organizations retool and reconfigure
+their IR resources and processes to detect and respond to unpredictable,
+unknown, and new cybersecurity threats in an agile manner. Specifically, we introduce the RTAC and describe its usage to explain how
+organizations may enable agility in IR and thereby improve their overall
+enterprise cybersecurity performance. Specifically, our study addresses
+the research question (How does the use of real-time analytics in the incident response process improve enterprise cybersecurity performance?) by
+developing a framework (see Fig. 2) that links RTAC and IR agility with
+enterprise cybersecurity performance using a contingent
+resource-based-view.
+Through the framework, we explain how organizations use complex
+event processing, decision automation, and continuous and on-demand data
+analysis features of RTAC to enable the agile characteristics of swiftness,
+flexibility, and innovation in the IR process. This, in turn, enables organizations to respond to dynamic and complex cybersecurity threats
+quickly and proactively and enhances their overall enterprise cybersecurity performance by improving their efficiency and effectiveness. Our
+research also contributes to the BA and cybersecurity IR literature by
+providing detailed definitions of concepts and propositions in the
+framework, grounded in the contingent RBV. We provide empirical
+evidence to support the key idea that to respond to dynamic and unknown cyber threats in an agile manner, organizations need to increase
+their capabilities in real-time collection, integration, and analysis of
+cybersecurity data.
+Agility in the IR process is demonstrated by swiftness in anticipating
+and detecting cybersecurity threats, understanding the motivation and
+consequences behind cybersecurity attacks, exploring options, and
+making informed decisions and then implementing appropriate responses. Our study explains how RTAC helps organizations to redesign
+their existing IR process and to prepare for quick and effective reactions
+for new types of unpredictable and unknown cybersecurity threats. In
+this aspect, IR agility is a rare capability. By their very nature, every new
+cyber-attack is inherently unpredictable. The practice of IR in an agile
+way becomes rooted in organizational routines, thereby making it hard
+for cyber-attackers to fully understand how a new attack will be
+managed by the IR team. As such, the diversity of responses by the IR
+team is varied, thereby making IR agility a valuable, inimitable, and
+non-substitutable capability for the organization. IR agility is beneficial
+for organizations as it allows them to proactively manage cybersecurity
+incidents that have, or are, happening in a dynamic cyber threat environment, thereby helping them to achieve superior enterprise cybersecurity performance.
+6.2. Implications for practice
+Our contributions to cybersecurity IR practice are aimed at three
+groups of stakeholders.
+First, the implications of this study for cybersecurity managers
+include the nuanced view of the role of RTA in cybersecurity IR process.
+Rather than leveraging RTAC only at an operational level to continuously monitor the cyber threat environment, cybersecurity managers
+need to recognize the more innovative role of RTA at the strategic level
+in enabling IR agility and in improving enterprise cybersecurity performance. Our framework suggests that RTAC plays a fundamental,
+albeit indirect, role in improving the efficiency and effectiveness of
+overall enterprise cybersecurity performance. This highlights the
+importance of investing in the development of a mature RTAC as it
+enables agility in the IR process. Explicit consideration of the range of
+agile features that are enabled by RTAC in the IR process will help
+cybersecurity management appropriately evaluate technology investments in this area. Moreover, our results indicate that RTAC also
+enables innovation in IR through the development of real-time decision
+automation systems. Organizations that have real-time decision automation systems in IR detect and respond to cybersecurity threats and
+attacks more swiftly than those running entirely on manual processes in
+their IR. Enabling real-time decision automation in IR will help cybersecurity managers yield better performances out of their IR teams as
+they can devote their time to work on more important and less repetitive
+cybersecurity tasks.
+Second, our findings show that RTAC minimizes reactivity in the IR
+process and helps incident response teams take a more proactive
+approach to mitigate vulnerabilities and defend against cyber threats.
+RTAC enables incident responders to swiftly detect the cyber-attacks as
+they happen and respond to them in an innovative and agile manner.
+The use of RTAC enables IR teams to strengthen their IR process in a way
+that infuses swiftness, flexibility, and innovation in their IR process.
+These agile features are instrumental in effective mitigation of both
+predictable and unpredictable cybersecurity threats. Furthermore, our
+results indicate that IR teams wishing to develop complex event processing in their IR process need several additional components in their
+typical security analytics architecture. Traditional security analytics
+architectures first save the data and then process it for analytics. The
+complex event processing feature of RTAC requires IR teams to add
+platforms and technologies that can query data before it is stored in a
+database or, in some cases, without data ever being stored. In complex
+event processing, cybersecurity events are matched against defined
+patterns and insights are generated to explain what is happening in the
+cyber threat environment. This makes complex event processing a proactive capability that enables IR teams to monitor and analyze cybersecurity events in real-time.
+Third, vendors who develop RTA and cybersecurity solutions should
+A. Naseer et al. 
+International Journal of Information Management 59 (2021) 102334
+9
+recognize the potentially far-reaching transformational role that their
+solutions may provide to organizations. Creating cybersecurity solutions
+that can quickly integrate threat intelligence data, automate investigations and forensic analysis, apply complex algorithms and visual
+analytics to discover the potential threats will help their clients improve
+agility in IR processes and execute innovative IR strategies that can
+better deal with the dynamic cyber threat environment. The far-reaching
+potential of the capabilities enabled by RTA, however, will also increase
+the demand for data integration, automation, visualization, and analytics. Therefore, vendors who develop RTA and cybersecurity solutions
+need to carefully consider these requirements when developing their
+solutions.
+6.3. Limitations and avenues for future research
+The context of our study raises questions about the generalizability
+of the proposed framework and requires future work to further develop
+it. The generalization of our findings should be conducted with caution
+as they do not provide an in-depth organizational context. Future
+research is needed to further refine the framework and one-way of doing
+this is by conducting multiple case studies. These case studies with
+specific organizational context will add more depth to the framework by
+providing rich insights on (1) factors that facilitate or hinder the
+development of agile characteristics in IR using RTAC, (2) the skills and
+knowledge required by the cybersecurity teams to utilize RTAC in IR,
+and (3) conditions which affect the utility of RTAC in cybersecurity IR.
+Finally, our research provides a fertile foundation for large-scale
+quantitative studies that can investigate specific factors that help organizations improve IR agility using RTAC and its impact on overall enterprise cybersecurity performance. Linking BA capabilities and
+organizational performance is a subject of ongoing research. Further
+research is also needed to identify key differences between RTA and
+other disruptive technologies to gain insights into how RTA may offer
+distinct capabilities. As the adoption of RTA facilitates a paradigm shift
+in the decision-making process, more detailed studies are required to
+investigate its potential as well as the challenges it poses to organizations, both large and small.
+7. Conclusion
+The present study contributes to a better understanding of how organizations use RTA in the IR process to improve their enterprise
+cybersecurity performance. Employing the contingent RBV as a lens, we
+conduced expert interviews with cybersecurity professionals and the
+analysis of data informed a framework that explains how RTAC indirectly impacts enterprise cybersecurity performance through the mediating role of IR agility. Moreover, we also identify cyber threat
+environment complexity and dynamism as the contingent factors that
+affect the relationship between RTAC and IR agility. We propose RTAC
+as a specialized BA capability that enables integration, monitoring and
+analysis of cybersecurity events as they occur. In particular, our research
+introduces the concept of IR agility to cybersecurity research. IR agility
+can be enabled by RTAC, a link poorly understood to date.
+Declaration of Competing Interest
+The authors declare that they have no known competing financial
+interests or personal relationships that could have appeared to influence
+the work reported in this paper.
+CRediT authorship contribution statement
+Ayesha Naseer: Methodology, Data curation, Project administration, Writing - review & editing. Humza Naseer: Conceptualization,
+Methodology, Investigation, Formal analysis, Writing - original draft,
+Writing - review & editing. Atif Ahmad: Writing - review & editing.
+Sean B. Maynard: Writing - review & editing. Adil Masood Siddiqui:
+Writing - review & editing.
+Acknowledgements
+We thank the Editor-in-chief and anonymous reviewers who helped
+us through the review journey to develop a high quality paper. In
+addition, we acknowledge that this research was supported by the
+University of Melbourne International Research Scholarship.
+References
+Ahmad, A., Desouza, K. C., Maynard, S. B., Naseer, H., & Baskerville, R. L. (2020). How
+integration of cyber security management and incident response enables
+organizational learning. Journal of the Association for Information Science and
+Technology, 71(8), 939–953.
+Ahmad, A., Maynard, S. B., Desouza, K. C., Kotsias, J., Whitty, M. T., & Baskerville, R. L.
+(2021). How can organizations develop situation awareness for incident response : A
+case study of management practice. Computers & Security, 101, 102–122.
+Ahmad, A., Maynard, S. B., & Shanks, G. (2015). A case analysis of information systems
+and security incident responses. International Journal of Information Management, 35
+(6), 717–723.
+Ahmad, A., Webb, J., Desouza, K., & Broom, J. (2019). Strategically-motivated advanced
+persistent threat: Definition, process, tactics and a disinformation model of
+counterattack. Computers & Security, 86, 402–418.
+Aragon-Correa, J. A., & Sharma, S. (2003). A contingent resource-based view of proactive
+corporate environmental strategy. The Academy of Management Review, 28(1), 71–88.
+Aydiner, A. S., Tatoglu, E., Bayraktar, E., Zaim, S., & Delen, D. (2019). Business analytics
+and firm performance: The mediating role of business process performance. Journal
+of Business Research, 96(October 2018), 228–237.
+Barney, J. (1991). Firm resources and sustained competitive advantage. Journal of
+Management, 17(1), 99–120.
+Barreto, I. I. (2010). Dynamic capabilities: A review of past research and an agenda for
+the future. Journal of Management, 36(1), 256–280.
+Baskerville, R., Spagnoletti, P., & Kim, J. (2014). Incident-centered information security:
+Managing a strategic balance between prevention and response. Information and
+Management, 51(1), 138–151.
+Bojanc, R., & Jerman-Blaˇziˇc, B. (2008). An economic modelling approach to information
+security risk management. International Journal of Information Management, 28(5),
+413–422.
+Bronzo, M., de Resende, P. T. V., de Oliveira, M. P. V., McCormack, K. P., de Sousa, P. R.,
+& Ferreira, R. L. (2013). Improving performance aligning business analytics with
+process orientation. International Journal of Information Management, 33(2), 300–307.
+Cao, G., Duan, Y., & Cadden, T. (2019). The link between information processing
+capability and competitive advantage mediated through decision-making
+effectiveness. International Journal of Information Management, 44(September 2018),
+121–131.
+Chen, Y., Wang, Y., Nevo, S., Jin, J., Wang, L., & Chow, W. S. (2014). IT capability and
+organizational performance: The roles of business process agility and environmental
+factors. European Journal of Information Systems, 23(3), 326–342.
+Cichonski, P., Millar, T., Grance, T., & Scarfone, K. (2012). Computer security incident
+handling guide: Recommendations of the national institute of standards and technology,
+800-61. Revision 2. NIST Special Publication, 800–61.
+Creasy, J., & Glover, I. (2013). Cyber security incident response guide. CREST.
+Davenport, T., & Kudyba, S. (2016). Designing and developing analytics-based data
+products. MIT Sloan Management Review, 58(1), 83–89.
+David, W., & Noble, T. (2016). Planning for the known, unkown and impossibleresponsible risk managment to maximize organizational performance. Journal of
+Business Behavioral Sciences, 28(1), 40–48.
+Desouza, K. C., Ahmad, A., Naseer, H., & Sharma, M. (2020). Weaponizing information
+systems for political disruption : The Actor, Lever, Effects, and Response Taxonomy
+(ALERT). Computers & Security, 88, 1–14.
+Eastman, R., & Versace, M. (2015). Big data and predictive analytics : on the
+cybersecurity front line. IDC white paper. February.
+Eckerson, W. (2012). The secrets of analytical leaders: Insights from information insiders.
+Technics Publications.
+Eisenhardt, K. M., & Graebner, M. E. (2007). Theory building from cases: Opportunities
+and challenges. The Academy of Management Journal, 50(1), 25–32.
+Gioia, D. A., Corley, K. G., & Hamilton, A. L. (2013). Seeking Qualitative Rigor in
+Inductive Research: Notes on the Gioia Methodology. Organizational Research
+Methods, 16(1), 15–31.
+Grispos, G., Glisson, W. B., & Storer, T. (2014). Rethinking security incident response:
+The integration of agile principles. 20th Americas conference on information systems,
+1–9.
+Grover, V., Chiang, R. L., Ting-Peng, L., & Dongosng, Z. (2018). Creating strategic
+business value from big data analytics. Journal of Management Information Systems,
+35(2), 388–423.
+Harrer, J., & Wald, A. (2016). Levers of enterprise security control: A study on the use,
+measurement and value contribution. Journal of Management Control, 27, 7–32.
+Holsapple, C., Lee-Post, A., & Pakath, R. (2014). A unified foundation for business
+analytics. Decision Support Systems, 64, 130–141.
+A. Naseer et al. 
+International Journal of Information Management 59 (2021) 102334
+10
+Kaur, R., & Singh, M. (2015). A Hybrid real-time zero-day attack detection and analysis
+system. I. Journal of Computer Network and Information Security, 9(August), 19–31.
+Kevin, B., Yang, C., Olson, D., & Sheu, C. (2014). The impact of advanced analytics and
+data accuracy on operational performance: A contingent resource based theory
+(RBT) perspective. Decision Support Systems, 59, 119–126.
+Kraaijenbrink, J., Spender, J., Groen, A., Spender, J., & Groen, A. J. (2010). The resourcebased view: A review and assessment of its critiques. Journal of Management, 36(1),
+349–372.
+Lemay, A., Calvet, J., Menet, F., & Fernandez, J. M. (2018). Survey of publicly available
+reports on advanced persistent threat actors. Computers and Security, 72, 26–59.
+Ling-yee, L. (2007). Marketing resources and performance of exhibitor firms in trade
+shows: A contingent resource perspective. Industrial Marketing Management, 36(3),
+360–370.
+Lu, Y., & Ramamurthy, K. R. (2011). Understanding the Link Between Information
+Technology Capability and Organizational Agility: an Empirical Examination. MIS
+Quarterly, 35(4), 931–954.
+Naseer, H. (2018). A Framework of dynamic cybersecurity incident response to improve
+incident response agility (Doctoral dissertation). The University of Melbourne. http:
+//hdl.handle.net/11343/221356.
+Naseer, H., Maynard, S. B., Ahmad, A., & Shanks, G. (2018). Cybersecurity risk
+management using analytics: A dynamic capabilities approach. Thirty ninth
+international conference on information systems, 1–9.
+Naseer, H., Maynard, S. B., & Desouza, K. C. (2021). Demystifying analytical information
+processing capability: The case of cybersecurity incident response. Decision Support
+Systems, 143, 1–11, 113476.
+Naseer, H., Shanks, G., Ahmad, A., & Maynard, S. (2017). Towards an analytics-driven
+information security risk management: A contingent resource based perspective.
+25th European conference on information systems, 1–12.
+Naseer, H., Maynard, S., & Ahmad, A. (2016). Business analytics in information security
+risk management : the contingent effect on security performance. 24th European
+conference on information systems, 1–12.
+Naseer, H., Shanks, G., Ahmad, A., & Maynard, S. (2016). Enhancing information
+security risk management with security analytics: A dynamic capabilities
+perspective. Australasian conference on information systems, 1–11.
+Newbert, S. (2007). Empirical research on the resource-based view of the firm: An
+assessment and suggestions for future research. Strategic Management Journal, 28(2),
+121–146.
+Pang, M. S., Lee, G., & Delone, W. H. (2014). In public sector organisations: A publicvalue management perspective. Journal of Information Technology, 29(3), 187–205.
+Park, Y., El Sawy, O. A., & Fiss, P. (2017). The role of business intelligence and
+communication technologies in organizational agility. Journal of the Association for
+Information Systems, 18(9), 648–686.
+Phillips-Wren, G., Lakshmi, S. I., Kulkarni, U., & Ariyachandra, T. (2015). Business
+analytics in the context of big data: A roadmap for research. Communications of the
+AIS, 37(1), 448–472.
+Pierazzi, F., Casolari, S., Colajanni, M., & Marchetti, M. (2016). Exploratory security
+analytics for anomaly detection. Computers & Security, 56, 28–49.
+Queiroz, M., Tallon, P. P., Sharma, R., & Coltman, T. (2018). The role of IT application
+orchestration capability in improving agility and performance. The Journal of
+Strategic Information Systems, 27(1), 4–21.
+Russom, P., Stodder, D., & Halper, F. (2014). Real-time data, BI, and analytics. TDWI best
+practices report, fourth quarter (p. 4).
+Salvato, C., & Vassolo, R. (2018). The sources of dynamism in dynamic capabilities.
+Strategic Management Journal, 39(6), 1728–1752.
+Sambamurthy, V., Bharadwaj, A., & Grover, V. (2003). Shaping agility through digital
+options: Reconceptualizing the role of information technology in contemporary
+firms. MIS Quaterly, 27(2), 237–263.
+Seddon, P. B., Constantinidis, D., Tamm, T., & Dod, H. (2017). How does business
+analytics contribute to business value? Information Systems Journal, 27(3), 237–269.
+Sharma, R., Mithas, S., & Kankanhalli, A. (2014). Transforming decision-making
+processes: a research agenda for understanding the impact of business analytics on
+organisations. European Journal of Information Systems, 23(4), 433–441.
+Silverman, D. (2015). Interpreting qualitative data (5th ed.). London, UK: Sage.
+Sirmon, D. G., Hitt, M. A., Ireland, R. D., & Gilbert, B. A. (2011). Resource orchestration
+to create competitive advantage: Breadth, depth, and life cycle effects. Journal of
+Management, 37(5), 1390–1412.
+Stoll, M. (2015). From information security management to enterprise risk management.
+Innovations and Advances in Computing, Informatics, Systems Sciences, Networking and
+Engineering, 13(1), 9–16.
+Tallon, P. P. (2008). Inside the adaptive enterprise: An information technology
+capabilities perspective on business process agility. Information Technology and
+Management, 9(1), 21–36.
+Tallon, P. P., & Pinsonneault, A. (2011). Competing perspectives on the link between
+strategic information technology alignment and organizational agility: insigths from
+a mediation model. MIS Quarterly, 35(2), 463–486.
+Tallon, P. P., Queiroz, M., Coltman, T., & Sharma, R. (2019). Information technology and
+the search for organizational agility : A systematic review with future research
+possibilities. The Journal of Strategic Information Systems, 28(2), 218–237.
+Townsend, M., Le Quoc, T., Kapoor, G., Hu, H., Zhou, W., & Piramuthu, S. (2018). RealTime business data acquisition: How frequent is frequent enough? Information and
+Management, 55(4), 422–429.
+Van Oosterhout, M., Waarts, E., & Van Hillegersberg, J. (2006). Change factors requiring
+agility and implications for IT. European Journal of Information Systems, 15(2),
+132–145.
+Wade, M., & Hulland, J. (2004). Review: The resource-based view and information
+systems research: Review, extension, and suggestions for future research. MIS
+Quarterly, 28(1), 107–142.
+Watson, H. J., Wixom, B. H., Hoffer, J.a., Anderson-Lehman, R., & Reynolds, A. M.
+(2006). Real-time business intelligence: Best practices at continental airlines.
+Information Systems Management, 23(1), 7–18.
+Wixom, B. H., Yen, B., & Relich, M. (2013). Maximizing value from business analytics.
+MIS Quarterly Executive, 12(2), 111–123.
+A. Naseer et al. 

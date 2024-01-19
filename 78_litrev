@@ -1,0 +1,123 @@
+~ Visit AskYourPDF.com ~
+Literature review Generated From AskYourPDF
+
+# Literature Review: The Law and Economics of AI Liability
+
+## Introduction
+
+The rapid advancement and widespread adoption of artificial intelligence (AI) systems have raised
+significant concerns regarding the liability rules that should govern their use. This literature review aims
+to identify the challenges associated with AI systems and evaluate how liability rules should be adapted
+to address these challenges. Specifically, this review focuses on the gaps in liability that arise when AI
+systems are unpredictable or act autonomously. It also considers the difficulties in proving fault and
+causality when errors in AI systems are difficult to foresee for producers and the monitoring duties of
+users.
+
+## Unpredictability of AI Systems
+
+One of the key challenges in AI liability is the unpredictability of AI systems. Buitena et al. (2023)
+highlight that AI systems can exhibit unpredictable behavior, which makes it challenging to assign liability
+in case of harm caused by these systems. The authors argue that traditional liability rules may not be
+sufficient to address the unique risks posed by AI systems.
+In a related study, Bai et al. (2022) discuss the concept of harmlessness in AI systems. They propose
+a framework called "Constitutional AI" that aims to ensure the harmlessness of AI systems through
+continuous feedback and monitoring. This approach focuses on the design and development of AI systems
+to minimize the risks of harm and enhance their predictability.
+
+## Proving Fault and Causality in AI Systems
+
+Proving fault and establishing causality are crucial aspects of liability rules. However, when it comes to AI
+systems, these tasks can be challenging. Madaio et al. (2020) highlight the organizational challenges and
+opportunities around fairness in AI. They emphasize the need for co-designing checklists to understand
+and address the challenges related to fairness in AI systems. Such checklists can help identify potential
+sources of bias and establish causality in cases of harm caused by AI systems.
+In a legal context, Hacker (2018) discusses strategies against algorithmic discrimination under EU law.
+The author emphasizes the importance of teaching fairness to AI systems and proposes existing and novel
+1 / 4
+~ Visit AskYourPDF.com ~
+strategies to mitigate algorithmic discrimination. These strategies can contribute to establishing fault and
+causality in cases involving AI systems.
+
+## Monitoring Duties of Users
+
+The monitoring duties of users play a crucial role in preventing harm caused by AI systems. Buitena et al.
+(2023) mention that users of AI systems have a responsibility to monitor and ensure the proper functioning
+of these systems. However, the authors do not provide specific recommendations on how to define and
+enforce these monitoring duties.
+To address this gap, Subbaswamy and Saria (2019) discuss the importance of dataset shift, causality, and
+shift-stable models in health AI. They emphasize the need for robust monitoring mechanisms to detect
+and mitigate dataset shift, which can lead to biased predictions and potential harm to users. Implementing
+shift-stable models and monitoring techniques can enhance the effectiveness of user monitoring duties.
+
+## Knowledge Gaps and Future Research Directions
+
+Despite the insights provided by the existing research, several knowledge gaps and areas for future
+research can be identified.
+
+1. **Legal Frameworks**: Further research is needed to develop comprehensive legal frameworks that
+   address the liability challenges posed by AI systems. This research should consider the specific legal and
+   regulatory contexts, such as EU law and national legislation.
+2. **Predictability and Explainability**: Future studies should focus on developing methods and techniques to enhance the predictability and explainability of AI systems. This can help establish fault and
+   causality in case of harm caused by these systems.
+3. **Monitoring and Enforcement**: More research is required to define and enforce the monitoring
+   duties of users in the context of AI systems. This research should explore practical mechanisms and tools
+   to ensure effective monitoring and compliance with these duties.
+4. **Fairness and Bias**: Further investigation is needed to address the challenges related to fairness and
+   bias in AI systems. This research should focus on developing robust methodologies for identifying and
+   mitigating bias in AI algorithms.
+5. **International Cooperation**: Collaboration and cooperation between different stakeholders, includ2 / 4
+   ~ Visit AskYourPDF.com ~
+   ing academia, industry, and policymakers, are essential to develop a global approach to AI liability. Future
+   research should explore avenues for international cooperation and harmonization of liability rules.
+   In conclusion, the challenges associated with AI liability require a comprehensive and interdisciplinary
+   approach. This literature review has identified the gaps in liability that arise from the unpredictable
+   nature of AI systems, the difficulties in proving fault and causality, and the monitoring duties of users.
+   Future research should focus on addressing these challenges, developing legal frameworks, enhancing
+   predictability and explainability, defining monitoring duties, mitigating bias, and promoting international
+   cooperation. By addressing these knowledge gaps, policymakers and stakeholders can ensure the effective
+   and responsible use of AI systems while protecting individuals and society from potential harm.
+
+## References:
+
+1. https://www.semanticscholar.org/paper/da12b03ad7cee8030b5e4c87b25edaae706d7106
+2. https://www.semanticscholar.org/paper/5c3a72f47ed8d58c0554210828af1ce4bbf2dbcd
+3. Floridi, L.. (2019). Establishing the rules for building trustworthy AI. <i>Nature Machine Intelligence</i> , 1 , 261-262 . http://doi.org/10.1038/S42256-019-0055-Y
+4. https://www.semanticscholar.org/paper/2c6df83795cd5baf3b8c6e2639b85e2df0cee1d0
+5. Buters, Jeroen T. M.., Antunes, Célia M.., Galveias, A.., Bergmann, K.., Thibaudon, M.., Galán,
+   Carmen., Schmidt-Weber, Carsten B.., & Oteros, J.. (2018). Pollen and spore monitoring in the world.
+   <i>Clinical and Translational Allergy</i> , 8 . http://doi.org/10.1186/s13601-018-0197-8
+6. Subbaswamy, Adarsh., & Saria, S.. (2019). From development to deployment: dataset shift, causality,
+   and shift-stable models in health AI.. <i>Biostatistics</i> . http://doi.org/10.1093/biostatistics/kxz041
+7. Bai, Yuntao., Kadavath, Saurav., Kundu, Sandipan., Askell, Amanda., Kernion, John., Jones, Andy.,
+   Chen, A.., Goldie, Anna., Mirhoseini, Azalia., McKinnon, C.., Chen, Carol., Olsson, Catherine., Olah,
+   C.., Hernandez, Danny., Drain, Dawn., Ganguli, Deep., Li, Dustin., Tran-Johnson, Eli., Perez, E..,
+   Kerr, Jamie., Mueller, J.., Ladish, Jeff., Landau, J.., Ndousse, Kamal., Lukošikt, Kamil., Lovitt, Liane.,
+   Sellitto, Michael., Elhage, Nelson., Schiefer, Nicholas., Mercado, Noem'i., DasSarma, Nova., Lasenby,
+   R.., Larson, Robin., Ringer, Sam., Johnston, Scott., Kravec, S.., Showk, S. E.., Fort, Stanislav., Lanham,
+   Tamera., Telleen-Lawton, Timothy., Conerly, Tom., Henighan, T.., Hume, Tristan., Bowman, Sam.,
+   Hatfield-Dodds, Zac., Mann, Benjamin., Amodei, Dario., Joseph, Nicholas., McCandlish, Sam., Brown,
+   Tom B.., & Kaplan, Jared. (2022). Constitutional AI: Harmlessness from AI Feedback. <i>ArXiv</i> ,
+   abs/2212.08073 . http://doi.org/10.48550/arXiv.2212.08073
+8. Wang, Kun., Gao, Hui., Xu, Xiaoling., Jiang, Jinfang., & Yue, Dong. (2016). An Energy-Efficient Reliable Data Transmission Scheme for Complex Environmental Monitoring in Underwater Acoustic Sensor
+   Networks. <i>IEEE Sensors Journal</i> , 16 , 4051-4062 . http://doi.org/10.1109/JSEN.2015.2428712
+9. Deng, Jianyang., & Lin, Yijia. (2023). The Benefits and Challenges of ChatGPT: An Overview.
+   <i>Frontiers in Computing and Intelligent Systems</i> . http://doi.org/10.54097/fcis.v2i2.4465
+   3 / 4
+   ~ Visit AskYourPDF.com ~
+10. Poore, Joseph., & Nemecek, T.. (2018). Reducing food’s environmental impacts through producers
+    and consumers. <i>Science</i> , 360 , 987 - 992 . http://doi.org/10.1126/science.aaq0216
+11. Khabbazan, S.., Vermunt, P.., SteeleDunne, S.., Arntz, L. R.., Marinetti, C.., Valk, D.., Iannini, L..,
+    Molijn, R.., Westerdijk, K.., & Sande, C. V. D.. (2019). Crop Monitoring Using Sentinel-1 Data: A Case
+    Study from The Netherlands. <i>Remote. Sens.</i> , 11 , 1887 . http://doi.org/10.3390/rs11161887
+12. Zhu, Ni., Marais, J.., Bétaille, D.., & Berbineau, M.. (2018). GNSS Position Integrity in Urban
+    Environments: A Review of Literature. <i>IEEE Transactions on Intelligent Transportation Systems</i>
+    , 19 , 2762-2778 . http://doi.org/10.1109/TITS.2017.2766768
+13. Hacker, P.. (2018). Teaching fairness to artificial intelligence: Existing and novel strategies against algorithmic discrimination under EU law. <i>Common Market Law Review</i> .
+    http://doi.org/10.54648/cola2018095
+14. GliszczyDska-ZwigBo, A.., & Chmielewski, J.. (2017). Electronic Nose as a Tool for Monitoring the Authenticity of Food. A Review. <i>Food Analytical Methods</i> , 10 , 1800-1816 .
+    http://doi.org/10.1007/s12161-016-0739-4
+15. Madaio, Michael A.., Stark, Luke., Vaughan, Jennifer Wortman., & Wallach, Hanna M.. (2020).
+    Co-Designing Checklists to Understand Organizational Challenges and Opportunities around Fairness
+    in AI. <i>Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems</i> .
+    http://doi.org/10.1145/3313831.3376445
+    4 / 4

@@ -1,0 +1,2069 @@
+Supply Chain Analytics 3 (2023) 100031
+Available online 10 August 2023
+2949-8635/© 2023 The Author(s). Published by Elsevier Ltd. This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).
+Supply chain risk management: A content analysis-based review of existing
+and emerging topics
+Ali Emrouznejad a,*,1
+, Sina Abbasi b,**,2
+, Çigdem ˘ Sıcakyüz c,3
+a Sikey Business School, University of Surrey, Guildford, UK b Department of Industrial Engineering, Islamic Azad, University, Lahijan, Iran c Department of Industrial Engineering, Ankara Science University, Ankara, Turkey
+ARTICLE INFO
+Keywords:
+Existing and emerging topics
+Risk publications
+Risk factors
+Supply chain risk management
+Risk assessment
+Bibliometric analysis
+ABSTRACT
+This paper presents a systematic review of the literature on Supply Chain Risk (SCR) research, focusing on
+content-based analysis. The study comprehensively examines the general factors associated with key themes and
+trends in supply chain risk management, encompassing the identification and assessment of risks, risk mitigation
+strategies, and the influence of emerging technologies on Supply Chain Risk Management (SCRM). The review
+provides an overview of current and emerging topics in SCRM, while also introducing categorization frameworks
+to address research gaps and provide a roadmap for future studies, thereby generating valuable insights in this
+field. The review highlights the significance of effective SCRM in ensuring business continuity and resilience,
+emphasizing the need for organizations to adopt a proactive approach to risk management. The paper concludes
+by identifying areas for future research, including the development of novel risk management frameworks and
+the integration of emerging technologies into supply chain risk management practices. Additionally, a
+comprehensive evaluation of each classification is presented, highlighting overlooked aspects and unexplored
+domains, and offering recommendations for potential next steps in SCRM research.
+1. Introduction
+The process of detecting, analyzing, and managing the risks associated with the global and dispersed information and communications
+technology structure is known as SCRM [1]. It is also the process of
+discovering, analyzing, and reducing threats to the integrity, reliability,
+and authenticity of goods and services along the supply chain [2]. A
+practical approach to SCRM involves identifying and assessing known
+and unknown risks, building a risk management framework, and
+implementing strategies to mitigate risks [3].
+The strategies for success in SCRM include diversifying suppliers,
+building strong relationships with suppliers, monitoring supplier performance, and investing in technology to develop Supply Chain (SC)
+visibility and resilience [4]. SCRM is a critical aspect of modern business
+operations. Companies confront a wide range of risks as global SCs get
+more complicated, threatening their capacity to offer products and
+services to customers [5]. From natural disasters and geopolitical
+instability to cyber-attacks and supplier bankruptcies, the risks are many
+and varied. To effectively manage these risks, companies need to
+comprehensively understand the key matters and emerging trends in
+SCRM. This review will explore these issues in SCRM, providing insights
+and recommendations for companies looking to enhance their risk
+management capabilities [6].
+A risk factor is "anything that increases the likelihood of developing a
+disorder" [7]. Risk factors include age, family history, lifestyle choices,
+and environmental variables. Age, a family record of particular malignancies, and exposure to specific chemicals are all risk factors for cancer
+[8]. The term "risk factor" is used by epidemiologists to characterize
+factors related to an elevated risk of illness or infection [9].
+Several common risks in SCM can disrupt operations and cause significant financial losses. These risks are classified into four types: economic, environmental, political, and ethical [10]. Manufacturing risks,
+* Correspondence to: Direct of the Centre for Business Analytics in Practice (CBAP), Surrey Business School, University of Surrey, Guildford, United Kingdom.
+** Correspondence to: Department of Industrial Engineering, Lahijan Branch, Islamic Azad University, Lahijan, Iran.
+E-mail addresses: a.emrouznejad@surrey.ac.uk (A. Emrouznejad), abbasisina@liau.ac.ir, abbasisina170@gmail.com (S. Abbasi). 1 https://orcid.org/0000-0001-8094-4244 2 https://orcid.org/0000-0002-8503-8010 3 https://orcid.org/0000-0001-7948-0083
+Contents lists available at ScienceDirect
+Supply Chain Analytics
+journal homepage: www.sciencedirect.com/journal/supply-chain-analytics
+https://doi.org/10.1016/j.sca.2023.100031
+Received 6 July 2023; Received in revised form 1 August 2023; Accepted 6 August 2023 
+Supply Chain Analytics 3 (2023) 100031
+2
+storing and shipment risks, financial risks, legal risks, quality risks,
+transit delays, theft, natural catastrophes, weather-related issues, and
+cybercrime are some critical risks associated with SCM [11].
+Inadequate project management, inadequate phrasing, or alterations
+to the scope of work are all critical threats that might jeopardize the
+timetable and have severe financial consequences. To mitigate these
+risks, businesses can implement strategies such as diversifying suppliers,
+building strong relationships with suppliers, monitoring supplier performance, investing in technology to improve SC visibility and resilience, and having contingency plans [12].
+Emerging technologies are predicted to considerably impact SCRM.
+Autonomous mobile robots, truck collaboration, and Distributed Ledger
+Technology (DLT) are some of the technologies expected to impact SCM
+in the future. However, adopting these technologies also brings new
+security risks that must be addressed [13].
+Artificial Intelligence (AI) and advanced analytics are also key
+technologies that can help improve supply chain management and
+decision-making. Technology is essential for SCM experts to extract
+concrete and practical details from data, and numerous SC executives
+regard technology as an instrument of competitive advantage [14].
+SCRM consists of identifying, evaluating, and mitigating risks in the SC
+[15]. The demand for SCRM has grown dramatically over the previous
+decade, especially in the past five years, due to the proliferation of
+global risks. SCRM allows government and industry to defend against
+known threats to SCs while building resilience to future risks [16].
+The Biden-Harris administration has revealed the results of a
+comprehensive 100-day SC evaluation for four essential items, demonstrating various risks and vulnerabilities in US supply networks [17].
+The study includes six suggestions for reinforcing critical supply networks and enhancing environmental guidelines [18]. There are several
+ways to approach SCRM, including determining risk categories, assessing risks, and developing mitigation strategies [19]. The review also
+identified several risk detection and mitigation strategies, including risk
+pooling, supplier diversification, and inventory management [20]. Scientists created a theoretical structure for SC resiliency established on
+vulnerabilities and capacities, highlighting SC risks [21]. A literature
+review of SCRM identified four main categories of risk: demand, supply,
+environmental, and operational [22].
+The COVID-19 pandemic has emphasized the significance of SCRM.
+The pandemic has affected supply chains worldwide, leading to significant disruptions [2,5,10,11,13]. A comprehensive framework for
+SC-COVID-19 manifestations has been developed, considering nine
+factors and 58 elements. Decision-makers and researchers can use the
+framework, and it can be generalized to other industries [23]. The term
+"Risk" is used in multiple ways, denoting uncertain variables that reduce
+outcome predictability and the effects of those risks [24].
+SCRM is described in the paper as recognizing and handling risks for
+the SC by an integrated strategy across SC members to lessen overall SC
+vulnerability [25]. Due to a growing complicated global network, which
+can result in delays and quality issues in SC operations, SC uncertainty is
+a big worry for managers. While overlooking various distinguished
+factors contributing to risk and uncertainty, scholarship has concentrated on particular sources of uncertainty related to in-house
+manufacturing processes, supply-side processes, and end-customer demand. In the present competitive economy with multiple newest challenges, enhanced comprehension of uncertainty and risk management is
+still a significant issue [26] due to tremendous supply and demand
+instability, globalization of markets, and shorter product and technology
+lifespan cycles. In addition, the growing use of outsourced production,
+distribution, and logistics creates intricate linkages in the global supply
+chain, boosting risk exposure [27].
+Managing SCRs, a crucial aspect of SCM, is commonly understood as
+the probability that a hostile and unanticipated event will happen and
+either directly or indirectly interrupt the SC [28]. The Indian Ocean
+tsunami in 2004, the Fukushima Daiichi nuclear disaster in Japan in
+2011, and the fire at a Philips plant in New Mexico in 2000 (that
+obstructed the SCs of Nokia and Ericsson, resulting in a monetary loss of
+400 million Euros for Ericsson), an earthquake in Taiwan [29], recently
+COVID-19 and earthquake in Turkey are just a few instances of unforeseen occurrences that demonstrate the detrimental effects of disruptions on organizational performance. The kind and characteristics of
+unpredictable developments or the consequence of such actions are
+challenging or impossible to forecast [30]. To mitigate and avoid risks,
+scholars, and professionals agreed to manage risks [31]. Therefore,
+SCRM strives to create plans for identifying, evaluating, managing, and
+monitoring risks in SC [32]. As a result, professionals and researchers
+are highly interested in various aspects of SCRM.
+2. Background and related research
+2.1. Related works
+Considering this, researchers have discovered a variety of variables
+that affect the connections between SCR, disruptions, resilience, and
+performance [33]. Although the objective versus subjective aspect of
+risk is still discussed, investigators agree that risk management should
+be viewed as a process with three phases: risk identification, estimation,
+and evaluation [34]. It is harder to define SCR and challenging to
+categorize distinct types of SCR [35].
+Abbasi et al., (2023) [110] designated the home healthcare SC
+considering risk during COVID-19. Babu et al., (2023) [111] considered
+a SC risk assessment for small and medium in post-COVID-19. Vafadarnikjoo et al., (2023) [112] researched a novel grey MO binary linear
+programming model for risk assessment in SCM. Debnath et al., (2023)
+[113] investigated sustainable supplier selection in the healthcare supply chains. Deretarla et al., (2023) [114] studied the SCM for assessments of the vendor selection area. Kabir et al., (2023) [115] analyzed
+the risk assessment and decision-making in fuzzy systems.
+To advance common cognition, scholars must know what has already
+been accomplished, the advantages and disadvantages of current studies, and
+their underlying significance [36].
+Khalili-Damghani and Ghasemi (2016) [116] planned the SC model
+in risk and fuzzy framework simultaneously. Ghasemi et al., (2017)
+[117] designed the decentralized SC planning model considering risk.
+Ahmadi Choukolaei et al., (2021) [118] analyzed the efficient crisis
+management in Tehran with a risk approach. Ghasemi et al., (2022, c)
+[123] considered the location-routing problem in the SC based on risk.
+Shokouhifar et al., (2021) [119] designed the blood supply chain
+considering risk with the fuzzy model. Safaei et al., (2022) [120]
+designed a Closed-loop Supply Chain Network (CLSCN) by forecasting
+risk management.
+Ghasemi et al., (2022,a) [121] suggested the model for blood SC
+focused on a risk problem robust optimization approach. Shokouhifar &
+Ranjbarimesan (2022) [124] managed the supply chain network (SCN)
+during the COVID-19 pandemic. Considering the risk. Li et al., (2023)
+[125] analyzed SCRM for the big data in disaster conditions. Fernando
+et al., (2023) [126] consider SCRM with performance in the industry 4.0
+era.
+Abbasi’s (2023) [127] assessment of environmental impacts at risk
+the COVID-19. The vaccine supply chain network (VSCN), proposed by
+Abbasi et al. in 2023 [128], is considered environmental risk environmental risk into consideration. Ghasemi et al., (2022, b) [122] suggested
+a new humanitarian relief logistic network in risk situations. Kamran,
+et al., (2023) [129] designed the COVID-19 Vaccine Supply Chain
+Network (VSCN) under risk issues. Shokouhifar et al., (2023) [130]
+considered the SCRM in Sustainable Supply Chain (SSC).
+Existing literature reviews, as shown in Table 1, promote the
+development of identification of possible risks in the SC process, better
+categorization methods and models, and, as a result, a better comprehension of the problems involved in the study of SCRM. Table 1 details
+the published review papers on SCRs.
+Although valuable, these research investigations either had
+A. Emrouznejad et al. 
+Supply Chain Analytics 3 (2023) 100031
+3
+Table 1
+Published Review Papers on SCRs area between 2004 and 2022.
+Author Year Title Journal Focus Reviewed
+Papers
+Time
+Period
+Bibliometric
+View
+Citations
+[37] 2004 A Review of Enterprise Supply Chain Risk
+Management
+Journal of Systems Science
+and Systems Engineering
+Enterprise risk
+management
+practices
+34 (REF) Until 2004 133
+[38] 2006 Perspectives in supply chain risk management International Journal of
+Production Economics
+Quantitative
+models for SCRM
+217(REF) Until 2006 1888
+[39] 2007 Supply chain risk management and performance:
+A guiding framework for future development
+International Journal of
+Operations and Production
+Management
+Interaction
+between Risk and
+Performance in a
+supply chain
+context
+47(REF) Until 2006 708
+[40] 2007 Risk and supply chain management: Creating a
+research agenda
+The International Journal of
+Logistics Management
+Developing a
+research agenda
+for risk and
+supply chain
+management
+94 (REF) Until 2005 605
+[41] 2009 Supply Chain Risk Management:
+Literature Review and Future Research
+Int’l Journal of Information
+Systems and Supply Chain
+Management
+The types of risks,
+the unit of
+analysis, the
+industry sectors,
+and the risk
+management
+process or
+strategies
+82 2000 −
+2007
+282
+[27] 2009 Supply chain risks: A review and typology The International Journal of
+Logistics Management
+Develop a
+typology for SCRs
+132 (REF) Until 2008 860
+[42] 2010 A review of enterprise risk management in supply
+chain
+Kybernetes Identification and
+classification of
+types of risks,
+cases, and models
+in SCRM
+42 (REF) Until 2010 289
+[35] 2010 State of the art in supply chain risk management
+research: Empirical and conceptual findings and a
+roadmap for the implementation in practice
+Logistics Research Main principles of
+SCRM and
+evolutionary
+steps for its
+implementation
+68 (REF) Until 2008 282
+[43] 2011 Identifying risk issues and research advancements
+in supply chain risk management
+International Journal of
+Production Economics
+Identification the
+major risk issues
+and risk
+mitigation
+techniques based
+on material, cash,
+and information
+flows
+236 1995–2009 * 1252
+[26] 2012 Supply-chain uncertainty: A review and
+theoretical foundation for future research
+International Journal of
+Production Research
+Developing of
+theoretical
+foundation for
+SCRs and SCuncertainty
+109 (REF) Until 2010 479
+[44] 2012 Researchers’ perspectives on supply chain risk
+management
+Production and Operations
+Management
+Researcher views 133 (RES) 2009 847
+[45] 2012 Supply chain risk management: A new
+methodology for a systematic literature review
+Supply Chain Management ˙
+Investigating the
+process of
+knowledge
+creation, transfer
+and development
+from a dynamic
+perspective
+55 1994–2010 * 835
+[46] 2012 Supply Chain Risk Management Present and
+Future Scope
+International Journal of
+Logistics Management
+A holistic systems
+thinking
+perspective by
+considering seven
+distinctive
+research factors
+120 2000–2010 * 533
+[47] 2013 Supply chain risk management-II: A review of
+individual and integrated operational and
+financial approaches
+Risk Management Classification and
+analysis of
+operational,
+financial, and
+integrated
+approaches
+against SCRS
+68 (REF) Until 2011 45
+[48] 2013 Supply Chain Risk Management: A Content
+Analysis Approach
+International Journal of
+Industrial Engineering and
+Management (IJIEM)
+Content Analysis
+of SCR
+60 2003–2012 71
+(continued on next page)
+A. Emrouznejad et al. 
+Supply Chain Analytics 3 (2023) 100031
+4
+Table 1 (continued )
+Author Year Title Journal Focus Reviewed
+Papers
+Time
+Period
+Bibliometric
+View
+Citations
+[49] 2014 Supply Chain Risk Management: A Review Int. J Sup. Chain. Mgt Definition of each
+SCRM component
+55 (REF) Until 2014 26
+[50] 2015 Supply chain risk management: A literature
+review
+International Journal of
+Production Research
+Categorizing of
+SCRM based on
+risk definitions,
+risk types, risk
+factors and risk
+management/
+mitigation
+strategies
+224 2003–2013 1259
+[30] 2015 A critical review on supply chain risk - Definition,
+measure, and modeling
+Omega (United Kingdom) Supply chain risk
+definitions,
+quantification
+measures and
+modeling
+approaches
+162 Until 2014 985
+[51] 2015 Quantitative models for managing supply chain
+risks: A review
+European Journal of
+Operational Research
+Quantitative and
+analytical models
+for SCRM
+1108 1978–2015 * 501
+[52] 2015 Supply chain risk classification: Discussion and
+proposal
+International Journal of
+Production Research
+Risk
+categorization
+based on SCOR
+model
+33 (REF) 2000–2012 179
+[36] 2016 Supply chain risk management research: avenues
+for further studies
+International Journal of
+Supply Chain and Operations
+Resilience
+The relationship
+of performance
+with SCRM
+60 2000–2013 17
+[53] 2016 Supply chain risk analysis with mean-variance
+models: a technical review
+Annals of Operations Research Analyzing
+stochastic SCRM
+52 Until 2012 271
+[54] 2016 The strategies of supply chain risk management –
+a synthesis and classification
+International Journal of
+Logistics Research and
+Applications
+Classification and
+analysis of SCRM
+strategies
+86 2000–2015 100
+[55] 2017 Literature Review on Disruption Recovery in the
+Supply Chain
+International Journal of
+Production Research
+The existing
+methods for SC
+design and
+planning with
+both disruptions
+and recovery
+130 (REF) Until 2017 505
+[56] 2017 Supply Chain Risk Classification Schemes: A
+Literature Review
+Operations and Supply Chain
+Management
+Identification risk
+sources and
+classification of
+risks
+25 2003–2015 49
+[57] 2017 Integrated supply chain risk management: A
+systematic review
+International Journal of
+Logistics Management
+Integration SC
+with SCRM
+67 1998–2015 90
+[58] 2017 What is supply chain risk management? A review Advanced Science Letters General definition
+of SCRM
+62 Until 2016 50
+[59] 2017 A critical analysis of supply chain risk
+management content: a structured literature
+review
+Journal of Advances in
+Management Research
+Risk-based
+content
+classification of
+SCRM
+343 2004–2014 103
+[60] 2017 The ISO 31000 standard in supply chain risk
+management
+Journal of Cleaner Production Pathway to
+identify and
+prioritize which
+ISO 31000:2009
+risk assessment
+tool
+27 2004–2015 213
+[61] 2017 Decision-making models for supply chain risk
+mitigation: A review
+Computers and Industrial
+Engineering
+Decision-making
+models for SCR
+mitigation
+126 2015–2016 * 139
+[62] 2018 Supply chain risk assessment: A content analysisbased literature review
+International Journal of
+Logistics Systems and
+Management
+Content analysis
+of SCR assessment
+methods
+140 2002–2017 35
+[32] 2018 A Review of supply chain risk management:
+definition, theory, and research agenda
+International Journal of
+Physical Distribution and
+Logistics Management
+Risk
+identification,
+assessment,
+treatment, and
+monitoring
+354 2000–2016 * 412
+[63] 2018 Optimization of a supply portfolio in the context
+of supply chain risk management: literature
+review
+Journal of Intelligent
+Manufacturing
+Supplier selection
+under SCRM
+124 2003–2014 88
+[64] 2018 Analysis of supply chain risk management
+research
+Gestao e Producao Analyzing the
+profile of papers
+published on
+SCRM
+248 2004–2015 * 20
+[28] 2019 Malicious Supply Chain Risk: A Literature Review
+and Future Directions
+Springer Series in Supply
+Chain Management
+Malicious SCR 47 (REF) Until 2018 10
+(continued on next page)
+A. Emrouznejad et al. 
+Supply Chain Analytics 3 (2023) 100031
+5
+Table 1 (continued )
+Author Year Title Journal Focus Reviewed
+Papers
+Time
+Period
+Bibliometric
+View
+Citations
+[29] 2019 The Impact of Supply Chain Disruptions on
+Organizational Performance: A Literature Review
+Springer Series in Supply
+Chain Management
+Relationship
+between supply
+chain disruption
+risks and
+organizational
+performance
+50 2000–2017 47
+[65] 2019 Categorizing Supply Chain Risks: Review,
+Integrated Typology and Future Research
+Springer Series in Supply
+Chain Management
+Classification of
+SCRs
+100 2000–2017 * 24
+[66] 2019 Supply Chain Risk Management and Artificial
+Intelligence: State of the Art and Future Research
+Directions
+International Journal of
+Production Research
+Problems relevant
+to SCRM using
+approaches that
+fall within the AI
+spectrum
+276 1978–2018 495
+[67] 2019 Supply chain risk management: models and
+methods
+Int. J. Management and
+Decision Making
+Models and
+methods applied
+in SCRM
+500 1997–2018 * 45
+[68] 2019 The role of simulation and optimization methods
+in supply chain risk management: Performance
+and review standpoints
+Simulation Modelling Practice
+and Theory
+Analyzing the role
+and contribution
+of simulation and
+optimization
+methods for the
+SCRM
+57 2000–2017 92
+[69] 2020 Supply Chain Risk Governance: Towards a
+Conceptual Multi-Level Framework
+Operations and Supply Chain
+Management
+Extending
+existing multilevel frameworks
+with interorganizational
+governance
+mechanisms
+33 + 26 2002–2018 33
+[70] 2020 Smarter supply chain: a literature review and
+practices
+Journal of Data, Information
+and Management
+SSCM’s beneficial
+contribution to
+supply chain
+intellectualization
+68 2009–2019 32
+[71] 2020 A Review of the Existing and Emerging Topics in
+the Supply Chain Risk Management Literature
+Decision Sciences Categorizing the
+areas of SCRM
+with 11 clusters
+119 2001 −
+2019
+* 151
+[72] 2020 A Global Supply Chain Risk Management
+Framework: An Application of Text-mining to
+Identify Region-specific Supply Chain Risks
+Advanced Engineering
+Informatics
+Global SCRM
+framework
+11,118,911 2000–2020 * 74
+[73] 2020 The development of supply chain risk
+management over time: revisiting Ericsson
+International Journal of
+Physical Distribution and
+Logistics Management
+Current
+developments in
+SCRM
+17 (REF) Until 2020 49
+[74] 2020 A systematic review on supply chain risk
+management: using the strategy-structureprocess-performance framework
+International Journal of
+Logistics Research and
+Applications
+Strategy,
+structure, process,
+and performance
+in SCRM
+174 2001–2017 15
+[75] 2020 A Meta-Analytic Review of Supply Chain Risk
+Management: Assessing Buffering and Bridging
+Strategies and Firm Performance
+Journal of Supply Chain
+Management
+Buffering and
+bridging
+strategies to
+determine their
+effect on SCRM
+26 Until 2018 93
+[76] 2021 A Systematic Investigation of the Integration of
+Machine Learning into Supply Chain Risk
+Management
+Logistics Application of
+Machine Learning
+in SCRM
+109 Until 2020 15
+[77] 2021 Supply chain risk management: Literature review Risks Review the
+literature on risk
+factors in supply
+chain
+management in
+an uncertain and
+competitive
+business
+environment
+455 2010 −
+2019
+73
+[31] 2021 Mitigation Strategies in Supply Chain Risk
+Management: A Literature Review
+Central Asia and the Caucasus Analyze SCR
+mitigation
+30 2004–2019 NA
+[78] 2021 A systematic literature review on supply chain
+risk management: is healthcare management a
+forsaken research field?
+Benchmarking Application of
+SCRM in
+Healthcare
+8 + 114 +
+119
+Until 2020 * 21
+[79] 2022 Explain ability in supply chain operational risk
+management: A systematic literature review
+Knowledge-Based Systems Analysis and
+evaluation of
+methods for
+identifying
+operational risks
+72 2000–2020 15
+(continued on next page)
+A. Emrouznejad et al. 
+Supply Chain Analytics 3 (2023) 100031
+6
+quantitative models or specific industries (e.g., [30,38]. Moreover, most
+of these papers—save for two—only evaluated a tiny number of publications. Given the focus area of interest, [44] evaluated 31 publications,
+[27] examined 55 papers, and [45] investigated 55 articles. However,
+the SCRM field is expanding so quickly that 658 articles have been
+released since 2020 (Fig. 1). The studies that involved risk categories
+and were published between 2020 and 2023 (801) were never reviewed,
+as shown in Table 1. Additionally, as seen in Table 1, content-based
+reviews after the pandemic were addressed by [78], [72], [71], and
+[80], however except for [80], the authors have reviewed tiny numbers
+of articles, and [80] concerned on the optimization models in SCRM, not
+a holistically reviewed the papers. Again, none of these reviews has used
+bibliometric analysis. As a result, it is stated that a new SLR on SCRM is
+required.
+Finally, we review the literature to identify potential SCRM gaps.
+Numerous studies have also used data-driven methodologies or extensive data analysis in SCM and risk analysis. However, they either
+concentrate solely on the internal operations of the SC, a single industry,
+or assessments based on internal numerical data gathered from test
+companies. In contrast, this study created a comprehensive risk classification backed by a sizable dataset that included existing literature until
+2023. By classifying SCR categories, risk factors, and risk management
+techniques, our work also suggests a new insight into SCRM. It provides
+a comprehensive view since 1478 articles were included in the bibliometric analysis.
+2.2. Research gap, novelty, and contribution
+One contribution of this study is to offer a structure for the present
+stage of research, which would be helpful to us as researchers. This review presents the past and current focuses on the SCR investigation and
+offers a future direction.
+The main contribution of this review paper is to answer the following
+questions:
+1. What are the most studied themes related to SCCR over the years?
+2. How has the research on SCR evolved over the past years?
+3. Which countries have been the most active in publishing research on
+SCR?
+4. What are the most frequently cited publications on SCR?
+5. How has the emphasis on diverse types of SCR (e.g., operational,
+financial, managerial) changed over time?
+3. Research method and scope
+3.1. Research method
+In this research, a content-based Systematic Literature Review (SLR)
+was performed. Although an SLR is often carried out manually and may
+be time-consuming, the SLR procedure might be performed efficiently,
+quickly, and evidence-based with novel information management instruments [46]. Combining in-depth qualitative methods with potent
+quantitative analyses is a crucial benefit of content analysis. Flexible
+investigations on two levels are made possible by this method: First,
+reveal the subject matter of text and documents, and latter, unearth the
+text’s hidden meaning and content [62]. On the other hand, the suggested systematic artificial-intelligent-based framework may produce
+findings more quickly as it can quickly analyze a more extensive dataset.
+A data-driven approach would produce results with less human bias
+[81].
+Due to various utilizing areas of bibliometric methods, such as organization, innovation, entrepreneurship, and operations management,
+strategic management, there is a trend of using bibliometric and lexicographic techniques. The power of bibliometric analyses stands in their
+Table 1 (continued )
+Author Year Title Journal Focus Reviewed
+Papers
+Time
+Period
+Bibliometric
+View
+Citations
+[80] 2022 Optimization models for supply chains under risk,
+uncertainty, and resilience: A state-of-the-art
+review and future research directions
+Transportation Research Part
+E: Logistics and
+Transportation Review
+The quantitative
+models for SC
+resilience
+3672 1996–2020 * 19
+X(REF): The number of references in the reference list; X (RES): Review via Interview; Until (X) represents the upper bound year of the reviewed article.
+Fig. 1. The number of papers published over the years.
+A. Emrouznejad et al. 
+Supply Chain Analytics 3 (2023) 100031
+7
+unobtrusiveness and objectivity, allowing for a high level of quantifiability and quantitative analysis. The outcome depicts the core subjects
+of research efforts with a conceptual structure based on the authors’
+contributions to its intellectual advancement [82]. The most prevalent
+bibliometric network approaches are co-citation and co-occurrence
+analysis. A relationship between two articles arises in co-citation when
+another work cites both. A core premise of co-citation is that the more
+two publications are mentioned, the more probable their topics are
+connected. Although co-citation analysis identifies leading documents,
+developing trends, and other intriguing outcomes, it frequently fails to
+accurately reflect the content of the study themes discussed in the
+literature. In addition, it is less trustworthy and constrained by its search
+approach to less referenced and the latest papers. In contrast,
+co-occurrence analysis employs a set of common terms rather than
+groups of shared citations. Co-occurrence analysis is the only bibliometric approach mapping relevant literature based on term encounters.
+Co-occurrence analysis tacitly believes that a set of collected keywords
+may reveal the root topics and that keyword co-occurrences can reveal
+the relationship with those themes [61]. Hence, in this review, the
+co-occurrence of keyword analysis was employed to detect the themes
+related to SCR.
+3.2. Search scope
+Scopus and Web of Science are two of the most used search engines
+accessible for discovering scholarly publications from various publishers
+and periodicals. We utilized the Scopus search engine to perform our
+literature inquiry since it is highly regarded and utilized for content
+mapping and co-citation analysis. Compared to the Web of Science,
+Scopus presents a database of documents most closely associated with
+the research subject [71].
+On 3rd May 2023, the search term SCR in article titles, keywords,
+and abstracts yielded 2703 documents. We refined the articles written in
+English and published them in peer-reviewed international journals
+from review papers, conference documents, master and doctoral theses
+and dissertations, textbooks, or book chapters, giving us 1498. We
+further confined the source of these documents to journals that yielded
+1478 articles. These articles were extracted as a CSV file with complete
+information and uploaded into VOS-Viewer software to analyze.
+We profited from bibliometric analysis, a scientific analytic method
+to show data and information that uses mathematical and statistical
+tools to identify study areas and hotspots and track trends in a subject.
+VOS-viewer, developed by [83], is a widely used display tool for bibliometric analysis nowadays.
+4. Results
+4.1. Descriptive statistics
+This section gave summary statistics related to the articles in SCR.
+Based on the 1478 articles were examined in terms of article count, as
+shown in Fig. 1 below.
+From an observational standpoint - taking the publishing years into
+account - it is noteworthy to observe that the quantity of articles is rising
+throughout the period (2015–2023), indicating that the subject is
+expanding. The number of published articles was picked last year, and
+801 articles were written in this area during and after COVID-19.
+Because the topic’s potential is open to investigation, such theoretical, empirical, numerical, political, and strategical aspects were
+handled by investigators across numerous disciplines. The distribution
+of publications on various study fields is depicted in the pie chart in
+Fig. 2 below. According to Fig. 2, researchers mainly focused on business
+and management aspects of SCR, accounting for 29% of overall study
+fields. The following explored areas are decision science and engineering, accounting for 17% of the total. The topic gained attention by
+computer scientists appearing to rank third and social scientists fourth.
+SCR was investigated by scholars in the fields 4% in economics,
+econometrics, and finance, 3% in environmental science and mathematics, and 3% in Energy. The remaining disciplines in Fig. 2 constitute
+approximately %1 of all areas, while the rest that is not illustrated in
+Fig. 2 represents less than 1% of the total all domains.
+The highly cited articles over the years in the SCR are demonstrated
+in Table 2 below. [84]’s article, " Building the Resilient Supply Chain,”
+published in 2004, was referenced by 1714 other papers.
+More recently, Ivanov and friend’s articles (“Viability of intertwined
+supply networks: extending the supply chain resilience angles towards
+survivability. A position paper motivated by COVID-19 outbreak” and
+“The impact of digital technology and Industry 4.0 on the ripple effect
+and supply chain risk analytics” have gained attention by scholars and
+cited by over 700 papers.
+It is clear from Table 2 that the scholars are particularly interested in
+resilience and risk mitigation studies and have recently focused on
+digital solutions of SCR. Fig. 3 has mapped the top nations where writers
+produced the most articles.
+The United States has the most published articles in this field,
+constituting approximately 17.5% of the total. China is the second most
+creative country, accounting for around 10.8% of all papers published in
+this field, followed by India, the United Kingdom, Germany, and
+Australia, with articles 183, 156, 100, and 80, respectively. Iran, Canada, Italy, France, the Netherlands, Taiwan, Hong Kong, Brazil, and
+Fig. 2. The number of papers published in the scientific areas.
+A. Emrouznejad et al. 
+Supply Chain Analytics 3 (2023) 100031
+8
+Spain contributed around 3% of the total (10,468). The nations whose
+number of articles is more than 30 are Iran (48), France(45),
+Indonesia42, Malaysia (39), Canada (37), Italy (36), Brazil (35), Vietnam (33), Japan (32), Pakistan (32), Sweden (32), Thailand (32), and
+Turkey (31).
+Although this general visualization does not reflect the true number
+of articles in total because different nations co-authored some papers,
+further visualization is needed to uncover the most creative countries
+and the collaboration between them.
+Jermsitiyparsert, K. contributed to the SCR area mainly with 20 articles. Wagner, S.M., Gunasekaran, A., Ghadge, A., and Sawik, T. are
+among the top creative authors with their contributions to the literature.
+Of 159 journals, the top 25 that released articles in the SCRs are
+listed in Table 3. The International Journal of Production Research is the
+leading journal with 85 pieces, constituting approximately 7.59% of the
+total articles. The International Journal of Production Economics was
+the second most released paper in the field with 58 articles, followed by
+the journals Supply Chain Management (3.48%), International Journal
+of Logistics Management (3.21%), International Journal of Supply Chain
+Management (2.86%), and Sustainability Switzerland (2.86%) contributing to the area respectively.
+4.2. Bibliographic coupling analysis
+Like co-citation, bibliographic coupling is a similarity metric that
+establishes a connection between texts based on citation analysis. When
+two works cite the same third work in their bibliographies, this is known
+as bibliographic coupling. It is a sign that there is a chance the two works
+deal with the same subject matter.
+If two papers both cite one or more other documents, they are said to
+be bibliographically connected. The more citations to other texts two
+given documents have, the stronger their "coupling strength" is. The idea
+of bibliographic coupling is shown in the image to the right. Bibliographic coupling may be helpful in a wide range of domains since it
+enables researchers to locate similar work that has already been done.
+However, if two papers are independently cited by one or more additional documents, they are said to be co-cited [115].
+The classification of research articles according to the journal is too
+broad or vague because each scientific journal is categorized into a
+significant field, even though journals increasingly cover a more
+comprehensive range of disciplines and paradigms. The bibliographic
+coupling method determines how comparable the subject matter of the
+two publications is. Bibliographic coupling is not subjectively helpful in
+all domains of study since it assists investigators in locating previous
+relevant research.
+4.2.1. Co-authorship analysis
+The link between the primary research aims to be shown in coauthorship. It contains authors, institutions, and national collaboration networks. VOSviewer visualization analysis of collaborating networks is presented in the next section from the perspectives of authors
+and countries/regions.
+Fig. 5 displays the co-authorship network diagram of 54 authors
+because it is intended to illustrate the authors whose min article number
+is 2 in the network diagram. The authors’ relationships were divided
+into seven categories. The diameter of the nodes represents the number
+of articles written by the author, and the link between any nodes symbolizes collaborations between two authors. That implies that the two
+scientists joined by the line collaborated on at least one work.
+Rajesh, R. has the greatest total connection strength (TCS= 24.61)
+and published five articles in this area, followed by the co-authors Alora,
+A. -Barua, M.K. with their TCS= 72.37. Ekwall, D. - Lantz, B. comes third
+in terms of TCS (72.17). Although Sawik, T. has the most published
+articles in this area, the TCS of Sawik is lower than the authors
+mentioned above.
+The thickness of the lines represents the level of collaboration among
+particular two authors. Put another way, the thicker the lines, the more
+publications they co-authored. The level of collaboration between
+writers within groups is significantly greater than between authors from
+distinct groups. For example, Sawik, T., Ivanov, D., and Tarei P.K.-
+Thakkar, J.J. has more collaboration than others.
+4.2.2. Co-authorship to countries
+The threshold value, in this case, was set to 5, indicating that the
+Table 2
+The top 20 most cited articles in the SCR.
+Authors Title Year Cited
+by
+Journals
+[84] Building the Resilient Supply
+Chain
+2004 1714 Int. J. Logist.
+Manage.
+[85] The severity of supply chain
+disruptions: Design
+characteristics and mitigation
+capabilities
+2007 1046 Decis. Sci.
+[25] Supply chain risk management:
+outlining an agenda for future
+research
+2003 1010 Int. J. Logist.
+Res. Applic.
+[86] Mitigating supply chain risk
+through improved confidence
+2004 820 Int. J. Phys.
+Distrib. Logist.
+Manage.
+[87] Global supply chain risk
+management strategies
+2008 728 Int. J. Phys.
+Distrib. Logist.
+Manage.
+[88] Viability of intertwined supply
+networks: extending the supply
+chain resilience angles towards
+survivability. A position paper
+motivated by the COVID-19
+outbreak
+2020 728 Int J Prod Res
+[89] The impact of digital technology
+and Industry 4.0 on the ripple
+effect and supply chain risk
+analytics
+2019 718 Int J Prod Res
+[90] Ericsson’s proactive supply chain
+risk management approach after
+a serious sub-supplier accident
+2004 708 Int. J. Phys.
+Distrib. Logist.
+Manage.
+[43] Identifying risk issues and
+research advancements in supply
+chain risk management
+2011 645 Int J Prod Econ
+[91] Supply chain risk management:
+Understanding the business
+requirements from a practitioner
+perspective
+2005 635 Int. J. Logist.
+Manage.
+[92] Supply chain resilience in the
+global financial crisis: An
+empirical study
+2011 632 Supply Chain
+Manage.
+[93] An empirical examination of
+supply chain performance along
+several dimensions of risk
+2008 577 J. Bus. Logist.
+[94] Global supply chain risk
+management
+2008 573 J. Bus. Logist.
+[95] The power of flexibility for
+mitigating supply chain risks
+2008 566 Int J Prod Econ
+[96] A review of the literature on the
+principles of enterprise and
+supply chain resilience: Major
+findings and directions for future
+research
+2016 491 Int J Prod Econ
+[97] An empirical investigation into
+supply chain vulnerability
+2006 478 J. Purch.
+Supply Manage.
+[98] Supply chain risk mitigation:
+Modeling the enablers
+2006 475 Bus. Process
+Manage. J.
+[99] An empirical analysis of supply
+chain risk management in the
+German automotive industry
+2011 460 Int J Prod Econ
+[44] Researchers’ Perspectives on
+supply chain risk management
+2012 434 Prod. Oper.
+Manage.
+[100] An empirically derived agenda of
+critical research issues for
+managing supply-chain
+disruptions
+2005 416 Int J Prod Res
+A. Emrouznejad et al. 
+Supply Chain Analytics 3 (2023) 100031
+9
+nations in the figure have at least five articles. This condition was
+satisfied by 51 of the 92 countries/regions. The 51 countries were
+grouped into different color groupings. The item-based density mapping
+confirms that most leading country is the US, and China, India, the UK,
+and Germany are among the top five countries in terms of publishing
+papers in the field of SCR. Fig. 6 visualizes the co-authorship frequency
+among countries and depicts that the US, China, India, and the UK have
+high densities. The marks on the country density view are the same as
+those on the visible item, and a single nation has a different hue based on
+its density at the time. It denotes that the color of a mapping item is
+decided by the number of countries relating to another country.
+For further analysis, the Network diagram in Fig. 7a and the timebased overlay diagram in Fig. 7b were created by VOS-Viewer software. The primary node represents the US, followed by China and India.
+The thickest line represents the most vigorous cooperation between
+China and the US. It also demonstrates that the US has the most
+remarkable connections to other nations. It is plausible to assume that
+the level of collaboration within the nations and areas influences the
+number of articles.
+As seen in Fig. 7a, The US has a relationship with different countries
+in terms of publishing scientific papers. The following countries coauthored the articles published in the US: the UK, Turkey, Iran, South
+Korea, South Africa, Iran, and Denmark. China, Poland, Saudi Arabia,
+and Tunisia have co-authorship in this field. In contrast, India has an
+authorship- network with Jordan, New Zealand, and the United Arab
+Emirates. The authors from Germany mainly published articles with the
+researcher from mostly European countries, including Switzerland,
+Netherlands, Greece, Brazil, and Belgium.
+However, as seen in Fig. 7b, this co-authorship has changed over the
+years, and recently, the authors expanded their network worldwide. For
+example, the researchers from Turkey collaborated in this field with the
+countries France, Norway, Iran, Australia, and others frequently. The
+scientific conferences and scholarship programs might be the reason for
+this shift.
+4.2.3. Co-citation analysis
+Co-citation analysis categorizes scientific literature into tiny publications that address specific issues. Co-citation coupling is a technique
+for determining the subject similarity of two publications. When two
+papers appear in a third document’s reference list, they are regarded to
+Fig. 3. The number of papers published crossover the countries.
+Fig. 4. The number of papers of authors.
+A. Emrouznejad et al. 
+Supply Chain Analytics 3 (2023) 100031
+10
+be co-cited. These writers have a co-citation connection. Papers A and B
+may be considered connected if they are both cited by paper C, even if
+they do not explicitly cite each other. Papers A and B have a stronger
+association if referenced by several other papers [101]. It comprises a
+co-citation network comprising cited references, cited sources, and cited
+authors. The node size shows the number of citations; the line connecting the two points denotes a co-citation link between them. The
+more publications that reference them, the stronger their association
+becomes. The incidence with which two texts are jointly mentioned is
+the co-citation occurrence.
+A reference indicates that one author was affected by the published
+work by a different author, but it does not usually specify the intensity or
+direction of that effect. It is commonly considered that each reference
+contributes equally to the citing article. Small’s (1973) study, which first
+presented co-citation analysis, assesses the association between co-cited
+papers with the premise that, more often, co-cited papers demonstrate
+greater co-citation strength [102]. VOSviewer graphical visualization of
+a co-citation network is displayed below from the authors’ perspective.
+The co-citation connection of 192 authors whose citation is at least
+100 is depicted in Fig. 8a. The author ties are color-coded into three
+categories. The most central node represents Christopher, M., followed
+by Ivanov, D. and Tang, C.S. The more citations there are, the bigger the
+node. It means Christopher, M. has the most often referenced publications among these authors, followed by Ivanov, D. and Tang, C.S. As seen
+in Fig. 8b, the path connecting Ivanov, D. and Dolgui, A. has the thickest
+weight (TCS=86.46), followed by Sokolov, B. and Ivanov, D.
+(TCS=57.35). It denotes the strength of their co-citations. That is,
+Ivanov, D., and Dolgui are referenced 86.46 times they are referenced
+together.
+4.2.4. Co-citation of references
+Co-citation to references depicts the connection of objects by
+counting how many times they are referenced together. The main understanding of the study topic may be retrieved effectively and readily
+from the multitude of referenced references using co-citation analysis.
+Additionally, the significance of publications can be examined and
+mined. Papers having more than 100 citations of a cited reference were
+evaluated with VOS viewer, and 4 references are presented in Fig. 9.
+These four papers have six connections between the group and the TCS is
+174.50. Tang, C.S.’s article titled “Perspectives in supply chain risk
+management” has the greatest TCS (104), followed by the paper titled
+“Managing disruption risks in supply chains” by Kleindorfer, Pl and Saad
+G., H., with a TCS of 90 times.
+4.2.5. Co-occurrence analysis
+Occurrences. When working with keywords, the Occurrences property specifies how many documents include a term. The definition of the
+occurrences property when dealing with words is determined by the
+counting technique selected in the VOSviewer. The occurrences property in binary counting represents the number of papers in which a
+phrase emerges at least once. The occurrences property in complete
+counting specifies a phrase’s total number of occurrences in all
+documents.
+4.2.5.1. Co-occurrence to authors’ keywords. Co-occurrence to Authors’
+keywords is a bibliometric study that shows the frequency of keywords
+or phrases occurring in papers at the same time. Correlation is computed
+at the paper level in this study. The correlation shows the frequency with
+which two keywords appear together in a paper [72]. The stronger the
+connection between two terms, the higher their co-occurrence
+frequency.
+The power of connection is high within members of a shared cluster
+but low amongst components of distinct clusters. The minimum number
+of keyword co-occurrences was set to 10 for analysis. The requirement
+was met by 78 of the 3343 keywords. VOS viewer program computed the
+connection degree of the co-occurrence relationship with other phrases
+or keywords for each of the 78 terms. The graphic was created with the
+highest total connection power, and 78 keywords were color-coded and
+grouped into ten categories. Fig. 10 depicts the network analysis diagram based on the authors’ keywords. "supply chain risk management,"
+"supply chain risk," "risk management”, “supply chain," “risk mitigation,”, “agility,”, “supply chain disruption,” and “logistics” were the
+most frequently appeared keywords and listed with the highest TCS.
+4.2.5.2. Co-occurrence of terms in abstracts and titles. The co-occurrence
+of items in various documents can be determined through the analysis of
+relatedness. This type of analysis can be useful in identifying popular
+topics and trends in scientific research, leading to better monitoring and
+follow-up.
+The condition was set to analyze the relevancy of terms in abstracts
+and titles of articles so that a term appeared at least 10 times in all articles. Of the 25,751 terms, 761 satisfied the condition. 60% (457) were
+selected for the terms’ relevancy score calculation as a default value.
+VOSviewer created five clusters with the colors red, green, blue, yellow,
+and purple that are shown in the network diagram in Fig. 11. From 457
+items, some phrases irrelevant to the contents of articles, such as “future
+direction, ”future study”, “current study,” “proposal,” “research gap,”
+and others, were excluded from the list, and for the remained 391 items,
+VOSviewer provides a time-based visualization of terms called the
+Overlay Diagram, as depicted in Fig. 12.
+Each cluster has different terms or phrases related to a similar theme.
+Although all phrases in each cluster have been given as an Appendix, the
+Table 3
+The journals published articles in the field of SCR.
+Rank Journal The number
+of Articles
+The percentage
+of total
+1 International Journal of Production
+Research
+85 7.59%
+2 International Journal of Production
+Economics
+58 5.18%
+3 Supply Chain Management 39 3.48%
+4 International Journal of Logistics
+Management
+36 3.21%
+5 International Journal of Supply Chain
+Management
+32 2.86%
+6 Sustainability Switzerland 32 2.86%
+7 Computers And Industrial
+Engineering
+28 2.50%
+8 Annals of Operations Research 25 2.23%
+9 International Journal of Logistics
+Research and Applications
+23 2.05%
+10 International Journal of Operations
+and Production Management
+23 2.05%
+11 International Journal of Physical
+Distribution and Logistics
+Management
+22 1.96%
+12 Benchmarking 21 1.88%
+13 International Journal of Logistics
+Systems and Management
+20 1.79%
+14 Industrial Management and Data
+Systems
+16 1.43%
+15 Decision Sciences 15 1.34%
+16 Uncertain Supply Chain Management 15 1.34%
+17 Journal of Business Logistics 14 1.25%
+18 IEEE Transactions on Engineering
+Management
+13 1.16%
+19 Journal of Cleaner Production 13 1.16%
+20 Journal of Manufacturing Technology
+Management
+13 1.16%
+21 Omega United Kingdom 13 1.16%
+22 Production Planning and Control 13 1.16%
+23 Transportation Research Part E
+Logistics and Transportation Review
+13 1.16%
+24 Journal of Intelligent and Fuzzy
+Systems
+12 1.07%
+25 Supply Chain Forum 12 1.07%
+A. Emrouznejad et al. 
+Supply Chain Analytics 3 (2023) 100031
+11
+Fig. 5. The network diagram of co-authorship to authors.
+Fig. 6. Density mapping of Bibliographic coupling to the countries.
+A. Emrouznejad et al. 
+Supply Chain Analytics 3 (2023) 100031
+12
+most frequently appeared terms are the following:
+In the , the most frequently appeared terms are chain
+risk, relationship, issue, chain management, role, practitioner, knowledge, addition, supply chain performance, flexibility, support, chain
+manager, supply chain resilience, integration, dimension, topic, sample,
+manufacturing firm, conceptual framework, competitive advantage,
+supply chain integration, foundation, structural equation modeling, information sharing, innovation, business environment, policymaker, risk
+management practice, buyer, SMEs among 125 items.
+The has 102 terms, and frequently appeared terms in
+abstracts and titles are the following: risk assessment, decision making,
+set, decision maker, probability, loss, criterium, failure, AHP, priority,
+procedure, analytic hierarchy process, risk identification, competition,
+alternative, supply chain risk assessment, success, risk analysis, risk
+event, automotive industry, variety, supply chain partner, similarity,
+demand risk, operational risk, preference, risk evaluation, failure mode,
+opinion, risk management process, Indonesia, dependence, stability, risk
+source, environmental risk, financial risk.
+Contains 85 phrases, cost, problem, demand, covid, pandemic, scenario, increase, supply chain network, capacity, disruption risk, price,
+function, algorithm, disaster, simulation, parameter, selection, retailer,
+profit, trade, reliability, distribution, inventory, quantity, contract,
+constraint, availability, delay, supplier selection, account, experiment,
+amount, propagation, optimization, comparison, raw material, portfolio
+are the most prevalent in abstract and title terms that clustered in the
+.
+The terms include crisis, India, power, interdependency, modeling,
+standard, monitoring, map, input, regulation, growth, ism, safety, construction, discipline, consumer, party, society, health, food, internet,
+transparency, information, technology, energy, hierarchy, operator,
+Fig. 7. Co-authorship to the countries: a: Network Analysis Diagram, b: Overlay Diagram.
+Fig. 8. Network diagram of co-citation to the authors: a: General view, b: Zoomed view.
+A. Emrouznejad et al. 
+Supply Chain Analytics 3 (2023) 100031
+13
+access, emergence, validation, food industry, blockchain, conflict,
+nation, blockchain technology, interrelationship, comparative analysis,
+integrated approach, pathway, distributor, traceability, utility, barrier,
+training, interpretive structural modeling, law, date, interruption,
+quality risk, risk, perception, statistical analysis, interpretive structural
+modeling, water, construction industry, social medium, IoT are most
+frequently occurred terms in the .
+Good, location, classification, reference, pattern, facility, frequency,
+creation, transport, likelihood, secondary data, content, frame, Europe,
+Africa, and a large number are the terms clustered in the
+.
+As seen in the overlay diagram in Fig. 12, scholars have recently
+integrated disasters or outbreaks such as COVID-19 into their research.
+The zoomed sections of the overlay diagram placed in the upper and
+below pictures are illustrated on the right side of Fig. 12 whichindicates
+that scholars mainly concentrated on giving a solution as a response to
+unpredictable emergencies.
+5. Conceptual framework
+Based on the clusters that consist of most occurred terms in abstracts
+and titles of articles in the SC literature, we construct a conceptual
+Fig. 9. Network diagram of co-citation to the references.
+Fig. 10. Network diagram of co-occurrences to authors’ keywords.
+A. Emrouznejad et al. 
+Supply Chain Analytics 3 (2023) 100031
+14
+model for dealing with risks in firms’ SCM. The conceptual framework is
+based on five main dimensions, as illustrated in Fig. 13. To mitigate
+SCRs, the firms should be at a maturity level of the following dimensions: the firm’s competitiveness level, operational responsiveness
+level, decision-making capability level, monitoring capability level, and
+standardization for sustainability.
+5.1. Firm’s competitiveness level
+In the following subsections, these dimensions are explained. Due to
+globalization, offshore, and outsourcing growth, the consciousness of
+risks within SCs has increased as more stakeholders are engaged.
+Because of the inherent linkages, which can result in problems on both
+the supply and demand sides, globalization encourages risks in SCs [36].
+Many organizations overlook critical risks in their SCs, leading to significant problems. Recent events have highlighted the vulnerabilities
+Fig. 11. Network diagram of terms’ occurrences.
+Fig. 12. Overlay Diagram of terms’ occurrences.
+A. Emrouznejad et al. 
+Supply Chain Analytics 3 (2023) 100031
+15
+present in today’s complex SCs. Despite this, a systematic and structured
+approach to conceptualizing vulnerabilities and SCRs has only recently
+emerged [25]. Scientists and managers use vulnerability and disruption
+to characterize a risk-affected supply chain.
+Vulnerability is an encounter with disruptions caused by SCRs that
+impair the capacity to satisfy the demands of the end customer market
+[66]. Due to their limited resources, Small and Medium-Sized Enterprises (SMEs) are more vulnerable to SC disruptions, severely affecting
+their financial performance, competitive advantage, and survival.
+However, the lack of knowledge and the absence of a theoretical foundation limit the development of SCRM practice in SMEs, especially for
+policymakers, SC professionals, and practitioners.
+It was argued that organizations’ main reasons for using risk management strategies are increased global rivalry, technological development, and the constant pursuit of competitive advantage. Similarly,
+more risks were present in the SCRM and performance chain context,
+and new strategies were required to manage them. The need to provide
+acceptable performance measurements and metrics to assess, inform,
+and guide operational and strategic choices underlies these advancements in SCRM [39]. That means SC resilience and agility are a foundation for competitive advantage, as they provide flexibility,
+responsiveness, and adaptability in an uncertain business environment.
+Resilience refers to an organization’s ability to swiftly return to an
+original working condition following a disruption, i.e., the ability to
+’’bounce back from hardship’’. This behavior is analogous to an elastic
+material under extreme pressure. The phrase will be considered equivalent to agile at the same time, to express the essential word of flexibility
+represented by resilient [35].
+Agility is one of the most successful paths to design a resilient SC
+since it evaluates the ability to respond swiftly to changing situations.
+Agility effectively changes operating states to respond to external uncertainty or market volatility. A corporation may adapt quickly to
+market shifts and anticipated SC disruptions by planning for agility, a
+risk management technique [29].
+SC managers and account executives are two managers tmainly
+influenced by the developments. Both roles are growing in strategic
+relevance and are becoming more engaged in the development of interorganizational value and relationship management. The responsibilities
+of SC managers are changing from functional to tactical. Their primary
+concerns, including operational tasks such as contract generation,
+negotiating, complying with contracts, expediting, planning, and
+scheduling, have evolved dramatically over the last decade, frequently
+through diverse standardization and automation. Still, SC experts have
+also been increasingly engaged in strategic decision-making in complete
+life cycle management, most notably proactively extending into the
+design process and adopting collaborative innovation approaches in
+solving issues and risk mitigation inside the SC [103].
+Research into the antecedents of SC resilience has shown that factors
+such as trust, information sharing, and culture play a vital role in
+building a resilient SC. Furthermore, it has been suggested that SC agility
+is an enabler of resilience and can significantly impact firm
+performance.
+Organizational culture is vital for successful SCM. Employee attitudes toward information sharing, cooperation, and risk-taking are
+influenced by organizational culture. Trust and interpersonal interactions in the workplace enhance company culture. In the lack of
+excellent corporate culture, achieving objectives might be challenging
+[104]. An awareness of the underlying corporate cultural features,
+strategic goals, and behavioral habits is required to design SC information infrastructures effectively. According to Roh etal., (2008) [105], the
+organizational culture of a chief or primary firm impacts suppliers and
+distributors in the same SC. The integration of external partners and the
+alignment of the SCRM practice with the business strategy are critical
+enablers to enhance SC performance.
+5.2. Operational responsiveness level
+The COVID-19 outbreak has wreaked havoc on the global SC
+network. As a result, the cost of goods has increased, demand has fluctuated, and SCs have been put under immense strain. The pandemic has
+increased demand for certain products, such as personal protective
+equipment, while other products have experienced a decrease in order.
+It has resulted in a raw material shortage, further exacerbating the
+problem. The disruption risk has also increased, with many SC members
+needing help maintaining their operations due to delays and availability
+constraints. To diminish the influence of the pandemic, SC practitioners
+have implemented various strategies such as postponement, safety
+stock, and order allocation. However, these strategies require a trade-off
+between cost and reliability, as increasing safety stock or postponing
+production can increase the total cost of the SC.
+The pandemic has reminded the importance of preparedness for such
+disasters. SC practitioners and investors have had lessons from the
+outbreak to optimize their SC network and improve their profitability in
+the long term. Many scholars focus on the critical areas of SCM affected
+by the pandemic, such as SC design, inventory management, demand
+uncertainty, and SC cost.
+SC disruption is commonly operationalized through self-reported
+impact on six cross-functional metrics: prices, operational efficiency,
+quality, responsiveness, reliability, and sales. This measure should
+continue to be used, as it provides a parsimonious and holistic measure
+of results.
+The frequency of recurrence has been quantified on a rating system
+Fig. 13. Conceptual Model for Mitigation SCRs.
+A. Emrouznejad et al. 
+Supply Chain Analytics 3 (2023) 100031
+16
+that spans zero to regular, although temporal assessments might be more
+objective. Safety inventory is a crucial buffering approach, and future
+research should use more objective criteria to allow for cross-study
+comparability. Most research projects are conducted from the standpoint of the focus company, but a more nuanced measure of the SC
+network perspective is essential. SC resilience is a necessary construct,
+but there is no agreement on how to define it. Longitudinal studies are
+necessary to understand how SCRM evolves and how firms learn and
+adapt in response to disruptions [75].
+In this context, firms’ SC partners must acquire competencies to
+protect their operations in case of an interruption.
+The risks that cause problems companies experience due to poor
+coordination or contract with vendors. Hence, the researcher proposed
+new contract designs that ensure risk and revenue sharing with vendors.
+The pricing strategy is one of the critical factors that play in contracting.
+For example, due to credit risk, many companies become disadvantaged.
+Some studies, therefore, utilized game theory or the Stackelberg game.
+Game theory has been employed in advanced food and agricultural
+research, such as examining various coordination techniques between
+farmers and retailers under production and demand uncertainty [106].
+On the other hand, others have proposed dynamic modeling to better
+control inventory and production. [63] discovered a few methods for
+this purpose, including missing the target MtT, mean-variance, exponential function utility, and value at risk.
+Value-at-Risk (VAR) originating from the financial services business
+is a statistical measure of risk. It was initially designed to analyze the risk
+of an economic portfolio, and it is increasingly used to examine different
+hazards that a company faces. VAR’s power to give a uniform gauge for
+assessing and controlling risks throughout the company is one of its
+primary capabilities. It estimates the maximum amount a business may
+anticipate losing on an investment over a particular time at a given
+confidence level in dollars or any currency [37].
+The review article by [35] explores different mathematical models
+used in SCRM. It discusses the application of Value-at-Risk (VaR) and
+Conditional-Value-at-Risk (CVaR) to single-echelon and multi-echelon
+inventory management problems. The study examines research investigating risk analysis payment delays and various SC contracts, such as
+SC discount contracts, wholesale pricing contracts, and returns policies.
+The article also highlights the issue of information asymmetry in SCM
+and how it has become a hot topic in the last decade, with various
+studies exploring the ideal contractual structure under information
+asymmetry.
+When each SC partner places their order separately in a situation
+where consumer demand follows an AR (1) process, it has been
+demonstrated that this locally optimum ordering choice would produce
+the ’’bullwhip’’ effect, which creates operational inefficiencies. On the
+other hand, when consumer demand is a predictable and decreasing
+function of the retail cost, each SC partner gives their ordering choice by
+maximizing their profit for the case; it turns out that these locally
+optimal choices lead to lower overall earnings for the whole SC.
+Recently, there has been a surge in curiosity in SC contract analysis to
+increase efficiency in operations or SC coordination. Usually, supply
+contract concepts assume an SC with a single manufacturer (supplier)
+and one retailer (buyer) who must meet consumer demand [38].
+Heuristic, Multi-Objective (MO), Multi-Integer-linear Programing
+(MILP), Multi-Integer-Programing (MIP), Linear Programing (LP),
+Lagrangian Relaxation (LR), Genetic Algorithm (GA), probabilistic and
+stochastic programming, and Monte Carlo Simulation are primarily
+employed in mathematical methods.
+Suryawanshi and Dutta (2022) [80] demonstrated that the scholars
+who used techniques in SCRM are in this way: 44% for MILP and MINLP,
+18% for LR, 10% for MCDM, 8% for Analytical, 8% for Simulation, in the
+literature.
+In the literature, various risk mitigation strategies exist for SCM,
+including postponement and flexibility. Product development, production, and logistical postponement are all examples of postponement
+techniques, while flexibility strategies contain flexible pricing, supply,
+and contractual strategy. Possible responses include resource flexibility
+systems and run-out reaction activities. Finally, a stochastic multiobjective mixed integer programming approach has been proposed to
+establish optimal workflows for a multinational corporation doing
+business in several countries [47].
+5.3. Decision-making capability level
+SCR assessment involves the identification of potential risk sources
+and competition among alternative SC partners. Choosing suppliers is
+crucial to a company’s ability to control SCRs. The critical issue of today’s managers is locating ideal suppliers who will provide the right
+items at the correct spot at the right price and at the right time. The
+product must also be supplied in the proper quantity, with the appropriate information, and, most importantly, with a minor interruption.
+Therefore, when choosing suppliers, businesses should consider all
+facets of a candidate’s performance, including price, product quality,
+quantity, and service, and associated risks, including uncertainty,
+vulnerability, and potential supply disruption [63].
+In the automotive industry, SCRM is a critical issue due to the variety
+of components and suppliers involved. Failure in any part of the SC
+system can result in significant losses for the entire industry. The
+Technique for Order Preference by Similarity to Ideal Solution (TOPSIS),
+Failure Modes and Effects Analysis (FMEA), Multi-Criteria Decision
+Making (MCDM), and Monte Carlo simulation are quantitative methods
+for sustainable SC ranking and criticality analysis in the automotive and
+pharmaceutical industries.
+Identifying and quantifying critical risks and involving all stakeholders in the decision-making process is essential for the stability and
+success of the SC system. The accuracy and validity of the risk analysis
+are pressing issues that need to be addressed to find the ideal solution for
+sustainable SCM.
+Sustainable supplier selection.
+5.4. Monitoring capability level
+Crises can arise from multiple factors, such as natural disasters,
+conflicts, or technological interruptions. On the other hand, data falsification, supply chain fraud, counterfeit manufacturing, digital security
+threats, intellectual property theft, and contract violations are examples
+of how malicious risks can manifest. According to the report, 33% of fish
+samples had erroneous labels, and SC fraud has been called the "single
+most exposed area" of fraud. Counterfeit manufacturing has also become
+a significant issue in the automotive SC [28]. These are inevitable and
+can have far-reaching effects on society, the economy, and the
+environment.
+Logistics and SCM play an essential role in the food industry to
+ensure the supply of safe, healthy, and nutritious food. Due to the
+perishable nature of agri-food, there is a high risk of damage from the
+farmer to the consumer. The agri-food SC is also unique and is classified
+into two categories: fresh agri-food and non-perishable agri-food. The
+transportation of food is also critical to maintaining food safety and
+quality, as controlling the temperature will reduce microbial growth in
+food. The Food and Agriculture Organization (FAO) has established
+guidelines for risk classification of food and food businesses to improve
+food safety by enhancing food inspection systems. However, risk cannot
+be eliminated but mitigated through a proactive approach [107].
+Collaborative disruption risk management is essential to reduce
+risks, improve disruptions, and achieve responsiveness and high
+customer service. Because they provide capabilities like information
+sharing, customer sensitivity, and process integration, Information and
+Communication Technology (ICT) tools are essential for achieving
+collaborative perception [108].
+Greater adaptability to cost fluctuation might be attained through
+more intelligent cost-control approaches and collaborative risk
+A. Emrouznejad et al. 
+Supply Chain Analytics 3 (2023) 100031
+17
+management along the entire supply chain; consumer feedback should
+permeate the SC through more profound customer experiences, and the
+global SC should be intelligently incorporated and optimized.
+In particular, intelligent manufacturing may be a crucial strategy for
+implementing more competent SCM. Manufacturing, engineering, the
+usage of materials, the SC, and life cycle management were all entirely
+redesigned by Industry 4.0 [70].
+Big data analytics, machine learning, drones, the Internet of Things,
+advanced robotics, the sharing economy, cloud computing, 3D printing,
+and blockchain are just a few of the nine cutting-edge technologies it
+incorporates and heavily uses SSCM [70].
+However, digital security is a problem that must be addressed in the
+"Digital Dimension" to attain supply chain intelligence. The digitization
+process’s governance will determine the future direction of supply
+chains. As a result, the risks covered by SSCM are heavily focused on
+events involving Information Technology (IT) and data security. Digital
+security has lately concentrated on safeguarding corporate information,
+resolving network issues, and coordinating and integrating operational
+technology. Another significant cyber problem for the supply chain
+community is the slight growth in the number of gateways handled by
+cloud-based and Internet of Things (IoT) systems [70].
+Conventional IT lacks real-time adaptation and concentrates on
+dyadic settings of cooperation, and supply chain process reconfiguration
+can be rigid and expensive to maintain. Adopting multi-agent modeling,
+a branch of AI, may be a practical tool for making decisions in supply
+chains. These agents might communicate and work together inside and
+across enterprises, enabling the automatic real-time correction of SC
+operations [108].
+As a rapidly growing nation, India depends on its power and energy
+sectors for growth and development.
+In such a scenario, interdependency between various sectors becomes crucial, and modeling the same can help in standardizing the
+monitoring of the system.
+The role of blockchain technology, regulatory discipline, and safety
+measures ensure transparency and traceability in the SC, with specific
+reference to the food industry.
+5.5. Standardization for Sustainability
+The Takata airbag recall, the Volkswagen emissions scandal, and the
+horsemeat scandal are just a few instances that illustrate the dangers of
+malicious behavior in SCs. Each time, the businesses engaged in
+dishonest behavior that negatively impacted every link in the SC.
+The success of any business depends mainly on its SCM. With the
+increasing complexity of global trade, SCRs have become a significant
+concern for companies worldwide.
+Classification is another critical factor in mitigating SCRs. By classifying suppliers based on their level of risk, companies can prioritize
+their risk management efforts. This can be done by analyzing the supplier’s financial stability, reputation, and compliance with regulations.
+Reference patterns are another useful tool in risk management. By
+analyzing historical data, companies can identify patterns in supplier
+performance, transportation delays, and other risk factors. This information can be used to develop proactive measures to prevent future
+disruptions.
+Regular inspections can help identify potential risks and prevent
+disruptions before they occur.
+The creation of a robust transport network is also critical in mitigating SCRs. Companies should have multiple transportation options,
+including air, sea, and land transport, to ensure that they can quickly
+adapt to changing market conditions and disruptions.
+6. Conclusions, limitations, and direction for future
+implications
+6.1. Finding and discussing
+This paper examined the recent state of investigations on SCM. The
+review aimed to present the current state of SCRM studies, identify holes
+in the literature, and underline emergent areas requiring more investigation. In an unpredictable and competitive corporate climate, the review investigates several risk concerns in SCM. It provides a thorough
+and organized examination of the SCRM literature to offer a complete
+grasp of the subject. The scope of the evaluation includes risk identification, assessment, mitigation, and monitoring. It also emphasizes the
+need for SC partners to cooperate and exchange information to successfully manage risks. The review concludes by identifying rising topics
+including the use of technology, big data analytics, and blockchain in
+SCRM.
+This paper identifies three categories of risk sources in SCs: environmental, network-related, and organizational, and highlights risk
+drivers and risk-mitigating strategies, including avoidance, control,
+cooperation, and flexibility. According to them, SCRM involves comprehending risk assessment, recognizing the SC’s risk theme, identifying
+risk drivers, and managing risks in the SC. Developing AI risk management models can improve SC competence in the new dynamic and
+business environment.
+Further investigations are necessary to fully understand risk and its
+SCM. There is a need to explore how organizations manage SCRs,
+including the processes and techniques used to define and analyze SCRs,
+how firms benchmark their SCR processes, and how companies evaluate
+their SCR profile and develop risk contingencies. In conclusion, managing SCR should be an essential activity for most organizations, and to
+understand this, a three-pronged research agenda is vital involving the
+study of risk, in-depth empirical research, and the creation of solid and
+well-founded risk management systems that include risk management
+tools and approaches from different academic areas.
+Integrating Machine Learning (ML) into SCRM has provided
+numerous benefits, including increased flexibility and response time,
+higher reliability and precision, and integration of new data sources.
+However, there needs to be more research in practical use cases and
+guidance for companies on integrating ML into SCRM. The integration of
+ML also necessitates innovative assessment principles and changes to the
+qualification requirements for SCR managers. While ML can improve
+decision-making and mitigate potential biases, it also requires high
+initial investments and legal issues regarding data collection and usage
+for risk management. More detailed use cases and empirical studies are
+needed to better understand ML’s positive effect on SCRM [76].
+According to Cunha et al., (2019) [109], The majority of businesses
+lack an established SCRM and mitigation framework. Some research
+defines sustainability risks and develops a realistic management model
+for SCRs connected to sustainability. The distribution of risk in
+public-private collaborations is also discussed. The articles are focused
+on recognizing the social hazards that firms face. The two most common
+repercussions in the sample of articles are reputational harm and
+financial losses. The framework understands that stakeholders will
+respond if a social risk scenario exists in an organization’s SC, resulting
+in implications for the enterprise. According to the concept, controlling
+a company’s social risks can begin with determining its stakeholders and
+the process that results from already outlined social hazards. In
+conclusion, this study contributed to the current literature by proposing
+a conceptual frame highlighting the SCRM’s vital role in enhancing SC
+performance. The framework provides a theoretical foundation for
+policymakers, SC professionals, and practitioners to develop and
+implement effective SCRM strategies to build a resilient and agile SC.
+In conclusion, effective SCRM is crucial for firms to maintain
+competitiveness and achieve long-term success in today’s globalized and
+complex business environment. The literature has highlighted various
+A. Emrouznejad et al. 
+Supply Chain Analytics 3 (2023) 100031
+18
+factors that impact the level of SCRs, such as globalization, operational
+responsiveness, decision-making capability, and monitoring capability.
+It has also emphasized the importance of developing resilient and agile
+SCs through trust, information sharing, and culture. However, there are
+still limitations in the literature, such as the lack of a theoretical foundation for SCRM practice in SMEs and the absence of a consensus on how
+to define SC resilience. Future research should focus on developing
+standardized guidelines for sustainable SCM, exploring emerging technologies’ impact on risk management and transport logistics, and
+investigating the feasibility and effectiveness of using drones to mitigate
+SCRs. Overall, the key is for companies to prioritize risk management
+and proactively assess and mitigate potential disruptions to maintain
+stable and efficient SCs.
+6.2. Limitations and future implications
+The limitation is that due to the VOSviewer nature, we could not
+change plural terms into the singular form, nor did we standardize
+identical phrases like ’resilient,’ ’resiliency,’ and resilience,’ which
+could bring about a decreased value of the phrases that convey the
+actual study term and thus affect the reliability of network clustering
+[61].
+The study has some research limitations and social implications.
+Furthermore, the study is limited to SMEs, and future research could
+explore the impact of SCRM on large companies.
+The existing literature on SCRM has been reviewed in several studies.
+Future research in this area could focus on emerging topics such as the
+impact of new technologies on SCRM, the role of social and environmental risks, and the integration of risk management into SC sustainability efforts. Additionally, there is a need for more empirical research
+to validate existing frameworks and models and to explore the effectiveness of different risk management strategies in different contexts.
+The possible future investigations can be summarized as follows:
+6.2.1. Firm’s competitiveness level
+• Developing a systematic and structured approach to conceptualizing
+vulnerabilities and SCRs in SMEs for policymakers, SC professionals,
+and practitioners.
+• Creating new strategies to operate and control the risks present in the
+SCRM and performance chain context.
+• Providing acceptable performance measurements and metrics to
+assess, inform, and guide operational and strategic choices in SCRM.
+• Focusing on research to recognize the importance of trust, information sharing, and culture in building a resilient SC.
+• Establishing methods to improve the organizational culture for successful SCM.
+• Identifying and producing achievable goals to improve organizational culture and employee attitudes towards information sharing,
+cooperation, and risk-taking.
+• Examining the effect of SC managers and account executives on
+inter-organizational value and relationship management.
+• Investigating how external partners’ integration and aligning the
+SCRM practice with business strategy can boost SC performance.
+• Exploring the impact of agility as an enabler of resilience on firm
+performance.
+• Enhancing the resilience and agility of SC through collaborative
+innovation approaches in solving issues and risk mitigation.
+6.2.2. Operational responsiveness level
+• Developing new strategies that trade-off between cost and reliability
+to meet the disruption risk due to pandemics like COVID-19.
+• Quantifying recurrence frequency using temporal assessments to
+achieve more objective criteria for cross-study comparability.
+• Measuring SC resilience from a more nuanced SC network perspective to better understand how firms learn and adapt in response to
+disruptions.
+• Developing new contract designs that ensure risk and revenue
+sharing with vendors to protect companies in case of interruptions.
+• Using game theory to examine various coordination techniques between farmers and retailers under production and demand
+uncertainty.
+• Exploring how an ideal contractual structure can solve information
+asymmetry in SCM.
+6.2.3. Decision-making capability
+• Developing ideal solutions for sustainable SCM and accurately and
+validly addressing pressing issues related to risk analysis.
+• Identifying and quantifying critical risks and involving all stakeholders in the decision-making process for the stability and success of
+the SC system.
+• Collaborative disruption risk management using information and
+communication technology (ICT) tools to reduce risks, improve disruptions, and achieve responsiveness and high customer service.
+• Implementing intelligent manufacturing is a crucial strategy for
+more competent SCM.
+• Exploring the role of multi-agent modeling, a branch of AI, as a
+practical tool for making decisions in SCs.
+• Modeling the interdependency between various sectors, especially in
+rapidly growing nations like India, and standardizing the monitoring
+of the system.
+• Enhancing blockchain technology, regulatory discipline, and safety
+measures to ensure transparency and traceability in the SC system,
+especially with specific reference to the food industry.
+6.2.4. Standardization for Sustainability
+• Developing standardized global guidelines for sustainable SCM
+practices that can be universally implemented to mitigate SCRs
+caused by malicious behavior and ensure transparency in every link
+of the SC.
+• Investigating the impact of cultural and regional differences on the
+effectiveness of risk management strategies in SCM for different regions, such as Africa and Europe.
+• Exploring the use of artificial intelligence (AI) and machine learning
+algorithms to classify suppliers based on risk factors, improve the
+accuracy of risk management efforts, and prioritize proactive measures to prevent future disruptions.
+• Investigating the impact of emerging technologies like blockchain,
+IoT, and cloud computing on risk management and transport logistics in SCM and developing innovative solutions to mitigate potential
+risks.
+• Studying the feasibility and effectiveness of using drones as a sustainable and cost-effective mode of transportation to mitigate SCRs
+caused by transportation delays and geopolitical tensions.
+Ethical approval
+Not applicable.
+Funding
+There is no funding.
+Declaration of Competing Interest
+The authors declare that they have no known competing financial
+interests or personal relationships that could have appeared to influence
+the work reported in this paper.
+A. Emrouznejad et al. 
+Supply Chain Analytics 3 (2023) 100031
+19
+Acknowledgements
+The authors would like to thank Prof. Madjid Tavana, Editor-in-Chief
+of Supply Chain Analytics, and three anonymous Reviewers for their
+insightful and constructive comments and suggestions.
+Authors’ contributions
+All authors are contributors at all stages.
+Consent to participate
+Not applicable.
+Consent to publish
+Not applicable.
+References
+[1] A. Deiva Ganesh, P. Kalpana, Future of artificial intelligence and its influence on
+supply chain risk management – a systematic review, Comput. Ind. Eng. (2022)
+169, https://doi.org/10.1016/j.cie.2022.108206.
+[2] S. Abbasi, M. Daneshmand-Mehr, A. Ghane Kanafi, The sustainable supply chain
+of CO2 emissions during the coronavirus disease (COVID-19) pandemic, J. Ind.
+Eng. Int. 17 (4) (2021) 83–108, https://doi.org/10.30495/
+JIEI.2022.1942784.1169.
+[3] M. Er Kara, S.Ü. Oktay Fırat, A. Ghadge, A data mining-based framework for
+supply chain risk management, Comput. Ind. Eng. (2020) 139, https://doi.org/
+10.1016/j.cie.2018.12.017.
+[4] S. Abbasi, H.A. Khalili, M. Daneshmand-Mehr, M. Hajiaghaei-Keshteli,
+Performance measurement of the sustainable supply chain during the covid-19
+pandemic: a real-life case study, Found. Comput. Decis. Sci. 47 (4) (2022)
+327–358, https://doi.org/10.2478/fcds-2022-0018.
+[5] S. Abbasi, M. Daneshmand-Mehr, A. Ghane Kanafi, Designing sustainable
+recovery network of end-of-life product during the COVID-19 pandemic: a real
+and applied case study, Discret. Dyn. Nat. Soc. (2022) 2022, https://doi.org/
+10.1155/2022/6967088.
+[6] S. Abbasi, H.A. Choukolaei, A systematic review of green supply chain network
+design literature focusing on carbon policy, Decis. Anal. J. (2023), 100189,
+https://doi.org/10.1016/j.dajour.2023.100189.
+[7] A. Guo, J. Lu, H. Tan, et al., Risk factors on admission associated with hospital
+length of stay in patients with COVID-19: a retrospective cohort study, Sci. Rep.
+11 (2021) 7310.
+[8] G. Collatuzzo, P. Boffetta, Cancers attributable to modifiable risk factors: a road
+map for prevention, Annu Rev. Public Health 44 (2023) 279–300.
+[9] D. Kershenobich, F. Higuera-de-la Tijera, N. Flores, et al., Hepatitis C screening
+and detection program in a large population: Epidemiological transition and
+characterization of the disease, Liver Int. (2023).
+[10] S. Abbasi, M. Daneshmand-Mehr, K. Ghane, Designing a tri-objective, sustainable,
+closed-loop, and multi-echelon supply chain during the COVID-19 and
+lockdowns. Foundations of computing and decision sciences 48 (2023) 1.
+[11] S. Abbasi, M. Daneshmand-Mehr, A. Ghane Kanafi, Green closed-loop supply
+chain network design during the coronavirus (COVID-19) pandemic: a case study
+in the Iranian automotive industry, Environ. Model. Assess. 28 (1) (2023)
+69–103, https://doi.org/10.1007/s10666-022-09863-0.
+[12] I.Y. Wuni, G.Q.P. Shen, A.T. Mahmud, Critical risk factors in the application of
+modular integrated construction: a systematic review, Int. J. Constr. Manag. 22
+(2022) 133–147, https://doi.org/10.1080/15623599.2019.1613212.
+[13] S. Abbasi, B. Erdebilli, Green closed-loop supply chain networks’ response to
+various carbon policies during COVID-19, Sustainability 15 (4) (2023) 3677,
+https://doi.org/10.3390/su15043677.
+[14] S. Benzidia, N. Makaoui, O. Bentahar, The impact of big data analytics and
+artificial intelligence on green supply chain process integration and hospital
+environmental performance, Technol. Forecast Soc. Change 165 (2021), 120557.
+[15] M.S. Shahbaz, A.G. Kazi, B. Othman, et al., Identification, assessment and
+mitigation of environment side risks for Malaysian manufacturing, Eng., Technol.
+Appl. Sci. Res. 9 (2019) 3851–3857.
+[16] N.A. Choudhary, S. Singh, T. Schoenherr, M. Ramkumar, Risk assessment in
+supply chains: a state-of-the-art review of methodologies and their applications,
+Ann. Oper. Res 322 (2023) 565–607.
+[17] Mann M., Putsche V.2022 , Semiconductor-Supply Chain Deep Dive Assessment.
+USDOE Office of Policy (PO).
+[18] I. Kazancoglu, M. Sagnak, S. Kumar Mangla, Y. Kazancoglu, Circular economy
+and the policy: a framework for improving the corporate environmental
+management in supply chains, Bus. Strategy Environ. 30 (2021) 590–608.
+[19] A. Sibevei, A. Azar, M. Zandieh, et al., Developing a risk reduction support system
+for health system in Iran: a case study in blood supply chain management, Int J.
+Environ. Res Public Health (2022) 19, https://doi.org/10.3390/ijerph19042139.
+[20] P.K. Tarei, J.J. Thakkar, B. Nag, Benchmarking the relationship between supply
+chain risk mitigation strategies and practices: an integrated approach,
+Benchmarking 27 (2020) 1683–1715, https://doi.org/10.1108/BIJ-12-2019-
+0523.
+[21] A. Shishodia, R. Sharma, R. Rajesh, Z.H. Munim, Supply chain resilience: a
+review, conceptual framework and future research, Int. J. Logist. Manag. (2021),
+https://doi.org/10.1108/IJLM-03-2021-0169.
+[22] M. Shekarian, M. Mellat Parast, An Integrative approach to supply chain
+disruption risk and resilience management: a literature review, Int. J. Logist. Res.
+Appl. 24 (2021) 427–455, https://doi.org/10.1080/13675567.2020.1763935.
+[23] G.M. Magableh, Supply chains and the COVID-19 pandemic: a comprehensive
+framework. European, Manag. Rev. 18 (2021) 363–382.
+[24] E.J. Perkins, R. Ashauer, L. Burgoon, et al., Building and applying quantitative
+adverse outcome pathway models for chemical hazard and risk assessment,
+Environ. Toxicol. Chem. 38 (2019) 1850–1865.
+[25] U. Jüttner, H. Peck, M. Christopher, Supply chain risk management: outlining an
+agenda for future research, Int. J. Logist. Res. Appl. 6 (2003) 197–210, https://
+doi.org/10.1080/13675560310001627016.
+[26] E. Simangunsong, L.C. Hendry, M. Stevenson, Supply-chain uncertainty: a review
+and theoretical foundation for future research, Int J. Prod. Res 50 (2012)
+4493–4523.
+[27] S. Rao, T.J. Goldsby, Supply chain risks: a review and typology, Int. J. Logist.
+Manag. 20 (2009) 97–123, https://doi.org/10.1108/09574090910954864.
+[28] S. DuHadway, S. Carnovale, Malicious Supply Chain Risk: A Literature Review
+and Future Directions, Springer Series in Supply Chain Management. Springer
+Nature,, 2019, pp. 221–231.
+[29] M.M. Parast, M. Shekarian, The Impact of Supply Chain Disruptions on
+Organizational Performance. A Literature Review, Springer Series in Supply
+Chain Management. Springer Nature, 2019, pp. 367–389.
+[30] I. Heckmann, T. Comes, S. Nickel, A critical review on supply chain risk -
+definition, measure, and modeling, Omega 52 (2015) 119–132.
+[31] N.S. Hudin, H. Ayoup, N.F. Habidin, et al., Mitigation strategies in supply chain
+risk management: a literature review, Cent. Asia Cauc. 22 (2021) 481–500,
+https://doi.org/10.37178/ca-c.21.5.043.
+[32] Y. Fan, M. Stevenson, A review of supply chain risk management: definition,
+theory, and research agenda, Int. J. Phys. Distrib. Logist. Manag. 48 (2018)
+205–230.
+[33] J.R. Macdonald, C.W. Zobel, S.A. Melnyk, S.E. Griffis, Supply chain risk and
+resilience: theory building through structured experiments and simulation, Int J.
+Prod. Res 56 (2018) 4337–4355, https://doi.org/10.1080/
+00207543.2017.1421787.
+[34] Qazi A., Quigley J., Dickson A. , 2015 Supply Chain Risk Management: Systematic
+literature review and a conceptual framework for capturing interdependencies
+between risks. In: Proceedings of the 2015 International Conference on Industrial
+Engineering and Operations Management Dubai, United Arab Emirates (UAE),
+March 3 – 5.
+[35] H.C. Pfohl, H. Kohler, ¨ D. Thomas, State of the art in supply chain risk
+management research: empirical and conceptual findings and a roadmap for the
+implementation in practice, Logist. Res. 2 (2010) 33–44, https://doi.org/
+10.1007/s12159-010-0023-8.
+[36] I. Kilubi, H.D. Haasis, Supply chain risk management research: avenues for
+further studies, Int. J. Supply Chain Oper. Resil. 2 (2016) 51, https://doi.org/
+10.1504/ijscor.2016.075899.
+[37] D. Shi, A review of enterprise supply chain risk management, J. Syst. Sci. Syst.
+Eng. 13 (2004) 219–244.
+[38] C.S. Tang, Perspectives in supply chain risk management, Int J. Prod. Econ. 103
+(2006) 451–488.
+[39] B. Ritchie, C. Brindley, Supply chain risk management and performance: a
+guiding framework for future development, Int. J. Oper. Prod. Manag. 27 (2007)
+303–322, https://doi.org/10.1108/01443570710725563.
+[40] O. Khan, B. Burnes, Risk and supply chain management: creating a research
+agenda, Int. J. Logist. Manag. 18 (2007) 197–216, https://doi.org/10.1108/
+09574090710816931.
+[41] I. Vanany, N. Pujawan, Supply chain risk management: literature review and
+future research, Int’l J. Inf. Syst. Supply Chain Manag. 2 (2009) 16–33.
+[42] D.L. Olson, D. Dash, A review of enterprise risk management in supply chain,
+Kybernetes 39 (2010) 694–706.
+[43] O. Tang, S. Nurmaya Musa, Identifying risk issues and research advancements in
+supply chain risk management, Int J. Prod. Econ. 133 (2011) 25–34, https://doi.
+org/10.1016/j.ijpe.2010.06.013.
+[44] M.S. Sodhi, B.G. Son, C.S. Tang, Researchers’ perspectives on supply chain risk
+management, Prod. Oper. Manag 21 (2012) 1–13, https://doi.org/10.1111/
+j.1937-5956.2011.01251.x.
+[45] C. Colicchia, F. Strozzi, Supply chain risk management: a new methodology for a
+systematic literature review, Supply Chain Manag. 17 (2012) 403–418.
+[46] A. Ghadge, S. Dani, R. Kalawsky, Supply chain risk management present and
+future scope, Int. J. Logist. Manag. 23 (2012) 313–339.
+[47] D. Bandaly, L. Shanker, Y. Kahyaoglu, et al., Supply chain risk management-II: a
+review of individual and integrated operational and financial approaches, Risk
+Manag. 15 (2013) 1–31.
+[48] P. Santos Ceryno, L. Felipe Scavarda, K. Klingebiel Professor, G. Yüzgülec, Supply
+chain risk management: a content analysis approach, Int. J. Ind. Eng. Manag.
+(IJIEM) 4 (2013) 141–150.
+[49] Singh G., Wahid N.A. , 2014 , Supply Chain Risk Management: A Review.
+[50] W. Ho, T. Zheng, H. Yildiz, S. Talluri, Supply chain risk management: a literature
+review, Int J. Prod. Res 53 (2015) 5031–5069.
+A. Emrouznejad et al. 
+Supply Chain Analytics 3 (2023) 100031
+20
+[51] B. Fahimnia, C.S. Tang, H. Davarzani, J. Sarkis, Quantitative models for
+managing supply chain risks: a review, Eur. J. Oper. Res 247 (2015) 1–15.
+[52] D.A. Rangel, T.K. De Oliveira, M.S.A. Leite, Supply chain risk classification:
+discussion and proposal, Int J. Prod. Res 53 (2015) 6868–6887, https://doi.org/
+10.1080/00207543.2014.910620.
+[53] C.H. Chiu, T.M. Choi, Supply chain risk analysis with mean-variance models: a
+technical review, Ann. Oper. Res 240 (2016) 489–507, https://doi.org/10.1007/
+s10479-013-1386-4.
+[54] I. Kilubi, The strategies of supply chain risk management – a synthesis and
+classification, Int. J. Logist. Res. Appl. 19 (2016) 604–629.
+[55] M. Ivanov, A. Dolgui, B. Sokolov, M. Ivanova, Literature review on disruption
+recovery in the supply chain, Int J. Prod. Res 55 (2017) 6158–6174, https://doi.
+org/10.1080/00207543.2017.1330572ï.
+[56] M. Hudnurkar, S. Deshpande, U. Rathod, S.K. Jakhar, Supply chain risk
+classification schemes: a literature review, Oper. Supply Chain Manag. 10 (2017)
+182–199.
+[57] Q. Zhu, H. Krikke, M.C.J. Cani¨els, Integrated supply chain risk management: a
+systematic review, Int. J. Logist. Manag. 28 (2017) 1123–1141, https://doi.org/
+10.1108/IJLM-09-2016-0206.
+[58] M.S. Shahbaz, R.Z.R.M. Rasi, M.F. Ahmad, F. Bin, Rehman, What is supply chain
+risk management? A Rev. Adv. Sci. Lett. 23 (2017) 9233–9238.
+[59] S. Prakash, G. Soni, A.P.S. Rathore, A critical analysis of supply chain risk
+management content: a structured literature review, J. Adv. Manag. Res. 14
+(2017) 69–90.
+[60] U.R. de Oliveira, F.A.S. Marins, H.M. Rocha, V.A.P. Salomon, The ISO 31000
+standard in supply chain risk management, J. Clean. Prod. 151 (2017) 616–633.
+[61] V. Rajagopal, S. Prasanna Venkatesan, M. Goh, Decision-making models for
+supply chain risk mitigation: a review, Comput. Ind. Eng. 113 (2017) 646–682.
+[62] T.H. Tran, M. Dobrovnik, S. Kummer, Supply chain risk assessment: a content
+analysis-based literature review, Int. J. Logist. Syst. Manag. 31 (2018) 562–591,
+https://doi.org/10.1504/IJLSM.2018.096088.
+[63] F. Hamdi, A. Ghorbel, F. Masmoudi, L. Dupont, Optimization of a supply portfolio
+in the context of supply chain risk management: a literature review, J. Intell.
+Manuf. 29 (2018) 763–788.
+[64] U.R. De Oliveira, L.S. Espindola, F.A.S. Marins, Analysis of supply chain risk
+management research, Gest. e Prod. 25 (2018) 671–695, https://doi.org/
+10.1590/0104-530×3515-16.
+[65] M. Louis, M. Pagell, Categorizing Supply Chain Risks: Review, Integrated
+Typology and Future Research. Springer Series in Supply Chain Management,
+Springer Nature, 2019, pp. 329–366.
+[66] G. Baryannis, S. Validi, S. Dani, G. Antoniou, Supply Chain Risk Management and
+Artificial Intelligence: State of the Art and Future Research Directions, in:
+International Journal of Production Research, 57, 2019, pp. 2179–2202.
+[67] C.R. Vishnu, R. Sridharan, R. Kumar, Supply chain risk management: models and
+methods, Int J. Manag. Decis. Mak. 18 (2019) 31–75.
+[68] J.B. Oliveira, M. Jin, R.S. Lima, et al., The role of simulation and optimization
+methods in supply chain risk management: Performance and review standpoints,
+Simul. Model Pr. Theory 92 (2019) 17–44.
+[69] V. Ahlqvist, A. Norrman, M. Jahre, Supply chain risk governance: towards a
+conceptual multi-level framework, Oper. Supply Chain Manag. 13 (2020)
+382–395.
+[70] J. Zhao, M. Ji, B. Feng, Smarter supply chain: a literature review and practices,
+J. Data, Inf. Manag. 2 (2020) 95–110, https://doi.org/10.1007/s42488-020-
+00025-z.
+[71] M. Pournader, A. Kach, S. Talluri, A review of the existing and emerging topics in
+the supply chain risk management literature, Decis. Sci. 51 (2020) 867–919.
+[72] C.-Y. Chu, K. Park, G.E. Kremer, A global supply chain risk management
+framework: an application of text-mining to identify region-specific supply chain
+risks, Adv. Eng. Inform. (2020) 45.
+[73] A. Norrman, A. Wieland, The development of supply chain risk management over
+time: revisiting Ericsson, Int. J. Phys. Distrib. Logist. Manag. 50 (2020) 641–666,
+https://doi.org/10.1108/IJPDLM-07-2019-0219.
+[74] M. Nakano, A.K.W. Lau, A systematic review on supply chain risk management:
+using the strategy-structure-process-performance framework, Int. J. Logist. Res.
+Appl. 23 (2020) 443–473, https://doi.org/10.1080/13675567.2019.1704707.
+[75] P. Manhart, J.K. Summers, J. Blackhurst, A meta-analytic review of supply chain
+risk management: assessing buffering and bridging strategies and firm
+performance, J. Supply Chain Manag. 56 (2020) 66–87, https://doi.org/10.1111/
+jscm.12219.
+[76] M. Schroeder, S. Lodemann, A systematic investigation of the integration of
+machine learning into supply chain risk management, Logistics (2021) 5.
+[77] A. Gurtu, J. Johny, Supply chain risk management: literature review, Risks 9
+(2021) 1–16.
+[78] P. Senna, A. Reis, I.L. Santos, et al., A systematic literature review on supply chain
+risk management: is healthcare management a forsaken research field?
+Benchmarking 28 (2021) 926–956, https://doi.org/10.1108/BIJ-05-2020-0266.
+[79] S.F. Nimmy, O.K. Hussain, R.K. Chakrabortty, et al., Explain ability in supply
+chain operational risk management: a systematic literature review, Knowl. Based
+Syst. (2022) 235, https://doi.org/10.1016/j.knosys.2021.107587.
+[80] P. Suryawanshi, P. Dutta, Optimization models for supply chains under risk,
+uncertainty, and resilience: a state-of-the-art review and future research
+directions, Transp. Res E Logist. Transp. Rev. (2022) 157, https://doi.org/
+10.1016/j.tre.2021.102553.
+[81] D.C. Evison, P.D. Kremer, J. Guiver, Mass timber construction in Australia and
+New Zealand-status, and economic and environmental influences on adoption,
+Wood Fiber Sci. 50 (2018) 128–138, https://doi.org/10.22382/wfs-2018-046.
+[82] I. Kilubi, Investigating current paradigms in supply chain risk management – a
+bibliometric study, Bus. Process Manag. J. 22 (2016) 662–692.
+[83] N.J. van Eck, L. Waltman, Software survey: VOSviewer, a computer program for
+bibliometric mapping, Scientometrics 84 (2010) 523–538, https://doi.org/
+10.1007/s11192-009-0146-3.
+[84] M. Christopher, H. Peck, Building the resilient supply chain, Int. J. Logist. Manag.
+15 (2004) 1–14, https://doi.org/10.1108/09574090410700275.
+[85] C.W. Craighead, J. Blackhurst, M.J. Rungtusanatham, R.B. Handfield, The
+severity of supply chain disruptions: design characteristics and mitigation
+capabilities, Decis. Sci. 38 (2007) 131–156, https://doi.org/10.1111/j.1540-
+5915.2007.00151.
+[86] M. Christopher, H. Lee, Mitigating supply chain risk through improved
+confidence, Int. J. Phys. Distrib. Logist. Manag. 34 (2004) 388–396, https://doi.
+org/10.1108/09600030410545436.
+[87] I. Manuj, J.T. Mentzer, Global supply chain risk management strategies, Int. J.
+Phys. Distrib. Logist. Manag. 38 (2008) 192–223, https://doi.org/10.1108/
+09600030810866986.
+[88] D. Ivanov, A. Dolgui, Viability of intertwined supply networks: extending the
+supply chain resilience angles towards survivability. A position paper motivated
+by COVID-19 outbreak, Int J. Prod. Res 58 (2020) 2904–2915, https://doi.org/
+10.1080/00207543.2020.1750727.
+[89] D. Ivanov, A. Dolgui, B. Sokolov, The impact of digital technology and Industry
+4.0 on the ripple effect and supply chain risk analytics, Int J. Prod. Res 57 (2019)
+829–846, https://doi.org/10.1080/00207543.2018.1488086.
+[90] A. Norrman, U. Jansson, Ericsson’s proactive supply chain risk management
+approach after a serious sub-supplier accident, Int. J. Phys. Distrib. Logist. Manag.
+34 (2004) 434–456, https://doi.org/10.1108/09600030410545463.
+[91] U. Jüttner, Supply chain risk management: Understanding the business
+requirements from a practitioner perspective, Int. J. Logist. Manag. 16 (2005)
+120–141, https://doi.org/10.1108/09574090510617385.
+[92] U. Jüttner, S. Maklan, Supply chain resilience in the global financial crisis: an
+empirical study, Supply Chain Manag. 16 (2011) 246–259, https://doi.org/
+10.1108/13598541111139062.
+[93] S.M. Wagner, C. Bode, An empirical examination of supply chain performance
+along several dimensions of risk, J. Bus. Logist. 29 (2008) 307–325, https://doi.
+org/10.1002/j.2158-1592.2008.tb00081.
+[94] I. Manuj, J.T. Mentzer, Global supply chain risk management, J. Bus. Logist. 29
+(2008) 133–155, https://doi.org/10.1002/j.2158-1592.2008.tb00072.
+[95] C. Tang, B. Tomlin, The power of flexibility for mitigating supply chain risks, Int
+J. Prod. Econ. 116 (2008) 12–27, https://doi.org/10.1016/j.ijpe.2008.07.008.
+[96] M. Kamalahmadi, M.M. Parast, A review of the literature on the principles of
+enterprise and supply chain resilience: Major findings and directions for future
+research, Int J. Prod. Econ. 171 (2016) 116–133, https://doi.org/10.1016/j.
+ijpe.2015.10.023.
+[97] S.M. Wagner, C. Bode, An empirical investigation into supply chain vulnerability,
+J. Purch. Supply Manag. 12 (2006) 301–312, https://doi.org/10.1016/j.
+pursup.2007.01.004.
+[98] M.N. Faisal, D.K. Banwet, R. Shankar, Supply chain risk mitigation: modeling the
+enablers, Bus. Process Manag. J. 12 (2006) 535–552, https://doi.org/10.1108/
+14637150610678113.
+[99] J.-H. Thun, D. Hoenig, An empirical analysis of supply chain risk management in
+the German automotive industry, Int J. Prod. Econ. 131 (2011) 242–249, https://
+doi.org/10.1016/j.ijpe.2009.10.010.
+[100] J. Blackhurst, C.W. Craighead, D. Elkins, R.B. Handfield, An empirically derived
+agenda of critical research issues for managing supply-chain disruptions, Int J.
+Prod. Res 43 (2005) 4067–4081, https://doi.org/10.1080/00207540500151549.
+[101] Kademani B.S., Centre for Development of Advanced Computing (Mumbai I,
+Bombay Science Librarians’ Association (India) , 2011 , Beyond librarianship:
+creativity, innovation, and discovery. B.R. Pub. Corp.
+[102] Y. Kyung Jeong, M. Song, Y. Ding Yoo Kyung Jeong, Content-based author cocitation analysis, J. Inf. 8 (2014) 197–211.
+[103] K. Wilson, V. Barbat, The supply chain manager as political-entrepreneur, Ind.
+Mark. Manag. 49 (2015) 67–79, https://doi.org/10.1016/j.
+indmarman.2015.05.034.
+[104] S. Mandal, The influence of organizational culture on healthcare supply chain
+resilience: moderating role of technology orientation, J. Bus. Ind. Mark. 32 (2017)
+1021–1037, https://doi.org/10.1108/JBIM-08-2016-0187.
+[105] J.J. Roh, P. Hong, Y. Park, Organizational culture and supply chain strategy: a
+framework for effective information flows, J. Enterp. Inf. Manag. 21 (2008)
+361–376, https://doi.org/10.1108/17410390810888651.
+[106] G. Behzadi, M.J. O’Sullivan, T.L. Olsen, A. Zhang, Agribusiness supply chain risk
+management: a review of quantitative decision models, Omega (U. Kingd. ) 79
+(2018) 21–42.
+[107] W. Septiani, Y. Herdiyeni, L. Haditjaroko, Method and approach mapping for agrifood supply chain risk management: a literature review, Int. J. Supply Chain
+Manag. 5 (2016) 51–64.
+[108] M. Giannakis, M. Louis, A multi-agent based framework for supply chain risk
+management, J. Purch. Supply Manag. 17 (2011) 23–31, https://doi.org/
+10.1016/j.pursup.2010.05.001.
+[109] L. Cunha, P. Ceryno, A. Leiras, Social supply chain risk management: a taxonomy,
+a framework, and a research agenda, J. Clean. Prod. 220 (2019) 1101–1110.
+[110] S. Abbasi, Ç. Sıcakyüz, B. Erdebilli, Designing the home healthcare supply chain
+during a health crisis, J. Eng. Res. (2023), 100098, https://doi.org/10.1016/j.
+jer.2023.100098.
+A. Emrouznejad et al. 
+Supply Chain Analytics 3 (2023) 100031
+21
+[111] H. Babu, S. Yadav, A supply chain risk assessment index for small and medium
+enterprises in post COVID-19 era, Supply Chain Anal. (2023), 100023, https://
+doi.org/10.1016/j.sca.2023.100023.
+[112] A. Vafadarnikjoo, M.A. Moktadir, S.K. Paul, S.M. Ali, A novel grey multi-objective
+binary linear programming model for risk assessment in supply chain
+management, Supply Chain Anal. 2 (2023), 100012, https://doi.org/10.1016/j.
+sca.2023.100012.
+[113] B. Debnath, A.M. Bari, M.M. Haq, D.A. de Jesus Pacheco, M.A. Khan, An
+integrated stepwise weight assessment ratio analysis and weighted aggregated
+sum product assessment framework for sustainable supplier selection in the
+healthcare supply chains, Supply Chain Anal. 1 (2023), 100001, https://doi.org/
+10.1016/j.sca.2022.100001.
+[114] O. ¨ Deretarla, B. Erdebilli, M. Gündogan, ˘ An integrated analytic hierarchy process
+and complex proportional assessment for vendor selection in supply chain
+management, Decis. Anal. J. 6 (2023), 100155, https://doi.org/10.1016/j.
+dajour.2022.100155.
+[115] S. Kabir, A fuzzy data-driven reliability analysis for risk assessment and decisionmaking using Temporal Fault Trees, Decis. Anal. J. (2023), 100265, https://doi.
+org/10.1016/j.dajour.2023.100265.
+[116] K. Khalili-Damghani, P. Ghasemi, Uncertain centralized/decentralized
+production-distribution planning problem in multi-product supply chains: fuzzy
+mathematical optimization approaches, Ind. Eng. Manag. Syst. 15 (2) (2016)
+156–172.
+[117] P. Ghasemi, K. Khalili-Damghani, A. Hafezolkotob, S. Raissi, A decentralized
+supply chain planning model: a case study of hardboard industry, Int. J. Adv.
+Manuf. Technol. 93 (2017) 3813–3836.
+[118] H. Ahmadi Choukolaei, M. Jahangoshai Rezaee, P. Ghasemi, M. Saberi, Efficient
+crisis management by selection and analysis of relief centers in disaster
+integrating GIS and multicriteria decision methods: a case study of Tehran, Math.
+Probl. Eng. 2021 (2021) 1–22.
+[119] M. Shokouhifar, M.M. Sabbaghi, N. Pilevari, Inventory management in blood
+supply chain considering fuzzy supply/demand uncertainties and lateral
+transshipment, Transfus. Apher. Sci. 60 (3) (2021), 103103.
+[120] S. Safaei, P. Ghasemi, F. Goodarzian, M. Momenitabar, Designing a new multiechelon multi-period closed-loop supply chain network by forecasting demand
+using time series model: a genetic algorithm, Environ. Sci. Pollut. Res. 29 (53)
+(2022) 79754–79768.
+[121] P. Ghasemi, H.A. Khalili, A.P. Chobar, S. Safavi, F.M. Hejri, A new multi-echelon
+mathematical modeling for pre-and post-disaster blood supply chain: robust
+optimization approach, Discret. Dyn. Nat. Soc. 2022 (2022) 1–10.
+[122] P. Ghasemi, F. Goodarzian, A. Abraham, A new humanitarian relief logistic
+network for multi-objective optimization under stochastic programming, Appl.
+Intell. 52 (12) (2022) 13729–13762.
+[123] P. Ghasemi, H. Hemmaty, A. Pourghader Chobar, M.R. Heidari, M. Keramati,
+A multi-objective and multi-level model for location-routing problem in the
+supply chain based on the customer’s time window, J. Appl. Res. Ind. Eng.
+(2022).
+[124] M. Shokouhifar, M. Ranjbarimesan, Multivariate time-series blood donation/
+demand forecasting for resilient supply chain management during COVID-19
+pandemic, Clean. Logist. Supply Chain 5 (2022), 100078.
+[125] L. Li, Y. Gong, Z. Wang, S. Liu, Big data and big disaster: a mechanism of supply
+chain risk management in global logistics industry, Int. J. Oper. Prod. Manag. 43
+(2) (2023) 274–307.
+[126] Y. Fernando, M.L. Tseng, I.S. Wahyuni-Td, A.B.L. de Sousa Jabbour, C.
+J. Chiappetta Jabbour, C. Foropon, Cyber supply chain risk management and
+performance in industry 4.0 era: information system security practices in
+Malaysia, J. Ind. Prod. Eng. 40 (2) (2023) 102–116.
+[127] S. Abbasi, Environmental impact assessment with rapid impact assessment matrix
+method during the COVID-19 pandemic, A case Study Tehran (2023), https://doi.
+org/10.21203/rs.3.rs-3125845/v1.
+[128] S. Abbasi, S. Zahmatkesh, A. Bokhari, M. Hajiaghaei-Keshteli, Designing a vaccine
+supply chain network considering environmental aspects, J. Clean. Prod. (2023),
+137935, https://doi.org/10.1016/j.jclepro.2023.137935.
+[129] M.A. Kamran, R. Kia, F. Goodarzian, P. Ghasemi, A new vaccine supply chain
+network under COVID-19 conditions considering system dynamic: artificial
+intelligence algorithms, Socio-Econ. Plan. Sci. 85 (2023), 101378.
+[130] M. Shokouhifar, M. Sohrabi, M. Rabbani, S.M.H. Molanas, F. Werner, Sustainable
+phosphorus fertilizer supply chain management to improve crop yield and p use
+efficiency using an ensemble heuristic–metaheuristic optimization algorithm,
+Agronomy 13 (2) (2023) 565.
+A. Emrouznejad et al. 

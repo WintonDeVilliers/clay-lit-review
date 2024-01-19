@@ -1,0 +1,720 @@
+Asia Pacific news
+Gabriela Kennedy *
+Mayer Brown JSM, Hong Kong
+ABSTRACT
+This column provides a country-by-country analysis of the latest legal developments, cases
+and issues relevant to the IT, media and telecommunications’ industries in key jurisdictions across the Asia Pacific region. The articles appearing in this column are intended to
+serve as ‘alerts’ and are not submitted as detailed analyses of cases or legal developments.
+© 2017 Gabriela Kennedy. Published by Elsevier Ltd. All rights reserved.
+Keywords:
+Asia-Pacific
+IT/Information technology
+Communications
+Internet
+Media
+Law
+1. China
+Gabriela Kennedy (Partner), Mayer Brown JSM (gabriela.kennedy
+@mayerbrownjsm.com);
+Karen H.F. Lee (Senior Associate), Mayer Brown JSM (karen.hf.lee
+@mayerbrownjsm.com).
+1.1. Navigating the latest developments in China’s
+Cybersecurity Law
+On 1 June 2017, China’s new Cybersecurity Law (“CSL”) came
+into operation.The PRC government has issued a series of draft
+measures, guidelines and regulations in an attempt to provide
+further clarity on the application of the CSL, but many ambiguities and uncertainties remain.To help navigate them, a brief
+summary of several of these measures, guidelines and regulations issued over the last few months is set out below.
+1.1.1. Background
+The CSL imposes restrictions on operators of critical information infrastructures (“CIIs”) and network operators, and has been
+seen as a barrier to the free-flow of data and contrary to current
+business practices. The most controversial provisions concern
+data localisation requirements, cross-border data transfer restrictions, the implementation of cybersecurity measures, and
+compliance and certification measures for security products
+and equipment.The broad definition of network operators (with
+limited clarification from the government) has meant that any
+entity that operates a Chinese website, conducts business activities through networks in China, or provides online services
+to customers in China may be caught by the CSL restrictions.
+In addition to the above requirements, which have received the most media attention, the CSL places a large burden
+on network operators to screen and “police” users of their services, including messaging platforms, blogs and social media
+platforms. Network operators are not only required to ensure
+that users provide information concerning their true identity
+(thereby eliminating the possibility of users posting information anonymously), they are also required to stop the illegal
+public dissemination of any information transmitted by their
+users (e.g. online posts that are seen as a criticism or threat
+to national security or the socialist system).
+The Cyberspace Administration of China (“CAC”) has already
+started taking steps to crackdown on network operators. In
+August 2017, the CAC commenced investigations against three
+popular social media platforms. Users had allegedly been using
+the social media platforms to disseminate information that was
+For further information see: www.mayerbrown.com.
+* Mayer Brown JSM, 16th–19th Floors, Prince’s Building, 10 Chater Road Central, Hong Kong.
+E-mail address: gabriela.kennedy@mayerbrownjsm.com.
+https://doi.org/10.1016/j.clsr.2017.09.006
+0267-3649/© 2017 Gabriela Kennedy. Published by Elsevier Ltd. All rights reserved.
+computer law & security review 33 (2017) 896–904
+Available online at www.sciencedirect.com
+www.compseconline.com/publications/prodclaw.htm
+ScienceDirect
+seen as challenging national and public security, as well as
+public order, and the operators of the platforms were accused
+of failing to takedown such information in breach of the CSL.
+The platform operators have indicated that they will cooperate with the CAC to rectify the issue. This is likely to just be
+one of many investigations initiated by the CAC as part of the
+government’s cybersecurity initiative, which has included a
+crackdown on virtual private networks and online news.
+1.1.2. Cross-border transfers and data localisation
+The revised draft of the Security Assessment Measures for the
+Cross-Border Transfer of Personal Information and Important
+Data (“Cross-Border Measures”) was issued on 19 May 2017.
+Even though the Cross-Border Measures came into effect on
+1 June 2017, a final version still needs to be issued by the CAC.
+Due to a backlash of concern raised by foreign entities on their
+ability to comply with the Cross-Border Measures, an 18-
+month grace period was granted, giving network operators until
+31 December 2018 to comply with the newly introduced crossborder data transfer rules.
+Unlike the earlier drafts, express reference to the data localization requirements in respect of network operators has
+been removed from the current version of the Cross-Border
+Measures. It would be naive to draw the conclusion that the
+data localization requirements do not apply to network operators (only CII operators as per the CSL), as network operators
+are still subject to restrictions under the Cross-Border Measures on the overseas transfer of personal information and
+“important data” collected or generated during business operations in China. Important data is broadly defined to include
+information that relates to national security, economic development, or social or public interest.
+A CII operator or network operator may provide no personal information or important data to anyone outside of China
+unless:
+• they have completed the required security assessment set
+out under the Cross-Border Measures;
+• the data subject has been notified of the purpose and scope
+of the transfer, and the country in which the recipient is
+located; and
+• the data subject’s consent has been obtained (which can
+be inferred based on the data subject’s actions), save when
+there is an emergency that may jeopardise the life or property of the relevant data subject.
+Notwithstanding the above, no transfer of personal information or important data may occur if it will violate any laws
+or regulations; the transfer may result in risks to national security and public interest, or cause harm to the government
+system, economic security, scientific or technological security, information security, national defense, etc; or if any relevant
+regulator deems the transfer to be inappropriate.
+Both a self-assessment and an official security assessment from the local authorities must be carried out and
+obtained before a CII operator or network operator can transfer personal information and important data outside of China.
+The self-assessment no longer needs to be carried out on an
+annual basis thereafter (as was originally required under previous versions of the Cross-Border Measures), but it must be
+conducted upon any significant amendment in relation to a
+cross-border transfer (e.g. change in scope or type of data). An
+official security assessment from the relevant local authorities must also be obtained in certain situations, such as where
+more than 500,000 individuals’ personal information are being
+transferred, or the data concerns public health or national security sectors, and so on.
+In order to complement the Cross-Border Measures, on 27
+May 2017 the draft Guidelines for Cross-Border Data Transfer
+Security Assessment was issued for public consultation (“Draft
+Cross-Border Security Guidelines”). The Draft Cross-Border Security Guidelines sets out how a security assessment should
+be carried out prior to the cross-border transfer of any personal information or important data by network operators.This
+includes a requirement to have in place a data export plan and
+to assess the legality and appropriateness of the crossborder transfer, and the level of risk involved. The consultation
+period expired on 27 June 2017, and a final draft is pending.
+1.1.3. Security review of network equipment and
+cybersecurity products
+CII operators that procure network products and services that
+might affect national security must undergo a national security review organized by the relevant local authorities. On 2 May
+2017, the Cyberspace Administration of China issued the Security Review Measures for Network Products and Services (Trial)
+(“Security Review Measures”). Article 10 of the Security Review
+Measures clarifies that products and services purchased for
+public communication and information services, energy, transport, water conservancy, finance, public services and electronic
+government affairs or other operators of CIIs are all significant network products and services that may affect national
+security, and are therefore subject to the national security review
+under the CSL. Whether these products or services affect national security is to be determined by government departments
+responsible for the safety of the CII. The government will set
+up a cybersecurity review committee and cybersecurity review
+office.
+In addition, the CSL requires dedicated cybersecurity products and critical network equipment to obtain a certification
+issued by qualified institutions before they can be sold or distributed in China (“Certification Requirement”). Such products
+and equipment must also comply with national standards.The
+CAC has the obligation to establish a catalogue of critical
+network equipment and cybersecurity products that will be
+subject to the Certification Requirement.
+On 9 June 2017, the CAC, Ministry of Industry and Information Technology (“MIIT”), Ministry of Public Security and
+Certification and Accreditation Administration, released an
+Announcement of the Issuance of the Catalogue of Critical
+Network Equipment and Dedicated Cybersecurity Products (First
+Batch) (“First Catalogue”). Despite being issued on 9 June 2017,
+the First Catalogue took effect as of 1 June 2017. So far, 15 items
+have been identified in the First Catalogue as critical network
+equipment or dedicated cybersecurity products, which are
+subject to the Certification Requirement.These include firewalls,
+security audit software, routers, switches, servers, intrusion detection systems, etc.The scope of the Certification Requirement
+therefore remains quite broad, and the CAC has the flexibility to issue further catalogues of equipment and products.
+computer law & security review 33 (2017) 896–904 897
+Uncertainty remains as to what steps need to be taken in
+order to obtain relevant certification and the “qualified institutions” that will be responsible for reviewing the equipment
+and products. In particular, concerns have been expressed in
+relation to the nature of proprietary information (such as source
+codes) that needs to be disclosed.
+1.1.4. Draft regulations on critical information
+infrastructures
+The Cyberspace Administration of China published the Draft
+Security Protection Measures for Critical Information Infrastructures (“Draft CII Measures”) on 10 July 2017, in order to
+provide further guidance in relation to CIIs. The Draft CII Measures were open for public consultation until 10 August 2017.
+Under the Draft CII Measures, the CIIs are further defined to
+include government departments or any entities in the energy,
+finance, transportation, water, health, medical, education, social
+insurance, environmental protection or public affairs sectors;
+scientific research and manufacturing entities, radio stations, television stations and news agencies; information
+networks, including telecommunication, broadcasting, Internet cloud computing, big data and other large-scale public
+information network services; and other important entities, if
+they have the potential to damage national security, national
+economy and people’s livelihoods and public interests. In addition, the Draft CII Measures state that the government will
+establish further guidelines to help identify CIIs and, in accordance with such guidelines, the government authorities for
+each relevant sector will identify the CIIs in their industry. This
+provides the government with a broad discretion to determine who will fall within the scope of a CII and be subject to
+the CSL.
+The Draft CII Measures prescribe further responsibilities on
+CII operators, including implementing technical measures to
+prevent cyber attacks and monitor cybersecurity incidents;
+keeping relevant network logs for at least 6 months; appointing qualified cybersecurity staff; arranging regular training and
+testing of its staff; establishing cyber incident response plans;
+carrying out regular back-ups of important data; carrying out
+regular comprehensive security and risk assessments, rectifying any identified vulnerabilities and reporting such results
+to relevant industry authorities, etc. The maintenance of the
+CII itself must also be carried out within China. Such maintenance can only be conducted overseas if necessary due to
+business needs, and subject to providing advance notice to the
+relevant government authorities.
+Further, under the Draft CII Measures the government is required to organise regular security assessments on CIIs, which
+may include reviewing security related documents and records,
+and interviewing staff of CII operators. However, much of the
+CSL requirements and other obligations under the Draft CII Measures relating to CII operators remain unclear. For example, the
+Draft CII Measures require operators of IT and cloud-computing
+services to comply with requirements laid down by the CAC
+– what these requirements are remains uncertain.
+1.1.5. Takeaway
+After wading through the various measures, guidelines and interpretations, a reader is likely to feel more confused than
+enlightened, especially given the constant cross-referencing
+amongst these documents that is needed in order to understand extent of the obligations imposed on CIIs and network
+operators. Additional or revised interpretations, measures and
+guidelines will be issued by the government over the next year,
+which may scatter the clouds of uncertainty and ambiguity surrounding the CSL.
+For now, companies that have a link to China (e.g. business operations in China, networks in China, Chinese-hosted
+website, etc) should as a minimum conduct privacy and security audits to map out how they could comply with the CSL
+and the related measures; implement a cross-border transfer
+of data plan; and start conducting self-assessments pursuant to the Cross-Border Measures.
+2. Hong Kong
+Gabriela Kennedy (Partner), Mayer Brown JSM (gabriela.kennedy
+@mayerbrownjsm.com);
+Karen H.F. Lee (Senior Associate), Mayer Brown JSM (karen.hf.lee
+@mayerbrownjsm.com).
+2.1. The XXX files: privacy implications in Hong Kong
+A recent case in Hong Kong has highlighted the courts’ willingness to impose harsher sentences for the unsanctioned
+disclosure of private recordings of intimate acts. Sadly, the uploading of videos or photos of former partners in explicit and
+compromising situations, otherwise known as revenge porn,
+has become a more and more common way for jilted lovers
+to take revenge after the break-up of a relationship. This is not
+only a breach of privacy, but in many jurisdictions, it may also
+be a criminal offence. On 23 June 2017, the defendant in the
+Hong Kong case HKSAR v. Wong Ngai Sang1 was sentenced to
+20 months imprisonment for covertly recording and uploading on the Internet a video of himself and his former lover
+having sex (“WNS Case”).
+2.1.1. Access to a computer for dishonest gain
+Under Section 161(1)(c) of the Crimes Ordinance (Cap. 200) (“CO”)
+in Hong Kong, it is an offence for anyone to obtain access to
+a computer with a view to dishonest gain (either for himself
+or for another). Such an offence can attract a sentence of 5 years
+imprisonment.
+In the WNS Case, the defendant had filmed himself having
+sex with the victim, without her knowledge or consent. After
+the victim ended their relationship, the defendant decided to
+get revenge by uploading the video on the Internet together
+with personal details of the victim (her name and home
+address). The victim learned of this from a work colleague and
+reported the matter to the police.The defendant pleaded guilty
+to one count of obtaining access to a computer with a view
+to dishonest gain for himself.
+Section 161(2) of the CO provides that “gain” does not need
+to be money or other property, and may include getting something that the defendant did not have previously, or keeping
+something that they already had. “Gain” has generally been
+1 [2017] HKEC 1578.
+898 computer law & security review 33 (2017) 896–904
+interpreted quite broadly, and has previously been found to
+include obtaining photos or recordings. The WNS Case appears
+to widen the definition further to include the revenge obtained by the defendant in uploading the video, though
+unfortunately this was not discussed in detail in the judgment, as the defendant had pleaded guilty.
+It is interesting to note that obtaining access to a “computer”
+is not limited to obtaining access to a laptop or desktop. In Secretary for Justice v. Wong Ka Yip Ken,
+2 the Court of First Instance
+determined on appeal that a smartphone could amount to a
+“computer” for the purposes of Section 161(1) of the CO. This
+point was taken for granted in the WNS Case, where the defendant had used his smartphone to record the footage at issue.
+During sentencing, the judge emphasised the “gross violation” of privacy involved and the fact that the sentence should
+reflect the “public’s abhorrence of the defendant’s shameless
+conduct” and should serve as a deterrent to others. The defendant was sentenced to 20 months imprisonment. The only
+substantial mitigating factor taken into account by the judge
+was his guilty plea.
+The sentence imposed in the WNS Case is a much harsher
+sentence when compared to other similar cases. In September 2012, a tutor was sentenced to only 4 months imprisonment
+for taking up skirt photos of his students. Even in the infamous case involving local celebrity Edison Chen, the defendant
+received a much lesser sentence.The computer technician who
+stole over 1000 sexually explicit photos from Edison Chen’s computer, and subsequently made the photos available on the
+Internet and through other media, was only sentenced to 8 and
+a half months imprisonment.
+The harsher sentence in the WNS Case may reflect the
+courts desire to send a strong message to offenders, especially where covert photos or videos of the most intimate nature
+are uploaded on the Internet. The damage that is done can
+never be undone, even if the photo or video is taken down, as
+cached copies of the uploads will continue to be available.
+2.1.2. Data privacy complaint or prosecution under CO?
+Whilst a violation of privacy is clearly a significant concern for
+victims of revenge porn or covert recordings, such acts may
+not in themselves amount to an offence under the Personal
+Data (Privacy) Ordinance (Cap. 486) (“PDPO”). The PDPO regulates the collection, use and transfer of personal data by data
+users in Hong Kong. A photo or video taken by a data user may
+amount to personal data for the purposes of the PDPO, if it is
+possible to directly or indirectly identify the individual featured in it, and if the purpose of collection was to identify the
+individual in question.
+Any explicit video recordings or photos obtained without
+the knowledge or consent of the relevant individual should not
+be taken or uploaded on the Internet. This seems to go handin-hand with common sense and morality. However, failing to
+do so does not in itself amount to an offence under the PDPO.
+Such acts will merely constitute a breach of a data protection
+principle, the remedy for which is a complaint to the Privacy
+Commissioner followed by an enforcement notice if an investigation by the Privacy Commissioner finds a breach to have
+occurred. Given the complexities of making a case to the Privacy
+Commissioner and the nature of the remedies available reporting such a case to the police for prosecution as a criminal
+offence under Section 161(1)(c) of the CO is a surer way to obtain
+commensurate punishment for a reprehensible deed.
+While no precedent exists, it is likely that victims of revenge
+porn may also start civil proceedings, especially after a criminal conviction is secured, as damages for injury to feelings can
+be sought under the PDPO.
+The WSN case has highlighted the inadequacy of the PDPO.
+Section 64 of the PDPO, which was introduced when the law
+was last amended in 2012, makes it an offence for anyone to
+disclose personal data of an individual obtained from a data
+user, without that data user’s consent and with the intent to
+obtain gain (either for himself or anyone else) or to cause loss
+to the relevant individual in the form of money or other property. The offence can incur a maximum fine of HK$ 1,000,0000
+and 5 years imprisonment. Unlike Section 161(1)(c) of the CO,
+Section 64 of the PDPO only applies where the “gain” or “loss”
+is in the form of money or other property, and where personal data is taken from a data user without their consent. A
+classic example is where an employee discloses or sells personal data held by its employer, without their employer’s
+consent.
+The section could not be invoked in the WNS Case or other
+typical revenge porn scenarios, as the data user is the person
+who took the videos or photos and uploaded them on the Internet (i.e. they did not steal them from another person), and
+no money or other property is usually sought by the culprit
+or is lost by the victim. The section can apply to situations that
+are similar to the Edison Chen case. The Information Leaflet
+issued by the Privacy Commissioner3 expressly cites the uploading of a celebrity’s intimate photos on the Internet by an
+employee of a laptop repair company without the celebrity’s
+permission as an example of an offence under Section 64, which
+was in fact brought in because of the Edison Chen case. Anyone
+who disseminates videos or photos on the Internet or through
+other media, without the consent of the person who captured such videos or photos, in return for, say money (e.g.
+blackmail, selling the images to the press, etc) may be found
+guilty under both Section 64 of the PDPO and Section 161(1)(c)
+of the CO. However, not everyone who takes such pictures or
+makes such recordings themselves and disseminates them on
+the Internet can be caught by this provision in the PDPO.
+Other jurisdictions have introduced specific laws to target
+revenge porn after having found that their existing legislation was insufficient to protect victims and tackle the growing
+trend. For example, in England and Wales, the distribution of
+private sexual images of an individual without their consent,
+and with the intent of causing distress, is a criminal offence.4
+This applies to distribution both online and offline, by any
+means. The sanctions imposed for such an offence are only
+12 months imprisonment and/or a fine on summary conviction, or 2 years imprisonment and/or a fine on conviction on
+indictment, which are less severe than those provided under
+Section 161(1)(c) of the CO and Section 64 of the PDPO.
+2 [2013] 4 HKLRD 604.
+3 Information Leaflet on the Offence for Disclosing Personal Data
+Obtained Without Consent from the Data User, issued September
+2012.
+4 Section 33 of the Criminal Justice and Courts Act 2015.
+computer law & security review 33 (2017) 896–904 899
+However, courts in England have also issued orders to ISPs
+to block access to offending material and preserve the anonymity of victims.5
+2.1.3. Conclusion
+The unsanctioned disclosure of intimate recordings or photos
+is being taken more seriously by the courts in Hong Kong, and
+harsher punishments can be expected in the future. How will
+we deal with inadvertent recordings and equally inadvertent
+disclosure of intimate household scenes by IoT enabled applications? Given the rapid development in technology, the everchanging nature of offences is likely to render obsolete any
+amendment to the legislation by the time it is brought in.
+3. India
+Stephen Mathias (Partner), Kochhar & Co. (stephen.mathias
+@bgl.kochhar.com).
+3.1. Indian Supreme Court rules right to privacy is a
+fundamental right
+On 24 August 2017, in a landmark judgment, a nine judge constitutional bench of the Supreme Court of India ruled that the
+right to privacy is a fundamental right under the Constitution of India. The court held that the right to privacy is part
+of the right to life and personal liberty and other freedom rights
+(right to speech, movement, etc) under the Constitution.
+The case arose out of a constitutional challenge to the implementation of Aadhaar, a biometrics based identity project, which
+the Indian government plans to make mandatory for many government and quasi-government services.The Government had
+argued in that case that there is no fundamental right to privacy
+and, accordingly, petitioners could not challenge the implementation of Aadhaar because it did not adequately protect
+the privacy of individuals.The Government cited two cases from
+the 1950–1960s which had larger benches and which stated that
+there is no fundamental right to privacy. Keeping in mind the
+larger benches in those cases compared to later cases, which
+had held that there is a fundamental right to privacy, the court
+hearing that case referred the matter to a larger constitutional bench.
+The ruling dwelled in detail on past case law in India on
+the right to privacy as well as case law and jurisprudence in
+other countries, most notably, the US, EU, Canada and South
+Africa. The court however accepted that the right to privacy
+would not be unfettered but would be subject to limitations
+that pass the tests previously laid down by the court while considering restrictions on fundamental rights.
+The effect of the ruling is a possible stalling of the Aadhaar
+project until the Government considers additional regulation
+to deal with privacy concerns. It is likely that it will result in
+India finally proceeding to enact a comprehensive privacy law.
+While the arguments were being heard by the court, the Government appointed a committee to suggest a framework for
+data protection in India and a new draft law. Unfortunately,
+the committee, headed by a retired judge, has only one other
+lawyer and only one expert on data protection. The terms of
+reference also refer to data protection but not to privacy.
+However, with this ruling, it is likely that the committee will
+suggest a comprehensive data privacy law since government
+handling of personal information without privacy protections would otherwise become unconstitutional.
+4. Malaysia
+Charmayne Ong Poh Yin (Partner), Skrine (co@skrine.com)
+4.1. Malaysia’s New Digital Free Trade Zone (“DFTZ”)
+4.1.1. What is the DFTZ?
+In collaboration with Jack Ma and the Alibaba Group, Malaysia recently announced the commencement of the new DIGITAL
+FREE TRADE ZONE (“DFTZ”) initiative. The DFTZ will be the world’s
+first special digital trade zone with the main aim of promoting the growth of e-commerce by providing a platform for SMEs
+and enterprises to conduct businesses and services.
+4.1.2. How will the DFTZ be implemented?
+The implementation of the DFTZ will take place in 2 main
+phases, namely the DFTZ@Aeropolis and Kuala Lumpur Internet City (“KLIC”). The DFTZ@Aeropolis will consist of a
+regional eCommerce and logistics hub near the Kuala Lumpur
+International Airport. DFTZ@Aeropolis is designed to be the regional fulfilment facility with warehousing services and a
+centralised customs clearance for speeding up clearance for
+imports and exports.
+The KLIC, as part of the DFTZ, will be the digital hub for
+Internet-related companies targeting Southeast Asia. KLIC will
+facilitate end-to-end support services, provide the opportunity for networking and encourage knowledge-sharing with the
+aim to drive innovation in the Internet and eCommerce industry. The hub is expected to be launched end-2019.
+4.1.3. What does the DFTZ mean for us?
+The DFTZ is part of the Malaysian government’s commitment to accelerate the growth of the digital economy by
+providing a robust environment for online traders to compete.
+Malaysia has a crucial geographical advantage in terms of its
+strategic location as a gateway to the Southeast Asia region.
+The DFTZ is deliberately structured in terms of proximity to
+the sea and airports for a more efficient circulation and transportation of goods.
+A vital part of the DFTZ initiative is the incentives for businesses such as tax exemptions and the assurance of a faster
+and improved regulatory process leading to faster customs and
+cargo clearance. For instance, it has been reported that the purchase of goods via the Internet or eCommerce worth RM 1200
+and below will be exempted from paying tax in the DFTZ.
+Further, the development of an integrated government services and digital e-services platform allows access to leading
+global service providers.
+It is believed that the DFTZ will benefit manufacturers,
+traders and service providers. In particular, SMEs and Malaysian 5 AMP v Persons Unknown [2011] EWHC 3454.
+900 computer law & security review 33 (2017) 896–904
+manufacturers/brands looking to export will benefit from the
+streamlined logistical solutions in the DFTZ and improved regulatory processes, which reduces costs.The DFTZ will also benefit
+entities looking to use and source from Malaysia as a regional centre as well as international brand owners looking to
+reach ASEAN customers due to the strategic location of Malaysia. Local and global service providers providing support
+services such as fulfilment, last-mile delivery, payments and
+insurance are also expected to be one of the main beneficiaries of the DFTZ initiative.
+The long-term benefits of the DFTZ remain to be seen but
+it is expected to create 60,000 direct and indirect jobs for Malaysia and double the export growth of SMEs.
+5. New Zealand
+Karen Ngan (Partner), Simpson Grierson (karen.ngan
+@simpsongrierson.com); Nick Jens (Law Graduate), Simpson
+Grierson (nick.jens@simpsongrierson.com).
+5.1. Recent prosecutions under the Harmful Digital
+Communications Act 2015
+The High Court has delivered its first judgment regarding a complaint under the Harmful Digital Communications Act 2015
+(HDC Act).6 With it, the High Court has provided its interpretation on what constitutes “harm to the victim” under the HDC
+Act.
+5.1.1. Background
+The offender and the victim were married but separated, and
+a temporary protection order was in place against the offender. The offender made threats to post intimate photos on
+Facebook of the victim if the victim did not comply with various
+demands. The offender had also been stalking the victim. The
+offender subsequently posted the intimate photos on Facebook that were later discovered by the victim. At the time of
+discovery, the victim began to show signs of anger, anxiety, and
+frustration and also felt depressed. The victim’s emotional distress continued for some time and the victim made a complaint
+to the police that proceeded to a hearing in the District Court.7
+5.1.2. The law
+For a criminal prosecution to succeed under the HDC Act
+Section 22 requires that a three-stage test be met being:
+(a) the person posts a digital communication with the intention to cause harm to a victim;
+(b) the communication would cause harm to an ordinary
+reasonable person; and
+(c) the communication causes harm to the victim.
+5.1.3. District Court judgment
+The District Court held that there was a prima facie case to
+answer in respect of the first two limbs of the Section 22 test.
+However, the District Court held that in this case the digital
+communication did not cause harm to the victim, therefore
+failing the third limb of the statutory test. The HDC Act defines
+“harm” as “serious emotional distress”. This definition is the
+only guidance the HDC Act gives when interpreting harm under
+the Section 22 three-stage test. The District Court considered
+that while the evidence clearly pointed to some degree of emotional distress, it was not sufficient to satisfy the Court that
+it had reached the threshold of serious emotional distress.
+5.1.4. Appeal to High Court
+The prosecution appealed on the ground the District Court erred
+in its interpretation of serious emotional distress. In terms of
+the statutory test under Section 22, the High Court was only
+to consider limb (c) of the test – whether the communication
+caused harm to the victim, specifically, the interpretation of
+harm.
+5.1.5. High Court judgment
+The High Court upheld the appeal and found the District Court
+Judge had erred by failing to consider the unchallenged evidence of the distress suffered by the complainant in its totality,
+and without reference to context. The High Court considered
+that the District Court had isolated each of the emotions rather
+than assessing them in totality. The District Court Judge also
+had no apparent regard to context – which included the threats
+of publication and the demands the offender made of the
+victim.
+5.1.6. Key points
+The significance of the High Court’s decision is that it is the
+first (and currently, only) decision under the HDC Act.
+When considering whether any harm suffered meets the
+threshold of serious emotional distress:
+• there does not need to be mental injury or a diagnosed psychiatric disorder, but something more than initial emotional
+distress;
+• the distress suffered should be considered in its totality; and
+• regard should be had to context.
+6. Singapore
+Lam Chung Nian (Partner), WongPartnership LLP (chungnian.lam
+@wongpartnership.com);
+Gareth Liu (Associate), WongPartnership LLP (gareth.liu
+@wongpartnership.com).
+6.1. Public consultation on new Cybersecurity Bill
+The Ministry of Communications and Information (“MCI”)
+and the Cyber Security Agency (“CSA”) issued a public consultation on the draft Cybersecurity Bill (the “Bill”) on 10 August
+2017. The submission period for responses ended on 24 August
+2017.
+The Bill is meant to establish a framework for the oversight and maintenance of national cybersecurity in Singapore.
+6 Police v B [2017] 3 NZLR 203. 7 R v Partha Iyer [2016] NZDC 23957.
+computer law & security review 33 (2017) 896–904 901
+MCI and CSA commenced work on the Bill in late 2015, and
+thereafter engaged in several rounds of consultations with key
+stakeholders, including regulators of Singapore’s critical sectors,
+potential critical information infrastructure (“CII”) owners, industry associations, and cybersecurity professionals.
+The MCI and CSA have stated that the Bill has four
+objectives:
+(1) To provide a framework for the regulation of CII. This
+formalises the duties of CII owners in ensuring the
+cybersecurity of their respective CIIs.
+(2) To provide CSA with powers to manage and respond to
+cybersecurity threats and incidents. These powers
+augment the existing powers related to cybersecurity set
+out in Section 15A of the current Computer Misuse and
+Cybersecurity Act (“CMCA”). Specific powers will also be
+vested in CSA officers as sitting powers.
+(3) To establish a framework for the sharing of cybersecurity
+information with and by CSA, and the protection of such
+information.
+(4) To establish a light-touch licensing framework for
+cybersecurity service providers.
+6.1.1. Definition and designation of CII
+In the Bill, a CII is defined as a computer or computer system
+that is necessary for the continuous delivery of essential services, which Singapore relies on, the loss or compromise of
+which will lead to a debilitating impact on national security,
+defence, foreign relations, economy, public health, public safety
+or public order of Singapore. The government has identified
+essential services in 11 critical sectors: government, security
+and emergency, healthcare, telecommunications, banking and
+finance, energy, water, media, land transport, air transport, and
+maritime.
+The list of essential services is to be set out in a schedule,
+with new essential services being added from time to time by
+the Minister. Computers and computer systems that are necessary during times of national emergency may also be
+designated as CIIs.
+Section 7 of the Bill will allow the Commissioner to designate a computer or computer system as a CII by way of written
+notice to the owner of the computer or computer system. The
+CII owner is the person who (a) has effective control over the
+operations of the CII and has the ability and right to carry out
+changes to the CII; or (b) is responsible for ensuring the continuous functioning of the CII.
+As the Commissioner would need sufficient information to
+determine whether a computer or computer system fulfils the
+criteria of a CII, the Commissioner is empowered to require the
+owner of a computer or computer system to provide certain
+information about the computer or computer system.
+The designation of a computer or computer system as a CII
+is an official secret under the Official Secrets Act and is not
+to be divulged to the public.
+6.1.2. Duties of CII owners
+As CII owners are responsible to ensure the cybersecurity of
+their CIIs, every CII owner is subject to certain statutory duties,
+including:
+(a) Duty to provide information, i.e. to provide the Commissioner with information on the technical architecture
+of the CII;
+(b) Duty to comply with codes and directions, i.e. to comply
+with such codes of practice or directions in relation to
+the CII as may be issued by the Commissioner;
+(c) Duty to report incidents, i.e. to notify the Commissioner of (i) any cybersecurity incident that occurs in
+respect of the CII; and (ii) any cybersecurity incident that
+occurs in respect of any computer or computer system
+under the owner’s control that is interconnected with
+or communicates with the CII;
+(d) Duty to conduct audits, i.e. to cause regular audits of the
+compliance of the CII with the Bill, codes of practice and
+standards of performance to be carried out by an auditor
+approved or appointed by the Commissioner;
+(e) Duty to conduct risk assessments, i.e. to carry out regular
+risk assessments of the CII as required by the Commissioner; and
+(f) Duty to participate in exercises, i.e. to participate in
+cybersecurity exercises as required by the Commissioner.
+There are certain criminal offences in the Bill, which are
+associated with failure to comply with the above duties. These
+offences apply to CII owners in cases where they fail to perform
+their duties wilfully, or fail to comply with the Commissioner’s directions without reasonable excuse. CII owners will
+however not be directly penalised for cybersecurity breaches.
+6.1.3. Powers to investigate cybersecurity threats and
+incidents
+The Bill also grants the Commissioner (and his delegates)
+powers as may be necessary to determine the impact or potential impact of cybersecurity threats or incidents, to prevent
+further harm arising from a cybersecurity incident or to prevent
+subsequent cybersecurity incidents. These powers include:
+• requiring, by written notice, any person to attend at such
+reasonable time and at such place as may be specified by
+the investigating officer to answer any question or to provide
+a signed statement in writing concerning the cybersecurity
+incident or cybersecurity threat;
+• requiring, by written notice, any person to produce to the
+investigating officer any physical or electronic record, document or copy thereof in the possession of that person, or
+to provide the investigating officer with any information,
+which the investigating officer considers to be related to any
+matter relevant to the investigation, and without giving any
+fee or reward, inspect, copy or take extracts from such record
+or document; and
+• examining orally any person who appears to be acquainted with the facts and circumstances relating to the
+cybersecurity incident or cybersecurity threat and to reduce
+to writing any statement made by the person so examined.
+Greater powers are granted in respect of cybersecurity
+incidents satisfying certain severity thresholds. Examples
+include directing, by written notice, any person to carry out
+such remedial measures, or to cease carrying on such activities, as may be specified, in relation to a computer or computer
+902 computer law & security review 33 (2017) 896–904
+system that the investigating officer has reasonable cause to
+suspect is or was impacted by a cybersecurity incident. This
+is in order to minimise cybersecurity vulnerabilities, scanning for cybersecurity vulnerabilities, or taking possession of
+computers or equipment for further analysis. Such severity
+thresholds include where the cybersecurity incident or
+cybersecurity threat:
+• creates a real risk of significant harm being caused to a critical information infrastructure;
+• creates a real risk of disruption being caused to the delivery of an essential service;
+• creates a real threat to the national security, defence, foreign
+relations, economy, public health, public safety or public
+order of Singapore; or
+• the cybersecurity threat is of a severe nature, in terms of
+the severity of harm that may be caused or the number of
+computers or value of information put at risk, whether or
+not the computers or computer systems put at risk are of
+the nature of a critical information infrastructure.
+6.1.4. Licensing for cybersecurity service providers
+The Bill also aims to introduce a light-touch licensing regime
+for cybersecurity service providers that service the Singapore
+market, and to improve the standing of cybersecurity
+professionals.
+There are two types of licenses:
+1. Investigative Cybersecurity Service: this is a cybersecurity
+service that is investigative in nature and (i) involves circumventing the controls implemented in another person’s
+computer or computer system; or (ii) requires the person
+performing the service to obtain a deep level of access to
+the computer or computer system in respect of which the
+service is being performed, or to test the cybersecurity defences of the computer or computer system, thereby giving
+rise to a potential for significant harm to be caused to the
+computer or computer system.
+An example of the above is a penetration testing service
+provider.
+2. Non-Investigative Cybersecurity Service: this is a
+cybersecurity service that is not of an investigative nature.
+An example of the above is a managed security operations centre monitoring service provider.
+Licensed service providers (both investigative and noninvestigative) will need to meet certain basic requirements,
+including:
+(a) Requirement for key executive officers to be fit and proper
+persons (such criteria include the person’s honesty, integrity and financial soundness);
+(b) Retention of service records for five years (e.g. client information, service provided, name of employee who
+provided the service);
+(c) Compliance with a Code of Ethics (e.g. maintaining confidentiality about client information); and
+(d) Requirement for a process in place to ensure that employees performing the licensable services are fit and
+proper.
+The licensing framework will not take immediate effect, and
+CSA has indicated that it will engage in further consultation
+with the industry on detailed requirements before the framework is operationalised.
+6.1.5. Comments
+The threat of cyberattacks is real, and as Singapore embraces
+the use of technology, the defence of Singapore’s CII systems
+certainly merits oversight and scrutiny. The introduction of the
+Bill will empower government oversight of such systems and
+to mitigate risks of disruption to essential services.
+The Bill will have the largest impact on government and
+private sector organisations providing essential services, but
+may also affect service providers to such organisations as well
+(e.g. cloud service providers servicing essential service companies). Cybersecurity service providers will also be subject to
+the proposed licensing regime and it remains to be seen what
+specific licensing requirements and/or obligations would apply
+to such service providers.
+The bill raises a number of issues, which merit further deliberation and consideration. For example, the core concept of
+a CII may need clarification, as well as greater clarity on interconnected systems, and when breach-reporting obligations
+will be triggered. It remains to be seen whether such concerns will be addressed in a future revision of the Bill.
+7. Taiwan
+Po-Hsiang Ou (Associate), Eiger Law (ph.ou@eiger.law).
+7.1. Court: gamer currency not same as stored-value
+cards
+A recent criminal law judgment of the Taiwan New Taipei District Court8 clarified the scope of the Act Governing Issuance
+of Electronic Stored Value Cards (the “Act”).9 This is one of the
+few cases in the field of electronic stored-value card regulations and provides a further definition of these payment cards.
+The defendant, ADDCN Technology Co. Ltd. (“ADDCN”), was
+charged with violating the Act in relation to its online trading
+platform “www.8591.com.tw” (the “8591-Web”) and its online
+currency “T-coin”. The 8591-Web provides a platform for online
+gamers to trade in-game inventories and currencies, and uses
+the T-coin as its unit of trade and/payments. The prosecutor
+claimed that T-coins from 8591-Web should be considered as
+electronic stored-value cards, and thus ADDCN had violated
+the Act by issuing stored-value cards without a license from
+the Financial Supervisory Commission (“FSC”).10
+8 Taiwan New Taipei District Court judgement, 22 June 2017
+(台灣新北地方法院103年金重訴字第6號刑事判決). 9 電子票證發行管理條例: http://law.moj.gov.tw/Eng/LawClass/
+LawAll.aspx?PCode=G0380207. 10 Article 30 of the Act.
+computer law & security review 33 (2017) 896–904 903
+While it sounds quite far-fetched for an online virtual currency to be deemed a stored-value “card”, the legal text of the
+Act does include “other forms of debt obligation” into its definition. Article 2 of the Act defines electronic stored-value cards
+as:
+an IC chip, card, certificate or other forms of debt obligation that
+uses electronic, magnetic or optical means to store monetary value
+and performs the function of data storage or computing, and is
+used for multiple payment purposes.
+Following a textual interpretation, the FSC and the prosecutor argued that T-coins are a form of debt obligation that
+uses electronic means to store monetary value and data for
+multiple payment purposes (i.e. trading with various online
+gamers). The Court, however, following the principle of nulla
+poena sine lege, emphasized that pure literal interpretations of
+legal text may be too arbitrary, and argued that systematic as
+well as teleological interpretations are necessary for understanding the scope of the Act. More specifically, the Court ruled
+that ADDCN was not guilty, based on four key reasons:
+(1) T-coin is not a “card” as other smart cards or storedvalue cards envisioned by the legislators, nor can it
+“perform the function of data storage or computing”, as
+it is only a token or virtual account, without having any
+embedded digital circuitry or memory.
+(2) The concept of “other forms of debt obligation” should
+be understood as other physical devices similar to IC
+chips, smart cards or certificates, following a teleological interpretation. T-coins as virtual tokens should not
+be defined as stored-value cards.
+(3) T-coins are not for “multiple payment purposes”, as
+gamers using 8591-Web are not “contracted merchants”
+defined by the Act. The service of 8591-Web is different
+from the meaning of multiple payment purposes for
+stored-value cards.
+(4) T-coins and 8591-Web do not have “automatic deduction” functions as indicated in Article 1 of the Act, i.e.
+T-coins are “transferred” between various accounts as
+tokens, but not automatically deducted as amounts in
+other stored-value cards.
+It should be noted that this judgment is only a district
+court ruling and the prosecutor may still appeal the case
+before the High Court. Although it seems unfitting to regulate T-coins through regulations for stored-value cards, the
+8591-Web case does present a grey area between stored
+value and payment devices. Taiwan promulgated the Act
+governing Electronic Payment Institutions in 2015,11 and it
+is important to observe how the two regulatory regimes
+(e-payment and stored-value card) interact, especially in
+borderline cases.
+11 電子支付機構管理條例: http://law.moj.gov.tw/Eng/LawClass/
+LawAll.aspx?PCode=G0380237.
+904 computer law & security review 33 (2017) 896–904

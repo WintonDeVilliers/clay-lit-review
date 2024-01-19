@@ -1,0 +1,966 @@
+Australia's National Broadband Network e A
+cybersecure critical infrastructure?
+Nigel Wilson*
+University of Adelaide Law School, South Australia; Barrister, Bar Chambers, Adelaide, South Australia, Australia
+Keywords:
+Australia
+Critical infrastructure
+Cybersecurity
+Freedom of information
+National Broadband Network
+abstract
+In 2009 the Australian National Broadband Network (NBN) began to be rolled out across
+Australia. The Australian NBN is the largest infrastructure project in Australia's history
+since the Snowy Mountains Hydro-Electric Scheme from 1949 to 1972 and it has a projected
+cost of between AU$37 billion and AU$43 billion. Its purposes are to provide high speed
+broadband connectivity to 93% of Australia's homes and businesses, to enhance productivity, to improve the delivery of education, tele-medicine and regional connectivity and to
+form the basis of the Australian telecommunications network for the 21st Century. However, the project does not have bi-partisan support and has been affected by high-level
+management changes and anticipated cost over-runs.
+The legal implications of the Australian NBN are as vast as the project itself. Its implementation has involved the enactment of a suite of Commonwealth legislation and will
+involve considerable competition law and long-term access issues which have already been
+much critiqued. However, despite information technology being in the top five critical infrastructures internationally, a critical infrastructure analysis of the NBN has had little public
+attention. Similarly, due to the confidential nature of much of the NBN's operations, the
+cybersecurity aspects of the project have only been lightly scrutinised. Paradoxically, it is
+contended that greater scrutiny and public access to vital information will provide enhanced,
+not less, security for both the network itself and for Australian users and will also provide for
+a more secure and reliable engagement with Australia's international trading partners. Given
+the need for a high level of trust in, and the immense reliance upon, the Australian NBN,
+consumer and business confidence can only be enhanced by greater awareness of the critical
+infrastructure implications of the Australian NBN for Australia's future.
+© 2014 Nigel Wilson. Published by Elsevier Ltd. All rights reserved.
+1. The Australian National Broadband
+Network e is it?
+The arrival of the Internet in Australia in the 1990s heralded
+global online connectivity for Australia's economy and for
+Australians. The early adopters of the Internet initially utilised
+“dial-up” technology to connect to it through existing telecommunications technology. As the High Court of Australia
+has noted, Australia's “telephone service could once be used only
+for transmitting sounds. Now, the PSTN and the local loops as part of
+that network can be used to carry not only telephone communications but also data communications including internet access
+* University of Adelaide Law School, North Terrace, Adelaide, South Australia, 5005, Australia; Adjunct Senior Lecturer, Edith Cowan
+University, Perth, Western Australia.
+E-mail address: nigel.wilson@adelaide.edu.au.
+Available online at www.sciencedirect.com
+ScienceDirect
+www.compseconline.com/publications/prodclaw.htm
+computer law & security review 30 (2014) 699 e709
+http://dx.doi.org/10.1016/j.clsr.2014.09.003
+0267-3649/© 2014 Nigel Wilson. Published by Elsevier Ltd. All rights reserved.
+services.”
+1 Similarly, Justice Kirby stated in the Dow Jones case2
+that the “internet is accessible in virtually all places on Earth where
+access can be obtained either by wire connection or by wireless
+(including satellite) links”
+3 provided that the user has a
+connection to it and the basic hardware to do so. Unsurprisingly, over time information and telecommunications technologies (ICTs) have improved both in Australia and globally
+and the speed at which access to the Internet is able to be
+obtained has become faster and the volume of data which is
+capable of being transmitted has increased.
+By the turn of the 21st Century in Australia, momentum
+grew for a national approach to harnessing the benefits of the
+new and improved ICTs and in January 2003 the Broadband
+Advisory Group recommended that the Commonwealth
+Government collaborate both with other State and Territory
+governments and also with industry partners to implement a
+national broadband network.4 Over the course of the first
+decade of the 21st Century and through various changes in
+Federal Governments and buffeted by the impacts of the
+Global Financial Crisis in 2007/2008, the NBN Co was eventually established on 9 April 2009 and the National Broadband
+Network Companies Act 2011 (Commonwealth) and related
+legislation was enacted on 28 March 2011.
+By definition, there should be three essential elements in a
+National Broadband Network (NBN). It should be (i) national in
+its operation (ii) broadband in nature and (iii) a network or
+infrastructure. However, Australia's National Broadband
+Network, whilst described as such, strictly does not fulfil each
+of these criteria.
+As to its national operation, the extent to which the
+Australian NBN will be national is limited to those mainland
+sites (together with sites on the island of Tasmania) which
+have the capacity to deliver the necessary telecommunications systems which support it. Mainland Australia is to be
+serviced by NBN Co Ltd and the State of Tasmania is to be
+serviced by a subsidiary of NBN Co Ltd, NBN Tasmania Ltd.
+However, significant sections of mainland Australia do not
+have the capacity for broadband technology and, as Justice
+Kirby noted in the Dow Jones case in 2002, only satellite (not
+wireless or cable) communications can achieve such
+coverage.5 Those parts of Australia will be the subject of satellite and mobile technologies within the NBN framework.
+The extent of the broadband aspect of the Australian NBN
+is a comparative concept in any event as, expressed nontechnically, broadband technology is an Internet-based
+connection which is faster than the pre-existing dial-up
+technology. As the High Court of Australia stated in Bayside
+City Council v Telstra Corporation Ltd,6 broadband technology
+“uses a wider frequency band than is necessary to transfer speech
+telephonically.” However, it can be seen that “broadband”, as an
+expression, neither defines the actual speed nor the nature of
+the service. From 2001 the speed required for “broadband”
+technology has been recognised by the OECD as transmission
+equal to or faster than 256 kbits/second for a connection
+downstream (i.e. to the user) and equal to or greater than
+64 kbits/second for an upstream connection (i.e. from the
+user).7 There are many types of broadband-based technologies but digital subscriber line (known commonly as DSL
+which involves digital data being transmitted at higher frequency bands than traditional telephone transmission but
+simultaneously with it) and cable are the most common in
+Australia.8
+In relation to the network aspect, the NBN technology
+infrastructure is to be linked, or networked, to provide a greater
+participation between users. However, the Australian NBN is
+incomplete in its coverage and not all Australians will be able
+to access it. Many small towns, islands and remote communities will not be part of the Australian NBN but, in some cases,
+will be offered wireless internet services instead. Those communities comprise approximately 7% of the Australian population. Further, like the Internet itself, the Australian NBN is in
+fact a cluster of networks and technologies e a “network of
+networks”.
+9 This combination of networks together with the
+sheer size of the total Australian NBN infrastructure is potentially highly valuable and valued. Indeed, based on network
+theory which provides that the value of the network grows
+with the square of the number of users,10 the Australian NBN
+has the potential to be immensely valuable. The Australian
+NBN, as a network itself (or combination of networks), therefore has an intrinsic value, as with other industrial infrastructures.11 However, the network also has a value to its
+users which is increased by the number of users in the telecommunications environment. Whilst increased usage or
+“traffic” may in some network situations create bottlenecks or
+contested demand for resources, one benefit of the scale and
+nature of the telecommunications technologies which underpin broadband technologies is that this should be a rare
+occurrence. However, more problematic issues will arise from
+interruptions, such as power blackouts or power surges, or
+from cybersecurity attacks, whether malicious or negligent.
+Therefore whilst it is described as such, the Australian NBN
+at the outset has had shortcomings even in relation to its
+central components and purpose. One further shortcoming,
+which this Article will seek to address, is the level of scrutiny
+which has been given to whether the Australian NBN is a
+1 Telstra Corporation Ltd v The Commonwealth (2008) 234 CLR 210, [5]. 2 Dow Jones and Co Inc v Gutnick (2002) 210 CLR 575. 3 Above n 2, [80]. The role of wireless technology has been
+described as “disruptive, and [as having] the potential to displace
+fibre as an essential future broadband technology.” Catherine
+Middleton and Jock Given, ‘The Next Broadband Challenge:
+Wireless’, (2011) 1 Journal of Information Policy 36, 37. 4 Broadband Advisory Group's Report to Government (22
+January 2003, Minister for Communications, Information Technology and the Arts, Commonwealth of Australia). 5 Above n 2, [80]. 6 (2004) 216 CLR 595, [3].
+7 OECD, The development of broadband access in OECD countries,
+(Paris: Head of Publications Service, OECD, 2001). 8 See Rob Ayre, Kerry Hinton, Brad Gathercole and Kate Cornick, ‘A Guide to Broadband Technologies’ (2010) 43 (2) The
+Australian Economic Review 200. 9 Rohan Kariyawasm, International Economic Law and the Digital
+Divide: A New Silk Road, (Edward Elgar, 2007), 19. 10 Metcalfe's Law, see Carl Shapiro and Hal Varian, Information
+Rules, (Harvard Business Press, 1999). 11 John Cannadi and Brian Dollery, ‘An Evaluation of Private
+Sector Provision of Public Infrastructure in Australian Local
+Government’ (2005) 64(3) Australian Journal of Public Administration
+112.
+700 computer law & security review 30 (2014) 699 e709
+cybersecure, critical infrastructure. This Article will seek to
+address this critical issue by commencing with an analysis of
+Australia's reliance on networks, critically analysing the purposes of the NBN and then addressing the key, but somewhat
+overlooked and under-scrutinised, cybersecurity critical
+infrastructure dimensions in light of the current state of
+disclosure of information about these topics regarding the
+Australian NBN. The conclusion which will be drawn is that
+the cybersecurity aspects of the NBN have only been lightly
+scrutinised to date and information requests under Australia's
+Freedom of Information legislation in relation to the diverse
+operations of the Australian NBN have produced limited information or been refused and none have related to cybersecurity aspects of the project. It is contended that greater,
+ongoing scrutiny will provide enhanced security for both the
+Australian NBN itself and for Australian users. The sheer scale
+of the public investment in the Australian NBN alone demands transparency through the life of the project and consumer and business confidence will only be enhanced by
+more, not less, awareness of the state of the cybersecurity of
+this new, potentially highly valuable, critical infrastructure.
+2. Australia's reliance on networks
+Internationally, forecasts relating to the prospective value of
+the financial and social benefits of broadband networks have
+been impressive, to say the least.12 Highly positive projections
+have also been made for the Australian NBN when fully
+implemented.13 Australia, due to its geography, population
+and market economy, has historically relied heavily upon
+diverse networks e rail, road, shipping, aviation, energy,
+water, postal, telecommunications and media networks, to
+name a few. Across the globe, governments have played a
+significant role in infrastructure networks both in funding
+their implementation and in ensuring that their economic
+benefits are harnessed.14 No matter their nature, not all networks are available to all citizens whether through prohibitive
+cost, lack of education, geographic isolation or lack of choice e
+broadband technology is no exception. Indeed, the OECD has
+recognised the existence of a “broadband divide”
+15 and, whilst
+the Australian NBN is intended to provide equal access to the
+network, there are significant constraints upon true equality
+being achieved in Australia's diverse urban, regional and
+remote communities.
+Fortunately, even though ICTs were in their relative infancy at the time of Australia's Federation in 1901, the
+Commonwealth Constitution provides that it is the national
+Commonwealth Government which has been given exclusive
+power to legislate with respect to “postal, telegraphic, telephonic, and other like services” pursuant to section 51(v) of
+the Commonwealth Constitution and the transfer of such
+powers from the States.16 Historically, the High Court of
+Australia has interpreted this head of power in a highly
+practical, purposive manner since Federation.17 Accordingly,
+Australia-wide legislative competence exists in relation to the
+Australian NBN which is highly beneficial as it facilitates both
+effective national co-ordinated Commonwealth legislative
+oversight and financial backing.
+3. Purposes of the Australian NBN
+The Australian NBN, like its international equivalents, is
+intended to increase productivity. The OECD describes this
+purpose, pithily, as the objective to “prime the pump”
+18 and in
+Europe high-speed broadband has been described as “digital
+oxygen, essential for Europe's prosperity and well-being.”
+19
+The broad, stated purposes of the Australian NBN have been
+described by the Australian Government in its Statement of
+Expectations for the NBN in 2010 as including the delivery of a
+significant improvement in broadband service quality to all
+Australians, addressing the lack of high-speed broadband in
+Australia, particularly outside of metropolitan areas, and
+reshaping the telecommunications sector.20
+12 Robert Crandall and Charles Jackson, The $500 billion opportunity: The potential economic benefit of widespread diffusion of broadband Internet access, (2001, Criterion Economics, L.L.C); Dharma
+Dailey et al., Broadband Adoption in Low Income Communities, Social
+Science Research Council, (2010, Brooklyn); Christine Qiang & ors,
+Information and Communications for Development 2009: Extending
+Reach and Increasing Impact, (2009, World Bank, New York); Desiree
+van Welsum, Broadband and the Economy (2007, OECD, Paris);
+Berkman Center for Internet & Society at Harvard University, Next
+Generation Connectivity: A review of broadband Internet transitions and
+policy from around the world (Final Report, February 2010). 13 Centre for International Economics, Impacts of Genuine Broadband for Australia. (2008, Centre for International Economics,
+Sydney); Department of Broadband, Communications and the
+Digital Economy, Drivers of Broadband in Health, (2008, Commonwealth Government, Canberra); Department of Broadband,
+Communications and the Digital Economy, 21st Century Broadband. (2009, Commonwealth Government, Canberra); Department
+of Broadband, Communications and the Digital Economy, Australia's Digital Economy: Future Directions, (2009, Commonwealth
+Government, Canberra).
+14 William Mitchell, City of Bits: Space, Place and the Infobahn,
+(Massachusetts University of Technology Press, 1995), 168; Grace
+Li, ‘The return of public investment in telecommunications:
+Assessing the early challenges of the national broadband network
+policy in Australia’, [2012] 28 Computer Law and Security Review
+220.
+15 OECD, Current status of communication infrastructure regulation:
+Cable television, (Paris: Head of Publications Service, OECD, 1995)
+http://www.oecd.org/dsti/sti/it/cm/prod/e_96-101.htm. 16 Telstra Corporation Ltd v The Commonwealth (2008) 234 CLR 210. 17 R v Brislan; ex parte Williams (1935) 54 CLR 262. 18 Organization for Economic Cooperation and Development,
+Directorate for Science Technology and Industry, Towards a
+knowledge-based economydrecent trends and policy directions from the
+OECD. Background paper for the OECD-IPS workshop on promoting
+knowledge-based economies in Asia, (OECD, 2002) http://www.oecd.
+org/dataoecd/32/15/2510502.pdf. 19 European Commission, Digital Agenda: Broadband Speeds
+Increasing but Europe Must Do More, Nov. 25, 2010. 20 NBN Rollout: Statement of Expectations, Joint Media Release,
+The Hon Julia Gillard MP e Prime Minister, The Hon Wayne Swan
+MPeDeputy Prime Minister and Treasurer, Senator The Hon
+Penny Wong e Minister for Finance and Deregulation, Senator the
+Hon Stephen Conroy e Minister for Broadband, Communications
+and the Digital Economy, Deputy Leader of the Government in the
+Senate, 20 December 2010, http://www.dbcde.gov.au/__data/
+assets/pdf_file/0003/132069/Statement_of_Expectations.pdf.
+computer law & security review 30 (2014) 699 e709 701
+4. The central legal issues e the wellrecognised competition law dimension and the
+need for greater attention to the cybersecurity
+critical infrastructure dimensions
+Since its formal introduction in 2009, the Australian NBN has
+not had bi-partisan political support and in its early stages it
+has faced management challenges and projected cost overruns.21 As but one illustration, the politicisation of the
+implementation of the NBN is demonstrated most recently by
+the introduction of a Bill in March 2014 into the Senate by an
+Opposition Senator seeking to force the newly elected Coalition Government to implement NBN Tasmania Ltd's implementation of the fibre-to-the-premises broadband to
+approximately 200,000 premises in Tasmania. The Bill will not
+be considered by the Commonwealth Parliament for many
+months and is unlikely to pass as the Coalition has control of
+the House of Representatives. However and in addition to
+well-documented, political and financial challenges facing its
+introduction,22 there are many key legal dimensions to a National Broadband Network. A central dimension is the
+competition law and user access dimension which has been
+well scrutinised. However the cybersecurity critical infrastructure dimension has been significantly overlooked.
+It has been said, accurately, that there “is perhaps no issue
+more central to the debate about broadband policy than the state and
+role of competition.”
+23 Similarly, end user access and participation issues have been identified, appropriately, as significant
+legal issues24 as have potential concerns about Australia's
+compliance with its international trade obligations in relation
+to the implementation of the Australian NBN.25 The competition law issues raise major implications for both consumers
+and market participants and ultimately influence the ongoing
+value and potential sale value of the Australian NBN.
+Competition law issues are premised on economic theory and
+their translation into effective antitrust regulation26 e the
+need for competitive markets, the regulation (or removal) of
+monopolistic practices, the control of abuses of market power
+and the delivery of services and information to end users
+based on efficient practices and equal information. However,
+the Australian NBN, although it is not a government authority,27 is a highly regulated monopoly and will remain so until
+its sale. Historically, Australian government infrastructure
+monopolies and duopolies (various water, electricity, gas, rail
+and aviation State-run enterprises etc.) have been created as
+such for a combination of financial and, often, national security reasons. The NBN has been promoted, predominantly,
+as being a necessary monopoly in its start-up stage due to its
+high up-front costs so as to enable the roll-out of the network
+and for it then to be a corporate vehicle capable of being sold
+in due course at high value.
+Despite the high security implications of the Australian
+NBN, as with other telecommunications systems, consideration of the national security and critical infrastructure aspects has been remarkably dilute. This is despite the fact that
+the Australian Government announced in July 2010 that “high
+speed broadband should be seen as a critical utility service like
+water, electricity and gas”.
+28
+Further, when fully implemented, the Australian NBN will
+not just be an internal network for Australians within
+Australia. Indeed, the Australian NBN is intended to connect
+more Australians to the rest of the world e both faster and
+more efficiently. In doing so, as Johnson and Post observed
+about the growth of the Internet, assumptions about the capacity of existing legal frameworks to govern its operation and
+growth effectively are challenged by its influence across borders e laws which are historically based on geographical
+borders are potentially undermined.29 The cybersecurity
+threats arising from the exposure of the Australian NBN to
+both national and international impacts has implications both
+for its interim and ongoing operations and for its ultimate
+sale. The inter-relationship between the critical infrastructure
+which is created by the Australian NBN and its national security role is succinctly captured in the Attorney-General’s
+Department's observation about such infrastructures that
+they are: “physical facilities, supply chains, information technologies and communications networks which, if destroyed, degraded or
+rendered unavailable for an extended period, would adversely
+impact on the social or economic well-being of the nation or affect
+Australia's ability to ensure national security.”
+30
+21 NBN Co Corporate Plan 2012e2015 (6 August 2012). 22 Succinctly summarised in Rowan Wilken et al., ‘National,
+local and household media ecologies: The case of Australia's
+National Broadband Network’, (2013) Communications, Politics and
+Culture 136. 23 Organization for Economic Cooperation and Development,
+Directorate for Science Technology and Industry, Towards a
+knowledge-based economydrecent trends and policy directions
+from the OECD. Background paper for the OECD-IPS workshop on
+promoting knowledge-based economies in Asia (2002) Retrieved from
+hhttp://www.oecd.org/dataoecd/32/15/2510502.pdf; Jonathan
+Macey, ‘Regulatory Globalization as a Response to Regulatory
+Competition’ (2003) 52 Emory Law Journal 1353. 24 Mark Cooper, ‘Open Access to the Broadband Internet: Technical and Economic Discrimination in Closed, Proprietary Networks’ (1998) 69 University of Colorado Law Review 331; Australian
+Competition and Consumer Commission, Submission to the
+“National Broadband Network: Regulatory Reform for 21st Century Broadband Discussion Paper, (2009, Australia); Lucy Cradduck, ‘The future of the Internet Economy: Addressing challenges
+facing the implementation of the Australian National Broadband
+Network’, Queensland University of Technology, Doctoral Thesis
+(2010); Stephen Corones & Bill Lane, ‘Shielding Critical Infrastructure Information-Sharing Schemes from Competition Law’
+(2010) Deakin Law Review 1. 25 Tania Voon and Andrew Mitchell, ‘International Trade Law
+Implications of Australia's National Broadband Network’ (2011)
+35(2) Melbourne University Law Review 578.
+26 See Daniel Clough, ‘Law and Economics of Vertical Restraints
+in Australia’ (2001) Melbourne University Law Review 20; News Ltd &
+Ors v South Sydney District Rugby League Football Club Inc (2003) 215
+CLR 563 per Kirby J, [118].
+27 Section 95 of the National Broadband Network Companies Act
+2011 (Cth). 28 Australian Government, ‘Policy Statements’, Department of
+Broadband, Communications and Digital Economy, 20 June 2010.
+29 David Johnson & David Post, ‘Law and Borders e The Rise of
+Law in Cyberspace’ (1996) 48(5) Stanford Law Review 1367, 1367. 30 Attorney-General’s Department, Critical Infrastructure Protection (2009) http://www.ag.gov.au/www/agd/agd.nsf/Page/
+Nationalsecurity_CriticalInfrastructureProtection.
+702 computer law & security review 30 (2014) 699 e709
+What then is meant by the role of the Australian NBN as a
+critical infrastructure? The use of the expression “critical
+infrastructure” pre-dated the events of 11 September 200131 and
+was the subject of the United States' Critical Infrastructure Plan
+in 1998, but it gained significant notoriety in the post-9/11
+aftermath and, in legislative parlance, in its role in the United
+States of America's PATRIOT Act 2001. The expression “critical
+infrastructure” was defined in the PATRIOT Act as those:
+“systems and assets, whether physical or virtual, so vital to the
+United States that the incapacity or destruction of such systems and
+assets would have a debilitating impact on security, national economic security, national public health or safety, or any combination
+of those matters. …”
+32
+The technical nature of the Australian NBN is highly complex but relies, in a non-technical sense, upon the physical
+network itself (cables, pipes, access nodes etc.), the data and
+content which it conveys (telephone communications, email,
+messaging etc.) and its customer services (connections, technical support and billing services etc.). Its inter-relationship
+with other critical infrastructures is also both a complicating
+factor and a valuable one. As a significant driver of the
+Australian telecommunications network it is a critical infrastructure of the highest ranking, when ICTs themselves have
+been ranked by the International Risk Governance Council as
+the most significant international critical infrastructure.33 In
+Australia it is now well recognised that critical infrastructures
+are “increasingly e if not exclusively e controlled by computers”
+34
+which reflects the pithy observation made by Condron that in
+the United States of America “[n]etworked computer systems form
+the nerve center of the country's critical infrastructure”.
+35 The
+mutual, often circular, inter-relationship between critical infrastructures (e.g. the reliance of ICTs on electric power and
+vice versa) is also of critical importance to note and the IRGC
+has also made the observation of this intricate critical infrastructure web that “our societies are most vulnerable to disruptions
+of electric power supply and disruptions to, or degradation of, ICT
+services”.
+36 The Australian NBN is therefore a prime critical
+infrastructure e prime in value, as well as a prime target.
+In parallel with the rise of critical infrastructure protection
+awareness, there has also been a rise in the international37
+attention given to, and the obvious need to address, the
+cybersecurity dimension to the point where it also became
+one of Australia's national security priorities under the
+former Australian Prime Minister's 2008 National Security
+Statement. The Australian Government defines cybersecurity
+broadly as: “[m]easures relating to the confidentiality, availability
+and integrity of information that is processed, stored and communicated by electronic or similar means.”
+38 By its very nature, the
+Australian NBN is potentially riddled with cybersecurity implications which “include computer viruses and malicious
+code, hackers and saboteurs, data breaches, data and identity
+theft, electronic fraud and other criminal activity as well as
+intellectual property issues.”39 Research in relation to the
+cybersecurity of critical infrastructures is an emerging area
+which has been noted, accurately, to require further extensive new research.40 The North American Electric Reliability
+Corporation (NERC) established cybersecurity standards for
+critical infrastructures which follows the SCADA (supervisory
+control and data acquisition) framework and involves four
+significant components: a) real-time monitoring, b) anomaly
+detection, c) impact analysis, and d) mitigation strategies.41
+Further suggestions for enhanced cybersecurity of critical
+infrastructures have involved “attack-tree” modelling based
+on algorithms to evaluate both password policies and port
+31 In Ted Lewis, ‘Critical Infrastructure Protection in Homeland Security e Defending a Networked Nation’, (John Wiley and Sons Inc,
+2006) at 2e3 it is suggested that the expression had been evolving
+since the 1962 Cuban Missile Crisis. Further guidance on criticality may be found in the Critical Infrastructure Protection Risk
+Management Framework for the Identification and Prioritisation of
+Critical Infrastructure and Handbook 167:2006 to the AS/NZS 4360:
+2004 Risk Management Standard. 32 Uniting and Strengthening America by Providing Appropriate
+Tools Required to Intercept and Obstruct Terrorism (USA
+PATRIOT Act), 2001. See also Eric Jensen, ‘Computer Attacks on
+Computer National Infrastructure: A Use of Force Invoking the
+Right of Self-Defence’ (2002) 38 Stanford Journal of International Law
+207; Michael Levi and David Wall, ‘Technologies, Security and
+Privacy in the Post 9/11 European Information Society’ (2004) 31 2
+Journal of Law and Society 194; Susan Brenner, ‘Distributed Security: Moving Away From Reactive Law Enforcement’, (2005) International Journal of Communications Law and Policy 1. 33 International Risk Governance Council, ‘Managing and
+Reducing Social Vulnerabilities from Coupled Critical Infrastructures’,(White Paper No 3, 2006) identified the critical infrastructures as electric power networks, gas supply systems,
+water supply and waste treatment, rail transport systems; and
+information and communication technology (ICT) systems. The
+authors acknowledged at 57 that there are other important infrastructures which were not considered such as air, road, water
+and multi-modal transport, other aspects of ICT, food delivery,
+financial services systems, health care and government service.
+34 Parliamentary Joint Committee on the Australian Crime
+Commission (2004), 53.
+35 Sean Condron, ‘Getting it Right: Protecting American Critical
+Infrastructure in Cyberspace’, (2007) 20 Harvard Journal of Law and
+Technology 403, 407.
+36 IRGC White Paper No. 3, above n 33, 12. 37 Creation of a Global Culture of Cybersecurity and the Protection of
+Critical Information Infrastructures, GA Res 199, UN GAOR, 58th
+session, 78th plenary meeting, UN Doc A/Res/58/199 (30 January
+2004); Creation of a Global Culture of Cybersecurity and Taking Stock of
+National Efforts to Protect Critical Information Infrastructures, GA Res
+64/211, UN GAOR, 64th session, UN Doc A/Res/64/211, (17 March
+2010); K Andreasson (Ed), ‘Cybersecurity e Public Sector Threats and
+Responses’, (CRC Press, Taylor and Francis Group, 2011). 38 Australian Government, Cyber Security Strategy, Commonwealth of Australia, 2009.
+39 Nigel Wilson, ‘E-Risks and Insurance in the Information Age’
+(2011) 24 New Zealand Universities Law Review 550, 554; United
+Nations Conference on Trade and Development Information
+Economy Report 2005 UNCTAD/SDTE/ECB/2005/1 (2005), 200; SIFT
+Information Security Services Future of the Internet Project e Reliability of the Internet (2007) www.dbcde.gov.au [the SIFT Report]
+(commissioned by the Australian Department of Communications, Information Technology and the Arts (DCITA)).
+40 Ten Chee-Wooi et al., ‘Cybersecurity for Critical Infrastructures: Attack and Defense Modeling’ (2010) 40 IEEE
+Transactions on Systems, Man and Cybernetics - Part A: Systems and
+Humans 853, 863. 41 NERC Tech. Rep. Cybersecurity Standards.http://www.nerc.
+com/filez/standards/Cyber-Security-Permanent.html.
+computer law & security review 30 (2014) 699 e709 703
+auditing techniques.42 In the United States, the US-CERT has
+established national SCADA test-beds for the purpose of
+testing the cybersecurity of critical infrastructures, predominantly energy networks,43 and cybersecurity work-plans44
+and detailed cybersecurity guidelines to ensure consistency
+in procurement language45 are publically available. What
+then is known of the cybersecurity measures relating to the
+Australian NBN?
+Historically, Australian national cybersecurity policy has
+relied upon general legislative provisions and whilst the
+Australian NBN is the subject of its own suite of detailed
+legislation,46 nowhere in the Australian NBN “legislative suite”
+is there any provision for specific cybersecurity or critical
+infrastructure protections for the Australian NBN itself.
+Instead, such protections are left to the general, existing law.
+Australia's extensive cybersecurity legal framework is the
+subject of considerable Commonwealth and State and Territory legislation47 as well as extensive cybersecurity educational programmes.48 Of particular potential relevance in the
+context of critical infrastructure measures are the Ministerial
+powers to protect designated critical infrastructure pursuant
+to the Defence Act 1903 (Cth) and the ability to “call out” the
+Australian Defence Forces in a situation where the Minister
+believes on reasonable grounds that there is a threat of
+damage or disruption to a critical infrastructure and that it
+would or could endanger Australians.49 At present, Australian
+Government policy in relation to critical infrastructure protection has been to take a deliberately “non-regulatory
+approach to critical infrastructure. This approach recognises
+that in most cases, the owners and operators of critical
+infrastructure are best placed to manage risks to their operations and determine the most appropriate mitigation strategies.”
+50 In 2010 Cook made the observation that whilst “the
+NBN will bring high speed internet to more homes and business than ever before, there is, as yet, no corresponding security strategy that is aimed to match these developments in
+anywhere near the same size and scale”
+51 and contended that
+Public-Private Partnerships (PPPs), even partnering with NonGovernment Organisations (NGOs), would be an effective
+method (both in cost and outcome) to achieve greater cyberresilience.52 As a consequence of current national policy to
+leave critical infrastructure protection measures to their
+owners and operators, the likelihood of specific legislative
+measures in relation to the Australian NBN is unlikely and
+Cook's suggestion for PPP-based initiatives to be implemented
+has not occurred to date. However, other non-legislative
+cybersecurity measures are being taken, internationally and
+in Australia, through the use of critical infrastructure protection, or more recently, resilience-based programmes.53
+5. The Trusted Information Sharing Network
+for Critical Infrastructure Protection (TISN) e
+could it shed some light?
+Following its international counterparts, in the last decade
+Australia has established dedicated critical infrastructure
+protection programmes and associated information sharing
+mechanisms. These strategies mirror elements of the international critical infrastructure programmes such as the European Union's European Programme for Critical
+Infrastructure Protection (EPCIP) which is the subject of a European Commission directive requiring Operator Security
+42 Port auditing techniques are employed to ensure that a
+computer system is free from malicious threats which might
+compromise the system by the use of local security checks, root
+access, remote file access, default account, Trojan horse, worm,
+or possible backdoor attacks; see Chee-Wooi, above n 40, 859.
+43 J. Tang et al., ‘The CAPS-SNL power system security test bed,’
+Proceedings of the 3rd CRIS, Alexandria, VA, September 2006; Giovanna Dondossola et al., “Emerging information technology scenarios for the control and management of the distribution grid,’
+Proceedings of the 19th Int. Conf. Exhib. Elect. Distrib., Vienna,
+Austria, March 21e24, 2007. 44 Department of Energy/Office of Electricity National SCADA
+Test Bed Fiscal Year 2009 Work Plan http://energy.gov/oe/
+downloads/doeoe-national-scada-test-bed-fiscal-year-2009-
+work-plan. 45 Energy Sector Control Systems Working Group, ‘Cybersecurity
+Procurement Language for Energy Delivery Systems’, April 2014,
+http://energy.gov/sites/prod/files/2014/04/f15/
+CybersecProcurementLanguage-EnergyDeliverySystems_040714_
+fin.pdf. 46 National Broadband Network Companies Act 2011 (Cth); Telecommunications Legislation Amendment (National Broadband Network
+MeasuresdAccess Arrangements) Act 2011 (Cth). 47 Commonwealth legislation includes the Criminal Code Act 1995
+(Cth) (as amended by the Cybercrime Act 2001 (Cth)), the Telecommunications (Interception and Access) Act 1979 (Cth), the Spam Act
+2003, the Telecommunications Act 1997 (Cth) and the Privacy Act
+1998 (Cth), the Surveillance Devices Act 2004 (Cth), the Intelligence
+Services Act 2001 (Cth) and the Australian Security Intelligence
+Organisation Act 1979 (Cth). 48 For example, the Stay Smart Online, Scamwatch, FIDO and
+Stay Safe Online programmes, together with the Australian High
+Tech Crime Centre and AusCERT, Australia's National Computer
+Response Team. However, an Australian Institute of Criminology
+survey suggested that 79 per cent of the businesses surveyed
+were unaware of these initiatives; Australian Institute of Criminology The Australian Business Assessment of Computer User Security:
+A National Survey (AIC Research and Public Policy Series 102, 2009),
+48.
+49 Rob McLaughlin, ‘The Use of Lethal Force by Military Forces
+on Law Enforcement Options e Is There a ‘Lawful Authority’?’
+(2009) 37(3) Federal Law Review 441; see also Michael Head, ‘The
+Military Call-Out Legislation d Some Legal and Constitutional
+Questions’ (2001) 29 Federal Law Review 273; Michael Head, ‘Australia's Expanded Military Call Out Powers: Causes for Concern’,
+(2006) 3 University of New England Law Journal 125; Michael Head,
+‘Military Call-out Powers Expended: Disturbing Questions Posed’
+(2006) 31 (2) Alternative Law Journal 83; Cameron Moore, ‘Calling
+out the Troops e The Australian Military and Civil Unrest: The
+Legal and Constitutional Issues by Michael Head’ (2009) 33 (3)
+Melbourne University Law Review 1022. 50 Critical Infrastructure Resilience Strategy, (Australian Government, 2010), 14.
+51 David Cook, ‘Mitigating cyber-threats through public private
+partnerships: low cost governance with high impact returns’,
+Proceedings of the 2010 International Cyber Resilience Conference ICR
+2010, 22-30,Edith Cowan University, Perth, Western Australia, 26. 52 David Cook, 2010, n 51. 53 See Benoıˆt Robert et al., Organizational resilience e Concepts and
+evaluation methodology, (Montreal, Presses Internationales Polytechnique); Fred eric Petit et al., ‘Developing and index to assess 
+the resilience of critical infrastructure’ (2012) International Journal
+of Risk Assessment and Management, 16 (1/2/3), 28e47.
+704 computer law & security review 30 (2014) 699 e709
+Plans to identify the infrastructure, its major threat scenarios
+and vulnerabilities and to formulate detailed counter-measures.54 Similarly, the United Kingdom's Centre for the Protection of National Infrastructure provides information and
+advice to critical infrastructure organisations in the United
+Kingdom. In the United States of America the Critical Infrastructure Protection Programme is even more advanced and
+has operated since 1996. In 2013 it was the subject of a
+detailed, revised National Plan entitled “NIPP 2013: Partnering
+for Critical Infrastructure Security and Resilience”
+55 as a result
+of the President's call for an updated national plan56 and an
+Executive Order57 requiring the Federal Government to coordinate with critical infrastructure owners to improve cybersecurity information sharing and develop and implement
+risk-based cybersecurity solutions.
+In 2003, and before the introduction of the Australian NBN,
+the Australian Commonwealth Government implemented the
+Trusted Information Sharing Network for Critical Infrastructure Protection.58 In 2008 a programme entitled “Cyber Storm II”
+considered simulated scenarios across four critical infrastructures, namely communications, energy, banking and
+finance and water.59 However, the project was confidential.
+Corones and Lane have examined the competition law risks
+which may arise from the sharing of security information
+between competitors who are participants in such
+information-sharing networks. They have identified that
+Australian law may require the introduction of a defence so as
+to protect such information sharing arrangements, consistent
+with developments in the United States of America.60 Their
+recommendation, based on competition law grounds, has not
+been adopted. So it remains that in 2014 much information
+relevant to the cybersecurity dimensions of the Australian
+NBN remains commercially confidential to the entities
+involved or to confidential networks of critical infrastructure
+organisations with the possibility that in doing so competition
+law risks are prevalent. Why do we need to know more about
+the cybersecurity critical infrastructure dimensions of the
+Australian NBN?
+6. The Australian NBN e a cybersecurity
+“force-multiplier” or a “disaster waiting to
+happen”?
+From a competition law perspective, the regulation of the
+Australian NBN is occurring within the traditional access
+regime arrangements with highly tailored arrangements for
+the various telecommunications technologies. As referred to
+above, if competition law issues are recognised as one of the
+greatest legal issues facing the Australian NBN but no special
+treatment is being meted out on that front, then it could be
+said to be unrealistic, superficially, to suggest that special
+treatment is necessary on any other legal front: cybersecurity,
+critical infrastructure or otherwise. Further, and based on a
+much more theoretical premise, the whole concept of technology neutrality61 in modern regulation, which has been
+much lauded with the rise of ICTs nationally and internationally, could be said to dictate a similar outcome e no special treatment. Turning from theory to practice, today's
+Australian NBN may be tomorrow's Overland Telegraph Line
+(the telegraph line built in the 1870s over 3200 km between
+Adelaide, South Australia, and Darwin, in the Northern Territory, which enabled Australia to be connected to the rest of
+the world via undersea cable to Indonesia). With ongoing
+changes in technology not only expected but championed in
+the Digital Age, for the Australian NBN to be singled out for
+special legal treatment may give rise to even more significant
+legal issues or potential on-costs which may ultimately be
+counter-productive to its perceived benefits.
+However, are there reasons to be sensitive, even hypersensitive, towards a vast, highly expensive, publicallyfunded infrastructure project which is recognised as being
+both national in its operation and international in its
+outreach? Indeed, one which is in the highest ranking of
+critical infrastructures and the means through which, ultimately, the vast majority of Australians, Australian businesses and governments are intended to communicate and
+conduct their daily work and activities.
+Whilst the Australian NBN is in its infancy, the cybersecurity threat is real and concerns have already been
+expressed. Tellingly in the context of the cyber-threat risks
+associated with the Australian NBN, Mr Graham Ingram,
+General Manager of the Australian Computer Security
+Response Team (CERT) said in 2011: “Everything bad you can do
+online you can do much better and faster with a high-speed
+network.”
+62 Further, an early case which raised public sensitivity about the potential security of the Australian NBN
+54 European Programme for Critical Infrastructure Protection
+(EU COM (2006) 786 final) e Official Journal C 126 of 7.6.2007;
+Madelene Lindstrom, ‘The European Programme for Critical
+Infrastructure Protection’, in Lindstrom and Olsson, Crisis Management in the European Union, (2009, Springer), 37.
+55 US Department of Homeland Security, “NIPP 2013: Partnering
+for Critical Infrastructure Security and Resilience”, 2013. 56 The White House, Presidential Policy Directive 21 e Critical
+Infrastructure Security and Resilience, http://www.whitehouse.
+gov/the-press-office/2013/02/12/presidential-policy-directivecritical-infrastructure-security-and-resil.pdf. 57 The White House, Executive Order 13636 e Improving Critical
+Infrastructure Cybersecurity, http://www.gpo.gov/fdsys/pkg/FR2013-02-19/pdf/2013-03915.pdf. 58 Now styled as the Trusted Information Sharing Network for
+Critical Infrastructure Resilience.
+59 Attorney-General’s Department, Security and Critical Infrastructure Division, Cyber Storm II National Cyber Security Exercise
+Final Report (August 2008). The other five Infrastructure Assurance
+Advisory Groups are transport, emergency services, health, food
+chain and mass public gatherings.
+60 Corones and Lane, 2010, above n 24; see also John Han,
+‘Antitrust and Sharing Information about Product Quality’, (2006)
+73 University of Chicago Law Review 995 and Amitai Aviram and
+Avishalom Tor, ‘Overcoming Impediments to Information
+Sharing’, (2004) 55 Alabama Law Review 231.
+61 Chris Reed, ‘Taking Sides on Technology Neutrality’, (2007) 4
+SCRIPTed 263; Yoo, Beyond Network Neutrality, (2005) 19 Harvard
+Journal of Law and Technology 1; Nigel Wilson, ‘Regulating the Information Age e How will we cope with technological change?’
+(2010) 33 Australian Bar Review 120; Kayleen Manwaring, ‘Network
+Neutrality: Issues for Australia’ [2010] 26 Computer Law and Security Review 630. 62 The Australian, ‘Cyber-attack alert for National Broadband
+Network’, (28 July 2011).
+computer law & security review 30 (2014) 699 e709 705
+involved a hacker charged with unauthorised modification of
+data of the telecommunications provider Platform Networks.
+The telecommunications company involved, Platform Networks, was at the time signed as an Australian NBN retail
+service provider but, in fact, was not actively performing that
+role at the time of the offence. The accused was given a two
+year jail sentence after pleading guilty. Similarly, in the
+context of potential service providers to the Australian NBN
+itself, the Commonwealth Government banned a Chinese
+telecommunications vendor, Huawei Technologies Co Ltd,
+from participating in the Australian NBN due to national security concerns in 2012 and the ban remains in place under
+the new Coalition Government.
+The Australian NBN's speed and capability is not without
+significant risks and in its submission to the Senate Select
+Committee on the Australian NBN, CERT stated that the
+Australian NBN would be a cyber-crime enabling infrastructure:
+It is assessed that the NBN has the potential to be a forcemultiplier for cybercrime attacks directed at Australian networks and information systems because cyber criminals are
+attracted to attack, compromise and use systems with high speed
+broadband access.
+63
+Indeed, CERT forecast that if current approaches to cybercrime by both government and industry did not significantly
+change, then gains from the Australian NBN would be seriously undermined.64 Of significant importance was the
+observation made by CERT that, whilst its submission only
+addressed specific aspects of the Select Committee's Terms of
+Reference, it noted, pointedly, that:
+- the implications for cyber security for Australia as a result of the
+roll out of the NBN; and
+- the security of the NBN itself are not specifically part of the
+terms of reference, which is concerning as it may mean that
+important cyber security issues are not addressed during the
+design, planning and implementation of the NBN. Attempting to
+retrofit security to the NBN would be disastrous.65
+These observations were based upon CERT's own experience since 2003 together with both OECD and industry
+research that “the level of malicious Internet activity and cybercrime increases in proportion to the availability of, high speed
+broadband services.”
+66 CERT observed that an unintended
+consequence of surpassing broadband speeds which are
+currently available in other countries may make Australia “a
+preferred destination” by cybercriminals seeking to host
+cyber-attacks which are aimed both at Australian and international targets.67
+Of critical importance from a cybersecurity perspective is
+the further observation by CERT that:
+A key concern with the NBN, as with the existing telecommunication backbone network, is that there will be little or no security
+built into the NBN backbone network. Rather, as currently applies, it will be increasingly important for the end points to bear
+the major responsibility and burden for security measures, which
+is already resource intensive, complex and challenging.68
+It is noteworthy that the language adopted by CERT, an
+Australian government agency, reflected the government's
+own definition of cybersecurity e measures which relate to the
+confidentiality, availability and integrity of information that is
+processed, stored and communicated by the Australian NBN e
+and that CERT observed that there is little or no cybersecurity
+built into the NBN backbone network and that end points (or
+end users) will bear that responsibility and burden. Can any
+better information or comfort be drawn from other sources?
+7. Insufficient cybersecurity information is
+currently available about the NBN
+Over and above the highly cautionary, and concerning, observations by CERT, are there other sources of information
+regarding the state of cybersecurity in the Australian NBN?
+There are three sources at least for this information e the
+legislation enacting the Australian NBN, publically released
+information and judicial scrutiny to date.
+As noted above, the Australian NBN legislation contains no
+specific provisions in relation to critical infrastructure protection or cybersecurity and the Australian NBN is therefore
+wholly reliant on the existing general law, both statute and
+common law. Based upon government policy in relation to
+critical infrastructure, further legislative intervention is unlikely. Similarly, the public release of information has also
+tended to be limited to generic, catchphrase-type information
+associated with the need for cybersecurity in relation to the
+Australian NBN but with little detail.69
+Interestingly, the Australian NBN's operations to date have
+been the subject of quite extensive judicial scrutiny. Whilst
+the cases have been predominantly civil in nature, some, for,
+example, relating to the planning implications associated
+with the Australian NBN rollout,70 the major emphases have
+63 CERT Submission to the Senate Inquiry, www.auscert.org.au/
+download.html?f¼496, 2. 64 CERT, ibid n 63, 2. 65 CERT, above n 63, 3. 66 CERT/CC (2005), Botnets a vehicle for online crime, www.cert.
+org/archive/pdf/Botnets.pdf; OECD, Malicious Software (Malware)
+e A Security Threat to the Internet Economy. http://www.oecd.
+org/dataoecd/53/34/40724457.pdf, at 26; https://www.linx.net/
+files/hotlinx/hotlinx-17.pdf, p 3. 67 CERT, above n 63, 6.
+68 CERT, above n 63 at 6. 69 NBN Co Limited (2010), Product and Pricing Overview for Access
+Seekers, Version 2.0, Sydney; NBN Co Limited. (2010), Building Our
+National Broadband Network, Sydney; NBN Co Limited. (2012),
+Corporate Plan 2012e2015, Sydney, NBN Co Limited, (2013). 70 Richter v South Gippsland SC [2013] VCAT 2120 in which the
+Victorian Civil and Administrative Tribunal refused an application for the installation by NBN Co of a 30 m telecommunications
+policy and related facilities 500 m from the applicant's residence
+in country Victoria and 700 m from the country town centre. The
+Tribunal acknowledged at [9] that there “is strong planning policy
+support for structures associated with the National Broadband
+Network. This is a government initiative that is intended to
+improve connections for all Australians, and the rollout of this
+network has been given emphasis in the planning scheme.”
+706 computer law & security review 30 (2014) 699 e709
+been requests for information about its commercial operations. Requests for information in relation to the Australian
+NBN pursuant to the Freedom of Information Act 1982 (Cth)
+provisions have been regularly made. In a different, but
+related, context, Voon and Mitchell have made a call for
+greater publically assessable information to be released in
+order to ensure the Australian NBN's compliance with its international trade obligations.71 However, to date this call has
+been ignored.
+As an analysis of the freedom of information cases to date
+demonstrates, even in the early stages of the Australian NBN's
+operations there are tensions between the commercial
+sensitivity and competitiveness of the NBN Co, the Government's role in its operations and the public interest in the
+release of information regarding Australia's most significant
+infrastructure project this century.
+7.1. Telstra Corporation Limited and Department of
+Broadband, Communications and the Digital Economy72 e
+access granted to NBN documents which are in the “public
+arena”
+Telstra Corporation Limited (Telstra) made three requests to
+the Department of Broadband, Communications and the
+Digital Economy (DBCDE) for access to documents under the
+Freedom of Information Act 1982 (the FOI Act). DBCDE gave access
+to some of the documents requested but contended that two
+were exempt from access on the basis that they were Cabinet
+documents within the meaning of s 34 of the FOI Act. Deputy
+President Forgie of the Administrative Appeals Tribunal held
+that the two documents were not submitted to Cabinet or a
+Committee of Cabinet. DBCDE also contended that the two
+documents, together with three further documents which fell
+within the terms of the request by Telstra for access, should
+not be released as to do so would involve the disclosure of
+“deliberative processes involved in the function of an agency or
+Minister or of the Government of the Commonwealth” and be
+contrary to the public interest within the meaning of s 36(1) (b)
+of the FOI Act.
+Deputy President Forgie held:
+… there is a public interest in an informed debate about the
+regulation of the telecommunications industry. …there is a public
+interest in ensuring that the telecommunications industry is
+regulated fairly and appropriately. That finding has nothing to do
+with the fact that the Australian community continues to be the
+majority shareholder in Telstra. It has everything to do with the
+vital importance of an adequate telecommunications system,
+including a National Broadband Network, in Australia howsoever and whosoever provides it. Whether regard is had to the
+conduct of business, the defence and security of the country, the
+conduct of its local, State and Commonwealth governments, its
+educational facilities, its emergency services, its community activities and the way in which its inhabitants manage their personal and financial affairs and maintain their family and social
+interaction, a telecommunications system that meets Australia's
+current and future and expanding needs is vital.73
+Deputy President Forgie held that the balance lay in favour
+of disclosure. This conclusion was based, amongst other
+things, on the finding that the Government had put its request
+for one of the documents, an Australian Competition and
+Consumer Commission (ACCC) report, and the topic to which
+it related “squarely in the public arena”. The ACCC report
+subsequently took a central role in proceedings before the
+Australian Competition Tribunal (ACT) in which it was held
+that the report contained information relevant to a critical
+issue before the ACT relating to how Telstra's “unconditioned
+local loop service” (ULLS) price structure should occur. Tellingly, Deputy President Forgie held that disclosure was “relevant in informing public debate on the maintenance of an effective
+system of telecommunications in Australia. Its disclosure is consistent with the public interest in the administration of justice. An integral part of that public interest is the transparency of
+proceedings.”
+74
+7.2. Crowe and NBN Co Ltd75 e refusal to grant access
+to NBN's points of interconnect information
+In 2011 the Freedom of Information Commissioner (the FOI
+Commissioner) affirmed the decision of NBN Co Limited (“NBN
+Co”) which had held that NBN Co was not an entity that was,
+at that time, subject to the FOI Act. This was because at the
+time of the request it was not a “prescribed authority” pursuant to Section 4(1) of the FOI Act and NBN Co had not been
+declared by the regulations to be a prescribed authority for the
+purposes of the FOI Act. The FOI Commissioner confirmed the
+refusal of access to NBN Co's submissions to the ACCC
+regarding the determination of the number and location of
+Points of Interconnect (POI) for the Australian NBN. The decision demonstrates that the novelty of the NBN Co, which
+was not at the time of the request a prescribed authority, had
+implications upon the legal capacity for a request under the
+FOI Act to be met effectively.
+7.3. Internode Pty Ltd and NBN Co Ltd76 e refusal to
+grant access to certain of NBN's arrangements with Telstra
+A similar outcome to the result in the Crowe decision was
+reached by the FOI Commissioner in Internode Pty Ltd and NBN
+Co Ltd but by a different path. In this case Internode Pty Ltd
+sought disclosure of four agreements made between NBN Co
+and Telstra which translated financial heads of agreement
+which had been signed in June 2010 into legally binding
+agreements, provided for the use by NBN Co of Telstra's
+infrastructure and related to the decommissioning of some of
+Telstra's network capability during the rollout of the Australian NBN which had been valued at $9 billion. On this occasion, the FOI Commissioner held that NBN Co was subject to
+71 Tania Voon and Andrew Mitchell, ‘International Trade Law
+Implications of Australia's National Broadband Network’ (2011)
+35(2) Melbourne University Law Review 578. 72 [2010] AATA 118.
+73 Telstra Corporation Limited and Department of Broadband, Communications and the Digital Economy [2010] AATA 118, [228]. 74 Telstra Corporation, ibid n 73, [237]. 75 [2011] AICmr 1 (25 January 2011). 76 [2012] AICmr 4 (20 January 2012).
+computer law & security review 30 (2014) 699 e709 707
+the FOI Act because, on 11 June 2011, the Telecommunications
+Legislation Amendment (National Broadband Network MeasuresdAccess Arrangements) Act 2011 (Cth) changed the definition
+of ‘prescribed authority’ in s 4(1) of the FOI Act to include NBN
+Co. However, the FOI Commissioner held that NBN Co was
+exempt from its operation in relation to documents which
+were held to have been brought into existence in the course of,
+or for the purposes of, the carrying on of its commercial
+activities.
+7.4. FOI applications by Mr Paul Fletcher MP regarding
+the NBN
+A number of applications have been made by Mr Paul Fletcher
+MP pursuant to the FOI legislation for information relating to
+the Australian NBN's operations.
+In the first case in 2012, Fletcher and Department of Broadband, Communications and the Digital Economy,77 the FOI
+Commissioner affirmed the decision of the DBDCE to reduce
+the charge applicable to the FOI request by Mr Fletcher under s
+29 of the FOI Act by 50%. Mr Fletcher sought the disclosure of
+documents relating to Lazard Australia Pty Limited (Lazard)
+which had been appointed to advise the Australian Government in relation to the arrangements entered into between
+the Government, Telstra Corporation Limited (Telstra) and
+NBN Co regarding the Australian NBN. Mr Fletcher contended
+that the Australian NBN represented a substantial investment
+of public funds and that there was no publicly available information about the process by which Lazard had been
+appointed and that therefore there was a general public interest in understanding how these public funds were utilised.
+The DBCDE agreed with Mr Fletcher's argument and held that
+there was likely to be a general public interest in the release of
+documents relating to the administration of a government
+procurement process involving public funds and the selection
+of a commercial entity to provide services to the DBCDE. The
+FOI Commissioner agreed that the documents requested were
+in the general public interest and the approved the reduction
+of the fee by 50%.
+In the second case in 2012, Fletcher and Department of
+Broadband, Communications and the Digital Economy (No. 2),
+78 Mr
+Fletcher sought disclosure of information in relation to analysis, or briefings provided by DBCDE to the Minister and the
+Minister's Office relevant to the decision to move to the FTTP
+(fibre-to-the-premises) process and establish the NBN Co between 30 June 2008 and 30 June 2009. As in the earlier case, Mr
+Fletcher submitted that there was significant public interest in
+the project but that there was little information publicly
+available about the Government's decision to shift from a
+fibre-to-the-node network to a (more expensive) FTTP
+network and that the need to understand the rationale for the
+decision to build the network with public funds could not be
+greater. DBCDE accepted Mr Fletcher's argument about the
+general public interest in the documents in question and
+again the FOI Commissioner agreed. In this case, Mr Fletcher
+sought a full waiver of the fee but the FOI Commissioner
+agreed with the DBCDE that the fee for disclosure should be
+reduced by 50% again, primarily due to the work involved by
+the DBCDE in processing the request.
+In the third case in 2012, Fletcher and Department of Broadband, Communications and the Digital Economy (No. 3),
+79 Mr
+Fletcher sought disclosure of information regarding the decision to establish the Broadband Champions Program and the
+process of selecting champions including criteria used and
+persons approached. Again, disclosure was not objected to by
+DBCDE but on this occasion its decision to reduce the fee by
+25% was amended by the FOI Commissioner to a reduction of
+50%. The FOI Commissioner observed that the Broadband
+Champions Program was relatively small program in the
+context of the nature and public interest in the Australian
+NBN.80
+The recent Australian cases emphasise the potential for
+FOI applications to be made for documentation relating to the
+Australian NBN, even of sensitive commercial interest. However, to date no such application has been made for information in relation to cybersecurity or critical infrastructure
+protections in place within the Australian NBN. In all likelihood, such an application would be refused on various
+grounds including commercial confidentiality. It is noteworthy that Australia has not proceeded down the path taken
+by the United States of America of enacting a critical infrastructure exemption within its FOI Act. In the United States,
+critical infrastructure information (including the identity of
+the submitting person or entity) that is voluntarily submitted
+to a designated Federal agency for use by that agency
+regarding the security of critical infrastructure and protected
+systems is exempt from disclosure under the United States
+Freedom of Information Act.81 Uhl contends that the United
+States' provision is redundant in its effect and counterproductive to building (or re-building post September 11,
+2001) trust in critical infrastructures which, being predominantly privately owned, have access to and retain an
+increasing amount of citizen's personal information and
+data.82
+8. Conclusion
+The legal implications of the Australian NBN are vast and are
+only starting to emerge and to receive judicial scrutiny. Its
+implementation has involved the enactment of a suite of
+Commonwealth legislation and in its formative stages
+emphasis has been given, not surprisingly, to competition law
+and access issues. Despite information technology being in
+the top five critical infrastructures internationally, a critical
+infrastructure perspective regarding the NBN has had little
+public attention. Due to the confidential nature of much of the
+NBN's operations, the security aspects of the project have only
+been lightly scrutinised and the release of information,
+77 [2012] AICmr 1 (Fletcher (No.1)), (6 January 2012). 78 [2012] AICmr 14 (Fletcher (No.2)), (16 May 2012).
+79 [2012] AICmr 15 (Fletcher (No.3)), (16 May 2012). 80 Fletcher (No.3), ibid n 79, [20]. 81 Homeland Security Act of 2002, H. R. 5005, 107th Cong, x214(a)
+(1) (2002).
+82 Kristen Uhl, ‘Freedom of Information Act Post-9/11: Balancing
+the Public's Right to Know, Critical Infrastructure Protection, and
+Homeland Security’ (2003e2004) 53 American University Law Review 261.
+708 computer law & security review 30 (2014) 699 e709
+principally under the Freedom of Information Act, has been
+limited.
+As Condron has observed in the context of critical infrastructure protection in the United States:
+The United States cannot afford to get this wrong. Failure to
+properly protect the computer systems and networks of the nation’s critical infrastructure could result in catastrophic consequences for the United States. As Leonardo da Vinci put it, [ i]t is
+easier to resist at the beginning than at the end.83
+The Australian NBN could learn much from these words
+which have long stood the test of time. Paradoxically, greater
+scrutiny will provide enhanced security for both the network
+itself and for Australian users and will also provide for more
+secure and reliable engagement with Australia's international
+trading partners and enhance national prosperity and
+competitiveness.84
+The massive public investment which is being made in the
+Australian NBN demands transparency throughout the project.85 Further, given the need for a high level of trust in, and
+the immense reliance upon, the Australian NBN, consumer
+and business confidence can only be enhanced by more, not
+less, awareness of the critical infrastructure implications of
+the NBN for Australia's future, particularly if what is being
+expected of them is to take their own measures to effectively
+secure their own domains and at their own cost. Much more
+information is required for the public to be in a position to do
+so effectively. In addition, extensive cybersecurity research is
+required into this new Australian critical infrastructure, as in
+the United States, through the establishment, for example, of
+test-beds and working groups involving interdisciplinary
+research teams and meaningful engagement with industries,
+both the Australian NBN itself and associated users and small
+to medium enterprises (SMEs). As a critical infrastructure, the
+Australian NBN will be a prime target of cybersecurity attacks
+and will potentially be a “force-multiplier” in their creation.
+Properly designed and implemented, there could be significant cybersecurity benefits, in effect a countervailing force, by
+the implementation of the Australian NBN which is cybersecure which can enhance the detection of cybersecurity threats
+and reduce their effectiveness. As CERT has cautioned, but
+remains far from clear based on available information,
+cybersecurity issues should be addressed during the design,
+planning and implementation of the Australian NBN as “to
+retrofit security to the NBN would be disastrous.”
+86
+83 Sean Condron, ‘Getting it Right: Protecting American Critical
+Infrastructure in Cyberspace’, (2006e2007) 20 Harvard Journal of
+Law and Technology 403; See also Janine S. Hiller & Roberta S.
+Russell, ‘The challenge and imperative of private sector cybersecurity: An international comparison’ [2013] 29 Computer Law and
+Security Review 245. 84 Dirk Van Rooy and Jacques Bus, “Trust and privacy in the
+future internet e a research perspective” (2010) 3 Identity in the
+Information Society 398. 85 Grace Li, 2012, above n 14, 225. 86 CERT, above n 63, 3.
+computer law & security review 30 (2014) 699 e709 709

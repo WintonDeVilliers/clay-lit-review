@@ -1,0 +1,80 @@
+# Literature Review: An Evidence-Based Methodology for Human Rights Impact Assessment (HRIA) in
+
+the Development of AI Data-Intensive Systems
+
+## Introduction
+
+Artificial Intelligence (AI) has become a transformative technology with various applications. However,
+the challenges associated with AI require effective regulation to address concerns related to personal data
+and ethics. This literature review explores the possibility of a third approach that focuses on human rights
+as a means to regulate the impact of data-intensive AI systems. The aim is to provide an evidence-based
+methodology for Human Rights Impact Assessment (HRIA) in the development of AI data-intensive
+systems.
+
+## Human Rights as a Regulatory Framework
+
+The recognition of human rights as a regulatory framework for AI is a significant development in
+addressing the challenges posed by data-intensive systems. The focus on human rights acknowledges the
+importance of protecting individuals' rights and freedoms in the context of AI technologies.
+According to Naik et al. (2022), the incorporation of human rights considerations in AI regulation can
+help ensure accountability and responsibility. By placing an emphasis on human rights, AI systems can
+be developed and deployed in a manner that respects individuals' rights and avoids potential harm.
+
+## The Role of Human Rights Impact Assessment (HRIA)
+
+Human Rights Impact Assessment (HRIA) offers a systematic approach to evaluate the potential impact of
+AI data-intensive systems on human rights. HRIA involves the identification, assessment, and mitigation
+of human rights risks and impacts associated with AI technologies.
+HRIA provides a comprehensive framework for analyzing the potential human rights implications of AI
+systems. It helps in identifying and addressing any adverse effects on individuals' rights, privacy, and
+dignity. By conducting HRIA, developers and policymakers can ensure that AI systems are designed and
+implemented in a manner that upholds human rights standards.
+
+## Integrating Human Rights in AI Regulation
+
+Integrating human rights considerations into the regulation of AI is crucial to ensure the responsible
+development and deployment of data-intensive systems. By incorporating human rights principles, AI
+regulation can provide a robust framework for addressing the potential risks and harms associated with
+AI technologies.
+The study by Naik et al. (2022) emphasizes the need for legal and ethical considerations in AI healthcare
+applications. It highlights the importance of taking responsibility for the use of AI in healthcare and
+ensuring that human rights are not compromised in the pursuit of technological advancements.
+
+## Knowledge Gaps and Future Research Directions
+
+While the focus on human rights in regulating AI systems is a promising approach, there are still
+knowledge gaps and areas that require further research. Some potential research directions include:
+
+1. **Ethical Frameworks for AI Development**: The development of comprehensive ethical frameworks
+   specifically tailored to AI systems can help guide developers and policymakers in addressing ethical
+   challenges and ensuring human rights are upheld.
+2. **Standardization of HRIA**: Standardizing the process of conducting Human Rights Impact Assessments (HRIA) for AI systems can enhance consistency and effectiveness in evaluating the potential human
+   rights implications of AI technologies.
+3. **Legal and Regulatory Frameworks**: Further research is needed to explore the development of legal
+   and regulatory frameworks that explicitly address the human rights aspects of AI systems. This includes
+   considering the role of international human rights instruments in guiding AI regulation.
+4. **Public Awareness and Engagement**: Increasing public awareness and engagement in AI regulation
+   and its human rights implications is essential. Future research should focus on strategies to educate and
+   involve the public in decision-making processes related to AI development and deployment.
+5. **Interdisciplinary Approaches**: Collaboration between different disciplines, such as law, ethics,
+   and computer science, is crucial for a comprehensive understanding of the human rights impact of AI
+   systems. Future research should explore interdisciplinary approaches to address the complex challenges
+   at the intersection of AI and human rights.
+
+## Conclusion
+
+This literature review highlights the significance of incorporating human rights considerations in the
+regulation of AI data-intensive systems. The focus on human rights provides a framework for addressing
+the potential risks and harms associated with AI technologies. The use of Human Rights Impact Assessment (HRIA) can help evaluate and mitigate the impact of AI systems on human rights. However,
+further research is needed to develop ethical frameworks, standardize HRIA processes, establish legal
+and regulatory frameworks, increase public awareness, and promote interdisciplinary collaboration. By
+addressing these knowledge gaps, policymakers and developers can ensure the responsible and ethical
+development and deployment of AI technologies.
+
+## References:
+
+1. Naik, Nithesh., Hameed, B.., Shetty, Dasharathraj K.., Swain, Dishant., Shah, M.., Paul, R.., Aggarwal,
+   Kaivalya., Ibrahim, Sufyan., Patil, Vathsala., Smriti, Komal., Shetty, Suyog., Rai, Bhavan Prasad., ChBosta,
+   P.., & Somani, B.. (2022). Legal and Ethical Consideration in Artificial Intelligence in Healthcare: Who
+   Takes Responsibility?. <i>Frontiers in Surgery</i> , 9 . http://doi.org/10.3389/fsurg.2022.862322
+   3 / 3

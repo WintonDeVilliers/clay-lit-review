@@ -1,0 +1,2251 @@
+Technology in Society 69 (2022) 101970
+Available online 26 March 2022
+0160-791X/© 2022 Elsevier Ltd. All rights reserved.
+Strategies to overcome barriers to innovative digitalisation technologies for
+supply chain logistics resilience during pandemic
+Himanshu Gupta a,*
+, Avinash Kumar Yadav a
+, Simonov Kusi-Sarpong b,c
+,
+Sharfuddin Ahmed Khan d
+, Shashi Chandra Sharma e
+a Department of Management Studies Indian Institute of Technology (Indian School of Mines), Dhanbad, India b Southampton Business School, University of Southampton Southampton S017 1BJ, United Kingdom c Department of Transport and Supply Chain Management University of Johannesburg Johannesburg, South Africa d Industrial Systems Engineering, Faculty of Engineering and Applied Sciences University of Regina, 3737 Wascana Pkwy, Regina, SK, Canada, S4S 0A2 e Mechanical Engineering Department Acropolis Institute of Technology and Research Indore, India
+ARTICLE INFO
+Keywords:
+Logistics
+Resilience
+Pandemic
+COVID-19
+Bayesian best-worst method
+ABSTRACT
+Logistics is a crucial function for any organisation. In the scenario of a pandemic or other disruptions, the role of
+logistics becomes even more important. Digitalisation of logistics and the supply chain is seen as an important
+tool for logistics resilience in such situations, but for developing countries digitalisation poses certain challenges.
+This study identifies barriers to innovative digitalisation technology that hinder the digital elevation of supply
+chain logistics during a pandemic. Strategies to deal with and overcome these barriers are proposed. The multicriteria decision analysis method (Bayesian best-worst method) is used to prioritise such barriers within the
+context of the Indian logistics sector of manufacturing organisations. The strategies are also prioritised according
+to their impact on the barriers, for which the additive value function is used. The results show that “high cost of
+investment”, “lack of monetary resources”, “inadequate internet connectivity”, “lack of IT (Information Technology) infrastructure” and “unclear economic benefit of digital investment” are the top five barriers to
+implementing innovative digitalisation technologies in developing countries like India, during a pandemic situation. The findings reveal an insight into digitalisation barriers during a pandemic that can be of value to
+managers and researchers.
+1. Introduction
+Logistics is a crucial function of every business [1]. For a company,
+the logistics cost makes up around 9–10% of the final price of goods
+during the period of 2005 [2], currently this cost is estimated to be
+around 20–25%, and also the logistics cost in developing countries such
+as India is around 14%, which is quite large compared to developed
+countries, where it is approximately 7% of the GDP [3]. Companies always try to cut this cost, and cost reduction is possible in many ways
+such as by reducing the level of services [2] or increasing the performance of the logistics system [4]. An increase in the performance of the
+logistics system reduces the logistics cost and also increases the level of
+customer satisfaction [5]. The performance of the logistics system can be
+improved by operational and technical improvement of the processes
+associated with it [4]. The Internet of Things (IoT), artificial intelligence
+(AI), cloud computing, blockchain and augmented reality (AR) are new
+and emerging digitisation technologies used in different areas such as
+the smart grid, smart home, manufacturing, etc. For process improvement and efficiency [6]. Using these innovative digitisation technologies
+can immensely benefit organisations in terms of efficiency and customer
+satisfaction. Logistics is one such sector that has tremendous scope for
+digitisation [7], as especially in developing countries like India this
+sector relies mostly on manual systems, causing a loss of material and
+time and hence unsatisfied customers. With rapid penetration of the
+internet, the digital customer base has increased in India, which is now
+next only to China in terms of internet subscribers. With the scope for
+digitisation in the logistics sector, investments increased by more than
+80% from $161 million in 2013 to over $3 billion in 2019 [3]. Widespread disruptions occurring over the course of the last few decades have
+also necessitated the digitisation of the logistics sector. Disruptions such
+* Corresponding author.
+E-mail addresses: himanshuguptadoms@gmail.com, himanshug@iitism.ac.in (H. Gupta), avinashkiem@gmail.com, avi4zero@gmail.com (A.K. Yadav),
+simonov2002@yahoo.com (S. Kusi-Sarpong), Sharfuddin.Khan@uregina.ca, sharfuddin82@yahoo.com (S.A. Khan), sharmacsharma28@gmail.com (S.C. Sharma).
+Contents lists available at ScienceDirect
+Technology in Society
+journal homepage: www.elsevier.com/locate/techsoc
+https://doi.org/10.1016/j.techsoc.2022.101970
+Received 26 October 2021; Received in revised form 21 March 2022; Accepted 22 March 2022 
+Technology in Society 69 (2022) 101970
+2
+as pandemic outbreaks, like the Spanish flu, swine influenza, avian flu
+and recently the COVID-19 virus, have a severe and widespread impact
+on the economy as well as the supply chain [8–11]. The COVID-19 virus
+was first reported in the city of Wuhan in China [12]. Wuhan city is a
+major Chinese business hub. It seemed a local problem at the initial
+stage, but, as time passed, it assumed global dimensions. Tier 1 suppliers
+or direct suppliers of about 51,000 (163 Fortune 1000) companies from
+all over the world are located in Wuhan. First- or second-tier suppliers of
+about 5 million companies (938 Fortune 1000) from all over the world
+are located in Wuhan [13]. However, the number of containers held in
+Chinese ports dropped by 10.1% in the first months of 2020 [14].
+Globally, companies that operate in the gift and toys industries suffered
+from both a supply shortage from China and demand disruption round
+the world, which was severely affected by the Coronavirus [15]. The
+supply chains of different markets of the world have been disrupted. This
+generates a spillover effect throughout different levels of supplier networks [16]. The US Institute for Supply Management has said that the
+lead-time has doubled for many companies and 75% of companies are
+affected by supply chain disruption [17]. Coronavirus is a type of LFHI
+(Low-frequency-high-impact) event that comes as a high-risk event
+because we did not prepare for it in advance [18,19]. The supply chain is
+also under tremendous pressure in India ever since the
+government-imposed lockdown restrictions [20]. Large Indian companies have either halted or reduced operations temporarily due to
+supply-chain logistics disruption [21]. Fast moving consumer goods
+(FMCG) companies also stopped manufacturing, except for essential
+items [22]. During the first phase of lockdown, interstate logistics was
+banned; this hampered the supply chain of medical supplies also [23].
+To manage these disruptions in future and to prepare our supply chains
+and logistics sector for these high-risk events, digitisation of the supply
+chain and logistics sector is necessary. Our primary focus is on supply
+chain logistics resilience, which can be improved by using the futuristic
+technology discussed above such as IOT, AI, blockchain, cloud
+computing, Industry 4.0, and AR. These technologies improve the visibility of the supply chain, which can help to understand the impact of a
+pandemic. Records can be digitised to avoid future shocks, making the
+supply-chain more resilient. Tracking and tracing play a significant role
+in the management of goods and products. Industry 4.0, along with
+other applications in the logistics sector, can reduce manual practices
+within the logistics system, improve system performance and reduce
+overall costs [24,25]. However, for emerging economies like India,
+digitisation of the supply chain and logistics sector for resilience is an
+uphill task and is often marred by a number of issues. Past literature
+regarding these is scant: Al-Talib et al. [26] worked on IoT as a tool for
+supply chain resilience; Golan et al. [27] worked on a literature review
+for supply chain resilience; Marusak et al. [28] studied supply chain
+resilience in the food industry and Sharma et al. [29] studied mitigation
+strategies for supply chain resilience. Studies exploring the challenges
+and strategies for adopting digitisation technologies in the supply chain
+and logistics sector have not been undertaken yet.
+Based on this background, the inherent issues and disruptions
+existing in the supply chain and logistics sector, which have been even
+more exacerbated due to the COVID-19 pandemic, this study tries to
+answer the following research questions:
+• What are the barriers to the adoption of digitisation technologies for
+achieving supply chain and logistics resilience?
+• What strategies can be identified to overcome the challenges/barriers to the adoption of digitisation technologies for achieving supply
+chain and logistics resilience?
+• Which are the most prominent of the barriers identified to the
+adoption of digitisation technologies for achieving supply chain and
+logistics resilience?
+The structure of this paper is as follows. The literature is reviewed in
+Section 2 and research gaps are highlighted. The methodology is
+discussed in Section 3. Section 4 discusses the case and expert background. Section 5 presents the results of the analysis. Section 6 discusses
+the results of the study. Section 7 highlights the implications of the study
+and the last section presents conclusions.
+2. Literature review
+2.1. Supply chain management, logistics resilience and digitisation
+technologies
+Supply chain management is a crucial part of improving an organisation’s productivity, profitability and competitive success [30]. It is the
+basic requirement of any company for the movement of goods from the
+point of origin to the customer, or from the supplier to the company.
+With globalisation, many multinational companies try to manufacture
+their products in a developing country because of the availability of
+resources and cheap labour; they then sell their products to different
+countries, the management of which requires efficient, effective and
+very complex logistics management. The components of the supply
+chain are planning, marketing, procurement, operation and logistics.
+Logistics management is an important part of supply chain management,
+which includes inventory setting and transportation. Logistics deals with
+the flow of items and their storage [31]. Perfect logistics is that which
+can deliver goods to the right person in the right quantity at the right
+time at the right place and with the goods in the original condition.
+Digitisation technologies are helping supply chain and logistics organisations to efficiently manage their operations and provide resilience to
+enable them to manage disruptions.
+Supply chain and logistics resilience can be defined as “The adaptive
+capability of the supply chain to prepare for unexpected events, respond
+to disruptions, and recover from them by maintaining continuity of
+operations at the desired level of connectedness and control over
+structure and function” [32]. Some of the important digitisation technologies for supply chain and logistics resilience are discussed in next
+section.
+2.2. Digitisation technologies for supply chain and logistics resilience
+There are many digitisation technologies that are gaining traction in
+the supply chain and logistics sector, one of which is the Internet of
+Things (IoT). The term IoT was first coined by Kevin Ashton in 1999.
+Computers are being empowered to gather real-time data by themselves
+‒, that is, without human intervention ‒ on the physical environment,
+thus creating what is termed as the IoT. The IoT is an interconnected
+system of devices or products embedded with different types of sensors,
+actuators, and software, with the help of which they can communicate
+among themselves or with humans, for exchanging status information or
+surrounding information, with much less human involvement, over the
+internet [33–35]. For the implementation of IoT, two things are essential: one is Radio Frequency Identification (RFID) and the other is sensor
+technology. RFID is a technique used for the identification of objects and
+electronic labelling, using radio waves [36]. Sensors are used to collect,
+comprehend and specify real-world data [37]. Due to its pervasive and
+ubiquitous nature, IoT is being used widely [38]. IoT can be used for
+different purposes in different sectors, such as the health sector [39];
+sustainable energy sector [40]; volcano monitoring [41]; intelligent
+automobile systems for smart cities [42]; lean manufacturing [43];
+sustainability in manufacturing organisations [44]; agri-food supply
+chain [45]. According to Radivojevi´ca et al. [46]; in the Internet of
+Things concept, objects become smart in terms of identification,
+communication and interaction. The architecture of IoT includes all
+elements from sensors/actuators, interconnection to applications and
+services in IoT, and consists of four layers: the “perception”, “network”,
+“middleware” and “application” layers [47,48]. The perception layer
+contains all such sensors/actuators that are embedded in the object, and
+are used to collect data on its status or surroundings. This layer actually
+H. Gupta et al. 
+Technology in Society 69 (2022) 101970
+3
+interconnects the physical world with the virtual world. This layer’s
+smart objects send and receive data from their surroundings, identify
+themselves and also interact among themselves or with end-users or
+other entities in the network [49,50].
+Other important digitisation technology is Industry 4.0. Industry 4.0
+refers to the fourth Industrial Revolution. The term was first used in
+Germany when the new economic policy was introduced. It has a focus
+on the evolution of revolutioniory Advanced Technology such as the
+Internet of Things, cloud computing, artificial intelligence, augmented
+reality and 3D printing [51,52]. In this system, the production process is
+fully automated, and communication is also autonomous. Data and information are updated on the cloud in real time so that the top official
+can monitor any information in real time while sitting in the office. The
+system is fully integrated vertically and horizontally, which significantly
+helps in improving the efficiency and productivity of the whole system
+[53]. Industry 4.0 collects a lot of data through the IoT sensors that is
+used in the analytics supporting equipment servicing, product quality
+and sales prediction. In this way, decision-making becomes very easy,
+and the whole process becomes very efficient and productive.
+There has been a lot of positive change in the industry due to the use
+of cloud computing. The price is also decent because of the availability
+of cloud solutions and competition in the market. Thus, it is easier and
+cheaper than conventional data storage methods. Cloud computing is
+nothing but a simple data storage point. Apart from storage, different
+companies also provide several web-based tools which make data
+analysis easy. The user does not require any type of software installation
+for this web application [54,55]. National cloud service providers create
+cloud facilities, keeping in mind its use by industry. They also provide
+knowledge processing engines that can handle big data. Extending
+knowledge from the collected data and using it in decision-making due
+to this efficient data, it can improve the service sector supply chain [56].
+Blockchain technology is also gaining momentum in the supply chain
+and logistics sector. Blockchain is a digital ledger that stores information
+in such a way that it becomes impossible to change or hack the information. A blockchain is a chain of blocks that is connected by a hash.
+This hash is based on cryptography technology that stores the information of previous blocks. Changing any block without changing the
+subsequent block becomes impossible. Satoshi Nakamoto (a pseudonym) started blockchain, which is used in data privacy, banking and
+virtual currency such as bitcoin, ethereum. It can also be used for data
+privacy in industry [57]. Whenever the user makes a new transaction, a
+verification note is generated, and a new block is added to the blockchain after being verified through predefined rules [58].
+2.3. Recent related studies
+Moktadir et al. [59] reported that Big Data are extensively used in
+different sectors today. Big Data can help in decision-making within the
+manufacturing supply chain. But there are many barriers to the implementation of Big Data. In this paper, the author has identified these
+barriers and analysed them based on their criticality. Data from five
+Bangladeshi companies were taken for analysis, and the Delphi-based
+AHP method was used for that analysis. Sensitivity analysis was also
+done to verify the robustness of the model. Its findings can help researchers and industrial managers to understand the potential barriers
+in the manufacturing supply chain and their nature. Singh et al. [60]
+argued that the worldwide spread of COVID-19 has resulted in all
+manufacturing and logistic activities being greatly affected. An action
+plan is proposed in this paper, which tackles the effects of the pandemic
+on food supply, handling of medicine, grains and medical safety-related
+items such as PPE (Personal Protective Equipment) kits and masks,
+enabling them to reach their consumption points. In this system, trucks
+and drones can deliver food and grain to high-rise buildings with the
+help of a synchronisation system. A simulated study of the PDS (Public
+Distribution System) system has also been done, in which the supply
+chain was disrupted due to the lack of labour and truck drivers in the
+pandemic situation. In another study, Choi et al. [61] found that the
+service sector has been affected more than the manufacturing sector by
+the pandemic. A piano class was taken as a case study in this paper, and
+the study is situated in Hong Kong, a crowded city. The author developed a model with the help of which piano classes can be converted to
+mobile operations from static operations. In this, a fully-equipped van
+will accompany the piano to the student’s home and serve there. In this
+model, government institutions at the initial stage will have to provide
+subsidies in different ways such as fixed cost subsidies and operational
+cost subsidies. The author has a greater preference for operational cost
+subsidies. This model will also become financially viable in the long
+term. The author also discusses the transition of static service operations
+to mobile service operations. Konˇcar et al. [62]; in their paper, explored
+setbacks that inhibit the deployment of technologies such as IoT, in an
+FMCG company located in the Western Balkan region in a pandemic
+situation. They analysed the setbacks and found that the supply system
+should be less dependent on humans. IoT should not only be engaged in
+logistics but also in all production and service operations. It is not easy to
+predict such type of pandemic situation and its economic impact; so,
+FMCG companies should also change their philosophy and promote
+digitisation. Biswas et al. [23] pointed out that Coronavirus had a profound effect on the supply chain, and the supply of most products was
+stalled, whether raw materials or finished products. Food supplies,
+medicines and essential everyday items were also affected. Due to the
+manufacturing sector being affected, the cost of essential items also
+increased. In such a situation, it becomes necessary to revive the
+manufacturing supply chain. In this paper, the author has identified the
+barriers in the Indian manufacturing supply chain. The author also
+proposes a method for pairwise comparison based on the fuzzy AHP
+method. Al-Talib et al. [26] studied how IoT helps in achieving resilience in the supply chain. They found that ‘visibility’, ‘flexibility’,
+‘control’ and ‘collaboration’ are key attributes of supply chain resilience
+and these can be effectively achieved by the adoption of IoT technologies in supply chains. Golan et al. [27] carried out a systematic literature
+review of resilience analytics in supply chain modelling in the context of
+the COVID-19 pandemic. They found that, although there are numerous
+studies related to supply chain resilience, there is a dearth of studies
+related to the uncertainty arising from the threats of conditions arising
+out of ‘unknown unknowns’ like COVID-19. More emphasis is required
+on this context. Marusak et al. [28] studied resilient food supply chains
+in the United States in the context of COVID-19, using a case study
+approach to identify how the food supply chain in regional parts of the
+US can improve its resilience during the time of pandemic. The results
+indicate that the adoption of new innovative distribution and logistics
+strategies along with collaboration among food supply chain partners
+and proper communication and information sharing helped the regional
+food supply chains to improve their resilience. Sharma et al. [29]
+studied resilient strategies to mitigate the long-term effects of the
+pandemic on retail supply chains. The study utilised a full consistency
+model and best-worst method (BWM) for the analysis. The study identified that efficient collaboration among stakeholders is the most
+important criterion for enhancing the performance of the retail supply
+chain and also determined that digitisation of the supply chain along
+with order fulfilment are the most important resilient strategies for
+overcoming the long-term effects of the pandemic.
+2.4. Research gap and highlights
+As soon as the pandemic broke out, the attention of many scholars
+was drawn to this and they researched the impact of the pandemic on
+supply chains and logistics. For example, some research papers focus on
+the impact of the pandemic on logistics and discuss the commercial
+aspect of the supply chain (for example, [61,63]; Wiley, 2020; [64].
+Choi [10] analysed the model of logistics for mobile service operation
+during the Coronavirus outbreak. Ivanov [65] developed a model of a
+viable supply chain (VSC), which focused on the redesign of the
+H. Gupta et al. 
+Technology in Society 69 (2022) 101970
+4
+structure of the supply chain and planning economic performance.
+Biswas et al. [23] found barriers to supply chain management in the
+manufacturing sector and also discussed the impact of COVID-19. Not
+only scholars, but many industry experts have also done research work
+and published reports on this topic. Singh et al. [60] discussed the ways
+and technologies that can quickly help overcome the effects of the
+pandemic. Marusak et al. [28] discussed the resilient food supply chain
+in the US. Sharma et al. [29] discussed resilient strategies to mitigate the
+effects of the pandemic. Deloitte [66] discussed the short-term plan for
+supply chain disruption due to the pandemic and also discussed how to
+mitigate the effect of a pandemic. Forbes [67] studied the impact of the
+pandemic on the global automotive supply chain and mainly discussed
+the effect of Chinese industries on the global supply chain. Dubey et al.
+[68] published a report mainly focused on the application of blockchain
+on supply chain transparency, but did not work on other technical aspects such as the IOT, cloud computing, AI and AR. DNB [13] is an
+analytics firm that published a report on the impact of Coronavirus and
+how industries should mitigate the risk and further disruption to business. WEF (World Economic Forum) published an article on past instances and compared these with the current pandemic situation [69]
+and suggested how to recover from the current situation. WEF also
+published many other articles and discussed the impact of Coronavirus
+on the supply chain and logistics [70]. The Institute for Supply Chain
+Management discussed the impact of a pandemic on supply chain ISM
+[71].
+From the above discussion, it is clear that the majority of studies
+focused on the impact of a pandemic on supply chains and logistics, and
+some of the research proposed revival strategies to address it. Other
+studies focused on finding the barriers to supply chain management. No
+one has conducted a study of the barriers to supply chain logistic resilience improvement in terms of technological transformation, or found
+strategies to address it and help to establish a resilient logistics system.
+These innovative technologies can solve the issues arising due to the
+pandemic in organisations [27]. Thus it becomes clear that we can use
+the new technology to build a resilient logistics environment. In this
+paper, we are integrating technology and supply chain logistics to propose the idea of a resilient logistics system during the pandemic. We
+study different barriers to technological transformation in the logistics
+system and try to find a strategy to deal with such barriers.
+3. Research methodology
+A multi-case study methodology is utilised in this study. The
+Bayesian best-worst method (BBWM) is used to prioritise the barriers
+and strategies for innovative technologies.
+3.1. The Bayesian best-worst method (BBWM)
+As mentioned above, BBWM is used to prioritise the barriers and
+strategies for innovative technologies. The simple BWM is comparable to
+the Analytical Hierarchy Process (AHP) in that it uses the same 9-point
+scale for pairwise comparison among the criteria, and calculation of
+criteria weights. However, BWM first identifies the best and worst
+criteria among the set of criteria, and then performs comparisons among
+the best-to-others and others-to-worst criteria. It is also better than AHP
+in that it provides more consistent results using fewer pairwise comparisons than are required for AHP [72]. Over time, BWM has gained
+importance among researchers across the world, and more and more
+researchers have started applying BWM in their works. Some important
+studies mentioning applications of BWM include Gupta and Barua [73]
+on green innovation supplier selection, Kheybari et al. [74] on bioethanol facility selection, Malek and Desai [75] on sustainable
+manufacturing barriers prioritisation, Yadav et al. [76] on smart cities
+framework evaluation, Govindan et al. [77,144] on barriers to industrial
+sharing economy analysis, Moktadir et al. [59] on the analysis of circular
+economy practices, Kaushik et al. [78] on online apparel return factors
+analysis, Orji et al. [79] on the analysis of social media success factors
+for sustainability, and Gupta et al. [80] on supply chain sustainability
+innovation-related barriers and their mitigation strategies. Mohammadi
+and Rezaei [81] proposed BBWM for determining group weights on the
+basis of statistical probability distribution. Steps for BWM are listed
+below:
+Step 1: Select relevant criteria for the study.
+Step 2: Once the criteria are finalised, choose, from amongst the
+main and sub-criteria, the best and worst criteria.
+Step 3: The next step is to get a rating of the best criterion over all
+other criteria. For this purpose, a scale of 1–9 is used. This will result in
+vector AB = (aB1, aB2, …, aBn).
+Step 4: Similarly, the next step is to obtain ratings of all other criteria
+with the worst criterion. All the experts are required to follow steps 3
+and 4. This will also result in vector. AW = (a1W, a2W, …, anW)
+T.
+Step 5: Next is to obtain optimised weights (w*
+1, w*
+2, …,w*
+n) for all the
+criteria.
+The AB and AW vectors mentioned above can be converted into a
+multinomial probability distribution. The probability mass density
+function of a multinomial distribution of AW can be written as
+P(AW |w) =
+(∑n
+j=1ajw)
+!
+∏n
+j=1ajw!
+∏n
+j=1
+wajW
+j (1)
+where the probability distribution is represented by w. The number of
+experiments has a direct impact on the probability of event j as per the
+multinomial distribution:
+wj ∝∑ajw
+n
+i=1aiw
+, ∀j = 1, …, n (2)
+In a similar manner, the worst criterion equation can be obtained as
+wW ∝∑aWW
+n
+i=1aiw
+= 1
+∑n
+i=1aiw
+(3)
+Combining Equations (2) and (3), one can obtain the following:
+wj
+wW
+∝ajw, ∀j = 1, …, n. (4)
+Equation (4) is similar to the concept followed in the original BWM.
+Similar to the above, the multinomial distribution can be used to
+model AB. However, the vectors AB and AW are different from each
+other, as the former is a vector representation of the best-to-other
+criteria and AW is a representation of the other-to-worst criteria. Thus,
+AB can be denoted as the inverse of the earlier weight as follows:
+AB ∼ multinomial(1 / w) (5)
+which can be further written as
+1
+wj
+∝∑aBj
+n
+i=1
+aBi
+, 1
+wB
+∝∑aBB
+n
+i=1
+aBi
+= ∑
+1
+n
+i=1
+aBi
+⇒wB
+wj
+∝aBj, ∀j = 1, …, n,
+(6)
+The weight vector can now be determined using the statistical distribution, provided it satisfies a non-negative constraint and sums to one
+property. The Dirichlet distribution can be used for the same as
+mentioned below
+Dir(w|α) = 1
+B(α)
+∏n
+j=1
+wαj− 1
+j (7)
+Next, BBWM is used instead of the maximum likelihood method for
+approximating the parameters. The posterior distribution model can be
+represented as below:
+H. Gupta et al. 
+Technology in Society 69 (2022) 101970
+5
+μj = αpostj − 1
+∑n
+i=1αposti − n
+= 1 + ajw − 1
+∑n
+i=1(aiw + 1) − n
+= ∑ajw
+n
+i=1aiw
+, ∀j = 1, …, n.
+(8)
+The next step is to estimate the joint probability distribution for
+vectors AB and AW for group decision-making.
+Let us assume that we have k decision makers and n criteria; wk
+represents the individual optimal weight related to each expert, wgg
+represents the group weight, A1:K
+B a vector indicating all experts’ best-toother criteria evaluation, and A1:K
+W represents a vector indicating all
+experts’ other-to-worst criteria evaluation. The joint probability distribution for group decision-making can be represented as
+P
+(
+wagg, w1:K⃒
+⃒A1:K
+B , A1:K
+w
+) (9)
+The following marginal probability rule can be used to obtain the
+individual probability of any arbitrary variables x and y as
+P(x) =
+∑
+y
+P(x, y) (10)
+The next step is the development of the Bayesian hierarchy model.
+This is based on the iterative method, which means that the AK
+B and AK
+W
+vectors will generate weight wK after each expert’s evaluation, which, in
+turn, will generate the optimal group weight wagg . This indicates that
+there is conditional independence between variables. Thus, the joint
+probability of the Bayesian model considering conditional independence
+can be represented as
+P
+(
+wagg, w1:K⃒
+⃒A1:K
+B , A1:K
+w
+)
+∝P
+(
+A1:K
+B , A1:K
+w
+⃒
+⃒wagg, w1:K)
+P
+(
+wagg, w1:K)
+= P(wagg)
+∏K
+k=1
+P
+(
+Ak
+W
+⃒
+⃒ wk
+)
+P
+(
+Ak
+B
+⃒
+⃒ wk
+)
+P
+(
+wk ⃒
+⃒ wagg)
+(11)
+The next step is to specify the distributions of each element. The
+above elements can also be specified as a multinomial distribution as per
+the inferences drawn in Equation (2) –(8).
+Ak
+B
+⃒
+⃒wk ∼ multinomial(
+1
+/
+wk
+)
+, ∀k = 1, ……K,
+Ak
+B
+⃒
+⃒wk ∼ multinomial(
+wk
+)
+, ∀k = 1, ….K. (12)
+Here, wK and wagg can be modelled as a Dirichlet distribution as
+wk
+⃒
+⃒wagg ∼ Dir(γ × wagg), ∀k = 1, ……K, (13)
+where wagg is the average of the distribution and γ is the concentration
+parameter.
+The concentration parameter can be modelled using a gamma distribution to satisfy the non-negativity constraints.
+γ ∼ gamma(a, b) (14)
+Finally, the Dirichlet distribution is used to model the optimal weight
+wagg as
+wagg ∼ Dir(α) (15)
+Here. α = 1.
+Once all the parameters have been represented with their probability
+distributions, Markov Chain Monte Carlo (MCMC) simulation is used to
+solve the posterior distribution and thus obtain the group optimal
+weight wagg based on expert preference ratings.
+The next step is the ranking confidence test. Here, credal ranking is
+used to determine the confidence of the consistency of group weights.
+Thus, the probability that a criterion ci is better than cj will be
+P
+(
+ci > cj
+)
+=
+∫
+I
+(
+wagg
+i > wagg
+j
+)
+P(wagg) (16)
+Here, P(wagg) is the posterior distribution of wagg . I will be 1 if the
+condition (wagg
+i > wagg
+j ) holds, otherwise it will be 0. Q samples obtained
+by MCMC will be used for calculating the confidence as
+P (
+ci > cj
+)
+= 1
+Q
+∑Q
+q=1
+I
+(
+waggq
+i > waggq
+j
+)
+P (
+cj > ci
+)
+= 1
+Q
+∑Q
+q=1
+I
+(
+waggq
+j > waggq
+i
+)
+(17)
+where the qth sample of wagg obtained from MCMC is represented as
+waggq . When P (ci > cj) > 0.5, it represents that criterion i is more significant than criterion j, and the confidence is represented by the corresponding probability. Also, the total probability should be equal to 1,
+i.e., P (ci > cj) + P(cj > ci) = 1.
+The additive value function given by Ref. [82] is used to evaluate
+alternatives.
+Vi = ∑n
+j=1
+wjnij (18)
+where I is the index of any alternative, nij is the normalised score of the
+alternative i with respect to criterion j. The value of nij can be calculated
+by using expressions (19) and (20), where Equation (19) is used when
+the criterion value is supposed to increase and we label it as a profit or
+positive criterion, and Equation (20) is used when criteria value is
+supposed to decrease and it is labelled as a cost or negative criterion.
+nij∑
+yij
+i
+yij
+for all j (19)
+nij =
+1
+∑yij
+i
+1
+yij
+for all j (20)
+Where yij is the actual score of alternative i with respect to criterion j.
+4. Case analysis
+4.1. Information related to experts and about the case
+With the aim of achieving the objectives, twelve different experts
+with similar or related profiles, but from different organisations, were
+selected. The experts involved in the study have different levels of
+experience, with a minimum of 10 years’ experience. We deliberately
+included experts from different backgrounds in our study to make the
+result more homogeneous and generalisable for the organisation and for
+different industrial contexts. The information on these twelve experts is
+provided in Table 1.
+4.2. Identification of barriers to innovative digitalisation
+In this phase of the study, the authors identified the 22 barriers from
+the literature and presented these barriers to the experts for their
+opinions and suggestions regarding the addition or elimination of any
+barrier. The experts agreed with the 22 identified barriers and found
+them relevant for our study. After that, these barriers were categorised
+and put into 5 main categories, namely: Technological, Organisational,
+Economic and Financial, Cultural, and Regulatory and Institutional
+barriers. The final list of barriers categorised into these 5 main categories is presented in Table 2.
+4.3. Strategies for overcoming barriers to innovative digitalisation
+This pandemic has exposed the weaknesses of the classical logistics
+system, and it made us think again about how we can use innovative
+technology to create a better logistics system. As discussed above, there
+are many barriers to the implementation of these innovative
+H. Gupta et al. 
+Technology in Society 69 (2022) 101970
+6
+technologies, so it is essential further that we find strategies to overcome
+these barriers. Each barrier is quite complicated and different from the
+others, and they cannot be tackled with only one strategy, so we need
+more than one strategy to overcome them all. After an in-depth literature review, we made a list of nine crucial strategies to overcome the
+barriers to innovative digitalisation, as shown in Table 3.
+In the next step, we ranked the barriers using the Bayesian BWM
+methodology. We asked each expert to select one best and one worst
+barrier for the main category and all sub-categories. After this, we asked
+the experts to rate the best-to-others and others-to-worst barriers on a
+scale of 1–9 for the main category and all sub-categories. We consolidated all the expert pairwise comparison sheets and made a
+Table (Table 4). The pairwise ratings for all the sub-category barriers are
+given in Appendix A (Tables A1–A5).
+In the next step, we calculated the weight of the main category
+barriers and all sub-category barriers by using the Bayesian BWM
+methodology with the help of pairwise rating sheets. We then calculated
+their global weight. The weight of a main category barrier becomes its
+global weight, whereas, in order to calculate the global weight of a
+barrier in a sub-category, the local weight of that barrier in the subcategory has to be multiplied with the weight of the barrier of the
+respective main category. The global weights of all the main- and subcategory barriers are presented in Table 5. After identifying the strategy, we need to analyse the strategy’s impact on the barrier. Every
+strategy was analysed with the main-category and all sub-category
+barriers. Rating of the strategies on a Likert scale of 1–9, corresponding to their power to resolve the respective barrier, was required. So, we
+asked the experts to rate the strategy for the main-category and all subcategory barriers, where 1 means very low, and 9 means very high. The
+rated strategies are presented in Table A6 attached in the Appendix. We
+collected the ratings from all 12 experts and extracted the average using
+Equation (19), and then found the normalised value (Uij) of the score
+using Equation (4). We obtained the Vij value for all strategies by
+multiplying Uij with the global weight of the main criterion corresponding to every barrier. To obtain the Vi value of the strategy, we
+added the Vij value of all barriers for each strategy within the main
+category using Equation (18).
+The Vi values and the corresponding ranks are displayed in Table 6
+for the main category and also all sub-categories.
+Table 1
+Details of respondents.
+Expert Expertise Experience
+(Years)
+Education Industry/
+Organisation
+Expert1
+Manager- Operations 11 M.Tech Food
+Expert2
+Analyst 12 M.Tech Automobile
+Expert3
+Manager- Operations 11 MBA Manufacturing
+Expert4
+Asst. ManagerOperations
+10 MBA Steel
+Expert5
+Manager- Operations 12 MBA Power
+Expert6
+Asst. ManagerProcess Control
+10 B.Tech. Steel
+Expert7
+Deputy ManagerOperations
+10 BE. Steel
+Expert8
+Asst. ManagerOperations
+10 B.Tech. Steel
+Expert9
+Data Scientist 11 M.Tech Core Compete
+Expert10
+Manager - Logistics
+and Supply Chain
+Management
+11 MBA Logistics
+Expert11
+Asst. ManagerOperations
+12 B.Tech. Steel
+Expert12
+Senior Manager -
+Procurement
+13 B.Tech. Automobile
+Table 2
+Barriers to innovative digitalisation in logistics.
+Main Category Barriers Description References
+Technological
+barriers (TB)
+The need for
+unique, faster,
+and cheap
+identification
+process
+Many items going from
+origin to the
+consumption point and
+their receiving,
+storing, and sorting
+should be done quickly
+and with highly
+accurate unique
+identifications.
+[49,83]
+[33,84–86].
+Lack of IT
+infrastructure
+IT infrastructure
+(hardware, software,
+and network) needs to
+be improved to support
+technological
+transformation in the
+industries, which will
+improve the resilience
+of logistics during
+pandemic situations
+when information and
+instructions are
+transferred through
+the IT network.
+[59,87–92].
+Inadequate
+internet
+connectivity
+Internet connectivity is
+poor in 3rd tier cities
+and rural areas, which
+needs to be addressed
+for improving realtime data transfer to
+the cloud visibility
+across the entire
+supply chain, and work
+from home experience.
+There is less mobility
+of employees, so we
+need adequate internet
+facilities for better
+connectivity, which is
+required for resilience
+during pandemics.
+[83,91,
+93–96].
+Lack of
+integration
+among IT
+networks
+During a pandemic, the
+logistics system relies
+on automation, which
+needs integration
+among IT networks
+and legacy systems,
+which is a big issue in
+implementing IOT and
+cloud computing in
+logistics.
+[50,91,
+96–99].
+Security and
+privacy concerns
+During a pandemic
+exchange of
+information is mostly
+online, the security of
+this critical
+information is our
+prime concern.
+[89,93,
+100–104].
+Complexity of
+data
+In logistics, a variety of
+data is generated from
+different sources,
+which creates
+problems with data
+storage and data
+integration.
+[59,89,93,
+105–108].
+Scalability For better resilience
+during a pandemic,
+scalability is a big issue
+in adopting artificial
+intelligence and big
+data analysis, which
+are necessary tools for
+building a scalable
+logistics model.
+[59,88,91,
+100,101,
+108].
+(continued on next page)
+H. Gupta et al. 
+Technology in Society 69 (2022) 101970
+7
+Table 2 (continued )
+Main Category Barriers Description References
+Organisational
+barriers (OB)
+Resistance from
+employees due to
+fear of job loss
+Digitalisation during a
+pandemic in the
+logistics firm requires
+significantly fewer
+employees, so there
+will be layoffs and
+retained employees
+who need to learn new
+skills, which creates
+uncertainty among
+employees.
+[109–111].
+Lack of technical
+knowledge/skill
+Lack of technical skills
+hinders the adoption of
+such complicated
+technologies to
+develop a resilient
+logistics system during
+a pandemic situation.
+[59,89,93,
+100,106,108,
+112,113].
+Lack of training
+facilities
+There are insufficient
+training facilities to
+provide a new skill to
+the employee.
+[59,88].
+Lack of support by
+top management
+A resilient logistics
+system requires highlevel commitment
+from top-level
+management for
+working culture
+transformation, which
+is required to
+implement these
+technologies.
+[93,96,98,
+108,112].
+Need to find a
+suitable research
+partner
+SMEs lack support
+from research
+institutes compared to
+the large industries,
+which is required to
+develop new products/
+services and new
+business models in the
+digital world to
+counter pandemic
+problems and develop
+a resilient logistics
+system.
+[112,114,
+115].
+E-waste
+management
+The generation of Ewaste from millions of
+sensors, batteries, and
+old computers
+increases day by day,
+and contains
+hazardous and toxic
+materials. For a
+sustainable and
+resilient supply chain,
+it is necessary to adopt
+a waste management
+system; organisations
+face the problem of
+disposing of E-waste
+because the workforce
+is already insufficient
+during a pandemic
+situation.
+[91,100,
+116–118]
+Economic and
+financial
+barriers (EFB)
+The high cost of
+investment
+The cost associated
+with smart sensors and
+IOT devices and its
+implementation plays
+a significant role in
+adopting these
+technologies. The cost
+of sensors and IOT
+devices is high during a
+pandemic because of
+poor supply chain
+management between
+[100,119]
+[59,112].
+Table 2 (continued )
+Main Category Barriers Description References
+cross-border
+organisations.
+Unclear economic
+benefit of digital
+investments
+Return on investment
+is not clearly defined,
+which discourages
+investment in these
+high investment
+technologies.
+[93,96,98,
+108,120,
+121].
+Lack of monetary
+resources
+If a pandemic is longlasting, it leads to
+economic crises among
+small and medium
+enterprises, as the
+implementation of new
+technologies requires
+immense financial
+resources.
+[59,93,98,
+109,111,
+122].
+Cultural barriers
+(CB)
+Lack of trust
+among partners
+Trust among the
+partners is necessary
+for critical information
+sharing and buying on
+credit without any fear
+of misuse of data they
+entrust to each other;
+trust leads to a
+seamless flow of data
+and items from
+suppliers to customers
+during pandemic
+situations, which
+makes a resilient
+supply chain.
+[112,
+123–125].
+Lack of support
+from supplier/
+customer
+Supplier/customer
+needs to be ready to
+support new systems
+and improve
+coordination and
+communication among
+partners and suppliers
+for better performance
+during a pandemic.
+[98,112,126,
+127].
+Acceptance of
+new technologies
+Acceptance of
+wearable devices such
+as cameras and
+microphones is a big
+concern for employees
+due to privacy and
+confidentiality issues.
+[86,112,119,
+124].
+Regulatory and
+institutional
+barriers (RIB)
+Lack of standards
+and regulation
+Standardisation is
+essential for sharing
+information among
+smart devices, and
+information- sharing
+plays a crucial role in
+building smart and
+resilient supply-chain,
+smart objects, and
+environments.
+Integration between
+smart devices is
+difficult because each
+country has different
+rules and regulations.
+[91,96,98,
+108,111,112,
+124,125,
+128].
+Lack of financial
+supports in govt
+policies.
+During a pandemic,
+financial crises faced
+by the organisation,
+along with the lack of
+incentives by the
+government and
+professional
+organisations to
+promote the adoption
+of new technologies in
+logistics, create a
+double setback for the
+organisation.
+[80,93,104,
+124,125,
+129].
+(continued on next page)
+H. Gupta et al. 
+Technology in Society 69 (2022) 101970
+8
+5. Results
+In the classical BWM method, we use two criteria to determine the
+confidence superiority, whereas with the Bayesian BWM the concept of
+credal ranking is introduced, which gives the confidence of each credal
+ranking. When this principle is applied to a real-world scenario, the
+confidence superiority between different pairs of criteria can be
+determined.
+As shown in Fig. 1, “Technological Barriers” prove to be the most
+important of all the main criteria barriers. This is due to the fact that, in
+the implementation of innovative technologies in logistics, the technological barrier plays a major role. Although “Technological Barriers” is
+considered more important than the other four criteria, a confidence of
+0.76 between it and the “Economic Barriers” shows that a few experts
+believe “Economic Barriers” to be more important. Other than that, all
+experts believe technological barriers to be more important than the
+other three barriers, with a confidence of 1. Similarly, “Organisational
+Barriers” is considered more important than “Cultural Barriers” and
+“Regulatory & Institutional Barriers”, but the confidence of 0.99 between “Cultural Barriers” and “Regulatory & Institutional Barriers”
+shows that some experts believe “Social & Cultural Barriers” to be more
+important than “Regulatory & Institutional Barriers".
+The credal ranking of the main criteria and all sub-criteria along with
+their confidence is shown in Fig. 1‒6.
+6. Discussion of results related to barriers and identified
+strategies
+6.1. Discussion of the ranking of the barriers
+In this study, after an in-depth literature review, the first barrier was
+identified, and the second strategy that tackles barriers to the implementation of innovative technologies was also identified. Subsequently,
+the responses concerning the barrier and the strategy were separately
+analysed, based on discussions with supply chain and logistics experts.
+The barriers were analysed with the help of the Bayesian BWM methodology, and the results are presented in Table 5.
+After analysis, it becomes clear that the technological barrier (TB) is
+a very significant one for implementation of the new innovative technologies that can make supply chain logistics more resilient and minimise the hindrances caused by the pandemic. It is often seen in
+developing countries that the technological barrier becomes very
+important as technology penetration and implementation cannot be
+achieved easily [148]. The lack of IT infrastructure is also a massive
+problem in a developing country, hindering the implementation of new
+technology [91,132]. Technology reduces operational costs and also
+increases the delivery performance and customer satisfaction levels,
+making the company more competitive in terms of cost, quality, delivery
+and flexibility [5]. The technological factor plays a significant role,
+perhaps because the unique identification made possible by devices
+improves the tracking and location of items [33,133]. An enormous
+amount of data can be used for forecasting future sales and customer
+behaviour. Interconnected devices reduce human work, which ultimately reduces causes of damage due to direct human intervention.
+Compatibility with other hardware and software enhances usability
+[96]. The faster and cheaper identification process reduces costs
+incurred by the company. These things ultimately affect the adoption of
+these new technologies. The data provided by a person or firm when
+placing an order contains sensitive information like the name of the
+consumer, address, and bank details. The information given by the
+consumer can be used for tracking the user and monitoring the purchase
+Table 2 (continued )
+Main Category Barriers Description References
+Lack of rewards
+and recognition
+Rewards and
+recognition motivate
+the employee to
+perform well in
+pandemic type difficult
+situations.
+[130,131].
+Table 3
+Strategies for achieving innovative digitalisation in logistics.
+Strategy Description
+Focus on research, development,
+and innovation (S1)
+These strategies are essential for achieving
+a resilient logistics system during a
+pandemic situation. They also help with
+cost reduction of technological
+equipment, improvement of system
+effectiveness, and improvement of the
+deliverable product and services.
+Provide financial support (S2) During a pandemic situation, small
+businesses face economic crises. So big
+organisations in the supply chain should
+provide monetary support to small
+stakeholders such as suppliers and
+retailers for adopting these technologies to
+overcome the financial problems and
+develop trust and relationships, which is
+most important for building a resilient
+supply chain.
+Enhance training facilities and
+conduct awareness programs (S3)
+Provide training to employees to
+understand these technologies and
+organise seminars and awareness
+programs to think about new technologies
+that can help build a resilient logistics
+system, and impart awareness and
+knowledge from top-level management to
+lower-level management.
+Enhance security and privacy (S4) Cyber-attacks have risen during COVID-19
+(ISACA Survey), so improved security and
+privacy are needed by using new era
+technology such as blockchain and
+artificial intelligence. This also builds
+confidence among customers and
+suppliers to use technology-driven
+logistics systems.
+Automation strategy (S5) There is a lack of skilled workforce during
+a pandemic situation, so replacing the
+workforce by robots can help tackle this
+situation and increase the precision and
+accuracy of the processes involved in
+logistics like the sorting and loading of
+packages.
+Adoption of new and alternative
+technology (S6)
+The adoption of new technology is very
+critical. Under this strategy, the cost of
+adopting new technology and its
+alternatives needs to be analysed. Also,
+there is a need to check the scalability and
+feasibility of that technology.
+Create or hire an organisation to
+monitor the complete supply
+chain (S7)
+Several types of problems arise, such as
+trust and relationship problems, financial
+problems, and credit dispute problems
+during a pandemic. Such an organisation
+can solve the problems between different
+stakeholders and create a system under
+which all stakeholders operate seamlessly.
+If any concern arises, stakeholders may
+approach this organisation for support.
+Use satellite internet access (S8) Internet connectivity is poor in remote
+areas, so we can use satellite internet
+access, which can also help during natural
+disasters such as floods, earthquakes, and
+tsunamis.
+Collaboration with technical
+institutes (S9)
+Several new industrial problems arise
+during a pandemic, so technical institutes
+can also support research and innovation
+as per the industry requirements. This is
+also a crucial strategy for training young
+minds and developing relevant skills
+required by the industry.
+H. Gupta et al. 
+Technology in Society 69 (2022) 101970
+9
+behaviour [111]. The use of consumer data without the consent of the
+consumer comes under the privacy issue [49]. This becomes a core issue
+when data analytics tools are used to infer knowledge about the
+customer and create a digital picture of the customer without the
+customer knowing that their private information is being used [134].
+As seen in the analysis results list, economic and financial barriers
+(EFB) are in second place. For many developing countries, these have
+been significant barriers to the implementation of new technology. The
+costs associated with sensors, cameras, other digital devices, and the
+implementation of such technology play a significant role [119]. A firm
+or company not only incurs the costs of the sensors and IoT devices and
+Table 4
+Pairwise comparison for main category barriers.
+Best-to-others for 12 respondents.
+Best to others TB OB EFB CB RIB
+Expert-1 TB 1 6 2 9 5
+Expert-2 TB 1 9 2 6 7
+Expert-3 TB 1 6 2 7 9
+Expert-4 EFB 3 4 1 9 7
+Expert-5 EFB 2 3 1 8 9
+Expert-6 TB 1 6 2 9 4
+Expert-7 TB 1 7 3 9 5
+Expert-8 TB 1 5 2 9 4
+Expert-9 EFB 2 4 1 9 7
+Expert-10 TB 1 4 3 9 7
+Expert-11 OB 5 1 3 6 9
+Expert-12 TB 1 4 2 6 9
+Others-to-worst
+Experts→ Expert 1 Expert 2 Expert 3 Expert 4 Expert 5 Expert 6 Expert 7 Expert 8 Expert 9 Expert 10 Expert 11 Expert 12
+Worst Criterion → CB OB RIB CB RIB CB CB CB CB CB RIB RIB
+TB 9 9 9 7 8 9 9 9 8 9 3 9
+OB 3 1 4 5 7 3 3 4 5 5 9 5
+EFB 8 8 8 9 9 7 6 7 9 5 6 7
+CB 1 3 3 1 2 1 1 1 1 1 2 3
+RIB 4 2 1 2 1 5 4 5 3 2 1 1
+Table 5
+Criteria weights and rankings of the barriers.
+Main Criteria Main
+Criteria
+Weight
+Subcriteria
+Subcriteria
+Local
+Weights
+Subcriteria
+Global
+Weights
+Ranks
+Technological
+barriers
+0.344 TB1 0.137 0.047 6
+TB2 0.216 0.074 4
+TB3 0.218 0.075 3
+TB4 0.126 0.043 8
+TB5 0.119 0.041 9
+TB6 0.092 0.031 13
+TB7 0.088 0.030 16
+Organisational
+barriers
+0.157 OB1 0.201 0.031 14
+OB2 0.22 0.035 12
+OB3 0.197 0.031 15
+OB4 0.170 0.026 17
+OB5 0.103 0.016 21
+OB6 0.100 0.015 22
+Economic and
+financial
+barriers
+0.310 EFB1 0.431 0.134 1
+EFB2 0.170 0.053 5
+EFB3 0.397 0.123 2
+Cultural barriers 0.084 CB1 0.224 0.018 20
+CB2 0.307 0.025 18
+CB3 0.467 0.039 10
+Regulatory and
+institutional
+barriers
+0.103 RIB1 0.352 0.036 11
+RIB2 0.445 0.045 7
+RIB3 0.202 0.020 19
+Table 6
+Ranking of strategies.
+Strategies Main Category Barriers Technological Barriers Organisational Barriers Economic Barriers Cultural Barriers Institutional Barriers
+Vi Rank Vi Rank Vi Rank Vi Rank Vi Rank Vi Rank
+S1 0.120 2 0.049 1 0.016 7 0.034 5 0.007 8 0.012 2
+S2 0.127 1 0.042 3 0.019 2 0.049 1 0.009 6 0.012 4
+S3 0.110 6 0.030 7 0.023 1 0.033 7 0.013 1 0.011 7
+S4 0.107 7 0.029 8 0.016 8 0.035 4 0.011 2 0.012 3
+S5 0.096 9 0.042 4 0.018 4 0.025 9 0.008 7 0.010 9
+S6 0.112 4 0.047 2 0.016 6 0.038 2 0.010 4 0.010 8
+S7 0.105 8 0.025 9 0.017 5 0.034 6 0.011 3 0.011 5
+S8 0.111 5 0.040 6 0.013 9 0.026 8 0.006 9 0.011 6
+S9 0.112 3 0.041 5 0.019 3 0.036 3 0.009 5 0.014 1
+Fig. 1. Main criteria barrier credal ranking.
+H. Gupta et al. 
+Technology in Society 69 (2022) 101970
+10
+the implementation of these devices, but also incurs the cost of training
+employees. The initial investment needed for the adoption of IoT is very
+high [59], which prevents small and medium-sized organisations
+implementing such technologies in their firms due to limited funds and
+resources [109,111].
+Organisational barriers (OB) are also significant because of the lack
+of training facilities, lack of digital knowledge and lack of awareness of
+new technologies [113]. The lack of technological skill limits the harnessing of the adopted technology, which ultimately reduces the expected benefit to the organisation. Small firms are reluctant to
+implement these technologies due to their great complexity, which requires highly skilled professionals. The wages of highly skilled professionals are high, as is the cost of training employees [111]. The
+adoption, implementation and operation or use of these technologies in
+an organisation requires experienced and knowledgeable professionals
+[50]. Thus, we can say that organisational barriers play an essential role
+in the adoption and implementation of innovative technology in the
+organisation.
+Among the sub-category barriers, “High cost of investment (EFB1)"
+emerged as the most critical issue related to the implementation of
+innovative technologies. These technologies need very high investment
+as the cameras, goggles, UID chips, IOT devices and sensors used in them
+are quite expensive [59]. The high cost of investment in these innovative
+technologies in the initial stage makes it difficult for any SME or small
+organisation to implement such innovative technologies [119]. “Lack of
+monetary resources (EFB3)" also comes out as an essential barrier that
+needs attention. As discussed above, these technologies require very
+high-cost investments and huge monetary resources to implement them
+[119]. If the pandemic is long-lasting, this can lead to economic crises.
+Developing countries are very fragile in any financial crisis [135], so the
+financial institutions of a developing country such as NBFCs and banks
+may find themselves unable to fulfil the financial requirements of the
+organisation [59]. As concerns “Inadequate internet connectivity
+(TB3)", this becomes critical in pandemic situations as the mobility of
+human resources is low, and logistics professionals have to work
+remotely, so they have the problem of connecting to the shared server
+without internet connectivity. In rural and remote areas, there is an
+Internet connectivity problem that hampers the adoption of new and
+innovative technologies in the field of logistics (Luthra et al., 2019). The
+internet is a medium for the sharing of real-time data for the company; if
+there is poor internet connection, then the company cannot get real-time
+data and the is not able to derive benefits from the data. The connectivity in remote areas is insufficient, thus reducing the efficiency and
+productivity of employees [91]. To use innovative and new technologies
+like IOT and cloud computing, we need to have good internet connectivity [96]. “Lack of IT infrastructure (TB2)" comes out at number four in
+our study, if we look at this barrier from the impact point of view.
+Efficient software, a fast network and hardware are needed extensively
+to implement these new and innovative technologies, but a developing
+Fig. 2. Technological credal ranking.
+Fig. 3. Organisational barriers credal ranking.
+Fig. 4. Economic and financial barriers credal ranking.
+Fig. 5. Cultural barriers credal ranking.
+Fig. 6. Regulatory and institutional barriers credal ranking.
+H. Gupta et al. 
+Technology in Society 69 (2022) 101970
+11
+country like India still does not have an IT infrastructure on that scale
+[52,92]. These technologies should work in connection with various
+software packages to utilise the knowledge extracted from the data
+gathered by the sensors. IoT devices and sensors are used in connection
+with application software such as WMS, ITS, and TMS used by many
+companies [136], so we need software and hardware which are
+compatible with many platforms and devices. “Unclear economic
+benefit of digital investments (TB2)" is another critical barrier to
+implementing these innovative technologies [108]. These technologies
+require high investments, but exactly when the returns on that investment will materialise, and in which form it will come, are unstructured.
+For these reasons, investors still avoid investing in these new technologies [93].
+6.2. Discussion of the strategies
+The second phase of the analysis is a strategic analysis to overcome
+the barriers to the implementation of these new innovative technologies.
+The strategic analysis suggests that no single strategy alone can overcome these barriers. This becomes clear by looking at the total weight of
+each study (see Table 6 for these results). To overcome the main category barriers (overall barrier) “Provide financial support (ST2)" emerges
+as the most crucial strategy for tackling the main category barriers.
+“Technological barriers (TB)" and “Economic and financial barriers
+(EFB)" are the top two barriers in the main category and “Provide
+financial support (ST2)" can be the most useful strategy for overcoming
+these barriers. If a small organisation is given financial support from the
+bank and NBFCs, then it will be able to improve its research and
+development. This funding can help to further reduce the technological
+and economic barriers. The organisation can also build its IT infrastructure. Focusing on research, development, and innovation (ST1) also
+helps to improve the research work to implement these technologies.
+To overcome the technological barriers (TB), an essential strategy
+emerges to be “Focus on research, development and innovation (ST1)".
+Research development can improve the use of inexpensive and fast
+identification chips such as inkjet-printed chips. It can also solve problems such as internet connectivity through innovations; a project like
+Sterling can revolutionise this field. Further modification of the blockchain technology through innovation can be used to strengthen data
+security and privacy and avoid data breaches. “Adoption of new and
+alternative technology (ST6)" strategies also help to overcome the
+technological barriers. These technologies are quite new so there is not
+much exploration of these technologies; if a chip or device is too
+expensive, then we can explore secondary alternatives.
+For overcoming organisational barriers (OB), the most crucial
+strategy proves to be to “Enhance training facilities and conduct
+awareness programs (ST3)", because these technologies are very complex and the adoption of such technology is not easy for a company if
+there are no employees who can understand it. For overcoming economic and financial barriers (EFB), providing financial support (ST2)
+emerges as the most important strategy. Financial support from governments to various logistics and manufacturing organisations can help
+build resilience and also help them build innovative digital technologies
+so that these organisations can better cope with pandemic and other
+disruptions.
+7. Implications
+7.1. Managerial implications
+The study has some significant implications for organisations and
+their managers in their adoption of digitisation technologies in the
+supply chain and logistics sector for resilience. Logistics and supply
+chain organisations often face uncertainties due to the disruptions
+occurring in this sector, which have been further compounded due to the
+recent COVID crisis. Organisations are looking to become more resilient
+to overcome these disruptions. but this is an uphill task for the managers
+of the organisations, especially in developing countries. They face a lot
+of challenges and need first of all to overcome the economic and
+financial challenges in adopting digitisation technologies for building
+resilience. Implementing digitisation technologies requires a high initial
+investment and many organisations lack the necessary monetary resources. Managers of these organisations need to focus on acquiring
+funds from government and other regulatory bodies for digitisation of
+their supply chains, and large organisations in the chain should provide
+monetary support to small stakeholders such as suppliers and retailers
+for adopting these technologies to overcome the financial problems and
+develop trust and relationships, which is most important for building a
+resilient supply chain. Collaboration with technical institutes is also
+necessary for developing low-cost digitisation technologies for the
+supply chain and logistics sector. Technology complexity and nonavailability is also a major challenge for the managers of these organisations to adopt digitisation technologies for resilience. Often the technology is complex and not easily understandable or is simply not
+available. Managers need to focus on providing training for their employees related to these digitisation technologies and also to seek technological support from other larger industries or regulatory bodies.
+Large organisations in the supply chain again have their role in
+providing technological support to the other supply chain partners for
+the adoption of digitisation technologies for supply chain and logistics
+resilience. In a broader sense, organisations need to focus more on
+providing financial support, and research & development, for adopting
+innovative technologies in their domain. Government participation
+throughout the process is very critical, and they need to provide incentives and other help to encourage it.
+7.2. Theoretical and academic implications
+The current study has significant theoretical and academic implications also as it tries to fill the gap by providing results related to barriers
+to the adoption of digitisation technologies for supply chain and logistics
+resilience. This study identified the challenges to supply chain logistics
+resilience from the perspective of an emerging economy like India. The
+major contribution is the identification of 22 challenges related to
+digitisation for supply chain logistics resilience. This study also contributes with the identification of nine strategies to overcome these
+challenges. Thus, a comprehensive framework is developed for researchers, policy makers and academics for further study of the challenges to digitisation for resilience in other industry contexts also.
+Academics and policy makers need to work together to develop policies
+to facilitate organisations’ adoption of digitisation technologies for
+supply chain and logistics resilience, especially in these times of extreme
+uncertainty and turbulence.
+8. Conclusions and future research directions
+The outbreak of the pandemic has completely exposed the weaknesses of the classical logistics system and now requires that the logistics
+system be reformed. The whole logistics system, especially for organisations operating their logistics in the traditional manner, has been
+facing numerous challenges during the pandemic. Innovative technologies play an important role in this reform, and without them, reform
+cannot be achieved. However, these reforms are often inhibited by many
+challenges, as discussed in the above sections. This study focused first on
+identifying the barriers/challenges to the adoption of innovative digitisation technologies and then on identifying and ranking resilient
+strategies to overcome these challenges. The BBWM methodology was
+used for the analysis of the barriers and strategies. The results identified
+technological, economic, and organisational barriers as the most significant barriers to the adoption of innovative digitisation technologies
+in the logistics sector. Technological and economic barriers are the two
+major problems. More than one strategy is needed to tackle these
+H. Gupta et al. 
+Technology in Society 69 (2022) 101970
+12
+barriers and no single strategy is sufficient. In this context, an analysis of
+resilient strategies with respect to each barrier was carried out for both
+the main and sub-category barriers. To overcome the major technological and economic barriers, focusing on research, development and
+innovation, providing financial support, and collaboration with technical institutes are the most important resilient strategies. Enhancing
+training facilities and conducting awareness programs is essential also
+since it helps workers and managers to learn technical skills so that they
+can easily apply these technologies and make them operational. Organisations need to focus more on research and development of innovative
+technologies so that these technologies can be adopted through some
+innovative projects in the context of the logistics sector. Bigger budgets
+need to be allocated by organisations for innovation, research and
+development, and the adoption of innovative technologies in order to
+improve resilience to unknown-unknowns like the current pandemic.
+Government also needs to pitch in and provide financial as well as other
+support in terms of incentives to the logistics sector to enable them to
+become resilient.
+As with the other research works, this work also suffers from certain
+limitations. This study is based on the opinions of experts from the logistics sector as well as government and academics. The sample of experts chosen is limited, but future studies can carry out a statistical
+analysis of the factors identified using techniques like structural equation modelling. Future studies can also explore the interdependencies
+among the various barriers to logistics resilience through digitisation.
+Future studies related to the pandemic can also include other related
+fields like studying the relationships with respect to inventory management, transportation and the energy sector as well. Studies related to
+resilience in the logistics sector can include more complex mathematical
+models like the one discussed by Refs. [137–143]. These methodologies
+can help to develop more strategies for resilient logistics during uncertain times like a pandemic. Future studies can focus on studying the
+impact of one specific technology like Industry 4.0 or Artificial Intelligence for supply chain logistics and resilience.
+Author statement
+Himanshu Gupta was involved in conceptualization of Idea,
+Methodology design, analysis of data, writing original draft and revision, Avinash Kumar was involved in data collection, analysis of data
+and writing of original draft, Simonov Kusi-Sarpong was involved in
+writing original draft and supervision, Sharfuddin Ahmed Khan was
+involved in writing original draft and supervision, Shashi Chandra
+Sharma was involved in writing original draft and supervision
+Appendix A
+Table- A1
+Pairwise comparison for technological barriers
+Best to others for 12 respondents
+Experts Best to Others TB1 TB2 TB3 TB4 TB5 TB6 TB7
+Expert-1 TB3 3 2 1 7 5 8 9
+Expert-2 TB1 1 7 2 5 3 9 6
+Expert-3 TB3 8 6 1 3 4 9 7
+Expert-4 TB1 1 6 4 7 3 6 9
+Expert-5 TB2 9 1 2 4 5 5 7
+Expert-6 TB2 5 1 3 9 7 6 8
+Expert-7 TB3 5 2 1 4 8 9 7
+Expert-8 TB2 4 1 2 7 6 8 9
+Expert-9 TB2 3 1 2 9 4 6 7
+Expert-10 TB4 9 3 6 1 7 5 4
+Expert-11 TB2 7 1 6 2 9 3 5
+Expert-12 TB2 3 1 2 5 6 7 9
+Others to the Worst
+Experts→ Expert-1 Expert-2 Expert-3 Expert-4 Expert-5 Expert-6 Expert-7 Expert-8 Expert-9 Expert-10 Expert-11 Expert-12
+Worst Criterion → TB7 TB6 TB6 TB7 TB1 TB4 TB6 TB7 TB4 TB1 TB5 TB7
+TB1 6 9 2 9 1 4 4 5 7 1 2 7
+TB2 7 2 4 3 9 9 8 9 9 5 9 9
+TB3 9 8 9 5 8 7 9 8 8 2 3 7
+TB4 3 4 6 2 5 1 6 3 1 9 7 4
+TB5 4 7 5 7 4 3 2 4 5 2 1 3
+TB6 2 1 1 2 4 3 1 2 3 3 5 2
+TB7 1 3 3 1 3 2 3 1 3 5 4 1
+Table A2
+Pairwise comparison for organisational barriers
+Best to others for 12 respondents
+Experts Best to Others OB1 OB2 OB3 OB4 OB5 OB6
+Expert-1 OB4 7 2 3 1 8 9
+Expert-2 OB2 5 1 3 6 8 9
+Expert-3 OB1 1 5 6 3 8 8
+Expert-4 OB1 1 5 7 2 9 5
+Expert-5 OB3 5 3 1 4 8 9
+Expert-6 OB2 7 1 2 9 5 6
+Expert-7 OB1 1 4 7 3 6 9
+(continued on next page)
+H. Gupta et al. 
+Technology in Society 69 (2022) 101970
+13
+Table A2 (continued )
+Best to others for 12 respondents
+Experts Best to Others OB1 OB2 OB3 OB4 OB5 OB6
+Expert-8 OB1 1 6 7 3 9 5
+Expert-9 OB1 1 8 4 5 6 7
+Expert-10 OB2 5 1 3 4 7 9
+Expert-11 OB2 4 1 2 6 9 7
+Expert-12 OB3 6 2 1 9 5 6
+Others to the Worst
+Experts→ Expert-1 Expert-2 Expert-3 Expert-4 Expert-5 Expert-6 Expert-7 Expert-8 Expert-9 Expert-10 Expert-11 Expert-12
+Worst Criterion → OB6 OB6 OB6 OB5 OB6 OB4 OB6 OB5 OB2 OB6 OB5 OB4
+OB1 3 4 9 9 4 3 9 9 9 3 3 3
+OB2 8 9 4 3 7 9 5 3 2 9 9 7
+OB3 6 7 3 2 9 8 3 2 5 5 7 9
+OB4 9 3 7 8 5 1 6 6 4 5 3 1
+OB5 2 2 2 1 2 4 4 1 3 2 1 4
+OB6 1 1 1 4 1 3 1 4 3 1 2 3
+Table A3
+Pairwise comparison for economical barriers
+Best to others for 12 respondents
+Experts Best to Others EB1 EB2 EB3
+Expert-1 EB2 3 1 7
+Expert-2 EB1 1 9 4
+Expert-3 EB3 3 9 2
+Expert-4 EB1 1 9 4
+Expert-5 EB3 7 4 1
+Expert-6 EB1 1 9 3
+Expert-7 EB3 3 9 1
+Expert-8 EB1 1 9 4
+Expert-9 EB3 8 6 1
+Expert-10 EB1 1 8 3
+Expert-11 EB3 2 9 1
+Expert-12 EB1 1 8 4
+Others to the Worst
+Experts→ Expert1
+Expert2
+Expert3
+Expert4
+Expert5
+Expert6
+Expert7
+Expert8
+Expert9
+Expert10
+Expert11
+Expert12
+Worst
+Criterion
+→
+EB3 EB2 EB2 EB2 EB1 EB2 EB2 EB2 EB1 EB2 EB2 EB2
+EB1 7 9 7 9 1 9 7 9 2 8 5 9
+EB2 9 1 1 1 5 1 1 1 3 1 1 2
+EB3 1 5 8 5 9 7 9 5 8 4 9 5
+Table A4
+Pairwise comparison for cultural barriers
+Best to others for 12 respondents
+Experts Best to Others CB1 CB2 CB3
+Expert-1 CB3 9 7 1
+Expert-2 CB3 8 6 1
+Expert-3 CB3 6 9 1
+Expert-4 CB3 9 7 1
+Expert-5 CB1 1 5 9
+Expert-6 CB3 8 5 1
+Expert-7 CB2 4 1 8
+Expert-8 CB3 9 6 1
+Expert-9 CB3 9 7 1
+Expert-10 CB3 9 4 1
+Expert-11 CB2 8 1 3
+Expert-12 CB2 4 1 8
+(continued on next page)
+H. Gupta et al. 
+Technology in Society 69 (2022) 101970
+14
+Table A4 (continued )
+Others to the Worst
+Experts→ Expert1
+Expert2
+Expert3
+Expert4
+Expert5
+Expert6
+Expert7
+Expert8
+Expert9
+Expert10
+Expert11
+Expert12
+Worst
+Criterion
+→
+CB1 CB1 CB2 CB1 CB3 CB1 CB3 CB1 CB2 CB1 CB1 CB3
+Others to the Worst
+Experts→ Expert1
+Expert2
+Expert3
+Expert4
+Expert5
+Expert6
+Expert7
+Expert8
+Expert9
+Expert10
+Expert11
+Expert12
+Worst
+Criterion
+→
+CB1 CB1 CB2 CB1 CB3 CB1 CB3 CB1 CB2 CB1 CB1 CB3
+CB1 1 1 3 1 9 1 5 1 1 1 1 5
+CB2 3 3 1 2 4 3 9 3 2 3 8 9
+CB3 8 9 9 9 1 9 1 9 9 9 4 2
+Table A5
+Pairwise comparison for regulatory & institutional barriers
+Best to others for 12 respondents
+Experts Best to Others RB1 RB2 RB3
+Expert-1 RB3 9 4 1
+Expert-2 RB2 3 1 9
+Expert-3 RB1 1 8 6
+Expert-4 RB2 2 1 9
+Expert-5 RB2 4 1 8
+Expert-6 RB1 1 9 5
+Expert-7 RB2 3 1 9
+Expert-8 RB2 3 1 9
+Expert-9 RB2 4 1 9
+Expert-10 RB2 3 1 9
+Expert-11 RB3 8 3 1
+Expert-12 RB2 5 1 9
+Others to the Worst
+Experts→ Expert1
+Expert2
+Expert3
+Expert4
+Expert5
+Expert6
+Expert7
+Expert8
+Expert9
+Expert10
+Expert11
+Expert12
+Worst
+Criterion
+→
+RB3 RB2 RB2 RB3 RB3 RB2 RB3 RB3 RB3 RB3 RB1 RB3
+RB1 1 7 9 8 5 9 7 7 5 4 1 4
+RB2 5 9 1 9 9 1 9 9 9 9 4 9
+RB3 9 1 3 1 1 4 1 1 1 1 8 1
+Appendix B
+Sample Survey Questionnaire
+Reference: Survey for research work.
+Dear Respondent.
+I am working on a research paper regarding “Strategies to overcome barriers of innovative digitalisation technologies for supply chain logistics
+resilience during pandemic”. Our research has the following objective:
+• Identification and ranking of barriers to digitisation for supply chain and Logistics resilience during pandemics.
+• Identification and ranking of strategies to overcome barriers to digitisation for supply chain and Logistics resilience during pandemics.
+Considering your expertise in this field, we require your opinion on the identified barriers of the study.
+Using the scale as mentioned in Table 2 below please rate the barriers presented in Table 1.
+H. Gupta et al. 
+Technology in Society 69 (2022) 101970
+15
+Table 1
+Barriers to advancing supply chain logistics resilience during pandemic
+Category Criteria
+Technological barriers (TB) Need of Unique, Faster and Cheap Identification Process (TB1)
+Lack of IT infrastructure (TB2)
+Inadequate internet connectivity (TB3)
+Lack of integration among IT networks (TB4)
+Security and Privacy Concerns (TB5)
+Complexity of data (TB6)
+Scalability (TB7)
+Organisational barriers (OB) Resistance from employee due to fear of job loss (OB1)
+Lack of technical knowledge/skill (OB2)
+Lack of training facilities (OB3)
+Lack of support by top management (OB4)
+Need to find suitable research partner (OB5)
+E-waste management (OB6)
+Economical and Financial
+Barriers (EFB)
+High cost of investment (EFB1)
+Unclear economic benefit of digital investments (EFB2)
+Lack of monetary Resources (EFB3)
+Cultural barriers (CB) Lack of trust among partners (CB1)
+Lack of Support from supplier/Customer (CB2)
+Acceptance of new Technologies (CB3)
+Regulatory and Institutional barriers (RIB) Lack of standard and regulation (RIB1)
+Lack of financial supports in gov polices (RIB2)
+Lack of rewards and recognition (RIB3)
+Table 2
+Linguistic scale for pairwise comparison for best worst methodology
+Scale for Best worst methodology
+Equally
+important
+Equal to
+moderately more
+important
+Moderately
+more important
+Moderately to
+strongly more
+important
+Strongly
+more
+important
+Strongly to very
+strongly more
+important
+Very strongly
+more
+important
+Very strongly to
+extremely more
+important
+Extremely
+more
+important
+1 2 3 4 5 6 7 8 9
+Example for Rating
+If Best Main category barrier is TB and worst is EB then.
+Main category barriers comparison
+BO TB OB EFB OB EB
+Best barriers: TB 1 Relative to TB Relative to TB Relative to TB 9
+OW Worst barriers: EB
+TB 9
+CB Relative to EB
+IB Relative to EB
+OB Relative to EB
+EB 1
+Score for ranking of barriers (Expert 1)
+Among the four main category barriers, identify which is the best and which is the worst among given (You can use codes only as mentioned in
+Table 1).
+Best Main Barriers:
+Worst main Barriers:
+Using 9-point scale mentioned in Table 2, rate the Best to Other and Other to Worst barriers in format mentioned below:
+Main category barriers comparison
+BO TB OB EFB CB RIB
+Best barriers:
+OW Worst barriers:
+TB
+(continued on next page)
+H. Gupta et al. 
+Technology in Society 69 (2022) 101970
+16
+(continued )
+OW Worst barriers:
+OB
+EFB
+CB
+RIB
+Part 2
+This part deals with ranking the strategies with respect to main category barriers as well as each of sub category barriers.
+Table 3
+supply chain logistics resilience during pandemic strategies
+Category Criteria
+supply chain logistics resilience during pandemic strategies Focus on research, development and Innovation strategy (S1)
+Provide Financial Support strategy (S2)
+Enhance Training facilities and conduct awareness programs strategy (S3)
+Enhance security and privacy strategy (S4)
+Automation strategy (S5)
+Adoption of new technology Strategies (S6)
+Create or hire an organisation for monitor complete supply chain strategy (S7)
+Use Satellite Internet Access (S8)
+Collaborations with Technical institute (S9)
+Rate the Strategies for SSL with respect to barriers using a scale of 1–9 where 1 represents minimum influence and 9 represents maximum
+influence.
+Strategies Barriers
+TB OB EFB CB RIB
+S1
+S2
+S3
+S4
+S5
+S6
+S7
+S8
+S9
+References
+[1] Stephen M. Rutner, C. John Langley Jr., Logistics value: definition, process and
+measurement, Int. J. Logist. Manag. 11 (2) (2000) 73–82.
+[2] G. Ghiani, G. Laporte, R. Musmanno, Introduction to Logistics Systems Planning
+and Control, John Wiley & Sons, 2004.
+[3] McKinsey, Fast and Furious Riding the next growth wave of logistics in India and
+China. https://www.mckinsey.com/~/media/McKinsey/Featured%20Insigh
+ts/Asia%20Pacific/Riding%20the%20next%20growth%20wave%20of%20logi
+stics%20in%20India%20and%20China/Riding-the-next-growth-wave-of-logistic
+s-in-India-and-China.pdf, 2019. (Accessed 20 April 2021).
+[4] NITI Aayog, Rocky Mountain Institute, Goods on the Move: Effciency &
+Sustainability in Indian Logistics, 2018.
+[5] S. Ramachandran, M.S. Nakhava, K. Pratik, Logistics in India: challenges and
+scope, International Review of Research in Emerging Markets and the Global
+Economy (IRREM): An Online International Research Journal 1 (2) (2015)
+364–377.
+[6] D. Güvercin, Digitalization and populism: cross-country evidence, Technol. Soc.
+68 (2022) 101802.
+[7] B. Burroughs, W.J. Burroughs, Digital logistics: enchantment in distribution
+channels, Technol. Soc. 62 (2020) 101277.
+[8] J. Amankwah-Amoah, Note: mayday, mayday, mayday! Responding to
+environmental shocks: insights on global airlines’ responses to COVID-19,
+Transport. Res. E Logist. Transport. Rev. 143 (2020) 102098.
+[9] P. Barbieri, A. Boffelli, S. Elia, L. Fratocchi, M. Kalchschmidt, D. Samson, What
+can we learn about reshoring after Covid-19? Operations Management Research
+13 (3) (2020) 131–136.
+[10] T.M. Choi, Innovative "bring-service-near-your-home" operations under Coronavirus (COVID-19/SARS-CoV-2) outbreak: can logistics become the messiah?
+Transport. Res. E Logist. Transport. Rev. 140 (2020) 101961.
+[11] H. Seddighi, H. Baharmand, Exploring the role of the sharing economy in
+disasters management, Technol. Soc. 63 (2020) 101363.
+[12] NCB, World Health Organization declares global emergency, Retrieved Oct 30,
+2020, from, https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7105032/, 2020.
+[13] DNB, Business impact of the coronavirus, Retrieved Oct 30, 2020, from, https:
+//www.dnb.com/content/dam/english/economic-and-industry-insight/DNB_Bu
+siness_Impact_of_the_Coronavirus_US.pdf, 2020.
+[14] IFC, The impact of COVID-19 on logistics, Retrieved Oct 30, 2020, from, http
+s://www.ifc.org/wps/wcm/connect/2d6ec419-41df-46c9-8b7b-96384cd36ab3
+/IFC-Covid19-Logistics-final_web.pdf?MOD=AJPERES&CVID=naqOED5, 2020.
+[15] NCB, Predicting the impacts of epidemic outbreaks on global supply chains,
+Retrieved Oct 30, 2020, from, https://www.ncbi.nlm.nih.gov/pmc/articles/PM
+C7147532/, 2020.
+[16] D. Ozdemir, M. Sharma, A. Dhir, T. Daim, Supply Chain Resilience during COVID
+19 Pandemic, Technology in Society, 2022, p. 101847.
+[17] N. Fernandes, Economic Effects of Coronavirus Outbreak (COVID-19) on the
+World Economy, 2020. Available at SSRN 3557504.
+[18] D. Ivanov, Predicting the impacts of epidemic outbreaks on global supply chains:
+a simulation-based analysis on the coronavirus outbreak (COVID-19/SARS-CoV2) case, Transport. Res. E Logist. Transport. Rev. 136 (2020) 101922.
+[19] D. Ivanov, A. Das, Coronavirus (COVID-19/SARS-CoV-2) and supply chain
+resilience: a research note, Int. J. Integrated Supply Manag. 13 (1) (2020)
+90–102.
+[20] S.A. Chaudhry, Covid-19 puts India’s food supply chain to a stresstest, Retrieved
+Oct 30, 2020, from, https://www.thehindubusinessline.com/economy/agri-bus
+iness/covid-19-puts-indias-food-supply-chain-to-a-stress-test/article31173973.
+ece, 2020.
+[21] S. Singh, Covid-19 pandemic spoils Indian startup funding party, growth stage
+worst hit in Q1 2020, Retrieved Oct 30, 2020, from, https://inc42.com/datala
+b/covid19-impacts-indian-startup-funding-growth-stage-worst-hit-in-q1-2020/,
+2020.
+H. Gupta et al. 
+Technology in Society 69 (2022) 101970
+17
+[22] A. Mudgill, How will India lockdown play out for economy & markets: 4
+scenarios, Retrieved Oct 30, 2020, from, https://economictimes.indiatimes.com
+/markets/stocks/news/how-will-india-lockdown-play-out-for-economy-markets4scenarios/articleshow/74804087.cms, 2020.
+[23] T.K. Biswas, M.C. Das, Selection of the barriers of supply chain management in
+Indian manufacturing sectors due to COVID-19 impacts, Operational Research in
+Engineering Sciences: Theory and Applications 3 (3) (2020) 1–12.
+[24] E. Borgia, The Internet of Things vision: key features, applications and open
+issues, Comput. Commun. 54 (2014) 1–31.
+[25] Oracle, Transformational technologies: today, Retrieved Oct 30, 2020, from,
+http://www.oracle.com/us/solutions/cloud/tt-technologies-white-paper 44
+98079.pdf, 2020.
+[26] M. Al-Talib, W.Y. Melhem, A.I. Anosike, J.A. Garza Reyes, S.P. Nadeem,
+A. kumar, Achieving resilience in the supply chain by applying IoT technology,
+Procedia CIRP 91 (2020) 752–757.
+[27] M.S. Golan, L.H. Jernegan, I. Linkov, Trends and applications of resilience
+analytics in supply chain modeling: systematic literature review in the context of
+the COVID-19 pandemic, Environ Syst Decis 40 (2020) 222–243.
+[28] A. Marusak, N. Sadeghiamirshahidi, C.C. Krejci, A. Mittal, S. Beckwith, J. Cantu,
+J. Grimm, Resilient regional food supply chains and rethinking the way forward:
+key takeaways from the COVID-19 pandemic, Agric. Syst. 190 (2021) 103101.
+[29] M. Sharma, S. Luthra, S. Joshi, A. Kumar, Accelerating retail supply chain
+performance against pandemic disruption: adopting resilient strategies to
+mitigate the long-term effects, J. Enterprise Inf. Manag. 34 (6) (2021) 1844–1873
+(Vol. ahead-of-print No. ahead-of-print).
+[30] A. Verma, N. Seth, N. Singhal, Enablers of supply chain competitiveness: an
+interpretive structural modelling approach, Int. J. Value Chain Manag. 5 (3–4)
+(2011) 212–231.
+[31] J.T. Mentzer, Fundamentals of Supply Chain Management: Twelve Drivers of
+Competitive Advantage, Sage, 2004.
+[32] S.Y. Ponomarov, M.C. Holcomb, Understanding the concept of supply chain
+resilience, Int. J. Logist. Manag. 20 (1) (2009) 124–143, 2009.
+[33] P. Tadejko, Application of Internet of Things in logistics–current challenges,
+Ekonomia i Zarządzanie 7 (2015).
+[34] K. Rose, S. Eldridge, L. Chapin, The Internet of Things: an Overview, The Internet
+Society (ISOC), 2015, pp. 1–50.
+[35] A. Meola, What is the internet of things (IoT)? Meaning & definition [online]
+Business Insider. Retrieved Oct 30, 2020, from, https://www.businessinsider.
+com/internet-of-things-definition?IR=T, 2019.
+[36] B. Srivastava, Radio Frequency ID Technology: the Next Revolution in SCM.
+Business Horizons, 2004.
+[37] C. Marinagi, P. Belsis, C. Skourlas, New directions for pervasive computing in
+logistics, Procedia-Social and Behavioral Sciences 73 (2013) 495–502.
+[38] J. Gubbi, R. Buyya, S. Marusic, M. Palaniswami, Internet of Things (IoT): a vision,
+architectural elements, and future directions, Future Generat. Comput. Syst. 29
+(7) (2013) 1645–1660.
+[39] H. Ahmadi, G. Arji, L. Shahmoradi, R. Safdari, M. Nilashi, M. Alizadeh, The
+application of internet of things in healthcare: a systematic literature review and
+classification, Univers. Access Inf. Soc. 18 (4) (2019) 837–869.
+[40] P.K. Khatua, V.K. Ramachandaramurthy, P. Kasinathan, J.Y. Yong, J. Pasupuleti,
+A. Rajagopalan, Application and assessment of internet of things toward the
+sustainability of energy systems: challenges and issues, Sustain. Cities Soc. 53
+(2020) 101957.
+[41] S. Awadallah, D. Moure, P. Torres-Gonz´
+alez, An internet of things (IoT)
+application on volcano monitoring, Sensors 19 (21) (2019) 4651.
+[42] V.G. Menon, S. Jacob, S. Joseph, P. Sehdev, M.R. Khosravi, F. Al-Turjman, An IoTEnabled Intelligent Automobile System for Smart Cities, Internet of Things, 2020,
+p. 100213.
+[43] A. Anosike, K. Alafropatis, J.A. Garza-Reyes, A. Kumar, S. Luthra, L. Rocha-Lona,
+Lean manufacturing and internet of things–A synergetic or antagonist
+relationship? Comput. Ind. 129 (2021) 103464.
+[44] G. Yadav, A. Kumar, S. Luthra, J.A. Garza-Reyes, V. Kumar, L. Batista,
+A framework to achieve sustainability in manufacturing organisations of
+developing economies using industry 4.0 technologies’ enablers, Comput. Ind.
+122 (2020) 103280.
+[45] A. Kumar, R.K. Singh, S. Modgil, Exploring the relationship between ICT, SCM
+practices and organizational performance in agri-food supply chain, Benchmark
+Int. J. 27 (3) (2020) 1003–1041.
+[46] G. Radivojevi´ca, N. Bjeli´ca, D. Popovi´ca, Internet OF things IN logistics, in: 3rd
+Logistics International Conference. [online] BELGRADE, SERBIA, 2017,
+pp. 185–190. Retrieved Oct 30, 2020, from, http://logic.sf.bg.ac.rs/wp-content/
+uploads/2017/DRAFT%20LOGIC%202017%20Proceedings.pdf.
+[47] R. Khan, S.U. Khan, R. Zaheer, S. Khan, Future internet: the internet of things
+architecture, possible applications and key challenges, in: 2012 10th
+International Conference on Frontiers of Information Technology, IEEE,
+December, 2012, pp. 257–260.
+[48] A. Al-Fuqaha, M. Guizani, M. Mohammadi, M. Aledhari, M. Ayyash, Internet of
+things: a survey on enabling technologies, protocols, and applications, IEEE
+communications surveys & tutorials 17 (4) (2015) 2347–2376.
+[49] D. Miorandi, S. Sicari, F. De Pellegrini, I. Chlamtac, Internet of things: vision,
+applications and research challenges, Ad Hoc Netw. 10 (7) (2012) 1497–1516.
+[50] S.S. Kamble, A. Gunasekaran, H. Parekh, S. Joshi, Modeling the internet of things
+adoption barriers in food retail supply chains, J. Retailing Consum. Serv. 48
+(2019) 154–168.
+[51] C.S. Tang, L.P. Veelenturf, The strategic role of logistics in the industry 4.0 era,
+Transport. Res. E Logist. Transport. Rev. 129 (2019) 1–11.
+[52] R. Sindhwani, S. Afridi, A. Kumar, A. Banaitis, S. Luthra, P.L. Singh, Can Industry
+5.0 Revolutionize the Wave of Resilience and Social Value Creation? A MultiCriteria Framework to Analyze Enablers, Technology in Society, 2022, p. 101887.
+[53] B. Chen, J. Wan, L. Shu, P. Li, M. Mukherjee, B. Yin, Smart factory of industry 4.0:
+key technologies, application case, and challenges, IEEE Access 6 (2017)
+6505–6519.
+[54] S.B. C´
+amara, J.M. Fuentes, J.M.M. Marín, Cloud computing, Web 2.0, and
+operational performance, Int. J. Logist. Manag. 26 (3) (2015) 426–458.
+[55] S. Namasudra, P. Roy, B. Balusamy, Cloud computing: fundamentals and research
+issues, in: 2017 Second International Conference on Recent Trends and
+Challenges in Computational Models (ICRTCCM), IEEE, 2017, February,
+pp. 7–12.
+[56] A. Singh, N. Mishra, S.I. Ali, N. Shukla, R. Shankar, Cloud computing technology:
+reducing carbon footprint in beef supply chain, Int. J. Prod. Econ. 164 (2015)
+462–471.
+[57] P. Tasatanattakool, C. Techapanupreeda, Blockchain: challenges and
+applications, in: 2018 International Conference on Information Networking
+(ICOIN), IEEE, 2018, January, pp. 473–475.
+[58] A. Narayanan, J. Bonneau, E. Felten, A. Miller, S. Goldfeder, Bitcoin and
+Cryptocurrency Technologies: a Comprehensive Introduction, Princeton
+University Press, 2016.
+[59] M.A. Moktadir, S.M. Ali, S.K. Paul, N. Shukla, Barriers to big data analytics in
+manufacturing supply chains: a case study from Bangladesh, Comput. Ind. Eng.
+128 (2019) 1063–1075.
+[60] S. Singh, R. Kumar, R. Panchal, M.K. Tiwari, Impact of COVID-19 on logistics
+systems and disruptions in food supply chain, Int. J. Prod. Res. (2020) 1–16.
+[61] T.Y. Choi, D. Rogers, B. Vakil, Coronavirus is a wake-up call for supply chain
+management, Retrieved Oct 30, 2020, from, https://hbr.org/2020/03/coronavi
+rus-is-a-wake-up-call-for-supply-chain-management, 2020.
+[62] J. Konˇcar, A. Grubor, R. Mari´c, S. Vuˇcenovi´c, G. Vukmirovi´c, Setbacks to IoT
+implementation in the function of FMCG supply chain sustainability during
+COVID-19 pandemic, Sustainability 12 (18) (2020) 7391.
+[63] M.M. Queiroz, D. Ivanov, A. Dolgui, S.F. Wamba, Impacts of epidemic outbreaks
+on supply chains: mapping a research agenda amid the COVID-19 pandemic
+through a structured literature review, Ann. Oper. Res. (2020) 1–38.
+[64] P. Haren, D. Simchi-Levi, How coronavirus could impact the global supply chain
+by mid-March, Retrieved Oct 30, 2020, from, https://hbr.org/2020/02/how-coro
+navirus-could-impact-the-global-supply-chain-by-mid-march, 2020.
+[65] D. Ivanov, Viable supply chain model: integrating agility, resilience and
+sustainability perspectives—lessons from and thinking beyond the COVID-19
+pandemic, Ann. Oper. Res. 1 (2020).
+[66] Deloitte, COVID-19: managing supply chain risk and disruption, Retrieved Oct
+30, 2020, from, https://www2.deloitte.com/global/en/pages/risk/articles/c
+ovid-19-managing-supply-chain-risk-and-disruption.html, 2020.
+[67] Forbes, The coronavirus’ impact on the global automotive supply chain,
+Retrieved Oct 30, 2020, from, https://www.forbes.com/sites/laurieh
+arbour1/2020/03/13/the-coronavirus-impact-on-th
+e-global-automotive-supply-chain/#2f607021444e, 2020.
+[68] R. Dubey, A. Gunasekaran, D.J. Bryde, Y.K. Dwivedi, T. Papadopoulos,
+Blockchain technology for enhancing swift-trust, collaboration and resilience
+within a humanitarian supply chain setting, Int. J. Prod. Res. 58 (11) (2020)
+3381–3398, https://doi.org/10.1080/00207543.2020.1722860. Retrieved Oct
+30, 2020, from.
+[69] World Economic Forum—WEF, What past disruptions can teach us about reviving
+supply chains after COVID-19, Retrieved Oct 30, 2020, from, https://www.
+weforum.org/agenda/2020/03/covid-19-coronavirus-lessons-past-supply-ch
+ain-disruptions/, 2020.
+[70] World Economic Forum—WEF, The ongoing impact of COVID-19 on global
+supply chains, Retrieved Oct 30, 2020, From, https://www.weforum.org/agenda
+/2020/06/ongoing-impact-covid-19-global-supply-chains/, 2020.
+[71] Institute for Supply Chain Management—ISM, Coronavirus Impact on Supply
+Chain, 2020. Retrieved March 29, 2020.
+[72] J. Rezaei, Best-worst multi-criteria decision-making method, Omega 53 (2015)
+49–57.
+[73] H. Gupta, M.K. Barua, Supplier selection among SMEs on the basis of their green
+innovation ability using BWM and fuzzy TOPSIS, J. Clean. Prod. 152 (2017)
+242–258.
+[74] S. Kheybari, M. Kazemi, J. Rezaei, Bioethanol facility location selection using
+best-worst method, Appl. Energy 242 (2019) 612–623.
+[75] J. Malek, T.N. Desai, Interpretive structural modelling based analysis of
+sustainable manufacturing enablers, J. Clean. Prod. 238 (2019) 117996.
+[76] G. Yadav, S.K. Mangla, S. Luthra, D.P. Rai, Developing a sustainable smart city
+framework for developing economies: an Indian context, Sustain. Cities Soc. 47
+(2019) 101462.
+[77] K. Govindan, H. Mina, B. Alavi, A decision support system for demand
+management in healthcare supply chains considering the epidemic outbreaks: a
+case study of coronavirus disease 2019 (COVID-19), Transport. Res. E Logist.
+Transport. Rev. 138 (2020) 101967.
+[78] V. Kaushik, A. Kumar, H. Gupta, G. Dixit, Modelling and prioritising the factors
+for online apparel return using BWM approach, Electron. Commer. Res. (2020)
+1–31.
+[79] I.J. Orji, S. Kusi-Sarpong, H. Gupta, The critical success factors of using social
+media for supply chain social sustainability in the freight logistics industry, Int. J.
+Prod. Res. 58 (5) (2020) 1522–1539.
+[80] H. Gupta, S. Kusi-Sarpong, J. Rezaei, Barriers and overcoming strategies to supply
+chain sustainability innovation, Resour. Conserv. Recycl. 161 (2020) 104819.
+H. Gupta et al. 
+Technology in Society 69 (2022) 101970
+18
+[81] M. Mohammadi, J. Rezaei, Bayesian best-worst method: a probabilistic group
+decision making model, Omega 96 (2020) 102075.
+[82] Keeney, R.L.H. Raiffa, Decisions with Multiple Objectives: Preferences and Value
+Tradeoffs, 1976.
+[83] S.G. Azevedo, H. Carvalho, Contribution of RFID Technology to Better
+Management of Fashion Supply Chains, International Journal of Retail &
+Distribution Management, 2012.
+[84] B. Karakostas, A DNS architecture for the internet of things: a case study in
+transport logistics, Procedia Comput. Sci. 19 (2013) 594–601.
+[85] E. Ginters, J. Martin-Gutierrez, Low cost augmented reality and RFID application
+for logistics items visualisation, Procedia Comput. Sci. 26 (2013) 3–13.
+[86] M.H. Stoltz, V. Giannikas, D. McFarlane, J. Strachan, J. Um, R. Srinivasan,
+Augmented reality in warehouse operations: opportunities and barriers, IFACPapersOnLine 50 (1) (2017) 12979–12984.
+[87] O. Trelles, P. Prins, M. Snir, R.C. Jansen, Big data, but are we ready? Nat. Rev.
+Genet. 12 (3) (2011), 224-224.
+[88] I. Malaka, I. Brown, September). Challenges to the organisational adoption of big
+data analytics: a case study in the South African telecommunications industry, in:
+Proceedings of the 2015 Annual Research Conference on South African Institute
+of Computer Scientists and Information Technologists, 2015, pp. 1–9.
+[89] A. Alharthi, V. Krotov, M. Bowman, Addressing barriers to big data, Bus. Horiz.
+60 (3) (2017) 285–292.
+[90] A. Kankanhalli, Y. Charalabidis, S. Mellouli, IoT and AI for Smart Government: A
+Research Agenda, 2019.
+[91] M. Sharma, S. Joshi, D. Kannan, K. Govindan, R. Singh, H.C. Purohit, Internet of
+Things (IoT) adoption barriers of smart cities’ waste management: an Indian
+context, J. Clean. Prod. (2020) 122047.
+[92] S. Idwan, I. Mahmood, J.A. Zubairi, I. Matar, Optimal management of solid waste
+in smart cities using internet of things, Wireless Pers. Commun. 110 (1) (2020)
+485–501.
+[93] S. Luthra, S.K. Mangla, Evaluating challenges to Industry 4.0 initiatives for supply
+chain sustainability in emerging economies, Process Saf. Environ. Protect. 117
+(2018) 168–179.
+[94] D. Bruneo, S. Distefano, M. Giacobbe, A.L. Minnolo, F. Longo, G. Merlino,
+C. Puliafito, An iot service ecosystem for smart cities: the# smartme project,
+Internet of Things 5 (2019) 12–33.
+[95] A. Zeb, Q. Ali, M.Q. Saleem, K.M. Awan, A.S. Alowayr, J. Uddin, F. Bashir,
+A proposed IoT-enabled smart waste bin management system and efficient route
+selection, Journal of Computer Networks and Communications (2019), 2019.
+[96] A.Q. Abdul-Hamid, M.H. Ali, M.L. Tseng, S. Lan, M. Kumar, Impeding challenges
+on industry 4.0 in circular economy: palm oil industry in Malaysia, Comput. Oper.
+Res. 123 (2020) 105052.
+[97] I.V. Lokshina, B.J. Durkin, C.J. Lanting, Data analysis services related to the IoT
+and big data: strategic implications and business opportunities for third parties,
+Int. J. Interdiscip. Telecommun. Netw. (IJITN) 9 (2) (2017) 37–56.
+[98] D. Horv´
+ath, R.Z. Szabo, ´ Driving forces and barriers of Industry 4.0: do
+multinational and small and medium-sized companies have equal opportunities?
+Technol. Forecast. Soc. Change 146 (2019) 119–132.
+[99] S.M. Deore, P.S. Kukade, K.L. Yadav, J. John, Waste Management system using
+AWS, Waste Manag. 6 (1) (2019).
+[100] S.C. Mukhopadhyay, N.K. Suryadevara, Internet of things: challenges and
+opportunities, in: Internet of Things, Springer, Cham, 2014, pp. 1–17.
+[101] R.G. Richey, T.R. Morgan, K. Lindsey-Hall, F.G. Adams, A global exploration of
+big data in the supply chain, Int. J. Phys. Distrib. Logist. Manag. 46 (8) (2016)
+710–739.
+[102] A.R. Sfar, Y. Challal, P. Moyal, E. Natalizio, A game theoretic approach for
+privacy preserving model in IoT-based transportation, IEEE Trans. Intell.
+Transport. Syst. 20 (12) (2019) 4405–4414.
+[103] B.W. Wirtz, J.C. Weyerer, F.T. Schichtel, An integrative public IoT framework for
+smart government, Govern. Inf. Q. 36 (2) (2019) 333–345.
+[104] P. Emami-Naeini, Y. Agarwal, L.F. Cranor, H. Hibshi, Ask the Experts: what
+Should Be on an IoT Privacy and Security Label?, 2020 arXiv preprint arXiv:
+2002.04631.
+[105] J.E. Johnson, Big data+ big analytics= big opportunity: big data is dominating
+the strategy discussion for many financial executives. As these market dynamics
+continue to evolve, expectations will continue to shift about what should be
+disclosed, when and to whom, Financ. Exec. 28 (6) (2012) 50–54.
+[106] M. Douglas, Big data raises big questions, Government Technology 26 (4) (2013)
+12–16.
+[107] D.Q. Chen, D.S. Preston, M. Swink, How the use of big data analytics affects value
+creation in supply chain management, J. Manag. Inf. Syst. 32 (4) (2015) 4–39.
+[108] D. Arunachalam, N. Kumar, J.P. Kawalek, Understanding big data analytics
+capabilities in supply chain management: unravelling the issues, challenges and
+implications for practice, Transport. Res. E Logist. Transport. Rev. 114 (2018)
+416–436.
+[109] E. Hoti, The technological, organisational and environmental framework of IS
+innovation adaption in small and medium enterprises. Evidence from research
+over the last 10 years, Int. J. Bus. Manag. 3 (4) (2015) 1–14.
+[110] D. Tomic, The Benefits and Challenges with Implementation of Internet of Things
+(IoT) in Manufacturing Industry, 2017.
+[111] B. Doan, Radio Frequency Identification (RFID) Technology and its Impacts on
+Logistics Activities, 2018.
+[112] G. Orzes, E. Rauch, S. Bednar, R. Poklemba, Industry 4.0 implementation barriers
+in small and medium sized enterprises: a focus group study, in: 2018 IEEE
+International Conference on Industrial Engineering and Engineering Management
+(IEEM), IEEE, 2018, December, pp. 1348–1352.
+[113] K. Umachandran, V. Della Corte, P. Amuthalakshmi, D.F. James, M.M.T. Said,
+B. Sawicka, I. Jurcic, Designing learning-skills towards industry 4.0, World
+Journal on Educational Technology: Current Issues 11 (2) (2019) 150–161.
+[114] B.H. Hall, A.N. Link, J.T. Scott, Barriers inhibiting industry from partnering with
+universities: evidence from the advanced technology program, J. Technol. Tran.
+26 (1–2) (2001) 87–98.
+[115] A. Issa, D. Lucke, T. Bauernhansl, Mobilising SMEs towards Industrie 4.0-enabled
+smart products, Procedia CIRP 63 (2017) 670–674.
+[116] R. Lotfi, N. Mardani, G.W. Weber, Robust bi-level programming for renewable
+energy location, Int. J. Energy Res. 45 (5) (2021) 7521–7534.
+[117] S.S. Ali, R. Kaur, F. Ersoz, ¨ B. Altaf, A. Basu, G.W. Weber, Measuring carbon
+performance for sustainable green supply chain practices: a developing country
+scenario, Cent. Eur. J. Oper. Res. 28 (4) (2020) 1389–1416.
+[118] S.S. Ali, F. Ersoz, ¨ R. Kaur, B. Altaf, G.W. Weber, A quantitative analysis of low
+carbon performance in industrial sectors of developing world, J. Clean. Prod. 284
+(2021) 125268.
+[119] A.M. Al-Momani, M.A. Mahmoud, M.S. Ahmad, Factors that influence the
+acceptance of internet of things services by customers of telecommunication
+companies in Jordan, J. Organ. End User Comput. 30 (4) (2018) 51–63.
+[120] D. Kiel, J.M. Müller, C. Arnold, K.I. Voigt, Sustainable industrial value creation:
+benefits and challenges of industry 4.0, Int. J. Innovat. Manag. 21 (8) (2017)
+1740015.
+[121] M. Marques, C. Agostinho, G. Zacharewicz, R. Jardim-Gonçalves, Decentralised
+decision support for intelligent manufacturing in Industry 4.0, J. Ambient Intell.
+Smart Environ. 9 (3) (2017) 299–313.
+[122] S. Erol, A. Schumacher, W. Sihn, January). Strategic guidance towards Industry
+4.0–a three-stage process model, International conference on competitive
+manufacturing 9 (No. 1) (2016) 495–501.
+[123] I.W.G. Kwon, T. Suh, Factors affecting the level of trust and commitment in
+supply chain relationships, J. Supply Chain Manag. 40 (1) (2004) 4–14.
+[124] A. Ustundag, E. Cevikcan, Industry 4.0: Managing the Digital Transformation,
+Springer, 2017.
+[125] J. Nagy, J. Ol´
+ah, E. Erdei, D. Mat ´ ´e, J. Popp, The role and impact of Industry 4.0
+and the internet of things on the business strategy of the value chain—the case of
+Hungary, Sustainability 10 (10) (2018) 3491.
+[126] E.W.T. Ngai, S. Peng, P. Alexander, K.K. Moon, Decision support and intelligent
+systems in the textile and apparel supply chain: an academic review of research
+articles, Expert Syst. Appl. 41 (1) (2014) 81–91.
+[127] M. Yazdani, P. Zarate, A. Coulibaly, E.K. Zavadskas, A group decision making
+support system in logistics and supply chain management, Expert Syst. Appl. 88
+(2017) 376–392.
+[128] G. Lee, What roles should the government play in fostering the advancement of
+the internet of things? Telecommun. Pol. 43 (5) (2019) 434–444.
+[129] BRICS Business Council, Skill development for industry 4.0, in: A White Paper by
+BRICS Skill Development Working Group, BRICS Business Council, India Group,
+2017. Retrieved Oct 30, 2020, from, http://www.globalskillsummit.com/Wh
+itepaperSummary.pdf.
+[130] S. Luthra, S.K. Mangla, L. Xu, A. Diabat, Using AHP to evaluate barriers in
+adopting sustainable consumption and production initiatives in a supply chain,
+Int. J. Prod. Econ. 181 (2016) 342–349.
+[131] M. Kouhizadeh, S. Saberi, J. Sarkis, Blockchain technology and the sustainable
+supply chain: theoretically exploring adoption barriers, Int. J. Prod. Econ. 231
+(2020) 107831.
+[132] K.S. Hald, P. Coslugeanu, The preliminary supply chain lessons of the COVID-19
+disruption—what is the role of digital technologies? Operations Management
+Research (2021) 1–16.
+[133] B. Shen, S. Minner, H.L. Chan, A. Brun, Logistics and supply chain management in
+the luxury industry, Transport. Res. E Logist. Transport. Rev. 143 (2020) 102095.
+[134] M. Marjani, F. Nasaruddin, A. Gani, A. Karim, I.A.T. Hashem, A. Siddiqa,
+I. Yaqoob, Big IoT data analytics: architecture, opportunities, and open research
+challenges, ieee access 5 (2017) 5247–5261.
+[135] B. Gurtner, The financial and economic crisis and developing countries,
+International Development Policy| Revue internationale de politique de
+d´eveloppement 1 (1) (2010) 189–213.
+[136] L. Barreto, A. Amaral, T. Pereira, Industry 4.0 implications in logistics: an
+overview, Procedia Manuf. 13 (2017) 1245–1252.
+[137] S. Khalilpourazari, A. Mirzazadeh, G.W. Weber, S.H.R. Pasandideh, A robust fuzzy
+approach for constrained multi-product economic production quantity with
+imperfect items and rework process, Optimization 69 (1) (2019) 63–90.
+[138] S. Khalilpourazari, S. Soltanzadeh, G.W. Weber, S.K. Roy, Designing an efficient
+blood supply chain network in crisis: neural learning, optimization and case
+study, Ann. Oper. Res. 289 (1) (2020) 123–152.
+[139] S. Khalilpourazari, S.H.R. Pasandideh, Designing emergency flood evacuation
+plans using robust optimization and artificial intelligence, J. Combin. Optim. 41
+(3) (2021) 640–677.
+[140] S. Khalilpourazari, H.H. Doulabi, A.O. ¨ Çiftçioglu, ˘ G.W. Weber, Gradient-Based
+Grey Wolf Optimizer with Gaussian Walk: Application in Modelling and
+Prediction of the COVID-19 Pandemic, Expert Systems with Applications, 2021,
+p. 114920.
+[141] E.B. Tirkolaee, P. Abbasian, G.W. Weber, Sustainable fuzzy multi-trip locationrouting problem for medical waste management during the COVID-19 outbreak,
+Sci. Total Environ. 756 (2021) 143607.
+[142] A. Goli, E.B. Tirkolaee, G.W. Weber, A perishable product sustainable supply
+chain network design problem with lead time and customer satisfaction using a
+hybrid whale-genetic algorithm, in: Logistics Operations and Management for
+Recycling and Reuse, Springer, Berlin, Heidelberg, 2020, pp. 99–124.
+H. Gupta et al. 
+Technology in Society 69 (2022) 101970
+19
+[143] M. Graczyk-Kucharska, M. Szafranski, ´ S. Gütmen, M. Golinski, ´ M. Spychała, G.
+W. Weber, A. Ozmen, ¨ Modeling for human resources management by data
+mining, analytics and artificial intelligence in the logistics departments, in: Smart
+and Sustainable Supply Chain and Logistics–Trends, Challenges, Methods and
+Best Practices, Springer, Cham, 2020, pp. 291–303.
+[144] K. Govindan, K.M. Shankar, D. Kannan, Achieving sustainable development goals
+through identifying and analysing barriers to industrial sharing economy: a
+framework development, Int. J. Prod. Econ. 227 (2020) 107575.
+[148] J. Zemin, On the Development of China’s Information Technology Industry,
+Academic Press, 2009.
+H. Gupta et al. 

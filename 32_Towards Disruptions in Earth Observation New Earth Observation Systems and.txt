@@ -1,0 +1,1677 @@
+Contents lists available at ScienceDirect
+Acta Astronautica
+journal homepage: www.elsevier.com/locate/actaastro
+Towards disruptions in Earth observation? New Earth Observation systems
+and markets evolution: Possible scenarios and impacts☆
+Gil Denisa,⁎
+, Alain Claveriea
+, Xavier Pascob
+, Jean-Pierre Darnisc
+, Benoît de Maupeoua
+,
+Murielle Lafayed
+, Eric Morela
+a Airbus Defence and Space, 31 rue des cosmonautes, 31402 Toulouse, France
+b Fondation pour la Recherche Stratégique, 4 bis rue des pâtures, 75016 Paris, France
+c Istituto Affari Internazionali,Internazionali, Via Angelo Brunetti, 9, 00186 Roma, Italy d Centre National d’Etudes Spatiales, 18 avenue Edouard Belin, 31401 Toulouse, France
+ARTICLE INFO
+Keywords:
+Earth Observation
+New space
+Very high resolution
+Revisit
+GEOINT
+Constellations
+Services
+Business models
+ABSTRACT
+This paper reviews the trends in Earth observation (EO) and the possible impacts on markets of the new
+initiatives, launched either by existing providers of EO data or by new players, privately funded. After a
+presentation of the existing models, the paper discusses the new approaches, addressing both commercial and
+institutional markets. New concepts for the very high resolution markets, in Europe and in the US, are the main
+focus of this analysis. Two complementary perspectives are summarised: on the one hand, the type of system
+and its operational performance and, on the other, the related business models, concepts of operation and
+ownership schemes.
+Until now, Earth observation systems for the most critical institutional needs are mainly dedicated assets
+owned and operated by governments or public organisations, often at national level. Even in the case of dual use
+missions, the governmental and commercial operations are in general fully segregated for the very high
+resolution satellites.
+Recent evolutions could affect this paradigm. Firstly, the increased performance of commercial satellites has
+a high degree of convergence with defence needs: 25–30 cm resolution is now the benchmark or at least a very
+short term target for commercial missions. The second evolution is the development of hybrid procurement
+schemes, combining proprietary missions and data buy framework contracts, partly triggered by the budgetary
+constraints of public customers, some failures in the execution of large spy satellites contracts and by the
+willingness to foster the competitiveness of industry on the export market.
+New space is another trend, which is more disruptive. This trend begun in the Silicon Valley and spread
+worldwide, arousing our expectations, sometimes excessively. This new model involves not only start-ups but
+also big web actors with substantial investment capacity. Both aim to transforming space into a commodity,
+taking benefit from the convergence between Information technology and EO. Beside the massive constellations
+for broadband Internet access, some initiatives have been launched for Earth observation markets, targeting
+high resolution and high revisit. Last but not least, more and more countries, the newcomers, invest in their own
+EO capacity, confirming the soft power dimension of space but also opening new opportunities for international
+or regional cooperation.
+As many unpredictable events may occur, even in a short time frame, the last part of the paper has a
+prospective dimension. Based on market trends and industrial stakes, it discusses the realism and likelihood of
+possible scenarios and identifies their impacts on the EO landscape and the main stakeholders involved, in
+particular in Europe:
+– The governmental and institutional actors, using Earth observation data for their operational missions, with
+an evolving balance between sovereign assets and external services.
+– The commercial operators of very high resolution satellites, with the new market opportunities and the
+possible emergence of worldwide champions.
+http://dx.doi.org/10.1016/j.actaastro.2017.04.034
+Received 16 December 2016; Accepted 26 April 2017
+☆ Special thanks to Fabienne Grazzini, Nathalie Pisot, Marie-Christine Delucq, Rob Postma, Laura-Kate Wilson, Magalie Vaissière (ESA), David Hello (Terranis), Lionel Kerrelo
+(GEO4i). ⁎ Corresponding author.
+E-mail addresses: gil.denis@airbus.com (G. Denis), alain.claverie@airbus.com (A. Claverie), x.pasco@frstrategie.org (X. Pasco), jp.darnis@iai.it (J.-P. Darnis),
+benoit.demaupeou@airbus.com (B. de Maupeou), murielle.lafaye@cnes.fr (M. Lafaye), eric.morel@airbus.com (E. Morel).
+Acta Astronautica 137 (2017) 415–433
+Available online 04 May 2017
+0094-5765/ © 2017 The Authors. Published by Elsevier Ltd on behalf of IAA. This is an open access article under the CC BY license (http://creativecommons.org/licenses/BY/4.0/).
+MARK
+– The satellite manufacturers and their competitiveness.
+– The role of nations and space agencies, including the non-dependence or national sovereignty and
+international cooperation dimensions.
+Based on the comparison of three “radical” scenarios, the conclusion shows that there are opportunities for
+service providers and satellite manufacturers. Even without clear answer to the future industrial, technical and
+political structure of EO systems, relevant indicators to be monitored during the next three-five years are
+identified. The last section focuses on Europe and the role of institutions in order to support European
+champions and small and medium companies in the new worldwide competition.
+1. Objectives and structure of the paper
+1.1. Overview
+This paper reviews the new initiatives and new trends in Earth
+observation (EO). Addressing both commercial and institutional
+applications of optical satellites, new systems and concepts for the
+very high resolution markets are the main focus of this analysis.
+Earth observation systems for the most critical institutional needs,
+including the defence intelligence, are mainly dedicated assets
+owned and operated by governments or public organisations.
+Recent evolutions, such as the high degree of convergence between
+the defence needs and the commercial capacities (30-cm resolution
+is the new benchmark), challenge this paradigm. Three categories of
+stakeholders are involved: the established commercial operators, the
+so-called new space actors, aiming at transforming space as a
+commodity, and nations with new ambitions in space, as instrument
+of sovereignty and soft power.
+While many papers address the conditions likely to attract private
+investment and venture capital by imitating the Silicon Valley spirit,
+our analysis focuses on the market and industrial dimension of Earth
+Observation imagery and related services. Both for large and small
+companies, investors or shareholders will support new initiatives if
+there is a good growth potential. Three “radical” scenarios, with very
+distinct growth options are analysed. Driving factors are identified as
+well as the consequences (threats and opportunities) on the stakeholders. One of the key issues addressed is to assess if the current
+champions can be disrupted by the new players. Some recommendations are also proposed.
+Nomenclature
+BA business Angel
+BASIC broad Area Satellite Imagery Collection
+B2B business to business
+B2C business to consumer
+B2G business to government
+CAGR compound annual growth rate
+CE90 circular Error at 90% confidence
+CIBORG commercial Initiative to Buy Operationally Responsive
+GEOINT
+CMG control moment gyroscope
+CNES centre National d′Etudes Spatiales
+COTS commercial-off-the-shelf
+CRADA cooperative R&D Agreement
+CVC corporate Venture Capital
+DAP direct Access Partner (Digital Globe)
+DARPA defense Advanced Research Projects Agency
+DEM digital Elevation Model
+DGA délégation Générale pour l′Armement.
+DOD US Department of Defence
+DRS direct Receiving Station (Airbus Defence and Space)
+DSP délégation de Service Public (contractual scheme for the
+commercial distribution of Pleiades imagery)
+DTM digital Terrain Model
+EAR export Administration Regulations
+EARSC European Association of Remote Sensing Companies
+EC European Commission
+EDRS European Data Relay Satellite
+EO Earth Observation
+EU European Union
+EUSC European Union Satellite Centre
+FIA future imagery Architecture
+G2G Government to government
+GCP Ground Control Point
+GFW global Forest Watch
+GSD ground Sampling Distance
+HR high Resolution
+IDIQ indefinite Delivery Indefinite Quantity
+IMINT image Intelligence
+IOT internet Of Things
+IT information Technologies
+ITAR international Traffic in arms Regulations
+KH key Hole satellites family
+LBS location-Based Services
+LEO low Earth Orbit
+MR medium Resolution
+MS member States (Europe)
+MTF modulation Transfer Function
+MS member State
+NGA National Geospatial Agency
+NIIRS National Imagery Interpretability Rating Scale
+NIMA National Imagery and Mapping Agency
+NRO National reconnaissance office
+NSG National System for Geospatial Intelligence
+NSP National Security Policy
+NSR Northern Sky Research
+NTM National Technical Means
+PAN panchromatic imagery
+PDD Presidential Decision Directive
+PPP Public Private Partnership
+P/F platform
+R&D research and development
+SAR synthetic Aperture Radar
+SLA service Level Agreement
+SIA satellite Industry Association
+S/C spacecraft
+SME small and Medium enterprise
+SSO Sun Synchronous Orbit
+UAV unmanned Aircraft Vehicle
+VC venture Capital
+VHR very High Resolution
+WB World Bank
+WRI World Research Institute
+XS multispectral imagery
+G. Denis et al. Acta Astronautica 137 (2017) 415–433
+416
+1.2. Structure of the paper
+Section 2 introduces the current landscape of Earth Observation
+and the main changes. It also draws an historical perspective, highlighting the evolution of policy context and international environment
+since the first spy-satellites launched during the cold war. In Section 3,
+we describe the challenges faced by the data providers and satellites
+manufacturers: higher resolution and higher revisit, a bit like trying to
+square the circle. The profile of the main stakeholders is summarised in
+Section 4, with a specific focus on New Space trends and its actors,
+often privately funded.
+Section 5 describes the recent evolution of the market and the new
+perspectives in this new context. Scenarios for the future identified as
+possible evolutions and their consequences on the role and influence of
+the various stakeholders are presented in Section 6. Section 7 provides
+a wider perspective of disruptions in GEOINT with some considerations about the strategic scenarios for Europe, where new space actors
+are currently nearly absent.
+2. Setting the scene: historical perspective and new trends
+2.1. Introduction
+Different types of Earth observation models have been developed
+over the last forty years bringing significant changes in paradigms:
+– Public data with Landsat in the US.
+– Development of the commercial market initiated by Spot image
+(1986) and then by Digital Globe.
+– National support to private companies by nations thought anchor
+tenant contracts: Digital globe backed by the National Geospatial
+Agency (NGA).
+– Development of dual systems (defence and commercial): Cosmo
+Skymed and Pleiades.
+– Purely private investment for SPOT-6 and SPOT-7.
+– Development of shared satellites and virtual constellations (DMC,
+Disaster Monitoring Constellation).
+– The so-called “New space” era and the recent development of Earth
+Observations constellations.
+2.2. New space and old recipes: historical perspective, evolution of
+policy context and international environment
+2.2.1. This old good New space
+New Space is new, until a newer disruption arrives… Since the
+launch of Landsat 1 in 1972 and the failed attempt to privatize this
+programme with EOSAT (Earth Observation Satellite Company),
+several disruptive events have shape the EO history.
+2.2.2. SPOT 1: the advent of commercial era
+From this point of view, in 1986, SPOT 1 launch and the decision of
+the French government and CNES to use a commercial model for image
+distribution were a revolution.
+Two months after this launch, SPOT 1 was tasked to acquire the first
+10-meter images after the explosion of reactor n°4 at the Chernobyl
+nuclear plant in Ukraine (Fig. 1). These images demonstrated the
+potential role of commercial satellites in support of intelligence missions:
+no other imagery, either from civil satellites (Landsat resolution was too
+coarse) or from US spy satellites (the images were classified), was able to
+witness the reality of the disaster behind the Iron Curtain.
+SPOT 1 demonstrated one of the main benefits of commercial
+remote sensing for intelligence missions: that it can be shared with
+anyone. The US newspaper “USA today” called SPOT satellite “The
+ultimate skycam”. In the nineties the French took the leading role in
+this commercial market although the data sales revenues covered only
+the cost of satellite operations.
+2.2.3. Towards US leadership on the commercial market
+Already in 1983, Spot Image Corporation was considered by the
+Wall Street Journal as an “Invader”, illustrating the willingness of the
+US government to restore the US dominance on this market. In the
+seventies Carter’s Administration identified the opportunity for the US
+to develop a commercial market in order to capitalize on the huge
+investment in space already done.
+Taking into account the lessons learnt, successive US Administrations
+(Reagan, Bush and Clinton) built up the foundation of the US policy on
+the commercial market expressed in the Clinton Administration Policy on
+Remote Sensing Licensing and Exports (1994).
+An important milestone is undoubtedly the launch of Ikonos-2 in
+September 1999: Ikonos-2 was the first commercial Earth Observation
+able to collect images with a ground sampling distance below 1-meter
+(0.82 m GSD at Nadir in panchromatic mode). US took the lead of the
+race for higher resolution (ref [1]).
+Innovative approaches adopted by NGA, such as Clearview,
+NextView and Enhanced View, awarded to Digital Globe and Space
+Imaging in 2003, were the cornerstones for the implementation of the
+new US policies. They have substantially changed the procurement
+schemes: instead of relying only on dedicated assets owned and
+operated by governments, often at national level, these framework
+programmes were the first Private Public Partnership (PPP) in Earth
+Observation.
+2.2.4. Autonomy or dominance
+For security concerns US Administrations for the two last decades
+have favoured Commercial Services aimed at minimizing the proliferation or the uncontrolled dissemination of very high resolution images.
+US players, such as Digital Globe, offer the best resolution to deter
+countries who could plan to acquire their own EO satellites. Robert
+Cardillo, director of the NGA, recently stated (Ref [2]): “I recognize
+that there are two sides to the world’s growing transparency”.
+2.2.5. Google Earth: the beginning of “New Space”
+In this context, the introduction of Google Earth in June 2005,
+based on a virtual globe created by Keyhole Inc., triggered also a
+disruption, in democratising access to satellite imagery, even if criticisms have been made with respect to the threat to privacy or national
+security.
+Google Earth opened the door to full private investment from nonSpace players.
+2.2.6. HELIOS, a unique example of cooperation in EO for defence
+The implementation of French political decisions to acquire
+France’s own optical space system (HELIOS 1) in 1984 in support of
+national sovereignty and nuclear deterrence policy has taken full
+benefit of the SPOT experience, paving the way of the future duality
+concept.
+HELIOS 1 and SPOT 4 were based on the same platform built by
+former Matra Espace (now Airbus Defence and Space), the optical
+Fig. 1. In 1986, Chernobyl disaster seen by SPOT 1. Copyright CNES - Distribution
+Airbus DS
+G. Denis et al. Acta Astronautica 137 (2017) 415–433
+417
+instruments for both systems built by former Aérospatiale Cannes (now
+TAS). CNES expertise on overall system architecture, control ground
+segment, user ground segment and operations (Spot Image) was key
+for support the development of the HELIOS ground system and its
+handover by the military users for the operations and maintenance.
+HELIOS remains the unique prototype of international military
+cooperation in space imagery. Spain, Italy, for HELIOS 1, and then
+Belgian, Greece, Germany have the right to task HELIOS 2 satellites for
+their own needs following specific arbitration rules under government
+to government (G2G) agreements, and to receive and process the
+corresponding images. As compensation, the national partners fund
+the participation of their industry to the realization of part of the
+satellites and the ground segments, or, for Italy and Germany,
+exchange SAR data, coming from respectively Cosmo Skymed and
+SAR-Lupe satellites for HELIOS optical data.
+2.2.7. Towards dual use and export markets
+15 years after HELIOS, the Pleiades system was designed as a full
+dual system, able to provide imagery to both commercial/civil and
+military users with appropriate security and priority rules. After 5 years
+of operations this duality concept is considered as a success. Italy with
+Cosmo-Skymed implemented the same concept: the satellites are
+shared between the defence organisation and the commercial ones.
+This model is an alternative of the US one to respond to the lack of
+market maturity.
+In parallel, in the middle of nineties, France and the United
+Kingdom developed earth observation satellites for the export market,
+under ITAR regulation. The rationale of this market is to offer to space
+as instruments of sovereignty:
+– Integrity of the image (no modification by third parties).
+– Full access of the satellite resources.
+– Confidentiality of national areas of interest.
+2.2.8. SPOT-6: when EO satellites are privately funded
+Another major innovation occurred in France in 2012 with the
+launch of SPOT-6, aimed at ensuring the continuity of wide-swath
+high-resolution observation services provided by the SPOT-5 mission.
+In this case, the disruption is the funding model: while the two
+Pleiades spacecraft were publicly funded, SPOT-6 and SPOT-7 opened
+a new era: for the first time in the remote-sensing industry, satellite
+development costs have been funded entirely with private funds
+provided by Airbus Defence and Space.
+2.2.9. Radar case
+The commercial High resolution radar satellites emerged in 1995 in
+Canada with Radarsat-1 operated by MDA. In 2007, Italy launched the
+first radar constellation of 4 satellites, this system is dual.
+The German joint venture between the DLR and Airbus Defence
+and Space has developed a radar system: TerraSAR-X (2007) and its
+twin satellite TanDEM-X (2010). The key application is WorldDEM, a
+worldwide high accuracy Digital Elevation Model (DEM). It is worthwhile mentioning that there is no commercial SAR system in the US.
+2.2.10. New space, at the crossroads of space and IT
+New Space can be considered as the meeting of the Space world with
+the IT (Information Technology) one. The first one has developed the
+relevant concepts with the associated technologies: e-Corce, Rapid Eye,
+when the second one brings the massive development of the Information
+technology (big data, analytics) with full private investment. As usual in
+the IT world, some of these new players will disappear but some of them
+will survive, supported by the NGA’s willingness to consider emerging
+players to diversify its imagery supply.
+Over time, satellite EO-based services were provided towards
+private customers increasing revenues and competitiveness of services
+industry. But until recently, acquisition of satellite assets was only
+affordable for governments or major economic actors. EO-based
+services providers were made sustainable mainly through government
+and public procurement.
+In parallel, development of the internet increased mass market
+interest for geo-information. This context was favourable for crossfertilizing space EO imagery with digital economy, paving the way to
+new businesses and services.
+2.3. A wind of change in the atmosphere?
+The advent of New Space applied to Earth observation is the last
+and most visible change (Ref [3]), with the first start-ups, such as
+Skybox Imaging (today Terra Bella), created in 2009, and Planet Labs
+(today Planet), founded in 2010, proposing constellations of several
+small or medium and low-cost satellites. Their objective is to propose
+revolutionary operational and business models with cost effective
+services combining high resolution and high revisit.
+Providing administrations with space imagery and information
+added-value products on an operational basis promoted development
+of new companies and employment. The expected development of
+procurement of geo-information services by US administrations reinforced motivation of entrepreneurs for developing commercial offers
+using space assets. This impulse at developing new business using
+satellite EO-based services found a favourable relay towards venture
+capitalists. Benefiting from first achievements obtained by Space-X and
+Blue origin, the space sector was identified as a new promising sector
+for making business.
+Last but not least, even if less publicized than the new space
+ventures, new countries invest in earth observation capacities. Some of
+them (Russia, India, China, South Korea) are already active and
+recognised players but show new ambitions. There are also newcomers,
+buying or building earth observation satellites, as instrument of
+sovereignty or soft power, to ensure an independent access to imagery
+or to develop its industry.
+For the “Traditional Space” the resolution has been a significant
+advantage to drive the business within the last 30 years, it moved from
+10 m (Spot 1) to 31 cm (Worldview-4). New Space entrepreneurs target
+the revisit through consequent constellations with medium or high
+resolution sensors. The change of paradigm is not limited to the New
+Space initiatives coming from Silicon Valley:
+– Airbus Defence & Space for the first time transferred one of its
+satellite (SPOT 7) to Azerbaijan (Azersky) in the frame of a wider
+cooperation agreement.
+– SSTL has created a new hybrid model with DMC3, a satellite
+constellation of 3 1 m GSD satellites fully leased by a single company
+from China (21AT).
+– On the export market with PerúSAT-1, Airbus Defence & Space has
+built up a new type of offer combining services (immediate access to
+the Airbus fleet of satellites) and classic satellite export.
+– Through full ground segment interoperability, both Airbus Defence
+& Space with Azercosmos and Digital Globe with Taqnia have
+developed strategic partnerships for the exploitation of satellite
+constellations.
+2.4. Current landscape of Earth Observation
+In a nutshell, the current landscape of VHR EO can be summarised
+through following trends:
+2.4.1. Customer needs and technical performance
+– The performance of commercial satellites is increasing: high degree
+of convergence with the defence needs. 25–30 cm resolution is now
+the benchmark or at least a very short term target for the
+commercial missions.
+G. Denis et al. Acta Astronautica 137 (2017) 415–433
+418
+– Other performance criteria are becoming more and more important
+for institutional and commercial operators on top of GSD: volume of
+acquired surface per day, reactivity and revisit frequency, image
+freshness, video capability, multispectral capability, automatic processing, delivery mechanisms, etc.
+– The performance of ground infrastructures and distribution
+platforms (data and services) becomes paramount: huge increase of space imagery data to be processed exploited and
+distributed.
+– Satellite lifetime is much longer (10 years) than before, enabling a
+better business case.
+2.4.2. Market and competition
+– There is a continuous and worldwide growth of the VHR imagery
+market.
+– Military institutions especially in US are increasingly reliant on VHR
+commercial imagery providers with appropriate security rules.
+– The value chain is shifting from the raw data to services and
+applications.
+– Value for money: there is a strong pressure to reduce infrastructure
+and operational costs.
+– Hybrid procurement schemes, combining proprietary missions and
+data buy framework contracts, partly triggered by the budgetary
+constraints of public customers and nations.
+– Increasingly, the new comer countries invest in their own EO
+capacity, confirming the soft power dimension of space but also
+opening new opportunities for international co-operation or commercial agreements.
+– New space and disruptive initiatives are not only developed by startups but also by large web actors with a huge investment capacity.
+Both aim at transforming space as a commodity.
+– To complete this global picture, new players are targeting the export
+market: South Korea, China and Israel.
+2.4.3. Regulations
+– VHR Imagery remains highly sensitive information and legislation
+could continue to evolve impacting the new business models.
+3. The digital Earth challenge: one Earth, one meter, one
+day… or more?
+3.1. High resolution and high revisit: like squaring the circle around
+the Earth
+Commercial providers of EO imagery are used to say that resolution
+or Ground Sampling Distance (GSD) is not the sole criterion for
+choosing a geospatial data source. Depending on the specific application, revisit time, speed of delivery to the customer, radiometric and
+spectral quality, geolocation accuracy and acquisition capacity (km2
+/
+day) are other key performance factors.
+Nevertheless, both for defence and commercial markets, there is a
+worldwide and continuous race for sharper images and higher revisit
+(Fig. 2).
+For Low Earth Orbit, increasing the resolution of the sensor means
+that the swath, the area covered by the satellite during its pass over a
+region, becomes smaller. In the case of polar orbits, it means a longer
+revisit time for a given area as the satellite orbits the globe (the typical
+cycle is 14 orbits per day).
+In order to serve many applications requiring both data freshness
+and regular updates (e.g. agriculture, site monitoring for intelligence or
+geo-marketing).
+Basically, swath and number of orbits per day give an indication of
+the number of satellites needed for a daily coverage of the whole Earth.
+In their quest for better performance and acquisition capacity, engineers and satellites try to find the smarter trade-off between
+resolution and revisit for a specific market.
+For a given GSD, several solutions can reduce the revisit time and
+increase the acquisition capacity: steerable mirrors, agility of the
+platform or multiple satellites, specific orbits (geo-synchronous, inclination), etc. Beyond a single satellite, small or large constellations
+are popular solutions. While the established data providers rely on
+small or virtual constellations of agile satellites, new comers seem to
+bet on a large number of small and low-cost satellites. It is worthwhile
+recalling a couple of basic rules of physics and space mechanics in
+order to better understand the current and future initiatives and
+business cases.
+3.2. New space and old physics
+10 m, 1 m, 50 cm… 30 cm GSD is the new benchmark for very high
+resolution satellites.
+Commercial and marketing people would like to believe that
+Moore’s law, predicting that the density of integrated circuits doubles
+approximately every two years, drives also the evolution of the
+resolution of earth observation satellites.
+Unfortunately, system engineers and optical specialists temper
+their enthusiasm each time they recall that Kepler’s law and
+Rayleigh’s Criterion remain applicable. The first one is related to the
+orbit parameters and the second one to the performance of an earth
+observation instrument.
+In a nutshell, Kepler's law states that a space-borne sensor can’t fly
+at low altitudes and stay stationary over our heads. Roughly speaking,
+Kepler caps the revisit time and acquisition capacity of a single, nadirpointing satellite.
+Rayleigh’s criterion defines the minimum resolvable detail for a
+specific observation instrument. The resolution of any imaging system
+is limited by diffraction. For a given wavelength, the angular resolution
+is inversely proportional to the aperture of the instrument (i.e. the
+diameter of the main mirror). Other parameters such as the Modular
+Transfer Function (MTF) are used to specify optical performance but
+Rayleigh’s criterion is very useful for a first and simple estimate.
+The aperture of the instrument and the size and mass of the mirror
+are key difficulties facing the satellite manufacturers. A large telescope
+needs a large satellite.
+Even with the miniaturisation of components, ensuring the accurate
+and stable but rapid pointing of a large instrument requires a
+sophisticated platform, with star-trackers, accurate inertial measurement units and control moment gyroscopes (CMG).
+This is not always cutting-edge technology but, even with a product
+approach, that comes at a cost, in particular for the small number of
+“exquisite satellites” used for reconnaissance or for dual-use applications.
+New space actors target less expensive data collection systems, with
+compromises or new approaches on the image performance features. It
+Fig. 2. The Digital Earth challenge, a wealth of pixels.
+G. Denis et al. Acta Astronautica 137 (2017) 415–433
+419
+does not mean poor performance: integration with IT and software
+open new avenues, such as a new breakdown of functions between
+space and ground segments or advanced data processing and fusion
+with GCP/DTM in order to mitigate the reduced stability of smaller
+platforms (e.g. Blackbridge announced 10 m CE90 accuracy using
+Landsat GCP, suitable for some applications).
+New space actors make the assumption that commercial VHR
+systems are firstly designed to meet the needs of defence and
+governmental users.
+From their point of view, they are therefore not always well suited
+for commercial applications (e.g. cost, revisit time, global coverage)
+and a large proportion of the resource is pre-empted, leaving limited
+capacity for civilian use. Pleiades dual use model is a notable exception.
+It explains also why the new space initiatives shall not be seen as a
+homogeneous trend. Design choices made by Planet, Terra Bella or
+UrtheCast, focusing either on resolution or revisit show different
+visions of business and markets to be addressed.
+3.3. Small pixels and big data
+An important driver is the volume of data captured each day by the
+Earth Observation Systems. Even before the era of new space, there
+were two main approaches:
+– Capture every point each day (as meteorological satellites do in LEO
+such as Metop or Terra).
+– Capture any point each day (the operational model for most of the
+current VHR satellites such as Pleiades or WorldView-3).
+The main EO data providers use the second option. Some of the
+New Space actors have chosen the first solution, possibly limited to
+land surface area (29% of the Earth’s surface area).
+3.3.1. A wealth of pixels
+In both cases, a wealth of pixels is acquired by the satellite
+instrument. The first option is obviously the most challenging one in
+terms of data volumes: for instance 57 terapixels (tera=1012) for a full
+Earth coverage at 3 m GSD or 5.7 petapixels (peta=1015) at 30 cm GSD.
+Focusing on land surfaces only reduces the total volume by a factor of
+3.
+Even with a very efficient image compression algorithm and a
+datalink offering a comfortable bandwidth, the transmission time
+between the spacecraft and the ground remains significant.
+As there are only few minutes of visibility between the ground
+receiving station and the satellites, the number of ground stations shall
+fit the total capacity of the system. An alternative is the use of data relay
+satellites (such as EDRS already implement on some Copernicus
+satellites).
+It is worthwhile mentioning that the performance of the future
+satellite system will depend increasingly on its ground-based infrastructure.
+Last but not least, access to space remains a key issue: new launcher
+concepts targeting affordable access to space for small or medium-size
+satellites are emerging but they have still to demonstrate the reliability
+and their performance. Fig. 3 summarises the “Digital Earth
+Challenge”.
+3.4. The needs of defence and intelligence
+It is, of course, not possible to discuss the detailed requirements of
+the main intelligence missions and to describe the performance of
+current or planned system. But it is worthwhile having a look on the
+National Imagery Interpretability Rating Scale (NIIRS) and the main
+GSD thresholds enabling a particular intelligence task (detection,
+reconnaissance or identification).
+Even if developed in the early seventies, the National Imagery
+Interpretability Rating Scale remains a very useful scale. Originated in
+the Intelligence Community, NIIRS is a task-based scale for rating
+imagery acquired from imaging systems. It was defined in order to
+predict image interpretability: this analysis cannot be done from simple
+physical image quality measures (such as GSD or MTF). The NIIRS
+consists of 10 graduated levels 0–9), with several interpretation tasks
+or criteria within each level. With a NIIRS 2 panchromatic image, for
+example, image analysts are able to detect large hangars at an airfield,
+while on NIIRS 6 imagery they are able to distinguish between models
+of small/medium helicopters.
+Five typical GSD thresholds can be defined with respect to the main
+geo-intelligence tasks (detection, reconnaissance, identification and
+description):
+– Above 10 m, the detection performance is poor. It reaches only 25%
+for an image with a 10-m GSD.
+– Around 4–5 m, satisfaction rate for detection reaches 50% and first
+reconnaissance of large assets (buildings, vessels) becomes possible.
+– Between 1 and 2 m, the reconnaissance performance increases
+significantly but identification hit rate remains poor.
+– Identification tasks are performed much more efficiently (satisfaction above 50%) with a GSD around 30–40 cm.
+– 10–15 cm GSD images enable detailed description.
+Fig. 3. When New space meets old physics: a pale blue dot, hard to digitize. (For interpretation of the references to color in this figure legend, the reader is referred to the web version of
+this article)
+G. Denis et al. Acta Astronautica 137 (2017) 415–433
+420
+The minimal requirements to meet NGA needs with commercial
+imagery (3 mission layers such as BASIC) can be found in the report of
+the expert panel chaired by Peter Marino in 2007 (ref [4]).
+4. A new game of thrones: the usual suspects, the space
+invaders and new nations in a worldwide competition
+This section gives an overview of the EO imagery landscape in
+September 2016 with a short presentation of the main providers of EO
+data and services.
+4.1. Main providers of EO data and services
+4.1.1. The usual suspects
+The two champions are Digital Globe (US) and Airbus Defence and
+Space (Europe).
+DigitalGlobe is today the worldwide leader. It offers today the
+sharpest imagery (30 cm GSD) with WorldView-3 and WorldView-4
+(launched in November 2016). DG’s first market is US administration
+(63.7% in 2015 and 2016) with 55% for NGA as anchor customer
+(framework contract). In 2015, DigitalGlobe communicated on its
+“steady business with the U.S. and other governmental customers”
+compared to disappointing results to the private sector showing the
+challenge to address both non-governmental customers and a large
+number of customers (Ref [5]). DigitalGlobe and TAQNIA (Saudi
+Arabia) recently entered a joint venture for a small constellation.
+Since June 2014, DigitalGlobe is allowed by US government to collect
+and sell imagery at the best available resolutions (up to 25 cm
+panchromatic and 1.0 m multispectral GSD). In February 2017,
+Digital Globe entered into a merger agreement with MacDonald,
+Dettwiler and Associates Ltd.
+Airbus Defence and Space Intelligence division is the second
+champion and first commercial operator: SPOT 1 operations started
+in 1986. Its uniqueness is the capacity to offer both VHR optical
+(Pleiades-1A and Pleiades 1B) and X-band radar imagery (TerraSAR-X
+and TanDEM-X). Airbus Defence and Space provides also HR / wide
+swath imagery with SPOT-6 and SPOT-7. There is no major anchor
+tenancy contract but the twin Pleiades satellites have been funded by
+the French government, in a dual use scheme.
+It was not anymore the case for SPOT 6 and SPOT 7: satellite
+development costs have been funded entirely by private funds provided
+by Airbus Defence and Space. The first market is the commercial
+market. The Geo-intelligence division is backed by Airbus Defence and
+Space (Space Systems) for the development of new satellites. For
+Airbus Defence and Space, the next important milestone is the
+estimated end of life of Pleiades-1A and Pleiades-1B around year
+2020 (Pleiades follow-on, end of DSP). Timely and predictable renewal
+of space assets, performance improvement (resolution and revisit) and
+continuity of data supply are essential conditions to maintain customers’ trust and fidelity. As announced at the World Satellite Business
+Week by Nicolas Chamussy, Head of the Business Line Space Systems,
+Airbus Defence and Space is designing and building a new constellation
+of optical satellites, comprising four identical and very agile sensors
+delivering very high-resolution imagery.
+Despite their differences, DigitalGlobe and Airbus Defence and
+Space share similar elements of profile: they deliver high quality VHR
+imagery (up to 30 cm), with a focus on acquisition capacity and
+powerful distribution services, based on a fleet of agile satellites with
+large telescopes for VHR imagery, direct receiving stations (DAP or
+DRS) and networks of distributors. Most of their revenues come from
+image sales, direct access and delivery services, targeting both domestic
+and export markets. They propose information services, mainly
+through vertical markets, including defence.
+The other established commercial actors are Imagesat International
+(Israel), e-GEOS (Italy). Imagesat International operates the family of
+EROS satellites. EROS-B delivers 0.7 m GSD at nadir from 510 km.
+The swath is 7 km. EROS-C is expected to be launched in 2019. It will
+deliver 0.4 m GSD from 500 km. e-GEOS operates the Cosmo-Skymed
+SAR constellation and distributes Digital Globe imagery in Europe.
+4.1.2. The space invaders: welcome to the club?
+They can also be called “aliens” or “barbarians” (Ref [6]): they do
+not belong to the regular crowd of the “space club”, have their own
+rules, coming mainly from the IT world and they are fast and agile, with
+a fresh look on entry barriers.
+For a few years, several private companies have emerged in the U.S.
+with the project to develop and operate space systems on an industrial
+basis with disruptive commercial objectives.
+4.1.3. The rise of New Space
+These firms, mainly based in the Silicon Valley or near Seattle, bet
+on low-cost technology to provide more affordable space systems and
+services both for earth observation and for telecommunications.
+These projects are designed to maximize the benefits reaped from
+Commercial off-the-shelf technologies, from reduced manufacturing
+costs as well as from leaner industrial processes. The massive use of
+high-performance COTS technologies has already proved the feasibility
+of constellations of several tens of cubesats weighing around 5 kg and
+costing a few thousands of dollars per unit. But New Space is not
+always “small is beautiful”-oriented: some initiatives are based on
+medium-size or even large satellites.
+4.1.4. The nations
+Whether they are veterans in space activities (China or India) or
+newcomers deciding to have their own EO capacities, more and more
+nations are becoming active players in Earth Observation. This affects
+both the competition and the accessible market.
+For example, SI imaging Services (South Korea) distributes since
+mid-2016 VHR imagery (GSD < 50 cm) acquired by Kompsat-3A.
+Another example is the drastic reduction of EO data imported by
+China, since the “Middle Kingdom” operates high and very high
+resolution satellites. Soon or later, China will enter the worldwide EO
+market as a new provider.
+4.2. Focus on new Space: business not as usual?
+4.2.1. New space: the old good recipe of the Silicon Valley
+The “new space” trend appeared recently. New private actors are
+more and more active in the space ecosystem with two different
+profiles:
+– Many start-ups and small and medium size enterprises (SME) are
+betting on the development of very small satellites, not only for
+technology testing and education but also for operational missions.
+– The big players of the Web sphere are increasingly interested by
+Space and able to invest massively: Elon Musk with SpaceX is the
+most famous example but Google and Facebook announced also
+their own initiatives. Their assumption is the disruption will be
+triggered by the convergence between advanced information technologies and EO.
+The big players with a start-up spirit are very impressive, with a
+scalable business model able to impact more than one billion customers, aggressive and agile solutions.
+They are able to lower or break the entry barriers of the targeted
+market and have a huge cash capacity. In June 2014, a major
+announcement was made by Google Inc: an agreement to buy Skybox
+Imaging for $500 million in cash. In April 2015, SpaceX announced
+G. Denis et al. Acta Astronautica 137 (2017) 415–433
+421
+court action to open Air force space Launch mission to competition.
+The most significant initiative is Oneweb with a massive constellation
+of several hundreds of small LEO satellites providing high speed
+connectivity.
+Either from start-ups or major actors, these initiatives have
+common features. They are launched by private actors, even when
+supported by public money or public orders. Even if not based in
+California, they apply also the Silicon Valley recipe for success. They
+are fast and agile, proposing scalable systems and are convinced that
+their dream will become a reality.
+The viability of the business plan is perhaps questionable, in
+particular when one has in mind the attempts to develop the first
+constellations of satellites (Iridium, Globastar, Teledesic, Celestri) but,
+as depicted on Fig. 4, the new entrepreneurs are able to raise funds (ref
+[7]), sign strategic partnerships and, for some of them, build and
+launch satellites and start their operations.
+4.2.2. New Space and Earth observation
+In the field of space imagery, many firms have planned to use large
+constellations of EO satellites. They propose new paradigms and new
+visions of the value chain:
+– Cheaper systems and ground segments.
+– Multi sensors ground processing systems.
+– Lower cost / reliability and higher replacement rate.
+– B2C / Mass market / Vertical integration.
+– Data analytics.
+– Free of charge imagery to enter new markets.
+– New solutions for Capex / Opex optimization.
+– And the scalability, i.e. the capacity to start business before the full
+deployment of the system.
+“Democratising” the access to space imagery is usually one key
+element for their business strategy. Web portals and subscriptions via
+Internet are commonly referred as preferred marketing tools. However,
+some of these projects seem to clearly address the usual institutional
+customer as their reference business partners.
+New space in earth observation is mainly an US story, with the
+exception of Satellogic in Argentina (Ref [8]) and NorStar Space Data
+in Canada. Most of the investment is from the US, in particular from
+the Silicon Valley. Other the past ten years, more than 33 projects of
+EO satellite constellations have been announced. Despite the bloom of
+new satellite EO constellations, many experts remained sceptical on the
+capability of all these projects to become operational. On the 33
+announcements, today only 9 have actually started and none is fully
+operational.
+In June 2014, when acquiring Skybox Imaging for 500 M$, Google
+surprised space remote sensing experts and traditional players. This
+acquisition highlighted the potential economic value of “low-cost”
+satellite EO constellations, even if few demonstration satellites have
+been launched. The potential threat was taken seriously by established
+providers of EO data and services who started to adapt their offer and
+their organisation. In 2015, Planet and Urthecast have raised sufficient
+funding to acquire the space assets of established competitors such as
+Blackbridge and DEIMOS, re-enforcing their business model with a
+“traditional” satellite constellation and a client portfolio. These first
+buybacks are observed with interest by satellite EO experts and venture
+capitalists to understand the dynamic of this new economic ecosystem.
+Even if none of the newly announced constellations have reached full
+capacity, there are already concrete consequences on the market and
+the existing players: the Rapid Eye (Blackbridge) and Deimos acquisitions give better access to market and a customer base for Planet and
+UrtheCast but creates an exit strategy for the two former European
+players.
+A new value chain for “low-cost satellite EO” is being developed
+including satellite and sensor manufacturers, integration and tests
+providers, communication systems and operations services providers.
+Downstream services are been developed, aiming at irrigating economic sectors with appropriated analytics for agriculture, resources monitoring, transports, maritime surveillance and many other sectors. If
+stakeholders agree on the fact that few projects will be operational and
+that the space EO sector landscape will evolve, no one will make a
+prognostic in a domain where agility is the rule of the game, and where
+some players have already change their business model twice.
+4.2.3. Presentation of the main initiatives
+Planet, (formerly Planet Labs) has put into orbit nearly 150
+cubesats. Their GSD is between 3 and 5 m. While modest in terms of
+pure performance (when compared with 0.30 m resolution from the
+best commercial satellites), the main feature of these new initiatives is
+the high number of platforms in orbit. This allows very high revisit
+rates and makes space sensors much more reactive than when placed
+on a few satellites only. Other on-going projects plan to make use of
+somewhat heavier satellites, even if they can still be considered in the
+class of micro-satellites.
+Terra Bella (formerly Skybox Imaging before its acquisition by
+Google in 2014) has planned to put up in space a constellation of
+around 24 satellites in the next few years. 7 satellites have already been
+launched (the last 4 ones in September 2016). The mass is around
+100 kg and allow a ground resolution of about 0.90 m as well as
+producing short videos. Blacksky Global, located in Seattle, plans to
+put into orbit 60 imaging satellites allowing a performance of around
+Fig. 4. 2015, a record year for VC investment in space. Source: Spacetec Analysis / Tauri Group data (Ref [7]).
+G. Denis et al. Acta Astronautica 137 (2017) 415–433
+422
+1 m ground resolution (with an additional video capacity) by 2019.
+Already 6 satellites are under preparation. UrtheCast, a Canadian firm
+based in Vancouver plans to serve the governmental market with its 8
+optical and 8 radar satellites in preparation. This firm targets a highquality phased optical and radar product with 0.50 m and 1–5 m
+resolution respectively in the optical and radar domains.
+Many other projects (Ref [9]) exist as of today, with different mixes
+regarding the number of satellites, the mass, the complexity and the
+performances, but with a common objective to reap market shares
+using innovative dissemination practices. The table in the Annex
+provides a technical overview of the main initiatives. The selection is
+not exhaustive and focuses mainly on operators who have already
+launched at least one satellite. Known specifications confirm that there
+are actually two types of satellites: very small or small ones (less than
+50 kg) and medium-size or even large ones (e.g. 670 kg for the
+Urthecast optical satellites).
+4.2.4. A vast programme indeed
+The pitches and value proposals give an indication of plans,
+differentiators and ambition of each company. Nearly all promote
+information freshness, apps or platforms and data analytics tools.
+Urthecast “moves pixels from space to the screen” and states that its
+“business model borrows more from DG than form Terra Bella”. Terra
+Bella wants to “empower global businesses to make better decisions
+with timely, high fidelity imagery and infinite analytics”. Google’s
+fingerprint is not too far: “Rethinking geospatial data in a bigger way,
+Imagery is only the beginning…”.
+Planet’s motto is “See change. Change the World. Anywhere,
+anytime”. Planet claims to “design, build and launch satellites faster
+than any company or government in history. We use commodity
+consumer electronics to build highly capable satellites at drastically
+lower costs. With the most advanced satellites launching into orbit
+every 3–4 months, our capabilities are on the cutting edge”.
+4.2.5. Some innovative private financing
+Most of these firms have been supported by private funds.
+According to a recent study (ref [10]) performed by Bryce Space and
+technology (formerly Tauri Group), the space start-ups (all activities
+included) have raised almost $13 Billion of private investments
+between 2000 and 2015. For the sole year 2015, a yearly record of
+more than $2.3 Billion has been spent in more than 50 investments in
+space start-ups in the U.S.
+Investments can be of different nature when made by business
+angels, venture capitalists, or by major industrial groups eager to make
+acquisitions of strategic nature or simply as space enthusiasts.
+Obviously, the objectives of those respective types of investors may
+be very different. Mainly, expectations on the nature and the level of
+return on investments can be very distinct, business angels being more
+inclined to support the space activity of a start-up on the mid to longterm while some venture capitalists are more demanding for rapid
+financial results.
+From the standpoint of space imagery activity, venture capitalist
+financing but also the interest manifested by major groups has
+formed the bulk of the resources for fresh start-ups. It must be noted
+that this phenomenon is rather new in a field that had been
+supported until now by very few private financers. It must also be
+noted that such investments can be highly rewarding. The example
+of Terra Bella comes immediately in mind when Google paid more
+than $480 Million for acquiring it, while only a total of $91 Million
+had been invested in the start-up by a few venture capitalists. The
+benefits for them were well worth the initial effort. Planet has
+managed to go through five rounds of investments representing in
+2016 about $206 Million contributed by 17 investors and bought
+recently Terra Bella.
+4.2.6. Mixed with some level of government support
+Obviously, many questions remain unanswered about the reality
+and the size of the market for such new economic actors. This explains
+the importance of initial investments for sustaining the first years of
+operations.
+At a minimum, one can note in the U.S. a real interest from the
+public institutions for supporting this activity. A bit like in the case of
+early support for more traditional operators like Digital Globe for many
+years now, the U.S. government through the National Geospatial
+intelligence Agency (NGA) has declared many times its enthusiasm
+for the new comers. In 2015, a first initiative known as NextGen
+Tasking Initiative has been announced to sustain these new commercial activities, especially to help for the development of new methods
+for the collection, processing and dissemination of commercially
+generated data.
+This interest has found its official expression in an agency document titled Commercial Geoint Strategy published the same year by
+the NGA (ref [11]). Six months later, the creation of an “Outpost
+Valley” close to Silicon Valley start-ups was announced via the
+reinforcement of the NGA Californian Branch.
+More recently even, a new Commercial Initiative to Buy operationally Responsive GEOINT (CIBORG) has been publicized with the
+explicit goal to support the new space imagery industry both for federal
+users (ref [12]). Terra Bella, UrtheCast, Planet and BlackSky Global
+have been identified as the first potential interested parties. The first
+CIBORG contracts shall be passed early 2017 with an expectedly rising
+yearly budget over the period 2018–2022.
+4.2.7. Beyond Earth Observation
+New endeavours beyond the sole imagery may emerge very soon for
+future commercial constellations. The announcement made in July
+2016 about the cooperative venture between Lockheed Martin and
+HawkEye 360 to develop a small sat constellation for radio-frequency
+mapping is a good example of possibly evolving missions for small
+satellites.
+If these techniques are deployed operationally, their multi-purpose
+character can be key to reorganize the missions of each specialized
+constellation. A possible trend may be to end up with global “spacebased utilities” capable of carrying out mixed and adaptable missions.
+4.2.8. Other actors
+Some start-ups do not plan to fly their own satellites: based in Palo
+Alto, Orbital Insights, for instance, has recently received $20 Million in
+new investment, including $5 Million from In-Q-Tel, the investment
+arm of the US intelligence community. Orbital insights receives its data
+through contracts with EO data owners. While gathering data on a
+large scale from external sources, the start-up develops software to
+extract insights from satellite and aerial imagery. Typical Analytic data
+products are:
+– Counting cars on retail parking lots.
+– Gauging the amount of oil stored in tanks (floating lids shadows).
+– And a new list of targets: trucks, ships, trains, plants, deforestation
+(WRI), WB in Sri Lanka.
+A second interesting example is SpaceKnow, also based in Silicon
+Valley. Founded in 2013, SpaceKnow uses space imagery and other
+data sources to track global economic trends from space through their
+Analytics-as-a-Service products (analytics, alerts and indices). They
+target a wide range of commercial and governmental clients across all
+major industries. SpaceKnow SMI (China Satellite Manufacturing
+Index) is the first trading index based on satellite data to be featured
+on the Bloomberg Terminal. SpaceKnow SMI for China is based on the
+monitoring of over 6000 industrial facilities across China to measure
+G. Denis et al. Acta Astronautica 137 (2017) 415–433
+423
+levels of manufacturing activity.
+4.3. Time to stop playing? Next steps?
+The space activity landscape may radically change in its very nature
+in the coming years.
+New comers from the web and from the information technology
+world have already contributed to change the balance in a significant
+manner.
+In this respect, it is interesting to compare the current situation with
+the one that prevailed in the 1990′s when initial projects for gigantic
+telecommunication constellations had been envisioned by some heavy
+weights of the industry (such as Microsoft) but ultimately failed.
+While some people tend to warn about a possible new internet
+“bubble” that may end with a similar fate, two considerations can be
+presented to moderate the relevance of this analogy.
+First, technology has evolved and new small satellites have improved in terms of performance/cost and performance/size ratios. If
+not totally overcome, some technological obstacles (not all, as recalled
+in Section 3) tend to disappear or to be of less crucial importance in the
+design of the space and ground systems. For example, LEO communication systems can now be developed with a good level of efficiency.
+In addition, comparing the support from the web industry in the
+1990′s and today gives a clear indication of the huge progresses made
+by this industry and by its financial and industrial strategies regarding
+its massive needs for broad-band telecommunication and information
+dissemination worldwide.
+The interest of some powerful players (e.g. Google) and the level of
+their financial capabilities will undoubtedly influence the market
+landscape.
+5. Shifting lines and new boundaries: market evolution and
+perspectives
+5.1. EO value chain: market figures in 2015, main trends and
+evolution
+5.1.1. Overview
+Well-known global consulting companies such as Euroconsult,
+Bryce Space and Technology or Northern Sky Research (NSR) publish
+regular forecasts and updates. Professional associations such as EARSC
+or Eurospace provide also comprehensive figures on the health of their
+respective industry and describe the market trends.
+Their assessments of total market value differ but they agree on the
+main trends and evolutions. Except if specifically stated, the figures used
+in this section are based on the report “Satellite-based Earth Observation,
+Market Prospects to 2025” released by Euroconsult (Refs [13,14]).
+Commercial data market reached $1.7 billion in 2015 (6% growth on
+2014), largely driven by defence and IMINT ($1.1 billion). All other
+market shares are below 10%. According to Euroconsult, Optical data
+represented 84% of the market. SAR data (16%) has not experienced the
+same ramp-up, except in maritime surveillance. Value-added services
+market reached $3.2 billion in 2015 (Fig. 5). In 2016, new entrants
+continue to raise capital, develop satellites and deploy initial constellations.
+5.1.2. Market trends and drivers
+From a very broad perspective, EO development is closely linked to
+the worldwide digitalisation of our societies, with endless appetite for
+information, increasing number of data sources and need for interoperability, finance and economics, interconnected ecosystems (governments, industry, commerce) and last but not least security issues,
+national prestige and soft power.
+In a nutshell, the global EO landscape is as follows:
+– More and more commercial EO satellites, both for governments and
+private companies, will be launched over the next decade: over 400
+satellites ( > 50 kg) compared to 163 over 2006–2015, from 35
+countries.
+– In addition 1200 small satellites ( < 50 kg) could be launched with
+the growth of constellations.
+– 50 countries are now investing in EO programmes.
+– Environmental monitoring, food security and climate change are top
+priorities in political agendas. Border monitoring and Eastern
+tensions are major trends.
+– In 2025, the market for commercial EO data is expected to reach $3
+billion (6% CAGR over 2015–2025). Current market forecast for
+value-added services is $5.3 billion for 2025 (5% CAGR).
+– Regionally, North America will remain the first market (forecast >
+$1 billion in 2024). Asian markets, Latin America (forecast: $350
+million in 2024) and Africa ($65 million in 2024) are expected to
+have strong growth profiles. Natural resources management, engineering and infrastructure, LBS and Non-US defence are the main
+activities supporting growth.
+– The number of commercial satellites is expected to increase
+significantly, fostered by the growing demand and the number of
+new entrants in the commercial market. Business and environmental intelligence are their new Eldorado.
+– New regulations and evolution of ITAR restrictions (supporting the
+competitiveness of US industry and services) will boost the VHR
+data market. More operators will try to address this market.
+One shall add the free and open data sets delivered under
+Copernicus programme, providing a wealth of environmental data
+likely to catalyse added-value services and data analytics, but also with
+a possible impact on the sales of medium-resolution data. Here, the two
+key questions are:
+Fig. 5. Commercial EO data market 2015 and Value-added services market 2015 (source: Euroconsult, ref [13]).
+G. Denis et al. Acta Astronautica 137 (2017) 415–433
+424
+– Will the development of added-services compensate the drop of
+imagery sales at least for medium and high resolution)?
+– Who will be the main beneficiaries of this evolution?
+New Space adds a new dimensions and potential game changers
+with new entrants from ICT domains, a platform-based economy and
+shorter mission cycles.
+5.1.3. Structure of the value chain, evolution of prices and market
+demand
+Three risks associated to these growth prospects can affect the main
+data providers:
+– The evolution of prices, influenced by increased availability of VHR/
+HR, impact of free imagery and the redistribution of value between
+the data and the services.
+– The evolution of international demand, when small and large
+countries invest in their own EO capacities, while they were
+accounted so far as major commercial opportunities.
+– The increasing number of suppliers.
+Until now, data prices are mainly driven by « image quality ». GSD
+is important but geolocation accuracy, image freshness and radiometric
+accuracy are also part of the criterions. The usual model (except for
+direct reception of telemetry) is the price per square kilometre or the
+price per image.
+5.1.4. From scarcity to abundance
+In this context, standard imagery prices could drop drastically. A
+typical example is the evolution of the EO sales in China. Until recently,
+China was buying imagery from foreign suppliers. Since 2011, the
+volume of medium-resolution data acquired by Chinese satellites
+exceeds the imported share and China meets its needs independently
+(Ref [15]).
+A similar move affects the higher resolution products. The strategy
+of the various suppliers to mitigate this risk depends on their profile.
+There are two main, non-exclusive options (Fig. 6).
+The “high end approach”: the usual suspects will seek to secure
+their revenues with differentiated products, taking advantage of their
+existing or future high end assets, i.e. in further increasing imagery
+resolution and targeting customers needing these new VHR data and
+acknowledging their value.
+They will also develop the use of new IT platforms and service hosting,
+at least for their main vertical markets. The key criteria in this scenario: a
+significant percentage of total value comes from EO image value.
+The “service-based strategy” of the new entrants: it is not only a
+low-cost approach: it makes the assumption that the EO will become a
+commodity and that the value of their products will be the information
+and the services created from the EO data and from other data sources.
+5.1.5. B2G, B2B or B2C: B2C rules applied to B2B
+The pricing is thus based on service value. The global value
+increases because the volume of services and the number of customers
+increase. The challenge is to propose as far as possible standardized
+products. The feasibility and the benefits of an evolution towards more
+“horizontal markets” have to be demonstrated. In this situation the
+customer becomes a consumer.
+In both cases, the specific solution for the optimization of CAPEX
+and operational costs will determine the strategy of each operator.
+5.2. Shifting lines and new boundaries: position in the value chain,
+resolution and revisit, data, services and information
+5.2.1. Focus on EO data
+Fig. 7 is a tentative representation of the commercial EO data
+market evolution, with two types of changes. On the horizontal axis,
+there is a shift between the resolution boundaries, from the right side to
+the left side, corresponding to the trend toward higher resolution. On
+the vertical axis, the vertical arrows show the factors driving the growth
+or the contraction of a specific segment.
+One tricky question is the appropriate number of segments to
+consider in the analysis of EO data. Apart from the core military needs,
+three segments are usually defined by the commercial operators:
+medium resolution, high resolution and very high resolution.
+The segmentation is mainly based on the offer and does not
+necessarily fit the actual demand. Market evolutions, growth perspectives and interactions between segments could justify a finer-grained
+analysis, in particular for orphan segments or overlaps between
+different offers.
+In particular, a narrower definition of VHR (for instance < 30–
+40 cm) could open a new avenue for “less high VHR” (e.g. between
+50 cm and 1 m), if its price is attractive compared to the one of the
+sharpest imagery. Beyond GSD, similar trade-offs can be made with
+other performance parameters (geolocation accuracy, spectral resolution, etc).
+It could mean that a “high-end” option could find its own niche,
+even is this market segment is mainly addressed by “low-cost”
+products. Table 1 summarises, in a nutshell, the shifting factors and
+growth drivers.
+Fig. 6. Trends in commercial imagery - Resolution versus revisit, two strategies.
+G. Denis et al. Acta Astronautica 137 (2017) 415–433
+425
+5.2.2. Typology of information services and customers
+In all areas, service market is the main (or first) growth opportunity
+for the new operators. From satellite manufacturing to service delivery
+to the end user, the EO value chain is usually structured in tiers with
+the upstream, midstream and downstream layers, as depicted on Fig. 8.
+The main components of a generic service chain based on EO data are:
+– EO Imagery and other data sources.
+– Processing and access middleware.
+– Mid-stream and downstream infrastructure (algorithms, cloud,
+analytics, etc.)
+– Service providers, with possible hosting in mid-stream infrastructures or as external components.
+One can identify several types of services: depending on the weight
+of image data compared to other data (data-agnostic services), there
+may be opportunities for EO data owners or satellite operators, EO data
+brokers or for pure service players.
+Another important factor is the level of automation (processing,
+advanced analytics, role of models) and the need for human expertise
+in the information production process.
+Both for institutional and private customers, the need to integrate
+customer data in service production can raise security and confidentiality issues and justify sometimes a local implementation of the service.
+For activities which are usually implemented directly by the
+customer (GEOINT, Insurance, etc.), the readiness to outsource the
+service production is obviously a critical point. Typical markets and
+maturity (use of EO data and services) are presented in Tables 2, 3.
+6. Food for thought: scenarios for the future
+6.1. Introuduction
+This part of the paper has a prospective dimension. It discusses the
+realism and likelihood of possible scenarios of market development and
+identifies their impacts on the EO landscape and the main stakeholders
+involved. Three main scenarios have been identified as “extreme options”.
+It would probably not be realistic to expect that one of these
+scenarios may actually happen but this tool is useful to forecast market
+evolutions and interactions between market segments. These scenarios
+are not necessarily exclusive. This section provides also a first review of
+the driving factors and possible consequences (threats and opportunities) on the main actors.
+Fig. 7. Shifting lines and new boundaries; evolution of EO data supply.
+Table 1
+Evolution of the EO data landscape. Shifting factors and growth/contraction drivers.
+Very high resolution High resolution Medium resolution
+Shifting factors • Increased use of commercial data in
+IMINT (+).
+• More monitoring needs (+).
+• Budgetary constraints and impact
+on national means (+)
+• Regulations and export rules (-)
+• High competition (+)
+• Success of services offers (+)
+• Regulation and dissemination control
+(-)
+• Success of the commercial and institutional service offers
+using this range of data. Evolution towards higher-end (+).
+• Evolution of public missions such as Copernicus NG /
+Copernicus Security (+)
+Growth or contraction
+drivers
+• Increasing use of commercial
+satellites (+)
+• Increased capacity (+)
+• Increased competition and
+newcomers (-)
+• New national missions (-)
+• Competition from aerial market and
+other sources (-)
+• One size fits all impact on customer
+base (-)
+• Quantitative development of services
+with lower costs (+)
+• New national mission (-)
+• Market saturation or competition with
+open data (-).
+Not applicable
+G. Denis et al. Acta Astronautica 137 (2017) 415–433
+426
+6.2. Between business as usual and market disruptions: some science
+fiction
+6.2.1. Scenario 1: solid revenues from the VHR data for the
+intelligence community
+This scenario is based on a steady continuity of the VHR market,
+with a sustainable or growing demand of the defence and IC for highend products.
+In parallel, a significant market share comes from commercial
+customers (domestic and export markets), ready to pay a premium for
+high-class imagery. The main driving factors are:
+– Evolution of defence and commercial markets using VHR imagery.
+– Regulations and export control rules, also depending on dissemination policies implemented by new countries (e.g. China).
+– The availability of high performance online distribution systems
+(e.g. OneAtlas by Airbus Defence and Space).
+Main opportunities are related to the evolution of the global threats
+and instability (increasing needs for GEOINT) and the sustained
+demand for accurate geo-information in the main vertical markets.
+The threats are linked to the evolution of intelligence needs (other
+priorities such as cybersecurity, ELINT), the use of other sensors
+(UAVs, HAPS or ground-based assets) and the obstinacy of competitors
+(commercial companies or new countries) to enter this market beside
+their initial business. Another risk is the possible gap between
+intelligence needs and commercial needs. The needs of some commercial customers could be met with lower resolution (50 cm to 1 m) data,
+with a direct impact on price sensitivity.
+Service development opportunities for GEOINT missions are not
+obvious, as long as the readiness to outsource remains low. The
+institutional human resources constraints can trigger innovative
+schemes with private providers with two conditions:
+– Ensure sensitive data integrity and confidentiality and system
+security.
+– Define new governance rules.
+6.2.2. Scenario 2: a new Eldorado with EO-based services for
+commercial applications
+Convert promises into tangible achievements… The expected explosive growth in geo-information services and applications materialises. This success depends on:
+– The actual implementation of some of the planned constellations.
+– The confirmation of commercial demand in key sectors.
+– The public demand and the readiness of the public sector to outsource this activity.
+Fig. 8. EO services – Structure of the value chain. Background image: Ricardo Liberato (Licensed under CC-BY-SA).
+Table 2
+Types of services.
+« Image +» services Specialised services and niches markets Vertical markets Horizontal approach
+“Image-only” services (real time, time
+series, etc.)
+Thematic or Geographic specialisation Defence, agriculture, oil and gas,
+assurance, etc.
+Geo-marketing, geo-analytics, monitoring,
+LBS
+Automated processing High Expertise
+Customer intimacy
+B2B or B2G rules B2B or B2G rules B2B or B2G rules B2C or B2B2C rules applied to B2B
+or B2G
+Close link with the satellite owner Tailor-made solutions. Ready-to-wear. One size fits all.
+Fragmented ecosystem of VAC and SME Standard product portfolio for families of
+customers
+Customer = consumer.
+Main target for new space actors
+Table 3
+Types of customers.
+Defence Civil institutional Commercial Consumer
+market
+Typical
+activities
+Mapping Cartography Agriculture,
+oil and gas,
+insurance, etc.
+Mapping,
+LBS, etc. for
+web actors
+Intelligence Environmental
+C2-ISR monitoring
+Maturity High High Variable Low
+Growth
+potential
+Medium High High High
+Customers 100 100-1000s 1000s Millions
+G. Denis et al. Acta Astronautica 137 (2017) 415–433
+427
+– The demonstration of EO data value in the information production
+and the benefits of platform-based analytics.
+Main opportunities are:
+– The development of new services for new markets with game changers
+on demand side, related either to global environmental issues (adaptation to climate change, water and food security, insurance, etc.) or to
+new commercial usages (geo-marketing, mapping and LBS, etc.)
+– Successful implementation of services in areas where space data
+plays a major role and can’t be substituted.
+The main threat is the “hype effect” with the collapse of new
+initiatives due to lack of funding or a viable business models. Dataagnostic services (terrestrial networks of sensors, IOT, crowd-based
+sensing) pose another threat (see scenario 3).
+6.2.3. Scenario 3: EO becomes a commodity («banalization») and
+strong competition with other sources of information
+“There is really not that much demand”: even if only two or three
+new initiatives succeed, there is a risk of oversupplying the market.
+This scenario is roughly a nightmare variant of scenario 2. The main
+unknown is the actual role of space data in a big data world.
+The wealth of data will also come from other information sources
+(drones and HAPS, crowd-based and in situ in a connected world). In
+particular, in the case of high revisit, the need for real time information is
+often linked to tactical needs and direct action / response with security
+forces, first responders, troops, etc. In this case, in-field operators carry
+sensors (e.g. police helicopters, short range UAVs) and this model can be
+very efficient. Crowd-sourcing is another trend, possibly fostered by the
+development of mobile devices and networks (incl. IOT). If EO data
+become really a commodity with huge competition between data and
+satellite owners, there is an opportunity for pure content aggregators or
+data brokers, without investment in proprietary data collection systems.
+An evolution towards source-agnostic service provision is also credible:
+most of end users (GEOINT can be an exception) are sensor/data
+agnostic: they want the information not the data.
+6.3. Consequences and impacts: focus on Europe
+In a worldwide competition where the disruptive offers are mainly
+initiated in the US, the accessible market share for European actors is a
+strategic issue, with commercial consequences but also stakes in
+relation with sovereignty and non-dependence. This section reviews
+the possible consequences and impacts on the main stakeholders:
+– GEOINT community.
+– EO data and services providers.
+– Satellites manufacturers.
+– Nations and institutions.
+6.3.1. GEOINT community
+The United States have adopted a well-publicized policy that is
+intended to make the best use of future constellations for government
+and intelligence needs. Mid-2015, a so-called “NextGen Tasking
+Initiative” has been launched by the National Geospatial Intelligence
+Agency (NGA) with the goal to develop new methods for collecting,
+processing and disseminating commercially generated information for
+intelligence purposes.
+Web and cloud-based solutions have been particularly highlighted
+at this occasion. Even more recently, the head of NGA has confirmed an
+effort to devote several tens of million dollars from the FY 2017 budget
+to directly feed up the most prominent start-ups of the domain. More
+generally, these declarations are fully in line with a “Commercial
+Geoint Strategy” published in October 2015 (ref [11]): NGA makes no
+secret of the relevance of future commercial constellations for the U.S.
+government.
+In the European Union, it seems that some Member States have
+also expressed interest in these developments. In France for example, a
+recent report mandated by the French Government (ref [16]) has
+insisted on the changes induced by the rise of the new commercial
+space sector and the need to adapt the institutional practices and
+procedures to nurture theses evolutions. Similar studies have been
+commissioned in Germany. However, the level of governmental
+involvement is far below what can be seen in the U.S. in the rise of
+the security and defence-oriented utilizations of the New Space. It is
+highly likely that a number of obstacles linked to real-world intelligence
+and defence issues, such as data policy and security or public-private
+relationships will remain to be overcome for some time before it
+becomes a new standard for the practitioners.
+Since the end of the cold war, the defence budgets have significantly
+and regularly decreased in Europe. In countries such as France,
+Germany or Italy, the priority to space have been more or less assured
+due to instable geostrategic situation, but not enough to enable the
+implementation of robust and consistent military space capacities
+(equipment, human resources to operate and exploit, training, etc).
+As an example, Europe has no space early warning capacity to face
+increasing threats coming from some rogue countries equipped with
+ballistic missiles. We can assume the following trends in the coming
+years:
+– More and more dual systems especially in the field of hybrid
+security/defence needs: maritime, borders and critical sites surveillance, control of inter-national treaties, etc. with funding shared
+between defence and civil entities or even private operators.
+– More civil space assets owned and operated by private
+companies assuring guaranteed and secured access of data to
+military customers.
+– Limitation of state owned systems to those strictly connected to national security and sovereignty: identification
+optical systems, SIGINT space systems, etc.
+– More and enlarged cooperation and sharing processes
+between European partners. The current SAR/optical data
+sharing implemented between France, Germany and Italy is a
+virtuous process which shall be reinforced and enlarged in the
+future.
+– More synergies with civil IT technologies (big data, cloud,
+automatization of processes, fusion of data, etc.) in ground segment
+and operations in order to follow the rapid evolution of technology
+and the exponentially increasing amount of space data to be
+processed by the military operational users.
+In brief, the objective of defence actors will be to use more space
+assets with less or same amount of money and people. Moreover this
+growing and strategic use of space capacities and data either for
+military, dual or civil uses stresses the importance of the security of
+these capacities which are today vulnerable to external threats. A
+specific effort is required at the level of major European space
+countries.
+6.3.2. European space ecosystem: from satellites to services
+The service ecosystem is heterogeneous with various profiles:
+SMEs, large web actors, large GIS actors.
+According to a study prepared by EARSC (European Association of
+Remote Sensing Companies) on the State and Health of the European
+EO Services Industry (ref [17]), 451 companies were active in the
+domain of EO services in Europe (and Canada) in 2014. The majority of
+companies (63%) have less than 10 employees (95% < 50 people). The
+G. Denis et al. Acta Astronautica 137 (2017) 415–433
+428
+total sector employment is 6811 persons in 2014. The total revenues
+for the EO Services sector in 2014 reached €910 million (€786 million
+in 2012) and is growing at a rate of around 7.6% p.a.
+The new space context means new opportunities (with new EO data
+sources) but also more competition and a risk of information dominance by a small number of worldwide champions (monopoly) or
+global service providers backed by the large web actors.
+The priority support action should be to secure the market position
+of the commercial VHR data providers. Market analysis confirms that
+the public sector has a key role in helping its European champions:
+even if a European NGA will not be easily implemented, anchor-tenant
+contracts can be developed by a public sector in its customer role with a
+new balance between patrimonial assets or in-house activities and
+external services. In her report on “open space” (Ref [16]), Genevieve
+Fioraso recommends a “Buy European Act”.
+The value-adding EO services in Europe are in an emerging state
+and delivered by a very fragmented base of suppliers. The consolidation
+of this supply chain (through mergers or strategic agreements) leading
+to European champions is an option but this fragmentation is not
+necessarily a weakness. It can mean a closer link with the final
+customers and a solid territorial footprint.
+In this case, the main need is to strengthen networking between
+local commercial actors. This assumption is the rationale behind
+Eugenius, A European Group of Enterprises for a Network of
+Information Using Space, an initiative started by Terranis, a French
+SME, in cooperation with a core team of European service providers.
+Targeting the development of Copernicus downstream services, the
+objective is to federate and transform isolated SMEs into a powerful
+network of expert partners serving their proximity customers.
+Eugenius concept is based on three foundations: the regional hubs
+(geo-information service platforms), the applicative tools (thematic
+software suites for specific needs such as agriculture, risk assessment,
+coastline monitoring) and a set of organisational and commercial rules
+between Eugenius partners. GEO4i is another good example: this
+French SME combines the expertise of image analysts and geomatics
+skills from the Ministry of Defence. GEO4i emphasises its close relation
+with the final customer and its capacity to propose ad hoc solutions.
+Fig. 9 highlights the potential use of medium resolution data as
+information source for added-value services. A coherence map of two
+radar images (Sentinel-1) reveals the activity detected between the 8th
+March 2016 and the 20th March 2016. It allowed detecting many
+passages of vehicles and showed intense activity. This suspicious
+activity is confirmed by the optical image (Sentinel-2) acquired
+March, 11th.
+6.3.3. Opportunities for satellite manufacturers
+Market forecasts predict $39 billion in manufacturing revenues
+over the period 2015–2024, an 80% increase over that of the previous
+decade. It is obviously an opportunity for European satellite manufacturers and the related supply chain, if they are competitive on the
+worldwide market and sometimes ready to invest as partners in new
+ventures. Recent successes in the telecommunication domain (OneWeb
+or O3B) show that European space industry was able to play the game.
+The support of space agencies is key, for the preparation of the future
+(non-dependence and critical technologies, disruptive technologies,
+etc.) and a contribution to “de-risking” activities (ref [18]).
+The relation between space industry and space agencies could
+evolve from a customer / supplier relationship to a cooperation / codevelopment approach (“together in the driver’s seat”). The situation is
+much more complex for the IT component, as there is no European
+champion, able to compete with Google or Amazon on the mid-stream
+segment. Being able to change this situation is questionable, even if it
+raises serious issues with respect to security and sovereignty.
+6.3.4. Between sovereignty and dominance
+Governments are responsible for regulations (including export control
+and data policies) but these regulations can also become incentives for the
+development of services and infrastructures. Governments have also a
+significant role to play in agreements between governments (G2G) and
+support to export activities, both for infrastructures and services: one can
+anticipate an evolution of the concept of sovereignty, with hybrid
+procurement schemes, between full ownership (e.g. PerúSAT-1) and
+guaranteed access to information, helping to mitigate a risk of information
+dominance by a single country. In a world of continental states, these
+recommendations apply also to Europe and its 28 Member States.
+Lessons learnt from Copernicus implementation (ref [19]) could help to
+define an innovative and efficient scheme for a new generation of
+Copernicus with a security component.
+6.3.5. The cost of non-Europe
+Towards a more coordinated approach between Member States in
+Europe for GEOINT missions? Or even shared capacities? Is it
+realistic? The European Union Satellite Centre remains the main focal
+point in Europe for imagery and GEOINT sharing. Its functioning is
+based on the fair exchange of information between all member States
+as soon as it has been produced by the centre on request of one or
+several member States. In this context, high performance commercial
+imagery has been playing a key role, allowing the dissemination of
+homogeneous information among the member States in a context when
+national intelligence procedures might have impede the sharing of
+intelligence generated by national systems. It is clear that such regional
+arrangements can provide avenues for commercial systems to become
+key providers of sensitive but sharable data on a collective basis.
+6.4. GEOINT disruptions: considerations about the strategic scenario
+for Europe
+The “New space” paradigm represents a mix of visionary entrepreneurial operations bonding with a large amount of investments coming
+for a very proactive venture capitalist ground. Main IT players are
+investing in the EO sector in order to be able to offer an always more
+Fig. 9. Added value services for GEOINT, derived from Sentinel imagery. Clandestine
+refineries in Deir ez Zor (Syria). Credit: GEO4i.
+G. Denis et al. Acta Astronautica 137 (2017) 415–433
+429
+integrated set of services, based on worldwide data retrieving, transmission and processing (Ref [20]).
+This is indeed an incredible boost for the EO and GEOINT sector
+which, for a long time, was linked to institutional markets, both in the
+US and in Europe. But furthermore, this vision to provide an “all
+inclusive” value added service chain on Earth is sometimes presented
+as propaedeutic for space exploration and human colonization of planet
+Mars. Even if Elon Musk or Jeff Bezos have to be considered very
+seriously, also observing their achievements in the launching activities,
+this grand vision has to be scrutinized in order to draft scenarios and
+recommendations for EU GEOINT sector.
+In a pure market logic, the consequences could be highly disruptive:
+the integration of EO space based capabilities within an IT commercial
+offer, integrated in apps developed by Alphabet or other Silicon Valley
+champions, seems able to wipe out the EU industrial and technological
+effort, based on a long term investment, often triggered by technology
+push, relying on a public demand. On the other hand, new constellations can potentially provide better performances than existing EU
+systems, relying on a more frequent revisiting time, a factor paving the
+way for a set of new applications able to push on the side the technical
+performances of institutional systems such as defence ones. This type
+of thinking pushes the European space champions to try to position
+themselves inside a renewed chain of added value in order to stay in the
+game. This calls for offers of services such as agreements or sub
+contracts with IT companies willing to produce and launch satellites, or
+the development of European IT clusters in order to valorise existing
+data gathering capabilities through processing and service development. It is a mix of response between collaboration and competition
+with the main US initiatives. But on another hand a resilient scenario
+shall be taken into consideration: European capabilities in terms of EO
+and GEOINT are developed by companies which are also strategic, both
+at national and EU level.
+If we have in mind the French, German and Italian cases, we can
+observe a mix where States partially own some key companies (directly
+or sometimes through public agencies), companies able to produce an
+applied technology which can serve the national security interests of
+those states.
+In a nutshell, those companies are strategic not only in terms of
+products and applications to be used for national security purposes, but
+also because they represent a specific know-how and capability which
+shall be maintained in order to keep a reasonable level of independence.
+6.4.1. Independence and interdependence
+This question of independence is a key issue. IT companies are
+often (and rightly) perceived as highly pervasive, with huge risks on
+individual rights, rule of law and democracy. The growing control of the
+information chain by a few multinational US based companies has to be
+carefully monitored in order to avoid some totalitarian effect based on
+the capacity to retrieve and process all kind of data. Europe hasn’t
+developed such an integrated company. Space capabilities however
+represent a sector where Europe has always kept a decent level of
+technology, with some fields of excellence. The fact that Europe is able
+to master the technologies of the entire space chain represents an asset
+for today and tomorrow.
+It is a key feature in terms of autonomy, but it is now an asset for
+EU independence in terms of information gathering and processing.
+If we take for granted a huge development of GEOINT capabilities
+following the “new space” boost, there is a danger to loose some
+pieces of the chain if the “Alphabet” or “Amazon” market driven
+trend pushes the EU products out of the market. Loosing such
+capacities would also be synonym of the loss of an autonomous and
+reliable information gathering. For example one can be cautious in
+terms of defence and security decisions based on US IT gathering
+and processing, also because huge IT companies can have objectives
+rather different than the ones of EU governments. Let’s recall that
+France has been the first country to invest in defence EO satellite, a
+decision reinforced by the difficulties in obtaining satellite intelligence from the US ally during the Balkans conflicts. The main EU
+countries (Italy, Germany) have followed, considering that they shall
+reach some autonomous capabilities. GEOINT capabilities shall be
+considered as a key feature of an EU resilient capability. And this is
+the reason why public R & D projects but also public demand shall
+sustain the space EO sector, in order to avoid that important pieces
+of technologies or companies finished completely preyed by some
+Silicon Valley money drop.
+This trend also calls for a major awareness at MS and EU levels, a
+priority agenda to be translated in EU cooperation frameworks such
+as Copernicus or the bilateral agreements between the main
+European countries. These strategic considerations shall lead to a
+quite conservative but also resilient paradigm: in order to maintain
+the control over the GEOINT chain, Europe shall pursue its current
+programme in order to maintain know how but also autonomous
+capabilities.
+Some thinking shall also be made to understand whether there is an
+optimum for the size of the market. In Europe over the last decades, the
+paths between Europeanisation trends and national ones were diverFig. 10. EO services – A new gold rush… and opportunities for Europe structure of the value chain.
+G. Denis et al. Acta Astronautica 137 (2017) 415–433
+430
+ging. Often, Europe is presented as a minimum size market in order to
+ensure the sustainability and the growth of European industrial
+capabilities. This analysis is based on the concept of minimum level
+of concentration for technology and capital.
+This logic was also present when the supply side has been pooled,
+meaning the creation of EADS (today Airbus) on one side and the
+merging of Alcatel Space and Alenia Space on another hand. If we
+take for granted the progressive integration of the EU market, those
+industrial mergers follow that trend. But we have also noticed
+contradictory elements, such as the correspondence between public
+programmes and national champions: it is easier to provide public
+support on a national basis than on a pan European one.
+Furthermore today’s technical disruption involves small teams of
+engineers and technicians.
+After many years with pressure to always think bigger, we can
+observe some prudence towards the MS level which represents often a
+guarantee in terms of continuity and has the advantage of a “natural”
+ground of expertise from academia to industry. Furthermore countries
+such as France, Germany or Italy are today relying on regional
+technological clusters, a relatively small dimension which is synonym
+of a virtuous mix with research and development capabilities.
+Those clusters can also foster the development of smaller companies able to make their way in the application market, the key driver for
+the commercialization of technologies. The space sector in general, and
+specifically in Europe, does not rely on a huge organisation, but rather
+extremely qualified middle-size entities. The growth or at least the
+preservation of this system could be identified as a strategic goal for
+Europe. If US IT companies penetrate and conquer the EO sector
+through their holistic applications, this could threaten the very
+existence of the EU producers. The relations between Space EO
+industries and IT applications oriented service providers is a very
+touchy issue, that shall be dealt with a cautious, if not resilient,
+approach.
+7. Conclusions: and the winner is?
+“Predictions can be very difficult - especially about the future.”
+(Niels Bohr, attributed).
+7.1. Trends to watch…
+Who will be the winner?
+Can European industry secure its role and competitiveness with
+respect to the growing influence of the large US actors, the New Space
+dynamism in the Silicon Valley? And will the promise of a huge growth
+of the geoinformation market fostered by the convergence between IT
+and EO become a reality?
+It is too early to answer. The next three or five years will be very
+interesting with trends and key indicators to be monitored:
+– Actual implementation of the new space initiatives and consolidation of the landscape.
+– Evolution of the market of the VHR (all market segments between
+30 cm and 1 m) and respective shares of Digital Globe, Airbus
+Defence and Space and potential newcomers.
+– Actual development of the EO services and profile of the top winners
+(SME, web actors, midstream actors), level of outsourcing by public
+sector and degree of consolidation of the service supply chain.
+– Evolution of the defence market and governmental policies.
+European perspective (mutualisation, capacity sharing, European
+policies).
+– New space countries investing in their own capacities and/or acting
+as new providers (e.g. China).
+Will we see new and hybrid service schemes instead of black or
+white options (including data policies) and new dimensions of dual use
+between Public and Private, Civil and Defence, National sovereignty
+and collective instruments (e.g. capacity sharing)?
+Even if it does not provide a clear answer to the future industrial,
+technical and political structure of EO systems, this study shows that
+the EO markets and related industrial landscape can evolve significantly or even be disrupted in the coming years.
+The consequences of the possible scenarios can affect the main
+stakeholders involved, in particular in Europe (Fig. 10).
+7.2. A new gold rush?
+The current situation is similar to California Gold rush in 1849 with
+lot of gold miners. Beside the development of service companies,
+satellite manufacturers can find their way and become the new shovel
+sellers.
+Small is beautiful and Silicon Valley entrepreneurs, often space
+enthusiasts, are very active. But one can observe that European
+champions, both big companies and SMEs, have already demonstrated
+their agility and ability to stay ahead and propose competitive products
+and solutions. OneWeb is a typical example in telecommunication.
+PerúSAT-1, built in less than 24 months in Airbus Defence and Space
+“Projects Factory©” is another one in Earth Observation.
+Despite the increasing influence of the private investment, public
+sector support for commercial initiatives, not only via policy-making,
+regulations and preparation of the future (R & D) but also as customer,
+plays a key role to fostering the development of its world-class
+champions and its ecosystem of SMEs. There are obviously opportunities in Europe:
+– Strengthen the European champions: accompany R & D, involvement in risk sharing and develop anchor tenancies.
+– Stimulate and support an ecosystem of innovative SMEs in EObased services for defence, institutional and commercial applications.
+– Foster European space and defence policy/market (capacity sharing
+/ mutualisation).
+– And some open questions such as the dependence on mid-stream
+infrastructure built outside Europe.
+G. Denis et al. Acta Astronautica 137 (2017) 415–433
+431
+Annexure. New constellations for Earth Observation (non-exhaustive list, green part: at least one satellite in operation in orbit)
+G. Denis et al. Acta Astronautica 137 (2017) 415–433
+432
+References
+[1] “Alternative Futures: United States Commercial Satellite Imagery in 2020”, Report
+prepared for the Department of Commerce by Robert A. Weber and Kevin M.
+O′Connell, Innovative Analytics and Training, November 2011. See 〈https://gis.
+idaho.gov/pdf/Framework/Imagery/IAT_DoC_Alternative_Futures_
+Commercial_Satellite_Imagery.pdf〉.
+[2] “Team GEOINT: This is Our Moment”, Remarks as prepared for Robert Cardillo,
+Director, National Geospatial-Intelligence Agency, US Geospatial Intelligence
+Forum GEOINT Symposium, Washington, June 2015. See 〈https://www.nga.mil/
+MediaRoom/SpeechesRemarks/Documents/2015/20150623_GEOINT_As_
+Delivered.pdf〉.
+[3] “EO embracing the new space environment: the significance of EO smallsat
+constellations”, Earth imaging Journal, July 2015, Euroconsult, Canada, Adam
+Keith. See 〈http://eijournal.com/print/articles/earth-observation-embracing-thenew-space-environment-the-significance-of-eo-smallsat-constellations〉.
+[4] “Independent Study of the roles of commercial remote sensing in the future
+national system (NSG)”, Final report of the panel chaired by Pete Marino, July
+2007.
+[5] “See a Better World”, 2015, annual report, Digital Globe.
+[6] “Des Aliens et des barbares : une révolution dans l′observation de la Terre”, Thierry
+Rousselin, Revue Prospective Stratégique, n°45, 1st trimester 2016.
+[7] “Financial landscape for space-related ventures in Europe”, Spacetec Partners,
+slides presented during the workshop Access to Finance for European space
+industry, European Commission, DG GROW Brussels, 3 May 2016.
+[8] “Satellogic on its way to launching 300 satellite constellation for Earth
+Observation”. Satellitetoday, Caleb Henry, March 2016.
+[9] “2016: State of the Satellite Industry Report”, prepared by Bryce Space and
+Technology (formerly The Tauri Group) for Satellite Industry Association, June
+2016. See: 〈https://brycetech.com/downloads/SIA_SSIR_2016.zip〉.
+[10] “Start-Up Space: Rising Investment in Commercial Space Ventures”, Bryce Space
+and Technology (formerly The Tauri Group), January 2016. See: 〈https://
+brycetech.com/downloads/Start_Up_Space.zip〉.
+[11] “Commercial GEOINT Strategy”, National Geospatial- Intelligence Agency, October
+2015, 15 p. See: 〈https://www.nga.mil/MediaRoom/PressReleases/Documents/
+2015/NGA_Commercial_GEOINT_Strategy.pdf〉.
+[12] “CIBORG Introductory Industry Day”, Slides presented by NGA, 16 June 2026.
+〈https://interact.gsa.gov/sites/default/files/CIBORG
+%20IndustryDay16Jun2016FINAL%2016-493%20Release%20%281%29.pdf〉.
+[13] “Satellite-Based Earth Observation: Market Prospects to 2025”. Report prepared by
+Euroconsult, 9th edition, September 2016.
+[14] “Earth Observation: state of play and future prospects”, presented by Adam Keith,
+Managing Director, Euroconsult Canada. Summit on Earth Observation Business,
+15th September 2016.
+[15] “China Launches High-resolution Commercial Imaging Satellite”, Peter de Selding,
+Space News, October 2015. See: 〈http://spacenews.com/china-launches-highresolution-commercial-imaging-satellite〉.
+[16] “Open Space, l′ouverture comme réponse aux défis de la filière spatiale”, Fioraso
+Geneviève, Rapport au premier Ministre, Paris, France, July 2016, 170 p. See:
+〈http://www.gouvernement.fr/sites/default/files/liseuse/7791/master/index.
+htm〉.
+[17] “A survey into the state and health of the European EO services industry”, Study
+prepared by EARSC. September 2015. See: 〈http://earsc.org/file_download/265/
+EO+industry+survey+september+2015+vf.pdf〉.
+[18] “The challenge of future space systems and services in Europe: Industrial
+competitiveness without a level-playing field”, Gil Denis (Airbus Defence and
+Space) and Xavier Pasco (Fondation pour la Recherche Stratégique). Presented at
+IAC 2013 (Pekin). Published in New Space (Vol. 3, No. 1) March 2015. DOI: 10.
+1089/space.2013.0034.
+[19] “GMES and the development of Earth observation services: threats and opportunities for the service industry”, Gil Denis (Airbus Defence and Space), Toulouse
+Space Show 2010, Space ECO workshop.
+[20] “NewSpace: New business models at the interface of the space industry and digital
+economy. Opportunities for Germany in a connected world”. Study prepared for the
+German Federal Ministry for Economic Affairs and Energy by SpaceTec Partners
+and BHO Legal. See: 〈https://www.bmwi.de/Redaktion/DE/Publikationen/
+Studien/bmwi-new-space-geschaeftsmodelle-an-der-schnittstelle-von-raumfahrtund-digitaler-wirtschaft.pdf?__blob=publicationFile & v=7〉.
+G. Denis et al. Acta Astronautica 137 (2017) 415–433
+433

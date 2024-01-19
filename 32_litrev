@@ -1,0 +1,202 @@
+~ Visit AskYourPDF.com ~
+Literature review Generated From AskYourPDF
+
+# Literature Review: Towards Disruptions in Earth Observation? New Earth Observation Systems and
+
+Markets Evolution: Possible Scenarios and Impacts
+
+## Introduction
+
+Earth observation (EO) plays a crucial role in monitoring and understanding various aspects of our planet.
+Over the years, new initiatives and advancements in EO systems have emerged, potentially disrupting the
+existing EO landscape and impacting markets. This literature review aims to review the trends in EO and
+explore the possible scenarios and impacts of new EO systems on the market. The review synthesizes the
+provided research findings to gain insights into the evolving field of EO.
+
+## Trends in Earth Observation
+
+The field of EO has witnessed significant advancements in recent years, driven by technological innovations and the availability of high-resolution data. Hansen et al. (2013) conducted a study to create
+high-resolution global maps of 21st-century forest cover change. Their research findings highlight the
+importance of accurate and up-to-date EO data for monitoring and understanding forest cover changes.
+Guanter et al. (2015) discuss the EnMAP spaceborne imaging spectroscopy mission, which offers new
+possibilities for Earth observation. They emphasize the potential of spectroscopy in providing valuable
+information for monitoring various Earth processes and phenomena.
+Li and Roy (2017) conducted a global analysis of Sentinel-2A, Sentinel-2B, and Landsat-8 data revisit
+intervals. Their research findings shed light on the revisit capabilities of these satellites and their implications for terrestrial monitoring. The study emphasizes the importance of frequent revisit intervals for
+capturing dynamic land cover changes.
+
+## Impacts on Markets
+
+The advancements in EO systems have the potential to disrupt the existing EO market and create new
+opportunities. Mccabe et al. (2017) discuss the future of EO in hydrology. Their research findings highlight
+the importance of EO data in understanding and modeling hydrological processes. The study suggests that
+advancements in EO can lead to improved water resource management and flood forecasting.
+1 / 6
+~ Visit AskYourPDF.com ~
+Getzin et al. (2012) explore the use of very high-resolution images and unmanned aerial vehicles (UAVs)
+for assessing biodiversity in forests. Their research findings demonstrate the potential of high-resolution
+EO data and UAVs in monitoring and managing forest ecosystems. The study highlights the market
+potential for providing biodiversity assessment services using these technologies.
+Daudt et al. (2018) present a study on urban change detection using multispectral EO data and convolutional neural networks. Their research findings suggest that deep learning techniques can improve the
+accuracy and efficiency of urban change detection. The study highlights the market potential for automated
+urban monitoring services using EO data and deep learning algorithms.
+
+## Knowledge Gaps and Future Research Directions
+
+While the provided research findings shed light on the trends and impacts of new EO systems, there are
+still knowledge gaps that warrant further research. For example, Singh et al. (2015) discuss the prediction
+of spatial and decadal land use and land cover changes using cellular automata Markov chain models and
+EO datasets. However, more research is needed to explore the integration of advanced machine learning
+techniques with EO data for more accurate and efficient land cover change predictions.
+Hoeser and Kuenzer (2020) provide a review of object detection and image segmentation with deep
+learning on EO data. However, further research is needed to explore the application of these techniques
+in specific domains, such as agriculture, forestry, and urban planning. Understanding the limitations
+and challenges of deep learning algorithms in different EO applications will be crucial for future
+advancements.
+Transon et al. (2018) discuss the hyperspectral EO applications from space in the context of the Sentinel-2
+mission. However, future research should focus on the development of advanced hyperspectral sensors
+and the integration of hyperspectral data with other EO datasets. This will enable more accurate and
+detailed monitoring of various Earth processes and phenomena.
+
+## Conclusion
+
+In conclusion, the trends in EO and the emergence of new EO systems have the potential to disrupt the
+existing EO landscape and impact markets. The integration of high-resolution data, advanced machine
+learning techniques, and innovative sensors opens up new possibilities for monitoring and understanding
+our planet. However, there are still knowledge gaps that need to be addressed through further research.
+Future studies should focus on addressing these gaps and exploring the potential of new EO systems
+in various applications and domains. By doing so, we can harness the full potential of EO for better
+2 / 6
+~ Visit AskYourPDF.com ~
+environmental management and decision-making.
+Keywords: Earth observation, new space, very high resolution, revisit, business models, remote sensing.
+Reference List:
+
+- Hansen, M.., Potapov, P.., Moore, R.., Hancher, Matt., Turubanova, S.., Tyukavina, A.., Thau, D..,
+  Stehman, S.., Goetz, S.., Loveland, T.., Kommareddy, A.., Egorov, A.., Chini, L.., Justice, C.., & Townshend, J.. (2013). High-Resolution Global Maps of 21st-Century Forest Cover Change. Science, 342,
+  850-853.
+- Guanter, L.., Kaufmann, H.., Segl, K.., Foerster, S.., Rogass, C.., Chabrillat, S.., Küster, T.., Hollstein, A..,
+  Rossner, Godela., Chlebek, C.., Straif, C.., Fischer, S.., Schrader, S.., Storch, T.., Heiden, U.., Müller, A..,
+  Bachmann, M.., Mühle, Helmut., Müller, R.., Habermeyer, M.., Ohndorf, Andreas., Hill, J.., Buddenbaum,
+  H.., Hostert, P.., Linden, S.., Leitão, P.., Rabe, Andreas., Doerffer, R.., Krasemann, H.., Xi, H.., Mauser,
+  W.., Hank, T.., Locherer, Matthias., Rast, M.., Staenz, K.., & Sang, B.. (2015). The EnMAP Spaceborne
+  Imaging Spectroscopy Mission for Earth Observation. Remote Sensing, 7, 8830-8857.
+- Li, Jian., & Roy, D.. (2017). A Global Analysis of Sentinel-2A, Sentinel-2B and Landsat-8 Data Revisit
+  Intervals and Implications for Terrestrial Monitoring. Remote Sensing, 9, 902.
+- McCabe, M.., Rodell, M.., Alsdorf, D.., Miralles, D.., Uijlenhoet, R.., Wagner, W.., Lucieer, A..,
+  Houborg, R.., Verhoest, N.., Franz, T.., Shi, Jiancheng., Gao, Huilin., & Wood, E.. (2017). The Future
+  of Earth Observation in Hydrology. Hydrology and Earth System Sciences, 21(7), 3879-3914.
+- Getzin, Stephan., Wiegand, K.., & Schöning, I.. (2012). Assessing biodiversity in forests using very
+  highresolution images and unmanned aerial vehicles. Methods in Ecology and Evolution, 3.
+- Daudt, R. C.., Saux, B. L.., Boulch, Alexandre., & Gousseau, Y.. (2018). Urban Change Detection
+  for Multispectral Earth Observation Using Convolutional Neural Networks. IGARSS 2018 - 2018 IEEE
+  International Geoscience and Remote Sensing Symposium, 2115-2118.
+- Singh, Sudhir Kumar., Mustak, S.., Srivastava, P.., Szabó, S.., & Islam, T.. (2015). Predicting Spatial
+  and Decadal LULC Changes Through Cellular Automata Markov Chain Models Using Earth Observation
+  Datasets and Geo-information. Environmental Processes, 2, 61-78.
+- Hoeser, Thorsten., & Kuenzer, C.. (2020). Object Detection and Image Segmentation with Deep
+  Learning on Earth Observation Data: A Review-Part I: Evolution and Recent Trends. Remote Sensing,
+  12, 1667.
+- Transon, Julie., d’Andrimont, R.., Maugnard, Alexandre., & Defourny, P.. (2018). Survey of Hyperspectral Earth Observation Applications from Space in the Sentinel-2 Context. Remote Sensing, 10, 157.
+- Camps-Valls, Gustau., Verrelst, J.., Muñoz-Marí, J.., Laparra, Valero., Mateo-Jimenez, F.., &
+  Gómez-Dans, J.. (2016). A Survey on Gaussian Processes for Earth-Observation Data Analysis: A
+  Comprehensive Investigation. IEEE Geoscience and Remote Sensing Magazine, 4, 58-78.
+- Georganos, S.., Grippa, T.., Vanhuysse, S.., Lennert, M.., Shimoni, M.., Kalogirou, S.., & Wolff, E..
+  3 / 6
+  ~ Visit AskYourPDF.com ~
+  (2018). Less is more: optimizing classification performance through feature selection in a very-high-resolution remote sensing object-based urban application. GIScience & Remote Sensing, 55, 221-242.
+- Kogan, F.., Kussul, N.., Adamenko, T.., Skakun, S.., Kravchenko, O.., Kryvobok, Oleksii., Shelestov,
+  A.., Kolotii, A.., Kussul, O.., & Lavrenyuk, A.. (2013). Winter wheat yield forecasting in Ukraine based on
+  Earth observation, meteorological data and biophysical models. Int. J. Appl. Earth Obs. Geoinformation,
+  23, 192-203.
+- Gomes, V.., Queiroz, G. R.., & Ferreira, K.. (2020). An Overview of Platforms for Big Earth Observation
+  Data Management and Analysis. Remote Sensing, 12, 1253.
+- Svensson, G.., & Wagner, B.. (2015). Implementing and managing economic, social and environmental
+  efforts of business sustainability: propositions for measurement and structural models. Management of
+  Environmental Quality: An International Journal, 26, 195-213.
+- Whitcraft, A.., Becker-Reshef, I.., & Justice, C.. (2015). A Framework for Defining Spatially Explicit
+  Earth Observation Requirements for a Global Agricultural Monitoring Initiative (GEOGLAM). Remote
+  Sensing, 7, 1461-1481.
+- Cord, A.., Brauman, K.., ChaplinKramer, R.., Huth, A.., Ziv, G.., & Seppelt, R.. (2017). Priorities to
+  Advance Monitoring of Ecosystem Services Using Earth Observation. Trends in Ecology & Evolution,
+  32(6), 416-428.
+- Hoeser, Thorsten., Bachofer, Felix., & Kuenzer, C.. (2020). Object Detection and Image Segmentation
+  with Deep Learning on Earth Observation Data: A Review - Part II: Applications. Remote Sensing, 12,
+
+3053.
+
+- Audebert, N.., Saux, B. L.., & Lefèvre, S.. (2017). Joint Learning from Earth Observation and OpenStreetMap Data to Get Faster Better Semantic Maps. 2017 IEEE Conference on Computer Vision and
+  Pattern Recognition Workshops (CVPRW), 1552-1560.
+- Lv, Z.., Liu, Tongfei., Benediktsson, J.., & Falco, N.. (2021). Land Cover Change Detection Techniques:
+  Very-high-resolution optical images: A review. IEEE Geoscience and Remote Sensing Magazine, 10,
+  44-63.
+  Note: The APA format has been followed for the in-text citations.
+
+## References:
+
+1. Singh, Sudhir Kumar., Mustak, S.., Srivastava, P.., Szabó, S.., & Islam, T.. (2015). Predicting Spatial and Decadal LULC Changes Through Cellular Automata Markov Chain Models Using Earth Observation Datasets and Geo-information. <i>Environmental Processes</i> , 2 , 61-78 .
+   http://doi.org/10.1007/s40710-015-0062-x
+2. Getzin, Stephan., Wiegand, K.., & Schöning, I.. (2012). Assessing biodiversity in forests using very
+   highresolution images and unmanned aerial vehicles. <i>Methods in Ecology and Evolution</i> , 3 .
+   http://doi.org/10.1111/j.2041-210X.2011.00158.x
+   4 / 6
+   ~ Visit AskYourPDF.com ~
+3. Mccabe, M.., Rodell, M.., Alsdorf, D.., Miralles, D.., Uijlenhoet, R.., Wagner, W.., Lucieer, A..,
+   Houborg, R.., Verhoest, N.., Franz, T.., Shi, Jiancheng., Gao, Huilin., & Wood, E.. (2017). The Future
+   of Earth Observation in Hydrology.. <i>Hydrology and earth system sciences</i> , 21 7 ,
+   3879-3914
+   . http://doi.org/10.5194/hess-21-3879-2017
+4. Cord, A.., Brauman, K.., ChaplinKramer, R.., Huth, A.., Ziv, G.., & Seppelt, R.. (2017). Priorities
+   to Advance Monitoring of Ecosystem Services Using Earth Observation.. <i>Trends in ecology &
+   evolution</i> , 32 6 ,
+   416-428
+   . http://doi.org/10.1016/j.tree.2017.03.003
+5. Gomes, V.., Queiroz, G. R.., & Ferreira, K.. (2020). An Overview of Platforms for Big Earth Observation
+   Data Management and Analysis. <i>Remote. Sens.</i> , 12 , 1253 . http://doi.org/10.3390/rs12081253
+6. Lv, Z.., Liu, Tongfei., Benediktsson, J.., & Falco, N.. (2021). Land Cover Change Detection Techniques:
+   Very-high-resolution optical images: A review. <i>IEEE Geoscience and Remote Sensing Magazine</i>
+   , 10 , 44-63 . http://doi.org/10.1109/mgrs.2021.3088865
+7. Daudt, R. C.., Saux, B. L.., Boulch, Alexandre., & Gousseau, Y.. (2018). Urban Change Detection for Multispectral Earth Observation Using Convolutional Neural Networks. <i>IGARSS
+   2018 - 2018 IEEE International Geoscience and Remote Sensing Symposium</i> , 2115-2118 .
+   http://doi.org/10.1109/IGARSS.2018.8518015
+8. Svensson, G.., & Wagner, B.. (2015). Implementing and managing economic, social and environmental efforts of business sustainability: propositions for measurement and structural models. <i>Management of Environmental Quality: An International Journal</i> , 26 , 195-213 .
+   http://doi.org/10.1108/MEQ-09-2013-0099
+9. Audebert, N.., Saux, B. L.., & Lefèvre, S.. (2017). Joint Learning from Earth Observation and OpenStreetMap Data to Get Faster Better Semantic Maps. <i>2017 IEEE Conference on Computer Vision and
+   Pattern Recognition Workshops (CVPRW)</i> , 1552-1560 . http://doi.org/10.1109/CVPRW.2017.199
+10. Kogan, F.., Kussul, N.., Adamenko, T.., Skakun, S.., Kravchenko, O.., Kryvobok, Oleksii., Shelestov,
+    A.., Kolotii, A.., Kussul, O.., & Lavrenyuk, A.. (2013). Winter wheat yield forecasting in Ukraine
+    based on Earth observation, meteorological data and biophysical models. <i>Int. J. Appl. Earth Obs.
+    Geoinformation</i> , 23 , 192-203 . http://doi.org/10.1016/j.jag.2013.01.002
+11. Whitcraft, A.., Becker-Reshef, I.., & Justice, C.. (2015). A Framework for Defining Spatially Explicit
+    Earth Observation Requirements for a Global Agricultural Monitoring Initiative (GEOGLAM). <i>Remote. Sens.</i> , 7 , 1461-1481 . http://doi.org/10.3390/rs70201461
+12. Camps-Valls, Gustau., Verrelst, J.., Muñoz-Marí, J.., Laparra, Valero., Mateo-Jimenez, F.., &
+    Gómez-Dans, J.. (2016). A Survey on Gaussian Processes for Earth-Observation Data Analysis: A
+    Comprehensive Investigation. <i>IEEE Geoscience and Remote Sensing Magazine</i> , 4 , 58-78 .
+    http://doi.org/10.1109/MGRS.2015.2510084
+    5 / 6
+    ~ Visit AskYourPDF.com ~
+13. Hoeser, Thorsten., & Kuenzer, C.. (2020). Object Detection and Image Segmentation with Deep
+    Learning on Earth Observation Data: A Review-Part I: Evolution and Recent Trends. <i>Remote.
+    Sens.</i> , 12 , 1667 . http://doi.org/10.3390/rs12101667
+14. Guanter, L.., Kaufmann, H.., Segl, K.., Foerster, S.., Rogass, C.., Chabrillat, S.., Küster, T.., Hollstein,
+    A.., Rossner, Godela., Chlebek, C.., Straif, C.., Fischer, S.., Schrader, S.., Storch, T.., Heiden, U..,
+    Müller, A.., Bachmann, M.., Mühle, Helmut., Müller, R.., Habermeyer, M.., Ohndorf, Andreas., Hill, J..,
+    Buddenbaum, H.., Hostert, P.., Linden, S.., Leitão, P.., Rabe, Andreas., Doerffer, R.., Krasemann, H.., Xi,
+    H.., Mauser, W.., Hank, T.., Locherer, Matthias., Rast, M.., Staenz, K.., & Sang, B.. (2015). The EnMAP
+    Spaceborne Imaging Spectroscopy Mission for Earth Observation. <i>Remote. Sens.</i> , 7 , 8830-8857
+    . http://doi.org/10.3390/RS70708830
+15. Georganos, S.., Grippa, T.., Vanhuysse, S.., Lennert, M.., Shimoni, M.., Kalogirou, S.., & Wolff, E..
+    (2018). Less is more: optimizing classification performance through feature selection in a very-high-resolution remote sensing object-based urban application. <i>GIScience & Remote Sensing</i> , 55 , 221 -
+    242 . http://doi.org/10.1080/15481603.2017.1408892
+16. Transon, Julie., d’Andrimont, R.., Maugnard, Alexandre., & Defourny, P.. (2018). Survey of Hyperspectral Earth Observation Applications from Space in the Sentinel-2 Context. <i>Remote. Sens.</i> , 10
+    , 157 . http://doi.org/10.3390/rs10020157
+17. Hansen, M.., Potapov, P.., Moore, R.., Hancher, Matt., Turubanova, S.., Tyukavina, A.., Thau, D..,
+    Stehman, S.., Goetz, S.., Loveland, T.., Kommareddy, A.., Egorov, A.., Chini, L.., Justice, C.., & Townshend, J.. (2013). High-Resolution Global Maps of 21st-Century Forest Cover Change. <i>Science</i> ,
+    342 , 850 - 853 . http://doi.org/10.1126/science.1244693
+18. Li, Jian., & Roy, D.. (2017). A Global Analysis of Sentinel-2A, Sentinel-2B and Landsat-8
+    Data Revisit Intervals and Implications for Terrestrial Monitoring. <i>Remote. Sens.</i> , 9 , 902 .
+    http://doi.org/10.3390/rs9090902
+19. Hoeser, Thorsten., Bachofer, Felix., & Kuenzer, C.. (2020). Object Detection and Image Segmentation
+    with Deep Learning on Earth Observation Data: A Review - Part II: Applications. <i>Remote. Sens.</i>
+    , 12 , 3053 . http://doi.org/10.3390/rs12183053
+    6 / 6

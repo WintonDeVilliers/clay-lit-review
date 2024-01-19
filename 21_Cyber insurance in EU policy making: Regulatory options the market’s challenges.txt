@@ -1,0 +1,1215 @@
+computer law & security review 43 (2021) 105627
+Available online at www.sciencedirect.com
+journal homepage: www.elsevier.com/locate/CLSR
+Cyber-insurance in EU policy-making: Regulatory
+options, the market’s challenges and the US
+example
+Dimitra Markopoulou
+Vrije Universiteit Brussel (LSTS), Faculty of Law & Criminology, Pleinlaan 2, 1050 Brussels, Belgium
+a r t i c l e i n f o
+Keywords:
+Cyber security
+Cyber insurance
+Eiopa
+Nis directive
+Cyber coverage
+Cyber loss
+a b s t r a c t
+Over the last decades digital technologies have penetrated our daily lives affecting all aspects of our societal and economic activities. Even though the benefits of relying on information systems to run everyday tasks, organise one’s business, interact with each other or
+enjoy public services are undisputable,the increasing use of digital technologies comes with
+a price: the growing exposure to cyber risks. This new type of threat has been in the center of
+the EU agenda for over 15 years during which a solid legislative framework for the protection
+S of network and information systems against cyber incidents has been developed. However,
+security and resilience of infrastructures and networks is one parameter of the challenge.
+Dealing with the financial risk emerging from a cyber incident, is another, equally important
+one. The need to mitigate these risks led to the emergence of a new insurance market, the
+cyber insurance market. Despite though the constantly growing demand for this type of insurance coverage, the market is still under development. The fast-evolving nature of cyber
+threats,the lack of a common language as regards risks, losses and coverages and the lack of
+historical data on cyber incidents are listed among the factors that slow down the market’s
+growth. Currently, all involved stakeholders in the insurance field are considering specific
+initiatives that would accelerate the process of turning the EU market more competitive
+and efficient against its many challenges. The example of the US cyber insurance market,
+with its shortcomings and know-how, could also contribute to this effort, as an example of
+a market that has been intensively facing these challenges for almost twenty years.
+© 2021 Dimitra Markopoulou. Published by Elsevier Ltd. All rights reserved.
+1. Introduction
+The increased dependency on digital technologies has created
+great opportunities for innovation and productivity. Reliance
+on information systems has transformed our daily lives, affecting the way we run our everyday tasks and interact with
+each other, as well as the way we create and organise our businesses or enjoy public services. This rapidly changing environment is depicted in both the number of the Internet users
+E-mail address: Dimitra.Markopoulou@vub.be
+around the world, which grew from 1 billion in 2005 to more
+than 5 billion in 2020, as well as, in the number of smart devices that communicate wirelessly (the Internet of Things)
+that has increased from 2 billion devices in 2006 to 200 billion in 2020.1 2 Roughly one million more people join the
+1 See Cyber Risks, Implications for the insurance Industry in Canada, Insurance Institute, 2019, https://www.
+insuranceinstitute.ca/en/Search-Results?q=2019+implications+
+for+the+insurance+industry+in+canada
+2 On the impact of IoT on the cyber insurance markets see also
+DiGrazia K, Cyber Insurance, Data Security, and Blockchain in the
+https://doi.org/10.1016/j.clsr.2021.105627
+0267-3649/© 2021 Dimitra Markopoulou. Published by Elsevier Ltd. All rights reserved.
+2 computer law & security review 43 (2021) 105627
+Internet every day which could lead to more than 7,5 billion
+internet users in 2030.3 However, the increasing use of digital technologies in our economic and societal activities has
+led to increased digital security risks, also known as cyber
+risks, and has made cybersecurity an issue of strategic importance at global level. Cybersecurity risks were identified
+by the World Economic Forum,4 as one of the five top risks
+currently faced by governments, organisations and civil societies across the world. More specifically, cyberattacks and
+massive data fraud appear both in the list of the top five
+global risks, an expected result following the 2017 notorious
+cyber-attacks, among which the Wannacry and NotPetya attacks. Ransomware made history again in 2020 contributing
+to the first reported death related to a cyberattack. Specifically,
+in September of that year the Dusseldorf University Hospital
+could not admit a patient who needed urgent medical care
+as it was in the midst of dealing with a ransomware attack
+that hit its networks.5 According to Forbes, malware increased
+by 358% in 2020 and ransomware by 435% compared to 2019
+while at the same time Google has registered 2.145.013 phishing sites as of January 2021.6
+The immediate result of this growing number of cyber incidents is economic loss, but it is not the only one. There
+are also intangible costs to society, such as reputational damage to businesses, risks to national security, failures of critical
+infrastructures and insecurity in doing business, to mention
+some. Safeguarding a resilient and safe cyberspace has therefore developed into a high priority, with cybersecurity being
+the first line of defence against cybercrime. In this context,
+cybersecurity has monopolised the interest of the European
+and international community for many years already. At EU
+level, cybersecurity-related issues have been addressed since
+2004, when ENISA was founded.7 Several EU policies and initiatives followed in the context of the EU Cybersecurity Strategy, which was adopted by the EU in 20138 and which,together
+with the European Agenda on Security,9 set the framework for
+the protection against cybercrime and the promotion of cyber
+resilience. The main legislative instrument of the Cybersecurity Strategy is the NIS Directive,10 that entered into force in
+Wake of the Equifax Breach, Journal of Business & Technology Law,
+13, no 2(2018): 255-278 3 See Cybercrime Magazine https://cybersecurityventures.com/
+hackerpocalypse-cybercrime-report-2016/
+4 See the World Economic Forum, the Global Risks Report 2018,
+13th edition http://www3.weforum.org/docs/WEF_GRR18_Report.
+pdf
+5 See ZDnet https://www.zdnet.com/article/first-deathreported-following-a-ransomware-attack-on-a-german-hospital/ 6 See Forbes https://www.forbes.com/sites/chuckbrooks/2021/
+03/02/alarming-cybersecurity-stats——-what-you-need-to-know
+-for-2021/?sh=2a2b966c58d3 7 The European Union Agency for Cybersecurity, ENISA, is the
+Union’s agency dedicated to achieving a high common level of cybersecurity across Europe, https://www.enisa.europa.eu/ 8 See European Commission, Cybersecurity Strategy of the European Union: An open, safe and Secure Cyberspace, JOIN/2013/01
+final.
+9 See European Commission, The European Agenda on Security,
+COM (2015) 185 final. 10 See Directive (EU) 2016/1148 of the European Parliament and of
+the Council of 6 July 2016 concerning measures for a high common
+August 2016.11 In addition to that, the European Commission
+introduced the Cybersecurity Act, in September 2017, as part
+of a set of measures to deal with cyberattacks and to build
+strong cybersecurity in the EU. The Act entered into force in
+June 2019.12 Protection of critical infrastructures against cyber threats has also been in the EU agenda since 2004,13 with
+the Directive on European Critical Infrastructures14 being in
+the center of this effort. Finally, the General Data Protection
+Regulation15 set a new framework for the notification of data
+breaches and the imposition of penalties to the violating parties. In July 2020, a Communication from the Commission was
+released on the EU Security Union Strategy, which tackled,
+among other issues, cybersecurity and cybercrime.16
+The adoption of policies and legislation as well as the implementation of organisational and technical measures that
+aim to make network and information systems more secure
+and resilient, is one parameter of the challenge. Dealing with
+the financial risk emerging from a cyber incident, is another,
+equally important one. Along with an increasing number of
+cyber incidents come the increased consequences and risks
+for the businesses that suffer them. A 2017 study of 254 companies across seven countries (Australia, France, Germany,
+Italy, Japan, United Kingdom and the United States) put the
+annual cost of responding to cyberattacks at US$11.7 million
+per company, a year on-year increase of 27.4%. The cost of cybercrime to businesses over the next five years is expected to
+be US$5,2 trillion.17 The need to mitigate these risks led to the
+emergence of a new insurance market, the cyber insurance
+market. While not a substitute for investing in cyber security
+and cyber resilience, insurance coverage for cyber risks provides a safety net for companies and individuals, as it allows
+them to transfer a portion of their financial exposure to insurance markets.
+level of security of network and information systems across the
+Union.
+11 See also Markopoulou D., Papakonstantinou V. & De Hert P., the
+new EU cybersecurity framework: the NIS Directive, ENISA’s role
+and the General Data Protection Regulation, Computer Law & Security Review, Vol 35, Issue 6, 2019. 12 See Regulation (EU) 2019/881 of the European Parliament and of
+the Council of 17 April 2019 on ENISA (the European Union Agency
+for Cybersecurity) and on information and communications technology cybersecurity certification and repealing Regulation (EU)
+No 526/2013 (Cybersecurity Act). 13 See European Commission, Critical Infrastructure Protection in
+the fight against terrorism, COM/2004/0702. 14 See Directive 2008/114/EC of 8 December 2008 on the identification and designation of European critical infrastructures and the
+assessment of the need to improve their protection. 15 Regulation (EU) 2016/679 of the European Parliament and of the
+Council of 27 April 2016 on the protection of natural persons with
+regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data
+Protection Regulation), OJ L 119, 4.5.2016, p. 1–88. 16 See European Commission,Communication from the Commission on the EU Security Union Strategy, COM 2020 605 (final). 17 See Ponemon Institute LLC, The cost of cybercrime, ninth
+annual cost of cybercrime study -unlocking the value of improved
+cybersecurity protection, 2019 https://www.accenture.com/_
+acnmedia/PDF-96/Accenture-2019-Cost-of-Cybercrime-StudyFinal.pdf#zoom=50
+computer law & security review 43 (2021) 105627 3
+Despite though the constantly growing demand for this
+type of insurance coverage, the market is still under development. Today the standalone cyber insurance market remains
+a fraction of the size of other commercial property and liability insurance markets, with penetration levels near 30% of
+companies in almost all countries.18 There are several factors
+that slow down its level of maturity, with the fast-evolving
+nature of cyber threats, the lack of a common language as
+regards risks, losses and coverages and the lack of historical
+data on cyber incidents being some of them. Currently, the
+EU and international Organisations work together with the insurance industry in order to accelerate the process of turning
+the market more competitive and efficient against its many
+challenges. The example of the US cyber insurance market
+could also contribute to this effort, as an example of a market that has been intensively facing these challenges for almost twenty years. At the same time, the increasing number
+of cyber incidents, the continued digital transformation, and
+the new regulatory initiatives in the European Union, are all
+expected to raise awareness and boost the demand for cyber
+insurance.
+This paper aims to clarify the different parameters that
+compose this relatively new segment of the insurance market
+and ultimately convey the current trends in the EU cyber insurance industry in terms of policy-making and cooperation
+between different organisations and market players, as well
+as, to identify the challenges it is confronted with. In terms
+of structure, this article is divided into five chapters: the first
+chapter tries to shed some light on the much-disputed notions that compose the core of cyber insurance, more specifically, these of “cyber incident”, “cyber risk”, “cyber loss” and
+“cyber coverage”. The second chapter discusses the reasons
+that led to the emergence of cyber insurance as a new segment of the insurance market, as well the current developments in the field.. In the third chapter, the case of the US
+cyber insurance market is examined, as an example of a mature market that could contribute to the development of the
+European market. Finally, the challenges that the industry is
+currently faced with, as well as relevant measures to address
+these challenges, are presented in chapters four and five respectively.
+For consistency purposes it is clarified that this paper only
+aims to elaborate upon the recent developments in the EU
+cyber insurance market from an EU policy-making perspective, through presentation of the steps that have been undertaken so far in the field by different European organisations
+and through examination of the several initiatives that have
+been adopted at EU level to address the challenges of the cyber insurance landscape. Accordingly, the examination of the
+numerous legal issues related to substantive cyber insurance
+law lie beyond the purposes of this analysis; its argumentation on the legal concerns that arise from the insurability of
+cyber risks is aimed at contributing towards the emergence
+of a more consistent EU cyber insurance market rather than
+as an attempt to analyse concrete insurance law and contract
+clauses.
+18 See OECD’s report on enhancing the role of insurance in cyber
+risk management, 2017
+2. Setting the cyber insurance landscape: how
+are cyber insurance and cyber-related terms
+defined
+2.1. The prevailing definitions on cyber insurance
+When it comes to defining cyber insurance, there is no generally accepted approach among the insurance industry. Cyber insurance is a broad term used for all insurance policies that address first and third-party losses as a result of a
+computer-based attack or malfunction of a firm’s information
+technology systems.19 EIOPA defines cyber insurance as covering losses arising from malicious and non-malicious incidents relating to the handling, storage, and transmission of
+electronic data, including through the Internet and computer
+networks.20 ENISA understands cyber insurance as an insurance product used to protect businesses (and individual users)
+from internet-based risks, and more generally from risks relating to information technology infrastructure and activities.21
+In the US,the Department of Homeland Security defines cyber
+insurance as follows: “Cyber-security insurance is designed
+to mitigate losses from a variety of cyber incidents, including
+data breaches, business interruption, and network damage.”22
+There may not be a common definition on cyber insurance,
+however all definitions include a common element, the protection against losses from risks relating to the Internet or,
+as broadly referred to, cyber risks. However, the definition of
+cyber insurance is only the starting point in trying to understand this, relatively new, concept. Questions such as in what
+context is coverage for losses and damages resulting from cyber incidents provided, how is cyber risk defined and what are
+the most common cyber incidents covered by cyber insurance
+policies, or what types of losses are usually covered in insurance policies, are some of the issues that will be addressed by
+the analysis that follows.
+2.2. Cyber incident, cyber risk and cyber threat: the
+general and the insurance market approach on defining these
+three terms
+Our perspective of cyber insurance is closely linked to the notion of cyber incident. Unluckily,there is no generally accepted
+definition of the term, on the contrary, definitions on cyber incident may vary depending on the regulatory framework or
+the conditions of the market that deploys them. It could safely
+be concluded that the inconsistency that characterises the EU
+cyber insurance market is attributed, to a great extent, to the
+lack of coordination on this matter. Given that a deep under19 See Romanosky S. Ablon L. Kuehn A. & Jones T., Content Analysis of Cyber Insurance Policies: How do carriers write policies and
+price cyber risk? Journal of Cybersecurity, Vol 5, Issue 1, 2019. 20 The definition adopted by EIOPA is the one introduced by the
+Federal Insurance Office, U.S. Department of Treasury. See also
+EIOPA’s report on EU-U.S. Insurance dialogue project, the cyber insurance market, 2018. 21 See ENISA’s report on Commonality of risk assessment language in cyber insurance, 2017. 22 See the Cybersecurity and Infrastructure Security Agency
+https://www.cisa.gov/cybersecurity-insurance
+4 computer law & security review 43 (2021) 105627
+standing of the insured risk is interdependent to understanding the notion and the extent of the insurance coverage offered, a short presentation of the prevailing definitions on cyber incident is deemed necessary. Before examining the insurance market perspective regarding the definition of the term,
+a short analysis of the more generic definitions that have been
+adopted in the context of the EU cyber security policy is considered essential. In addition, the notion of cyber incident will
+be examined together with similar terms, such as cyber threat
+or cyber risk, in an effort to further clarify the three concepts,
+their differences and their relation to each other.
+In this context, the general approach (not cyber insurance
+specific) of cyber incident could include any incident that affects the security of network and information systems in any
+sector of the society. An analytical definition of cyber incident
+has been adopted by ENISA, which defines it as “any occurrence that has impact on any of the components of the cyber
+space or on the functioning of the cyber space, independent if
+it’s natural or human made; malicious or non-malicious intent; deliberate, accidental or due to incompetence; due to
+development or due to operational interactions. Also, we call
+cyber incident any incident generated by any of cyber space
+components even if the damage/disruption, dysfunctionality
+is caused outside the cyber space”.23 A same approach is followed by the NIS Directive which defines “incident” as any
+event having an actual adverse effect on the security of network and information systems.24
+Again, under a general perspective cyber risk is defined as
+“the combination of the probability of cyber incidents occurring and their impact”.25 Another definition can be found in
+the NIS Directive, where risk is defined as “any reasonably
+identifiable circumstance or event having a potential adverse
+effect on the security of network and information systems”.26
+Finally, when it comes to cyber threats plenty of references
+on the definition of the term may be found in different official texts. For instance, according to the definition introduced
+by the Cybersecurity Act,27 “cyber threat means any potential circumstance, event or action that could damage, disrupt
+or otherwise adversely impact network and information systems, the users of such systems and other persons”. The cyber lexicon defines cyber threat as “a circumstance with the
+potential to exploit one or more vulnerabilities that adversely
+affects cyber security”.28
+From a cyber insurance perspective, a similar but not identical approach has been adopted by the insurance sector when
+reference to the above terms is made. Same as with other sectors, different rules-makers and involved actors in the cyber
+insurance sector refer indiscriminately to cyber incidents, cyber threats or cyber risks. For instance, ENISA uses the term
+cyber threat in its analysis on the impact of the cyber threat
+23 See ENISA’s report on ENISA overview of cybersecurity and related terminology, 2017. 24 See Article 4(7) of the NIS Directive. 25 See the Financial Stability Board Cyber Lexicon https://www.
+fsb.org/wp-content/uploads/P121118-1.pdf 26 See article art. 4 (9) of the NIS Directive. 27 See Article 2(8) of the Cybersecurity Act. 28 See cyber lexicon https://www.fsb.org/wp-content/uploads/
+P121118-1.pdf
+landscape on cyber insurance.29 The OECD lists types of cyber
+incidents when analysing the cyber insurance market.30 Nevertheless, because the insurance sector is a risk-oriented sector, it is necessary to place emphasis to the definition of cyber
+risks in particular. In this context, a number of definitions has
+been put forward by associations of insurance companies. For
+instance, the Geneva Association,31 has suggested the following definition: "any risk emerging from the use of information
+and communication technology that compromises the confidentiality, availability, or integrity of data or services.32
+In addition, in a paper published by the CRO Forum33 in
+2014 cyber risk was defined as the risk of doing business in the
+cyber environment, a rather generic approach which was further elaborated in a later paper, published in 2016. In it, cyber
+risk was defined as “any risks emanating from the use of electronic data and its transmission, including technology tools
+such as the internet and telecommunications networks.It also
+encompasses physical damage that can be caused by cybersecurity incidents, fraud committed by misuse of data, any liability arising from data storage, and the availability, integrity,
+and confidentiality of electronic information − be it related
+to individuals, groups, or governments”.34 IAIS, the International Association of Insurance Supervisors, has adopted the
+same definition.35 Finally, the Prudential Regulatory Authority
+(PRA) of the Bank of England in its latest guidance to the insurance market, that was published in July of 2017, defined cyber
+risks, from an underwriting perspective, as follows: “cyber insurance underwriting risk is defined as the set of prudential
+risks emanating from underwriting insurance contracts that
+are exposed to cyber-related losses resulting from malicious
+acts (e.g. cyber-attack,infection of an IT system with malicious
+code) and non-malicious acts (e.g. loss of data, accidental acts
+or omissions) involving both tangible and intangible assets.”36
+The list of different definitions on the cyber-related terms
+constitutes a notable example of the lack of harmonisation
+29 See footnote 24. 30 See OECD’s report on Supporting an effective cyber insurance
+market, 2017, and on Encouraging clarity in cyber insurance coverage, 2020. 31 The Geneva Association is an international insurance think
+tank, whose members include large insurance and reinsurance
+companies. It was created in 1973 and is the only global association of insurance companies. 32 See the Geneva Association, Ten key questions on
+cyber risk and cyber risk insurance-report summary
+https://www.genevaassociation.org/sites/default/files/
+research-topics-document-type/pdf_public//cyber-risk_10_key_
+questions_summary_0.pdf 33 The CRO Forum is a group of professional risk managers from
+the insurance industry that focuses on developing and promoting industry best practices in risk management, https://www.
+thecroforum.org/
+34 See CRO Forum’s Concept Paper on a proposed categorisation
+methodology for cyber risk, 2016, https://www.thecroforum.
+org/wp-content/uploads/2016/06/ZRH-16-09033-P1_CRO_Forum_
+Cyber-Risk_web-2.pdf 35 See International Association of Insurance Supervisors (IAIS)
+Issues Paper on cyber risk to the insurance sector, 2016. 36 See Supervisory Statement | SS4/17 Cyber insurance underwriting risk, Bank of England, Prudential Regulation Authority,
+available at https://www.bankofengland.co.uk/-/media/boe/files/
+prudential-regulation/supervisory-statement/2017/ss417.
+computer law & security review 43 (2021) 105627 5
+and the confusion that characterises the cyber insurance market in the EU. Notwithstanding the substantial differences
+among the above terms, they are often used interchangeably
+to refer to any “event” that targets components of the cyber
+space. The insurance sector is not fully aligned yet when it
+comes to conceptually defining cyber risks. Neither a standard definition of cyber risk used broadly by the insurance
+sector, nor any explicit reference to it in the existing regulatory framework on insurance exists.37 This however may not
+come as a surprise, in view of both the relatively recent emergence of cyber risk as an insured risk and its constantly evolving nature. At the same time this inconsistency forms a severe
+impediment to the law-making process and makes the need
+for alignment at both general and sector specific level imperative
+2.3. Types of cyber losses
+From an insurance perspective, cyber incidents cannot be perceived independently but rather in combination with the different types of losses they may lead to. Cyber loss is therefore another parameter that complements the notion of cyber insurance. According to Knutsen and Stempel “a cyber loss
+refers to a loss or liability arising out of the use of electronic
+equipment or electronically stored information”.38 Cyber incidents may result to different types of losses, including damages to tangible and intangible assets, losses related to business disruption seeand theft, as well as various forms of liability to customers, suppliers, employees and shareholders. The
+cost of cyber losses to policy holders may range, as well. For
+instance, a data breach may cost the insured party millions
+in case the breach targets sensitive or large volumes of data.
+In the same context, a denial-of-service attack39 may have a
+serious financial impact if the victim of the attack is a bank
+or a large organisation, whose operation has been severely
+affected by the attack. Classification of cyber losses may differentiate among different insurers. The lack of awareness of
+potential cyber losses among businesses is a factor that contributes to this incoherence. The OECD states in its report that
+“although the level of awareness of cyber risk and senior management attention to cyber security appear to be increasing,
+there appears to be a gap in terms of translating cyber risk into
+estimates of potential losses which would normally be a prerequisite to any decision on the purchase of insurance coverage” .40To remedy this inconsistency several bodies and organisations have provided guidance in categorising cyber losses
+per cyber incident.41
+37 See for instance the Solvency II Directive where no specific reference to cyber risk is made in the relative Annex. 38 See Knutsen E.S & Stempel J.W, The Techno-Neutrality Solution
+to Navigating Insurance Coverage for Cyber Losses, Penn State Law
+Review, vol 122:3, 2018. 39 A denial-service-attack is a type of attack on a service that disrupts its normal function and prevent other users from accessing
+it. For instance, a DoS attack on a server leading to the unavailability of a company’s website. 40 See OECD’s report on Enhancing the role of insurance in cyber
+risk management, 2017. 41 See OECD’s report on enhancing the role of insurance in cyber
+risk management, Chapter 2, 2017
+2.4. The coverage landscape for cyber losses: traditional
+policies versus stand-alone ones
+Providing greater clarity on coverage for cyber risk was identified as one of the five most important factors to support
+the development of the cyber insurance market – and the
+most important action on the list of insurance companies –
+by participants in an OECD conference.42 Similar to cyber risks
+and cyber losses, lack of commonality in the terminology employed about cyber coverage, creates great confusion to both
+insurers and insured.
+Specifically, cyber insurance can be offered as a standalone product or as an add-on coverage to traditional lines of
+insurance business, such as property, general liability, directors’ and officers’ liability, errors and omissions/professional
+indemnity, crime and all-risk policies. The introduction of
+stand-alone cyber insurance policies was the industry’s answer to the exclusions that were introduced in traditional insurance policies, when the first claims for cyber losses were
+raised. When this new request made its entrance in the insurance scenery, policy holders’ first reaction was to attempt
+to find coverage for these risks within existing policies. Accordingly, the insurers’ first reaction was to rely on existing
+exclusions so as to avoid providing coverage for losses that
+resulted from cyber incidents. Therefore, the implicit coverage or the indirect exclusion of coverage for cyber losses had
+to be “discovered” as a result of a claim or litigation. In the
+more mature US market, the debate on the interpretation of
+endorsements or exclusions regarding cyber coverage in traditional insurance policies has produced important case law
+and the relevant claims have been addressed in detail by the
+courts of the United States.
+Next step for the insurance market was to clear up the
+landscape by introducing specific exclusions in order to avoid
+providing coverage for cyber losses under the existing insurance policies. According to the OECD there are three main
+types of general exclusions that may be found in traditional
+policies: general exclusion for all losses resulting from a cyberattack, general exclusion for losses related to specific types of
+incidents (i.e. data breach) and general exclusion for specific
+types of losses (i.e. data and software loss).43 However, as the
+occurrence of cyber incidents increased and the demand for
+coverage for cyber losses was growing, insurance companies
+decided to endorse relevant requests in their traditional insurance policies by either explicitly or implicitly. The last case,
+where no explicit inclusion nor exclusion coverage for a cyber risk exists, refers to as so-called non-affirmative or silent
+risk.44
+Traditional policies do not always exclude or implicitly include coverage for cyber losses. In several policies there is
+a specific affirmative reference to this type of coverage. In
+the case where there is a specific provision for coverage for
+cyber risk in traditional policies, this usually includes business interruption and physical damage within the context of
+42 See OECD, Encouraging Clarity in Cyber Insurance Coveragethe Role of Public Policy and Regulation, Chapter 1. 43 See OECD, Enhancing the Role of Insurance in Cyber Risk Management, Chapter 3. 44 On silent risks see also See Celso de Azevedo, ibid, p. 30 ff.
+6 computer law & security review 43 (2021) 105627
+property insurance, incident response costs, fines and penalties, product liability and professional indemnity when liability insurance is called for, financial theft and fraud in
+crime/fidelity insurance and cyber ransom and extortion in
+kidnap and ransom insurance policies.
+Once again, the absence of a common language and common rules implemented by the insurance industry as regards
+the coverage offered within traditional insurance policies further complicates the operation of the market by creating confusion and uncertainty to all the parties involved. Under these
+circumstances, insurers are attempting to move cyber risks to
+specialised policies, while policy holders are also more willing
+to invest into a new stand-alone cyber insurance policy. One
+should not reach the wrong conclusion that stand-alone cyber policies adopt a catch-all risks approach and that they do
+not include exclusions that apply to both first party and thirdparty liability sections. Prior knowledge of circumstances, previous breach events, reasonable precautions, wilful, malicious
+or criminal acts are some of the exclusions clauses that may
+be found in this type of insurance contracts.45 The emergence
+of standalone cyber insurance policies and the current developments in the field will be explored in the final section of this
+analysis.
+3. The cyber insurance market: background
+and current developments
+3.1. The birth of cyber insurance
+Insurance, in some form, has existed for centuries as a means
+of mitigating risks to individuals and companies. The birth of
+modern insurance dates back to the late 16th century (1680),
+when Edward Lloyd first introduced the notion of marine insurance. By 1688, his infamous coffee house had become a
+venue for the transaction of insurance business, while in 1779,
+the “Lloyd’s policy” became a standard form of marine insurance. The insurance industry has grown, since then, to one
+of the most significant segments of the global economy with
+billions of dollars being spent every year on insurance underwritting. At the same time, during all these years, the insurance industry has managed to stay tuned to the economic and
+societal developments by understanding the market’s needs,
+by offering new insurance products or by modernising the existing ones. As a result, the insurance coverage spectrum has
+expanded in order to cover different types of risks and losses,
+from property losses to losses associated with a person’s life
+or health and from losses associated with fire and natural disasters to legal expenses and general liability. The increased
+reliance on digital technologies has exposed businesses and
+individuals to a different type of risks, security risks. Because
+of the constantly growing number of cyber incidents, the insurance industry has, once again, been brought against a new
+challenge, that is to address businesses’ need for coverage for
+cyber losses.
+Even though coverage for cyber risk by insurers is still considered to be at an early stage, the first cyber insurance pol45 On exclusions in stand-alone cyber policies see also Celso de
+Azevedo, ibid, p. 185 ff.
+icy was written more than twenty years ago by US insurers.
+The initial focus of the cyber insurance market was on providing error and omission coverage for companies providing
+technology-based services.46 Gradually, cyber insurance policies evolved and by the mid-1990s the idea behind a policy
+was to support an entity in the event of third-party liability
+claims.47 However, the increasing occurrence of cyber incidents together with the establishment of privacy breach notification requirements and penalties, beginning in 2003 in the
+State of California,48 resulted in new exposures, such as incident response costs, that insurers had not considered when
+drafting property and liability insurance contracts. The US insurance market’s reaction to this new type of risks and the
+role of the US case law in shaping the new insurance landscape will be further elaborated below.49
+While this was happening in the US, in the EU the first
+data breach notification requirements appeared in Directive
+2009/136/EC,50 which amended Directive 2002/58/EC.However,
+the breach notification process introduced by the Directive
+was limited to the electronic communications sector. The notification obligation was horizontally imposed to all personal
+data controllers through the implementation of the GDPR in
+2018.51 The EU market lacked therefore, until recently, the
+main incentive that apparently triggered the US cyber insurance market, namely the imposing of fines for data breach violations. However, the need for specified cyber insurance policies was first formally identified by the European Commission
+in 2013, when, in its Cybersecurity Strategy for the European
+Union, it invited public and private stakeholders to “develop,
+in cooperation with the insurance sector, harmonised metrics
+for calculating risk premiums, that would enable companies
+that have made investments in security to benefit from lower
+risk premiums”.52 In the same context, in a Scientific Opinion delivered by the High-Level Group of Scientific Advisors to
+the Commission in 2017, a tension was recorded regarding the
+need for promoting an insurance market. More specifically, it
+46 See Camillo M., Cyber risk and the changing role of insurance,
+Journal of Cyber Policy, Vol 2. 2017. 47 See Reetz M.A., Prunty L.B., Mantych G.S. & Hommel D.J Cyber
+Risks: Evolving Threats, Emerging Coverages, and Ensuing Case
+Law, Penn State Law Review, Vol 122:3, 2018. 48 California was the first state to enact such a law, which became
+effective July 1, 2003. Known as the Security Breach Information
+Act, or Senate Bill 1386 (SB1386), it requires any agency or business that conducts business in California, and “owns or licenses
+computerized data that includes personal information” to notify
+affected residents of California of any security breach if “personal
+information was, or is reasonably believed to have been accessed
+by an unauthorized person”. 49 On the birth of cyber insurance see also Reetz M.A., Prunty L.B,
+Mantych G.S & Hommel D.J, ibid. 50 See Directive 2009/136/EC of the European Parliament and of
+the Council of 25 November 2009 amending Directive 2002/22/EC
+on universal service and users’ rights relating to electronic communications networks and services, Directive 2002/58/EC concerning the processing of personal data and the protection of privacy
+in the electronic communications sector and Regulation (EC) No
+2006/2004 on cooperation between national authorities responsible for the enforcement of consumer protection laws, OJ L 337,
+18.12.2009, p. 11–36 51 See footnote 16. 52 See footnote 9.
+computer law & security review 43 (2021) 105627 7
+was recognised that “the need for some insurance intermediary is broadly recognised, as this would enable greater participation in the digital market especially of citizens and small
+business when they are insured against the risks of cybercrime”.53 Although therefore the EU market is behind the US
+as regards the level of maturity of cyber insurance, the need
+for investing in this type of insurance is well identified and
+several initiatives have been undertaken already to this direction.
+3.2. How is the global cyber insurance market shaped
+today: the US as the leading player in the cyber insurance
+field and the role of the EU
+Demand for cyber insurance is growing rapidly. Current predictions of the size of the global cyber insurance market suggest that over the next five years its size will increase to over
+20 billion USD by 2025 from around 7 billion USD in 2020.54
+Admittedly, global statistics on the cyber insurance market
+are mainly derived from the US market. It is estimated that
+90% of the standalone cyber insurance market is located in
+the US, while the European market is estimated to account
+for approximately 5–9%.55 A British market research firm reported in 2018 that 30% of major US companies have purchased stand-alone policy coverage for cyber risks, while only
+5% of the companies in Europe have done the same.56 As already mentioned, the main event that triggered the US cyber
+insurance market, besides of course the frequency of cyber incidents, was the establishment of privacy breach notification
+requirements and penalties, which began as early as in 2003
+in California.57 Cyber insurance products underwent a shift
+in response to these new notification requirements towards
+indemnifying the costs associated with a major data breach.
+Most of the losses that have been paid under cyber policies
+have been for costs incurred based on these state notification
+laws. The transition to this new insurance environment was
+by no means easy. Disputes over the application of the provisions of traditional insurance policies to data breaches, ransomware and other cyber-related attacks eventually reached
+the US courts. The courts’ findings on whether these policies
+should or should not cover the new type of losses are listed in
+chapter 3.
+53 See European Commission, Directorate-General for Research
+and Innovation, Scientific Advice Mechanism (SAM)Cybersecurity
+in the European Digital Single Market, High Level Group of Scientific Advisors, Scientific Opinion 02, 24 March 2017. 54 See GlobalData https://www.globaldata.com/cyber-insuranceindustry-exceed-20bn-2025-says-globaldata/ 55 See EIOPA’s report on Understanding Cyber Insurance - A
+Structured Dialogue with Insurance Companies, 2018. 56 See Celso de Azevedo, Cyber Risks Insurance Law and Practice,
+Sweet and Maxwell, 2019, p.248. 57 California was the first state to enact such a law, which became
+effective July 1, 2003. Known as the Security Breach Information
+Act, or Senate Bill 1386 (SB1386), the statute requires any agency
+or business that conducts business in California, and “that owns
+or licenses computerized data that includes personal information”
+to notify affected residents of California of any security breach if
+“personal information was, or is reasonably believed to have been
+accessed by an unauthorized person.”
+The US may be the biggest cyber insurance market, but Europe is catching up. Although still small in size, the European
+cyber insurance industry is growing rapidly, with an increase
+of 72% in 2018 in terms of gross written premium for the insurers, amounting to EUR 295 million in 2018 compared to EUR
+172 million in 2017.58 The growing demand for cyber insurance
+in the EU has made global insurers to change their approach
+in respect of the insurance solutions they offer to their non-US
+customers. More specifically, while traditionally global insurers have been repackaging their US cyber offerings for Europe,
+they are now focusing on developing cyber insurance offerings that target European priorities, regulations, and cultural
+norms.59 Cyber insurance is currently on the agenda of all EU
+organisations and insurance associations. ENISA, EIOPA and
+of course the European Union, all have recognised the need
+for an efficient and more coherent cyber insurance market.
+Several guidelines and opinions have been published to this
+effect, reference to which can be found in the following sections.In addition, several initiatives that aim to strengthen the
+cyber insurance market have also been undertaken at national
+level.60 The expected growth for the European market is anticipated to be further accelerated by the recent adoption of the
+GDPR and NIS Directive. In a relatively recent survey 33% of
+cyber insurance buyers have identified “regulatory change” as
+within the three most important reasons for obtaining cyber
+insurance.61
+4. The US cyber insurance market: how can
+the US example and respective US case law
+contribute to a more sustainable EU cyber
+insurance market
+4.1. General
+This chapter examines typical examples of US cases on cyber insurance and assesses how the US case law has shaped
+and continues to affect the US insurance market in terms of
+defining cyber insurance coverage. The purpose of this chapter is not to delve into the US legislative framework on insurance, which would be both impossible, within the constraints
+of this analysis and impractical due to its differences to the
+EU regulatory regime. Nor does it aim to provide an update
+on the current case law on different cyber insurance topics.
+However, an overview of US case law on specific aspects of
+cyber insurance was considered essential for three reasons:
+58 See EIOPA’s report on Cyber risk for insurers-challenges and
+opportunities, 2019. 59 For example, Coalition, a San Francisco-based MGA specializing in cyber insurance and risk management services
+for SMB’s, announced that it will broaden its coverage for
+General Data Protection Regulation (GDPR) violations, see
+also https://www.ciab.com/resources/cyber-insurer-coalitionfirst-to-offer-gdpr-coverage-to-small-and-midsize-businesses-2/ 60 See Insurance Europe, Examples of cyber-resilience initiatives
+by national insurance associations https://insuranceeurope.eu/
+sites/default/files/attachments/National%20examples%20A5.pdf
+61 See 2018 Survey of Cyber Insurance Market Trends”, October 2018, Partner Re & Advisen: https://partnerre.com/opinions_
+research/2018-survey-of-cyber-insurance-market-trends
+8 computer law & security review 43 (2021) 105627
+First, the US courts have been dealing with cyber insurance
+disputes for over twenty years. Therefore, their contribution
+to help us understand this new segment of the insurance market is undeniable, especially in view of the lack of any EU case
+law on this subject. Second, the US courts during these two
+decades of examining cyber insurance cases have focused on
+defining key concepts in cyber insurance policies. Third and
+most important,the abundance of, conflicting, case law on cyber insurance claims, that is mainly the result of the US market’s practice to apply CGL policies on claims related to cyber losses, could be viewed as the market’s call for the development of stand-alone policies to address the growing need
+for this type of coverage. Reference to US case law in the next
+paragraphs is carried out in this limited, yet enlightening perspective, namely as a useful tool to acquire a better insight
+into cyber insurance coverage issues. With this assumption
+in mind, the cases that are examined in the next paragraphs
+focus on claims regarding damage to software and destruction or loss of data as well as on data breaches that arise from
+traditional insurance policies in an effort to demonstrate how
+cyber risks are handled within the general liability insurance
+policies in the USA. By contrast, examination of US case law
+resulting from stand-alone policies, as well as of the exclusion
+clauses included in them, are not dealt with under the present
+analysis, because they are deemed of little, direct at least, relevance to the formulation of an EU comprehensive policy and
+law on cyber insurance.62
+Most of the case law regarding potential coverage for cyber
+incidents involves commercial general liability (CGL) policies.
+CGL insurance is the most common type of coverage found in
+US corporate insurance programs.63 The CGL form has been in
+effect since the 1940s and has been purchased by the majority
+of businesses to cover a wide range of risks, but it was not designed to protect the insured from any and all risks.64 Given its
+wide spectre of coverage, it comes as no surprise that policy
+holders have traditionally turned to this policy to ask coverage for losses arising from different incidents, including cyber.
+However, the CGL policy when first drafted was not intended
+to cover cyber risks. Therefore, there are no express terms for
+“cyber” incidents, “data breaches” or “privacy breaches” in the
+CGL policy forms. As a result, insurance companies usually
+deny offering coverage for cyber losses under a typical CGL
+policy.65 Today the coverage available in a typical CGL policy is
+divided into three categories: (1) Coverage A: Bodily Injury and
+Property Damage Liability; (2) Coverage B: Personal and Advertising Injury Liability (e.g., defamation, privacy violation, intellectual property infringement, etc.); and (3) Coverage C: Medical Payment. With regard to cyber coverage in particular, the
+debate of whether it is covered or not under this traditional in62 On indicative examples of US cases on stand-alone cyber policies see Celso de Azevedo, ibid, p.148 ff. 63 On Commercial Coverage and CGLs see also Kesan J.P & Hayes
+C.M, Strengthening Cybersecurity with Cyber Insurance Markets
+and Better Risk Assessment, Minnesota Law Review, Vol 102:191,
+2017.
+64 See DiGrazia K, ibid. 65 On insurance policy form evolution see also Podolac G.D., Insurance for cyber risks: a comprehensive analysis of the evolving
+exposure, today’s litigation and tomorrow challenges, Quinnipiac
+Law Review (QLR) 33, no. 2 (2015): 369-410.
+surance line, has produced case law on two key fronts: “Property damage” and “personal or advertising injury”.
+4.2. Defining property damage coverage: do damaged or
+corrupted software or data constitute tangible property? The
+US courts approach and the role of the ISO
+The CGL policy was designed to provide coverage for any occurrence of property damage. According to the pre-2001 CGL
+form, property damage was defined as a physical injury to tangible property, including all resulting loss of use of that property or loss of use of tangible property that is not physically
+injured. At that time companies’ records were physical so the
+definition of property damage was adequately setting the coverage spectrum in most cases. As more information started
+to get stored digitally, the courts had to decide whether the
+loss of data and the damage of software could be classified as
+property damage under the existing CGL policy. More specifically they had to decide whether damaged or corrupted software, hardware, or data constitute "tangible property" and if
+yes whether they are subject to physical injury or loss. In practice, when a policy did not contain a separate clause, as this
+is mostly the case in CGL policies, insurers usually denied to
+provide coverage for a claim that concerned damaged software or lost data on the basis that computer software or electronic data had not suffered actual "physical" damage within
+the meaning of the policy.66
+The concept of tangible property and physical loss have
+been intensively addressed by the US Courts and several decisions have been issued in favour or against the coverage of cyber related claims under the property damage definition, not
+always in a uniform manner.67 Specifically, in 2000, in a case
+which involved an incident where a power outage took down
+the insured’s mainframe computer and was required to reprogram the lost data,68 the court found that "’physical damage’
+is not restricted to the physical destruction or harm of computer circuitry but includes loss of access, loss of use, and loss
+of functionality".69 However in an opposite court ruling it was
+decided that software and data were not “tangible property”
+and any “loss of use” was excluded.70 Different was the approach adopted by the court in “Retail Systems, Inc. v CNA Insurance Cos.”71 where, the Court ruled that a lost tape with its
+embedded data falls within the definition of loss of tangible
+property as the data recorded on the tape was merged with
+the tape itself.
+66 See Coben D.R & Anderson R.D., Insurance Coverage for Cyber
+losses, Tort & Insurance Law Journal 35, no. 4 (Summer 2000): 891-
+928.
+67 On case law on property damage coverage see also Podolak
+G.D., Insurance for Cyber Risks: A Comprehensive Analysis of the
+Evolving Exposure, Today’s Litigation, and Tomorrow’s Challenges,
+Quinnipiac Law Review, 33, no2 (2015): 369-410. 68 See Am. Guarantee & Liab. Ins. Co. v. Ingram Micro, Inc., No. 99-
+185 TUC ACM, 2000 WL 726789. 69 See also Knutsen E.S & Stempel J.W, ibid. 70 See Am. Online, Inc. v. St. Paul Mercury Ins. Co., 347 F.3d 89, 92,
+94–96 (4th Cir. 2003). 71 See Retail Systems, 469 NW2d 735 (Minn App 1991).
+computer law & security review 43 (2021) 105627 9
+In a leading case in favour of coverage,72 the court examined the plaintiff’s argument that his computer crashed due to
+its infection with spyware after he visited the company’s website. The result was that the plaintiff lost data and incurred
+costs to repair his computer system. Despite the insurance
+company’s argument that “software, data or other information that is in electronic form” is not “tangible property”, the
+Court ruled that the plaintiff alleged the loss of use of his computer which falls within the general liability policy’s definition of “property damage”. However, this argument was not
+accepted in “Cyber, Inc. v. Federal Insurance Company”.73 There,
+an insurance general liability claim was made against a software installation company for the negligent installation of a
+financial management software system. The court, however
+found that this was “not a case of losing the use of tangible
+computer systems rather than the plaintiff’s new software inadequacies.” Coverage, therefore, was denied.74
+Consequently,the US courts are not aligned as regards their
+approach to categorising lost data or damaged software as
+“property damage” under a typical CGL policy. Policyholders
+may only rely on judicial precedent if they wish to establish that "physical loss” does not require actual physical destruction of property, but it could suffice that the damage has
+caused the policyholder to suffer a "loss of use" of the insured property. This uncertainty has been addressed by ISO75
+with several amendments to the template CGL forms. More
+specifically, when the first case law on coverage was issued,
+ISO amended the definition of “property damage” to explicitly state that electronic data is not tangible property. Since
+2001, the CGL definition of “property damage” has included a
+clear provision stating that for the purposes of the CGL, electronic data is not tangible property.76 In 2004, ISO made another amendment to the CGL form, an exclusion that was intended to eliminate coverage in connection with loss of electronic data. The new language eliminated coverage for “damages arising out of the loss of, loss of use of, damage to, corruption of, inability to access, or inability to manipulate electronic data.”77 The current Commercial General Liability Coverage Form published by ISO in 201978 includes the following
+wording with regard to the electronic data exception: this in72 See Eyeblaster Inc. v. Fed. Ins. Co., 613 F.3d 797, 801–02 (8th Cir.
+2010).
+73 Cyber, Inc v Federal Insurance Company, 2018 WL 1203157 (D.
+Colo., 5 March 2018) 74 On US case law see also Rawlings P., Cyber Risk: Insuring the
+Digital Age, British Insurance Law Association Journal, 2015, volume 128. 75 ISO is an advisory and rating organisation that provides statistical, actuarial, underwriting, and claims information and analytics. ISO was created in 1971, when several rating bureaus consolidated and formed a non-profit association of insurers. By 1993,
+ISO had been reorganised as a for-profit independent organisation.
+In 2008 it created a new company called Verisk and the following
+year went public and became a wholly owned subsidiary of Verisk,
+https://www.verisk.com/insurance/brands/iso/
+76 See the 2001ISO CGL Revision (Form No. CG 00 01
+10 01), https://www.irmi.com/articles/expert-commentary/
+the-2001-iso-cgl-revision. 77 See ISO Form No. CG 00 01 12 04. 78 See CGL Coverage Form (CG 00 01 04 13), https://ekinsurance.
+com/cgl/commercial-general-liability-coverage-form.html.
+surance does not apply to “Electronic Data Damages arising
+out of the loss of, loss of use of, damage to, corruption of, inability to access, or inability to manipulate electronic data.79
+4.3. Personal or advertising injury: how are data
+breaches handled under US insurance coverage
+Personal and advertising injury coverage is the second field of
+US litigation that will be examined in the context of this analysis. Emphasis will be given to the way US courts interpret
+the term “publication”, that triggers the “personal and advertising” coverage, in the privacy breach context. In other words,
+the question that this section aims to answer is to what degree
+data breach cases fall within a typical CGL policy.
+Initially, "advertising injury" was defined as "injury arising out of an offense committed during the policy period occurring in the course of the named insured’s advertising activities, if such injury arises out of libel, slander, defamation,
+violation of right of privacy, piracy, unfair competition, or infringement of copyright, tide or slogan”.80 The advertising injury definition was amended in 1985 to include, among others,
+injury “arising out of the following act (among others): Oral or
+written publication of material that violates a person’s right
+of privacy”. In 2001, in response to the growing technological
+environment and the expanded use of the media, ISO broadened the relevant clause to its current wording form: “Oral or
+written publication, in any manner, of material that violates a
+person’s right of privacy . . . .”. The “in any manner” insertion
+was intended to address Internet and electronic publications,
+and their impact on personal and advertising injury offenses
+which may arise from publication via e-mail or a website.”81
+Accordingly, important US case law examines whether the
+event that led to the loss of personal information constitutes a
+“publication,” which amounts to a violation of a person’s right
+to privacy, and thus falls within the personal and advertising
+injury provisions of CGL terms. In the first case82 the court
+was called to decide whether a loss of 130 IBM data tapes that
+included unencrypted personal information for 500,000 past
+and present IBM employees by Recall Total Information Management (the tapes fell out of the back of a van while in transit
+and were taken by an unknown person and never recovered) is
+a publication and if yes whether the plaintiff should be compensated under the CGL coverage. The insurers denied the
+claim, arguing that “publication” requires a showing of “access,” and because there was no evidence anyone “accessed”
+the information on the tapes there was no “publication.” The
+court determined that the insurance policy did not cover the
+data breach in question because, although IBM had incurred
+substantial expense addressing the data loss, this could not
+79 On ISO modification on CGL Coverage forms see also DiGrazia
+K., ibid. 80 See Haigh J.L. & Showalter S.L, in Historical analysis of the changes to Coverage B, available at: https:
+//www.theclm.org/File/Download?type=10&filename=
+199b12d2610-0cb0-4a61-a919-bfb65849fafa.pdf&userFileName=
+199.pdf..pdf
+81 See also Podolak G.D., ibid. 82 See Recall Total Information Management v. Federal Insurance
+Co., 83 A.3d 664 (Conn. App. Ct. 2014)
+10 computer law & security review 43 (2021) 105627
+satisfy the “personal injury” requirement of its policy. The appellate court affirmed the lower court’s decision.
+In another case83 hackers compromised Sony’s PlayStation
+Network and stole consumer personal information. There was
+no allegation or evidence that the thieves further disseminated the stolen information: In summarizing its position on
+the issue, the court again focused on the exposure of the information, regardless of form, from a secure location. However, the court held that the policies’ coverage for the oral or
+written publication of materials that violate a person’s right
+to privacy could not be triggered through the actions of third
+parties, in this case, the hackers that stole confidential information from Sony’s Playstation Network.84 Likewise in St. Paul
+Fire & Marine Ins. Co. v. Rosen Millenium Inc. the court denied defence coverage to Rosen Hotels following a credit card
+breach caused by malware installed on the hotel’s payment
+network on the basis that the injuries at issue resulted from
+the actions of third parties and not those of the insured.85 Another relevant decision is Travelers Indemnity Co. of America
+v. Portal Healthcare Solutions, LLC.86 In this case the district
+court confirmed CGL coverage for claims where confidential
+medical information was made available online as this constitutes a publication under the personal and advertising injury provision. The court reasoned that “publication” requires
+only that information be “placed before the public,” and that
+the mere availability of the information online is sufficient, regardless of whether it’s ever accessed or viewed by anyone.87
+ISO’s reaction to the above case law US litigation was
+similar to property damage coverage for lost data and damaged software. As seen in the previous subsections, as data
+breaches became more frequent and severe, ISO took steps to
+constrain CGL policies from responding to privacy and data
+breach claims.In April 2013,ISO created a brand-new endorsement, the sole purpose of which is to allow insurance companies to delete the entire “publication, in any manner” definition of personal and advertising injury. In May 2014, ISO also
+made available an exclusion specifically designed to eliminate
+coverage for breach of privacy liability, excluding personal and
+advertising injury arising out of any access to or disclosure of
+any person’s or organization’s confidential or personal information, including financial information, credit card information, health information or any other type of non-public information.88
+83 See Zurich American Insurance Co. v. Sony Corp. of America,
+2015 NY Slip Op 03606 Decided on April 30, 2015 Appellate Division,
+First Department 84 See also Innovak Int’l, Inc. v. Hanover Ins. Co., 280 F. Supp. 3d
+1340 (M.D. Fla. 2017), where the court reached the same conclusion. 85 St. Paul Fire & Marine Ins. Co. v. Rosen Millennium, Inc., 337 F.
+Supp. 3d 1176 (M.D. Fla. 2018). 86 See Travelers Indemnity Co. of America v. Portal Healthcare Solutions, LLC 35 F. Supp. 3d 765 (E.D. Va. 2014), aff’d, 644 F. App’x 245
+(4th Cir. 2016). 87 On further analysis on US litigation see also Balwin D.H, Buckley J.P. & Slaugh D.R, Insuring against Privacy Claims Following a
+Data Breach, Penn State Law Review, vol122:3, 2018. 88 See Commercial General Liability, CG 21 06 05 14 available at:
+https://www.techriskreport.com/wp-content/uploads/sites/26/
+2019/05/ISO-Form-CG-21-06-05-14.pdf
+4.4. What can the US cyber insurance market teach us?
+The analysis of US case law and of the ISO’s response to it
+when examining the meaning of disputed concepts in CGL
+forms from a cyber insurance perspective, confirms what has
+been established so far in this analysis: Cyber-related terms,
+and especially coverages for cyber losses is a grey area for the
+insurance industry. The US market, in spite of its level of maturity, has not yet reached a satisfactory level of consensus on
+the definition of cyber coverage or on the most appropriate
+model to promote insurance products that cover cyber losses
+to its customers. Both US courts and ISO have tried to shed
+some light on the unclarity that surrounds these terms when
+invoked by the policy holders. Even though there are several
+court rulings that point to one or the other direction, which
+have been invoked by both the insurers and the insured when
+defending their claims, it is obvious that the market’s stability
+and growth cannot depend on conflicting case law. It is also
+true that ISO has contributed to the disambiguation of the
+insurance landscape. Nevertheless, ISO is an advisory organisation and not a regulatory authority. In practice, this means
+that it may provide some guidance to the market stakeholders, but it is not a policy maker. Essentially the more than two
+decades experience of the US insurance industry on handling
+claims on cyber coverage clearly demonstrates the shortcomings of applying CGL policies to address issues related to cyber
+losses. The significant load of conflicting case law on claims
+arising from the use of these policies and the need for ISO to
+constantly intervene by suggesting new insurance language to
+address the current trends are a strong indicator that standalone cyber insurance policies is the best way forward. The
+US market has already made a turn to stand-alone cyber insurance policies and to this effect a number of case law has
+already been formulated.89 It is therefore argued that the US
+example could serve as a strong motivation for the EU market
+to move directly to the stand-alone option by skipping altogether the obvious, yet problematic, implementation of traditional insurance policies to cover cyber losses. This argument
+however will be discussed in the final chapter of this paper
+as it is believed to be one of the major challenges the cyber
+insurance market is called to address.
+5. Identifying the main challenges of the
+cyber insurance market
+Despite the market’s obvious call for insurance coverage to
+address the risk of cyber losses, either as adds-on to existing
+traditional policies or as stand-alone solutions, the cyber insurance industry and the businesses themselves are still hesitant when considering investing in the specific insurance field.
+There are several factors that have kept the market from growing together with the constantly increasing number of cyber
+incidents and the disastrous effects these could have in terms
+of money losses for the businesses that suffer them. Whereas
+there is no doubt that cyber losses are the new stressful reality
+for organisations of all sizes, it seems that both the insurers
+and the insured have not yet reached a common ground for
+89 See above footnote 93.
+computer law & security review 43 (2021) 105627 11
+working together towards this direction. The main challenges
+that, according to this analysis, slow down the growing pace
+of the cyber insurance market are presented in the chapters
+that follow in the expectation that, once they are identified,
+both the market and the policy regulator will undertake the
+necessary initiatives that will lead eventually to the market’s
+maturity and stability.
+5.1. Unclarity around cyber risk
+The need for a deeper understanding of cyber risk is a core
+challenge for the cyber insurance industry as it directly causes
+other challenges or makes more difficult the apprehension
+of concepts that are related to cyber insurance, such as cyber loss or cyber coverage. There are several parameters that
+contribute to the lack of clarity surrounding cyber risk. At the
+same time, based on a cause and effect reasoning, the same
+parameters could be perceived as the outcome of this unclarity.
+The first parameter that contributes to the confusion
+around the notion of cyber risk is the lack of awareness and
+even the misconception regarding this type of risk, that is
+often encountered in all involved stakeholders in the cyber
+insurance market. The policy holders on the one hand, are
+not qualified to understand their vulnerabilities against cyberattacks nor to evaluate what consequences a cyber incident could potentially have to their business operation. The
+insufficient level of understanding of the risks and, accordingly, of the products that are on offer affects severely the
+companies’ decision to purchase an insurance product in the
+first place. Insurance companies on the other hand, do not enjoy the benefit of decades’ worth of uniform policy language
+that has been tested in court, as they do for other lines of insurance. As a result, they find underwriting extremely challenging. The lack of feedback from their clients as well as the
+lack of specialised underwritters with a better knowledge of
+the technical aspects of cyber risks makes this task even more
+demanding.90
+5.2. The lack of commonality in policy language
+The lack of commonality in policy language in the cyber insurance sector and, accordingly, the lack of standardized policies across the industry is another challenge the cyber insurance market is facing, which is directly connected to the different understanding of cyber risks by different players. The
+lack of consistency in the terminology used by the industry
+has been examined in the first part of this analysis. Despite
+the attempts from the industry itself, as well as from different EU and international bodies with competence on this subject matter, such as ENISA, OECD or EIOPA, for a broader consensus as regards the cyber related terms, this has not been
+achieved so far. In practice, this is translated into differentiations in the insurance products sold in the market in terms
+90 A survey conducted by EIOPA showed that the second biggest
+concern of the market is the lack of understanding of the risks by
+underwitters/brokers, see EIOPA Understanding Cyber insurancea structured dialogue with insurance companies, 2018.
+of both the cyber losses that are covered, as well as the coverage provided for each loss. Variations in coverage will be separately examined in the paragraph that follows. Besides the
+different approach adopted by different stakeholders, when
+it comes to understand and define cyber risks, there are additional reasons that make harmonisation as regards policy
+terms and conditions difficult to achieve. The evolving nature
+of the cyber threats is one of them. What is considered a cyber
+threat today will be obsolete tomorrow, when a new unknown
+threat will have taken up its place. At the same time, the consequences of an existing threat may vary depending on the
+victim of the cyberattack or the magnitude of the threat. Cyber threats do not have geographical limits and may, at the
+same time, generate consequences in different jurisdictions
+with any implications this may bring along. Finally, the lack of
+historical data on cyber incidents,that will be examined in the
+following paragraph as a separate challenge, is another factor
+that contributes to the lack of commonality in the industry.
+5.3. The lack of historical data
+The lack of historical data on the frequency and severity of
+cyber incidents is another challenge of the cyber insurance
+market. It works as both a primary obstacle to a detailed understanding of fundamental aspects of cyber risk and, at the
+same time, as a barrier to achieve language harmonisation. Eling notes: “Not only is the lack of data a major concern for insurance managers and empirical researchers, but the dynamic
+nature of cyber risk also carries an immense risk of change. It
+is thus far from clear whether the little historical data we have
+is indicative of future outcomes”.91 The lack of consistent information on cyber incidents is due to several reasons. The
+first is that cyber risk is a relatively new peril meaning there
+are limited records of past incidents. At the same time, the
+fast-evolving nature of cyber risk further restrains the value
+of the existing data. The general reluctance of the victims of
+cyber incidents to share information on these events, mainly
+out of fear that their reputation may be affected, puts another
+barrier to the already limited access to historical data. As observed by ENISA, “lack of data makes it very difficult for insurers to properly understand which industries are facing which
+threats, what is the motivation behind them, what is the loss
+frequency or severity, what is the loss correlation between industries, countries etc. On top of that, cyber insurance carriers
+are very reluctant to share their existing information amongst
+them. The resulting unavailability of incident data makes it
+very hard to produce consistent and converging risk assessment models”.92
+Another factor that makes access to data on past incidents
+difficult is the obligation of insurance companies to comply
+with specific requirements for the protection of personal or
+confidential information they collect and process. These requirements may be imposed by regulatory instruments, such
+as the GDPR, or by sector-specific legislation, imposed by in91 See Boyer M.M, Cyber insurance demand, supply, contracts and
+cases, The Geneva Papers on Risk and Insurance Issues and Practice, 2020, 45:559-563. 92 See ENISA’s report on commonality of risk assessment language in cyber insurance, 2017.
+12 computer law & security review 43 (2021) 105627
+surance regulators or supervisors,93 or even be the result of
+confidentiality clauses in the insurance contracts between insures and policy holders. Each of these parameters seems to
+further complicate the development of an incident data sharing initiative. At the end of the day a balance of interest will
+define whether insurance regulators and supervisors should
+relax any provisions that impede the sharing of data for the
+benefit of enhancing the data availability and accordingly reinforce the cyber insurance market.
+5.4. Variations in coverage: how are fines and ransom
+payments treated under insurance policies
+Variations in coverage is the last, but not least, challenge
+that will be tackled in the context of this analysis. As already
+mentioned in the relevant section, coverage for cyber-related
+losses may be provided through stand-alone cyber insurance
+policies or through endorsements to traditional policies, either explicitly or “silently” by not excluding the specific cyber
+risk from the policy’s coverage. However, as it was analysed
+above, US case law has not always been clear as regards the
+eligibility of coverage for cyber incidents under typical CGL
+policies. Controversial decisions together with the reluctance
+of the insurance companies to compensate for cyber losses
+on the basis of the existing traditional insurance products has
+created confusion and insecurity to both the insurers and the
+insured with, ultimately, a negative impact on the market’s
+development.
+In terms of coverage unclarity it is not only the different
+language used by the insurers or the different interpretation
+of coverage terms by the courts that contribute to it. The insurability of specific cyber incidents and subsequent losses is
+another factor that should be taken into consideration. For the
+purposes of this analysis two types of losses will be evaluated,
+as additional indicators of the level of complexity that is inherent when insuring against cyber risks, fines and penalties,
+with a focus on fines imposed as a result of a data breach and
+ransom payments.94
+Regarding the first category, insurability of fines and risks
+has been a burning issue for the US insurance market since
+the introduction of the privacy legislation in the US. As regards the EU market, concerns have been raised since the implementation of the GDPR and are expected to grow as the
+first severe fines are being imposed. In view of the costs a
+data breach may incur, the demand for insurance coverage
+that will respond to claims for violation of privacy is growing. The practices followed by the insurance companies with
+regard to regulatory fines vary depending on the jurisdiction
+where the fine is imposed, national law, the type of the fine
+(civil/administrative or criminal) and the nature of the act be93 In Portugal, legislation governing insurance contracts imposes
+a general obligation on insurance companies to maintain the secrecy of all information that is disclosed as part of the execution of
+the insurance policy. See also OECD’s report, Enhancing the availability of data for cyber insurance underwriting- the role of public
+policy and regulation, 2020 94 See LaCroix K., Are GDPR fines and penalties insurable?,
+the D&O Diary, available at https://www.dandodiary.com/2018/11/
+articles/cyber-liability/gdpr-fines-penalties-insurable/
+ing penalised. Based on a survey conducted by the OECD,95
+in most countries the vast majority of cyber insurance policies offer some coverage for fines and penalties. However, in
+all of the policies reviewed any coverage for fines and penalties is subject to conditions, such as insurability under applicable law or exclusion of civil and criminal fines and penalties.96 Ultimately, where there are no direct or specific legal or
+regulatory impediments to providing coverage, insurability or
+uninsurability is subject to interpretation by the insurer and
+potentially to disputes and litigation.97
+A similar approach is adopted when it comes to the insurability of ransom payments. Cyber extortion attacks (whether
+ransomware or other types of extortion) could lead to a number of losses, including potentially ransom payments to terminate the attack or threat of attack. The OECD reviewed thirtyfive stand-alone cyber insurance policies and concluded that
+many among them provided explicit coverage for ransom payments, sometimes with conditions related to insurability or
+legality.98 In this context, in some jurisdictions ransom payments could be considered inconsistent with public policy as
+such payments could encourage further extortion attempts
+and therefore should not be covered by insurance contracts.
+Regardless of these findings however, some countries encourage reimbursement for this type of cyber loss.99
+6. Initiatives to address the challenges at
+regulatory and industry level
+From unclarity and inconsistency in insurance language to
+hesitance on adopting data sharing initiatives, the challenges
+of the cyber insurance market may be overcome if the industry and the policy regulator work together to this effect.
+95 See OECD, 2020, Encouraging Clarity in Cyber Insurance
+Coverage- the Role of Public Policy and Regulation, Chapter 3. 96 In the EU, GDPR fines for non-compliance are administrative
+fines although each Member State may establish additional rules
+on penalties for infringements that may be either criminal or administrative in nature. In a number of EU countries, administrative fines imposed under GDPR may be found to be uninsurable
+as counter to public order or to the principle that the negligent
+party should bear the cost, although there is no specific legislation or clear jurisprudence. In most (if not all) countries, criminal
+fines and penalties are not insurable based on the principle that
+a person (legal or natural) that has committed a (by definition) intentional and malicious (criminal) act should be required to bear
+the consequences (penalties) of that act. 97 For the insurability of fines for data breaches, see also Baldwin
+D.J, Buckley J. P, and Slaugh D.R. in Insuring against privacy claims
+following a data breach, Penn State Law Review, Vol 122:3, 2018. 98 For the issue of illegality of ransom payments under English
+law see also see Celso de Azevedo, ibid, p. 166 ff. 99 For instance, some countries, such as Australia and the United
+States, have explicit policies against paying ransoms Other countries, including Brazil, Colombia, Italy, Portugal and Russia, specifically prohibit insurance coverage and/or indemnification for kidnapping (and related ransom payments). In Germany, where guidance has been issued to ensure that kidnap and ransom insurance
+practices are consistent with public policy, the German Financial
+Supervisory Authority has issued a specific clarification indicating that the reimbursement of ransom payments related to cyberextortion is permitted but cannot be advertised.
+computer law & security review 43 (2021) 105627 13
+The initiatives presented in the following paragraphs take into
+consideration the market’s particularities and specifically its
+novel character as an emerging segment within the insurance
+field as well as the absence of a specific regulatory framework that will govern its function. However, given the market’s immaturity and the stakeholders’ reservations regarding
+the possibility of over-regulation, it is considered preferable
+that any suggestions on policy-making focus mainly on the
+adoption of organisational initiatives that could contribute to
+resolving the market’s lack of clarity and coordination. Similarly, any legislative initiatives that are presented in the following sections are outlined under the same assumption,that
+of light-handed interim intervention.
+6.1. Data sharing as a response to lack of data on cyber
+incidents
+Enhancing the availability of data for cyber insurance underwriting is emerging as a top priority for all stakeholders in the
+insurance market. In the more mature US market, steps have
+already been taken to this direction. Specifically, insurers are
+required to use the NAIC Cyber Supplement to report their
+number of claims (both first-party and third-party), direct premiums written and earned, direct losses paid and incurred,
+and number of policies in-force.100 At EU level, even though
+there is no database for insurers to share data on incidents,
+claims and premiums, several initiatives have been undertaken so far towards strengthening information sharing on cyber incidents and enhancing the cooperation among Member
+States. At regulatory level, the introduction of mandatory incident reporting schemes within the European Union through
+the implementation of the NIS Directive and the GDPR,101 is
+anticipated to be a source of useful incident data for insurance companies. In addition to the notification process, the
+establishment of a network of the national CSIRTs (the CSIRTs
+Network) and the creation of the Cooperation Group by the
+NIS Directive will enhance the sharing of information on risks
+and incidents. Both the CSIRTs and the DPAs collect data on
+incidents that they handle and data on data breaches that are
+reported to them respectively,102 which may be used to generate statistics on trends in the types of cyber incidents.103
+100 The NAIC recently released its report on the 2020 Cyber
+Supplement, reflecting information filed by 577 U.S. insurers
+who submitted data for calendar year 2019 regarding cybersecurity insurance policies provided to businesses and individuals. The data showed a cyber insurance market of roughly
+$ 3.15 billion in direct written premiums. Insurers writing
+stand-alone cybersecurity insurance products reported approximately $1.91 billion in direct written premiums, and those
+writing cybersecurity insurance as part of a package policy reported roughly $1.24 billion in direct written premium. The
+report is available at https://content.naic.org/sites/default/files/
+inline-files/Cyber_Supplement_2019_Report_Final_1.pdf 101 See article 33 of the GDPR. 102 Under article 59 of the GDPR, each supervisory authority shall
+draw up an annual report on its activities, which may include a list
+of types of infringements notified and types of measures taken in
+accordance with Article 58.2 103 The CSIRTs Network provides a forum where members can cooperate, exchange information and build trust, https://www.enisa.
+europa.eu/topics/csirts-in-europe/csirts-network
+Data availability on cyber threats is also expected to be
+strengthened by the Information Sharing and Analysis Centres (ISACs) initiative.104 ISACs are non-profit organizations
+that provide a central resource for gathering information on
+cyber threats (in many cases to critical infrastructure) and allow two-way sharing of information between the private and
+the public sector about root causes, incidents and threats.105
+Both the Cybersecurity Act and the NIS Directive promote the
+creation of ISACs.106 Different models of ISACs exist in several
+EU Member States.107 Some are country-focused, while others
+are sector specific ISACs that encourage the cooperation on
+the sectorial level of critical infrastructure or essential/vital
+sector;108 in addition, there are international ISACs that bring
+together multi-stakeholder members from Europe and third
+countries.109
+Finally, there have also been a number of efforts within
+the insurance sector to make information on past cyber losses
+and claims available. The CRO Forum has recognised the importance of the ability to share cyber loss and digital event
+data across and within different sector stakeholders in order
+to build up a “loss data base”. To this effect, it has engaged
+in a multi-year effort to begin to address the lack of data for
+understanding digital risks and cyber exposure. In 2014, the
+work focused on identifying the gap and began with an effort
+104 ISACs were originally created in the USA. In 1997, after the first
+terrorist attacks on World Trade Center (1993) and Oklahoma City
+(1995), President Clinton appointed the President’s Commission
+on Critical Infrastructure Protection (PCCIP). Its objective was to
+identify the possibility of cooperation between public and private
+sector so that the US critical infrastructure could be properly protected. Chaired by Robert T. Marsh, the Commission presented the
+so called “Marsh report” with many recommendations about raising the level of critical infrastructure protection in the US. One of
+its main recommendations was to establish Information Sharing
+and Analysis Centres (ISACs), so as to build and strengthen cooperation between public administration and the industry. 105 At European level, Sectoral Information Sharing and Analysis
+Centres (ISACs) and corresponding CSIRTs can play a key role in
+preparing for and responding to cyber incidents. (See European
+Commission, Strengthening Europe’s Cyber Resilience System and
+Fostering a Competitive and Innovative Cybersecurity Industry,
+COM(2016) 410 final). 106 See recital 29 of the Act. 107 See ENISA’s report on Information Sharing and Analysis Centres (ISACs), 2017. 108 In the Netherlands, for instance, ISACs are established by
+the Government’s National Cyber Security Centre on a sector-bysector basis (water, energy, finance etc). In the United Kingdom, a
+very similar setup has been introduced, organised by the government’s Centre for the Protection of National Infrastructure (CPNI).
+In Germany, UP KRITIS is a large co-regulatory initiative in which
+critical infrastructure organisations participate (both private and
+public entities) Within UP KRITIS, information is shared based on
+the Traffic Light Protocol (TLP) as the information cannot always be
+made public. Information is shared via emails and standard templates provided by the Federal Office for Information Security (BSI). 109 EU FI- ISAC – a European ISAC that serves the financial sector,
+EE-ISAC – a European ISAC created in 2015 that serves the energy
+sector. European ISAC in Aviation sector – an ISAC under creation,
+initiated in February 2017 by the private sector in cooperation with
+ENISA and EASA (European Union Aviation Safety Agency).
+14 computer law & security review 43 (2021) 105627
+to develop a taxonomy, which was published in 2016,110 that
+set out a potential basis for a common language that could
+be used to describe digital events. In 2017, that taxonomy was
+tested through a pilot exercise to determine if the categorisation could be used to capture data on incidents in a way
+that could provide analytical value for companies while also
+sharing this data anonymously. In 2018 the CR-Forum cyber
+working group published a paper with the findings from that
+trial.111
+Another international think tank of the insurance industry,
+the Geneva Association, recently created a business plan and
+concept proposal for a cyber incident data exchange repository (CIDER) to enable insurance and reinsurance companies
+to share data. Another association that has been motivated
+to this direction is Insurance Europe, which has developed a
+template as a possible way to meet the obligation of data controllers to notify data breaches. The template is set up in such
+a way that the information gathered can be shared without
+the need to be anonymised or aggregated, as it will not be possible to identify a company through the information it submitted.112 Finally, EIOPA recently suggested that a European-wide
+cyber incident reporting database based on a common taxonomy could support the development of the European cyber insurance market.113
+The need for access to data on past incidents has been
+recognised by all the parties involved as a high priority. The
+process is still in its infancy and there are several difficulties
+that need to be tackled before a generally accepted framework
+for data sharing is implemented. The insurers’ unwillingness
+to share information for fear of disclosing their competitive
+advantage or compromising sensitive business information,
+the legal requirements imposed upon them under data protection and privacy legislation, or the specific rules imposed by
+insurance regulators and supervisors relevant to the handling
+of personal or confidential information in the context of the
+insurance contracts, are some of the obstacles that need to be
+overridden in order for a general solution for a cyber data exchange mechanism to be achieved. In this effort, ENISA, as the
+European Agency for Cybersecurity, could be the appropriate
+EU platform to initiate such discussions. This after all is suggested by the Cybersecurity Act itself, according to which supporting information sharing in and between sectors is listed
+among ENISA’s tasks.114
+110 See CRO Forum Concept Paper on a proposed categorisation methodology for cyber risk, 2016, available at
+https://www.thecroforum.org/wp-content/uploads/2016/06/
+ZRH-16-09033-P1_CRO_Forum_Cyber-Risk_web-2.pdf 111 See the CRO Forum’s report on Supporting on-going capture and sharing of digital event data, 2018, available at
+https://www.thecroforum.org/wp-content/uploads/2018/02/
+201802_CROF_Capture_and_sharing_of_digital_event_data.pdf 112 See Insurance Europe, template for data breach notifications, available at: https://www.insuranceeurope.eu/
+template-data-breach-notifications 113 See EIOPA’s report on Cyber risks for insurers – challenges and
+opportunities, 2019. 114 See article 6.2 of the Act.
+6.2. Harmonisation of the insurance market in terms of
+policy language: the benefits of standards and common
+terminology. What could the role of regulation be?
+In the previous sections of this analysis it was demonstrated
+how the lack of harmonisation in the terminology used by the
+insurers globally and the inconsistency in the types of cyber
+losses and offered coverages under different insurance policies have been an impediment to the market’s growth and maturity. The development of a standard policy language and the
+introduction of common terms and conditions in insurance
+policies could contribute to the achievement of harmonisation in the cyber insurance market. The role of regulation in
+supporting consistency is yet to be determined. Even though
+the need for standardisation is undisputable, there are voices
+in the industry that argue that any regulatory intervention
+aimed at achieving standard terms and conditions for cyber
+insurance could impede innovation in the market as risks become quickly outdated. On the other hand, it is understood
+that any guidance by governments, insurance market authorities, insurance supervisors and regulators could shed some
+light in the uncertain cyber insurance landscape, thus helping the market mature and grow. The market’s mixed feelings
+on this issue are depicted in a survey conducted by EIOPA on
+cyber regulation and the role of governments. Participants in
+the survey showed “a relative eagerness to welcome regulatory measures however such eagerness was accompanied by
+a clear urge of moderation regarding these measures in order
+to avoid the imposition of overly stringent requirements to the
+market.”.115
+Any regulatory initiatives should therefore aim at addressing the unclarity that characterises the cyber insurance market, mainly in terms of the types of cyber coverage offered by
+different insurers. This could be achieved through the suggestion of harmonisation and standardisation of coverage terms
+and conditions, through the provision of clarifications on outstanding issues (e.g. the insurability of fines and ransomware)
+as well as through the development of standards and good
+practices and the introduction of conducts of business, as
+moderate regulatory interventions. However, both the Financial Stability Board (FSB) and the International Association of
+Insurance Supervisors (IAIS) have so far refrained from developing concrete standards. The FSB has published a stocktake on cybersecurity regulatory and supervisory practices,116
+whereas IAIS117 has introduced its Insurance Core Principles
+and Common Framework for the Supervision of Internationally Active Insurance Groups. Similarly, the Geneva Association has indicated that it might be "important to estab115 See EIOPA’s report on Understanding Cyber Insurance - A
+Structured Dialogue with Insurance Companies, Section 4.2.1.,
+2018.
+116 See FSB’s Summary report on Financial Sector Cybersecurity
+Regulation, Guidance and Supervisory Practices, 2017, available at
+https://www.fsb.org/wp-content/uploads/P131017-1.pdf 117 IAIS is a voluntary membership organization of insurance supervisors and regulators from more than 200 jurisdictions, constituting 97% of the world’s insurance premiums. It is the international standard-setting body responsible for developing and assisting in the implementation of principles, standards and other
+supporting material for the supervision of the insurance sector.
+computer law & security review 43 (2021) 105627 15
+lish standards with regard to definitions, coverages and precoverage risk assessment" as a means to address challenges to
+the development of the cyber insurance market-particularly
+as new companies enter the market.118
+In terms of EU legislative initiatives, the importance of cyber insurance has already been officially recognised.119 However, a more concrete EU strategy that would indicate the benefits of cyber insurance in the achievement of a strong European security ecosystem and which would suggest specific
+measures that could contribute to the market’s consistency,
+is still missing. In this context, Governments could, for instance, recognise the potential contribution of insurance to
+risk management in national cyber security strategies. In addition, insurance organisations like EIOPA could contribute to
+the harmonisation efforts by providing guidance on issues of
+terminology, coverages and exclusions and by introducing organised practices to achieve standardisation. In the same context, a harmonised, EU-level supervisory framework for all insurance companies across countries could contribute to the
+market harmonisation. The existing Solvency II framework,
+the first harmonised, sound and robust prudential framework
+for insurance firms in the EU,120 could be more efficient if a
+new line of business codes covering cyber risks was introduced in its text. This need was highlighted by several insurance companies that participated in the survey conducted by
+EIOPA where it was suggested that the introduction of a new
+line of business code(s) in Solvency II, could help provide more
+insights into the quantitative dimension of cyber insurance.
+Finally, the review of the NIS Directive, which is currently under discussion, could be a solid ground for the introduction of
+an explicit reference to cyber insurance, perhaps as a mandatory part of any national cybersecurity policy.121 Even though
+this may sound premature and challenging, it would officially
+put in the map the role of insurance against cyber threats as
+an important element of any cyber resilience policy.
+6.3. How can the industry contribute to the market’s
+stability and growth: is stand-alone cyber insurance policies
+a possible way forward?
+As described in the beginning of this analysis, cyber insurance
+may be provided either as an add-on to traditional policies or
+as a stand-alone policy. Despite the apparent merits of buying stand-alone cyber coverage, that will be detailed below, its
+market penetration remains relatively low. In fact, net written premiums in the United States totalled only US$1.94 billion in 2018—of which 58 percent (US$1.12 billion) generated
+by stand-alone policies and the remaining 42 percent by cyber
+coverage included in standard commercial policies. In view of
+the market’s shortcomings with regard to its response to the
+118 See OECD’s report on Enhancing the Role of Insurance in Cyber
+Risk Management, Chapter 5, 2017 119 See section 2.1. above. 120 The Solvency 2 Directive (Directive 2009/138/EC), amended by
+the Omnibus 2 Directive (Directive 2014/51/EU) became fully applicable to European insurers and reinsurers on 1 January 2016. 121 On the proposal for a revised Directive on Security of Network
+and Information Systems (NIS 2 Directive) see https://digitalstrategy.ec.europa.eu/en/library/proposal-directive-measureshigh-common-level-cybersecurity-across-union.
+need for specific insurance products to address cyber risks
+coverage, the Deloitte center for Financial Services surveyed
+executives responsible for buying cyber insurance at middlemarket companies in an effort to understand what has discouraged them from purchasing standalone policies.122 Responses included the high cost of the insurance product, the
+low coverage limits, and the restrictive or unclear coverage
+terms and exclusions, the brokers’ unwillingness to promote
+this type of insurance to their customers as well as the latters’
+unawareness of the fact that cyber coverage is even available
+as a standalone policy.
+Other than providing greater clarity on coverage for cyber
+risks than the general language included in traditional policies, there are several advantages to covering cyber risks under a stand-alone policy. Companies are becoming more sophisticated and so are their needs when they address the consequences of a cyber incident. Given the constantly growing
+frequency and severity of these incidents, companies need a
+more concrete insurance framework that could operate as a
+safety net and which would help them feel more secure and
+more confident when they design their security and cyber resilience plan. Cyber focused insurance packages are already
+available in the market and they cover a broad range of cyber losses, including bodily injury, intellectual property theft,
+financial theft and fraud, reputational damage, cyber ransom
+and extortion, business interruption, data and software loss,
+breach of privacy compensation, and fines and penalties.123
+Furthermore, businesses could also benefit from other services offered by several insurance companies, in addition to
+coverage for the expenses incurred as a result of a cyber incident.These may include the provision of fraud specialists who
+can assist through the recovery process, active cyber monitoring to help prevent or minimise a cyber loss, forensic investigative services necessary to identify the source of any
+breach, legal assistance to help manage legal and regulatory
+requirements and potential liability public relations companies to minimise the reputational impact of cyber incidents
+and others.
+Offering stand-alone policies could prove beneficial for the
+insurers as well. Through the process of designing specific
+products many insurance companies have developed significant internal expertise and knowledge on this highly demanding type of risks. They can therefore offer a better service,
+starting by directing their customers to the right cyber coverage package. Creating policies specifically designed for such
+risks could also help insurers avoid potential claim disputes
+over “silent” coverage in a standard package policy, whereby
+cyber is neither specifically named nor specifically excluded.
+In addition, the exclusive focus on cyber oriented insurance
+products could accelerate the implementation of a common
+policy language, which is a basic barrier to the market’s development and a main reason for the insurers’ lack of trust when
+they design and sell cyber insurance. Insurers face therefore a major challenge to convince policyholders they need
+122 See Deloitte, Overcoming challenges to cyber insurance growth
+available at https://www2.deloitte.com/us/en/insights/industry/
+financial-services/cyber-insurance-market-growth.html 123 See OECD’s report on Enhancing the role of insurance in cyber
+risk management, Chapter 3.
+16 computer law & security review 43 (2021) 105627
+stand-alone coverage, at least to supplement, if not substitute,
+any cyber coverage they may already have in standard policies.
+To achieve this, they should address the issues of affordability
+and coverage limitations that seem to be an obstacle to procurement. The cost of cyber insurance coverage is high relative to other types of insurance coverage - it has been reported
+that cyber insurance coverage for the same amount is three
+times more expensive than general liability coverage and six
+times more expensive than property coverage.124 The level of
+future demand on stand-alone cyber insurance will depend
+on the frequency of high-profile cyber incidents as well as on
+the evolving legislative and regulatory environment for privacy protections in many countries. The implementation of
+the GDPR and the NIS Directive in the EU could lead to significant growth of an independent cyber insurance market. In
+practice, the new security and notification requirements imposed to organisations by both legal instruments have highlighted the need for a higher level of data and cyber security
+risk management within the organisations’ structures. At the
+same time though these requirements are accompanied by
+significant fines and sanctions when not observed. On this
+basis, companies of all sizes need to realise that insurance
+can play a vital role to mitigate cyber risk. Stand-alone cyber policies in particular are expected to contribute to this
+effect by offering specialised insurance products to address,
+among others, the costs arising from security and notifications breaches.125
+7. Conclusion
+Over the last years the increasing frequency and severity of
+cyber-attacks has highlighted the need for a sustainable solution in terms of insurance coverage for cyber losses. Even
+though insurance should not be perceived as a substitute for
+investing in cybersecurity, it may help companies build their
+cyber resilience and, most importantly, it provides them with
+a safety net against the consequences of risks that are unpredictable and in many cases non-affordable. Taking into consideration these parameters the insurance industry has made
+huge efforts over the last few years towards the direction of
+identifying the best vehicle to provide its customers with coverage for cyber losses. Either as an endorsement in traditional
+insurance policies or as a standalone contract, cyber insurance has evolved into a separate segment of the insurance
+market that is constantly growing.
+Despite the progress made so far though, the cyber insurance market has not yet reached satisfactory levels of matu124 See EIOPA’s report on Understanding Cyber Insurance - A
+Structured Dialogue with Insurance Companies, Section 3.1. 125 The average cost of a data breach is 3,86 million as of
+2020. https://www.forbes.com/sites/chuckbrooks/2021/03/02/
+alarming-cybersecurity-stats——-what-you-need-to-know-for-2021/
+?sh=2a2b966c58d3
+rity whereas the penetration percentage is still relatively low
+compared to other insurance policies. The insurance industry
+is confronted with many challenges that are mainly due to the
+special nature of cyber risks and the unclarity that surrounds
+all cyber related terms regardless of the sector and context
+they are being used in. Lack of commonality in the insurance
+policy language worldwide, lack of historic data on past incidents, and variations in coverage are some of the obstacles
+the market needs to overcome. In this effort, the US insurance
+market, that has been dealing with these issues for over two
+decades already, could be used as an example on how case law
+together with the contribution of the industry have shed some
+light to disputed terms and have accordingly succeeded into
+better level of commonality in the language used by different
+insurers.
+At EU level, the need for cyber insurance has been recognised in official EU documents whereas several EU organisations, from the European Commission to ENISA and EIOPA,
+have undertaken several initiatives to address the challenges
+the industry is currently faced with. Data-sharing mechanisms and the introduction of common language and standard terms are some of the solutions that have been examined in this context. Regulatory intervention is also on the table, even though it has received mixed reactions from market
+stakeholders. All the initiatives undertaken so far have been
+in the right direction, however, given the market’s particularities, the industry itself should stand up to the challenge and
+lead the way to a standalone cyber insurance template. As cyber incidents increase and become more complicated and severe and as demand for coverage for fines and penalties that
+are imposed to organisations in the context of the GDPR or the
+NIS Directive grows, standalone cyber insurance policies seem
+the best way forward for a sustainable and effective cyber insurance market.
+Declaration of Competing Interest
+The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+The authors declare the following financial interests/personal relationships which may be considered as
+potential competing interests:
+Data for reference
+No data was used for the research described in the article.

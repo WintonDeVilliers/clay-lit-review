@@ -1,0 +1,64 @@
+# Literature Review: Cybersecurity Awareness in the Context of the Industrial Internet of Things
+
+## Abstract
+
+This literature review aims to explore the topic of cybersecurity awareness in the context of the Industrial Internet of Things (IIoT). The Industrial Internet of Things has gained significant traction in recent years, and with increased connectivity and data exchange, cybersecurity becomes a critical concern. The review synthesizes various research findings to provide insights into the current state of cybersecurity awareness in the IIoT domain. The findings highlight the importance of information security awareness and propose techniques for improving cybersecurity in the industry. Furthermore, the literature review identifies knowledge gaps and suggests potential future research directions for enhancing cybersecurity awareness in the IIoT.
+
+## 1. Introduction
+
+The Industrial Internet of Things (IIoT) refers to the integration of Internet of Things (IoT) technologies into industrial processes and systems. It enables the collection, analysis, and utilization of data from various interconnected devices and sensors to optimize industrial operations. However, this increased connectivity also poses significant cybersecurity risks, as industrial systems become potential targets for malicious attacks. Therefore, cybersecurity awareness in the context of the IIoT is crucial to safeguard critical assets and ensure the integrity and availability of industrial processes.
+
+## 2. Research Method
+
+To conduct this literature review, a systematic approach was employed to identify relevant research arti- cles. The search was conducted in academic databases, including ScienceDirect and IEEE Xplore, using keywords such as "cybersecurity awareness," "information security awareness," "industrial internet of things," and "industry 4.0." The selected articles were then analyzed, and their findings were synthesized to provide a comprehensive overview of the current research landscape on cybersecurity awareness in the IIoT domain.
+
+## Research Findings
+
+### Research Finding 1: Industrial Big Data Pipeline for Data-Driven Analytics Maintenance Applications O'Donovan et al. (2015) present a study on an industrial big data pipeline for data-driven analytics maintenance applications in large-scale smart manufacturing facilities.
+
+The research focuses on the implementation of data analytics techniques to improve maintenance operations and optimize asset management in industrial environments. While the study does not directly address cybersecurity awareness, it highlights the importance of data security and privacy in the context of industrial data analytics.
+
+### Research Finding 2: Cybersecurity in the Context of Industry 4.0
+
+Corallo et al. (2020) provide insights into cybersecurity in the context of Industry 4.0. The study presents a structured classification of critical assets and business impacts related to cybersecurity in the industry. It emphasizes the need for proactive cybersecurity measures and highlights the potential risks and consequences of cyber threats in industrial settings. Although the research does not specifically focus on the IIoT, it contributes to the understanding of cybersecurity challenges in the broader industrial context.
+
+### Research Finding 3: Review of Cybersecurity Issues in Industrial Critical Infrastructure
+
+Ani et al. (2017) conduct a comprehensive review of cybersecurity issues in industrial critical infra- structure, with a specific focus on the manufacturing sector. The study identifies key vulnerabilities and threats in industrial systems and highlights the importance of cybersecurity awareness and preparedness. Although the research does not explicitly address the IIoT, it emphasizes the significance of securing industrial systems against cyber attacks.
+
+### Research Finding 4: Differentiating Digital Twin from Digital Shadow
+
+Sepasgozar (2021) elucidates the differentiation between digital twin and digital shadow concepts and their implications for a smart, sustainable built environment. While the study does not directly relate to cybersecurity awareness in the IIoT, it highlights the need for secure and resilient digital infrastructures to support the integration of IoT technologies in the industry.
+
+### Research Finding 5: Recent Advances on Federated Learning for Cybersecurity and Cybersecurity for Federated Learning for Internet of Things
+
+Ghimire and Rawat (2022) present recent advances in federated learning for cybersecurity and cybersecu- rity for federated learning in the Internet of Things (IoT) domain. While the study does not focus explicitly on the IIoT, it highlights the challenges and potential solutions for securing IoT devices and networks. The findings emphasize the importance of cybersecurity awareness and robust security measures in IoT deployments, including the IIoT.
+
+### Research Finding 6: Human-Centered IoT-Connected Smart Labels for the Industry 4.0 Fernández-Caramés and Fraga-Lamas (2018) review human-centered IoT-connected smart labels for the Industry 4.0. The study focuses on the development of smart labels that embed IoT technologies to enhance traceability and product information in industrial processes. Although the research does not directly address cybersecurity awareness in the IIoT, it emphasizes the need for secure and privacy-preserving IoT solutions in the industry.
+
+## Knowledge Gaps and Future Research Directions
+
+Based on the reviewed research findings, several knowledge gaps and potential future research directions can be identified in the domain of cybersecurity awareness in the IIoT:
+
+1. **Integration of Cybersecurity Awareness in IIoT Frameworks**: Future research can focus on devel- oping comprehensive frameworks that integrate cybersecurity awareness as a foundational element in IIoT deployments. Such frameworks would provide guidelines and best practices for industrial organizations to enhance their cybersecurity posture.
+2. **Evaluation of Cybersecurity Awareness Techniques**: There is a need for empirical studies to evaluate the effectiveness of different cybersecurity awareness techniques in the IIoT context. Research should explore the most suitable approaches for raising awareness and educating stakeholders about cybersecurity risks and mitigation strategies.
+3. **Cybersecurity Awareness Training and Education**: Future research can delve into the design
+   and implementation of cybersecurity awareness training programs tailored specifically for industrial professionals and stakeholders. These programs should address the unique challenges and requirements of the IIoT domain.
+4. **Secure Design and Integration of IoT Devices**: Research should focus on developing secure design principles and frameworks for IoT devices used in industrial settings. This includes the implementation of secure authentication, encryption, and access control mechanisms to mitigate the risk of unauthorized access and tampering.
+5. **Cybersecurity Incident Response in the IIoT**: Future research can explore effective incident response strategies and protocols for cyber attacks targeting the IIoT. This includes the development of real-time monitoring and detection mechanisms to identify and mitigate cybersecurity incidents promptly.
+6. **Cybersecurity Risk Assessment in the IIoT**: Research should investigate methodologies and tools for conducting comprehensive cybersecurity risk assessments in the IIoT. This would enable industrial organizations to identify and prioritize potential threats and vulnerabilities, facilitating the development of targeted security measures.
+   In conclusion, this literature review provides a comprehensive overview of the current state of cyberse- curity awareness in the context of the IIoT. The findings highlight the importance of information security awareness and propose techniques for improving cybersecurity in the industry. Furthermore, the review
+   3/ 4
+
+identifies knowledge gaps and suggests potential future research directions for enhancing cybersecurity awareness in the IIoT. By addressing these gaps and pursuing the suggested research directions, industrial organizations can strengthen their cybersecurity defenses and ensure the secure and reliable operation of their IIoT systems.
+
+## References:
+
+1. Sepasgozar, S.. (2021). Differentiating Digital Twin from Digital Shadow: Elucidating a Par-
+   adigm Shift to Expedite a Smart, Sustainable Built Environment. <i>Buildings</i> , 11 , 151 . http://doi.org/10.3390/BUILDINGS11040151
+2. Ghimire, Bimal., & Rawat, D.. (2022). Recent Advances on Federated Learning for Cybersecurity and Cybersecurity for Federated Learning for Internet of Things. <i>IEEE Internet of Things Journal</i> , 9 , 8229-8249 . http://doi.org/10.1109/jiot.2022.3150363
+3. Corallo, A.., Lazoi, M.., & Lezzi, M.. (2020). Cybersecurity in the context of industry 4.0:
+   A structured classification of critical assets and business impacts. <i>Comput. Ind.</i> , 114 . http://doi.org/10.1016/j.compind.2019.103165
+4. O'Donovan, P.., Leahy, K.., Bruton, K.., & O’Sullivan, D.. (2015). An industrial big data pipeline for data-driven analytics maintenance applications in large-scale smart manufacturing facilities. <i>Journal of Big Data</i> , 2 , 1-26 . http://doi.org/10.1186/s40537-015-0034-z
+5. Fernández-Caramés, T.., & Fraga-Lamas, Paula. (2018). A Review on Human-Centered IoT-Connected Smart Labels for the Industry 4.0. <i>IEEE Access</i> , 6 , 25939-25957 . http://doi.org/10.1109/AC- CESS.2018.2833501
+6. Ani, U.., He, Hongmei., & Tiwari, A.. (2017). Review of cybersecurity issues in industrial critical infrastructure: manufacturing in perspective. <i>Journal of Cyber Security Technology</i> , 1 , 32 - 74 . http://doi.org/10.1080/23742917.2016.1252211

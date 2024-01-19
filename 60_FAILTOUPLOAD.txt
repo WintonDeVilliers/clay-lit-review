@@ -1,0 +1,1851 @@
+International Journal of Disaster Risk Reduction 51 (2020) 101851
+Available online 14 September 2020
+Disaster management digitally transformed: Exploring the impact and key
+determinants from the UK national disaster management experience
+Yousuf Salim AlHinai
+Sultan Qaboos University, Oman
+ARTICLE INFO
+Keywords:
+Disaster risk reduction
+Disaster and crisis management
+Digital transformation
+Technology innovation
+Adoption
+TOE Framework
+Sendai
+ABSTRACT
+With the increasing social and economic devastation caused by disasters around the world, the international
+community and country-level National Disaster Management (NDM) authorities have placed improving their
+ways to mitigate, prepare for, respond to, and recover from disasters as a top priority. Technological advancements and the 4th Industrial Revolution are critical tools to help achieve this. However, they also present many
+challenges to traditional NDM systems by altering the fundamental operational, organizational, and social dynamics of conventional disaster management. Currently, there is a lack of research that studies these aspects
+beyond technology and examines the impact of digital transformation on the full life cycle of disaster management on the national level. Therefore, this research fills this gap by integrating interdisciplinary concepts
+from different research fields including Disaster Management, Information Systems, and Business Management to
+understand the impact and determinants of digital transformation in NDM systems. To achieve this, the research
+uses the Technology-Organization-Environment (TOE) framework and conducts semi-structured interviews with
+UK NDM experts. The results show that the impact of digital transformation on NDM is profound, paradoxical,
+multi-directional, and driven by a multitude of driving forces. This research makes many significant contributions to research and practice. Theoretically, this research expands the TOE framework beyond its original underpinnings by uncovering a new set of disaster-context determinants. It also presents an innovative Layered
+Cake FAST (Foundations-Approach-Strategy-Technology) Model that offers a unique roadmap for NDM on how
+to handle its digital transformation journey. Practically, the research presents several sets of useful expertrecommended actions.
+1. Introduction
+With the increasing frequency and severity of disasters [1] and the
+associated social and economic impacts on all countries, the international community has placed improving the ways through which disasters are managed a key priority. The Sendai Framework for Disaster
+Risk Reduction 2015–2030 framework has set four main priorities for
+governments to focus on: 1) understanding disaster risk; 2) strengthening disaster risk governance to manage risks; 3) investing in disaster
+risk reduction for resilience; and 4) enhancing disaster preparedness for
+effective response and ‘building back better’ in recovery, rehabilitation,
+and reconstruction [2]. The framework further specified a set of
+required actions for each of these priorities, and emphasized the role of
+technology as a key strategic and operational enabler. For example, in
+understanding disaster risk, actions required include:
+“to promote investments in innovation and technology development
+in long-term, multi-hazard and solution-driven research in disaster
+risk management to address gaps, obstacles, interdependencies; and
+social, economic, educational, and environmental challenges and
+disaster risks” (Action K - p.15), and
+“identify research and technology gaps and set recommendations for
+research priority areas in disaster risk reduction; promote and support the availability and application of science and technology to
+decision-making” (Action G - p.16)
+The Coronavirus (COVIC-19) pandemic is a living case to prove how
+technology can make substantial improvements to countries response to
+disasters in many forms such as more effective testing and disease
+detection [3], efficient and streamlined policy and decision making [4],
+flexible and distributed training and education [5,6], and as a creative
+remedy for imposed work and social distancing [7]. Therefore, the role
+of technology is operationally as well as strategically critical for
+E-mail addresses: yalhinai@gmail.com, yalhinai@squ.edu.om.
+Contents lists available at ScienceDirect
+International Journal of Disaster Risk Reduction
+journal homepage: http://www.elsevier.com/locate/ijdrr
+https://doi.org/10.1016/j.ijdrr.2020.101851
+Received 23 March 2020; Received in revised form 30 August 2020; Accepted 2 September 2020 
+International Journal of Disaster Risk Reduction 51 (2020) 101851
+2
+optimizing National Disaster Management (NDM) in risk reduction,
+mitigation, preparedness, response, and recovery. Digital Transformation (DT) is a term used to indicate all the unprecedented dynamics in the operational (e.g. digitization of tasks using technologies),
+organizational (e.g. change of processes and creation of new business
+models and inter-organizational relationships), and social (e.g. effect on
+human/customer/beneficiary life, expectations, and experiences) that
+new technologies provide or impose on disaster management organizations [8]. As technological innovations advance, NDM systems will
+naturally need to adapt and change. However, this might not be a simple
+task given the multi-agency multi-layer (e.g. gold-silver-bronze layers)
+nature of national disaster management structures.
+The literature on the use of technology for disaster management
+shows a growing interest in the field. However, it also shows that the
+main focus of the contemporary literature is on the technology-specific
+opportunities and challenges of enhancing disaster management by
+investigating technology-specific, phase-specific and/or task-specific
+aspects of the use of technology for disaster management. While this
+offers critical theoretical and practical contributions to disaster management, it remains quite shortsighted and non-strategic for two reasons. First, technologies change quickly and those of today will soon be
+replaced by new ones, which will make a large part of this literature
+quite irrelevant. Second, regardless of what technology is discussed and
+how it can help enhance specific tasks/aspects of disaster management,
+it is the overall organizational mindset, strategic priority, and institutional readiness for the new digital era that will ultimately determine
+whether a specific technology or group of technologies will ever be
+successful. There is a clear gap in the literature is this area [9]. More
+explicitly, there is a need for the literature to focus on the structural and
+strategic transformation that new technology brings to national disaster
+management systems and to devise new models and frameworks on how
+these systems can adapt and utilize digital transformation to seize
+forthcoming opportunities and resolve challenges.
+Filling this gap is important for several reasons. First, the 4th Industrial Revolution drives the fusion of technologies and the blurring of
+borders between physical and digital environments causing impacts on
+both personal and professional lives [10], thus redefining the underlying
+fundamentals of society, work, organizations, industries, and relationships [11]. In this new digital era, more than 20.4 billion devices will be
+connected to the Internet of Things (IoT) and 90% of automobiles will be
+connected to the Internet by 2020, where companies will invest $15
+trillion in digital technologies between 2017 and 2025 yielding an expected $14 trillion to the global economy by 2030 [12]. Therefore,
+entire industries, organizations, and societies are believed to be
+completely transformed - all of which are key to successful NDM. Filling
+this gap will help “examine the intersecting trajectories of social, technical, and information perspectives during the full life cycle of a crisis:
+preparation, response, and recovery” [13]; p.1).
+Second, from a strategic perspective, digital transformation is a
+major “shock to what may be a reasonably functioning system” [14];
+p.20). Therefore, digital transformation is about strategy, not just
+technology [15]. Recent research from the MIT Sloan School of Management emphasizes that “Almost no organization is sheltered from the
+competitive disruption brought by one of the widespread adoption of
+digital technologies” [16]; p.2) including public authorities and governments [14]. To adapt to this new digital era, organizations of all types
+will have to take proactive steps to adjust their knowledge, skillset,
+culture, and internal and external structures and relationships [17]. For
+NDM as a complex multi-organizational multi-layer structure, proactivity in this area requires a deeper understanding of the determinants
+and potential implications of digital transformation. This will help NDM
+to develop its strategies to cope with the inevitable changes, seize critical opportunities, and minimize the threats of the new digital era.
+Third, NDM is primarily a government-led [18] multi-organizational
+structure [19] which makes it a highly collaborative and
+stakeholder-dependent system [20–22]. So, while governments can
+often assume a national leadership position in NDM structures, their
+success is highly bound by explicit and implicit exchanges of interests
+with other industries such as transportation (land, air, and sea), infrastructure (roads, water, electricity, sewage, and other municipal services), tourism and hospitality, financial industry, Small and Medium
+Enterprises (SME), and logistics. As a result, NDM not only needs to
+understand how digital transformation is going to impact them directly
+but also how it is going to impact other collaborating stakeholders/industries and therefore influence the dynamics of its organizational relationships with them.
+On such grounds, this research attempts to fill the aforementioned
+gap by integrating interdisciplinary concepts and understandings from
+different research fields to enhance our understanding of the impact of
+digital transformation on NDM and to uncover the determinants that can
+either enable or hinder the digital transformation process for NDM. This
+will help governments to prioritize, strategize, and set the foundations
+for the new digital era in their NDM systems to cope with the developments, seize the opportunities, and deal with threats.
+This research borrows its theoretical foundations from the innovation adoption research in the Information Systems field. More specifically, it uses the Technology-Organization-Environment (TOE)
+framework [23,24]. This is because digital transformation is essentially
+an innovation process for which organizations need to adopt the right
+mindset (e.g. leadership and culture), assets (e.g. physical and intellectual) and tools (e.g. technology, processes, and strategies) and environment (e.g. inter-organizational relationships, regulatory
+frameworks, and policymaking). In short, the TOE specifies that, in
+organizational settings, three important contexts influence the
+decision-making processes for innovation adoption including the technology, the organization, and the environment. The TOE and its three
+contexts are used in this article to better understand the contextual
+impact and determinants of digital transformation in NDM systems. To
+achieve this, a cross-sectional research design is used to conduct
+semi-structured interviews with m NDM experts from the United
+Kingdom.
+This paper is organized as follows. Firstly it establishes the conceptual context and discusses relevant literature on digital transformation
+and disaster management, and highlights the gap that this research
+endeavors to fill. It then, introduces and justifies the conceptual context
+and theoretical grounds for this research and raises key conceptual ideas
+towards fulfilling its aims. After that, it specifies and justifies the
+research design, data collection method, sample, and the analytical
+approach of the empirical study. Finally, it presents the analysis of the
+expert interviews and discusses the results vis-a-vis the research questions, and provides answers to the research questions, offers recommendations, and highlights the contributions, limitations, and avenues
+for future research.
+2. Literature review
+2.1. Digital transformation
+For a long time, organizations of all kinds have invested in and
+adopted technology mainly to automate tasks and processes. However,
+the advent of the 4th Industrial Revolution created an impact that goes
+beyond the digitization of tasks or the digitalization of specific processes. A detailed discussion of the specifics of individual 4th Industrial
+Revolution technologies is outside the focus of this study. However, to
+name a few enabling technological innovations, these include: Artificial
+Intelligence (AI) [25,26]; Machine Learning [27]; Nanotechnology [28,
+29]; Internet of Things (IoT) [30]; Robotics and Internet of Autonomous
+Things (IoAT) [31] such as self-navigating drones, autonomous vehicles,
+home robotics, and information-collection and target-attack robotics;
+Blockchain [32] with its transformation applications in traditional industries like healthcare [33,34], construction [35], civilian and military
+air traffic management [36], manufacturing [37], financial services
+Y.S. AlHinai 
+International Journal of Disaster Risk Reduction 51 (2020) 101851
+3
+[38], travel and tourism [39] etc.; Fifth Generation Digital Cellular
+Networks (5G) [40]; Arandjelovic R. 2018 [41]; Big Data and Data
+Analytics [42,43] and its uses in healthcare [44], product design,
+manufacturing and services [45], security and privacy protection [46],
+and so on; and 3D Printing [47]; and many others.
+Despite the specific technologies, the new digital era promises organizations of all types (commercial, public, government, and nonprofit) a digital transformation that will unleash unprecedented routes
+to conducting business, offering products and services, managing organizational relationships, and maximizing value for beneficiaries [16].
+Several definitions of digital transformation exist in the literature
+[8]. One of the distinctions is how these various definitions considered
+digital transformation as an internal or as an external dynamic to organizations. For example, on the one hand, the term is defined as the
+intra-organization reform caused by new digital technologies to enable
+“major business improvements” including new business models [16];
+p.2), innovation and creativity stimuli [48], and organizational
+competitiveness [49]; p.7), and better internal performance [50]; p.5).
+On the other hand, others emphasize a more general and strategic
+perspective beyond organizational boundaries highlighting the effects of
+digital transformation on politics, business, social issues [15,51,52], and
+all “other aspects of human life” [53]; p.689).
+To synthesize, most definitions commonly share at least three elements [8]; p.417): (1) Technological – digital transformation is mainly a
+technology-driven phenomenon; (2) Organizational – digital transformation requires and mandates a multi-directional change to organizational structures, processes, and business models; and (3) Social –
+digital transformation is a phenomenon that has an impact on all aspects
+of human and social life. This article builds on this holistic notion of
+digital transformation (over and above the technology itself) to fulfill its
+aims. It, therefore, takes a holistic, strategic, and organizational view
+into digital transformation rather than discussing the impact of any
+specific new technology.
+Digital transformation and new digital technologies have redefined
+and restructured whole industries. A clear illustration of this is the birth
+of a new type of entities called ‘born-digital’ [54] which is “a generation
+of organizations whose operating models and capabilities are based on
+exploiting internet-era information and digital technologies as a core
+competency” [55] that redefine value landscapes. Examples of these
+include how born-digital organizations like Uber, Grab, and Kareem
+[56] transformed the global transportation industry [57]; how Airbnb,
+Booking.com, Expedia, and others [58,59] restructured the hotel and
+hospitality value chains; how Twitter and Facebook redefined journalism and press industry; how Tesla is revolutionizing the automobile
+industry; and how societies, people, and social interactions, in general,
+are being transformed by organizations like Instagram, Snapchat, and
+TikTok.
+An exhaustive list of every example where digital transformation has
+altered fundamental aspects of life, work, interactions, and relationships
+for individuals, communities, organizations, industries, and nations will
+be too long to list in this article. Yet the main point here is that digital
+transformation is an inevitable phenomenon that will impact all social
+and organizational structures, and NDM is no exception. Indeed, just as
+human interaction continues to move toward greater reliance on a variety of digital platforms, so too will there be expectations that NDM
+responds with agility.
+To capitalize on the opportunities and requirements that digital
+transformation brings through its focus, goals, activities, tools, and
+challenges, it is not enough to simply introduce technology [60].
+Instead, it is imperative to reconsider or redefine some of the underlying
+strategic fundamentals, making changes to key processes, and leading a
+multi-directional change in the organizational structure [61]. This requires taking calculated steps towards embracing a strategic digital
+endeavor by the organization, reexamining the surrounding environments, studying beneficiary targets, instilling cultural change, and
+introducing or retraining necessary intellects [62]. Generally, digital
+transformation is a technology-driven ongoing adjustment and adaptation process for organizations, industries, and society where new digital
+assets such as ubiquitous and embedded connectivity and computing
+technologies will redefine value streams and distribution channels [63,
+64]. The present research builds on this foundation to help NDM systems
+better understand the implications of digital transformation and establish their outlook into the fast-evolving future. As a starting point, the
+following reviews the contemporary literature that studied technology
+in the context of disaster management.
+2.2. Technology and disaster management
+There is quite a large body of literature investigating technology in
+the context of disaster management. However, a synthesis of the existing
+literature clearly shows that the majority of this literature is technologyspecific, phase-specific, or task-specific. Generally, most studies followed one of two main streams: 1) focusing on the uses, advantages, and
+opportunities that specific technologies present for an improved (task)
+performance during (a phase of) disaster management; or 2) focusing on
+the issues, implications, challenges, and concerns that specific technology presents to (a phase of) disaster management. The following sections briefly exhibit these two literature streams.
+2.2.1. Stream one: the opportunities
+Schempp et al. [65] discussed how leveraging traditional sources of
+data (authoritative data) with new sources (social media) helps improve
+the distribution of supplies between hospitals, rescue centers, and rescue
+demand points during disaster response. Besides, Kirac and Milburn [66]
+used the 2010 Haiti earthquake as a case to investigate and develop a
+framework for the value of social data and the tradeoff between the
+timeliness and accuracy of social data for disaster response logistics
+planning. Also, Ragini et al. [67] proposed a methodological model of
+how big data created by social and mobile networks, data mining
+techniques, machine learning, and sentiment analysis can provide
+timely, strategic, and effective disaster response and recovery. Further,
+Xu et al. [68] used the Internet of Things (IoT) technology and mobile
+cloud computing platforms to create an optimal evacuation planning
+system for rapid evacuation of large populations to achieve improved
+convergence rates, shortened evacuation route lengths and evacuation
+time, and balanced capacity in surrounding shelters. Also, Bennett et al.
+[69] investigated how future wireless technologies enhance disaster
+mitigation and response efforts for people with disabilities.
+Furthermore, in the context of recovery, Nawari and Ravindran [70]
+investigated how digital technologies such as of Blockchain, smart
+contracts, and Building Information Modeling (BIM) creates integrated,
+self-regulating, self-monitoring, and cyber-resilient transactional operations to automate the building permitting process in the recovery and
+rebuilding phase of a natural disaster. Also, Babbitt [71] discussed how
+new ‘clean’ technological innovations provide creative and efficient
+solutions to manage the social, economic, and environmental challenges
+that result from post-disaster debris. Moreover, Bierweiler [72] discussed how big data and advanced data analytics using enterprise open
+source solutions give disaster management agencies invaluable insights
+and actionable intelligence for preparing and responding to natural disasters. Also, Kim et al. [73] demonstrated how the Internet of Things
+(IoT) technology, sensor networks, and robotics improve the response to
+tunnel fire disasters (especially in tunnels longer than 1 km) by allowing
+accurate detection, search, and rescue capabilities for disaster response.
+Alsamhi et al. [74] discussed how disaster communication augmented
+by Tethered Balloon Technology provides enhanced capabilities for
+preparedness, detection, mitigation, and response to various types of
+disasters (except storms). Garba and Ahmadu [75] demonstrated the
+role that ICT plays in ensuring responsible and responsive collection and
+dissemination of information and synergizing the activities among
+disaster management stakeholders in Nigeria by proposing an integrated
+technology information system. Also, Hapuarachchi [76] examined the
+Y.S. AlHinai 
+International Journal of Disaster Risk Reduction 51 (2020) 101851
+4
+usage of geographical information and technology in disaster management at the sub-national level in Sri Lanka and found that there is
+limited use of this technology despite the advantages it provides to national disaster managers. Further, Diwakar et al. [77] discussed how
+using space technology improves disaster mitigation and response in
+India.
+2.2.2. Stream two: the challenges
+Seba et al. [78] investigated the security concerns from the use of
+wireless technology in disaster situations and how these networks
+resolve the urgent need for sensitive and real-time information exchange
+in chaotic situations; they also pose threats to disaster management
+systems. In addition, Wang et al. [79] investigated how the disparities in
+social media use among various vulnerable areas and community groups
+surrounding disasters can result in some groups being left behind in
+disaster response due to their lower level of digital activity on social
+media. Also, using the case of 2016 Wuhan rainstorm and flood disaster
+in China, Fang et al. [80] demonstrated how the discrepancy between
+what people emotionally and psychologically express on social media
+and their actual physical activity flow during disasters can pose a great
+information accuracy challenge for disaster management agencies.
+Furthermore, Faruk et al. [81] emphasized how the reliance on telecommunications infrastructure during disasters and the failure of these
+networks can lead to great losses which makes the decision by the
+government to choose a certain network very critical for communication
+continuity during disasters. This study stressed the importance of
+aligning national network deployment with existing commercial deployments to ensure sustainability of communications. Moreover,
+Chernobrov [82] investigated how digital technologies and big data
+paved the way for digital volunteers as a new group of participants in
+disaster management and how this has transformed humanitarian crises
+response, altered the role and power dynamics for disaster management,
+and broke traditional constraints of the aid-media relationships through
+citizen journalism, and presented new challenges to disaster
+management.
+In the context of security environment and social media, Bergeron
+[83] discussed how the new interconnected digital world while offering
+unprecedented degrees of convenience, capability, and comfort to our
+modern quality of life, it also introduces significant threats and vulnerabilities when things fall apart or fail in disaster situations; and
+makes a call to address them. Further, Alshammari et al. [84] focused on
+the use of modern cloud computing technologies and the concerns of
+data reliability and cost of storage as a result of multiple replications of
+data; and proposed a Preventive Disaster Recovery Plan with Minimum
+Replica (PDRPMR) mechanism which can be a cost-effective solution to
+reduce the number of replications in the cloud to be one or two replicas
+only without compromising the data reliability. In addition, Youngblood
+and Youngblood [85] studied how the use of multi-agency websites
+powered with social networking data by Emergency Management
+Agencies (EMAs) on local and state levels, no matter how technologically advanced, can prove useless without rigorous functionality, usability, and accessibility capabilities and user trust over and above the
+focus on content development. Also, Paul and Sosale [86] discussed how
+new digital technologies, including social media and mobile phones,
+enabled citizen journalism in the 2015 South Indian flooding disaster;
+and how despite the vast amounts of data published by citizen witnesses,
+these technologies were incapable to sufficiently challenge caste, class,
+and urban-rural inequalities in disaster response. Furthermore, Alexandru et al. [87] highlighted the main features of the new emerging
+smart citizens and smart cities enabled by technologies such as the
+Internet of Things (IoT) and this has created more empowered yet more
+demanding citizens for disaster management.
+As mentioned earlier, while these two streams have critical theoretical and practical contributions for disaster management, this article
+aims to go beyond this technology-specific, phase-specific, task-specific
+opportunity vs. challenge focus and take a more strategic, long-term
+organizational perspective to help NDM better plan for the unavoidable digitally transformed future. To do this, it is important to first
+discuss and establish the relevance of digital transformation to NDM as
+an organizational system, as discussed next.
+2.3. Digital transformation and national disaster management
+The relevance of digital transformation for NDM can be established
+by considering a typical entity-relationship network1 in which NDM
+plans and operates (Fig. 1).
+As the figure above demonstrates, NDM encompasses a multiplicity
+of stakeholders to respond to disasters and protect people, property, and
+places. To effectively manage disasters, NDM cooperates and collaborates with public, private, non-profit organizations (NGOs), and other
+governments. In light of this, it is critical to understand how digital
+transformation will influence NDM for the following reasons.
+Firstly, digital transformation is changing the very nature of how we
+understand and define disasters. In the new digital era, technology
+changes the ways hazards are mitigated, prepared for, responded to, and
+recovered from. For example, the risks of flooding could be reduced by
+capitalizing on the timely and real-time information that new mobile
+data technologies offer to better understanding peoples’ movement and
+behavior and enhance awareness and information sharing [88].
+Furthermore, new digital technologies can bring new and unprecedented hazards and risks such as technology misuse (e.g. cybercrimes,
+cyber terrorism, and cybersecurity issues), distortion of communication
+and information (e.g. hacking and spreading of rumors), and rapidly
+outdating governments’ legal and regulatory frameworks. In this case,
+the greatest risk that new digital technologies bring to NDM is when
+responsible entities are unable to cope with the changes and find
+adaptive ways of thinking, planning, and working with irrelevant or
+outdated approaches.
+Secondly, digital transformation is changing people and communities that NDM serves. People are now dynamically connected and
+Fig. 1. Entity-Relationship Network for NDM (Source: author).
+1 This shows a general, non-exhaustive representation.
+Y.S. AlHinai 
+International Journal of Disaster Risk Reduction 51 (2020) 101851
+5
+networking in ways that are changing their relationships with organizations and with each other [89]. Because of new digital technologies,
+people’s perceptions, evaluations, and expectations are rapidly changing. For example, more and more individuals are heading to social media
+to express their needs, opinions, descriptions, and reporting emergencies
+and levels of the urgency of their situations [65]. Whole generations of
+“born digital” or “digital natives” are evolving [90]. The preferences of
+these generations in terms of ways to communicate preferred sources,
+types, and formats of trusted information will all be transformed. Systematic monitoring and understanding of these effects and how they
+could potentially alter ways of working are critical and strategically
+decisive for NDM effectiveness.
+Thirdly, properties and places are digitally transforming. For
+example, the Internet of Things (IoT) is creating an entire new topography of physical devices and static everyday objects. The IoT allows
+devices to wirelessly communicate, send and receive live data, and be
+monitored and controlled from remote distances over the internet
+[91–93]. Emergent smart technology reconfigures the very notion of
+“home” as a nexus from which a multiplicity of devices work collaboratively as intelligent agents [94] and communicate over a new spectrum of networks and standards [95,96]. Similarly, smart city
+technologies will create more efficient, sustainable, competitive, productive, open, transparent, and highly interconnected cities with a
+nascent set of governance requirements [97]. To succeed, NDM, therefore, needs to understand, prepare for, and capitalize on digital
+transformation.
+Fourthly, the private sector, NGOs, and many other industries are
+also undergoing digital transformation. One of the key responsibilities of
+NDM is to coordinate an effective response to disasters through partnerships with these non-governmental organizations [98]. However, the
+new digital era determines a large part of the strategic sustainability of
+this relationship and cooperation. Many organizations and industries
+like transportation, hospitality and hotels, retail shopping, and infrastructure are being redefined internally as business models, and externally as collaborators in their value chains [99]. These and other
+industries have direct operational and strategic implications on NDM in
+risk reduction, response, and recovery phases [100].
+Finally, even the public sector and other governments that an NDM
+often partners and closely works with are digitally transforming. Many
+of these have already created dedicated strategies and plans in this direction. For example, the UK has developed the Government Transformation Strategy 2017–2020 [101], which endeavors to give
+directions to a full scale governmental digital transformation. Similarly,
+other governments around the world are working diligently to change
+their strategic and operational dynamics and priorities to cope with the
+new digital era [102].
+Based on the above, it important to understand the conceptual significance of digital transformation to NDM and ensure that these government systems remain relevant, effective, and efficient in the new
+digital era. The next section establishes the theoretical foundation for
+this research.
+3. Theory
+3.1. Technology and innovation adoption in organizations
+Digital transformation is about the use of new digital technologies to
+re-innovate traditional structures, processes, technologies, mindsets,
+business and operational models to improve the competitiveness of the
+organization and deliver relevant value for internal and external beneficiaries in an ever-evolving digital economy [49]; p.7). Digital transformation is linked to innovation as a driver and an outcome leading to
+better organizational performance [103]. Innovation is the creation and
+adoption of new ideas [104,105]. Therefore, digital transformation is
+about innovation, and innovation is about novelty and inventiveness
+[105]. For organizations, innovation can occur in the creation of or the
+adoption of new administrative systems, technologies, processes, policies, structures, products, or services [106,107]. For disaster management and related organizational systems, the potential impact of
+technological innovation on all phases of disaster management is well
+established [108]. However, there is a critical need to understand more
+about the nature of this impact and its determinants for enhanced
+effectiveness, efficiency, and competitiveness outcomes [109].
+There is a rich line of research in the Information Systems field that
+investigated the enabling or inhibiting determinants for the adoption of
+technological innovations in organizations. Many theories were developed and used for this purpose including the diffusion of innovation
+(DOI) theory [110], the Institutional Theory [111], the Iacovou, Benbasat, and Dexter model [112], and the
+Technology-Organization-Environment (TOE) framework [23,24]. A
+detailed discussion of each of these theories is beyond the scope and
+purpose of this research. However, the TOE framework chosen as a
+theoretical ground for this research is discussed and justified next.
+3.2. The TOE framework
+The Technology-Organization-Environment (TOE) framework [23,
+24] is one of the most recognized and well-established theories in
+innovation and technology adoption research particularly at the organizational level. The key idea of the TOE is three contexts that can influence the innovation adoption and decision-making processes in
+organizations: the technological context, the organizational context, and
+the environmental context (Fig. 2 below). Influencing factors from some
+or all three contexts will determine the extent of technological innovation and the likelihood of decision making to adopt new innovations
+within the organization.
+3.2.1. Technology context determinants
+Among the main determinants in this context are technology availability and characteristics. Availability refers to technologies that are
+internal or external to the organization. Internal technologies include
+those that are currently in use. External technologies are those that are
+not currently in use but have relevance to the organization’s domain. In
+addition to availability, the technological context includes the technologies themselves, their characteristics, as well as all related processes
+[23].
+The consideration of the technology context is important because
+organizations need to understand the type of organizational changes
+that will result from the decision to adopt or reject a certain technological innovation [113]. Generally, technology-driven change in the
+organization can vary from incremental, synthetic, to discontinuous
+[114]. Incremental technologies introduce new features or new versions
+of existing technologies; and this often has a minimum impact on the
+organization. Synthetic technologies are formed by rearranging existing
+technologies (e.g. combining several technologies) to create an innovative solution; and has a medium impact on the organization depending on what is being created. Discontinuous technologies represent
+radical changes caused by new technological innovations and this has
+the largest impact, potentially positive or negative, on organizations
+[113,114].
+Incremental and synthetic technology-driven changes are easier to
+monitor, manage, and evolve with because they are more gradual and
+progressive. This is often dealt with by a continuous effort to automate
+more tasks and processes. Digital transformation impacts on NDM are
+more closely synonymous with discontinuous changes driven by the 4th
+Industrial Revolution technologies. Digital transformation is radical and
+creates a new operating landscape for organizations of all kinds by
+reforming the way traditional elements function. Radical technological
+innovations require a high degree of new knowledge compared to incremental innovations [115]. In such technological contexts, organizations might have to make “quick and decisive adoption decisions to
+maintain and enhance competitive standing” [113]; p.12). In light of
+Y.S. AlHinai 
+International Journal of Disaster Risk Reduction 51 (2020) 101851
+6
+this, this research will explore the technology context impact and determinants that can enable or inhibit the digital transformation of NDM.
+3.2.2. Organization context determinants
+The organizational context includes the entity’s internal characteristics such as its structure, size, scope of operation, decentralization
+level, degree of formalization, culture, staffing, employee reporting
+linkages, and communication processes [23]. Depending on the situation, different determinants can have different types and degrees of
+impact on innovation adoption and decision-making processes. For
+example, larger size organizations with extensive knowledge depth (i.e.
+larger numbers of technical specialists) are more innovative in the
+manufacturing industry [115]. In other research, the internal dynamics
+linking the different parts or units of the organization and the degree of
+formality impacted organizational innovation adoption [113]. Also,
+decentralized organizational structures with fluid and flexible
+cross-team communications are more able to adopt innovation
+compared to organizations that have rigid, hierarchal, command-based
+structures [106,116].
+For NDM, the organizational context similarly plays a role in determining its ability to understand and embrace the transformations driven
+by new digital technologies. Previous studies indicate that the composition of teams and internal group processes, particularly in top management, were found to determine the organization’s overall
+innovativeness [117,118]. After all, it is often the values, attitudes, and
+commitment of the leaders that determine the organization’s goals and
+purposes as reflected by internal structures, strategy, and internal cultures [119]. Another example involves the organizational structure and
+degree of agility in its system, which are key components and drivers of
+innovation and successful digital transformation in organizations [120].
+Organizational agility is its ability to “sense changes in the internal and
+external environment, respond efficiently and effectively in a timely and
+cost-effective manner, and learn from the experience to improve the
+competencies of the organization” [121]; p.136). For NDM, this is a key
+and critical aspect because of the nature of its decentralized
+multi-organizational structure and the possible outlets for technological
+changes that it needs to sense, monitor, and manage. Given this
+understudied component of NDM research, this research will explore
+how the organizational context impact and determinants can either
+enable or inhibit the digital transformation of NDM.
+3.2.3. Environment context determinants
+The environmental context includes characteristics of the surroundings, the industry (e.g. size and structure), and the economic,
+political, regulatory, and macroeconomic landscapes in which the organization operates [23,24,113]. The environment will contain factors
+that might enable or inhibit an organization’s decision to transform
+digitally. However, the strength of this impact will vary depending on
+the context and the nature of the organization. For example, in a study of
+1200 public organizations in the U.S., it was found that organizational
+characteristics and top management attitudes towards innovation were
+more influential than were environmental factors [105]. In other
+research, environmental factors (e.g. hostility and uncertainty) are the
+most critical for determining organizational innovativeness through its
+strategic posture (aggressive-proactive vs. passive-reactive) towards
+change [122].
+As was discussed previously, NDM operates within an environment
+that involves many other players (private, NGOs, public, international
+stakeholders) and many key inputs (hazards, properties, people, places).
+Such an environment creates a context for many influencing factors on
+the digital transformation of NDM and offers many advantages. For
+example, digital transformation can lead to “shorter product cycles,
+increased segment fragmentation, blurring industry boundaries,
+breaking corporate hierarchies, and increased interdependence of world
+markets” [122]; p.400). The most important point here is that NDM will
+directly or directly be impacted by what happens in the environmental
+context. Therefore, NDM must anticipate technological changes in the
+environment and be capable of seizing the opportunities that digital
+transformation presents. In light of this, this research will explore the
+environmental context impact and determinants that can enable or
+inhibit the digital transformation of NDM.
+3.3. The present research
+This study explores the impact and enabling and inhibiting determinants for the digital transformation of NDM. In doing so, it establishes digital transformation as an innovation process and therefore
+extracts its theoretical grounds from the Information Systems and
+Fig. 2. The TOE framework [23,24].
+Y.S. AlHinai 
+International Journal of Disaster Risk Reduction 51 (2020) 101851
+7
+innovation adoption fields using the Technology–Organization–Environment (TOE) framework [23,24]. The TOE
+theory is the most suitable theory for this study for several features
+presented by Baker [113].
+First, while the TOE is a highly adaptable theory which makes it
+more of a generic framework compared to other more restrictive or
+specific theories, the three contexts give sufficient conceptual boundaries. Within these three contexts, researchers can investigate any type
+or number of constraints, opportunities, enablers, or inhibitors relevant
+to their research. This contextual freedom is very beneficial for this
+exploratory research.
+Secondly, the TOE is consistent and share similar underpinnings with
+other well-established theories in the innovation adoption field such as
+the diffusion of innovation (DOI) theory [110]. However, the TOE offers
+greater space for original knowledge development. For example, while
+individual leader characteristics and internal characteristics of organizational structure in the DOI are conceptually included in the TOE’s
+organizational context, the TOE offers the flexibility to add any other
+contextually relevant factors. The outcome of such contextual flexibility
+is more conceptual richness, explanatory power, and building of new
+knowledge. These characteristics are suitable for the present study,
+which aims to explore a new research area. Finally, because of the potential for more factor-specific future research following this exploratory
+research, the generic nature of the TOE makes it more possible to allow
+further specification, identification, and comparison of the ideas presented in this study. This research builds on TOE foundations and proposes a model of determinants for the digital transformation of NDM.
+4. Research design and method
+Several characteristics of this research indicate that a cross-sectional
+design, as described by De Vaus and De Vaus [123]; is the most suitable
+logic of inquiry. First, this research studies the impact and determinants
+of digital transformation as episodic rather than temporally evolving
+concepts, so there is no time dimension integral to this study. Second,
+this research is interested in the impact and determinants based on the
+variance or differences among individuals’ perceptions rather than how
+these perceptions change after a controlled or time-lapsed intervention
+as in experimental and longitudinal designs. Hence, the empirical phase
+of this study entails collecting data at one point in time. Third, the
+analysis of the data will depend on existing differences among individuals rather than differences that result from manipulations or interventions. Within this broad cross-sectional research design (Fig. 3), a
+qualitative study was conducted where primary data was collected from
+semi-structured interviews with experts in NDM, as discussed below.
+4.1. Study context: the UK experience
+This research uses the United Kingdom example to extract some
+useful insights and lessons and meet the aims of the study. The UK
+example was suitable for this study because, on the one hand, it is one of
+the more well-developed and recognized disaster management systems
+in the world with exported expertise to the Middle East, Asia, Africa, and
+other regions. Furthermore, the UK is a well-ranked digital government
+country. The United Nations E-Government Survey 2018 [102] evaluated governments’ digital presence and innovation in the public sector
+and its impact on people’s everyday lives. Overall, the UK ranked fourth
+globally in 2018 with a ‘very high’ e-government digital index and a
+‘very high’ Online Service Index (OSI).2 Also, since 2012, the UK government committed itself to go digital, which resulted in £1.7 - £1.8
+billion in total annual savings for the country [124]. As a result, the UN
+considered many of the UK’s governmental digital practices exemplary
+for other countries. For example, the UK’s success in monitoring,
+recognizing, and embracing users’ behavioral changes and preferences
+for the development of its unique e-government portal received global
+recognition [125]. Also, the UK government’s embracing of
+community-based digital initiatives such as the Fix-My-Street application [126] was one of the exemplary digital practices and one which was
+later adopted by many other countries around the world [102].
+More strategically, the UK government has taken advanced steps in
+becoming a world leader in digitizing its services and strengthening its
+cyber-security presence and e-government resilience [102] including
+the introduction of the Government Transformation Strategy
+2017–2020 [101] and the second version of its five-year National Cyber
+Security Strategy 2016–2021 [127]. However, despite these achievements, like most governments, the UK still has a long way to go. The
+Global Digital Transformation report [128], which surveyed more than
+1200 government officials from more than 70 countries (UK N = 243),
+showed that most UK governmental agencies still feel that employees
+and leaders lack the necessary skills for digital transformation. The
+report also showed that less than 1/5th of these agencies are satisfied
+with their digital vendor community. The UK agencies claimed cost,
+competing priorities, and security concerns are the main influencing
+factors towards digital transformation. So, while the UK NDM makes an
+exemplary case for many other countries, it too can benefit from the
+ideas and exploration presented in this research.
+4.2. Method and sample
+Primary qualitative data was collected via semi-structured interviews [129] with eight experts in NDM in the United Kingdom. Interviews have the advantage of allowing a dialogue with the participant
+where existing questions can be clarified and new ones can be improvised based on the participant’s feedback [130]. Interviews are also
+useful to gain first-hand in-depth insights from reliable sources. In
+particular, experts were targeted because they are considered as ‘crystallization points’ for practical and informative insights that are often
+unavailable to others [131]. Generally, expert interviews were chosen
+for this research for several practical and methodical reasons, as
+postulated by Bogner et al. [131]. Firstly, speaking to experts is useful
+for the exploratory type of research projects, which goes in line with this
+research. Secondly, expert interviews are an efficient and concentrated
+method for gathering data compared to participatory observation or
+systematic quantitative surveys. This research seeks concentrated
+knowledge about NDM which is restricted to a specific circle of individuals who are directly involved in the management of national disasters in the country. Thirdly, interviewing experts can enrich the study
+referring the researcher to a wider network of potential participants
+[131].
+The interviews followed a semi-structured style that allowed the
+participants to freely express their views while allowing the researcher
+to maintain the flow of the dialogue within the intended focus and
+scope. Appendix A presents the list of questions used as a general
+guideline during the interviews. For logistical reasons, sessions were
+conducted online via GoToMeeting software. The interviews were
+designed to cover two main themes. The first theme built a contextual
+understanding of the impact of digital transformation as perceived by
+NDM experts. This included insights about the meaning of digital
+transformation impact, the directions of this impact on NDM structures,
+the paths this impact takes to influence NDM, the disaster management
+areas where the greatest potential of this impact is expected to happen,
+and the forces that can drive NDM towards technological innovation and
+digital transformation. Then, the second theme focused on understanding the enabling and inhibiting determinants of the digital transformation in NDM.
+Before each interview, the researcher explained the aims, method
+used, type of analysis, and possible outcomes of the study to the
+2 OSI measures the online presence of the government in terms of service
+delivery with four progressive Presence categories: Emerging - Enhanced –
+Transactional – Connected.
+Y.S. AlHinai 
+International Journal of Disaster Risk Reduction 51 (2020) 101851
+8
+participant and obtained informed consent via email. Participation was
+voluntary and participants were given the choice to withdraw from the
+interview at any point during the session. Also, participants were
+informed of the confidentiality of the research and their anonymity was
+assured by removing identifiers and using proxies such as participant 1,
+participant 2, and so on. The interviewees’ permission for recording the
+sessions for later analysis and future reference was pre-acquired. The
+interview recordings and transcripts were stored in a passwordprotected computer that is only accessible to the researcher.
+Table 1 below, shows a general profile of the experts interviewed in
+this research. The experts were located using a convenience simple
+snowball sampling technique [132] through recommendations from
+academics and practitioners in the field. The sample consists of eight
+experts with diverse national and international experiences in NDM
+strategy, policymaking, operational leadership, consultancy, and
+training. The majority of the sample provides the NDM expertise to
+different governments and countries around the world.
+4.3. Analysis approach
+Content and thematic methods were used to analyze the expert interviews. Content Analysis is the use of specific methods to make inferences from data to the bigger context [133]. It does not only analyze
+the manifest content but also looks for implicit meanings based on the
+context [134]. This approach was applied to uncover relevant explicit
+and implicit inferences from the experts’ interviews concerning the
+context of the research. Because content analysis also encompasses accounting for key phrases or content and interpreting them based on their
+context [135], mentions of some keywords (e.g. ‘digital’, ‘technology’,
+‘innovation’) were sought from the transcripts of the interviews. In
+addition, Thematic Analysis, which is “a method for identifying,
+analyzing, and reporting patterns (themes) within data” [136], was used
+to guide the analysis based on the aforementioned main themes and
+subthemes: theme one ‘Impact’ (subthemes: meaning, directions, paths,
+areas, and forces) and theme two ‘determinants’ (see Section 4.3). These
+themes and subthemes were used to track direct and indirect traces of
+key concepts in the interviews.
+5. Analysis and results
+This research aims to answer two main questions: 1) what is the
+impact of digital transformation on NDM? And 2) what are the main
+determinants for the digital transformation of NDM? The following two
+sections will answer these questions.
+5.1. The impact
+To understand the impact of digital transformation on NDM, and
+address the first research question, the expert interviews uncovered
+some interesting and insightful ideas.3 As discussed in the following
+sections, the understanding of this impact is established based on the
+following subthemes:
+- The meaning of digital transformation impact for NDM (Section
+5.1.1: The Meaning),
+- The directions of the perceived impact (Section 5.1.2: The Paradox),
+- The paths through which the impact can take place (Section 5.1.3:
+The Effects),
+- The areas where the greatest impact is perceived to exist (Section
+5.1.4: The Digitally Transformed Cycle), and
+- The forces that can drive NDM towards more technological innovation and digital transformation (Section 5.1.5: The Driving Forces)
+5.1.1. The meaning
+The interviews revealed three main perceptions/views of the impact
+of digital transformation and its meaning and relevance to NDM: the
+acknowledger-enthusiast, the acknowledger-moderate, and the
+acknowledger-skeptical. So, while all participants agreed on and
+Fig. 3. Overall research design.
+Table 1
+Participants profile.
+Participant Description – area of expertise
+Participant
+1
+National and international expert in disaster management, resilience
+and contingencies, trainer and consultant for many foreign
+governments. Held responsibilities for digitization in disaster
+management with experience extending to more than 40 years.
+Participant
+2
+Expert practitioner, leader and researcher in NDM. Long experience
+in civil defense, response and recovery operations.
+Participant
+3
+Leader, expert, and trainer in UK national emergency planning and
+disaster management
+Participant
+4
+National and international leading practitioner, expert and
+researcher in maritime risk management, operational support and
+disaster management.
+Participant
+5
+UK leading practitioner and expert in emergency planning and
+resilience and head of response operations in county level.
+Participant
+6
+UK NDM policy manager/advisor and trainer.
+Participant
+7
+National and international expert and consultant in civil
+contingencies, resilience training, and NDM policy and standards.
+Participant
+8
+National and international expert and consultant in national disaster
+and contingency management
+3 Due to research word count limitation, only one or two excerpts from the
+interviews is used as an example of evidence.
+Y.S. AlHinai 
+International Journal of Disaster Risk Reduction 51 (2020) 101851
+9
+acknowledged the potential impact of digital transformation on NDM,
+their views varied on what that practically means.
+For the acknowledger-enthusiast, digital transformation meant a
+profound real-life phenomenon that NDM must pay attention to, understand, react to, and capitalize on, sooner rather than later, as the
+following example shows (‘p’ stands for ‘participant’):
+“Digital Transformation enhances national disaster management
+capability to respond to disasters and disruption because you’ve got
+more ways to communicate, you can harness technology to use in
+responding to disasters, such as drones flying over disaster sites and
+being able to relay back photos and videos […]and you obviously
+have enhanced communications with mobile and satellite communications” (p3)
+For the acknowledger-moderate, digital transformation is seen as an
+important and generally a positive phenomenon, but with a more
+reserved perception of how impactful it is going to be on NDM. For
+example, they see that digital transformation impact will depend on the
+specific technology features and their relevance/irrelevance to the core
+(operational) business of NDM. In addition, they also see that the direct/
+indirect impact will depend on the temporal proximity of the technology
+to the present time (i.e. already existing vs. under-development vs. futuristic concept technology). The following is an exemplary excerpt:
+“Social m
+edia […] can be a close example to a technology which directly
+impacted national disaster management. But some other new technologies like self-driving cars and digital companies like Uber and
+others might not have a direct impact on national disaster management because [NDM] is concerned with large scale disasters like
+cyclones […]. When we talk about technologies that are futuristic
+and not currently in wide-scale use yet, such as self-driving cars,
+these are not present yet … that’s why we are not currently concerned about them in our emergency planning” (p2)
+The acknowledger-skeptical participants perceive digital transformation as either a threatening phenomenon or one with low (or no)
+direct relevance to NDM. For example, one assertion was that despite
+what technology can facilitate, the paper-and-pen solution remains the
+most resilient state of all NDM work, therefore making digital transformation less meaningful to NDM. The following response demonstrates such an example, wherein increased technology is a potential
+threat to security and privacy and the overall maintenance of national
+infrastructure. Here, the respondent indicates that some national sectors
+are more vulnerable than others and that the very presence of technology creates additional levels of vulnerability and thus more complications for NDM in general:
+“We all know that in some of our critical infrastructure, in terms of
+power and communications, [they] can be affected by the digital
+cyber threats. We know our financial systems can be affected … so
+someone can get on our stock exchange or take money from bank
+accounts [ …]. I would argue that that kind of threats just increase [
+…]. I know a lot of people who work in the health sector who are
+worried about activists getting in and changing life support sheets, or
+altering the levels of dosage that they are giving patients, because
+they can. It’s extraordinary what the internet encourages, and what
+we have got to deal with on a national basis … when we’ve got a
+national infrastructure or national systems to protect” (p7)
+Overall, the three views that emerged from the interviews can teach
+us several important points. First, digital transformation is an inevitable
+and significant reality for NDM and must be understood and proactively
+planned. Second, the perceptions among disaster management professionals will undoubtedly vary and, therefore, NDM leadership must
+devise suitable digital transformation strategies to navigate through this
+variation. A possible strategy is to start with continuous expert conversations and conferences regarding the future of NDM in the new
+digital era. Third, digital transformation is a continuing journey with
+temporal (e.g. present vs. future) and spatial (e.g. national-local vs.
+national-global or operational vs. strategic) dimensions that must be
+understood and controlled to increase the agility of NDM in the midst of
+all the direct/indirect implications of technological advancements.
+5.1.2. The paradox
+The interviews revealed an interesting paradoxical perspective on
+the direction of the impact of digital transformation on NDM: positive or
+negative. For example, each new digital technology can be equally
+rewarding and challenging for NDM at the same time, and each technology can equally bring opportunities and threats. Also, it was
+conceded by experts that ironically perhaps, only technology could
+remedy the negative effects of technology. The following shows an
+example.
+“The digital era will increase risks of disasters … but they will also or
+should support the management of disasters [ …]. So it works both
+ways, for example, social technologies in particular can work in two
+ways: good and bad. It can act for good in terms of alerting people
+and telling them what to do and it can be harnessed by governments
+as a vehicle for informing the public about what they should be doing
+and so on. But it can work for the bad also. There can be people, or
+broadcasters, who put out information from social media [ …] which
+actually does harm to people … so it can work both ways” (p8)
+In addition, the paradoxical effect also appears in the availability of
+data and information that digital technologies allow that is fundamentally beneficial but also detrimental at the same time. The amount of
+data and information that rapid technology advancements make available can either assist or impede judgment and decision making for the
+layperson as well as NDM organizations. While the speed and pace of
+technological developments should be a great advantage in our time, it
+also brings unprecedented pressures on organizations in the race to cope
+with rapid and ongoing change. Here are some examples.
+“People never had more access to more knowledge [than they do
+today]. We have got unequalled access to facts and data, and yet at
+the same time, people’s decision making is becoming more and more
+driven by soft factors like beliefs and so on” (p1)
+“One of the threats here is the pace of technology as it improves.
+Unless you are a small or agile operator, it is quite difficult for a
+national entity to say, “we will this year concentrate on SnapChat or
+another technology” because technologies come up in favor and then
+they quickly get taken over by someone else or die. So, there is an
+issue that national disaster management needs to deal with” (p4)
+Overall, this paradoxical impact carries benefits and challenges. On
+the beneficial side, it assures that implementing the right digital transformation strategies may significantly improve NDM systems. On the
+challenging side, NDM needs to rapidly develop a proactive mechanism
+to understand the direct and indirect implications of new digital technology. However, this might require intensive and expensive resources.
+5.1.3. The effects
+The interviews revealed three-directional path through which digital
+transformation can impact NDM in its ‘disasters’ and ‘management’ core
+components (Fig. 4 below). Firstly, digital transformation changes the
+core nature and essence of existing and known disasters. Secondly,
+digital transformation creates new unprecedented types of disasters.
+Thirdly, digital transformation challenges the conventional disaster
+management methods and ways of operating.
+In the first effect path, digital transformation can change existing and
+familiar disasters and yield reformed and often more complicated versions. This effect can take place by adding more variables (both positive
+Y.S. AlHinai 
+International Journal of Disaster Risk Reduction 51 (2020) 101851
+10
+and negative) to the situation and thus widening the scope of existing
+disasters, amplifying their consequences, or changing the dynamics of
+dependencies in a disaster. The following passages demonstrate the respondents’ ideas in this regard.
+“We now see disasters being mitigated or amplified by things like
+technological glitches and computer systems, whereas 10 years ago
+that was much less common. We saw that recently in a major airlines
+incident when one 100 flights got cancelled … that was luckily an
+isolated event … but that happening alongside another wider
+disaster could definitely make things a lot worse” (p6)
+“Gen4 and associated technologies will change the nature of risk
+environment, in terms of the structure of the nation and risk dependences […] and it may also change the nature of disasters […]. If
+you go back to the 1970s, if you lost electricity it would have been
+difficult but not a disaster. By 1990s lost electricity supply for a week
+would have been disastrous. Come forward 20 years to 2010 …
+losing IP services for a week would have been a disaster, but in 1990s
+nobody would have cared […]. The life and system drivers have
+changed” (p1)
+In the second effect path, digital transformation can create new and
+unprecedented types of disasters, which might require new ways to
+respond than traditionally known to NDM. This effect includes novel
+disasters that the use of new technologies directly create, those that
+result from the increased digital interconnectedness, or those that result
+from possible failures of newly introduced technology.
+“Where I would say we’ve got a way to go is realizing the extent of
+the vulnerabilities that exist in our communities with new technology … and I think not only we are not yet really making the most of
+the fact that we could use new technology better for local coordination and emergency response, but also that we need to have much
+more testing and exercising using technological failure examples”
+(p3)
+In the third effect path, digital transformation can challenge the
+conventional methods of disaster management. One aspect of this is the
+unprecedented challenges that new technologies might impose on the
+command and control structures in conventional NDM. For example,
+digital transformation can challenge NDM by creating extra unconventional layers to be managed during disasters (e.g. social media platforms). Diverting the attention of people during disasters, influencing
+people’s perceptions, and facilitating uncontrollable or random participation by spontaneous volunteers are just a few examples of the complications that new technologies such as social media can bring to NDM.
+Increased number of stakeholders and more data may obfuscate rather
+than ameliorate NDM protocols and procedures.
+“Technologies like social media helped people learn about what’s
+happening in disruptive situations, so our corporate communications
+team 10 years ago was seen making press releases, whereas now they
+put much greater focus on their social media space, so we have one
+person doing nothing but maintaining Twitter blogs and responding
+to things there. So yeah, that’s changed” (p5)
+“In the past you had a very command-led structure, where the
+expectation is the command leader says something and it cascades to
+everybody, but in this age of social media and mobile phones it’s the
+democratization that technology allows people” (p4)
+Overall, these three effect paths can offer a structured method for
+understanding the impact of digital transformation on NDM. Through
+this, these effects can be accounted for, mitigated, and capitalized on to
+develop relevant, comprehensive, and well-rounded digital transformation strategies for NDM. Understanding these effects paths will
+also allow NDM to reevaluate its current methods and decide what to
+keep and what must be tweaked even invalidated.
+5.1.4. The Digitally Transformed Cycle
+Taking into account the full disaster management cycle, the interviews revealed some areas where the most significant impact of
+digital transformation will take place. The existing literature mainly
+focused on technology-specific, phase-specific, or task-specific areas of
+improvements, as discussed previously in the literature review section.
+This research uncovers interesting cross-cutting areas where digital
+transformation can be most impactful regardless of the specific technology, phase, or task. The following discusses three examples of such
+cross-cutting areas. The benefit of highlighting these areas is that they
+apply to any disaster management phase, any task, and using any
+technology.
+5.1.4.1. Modeling and visualization. The experts perceive that the ability
+to model and visualize data and information is one of the most important
+benefits that digital transformation can offer to NDM. For example,
+digitally-enabled modeling and visualization are critical to allow better
+early warning, improved training and scenario exercising, and enhanced
+shared situational awareness - especially for the multi-agency nature of
+NDM. Harnessing digital transformation to improve modeling and
+visualization capabilities will lead to better decision-making, policy
+specification, and strategy development throughout the disaster management life cycle.
+“We can create much better shared situational awareness and we will
+start to be able to model hard consequences much better very soon,
+and over time we may be able to get into modeling soft consequences
+as well. So, the data revolution and modeling revolution may allow
+us to get a better grasp of the unforeseen consequences of decisions”
+(p1)
+5.1.4.2. Risk control. Risk control includes the identification, assessment, and management of risks. Risk control is a core element of all the
+phases of disaster management. Digitally-enabled risk control can help
+in identifying potential risks in the prevention and mitigation phases
+and in dealing with evolving risks during the preparedness, response,
+and recovery phases. Besides, digital transformation may bring its own
+sets of risks and therefore require additional risk control mechanisms.
+The interviewees expressed that digitally-enabled risk control will
+enhance risk prioritization and strategy building, enrich awareness and
+knowledge of direct or indirect risks, improve the management of risk
+information by integrating various technologies, and advance the
+numeration and representation of risks and their consequences for better
+decision making.
+“Horizon scanning for national disaster management is critical to
+strategically understand what new risks exist and then plan on how
+to mitigate them [using technology]” (p2)
+“New technology allows us to know about more risks worldwide than
+we are used to. So that information sharing is there. Whether it’s
+Fig. 4. Three-directional effects of digital transformation on NDM
+(source: Author).
+Y.S. AlHinai 
+International Journal of Disaster Risk Reduction 51 (2020) 101851
+11
+done by governments, or the insurance industry, or just interested
+people online. So, we have a lot more information that involves risk
+identification than we used to, which is good. In slow times, we can
+do a lot more analysis on different types of risks, comparing,
+graphically representing them in a compelling ways” (p6)
+5.1.4.3. Feedback loops and lessons learned. As reflected by the experts,
+establishing effective feedback and lesson learning mechanisms in a
+multi-agency NDM environment is one of the most critical and challenging areas. The experts stressed that it is often more common for
+NDM stakeholders to focus on preparation, response, and recovery than
+post-disaster lessons learned and feedback loops. They also asserted that
+using digital transformation for feedback loops and lessons learned can
+be very useful for enhancing the assessment and evaluation of decisions
+and actions, automating the presentation and call-back of lessons
+learned in the preparation for the next disaster, and improving
+government-agency communication across different organizational
+layers.
+“Yeah I don’t think people reflect enough … I think we are too keen
+to see it’s all over and we want to move on. And what we’ve seen in
+some disruptions is that you can actually go right back to the
+anticipatory phase and you can actually reduce the likelihood of
+something happening again if you spend more time and effort in the
+recovery phase analyzing and using technology to figure out what
+did go wrong and how you responded, and learning lessons to focus
+on continuous improvement” (p3)
+“I could imagine that in the future if you had certain types of disasters, then the lessons from similar types of disaster could automatically be flagged for you” (p6)
+Overall, this research suggests that focusing on such cross-cutting
+areas (Fig. 5 below) can help to capitalize on digital transformation to
+improve existing NDM systems. This research contrasts with existing
+literature’s tendency to focus on technology-specific, phase-specific, or
+task-specific areas because technologies are fast evolving and rapidly
+replaceable. To strategically benefit from digital transformation, NDM
+has to first focus on identifying such cross-cutting areas and then decide
+which technology, phase, or tasks should take priority. Technology is
+enacted differently in different contexts. Thus a more macro perspective
+will allow for a more comprehensive examination of how technology
+will impact at a system level.
+5.1.5. The Driving Forces
+Finally, to better understand the impact of digital transformation on
+NDM, it is important to uncover the potential forces that will drive this
+impact. The interviews revealed three-directional forces (Fig. 6): two
+internal forces including top-down (Strategic to Operation) and bottomup (Operation to Strategic) and a third external outside-in force.
+5.1.5.1. Top-down. From this perspective, digital transformation in
+NDM will be mainly driven by top-bottom forces, from strategic levels
+towards operational levels. In this case, those sitting in top leadership
+seats will make the most important decisions to lead digital transformation by pushing down technological innovations to those in the
+operational levels. This direction can be useful for establishing or
+installing cross-agency or cross-government systems/technologies for
+enhanced multi-organizations dialogue and communication, or for using
+digital transformation to bridge the capability gaps among stakeholders
+in multi-agency disaster management work environment.
+“Yeah … if a new technology is forwarded from the top, then yes we
+will embrace it. For example, over the past five years, we have a
+government resilience system that they [strategic level] provided to
+us, which we use, which is how we share information across our
+agencies. It’s got two sides to it, the day to day usage where we use it
+as the online reporting for everything, and you also got the response
+mode where we share common operating pictures, general information about what’s happened, but that’s only between the
+responding agencies and government, it’s not public facing” (p5)
+5.1.5.2. Bottom-up. From this perspective, operational levels are the
+main driving force for the digital transformation in NDM, where those
+who are in the operational levels push up technological advancements
+and innovations based on their specific needs to higher strategic levels.
+The logic behind this suggestion is that it is a more justifiable investment
+if the proposals for digital transformation stem from operational levels
+where the outcome of investment can be more tangible.
+“As we engage with people in the operational levels [ …] if we see
+them using new ‘toys’, we will gradually want to integrate with what
+they are doing, equally in terms of communicating with systems they
+develop or use. They would pull us with them because we have to
+maintain communications with them and it’s more in the interest of
+the strategic level than the operational level to make sure they can
+communicate” (p6)
+5.1.5.3. Outside-in. In this view, external forces such as research and Fig. 5. Cross-cutting areas for the digital transformation in NDM
+(source: Author).
+Fig. 6. Three-directional driving forces of digital transformation in NDM
+(source: Author).
+Y.S. AlHinai 
+International Journal of Disaster Risk Reduction 51 (2020) 101851
+12
+science, communities, other industries, and the media digital are the
+main drivers for the digital transformation of NDM systems. More precisely, external factors will drive strategic decisions within NDM to cope
+with technological changes.
+“Those people who are doing remote sensing within the scientific
+and engineering communities and so on have been looking for ways
+for doing that better. Also, media have been looking at how to use
+technology to improve what they do within their own organizations.
+So, it will be the [external] organizations themselves who will be
+coming up with the ideas of how to best use technology to improve
+emergency practices. So, there will be things that engineers will do
+because they make sense in engineering terms or scientists will do
+because they make sense in scientific terms” (p8)
+Overall, the comprehension of such driving forces helps NDM to
+foster change and innovation to understand more about the dynamics
+behind digital transformation in the new digital era. This understanding
+will lead to better decision-making practices, strategy design, and
+effectively focusing digital transformation efforts within NDM. This
+understanding will also allow NDM to mitigate risks and negative impacts of digital transformation by devising counter-force actions or
+mechanisms.
+5.2. The determinants
+Moving to the second research question on the enabling and inhibiting determinants of the digital transformation of NDM, the interviews
+revealed an interesting set of determinants. Over and above the
+technology-organization-environment contexts of the TOE theory (see
+the Theory section), this research uncovered a new set of determinants
+that are specific to the disaster context. This newly added disaster
+context could explain a large part of the NDM willingness and decisions
+to innovate and transform in the digital age. The following sections
+highlight these determinants. Then the Discussion section will present a
+novel TOE-Disaster (TOE-D) model and extends the original TOE
+framework.
+Before discussing the determinants, it is important to note that, first,
+the determinants reported here are based on the UK expert interviews
+and are not exhaustive of every possible factor. Second, the categorization of these determinants under the four contexts (technology, organization, environment, and disaster) is based on the conceptual
+proximity of each determinant to the domain of one of the contexts.
+Third, each determinant is presented as a critical factor but its actual
+impact can either be positive or negative depending on the specific
+context or situation.
+5.2.1. Technology context determinants
+According to the TOE theory, the technological context includes internal and external technologies (equipment and processes) that are
+relevant to the organization. The expert interviews revealed the
+following determinants (evidence from the interviews is presented in
+Appendix B):
+- Technology availability: whether or not the technology is (or
+made) available for those who need it. In the context of this study,
+technology can be offered by upper strategic levels, requested by
+lower operational levels, and/or pushed-in by external forces (private sector, people, other governments, etc.).
+- Technology criticality: whether or not the new technology is critical for the disaster managers measured by direct enhancements to
+operational tasks or avoidance of a clear threat.
+- Technology justifiability: whether or not the new technology
+acquisition can be justified. Justifiability is measured by direct enhancements to operational tasks or avoidance of a clear threat,
+compared to its financial and cost implications.
+- Technology testability: whether or not the new technology can be
+tested in disaster or disaster-like situations. Testability in such settings is critical for disaster management because the sensitivity and
+constraints in disaster situations do not allow experimentation of
+new technologies. Therefore, unless it is possible to test the proposed
+technology in a controllable environment, the technology will have
+very low acceptance, if any, by NDM.
+- Technology homogeneity/heterogeneity: the degree to which the
+new technology is homogenous or heterogeneous with other (existing) critical systems or technologies in NDM. NDM deals with complex disaster situations, and any new technology or system that could
+potentially add to this complexity will not be easily accepted.
+5.2.2. Organization context determinants
+According to the TOE theory, the organizational context includes the
+characteristics and resources of the organization such as size, degree of
+centralization, degree of formalization, managerial structure, human
+resources, amount of slack resources, linkages among employees, and
+communication processes. The expert interviews revealed the following
+determinants (evidence from the interviews is presented in Appendix C):
+- Organizational structure: the nature of structure and working relationships that link various ministries or agencies in the NDM to the
+top/central leading authority. Whether or not there is an integrating
+relationship among all components of the NDM structure in technological innovation and investment, will determine the extent to
+which digital transformation will/will not (successfully) take place.
+- Procurement System: the speed at which NDM can determine, try,
+buy, install, and train people for a new technology will determine the
+degree to which it can utilize or cope with the rapidly evolving
+digital transformation. This is particularity important – and challenging - in multi-agency settings like NDM.
+- Financial Constraints: the ability to capitalize on available financial resources for digital transformation given the multiorganizational nature of NDM.
+- Data and Information Eccentricity: the degree to which there is an
+existing conformity in the data and information possessed by
+different organizations within NDM. The more the existing conformity in data and information, the smoother the digital transformation will be. This indicates that countries that have successfully
+built solid and integrated inter-organizational e-government systems
+might have better chances for success in the digital transformation of
+their NDM.
+- Technological inclination: the degree to which technological
+innovation is a prioritized solution for problems facing NDM whether
+in or out of disaster situations. Such inclination toward technology
+represents the general mindset and culture in the agencies leading
+disaster management in NDM.
+- Organizational Adaptability: the degree to which NDM is able to
+cope, learn and adapt to new changes and ideas in general and those
+brought by digital transformation in specific.
+5.2.3. Environment context determinants
+According to the TOE theory, the environmental context includes the
+characteristics of the settings in which an organization operates such as
+the size and structure of the industry, the competing forces, the macroeconomic context, and the regulatory environment. The expert interviews revealed the following determinants (evidence from the
+interviews is presented in Appendix D):
+- Governmental Collaborative Mindset: the extent to which a
+collaborative mindset is instilled in the overall government system in
+the country and among various governmental authorities. The digital
+transformation of NDM requires a collaborative mindset across the
+whole government and among agencies that are directly or indirectly
+involved in managing national disasters.
+Y.S. AlHinai 
+International Journal of Disaster Risk Reduction 51 (2020) 101851
+13
+- Political Accountability: the perceived political accountability by
+decision makers in NDM. This determinant is important because
+digital transformation will require quite fundamental changes and
+decisions to be made and if political accountability, for failure
+especially, is too strong, then this deters or discourages the adoption
+of new technological innovations and digital transformation in NDM.
+- Governmental Bureaucracy: the extent to which bureaucratic
+culture is present in the government system will impact the ability of
+NDM to cope and utilize the fast-paced digital transformation.
+5.2.4. Disaster context determinants
+In addition to the above three contexts from the TOE theory, this
+research adds a new set of determinants specific to the disaster context.
+Similar to the above-discussed determinants, these disaster-specific
+factors can influence either positively by expediting or negatively by
+hindering the decisions for NDM to digitally innovate and transform.
+The expert interviews revealed the following determinants (evidence
+from the interviews is presented in Appendix E).
+- Situational Criticality: the perceived extent to which the criticality
+of disaster or emergency situations encourages/hinders the willingness of decision makers to explore new digital innovations or technologies. This is based on the fact that disasters are often demanding,
+chaotic, and uncertain situations, and therefore, disaster managers’
+priority is to use all they already know and to apply it to the situation
+to stabilize it in the shortest time possible. The interviews showed
+that it is perceived that adding technology to a ‘working’ disaster
+management system could potentially add more variables, complications, and requirements to an already critical situation, therefore,
+reducing the willingness of NDM to innovate.
+- Temporality: the perceived extent to which the temporality of
+disaster or emergency situations (age of the disaster situation) encourages/hinders the willingness of decision makers to explore and
+invest (time, effort, and money) in new digital innovation. The interviews showed that it is perceived that because of the temporality
+of national disasters and also the fact that it is a multi-agency
+structure rather than a single unitary organization, investing time,
+effort, and money in new digital innovations or technologies might
+not be justifiable.
+- Human Factor: the perception or belief that humans only can
+manage disasters and that technology will only add another layer of
+responsibility on humans. This perception or mindset might
+discourage the willingness of decision makers to explore using new
+digital innovations or technologies. Also, there is a fear that humans
+may willfully use technology as a way to exacerbate security protocols, and that technology in the wrong hands creates new forms of
+unprecedented emergency scenarios.
+- Resilience Mindset: the belief that resilient state (e.g., working with
+pen and paper) is the principle and target of disaster management
+and that adding technology might only drive them away from that
+state. The interviews showed that this is seen in two ways. First, new
+technologies will add more layers of responsibilities to deal with and
+therefore expand the gap between disaster management and resilience state. Second, new technologies will add another layer of
+threats or vulnerabilities (e.g. cyber-attacks) and therefore add to the
+complexity of reaching the resilience state.
+6. Discussion
+The present research has identified that the existing literature primarily focused on the digitization of technology-specific, phase-specific,
+or task-specific disaster management domains. It also revealed that there
+is an urgent need for studies to investigate the impact and determinants
+of digital transformation on national disaster management (NDM) as a
+strategic endeavor beyond the technology itself. Therefore, this research
+addressed this critical gap by integrating multidisciplinary concepts and
+understandings from Disaster Management, Information Systems, and
+Business and Management. It posited two overarching research questions: 1) what is the impact of digital transformation on NDM? And 2)
+what are the determinants for the digital transformation of NDM?
+Building on the theoretical foundations of the TechnologyOrganizational-Environment (TOE) framework, this study used the UK
+experience as an example and conducted semi-structured interviews
+with experts in UK NDM.
+The findings of this study established the profound impact of digital
+transformation on NDM in several ways. First, it showed that since many
+of the advanced digital innovations have not yet reached common use,
+the impact is perceived differently by different specialists in NDM
+(enthusiast, moderate, or skeptical). However, the findings revealed an
+agreement among all experts on the relevance and importance of digital
+transformation to NDM systems. Second, this study showed that the
+impact of digital transformation on NDM is paradoxical in nature and
+will affect NDM depending on how it will be planned for, adopted, and
+strategized. Third, it revealed three-directional paths for this impact that
+NDM needs to understand and adapt to: it changes existing and familiar
+disasters, it creates new unprecedented disasters, and it challenges the
+current NDM ways of thinking, planning, and working. Fourth, the
+findings also demonstrated that the best strategy to effectively deal with
+the impact of digital transformation in NDM is to focus on cross-cutting
+areas (e.g. modeling and visualization, risk control, and feedback loops
+and lessons learned) that span across all phases of the disaster management cycle than focusing on technology-specific, phase-specific, or
+task-specific areas. Finally, it demonstrated that the impact is driven by
+three-directional forces including top-down (strategic to operation),
+bottom-up (operation to strategic), and outside-in (outside NDM to inside). Such understanding provides NDM with ways for channeling the
+impact of digital transformation for their short- and long-term advantage. All of these points answered the first research question stated
+above.
+To answer the second research question, a unique TOE-Disaster
+(TOE-D) model (Fig. 7) for the enabling and inhibiting determinants
+for digital transformation in NDM is proposed based on expert interviews and the theoretical foundations of the TOE framework. As
+discussed in the results section, the proposed model expands the conventional technology, organization, and environment contexts of the
+TOE by adding a fourth ‘disaster’ context with a unique set of determinants specific to national disaster management. This model helps
+tailor our previous understanding of innovation adoption contexts to the
+disaster management filed, which is a unique contribution to the
+Fig. 7. TOE-disaster (TOE-D) model for digital transformation in NDM
+(source: Author).
+Y.S. AlHinai 
+International Journal of Disaster Risk Reduction 51 (2020) 101851
+14
+existing literature.
+In addition, based on the findings from the empirical study, this
+research presents an innovative Layered Cake FAST (Foundations →
+Approach → Strategy → Technology) Model - Fig. 8 below - which offers
+a unique perspective to help NDM lead its digital transformation
+journey.
+The basic principle of the Layered Cake FAST Model is that effective
+and successful digital transformation of NDM must start with establishing the foundations, the approach, the strategy and, then only,
+technology can sit in and equipped and ready environment. The practices and actions in each of these layers can vary from one NDM to
+another depending on the country’s system, structure, culture, the hierarchy of authority, and other critical factors. However, to give examples, the foundations can include the existence of a national will, top
+management support, an appropriate organizational structure with
+dedicated units, and cross-ministerial communication and collaborative
+culture.
+Once NDM establishes the foundations, it then needs to decide on its
+approach on how to tackle digital transformation by setting a suitable
+purpose, scope, focus, and pace and also deciding on how the digital
+transformation journey will unfold. After that, NDM needs to decide on
+its strategy involving its digital transformation strategy, learning and
+awareness strategy, stakeholder engagement strategy, and other supporting strategies that can help ensure successful and smooth digital
+transformation for NDM and its partners. Lastly, once the NDM establishes the foundations, the approach, and the strategy, then only technology can be implemented to give the most effective outcomes for
+NDM. To put this model in practical terms, Table 2 below offers a set of
+suggested recommendations and actions for each section of the Layered
+Cake FAST Model. While these recommendations are not exhaustive,
+they provide useful ideas and guidance for practitioners in particular.
+7. Conclusions
+The purpose of national disaster management (NDM) systems is to
+protect people, properties, and places within the country. The 4th Industrial Revolution and new technological innovations promise profound and unprecedented transformation to the ways humans live,
+work, interact, do business, and manage their lives. Therefore, it is
+inevitable for NDM organizations to consider how digital transformation
+is going to affect their existing work mechanisms and relationships and,
+therefore, devise ways to ensure that the new digital era is going to work
+for their advantage. A literature review of existing studies in the technology and disaster management field revealed the need to conduct
+studies that go beyond the current focus on technology-specific, phaseFig. 8. The layered cake fast model (source: Author).
+Table 2
+Examples of Recommended Actions based on the Layered Cake FAST Model.
+Cake Layer Recommended Actions for Digital Transformation of NDM
+Foundations •Establish and ensure clear national will.
+•Ensure NDM top management support including the right awareness
+& mindset.
+•Review government architecture and ensure NDM plugs in to the
+right place in government.
+•Create a strategic national secretariat (single focal point - not one of
+the ministries).
+•Get NDM doctrine sorted - establish a clear business and operating
+model for NDM and communicate it to all involved.
+• Established a clear system of authority, roles and responsibilities
+within and around NDM.
+• Establish a system of standards, rule, regulations, and governance
+for technology use in NDM.
+• Unify cross-government technology-related efforts and investments, and avoid duplication of efforts (e.g. create focal dedicated technology units to serve all NDM).
+• Establish strategies for joint cross-government communication
+systems and unified disaster information broadcasting (e.g. central
+social media teams to push out joint messages).
+• Break down departmental/ministerial barriers and develop crossgovernment culture of information sharing, discussion, coordination, and consultation.
+• Get the intellectual and practical (physical and financial)
+foundations lined up to support NDM digital transformation.
+Approach • Identify your general focus, scope and pace.
+• Follow a gradual approach: start with operational levels then move
+up to strategic.
+• Start with the ‘bad’ side. Focus on minimizing harm using
+technology and minimizing harm from technology itself.
+• Apply a ‘generational approach’ to NDM digital strategy - harness
+the passion and intellect of the youth base and the digital
+generation to understand and utilize the new digital era to manage
+disasters now and in the future.
+• Establish a specialized unit for technological horizon scanning for
+NDM to help identify your digital transformation scope and
+priorities.
+• Identify your focus areas within NDM and look for cross-cutting
+areas to capitalize on technological capabilities.
+• Cross-check your digital transformation approach, scope and focus
+with the national risk register of likely scenarios.
+• Get an independent scientific technological review to decide what
+to do with technology today, what is missing, and what is coming
+which you might use or consider.
+Strategy • Define your NDM digital transformation strategy.
+• Establish ‘think tank’ teams of Subject Matter Experts within NDM
+and other scientists to help define your strategy.
+• Ensure the existence of needed policies, resources, mechanisms,
+evaluation methods to support your strategy.
+• Build NDM strategy to develop necessary culture of cooperation,
+coordination, and information and data sharing across NDM and
+overall government.
+• Develop your cross-departmental data management strategy - set
+teams to define what information is needed where, define needed
+systems, and decide how to best utilize new technologies.
+• Utilize international expertise, knowledge and experiences in the
+field.
+• Develop your learning and awareness strategy to support NDM
+digital transformation.
+• Work with local authorities to establish programs on technology
+advancement, risks and crises for the society and other
+stakeholders.
+• Hold major conferences with leaders in the field to better
+understand digital transformation.
+• Gather scientists and scientific research to understand both good
+and bad aspects of new technologies.
+• Build your stakeholder integration strategy.
+• Identify stakeholders for priority disasters.
+• Decide how to bring each stakeholder in different layers of
+responsibility and develop a structure of where stakeholders sit-in
+with NDM and decide how to share information.
+• Engage with stakeholders to see how they deal with technology
+and what technologies they have in place to deal with these
+disasters.
+(continued on next page)
+Y.S. AlHinai 
+International Journal of Disaster Risk Reduction 51 (2020) 101851
+15
+specific, or task-specific issues. Therefore, this research particularly
+investigated the overall impact that digital transformation has on NDM
+and the specific determinants that can help or hinder the successful
+digital transformation of NDM.
+Using the TOE (Technology-Organization-Environment) theory, the
+study found that the impact of digital transformation on NDM is profound, paradoxical, multi-directional, and involves a multitude of
+driving forces. This research offered disaster management a new
+perspective by uncovering a new set of determinants unique to the
+disaster management context and thus expanded the traditional TOE
+framework beyond its original underpinnings. The research also presented an innovative Layered Cake FAST (Foundations-ApproachStrategy-Technology) Model that provided a unique and practical
+roadmap for NDM on how to handle its digital transformation journey.
+This model also presented a set of expert-recommended actions to guide
+NDM leaders and professionals.
+This research made significant contributions to both theory and
+practice. To theory, it has expanded the existing literature on disaster
+management beyond its current status quo by integrating new concepts
+and theories from other research fields. Additionally, it presented a
+unique model of the determinants of digital transformation in NDM
+based on primary first-hand insights from experts in the field and
+therefore opened avenues for further investigation and research into this
+area. To practice, this research unlocked the doors for an important
+strategic dialogue for the future of NDM in the new digital era, offered
+unique perspectives to help enrich this dialogue, and provided good
+foundations and paths for establishing relevant strategies, policies, and
+plans.
+This research fulfilled the aims it was set to achieve. However, it
+could have benefited more from interviewing a larger number of experts. Also, it would have been ideal to interview practitioners specialized in digital transformation to reflect on and complement the ideas
+presented by NDM experts. For future research, it will be a useful idea to
+further test and validate the TOE-D model, preferably in a different
+country than the UK or a different setting. Such cross-country or crosssetting comparative studies will further enrich our understandings of
+this area.
+Declaration of competing interest
+The authors declare that they have no known competing financial
+interests or personal relationships that could have appeared to influence
+the work reported in this paper.
+Appendix A. Interview Questions
+1 To what extent has digital innovation been considered in NDM?
+2 What implications (opportunities and threats) does the new digital era pose on NDM?
+3 Apart from simple digitization (using technologies to automate tasks), what can NDM as an organizational system do differently/better to seize the
+opportunities of the new digital age?
+4 What technological, organizational, and environmental factors (enablers/inhibitors) will determine the NDM ability to digitally transform?
+5 Practically, what recommended actions/strategies can NDM use today to maximize its chances to cope with the new digital era and benefit from the
+opportunities it brings?
+Appendix B. Research Evidence from Expert Interviews – Technology Context Determinants
+Category Determinant Sample Interview Excerpt
+Technological Availability “If we can use a technology … if that’s available to us … then we will obviously use it where it enhances our ability to respond and
+communicate” (p5)
+Technological Criticality “The key phrase that decision makers will be looking for is business criticality, how critical is this system to the successful operation of
+the business? If it’s a nice to have then we haven’t got a chance. If it’s a system that’s absolutely essential to enable better response to
+emergency or better decision making by commanders then you’ve got a chance of gain” (p5)
+Technological Justifiability “The national disaster management in the UK follows the lead-agency concept … so it is quite difficult proving your [digital] benefit
+under disaster management. Any wider government response comes with it the challenge of actually if you don’t see the immediate
+output, if doesn’t benefit your own department, you have a bigger challenge in asking the government telling them you need to spend
+money on [the technology]” (p7)
+Technological Testability “We need to do more testing of technological failure examples, one of the things that I think personally is that for organizations it costs a
+lot of money to do technology disruption failure scenarios because you can imagine for example a 999 system, there is no way you can
+turn it off to see what you would do if it didn’t work. So, where you rely very heavily on something working, you can’t realistically test
+losing it for a long period of time” (p3)
+Technological Heterogeneity/
+Homogeneity
+“New technology is going to sit on top of an awful lot of heterogeneous networks, in other words, they are going to have stuff in the
+networks of different generations of technology, different connectivity and so on and so forth. And heterogeneity creates single points of
+(continued on next page)
+Table 2 (continued )
+Cake Layer Recommended Actions for Digital Transformation of NDM
+• Understand the present technological control systems of major
+critical infrastructure operators and what their future plans are and
+make sure they are not building up single points of failure and if
+they didn’t have them, make sure that they have redundancy and
+resilience built in their networks.
+Technology • Study new technologies well and consider benefits and risks.
+• Define a national information assurance regime to make sure what
+comes out of technology is true and current to prevent technologies
+from becoming the architect of chaos.
+• Establish your data and information management policies, data
+specifications, data standardization across NDM.
+• Create common unified lexicon of key technology-related terms.
+• Choose technologies that can cover cross-cutting areas in the
+disaster management cycle and NDM network.
+• Start using new technologies in controlled small scale then scale up
+to major national disasters.
+• Link with industry specific scenarios where technology is used and
+then scale up to national level disasters.
+• Diversify your technology supplier network to minimize risks.
+• Embrace new technologies and try out all new technologies and
+seek ways to capitalize on their benefits.
+• Embed digital innovations elements in training strategies to
+professionalize NDM.
+• Incorporate a culture of new technology use in all day to day
+activities of NDM.
+• Test to ensure that for any technology you use/choose, there is a
+way to work without it.
+• Provide a safe place for exercising and trying new technologies
+where people are less afraid of failure.
+Y.S. AlHinai 
+International Journal of Disaster Risk Reduction 51 (2020) 101851
+16
+(continued )
+Category Determinant Sample Interview Excerpt
+failure where things can go wrong and where the vulnerabilities exist at the boundaries of systems. So, you have new vulnerabilities that
+have to be considered and have to be covered off because we don’t build things at once and because all the historic legacy stuff lying all
+over the place” (p1)
+Appendix C. Research Evidence from Expert Interviews – Organization Context Determinants
+Category Determinant Sample Interview Extract
+Organizational Structure “When you talk about national disaster management, you are talking about a massive body of a large number of boxes like
+ministries, authorities and so on, and each of these boxes has its own technologies they use based on their specialized needs and
+objectives, especially to support their own decision making. The role of national disaster management then comes to coordinate and
+align these efforts on government and social and commercial levels for the objective of managing emergency situations” (p2)
+Organizational Procurement System “In the commercial sector […] for emergencies, they quite quickly have to deal with social perceptions, so people are either reading
+up or direct messaging or putting a post #rubbish_service by this company and so on … and therefore customers demand that
+companies use technology. Whereas in government entities, the governments have lagged behind because of how poor generally
+computer projects are within the government sector” (p4)
+Organizational Financial Constraints “It’s difficult to break down huge financial barriers because budgets are allocated to ministries and disaster management is a theme
+that cross-cuts everybody from the ministry of the interior, foreign office, defense, security and intelligence agencies, etc. So how do
+you allocate a pot of gold to a crosscutting theme like disaster management? So, strategies are needed in terms of how to build in the
+new digital era and prove the benefits it will bring” (p7)
+Organizational Data and Information
+Eccentricity
+“The other problem with government is it already has a vast amount of data, and multitude of systems, and this is all incredibly
+dispersed data, incredibly mucky, and the systems are heterogeneous because of the way constitutions are set up … and most of this
+evolved over time. And the way in which data and information has evolved as a result of that can vary widely between government
+departments” (p1)
+Organizational Technological Inclination “There is a fundamental difference between those organizations who tend to quite often rely on technology first and humans second
+… they always seek for technical solutions. Whereas others tend to rely on human beings first with technology in support” (p8)
+Organizational Adaptability “The ability of the organization to understand technology, the good and bad, and what they might do, and understanding quickly
+enough. In my experience, government organizations can be quite slow to move and the technology can move faster than
+organizations can manage it” (p8)
+Appendix D. Research Evidence from Expert Interviews – Environment Context Determinants
+Category Determinant Sample Interview Excerpt
+Environmental Governmental Collaborative
+Mindset
+“Now where you’ve got certain government systems, shall we call them autocracies, where the ruler can direct “we gonna do this”
+… well that’s all fine, but the paradox there is that those are the countries whose ministries are generally the worst at sharing
+information. So, the ruler can say, “do it”, but actually the obstacles against doing it are much greater” (p1)
+Environmental Political Accountability “Government systems are built on political accountability and exercise of power, so in case of automated choice A proves wrong,
+who is to blame and take responsibility? The absence of democracy in the decision of top leaders to adopt a technological
+innovation does not imply the absence of politics” (p1)
+Environmental Governmental Bureaucracy “I worked in other countries where to get two civil servants from two government departments to talk to each other about a
+problem required briefing up to two ministers, exchange of letters between two ministers, written agreement to come up with
+meeting time with a fixed agenda where these two guys under supervision. Well in that sort of environment, digital transformation
+is never going to get off the ground” (p1)
+Appendix E. Research Evidence from Expert Interviews – Disaster Context Determinants
+Category Determinant Sample Interview Excerpt
+Disaster Situational
+Criticality
+“The reason I’ve seen [that] technologies piloted or tried do not reach beta stage is because the last thing you want during a disaster is a new thing
+to come along that could break. That’s the overriding thinking in the back of our mind when we have technology discussions in the national
+disaster management context […] is the fact that we know the systems that we currently have are not perfect, but they work. So, to add an
+unknown which could fail and no one knows how to fix is a big no-no that strategic leadership and indeed practitioners completely against” (p6)
+Disaster Temporality “In essence, national disaster management is mainly a coordinating framework for other independent organizations each with their own policies
+and objectives. It is a tool to align available recourses to deal with the effects of an exceptional emergency situation. So, in cases of national
+emergency, other organizations will temporarily hand over their resources to the national leading unit for the purpose of mobilizing these
+resources towards achieving specific objectives of saving lives and properties. Then, all organizations go back to their own routine work once the
+national emergency is over” (p2)
+Disaster Human Factor “For example, the huge amount of information on social media, we use that only as a kind of signal or indicator. So, when something is happening
+somewhere, we pick up the phone and engage on a human level. So, using the data as a warning and informing or flagging and then carrying out a
+human check behind that. The data could be crap and the time it requires to shape and process big data is way too long to actually provide useful
+outputs to most responses” (p6)
+Disaster Resilience Mindset “Because of the nature of our job, we need to be resilient for every eventuality and ensure that that eventuality will always include there being no
+power or having been the subject of cyber-attack, then our role is to have paper-based systems to fall back on” (p5)
+Appendix F. Supplementary data
+Supplementary data to this article can be found online at https://doi.org/10.1016/j.ijdrr.2020.101851.
+Y.S. AlHinai 
+International Journal of Disaster Risk Reduction 51 (2020) 101851
+17
+References
+[1] A. Alexandru, M. Ianculescu, I.A. Marinescu, T.D. Popescu, Shaping the digital
+citizen into a smart citizen on the basis of IoT capabilities, in: 22nd International
+Conference on Control Systems and Computer Science (CSCS), University
+Politehnica of Bucharest, Romania, 2019, pp. 707–714 (IEEE).
+[2] S.H. Alsamhi, M. Samar Ansari, N.S. Rajput, Disaster coverage predication for the
+emerging tethered Balloon technology: capability for preparedness, detection,
+mitigation, and response, Disaster Med. Public Health Prep. 12 (2) (2018)
+222–231.
+[3] M.M. Alshammari, A.A. Alwan, A. Nordin, A.Z. Abualkishik, Disaster recovery
+with minimum replica plan for reliability checking in multi-cloud, Procedia
+Computer Science 130 (2018) 247–254.
+[4] S.J. Andriole, Five myths about digital transformation, MIT Sloan Manag. Rev. 58
+(3) (2017).
+[5] R. Arandjelovic, 1 million IoT devices per square km- are we ready for the 5G
+transformation? [online]. CLX Forum. Available from: https://medium.com/
+clx-forum/1-million-iot-devices-per-square-km-are-we-ready-for-the-5g-transfor
+mation-5d2ba416a984, 2018. July 23.
+[6] H. Arksey, P.T. Knight, Interviewing for Social Scientists: an Introductory
+Resource with Examples, Sage, 1999.
+[7] K. Ashton, That ‘internet of things’ thing, RFID journal 22 (7) (2009) 97–114.
+[8] L. Atzori, A. Iera, G. Morabito, The internet of things: a survey, Comput. Network.
+54 (15) (2010) 2787–2805.
+[9] C.W. Babbitt, The role of clean technology research in disaster debris
+management, Clean Technol. Environ. Policy 21 (5) (2019) 923.
+[10] J. Baker, The technology–organization–environment framework, in: Y. Dwivedi,
+M. Wade, S. Schneberger (Eds.), Information Systems Theory: Explaining and
+Predicting Our Digital Society, Springer, New York, 2011, pp. 231–246.
+[11] B. Beaglehole, R.T. Mulder, C.M. Frampton, J.M. Boden, G. Newton-Howes, C.
+J. Bell, J. T, o.P. B J, Psychological distress and psychiatric disorder after natural
+disasters: systematic review and meta-analysis, Br. J. Psychiatr. 213 (6) (2018)
+716–722.
+[12] S.W. Becker, T.L. Whisler, The innovative organization: a selective view of
+current theory and research, J. Bus. 40 (4) (1967) 462–469.
+[13] R.I. Benjamin, E. Levinson, A framework for managing IT-enabled change, Sloan
+Manag. Rev. 34 (4) (1993) 23–33.
+[14] D. Bennett, B.D. Phillips, E. Davis, The future of accessibility in disaster
+conditions: how wireless technologies will transform the life cycle of emergency
+management, Futures 87 (2017) 122–132.
+[15] W.P. Bergeron, Coporative Security in a Connected Digital World: Leveraging
+Social Media and Emerging Technology in Crisis and Disaster. UNA Scholarly
+Repositor, Department of Politics, Justice, and Law College of Arts and Sciences,
+USA, 2018, pp. 35–46.
+[16] I.M.P. Bezerra, State of the art of nursing education and the challenges to use
+remote technologies in the time of corona virus pandemic, Journal of Human
+Growth Development 30 (1) (2020) 141–147.
+[17] S. Bierweiler, Shelter from the Storm: how enterprise open source technology can
+improve disaster preparedness and response, Am. City County 133 (8) (2018)
+6–10.
+[18] A. Bogner, B. Littig, W. Menz, Introduction: Expert Interviews—An Introduction
+to a New Methodological Debate. Interviewing Experts, Springer, 2009, pp. 1–13.
+[19] V. Braun, V. Clarke, Using thematic analysis in psychology, Qual. Res. Psychol. 3
+(2) (2006) 77–101.
+[20] W.N. Carter, Disaster Management: A Disaster Manager’s Handbook, Asian
+Development Bank, Mandaluyong City, Philippines, 2008.
+[21] D. Chernobrov, Digital volunteer networks and humanitarian crisis reporting,
+Digital Journalism 6 (7) (2018) 928–944.
+[22] J. Choi, O.-C. Kwon, W. Jo, H.J. Lee, M.-W. Moon, 4D printing technology: a
+review, 3D Print. Addit. Manuf. 2 (4) (2015) 159–167.
+[23] J. Collin, K. Hiekkanen, J.J. Korhonen, M. Hal´en, T. It¨
+ala, ¨ M. Helenius, IT
+leadership in transition-the impact of digitalization on Finnish organizations,
+Science + Technology 7 (2015).
+[24] D.J. Cook, M. Youngblood, E.O. Heierman, K. Gopalratnam, S. Rao, A. Litvin,
+F. Khawaja, MavHome: an agent-based smart home, in: PerCom03 - Proceedings
+of the First IEEE International Conference on Pervasive Computing and
+Communications, IEEE, Fort Worth, Texas, USA, 2003, pp. 521–524.
+[25] J. Cramer, A.B. Krueger, Disruptive change in the taxi business: the case of Uber,
+Am. Econ. Rev. 106 (5) (2016) 177–182.
+[26] T. Crouse, P. Lowe, Snowball Sampling, SAGE Publications, Thousand Oaks, CA,
+2018.
+[27] F. Damanpour, M. Schneider, Phases of the adoption of innovation in
+organizations: effects of environment, organization and top managers 1, Br. J.
+Manag. 17 (3) (2006) 215–236.
+[28] S. Das, A. Dey, A. Pal, N. Roy, Applications of artificial intelligence in machine
+learning: review and prospect, Int. J. Comput. Appl. 115 (9) (2015).
+[29] D.A. De Vaus, D. de Vaus, Research Design in Social Research, Sage, 2001.
+[30] Deloitte, Digital government transformation: the Journey to government’s digital
+transformation [online]. Deloitte Digital. Available from: https://www2.deloitte.
+com/global/en/pages/public-sector/articles/digital-government-transformation.
+html, 2015. June 2nd.
+[31] R. Depietro, E. Wiarda, M. Fleischer, The context for change: organization,
+technology and environment, in: L.G. Tornatzky, M. Fleischer, A.K. Chakrabarti
+(Eds.), The Processes of Technological Innovation, Lexington books, 1990,
+pp. 151–175.
+[32] R.D. Dewar, J.E. Dutton, The adoption of radical and incremental innovations: an
+empirical analysis, Manag. Sci. 32 (11) (1986) 1422–1433.
+[33] C. Dirican, The impacts of robotics, artificial intelligence on business and
+economics, Procedia-Social Behavioral Sciences 195 (2015) 564–573.
+[34] P. Diwakar, V. Dadhwal, G.S. Rao, Challenges in Using Remote Sensing
+Technology for Disaster Management India: National Remote Sensing Centre
+(NRSC) and Indian Space Research Organisation, 2015.
+[35] C. Dremel, J. Wulf, M.M. Herterich, J.-C. Waizmann, W. Brenner, How AUDI AG
+established big data analytics in its digital transformation, MIS Q. Exec. 16 (2)
+(2017).
+[36] C. Ebert, C.H. Duarte, Digital transformation, IEEE Software 35 (4) (2018) 16–21.
+[37] W.D. Eggers, J. Bellman, The Journey to Government’s Digital Transformation
+[online], Deloitte University Press, 2016. Available from: https://www2.deloitte.
+com/uk/en/pages/public-sector/articles/the-journey-to-governments-digital-tra
+nsformation.html, 15 July.
+[38] J. Fang, J. Hu, X. Shi, L. Zhao, Assessing disaster impacts and response using
+social media data in China: a case study of 2016 Wuhan rainstorm, International
+Journal of Disaster Risk Reduction 34 (2019) 275–282.
+[39] N. Faruk, N.T. Surajudeen-Bakinde, A.A. Ayeni, O.W. Bello, O.A. Fadipe-Joseph,
+O. Kolade, Technology options for public safety and disaster relief networks, Arid
+Zone Journal of Engineering, Technology and Environment 14 (1) (2018) 1–25.
+[40] A. Featherstone, Learning from Disaster: How Governments Gain Insight and How
+Regional and International Bodies Can Help, ALNAP Study, London, 2014.
+[41] M. Fitzgerald, N. Kruschwitz, D. Bonnet, M. Welch, Embracing digital technology:
+a new strategic imperative, MIT Sloan Manag. Rev. 55 (2) (2014) 1.
+[42] E. Garba, A. Ahmadu, ICT implementation framework for integrated national
+security, emergency and disaster management for Nigeria, West African Journal
+of Industrial Academic Research 15 (1) (2015) 27–37.
+[43] H. Gimpel, M. Roglinger, ¨ Digital Transformation: Changes and Chances–Insights
+Based on an Empirical Study, Fraunhofer Institute for Applied Information
+Technology FIT, Denmark, 2015.
+[44] GovUK, Policy paper: government transformation strategy, United Kingdom
+(2017-2020), July 3rd. [online]. UK: Cabinet Office. Available from, https://www
+.gov.uk/government/publications/government-transformation-strategy-2017-to
+-2020, 2017.
+[45] J. Gubbi, R. Buyya, S. Marusic, M. Palaniswami, Internet of Things (IoT): a vision,
+architectural elements, and future directions, Future Generat. Comput. Syst. 29
+(7) (2013) 1645–1660.
+[46] K. Gyarmathy, 5 IoT Statistics You Need to Know in 2019, 2019 [online].
+vXchnge Available from: https://www.vxchnge.com/blog/iot-statistics, 15
+August.
+[47] C. Hagar, Crisis informatics, J. Geogr. Nat. Disasters: Editorial 4 (1) (2014).
+[48] D.-M. Han, J.-H. Lim, Smart home energy management system using IEEE
+802.15.4 and zigbee, IEEE Trans. Consum. Electron. 56 (3) (2010) 1403–1410.
+[49] N.P. Hapuarachchi, The usage of geo-information technology in disaster
+management by sub national level organizations case study–Ratnapura in Sri
+Lanka (Msc.). ITC University of Twente, https://webapps.itc.utwente.nl/lib
+rarywww/papers_2008/msc/gim/hapuarachchige.pdf, 2008.
+[50] R. Harper, Inside the Smart Home, Springer Science & Business Media, 2006.
+[51] H.-F. Hsieh, S.E. Shannon, Three approaches to qualitative content analysis, Qual.
+Health Res. 15 (9) (2005) 1277–1288.
+[52] C.L. Iacovou, I. Benbasat, A.S. Dexter, Electronic data interchange and small
+organizations: adoption and impact of technology, MIS Q. 19 (4) (1995) 465–485.
+[53] G.C. Kane, D. Palmer, A.N. Phillips, D. Kiron, N. Buckley, Strategy, not
+technology, drives digital transformation, MIT Sloan Manag. Rev. 14 (2015)
+1–25.
+[54] N. Kapucu, Collaborative emergency management: better community organising,
+better public preparedness and response, Disasters 32 (2) (2008) 239–262.
+[55] N. Kapucu, T. Arslan, F. Demiroz, Collaborative emergency management and
+national emergency management network, Disaster Prev. Manag.: Int. J. 19 (4)
+(2010) 452–468.
+[56] N. Kapucu, V. Garayev, Collaborative decision-making in emergency and disaster
+management, Int. J. Publ. Adm. 34 (6) (2011) 366–375.
+[57] A. Katal, M. Wazid, R. Goudar, Big data: issues, challenges, tools and good
+practices, in: Sixth International Conference on Contemporary Computing (IC3),
+IEEE, New Delhi, India, 2013, pp. 404–409.
+[58] T. Keeley, IoT to IoAT: Internet Of Autonomous Things Devices Provides Solutions
+[online]. Control Engineering, 2016. Available from: https://www.controleng.
+com/articles/iot-to-ioat-internet-of-autonomous-things-devices-provides-solutio
+ns/. July 23.
+[59] Y.D. Kim, G.J. Son, H. Kim, C. Song, J.H. Lee, Smart disaster response in vehicular
+tunnels: technologies for search and rescue applications, Sustainability 10 (7)
+(2018).
+[60] E. Kirac, A.B. Milburn, A general framework for assessing the value of social data
+for disaster response logistics planning, Eur. J. Oper. Res. 269 (2) (2018)
+486–500.
+[61] R. Kitchin, The real-time city? Big data and smart urbanism, Geojournal 79 (1)
+(2014) 1–14.
+[62] P. Koellinger, The relationship between technology, innovation, and firm
+performance—empirical evidence from e-business in Europe, Res. Pol. 37 (8)
+(2008) 1317–1328.
+[63] K. Krippendorff, Validity in content analysis, in: E. Mochmann (Ed.),
+Computerstrategien für die Kommunikationsanalyse, Campus, Frankfurt,
+Germany, 1980, pp. 69–112.
+[64] K. Kumar, G.S.M. Thakur, Advanced applications of neural networks and artificial
+intelligence: a review, Inf. Technol. Comput. Sci. 6 (2012) 57–68.
+Y.S. AlHinai 
+International Journal of Disaster Risk Reduction 51 (2020) 101851
+18
+[65] J. Lee, M. Azamfar, J. Singh, A blockchain enabled Cyber-Physical System
+architecture for Industry 4.0 manufacturing systems, Manufacturing Letters 20
+(2019) 34–39.
+[66] G. Leeming, J. Ainsworth, D.A. Clifton, Blockchain in health care: hype, trust, and
+digital health, Lancet 393 (10190) (2019) 2476–2477.
+[67] J. Leigh, C. Vasilica, R. Dron, D. Gawthorpe, E. Burns, S. Kennedy, R. Kennedy,
+T. Warburton, C. Croughan, Redefining undergraduate nurse teaching during the
+coronavirus pandemic: use of digital technologies, Br. J. Nurs. 29 (10) (2020)
+566–569.
+[68] C. Lin, W.E. Braund, J. Auerbach, J.-H. Chou, J.-H. Teng, P. Tu, J. Mullen, Policy
+decisions and use of information technology to fight coronavirus disease, taiwan,
+Emerg. Infect. Dis. 26 (7) (2020) 1506.
+[69] A. Mamalis, Recent advances in nanotechnology, J. Mater. Process. Technol. 181
+(1–3) (2007) 52–58.
+[70] A. Martin, Digital literacy and the “digital society”, Digital literacies: Concepts,
+policies and practices 30 (2008) 151–176.
+[71] N.O. Martins, Technology and Isolation: clive Lawson on the impact of technology
+on the economy and society, Real-world Economics Review 125 (2018).
+[72] P. Mayring, Qualitative content analysis, A companion to qualitative research 1
+(2) (2004) 159–176.
+[73] M.P. McDonald, A. Rowsell-Jones, The Digital Edge, Gartner, Incorporated, 2012.
+[74] D. Miller, The architecture of simplicity, Acad. Manag. Rev. 18 (1) (1993)
+116–138.
+[75] V. Mirkovi´c, J. Luki´c, S. Lazarevi´c, Z. ˇ Vojinovi´c, Key characteristics of
+organizational structure that supports digital transformation, in: 24th
+International Scientific Symposium on Strategic Management and Decision
+Support Systems in Strategic Management Subotica, 2019. Republic of Serbia
+17th May.
+[76] M.A. Mody, C. Suess, X. Lehto, The accommodation experiencescape: a
+comparative assessment of hotels and Airbnb, Int. J. Contemp. Hospit. Manag. 29
+(9) (2017) 2377–2404.
+[77] M. Mylrea, S.N.G. Gourisetti, Blockchain for smart grid resilience: exchanging
+distributed energy at speed, scale and security, in: 2017 Resilience Week (RWS),
+IEEE, 2017, pp. 18–23.
+[78] MySociety, Fix My Street, 2019 [online]. UK: Available from: https://www.
+fixmystreet.com/. July 3rd.
+[79] N.O. Nawari, S. Ravindran, Blockchain and building information modeling (BIM):
+review and applications in post-disaster recovery, Buildings 9 (6) (2019) 149.
+[80] D.N. Nguyen, F. Imamura, K. Iuchi, Public-private collaboration for disaster risk
+management: a case study of hotels in Matsushima, Japan, Tourism Manag. 61
+(2017) 129–140.
+[81] T. Oliveira, M.F. Martins, Literature review of information technology adoption
+models at firm level, Electron. J. Inf. Syst. Eval. 14 (1) (2011) 110.
+[82] A. Ozsomer, ¨ R.J. Calantone, A. Di Bonetto, What makes firms more innovative? A
+look at organizational and environmental factors, J. Bus. Ind. Market. 12 (6)
+(1997) 400–416.
+[83] J.G. Palfrey, U. Gasser, Born Digital: Understanding the First Generation of Digital
+Natives, Basic Books, NY, USA, 2008.
+[84] K. Panetta, What Conventional Companies Can Learn from Organizations that
+Consider Digital Technologies a Core Competency, 2016 [online]. Gartner.
+Available from: https://www.gartner.com/smarterwithgartner/10-managementtechniques-from-born-digital-companies/. July 2nd.
+[85] S. Paul, S. Sosale, Witnessing a disaster: public use of digital technologies in the
+2015 South Indian floods, Digital Journalism (2019) 1–17.
+[86] N. Perkin, P. Abraham, Building the Agile Business through Digital
+Transformation, Kogan Page Publishers, 2017.
+[87] B. Radhakrishnan, A.S. Joseph, S. Sudhakar, Securing blockchain based electronic
+health record using multilevel authentication, in: 5th International Conference on
+Advanced Computing & Communication Systems (ICACCS), IEEE, Coimbatore,
+India, 2019, pp. 699–703.
+[88] J.R. Ragini, P.M.R. Anand, V. Bhaskar, Big data analytics for disaster response
+and recovery through sentiment analysis, Int. J. Inf. Manag. 42 (2018) 13–24.
+[89] K.H. Rao, P.S.S. Rao, Disaster Management, Serials Publications, 2008.
+[90] S.Z.A. Rasid, S.A. Saruchi, R.S.M. Tamin, The eminence of the 4th industrial
+revolution: how it transformed management accountants, in: 16th International
+Symposium on Management (INSYMA 2019), Atlantis Press, 2019.
+[91] C. Reddick, Information technology and emergency management: preparedness
+and planning in US states, Disasters 35 (1) (2011) 45–61.
+[92] C. Reddick, Information technology and emergency management: preparedness
+and planning in US states, Disasters 35 (1) (2011) 45–61.
+[93] J. Reis, M. Amorim, N. Mel˜
+ao, P. Matos, Digital transformation: a literature
+review and guidelines for future research, in: World Conference on Information
+Systems and Technologies, Springer, 2018, pp. 411–421.
+[94] R.J. Reisman, Air Traffic Management Blockchain Infrastructure for Security,
+Authentication, and Privacy, NASA Ames Research Center, 2019.
+[95] D.L. Rogers, The Digital Transformation Playbook: Rethink Your Business for the
+Digital Age, Columbia University Press, NY, USA, 2016.
+[96] E.M. Rogers, Diffusion of Innovations, fourth ed., The Free Press, New York,
+1995.
+[97] T. Schempp, H. Zhang, A. Schmidt, M. Hong, R. Akerkar, A framework to
+integrate social media and authoritative data for disaster relief detection and
+distribution optimization, International Journal of Disaster Risk Reduction (2019)
+101143.
+[98] K. Schwab, The Fourth Industrial Revolution, Currency, 2017.
+[99] D. Schweer, J.C. Sahl, The Digital Transformation of Industry–The Benefit for
+Germany. The Drivers of Digital Transformation, Springer, 2017, pp. 23–31.
+[100] A. Schweizer, Digitalization In the Financial Services Industry: Fostering
+Innovation through Fintechs And Blockchain Technology. (PhD), University of
+Bayreuth, 2019.
+[101] A. Seba, N. Nouali-Taboudjemat, N. Badache, H. Seba, A review on security
+challenges of wireless communications in disaster emergency response and crisis
+management situations, J. Netw. Comput. Appl. 126 (2019) 150–161.
+[102] D. Seo, A.I. La Paz, Exploring the dark side of IS in achieving organizational
+agility, Commun. ACM 51 (11) (2008) 136–139.
+[103] C. Sheridan, Fast, portable tests come online to curb coronavirus pandemic, Nat.
+Biotechnol. 10 (2020).
+[104] S. Singh, Eight Reasons Why 5G Is Better than 4G, 2018 [online]. Altran.
+Available from: https://connect.altran.com/2018/03/eight-reasons-why-5g-is
+-better-than-4g/. July 23.
+[105] B. Solis, R. Lieb, J. Szymanski, The 2014 State of Digital Transformation–How
+Companies Are Investing in the Digital Customer Experience, 2014 (San
+Francisco).
+[106] A. Somech, A. Drach-Zahavy, Translating team creativity to innovation
+implementation: the role of team composition and climate for innovation,
+J. Manag. 39 (3) (2013) 684–708.
+[107] P.R. Srinivas, P. Barker, S. Srivastava, Nanotechnology in early detection of
+cancer, Lab. Invest. 82 (5) (2002) 657.
+[108] E. Stolterman, A.C. Fors, Information Technology and the Good Life, Information
+systems research, 2004, pp. 687–692.
+[109] F. Tao, J. Cheng, Q. Qi, M. Zhang, H. Zhang, F. Sui, Digital twin-driven product
+design, manufacturing and service with big data, Int. J. Adv. Manuf. Technol. 94
+(9–12) (2018) 3563–3576.
+[110] H.-H. Teo, K.K. Wei, I. Benbasat, Predicting intention to adopt interorganizational
+linkages: an institutional perspective, MIS Q. 27 (1) (2003) 19–49.
+[111] A. Tezel, E. Papadonikolaki, I. Yitmen, P. Hilletofth, Preparing Construction
+Supply Chains for Blockchain: an Exploratory Analysis, CIB World Building
+Congress 2019 Constructing Smart Cities, Hong Kong SAR, vol. 6, 2019. China,
+17–21 June 2019.
+[112] L.G. Tornatzky, M. Fleischer, A.K. Chakrabarti, Processes of Technological
+Innovation, Lexington books, 1990.
+[113] H. Treiblmaier, I. Onder, ¨ The Impact of Blockchain on the Tourism Industry: A
+Theory-Based Research Framework. Business Transformation through
+Blockchain, Springer, 2019, pp. 3–21.
+[114] M.L. Tushman, P. Anderson, Technological discontinuities and organizational
+environments, Adm. Sci. Q. 31 (3) (1986) 439–465.
+[115] UK Cabinet Office, Digital Efficiency Report, 2012 [online]. Uk Government.
+Available from: https://www.gov.uk/government/publications/digital-efficien
+cy-report/digital-efficiency-report. July 3rd.
+[116] UK Cabinet Office, Policy Paper: National Cyber Security Strategy 2016 to 2021,
+2016 [online]. Uk Government. Available from: https://www.gov.uk/govern
+ment/publications/national-cyber-security-strategy-2016-to-2021. July 3rd.
+[117] E.G. Ularu, F.C. Puican, A. Apostu, M. Velicanu, Perspectives on big data and big
+data analytics, Database Systems Journal 3 (4) (2012) 3–14.
+[118] UNISDR, Sendai Framework for Disaster Risk Reduction 2015–2030, United
+Nations, Geneva, Switzerland, 2015.
+[119] United Nations, UN E-Government Survey 2018: Gearing E-Government to
+Support Transformation Twards Sustainable and Resilient Societies, Department
+of Economic and Social Affairs, New York, 2018 (United Nations).
+[120] D. Wan, C.H. Ong, F. Lee, Determinants of firm innovation in Singapore,
+Technovation 25 (3) (2005) 261–268.
+[121] Y. Wang, L. Kung, T.A. Byrd, Big data analytics: understanding its capabilities and
+potential benefits for healthcare organizations, Technol. Forecast. Soc. Change
+126 (2018) 3–13.
+[122] Z. Wang, N.S.N. Lam, N. Obradovich, X. Ye, Are vulnerable communities digitally
+left behind in social responses to natural disasters? An evidence from Hurricane
+Sandy with Twitter data, Appl. Geogr. 108 (2019) 1–8.
+[123] P. Weill, S.L. Woerner, Optimizing your digital business model, MIT Sloan Manag.
+Rev. 54 (3) (2013) 71.
+[124] T. Wengraf, Qualitative Research Interviewing: Biographic Narrative and Semistructured Methods, Sage, 2001.
+[125] M.A. West, N.R. Anderson, Innovation in top management teams, J. Appl.
+Psychol. 81 (6) (1996) 680.
+[126] G. Westerman, C. Calm´ejane, D. Bonnet, P. Ferraris, A. McAfee, Digital
+Transformation: A Roadmap for Billion-Dollar Organizations, vol. 1, MIT Center
+for Digital Business & Capgemini Consulting, 2011, pp. 1–68.
+[127] WFP, Using mobile phone activity for disaster management during floods
+[online]. UN Global Pulse. Available from: http://unglobalpulse.org/sites/defaul
+t/files/Mobile_flooding_WFP_Final.pdf, 2014. July 5th.
+[128] M. Whalen, A Digital Transformation Maturity Model and Your Digital Roadmap,
+2014 [online]. IDC. Available from: http://www.agendaconference.com/wp
+-content/uploads/2014/12/Whalen_IDC.pdf. June 2nd.
+[129] B.K. Wiederhold, Social Media Use during Social Distancing, Cyberpsychology,
+Behavior, and Social Networking, vol. 23, Mary Ann Liebert, Inc, 2020,
+pp. 437–438.
+[130] World Economic Forum, The Global Risk Report 2018, 2018 (Geneva).
+[131] X. Xu, L. Zhang, S. Sotiriadis, E. Asimakopoulou, M. Li, N. Bessis, CLOTHO: a
+large-scale internet of things-based crowd evacuation planning system for disaster
+management, IEEE Internet of Things Journal, Internet of Things Journal, IEEE,
+IEEE Internet Things J. (5) (2018) 3559.
+[132] S. Yost, 5G—It’s Not Here yet, but Closer than You Think, 2017 [online].
+ElectronicDesign. Available from: https://www.electronicdesign.com/embeddedrevolution/5g-it-s-not-here-yet-closer-you-think. July 23.
+Y.S. AlHinai 
+International Journal of Disaster Risk Reduction 51 (2020) 101851
+19
+[133] S.A. Youngblood, N.E. Youngblood, Usability, content, and connections: how
+county-level Alabama emergency management agencies communicate with their
+online public, Govern. Inf. Q. 35 (1) (2018) 50–60.
+[134] G. Zaltman, R. Duncan, J. Holbek, Innovations and Organizations, John Wiley &
+Sons, 1973.
+[135] G. Zervas, D. Proserpio, J.W. Byers, The rise of the sharing economy: estimating
+the impact of Airbnb on the hotel industry, J. Market. Res. 54 (5) (2017)
+687–705.
+[136] D. Zhang, Big Data Security and Privacy Protection, 8th International Conference
+On Management And Computer Science (ICMCS 2018), Atlantis Press, Shenyang,
+China, 2018.
+Y.S. AlHinai 

@@ -1,0 +1,1532 @@
+Technological Forecasting & Social Change 188 (2023) 122265
+Available online 7 January 2023
+0040-1625/© 2023 Elsevier Inc. All rights reserved.
+Merging two revolutions: A human-artificial intelligence method to study
+how sustainability and Industry 4.0 are intertwined
+Armando Calabrese a,*
+, Roberta Costa a
+, Luigi Tiburzi a
+, Alexander Brem b,c
+a Department of Enterprise Engineering, University of Rome “Tor Vergata”, Rome, Italy b Institute of Entrepreneurship and Innovation Science, University of Stuttgart, Stuttgart, Germany c Department of Technology and Innovation, University of Southern Denmark, Sonderborg, Denmark
+ARTICLE INFO
+Keywords:
+Sustainability
+Innovation
+Industry 4.0
+GRI
+Text mining
+ABSTRACT
+Industry 4.0 is an important contributor to industrial innovation and sustainability. Nevertheless, few studies
+empirically analyse how it acts as a binding force of both business practices. This study examines 1501 sustainability reports using a mixed human-artificial intelligence method based on Python’s text mining libraries.
+This method takes advantage of AI’s capabilities to extract information from large samples of data and of human
+critical thinking to find patterns in those data. Specifically, the method is used to evaluate the adoption of Industry 4.0 technologies, analyse how they are deployed worldwide, and investigate their sustainability outcomes.
+In terms of overall frequency, robots and cybersecurity are the most often reported technologies. Broken down by
+the firm’s region, Asian firms have the highest rate of adoption, while African firms are lagging. Regarding the
+themes, Industry 4.0 is mainly adopted to improve production processes and customer experience. A small
+percentage of firms, particularly in Europe and North America, utilize Industry 4.0 to reduce the environmental
+footprint of their operations. Furthermore, results indicate that Industry 4.0 and sustainability are following two
+routes. Some firms have massively adopted Industry 4.0 to increase operational efficiency and reaped environmental gains as an indirect consequence of improved operations. Others have chosen to balance the adoption
+of technologies aimed to increase productivity with innovations whose explicit aim is the reduction of their
+operations’ environmental footprint, such as additive manufacturing. Eastern firms tend to follow the first route
+while western firms the second. African and South American firms are still at a very early stage in their Industry
+4.0 and sustainability journey. At the global level, Industry 4.0 is still far from being utilized as a catalyst to
+develop sustainability-driven business models.
+1. Introduction
+Industry 4.0 is an ongoing process of industrial automation, digitalization, vertical and horizontal integration of the value chain (Dalenogare et al., 2018; Ibarra et al., 2018). It improves factory productivity
+(Kumar et al., 2018; Moeuf et al., 2018) and working conditions
+(Schneider, 2018; Strange and Zucchella, 2017), and ignites the creation
+of new business models (Calabrese et al., 2020b; Strozzi et al., 2017).
+Technologies shape the foundations of Industry 4.0 and are its enabling
+factors (Liao et al., 2017; Kang et al., 2016). Some of these technologies
+are related to the production line, as for example 3D printing (Lu and
+Weng, 2018) and collaborative and autonomous robots (Moeuf et al.,
+2018). Others, such as big data analytics, are used to develop new services for customers (Kiel et al., 2017; Shou et al., 2019). Finally, some
+technologies, such as smart glasses and smart gloves, also known as
+wearables (Ghobakhloo et al., 2021a), are utilized to improve workers’
+performance (Zavadsk ´ a ´ and Z´
+avadský, 2018; Rauschnabel et al., 2015).
+Industry 4.0 has a positive impact on unit cost and time reduction
+(Ching et al., 2022; Piccarozzi et al., 2022; Jung et al., 2017; Brad et al.,
+2018); it also facilitates fulfilling the needs of individual customers
+(Bordeleau et al., 2020; Müller et al., 2018) and empowers product
+customization (Culot et al., 2019; de Sousa Jabbour et al., 2018). Other
+claimed benefits are the improvement of the employees’ safety through
+the use of robots and drones for risky tasks (Schneider, 2018; Strange
+and Zucchella, 2017). Finally, Industry 4.0 facilitates the creation of new
+revenue streams, such as those based on product-as-a-service business
+models (Brax et al., 2021; Weking et al., 2020; Bordeleau et al., 2020).
+Industry 4.0 technologies have an important role regarding
+* Corresponding author.
+E-mail address: calabrese@dii.uniroma2.it (A. Calabrese).
+Contents lists available at ScienceDirect
+Technological Forecasting & Social Change
+journal homepage: www.elsevier.com/locate/techfore
+https://doi.org/10.1016/j.techfore.2022.122265
+Received 14 March 2022; Received in revised form 29 October 2022; Accepted 11 December 2022 
+Technological Forecasting & Social Change 188 (2023) 122265
+2
+sustainability throughout the value chain (Gastaldi et al., 2022; Kumar
+et al., 2022; Tripathi and Gupta, 2021). For instance, Industry 4.0 can be
+used to reduce greenhouse gas emissions (Peukert et al., 2015), decrease
+waste, and diminish the consumption of resources (Stock and Seliger,
+2016; Herrmann et al., 2014). Considering specific technologies, Big
+Data can contribute to the growth of the circular economy by facilitating
+data management throughout the product life cycle (Jabbour et al.,
+2019; Li et al., 2015). Additive manufacturing can help in the reuse of
+products and materials (Bloomfield and Borstrock, 2018; Oettmeier and
+Hofmann, 2017; Berman, 2012). The Internet of Things can contribute
+to waste management in smart cities (Esmaeilian et al., 2018; Kiel et al.,
+2017). Also in the social sphere, Industry 4.0 can play an important role
+through the improvement of learning by utilizing intelligent assistance
+systems (Herrmann et al., 2014; Peukert et al., 2015).
+Despite its potential to contribute to firms’ innovation and sustainability, research so far has been mostly devoted to investigating its effects on the former, focusing on the contribution of its technologies to
+firms’ economic output (Niehoff, 2022). Little evidence is available
+regarding the implementation of Industry 4.0 in sustainability initiatives
+(Dixit et al., 2021; Dwivedi et al., 2021; Chiarini et al., 2020; Ejsmont
+et al., 2020). Literature is still vague and fragmented as regards the
+benefits that Industry 4.0 can deliver to firms endeavouring to make
+their business more sustainable (Beltrami et al., 2021; Sharma et al.,
+2020).
+This study explores the level of adoption of Industry 4.0 and how it is
+used within firms. To attain this, 1501 sustainability reports from organizations all over the world have been analysed using a mixed humanartificial intelligence method based on text mining and content analysis
+techniques. A frequency analysis has been carried out to assess the
+technologies’ adoption rate. Then, a thematic analysis has been
+employed to find the themes that the organizations are pursuing when
+they adopt Industry 4.0 technologies (Braun and Clarke, 2012; Hearst,
+2003). Finally, a framework to display the results has been developed
+and discussed (Khan et al., 2021; Ghobakhloo et al., 2021b). The
+research method is described in the next section. Then, the results are
+presented. Discussions, implications, and limitations follow.
+1.1. Background
+Despite having been introduced more than a decade ago, the concept
+of Industry 4.0 is still elusive and vaguely defined (Ghobakhloo et al.,
+2021a; Beltrami et al., 2021; Culot et al., 2020). Scholars have adopted
+basically two approaches to deal with it. On the one hand, Industry 4.0 is
+broadly defined as the interplay between people, organizations, and
+technologies operating in an integrated way along the whole supply
+chain to empower decision making, minimize human intervention,
+maximize productivity, and enable new business models (Beltrami et al.,
+2021; Culot et al., 2020; Raut et al., 2020). On the other hand, scholars
+have referred to Industry 4.0 as a set of technologies, i.e., building
+blocks, acting as a foundation for a pool of business innovations (Verma
+et al., 2022; Ghobakhloo et al., 2021a; Calabrese et al., 2020b; Xu et al.,
+2018). In the second approach, Industry 4.0 is seen as a journey where
+the incremental adoption of technologies leads to improvements of
+business-as-usual processes and activities as well as, potentially, to
+disruptive changes (Niehoff, 2022; Calabrese et al., 2020b). From this
+perspective, the two approaches to define Industry 4.0 converge as the
+latter is just a narrower perspective of the former focused on technologies as enabling factors of business changes. This study adopts the second perspective, namely, it defines Industry 4.0 using technologies as its
+building blocks. This choice is preferred because it allows to identify its
+components, the technologies, and then analyse how they are deployed
+worldwide as well as investigate their sustainability outcomes, as will be
+explained in the Research method section (Beltrami et al., 2021).
+Irrespectively of the way Industry 4.0 is defined, many scholars
+would agree on the fact that its adoption improves firms’ competitiveness along two routes. Digital technologies can be used to improve
+existing process efficiency and therefore reduce operational costs (Ching
+et al., 2022; Nylund and Brem, 2021). Moreover, thanks to their positive
+impact on process flexibility, digital technologies have been seen as a
+means to meet customer demands more effectively (Niehoff, 2022;
+Braccini and Margherita, 2018; Watanabe et al., 2016). In addition,
+Industry 4.0 technologies can be used to rethink business-as-usual routines and find new paradigms to create, propose and capture customer
+value (Calabrese et al., 2020b).
+The above routes have been connected to business innovations
+regarding sustainability. Industry 4.0, by affecting operational performance, has been observed to have a positive effect on both economic
+and environmental performance, i.e., two of the three sustainability
+pillars (Lopes de Sousa Jabbour et al., 2022; Braccini and Margherita,
+2018). In particular, Industry 4.0 is thought to offer opportunities in
+terms of efficient planning and production management, thus helping
+avoiding overproduction and resource depletion (Stock et al., 2018).
+Furthermore, such routes are known to change between developed and
+developing countries. In developing countries, Industry 4.0 is less
+widespread and more focused on efficiency-related outcomes, whereas
+in developed countries resources are on average more abundant and
+there is more room to improve business-as-usual processes beyond efficiency (Lee et al., 2022; Siltori et al., 2021; Ingaldi and Ulewicz, 2019).
+The line of research outlined above, although promising, is still in its
+nascent stage, empirical evidence is unclear, and literature is fragmented (Beltrami et al., 2021; Ghobakhloo, 2020; Sharma et al., 2020).
+Beier et al. (2020) for example, based on a literature review, consider
+sustainability as an essential part of the Industry 4.0 concept. Braccini
+and Margherita (2018) and Piccarozzi et al. (2018) argue that firms
+should engage jointly in sustainability and Industry 4.0 initiatives as the
+former is a powerful driver for the latter. Along this line, Ghobakhloo
+(2020) has shown that the two topics can have a synergistic relationship
+when, for instance, Industry 4.0 technologies are used to develop green
+innovation capabilities.
+According to others, the relationship between Industry 4.0 and sustainability is only indirect. In a recent study, Piccarozzi et al. (2022)
+have shown that the two merge in the firm’s production area, where the
+application of Industry 4.0 leads to resource efficiency. Accordingly, the
+economic sustainability pillar is the most impacted, followed by the
+environmental one. In other words, Industry’s 4.0 positive effect on
+productivity and cost savings is ex post presented as a sustainability
+achievement (Martínez-Olvera and Mora-Vargas, 2019; Rantala et al.,
+2019; Nagy et al., 2018). This result comes with no surprise if one
+considers that Industry’s 4.0 main goal is “to strengthen and expand the
+long-term competitiveness of the company by increasing flexibility and
+efficiency of the production through communication, information and
+intelligence” (Gabriel and Pessl, 2016, p. 133). More generally, this
+evidence agrees with the literature on innovation, where it is known that
+an improvement in production processes is likely to reduce firms’
+environmental impact (Melville, 2010).
+The goal of the present study is to explore how Industry 4.0 and
+sustainability are intertwined (Piccarozzi et al., 2022; Beltrami et al.,
+2021; Khan et al., 2021). To do so, Industry 4.0 is analysed from the
+perspective of a sample of worldwide firms’ sustainability reports. This
+approach allows clarifying whether Industry 4.0 contributes directly to
+sustainability beyond efficiency and reduced consumptions (MartínezOlvera and Mora-Vargas, 2019). Focusing on single technologies as
+Industry’s 4.0 building blocks, the analysis finds out how this paradigm
+is being applied in a variety of business contexts.
+2. Research method
+As a preliminary step, Industry 4.0 technologies have been identified
+by means of a sample of words referring to them. Then, using these
+words, frequency and thematic analyses have been performed on a
+sample of sustainability reports. An outline of the steps of the method is
+provided in Fig. 1. In the figure, an icon is added to each step to highlight
+A. Calabrese et al. 
+Technological Forecasting & Social Change 188 (2023) 122265
+3
+whether it was performed by a machine or by a human. The details will
+be provided in the following sections. Briefly, the steps are:
+1. Identification of the terms used in the literature to refer to Industry
+4.0 technologies;
+2. Development of Python’s expressions (so-called regular expressions
+or regex) to detect the technologies identified in point 1;
+3. Composition of the dataset;
+4. Standardization of the text in the reports (so-called normalization);
+5. Frequency analysis;
+6. Transformation of the words in the reports into vectors (so-called
+vectorization) for the thematic analysis;
+7. Thematic analysis.
+The code for the steps is provided in the Supplementary materials.
+2.1. Identification of the Industry 4.0 technologies
+In the first stage of the research, the enabling technologies of Industry 4.0 have been identified. Following the approach of Machado
+et al. (2019), a pool of “accepted” definitions of the technological pillars
+has been used. In particular, the ten most cited general-purpose Industry
+4.0 literature reviews in the Scopus database have been selected. To
+select them, the keyword “Industry 4.0” has been looked for in the
+database filtering for those articles belonging to the “business” field and
+classified as “reviews”. Cited and citing literature has been used as well
+in an inductive way to refine the initial search. The sampled reviews
+have been Ghobakhloo et al. (2021a), Beier et al. (2020), Ghobakhloo
+(2020), Nosalska et al. (2020), Zheng et al. (2020), Kerin and Pham
+(2020), Ortt et al. (2020), Kerin and Pham (2019), Liao et al. (2017),
+Strozzi et al. (2017). From this pool of articles, lists and graphical
+summaries of the “defining” Industry 4.0 technologies have been analysed. The final list of Industry 4.0 technologies selected for this study is
+reported below:
+• Additive manufacturing (including 3D printing);
+• Collaborative and autonomous robots and drones;
+• Augmented reality (including smart glasses/gloves);
+• Cyber-Physical Systems (CPS) as stand-alone systems of multiple
+interconnected devices;
+• Virtualization (including digital twin technologies);
+• Cloud manufacturing;
+• Cloud computing;
+• Big Data;
+• Internet of Things (IoT);
+• Cybersecurity, namely the set of technologies enabling safe data
+storage and transfer (e.g., anti-spyware, anti-phishing software and
+frameworks);
+• Blockchain.
+2.2. Development of the regular expressions
+To automatically identify the technologies listed above in the analysed sustainability reports, their different wordings had to be accounted
+for. Regular expressions, or regexes, have been used for this purpose.
+Regexes are bits of codes utilized in computational analysis to automatically find patterns within strings. As an example, the regex that has
+been used to identify the technology “Internet of Things” in the reports is
+shown below.
+Identification of
+«Industry 4.0»
+technologies
+Development of the
+regex to detect each
+technology
+Collection of eligible
+sustainability
+reports and inclusion
+in the dataset.
+Normalization of
+the reports
+Vectorization of the
+reports
+Frequency Analysis
+For each technology:
+1) Analysis of how often
+the technology is
+mentioned in the reports
+broken down by
+geographical area.
+Thematic Analysis
+For each technology:
+1) Extraction of the most
+similar words for each
+technology;
+2) Extraction of the text
+fragments for each
+technology;
+3) Content analysis of the
+most relevant text
+fragments and similar
+words and development
+of the themes.
+Fig. 1. Research method.
+A. Calabrese et al. 
+Technological Forecasting & Social Change 188 (2023) 122265
+4
+The regex in (1), deployed using Python’s re library, identifies all the
+variants of the term “Internet of Things” such as “internet of things
+(IoT)”, “IoT”, “Internet of things”, and so on. This step is necessary
+because the same technology can be written in many ways in different
+reports, all having the same meaning (e.g., for 3D printing, an additive
+manufacturing technology, the following spellings might be possible: 3D
+printing, 3d-printing, 3d-Printing, etc.). This nuisance, if not addressed,
+is detrimental to both the frequency and the thematic analyses. The
+other technologies have been dealt with using the same procedure. The
+complete list of regexes is available in the Supplementary materials.
+2.3. Dataset collection
+After having developed the tools to identify each technology, the
+reports have been collected. The “GRI’s Sustainability Disclosure Database” (SSD), available as of February 2021 at https://database.globalr
+eporting.org/, has been used (Alonso-Almeida et al., 2015; Zutshi
+et al., 2009). Global Reporting Initiative (GRI) is an international standards organization dealing with topics related to sustainability. SSD is a
+database of sustainability reports, both GRI and non-GRI based. This
+database includes, at the time of collecting the data, 63,852 reports from
+15,425 organizations. Only verified GRI standards sustainability reports
+in English have been selected, namely 1501 sustainability reports
+covering the years from 2016 to 2020. These selection criteria have been
+chosen to ensure uniformity and accuracy of the analysis performed,
+which requires standardization in input to obtain “clean” information in
+output.
+2.4. Text normalization
+Raw textual data are not well formatted for text mining; this represents a potential source of noise. The reports in the dataset have therefore been normalized, namely reduced to standard form. The most
+important operations performed at this stage have been: HTML removal;
+identification and standardization of the technologies’ names; word
+tokenization, namely splitting of the text into words; and word lemmatization, i.e., replacement of the inflected forms of words with their
+canonical form (Sarkar, 2019). Table 1 shows an excerpt from a sustainability report before and after the normalization process.
+For each report, the result is a list of lemmatized words that can be
+used for the frequency and the thematic analysis.
+2.5. Frequency analysis
+The frequency analysis has been performed after the text normalization step. The overall frequencies of the technologies as well as their
+frequencies in each region have been derived.
+2.6. Vector representation
+Prior to performing the thematic analysis, the words in the reports
+have been vectorized. The FastText word vector representation model,
+introduced by Facebook in 2016, has been used in this step (Bojanowski
+et al., 2016). This algorithm takes a text and, for each unique word in it,
+generates a vector based on the word’s context, namely the words surrounding it. Words that are used in the same contexts, i.e., with the same
+surrounding words, have similar vectors. For example, in the two sentences “Our firm adopts Industry 4.0 technology to decarbonize the
+production line.” and “Our company adopts Industry 4.0 technology to
+decarbonize the production line.”, the words “firm” and “company” will
+have similar vectors because they have the same surrounding words
+(context). The vectorization procedure correctly assigns similar vectors
+to them. The procedure is similar to the co-occurrence analysis illustrated in Bornmann et al. (2018) and van Eck and Waltman (2010). In
+this case, though, similarity is measured through the scalar product
+between word-vectors, as each word is projected on a vector space.
+2.7. Thematic analysis
+Once the vectors for each word are available, the thematic analysis
+can be performed. The analysis has been carried out in three steps
+(Niehoff, 2022; Khan et al., 2021; Beier et al., 2020): extraction of the
+words most similar to each Industry 4.0 technology; extraction of text
+fragments for each technology; coding and identification of the themes.
+The procedure is illustrated for the analysis of the 1501 reports, namely
+the development of Table 6 (see Results section). By selecting the
+appropriate cluster of reports, the same argument has been applied to
+develop each of the six sub-tables in Table 7.
+As mentioned earlier, each word in the reports, after the text vectorization in 2.6, has an associated numerical vector. These vectors
+represent the words in the contexts in which they are used in the sample.
+This implies that words in similar contexts have similar numerical vectors. Hence, based on vector similarity, the list of words most similar to
+each technology-word can be extracted from the reports. These lists
+have been extracted for each Industry 4.0 coded technology. The result
+is reported in the Supplementary materials (“Most_similar_words.
+docx”).
+Then, the text fragments linked to the different technologies have
+been extracted from the 1501 reports. To be eligible for extraction, a text
+fragment should mention at least one of the technologies. Each text
+fragment is composed of 20 words to the left and 20 words to the right of
+each technology occurrence. An example of a text fragment regarding
+“bigdata” is the following:
+“introduced energy-efficiency optimization for ‘air compressors’ that
+consumed a great amount of power. The collection and analysis of bigdata
+together with AI learning and prediction were used to realize real-time
+energy-efficiency management by adjusting the air compressor”.
+(AUO, 2018, p. 93)
+This data reduction procedure, which follows Niehoff (2022) and
+Beier et al. (2020), extracted 6878 text fragments out of 126,582 pages
+in the reports. All the fragments have been uploaded in the Supplementary materials (“text_fragments.txt”) to ensure traceability and
+avoid data loss. At this point, one coder evaluated each fragment,
+selected the most relevant ones, and expanded them (for example, by
+selecting 40 words to the left and 40 words to the right of each technology occurrence). Table 2 summarizes the steps so far, namely it gives
+an example of the extraction of the most similar words and most relevant
+Table 1
+An example of normalized text.
+Text before it was normalized:
+‘\nIn times of crisis and times of calm, we believe we have a corporate responsibility
+to lead with our \nvalues of integrity, accountability, service, innovation,
+partnership, and respect. Never has this been \nmore evident than during the
+COVID-19 pandemic.\n\nDuring this challenging time, we put the safety of our
+employees first, and in doing so gave them \nthe peace of mind that allowed’
+Text after it was normalized:
+[‘time’, ‘crisis’, ‘time’, ‘calm’, ‘believe’, ‘corporate’, ‘responsibility’, ‘lead’, ‘value’,
+‘integrity’, ‘accountability’, ‘service’, ‘innovation’, ‘partnership’, ‘respect’, ‘never’,
+‘more’, ‘evident’, ‘covid’, ‘pandemic’, ‘during’, ‘challenging’, ‘time’, ‘put’, ‘safety’,
+‘employee’, ‘first’, ‘give’, ‘peace’, ‘mind’, ‘allow’]
+(
+r
+˝
+internet[\s\W]?of[\s\W]?things?\s?\Wiot\W? |internet[\s\W]?of[\s\W]?things?\b |\biot\b˝
+,re.IGNORECASE) (1)
+A. Calabrese et al. 
+Technological Forecasting & Social Change 188 (2023) 122265
+5
+text fragments for two technologies.
+Subsequently, qualitative content analysis of the most relevant
+fragments together with the most similar words has been performed.
+Two coders performed multiple rounds of reading and collaborative reexamination of the material to minimize the overall bias and refine the
+results (Niehoff, 2022; Ghobakhloo et al., 2021a,b). Following Gioia
+et al.’s (2013) inductive methodology, broad generalizations have been
+based on specific observations. In this case, fragments (first-order concepts) have been used to identify keywords among the most similar
+words (second-order concepts), which finally have been grouped into
+“aggregate dimensions”, or themes, based on the coders’ previous
+knowledge of the subject (Khan et al., 2021). Observations obtained
+from this analysis have been summarized in Table 3, where an example
+of this inductive process is presented. The full association between most
+similar words and themes has been uploaded in the Supplementary
+materials (“Keywords_Themes.docx”).
+In the last step, using the association between most similar words and
+themes, the latter have been assigned to each technology. Table 4 shows
+an example.
+This passage lays on the fact that the FastText algorithm automatically ranks the most similar words in descending order of similarity
+(based on the similarity between the vectors associated to each word in
+the corpus). Thus, for example, in Table 4, the word “threat”, which has
+been assigned to the theme “Stronger digital security”, is the third most
+similar to “Cybersecurity” after “cyber” and “security”. This means that
+“threat” is used very often in the same context of “Cybersecurity”. As
+“threat” belongs to the theme “Stronger digital security”, this theme is
+assigned to “Cybersecurity”. This procedure has been applied to assign
+the themes to each technology. It results in an ordinal assignment of the
+themes to each technology. Referring again to Table 4, the themes
+associated with Big Data are 1) “More efficient production processes”
+and 2) “Stronger digital security”. This is because “digitization” (a word
+of the “More efficient production processes” theme – see the file “Keywords_Themes.docx” in the Supplementary materials) is more similar to
+Big Data technology, namely comes first, than the word “hacking” (a
+word of the “Stronger digital security” theme).
+Table 2
+Extraction of most similar words and most relevant text fragments.
+Technology Most similar words Most relevant text fragments
+Big Data Iot, intelligence, algorithm,
+digitization, intelligent, digital,
+predictive, digitize, cloud,
+augmented, digitalization,
+digitalisation, robot, analytic,
+visualization, augmentedreality,
+digitalized, sophistication,
+digitized, analytics,
+convergence, software,
+cloudcompute, automation,
+visualize, technology, digitally,
+technological, sophisticated,
+seamless, capability, smart, …,
+artificial, accelerator,
+personalization, smartphone,
+simplify, wearables, spectrum,
+virtual, solution, customized,
+startup
+With industry 4.0, machinelearning, blockchain,
+industrial iot and big data
+gaining momentum faster than
+ever before, industrial
+automation is carving its mark
+in industry processes,
+including tmg automotive’s (
+TMG Automotive, 2019).
+…
+Swisscom joined the un global
+compact initiative in 2019 and
+is actively committed to
+establishing the innovators
+network to enable human
+rights (inhr) initiated by the
+global e-sustainability
+initiative (gesi). This network
+seeks initially to develop an
+“intelligence platform” which,
+based on big data and artificial
+intelligence, will uncover and
+report on current weaknesses
+in global supply chains (
+Swisscom, 2019).
+… … …
+Cybersecurity Cyber, security, attack,
+vulnerability, threat, privacy,
+phishing, defense, cyberattack,
+intelligence, malicious,
+enforcement, continuity,
+tactical, sophisticated, detection,
+hacking, software, secure,
+analytic, attacker, defence,
+sophistication, possibilities,
+safeguard, escalating, cloud,
+data, digital, hack, tactic, crime,
+response, detect, theft, analytics,
+nist, abreast, swift, enhanced,
+personal, robust, regulatory,
+securely, network, threats,
+internet, …, terrorism,
+accessibility, safeguarding,
+information, redundant, soc.,
+applicability, digitalisation,
+comprehensive
+Krungsri took relevant actions
+and adopted the concept of
+best practices applicable to
+various projects such as
+advanced anti-malware,
+cybersecurity monitoring
+process, phishing simulation
+tests, compliance with the
+swift customer security
+framework (Krungsri, 2018).
+…
+Our global information
+security policies, which are
+based on cybersecurity
+frameworks such as the
+international organization for
+standardization and the
+national institute of standards
+and technology, set the
+compliance guidelines for our
+people, processes and systems.
+Walgreens boots alliance has
+programs in place to help
+ensure adherence to security
+policies, control frameworks
+and regulatory requirements.
+We also periodically engage
+independent third parties to
+conduct cybersecurity risk
+assessments (Walgreens,
+2018).
+Table 3
+Example of thematic analysis.
+Most relevant fragments
+(first-order concepts)
+Most similar words
+(second-order
+concepts)
+Theme Description
+Krungsri took relevant
+actions and adopted
+the concept of best
+practices applicable to
+various projects such
+as advanced antimalware,
+cybersecurity
+monitoring process,
+phishing simulation
+tests, compliance with
+the swift customer
+security framework
+Cyberattack (attack,
+attacker, etc.),
+defence, hacking,
+malicious, phishing,
+privacy, protection,
+safeguard, security,
+threat(s),
+vulnerability
+Stronger
+digital
+security
+Data protection
+against threats
+such as phishing
+attacks
+Table 4
+Example of thematic analysis.
+Technologies Most similar words Themes
+Big Data Iot, intelligence, algorithm, digitization,
+intelligent, digital, predictive, digitize, …,
+workflow, … hacking, …
+More efficient
+production processes
+Stronger digital
+security
+Cybersecurity Cyber, security, threat, vulnearibility,
+phishing, attack, privacy, hacking,
+defense, cyberattack, …
+Stronger digital
+security
+Table 5
+Sample details.
+Region Africa Asia Europe N.
+America Oceania S.
+Americaa
+80 462 502 366 64 27
+Year 2016 2017 2018 2019 2020
+84 346 542 477 52
+Sector
+Agri.-
+Extr.b Manuf. Services
+122 637 742
+Size SMEc Large
+181 1320
+a S. America includes Central and South America; b Agri-Extr. stands for Agriculture and Extraction; c Less than 250 employees and €50 million turnover.
+A. Calabrese et al. 
+Technological Forecasting & Social Change 188 (2023) 122265
+6
+3. Results
+Table 5 provides an outline of the collected reports. Other than the
+variable of interest, i.e., the firms’ region, also the firms’ sector and size,
+and reports’ year of publication have been indicated.
+3.1. Frequency analysis
+3.1.1. Frequency analysis at the global level
+Fig. 2 shows how often the various technologies are mentioned at
+least once in each report. “Cyberphysical systems”, and “cloud
+manufacturing” have not been mentioned at all in the analysed sustainability reports. “Cybersecurity” is the most often cited technology,
+mentioned at least once in roughly 35 % of the reports. “Robots”, which
+includes both robots and robotics, “Internet of Things”, and “Big Data”
+are also frequently reported. This adoption pattern is in line with similar
+findings on a smaller scale by Ghobakhloo (2020) and Kristoffersen et al.
+(2020).
+3.1.2. Frequency analysis at the regional level
+This subsection shows the average frequency of the technologies in
+the reports by region (Figs. 3 and 4). To obtain this result, reports have
+been clustered according to the geographical area (region) of the firms
+issuing them. Then, the total number of technologies mentioned in each
+cluster has been averaged by the number of reports in that cluster. For
+example, for Asia, the number means that sustainability reports from
+Asian firms mention on average 1.5 technology each (Fig. 3). A similar
+reasoning has been applied to calculate the percentage of reports
+mentioning at least once a technology. The results are reported in Fig. 4.
+For example, among all the Asian mentions, roughly 30 % regards
+“Robots”.
+Commenting on the frequencies in Figs. 3 and 4, firms in Asia are the
+most eager adopters of Industry 4.0 followed by those in Europe and
+North America. Not only at a global level, but also in each region, the
+most adopted technology is “Cybersecurity”. The only exception is South
+America, where the most adopted technology is “Blockchain”. A big
+divide separates firms in Africa and South America (which includes
+South America and Central America) from the rest. This is unfortunate
+not only because it represents a missed sustainability opportunity, but
+also because it prevents firms operating in disadvantaged economic
+contexts from realizing the Industry 4.0 productivity gains (Awan et al.,
+2021; Dahmani et al., 2021).
+3.2. Thematic analysis
+This subsection reports the results of the thematic analysis regarding
+the use of Industry 4.0 technologies as described in the sustainability
+reports. First, the five main themes emerging from the analysis
+explained in Section 2.7 are described. Then, their distribution is evaluated. The themes are the following:
+1) More efficient production processes (MEPP): this theme concerns the
+application of Industry 4.0 technologies in production processes to
+improve productivity and operational efficiency (Sanders et al.,
+2016; Schmidt et al., 2015; de Sousa Jabbour et al., 2018). Some
+examples from the reports in the sample are listed below:
+a. “The Internet of Things, cloud computing and mobile solutions
+are enabling the connected mine of the future. Connectivity is the
+technological backbone of the 21st century mine; it improves
+communication, response, and productivity.” (GOLDCORP, 2017,
+p. 58).
+b. “Keppel Logistics successfully launched the use of Smart Glasses
+to streamline inbound and outbound tasks for all customers at the
+Automated Storage and Retrieval System warehouse. The use of
+Smart Glasses leads to higher operational efficiency and stocktake accuracy, as compared to conventional radio frequency
+scanners.” (Keppel Corporation, 2017, p. 55).
+0% 5% 10% 15% 20% 25% 30% 35%
+CPS
+Cloud manufacturing
+Virtualization
+Self-driving
+Cloud computing
+Augmented Reality
+Additive manufacturing
+Blockchain
+Big Data
+Internet of Things
+Robots
+Cybersecurity
+Percentage of reports
+Fig. 2. Percentage of reports mentioning at least once a technology.
+0.00
+0.50
+1.00
+1.50
+Africa South
+America
+Oceania North
+America
+Europe Asia
+Avg. number of technologies
+Fig. 3. Average number of technologies per report by region.
+A. Calabrese et al. 
+Technological Forecasting & Social Change 188 (2023) 122265
+7
+2) Increased customer value (ICV): this theme concerns the development of new channels to deliver customer value, for example by
+improving customer relationship management routines and by
+devising innovative business models such as digital servitization
+(Kohtamaki ¨ et al., 2020; Sjodin ¨ et al., 2020). Some examples follow:
+a. “As we continue to develop self-driving technology, research like
+this is crucial in ensuring that technology is used in ways that
+enhance the customer experience. With a target of beginning
+production of self-driving vehicles in 2021, we are designing a
+business to meet the needs both of partner companies and of their
+customers.” (Ford, 2018, p. 51).
+b. “Grameen Guru is a tool that uses augmented reality, image
+recognition and a multilingual chatbot to help smartphone users
+with limited literacy understand available financial products and
+services. By holding their phone camera over a product brochure
+or icon, users get instant access to the Guru chatbot, which can
+explain their options in clear, simple language.” (Accenture,
+2018, p. 28).
+3) Cleaner production processes (CPP): this theme covers all activities
+regarding the reduction of environmental impacts in production
+processes. The main focus is the adoption of additive manufacturing,
+3D printing in particular, to improve at the same time productivity
+and sustainability (Gupta et al., 2021). An example follows:
+a. “[At HP] we are disrupting the global manufacturing sector with
+3D printing technology that’s making companies more competitive, productive and sustainable.” (Introduction of the CEO to the
+company’s Sustainable Impact Report for 2018 [link visited on
+November 24th, 2021]).
+4) Stronger digital security (SDS): this theme concerns data protection
+against threats such as cyberattacks (Jazdi, 2014; Gary et al., 2019;
+Culot et al., 2019). As shown in Fig. 2, firms consider digital security
+of vital importance. The following example illustrates how prominent is cybersecurity in firms’ agendas:
+a. “We are relentless in our efforts to improve our approach to
+effectively managing these issues [cyber resilience and the protection of data] including through the upgrade of the information
+and operational technologies that keep our systems and customers
+safe. We are also focused on providing the training our workforce
+needs to manage our cyber security and data privacy obligations,
+and to ensure the organization maintains a culture of vigilance.”
+(CLP, 2018, p. 3).
+5) Remote and digital learning (RDL): this theme focuses on the
+development of solutions focused on individual skill enhancement
+using innovative approaches such as gamification through
+augmented reality technologies (Almeida and Simoes, 2019; Santos
+et al., 2016). The following example describes this theme:
+a. “In FY20, we’re exploring new ways to use virtual equipment and
+environments through augmented reality for increased student
+learning. In addition, we’re exploring digital badging to further
+recognize the skills and accomplishments of our learners for potential employer.” (Cisco, 2019, p. 83).
+3.2.1. Thematic analysis at the global level
+Table 6 is a graphic summary of the ordinal association between
+Industry 4.0 technologies and themes across the reports worldwide
+(Niehoff, 2022). For the sake of the representation, a darker shade of
+blue indicates themes that have been assigned a higher priority; white
+indicates that the theme is not associated with the corresponding technology. As explained in the method, the assignment of the themes to the
+technologies arises from an ordinal ranking based on the similarity between the vector-words representing each theme’s keyword and each
+technology.
+The table provides strong evidence that environmental sustainability
+is hardly a theme for the various Industry 4.0 technologies (Niehoff,
+2022; Piccarozzi et al., 2022). The tendency observed by Chiarini et al.
+(2020) for Italian firms, namely that “[the environmental issue] does not
+seem to be an objective achieved by sampled companies through these
+technological solutions [i.e., Industry 4.0]” (p. 9), is sadly a global trend,
+as have demonstrated other authors in different contexts (e.g., Gupta
+et al., 2021; Siltori et al., 2021; Ejsmont et al., 2020). Industry 4.0 delivers economic productivity as it improves production routines and
+facilitates the implementation of more resource-efficient operations
+(Ching et al., 2022). As can be seen in Table 6, Industry 4.0 technologies
+are not only employed to improve productivity, but also to empower
+customer relationships and increase data security (Awan et al., 2021;
+Kristoffersen et al., 2020). Overall, a scarce direct mingling between
+Industry 4.0 and environmental sustainability can be inferred. Rather,
+an indirect link with environmental sustainability exists, as this pillar
+0%
+5%
+10%
+15%
+20%
+25%
+30%
+35%
+40%
+45%
+50%
+Africa Asia Europe North America Oceania South America
+Percentage of reports
+Big Data Internet of Things Robots Self-driving Augmented Reality
+Cloud computing Cybersecurity Blockchain Virtualization
+Fig. 4. Percentage of reports mentioning at least once a technology by region.
+A. Calabrese et al. 
+Technological Forecasting & Social Change 188 (2023) 122265
+8
+takes advantage of a more efficient resource usage enabled by some
+Industry 4.0 technologies (Piccarozzi et al., 2022; Beier et al., 2020). The
+only exception is additive manufacturing by means of 3D printing
+which, although scarcely used (see Fig. 2), is strongly associated with an
+environmental sustainability theme (Dahmani et al., 2021).
+3.2.2. Thematic analysis at the regional level
+Next, the distribution of the themes across the regions is ascertained.
+The purpose is to analyse how Industry 4.0 technologies are used by
+firms in different geographic areas. The results are reported in Table 7,
+in which the meaning of the colours is analogous to Table 6.
+As shown in the table, African and South American firms heavily
+prioritize Industry 4.0 technologies to improve production efficiency
+(Ingaldi and Ulewicz, 2019; Redondo and Fierro, 2007). In these regions, sustainability-related themes are absent. The few technological
+innovations are directed toward reaping the benefits of Industry 4.0-
+driven productivity gains (see also Figs. 3 and 4) (Bai et al., 2020). As
+pointed out by Siltori et al. (2021), firms in developing countries deploy
+Industry 4.0 to address their specific pressing issues (e.g., productivity).
+Firms in middle-income countries follow the same trajectory. Asian
+firms, despite being the heaviest users of Industry 4.0 technologies in
+terms of absolute frequencies (see Figs. 3 and 4), do not pursue any
+sustainability theme (apart from the very weak prioritization of Big Data
+for social purposes). On the other hand, firms in highly industrialized
+regions (Europe and North America) are keener than their counterparts
+in less industrialized areas on pursuing sustainability themes along with
+productivity’s.
+4. Discussion and implications
+The results of this study on a worldwide sample of 1501 sustainability reports corroborate and extend the findings in previous literature. The frequency analysis in Fig. 2 shows that cybersecurity and
+blockchain are the most adopted technologies on a global scale and are
+utilized by firms in each region, irrespectively of the region’s overall
+adoption rate of Industry 4.0. These technologies are regarded by
+companies around the world as fundamental (Calabrese et al., 2020b).
+Their employment, as pointed out by Kumar et al. (2022), minimizes the
+risk of business-critical security breaches or data thefts that would
+transform the adoption of Industry 4.0 into a counterproductive initiative. Therefore, they represent a starting point for any successful Industry 4.0 journey (Sony and Naik, 2019).
+The technologies in the second most utilized cluster in Fig. 2, i.e.,
+Internet of Things and robots are adopted by firms in all regions; however, their distribution is not uniform. Firms in low-income regions
+utilize far fewer of them than firms in higher income regions do (Table 7)
+(Dwivedi et al., 2021). Scarce financial resources makes these technologies unavailable where they would be needed the most (Gastaldi et al.,
+2022). Regarding their usage, these technologies have operational efficiency as main theme (Table 6). This evidence confirms the results of
+Ching et al. (2022), Niehoff (2022), Piccarozzi et al. (2022), and
+Beltrami et al. (2021), among others, but adds to them in two significant
+ways. First, these results come directly from corporate sources, namely
+the huge sample of available reports, rather than from literature surveys.
+Second, the relationship is not only between Industry 4.0 and its benefits, but also among specific technologies and their applications.
+Regarding the technologies that allegedly have a direct impact on
+sustainability, such as additive manufacturing and virtualization (Ghobakhloo et al., 2021b), they are adopted only by firms in Europe, North
+America, and Oceania (Table 7). On average, as displayed in Fig. 2, these
+technologies are adopted far less often. For example, additive
+manufacturing, which is considered by Dahmani et al. (2021) a significant improvement at the crossroads between Industry 4.0 and sustainability, is mentioned in only 6 % of the 1501 reports. Moreover, their
+supposed benefits are often only vaguely described (Beier et al., 2020).
+For example, regarding the association between virtualization technologies and cleaner production, one of the selected text fragments reported: “The Air Products Process Intelligence (APPI) Process Advisor
+system […] creates a digital twin of the melting process. […] Air
+Products Process Intelligence system has helped us improve our
+aluminium recycling operation by reducing production losses and energy consumption” (Air Products 2020, p. 11).
+This provides evidence that, globally, Industry 4.0 is anchored on
+factory routines’ improvement (Shet and Pereira, 2021). Its adoption is
+primarily focused on operational efficiency and productivity (Lopes de
+Sousa Jabbour et al., 2022; Niehoff, 2022; Rantala et al., 2019). Sustainability challenges are not being addressed by new, Industry 4.0-
+enabled business models (Niehoff, 2022; Machado et al., 2019; Beier
+et al., 2018). In other words, at the global level, Industry 4.0 efficiencyrelated applications have taken precedence over the sustainabilityrelated ones (Ghobakhloo et al., 2021b; Ghobakhloo, 2020). Basically,
+Industry 4.0 is being adopted to perform the same tasks with less resources (Piccarozzi et al., 2022; Calabrese et al., 2020b). Using the
+conceptualization of Landrum and Ohsowski (2018), firms appear to
+have a “weak” sustainability worldview, in which incremental improvements in factory routines will not lead to significant environmental
+and social benefits. This result is even more significant if one considers
+that this study has analysed corporate sustainability reports.
+Elaborating on the utilization patterns at the regional level, a more
+detailed picture can be developed. In particular, two Industry 4.0
+adoption’s routes emerge, each with a different effect on sustainability
+(Braccini and Margherita, 2018). Firms following the first route (mainly
+Asian companies) have chosen to prioritize the development of
+advanced manufacturing and inter-functional collaboration to maximize
+the efficiency benefits linked to this new wave of technological innovation (Lopes de Sousa Jabbour et al., 2022; Piccarozzi et al., 2022;
+Martínez-Olvera and Mora-Vargas, 2019; Rantala et al., 2019). In the
+language of Ghobakhloo et al. (2021b) and Ghobakhloo (2020), these
+firms have prioritized the efficiency step of digital transformation.
+Conversely, firms on the second route (North American, European, and
+Oceanian companies) have tried to incorporate sustainability into their
+routines. In particular, they have demonstrated a commitment toward
+Table 6
+Industry 4.0 technologies: thematic analysis worldwide.
+More efficient
+production processes
+Increased customer
+value
+Cleaner production
+processes
+Stronger digital
+security
+Remote and digital
+learning
+IoT
+Big Data
+Add. manuf.
+Robots
+Self-driving
+Aug. reality
+Cloud comp.
+Cybersecurity
+Blockchain
+Virtualization
+A. Calabrese et al. 
+Technological Forecasting & Social Change 188 (2023) 122265
+9
+Table 7
+Industry 4.0 technologies: thematic analysis by region.
+Africa More efficient
+production processes
+Increased customer
+value
+Cleaner production
+processes
+Stronger digital
+security
+Remote and digital
+learning
+IoT
+Big Data
+Add. manuf.
+Robots
+Self-driving
+Aug. reality
+Cloud comp.
+Cybersecurity
+Blockchain
+Virtualization
+South
+America
+More efficient
+production processes
+Increased customer
+value
+Cleaner production
+processes
+Stronger digital
+security
+Remote and digital
+learning
+IoT
+Big Data
+Add. manuf.
+Robots
+Self-driving
+Aug. reality
+Cloud comp.
+Cybersecurity
+Blockchain
+Virtualization
+Oceania More efficient
+production processes
+Increased customer
+value
+Cleaner production
+processes
+Stronger digital
+security
+Remote and digital
+learning
+IoT
+Big Data
+Add. manuf.
+Robots
+Self-driving
+Aug. reality
+Cloud comp.
+Cybersecurity
+Blockchain
+Virtualization
+Europe More efficient
+production processes
+Increased customer
+value
+Cleaner production
+processes
+Stronger digital
+security
+Remote and digital
+learning
+IoT
+Big Data
+Add. manuf.
+Robots
+Self-driving
+Aug. reality
+Cloud comp.
+Cybersecurity
+Blockchain
+Virtualization
+North
+America
+More efficient
+production processes
+Increased customer
+value
+Cleaner production
+processes
+Stronger digital
+security
+Remote and digital
+learning
+IoT
+Big Data
+Add. manuf.
+Robots
+Self-driving
+Aug. reality
+Cloud comp.
+Cybersecurity
+Blockchain
+Virtualization
+Asia More efficient
+production processes
+Increased customer
+value
+Cleaner production
+processes
+Stronger digital
+security
+Remote and digital
+learning
+IoT
+Big Data
+Add. manuf.
+Robots
+Self-driving
+Aug. reality
+Cloud comp.
+Cybersecurity
+Blockchain
+Virtualization
+A. Calabrese et al. 
+Technological Forecasting & Social Change 188 (2023) 122265
+10
+sustainable innovation by adopting technologies, such as additive
+manufacturing, explicitly designed to address their operations’ environmental impacts (Dixit et al., 2021).
+Firms along these routes have, as regards Industry 4.0 and sustainability, different degrees of ambidexterity, namely the ability of an organization to exploit its current resources while keeping an eye on new
+opportunities (O’Reilly and Tushman, 2013). Asian companies have
+embarked on their digital transformation to pursue the exploitation of
+their resources (Gastaldi et al., 2018, 2022). Consequently, they have
+become more efficient in terms of time savings and cost reductions. They
+have therefore utilized Industry 4.0 to contribute indirectly to sustainability (Rubio et al., 2021; Siltori et al., 2021; Martínez-Olvera and
+Mora-Vargas, 2019). Western companies, on the other hand, have
+departed from this trajectory and started to explore how to employ
+smart technologies to directly reduce their environmental impacts.
+Fig. 5 illustrates the discussion about the routes and the firms
+following them. The labels on the x-y axes refer to the objectives that are
+being pursued moving along each route: efficiency and sustainability.
+There are three boxes; each briefly describes its route and lists the
+route’s main technologies. The box at the bottom left, as already discussed, indicates that cybersecurity technologies are a prerequisite for
+any further movement along the axes, namely for the adoption of Industry 4.0. Thus, they are considered the starting point for both routes.
+Firms aggregated by region are displayed on the plot. Their display on
+the figure is not based on quantitative calculations; it is rather a
+graphical way to summarize the results of the frequency and thematic
+analyses in Figs. 2–4 and Tables 6–7. The two routes described above are
+also indicated. Asian firms have prioritized efficiency-linked Industry
+4.0 technologies and have only indurectly reaped its sustainability
+benefits (e.g., resource sparing); thus, they are plotted in the top-left
+part. Western firms are displayed in the middle because, although
+they too have prioritized efficiency-related technologies, they have also
+shown a slight tendency to include in their range some so-called green
+technologies (i.e., additive manufacturing). African and South American
+companies are at the bottom left as they have only shown a low rate of
+adoption of efficiency-related technologies.
+Which route has the highest potential to contribute to the triple
+bottom line is yet to be determined. Whether eastern companies will in
+the long run outpace the efforts of western ones in incorporating sustainability is a matter that will have to be settled by further investigations. In any case, with the material at hand, it is clear that,
+irrespectively of the route, one of the three sustainability pillars is still
+heavily neglected – social change. Not only has the private sector barely
+explored environmental sustainability. It has also failed to employ digital technologies to benefit its stakeholders (Lopes de Sousa Jabbour
+et al., 2022; Khan et al., 2021; Soni et al., 2021). Overall, the stage in
+which Industry 4.0 and sustainability are effectively merged to create
+new profitable and sustainable business models, is still far away.
+In summary, Industry 4.0, despite its great opportunities related to
+sustainability (Stock and Seliger, 2016; Moldavska and Welo, 2017), is
+still little adopted in environmental and social sustainability applications. Case studies might be employed to uncover the reasons as to why
+its adoption is still low (Shet and Pereira, 2021). Furthermore, this
+research points out that Asia is the most advanced region regarding
+Industry 4.0 adoption, whereas Europe and North America are further
+ahead in sustainability-related Industry 4.0 activities. Future research
+may further investigate this aspect to explore the reasons behind these
+differences (e.g., a difference in how the various state-led industrial
+Revolutionary
+route
+Evolutionary
+route
+Sustainability
+SA
+EU
+NA
+OC
+Efficiency
+Evolutionary route: advanced
+manufacturing competences, interfunctional collaboration, and value chain
+integration is prioritized.
+Main technologies: IoT, big data, robots.
+Revolutionary route: green product and
+process innovation is explored.
+Main technologies: additive
+manufacturing, augmented reality,
+virtualization.
+Starting point: safe data storage and exchange
+are necessary for any further Industry 4.0
+development.
+Main technologies: blockchain, cybersecurity.
+AS
+AF
+Fig. 5. A framework displaying the routes to merge Industry 4.0 and sustainability.
+A. Calabrese et al. 
+Technological Forecasting & Social Change 188 (2023) 122265
+11
+plans are led) (Siltori et al., 2021). Collecting more data and zooming in
+on each region would help in further refining the picture and understanding the main reasons behind the observed patterns. The present
+research also shows that the most often adopted technologies for cleaner
+production are those known as additive manufacturing, among which
+3D printing is prominent. However, additive manufacturing technologies are still used sparingly (6 % of sustainability reports mention them)
+compared to other technologies such as cybersecurity (32 %), robots (23
+%), and IoT (17 %). Future studies may devise solutions for its diffusion
+along other core technologies.
+Regarding the study’s methodology, the code is available in the
+Supplementary materials and can be used as a basis to further investigate Industry 4.0 sustainability reports. In addition, it lends itself to
+different purposes other than thematic analysis of Industry 4.0 technologies’ adoption. For example, with minor changes, it could be used to
+determine the presence/absence of specific SDGs in sustainability reports: 1) to investigate the factors affecting their adoption, and 2) to
+analyse the most recent trends. With this approach, sustainability
+reporting can be further connected to the measurement of SDGs, as
+argued by Nylund et al. (2022).
+Finally, the framework in Fig. 5, other than providing a global
+outline of Industry 4.0 diffusion, is a diagnostic tool that can be applied
+by managers and policy makers. Managers who have not yet implemented Industry 4.0 can use this research to increase their awareness of
+the available opportunities (Calabrese et al., 2020a). Policy makers, on
+the other hand, are challenged to design global solutions to address the
+two concerning obstacles that emerged in this research: 1) the need for
+sustainability-driven applications of Industry 4.0 (Chen et al., 2021;
+Song et al., 2017; de Sousa Jabbour et al., 2018); 2) the huge gap between developed and developing economies regarding the usage of Industry 4.0 (Siltori et al., 2021). Each actor’s reaction to their challenges
+will determine whether, in the years ahead, Industry 4.0 will leave a
+mark on the green revolution. This will create further challenges, but
+also opportunities for managers to deal with the digital transformation
+in the context of Industry 4.0 (Sony and Naik, 2019).
+5. Limitations
+The study is based on 1501 sustainability reports published in the
+GRI database. To increase the effectiveness of the computational analysis, only verified GRI-standards reports in English have been collected.
+This represents a sub-sample of the reports in the GRI database and, in
+general, a sub-sample of the population of firms worldwide. Future
+research may use the same approach to investigate different populations. In addition, this study adopts a list of technologies that are
+widely considered as Industry 4.0 enablers. As pointed out by Ghobakhloo et al. (2021a) and Kerin and Pham (2019), existing classification schemes tend to be fuzzy and heterogeneous. Thus, alternative
+classifications might have been used. Finally, future researchers might
+want to take a longitudinal perspective on this phenomenon, or investigate in more depth how cultural differences might have an influence on
+the results.
+CRediT authorship contribution statement
+The authors contributed equally and are listed in alphabetical order.
+Armando Calabrese: Conceptualization, Writing – original draft and
+revisions. Roberta Costa, Luigi Tiburzi: Conceptualization, Writing –
+original draft and revisions. Alexander Brem: Conceptualization,
+Writing – original draft and revisions.
+Data availability
+Data will be made available on request.
+Appendix A. Supplementary data
+The Python code and the Excel file with reports’ descriptions and
+partial results have been uploaded in the supplementary materials. The
+corpus containing the text of all the reports as well as its normalized
+version are available from the corresponding author upon request.
+Supplementary data to this article can be found online at doi.:10.1016/j.
+techfore.2022.122265.
+References
+Accenture, 2018. Accenture Corporate Citizenship Report 2018: Improving the Way the
+World Works and Lives.
+Almeida, Fernando, Simoes, Jorge, 2019. The role of serious games, gamification and
+industry 4.0 tools in the education 4.0 paradigm. Contemp. Educ. Technol. 10 (2),
+120–136. https://doi.org/10.30935/cet.554469.
+Alonso-Almeida, María Del Mar, Marimon, Frederic, Casani, Fernando, RodriguezPomeda, Jesús, 2015. Diffusion of sustainability reporting in universities: current
+situation and future perspectives. J. Clean. Prod. 106 (November), 144–154. https://
+doi.org/10.1016/j.jclepro.2014.02.008.
+AUO, 2018. Corporate Social Responsibility Report.
+Awan, Usama, Sroufe, Robert, Shahbaz, Muhammad, 2021. Industry 4.0 and the circular
+economy: a literature review and recommendations for future research. Bus. Strateg.
+Environ. 30 (4), 2038–2060. https://doi.org/10.1002/BSE.2731.
+Bai, Chunguang, Dallasega, Patrick, Orzes, Guido, Sarkis, Joseph, 2020. Industry 4.0
+technologies assessment: a sustainability perspective. Int. J. Prod. Econ. 229
+(November), 107776 https://doi.org/10.1016/j.ijpe.2020.107776.
+Beier, Grischa, Niehoff, Silke, Xue, Bing, 2018. More sustainability in industry through
+industrial internet of things? Appl. Sci. 8 (2), 219. https://doi.org/10.3390/
+app8020219.
+Beier, Grischa, Ullrich, Andr´e, Niehoff, Silke, Reißig, Malte, Habich, Matthias, 2020.
+Industry 4.0: how it is defined from a sociotechnical perspective and how much
+sustainability it includes – a literature review. J. Clean. Prod. 259 (June), 120856
+https://doi.org/10.1016/J.JCLEPRO.2020.120856.
+Beltrami, Mirjam, Orzes, Guido, Sarkis, Joseph, Sartor, Marco, 2021. Industry 4.0 and
+sustainability: towards conceptualization and theory. J. Clean. Prod. 312 (August),
+127733 https://doi.org/10.1016/J.JCLEPRO.2021.127733.
+Berman, Barry, 2012. 3-D printing: the new industrial revolution. Bus. Horiz. 55 (2),
+155–162. https://doi.org/10.1016/j.bushor.2011.11.003.
+Bloomfield, Mark, Borstrock, Shaun, 2018. Modeclix. The additively manufactured
+adaptable textile. Mater. Today Commun. 16 (September), 212–216. https://doi.
+org/10.1016/j.mtcomm.2018.04.002.
+Bojanowski, Piotr, Grave, Edouard, Joulin, Armand, Mikolov, Tomas, 2016. Enriching
+word vectors with subword information. Trans. Assoc. Comput. Linguist. 5 (July),
+135–146.
+Bordeleau, Fanny Eve, Mosconi, Elaine, Antonio, Luis, de Santa-Eulalia., 2020. Business
+intelligence and analytics value creation in Industry 4.0: a multiple case study in
+manufacturing medium enterprises. Prod. Plan. Control 31 (2–3), 173–185. https://
+doi.org/10.1080/09537287.2019.1631458.
+Bornmann, Lutz, Haunschild, Robin, Hug, Sven E., 2018. Visualizing the context of
+citations referencing papers published by Eugene Garfield: a new type of keyword
+co-occurrence analysis. Scientometrics 114 (2), 427–437. https://doi.org/10.1007/
+S11192-017-2591-8/TABLES/1.
+Braccini, Alessio Maria, Margherita, Emanuele Gabriel, 2018. Exploring organizational
+sustainability of Industry 4.0 under the triple bottom line: the case of a
+manufacturing company. In: Sustainability 2019, Vol. 11, Page 36, vol. 11 (1), p. 36.
+https://doi.org/10.3390/SU11010036.
+Brad, Stelian, Murar, Mircea, Brad, Emilia, 2018. Design of smart connected
+manufacturing resources to enable changeability, reconfigurability and total-cost-ofownership models in the factory-of-the-future. Int. J. Prod. Res. 56 (6), 2269–2291.
+https://doi.org/10.1080/00207543.2017.1400705.
+Braun, Virginia, Clarke, Victoria, 2012. Thematic analysis. In: APA Handbook of
+Research Methods in Psychology, Vol 2: Research Designs: Quantitative, Qualitative,
+Neuropsychological, and Biological. American Psychological Association, pp. 57–71.
+https://doi.org/10.1037/13620-004.
+Brax, Saara A., Calabrese, Armando, Ghiron, Nathan Levialdi, Tiburzi, Luigi,
+Gronroos, ¨ Christian, 2021. Explaining the servitization paradox: a configurational
+theory and a performance measurement framework. Int. J. Oper. Prod. Manag. 41
+(5), 517–546. https://doi.org/10.1108/IJOPM-08-2020-0535.
+Calabrese, Armando, Dora, Manoj, Ghiron, Nathan Levialdi, Tiburzi, Luigi, 2020a.
+Industry’s 4.0 transformation process: how to start, where to aim, what to be aware
+of. Prod. Plan. Control. https://doi.org/10.1080/09537287.2020.1830315.
+Calabrese, Armando, Ghiron, Nathan Levialdi, Tiburzi, Luigi, 2020b. ‘Evolutions’ and
+‘revolutions’ in manufacturers’ implementation of Industry 4.0: a literature review, a
+multiple case study, and a conceptual framework. Prod. Plan. Control. https://doi.
+org/10.1080/09537287.2020.1719715.
+Chen, Maozhi, Sinha, Avik, Kexiang, Hu, Shah, Muhammad Ibrahim, 2021. Impact of
+technological innovation on energy efficiency in Industry 4.0 era: moderation of
+shadow economy in sustainable development. Technol. Forecast. Soc. Chang. 164
+(March), 120521 https://doi.org/10.1016/j.techfore.2020.120521.
+Chiarini, Andrea, Belvedere, Valeria, Grando, Alberto, 2020. Industry 4.0 strategies and
+technological developments. An exploratory research from Italian manufacturing
+A. Calabrese et al. 
+Technological Forecasting & Social Change 188 (2023) 122265
+12
+companies. Prod. Plan. Control January, 1–14. https://doi.org/10.1080/
+09537287.2019.1710304.
+Ching, Ng Tan, Ghobakhloo, Morteza, Iranmanesh, Mohammad, Maroufkhani, Parisa,
+Asadi, Shahla, 2022. Industry 4.0 applications for sustainable manufacturing: a
+systematic literature review and a roadmap to sustainable development. J. Clean.
+Prod. 334 (February), 130133 https://doi.org/10.1016/J.JCLEPRO.2021.130133.
+Cisco, 2019. 2019 Corporate Social Responsibility Report.
+CLP, 2018. Sustainability Report.
+Culot, Giovanna, Fattori, Fabio, Podrecca, Matteo, Sartor, Marco, 2019. Addressing
+Industry 4.0 cybersecurity challenges. IEEE Eng. Manag. Rev. 47 (3), 79–86. https://
+doi.org/10.1109/EMR.2019.2927559.
+Culot, Giovanna, Nassimbeni, Guido, Orzes, Guido, Sartor, Marco, 2020. Behind the
+definition of Industry 4.0: analysis and open questions. Int. J. Prod. Econ. January,
+107617 https://doi.org/10.1016/j.ijpe.2020.107617.
+Dahmani, Noureddine, Benhida, Khalid, Belhadi, Amine, Kamble, Sachin, Elfezazi, Said,
+Jauhar, Sunil Kumar, 2021. Smart circular product design strategies towards ecoeffective production systems: a lean eco-design Industry 4.0 framework. J. Clean.
+Prod. 320 (October), 128847 https://doi.org/10.1016/J.JCLEPRO.2021.128847.
+Dalenogare, Lucas Santos, Benitez, Guilherme Brittes, Ayala, N´estor Fabi´
+an,
+Frank, Alejandro German, ´ 2018. The expected contribution of Industry 4.0
+technologies for industrial performance. Int. J. Prod. Econ. 204 (October), 383–394.
+https://doi.org/10.1016/j.ijpe.2018.08.019.
+de Sousa Jabbour, Ana Beatriz Lopes, Jabbour, Charbel Jose Chiappetta, Foropon, Cyril,
+Filho, Moacir Godinho, 2018. When titans meet – can Industry 4.0 revolutionise the
+environmentally-sustainable manufacturing wave? The role of critical success
+factors. Technol. Forecast. Soc. Chang. https://doi.org/10.1016/j.
+techfore.2018.01.017.
+Dixit, Aasheesh, Jakhar, Suresh Kumar, Kumar, Patanjal, 2021. Does lean and sustainable
+manufacturing lead to Industry 4.0 adoption: the mediating role of ambidextrous
+innovation capabilities. Technol. Forecast. Soc. Chang. November, 121328. https://
+doi.org/10.1016/J.TECHFORE.2021.121328.
+Dwivedi, Ashish, Moktadir, Md. Abdul, Jabbour, Charbel Jos´e Chiappetta, de
+Carvalho, Daniel Estima, 2021. Integrating the circular economy and Industry 4.0 for
+sustainable development: implications for responsible footwear production in a big
+data-driven world. Technol. Forecast. Soc. Chang. November, 121335 https://doi.
+org/10.1016/J.TECHFORE.2021.121335.
+Ejsmont, Krzysztof, Gladysz, Bartlomiej, Kluczek, Aldona, 2020. Impact of Industry 4.0
+on sustainability—bibliometric literature review. Sustainability 12 (14), 5650.
+https://doi.org/10.3390/su12145650.
+Esmaeilian, Behzad, Wang, Ben, Lewis, Kemper, Duarte, Fabio, Ratti, Carlo,
+Behdad, Sara, 2018. The future of waste management in smart and sustainable cities:
+a review and concept paper. In: Waste Management. Elsevier Ltd. https://doi.org/
+10.1016/j.wasman.2018.09.047
+Ford, 2018. Sustainability Report 2017/18.
+Gabriel, M., Pessl, E., 2016. Industry 4.0 and sustainability impacts: critical discussion of
+sustainability aspects with a special focus on future of work and ecological
+consequences. Ann. Fac. Eng. Hunedoara 14 (2).
+Gary, Robert F., Marinakis, Yorgos, Majadillas, Mary Anne, White, Reilly, Walsh, Steven
+T., 2019. Legitimate firms or hackers - who is winning the global cyber war? Int. J.
+Technol. Intell. Plan. 12 (3), 297–314. https://doi.org/10.1504/IJTIP.2019.099243.
+Gastaldi, Luca, Appio, Francesco Paolo, Corso, Mariano, Pistorio, Andrea, 2018.
+Managing the exploration-exploitation paradox in healthcare: three complementary
+paths to leverage on the digital transformation. Bus. Process. Manag. J. 24 (5),
+1200–1234. https://doi.org/10.1108/BPMJ-04-2017-0092.
+Gastaldi, Luca, Lessanibahri, Sina, Tedaldi, Gianluca, Miragliotta, Giovanni, 2022.
+Companies’ adoption of smart technologies to achieve structural ambidexterity: an
+analysis with SEM. Technol. Forecast. Soc. Chang. 174 (January), 121187 https://
+doi.org/10.1016/J.TECHFORE.2021.121187.
+Ghobakhloo, Morteza, 2020. Industry 4.0, digitization, and opportunities for
+sustainability. J. Clean. Prod. 252 (April), 119869 https://doi.org/10.1016/J.
+JCLEPRO.2019.119869.
+Ghobakhloo, Morteza, Fathi, Masood, Iranmanesh, Mohammad, Maroufkhani, Parisa,
+Morales, Manuel E., 2021a. Industry 4.0 ten years on: a bibliometric and systematic
+review of concepts, sustainability value drivers, and success determinants. J. Clean.
+Prod. 302 (June), 127052 https://doi.org/10.1016/J.JCLEPRO.2021.127052.
+Ghobakhloo, Morteza, Iranmanesh, Mohammad, Grybauskas, Andrius, Vilkas, Mantas,
+Petraite, ˙ Monika, 2021b. Industry 4.0, innovation, and sustainable development: a
+systematic review and a roadmap to sustainable innovation. Bus. Strateg. Environ.
+30 (8), 4237–4257. https://doi.org/10.1002/BSE.2867.
+Gioia, Dennis A., Corley, Kevin G., Hamilton, Aimee L., 2013. Seeking qualitative rigor in
+inductive research. Organ. Res. Methods 16 (1), 15–31. https://doi.org/10.1177/
+1094428112452151.
+GOLDCORP, 2017. Operational Excellence Sustainable Value. https://doi.org/10.1201/
+b21925.
+Gupta, Himanshu, Kumar, Ashwani, Wasan, Pratibha, 2021. Industry 4.0, cleaner
+production and circular economy: an integrative framework for evaluating ethical
+and sustainable business performance of manufacturing organizations. J. Clean.
+Prod. 295 (May), 126253 https://doi.org/10.1016/J.JCLEPRO.2021.126253.
+Hearst, Marti, 2003. What Is Text Mining?.
+Herrmann, Christoph, Schmidt, Christopher, Kurle, Denis, Blume, Stefan,
+Thiede, Sebastian, 2014. Sustainability in manufacturing and factories of the future.
+Int. J. Precis. Eng. Manuf. Green Technol. 1 (4), 283–292. https://doi.org/10.1007/
+s40684-014-0034-z.
+Ibarra, Dorleta, Ganzarain, Jaione, Igartua, Juan Ignacio, 2018. Business model
+innovation through Industry 4.0: a review. In: Procedia Manufacturing, 22. Elsevier
+B.V., pp. 4–10. https://doi.org/10.1016/j.promfg.2018.03.002
+Ingaldi, Manuela, Ulewicz, Robert, 2019. Problems with the implementation of Industry
+4.0 in enterprises from the SME sector. Sustainability 12 (1), 217. https://doi.org/
+10.3390/su12010217.
+Jabbour, Charbel Jose, Chiappetta, Ana Beatriz, de Sousa, Lopes, Jabbour, Joseph Sarkis,
+Filho, Moacir Godinho, 2019. Unlocking the circular economy through new business
+models based on large-scale data: an integrative framework and research agenda.
+Technol. Forecast. Soc. Chang. 144 (July), 546–552. https://doi.org/10.1016/j.
+techfore.2017.09.010.
+Jazdi, N., 2014. Cyber physical systems in the context of Industry 4.0. In: Proceedings of
+2014 IEEE International Conference on Automation, Quality and Testing, Robotics,
+AQTR 2014. IEEE Computer Society. https://doi.org/10.1109/
+AQTR.2014.6857843.
+Jung, Kiwook, Choi, SangSu, Kulvatunyou, Boonserm, Cho, Hyunbo, Morris, K.C., 2017.
+A reference activity model for smart factory design and improvement. Prod. Plan.
+Control 28 (2), 108–122. https://doi.org/10.1080/09537287.2016.1237686.
+Kang, Hyoung Seok, Lee, Ju Yeon, Choi, SangSu, Kim, Hyun, Park, Jun Hee, Son, Ji Yeon,
+Kim, Bo Hyun, Do Noh, Sang, 2016. Smart manufacturing: past research, present
+findings, and future directions. Int. J. Precis. Eng. Manuf. Green Technol. 3 (1),
+111–128. https://doi.org/10.1007/s40684-016-0015-5.
+Keppel Corporation, 2017. Solutions for Sustainable Urbanisation.
+Kerin, Mairi, Pham, Duc Truong, 2019. A review of emerging Industry 4.0 technologies
+in remanufacturing. J. Clean. Prod. 237.
+Kerin, Mairi, Pham, Duc Truong, 2020. Smart remanufacturing: a review and research
+framework. In: Journal of Manufacturing Technology Management. Emerald Group
+Publishing Ltd. https://doi.org/10.1108/JMTM-06-2019-0205
+Khan, Iqra Sadaf, Ahmad, Muhammad Ovais, Majava, Jukka, 2021. Industry 4.0 and
+sustainable development: a systematic mapping of triple bottom line, circular
+economy and sustainable business models perspectives. J. Clean. Prod. 297 (May),
+126655 https://doi.org/10.1016/J.JCLEPRO.2021.126655.
+Kiel, Daniel, Arnold, Christian, Voigt, Kai-Ingo, 2017. The influence of the industrial
+internet of things on business models of established manufacturing companies - a
+business level perspective. Technovation 68 (December 2017), 4–19. https://www.
+sciencedirect.com/science/article/pii/S0166497216303169.
+Kohtam¨
+aki, Marko, Parida, Vinit, Patel, Pankaj C., Gebauer, Heiko, 2020. The
+relationship between digitalization and servitization: the role of servitization in
+capturing the financial potential of digitalization. Technol. Forecast. Soc. Chang. 151
+(February), 119804 https://doi.org/10.1016/j.techfore.2019.119804.
+Kristoffersen, Eivind, Blomsma, Fenna, Mikalef, Patrick, Li, Jingyue, 2020. The smart
+circular economy: a digital-enabled circular strategies framework for manufacturing
+companies. J. Bus. Res. 120 (November), 241–261. https://doi.org/10.1016/j.
+jbusres.2020.07.044.
+Krungsri, 2018. Sustainability Report.
+Kumar, Sandeep, Purohit, Bhushan S., Manjrekar, Vikas, Singh, Vivek, Lad, Bhupesh
+Kumar, 2018. Investigating the value of integrated operations planning: a case-based
+approach from automotive industry. Int. J. Prod. Res. January https://doi.org/
+10.1080/00207543.2018.1424367.
+Kumar, Anil, Agrawal, Rohit, Wankhede, Vishal A., Sharma, Manu, Mulatweldemeskel, Eyob, 2022. A framework for assessing social acceptability of Industry
+4.0 technologies for the development of digital manufacturing. Technol. Forecast.
+Soc. Chang. 174 (January), 121217 https://doi.org/10.1016/J.
+TECHFORE.2021.121217.
+Landrum, Nancy E., Ohsowski, Brian, 2018. Identifying worldviews on corporate
+sustainability: a content analysis of corporate sustainability reports. Bus. Strateg.
+Environ. 27 (1), 128–151. https://doi.org/10.1002/bse.1989.
+Lee, Chien Chiang, Qin, Shuai, Li, Yaya, 2022. Does industrial robot application promote
+green technology innovation in the manufacturing industry? Technol. Forecast. Soc.
+Chang. 183 (October), 121893 https://doi.org/10.1016/J.TECHFORE.2022.121893.
+Li, Jingran, Tao, Fei, Cheng, Ying, Zhao, Liangjin, 2015. Big data in product lifecycle
+management. Int. J. Adv. Manuf. Technol. 81 (1–4), 667–684. https://doi.org/
+10.1007/s00170-015-7151-x.
+Liao, Yongxin, Deschamps, Fernando, de Freitas, Eduardo, Loures, Rocha, Ramos, Luiz
+Felipe Pierin, 2017. Past, present and future of Industry 4.0 - a systematic literature
+review and research agenda proposal. Int. J. Prod. Res. 55 (12), 3609–3629. https://
+doi.org/10.1080/00207543.2017.1308576.
+Lopes de Sousa Jabbour, Ana Beatriz, Jabbour, Charbel Jose Chiappetta, Choi, Tsan
+Ming, Latan, Hengky, 2022. ‘Better together’: evidence on the joint adoption of
+circular economy and Industry 4.0 technologies. Int. J. Prod. Econ. 252 (October),
+108581 https://doi.org/10.1016/J.IJPE.2022.108581.
+Lu, Hsi Peng, Weng, Chien I., 2018. Smart manufacturing technology, market maturity
+analysis and technology roadmap in the computer and electronic product
+manufacturing industry. Technol. Forecast. Soc. Chang. 133 (August), 85–94.
+https://doi.org/10.1016/j.techfore.2018.03.005.
+Machado, Carla Gonçalves, Winroth, Mats Peter, da Silva, Elias Hans Dener Ribeiro,
+2019. Sustainable Manufacturing in Industry 4.0: An Emerging Research Agenda,
+vol. 58 (5), pp. 1462–1484. https://doi.org/10.1080/00207543.2019.1652777.
+A. Calabrese et al. 
+Technological Forecasting & Social Change 188 (2023) 122265
+13
+Martínez-Olvera, C´esar, Mora-Vargas, Jaime, 2019. A comprehensive framework for the
+analysis of Industry 4.0 value domains. Sustainability 11 (10). https://doi.org/
+10.3390/SU11102960.
+Melville, Nigel P., 2010. Information systems innovation for environmental
+sustainability. MIS Q. 34 (1), 1–21. https://doi.org/10.2307/20721412.
+Moeuf, Alexandre, Pellerin, Robert, Lamouri, Samir, Tamayo-Giraldo, Simon,
+Barbaray, Rodolphe, 2018. The industrial management of SMEs in the era of Industry
+4.0. Int. J. Prod. Res. 56 (3), 1118–1136. https://doi.org/10.1080/
+00207543.2017.1372647.
+Moldavska, Anastasiia, Welo, Torgeir, 2017. The concept of sustainable manufacturing
+and its definitions: a content-analysis based literature review. In: Journal of Cleaner
+Production. Elsevier Ltd. https://doi.org/10.1016/j.jclepro.2017.08.006
+Müller, Julian Marius, Buliga, Oana, Voigt, Kai-Ingo, 2018. Fortune favors the prepared:
+how SMEs approach business model innovations in Industry 4.0. Technol. Forecast.
+Soc. Chang. https://doi.org/10.1016/j.techfore.2017.12.019.
+Nagy, Judit, Olah, ´ Judit, Erdei, Edina, Mat ´ ´e, Domici´
+an, Popp, Jozsef, ´ 2018. The role and
+impact of Industry 4.0 and the internet of things on the business strategy of the value
+chain—the case of Hungary. In: Sustainability 2018, Vol. 10, Page 3491, vol. 10
+(10), p. 3491. https://doi.org/10.3390/SU10103491.
+Niehoff, Silke, 2022. Aligning digitalisation and sustainable development? Evidence
+from the analysis of worldviews in sustainability reports. Bus. Strateg. Environ. 31
+(5), 2546–2567. https://doi.org/10.1002/BSE.3043.
+Nosalska, Katarzyna, Piątek, Zbigniew Michał, Mazurek, Grzegorz, Rządca, Robert, 2020.
+Industry 4.0: coherent definition framework with technological and organizational
+interdependencies. J. Manuf. Technol. Manag. 31 (5), 837–862. https://doi.org/
+10.1108/JMTM-08-2018-0238/FULL/XML.
+Nylund, P.A., Brem, A., 2021. Do open innovation and dominant design foster digital
+innovation? Int. J. Innov. Manag. 25 (09), 2150098.
+Nylund, P.A., Agarwal, N., Probst, C., Brem, A., 2022. Firm engagement in UN
+Sustainable Development Goals: introduction of a constraints map from a corporate
+reports content analysis. J. Clean. Prod. 371, 133446.
+Oettmeier, Katrin, Hofmann, Erik, 2017. Additive manufacturing technology adoption:
+an empirical analysis of general and supply chain-related determinants. J. Bus. Econ.
+87 (1), 97–124. https://doi.org/10.1007/s11573-016-0806-8.
+O’Reilly, Charles A., Tushman, Michael L., 2013. Organizational ambidexterity: past,
+present, and future. Acad. Manag. Perspect. 27 (4), 324–338. https://doi.org/
+10.5465/AMP.2013.0025.
+Ortt, Roland, Stolwijk, Claire, Punter, Matthijs, 2020. Implementing Industry 4.0:
+assessing the current state. J. Manuf. Technol. Manag. 31 (5), 825–836. https://doi.
+org/10.1108/JMTM-07-2020-0284/FULL/PDF.
+Peukert, Bernd, Benecke, Stephan, Clavell, Janire, Neugebauer, Sabrina, Nissen, Nils F.,
+Uhlmann, Eckart, Lang, Klaus Dieter, Finkbeiner, Matthias, 2015. Addressing
+sustainability and flexibility in manufacturing via smart modular machine tool
+frames to support sustainable value creation. In: Procedia CIRP, vol. 29. Elsevier B.
+V., pp. 514–519. https://doi.org/10.1016/j.procir.2015.02.181
+Piccarozzi, Michela, Aquilani, Barbara, Gatti, Corrado, 2018. Industry 4.0 in
+management studies: a systematic literature review. In: Sustainability 2018, Vol. 10,
+Page 3821, vol. 10 (10), p. 3821. https://doi.org/10.3390/SU10103821.
+Piccarozzi, Michela, Silvestri, Cecilia, Aquilani, Barbara, Silvestri, Luca, 2022. Is this a
+new story of the ‘two giants’? A systematic literature review of the relationship
+between Industry 4.0, sustainability and its pillars. Technol. Forecast. Soc. Chang.
+177 (April), 121511 https://doi.org/10.1016/J.TECHFORE.2022.121511.
+Rantala, Tero, Ukko, Juhani, Saunila, Minna, Puolakoski, Hanna, Rantanen, Hannu,
+2019. Creating sustainable customer value through digitality. World J. Entrep.
+Manag. Sustain. Dev. 15 (4), 325–340. https://doi.org/10.1108/WJEMSD-08-2018-
+0077.
+Rauschnabel, Philipp A., Brem, Alexander, Ivens, Bjoern S., 2015. Who will buy smart
+glasses? Empirical results of two pre-market-entry studies on the role of personality
+in individual awareness and intended adoption of Google glass wearables. Comput.
+Hum. Behav. 49 (August), 635–647. https://doi.org/10.1016/J.CHB.2015.03.003.
+Raut, R.D., Gotmare, A., Narkhede, B.E., Govindarajan, U.H., Bokade, S.U., 2020.
+Enabling technologies for Industry 4.0 manufacturing and supply chain: concepts,
+current status, and adoption challenges. IEEE Eng. Manag. Rev. 48 (2), 83–102.
+Redondo, Yolanda Polo, Fierro, Jesús J. Cambra, 2007. Importance of company size in
+long-term orientation of supply function: an empirical research. J. Bus. Ind. Mark. 22
+(4), 236–248. https://doi.org/10.1108/08858620710754504.
+Rubio, Francisco, Llopis-Albert, Carlos, Valero, Francisco, 2021. Multi-objective
+optimization of costs and energy efficiency associated with autonomous industrial
+processes for sustainable growth. Technol. Forecast. Soc. Chang. 173 (December),
+121115 https://doi.org/10.1016/J.TECHFORE.2021.121115.
+Sanders, Adam, Elangeswaran, Chola, Wulfsberg, Jens, 2016. Industry 4.0 implies lean
+manufacturing: research activities in Industry 4.0 function as enablers for lean
+manufacturing. J. Ind. Eng. Manag. 9 (3), 811–833. https://doi.org/10.3926/
+jiem.1940.
+Santos, Marc Ericson C., in Wolde Lübke, Arno, Taketomi, Takafumi,
+Yamamoto, Goshiro, Rodrigo, Ma Mercedes T., Sandor, Christian, Kato, Hirokazu,
+2016. Augmented reality as multimedia: the case for situated vocabulary learning.
+Res. Pract. Technol. Enhanc. Learn. 11 (1) https://doi.org/10.1186/s41039-016-
+0028-2.
+Sarkar, Dipanjan, 2019. Text Analytics with Python. https://doi.org/10.1007/978-1-
+4842-4354-1.
+Schmidt, Rainer, Mohring, ¨ Michael, Harting, ¨ Ralf Christian, Reichstein, Christopher,
+Neumaier, Pascal, Jozinovi´c, Philip, 2015. Industry 4.0 - potentials for creating
+smart products: empirical research results. In: Lecture Notes in Business Information
+Processing, vol. 208. Springer Verlag, pp. 16–27. https://doi.org/10.1007/978-3-
+319-19027-3_2.
+Schneider, Paul, 2018. Managerial challenges of Industry 4.0: an empirically backed
+research agenda for a nascent field. Rev. Manag. Sci. 12 (3), 803–848. https://doi.
+org/10.1007/s11846-018-0283-2.
+Sharma, Rohit, Jabbour, Charbel Jos´e Chiappetta, Lopes, Ana Beatriz, de Sousa Jabbour.,
+2020. Sustainable manufacturing and Industry 4.0: what we know and what we
+don’t. J. Enterp. Inf. Manag. 34 (1), 230–266. https://doi.org/10.1108/JEIM-01-
+2020-0024/FULL/XML.
+Shet, Sateesh V., Pereira, Vijay, 2021. Proposed managerial competencies for Industry
+4.0 – implications for social sustainability. Technol. Forecast. Soc. Chang. 173
+(December), 121080 https://doi.org/10.1016/J.TECHFORE.2021.121080.
+Shou, Yongyi, Zhao, Xinyu, Chen, Lujie, 2019. Operations strategy of cloud-based firms:
+achieving firm growth in the big data era. Int. J. Oper. Prod. Manag. https://doi.org/
+10.1108/IJOPM-01-2019-0089.
+Siltori, Patricia F.S., Anholon, Rosley, Rampasso, Izabela Simon, Quelhas, Osvaldo L.G.,
+Santa-Eulalia, Luis A., Filho, Walter Leal, 2021. Industry 4.0 and corporate
+sustainability: an exploratory analysis of possible impacts in the Brazilian context.
+Technol. Forecast. Soc. Chang. 167 (June), 120741 https://doi.org/10.1016/J.
+TECHFORE.2021.120741.
+Sjodin, ¨ David, Parida, Vinit, Kohtamaki, ¨ Marko, Wincent, Joakim, 2020. An agile cocreation process for digital servitization: a micro-service innovation approach.
+J. Bus. Res. 112 (May), 478–491. https://doi.org/10.1016/j.jbusres.2020.01.009.
+Song, Malin, Qianqian, Du, Zhu, Qingyuan, 2017. A theoretical method of environmental
+performance evaluation in the context of big data. Prod. Plan. Control 28 (11− 12),
+976–984. https://doi.org/10.1080/09537287.2017.1336801.
+Soni, Gunjan, Mangla, Sachin Kumar, Singh, Pallavi, Dey, Bidit L., Dora, Manoj, 2021.
+Technological interventions in social business: mapping current research and
+establishing future research agenda. Technol. Forecast. Soc. Chang. 169 (August),
+120818 https://doi.org/10.1016/J.TECHFORE.2021.120818.
+Sony, Michael, Naik, Subhash, 2019. Critical factors for the successful implementation of
+Industry 4.0: a review and future research direction. Prod. Plan. Control. https://doi.
+org/10.1080/09537287.2019.1691278.
+STMicroelectronics, and Air Products, 2020. 2020 Sustainability Report.
+Stock, T., Seliger, G., 2016. Opportunities of sustainable manufacturing in Industry 4.0.
+In: Procedia CIRP, vol. 40. Elsevier B.V., pp. 536–541. https://doi.org/10.1016/j.
+procir.2016.01.129
+Stock, Tim, Obenaus, Michael, Kunz, Sascha, Kohl, Holger, 2018. Industry 4.0 as enabler
+for a sustainable development: a qualitative assessment of its ecological and social
+potential. Process. Saf. Environ. Prot. 118 (August), 254–267. https://doi.org/
+10.1016/J.PSEP.2018.06.026.
+Strange, Roger, Zucchella, Antonella, 2017. Industry 4.0, global value chains and
+international business. Multinatl. Bus. Rev. 25 (3), 174–184. https://doi.org/
+10.1108/MBR-05-2017-0028.
+Strozzi, Fernanda, Colicchia, Claudia, Creazza, Alessandro, No`e, Carlo, 2017. Literature
+review on the ‘smart factory’ concept using bibliometric tools. Int. J. Prod. Res. 55
+(22), 6572–6591. https://doi.org/10.1080/00207543.2017.1326643.
+Swisscom, 2019. Sustainability Report.
+TMG Automotive, 2019. Sustainability Report.
+Tripathi, Shubham, Gupta, Manish, 2021. A holistic model for global Industry 4.0
+readiness assessment. Benchmarking 28 (10), 3006–3039. https://doi.org/10.1108/
+BIJ-07-2020-0354/FULL/XML.
+van Eck, Nees Jan, Waltman, Ludo, 2010. Software survey: VOSviewer, a computer
+program for bibliometric mapping. Scientometrics 84 (2), 523–538. https://doi.org/
+10.1007/S11192-009-0146-3/FIGURES/7.
+Verma, Pratima, Kumar, Vimal, Daim, Tugrul, Sharma, Nagendra Kumar, Mittal, Ankesh,
+2022. Identifying and prioritizing impediments of industry 4.0 to sustainable digital
+manufacturing: a mixed method approach. J. Clean. Prod. 356 (July), 131639
+https://doi.org/10.1016/J.JCLEPRO.2022.131639.
+Walgreens, 2018. Corporate Social Sustainability Report.
+Watanabe, Edson H., da Silva, Robson M., Junqueira, Fabricio, dos Santos, Diolino J.,
+Filho, and Paulo E. Miyagi., 2016. An emerging industrial business model
+considering sustainability evaluation and using cyber physical system technology
+and modelling techniques. IFAC-PapersOnLine 49 (32), 135–140. https://doi.org/
+10.1016/J.IFACOL.2016.12.203.
+Weking, Jorg, ¨ Stocker, ¨ Maria, Kowalkiewicz, Marek, Bohm, ¨ Markus, Krcmar, Helmut,
+2020. Leveraging Industry 4.0 – a business model pattern framework. Int. J. Prod.
+Econ. 225 (July), 107588 https://doi.org/10.1016/j.ijpe.2019.107588.
+Xu, Li Da, Xu, Eric L., Li, Ling, 2018. Industry 4.0: state of the art and future trends. Int. J.
+Prod. Res. 56 (8), 2941–2962. https://doi.org/10.1080/00207543.2018.1444806.
+A. Calabrese et al. 
+Technological Forecasting & Social Change 188 (2023) 122265
+14
+Zavadsk ´ a, ´ Zuzana, Z´
+avadský, J´
+an, 2018. Quality managers and their future technological
+expectations related to Industry 4.0. Total Qual. Manag. Bus. Excell. https://doi.org/
+10.1080/14783363.2018.1444474.
+Zheng, Ting, Ardolino, Marco, Bacchetti, Andrea, Perona, Marco, 2020. The Applications
+of Industry 4.0 Technologies in Manufacturing Context: A Systematic Literature
+Review, vol. 59 (6), pp. 1922–1954. https://doi.org/10.1080/
+00207543.2020.1824085.
+Zutshi, Ambika, Creed, dio Andrew, Sohal, Amrik, 2009. Child labour and supply chain:
+profitability or (mis)management. Eur. Bus. Rev. https://doi.org/10.1108/
+09555340910925175.
+Armando Calabrese is an Associate Professor of Management Engineering at the University of Rome ‘Tor Vergata’, where he received his PhD. He had international research
+experience as visiting research fellow at the Advanced Services Group at Aston Business
+School, Aston University (UK) and at the Department of Management, Society and
+Communication at Copenhagen Business School (Denmark). His main research interests
+are service management and economics, sustainability, health and public management.
+Roberta Costa, Ph.D., is an Associate Professor in the Department of Enterprise Engineering of the University of Rome ‘Tor Vergata’, Italy. Her current research interests
+include: Corporate Sustainability, Corporate Social Responsibility (CSR), Sustainability
+Reporting, Stakeholder Engagement, CSR communication, green marketing, Knowledge
+Management.
+Luigi Tiburzi is a Researcher in Management Engineering at the University of Rome, ‘Tor
+Vergata’, where he received his PhD. He is interested in the role of services in shaping the
+business models of manufacturers, from revenue making and sustainability perspectives.
+In addition, he is interested in understanding the role new technologies play in firms’
+strategies.
+Alexander Brem is an Endowed Chaired Professor and Institute Head with the University
+of Stuttgart, Stuttgart, Germany. In addition, he is an Honorary Professor with the University of Southern Denmark, Sønderborg, Denmark. Alexander Brem studied business
+administration with a major in entrepreneurship at Friedrich-Alexander-University
+Erlangen-Nürnberg (FAU), where he also received his PhD in 2007, respectively.
+A. Calabrese et al. 

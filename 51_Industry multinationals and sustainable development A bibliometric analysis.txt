@@ -1,0 +1,1985 @@
+Journal of Cleaner Production 413 (2023) 137381
+Available online 15 May 2023
+0959-6526/© 2023 The Authors. Published by Elsevier Ltd. This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/bync-nd/4.0/).
+Industry 4.0, multinationals, and sustainable development: A
+bibliometric analysis☆
+Jos´e Dias Lopes a
+, Joao ˜ Estev˜
+ao a,*
+, Agnes Toth-Peter b
+a Advance/CSG, ISEG, Universidade de Lisboa, Rua Miguel Lupi, 20, 1249-078, Lisboa, Portugal b QUT Business School | School of Management, 2 George Street, Brisbane Queensland, 4000, Australia
+ARTICLE INFO
+Handling Editor: Cecilia Maria Villas Boas ˆ de
+Almeida
+Keywords:
+Industry 4.0
+Multinationals
+Sustainable development
+Bibliometric analysis
+Content analysis
+ABSTRACT
+The concept of Industry 4.0 develops from a technological base - a set of technologies with a profoundly
+transformative character. The development of the concept from an essentially manufacturing base to other domains - Services 4.0, Government 4.0, Tourism 4.0, etc. - tells us that the concept is now much broader in scope
+and has much broader transformative potential, both from an economic, social and an environmental sustainability point of view.
+In this context, multinationals may play a very important role, as these companies are considered to play a key
+role in promoting sustainable development. This study seeks to understand whether there is evidence that
+multinationals are playing this role by analyzing the literature published on Industry 4.0 and seeking to identify
+in the literature which is published on multinationals a bias towards a greater focus on environmental and social
+issues.
+The study conducted does not confirm this bias. The study shows that environmental and social issues are
+modestly present in the literature/research about Industry 4.0 but are no longer present in the specific literature
+on multinationals. The study thus challenges us to develop and implement research agendas on the topic and
+mobilize academia towards research in this domain. Such reorientation of research will be determinant to
+accelerate the implementation processes of Industry 4.0, exploring in an integrated way its transformative potential in the economic and technological dimensions, but also environmental and social.
+1. Introduction
+Since the 1980s and the publication of the Brundtland Report - Our
+Common Future (Brundtland, 1987) the challenges facing humanity
+have been effectively recognized and the emerging negative social,
+environmental, and economic consequences are the result of an unsustainable system (Leal Filho et al., 2020). Implementing more sustainable
+practices has become a critical point on business agendas in the past
+decades to address the exacerbation of the climate and planetary crisis
+we are currently experiencing. There are different drivers that prompt
+the transition process to a more sustainable society (Mont and Power,
+2010) and the emergence of environmental and social dimensions,
+together with the economic dimension, as determining elements of
+sustainable development, is materialized in a succession of initiatives,
+from governments and non-public entities, such as NGOs and
+companies, which seek to make contributions to overcome those challenges and to create more sustainable practices (Murray et al., 2010).
+Literature shows (Ajwani-Ramchandani et al., 2021) that multinationals, specifically, may have a very pernicious or beneficial role in the
+implementation of actions that enhance sustainable development and
+mitigating the impacts of climate change and they are viewed as both
+responsible and capable to implement changes to seek more sustainable
+practices. Multinationals are frequently large corporations with a presence across multiple countries, institutional frameworks, and cultural
+contexts, with a large footprint that impacts many stakeholders (Sun
+et al., 2021). Indeed, multinationals are agents of intuitional change
+(Oriaifo et al., 2020), due to their capacity to operate in multiple geographies and their increased competitive advantage and beneficial
+position to create change, exerting their powerful position. Moreover,
+multinationals are seen as leaders and small and medium enterprises
+☆ The author acknowledges financial support from FCT- Fundaç˜
+ao para a Ciˆencia e Tecnologia (Portugal), national funding through research grant (UIDB/04521/
+2020). We also like to give a special thanks to the anonymous reviewers for their contributions.
+* Corresponding author.
+E-mail addresses: diaslopes@iseg.ulisboa.pt (J. Dias Lopes), joaoestevao@iseg.ulisboa.pt (J. Estev˜
+ao), agnes.tothpeter@hdr.qut.edu.au (A. Toth-Peter).
+Contents lists available at ScienceDirect
+Journal of Cleaner Production
+journal homepage: www.elsevier.com/locate/jclepro
+https://doi.org/10.1016/j.jclepro.2023.137381
+Received 4 January 2023; Received in revised form 29 April 2023; Accepted 2 May 2023 
+Journal of Cleaner Production 413 (2023) 137381
+2
+(SMEs), directly or indirectly, commonly follow their practices (Palazzo
+et al., 2017). Additionally, the important role of multinationals is also
+exemplified by the OECD’s Guidelines for Multinational Enterprises,
+which includes a set of voluntary standards and principles to facilitate
+the adoption of sustainable development, pre-empting the means and
+the power multinationals have to act on these principles and implement
+them (OECD, 2021).
+We also know from literature (Ghobakhloo, 2020) that digitalization
+and the rapidly changing technological scene, including the appearance
+of the advanced technologies of the most recent industrial revolution,
+Industry 4.0 (I4.0), is often associated with the sustainable development
+agenda. Literature and anecdotal cases (Gupta et al., 2021) show that
+digitalization and I4.0 tools can greatly benefit the introduction of
+sustainable development goals and initiatives and these tools introduce
+disruptive and transformational change, which provide a great potential
+to act upon the social, economic, and environmental initiatives of sustainable development. Therefore, there are reasons to believe that
+digitalization and I4.0 can be used as tools by multinationals, who are in
+a better position to push forward fast, overarching, and more consistent
+development of a sustainable society, acting as agents of institutional
+and societal change.
+Nonetheless, sustainability, multinational and digitalization literature, focusing on I4.0 tools, is quite disperse (Lepore et al., 2021). On the
+one hand, the sustainability literature talks about the importance of
+digital transformation, I4.0 tools and multinationals (Ajwani-Ramchandani et al., 2021) and concurrently, the multinational literature
+talks about sustainability and how multinationals can drive change to
+achieve more sustainable practices with digital transformation (George
+and Schillebeeckx, 2022). However, there is yet to exist a reconciled and
+holistic way to investigate who or what is a main enabler of sustainability change and where the gaps and missing pieces are. Therefore, it is
+important to bring these concepts together in a systematic way to understand where emphasis should be put, how the multinational literature connects I4.0 tools towards sustainable goals and where
+investments should be prioritized in terms of environmental and social
+issues.
+It is in this context that this study is developed, which seeks to assess
+whether multinationals are acknowledged as playing a more decisive
+role in environmental and social aspects when addressing the topic of
+I4.0, as could be projected by the OECD Guidelines. To this end, this
+study aims to better understand the difference, the contribution and
+important role of both multinationals and I4.0 tools, and how much the
+multinational academic literature is focusing on using I4.0 towards a
+sustainable future. Therefore, to support the current transition to more
+sustainable practices, this study highlights where emphasis is made in
+the literature and where attention is lacking by comparing the differences across two important body of literature that both notably
+contribute to sustainable development. This way, this study can help to
+accurately proportion where the mobilization of multinational and I4.0
+research should be aimed at to further support the sustainable development transition. To achieve this goal, this paper has adopted a systematic literature review, to collect the relevant studies in the field and
+used a content analysis method, using MaxQDA software to compare
+two sets of articles. In the content analysis, a documentary-based study
+was conducted, focusing on two samples of academic articles, one of the
+generic articles on I4.0 and another of articles that analyze the topic of
+I4.0 and focus on multinationals. The aim of the systematic review and
+the content analysis was to understand the intersection and the
+connection between multinational and I4.0 literature and the extent to
+which certain keywords (retrieved from the OECD Guidelines) are
+referenced in the I4.0 literature, and the I4.0 literature in combination of
+and with the focus on multinationals.
+The systematic literature review and content analysis point to several
+implications. First, the key terms and concepts associated with sustainable development are not majorly found in the multinational literature.
+Conversely, literature of I4.0 is more concerned with the sustainable
+development topics and therefore these concepts are more prevalent in
+the I4.0 literature. Second, this study encourages us to shift our attention
+from multinationals to the literature of I4.0 and technologies when
+investigating sustainable development. This underlines the I4.0 tools’
+capability to enable transformative change in the sustainable development agenda.
+In the next sections, the paper presents a literature review, the
+sample and method, results, discussion and conclusions, and the last
+section with limitations and future research.
+2. Literature review
+2.1. Multinationals and industry 4.0
+Both Sommer (2015) and Ingaldi and Ulewicz (2020) argue that the
+implementation process of I4.0 has been mainly based on large companies. According to Azevedo and Almeida (2021), these companies
+have advantages of scale, reach, and efficiency. For these authors, large
+companies also have advantages both in terms of human and capital
+resources, which allow them to test and evaluate new technologies.
+Müller (2019) argues that, in addition to resource limitations, small
+companies also have low bargaining power and inadequate business
+models, which make them potentially unsuitable to implement I4.0.
+In a significant number of cases the large companies that are usually
+referred to as associated with I4.0 are large multinational companies (e.
+g.: Bosch, Siemens, or SAP, referred to by Sommer, 2015 or General
+Electric (GE), Siemens, ABB, and Intel, referred to by Türkes¸ et al.
+(2019). Accordingly, Ungerman et al. (2018) argue that multinational
+companies are quicker to embrace digital technologies and processes
+largely because of the investment pressure required by new technologies, which create constraints on SMEs and relegate them to a follower
+position. Rodiˇc (2017) follows this up when he states that the "highest
+levels of implementation of Industry 4.0 can be seen [in 2017] in Germany and in multinational technology companies".
+At another level, Chavez et al. (2022) state that the literature on I4.0,
+both academic and more business-related, namely those published by
+consulting firms, has focused mainly on large companies, with a dearth
+of works on SMEs. If the scenario described by Ungerman et al. (2018) is
+confirmed, it is understandable that the literature, seeking to describe
+and analyze what is new, focuses mainly on large companies.
+2.2. Multinationals and sustainable development
+Kim et al. (2022) show from studying the South Korean reality that
+multinationals can be determinants in the implementation of sustainable
+environmental, social, and governance (ESG) practices. Cherkasova and
+Nenuzhenko (2022) reached similar conclusions, although with the
+nuance that the origin of the firm is also relevant.
+The previously mentioned bias in the literature, in favour of multinationals, seems not to be confined only to I4.0. Pereira et al. (2022)
+identified a similar bias in the published literature on the Circular
+Economy, a topic close to some of those addressed in this research
+regards to the contributions of multinationals’ practices to circularity,
+the results are not so uniform. Thus, although there are some efforts
+towards the development of conceptual models that argue for the
+importance of the adoption of circularity practices by multinationals (e.
+g.: Ly, 2021), the results of empirical studies do not reveal uniform results. For instance, Morea et al. (2021) find strong evidence of the
+effective adoption of circularity practices by multinationals, Ajwani-Ramchandani et al. (2021) point out, that large multinational companies
+look at their operation and separate products from packaging, which
+leads their managers to think that when the product is consumed, their
+responsibility ends, and the packaging, as waste, becomes the responsibility of the government, which, of course, is a practice far away
+from circularity. However, Obrad and Gherhes¸ (2018) show, from a
+study of multinationals in the automotive sector in Romania, that
+J. Dias Lopes et al. 
+Journal of Cleaner Production 413 (2023) 137381
+3
+companies are aware that Corporate Social Responsibility brings them
+advantages in the long term, both in external terms (arising from
+reputational gains, in consolidating their brand as an employer, their
+competitive advantage in the market, their media visibility) and also in
+internal terms (through strengthening the organizational culture and
+generating greater involvement from the employees themselves).
+2.3. Guidelines and frameworks of sustainability
+The activities of multinationals and the impact of their activities on
+the economies and societies in which they operate were already recognized by the United Nations (UN) Department of Economic and Social
+Affairs in the early 1970s (see DESA-UN, 1973). This document has
+already identified a set of aspects on which the activities of multinationals may have an impact, ranging from human resources, the
+exploitation of natural resources and technology transfer issues
+(DESA-UN, 1973, p.1).
+In the fifty years between that document and today, the United Nations has developed important work in favour of sustainability. Multinationals have often been present or very close to this work, as is the
+case, for example, with the UN Global Compact (https://www.
+unglobalcompact.org/). In this initiative, which involves the UN and
+entities from civil society, business, and public entities, of the companies
+that are present, many of them are multinationals (note that all the
+companies mentioned above - Bosch, Siemens, SAP, General Electric,
+ABB, and Intel - are members of the initiative).
+It was within the scope of the UN Global Compact activities that the
+Ten Principles (see Table 1) were established to guide companies in
+developing their strategies, policies, and procedures, and creating cultures of integrity to ensure that companies fulfill their basic responsibilities to people and the planet in a way that guarantees their
+long-term success.
+Although not specifically aimed at multinationals, these principles
+have a field of application par excellence in these companies (see
+Muchlinski, 2021; Williams, 2004). It is also among the multinational
+signatories that significant violations of these principles are found. Ullah
+et al. (2021) in a study of human rights violations by multinationals,
+identified 273 transgressions by 160 companies, of which more than
+90% were signatories to the UN Global Compact, leading the authors to
+question the effectiveness of the initiative. Another initiative, from a
+multilateral body, is the Tripartite Declaration of Principles concerning
+Multinational Enterprises and Social Policy developed by the International Labour Organization in 2017 (ILO, 2017). The Declaration
+naturally focuses on labour issues and is structured in five sections, an
+initial one, General policies, and then four thematic sections: Employment, Training, Conditions of work and life, and Industrial relations.
+Ullah et al., 2021 identified in relation to this declaration similar
+non-compliances to those recorded in the UN Global Compact. This has
+led both Ago (2020) and Cerni ˇ ˇc (2020) to question the Declaration’s
+governance model and accountability.
+The UN Global Compact initiative is not specifically aimed at multinationals and the International Labour Organisation’s initiative,
+although aimed at multinationals, focuses only on labour issues.
+Conversely, it is important to note that the OECD has an initiative specifically aimed at multinationals to guide their efforts towards responsible business conduct. This initiative is called the OECD Guidelines for
+Multinational Enterprises, which will be analyzed in the next section.
+The OECD Guidelines act as a major benchmark for the behaviour of
+multinationals being referred to in both the UN Global contact and the
+ILO tripartite declaration in 2017.
+2.4. OECD and the multinational enterprises – historical framework
+The OECD approved in 1976 a set of guidelines for multinational
+enterprises, whose adoption was voluntary, and which aimed, among
+other things, at transfer pricing and other transactions between firms
+belonging to the same multinational enterprise (Hagg, 1984). This first
+version of the guidelines is not, however, a stand-alone document. The
+guidelines originally appeared as an annex to the OECD Declaration on
+International Investment and Multinational Enterprises (Reinert et al.,
+2016).
+A first revision, in 1979, maintains, in general terms, the organization (Tully, 2001) of the guidelines in nine chapters/themes - General
+Policies, Disclosure, Employment and Industrial Relations, Environment, Combating Bribery; Consumer Interests; Science and Technology;
+Competition; Taxation (Hagg, 1984) a structure that majorly lasts until
+today (the most recent version includes an autonomous chapter on
+human rights (OECD, 2011)). However, it does substantively change
+procedures (Rojot, 1985) namely with the introduction of National
+Contact Points (NCP). The Guidelines have been subject to successive
+revisions (1984, 1991, 2000 and 2011, see Van ’T Foort, 2017 for a fuller
+description of developments).
+However, Reinert et al. (2016) and van ’T Foort (2017) classify
+guidelines as soft law, given the non-binding nature and voluntary
+adherence of this model of regulation. This model creates transparency
+and accountability problems (de Jonge, 2015; Sanchez, 2015; Van ’T
+Foort, 2017) for which NCPs should be a response, according to Sanchez
+(2015) which, in the author’s opinion, has shortcomings. Bhatt and
+Erdem Türkelli (2021) and Schekulin (2011) also highlight the importance of strengthening NCPs.
+2.5. The OECD guidelines for multinational enterprises (this section is
+based on OECD, 2011)
+The document is clear about its nature “The OECD Guidelines for
+Multinational Enterprises are recommendations addressed by governments to multinational enterprises operating in or from adhering
+countries [they] provide voluntary principles and standards for
+responsible business conduct” (our bold). The mandate of the
+Guidelines - a recommendation -, the model for companies to join -
+voluntary - and the ultimate purpose - responsible business conduct - is
+thus unequivocal. Responsible business conduct appears almost as an
+ethical imperative, something that companies must implement, or
+otherwise, should implement if they want to rise to the challenge that
+societies set them if they want to seize the opportunity – “Multinational
+enterprises have the opportunity to implement best practice policies
+for sustainable development that seek to ensure coherence between
+economic, environmental and social objectives” (p.14, our bold).
+But this behaviour is also beneficial for companies because it
+Table 1
+Ten principles of the UN global compact.
+Human Rights
+Principle 1: Businesses should support and respect the protection of internationally
+proclaimed human rights; and Principle 2: make sure that they are not complicit in
+human rights abuses.
+Labour
+Principle 3: Businesses should uphold the freedom of association and the effective
+recognition of the right to collective bargaining;
+Principle 4: the elimination of all forms of forced and compulsory labour;
+Principle 5: the effective abolition of child labour; and
+Principle 6: the elimination of discrimination in respect of employment and
+occupation.
+Environment
+Principle 7: Businesses should support a precautionary approach to environmental
+challenges;
+Principle 8: undertake initiatives to promote greater environmental responsibility;
+and
+Principle 9: encourage the development and diffusion of environmentally friendly
+technologies.
+Anti-Corruption
+Principle 10: Businesses should work against corruption in all its forms, including
+extortion and bribery.
+Source: UN Global Compact (https://www.unglobalcompact.org/)
+J. Dias Lopes et al. 
+Journal of Cleaner Production 413 (2023) 137381
+4
+facilitates the creation of more open, competitive, and properly regulated markets, and multinationals are in the best position to exploit the
+opportunities provided by markets with these characteristics and thus
+promote sustainable development. It is precisely this potential of multinationals to promote sustainability that is reinforced by the OECD
+(2011, p.14) when it states “The ability of multinational enterprises to
+promote sustainable development is greatly enhanced when trade and
+investment are conducted in a context of open, competitive and
+appropriately regulated markets”, evidently markets with these characteristics are especially favorable for multinationals.
+It is within this framework that the Guidelines propose 15 general
+principles, of which we highlight "Companies should”:
+1. Contribute to economic, environmental, and social progress with
+a view to achieving sustainable development.
+2. Respect the internationally recognized human rights of those
+affected by their activities.
+3. Encourage local capacity building through close co-operation
+with the local community […].
+4. Encourage human capital formation, by creating employment
+opportunities and facilitating training opportunities for
+employees.
+5. Refrain from seeking or accepting exemptions not contemplated
+in the statutory or regulatory framework related to human rights,
+environmental, health, safety, labour, taxation, financial incentives, or other issues.
+6. Support and uphold good corporate governance principles and
+develop and apply good corporate governance practices […].
+7. Develop and apply effective self-regulatory practices and management systems that foster a relationship of confidence and
+mutual trust between enterprises and the societies […].
+8. Promote awareness of and compliance by workers employed by
+multinational enterprises with respect to company policies […].
+9. Refrain from discriminatory or disciplinary action against
+workers who make bona fide reports to management or, as
+appropriate, to the competent public authorities, on practices
+that contravene the law, the Guidelines or the enterprise’s policies. […]
+14. Engage with relevant stakeholders to provide meaningful opportunities for their views to be considered in relation to planning
+and decision making for projects or other activities that may
+significantly impact local communities.
+15. Abstain from any improper involvement in local political
+activities.»
+These principles are then operationalized in nine guidelines that the
+following table (Table 2) presents in a summarized form. These guidelines constitute the core recommendations.
+We can thus conclude that large multinationals are crucial for the
+implementation of I4.0, but can also, as Kolk et al. (2017) point out, play
+an important role in the implementation of the Sustainable Development
+Goals (SDGs).
+2.6. Industry 4.0 and the sustainable development
+Technology is a key enabler of change and innovative practices, and
+the emergence of the concept I4.0 is tied by to 2011, when the German
+Government introduced the term to enhance the competitiveness of its
+manufacturing industry (e.g., Manavalan and Jayakrishna, 2019; Zambon et al., 2019; Masood and Sonntag, 2020; Moeuf et al., 2020). In
+academic journals, the first indexed articles are from 2013/2014 (e.g.,
+Drath and Horch, 2014) and by then, Kagermann et al. (2013, p. 54)
+underlined the role of I4.0 tools as both solutions that are technologically efficient and also socially sustainable. Therefore, I4.0 is viewed to
+play an enabling role in transitioning to sustainable development
+practices.
+To understand the role and impact of I4.0, it is important to understand how the concept emerged and what its basis are. The first industrial revolution emerged from the mechanization of processes and this
+period dates back to 1760. It introduced significant innovation and
+marks the date of the first mechanical loom. Then, it is relatively
+consensual that the second industrial revolution begins while the second
+half of the 19th century was already well advanced (Domini, 2022;
+Uzunkaya, 2020; Von Tunzelmann, 1997). Around that time (1886),
+Henry Towne makes his famous communication "The Engineer as
+Economist" which is considered by many the beginning of the development of scientific management and management in general (e.g.,
+Georgiou, 2014; Stefanov & Stefanov, 2022).
+The decades that follow, from 1870 to 1914, are marked by the
+statement of the second industrial revolution (Homburg, 2018; Squicciarini, 2020), as well as the confirmation of scientific management as
+the more advanced management model (Frederick Taylor published
+Table 2
+Chapters of the guidelines.
+Disclosure «Enterprises should, ensure that timely and
+accurate information is disclosed on all material
+matters regarding their activities, structure,
+financial situation, performance, ownership and
+governance […]».
+Human Rights «Enterprises should, […] Respect human rights,
+which means they should avoid infringing on the
+human rights of others and should address adverse
+human rights impacts with which they are
+involved […]».
+Employment and Industrial
+Relations
+«Enterprises should, […] Respect the right of
+workers employed by the multinational enterprise
+to establish or join trade unions and representative
+organizations of their own choosing […]».
+Environment «Enterprises should, […] take due account of the
+need to protect the environment, public health
+and safety, and generally to conduct their
+activities in a manner contributing to the wider
+goal of sustainable development […]».
+Combating Bribery, Bribe
+Solicitation and Extortion
+«Enterprises should not, directly or indirectly,
+offer, promise, give, or demand a bribe or other
+undue advantage to obtain or retain business or
+other improper advantage. Enterprises should also
+resist the solicitation of bribes and extortion […]».
+Consumer Interests «When dealing with consumers, enterprises
+should act in accordance with fair business,
+marketing and advertising practices and should
+take all reasonable steps to ensure the quality and
+reliability of the goods and services that they
+provide […]».
+Science and Technology «Enterprises should,
+Endeavour to ensure that their activities are
+compatible with the science and technology (S&T)
+policies and plans of the countries in which they
+operate and as appropriate contribute to the
+development of local and national innovative
+capacity.
+Adopt, where practicable in the course of their
+business activities, practices that permit the
+transfer and rapid diffusion of technologies and
+know-how, with due regard to the protection of
+intellectual property rights […]».
+Competition «Enterprises should,
+Carry out their activities in a manner consistent
+with all applicable competition laws and
+regulations, taking into account the competition
+laws of all jurisdictions in which the activities may
+have anticompetitive effects […]».
+Taxation «It is important that enterprises contribute to the
+public finances of host countries by making timely
+payment of their tax liabilities. In particular,
+enterprises should comply with both the letter and
+spirit of the tax laws and regulations of the
+countries in which they operate.»
+Source: OECD (2011).
+J. Dias Lopes et al. 
+Journal of Cleaner Production 413 (2023) 137381
+5
+Shop Management in 1903 and The Principles of Scientific Management
+in 1911, and he also published Motion Study in the same year; - see
+Lopes (2007)). While these changes are happening, movements, like the
+Welfare Work, try to make even more profound social changes by relying
+on businesses to support them (see, for example, Campbell and Nelson,
+1972; Eklund, 1999). Mller-Jentsch (1991) analyzes the processes and
+developments of labor relations and discovers unique and distinctive
+ways of organizing the economy, organizations, and society in each
+Industrial Revolution. As distinguishing characteristics from earlier eras,
+the third industrial revolution is characterized by globalization, the
+development of internationally distributed manufacturing systems, and
+new personal forms of information access (Simsir and Mete, 2022).
+Large firms play a critical part in these social change processes that
+go hand in hand with technological revolutions. The contribution of the
+NCR corporation (National Cash Register, an important industrial corporation founded in Dayton, Ohio, in 1884 and acquired by AT&T in
+1991) to the implementation of the Welfare Work is discussed by
+Campbell and Nelson (1972). A significant portion of Frederick Taylor’s
+work was done at Bethlehem Steel firm, which was a big steel firm at the
+time (Taylor, 2008). The 40-h workweek was first implemented in the
+USA thanks in large part to Henry Ford (Hunnicutt, 1984). Large electrical corporations are supporting the Hawthorne studies, which will be
+important for the implementation of the Human Relations School (Zoller
+and Muldoon, 2020). To refer back to I4.0 and its relation to sustainable
+development, we highlight that in academic publications, the first
+indexed articles that simultaneously address the topic of I4.0 and sustainability date from 2015, with Gerlitz (2015) advocating a design (for
+I4.0) that also proposes value in terms of sustainability, environmental
+and social efficiency and Prause (2015) arguing that I4.0 paves the way
+for new business models that also encompass new concepts of product
+life cycle sustainability.
+Nonetheless, implementation of I4.0 tools in the pursuit of sustainable development is not without its challenges and barriers (de Jesus
+and Mendonça, 2018). For example, Kipper et al. (2020) analyzing a
+large set of articles published about I4.0 (1882 articles) identify four
+main challenges in this area: technological, collaboration/integration,
+implementation and management. It is in this last dimension that
+themes such as human resources or sustainability are gathered. Lopes
+(2022) also identifies a cluster of relevant topics in the scope of I4.0
+studies in SMEs related to Social Issues and Sustainability.
+If we consider only the social dimension, and the internal dimension
+of companies - their employees -, we come across a consistent literature
+telling us that the human factor is highly relevant in the adoption of I4.0.
+This is what Trotta and Garengo (2018) summarize when they argue that
+the issue of Human Resource Management is fundamental for I4.0,
+considering, moreover, that several other authors recognize its importance in the successful implementation of I4.0 projects. In the same line
+of analysis, Ivanov et al. (2021) surveyed 238 researchers from 43
+countries about the factors that most significantly inhibit the adoption of
+I4.0 in their country. The results of that study show that human factor
+aspects are of significant importance in the adoption of I4.0 (the six most
+important facts, in order of importance (emphasis ours): Lack of understanding of the nature of I4.0; Lack of strategic vision; Need to
+find/place competent personnel; Need to retrain workers; Lack of access to
+capital; Acceptance of workers). The significant social impact of I4.0 can
+be also be felt on the community level, which is what van Rensburg et al.
+(2019) show in an analysis applied to the African reality.
+Therefore, in the context of I4.0, Human Resources gain importance,
+on the one hand, due to the fact that significant transformations of
+employment profiles and skills are likely to occur (Kagermann et al.,
+2013), and, on the other hand, due to the fact that I4.0 is generating a
+paradigm shift in the role of human resources, involving the gradual
+transition of the workforce from machine operators to problem solvers
+and decision makers, empowering them by providing aggregated and
+visualized information in real time (Furstenau et al., 2020); Ghobakhloo
+et al., 2021). In other words, not only it is the profile of jobs and skills
+that is changing, but it is the content of the work itself that is changing or
+put another way "[I.40] will challenge us on how to reinvent jobs in a
+world where machines will take our jobs" (Wahl, 2015, p. 241).
+Nonetheless, this new framework, created by I4.0, constitutes, in the
+opinion of Furstenau et al. (2020), a challenge for companies that have
+to be able to develop their human capital according to the new skills
+required by I4.0 from the implementation of organizational changes and
+the adoption of new management practices to ensure the efficient use of
+their intangible assets.
+The literature also highlights a close relationship between I4.0 and
+environmental issues, especially those related to the circular economy
+(Neligan et al., 2022). For example, Furstenau et al. (2020) note that
+there is a growing number of studies that relate I4.0 with sustainability,
+proving the strong relationship between the two topics, so it can be said
+that sustainability is assumed as one of the pillars of smart
+manufacturing. As a conclusion of their study of 894 articles, the authors
+argue that in order to develop a more sustainable society, issues such as
+circular economy, resource scarcity, lean manufacturing, energy problems, food production, process management and modeling, waste
+reduction, reuse of raw materials, and social aspects should be deepened
+in studies that simultaneously address I4.0 and sustainability. Ghobakhloo et al. (2021) also argue that the transformation associated with
+I4.0 could address pressing issues of SDGs, particularly with regard to
+manufacturing-economic development. As previously mentioned, the
+circular economy has been particularly emphasized in many I4.0 related
+articles (see, among others, Ajwani-Ramchandani et al., 2021; Bressanelli et al., 2018; Dantas et al., 2021; Dev et al., 2020; Lopes de Sousa
+Jabbour et al., 2018; Nascimento et al., 2019; Rajput and Singh, 2019;
+Rosa et al., 2020; Toth-Peter et al., 2023; Tseng et al., 2018; Yadav et al.,
+2020).
+Common point to all the mentioned articles is the need to recycle,
+reuse and reduce (3R’s), core concepts of the circular economy. The
+implementation of an economic development model based on circularity, and in particular the implementation of 3R’s solutions, requires
+new and different answers from those applied so far (Blomsma et al.,
+2019). The new technologies brought together in I4.0 - Cyber-Physical
+Systems, Cloud Computing, Internet of Things and Big Data - are
+crucial to the development of these new answers, which is why they are
+referred to in the generality of the articles cited (Yadav et al., 2020).
+We previously highlighted that large firms play a critical role in social changes that accompany technological revolutions. Accordingly, the
+technological change and the process of economic and social transformation are two columns that support the transformative process that
+industrial revolutions bring about (see Fig. 1). To reiterate, large corporations have historically been a key player in these revolutionary
+Fig. 1. Pillars of industrial revolutions.
+J. Dias Lopes et al. 
+Journal of Cleaner Production 413 (2023) 137381
+6
+processes and have influenced the building of a leveled porch.
+2.7. Synthesis and research model
+Evidence is accumulating that the implementation of I4.0 is conditioned by social and environmental factors, but at the same time I4.0 is
+also, at least in part, the solution to problems that exist in the domains of
+those factors. For example, the contribution of I4.0 to the circular
+economy and to the reskilling and upskilling of the workforce is very
+significant. It is important to highlight that in all these processes, multinationals also exercise great possibilities to intervene and can be more
+decisive in terms of what strategies get implemented. It is therefore
+expected that this study will show this preponderance of multinationals,
+that can be leading players in terms of sustainability. The research
+framework that supports the research that follows thus is found at the
+intersection between the concepts of multinationals, Industry 4.0, and
+Sustainability, see Fig. 2.
+3. Sample and method
+This paper has adopted a systematic literature review (SLR) complemented with a content analysis to identify and analyze the different
+patterns and themes (Xiao and Watson, 2019) in the intersection of I4.0
+tools and multinationals with reference to the transition to sustainable
+development. This methodological approach was used to provide a
+synthesis of the relevant studies that exist in the field, and that would
+become the basis of further analysis to analyze the extent of which
+sustainable development is apparent in I4.0 literature, and I4.0 literature and multinational literature combined. To do the SLR, the initial
+search was conducted in three databases, Scopus, Web of Science and
+EBSCOHost Business Source Elite, which allowed access to a diverse
+range of articles. The search string used the key concepts of multinationals and Industry 4.0.
+The integrated search resulted in 123 articles across the three databases. After the initial selection process, duplicate articles, non-peer
+reviewed articles and articles not written in English got excluded,
+resulting in 69 articles to be analyzed. After the abstract analysis, 47
+articles got included in the full-text review.
+This systematic review was used to complement and serve as the
+basis of a content analysis, which was then conducted in two distinct
+samples of articles, based on a list of issues, drawn up by reviewing the
+OECD document (2011):
+• A sample composed of the articles resulting from the search, with the
+following search string: ("Industry 4.0" and “Multinational”). The
+search was restricted only to the fields: title, abstract and keywords.
+This search resulted in a total of 45 articles, one of which was
+eliminated because the full text was in Russian and another because
+the full text was in German. This resulted in a set of 43 useable articles, having obtained the full text for all of them; and
+• Another sample, established for comparative purposes, and therefore
+of the same size (43 articles), was made up of the most cited articles,
+resulting from the search, with the following search string: ("Industry
+4.0"), with equal restriction in the search fields (title, abstract and
+keywords). The full text was obtained for all articles. In both cases,
+only articles published in Journals are considered ("Journals" flag
+activated in Source Type).
+The text of the 2011 version of the OECD Guidelines (OECD, 2011)
+was used to generate a list of 195 keywords. The text of the ten chapters
+setting out the conditions placed on multinationals - General Policies,
+Disclosure, Human Rights, Employment and Industrial Relations, Environment, Combating Bribery, Bribe Solicitation and Extortion, Consumer Interests, Science and Technology, Competition, and Taxation -
+was used to generate the keywords, with an attempt being made
+wherever possible to establish a keyword for each of the paragraphs of
+the text. All chapters include an explanatory note "Commentary on … "
+which was not considered for the generation of the keywords. The list of
+keywords can be found in Appendix 1. The keywords generated are thus
+considered to constitute a complete lexicon of Environmental, Social,
+and Governance (ESG) themes. The study is divided into two phases as
+shown in Fig. 3.
+4. Results
+The search criteria did not specify any date ranges when conducting
+the search. The articles covered a period between 2017 and 2022, with
+the peak of articles in 2021 (Fig. 4). This implies that multinationals in
+combination with I4.0 is an emerging research field, and therefore this
+indicates that further research and analysis is warranted to discover and
+better understand aspects of these concepts, separately, and at their
+interaction, in relation to sustainable development.
+Most studies are empirical, and many studies are qualitative, with
+case study approach being the most dominant method used (Fig. 5).
+There was only one article that used a longitudinal case study approach.
+This is interesting that only one paper has adopted this approach given
+that it is an emerging topic under study and a longitudinal study provides great insights and comparability in the future to better understand
+how certain behaviors emerge and shape. The rest of the empirical
+studies, at equal amounts, used mixed methods or quantitative methods,
+with surveys being the most dominant method. Surveys allow to effectively cover a great range of geographical locations in a short time, as
+this was the case in 2 articles, where the authors have investigated I4.0
+in 15 and in 22 countries, using survey analysis. Lastly, 11 studies are
+conceptual, with literature review and systematic reviews being the
+most adopted methods.
+Fig. 2. Conceptual framework.
+J. Dias Lopes et al. 
+Journal of Cleaner Production 413 (2023) 137381
+7
+Multinational companies are typically present in both emerging,
+developing and developed countries. As this might bring along different
+institutional and in cases cultural differences, it is no surprise that most
+articles indicated what the context of their research was (Fig. 6). This
+provides important differences and findings. Few articles did not specify
+the context or country under investigation.
+The SLR brings attention to different themes at the nexus of I4.0 and
+multinationals in the trajectory of the sustainable development. There
+were papers which investigated the benefits and implementation of I4.0
+tools with the aim to enhance manufacturing, encourage collaboration
+and optimize logistics (Barzotto and de Propris, 2021; Medoh and
+Telukdarie, 2020) and many articles highlighted the resilience and
+changing structure of global value chain as the benefits and outcomes of
+I4.0 tools (Ahi et al., 2022; Dilyard et al., 2021; Opazo-Basaez ´ et al.,
+2022). There were studies that investigated the financial side of sustainable development and looked at the cost and investment implications of I4.0 tools (Alami and ElMaraghy, 2021; Alarcon ´ et al., 2021;
+Almeida et al., 2022). With reference to contextual factors, some articles
+discussed the role of SMEs and developing and emerging economies,
+where the conceptualization of different rights, duties and responsibilities become critical in order to effectively implement sustainable initiatives (del Giudice et al., 2021; Parida et al., 2021;
+Rahamaddulla et al., 2021; Satyro et al., 2022; Tortorella et al., 2021).
+With regards to the transformation process, additional challenges and
+opportunities were highlighted (Battistello et al., 2021; Contador et al.,
+Fig. 3. Research scheme.
+Fig. 4. Number of articles by year.
+Fig. 5. Number of articles by type of methodological approach.
+Fig. 6. Number of articles by development level of the countries.
+J. Dias Lopes et al. 
+Journal of Cleaner Production 413 (2023) 137381
+8
+2020; Martinelli et al., 2021)., and many articles focused on the human
+resources factors, discussing the required skills and individual capabilities of employees (Bencsik, 2020; Fareri et al., 2020; Horvath ´ and
+Szabo, ´ 2019). This rich context can also be appointed in the number of
+journals where the articles were published. As it can be seen from Fig. 7,
+the articles were published across 40 different journals, accounting for
+almost 1 article per journal (the maximum being 4 articles per journal in
+the Journal of Manufacturing Technology Management).
+This systematic review was complemented by a content analysis,
+aiming to better understand where the emphasis lies, the list of keywords from the OECD guidelines (Appendix 1), was used to analyze the
+greater or lesser proximity of each of the sample articles to the ESG
+themes, and to assess dominant themes in the literature analyzed. The
+two samples (I4.0, the 43 most cited articles; MultiNat, the 43 articles
+where the word multinational was identified) were analyzed using the
+MaxQDA software.
+The keywords constituted an "Inclusion List" and their presence was
+searched for in the content of the articles. The following table (Table 3)
+shows the results found. Accordingly:
+• Twenty-one words were found in articles from both samples;
+• Two words appear in the list only in MultiNat articles - human rights,
+and reused - but their usage is low;
+• Ten words appear in the list only in the I4.0 sample - contingency
+plans, emission reduction, environmental impacts, environmental
+management, greenhouse gas emissions, personal data, regulatory
+framework, resource efficiency, resource utilization, and sustainable
+consumption;
+• Of these last words, only "resource efficiency" has a significant use;
+• It can thus be observed the existence of a common lexicon, significant, and particular uses, although relatively residual;
+• The core of most relevant keywords, consisting of twenty terms
+related to:
+a) the environment: environmental; environmental protection,
+recycling, resource efficiency, natural resources, and environmental performance;
+b) human resources: employees, training; skill, workers, employment, and labour;
+c) governance: health, safety, stakeholders, transparency, consumers, compliance, risk management, sustainable development,
+ethics, and corporate governance.
+• Although the results should be considered with caution, environmental, risk management, and stakeholders show significantly
+Fig. 7. Number of articles by source.
+J. Dias Lopes et al. 
+Journal of Cleaner Production 413 (2023) 137381
+9
+different incidences in the two samples. In the remaining situations,
+the differences appear to be variations with no particular
+significance.
+The results show a core composed of twenty keywords commonly
+used in both samples of articles and with no significant differences between them, with minor exceptions. The idea that multinationals may
+have actions that are more oriented towards ESG, and sustainable
+development does not seem to be confirmed, the results of this analysis
+do not demonstrate this greater orientation.
+To further develop the analysis, the 195 terms used in this study as
+Keywords, defined from the OECD Guidelines (OECD, 2011), were
+grouped into three sets: HR (Human Resources) Environment and
+General. A dictionary was thus created with these 195 words distributed
+by the 3 categories mentioned. With this dictionary, the study was
+conducted in MaxQDA "Content analysis based on dictionaries". The
+following table (Table 4) shows the results obtained for the two samples
+(see Table 5).
+Table 4 highlights six articles, with incidences (usages) of the terms
+higher than normal (overview). The titles of the six articles are listed
+below:
+• Ghobakhloo (2020) - Industry 4.0, digitization, and opportunities for
+sustainability;
+• Kamble et al. (2018) - Sustainable Industry 4.0 framework: A systematic literature review identifying the current trends and future
+perspectives;
+• Luthra and Mangla (2018) - Evaluating challenges to Industry 4.0
+initiatives for supply chain sustainability in emerging economies;
+• Fareri et al. (2020) - Estimating Industry 4.0 impact on job profiles
+and skills using text mining;
+• Galvan ´ et al. (2022) - What skills predict an intern’s ability to
+innovate new products? A quantitative study of innovation capability of Mexican college interns;
+• Telukdarie et al. (2018) - Industry 4.0 implementation for
+multinationals.
+A closer look at the contents of these articles leads to the conclusion
+that all of them do indeed address issues related to ESG themes. Note
+that in each of the samples three articles were identified, although with
+nuances (more articles about HR in the Multinationals sample; and more
+articles about environmental issues, always accompanied by a strong
+incidence of themes from the General category, in the most cited articles
+sample). The data thus does not allow us to consider that the literature
+on multinationals addresses ESG issues in a more incisive way when
+compared to the general literature (sample of the most cited articles) on
+I4.0.
+4.1. Scientific production evolution
+With reference to the descriptive analysis of the SLR, and focusing on
+Scopus, a list of 9532 articles is obtained when performing the search,
+restricted only to the fields, title, abstract and keywords and restricted
+only to documents published in journals, with the string "Industry 4.0"
+AND Multinational). The first articles date from 2013 and the last ones,
+are already registered in 2023. After very strong growth in 2014, in the
+following six years the number of publications grew annually by between 150% and 250% (including). However, in the last two years there
+has been a slowdown in growth. The following table shows the above
+data.
+The evolution of the articles in the two samples shows a greater
+seniority in the I4.0 sample, expected because they are the most cited
+articles, and a more recent take-off of the topic of multinationals in the
+context of I4.0, also expected because it is a more specific topic and as
+such more susceptible to later developments.
+4.2. Main publications
+As far as the main publications are concerned, they can be divided
+into three main groups:
+• Publications of a multidisciplinary nature (interestingly the three
+journals with the most articles are Sustainability (Switzerland),
+Applied Sciences (Switzerland), and IEEE Access);
+• Publications related to technologies and the production process
+(ZWF Zeitschrift Fuer Wirtschaftlichen Fabrikbetrieb, IEEE Transactions on Industrial Informatics, International Journal of Advanced
+Manufacturing Technology, Sensors, International Journal of Production Research, Computers in Industry, Computers and Industrial
+Engineering, and Sensors (Switzerland), and Energies; and
+• A technological development analysis publication on the impacts of
+technology on society (Technological Forecasting and Social
+Change).
+The following table (Table 6) shows the overall list of sources with
+the most publications (see Table 7).
+The two samples of articles considered together present 9 sources
+where more than one article was published (see Table 6). Five of the
+sources mentioned are also listed in the previous table. However, four
+others are only sources of these two samples, they are the International
+Journal of Production Economics, the Journal of Manufacturing Technology Management, Process Safety and Environmental Protection, and
+Total Quality Management and Business Excellence. As can be seen,
+these are publications that can easily be included in the subgroup
+identified above of publications linked to technologies and the
+Table 3
+Results of the analysis of MaxQDA.
+Word # Uses # Documents
+I4.0 MultiNat. I4.0 MultiNat.
+employees 139 263 19 30
+environmental 318 104 29 26
+training 113 140 25 26
+safety 195 85 29 22
+skill 92 97 21 13
+health 129 55 28 20
+workers 90 78 25 24
+stakeholders 32 97 12 17
+transparency 60 26 20 9
+employment 21 46 9 14
+labour 26 32 16 13
+environmental protection 44 21 5 5
+consumers 21 26 9 15
+compliance 12 28 6 14
+risk management 36 4 10 3
+sustainable development 16 17 12 9
+ethics 13 18 8 7
+recycling 15 8 9 5
+natural resources 11 4 6 4
+corporate governance 3 6 2 5
+environmental performance 3 3 2 3
+contingency plans 6 – 1 –
+emission reduction 8 – 1 –
+environmental impacts 6 – 4 –
+environmental management 7 – 5 –
+greenhouse gas emissions 5 – 3 –
+human rights – 10 – 2
+personal data 6 – 4 –
+regulatory framework 6 – 4 –
+resource efficiency 18 – 13 –
+resource utilization 9 – 5 –
+reused – 3 – 3
+sustainable consumption 4 – 4 –
+Source: Authors
+J. Dias Lopes et al. 
+Journal of Cleaner Production 413 (2023) 137381
+10
+production process.
+We can thus say that the core of publications listed in Table 6 constitutes the benchmark of sources on the subject and that the subsamples analyzed do not introduce new evidence. We can thus say
+that, besides a core of multidisciplinary publications, the theme has been
+addressed, mostly in publications linked to technologies and the production process.
+Table 4
+Incidence of the keywords per category and per article.
+I4.0 Document name MultiNat HR Environment
+Document name Words General HR Environment Words General
+(1)Alcacer ´ and Cruz-Machado (2019) 16214 1 1 0 (1)Ahi et al. (2022) 19238 1 2 0
+(2)Ben-Daya et al. (2019) 15923 6 0 1 (2)Alami and ElMaraghy (2021) 12746 0 0 0
+(3)Boyes et al. (2018) 8508 8 0 0 (3)Alarcon ´ et al. (2021) 6753 0 0 0
+(4)Buer et al. (2018) 9878 1 0 1 (4)Almeida et al. (2022) 16629 3 1 4
+(5)Chen et al. (2017) 12312 0 0 0 (5)Barzotto and de Propris (2021) 12159 2 3 0
+(6)Dalenogare et al. (2018) 13677 1 0 0 (6)Battistello et al. (2021) 8638 1 1 0
+(7)de Sousa Jabbour et al. (2018) 7920 3 3 1 (7)Bencsik (2020) 5680 0 1 0
+(8)Frank et al. (2019) 12665 0 0 0 (8)Borghi and Cocconcelli (2021) 3742 1 0 0
+(9)Ghobakhloo (2020) 18617 4 0 10 (9)Buest´
+an et al. (2020) 10613 2 0 0
+(10)Ghobakhloo (2018) 13985 1 2 0 (10)Caiado et al. (2021) 18769 1 0 0
+(11)Hofmann and Rüsch (2017) 11050 0 1 0 (11)Contador et al. (2020) 13393 3 0 5
+(12)Ivanov et al. (2019) 11967 0 0 1 (12)Das and Dey (2021) 10981 0 0 0
+(13)Kamble et al. (2018) 15242 21 1 21 (13)Del Giudice et al. (2021) 16375 0 0 0
+(14)Kang et al. (2016) 13341 5 1 1 (14)Dilyard et al. (2021) 7279 2 0 1
+(15)Lasi et al. (2014) 2499 0 0 1 (15)Dudycz et al. (2022) 7577 0 0 0
+(16)Lee et al. (2015) 2311 2 0 0 (16)Dzwigol et al. (2020) 2370 0 0 0
+(17)Li (2018) 8676 0 0 0 (17)Fareri et al. (2020) 14927 2 37 0
+(18)Liao et al. (2017) 12068 4 2 0 (18)Galvan ´ et al. (2022) 11382 1 11 0
+(19)Lopes de Sousa Jabbour et al., (2018) 7381 1 0 1 (19)Gotz ¨ (2020) 11991 1 0 0
+(20)Lu et al. (2020) 10367 0 1 0 (20)Horvath ´ and Szabo ´ (2019) 13435 0 2 0
+(21)Lu (2017) 9229 0 0 0 (21)Husin et al. (2022) 10276 1 3 1
+(22)Luthra and Mangla (2018) 10729 13 2 15 (22)Ivaldi et al. (2022) 13834 1 5 1
+(23)Mittal et al. (2018) 21086 4 2 1 (23)Makris et al. (2019) 12714 1 0 0
+(24)Moeuf et al. (2018) 11115 0 0 0 (24)Mayer and Oosthuizen (2022) 12202 2 4 0
+(25)Müller et al. (2018) 16060 1 0 0 (25)Medoh and Telukdarie (2020) 9775 0 0 0
+(26)Müller et al. (2018) 14644 4 2 7 (26)Mir et al. (2020) 14219 5 1 1
+(27)Oesterreich and Teuteberg (2016)_ 15991 2 1 0 (27)Munsamy et al. (2019) 9331 0 0 2
+(28)Oztemel and Gursev (2020) 46142 8 1 7 (28)Murmura et al. (2021) 11269 4 0 1
+(29)Posada et al. (2015) 9497 2 3 0 (29)Parida et al. (2021) 7640 4 2 2
+(30)Qi and Tao (2018) 8253 1 1 0 (30)Rahamaddulla et al. (2021) 11424 1 0 0
+(31)Roblek et al. (2016) 7322 0 0 1 (31)Redondo et al. (2020) 11972 0 0 0
+(32)Rojko (2017) 4948 0 0 0 (32)Robert et al. (2022) 13863 0 4 0
+(33)Sanders et al. (2016) 8196 0 1 0 (33)Salvador et al. (2022) 10820 0 4 1
+(34)Sikorski et al. (2017) 9345 0 1 0 (34)Santos et al. (2017) 7862 0 0 0
+(35)Tao and Zhang (2017) 6845 0 0 0 (35)Sartal et al. (2019) 2668 0 0 0
+(36)Thoben et al. (2017) 11210 4 1 1 (36)Schmidt et al. (2021) 11598 1 0 0
+(37)Vaidya et al. (2018) 7049 0 2 0 (37)Silva et al. (2021) 10380 0 0 0
+(38)Wan et al. (2016) 6953 1 0 0 (38)Szasz ´ et al. (2021) 14079 0 1 0
+(39)Wang et al. (2016) 6921 0 0 0 (39)Telukdarie et al. (2018) 9746 24 2 15
+(40)Wollschlaeger et al. (2017) 7642 1 0 0 (40)Tortorella et al. (2022) 13569 8 1 0
+(41)Xu et al. (2018) 16262 6 0 2 (41)Tortorella et al. (2021) 11017 3 0 2
+(42)Zheng et al. (2018) 8418 1 1 0 (42)Venˆ
+ancio et al. (2022) 12735 3 0 0
+(43)Zhong et al. (2017) 15025 2 0 0 (43)Z´
+avadsk´
+a and Zavadský ´ (2020) 11572 0 0 1
+Source: Authors
+Table 5
+Evolution of the scientific production.
+YEAR ALL ARTICLES GROW I4.0 MULTINAT.
+2013 9
+2014 38 422,2% 1
+2015 95 250,0% 2
+2016 176 185,3% 6
+2017 394 223,9% 10 2
+2018 679 172,3% 17 1
+2019 1172 172,6% 5 4
+2020 1934 165,0% 3 10
+2021 2483 128,4% 16
+2022 2541 102,3% 11
+2023 11
+Source: Authors, based on Scopus data (www.scopus.com)
+Table 6
+Journals with the most publications.
+SOURCE TITLE # IMPACT
+FACTOR
+SUSTAINABILITY (SWITZERLAND) 360 3.889
+APPLIED SCIENCES (SWITZERLAND) 290 2.838
+IEEE ACCESS 242 3.476
+ZWF ZEITSCHRIFT FÜER WIRTSCHAFTLICHEN
+FABRIKBETRIEB
+186 0.513a
+IEEE TRANSACTIONS ON INDUSTRIAL INFORMATICS 156 11.648
+INTERNATIONAL JOURNAL OF ADVANCED
+MANUFACTURING TECHNOLOGY
+148 3.563
+SENSORS 147 3.847b
+INTERNATIONAL JOURNAL OF PRODUCTION RESEARCH 138 9.018
+TECHNOLOGICAL FORECASTING AND SOCIAL CHANGE 124 10.884
+COMPUTERS IN INDUSTRY 117 11.245
+COMPUTERS AND INDUSTRIAL ENGINEERING 114 7.180
+SENSORS (SWITZERLAND) 110 3.8472
+ENERGIES 102 3.252
+a Source normalized impact per paper, not comparable with impact factor. b Based on Scopus database that splits the sources in two different records.
+Source: Authors, based on Scopus data (http://www.scopus.com)
+J. Dias Lopes et al. 
+Journal of Cleaner Production 413 (2023) 137381
+11
+4.3. Geographic origin
+The production of articles on I4.0 (total of 9532 articles) is very
+diverse geographically, more than half of the countries - 126 effectively -
+had researchers involved in the articles published on the topic. The
+country from which the most articles originated was Germany, followed
+by Italy and India (see Table 8, and consider the ORDER column) (see
+Table 9).
+In the table below, in the GLOBAL column is the number of articles
+published with researchers from the indicated country. The total number of contributions adds up to 13,945, higher than the number of articles, because of many articles being published by multinational teams.
+The I4.0 and MultiNat columns show the contributions per country
+respectively in the sample of the most published articles (I4.0) and in the
+sample of articles that address the topic of multinationals (MultiNat).
+Seven countries appear in top positions in the global list and in the
+two samples: Germany, United Kingdom, Brazil, United States, India,
+Portugal, and Canada (ordered by number of contributions in both
+samples). Fourteen other countries have also contributed positions to
+only one of the samples. They are Italy, France, China, Spain, South
+Africa, Denmark, Poland, New Zealand, Austria, Hungary, Iran,
+Malaysia, Mexico, and Slovakia. Except for Denmark, New Zealand, and
+Iran, all the others are in the top quartile of contributing countries.
+Within this group of countries (21 in total), Europe is clearly dominant with 11 contributions (in the previous table, the rightmost column
+has the continent coded as indicated in the table below). The American
+continent and Asia account for four contributions each, while the other
+two continents - Africa and Oceania - have one contribution each. We
+can therefore conclude that the interest in the subject is universal. It
+should be noted, however, that in the sample of articles on multinationals the distribution by regions changes slightly, although with some
+significance since there are no contributions from Oceania.
+5. Discussion and conclusions
+The characterization made of the two samples of articles and the
+global collection of publications on I4.0 shows us three sets of articles
+with a significant group of common characteristics:
+• As shown in Fig. 3, the articles are relatively recent, from the last
+decade, being the most cited articles older and the articles specialized in the multinational topic more recent. This situation was expected as the most cited articles always tend to be slightly older
+articles and articles specialized in a given topic to be more recent in
+relation to the general development of the topic;
+• The articles were mainly in multidisciplinary publications or publications related to technologies and the production process and as
+shown before, from a wide range of journals (Fig. 6);
+• Europe dominates the production of studies, although scientific
+production covers all regions. A set of seven countries - Brazil,
+Canada, Germany, India, Portugal, the United Kingdom, and the
+United States - can also be identified as being present in the three
+groups of articles.
+As Kolk et al. (2017) state, multinationals can play an important role
+in the implementation of sustainable development goals. It would
+therefore be expected that the literature on I4.0, which also analyses the
+role of multinationals, would highlight the approach to issues related to
+sustainable development. It was therefore also expected that there
+would be a greater presence of sustainability-related terms in the sample
+of articles on multinationals compared to the sample of most cited articles, however, this is not the case. Strictly speaking, the opposite is
+true: the sample of most frequently cited articles uses a broader lexicon
+of keywords related to ESG topics, although it should be noted that this
+extra group of terms is used less frequently.
+I4.0 seeks solutions that are technologically efficient and sustainable
+(Kagermann et al., 2013), looking for to add value in the three aspects
+(Gerlitz, 2015), and creating new business models (Prause, 2015). The
+transformations associated with I4.0 in terms of business changes will
+contribute to the SDG goals in particular with regard to
+manufacturing-economic development (Ghobakhloo, 2020) and in this
+way bring to the discussion and reinforce the importance of circular
+economy (3R) issues (Bressanelli et al., 2018; Dantas et al., 2021; Dev
+et al., 2020; Lopes de Sousa Jabbour et al., 2018; Nascimento et al.,
+2019; Rajput and Singh, 2019; Rosa et al., 2020; Tseng et al., 2018;
+Yadav et al., 2020).
+In the core of the most used terms, which in general terms, coincides
+in both samples, we find that of the three ESG dimensions, that is, the
+Table 7
+Sources in both samples.
+SOURCE TITLE I4.0 MULTINAT. IMPACT
+FACTOR
+COMPUTERS IN INDUSTRY 3 2 11.245
+IEEE ACCESS 3 3.476
+INTERNATIONAL JOURNAL OF
+PRODUCTION ECONOMICS
+2 11.251
+INTERNATIONAL JOURNAL OF
+PRODUCTION RESEARCH
+6 9.018
+JOURNAL OF MANUFACTURING
+TECHNOLOGY MANAGEMENT
+3 8.144
+PROCESS SAFETY AND ENVIRONMENTAL
+PROTECTION
+2 7.926
+SUSTAINABILITY (SWITZERLAND) 2 3.889
+TECHNOLOGICAL FORECASTING AND
+SOCIAL CHANGE
+3 10.884
+TOTAL QUALITY MANAGEMENT AND
+BUSINESS EXCELLENCE
+2 4.168
+Source: Authors, based on Scopus data (http://www.scopus.com)
+Table 8
+Geographical spread of the samples by country.
+ORDER COUNTRY/TERRITORY GLOBAL I4.0 MULTINAT. CONT.
+1 Germany 1080 12 1 4
+5 United Kingdom 781 7 6 4
+8 Brazil 431 5 7 2
+6 United States 718 7 5 2
+3 India 894 3 5 3
+14 Portugal 273 2 4 4
+16 Canada 233 2 2 2
+2 Italy 1001 8 4
+10 France 348 6 4
+4 China 872 5 3
+7 Spain 616 4 4
+21 South Africa 180 4 1
+32 Denmark 109 3 4
+9 Poland 419 3 4
+53 New Zealand 51 3 5
+22 Austria 176 2 4
+26 Hungary 151 2 4
+41 Iran 80 2 3
+12 Malaysia 325 2 3
+27 Mexico 151 2 2
+28 Slovakia 150 2 4
+Source: Authors, based on Scopus data (www.scopus.com)
+Table 9
+Geographical spread of samples by continent.
+CODE REGION CONTRIBUTIONS CONTRIBUTIONS ONLY MULTINAT.
+ARTICLES
+1 Africa 1 1
+2 Americas 4 4
+3 Asia 4 2
+4 Europe 11 10
+5 Oceania 1 0
+Source: Authors, based on Scopus data (www.scopus.com)
+J. Dias Lopes et al. 
+Journal of Cleaner Production 413 (2023) 137381
+12
+environment (environmental; environmental protection, recycling,
+resource efficiency, natural resources, and environmental performance);
+the social (employees, training; skill, workers, employment, and labour)
+and the governance (health, safety, stakeholders, transparency, consumers, compliance, risk management, sustainable development, ethics,
+and corporate governance), none of them is standing out in a significant
+way.
+The study identified a set of articles that unequivocally address issues
+related to the environment and to social issues. These articles are equally
+distributed between the two samples considered, with no predominance
+of articles that address the role of multinational companies. The presence of these articles seems, however, not very significant.
+In summary, the study allows us to state with some certainty that:
+1. Environmental and social themes are present in the literature about
+I4.0 (environmental, training, and workers, are used in more than
+half of the articles, in both samples). However, the study also seems
+to show that those themes have little centrality in the discussions
+about I4.0 (a relatively small number of articles were identified with
+those themes as core subjects), that is, although the social and
+environmental dimensions are present in the discussion of I4.0, they
+have not (had), so far, centrality;
+2. When comparing the works published in general terms (sample of the
+most cited articles) and in articles that address the role of multinational companies, we do not observe evidence that environmental
+and social issues are more addressed in the latter (multinationals)
+when compared to the former (most cited articles). This is because
+the literature mentions that multinationals would be more sensitive
+to these themes, the fact that no differences are observed is nonetheless significant.
+5.1. Theoretical and practical implications
+Often, approaches to I4.0 are technical in nature (Matt et al., 2020).
+This situation occurs both in academia (e.g.: “With the arrival of I4.0,
+the overall transformation using digital integration and intelligent engineering has taken a giant leap towards futuristic technology” (Muhuri
+et al., 2019, p.218) and among the practitioners (e.g.: “The fourth industrial marriage of physical assets and advanced technologies known as
+I4.0, refers to the Revolution, also digital technologies” (Deloitte, 2020,
+p.3).
+However, as Lamola (2021) reminds us in the introduction to a
+special issue devoted to I4.0 in Africa that we can (should?) also look at
+technological progress from approaches based on historically-culturally
+and socially embedded perspectives. Corroborating this perspective,
+Fischer-Kowalski et al. (2019) show that the energy transition associated
+with industrial revolutions is also associated with a social revolution.
+What our study shows is that this social dimension, and also the
+environmental dimension, to which the mentioned literature attributes
+importance, is central in the articles we analyzed. From a theoretical
+point of view, definitions of I4.0 such as the one by Muhuri et al. (2019),
+mentioned above, could (should?) evolve into something like « With the
+arrival of I4.0, the overall transformation using digital integration and
+intelligent engineering has taken a giant leap towards futuristic technology», with important and significant social and environmental
+changes, intrinsic to these transformations (in bold, this paper
+contribution).
+This integration of the social and environmental dimensions into the
+core of I4.0, an intrinsic feature of it, is probably even more relevant in
+the practice of businesses. If the digital transition creates skills shortages
+and poses difficulties for companies (Birkel et al., 2019), it can also
+provide solutions to these difficulties (see, for example, Gorecky et al.,
+2017; Roldan ´ et al., 2019). The same rationale can be had regarding risk
+assessment (environmental, but also occupational health, see in this
+regard Lemos et al., 2022b; Lemos et al., 2022a).
+We believe that this process of integrating social and environmental
+dimensions into the core of I4.0 will occur more easily if academia and
+practitioners address it jointly. In this process, multinationals can play a
+relevant, leading, and groundbreaking role, a role that, according to this
+study, they have not taken on so far.
+On the other hand, the literature frequently tends to emphasize the
+role of multinationals as organizations with more sophisticated management models (Alvaro-Moya ´ et al., 2020), considering that they play a
+significant part in spreading these more advanced management practices through knowledge transfer processes (Dusanjh and Sidhu, 2009).
+Doeringer et al. (2003) demonstrate that this transfer of best management practices happens even in the case of multinational companies
+from developed countries setting up their operations in other developed
+countries. Ekhart & Breese (2023) demonstrate that this issue is relevant
+when developing public strategies to draw in foreign direct investment.
+Originally, we know, the literature states that multinational corporations should pay more attention to the social and environmental aspects of the organizations’ activity, given that they constitute a more
+advanced management practice. In other words, large corporations of
+today are multinationals with activities around the globe and they have
+power to concurrently alter the economies and societies of the several
+nations in which they are present. The revolutionary issue of our time -
+sustainable development – is assumed to be met with their help. This
+idea is the foundation of programs like the UN Global Compact and the
+OECD Guidelines.
+Our study did not, however, support this circumstance. This study
+shows that multinational corporations do not appear to be particularly
+noteworthy when it comes to constructing the sustainable development
+pillar required to realize I4.0’s transformational potential. Does this
+prevent that transformative potential from being realized? We might be
+inclined to say yes if we were to consider the history. The danger would
+be that we would construct a "lame porch" rather than a leveraged one.
+Therefore, if we revisit our conceptual framework (see Fig. 2), we will
+argue that I4.0 contributes to the sustainability agenda more than
+multinationals, at least, according to literature.
+This raises the question as to why this might happen and what causes
+multinationals to lag in the sustainable development transition journey.
+Arguably, multinationals have the resources and capabilities to drive the
+sustainable development change, however, the failure of multinationals
+to deal with the climate crisis so far questions the credibility of these
+institutions, as Andrew Dearing very interestingly points out in the
+World Business Council for Sustainable Development. Dearing (2000)
+also explains that it is the SMEs that often have vibrant and stretched
+imagination to implement something new. Therefore, we believe that
+multinationals might possess the required investment and resources, but
+it is only in collaboration with SMEs, who are usually limited by the lack
+of similar resources, that will drive the sustainable development transition. In fact, it is possible to say that the large size of multinationals can
+hold them back in the rapid and disruptive changes of I4.0. This is
+because large companies can be associated with rigid structure, and as a
+result that they are slow or less adaptable to change and innovations of
+I4.0, or they might perceive new technology as threat to their current
+operations. This could explain why multinationals are not highlighted as
+major change makers in the literature, whereas I4.0 tools are clearly
+associated with the environmental and social transformations. With
+regard to the transfer of best management practices from multinational
+corporations to businesses in host countries, we can therefore conclude
+that the study presents fresh challenges to the theoretical reference
+frameworks about I4.0 and the significance of environmental and social
+issues in it.
+6. Limitations
+This study adopted a SLR approach together with a content analysis;
+however, this methodology and the research outcomes could be further
+developed to overcome some of its limitations.
+J. Dias Lopes et al. 
+Journal of Cleaner Production 413 (2023) 137381
+13
+First, we sought to assess the importance of the two themes under
+study - environmental and social - based on their presence in the literature (in research) about I4.0. The list of terms we have used in the
+search constitutes a limitation of the work, and perhaps introduces some
+barriers as to which concepts have been investigated. However, it should
+be noted that it was obtained from a reference document (OECD, 2011)
+and that the study results themselves give it some credibility. Nonetheless, we understand that the categorization of 195 keywords into 3
+categories could be subject to biases and different interpretation.
+Therefore, to address this limitation, it is important to further investigate our keywords and concepts and perhaps additional or different
+combination of keywords and groups to see if the outcomes differ. For
+example, we suggest conducting an analysis in a reverse manner and
+using a different reliable reference point. For example, the two body of
+literature could be analyzed using the Sustainable Development Goals
+Framework (SDG) as a reference point, which defines 17 goals as an
+urgent call for action towards a more sustainable future. It could be
+interesting to analyze the SDG keywords and see their relevance in the
+multinational and I4.0 literature (https://sdgs.un.org/goals).
+Second, the way the literature analysis was carried out, and the
+specific use of two tests available in MAXQDA also limits the work. The
+conclusion of systematic review and the content analysis resulting from
+the researchers reading the full text of the articles was an alternative,
+which has been tested in similar studies. The characteristics of the
+literature - wide in I4.0, being propitious therefore to the establishment
+of reference samples, but relatively small in the subject under study
+(multinationals) and relatively homogeneous in temporal terms -
+seemed conducive to the use of the referred tests.
+Third, it seems clear from this research that environmental and social
+issues justify a greater research effort within the scope of I4.0 studies. If
+it is true that these themes assume increased importance in multinationals, then this research effort is even more justified, and it is therefore
+suggested that research agendas on environmental and social issues be
+established within the scope of I4.0 and that special attention be paid to
+not only to multinational companies when defining these agendas but
+also to other players, such as SMEs. These agendas can either be
+confined solely to environmental and social issues, which evidently requires further investigation (de Lange et al., 2012; Schekulin, 2011), or
+they can be addressed within broader discussions on sustainability or the
+circular economy, as a promising solution (Ly, 2021).
+7. Future research
+In addition, we put forward recommendations and a few propositions
+for future research avenues, which are driven by the findings and the
+gaps in the study.
+7.1. Methods
+First, this research warrants to further investigate the emergence of
+the topics in practical settings through qualitative primary data collection across global supply chains. For example, interviews or focus groups
+with stakeholders, such as different organizations and businesses along a
+multinational supply chain, including government and legislative entities, would be methodological alternatives, possibly more direct to
+study this phenomenon. The qualitative methods would enrich the
+findings of this study, by providing a deeper understanding into the
+experiences and realities of stakeholders along a selected supply chain.
+Their knowledge and experience can inform the sustainability journey
+and how I4.0 tools are implemented as well as it would further explain
+or highlight some of the gaps identified in this research (Silverman,
+2017). From the methodological perspectives and given the lengthy
+process of planning and implementation of any sustainability initiatives,
+understanding the sustainable development phenomenon and the role of
+multinational and I4.0 could benefit from adopting a longitudinal study
+to understand the long-term effect of such initiatives. For example, we
+suggest that it would be interesting to conduct a longitudinal study on
+international new ventures and perhaps SMEs who mimic multinationals, to be able to analyze the long-term effects and trajectory of
+sustainable development and how these new ventures adopt SDGs into
+their strategies, as an example, de Jesus and Mendonça (2018).
+Regarding the role of I4.0 and multinationals, a longitudinal study
+would allow to analyze the continuous or exponential change in the
+global value chain structure and potential inertia in the system that
+would only emerge, become visible and understood in the long-term.
+7.2. Context
+Another aspect to consider, which is driven by the global and
+multinational presence, is the role of institutions and cultural context,
+such as the implementation of sustainable development initiatives in
+emerging economies. Developing countries have a great impact on
+future sustainable development initiatives, however this area of
+research is still understudied in literature. Nonetheless, the phenomenon
+is supposedly susceptible to many different context and institutional
+rules and cultural conventions. This would introduce potential complexities and tensions in global supply chains as well as the role and
+influence of policies and regulations in the different regions. Therefore,
+it is important to investigate opportunities and challenges in the reality
+of emerging economies, to advance the knowledge on how multinationals can address issues related to biodiversity loss, climate change,
+resource degradations, accompanied with legislation and best practice
+cases (Gunasekaran et al., 2014). Accordingly, we propose to study the
+sustainable development phenomenon, driven by multinationals and
+I4.0, in different contextual and institutional settings, such as emerging
+and developed countries. In addition to comparing emerging and
+developed countries, another perspective that could bring light to differences in the multinational arena could be to analyze some global
+firms and some regional firms (Rugman and Verbeke, 2004). This could
+provide a better understanding of how multinationals contribute to the
+sustainable development game in each setting, how they influence
+institutional change and what the critical enablers and hindering effect
+are (similar to the study of Parida et al., 2021).
+7.3. Technology
+Last, this paper investigated the role of multinationals and found that
+key terms and concepts are not majorly found in multinational literature, but the focus is more on I4.0 technology and technological innovation. Therefore, a future research project could investigate what tools
+and how they can contribute to the sustainable development agenda
+(Sangwan and Bhatia, 2020). Although this research found evidence of
+big data analytics (Gholami et al., 2022; Santos et al., 2017) and 3D
+printing (Makris et al., 2019; Sartal et al., 2019), the I4.0 framework can
+be extended further and to different aspects of a global value chain.
+Future research could investigate the role of blockchains in supporting
+legislative initiatives or cloud computing and data solutions in logistics
+processes. In addition, it could also be interesting to conduct a
+comparative study to analyze the differences between emerging and
+developed countries as this could help to better understand which specific I4.0 tools are relevant and more adopted in terms of value creation
+in each context and how certain sustainability goals are perceived and
+targeted by different countries and thus institutional contexts.
+CRediT authorship contribution statement
+Jose ´ Dias Lopes: Conceptualization, Methodology, Writing – original draft, preparation, Empirical study, Writing – review & editing.
+Joao ˜ Estevao: ˜ Conceptualization, Methodology, Writing – original
+draft, preparation, Empirical study, Writing – review & editing. Agnes
+Toth-Peter: Conceptualization, Methodology, Writing – original draft,
+preparation, Writing – review & editing.
+J. Dias Lopes et al. 
+Journal of Cleaner Production 413 (2023) 137381
+14
+Declaration of competing interest
+The authors declare that they have no known competing financial
+interests or personal relationships that could have appeared to influence
+the work reported in this paper.
+Data availability
+Data will be made available on request.
+Appendix 1. Keywords/key-expressions used in the study
+Accounting standards Environmental impacts Protect the environment
+Adverse impacts Environmental implications Public bodies
+Anti-competitive agreements Environmental issues Public Disclosure Requirements
+Appropriate governmental authorities Environmental management Public health and safety
+Arm’s length principle Environmental performance Public officials
+Basic needs of the workers and their families Environmental progress Quality of the goods
+Benefits and conditions of work Environmental protection Quality of the services
+Biodiversity Environmental reporting Quotas
+Bribe Environmental technologies Recycling
+Bribe solicitation Equality of opportunity Reduce greenhouse gas emissions
+Bribery risks Ethics Regularly promote
+Business conduct Extortion Regulatory framework
+Business confidentiality Fair advertising practices Related party transactions
+Child labour Fair business Reliability of the goods
+Codes of conduct Fair marketing Reliability of the services
+Collective agreements Fight against bribery Remuneration policy
+Collective bargaining Financial incentives Representative organizations
+Collective lay-offs Financial results Representatives of the workers
+Collusive tenders Financial standards Requirements of a job
+Company policies Fix prices Resource efficiency
+Competition authorities Forced labour Resource utilization
+Competition issues Fraudulent practices Responsible supply chain management
+Competition laws Freedom of assembly Reused
+Competition regulations Freedom of association Risk factors
+Compliance Freedom of expression Risk management
+Compliance programmes Greenhouse gas emissions Risk management systems
+Complicit in bribery Hazardous materials Safety
+Compulsory labour Health Science and technology policies
+Conditions of employment Health and safety impacts Self-regulatory practices
+Consumer education Health damage Share markets
+Consumer health and safety Health warnings and safety information Share ownership
+Consumers Human capital formation Skill
+Consumption of energy Human health and safety Social dialogue
+Contingency plans Human rights Social progress
+Co-operate with investigating Improper advantage Social reporting
+Corporate governance Independent audit Stakeholders
+Damage to the environment Industrial relations Standards of employment
+Deceptive marketing practices Information to the consumers State-owned enterprises
+Detecting bribery Intellectual property rights Support efforts to promote
+Diffusion of know-how Internal audit Sustainable consumption
+Diffusion of technologies Internal controls Sustainable development
+Disadvantaged consumers Internationally recognized standards Tax compliance
+Disciplinary action Internet Freedom Tax governance
+Disciplinary procedures Labour Tax liabilities
+Disclosure policies Labour relations Taxation
+Discriminatory action Labour-management relations Threats to public health and safety
+Dismissals Legal compliance Toxic substances
+Divide markets Local capacity Trade unions
+Economic progress Local community Training
+Education and training to workers Local innovative capacity Training programmes
+Efficient resource utilization Local workers Transfer of know-how
+Emission reduction Make rigged bids Transfer of technologies
+Employee awareness Measures against bribery Transfer pricing practices
+Employees Misleading advertising and commercial fraud Transparency
+Employees of business partners Misleading practices Undue advantage
+Employment Multi-stakeholder initiatives Undue pecuniary
+Employment practices National innovative capacity Unfair practices
+Enterprise objectives Natural resources University-enterprise cooperation
+Environmental Non-financial disclosure Value statements
+Environmental accidents Non-judicial dispute resolution Voting rights
+Environmental awareness Not discriminate Vulnerable consumers
+Environmental commitments Occupational health and safety Wages
+Environmental damage Operating results Workers
+Environmental health and safety matters Output restrictions Workers organizations
+Environmental impact assessment Personal data Workers’ representatives
+J. Dias Lopes et al. 
+Journal of Cleaner Production 413 (2023) 137381
+15
+References
+Ago, S., 2020. Supervision of international labour standards as a means of implementing
+the guiding principles on business and human rights. In: European Yearbook of
+International Economic Law, vol. 10. Springer Science and Business Media
+Deutschland GmbH, pp. 87–106. https://doi.org/10.1007/8165_2019_27.
+Ahi, A., Sinkovics, N., Shildibekov, Y., Sinkovics, R., Mehandjiev, N., 2022. Advanced
+technologies and international business: a multidisciplinary analysis of the
+literature. Int. Bus. Rev. 31 (4) https://doi.org/10.1016/j.ibusrev.2021.101967.
+Ajwani-Ramchandani, R., Figueira, S., Torres de Oliveira, R., Jha, S., 2021a. Enhancing
+the circular and modified linear economy: the importance of blockchain for
+developing economies. Resour. Conserv. Recycl. 168 https://doi.org/10.1016/j.
+resconrec.2021.105468.
+Ajwani-Ramchandani, R., Figueira, S., Torres de Oliveira, R., Jha, S., Ramchandani, A.,
+Schuricht, L., 2021b. Towards a circular economy for packaging waste by using new
+technologies: the case of large multinationals in emerging economies. J. Clean. Prod.
+281 https://doi.org/10.1016/j.jclepro.2020.125139.
+Alami, D., ElMaraghy, W., 2021. A cost benefit analysis for industry 4.0 in a job shop
+environment using a mixed integer linear programming model. J. Manuf. Syst. 59,
+81–97. https://doi.org/10.1016/j.jmsy.2021.01.014.
+Alarcon, ´ M., Martínez-García, F.M., Gomez ´ de Leon ´ Hijes, F.C., 2021. Energy and
+maintenance management systems in the context of industry 4.0. Implementation in
+a real case. Renew. Sustain. Energy Rev. 142 https://doi.org/10.1016/j.
+rser.2021.110841.
+Alc´
+acer, V., Cruz-Machado, V., 2019. Scanning the industry 4.0: a literature review on
+technologies for manufacturing systems. Engineering Science and Technology, an
+International Journal 22 (3), 899–919. https://doi.org/10.1016/j.
+jestch.2019.01.006.
+Almeida, R.P., Ayala, N.F., Benitez, G.B., Kliemann Neto, F.J., Frank, A.G., 2022. How to
+assess investments in industry 4.0 technologies? A multiple-criteria framework for
+economic, financial, and sociotechnical factors. Prod. Plann. Control. https://doi.
+org/10.1080/09537287.2022.2035445.
+Alvaro-Moya, ´ A., Fellman, S., Puig, N., 2020. Business history special issue on foreign
+investment and the development of entrepreneurial and managerial capabilities in
+host economies. Bus. Hist. 62 (7), 1063–1078. https://doi.org/10.1080/
+00076791.2020.1726320.
+Azevedo, A., Almeida, A.H., 2021. Grasp the challenge of digital transition in SMEs—a
+training course geared towards decision-makers. Educ. Sci. 11 (4) https://doi.org/
+10.3390/educsci11040151.
+Barzotto, M., de Propris, L., 2021. The value of firm linkages in the age of industry 4.0: a
+qualitative comparative analysis. Ann. Reg. Sci. 67 (2), 245–272. https://doi.org/
+10.1007/s00168-021-01047-0.
+Battistello, L., Haug, A., Suzic, N., Hvam, L., 2021. Implementation of product
+information management systems: identifying the challenges of the scoping phase.
+Comput. Ind. 133 https://doi.org/10.1016/j.compind.2021.103533.
+Ben-Daya, M., Hassini, E., Bahroun, Z., 2019. Internet of things and supply chain
+management: a literature review. Int. J. Prod. Res. 57 (15–16), 4719–4742. https://
+doi.org/10.1080/00207543.2017.1402140.
+Bencsik, A., 2020. Challenges of management in the digital economy. International
+Journal of Technology 11 (6), 1275–1285. https://doi.org/10.14716/ijtech.
+v11i6.4461.
+Bhatt, K., Erdem Türkelli, G., 2021. OECD national contact points as sites of effective
+remedy: new expressions of the role and rule of law within market globalization?
+Business and Human Rights Journal 6 (3), 423–448. https://doi.org/10.1017/
+bhj.2021.30.
+Birkel, H.S., Veile, J.W., Müller, J.M., Hartmann, E., Voigt, K.I., 2019. Development of a
+risk framework for Industry 4.0 in the context of sustainability for established
+manufacturers. Sustainability 11 (2). https://doi.org/10.3390/su11020384.
+Blomsma, F., Pieroni, M., Kravchenko, M., Pigosso, D.C.A., Hildenbrand, J.,
+Kristinsdottir, A.R., Kristoffersen, E., Shabazi, S., Nielsen, K.D., Jonbrink, ¨ A.K., Li, J.,
+Wiik, C., McAloone, T.C., 2019. Developing a circular strategies framework for
+manufacturing companies to support circular economy-oriented innovation.
+J. Clean. Prod. 241 https://doi.org/10.1016/j.jclepro.2019.118271.
+Borghi, D., Cocconcelli, M., 2021. Future challenges in condition monitoring from an
+industrial perspective: the case of the independent carts systems. Acoust Aust. 49 (2),
+259–263. https://doi.org/10.1007/s40857-021-00225-6.
+Boyes, H., Hallaq, B., Cunningham, J., Watson, T., 2018. The industrial internet of things
+(IIoT): an analysis framework. Comput. Ind. 101, 1–12. https://doi.org/10.1016/j.
+compind.2018.04.015.
+Bressanelli, G., Adrodegari, F., Perona, M., Saccani, N., 2018. Exploring how usagefocused business models enable circular economy through digital technologies.
+Sustainability 10 (3). https://doi.org/10.3390/su10030639.
+Brundtland, G., 1987. Our common future: report of the world commission on
+environment and development. Geneva, UN-Dokument A/42/427. http://www.
+un-documents.net/ocf-ov.htm.
+Buer, S.-., Strandhagen, J.O., Chan, F.T.S., 2018. The link between industry 4.0 and lean
+manufacturing: mapping current research and establishing a research agenda. Int. J.
+Prod. Res. 56 (8), 2924–2940. https://doi.org/10.1080/00207543.2018.1442945.
+Buest´
+an, G., Canizares, ˜ K., Camacho, C., Su´
+arez-Núnez, ˜ C., 2020. Distribution trends in
+industry 4.0: case study of a major soft drink multinational enterprise in Latin
+america. [Verteilungstendenzen in industrie 4.0: fallstudie eines multinationalen
+großun-ternehmens für erfrischungsgetr¨
+anke in Lateinamerika]. Logist. J. 2020
+https://doi.org/10.2195/lj_NotRev_buestan_de_202009_01.
+Caiado, R.G.G., Scavarda, L.F., Gaviao, ˜ L.O., Ivson, P., Nascimento, D.L.D.M., GarzaReyes, J.A., 2021. A fuzzy rule-based industry 4.0 maturity model for operations and
+supply chain management. Int. J. Prod. Econ. 231. https://doi.org/10.1016/j.
+ijpe.2020.107883.
+Campbell, S., Nelson, D., 1972. Taylorism versus welfare work in American industry: H.
+L. Gantt and the Bancrofts. Bus. Hist. Rev. 46 (1), 1–16. https://doi.org/10.2307/
+3112773.
+Cerni ˇ ˇc, J., 2020. The ILO tripartite declaration of principles concerning multinational
+enterprises and social policy revisited: is there a need for its reform?. In: European
+Yearbook of International Economic Law, vol. 10. Springer Science and Business
+Media Deutschland GmbH, pp. 193–213. https://doi.org/10.1007/8165_2019_30.
+Chavez, Z., Hauge, J.B., Bellgran, M., 2022. Industry 4.0, transition or addition in SMEs?
+A systematic literature review on digitalization for deviation management. In:
+International Journal of Advanced Manufacturing Technology, vol. 119. Springer
+Science and Business Media Deutschland GmbH, pp. 57–76. https://doi.org/
+10.1007/s00170-021-08253-2. Issues 1–2.
+Chen, B., Wan, J., Shu, L., Li, P., Mukherjee, M., Yin, B., 2017. Smart factory of industry
+4.0: key technologies, application case, and challenges. IEEE Access 6, 6505–6519.
+https://doi.org/10.1109/ACCESS.2017.2783682.
+Cherkasova, V., Nenuzhenko, I., 2022. Investment in ESG projects and corporate
+performance of multinational companies. J. Econ. Integrat. 37 (1), 54–92. https://
+doi.org/10.11130/jei.2022.37.1.54.
+Contador, J.C., Satyro, W.C., Contador, J.L., Spinola, M., 2020. Flexibility in the
+Brazilian industry 4.0: challenges and opportunities. Global J. Flex. Syst. Manag. 21,
+15–31. https://doi.org/10.1007/s40171-020-00240-y.
+Dalenogare, L.S., Benitez, G.B., Ayala, N.F., Frank, A.G., 2018. The expected contribution
+of industry 4.0 technologies for industrial performance. Int. J. Prod. Econ. 204,
+383–394. https://doi.org/10.1016/j.ijpe.2018.08.019.
+Dantas, T., de-Souza, E., Destro, I., Hammes, G., Rodriguez, C., Soares, S., 2021. How the
+combination of circular economy and industry 4.0 can contribute towards achieving
+the sustainable development goals. Sustain. Prod. Consum. 26, 213–227. https://doi.
+org/10.1016/j.spc.2020.10.005.
+Das, A., Dey, S., 2021. Global manufacturing value networks: assessing the critical roles
+of platform ecosystems and industry 4.0. J. Manuf. Technol. Manag. 32 (6),
+1290–1311. https://doi.org/10.1108/JMTM-04-2020-0161.
+de Jesus, A., Mendonça, S., 2018. Lost in transition? Drivers and barriers in the ecoinnovation road to the circular economy. Ecol. Econ. 145, 75–89. https://doi.org/
+10.1016/j.ecolecon.2017.08.001.
+de Jonge, A., 2015. Designing corporate governance to enhance respect for un Global
+Compact principles. Advances in Sustainability and Environmental Justice 16,
+61–82. https://doi.org/10.1108/S2051-503020140000016018.
+de Lange, D.E., Busch, T., Delgado-Ceballos, J., 2012. Sustaining sustainability in
+organizations. J. Bus. Ethics 110 (2), 151–156. https://doi.org/10.1007/s10551-
+012-1425-0.
+de Sousa Jabbour, A.B.L., Jabbour, C.J.C., Foropon, C., Filho, M.G., 2018. When titans
+meet – can industry 4.0 revolutionise the environmentally-sustainable
+manufacturing wave? the role of critical success factors. Technol. Forecast. Soc.
+Change 132, 18–25. https://doi.org/10.1016/j.techfore.2018.01.017.
+Dearing, A., 2000. Sustainable Innovation: Drivers and Barriers. Innovation and the
+Environment. OECD, Paris, pp. 103–125.
+del Giudice, M., Scuotto, V., Papa, A., Tarba, S.Y., Bresciani, S., Warkentin, M., 2021.
+A self-tuning model for smart manufacturing SMEs: effects on digital innovation.
+J. Prod. Innovat. Manag. 38 (1), 68–89. https://doi.org/10.1111/jpim.12560.
+Deloitte, 2020. The Fourth Industrial Revolution at the Intersection of Readiness and
+Responsibility. Deloitte Insights.
+DESA-UN, 1973. Multinational Corporations in World Development, vol. 190. United
+Nations, Department of Economic and Social Affairs, New York.
+Dev, N.K., Shankar, R., Qaiser, F.H., 2020. Industry 4.0 and circular economy:
+operational excellence for sustainable reverse supply chain performance. Resour.
+Conserv. Recycl. 153 https://doi.org/10.1016/j.resconrec.2019.104583.
+Dilyard, J., Zhao, S., You, J.J., 2021. Digital innovation and Industry 4.0 for global value
+chain resilience: lessons learned and ways forward. In: Thunderbird International
+Business Review, vol. 63. John Wiley and Sons Inc, pp. 577–584. https://doi.org/
+10.1002/tie.22229. Issue 5.
+Doeringer, P.B., Lorenz, E., Terkla, D.G., 2003. The adoption and diffusion of highperformance management: lessons from Japanese multinationals in the West. Camb.
+J. Econ. 27 (2), 265–286. https://doi.org/10.1093/cje/27.2.265.
+Domini, G., 2022. Patterns of specialization and economic complexity through the lens of
+universal exhibitions, 1855-1900. Explor. Econ. Hist. 83. https://doi.org/10.1016/j.
+eeh.2021.101421.
+Drath, R., Horch, A., 2014. Industrie 4.0: hit or hype? [Industry forum]. IEEE Industrial
+Electronics Magazine 8 (2), 56–58. https://doi.org/10.1109/MIE.2014.2312079.
+Dudycz, H., Stefaniak, P., Pyda, P., 2022. Problems and challenges related to advanced
+data analysis in multi-site enterprises. Vietnam Journal of Computer Science 9 (1),
+1–17. https://doi.org/10.1142/S2196888822500063.
+Dusanjh, H., Sidhu, A.S., 2009. Multi-spillover effects of multinational corporations on
+host countries: a review of literature. Global Bus. Rev. 10 (2), 243–260. https://doi.
+org/10.1177/097215090901000207.
+Dzwigol, H., Dzwigol–barosz, M., Kwilinski, A., 2020. Formation of global competitive
+enterprise environment based on industry 4.0 concept. Int. J. Enterpren. 24 (1).
+Ekhart, G., Breese, R., 2023. The influence of government upon multinational company
+manufacturing location decisions. Eur. Manag. Rev. 1–18. https://doi.org/10.1111/
+emre.12552.
+Eklund, E., 1999. "Intelligently directed welfare work?”: labour management strategies
+in local context: port Pirie, 1915-29. Lab. Hist. (76), 125–148. https://doi.org/
+10.2307/27516632.
+J. Dias Lopes et al. 
+Journal of Cleaner Production 413 (2023) 137381
+16
+Fareri, S., Fantoni, G., Chiarello, F., Coli, E., Binda, A., 2020. Estimating Industry 4.0
+impact on job profiles and skills using text mining. Comput. Ind. 118 https://doi.
+org/10.1016/j.compind.2020.103222.
+Fischer-Kowalski, M., Rovenskaya, E., Krausmann, F., Pallua, I., Mc Neill, J.R., 2019.
+Energy transitions and social revolutions. Technol. Forecast. Soc. Change 138,
+69–77. https://doi.org/10.1016/j.techfore.2018.08.010.
+Frank, A.G., Dalenogare, L.S., Ayala, N.F., 2019. Industry 4.0 technologies:
+implementation patterns in manufacturing companies. Int. J. Prod. Econ. 210,
+15–26. https://doi.org/10.1016/j.ijpe.2019.01.004.
+Furstenau, L.B., Sott, M.K., Kipper, L.M., Machado, E.L., Lopez-Robles, J.R., Dohan, M.S.,
+Cobo, M.J., Zahid, A., Abbasi, Q.H., Imran, M.A., 2020. Link between sustainability
+and industry 4.0: trends, challenges and new perspectives. IEEE Access 8,
+140079–140096. https://doi.org/10.1109/ACCESS.2020.3012812.
+Galv´
+an, J.-., Casman, E., Fisher, E., 2022. What skills predict an intern’s ability to
+innovate new products? A quantitative study of innovation capability of mexican
+college interns. Int. J. Interact. Des. Manuf. https://doi.org/10.1007/s12008-022-
+01005-w.
+George, G., Schillebeeckx, S.J.D., 2022. Digital transformation, sustainability, and
+purpose in the multinational enterprise. J. World Bus. 57 (3) https://doi.org/
+10.1016/j.jwb.2022.101326.
+Georgiou, I., 2014. Engineers as economists: a study in gilded age sensibilities. Manag.
+Organ. Hist. 9 (1), 69–91. https://doi.org/10.1080/17449359.2013.831734.
+Gerlitz, L., 2015. Design for product and service innovation in industry 4.0 and emerging
+smart society. Journal of Security and Sustainability Issues 5 (2), 181–198. https://
+doi.org/10.9770/jssi.2015.5.2.
+Ghobakhloo, M., 2018. The future of manufacturing industry: a strategic roadmap
+toward industry 4.0. J. Manuf. Technol. Manag. 29 (6), 910–936. https://doi.org/
+10.1108/JMTM-02-2018-0057.
+Ghobakhloo, M., 2020. Industry 4.0, digitization, and opportunities for sustainability.
+J. Clean. Prod. 252 https://doi.org/10.1016/j.jclepro.2019.119869.
+Ghobakhloo, M., Fathi, M., Iranmanesh, M., Maroufkhani, P., Morales, M.E., 2021.
+Industry 4.0 ten years on: a bibliometric and systematic review of concepts,
+sustainability value drivers, and success determinants. J. Clean. Prod. 302 https://
+doi.org/10.1016/j.jclepro.2021.127052.
+Gholami, H., Hashemi, A., Lee, J.K.Y., Abdul-Nour, G., Salameh, A.A., 2022. Scrutinizing
+state-of-the-art I4.0 technologies toward sustainable products development under
+fuzzy environment. J. Clean. Prod. 377 https://doi.org/10.1016/j.
+jclepro.2022.134327.
+Gorecky, D., Khamis, M., Mura, K., 2017. Introduction and establishment of virtual
+training in the factory of the future. Int. J. Comput. Integrated Manuf. 30 (1),
+182–190. https://doi.org/10.1080/0951192X.2015.1067918.
+Gotz, ¨ M., 2020. Attracting foreign direct investment in the era of digitally reshaped
+international production. the primer on the role of the investment policy and
+Clusters–The case of Poland. J. East W. Bus. 26 (2), 131–160. https://doi.org/
+10.1080/10669868.2019.1692985.
+Gunasekaran, A., Jabbour, C.J.C., Jabbour, A.B.L.D.S., 2014. Managing organizations for
+sustainable development in emerging countries: an introduction. Int. J. Sustain. Dev.
+World Ecol. 21 (3), 195–197. https://doi.org/10.1080/13504509.2014.915439.
+Gupta, H., Kumar, A., Wasan, P., 2021. Industry 4.0, cleaner production and circular
+economy: an integrative framework for evaluating ethical and sustainable business
+performance of manufacturing organizations. J. Clean. Prod. 295 https://doi.org/
+10.1016/j.jclepro.2021.126253.
+Hagg, C., 1984. The OECD guidelines for multinational enterprises A critical analysis.
+J. Bus. Ethics 3 (1), 71–76.
+Hofmann, E., Rüsch, M., 2017. Industry 4.0 and the current status as well as future
+prospects on logistics. Comput. Ind. 89, 23–34. https://doi.org/10.1016/j.
+compind.2017.04.002.
+Homburg, E., 2018. Chemistry and industry: a tale of two moving targets. Isis 109 (3),
+565–576. https://doi.org/10.1086/699986.
+Horv´
+ath, D., Szabo, ´ R.Z., 2019. Driving forces and barriers of Industry 4.0: do
+multinational and small and medium-sized companies have equal opportunities?
+Technol. Forecast. Soc. Change 146, 119–132. https://doi.org/10.1016/j.
+techfore.2019.05.021.
+Hunnicutt, B.K., 1984. The end of shorter hours. Labor Hist. 25 (3), 373–404. https://doi.
+org/10.1080/00236568408584762.
+Husin, M.H., Ibrahim, N.F., Abdullah, N.A., Syed-Mohamad, S.M., Samsudin, N.H.,
+Tan, L., 2022. The impact of industrial revolution 4.0 and the future of the
+workforce: a study on malaysian IT professionals. Soc. Sci. Comput. Rev. https://doi.
+org/10.1177/08944393221117268.
+ILO, 2017. Tripartite declaration of principles concerning multinational enterprises and
+social policy. www.ilo.org/publns.
+Ingaldi, M., Ulewicz, R., 2020. Problems with the implementation of industry 4.0 in
+enterprises from the SME sector. Sustainability 12 (1). https://doi.org/10.3390/
+SU12010217.
+Ivaldi, S., Scaratti, G., Fregnan, E., 2022. Dwelling within the fourth industrial
+revolution: organizational learning for new competences, processes and work
+cultures. J. Workplace Learn. 34 (1), 1–26. https://doi.org/10.1108/JWL-07-2020-
+0127.
+Ivanov, D., Dolgui, A., Sokolov, B., 2019. The impact of digital technology and industry
+4.0 on the ripple effect and supply chain risk analytics. Int. J. Prod. Res. 57 (3),
+829–846. https://doi.org/10.1080/00207543.2018.1488086.
+Ivanov, D., Tang, C.S., Dolgui, A., Battini, D., Das, A., 2021. Researchers’ perspectives on
+Industry 4.0: multi-disciplinary analysis and opportunities for operations
+management. Int. J. Prod. Res. 59 (7), 2055–2078. https://doi.org/10.1080/
+00207543.2020.1798035.
+Kagermann, H., Wahlster, W., Helbig, J., 2013. Recommendations for Implementing the
+Strategic Initiative INDUSTRIE 4.0: Final Report of the Industrie 4. 0 Working Group.
+Kamble, S.S., Gunasekaran, A., Gawankar, S.A., 2018. Sustainable industry 4.0
+framework: a systematic literature review identifying the current trends and future
+perspectives. Process Saf. Environ. Protect. 117, 408–425. https://doi.org/10.1016/
+j.psep.2018.05.009.
+Kang, H.S., Lee, J.Y., Choi, S., Kim, H., Park, J.H., Son, J.Y., Noh, S.D., 2016. Smart
+manufacturing: past research, present findings, and future directions. International
+Journal of Precision Engineering and Manufacturing - Green Technology 3 (1),
+111–128. https://doi.org/10.1007/s40684-016-0015-5.
+Kim, J., Cho, E., Okafor, C.E., Choi, D., 2022. Does environmental, social, and
+governance drive the sustainability of multinational corporation’s subsidiaries?
+Evidence from korea. Front. Psychol. 13 https://doi.org/10.3389/
+fpsyg.2022.899936.
+Kipper, L.M., Furstenau, L.B., Hoppe, D., Frozza, R., Iepsen, S., 2020. Scopus scientific
+mapping production in industry 4.0 (2011–2018): a bibliometric analysis. Int. J.
+Prod. Res. 58 (6), 1605–1627. https://doi.org/10.1080/00207543.2019.1671625.
+Kolk, A., Kourula, A., Pisani, N., 2017. Multinational enterprises and the sustainable
+development goals: what do we know and how to proceed? Transnatl. Corp. 24 (3),
+9–32.
+Lamola, M., 2021. Introduction: the crisis of African studies and philosophy in the epoch
+of the fourth industrial revolution. Filosofia Theoretica 10 (3), 1–10. https://doi.
+org/10.4314/ft.v10i3.1.
+Lasi, H., Fettke, P., Kemper, H.-., Feld, T., Hoffmann, M., 2014. Industry 4.0. Business
+and Information Systems Engineering 6 (4), 239–242. https://doi.org/10.1007/
+s12599-014-0334-4.
+Leal Filho, W., Wolf, F., Lange Salvia, A., Beynaghi, A., Shulla, K., Kovaleva, M.,
+Vasconcelos, C.R.P., 2020. Heading towards an unsustainable world: some of the
+implications of not achieving the SDGs. Discover Sustainability 1 (1). https://doi.
+org/10.1007/s43621-020-00002-x.
+Lee, J., Bagheri, B., Kao, H.-., 2015. A cyber-physical systems architecture for industry
+4.0-based manufacturing systems. Manufacturing Letters 3, 18–23. https://doi.org/
+10.1016/j.mfglet.2014.12.001.
+Lemos, J., Gaspar, P.D., Lima, T.M., 2022a. Environmental risk assessment and
+management in industry 4.0: a review of technologies and trends. Machines 10 (8).
+https://doi.org/10.3390/machines10080702.
+Lemos, J., Gaspar, P.D., Lima, T.M., 2022b. Individual environmental risk assessment
+and management in industry 4.0: an IoT-based model. Applied System Innovation 5
+(5). https://doi.org/10.3390/asi5050088.
+Lepore, D., Micozzi, A., Spigarelli, F., 2021. Industry 4.0 accelerating sustainable
+manufacturing in the covid-19 era: assessing the readiness and responsiveness of
+Italian regions. Sustainability 13 (5), 1–19. https://doi.org/10.3390/su13052670.
+Li, L., 2018. China’s manufacturing locus in 2025: with a comparison of “Made-in-China
+2025” and “Industry 4.0”. Technol. Forecast. Soc. Change 135, 66–74. https://doi.
+org/10.1016/j.techfore.2017.05.028.
+Liao, Y., Deschamps, F., Loures, E.F.R., Ramos, L.F.P., 2017. Past, present and future of
+industry 4.0 - a systematic literature review and research agenda proposal. Int. J.
+Prod. Res. 55 (12), 3609–3629. https://doi.org/10.1080/00207543.2017.1308576.
+Lopes de Sousa Jabbour, A.B., Jabbour, C.J.C., Godinho Filho, M., Roubaud, D., 2018.
+Industry 4.0 and the circular economy: a proposed research agenda and original
+roadmap for sustainable operations. Ann. Oper. Res. 270 (1–2), 273–286. https://
+doi.org/10.1007/s10479-018-2772-8.
+Lopes, J.D., 2022. Industry 4.0 and the small business something behind the technology -
+a literature review. Serbian Journal of Management 17 (1), 161–178. https://doi.
+org/10.5937/sjm17-36382.
+Lopes, J.D., 2007. O conhecimento em desenho e organizaç˜
+ao do trabalho no ambito ˆ da
+gestao ˜ de produç˜
+ao e operaçoes. ˜ PhD Thesis. in Management (unpublished).
+Universidade Aberta, Lisbon.
+Ly, B., 2021. Competitive advantage and internationalization of a circular economy
+model in apparel multinationals. Cogent Business and Management 8 (1). https://
+doi.org/10.1080/23311975.2021.1944012.
+Lu, Y., 2017. Industry 4.0: a survey on technologies, applications and open research
+issues. Journal of Industrial Information Integration 6, 1–10. https://doi.org/
+10.1016/j.jii.2017.04.005.
+Lu, Y., Liu, C., Wang, K.I.-., Huang, H., Xu, X., 2020. Digital twin-driven smart
+manufacturing: connotation, reference model, applications and research issues.
+Robot. Comput. Integrated Manuf. 61. https://doi.org/10.1016/j.
+rcim.2019.101837.
+Luthra, S., Mangla, S.K., 2018. Evaluating challenges to industry 4.0 initiatives for supply
+chain sustainability in emerging economies. Process Saf. Environ. Protect. 117,
+168–179. https://doi.org/10.1016/j.psep.2018.04.018.
+Makris, D., Hansen, Z.N.L., Khan, O., 2019. Adapting to supply chain 4.0: an explorative
+study of multinational companies. Supply Chain Forum 20 (2), 116–131. https://doi.
+org/10.1080/16258312.2019.1577114.
+Manavalan, E., Jayakrishna, K., 2019. A review of Internet of Things (IoT) embedded
+sustainable supply chain for industry 4.0 requirements. Comput. Ind. Eng. 127,
+925–953. https://doi.org/10.1016/j.cie.2018.11.030.
+Martinelli, E.M., Farioli, M.C., Tunisini, A., 2021. New companies’ DNA: the heritage of
+the past industrial revolutions in digital transformation. J. Manag. Govern. 25 (4),
+1079–1106. https://doi.org/10.1007/s10997-020-09539-5.
+Masood, T., Sonntag, P., 2020. Industry 4.0: adoption challenges and benefits for SMEs.
+Comput. Ind. 121 https://doi.org/10.1016/j.compind.2020.103261.
+Matt, D.T., Orzes, G., Rauch, E., Dallasega, P., 2020. Urban production – a socially
+sustainable factory concept to overcome shortcomings of qualified workers in smart
+SMEs. Comput. Ind. Eng. 139 https://doi.org/10.1016/j.cie.2018.08.035.
+J. Dias Lopes et al. 
+Journal of Cleaner Production 413 (2023) 137381
+17
+Mayer, C.-., Oosthuizen, R.M., 2022. Unconscious system-psychodynamics within a
+German 4IR engineering company in South Africa. Front. Psychol. 13 https://doi.
+org/10.3389/fpsyg.2022.926245.
+Medoh, C., Telukdarie, A., 2020. Logistics optimisation: a cyber physical model.
+International Journal of Business Analytics 7 (1), 54–76. https://doi.org/10.4018/
+IJBAN.2020010104.
+Mir, U.B., Sharma, S., Kar, A.K., Gupta, M.P., 2020. Critical success factors for integrating
+artificial intelligence and robotics. Digital Policy, Regulation and Governance 22 (4),
+307–331. https://doi.org/10.1108/DPRG-03-2020-0032.
+Mittal, S., Khan, M.A., Romero, D., Wuest, T., 2018. A critical review of smart
+manufacturing & industry 4.0 maturity models: implications for small and mediumsized enterprises (SMEs). J. Manuf. Syst. 49, 194–214. https://doi.org/10.1016/j.
+jmsy.2018.10.005.
+Mller-Jentsch, W., 1991. Productive forces and industrial citizenship: an evolutionary
+perspective on labour relations. Econ. Ind. Democr. 12 (4), 439–467. https://doi.
+org/10.1177/0143831X91124002.
+Moeuf, A., Lamouri, S., Pellerin, R., Tamayo-Giraldo, S., Tobon-Valencia, E., Eburdy, R.,
+2020. Identification of critical success factors, risks and opportunities of Industry 4.0
+in SMEs. Int. J. Prod. Res. 58 (5), 1384–1400. https://doi.org/10.1080/
+00207543.2019.1636323.
+Moeuf, A., Pellerin, R., Lamouri, S., Tamayo-Giraldo, S., Barbaray, R., 2018. The
+industrial management of SMEs in the era of industry 4.0. Int. J. Prod. Res. 56 (3),
+1118–1136. https://doi.org/10.1080/00207543.2017.1372647.
+Mont, O., Power, K., 2010. The role of formal and informal forces in shaping
+consumption and implications for a sustainable society. Part I. Sustainability 2 (7),
+2232–2252. https://doi.org/10.3390/su2072232.
+Morea, D., Fortunati, S., Martiniello, L., 2021. Circular economy and corporate social
+responsibility: towards an integrated strategic approach in the multinational
+cosmetics industry. J. Clean. Prod. 315 https://doi.org/10.1016/j.
+jclepro.2021.128232.
+Muchlinski, P., 2021. The impact of the un guiding principles on business attitudes to
+observing human rights. Business and Human Rights Journal 6 (2), 212–226.
+https://doi.org/10.1017/bhj.2021.14.
+Muhuri, P.K., Shukla, A.K., Abraham, A., 2019. Industry 4.0: a bibliometric analysis and
+detailed overview. Eng. Appl. Artif. Intell. 78, 218–235. https://doi.org/10.1016/j.
+engappai.2018.11.007.
+Müller, J.M., 2019. Business model innovation in small- and medium-sized enterprises:
+strategies for industry 4.0 providers and users. J. Manuf. Technol. Manag. 30 (8),
+1127–1142. https://doi.org/10.1108/JMTM-01-2018-0008.
+Müller, J.M., Buliga, O., Voigt, K.-., 2018a. Fortune favors the prepared: how SMEs
+approach business model innovations in industry 4.0. Technol. Forecast. Soc. Change
+132, 2–17. https://doi.org/10.1016/j.techfore.2017.12.019.
+Müller, J.M., Kiel, D., Voigt, K.-., 2018b. What drives the implementation of industry
+4.0? the role of opportunities and challenges in the context of sustainability.
+Sustainability 10 (1). https://doi.org/10.3390/su10010247.
+Munsamy, M., Telukdarie, A., Fresner, J., 2019. Business process centric energy
+modelling. Bus. Process Manag. J. 25 (7), 1867–1890. https://doi.org/10.1108/
+BPMJ-08-2018-0217.
+Murmura, F., Bravi, L., Santos, G., 2021. Sustainable process and product innovation in
+the eyewear sector: the role of industry 4.0 enabling technologies. Sustainability 13
+(1), 1–17. https://doi.org/10.3390/su13010365.
+Murray, A., Haynes, K., Hudson, L.J., 2010. Collaborating to achieve corporate social
+responsibility and sustainability?: possibilities and problems. Sustainability
+Accounting, Management and Policy Journal 1 (2), 161–177. https://doi.org/
+10.1108/20408021011089220.
+Nascimento, D.L.M., Alencastro, V., Quelhas, O.L.G., Caiado, R.G.G., Garza-Reyes, J.A.,
+Lona, L.R., Tortorella, G., 2019. Exploring Industry 4.0 technologies to enable
+circular economy practices in a manufacturing context: a business model proposal.
+J. Manuf. Technol. Manag. 30 (3), 607–627. https://doi.org/10.1108/JMTM-03-
+2018-0071.
+Neligan, A., Baumgartner, R.J., Geissdoerfer, M., Schoggl, ¨ J.P., 2022. Circular disruption:
+digitalisation as a driver of circular economy business models. Bus. Strat. Environ.
+https://doi.org/10.1002/bse.3100.
+Obrad, C., Gherhes¸, V., 2018. A human resources perspective on responsible corporate
+behavior. Case study: the multinational companies in western Romania.
+Sustainability 10 (3). https://doi.org/10.3390/su10030726.
+OECD, 2011. OECD Guidelines for Multinational Enterprises, 2011 Edition. OECD.
+https://doi.org/10.1787/9789264115415-en.
+OECD, 2021. Annual report on the OECD guidelines for multinational enterprises 2020
+update on national contact point activity. https://www.oecd.org/daf/inv/mne/ann
+ualreportsontheguidelines.htm.
+Oesterreich, T.D., Teuteberg, F., 2016. Understanding the implications of digitisation and
+automation in the context of industry 4.0: a triangulation approach and elements of a
+research agenda for the construction industry. Comput. Ind. 83, 121–139. https://
+doi.org/10.1016/j.compind.2016.09.006.
+Opazo-Bas´
+aez, M., Vendrell-Herrero, F., Bustinza, O.F., Mari´c, J., 2022. Global value
+chain breadth and firm productivity: the enhancing effect of Industry 4.0. J. Manuf.
+Technol. Manag. 33 (4), 785–804. https://doi.org/10.1108/JMTM-12-2020-0498.
+Oriaifo, J., Torres de Oliveira, R., Ellis, K.M., 2020. Going above and beyond: how
+intermediaries enhance change in emerging economy institutions to facilitate small
+to medium enterprise development. Strateg. Entrep. J. 14 (3), 501–531. https://doi.
+org/10.1002/sej.1349.
+Oztemel, E., Gursev, S., 2020. Literature review of industry 4.0 and related technologies.
+J. Intell. Manuf. 31 (1), 127–182. https://doi.org/10.1007/s10845-018-1433-8.
+Palazzo, M., Foroudi, P., Siano, A., Kitchen, P.J., 2017. The value and significance of
+corporate community relations: an Italian SME perspective. Bottom Line 30 (4),
+330–344. https://doi.org/10.1108/BL-08-2017-0019.
+Parida, B., Sunand Dash, S., Sharma, D., 2021. Role of culture-specific rights,
+responsibilities and duties in industry 4.0: comparing Indic and Western
+perspectives. Benchmarking 28 (5), 1543–1557. https://doi.org/10.1108/BIJ-05-
+2020-0257.
+Pereira, V., Nandakumar, M.K., Sahasranamam, S., Bamel, U., Malik, A., Temouri, Y.,
+2022. An exploratory study into emerging market SMEs’ involvement in the circular
+Economy: evidence from India’s indigenous Ayurveda industry. J. Bus. Res. 142,
+188–199. https://doi.org/10.1016/j.jbusres.2021.12.053.
+Posada, J., Toro, C., Barandiaran, I., Oyarzun, D., Stricker, D., De Amicis, R., Vallarino, I.,
+2015. Visual computing as a key enabling technology for industrie 4.0 and industrial
+internet. IEEE Computer Graphics and Applications 35 (2), 26–40. https://doi.org/
+10.1109/MCG.2015.45.
+Prause, G., 2015. Sustainable business models and structures for industry 4.0. Journal of
+Security and Sustainability Issues 5 (2), 159–169. https://doi.org/10.9770/
+jssi.2015.5.2(3.
+Qi, Q., Tao, F., 2018. Digital twin and big data towards smart manufacturing and
+industry 4.0: 360 degree comparison. IEEE Access 6, 3585–3593. https://doi.org/
+10.1109/ACCESS.2018.2793265.
+Rahamaddulla, S. R. bin, Leman, Z., Baharudin, B. T. H. T. bin, Ahmad, S.A., 2021.
+Conceptualizing smart manufacturing readiness-maturity model for small and
+medium enterprise (Sme) in Malaysia. Sustainability 13 (17). https://doi.org/
+10.3390/su13179793.
+Rajput, S., Singh, S.P., 2019. Connecting circular economy and industry 4.0. Int. J. Inf.
+Manag. 49, 98–113. https://doi.org/10.1016/j.ijinfomgt.2019.03.002.
+Redondo, R., Herrero, A., Corchado, E., Sedano, J., 2020. A decision-making tool based
+on exploratory visualization for the automotive industry. Appl. Sci. 10 (12) https://
+doi.org/10.3390/app10124355.
+Reinert, K.A., Reinert, O.T., Debebe, G., 2016. The new OECD Guidelines for
+Multinational Enterprises: better but not enough. Dev. Pract. 26 (6), 816–823.
+https://doi.org/10.1080/09614524.2016.1195795.
+Robert, M., Giuliani, P., Dubouloz, S., 2022. Obstacles affecting the management
+innovation process through different actors during the covid-19 crisis: a longitudinal
+study of industry 4.0. Ann. Oper. Res. https://doi.org/10.1007/s10479-021-04457-
+7.
+Roblek, V., Meˇsko, M., Krapeˇz, A., 2016. A complex view of industry 4.0. Sage Open 6
+(2). https://doi.org/10.1177/2158244016653987.
+Rodiˇc, B., 2017. Industry 4.0 and the new simulation modelling paradigm. Organizacija
+50 (3), 193–207. https://doi.org/10.1515/orga-2017-0017.
+Rojko, A., 2017. Industry 4.0 concept: background and overview. International Journal
+of Interactive Mobile Technologies 11 (5), 77–90. https://doi.org/10.3991/ijim.
+v11i5.7072.
+Rojot, J., 1985. The 1984 revision of the OECD guidelines for MuItinationaI enterprises.
+Br. J. Ind. Relat 379–397.
+Roldan, ´ J.J., Crespo, E., Martín-Barrio, A., Pena-Tapia, ˜ E., Barrientos, A., 2019.
+A training system for Industry 4.0 operators in complex assemblies based on virtual
+reality and process mining. Robot. Comput. Integrated Manuf. 59, 305–316. https://
+doi.org/10.1016/j.rcim.2019.05.004.
+Rosa, P., Sassanelli, C., Urbinati, A., Chiaroni, D., Terzi, S., 2020. Assessing relations
+between Circular Economy and Industry 4.0: a systematic literature review. Int. J.
+Prod. Res. 58 (6), 1662–1687. https://doi.org/10.1080/00207543.2019.1680896.
+Rugman, A.M., Verbeke, A., 2004. A perspective on regional and global strategies of
+multinational enterprises. J. Int. Bus. Stud. 35, 3–18. https://doi.org/10.1057/
+palgrave.
+Salvador, R., Barros, M.V., Barreto, B., Pontes, J., Yoshino, R.T., Piekarski, C.M., de
+Francisco, A.C., 2022. Challenges and opportunities for problem-based learning in
+higher education: lessons from a cross-program industry 4.0 case. Ind. High. Educ.
+https://doi.org/10.1177/09504222221100343.
+Sanchez, J.C.O., 2015. The roles and powers of the OECD national contact points
+regarding complaints on an alleged breach of the OECD guidelines for multinational
+enterprises by a transnational corporation. Nord. J. Int. Law 84 (1), 89–127. https://
+doi.org/10.1163/15718107-08401006.
+Sanders, A., Elangeswaran, C., Wulfsberg, J., 2016. Industry 4.0 implies lean
+manufacturing: research activities in industry 4.0 function as enablers for lean
+manufacturing. J. Ind. Eng. Manag. 9 (3), 811–833. https://doi.org/10.3926/
+jiem.1940.
+Sangwan, S., Bhatia, M., 2020. Sustainable development in industry 4.0. In: Nayyar, A.,
+Kumar, A. (Eds.), A Roadmap to Industry 4.0: Smart Production, Sharp Business and
+Sustainable Development. Advances in Science, Technology & Innovation. Springer,
+Cham. https://doi.org/10.1007/978-3-030-14544-6_3.
+Santos, M.Y., Oliveira e S´
+a, J., Andrade, C., Vale Lima, F., Costa, E., Costa, C.,
+Martinho, B., Galvao, ˜ J., 2017. A big data system supporting Bosch braga industry
+4.0 strategy. Int. J. Inf. Manag. 37 (6), 750–760. https://doi.org/10.1016/j.
+ijinfomgt.2017.07.012.
+Sartal, A., Carou, D., Dorado-Vicente, R., Mandayo, L., 2019. Facing the challenges of the
+food industry: might additive manufacturing be the answer? Proc. IME B J. Eng.
+Manufact. 233 (8), 1902–1906. https://doi.org/10.1177/0954405418805611.
+Satyro, W.C., de Almeida, C.M.V.B., Pinto, M.J.A., Contador, J.C., Giannetti, B.F., de
+Lima, A.F., Fragomeni, M.A., 2022. Industry 4.0 implementation: the relevance of
+sustainability and the potential social impact in a developing country. J. Clean. Prod.
+337 https://doi.org/10.1016/j.jclepro.2022.130456.
+Schekulin, M., 2011. Shaping global business conduct: the 2011 update of the OECD
+guidelines for multinational enterprises. Transnational Corporations Review 3 (4),
+1–2. https://doi.org/10.1080/19186444.2011.11658305.
+J. Dias Lopes et al. 
+Journal of Cleaner Production 413 (2023) 137381
+18
+Schmidt, M.-., Veile, J.W., Müller, J.M., Voigt, K.-., 2021. Ecosystems 4.0: redesigning
+global value chains. Int. J. Logist. Manag. 32 (4), 1124–1149. https://doi.org/
+10.1108/IJLM-03-2020-0145.
+Sikorski, J.J., Haughton, J., Kraft, M., 2017. Blockchain technology in the chemical
+industry: machine-to-machine electricity market. Appl. Energy 195, 234–246.
+https://doi.org/10.1016/j.apenergy.2017.03.039.
+Silva, N., Barros, J., Santos, M.Y., Costa, C., Cortez, P., Carvalho, M.S., Gonçalves, J.N.C.,
+2021. Advancing logistics 4.0 with the implementation of a big data warehouse: a
+demonstration case for the automotive industry. Electronics 10 (18). https://doi.
+org/10.3390/electronics10182221.
+Silverman, D., 2017. How was it for you? The Interview Society and the irresistible rise of
+the (poorly analyzed) interview. Qual. Res. 17 (2), 144–158. https://doi.org/
+10.1177/1468794116668231.
+Simsir, I., Mete, B., 2022. Digital age of human resources management. In: Yazıcı, Omer ¨
+(Ed.), Special Human Resource Management Practices and Strategy. Nova, New
+York, pp. 133–148.
+Sommer, L., 2015. Industrial revolution - industry 4.0: are German manufacturing SMEs
+the first victims of this revolution? J. Ind. Eng. Manag. 8 (5), 1512–1532. https://
+doi.org/10.3926/jiem.1470.
+Squicciarini, M.P., 2020. Devotion and development: religiosity, education, and
+economic progress in nineteenth-century France. Am. Econ. Rev. 110 (11),
+3454–3491. https://doi.org/10.1257/AER.20191054.
+Stefanov, S.T., Stefanov, T.T., 2022. Restoring the prestige of the engineering education
+through a fourth engineering wave in the development of the fundamental scientific
+knowledge of economy. In: Paper Presented at the SEFI 2022 - 50th Annual
+Conference of the European Society for Engineering Education, Proceedings,
+pp. 1670–1680. https://doi.org/10.5821/conference-9788412322262.1204.
+Sun, P., Doh, J.P., Rajwani, T., Siegel, D., 2021. Navigating cross-border institutional
+complexity: a review and assessment of multinational nonmarket strategy research.
+In: Journal of International Business Studies, vol. 52. Palgrave Macmillan,
+pp. 1818–1853. https://doi.org/10.1057/s41267-021-00438-x. Issue 9.
+Sz´
+asz, L., Demeter, K., R´
+acz, B.-., Losonci, D., 2021. Industry 4.0: a review and analysis of
+contingency and performance effects. J. Manuf. Technol. Manag. 32 (3), 667–694.
+https://doi.org/10.1108/JMTM-10-2019-0371.
+Tao, F., Zhang, M., 2017. Digital twin shop-floor: a new shop-floor paradigm towards
+smart manufacturing. IEEE Access 5, 20418–20427. https://doi.org/10.1109/
+ACCESS.2017.2756069.
+Taylor, F.W., 2008. Report of a lecture by and questions put to mr F.W. Taylor: a
+transcript. J. Manag. Hist. 14 (3), 214–236. https://doi.org/10.1108/
+17511340810885657.
+Telukdarie, A., Buhulaiga, E., Bag, S., Gupta, S., Luo, Z., 2018. Industry 4.0
+implementation for multinationals. Process Saf. Environ. Protect. 118, 316–329.
+https://doi.org/10.1016/j.psep.2018.06.030.
+Thoben, K.-., Wiesner, S.A., Wuest, T., 2017. “Industrie 4.0” and smart manufacturing-a
+review of research issues and application examples. Int. J. Autom. Technol. 11 (1),
+4–16. https://doi.org/10.20965/ijat.2017.p0004.
+Tortorella, G., Saurin, T.A., Fogliatto, F.S., Tlapa, D., Moyano-Fuentes, J., Gaiardelli, P.,
+Forstner, F.F., 2022. The impact of industry 4.0 on the relationship between TPM
+and maintenance performance. J. Manuf. Technol. Manag. 33 (3), 489–520. https://
+doi.org/10.1108/JMTM-10-2021-0399.
+Toth-Peter, A., Torres de Oliveira, R., Mathews, S., Barner, L., Figueira, S., 2023. Industry
+4.0 as an enabler in transitioning to circular business models: a systematic literature
+review. J. Clean. Prod. 393. https://doi.org/10.1016/j.jclepro.2023.136284.
+Tortorella, G.L., Rossini, M., Costa, F., Portioli Staudacher, A., Sawhney, R., 2021.
+A comparison on Industry 4.0 and Lean Production between manufacturers from
+emerging and developed economies. Total Qual. Manag. Bus. Excel. 32 (11–12),
+1249–1270. https://doi.org/10.1080/14783363.2019.1696184.
+Trotta, D., Garengo, P., 2018. Industry 4.0 key research topics: a bibliometric review. In:
+2018 7th International Conference on Industrial Technology and Management, vol.
+2018. ICITM, pp. 113–117. https://doi.org/10.1109/ICITM.2018.8333930, 2018-
+January.
+Tseng, M.L., Tan, R.R., Chiu, A.S.F., Chien, C.F., Kuo, T.C., 2018. Circular economy meets
+industry 4.0: can big data drive industrial symbiosis? Resour. Conserv. Recycl. 131,
+146–147. https://doi.org/10.1016/j.resconrec.2017.12.028.
+Tully, S., 2001. The 2000 review of the oecd guidelines for multinational enterprises. Int.
+Comp. Law Q. 50 (2), 394–404. https://doi.org/10.1093/iclq/50.2.394.
+Türkes¸, M.C., Oncioiu, I., Aslam, H.D., Marin-Pantelescu, A., Topor, D.I., C˘
+apus¸neanu, S.,
+2019. Drivers and barriers in using industry 4.0: a perspective of SMEs in Romania.
+Processes 7 (3). https://doi.org/10.3390/pr7030153.
+Ullah, S., Adams, K., Adams, D., Attah-Boakye, R., 2021. Multinational corporations and
+human right violations in emerging economies: do commitment to social and
+environmental responsibility matter? J. Environ. Manag. 280 https://doi.org/
+10.1016/j.jenvman.2020.111689.
+Ungerman, O., Dedkova, J., Gurinova, K., 2018. The impact of marketing innovation on
+the competitiveness of enterprises in the context of industry 4.0. Journal of
+Competitiveness 10 (2), 132–148. https://doi.org/10.7441/joc.2018.02.09.
+Uzunkaya, S.S¸ ., 2020. From the First Industrial Revolution to Industry 4.0: Changes in
+Innovative Work Behaviours and Effects on the Global Economies. https://doi.org/
+10.1007/978-3-030-50131-0_12.
+Vaidya, S., Ambad, P., Bhosle, S., 2018. Industry 4.0 - a glimpse. Procedia Manuf. 20,
+233–238. https://doi.org/10.1016/j.promfg.2018.02.034.
+van Rensburg, N.J., Telukdarie, A., Dhamija, P., 2019. Society 4.0 applied in Africa:
+advancing the social impact of technology. Technol. Soc. 59 https://doi.org/
+10.1016/j.techsoc.2019.04.001.
+Van ’T Foort, S., 2017. The history of national contact points and the OECD guidelines
+for multinational enterprises. Rechtsgeschichte 25, 195–214. https://doi.org/
+10.12946/rg25/195-214.
+Venˆ
+ancio, A.L.A.C., de Freitas Rocha Loures, E., Deschamps, F., dos Santos Justus, A.,
+Lumikoski, A.F., Brezinski, G.L., 2022. Technology prioritization framework to adapt
+maintenance legacy systems for industry 4.0 requirement: an interoperability
+approach. Production 32. https://doi.org/10.1590/0103-6513.20210035.
+Von Tunzelmann, G.N., 1997. Innovation and industrialization: a long-term comparison.
+Technol. Forecast. Soc. Change 56 (1), 1–23. https://doi.org/10.1016/s0040-1625
+(97)00027-9.
+Wahl, M., 2015. Strategic factor analysis for industry 4.0. Journal of Security and
+Sustainability Issues 5 (2), 241–247. https://doi.org/10.9770/jssi.2015.5.2(9.
+Wan, J., Tang, S., Shu, Z., Li, D., Wang, S., Imran, M., Vasilakos, A.V., 2016. Softwaredefined industrial internet of things in the context of industry 4.0. IEEE Sensor. J. 16
+(20), 7373–7380. https://doi.org/10.1109/JSEN.2016.2565621.
+Wang, S., Wan, J., Zhang, D., Li, D., Zhang, C., 2016. Towards smart factory for industry
+4.0: a self-organized multi-agent system with big data based feedback and
+coordination. Comput. Network. 101, 158–168. https://doi.org/10.1016/j.
+comnet.2015.12.017.
+Williams, O., 2004. The UN global compact: the challenge and the promise. Bus. Ethics
+Q. 14 (4), 755–774. https://doi.org/10.5840/beq200414432.
+Wollschlaeger, M., Sauter, T., Jasperneite, J., 2017. The future of industrial
+communication: automation networks in the era of the internet of things and
+industry 4.0. IEEE Industrial Electronics Magazine 11 (1), 17–27. https://doi.org/
+10.1109/MIE.2017.2649104.
+Xiao, Y., Watson, M., 2019. Guidance on conducting a systematic literature review.
+J. Plann. Educ. Res. 39 (1), 93–112. https://doi.org/10.1177/0739456X17723971.
+Xu, L.D., Xu, E.L., Li, L., 2018. Industry 4.0: state of the art and future trends. Int. J. Prod.
+Res. 56 (8), 2941–2962. https://doi.org/10.1080/00207543.2018.1444806.
+Yadav, G., Luthra, S., Jakhar, S.K., Mangla, S.K., Rai, D.P., 2020. A framework to
+overcome sustainable supply chain challenges through solution measures of industry
+4.0 and circular economy: an automotive case. J. Clean. Prod. 254 https://doi.org/
+10.1016/j.jclepro.2020.120112.
+Zambon, I., Cecchini, M., Egidi, G., Saporito, M.G., Colantoni, A., 2019. Revolution 4.0:
+industry vs. agriculture in a future development for SMEs. Processes 7 (1), 36.
+https://doi.org/10.3390/pr7010036.
+Z´
+avadsk´
+a, Z., Z´
+avadský, J., 2020. Quality managers and their future technological
+expectations related to industry 4.0. Total Qual. Manag. Bus. Excel. 31 (7–8),
+717–741. https://doi.org/10.1080/14783363.2018.1444474.
+Zheng, P., wang, H., Sang, Z., Zhong, R.Y., Liu, Y., Liu, C., Xu, X., 2018. Smart
+manufacturing systems for industry 4.0: conceptual framework, scenarios, and future
+perspectives. Front. Mech. Eng. 13 (2), 137–150. https://doi.org/10.1007/s11465-
+018-0499-5.
+Zhong, R.Y., Xu, X., Klotz, E., Newman, S.T., 2017. Intelligent manufacturing in the
+context of industry 4.0: a review. Engineering 3 (5), 616–630. https://doi.org/
+10.1016/J.ENG.2017.05.015.
+Zoller, Y.J., Muldoon, J., 2020. Coming together after a tragedy: how the S.S. Eastland
+disaster of 1915 affected welfare capitalism and helped shape the Hawthorne
+studies. J. Manag. Hist. 27 (2), 225–246. https://doi.org/10.1108/JMH-07-2020-
+0047.
+J. Dias Lopes et al. 

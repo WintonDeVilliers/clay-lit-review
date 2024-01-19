@@ -1,0 +1,168 @@
+~ Visit AskYourPDF.com ~
+Literature review Generated From AskYourPDF
+
+# Literature Review: Drivers, Barriers, and Social Considerations for AI Adoption in SCM
+
+## Introduction
+
+Artificial Intelligence (AI) has gained increasing attention in recent years due to its potential to revolutionize various industries, including supply chain management (SCM). This literature review aims to explore
+the drivers, barriers, and social considerations for AI adoption in SCM. The findings from various studies
+will be integrated and synthesized to provide a comprehensive understanding of the topic.
+
+## Drivers for AI Adoption in SCM
+
+Several drivers have been identified for the adoption of AI in SCM. These drivers include increased
+efficiency, improved decision-making, and reduced costs.
+Increased Efficiency:
+One of the primary drivers for AI adoption in SCM is the potential to enhance operational efficiency.
+According to Hangl et al. (2023), AI technologies can automate various tasks in supply chain processes,
+leading to improved speed and accuracy. AI can assist in demand forecasting, inventory management, and
+logistics optimization, thereby streamlining SCM operations and reducing inefficiencies (Sharma et al.,
+2022).
+Improved Decision-Making:
+AI can also contribute to improved decision-making in SCM. By analyzing large volumes of data and
+identifying patterns and trends, AI systems can provide valuable insights for decision-makers. This can
+help in making informed decisions related to demand planning, supplier selection, and risk management
+(Chang et al., 2022). AI-powered predictive analytics can enable proactive decision-making based on
+real-time data, leading to more efficient and effective supply chain management (Lee et al., 2019).
+Reduced Costs:
+Cost reduction is another significant driver for AI adoption in SCM. Through automation and optimization, AI technologies can help reduce operational costs by minimizing errors, optimizing inventory
+levels, and improving resource allocation (Dash et al., 2019). AI-powered predictive maintenance can also
+prevent costly equipment failures and downtime, leading to cost savings in the supply chain (Lee et al.,
+2019).
+
+## Barriers to AI Adoption in SCM
+
+1 / 5
+~ Visit AskYourPDF.com ~
+Despite the potential benefits, there are several barriers that hinder the adoption of AI in SCM. These
+barriers include data quality and management issues, resistance to change, and lack of understanding and
+trust in AI.
+Data Quality and Management Issues:
+One of the primary barriers to AI adoption in SCM is the quality and management of data. According to
+Recht et al. (2020), AI algorithms heavily rely on high-quality and reliable data for accurate predictions
+and decision-making. However, SCM data can be complex and heterogeneous, making it challenging to
+ensure data quality and consistency (Helo & Hao, 2021). Data integration, data cleansing, and data privacy
+concerns are some of the key challenges in managing SCM data for AI applications (Pozzi et al., 2021).
+Resistance to Change:
+Resistance to change within organizations is another barrier to AI adoption in SCM. Implementing AI
+technologies often requires significant organizational changes, including changes in processes, roles, and
+responsibilities. Resistance to these changes can arise from employees' fear of job displacement or a
+lack of understanding about the benefits of AI (Gutierrez et al., 2018). Overcoming this barrier requires
+effective change management strategies, such as clear communication, training, and involving employees
+in the AI implementation process (Helo & Hao, 2021).
+Lack of Understanding and Trust in AI:
+A lack of understanding and trust in AI systems among stakeholders is another barrier to adoption. Many
+individuals may have limited knowledge about AI and its potential applications in SCM. Furthermore,
+concerns about the reliability, fairness, and ethical implications of AI may undermine trust in AI systems
+(Meskó & Topol, 2023). Building trust and promoting AI literacy among stakeholders through education
+and transparency can help address this barrier (Xu et al., 2021).
+
+## Social Considerations for AI Adoption in SCM
+
+Apart from the drivers and barriers, there are important social considerations that need to be taken into
+account when adopting AI in SCM. These considerations include stakeholder involvement, focus on data
+quality and management, and ethical implications.
+Stakeholder Involvement:
+To ensure successful AI implementation in SCM, it is crucial to involve all relevant stakeholders. This
+includes employees, suppliers, customers, and regulators. Engaging stakeholders in the decision-making
+process and addressing their concerns can foster a sense of ownership and increase the likelihood of
+successful AI adoption (Hangl et al., 2023).
+2 / 5
+~ Visit AskYourPDF.com ~
+Focus on Data Quality and Management:
+Given the importance of data quality for AI applications, organizations should prioritize data quality and
+management in SCM. This involves ensuring data accuracy, completeness, and consistency, as well as
+implementing robust data governance practices (Recht et al., 2020). Organizations should also address
+data privacy concerns to maintain trust with stakeholders (Pozzi et al., 2021).
+Ethical Implications:
+The adoption of AI in SCM raises ethical considerations that need to be carefully addressed. These include
+issues related to privacy, fairness, transparency, and accountability. Organizations should establish ethical
+guidelines and frameworks for AI adoption to mitigate potential risks and ensure responsible use of AI in
+SCM (Meskó & Topol, 2023).
+
+## Knowledge Gaps and Future Research Directions
+
+While the existing literature provides valuable insights into the drivers, barriers, and social considerations
+for AI adoption in SCM, there are still some knowledge gaps that warrant further research.
+One knowledge gap is the specific challenges and recommendations for implementing AI in different
+stages of the supply chain, such as procurement, production, and distribution. Future research could
+explore the unique drivers, barriers, and social considerations that arise in each stage and provide tailored
+recommendations for successful AI adoption.
+Another area for future research is the impact of AI adoption on the workforce in SCM. The potential
+displacement of jobs due to automation raises important social and economic implications. Understanding
+the implications of AI adoption on the workforce, including skill requirements and job transformations,
+can help organizations and policymakers navigate this transition effectively.
+Additionally, more research is needed to explore the long-term effects of AI adoption on SCM performance. While the drivers and potential benefits of AI adoption are well-documented, empirical studies that
+evaluate the actual impact on key performance indicators, such as cost reduction, efficiency improvement,
+and customer satisfaction, would provide valuable insights for organizations considering AI implementation.
+In conclusion, AI adoption in SCM offers the potential for increased efficiency, improved decision-making, and reduced costs. However, several barriers, including data quality and management issues, resistance to change, and lack of understanding and trust in AI, need to be addressed for successful adoption.
+Social considerations, such as stakeholder involvement, data quality focus, and ethical implications, must
+also be taken into account. Future research should focus on addressing knowledge gaps and exploring
+3 / 5
+~ Visit AskYourPDF.com ~
+the specific challenges and recommendations for AI adoption in different stages of the supply chain,
+workforce implications, and long-term performance effects.
+
+## References:
+
+1. Xu, Wei., Dainoff, M.., Ge, Liezhong., & Gao, Zaifeng. (2021). Transitioning to Human Interaction with AI Systems: New Challenges and Opportunities for HCI Professionals to Enable Human-Centered AI. <i>International Journal of Human–Computer Interaction</i> , 39 , 494 - 518 .
+   http://doi.org/10.1080/10447318.2022.2041900
+2. Pozzi, Rossella., Rossi, T.., & Secchi, R.. (2021). Industry 4.0 technologies: critical success factors for
+   implementation and improvements in manufacturing companies. <i>Production Planning & Control</i>
+   , 34 , 139 - 158 . http://doi.org/10.1080/09537287.2021.1891481
+3. Lee, Sang M.., Lee, DonHee., & Kim, Y.. (2019). The quality management ecosystem for predictive
+   maintenance in the Industry 4.0 era. <i>International Journal of Quality Innovation</i> , 5 , 1-11 .
+   http://doi.org/10.1186/S40887-019-0029-5
+4. Meskó, B.., & Topol, E.. (2023). The imperative for regulatory oversight of large
+   language models (or generative AI) in healthcare. <i>NPJ Digital Medicine</i> , 6 .
+   http://doi.org/10.1038/s41746-023-00873-0
+5. Chang, Aichih., El-Rayes, Nesreen., & Shi, J.. (2022). Blockchain Technology for Supply Chain
+   Management: A Comprehensive Review. <i>FinTech</i> . http://doi.org/10.3390/fintech1020015
+6. Chen, Lujie., Jiang, Mengqi., Jia, F.., & Liu, Guoquan. (2021). Artificial intelligence adoption in
+   business-to-business marketing: toward a conceptual framework. <i>Journal of Business & Industrial
+   Marketing</i> . http://doi.org/10.1108/jbim-09-2020-0448
+7. Helo, P.., & Hao, Yuqiuge. (2021). Artificial intelligence in operations management and supply chain
+   management: an exploratory case study. <i>Production Planning & Control</i> , 33 , 1573 - 1590 .
+   http://doi.org/10.1080/09537287.2021.1882690
+8. Talib, Faisal., Rahman, Z.., & Akhtar, A.. (2013). An instrument for measuring the key practices of total
+   quality management in ICT industry: an empirical study in India. <i>Service Business</i> , 7 , 275-306
+   . http://doi.org/10.1007/S11628-012-0161-Y
+9. Leeuwen, K. V. van., Rooij, M. de., Schalekamp, S.., Ginneken, B. van., & Rutten, Matthieu. (2021).
+   How does artificial intelligence in radiology improve efficiency and health outcomes?. <i>Pediatric
+   Radiology</i> , 52 , 2087 - 2093 . http://doi.org/10.1007/s00247-021-05114-8
+10. Chatterjee, Sheshadri. (2020). AI strategy of India: policy framework, adoption challenges and
+    actions for government. <i>Transforming Government: People, Process and Policy</i> , 14 , 757-775
+    . http://doi.org/10.1108/tg-05-2019-0031
+11. Chua, Isaac S.., Gaziel-Yablowitz, Michal., Korach, Z.., Kehl, K.., Levitan, N.., Arriaga, Y.., Jackson,
+    G.., Bates, D.., & Hassett, M.. (2021). Artificial intelligence in oncology: Path to implementation.
+    <i>Cancer Medicine</i> , 10 , 4138 - 4149 . http://doi.org/10.1002/cam4.3935
+    4 / 5
+    ~ Visit AskYourPDF.com ~
+12. Tirkolaee, E. B.., Sadeghi, S.., Mooseloo, Farzaneh Mansoori., Vandchali, H. R.., & Aeini, Samira.
+    (2021). Application of Machine Learning in Supply Chain Management: A Comprehensive Overview of
+    the Main Areas. <i>Mathematical Problems in Engineering</i> . http://doi.org/10.1155/2021/1476043
+13. Gutierrez, L.., Barrales-Molina, Vanesa., & Kaynak, Hale. (2018). The Role of Human Resource-Related Quality Management Practices in New Product Development: A Dynamic Capability Perspective.
+    <i>Operations Management eJournal</i> . http://doi.org/10.1108/IJOPM-07-2016-0387
+14. Nayal, Kirti., Raut, Rakesh D.., Priyadarshinee, P.., Narkhede, B.., Kazançolu, Y.., & Narwane, V..
+    (2021). Exploring the role of artificial intelligence in managing agricultural supply chain risk to counter
+    the impacts of the COVID-19 pandemic. <i>The International Journal of Logistics Management</i> .
+    http://doi.org/10.1108/ijlm-12-2020-0493
+15. Edoka, I.., & Stacey, Nicholas. (2020). Estimating a cost-effectiveness threshold for health
+    care decision-making in South Africa. <i>Health Policy and Planning</i> , 35 , 546 - 555 .
+    http://doi.org/10.1093/heapol/czz152
+16. Antoniadi, A.., Du, Yuhan., Guendouz, Yasmine., Wei, Lan., Mazo, Claudia., Becker, Brett A.., &
+    Mooney, C.. (2021). Current Challenges and Future Opportunities for XAI in Machine Learning-Based
+    Clinical Decision Support Systems: A Systematic Review. <i>Applied Sciences</i> , 11 , 5088 .
+    http://doi.org/10.3390/APP11115088
+17. Dash, R.., McMurtrey, Mark E.., Rebman, Carl M.., & Kar, Upendra K.. (2019). Application of
+    Artificial Intelligence in Automation of Supply Chain Management. <i>Journal of Strategic Innovation
+    and Sustainability</i> . http://doi.org/10.33423/JSIS.V14I3.2105
+18. Sharma, Rohit., Shishodia, Anjali., Gunasekaran, A.., Min, Hokey., & Munim, Z. H.. (2022). The role
+    of artificial intelligence in supply chain management: mapping the territory. <i>International Journal of
+    Production Research</i> , 60 , 7527 - 7550 . http://doi.org/10.1080/00207543.2022.2029611
+19. Kumar, Vimal., & Sharma, Rrk. (2017). An empirical investigation of critical success factors influencing the successful TQM implementation for firms with different strategic orientation. <i>International Journal of Quality & Reliability Management</i> , 34 , 1530-1550 .
+    http://doi.org/10.1108/IJQRM-09-2016-0157
+20. Recht, M.., Dewey, M.., Dreyer, K.., Langlotz, C.., Niessen, W.., Prainsack, B.., & Smith, John J..
+    (2020). Integrating artificial intelligence into the clinical practice of radiology: challenges and recommendations. <i>European Radiology</i> , 30 , 3576-3584 . http://doi.org/10.1007/s00330-020-06672-5
+    5 / 5

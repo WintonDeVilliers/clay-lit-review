@@ -1,0 +1,2039 @@
+Sustainable Cities and Society 98 (2023) 104771
+Available online 7 July 2023
+A thorough examination of smart city applications: Exploring challenges and solutions throughout the life cycle with emphasis on safeguarding
+citizen privacy
+L. Xia a,*
+, D.T. Semirumi b
+, R. Rezaei b
+a Business School, Hohai University, Nanjing 211100, China b Faculty of Education and Psychology, Scientific and Research Town, Esfahan, Iran
+ARTICLE INFO
+Keywords:
+Smart city
+Complete life cycle
+Urban security
+Artificial intelligence
+Effect on business
+ABSTRACT
+With the increasing use of artificial intelligence (AI) and the Internet of Things (IoTs), it is crucial to acknowledge
+the potential security and privacy issues that arise from these advanced technologies in smart cities. This article
+provides overview of these concerns, highlighting the various ways in which smart city technologies can be
+vulnerable to cyber-attacks and other security threats. Additionally, the paper examines the privacy risks associated with the collection and use of personal data in smart cities. Effective security measures and privacy
+protection policies are crucial in ensuring the safety and security of smart cities. Cooperation between governments, private companies and citizens is essential to implement such measures and policies, allowing smart cities
+to continue developing while guaranteeing the security and privacy of their citizens. Likewise, smart city public
+safety systems that utilize AI-powered surveillance technologies may be predisposed to hacking, leading to
+privacy breaches and data misuse. Moreover, smart city energy systems, which rely on IoT devices to regulate
+power grids, are susceptible to cyber-attacks that can result in power outages or significant damage to vital
+infrastructure. The adoption of information and communication technology for smart city development has
+increased the risk of cyber threats, emphasizing the need for a review cybersecurity governance model. In
+addition, smart city water systems that rely on AI-powered sensors to monitor water quality may also be at risk of
+hacking, which could result in the contamination of the water supply. Further research is required to better
+understand the potential risks associated with smart city technologies and develop new solutions to address
+them. This article shows as a valuable resource for city administrators, policymakers and researchers interested
+in the security and privacy concerns of smart cities.
+1. Introduction
+Cities have been a focal point of interest for scholars from various
+fields due to their significance as the birthplace of human civilization.
+The complex nature of urban environments has inspired scholars to
+explore ways to improve and develop new urban structures to address
+issues and improve living standards (Guo and Zhong, 2022, Guo et al.,
+2022, Yu and Zhou, 2023, Camero and Alba, 2019). In the 21st century,
+information technology has emerged as a critical driver of transformation and development worldwide, with significant impact on society, welfare, and comfort. Information and communication
+technologies play a pivotal role in the economic, social, and political
+domains, and have led to the rise of smart cities and electronic cities as
+solutions to urban problems, attracting the attention of urban planners
+and city managers (Lv, Chen, and Lv, 2022, Shelton, Zook, and Wiig,
+2015, Bakıcı, Almirall, and Wareham, 2013, Vanolo, 2014, et al., 2022).
+The article also discusses the challenges associated with establishing
+electronic cities and emphasizes the importance of ensuring public
+safety and protecting the privacy of residents against threats. An effective security measures and privacy protection policies in smart cities
+include secure data collection, robust authentication and authorization,
+regular security assessments, privacy-by-design principles, and transparency and accountability. Successful implementations of these policies in existing smart cities, such as Amsterdam, Barcelona, and Seoul,
+demonstrate the importance of safeguarding individuals’ privacy rights
+while leveraging the benefits of data-driven technologies.
+* Corresponding author.
+E-mail address: 150208120026@hhu.edu.cn (L. Xia).
+Contents lists available at ScienceDirect
+Sustainable Cities and Society
+journal homepage: www.elsevier.com/locate/scs
+https://doi.org/10.1016/j.scs.2023.104771
+Received 19 March 2023; Received in revised form 1 July 2023; Accepted 1 July 2023 
+Sustainable Cities and Society 98 (2023) 104771
+2
+A conceptual-execution model has been developed for seamless
+interaction between smart cities, electronic cities, and relevant organizations and departments, incorporating hardware and software infrastructure, developing city-wide parking, data and information
+acquisition processes, analysis, and system output (Dameri, 2017, Nam
+and Pardo, 2011, Eremia, Toma, and Sanduleac, 2017, Alawadhi et al.,
+2012, Zubizarreta, Seravalli, and Arrizabalaga, 2016). The study reveals
+that many well-known cities worldwide have adopted information and
+communication technologies in line with the trend of smart cities,
+electronic cities, and electronic municipalities. Governments worldwide
+are increasingly adopting new technologies to safeguard public infrastructure and promote innovation and human progress (Falconer and
+Mitchell, 2012, Calzada and Cobo, 2015, Neirotti et al., 2014).
+The primary objective of establishing a safe city is to create a unified
+monitoring system that allows multiple stakeholders and various security systems to interact with each other. Smart cities require three key
+dimensions: hardware and software, database management, and operational management systems. This involves deploying a network of
+sensors that communicate information to relevant stations via various
+communication channels (Zubizarreta, Seravalli, and Arrizabalaga,
+2016, Falconer and Mitchell, 2012, Calzada and Cobo, 2015, Neirotti
+et al., 2014). The installation of smart hardware and software is the first
+step in designing a smart city, followed by developing and managing an
+efficient database capable of translating and reflecting implemented
+infrastructure networks. To minimize energy consumption and costs, an
+efficient automation framework is also required for management systems. Smart technology has become ubiquitous in various aspects of life,
+including healthcare, education, governance, environment, transportation, and energy. Smart governance and economy aim to promote
+economic growth, reduce government expenses, and safeguard human
+well-being, mental tranquility, and citizen privacy. However, the
+growing complexity of technology and interdependence of operational
+and system management increase the risk of hackers exploiting the
+smart city environment (Kim, Ramos, and Mohammed, 2017, Kirimtat
+et al., 2020, Al-Hader et al., 2009, Cardullo, Di Feliciantonio, and
+Kitchin, 2019, Morozov and Bria, 2018, Angelidou, 2017).
+Failure to incorporate cybersecurity and privacy considerations in
+smart city planning can have severe consequences. Therefore, establishing a cybersecurity governance model for smart cities is crucial to
+protect confidential data and maintain the integrity and availability of
+services. A successful cybersecurity governance model requires a complete understanding of the various security risks associated with smart
+city technologies, including IoT devices (Komninos, 2007, Caragliu and
+Bo, 2019, Batty et al., 2012, Law and Lynch, 2019, Kumar and Dahiya,
+2017, Batty, 2018, Riffat, Powell, and Aydin, 2016, Sallis et al., 2016,
+Jameson, 2003, Brook, 2013, Ackerman et al., 2014). Regular identification and evaluation of these risks are necessary to ensure appropriate
+and effective security measures. Comprehensive security policies and
+procedures should be developed and implemented to ensure that all
+stakeholders understand their roles and responsibilities in maintaining
+cybersecurity and comply with relevant laws and regulations. Regular
+training and awareness programs should be provided to promote a
+culture of cybersecurity and ensure that everyone is equipped with the
+necessary skills to identify and respond to security threats (Bughin,
+Byers, and Chui, 2011, Hagen and Robertson, 2010, Jarrahi and Sawyer,
+2013). A formal incident response plan should be developed, tested
+regularly, and updated as necessary to address potential cybersecurity
+incidents. Regular audits and assessments should be conducted to
+evaluate the effectiveness of the cybersecurity governance model and
+identify areas for improvement. The governance model should remain
+adaptable and flexible in response to evolving threats and advancements
+in technology, with strong leadership and a steadfast commitment to
+continuous improvement (Li, 2010, Leonardi, Huysman, and Steinfield,
+2013, Bacigalupe, 2011, Guinan, Parise, and Rollag, 2014). This
+research aims to examine the integration of emerging technologies such
+as smart city development, big data analytics, machine learning, deep
+learning, and artificial intelligence (AI) in preserving security and privacy for citizens. The study provides valuable insights into the application of technology and AI in addressing security challenges in smart
+cities (Gaisina et al., 2015, Moos, 2009, Leibetseder, 2011, Fawcett
+et al., 1984). While various techniques have been adopted to maintain
+sustainable security, none have addressed the key challenges using a
+combination of approaches. The conventional data processing tools
+available are inadequate to meet the objectives of cities due to the
+enormous volume of real-time data generated by rapid urbanization.
+Preserving citizens’ privacy poses significant challenges, including surveillance and maintaining order in urban operations. Therefore, integrating big data technology with other emerging technologies in the
+cybersecurity sector is urgently needed. This article focuses on studying
+technology-oriented development in smart cities and preserving citizens’ security and privacy (Hagen and Robertson, 2010, Jarrahi and
+Sawyer, 2013, Li, 2010, Leonardi, Huysman, and Steinfield, 2013,
+Bacigalupe, 2011, Guinan, Parise, and Rollag, 2014, Gaisina et al., 2015,
+Pelikan, 2003, McCormick and Scrimshaw, 2001, Webb and Cox, 2004).
+A comprehensive review of representative studies is presented, highlighting the development of technology in smart cities to enhance citizens’ quality of life. The article covers various topics, including (1)
+future smart cities, (2) technology-oriented development in smart cities
+and their emergence, (3) citizen security and privacy preservation, (4)
+surveillance and order creation using AI, and (5) key elements in urban
+operations. The research methodology involves reviewing numerous
+scholarly sources and datasets to provide evidence-based insights into
+the development of smart cities.
+2. Research methodology of smart cities
+2.1. Innovative optimization model for effective resource management
+This paper presents a novel Theory-dependent Innovative Optimization Model (TIOM) for small and medium-sized enterprises (SMEs) to
+manage limited resources effectively in smart cities. The TIOM model
+utilizes conflict theory to balance production output, supply, and enterprise values, and incorporates historical data to analyze stock availability, resource depletion, and market demand forecasts. The model
+encourages productivity and product circulation while addressing economic and resource-related issues. The primary contribution of this
+research is the development of the TIOM model, which provides a
+practical and integrated approach to addressing the security and privacy
+concerns of smart cities while promoting economic growth and resource
+management. The paper evaluates the effectiveness of the proposed
+model by comparing the performance of enterprises using the model
+with those not using the model. The study shows the infrastructure
+utilized to examine urban operations against objectives, including unit
+definition, classification field selection, literature collection, and drawing, as well as material analysis or evaluation. The literature review
+presents over 100 research articles and 100-120 reference sources,
+divided into two main sections: a review of research on the reasons and
+emergence of smart cities, and an examination of AI and cyber security
+technologies used to protect citizens’ privacy. A comprehensive cybersecurity governance model for smart cities should include risk management, policies and regulations, collaboration and coordination,
+incident response, and education and awareness. The governance model
+should also address the unique challenges and complexities of securing a
+smart city environment, including interconnectedness, data volume and
+variety, multiple stakeholders, and rapid technological advancements.
+Table 1 presents an overview of the role and position of ICT in smart
+cities. It provides a comprehensive understanding of how ICT is used to
+support the functioning of smart cities and the benefits it brings to citizens, businesses, and governments. In this study, we conducted a
+comprehensive search for relevant articles using databases, relevant
+books, journals, and published statistics in the field of smart city, complete life cycle, Urban security, and AI.
+L. Xia et al. 
+Sustainable Cities and Society 98 (2023) 104771
+3
+The paper shows practical applications for addressing the issues
+discussed, with several cities (7 cities) chosen as examples to examine
+the role and position of Information and communication technology
+(ICT) and their respective objectives. Table 2 shows a comprehensive
+compilation with various cases and methods that affect social data and
+quality indicators in smart cities, including but not limited to security
+protocols, virtual space application usage, user motivation models in
+both social and technological settings, and more. These findings have
+been documented in previous research studies (Fawcett et al., 1984,
+Pelikan, 2003, McCormick and Scrimshaw, 2001, Webb and Cox, 2004,
+Mumtaz, 2000, Selwyn et al., 2003, Kirschner and Selinger, 2003,
+Giannopoulos, 2004). The proposed Theory-dependent Innovative
+Optimization Model (TIOM) can be applied to various industries and
+sectors in smart cities to optimize resource management while
+addressing security and privacy concerns. One such industry is the fertilizer complex industry, which is known to emit gaseous pollutants that
+can have a negative impact on the environment and human health.
+2.2. Literature on the role of technology in enhancing citizens’ quality of
+life
+The motivation for researching and studying smart cities and their
+various aspects is to develop sustainable solutions that can address the
+challenges faced by modern cities. Rapid urbanization has led to a host
+of problems such as air pollution, traffic congestion, and resource
+depletion. Smart city development presents a promising solution to
+improve the quality of life of citizens while also addressing environmental, economic, and social challenges. By exploring a range of technologies and solutions to improve security and privacy protection, data
+governance, environmental sustainability, and public-private partnerships, innovative and effective solutions can be developed for smart city
+development. Ultimately, the goal of studying smart cities is to create
+better, more livable, and sustainable cities for everyone. The study
+specifically explores the definition of smart cities and its various interpretations, with a focus on the role of technology in enhancing citizens’ quality of life. To achieve this goal, a comprehensive literature
+search was conducted using electronic databases such as Scopus, Web of
+Science (WOS), and Google Scholar, limited to articles published in
+English from 2010 to 2023 in field of smart city, cybersecurity and
+electronic government. Inclusion criteria consisted of articles that
+focused on the concept of smart cities, their development, and their
+impact on urban operations and citizens’ quality of life, while exclusion
+criteria were articles that were not relevant to the research questions or
+were duplicates. A total of 50-70 articles were included in the final
+analysis, and a thematic analysis approach was used to synthesize the
+findings. The identified themes included the definition of smart cities,
+the role of technology in smart city development, challenges and opportunities, and the impact of smart cities on citizens. The study concludes with recommendations for future research in the field of smart
+cities.
+2.3. Balancing complexity and innovation to enhance quality of life
+Cities are increasingly utilizing ICT to become "smart cities" in order
+to enhance operational efficiency, citizen engagement, and service delivery. The definition of a smart city varies depending on the community
+it serves, but generally, it aims to improve urban operations and promote economic growth while utilizing data analysis and modern technologies to enhance citizens’ quality of life. However, achieving these
+goals is challenging due to the inherent complexity of cities and the
+challenges they face. The concentration of residents in cities can lead to
+disorder and chaos, making it difficult to achieve sustainability through
+traditional urban administration and development methods. To address
+these challenges, urban planners are developing new models for future
+cities that take a holistic approach to urbanization by integrating all
+aspects of development. One such model is the smart city, which
+Table 1
+The role and position of ICT in smart cities.
+Place Information and
+communication technologies
+Goals
+Lisbon,
+Portugal
+Mobile and web application
+Global positioning system
+REST API
+Software Arc Map
+Establishing the interaction of
+stakeholders in a smart natural
+platform
+Vilnius,
+Lithuania
+Facebook
+Social media tracking
+Leadership of co-creation
+approaches
+The need for information and
+communication technology
+Ghent,
+Belgium
+Examining solutions based
+on information and
+communication
+Establishing high-level and lowlevel communication in a
+continuous context
+Cork, Ireland
+Thessaly,
+Greece
+Warsaw,
+Poland
+Smart mobile
+Tablet
+desktop computer
+Laptop
+Evaluation of ICTusage patterns
+Citizens’ digital social
+interactions with the
+environment
+Barcelona,
+Spain
+Collecting data in the form of
+audio, video, written files
+iOS applications
+Android applications
+Whatsapp
+Microblogging platform for
+Twitter data
+Java Script
+Data processing and analysis
+storage
+Spatial visualization of data
+Time-based interpretation of
+data
+Spatial imaging
+Table 2
+Objectives and implementation methods of the studied projects.
+Place Methods Goals
+Lisbon,
+Portugal
+Twitter data
+Participation and interactions
+of stakeholders in the
+platform of smart internet
+System dynamics models
+global positioning system
+Development of
+communication platforms
+Cultivation and awareness
+Realizing the strategic goals of a
+sustainable city
+Communication needs of
+citizens along with security
+Vilnius,
+Lithuania
+The business model of public
+participation of citizens
+Social media tracking
+Motivational models of users
+appropriate to the
+technological environment
+Creating relationships within
+the network
+Determining incentives for
+cultural and social
+participation
+Increasing citizen participation
+Improving the quality of life
+Maintaining the quality and
+improving the urban space
+Ghent,
+Belgium
+Creating a network of
+innovative projects and
+organizations
+Open knowledge sharing
+among citizens
+Creating a circle of parks and
+recreation areas
+Combination of indoor and
+outdoor spaces of the city
+Development of innovative
+urban products and services
+Discover the experience and
+increase the perception of the
+quality of the city environment
+Shaping the city of the future
+Strengthening communication
+and maintaining the continuity
+of the public space
+Cork, Ireland
+Thessaly,
+Greece
+Warsaw,
+Poland
+Measuring citizens’
+satisfaction in relation to the
+quality
+eauty of the urban
+environment
+Security against AI and social
+activities and public events
+Discover new ways of using
+space
+Evaluation of communication
+technology usage patterns
+Full participation of people
+Barcelona,
+Spain
+Content generated by users
+Data mining of social
+networks
+Determining spatial limits by
+applications
+Facilitating data analysis for
+researchers
+Identifying users’ activities in
+cyberspace
+Location of population
+concentration to improve
+facilities needed by citizens
+L. Xia et al. 
+Sustainable Cities and Society 98 (2023) 104771
+4
+combines the capabilities of the real and virtual worlds to solve urban
+problems and is viewed as a key driver for transformation and development in the current millennium. Despite the significant literature on
+smart cities, a clear understanding and consensus on its definition
+remain elusive, with varying interpretations among researchers. While
+some emphasize the importance of smart technologies, others take a
+broader perspective. It is crucial to adopt an approach that empowers
+citizens by adapting technology to their needs and avoiding a narrow
+focus on technology. Furthermore, the definition of a smart city is
+multifaceted and depends on contextual conditions such as political
+system, geography, and technology diffusion. Innovation involves
+implementing and applying new ideas and approaches to solve realworld problems, going beyond theoretical concepts to demonstrate the
+practical value of research. An innovative study on smart cities may use
+emerging technologies like artificial intelligence and machine learning
+to develop predictive models for urban planning and management. Such
+applications of research findings can help address real-world challenges
+and improve the quality of life for citizens. By fostering innovation,
+researchers can contribute to the development of smarter, more sustainable, and more livable cities for the future (Lv, Chen, and Lv, 2022,
+Nam and Pardo, 2011).
+The article’s findings can contribute to knowledge advancement by
+providing insights into the challenges that arise when implementing
+smart city applications and identifying potential solutions. By highlighting the importance of citizen privacy protection, the article can
+guide policymakers, researchers, and practitioners in developing ethical
+and responsible smart city initiatives that prioritize the rights and wellbeing of citizens. This article can contribute to the development of
+smarter, more sustainable, and more livable cities by providing a
+comprehensive review of challenges and solutions in the field of smart
+cities. Addressing the security and privacy concerns of smart cities requires collaborative efforts and interdisciplinary approaches that
+involve city administrators, policymakers, researchers, and other
+stakeholders. The continuous improvement of security measures and
+privacy protection in smart city environments requires the establishment of governance frameworks, interdisciplinary research teams,
+multi-stakeholder partnerships, and monitoring and evaluation
+mechanisms.
+2.4. Data analysis for improved urban life and sustainability
+The benefits of smart cities are numerous and far-reaching. Smart
+cities aim to improve the quality of life for citizens by providing better
+access to essential services such as healthcare, education, transportation, and public safety. Many studies also aim to enhance the
+sustainability of urban areas by promoting energy efficiency, renewable
+energy, and circular economy principles. Smart cities can also create
+new job opportunities in technology and service sectors, attract investment, and foster entrepreneurship and innovation. Smart solutions
+cannot be blindly copied and must be evaluated for their applicability to
+different issues. Effective smart cities must also include data analysts
+who can evaluate the information provided by smart city systems to
+identify problems and opportunities for improvement. The primary goal
+of a smart city is to optimize city performance, promote economic
+growth, and enhance citizens’ quality of life by leveraging smart technologies and data analysis (Alawadhi et al., 2012, Zubizarreta, Seravalli,
+and Arrizabalaga, 2016, Falconer and Mitchell, 2012, Calzada and
+Cobo, 2015, Neirotti et al., 2014, Kim, Ramos, and Mohammed, 2017). It
+is not simply about the quantity of technology available, but how it is
+used. To provide connected solutions to the public, smart cities rely on
+various software, user interfaces, communication networks, and the
+Internet of Things (IoT), which is a network of interconnected devices
+that communicate and exchange data. The IoT can include everything
+from vehicles to home appliances and street sensors, and data collected
+from these devices are stored on servers to improve public and private
+sector efficiency, bring economic benefits, and enhance citizens’ lives.
+Edge computing, which sends only the most important data to the server
+through the communication network, is often used by IoT devices.
+Additionally, a security system is essential to protect, monitor, and
+control data transmission from the smart city network and prevent unauthorized access to the city’s IoT network (Zubizarreta, Seravalli, and
+Arrizabalaga, 2016, Falconer and Mitchell, 2012). The amalgamation of
+automation, machine learning, and the IoT has facilitated the implementation of various smart city technologies. A smart parking systems
+can assist drivers in locating parking spots and facilitate digital payments. Another example is the intelligent traffic management system
+that monitors traffic flow and optimizes traffic signals to alleviate
+congestion, while ride-sharing services can also be managed using smart
+city infrastructure (Calzada and Cobo, 2015). In addition, smart city
+features can promote energy savings and environmental efficiency, such
+as street lights dimming during low traffic hours. These smart grid
+technologies can enhance everything from operations and maintenance
+to scheduling and power supply. Smart city plans can also help combat
+climate change and air pollution, as well as waste and sanitation management via internet-enabled waste collection, bins, and fleet management systems. Furthermore, smart cities can offer safety measures such
+as monitoring high crime areas or using sensors to activate early
+warning systems for natural disasters like floods, landslides, storms, or
+droughts (Neirotti et al., 2014, Kim, Ramos, and Mohammed, 2017). A
+further research is needed in several key areas to better understand the
+risks associated with smart city technologies and develop effective solutions to mitigate those risks. Specific technological advancements and
+emerging trends, such as IoT security, 5G networks, and AI and machine
+learning, require attention in terms of security and privacy in smart
+cities.
+2.5. Building a smart future and economic growth
+Smart buildings can also facilitate real-time space management and
+structural health monitoring, providing feedback on when repairs are
+required. By accessing this system, citizens can also report problems
+such as potholes, while sensors can monitor infrastructure issues like
+water pipe leaks. Additionally, smart city technology can improve production efficiency, urban agriculture, energy consumption, and more
+(Kirimtat et al., 2020). Smart cities can integrate various services to
+provide common solutions for citizens. The development of smart cities
+can be categorized into three generations. The first generation focused
+on understanding the impact of technology on daily life, while the second generation explored how technology and innovation can address
+urban challenges (Al-Hader et al., 2009). The third generation shifted
+control to the public, encouraging social engagement and community
+participation. Vienna is an example of a city that adopted this
+third-generation model and partnered with the local energy company to
+enable citizens to invest in solar power plants and address issues of
+gender equality and affordable housing. Vancouver is another city
+where citizens created the Vancouver Greenest City 2020 Action Plan to
+improve sustainability (Cardullo, Di Feliciantonio, and Kitchin, 2019,
+Morozov and Bria, 2018). Smart cities follow a four-step process to
+enhance the quality of life and promote economic growth through
+connected IoT devices and other technologies. Real-time data is
+collected by smart sensors, analyzed to gain insights into city operations,
+communicated to decision-makers to improve performance, and used to
+manage assets and enhance the city’s quality of life (Al-Hader et al.,
+2009, Cardullo, Di Feliciantonio, and Kitchin, 2019, Morozov and Bria,
+2018, Angelidou, 2017, Komninos, 2007). Citizens can also engage with
+smart city ecosystems through mobile devices, connected vehicles, and
+buildings. By integrating devices, data, and infrastructure, smart cities
+can reduce costs, increase sustainability, and streamline operations such
+as energy distribution and waste collection, as well as improve air
+quality and reduce traffic congestion (Caragliu and Bo, 2019). A smart
+city should aim to provide a high quality of life for residents and promote economic growth by delivering shared services at a reduced
+L. Xia et al. 
+Sustainable Cities and Society 98 (2023) 104771
+5
+infrastructure cost. This is particularly important for urban areas facing
+population growth where infrastructure and assets must be used efficiently (Batty et al., 2012). Smart city services and applications facilitate
+these improvements, creating new value from existing infrastructure,
+and generating new revenue streams and operational efficiencies to save
+costs for governments and citizens. To begin exploring the concept of
+smart cities as an innovation, it is important to understand its key elements (Law and Lynch, 2019, Kumar and Dahiya, 2017). The smart city
+is a concept that has been developed in three main domains: academic,
+industrial, and governmental. Many literatures take a holistic and review approach, defining "smart" to include a wide range of characteristics such as self-configuration, self-repair, self-protection, and
+self-optimization, with an emphasis on knowledge and information
+development (Batty, 2018). The industrial literature focuses on business
+and industrial tools, defining "smart" as smart services and products, AI,
+and thinking devices. Government documents, aimed at managing
+urban development, interpret "smart" in connection with the urban
+planning theory of smart growth, with an emphasis on administrative
+and financial aspects of the smart city and environmental goals such as
+greenhouse gas emissions (Law and Lynch, 2019, Kumar and Dahiya,
+2017, Batty, 2018, Riffat, Powell, and Aydin, 2016). Despite the diversity in the definitions, the use of technology and social innovation is
+the primary issue in the concept of a smart city. A smart city is a city that
+implements improvements in six key areas such as smart people, smart
+mobility, smart governance, smart living, smart economy, and smart
+environment (Law and Lynch, 2019, Kumar and Dahiya, 2017, Batty,
+2018, Riffat, Powell, and Aydin, 2016, Sallis et al., 2016).
+2.6. Technology and social development for sustainable urban
+transformation
+The concept of a smart city is characterized by its objectives, which
+include enhancing efficiency, sustainability, equity, and livability.
+Smart cities are viewed as a complex system that involves multiple
+subsystems, where the coordinated functioning of these subsystems
+leads to intelligent behavior. The primary aim of smart city models is to
+manage the complexity of cities and improve the quality of life of urban
+populations by mitigating the negative impacts of global urbanization
+(Hagen and Robertson, 2010, Jarrahi and Sawyer, 2013, Li, 2010,
+Leonardi, Huysman, and Steinfield, 2013, Bacigalupe, 2011, Guinan,
+Parise, and Rollag, 2014, Gaisina et al., 2015, Moos, 2009, Leibetseder,
+2011). Smart cities offer various services across essential urban functions, with different projects worldwide targeting specific goals such as
+reducing pollution, achieving energy efficiency, promoting high-quality
+living environments, and fostering economic growth and social development. While technology is a critical feature of a smart city, social issues cannot be ignored, and people play a crucial role in creating
+intelligent cities.
+A smart city is multifaceted city, making it challenging to measure its
+intelligence due to the diverse administrative, economic, social, and
+geographical circumstances of each city. Therefore, it is necessary to
+preserve the fundamental structures of the smart city concept while
+reconstructing definitions specific to each city based on its priorities and
+content. The critical components of the smart city concept include the
+use of information and communication technology, the integration of
+various systems, stakeholder cooperation, investment in social capital,
+independent decision-making, collaborative governance, creativity,
+learning and management, and the utilization of various local resources.
+2.7. Multifaceted goals for enhanced quality of life and sustainability
+Fig. 1 presents an infographic summarizing the multifaceted goals of
+smart city projects worldwide, which generally aim to enhance the
+quality of life for residents and improve the sustainability, efficiency,
+and competitiveness of urban areas. Smart cities utilize advanced
+technologies, including IoT, AI, and big data, to collect and analyze
+information from various sources to inform decision-making and
+enhance urban services. The concept of a smart city encompasses several
+objectives, such as promoting wealth, health, and sustainability, as well
+as encouraging citizen participation and collaborative methods.
+Several researchers have identified various dimensions and characteristics that reflect the complexity of a smart city, including the organic
+integration of different systems, such as transportation, energy, education, healthcare, buildings, physical infrastructure, food, water, and
+public security, to create a truly smart city (Yusuf, 2005, Golding, 2000,
+Chui, Vasant, and Liu, 2019, Van der Meer and Van Winden, 2003, Wu
+et al., 2022, Uche et al., 2013, Volkov and Kuzina, 2016, Bicer and
+Dincer, 2018, Nordelof, ¨ Romare, and Tivander, 2019). This integration
+is crucial as no system can operate effectively in isolation in a densely
+populated urban environment. Other characteristics of a smart city
+include the use of digital and electronic technologies to create a cyber,
+digital, informational, or knowledge-based city and embedding ICT in
+urban infrastructure. Additionally, a smart city aims to foster innovation, learning, and knowledge by guiding the interactions between
+technology and people. Beyond these technical aspects, the concept of a
+smart city also includes broader concepts such as the smart economy,
+which refers to a city’s innovative approach to business, research and
+development, and productivity, as well as its role in national and international markets.
+2.8. Prioritizing education and citizen participation for quality of life
+A smart city requires the inclusion of smart people, who possess high
+levels of education, social interactions, cultural awareness, open
+thinking, and citizen participation in social life. Additionally, smart
+governance is a crucial element of a smart city, emphasizing citizen
+participation in decision-making processes and promoting transparency
+in governance systems. ICT plays a critical role in enabling citizen
+participation by providing access to information and data, leading to a
+more efficient governance system by removing communication and
+cooperation barriers. ICT also supports the development of smart
+transportation systems, which promotes citizen access to public transportation and drives new social attitudes towards the use of vehicles,
+enhancing the movement and transportation of people, goods, and vehicles in urban environments. Smart cities prioritize the smart environment through responsive resource management and sustainable city
+planning to enhance the natural beauty of the city, reduce pollution and
+greenhouse gas emissions, and promote energy reduction through
+technological innovations. Additionally, the smart life concept seeks to
+enhance the quality of life for citizens by providing safe and healthy
+Fig. 1. The goals of building smart city for health environment and economic growth.
+L. Xia et al. 
+Sustainable Cities and Society 98 (2023) 104771
+6
+living conditions, easy access to healthcare services, electronic health
+management, and various social services. The construction of a smart
+city requires a strong partnership between the government and the
+private sector, with effective communication among different private
+sector components being necessary for its implementation. Analyzing
+and extracting useful information from smart city and cybersecurity data
+is a critical task outsourced by the government to contractors, who
+provide expert teams with relevant information to address specific
+problems.
+Smart city construction involves effective communication between
+various sectors, as illustrated in Fig. 2. Urbanization has both positive
+and negative effects on the environment.
+2.9. Mitigating negative effects of urbanization and quality of life
+Urbanization, while less damaging to natural systems, results in
+increased greenhouse gas emissions. However, smart city technologies
+can alleviate the negative effects of urbanization. As cities become
+smarter, there is expected to be a reduction in private cars, with the
+utilization of self-driving cars and automation leading to decreased
+greenhouse gas production and energy consumption. City administrators must not only focus on technological development but also
+encourage a smart city culture. Increasing public awareness of the
+benefits of a smart city is essential to encourage participation and ensure
+citizens understand the free use of data. Effective cooperation between
+private and public sectors, as well as citizens, is crucial for creating a
+fully connected smart city that is easily accessible and utilized.
+The cooperation between governments, private companies, and citizens is crucial for implementing security measures and policies in smart
+cities. The government plays a crucial role in setting and enforcing
+policies and regulations for smart city security and privacy protection,
+including establishing legal frameworks and standards, providing
+funding and support for research and development, and ensuring
+adherence to security and privacy guidelines. Private companies are
+responsible for developing and implementing smart city systems and
+technologies and must incorporate security and privacy considerations
+into their product development processes, use secure data collection and
+storage practices, and implement robust authentication and authorization mechanisms. Citizens must be aware of the privacy risks associated
+with smart city technologies and must play an active role in protecting
+their personal data by being informed, exercising their rights, and
+reporting suspicious activities. To foster cooperation between these
+stakeholders, public-private partnerships can be established, citizen
+participation can be encouraged, public awareness campaigns can be
+conducted, and accountability mechanisms can be established to hold
+private companies responsible for any misuse of personal data and to
+ensure citizens have recourse in case of privacy violations. By working
+together, smart cities can be developed and implemented in a way that
+ensures the safety and security of personal data while leveraging the
+benefits of data-driven technologies.
+Innovative collaboration methods can enhance citizens’ commitment
+to smart city projects (Sallis et al., 2016, Jameson, 2003, Brook, 2013,
+Ackerman et al., 2014, Bughin, Byers, and Chui, 2011, Hagen and
+Robertson, 2010, Jarrahi and Sawyer, 2013, Li, 2010). Transparency
+and free access to data should be provided via websites and applications,
+promoting awareness and understanding of data usage. Smart city applications enable citizens to access a variety of information and perform
+tasks such as paying bills, locating public transportation, and monitoring
+energy consumption. The primary target of a smart city is to improve the
+quality of life for its citizens and promote economic growth. By delivering better services at lower costs and using existing infrastructure,
+smart cities enable citizens to discover and create new values, resulting
+in new revenue streams and increased operational efficiency, saving
+time and energy for both the government and citizens.
+3. Development of social technology
+3.1. From technology-driven urban areas to economic prosperity
+Smart cities have become a topic of significant interest, with
+increased attention from the media, technology companies, entrepreneurs, local governments, and civil society. The potential of smart cities
+to create technologically advanced, efficient, and smarter urban environments that enhance citizens’ quality of life has been widely
+acknowledged. Various governments worldwide have accepted the
+concept of smart cities, leading to the development of many conceptual
+frameworks (Leonardi, Huysman, and Steinfield, 2013, Bacigalupe,
+2011, Guinan, Parise, and Rollag, 2014, Gaisina et al., 2015, Moos,
+2009, Leibetseder, 2011, Fawcett et al., 1984). The acceptance of cities
+of technology and development seems to have gone through three
+stages, with the initial stage emphasizing the connection between
+corporate technology and urban governance. Other companies have also
+recognized the potential of technology in transforming cities into
+advanced, efficient, and secure urban spaces for innovators. Smart cities’
+technology-oriented vision creates an environment that appeals to urban
+technology innovators and plays a vital role in job growth and economic
+prosperity in cities, leading to increased competition among cities to
+become more advanced and sophisticated. The first generation of smart
+cities is characterized by the adoption of technology with minimal
+impact on citizens’ quality of life, similar to queuing for the latest Apple
+Fig. 2. Components of smart city as a concept refers to the use of advanced technology and data analytics to improve the quality of life.
+L. Xia et al. 
+Sustainable Cities and Society 98 (2023) 104771
+7
+product without knowing how to use it. Private sector technology
+companies such as Living Plan IT and Cisco are developing visions for
+future cities. The second generation of smart cities is characterized by
+the active utilization of technology for urban governance, led by city
+governments rather than technology providers (Pelikan, 2003, McCormick and Scrimshaw, 2001, Webb and Cox, 2004, Mumtaz, 2000, Selwyn et al., 2003, Kirschner and Selinger, 2003, Giannopoulos, 2004).
+3.2. The evolution of smart cities and innovations in urban governance
+In the second generation of smart cities, mayors and city managers
+play a crucial role in guiding cities towards a future that utilizes smart
+and other city-related technologies in enhancing the quality of life. The
+mayor of Rio de Janeiro, Brazil, commissioned IBM to create a sensor
+network that reduced landslide risks in favelas, which was connected to
+a 21st-century operations center providing online surveillance for crime
+detection and prevention and integrated with other smart emergency
+services. Fast Company has ranked many pioneering smart cities among
+the top in the world, most of which belong to the second generation,
+such as Barcelona, which has implemented numerous smart city-related
+programs, including WIFI in public spaces and transportation, smart
+lighting, and improving electric vehicle charging infrastructure (Yusuf,
+2005, Golding, 2000, Chui, Vasant, and Liu, 2019, Van der Meer and
+Van Winden, 2003, Wu et al., 2022). The third generation of smart cities
+emphasizes citizen participation, which departs from the
+technology-centric approach of the first generation and the
+technology-enabled urban governance approach of the second generation. Pioneering smart cities have leveraged participatory models to
+inform future generations of smart cities. Vienna, a leading smart city,
+engages citizens as investors in local solar power plants to achieve the
+city’s clean energy goals by 2050 through citizen participation. Additionally, Vienna places a high emphasis on citizen involvement in
+addressing affordable housing and gender equality issues. In Vancouver,
+a co-creation program involving thirty thousand citizens led to the
+development of an innovative strategy to become the greenest city by
+2020. Barcelona also recently concluded the Open Challenge, an innovation project that solicited ideas from citizens and innovators through
+the city-mart platform on six key challenges (Chui, Vasant, and Liu,
+2019, Van der Meer and Van Winden, 2003, Wu et al., 2022, Uche et al.,
+2013, Volkov and Kuzina, 2016).
+3.3. From bottom-up urban planning to citizen co-creation
+Medellin, a pioneering city in Latin America, serves as an important
+example of a third-generation smart city that prioritizes issues such as
+equality and social participation through bottom-up urban planning.
+The city has undergone significant urban reconstruction, including the
+construction of cable cars, escalators, and schools equipped with new
+technologies, as well as the development of an innovation district, to
+attract and retain entrepreneurial talent. While certain large, venturebacked companies may not align with the values of third-generation
+smart cities, initiatives such as tool-sharing platforms and shared bicycles have the potential to reduce resource consumption and improve
+the quality of life for city residents. Some cities may progress through all
+stages of smart city development, while others may remain in a single
+stage. Kansas City has moved from the first generation of smart cities to
+the third through a partnership with Google that has enabled the city to
+leverage its infrastructure for citizen co-creation and entrepreneurship.
+However, cities focused primarily on second-generation smart cities,
+such as Singapore, may struggle to adopt more democratic approaches
+that prioritize citizen participation. To provide the best opportunities for
+the future of cities, city managers should invest in digital infrastructure
+while promoting citizen and urban entrepreneurship co-creation. As
+companies embrace open-source innovation, cities must also embrace
+the innovation ecosystem and provide support for innovation to thrive.
+4. Security and privacy of citizens
+4.1. Strategies for ensuring security in smart cities
+With the ever-increasing usage of the Internet, communication patterns among humans have undergone significant transformations. This
+has resulted in the discovery of a novel and intriguing approach to
+managing and controlling objects by leveraging the Internet and a
+centralized server, which enables individuals to monitor and control
+surrounding objects in real-time (Van der Meer and Van Winden, 2003,
+Wu et al., 2022, Uche et al., 2013, Volkov and Kuzina, 2016, Bicer and
+Dincer, 2018, Nordelof, ¨ Romare, and Tivander, 2019, Rose et al., 2013).
+Establishing robust security protocols necessitates a sophisticated and
+advanced management system. To illustrate, consider a public transportation system, a city’s traffic system, or its street lighting system. In
+such cases, large volumes of data must first be collected, processed, and
+then communicated to operators in the form of commands (Volkov and
+Kuzina, 2016, Bicer and Dincer, 2018, Nordelof, ¨ Romare, and Tivander,
+2019, Rose et al., 2013, Ding et al., 2019). Thus, safeguarding this information from cyber-attacks is of paramount importance. With the
+abundance of information and the extensive use of the Internet, the
+susceptibility of smart cities to cyber-attacks is a pertinent question. City
+officials should not overlook the importance of cyber-security in smart
+cities, as it is one of the fundamental challenges associated with the
+concept (Uche et al., 2013, Volkov and Kuzina, 2016). Weak
+cyber-security can enable hackers and cyber-criminals to infiltrate the
+electronic devices that are connected to the Internet and the infrastructure of a smart city, and potentially wreak havoc in the city.
+Therefore, the security of this data is of immense value. Cyber-attacks
+can pose a severe threat to cities, particularly when the IoTs is
+involved. This can create an intricate and fragile environment, which
+necessitates comprehensive protection (Bicer and Dincer, 2018). The
+smart city movement, the establishment of smart buildings, efficient
+waste collection methods, digitized administrative tasks, high-speed
+internet accessibility, widespread use of electronic devices and smartphones, ride-sharing services, intelligent traffic systems, urban planning, citizen education and participation, smart parking, electric public
+transportation fleets, and similar endeavors have proven to be influential factors (Nordelof, ¨ Romare, and Tivander, 2019). The incorporation
+of such smart technologies and services aims to enhance the quality of
+life for humans, which comprises various dimensions including the sense
+of security in people daily lives. Thus, individuals must employ strategies to ensure their security in smart buildings and cities. Commonly,
+systems such as autonomous vehicles, train control systems, smart
+transportation systems, power supply systems, electricity distribution
+systems, smart measuring systems, and water supply systems are prone
+to cyber-attacks or system disruptions (Rose et al., 2013, Ding et al.,
+2019, Hefnawy, Bouras, and Cherifi, 2016, Kumar, 2020, Marrone and
+Hammerle, 2018).
+4.2. Role of cybersecurity in the development of smart cities
+Disconnecting from the internet is not a viable solution, as the advantages of the internet are too significant to ignore, despite the associated risks. A possible approach to minimizing security issues in future
+smart city initiatives is to consider cybersecurity concerns during the
+design and architecture stages. Security concerns should be prioritized
+in the development and implementation of smart city initiatives (Volkov and Kuzina, 2016). The long-term objective of a smart city is to
+enhance the quality of services provided to citizens and ultimately
+improve their quality of life, facilitated by the development and
+expansion of ICT (Rose et al., 2013). ICT is defined as an umbrella term
+encompassing all advanced technologies, communication methods, and
+data transmission in communication systems. In cities that are at risk
+and difficult to live in, infrastructure has been developed over several
+years to eliminate limitations in terms of scalability, environment, and
+L. Xia et al. 
+Sustainable Cities and Society 98 (2023) 104771
+8
+security while supporting population growth (Ding et al., 2019). However, urban areas currently face complex economic and environmental
+crises, presenting both benefits and challenges to this urban transformation. While a smart city offers benefits such as virtual space services that support citizens with timely and high-quality information,
+responsive transportation, interactive communication with authorities,
+and emergency response systems that can predict and handle disasters,
+among others, it also presents challenges. The economy may face pressure and energy consumption may increase exponentially in smart cities.
+Educational and healthcare systems will require new approaches. Also,
+public security will face further challenges and there is a high potential
+for future cyberattacks against cities (Bicer and Dincer, 2018, Nordelof, ¨
+Romare, and Tivander, 2019, Rose et al., 2013, Ding et al., 2019, Hefnawy, Bouras, and Cherifi, 2016, Kumar, 2020, Marrone and Hammerle, 2018). This situation could lead to further environmental
+destruction if innovative solutions are not adopted. It is necessary to
+reconsider resource access models, transportation, waste management,
+and energy management to address urban issues (Hefnawy, Bouras, and
+Cherifi, 2016). An innovative, intelligent, cost-effective, and scalable
+solutions are required. Six main components underpin most smart city
+models are government, economy, mobility, environment, living, and
+people. All of these components play a crucial role in helping a smart
+city achieve numerous benefits (Kumar, 2020, Marrone and Hammerle,
+2018, Skouby et al., 2014, Martínez-Ballest´e, P´erez-Martínez, and Solanas, 2013, Mora et al., 2018, Bowser et al., 2017). As previously noted,
+a smart city offers numerous solutions to address urban development
+and management challenges. However, the successful implementation
+of smart services is contingent on the use of ICT as a crucial component
+(Bicer and Dincer, 2018, Nordelof, ¨ Romare, and Tivander, 2019, Rose
+et al., 2013). While the integration of ICT presents opportunities, it also
+introduces risks and challenges to urban infrastructure. The citizens are
+increasingly accessing online services, such as emails and online
+banking, via insecure WIFI networks, which exposes them to a variety of
+cyber-attacks, including man-in-the-middle (MITM) and denial of service (DoS) attacks. Additionally, new critical infrastructures of cities are
+vulnerable to attacks, which can disrupt essential services to urban areas
+and industrial sites (Ding et al., 2019, Hefnawy, Bouras, and Cherifi,
+2016). As a result, cybersecurity has become one of the primary features
+used to categorize secure cities worldwide. The SCI is a widely used tool
+that employs over 40 quantitative and qualitative indicators based on
+four categories, including digital security, health security, infrastructure
+security, and personal security. The collection and utilization of personal data in smart cities may pose various privacy risks for individuals,
+including surveillance and tracking through technologies like CCTV
+cameras and location-based services, data breaches, a lack of transparency and consent, and discrimination and bias in AI algorithms.
+These risks can significantly impact individuals by compromising their
+privacy, leading to discrimination and possible harm from data
+breaches. To mitigate these risks, several measures can be taken, such as
+implementing robust data protection policies, empowering individuals
+by providing control over their personal data, incorporating
+privacy-by-design principles into smart city system development,
+increasing transparency and awareness of data collection and usage, and
+developing ethical AI frameworks to address potential bias and
+discrimination. By implementing these measures, smart cities can
+leverage data-driven technologies while safeguarding individuals’ privacy rights.
+To maintain security standards, real-time monitoring and data
+acquisition systems, such as Supervisory Control and Data Acquisition
+(SCADA) platforms, should be updated to address vulnerabilities and
+potential infiltration and attacks (Ding et al., 2019, Hefnawy, Bouras,
+and Cherifi, 2016, Kumar, 2020). In the e-government section, system
+processes are implemented using electronic media. E-government enables citizens to perform their civic and social responsibilities through
+web portals. The primary objectives of e-government services include
+providing access to all informational services through official
+government websites, efficient coordination across government
+agencies, flexible communication methods for citizens, and efficient
+service delivery (Marrone and Hammerle, 2018).
+The healthcare sector can benefit from internet-connected smart
+devices, particularly in smart cities, to deliver useful services (Skouby
+et al., 2014, Martínez-Ballest´e, P´erez-Martínez, and Solanas, 2013). The
+result of healthcare services is to improve the health of individuals by
+providing access to a diverse range of healthcare facilities. Public health
+professionals often require access to patients’ medical records through
+connected devices anytime and anywhere, particularly in circumstances
+where physical presence is unfeasible or in times of unpredictable disasters (Mora et al., 2018, Bowser et al., 2017).
+4.3. Role of cybersecurity and E-government in the development of smart
+cities
+Remote healthcare delivery can be made possible using smart devices, which are wirelessly connected to health centers and a data analytics system. Nonetheless, there are numerous obstacles in
+implementing healthcare services, including coordination among
+healthcare providers, insurance rights in case of errors or mistakes, high
+energy consumption by new healthcare devices, communication between hospitals requiring common languages or new protocols, highquality compatible systems, and standardization of processes
+(Martínez-Ballest´e, P´erez-Martínez, and Solanas, 2013, Mora et al.,
+2018, Bowser et al., 2017, Bowser et al., 2014). In the development of
+new architectures, ensuring safety and reliability through effective and
+reliable security techniques is of utmost importance. Furthermore, it is
+imperative to establish an ethical framework that emphasizes the benefits of the internet for humanity. This can incentivize companies to
+produce intelligent and pervasive products, mitigate new issues, and
+ensure global connectivity, cyber security is a viable solution to achieve
+this goal (Maaß, 2011, Parkin and Paul, 2011). In recent decades, cyber
+security has evolved to become a critical component of data protection.
+Initially, cities sought to fortify their systems. However, the cloud is now
+considered a safer option due to the presence of 24/7 security experts
+who possess advanced skills in monitoring, identifying, and preventing
+attacks (Calzada, 2022). The integration of services has resulted in an
+increased number of vulnerabilities created by data exchanges, making
+data security more important than ever. Over the years, the frequency of
+threats to privacy and cyber-attacks has steadily increased, leading to a
+significant rise in cyber-attacks on data and physical assets (Hallinan,
+Friedewald, and McCarthy, 2012). However, for smart cities to thrive,
+this connection must be executed safely. Smart cities’ developers and
+planners face a critical challenge in cybersecurity, as the integrated
+environment presents inherent risks (Maaß, 2011, Parkin and Paul,
+2011, Calzada, 2022). Although the cybersecurity industry comprehensively understands the measurement and mitigation of cyber attacks’
+impact on non-smart city infrastructures, knowledge about attacks on
+smart cities’ potential impact is limited. An attack on smart city infrastructure can result in cascading effects that impact other parts of the
+city, country, or beyond, with non-linear effects often exceeding the
+initial direct damage. Such attacks may reveal hidden dependencies
+between different components of the city, disrupting systems believed to
+be separate from the point of impact (Hallinan, Friedewald, and
+McCarthy, 2012). When creating these highly interconnected environments, flexibility is a fundamental concept that must be considered.
+Urban planning should use resilience as a cornerstone to enhance
+resilience and maintain flexibility for future advancements (Reidenberg, 2014). The cost of not investing in cybersecurity can be much
+higher than investing, with potential damages reaching billions of euros.
+City leaders recognize the impact of cyber incidents, extending beyond
+data loss to financial losses, damage to reputation, decreased social
+trust, and disruption to critical city services and infrastructure (Hiller
+and B´elanger, 2001). The rapid evolution of technical innovation in
+smart city programs necessitates the awareness of privacy, data
+L. Xia et al. 
+Sustainable Cities and Society 98 (2023) 104771
+9
+protection, and digital infrastructure flexibility for efficient city operations and resident safety. The lack of privacy awareness can lead to an
+increase in distrust and vulnerability to cyber-attacks (Igo, 2018).
+However, in many cities, only high-level managers and officials possess
+a high level of cybersecurity awareness, which creates a significant risk
+of cyber-attacks and an inability to cope with them among the majority
+of people. The mutual nature of smart cities requires stronger public
+awareness than security frameworks in smart infrastructures (Bicer and
+Dincer, 2018, Nordelof, ¨ Romare, and Tivander, 2019, Rose et al., 2013).
+4.4. Risk reduction and security in the era of deepfakes and cyberattacks
+Forrester revealed that deepfake-based attacks using AI that produce
+convincing audio and video at a fraction of the production cost should be
+expected. To reduce the risk, information technology departments must
+invest more in educational and awareness programs (Brook, 2013,
+Ackerman et al., 2014, Bughin, Byers, and Chui, 2011, Hagen and
+Robertson, 2010). The absence of independent cybersecurity units and
+departments in a connected city can act as a barrier to achieving higher
+levels of cyber stability and privacy awareness. Despite the inclusion of
+high-volume data management and exchange in many smart city plans,
+the responsibility for securing these digital operations usually lies with
+local government and municipal information technology departments,
+which can limit the effectiveness of cyber risk management within the
+city (Bowser et al., 2017, Bowser et al., 2014, Maaß, 2011). Moreover,
+increasing connectivity requires a better risk response system to maintain digital confidentiality and prompt event management, both of
+which are vital elements in the smart city ecosystem. Service disruptions
+can be harmful and even life-threatening in some cases; therefore,
+effective and comprehensive awareness-raising programs are necessary
+to ensure the success of smart city initiatives. Foundational principles
+such as a zero-trust model, transparency and privacy, regulations and
+compliance, granular segmentation, risk-based identity, and flexibility
+are crucial to achieving this objective (Bowser et al., 2014, Maaß, 2011,
+Parkin and Paul, 2011, Calzada, 2022, Hallinan, Friedewald, and
+McCarthy, 2012, Reidenberg, 2014, Hiller and B´elanger, 2001). As cities
+strive towards cybersecurity, they must focus on three major objectives
+such as national management of smart cities that combines advanced
+infrastructure with dense and high-speed connections, provision of new
+economic opportunities and urban life facilities, and reduction of potential disruption risks (Dameri, 2017, Nam and Pardo, 2011, Eremia,
+Toma, and Sanduleac, 2017, Alawadhi et al., 2012, Zubizarreta, Seravalli, and Arrizabalaga, 2016). This risk reduction requires a professional, systematic, and long-term approach to security, which the
+government can achieve by developing regular policies, guidelines, and
+cybersecurity tools to protect critical infrastructures. Professionals
+responsible for securing smart cities are concerned with the possibility of
+disruptions, as these cities function as defensive ecosystems. Smart city
+construction, however, presents a double-edged sword with both risks
+and defensive and self-healing properties (Hallinan, Friedewald, and
+McCarthy, 2012, Reidenberg, 2014). While dense connections may
+enable destructive agents to move quickly, defensive countermeasures
+can operate at the same speed and leverage insights and views provided
+by numerous individuals and devices connected to the smart city (Hiller
+and B´elanger, 2001, Igo, 2018, Chatterjee, Kumar Kar, and Gupta, 2018,
+van de Pas and van Bussel, 2015, Craigen, Diakun-Thibault, and Purse,
+2014).
+4.5. Strategies for governance, data management, and citizen
+empowerment
+A smart city should be designed to encourage the organic and digital
+organization and empowerment of its inhabitants for security, as it is a
+living organism. Restarting with stability that is designed with cyber
+resilience in mind is crucial. Although the concept of sustainability is
+well-understood in protecting critical infrastructures, it comes at a cost.
+Sustainable infrastructures and technologies must have the ability to
+adapt to changing circumstances and provide the necessary tools for
+identifying, protecting against, detecting, and responding to threats
+(Selwyn et al., 2003, Kirschner and Selinger, 2003, Giannopoulos, 2004,
+Yusuf, 2005, Golding, 2000, Chui, Vasant, and Liu, 2019). To achieve
+three objectives, cities must consider several factors, including synchronization with a cyber strategy to enable flexibility, governance that
+is transparent with cyber and data accountability, and the creation of an
+innovative and collaborative culture. Cities need to define a precise
+cyber security strategy that aligns with their broader smart city strategy
+and reduces risks resulting from continuous convergence, collaboration,
+and interoperability of city systems and processes (Van der Meer and
+Van Winden, 2003). In addition, cities should regularly and comprehensively evaluate their cyber data, systems, and assets to identify,
+assess, and mitigate risks in their technology processes, policies, and
+solutions. Moreover, cities should adhere to the principles of cyber security by designing and formalizing a governance approach to data,
+assets, infrastructure, and other technology components, defining a
+comprehensive governance model that outlines responsibilities and
+roles for each vital component in the smart city ecosystem (Gaisina et al.,
+2015, Moos, 2009, Leibetseder, 2011). Data management, including
+data sharing and privacy protection policies, data analytics skills, and
+revenue models that facilitate the sourcing and use of city data, is a
+critical aspect of governance (Bicer and Dincer, 2018, Nordelof, ¨ Romare,
+and Tivander, 2019, Rose et al., 2013, Ding et al., 2019, Hefnawy,
+Bouras, and Cherifi, 2016). To address the persistent cyber skills gap,
+cities must be proactive and innovative in their approaches, utilizing
+non-traditional methods such as crowdsourcing, prizes, and competitions to discover and cultivate cyber talents. Furthermore, cities must
+develop new skills and competencies at various levels of their ecosystems to keep up with the demands of a smart city, and can also enhance
+their existing capabilities by forming strategic partnerships and
+outsourcing agreements with service providers (Uche et al., 2013). In
+addition to these measures, regulatory frameworks must be harmonized
+and continuously synchronized with policies, legislation, and technology to strike a balance between protection, privacy, transparency, and
+profitability. In the management of cybersecurity for smart cities, it is
+essential to adopt a specific tool capable of managing the complex regulatory framework and automating the collection process to comply
+with a wide range of regulations (Volkov and Kuzina, 2016). This tool
+must provide daily support to the Chief Information Security Officer
+(CISO) and serve as a platform to consolidate disparate smart systems
+into a comprehensive view of total security. This unified cyber risk
+management program must span the entire life cycle of the smart
+ecosystem, including government, vendors and third parties, lawmakers, security organizations, and citizens, and be developed with a
+focus on security and stability (Ding et al., 2019). Enhancing cyber city’s
+privacy through public events: The inhabitants are crucial stakeholders
+in securing a cyber city. To foster trust in current initiatives and promote
+responsible behavior in data sharing and risk management, it is necessary to have informed citizens (Hefnawy, Bouras, and Cherifi, 2016).
+Japan has been actively working on improving its cybersecurity measures since the announcement of the 2020 Olympic Games, with a focus
+on public-private partnerships, workforce development, cybersecurity
+exercises, and innovation. Singapore has implemented a comprehensive
+cybersecurity strategy that includes a dedicated government agency, the
+Cyber Security Agency (CSA), and the Personal Data Protection Act
+(PDPA) to protect citizens’ personal data. Barcelona has implemented
+the "Decidim" platform, a participatory democracy platform that incorporates privacy-by-design principles and established a privacy and
+data protection office to oversee data protection efforts.
+4.6. Case studies from Tokyo and Toronto
+Tokyo has also invested in digital security and has been recognized as
+one of the world’s top cities in terms of accessibility and security (Bicer
+L. Xia et al. 
+Sustainable Cities and Society 98 (2023) 104771
+10
+and Dincer, 2018, Nordelof, ¨ Romare, and Tivander, 2019, Rose et al.,
+2013, Ding et al., 2019, Hefnawy, Bouras, and Cherifi, 2016). Japan’s
+efforts in cybersecurity show a commitment to promoting innovation
+and economic growth while ensuring the safety and security of its citizens and visitors. The city of Toronto has prioritized the development of
+its cybersecurity in response to threats and attacks, following a recommendation from the Auditor General (Riffat, Powell, and Aydin, 2016,
+Sallis et al., 2016, Jameson, 2003). Presently, the city employs network
+protection technology and cybersecurity measures to safeguard its
+infrastructure and assets. A cybersecurity program was established by
+the city in 2017, which underwent review and expansion in 2019
+(Morozov and Bria, 2018, Angelidou, 2017, Komninos, 2007). To
+manage cyber risks and enhance existing cyber defense, the city has
+appointed a CISO who is responsible for developing a cybersecurity
+strategy. Canada is currently experiencing a dearth of cybersecurity
+professionals, and to address this issue, the University of Toronto has
+collaborated with five other Canadian universities to explore the feasibility of creating a cybersecurity operations center for higher education
+in Canada (Kim, Ramos, and Mohammed, 2017, Kirimtat et al., 2020,
+Al-Hader et al., 2009, Cardullo, Di Feliciantonio, and Kitchin, 2019,
+Morozov and Bria, 2018). The city of Toronto also hosts additional
+initiatives such as Catalyst Cyber Accelerator to capitalize on the
+cybersecurity ecosystem and cultivate expertise. Market conditions, and
+financial resources, Toronto is well-positioned to become a global leader
+in cybersecurity, both independently and as part of the Ontario Global
+Security Hub. Toronto ranked sixth on the Economist SCI in 2019 (Chui,
+Vasant, and Liu, 2019). As the world becomes more interconnected, the
+importance of privacy has become increasingly prominent. The initial
+excitement surrounding the concept of a smart city was met with strong
+backlash from citizens due to privacy concerns, resulting in the termination of projects such as the Alphabet Sidewalk Lab and the transformation of Toronto’s waterfront in 2020. Despite attractive ideas for
+smart buildings, self-driving vehicles, and advanced wooden towers
+aimed at making housing more affordable, the project failed to persuade
+the public of the benefits of sensors and surveillance, instead creating
+fear and suspicion regarding privacy and surveillance (Uche et al., 2013,
+Volkov and Kuzina, 2016, Bicer and Dincer, 2018). While the ultimate
+goal was to provide benefits to the public, the inability to establish trust
+and the lack of transparency were cited as reasons for the project’s
+abandonment, highlighting the need for local authorities to strike a
+balance when implementing smart city projects. Toronto has presented a
+new vision for the area to replace the Sidewalk Lab project, emphasizing
+initiatives driven by citizens and the community (Skouby et al., 2014).
+5. Supervision and regulation with the support of AI
+5.1. Impact of AI on society: debates on privacy, economy, and security
+The impact of AI on society is subject to debate, with privacy being
+the primary concern (Martínez-Ballest´e, P´erez-Martínez, and Solanas,
+2013, Mora et al., 2018, Bowser et al., 2017). Other important issues
+include the effects of AI on the economy and future jobs. AI’s use in
+predictive surveillance cameras and policing is scrutinized from social,
+ethical, and geopolitical perspectives. It is noteworthy that the value of
+technology hinges on its use; technologies are neither good nor bad. It is
+humans who establish trust, and then technology is utilized in that same
+setting (Bowser et al., 2014). Recently, the use of AI in security has
+increased, leading to innovative services in the police force. Communication between citizens and police has improved with AI, building
+trust between the two parties (Maaß, 2011). Furthermore, the prospect
+of using and developing AI-based image-processing solutions has grown.
+A Deloitte report from 2018 demonstrates a 30-40% decrease in urban
+crime and a 20-35% reduction in emergency response times due to AI’s
+use (Parkin and Paul, 2011). The report also suggests that cities are
+investing in real-time crime detection, population management, and
+gunshot detection (Calzada, 2022). The concept of surveillance and the
+use of surveillance cameras is not novel. However, cities are now seeking
+predictive crime capabilities by analyzing surveillance data through AI
+to enhance security (Hallinan, Friedewald, and McCarthy, 2012, Reidenberg, 2014). Although cities have been recording images for surveillance purposes, AI can enable faster image analysis and processing,
+facilitating the analysis of voluminous data for crime detection, crime
+pattern recognition, and the correlation between events that lead to
+crime (Hiller and B´elanger, 2001). The primary objective of this
+approach is to create a security system capable of detecting terrorist
+networks, crimes, and suspicious activities while assisting in creating a
+more efficient judicial system. Furthermore, cities are also investigating
+the utilization of AI and surveillance cameras for other purposes (Igo,
+2018).
+5.2. AI surveillance in urban settings: balancing security and privacy
+Paris is leveraging AI and cameras in its metro system to monitor
+citizens wearing masks, not for punishing them but for predicting the
+spread of COVID-19. Although facial recognition by AI raises ethical
+concerns, pursuing these objectives while respecting personal privacy
+and citizens’ freedom remains an open question. Experts assert that
+developing an AI system that is ethical and regulatory for all applications is nearly impossible due to the complexity of applications (Chatterjee, Kumar Kar, and Gupta, 2018, van de Pas and van Bussel, 2015).
+Therefore, all AI uses and advancements in surveillance cameras must be
+reviewed and discussed from an ethical and legislative perspective, even
+if their added value is significant.
+Ethical considerations are of utmost importance in smart city
+research, given the significant implications of the large-scale data
+collection and analysis involved. These considerations include privacy,
+security, social equity, and environmental impact. Researchers must
+ensure that their work upholds ethical principles and protects the rights
+and well-being of citizens. Specifically, they should prioritize privacy by
+anonymizing collected data and obtaining informed consent from participants. Security should also be a top concern, and researchers should
+implement appropriate measures, such as encryption and access controls, to prevent unauthorized access. Social equity is another crucial
+factor, and researchers should ensure that their work does not contribute
+to or worsen social inequalities. Finally, researchers must consider the
+environmental impact of smart city initiatives and explore ways to
+mitigate any adverse effects. By prioritizing ethical considerations, researchers can contribute to the development of smart cities that are
+equitable, sustainable, and beneficial for all citizens. Predictive policing
+through AI has been highly controversial in Western countries to the
+extent of being banned in some US cities. However, Asia has implemented this concept as revealed by a study conducted by Deloitte, which
+demonstrates a significant difference (Craigen, Diakun-Thibault, and
+Purse, 2014). The integration of AI in urban surveillance systems has the
+potential to benefit cities and their citizens. The primary objective is to
+establish safer cities with lower crime rates by employing predictive
+policing techniques to prevent crime. It is widely accepted that prevention is better than cure, and this approach is particularly effective in
+enhancing the safety of both the city and its inhabitants (Carley, 2020,
+Elmaghraby and Losavio, 2014). Vancouver’s police department in
+Canada has implemented predictive models to identify areas with a high
+risk of crime and deployed police forces to those areas, preventing crime
+from happening. The second objective is to provide support for law
+enforcement and other organizations as police stations often face staff
+shortages, making it difficult to manage densely populated areas (Baig
+et al., 2017). AI-based resources can aid law enforcement agencies in
+monitoring all environments and areas at a lower cost without human
+intervention. Moreover, AI can be utilized in surveillance cameras to
+identify behaviors that pose a risk to citizens’ health and the environment, thereby enabling local governments and municipalities to take
+necessary precautions (AlDairi, 2017). The third target is to establish an
+integrated relationship among various urban sectors in cities where the
+L. Xia et al. 
+Sustainable Cities and Society 98 (2023) 104771
+11
+police, firefighting, and emergency services employ distinct communication systems. By leveraging AI, organizations that need to intervene
+can quickly identify the affected area through image analysis and
+receive real-time notifications. Such a unified communication system
+would lead to a reduction in response time and mitigate further damage
+and losses (Chen, Wawrzynski, and Lv, 2021). The fourth objective is to
+safeguard the lives of officers and security guards. Emerging technologies, such as AI and smart robots, can aid in predicting and preventing
+crime and thus protect the lives of officers. The fifth objective is to lower
+medical and insurance expenses, which are typically higher in high-risk
+cities where casualties are also more prevalent (Efthymiopoulos, 2016).
+Using predictive monitoring, human losses can be averted, and medical
+and health insurance costs can be reduced. Despite the benefits of
+incorporating AI into surveillance systems, the most significant challenge is balancing security interests with citizens’ civil liberties (Young,
+Thompson, and Taylor, 1991). The subject lacks universal support due
+to concerns over privacy and freedom. In 2020, predictive police
+methods were banned in Santa Cruz and New York. Hence, cities must
+enact strong laws to safeguard their citizens’ data, and the use of AI in
+surveillance systems must be transparent and founded on privacy and
+freedom principles (Carley, 2020, Elmaghraby and Losavio, 2014, Baig
+et al., 2017). It is imperative to identify and address shortcomings and
+necessary modifications in-laws about the issue at hand. The laws should
+ensure the protection of citizens’ civil liberties to foster a trustworthy
+environment for implementing such concepts (Young, Thompson, and
+Taylor, 1991, Hahn, Robert, and Jezior, 1999).
+5.3. Ethical considerations and AI in security and surveillance systems
+The formation of a review committee is necessary to scrutinize
+various applications from ethical and civil liberties perspectives. The
+committee members should comprise experts in policy-making, citizen
+representatives, technical experts, and social representatives. Ethical
+considerations in the use of AI in surveillance and security systems
+should encompass three areas: justice, equality, and inclusivity (Maaß,
+2011). To prevent instances of discrimination in algorithms, it is crucial
+to establish mechanisms for reviewing and rendering AI algorithms
+transparent. AI’s use in criminal detection endeavors to eliminate bias in
+judgments; hence, successful implementation necessitates a system that
+explicates the algorithms (Parkin and Paul, 2011, Calzada, 2022, Hallinan, Friedewald, and McCarthy, 2012). Code developers or authors
+may have introduced bias, and using personal data poses significant
+challenges to trust, citizenship, and personal rights. Therefore, it is
+recommended that priority be given to using environmental data for
+comparison, as using personal data presents ethical dilemmas. Cities
+should primarily rely on environmental data collected through sensors
+and IoT devices, which does not necessitate anonymization procedures
+(Chen, Wawrzynski, and Lv, 2021). The use of IoT devices for collecting
+environmental data is simpler and does not entail restrictions related to
+personal data. To effectively utilize AI systems in security matters, it is
+crucial to establish trust between law enforcement officials and citizens.
+This requires close collaboration between the two parties (Young,
+Thompson, and Taylor, 1991, Hahn, Robert, and Jezior, 1999, Raper,
+Gartner, Karimi, and Rizos, 2007, Lai, Yeung and Celi, Holguín-Veras
+et al., 2020, Zhou et al., 2002, Giannopoulos, 1989). The trust serves as a
+foundational element for the deployment of AI systems. Therefore, it is
+recommended that cities take measures to enhance trust by involving
+citizens in the process of developing and legislating these systems. The
+perceptions of the public regarding data collection and processing are
+particularly important. Furthermore, to fully harness the potential of AI
+in the judicial system, urban governments must incorporate organizational culture with digital changes. This entails a fundamental shift in
+the way organizations operate to align with technological advancements
+(Hahn, Robert, and Jezior, 1999, Raper, Gartner, Karimi, and Rizos,
+2007). Singapore has emerged as a leading nation in the adoption of AI
+for security and monitoring purposes. Currently, AI is utilized in various
+systems across Singapore, including the police force, border surveillance, and urban security. The Singapore Civil Defense Force (SCDF) has
+integrated drones into its operations, including fire tracking, surveillance, and search and rescue missions. Additionally, the Ministry of
+Home Affairs employs drones for aerial monitoring of public events,
+such as the New Year’s Eve celebration (Lai, Yeung and Celi).
+5.4. AI applications in security and crime prevention
+To further improve information collection, the Singapore Police
+Force (SPF) plans to incorporate wearable technologies, such as smart
+glasses with video feeds, which are expected to perform real-time video
+analysis, including facial recognition (Raper, Gartner, Karimi, and Rizos,
+2007, Lai, Yeung and Celi). Furthermore, in response to the COVID-19
+pandemic, the Singaporean government has implemented various
+AI-powered initiatives, such as the Vigilant Gantry system, which
+automatically displays people’s temperatures using a camera and thermal scanner. Additionally, the government has increased the number of
+available thermal scanners to enhance the speed of contactless scanning
+(Holguín-Veras et al., 2020). Within Singapore’s national AI strategy,
+consisting of five key areas: transportation, smart cities, healthcare,
+education, safety, and security, the government aims to position
+Singapore as a leading developer and implementer of scalable and impactful AI solutions by 2030. As part of this vision, the government has
+proposed two AI-based security improvement projects (Bowser et al.,
+2014, Maaß, 2011, Parkin and Paul, 2011, Calzada, 2022). Firstly, a
+drowning detection system utilizing computer vision technology in 27
+swimming pools will be implemented by 2021. Secondly, an AI-assisted
+border clearance operation aimed at increasing security screening by
+evaluating passengers’ risk profiles before arriving at inspection stations
+(Calzada, 2022, Hallinan, Friedewald, and McCarthy, 2012, Reidenberg, 2014, Hiller and B´elanger, 2001). These projects will rely on
+various AI technologies such as machine learning, computer vision,
+cognitive systems, and AI (Chui, Vasant, and Liu, 2019, Van der Meer
+and Van Winden, 2003, Wu et al., 2022, Uche et al., 2013, Volkov and
+Kuzina, 2016, Bicer and Dincer, 2018). The AI system is capable of
+identifying patterns and connections among multiple crimes and predicting the next move of a criminal, based on data related to each crime.
+The deep learning algorithm of the system enables real-time training and
+access to police statistics and other relevant crime details, such as time,
+location, weather, and geography. Moreover, there are plans to extend
+the system’s scope by allowing AI to analyze social media for identifying
+specific individuals or areas that may be associated with criminal activity (Hahn, Robert, and Jezior, 1999). This platform is accessible
+through smartphones and computer browsers, providing users with a
+visual display of safety levels at specific locations and times (Efthymiopoulos, 2016). By making crime data more accessible and transparent, the Crime Radar app has contributed to improving safety for
+citizens and has led to a reduction in crime rates by 30 to 40% in the
+area.
+6. Components in urban operations
+6.1. AI and digital platforms: revolutionizing urban operations and
+decision-making
+Numerous technologies and solutions have played a crucial role in
+the creation and development of bustling cities. Currently, AI is
+emerging and expanding as an integral part of the functioning systems of
+cities (Young, Thompson, and Taylor, 1991). The deployment of machines and devices that continuously work towards accomplishing the
+various operations and tasks that are the responsibility of cities is
+increasingly becoming more intelligent with the integration of AI
+(Hahn, Robert, and Jezior, 1999). The optimization of these operations
+by AI would enable not only citizens but also city managers to benefit
+from providing services in a new and improved manner. Raper et al.
+L. Xia et al. 
+Sustainable Cities and Society 98 (2023) 104771
+12
+(Raper, Gartner, Karimi, and Rizos, 2007) predicted that by 2021, at
+least 30% of government service interactions would be conducted
+through AI (Raper, Gartner, Karimi, and Rizos, 2007). However, the
+2021 ESI Thought Lab report shows that AI investments are happening
+at much higher levels (Raper, Gartner, Karimi, and Rizos, 2007, Lai,
+Yeung and Celi). Among the 167 cities examined in the report, 66% have
+made significant investments in AI. Although chatbots are currently the
+most common AI-based solution, cities are expected to be equipped with
+a digital platform that will serve as the central and intellectual core of
+the city (Holguín-Veras et al., 2020). This platform will analyze all urban
+activities and operations and expand the city’s perspective on urban
+issues, enable rapid and easy prediction of issues, and help identify
+dependencies, providing planners with better decision-making capabilities (Zhou et al., 2002). The integration of new technologies such as 5G
+will facilitate the creation of extensively connected cities where the
+behavior of citizens can be transformed into stored anonymous data that
+can be analyzed using AI. The analysis of this data would help improve
+decision-making for the city and its citizens. Deploying an urban platform for managing city operations is considered a viable solution for
+cities (Giannopoulos, 1989, Yeh, 1999). Cities are poised to undergo
+digital transformation by adopting innovative technologies such as
+cloud computing, the IoTs, and digital twins, supported by comprehensive perspectives, proper data management, and infrastructure.
+Digital twins are digital versions of a city’s environment and physical
+assets, used for urban planning purposes. The digital twins of cities, such
+as those of Dublin and Singapore, can provide various benefits such as
+simulating natural disasters, predicting and planning responses to them,
+and exploring the effects of greenery on pedestrian walkways (Parkinson, Tayler, and Mark, 2007).
+6.2. Emergence of digital twins and AI in urban operations and decisionmaking
+The concept of digital twins will become a crucial factor for datadriven decision-making, as predicted by the ABI Institute, which projects that the number of digital twins will surpass 500 by 2025 (Mutikanga, Sharma, and Vairavamoorthy, 2011). By leveraging big data
+analytics and machine learning, cities can gain a better understanding of
+ongoing developments and become better prepared to adapt to a dynamic environment. Urban operations powered by AI gather data from
+various sensors and devices, enabling quick and automated identification and rectification of system errors, and preventing potential breakdowns (Medby and Glenn, 2002). Furthermore, cities can continuously
+learn and respond to the needs of their stakeholders by regularly
+assessing data. In light of the COVID-19 pandemic, many cities
+acknowledged that timely access to data and its analysis is critical for
+effective city management. Data collected from connected devices and
+AI-driven applications are analyzed and processed, providing relevant
+officials with insights into the city’s developments (Yeh, 1999, Parkinson, Tayler, and Mark, 2007, Mutikanga, Sharma, and Vairavamoorthy,
+2011, Medby and Glenn, 2002). Fig. 3 shows twelve areas of future cities
+that are crucial for creating sustainable, livable, and innovative urban
+environments that meet the needs of citizens. These areas are interconnected and require a multidisciplinary approach to achieve success.
+By analyzing images from traffic cameras, cities can identify and
+penalize high-risk drivers and predict crime hotspots in different areas.
+The efficacy of AI-based security measures is evident in a report by smart
+city (Freire and Stren, 2001, Zhou, Liu, and Wang, 2012, Tortonesi et al.,
+2016, Mohanty, Choppali, and Kougianos, 2016, Burke and Zvarikova,
+2021, Carrion, ´ Huerta, and Barzallo, 2018). The municipal services and
+AI technology has emerged as a promising technology that can aid in
+improving efficiency and automation at scale. Seoul city has implemented smart cameras and image analysis at metro stations to adjust
+train speeds in response to the volume of passengers at each station
+(Raper, Gartner, Karimi, and Rizos, 2007, Lai, Yeung and Celi, Holguín-Veras et al., 2020). Likewise, Sao ˜ Paulo city utilizes AI and big data
+to predict air pollution levels by aggregating data from mobile phones,
+air quality, traffic, and pollution sensors, enabling the city to forecast
+pollution levels for the next 24 to 48 hours. The use of AI in gathering
+feedback from citizens has also proven effective in enhancing the relationship between people and their government (Zhou, Liu, and Wang,
+2012). By aggregating data from various sources such as businesses,
+citizens, and tourists and analyzing their correlations and effects, city
+planners can make more informed decisions and engage in long-term
+planning (Tortonesi et al., 2016). The importance of AI-based urban
+operations for citizens is further elaborated in Fig. 4.
+Fig. 4 provides a more detailed representation of the importance of
+AI-based urban operations for citizens, illustrating how the implementation of AI-based systems and technologies can result in numerous
+benefits for individuals. These advantages encompass augmented safety
+and security, heightened efficiency and productivity, improved environmental sustainability, and an elevated quality of life. AI can be utilized in urban surveillance systems to identify potential security threats
+and enable rapid emergency response, thus improving citizen safety.
+Additionally, AI-powered transportation systems can optimize traffic
+flow, reduce congestion, and minimize travel time for commuters,
+resulting in enhanced efficiency and productivity.
+6.3. Data governance and AI for transparent and citizen-centered smart
+cities
+To implement AI, cities must first establish a suitable model for data
+governance, which is a critical step. City stakeholders must be aware of
+the location and purpose of their data usage, which can increase public
+trust in the system (Medby and Glenn, 2002, Freire and Stren, 2001,
+Zhou, Liu, and Wang, 2012, Tortonesi et al., 2016, Mohanty, Choppali,
+and Kougianos, 2016). Ensuring transparent, timely, and easily accessible data exchange mechanisms, including financial considerations
+such as blockchain, is also essential. Without an adequate data management model in place, both public trust in the system and the accuracy
+of the data can be severely compromised. Validity of study on smart city
+involves ensuring that research methods and findings are relevant,
+meaningful, and applicable beyond the smart city study. A valid study
+on smart cities would use research methods that can be replicated in
+other cities and draw conclusions that can be applied to other urban
+contexts. Both accuracy and validity are crucial for ensuring the reliability and credibility of smart cities research. Accurate and valid
+Fig. 3. Twelve areas of future of smart and developed cities.
+L. Xia et al. 
+Sustainable Cities and Society 98 (2023) 104771
+13
+research findings can inform policy decisions, guide urban planning and
+management, and improve the quality of life for citizens. By prioritizing
+accuracy and validity in their research, scholars can contribute to the
+development of smart cities that are sustainable, livable, and responsive
+to the needs of their inhabitants. Raper et al. (Raper, Gartner, Karimi,
+and Rizos, 2007) predicts that by 2030, 30% of active companies in the
+smart city domain will lose public support and popularity due to the lack
+of integrated services and data analysis (Zhou, Liu, and Wang, 2012,
+Tortonesi et al., 2016, Mohanty, Choppali, and Kougianos, 2016).
+Although utilizing data can improve service provision, protecting privacy remains a significant concern. Cities must safeguard citizens’ data
+and reassure them that their data is being used appropriately. To create a
+smart city, one crucial aspect is to ensure the existence of standards that
+guarantee data exchange and facilitate integration and analysis. By
+utilizing APIs for data integration, the effectiveness of smart city platforms can be enhanced, and sub-systems can be put in place to protect
+them (Burke and Zvarikova, 2021). One well-known standard that can
+be utilized in this area is ISO-37120, which is specific to smart cities.
+However, since all AI-based systems rely on algorithms for their performance, it is important to ensure that such algorithms do not cause
+increased discrimination in society, such as by unfairly assigning specific groups or ethnicities (Carrion, ´ Huerta, and Barzallo, 2018). To
+mitigate this risk, having a diverse team working with data can be
+helpful. To enable employees to effectively utilize AI, cities should
+provide them with continuous short-term training courses, and curricula
+for students should be reviewed to prepare them for future employment
+in a world increasingly reliant on AI (Burke and Zvarikova, 2021). The
+new approach to designing future cities places citizens, local businesses,
+and tourists at the center, with all activities geared towards providing
+better services to them. Vienna, Austria became one of the early
+adopters to publish its open data policy document and introduce the
+Vero City platform at 2011 (Mohanty, Choppali, and Kougianos, 2016,
+Burke and Zvarikova, 2021, Carrion, ´ Huerta, and Barzallo, 2018, Burke
+and Zvarikova, 2021). To effectively address the challenges posed by
+smart city security and privacy, it is crucial to take proactive measures to
+anticipate and mitigate potential risks. Such measures may involve
+conducting regular risk assessments to identify potential threats and
+vulnerabilities, implementing strong security and privacy policies and
+procedures, and regularly monitoring and updating systems and
+technologies to ensure their ongoing security and compliance with
+evolving regulations and standards. Additionally, fostering collaboration and coordination among stakeholders, including governments,
+private companies, and citizens, is essential to ensuring that security and
+privacy considerations are prioritized throughout the entire system
+lifecycle. The proliferation of IoT devices, the use of AI and machine
+learning, and the deployment of 5G networks are potential future developments that may impact the security and privacy of smart city environments. Proactive measures can be taken to address these
+challenges, such as implementing strong authentication and access
+control mechanisms, regularly monitoring and updating devices, using
+privacy-preserving techniques for AI and machine learning algorithms,
+and implementing strong encryption and access control mechanisms for
+5G networks.
+The city’s data collection and analysis rely on the European Union’s
+Broker, which can manage data from diverse sources and types. The
+Broker platform offers real-time graphical visualization of data, which
+facilitates urban mobility, environmental monitoring, energy efficiency,
+urban infrastructure management, and other daily activities (Harris,
+2021). By enabling access to data for both managers and citizens, the
+platform has contributed to increased transparency, trust, and citizen
+participation. One notable advantage of the platform is its ease of use, as
+both city managers and ordinary citizens can use data without needing
+to handle raw data (Bennett, Durana, and Konecny, 2020, Evans and
+Horak, 2021). Another recent innovation in Vienna is the Wien-Bot, an
+AI chatbot that answers citizen questions and continuously learns from
+conversations. Wien-Bot can suggest other questions and provide
+pre-prepared answers based on frequently asked questions and relevant
+keywords. Furthermore, Wien-Bot is integrated into the city’s main
+website, where it answers questions and provides various citizen services (Evans and Horak, 2021, Cenedese et al., 2014, Lu, Wang, and Wu,
+2020, Chapman, 2021).
+The questions asked through Wien-Bot are updated and include
+recent issues such as the coronavirus disease. Vienna’s efforts to employ
+technology to manage urban operations have resulted in consecutive
+first-place rankings in the Smart City Strategy Index for two years. Fig. 5
+shows an effective data governance is crucial for the successful implementation of smart cities. This involves establishing an appropriate
+model for data governance, ensuring transparency and accessibility of
+Fig. 4. Reasons why AI-based urban operations are important to citizens.
+L. Xia et al. 
+Sustainable Cities and Society 98 (2023) 104771
+14
+data exchange mechanisms, and implementing standards that guarantee
+data exchange. It is also important for cities to address the risk of
+increased discrimination by promoting diversity in teams and providing
+adequate training. Ultimately, effective data governance is essential for
+maintaining data accuracy, increasing public trust, and ensuring the
+responsible use of data in smart city development. The comparison of
+research studies (Burke and Zvarikova, 2021, Rizi and Seno, 2022,
+Choenni, Bargh, Busker, and Netten, 2022, Redouane and Aissa, 2017,
+Agha et al., 2022, Song, Dian, and Chen, 2023, Salman and Hasar, 2023,
+Cui and Cao, 2022, Abadía, Walther, Osman, and Smarsly, 2022, Zhu,
+Shen, and Ren, 2022, Wu, Xie, and Lyu, 2023, Lnenicka et al., 2022, Al
+Sharif and Pokharel, 2022, Kutty et al., 2022, Adali, Oztas ¨ ¸, Oztas ¨ ¸, and
+Tus¸, 2022, Chithaluru, Al-Turjman, Kumar, and Stephan, 2023, Bes¸tepe
+and Yildirim, 2022, Siokas, Kelaidi, and Tsakanikas, 2022) reveals a
+wide range of topics related to smart cities, highlighting the multidisciplinary nature of this field. One crucial theme that emerges from these
+studies is the significance of effective data governance in smart city
+development. One article (Rizi and Seno, 2022) provides a systematic
+review of technologies and solutions that can enhance the security and
+privacy protection of citizens in smart cities. Similarly, Choenni et al.
+(Choenni, Bargh, Busker, and Netten, 2022) discuss the challenges and
+potential solutions associated with data governance in smart cities.
+Sustainability is another key theme that emerges from the literature.
+Many researchers evaluate the environmental impact of smart city initiatives, focusing on issues such as air pollution, water management, and
+transportation (Redouane and Aissa, 2017, Agha et al., 2022). Song et al.
+(Song, Dian, and Chen, 2023) investigate whether smart city construction can improve carbon productivity. Additionally, Salman et al. (Salman and Hasar, 2023) study the use of IoT techniques for smart
+applications related to water, waste, air pollution, and transportation.
+Several studies also emphasize the importance of public-private partnerships and collaboration between different stakeholders in smart city
+development (Cui and Cao, 2022, Abadía, Walther, Osman, and Smarsly,
+2022, Zhu, Shen, and Ren, 2022, Wu, Xie, and Lyu, 2023, Lnenicka et al.,
+2022, Al Sharif and Pokharel, 2022, Kutty et al., 2022, Adali, Oztas ¨ ¸,
+Oztas ¨ ¸, and Tus¸, 2022, Chithaluru, Al-Turjman, Kumar, and Stephan,
+2023, Bes¸tepe and Yildirim, 2022). Siokas et al. (Siokas, Kelaidi, and
+Tsakanikas, 2022) argue that smart cities can serve as hubs for nurturing
+public-private partnerships. The literature suggests that smart city
+development requires collaboration between various disciplines and
+stakeholders, including government agencies, private companies, and
+citizens. By working together, these stakeholders can create sustainable
+and livable cities that address the challenges of urbanization and provide better services to citizens.
+6.4. Case studies on Cascais and Hong Kong’s AI applications for urban
+services
+To improve the quality and efficiency of its services, particularly in
+areas such as urban security, public transportation, and infrastructure
+management, the city has sought to experiment with innovative solutions (Cenedese et al., 2014, Lu, Wang, and Wu, 2020). It has successfully developed technology-based services, including remote payment
+systems for parking lots and low-consumption buildings. However, the
+lack of a unified approach among urban sectors such as health, education, energy, and others posed a challenge. The city established a digital
+command center named C2, which utilizes the City Synergy operating
+system designed by Deloitte for smart city and digitization purposes (Lu,
+Wang, and Wu, 2020). Cascais has been able to change its model for
+urban operations, resulting in increased efficiency and service quality
+for its citizens. The Cascais urban platform comprises various elements,
+such as citizen participation applications, maps, online dashboards,
+thematic reports, and smart twin cities. The Deputy Mayor of Cascais
+stated that citizens’ desire for the future is a municipality with a predictive management center (Chapman, 2021). To meet this need, the
+Cascais urban platform has data analysis and correlation evaluation
+capabilities, which can aid decision-making and prediction of citizens’
+needs. Another objective is to decrease road operating costs by 40% by
+integrating traffic data and road status (Burke and Zvarikova, 2021, Rizi
+and Seno, 2022, Choenni, Bargh, Busker, and Netten, 2022, Redouane
+and Aissa, 2017, Agha et al., 2022, Song, Dian, and Chen, 2023).
+Furthermore, Cascais has been successful in increasing citizen satisfaction, exemplified by a 30% decrease in water consumption and a 20%
+reduction in electricity consumption. Cascais can serve as a model city
+for other urban centers. In Hong Kong and China, there is a continuous
+effort to develop AI applications in both government and public sectors
+(Tortonesi et al., 2016, Mohanty, Choppali, and Kougianos, 2016, Burke
+and Zvarikova, 2021). The primary focus of Hong Kong is the integration
+of AI in the management of city services, such as utilizing chatbots to
+address citizens’ queries and grievances. Another intended use is the
+incorporation of AI in traffic management, where 80% of the city’s
+traffic routes currently have access to data related to traffic speed and
+volume, which is used to alleviate congestion (Bennett, Durana, and
+Konecny, 2020, Evans and Horak, 2021). Furthermore, Hong Kong is
+well-equipped for emergencies, as it not only possesses remarkable capabilities for collecting traffic data, but it also prepares its sensors for
+water levels, energy consumption, pollution, and landslides. In the
+healthcare sector, AI is utilized to plan the weekly work schedules of
+thousands of nurses in hospitals. Additionally, the city is in the process
+of planning for the deployment of robots within the next 20 years, as a
+third of the population is expected to be over 65 years of age (Evans and
+Horak, 2021, Cenedese et al., 2014, Lu, Wang, and Wu, 2020, Chapman,
+2021, Burke and Zvarikova, 2021). For a considerable period, research
+has focused on the security and privacy of information in smart cities
+across various innovation ecosystem sectors. To provide smart services
+like smart healthcare and smart governance, it is crucial to safeguard
+information transmitted to various internet-connected devices. Ensuring
+information security in a smart city requires the consideration of various
+social, economic, and governance aspects. One such dimension is the
+security of the city, commonly known as a safe city. Safe cities leverage
+technology to aid governments, communities, and businesses in
+reducing the likelihood of crime and creating a secure and comfortable
+environment for citizens. Smart city’s purpose to meet society’s needs in
+Fig. 5. Data governance is critical for the successful implementation of
+smart cities.
+L. Xia et al. 
+Sustainable Cities and Society 98 (2023) 104771
+15
+light of current environmental and social challenges. Protection of the
+community, assets, environment, and information is crucial in a safe
+city. Typically, surveillance systems monitor traffic, transportation,
+public areas, criminal activity zones, social facilities, and residential
+areas in most safe city projects (Burke and Zvarikova, 2021, Harris,
+2021, Bennett, Durana, and Konecny, 2020, Evans and Horak, 2021).
+Rapid urbanization and advancements in ICT are crucial factors that
+influence urban planning and security. Smart cities are becoming
+increasingly popular as a way to improve the quality of life for citizens
+while also addressing a range of environmental, economic, and social
+challenges (Cenedese et al., 2014, Lu, Wang, and Wu, 2020, Chapman,
+2021, Burke and Zvarikova, 2021, Rizi and Seno, 2022). In recent years,
+a variety of technologies and solutions have been developed to improve
+security and privacy protection in smart cities (Rizi and Seno, 2022).
+However, data governance remains a challenge in smart cities, with the
+need for effective solutions to ensure the responsible use of data
+(Choenni, Bargh, Busker, and Netten, 2022). Environmental aspects are
+also a crucial concern in smart city development. An air pollution is a
+major issue for many cities, and studies have investigated the characterization of gaseous pollutants from industrial complexes (Redouane
+and Aissa, 2017). Other studies have explored the use of nanofluids and
+turbulators to enhance solar thermal collectors, and the applications of
+cyclic olefin copolymer in microfluidics and microdevices (Agha et al.,
+2022). Song et al. (Song, Dian, and Chen, 2023) in 2023 described that
+smart city development can also impact carbon productivity, and some
+studies have investigated the relationship between smart city construction and carbon productivity. In addition, the use of IoT techniques
+has been explored to address environmental challenges in smart cities,
+such as water, waste, air pollution, and transportation (Salman and
+Hasar, 2023). The impact of smart city development on environmental
+pollution has also been studied, with evidence from smart city pilots in
+China suggesting that urban digital transformation can have complex
+impacts on environmental pollution (Cui and Cao, 2022). Transparency
+of open data ecosystems is also important for smart city development,
+and some studies have assessed the maturity of transparency in smart
+cities (Abadía, Walther, Osman, and Smarsly, 2022, Zhu, Shen, and Ren,
+2022, Wu, Xie, and Lyu, 2023, Lnenicka et al., 2022). While smart city
+development brings many benefits, there are also associated risks that
+need to be considered. A review of literature has identified various smart
+city dimensions and associated risks (Al Sharif and Pokharel, 2022). The
+sustainability performance of European smart cities has also been
+assessed using novel approaches such as DEA with double frontiers and
+integrated grey MCDM (Kutty et al., 2022, Adali, Oztas ¨ ¸, Oztas ¨ ¸, and Tus¸,
+2022). To ensure the successful implementation of smart city projects,
+public-private partnerships are essential (Chithaluru, Al-Turjman,
+Kumar, and Stephan, 2023). However, the acceptance of IoT-based and
+sustainability-oriented smart city services is not always guaranteed, and
+studies have explored the factors that influence citizens’ acceptance of
+such services (Bes¸tepe and Yildirim, 2022). Siokas et al. (Siokas, Kelaidi,
+and Tsakanikas, 2022) shows that smart city development is a complex
+and multifaceted process that requires careful consideration of a range
+of factors. The studies reviewed here provide valuable insights into the
+challenges and opportunities associated with smart city development,
+and offer potential solutions to address these challenges. This study
+discussed the focuses on the potential security and privacy issues that
+arise from the increasing use of AI and IoT in smart cities which provides
+a comprehensive overview of these issues, including the vulnerabilities
+of smart city technologies to cyber-attacks and other security threats.
+Additionally, the study explores the privacy risks associated with the
+collection and use of personal data in smart cities. Also, this study emphasizes the need for effective security measures and privacy protection
+policies to ensure the safety and security of smart cities. Smart cities are
+increasingly being developed and implemented using advanced technologies to improve the quality of life for citizens. However, the use of
+such technologies raises concerns about data security and privacy.
+Various research studies have been conducted on transportation,
+security, privacy, and data analytics, among other topics (Qin et al.,
+2023, Zhang et al., 2023, Cheng et al., 2022). One study investigated the
+short-term effects of driving restrictions on air quality in urban areas,
+while another explored the use of adversarial perturbation to defend
+against model stealing attacks. Bayesian learning was reexamined for
+data analysis with a focus on prior and inference in sparsity-aware
+modeling (Chen et al., 2022, Cao et al., 2021, Cao et al., 2021). The
+utilization of underground spaces in the central city of Nanjing was
+examined through a dynamic population distribution approach. Physical layer security was enhanced in an uplink non-orthogonal multiple
+access system using energy harvesting jammers, and wireless-powered
+non-orthogonal multiple access systems were developed to achieve
+secure and reliable communications (Yao et al., 2023, Guan et al., 2023,
+Li and Sun, 2020). A defense scheme based on deep reinforcement
+learning was proposed for autonomous vehicle networks to counter
+jamming and eavesdropping attacks, while deep invertible networks
+were utilized for multiple images hiding (Guo et al., 2022, Liu et al.,
+2022, Xiao and Konak, 2016).
+Stock investment strategies were formulated based on support vector
+machine parameter optimization algorithms, and the spatiotemporal
+pattern of perceived urban noise was analyzed using social perception
+data. A new design paradigm for duty-cycling communication was
+introduced, and the heterogeneous green vehicle routing and scheduling
+problem was addressed (Luan et al., 2022, Tan and Li, 2022, Cheng, Zhu,
+Zhao, and Chen, 2016). A robust two-stage location allocation method
+was proposed for emergency temporary blood supply in post-disaster
+settings. In a case study, the current administrative accountability system for work safety accidents in the chemical industry in China was
+examined with a focus on improving accountability. The event-driven
+SOA paradigm was used to achieve situation-aware IoTs service coordination (Liu et al., 2023, Lu et al., 2023, Liu et al., 2023). House vacancy dynamics were monitored using NPP-VIIRS night-time light
+remote sensing images, and multi-modal fusion in visual question
+answering was reviewed with an emphasis on attention mechanisms. As
+such, privacy-by-design solutions are increasingly necessary to address
+these challenges. In recent years, a significant amount of research has
+been conducted to examine security and privacy issues in smart cities. A
+comprehensive survey of cybersecurity, data privacy, and policy issues
+in cyber-physical system deployments in smart cities highlights the
+importance of integrating security and privacy considerations into the
+design of such systems. Several studies have focused on
+privacy-preservation by conceptualizing smart cities using MIDR, which
+entails a multi-level intrusion detection and response system to protect
+privacy. Furthermore, privacy-aware big data analytics as a service has
+been proposed for public health policies in smart cities, which involves
+using anonymization techniques and data de-identification to safeguard
+sensitive information (Badu-Marfo, Farooq, Mensah, and Al Mallah,
+2023, Habibzadeh et al., 2019, Braun, Fung, Iqbal, and Shah, 2018,
+Anjum et al., 2018, Anisetti et al., 2018).
+7. Conclusion
+A smart city utilizes ICT to enhance operational efficiency, share
+independent information within the system, and improve total service
+effectiveness and citizen welfare. The implementation of smart technology and safe cities is often considered a viable solution for various
+urban challenges, such as transportation, waste management, and
+environmental protection. However, security concerns and crime prevention are frequently overlooked. Additionally, researchers seldom
+discuss the implementation of new intelligent security technologies. The
+safe city concept faces challenges such as "control". The enhancement of
+urban safety is a significant undertaking for city developers and can be
+achieved through various means. The first step in this process is to
+identify problems and potential threats, followed by presenting the most
+effective solutions for these problems. The objective of the safe city,
+while preserving citizens’ privacy, is to establish an emergency response
+L. Xia et al. 
+Sustainable Cities and Society 98 (2023) 104771
+16
+plan. All key stakeholders in cities, including police, fire departments,
+emergency medical services, city government, internal security, transit,
+water, and power services, must provide an effective safety or security
+response to any situation that affects citizens or organizations. Initially
+intended as a framework for natural disaster safety, smart safe cities
+have expanded to cover all aspects of safety in the city. Consequently,
+this knowledge can be viewed as part of a smart city or one of its subbranches, which addresses all aspects of safety within the city. The
+implementation of intelligent technologies, serving the purpose of
+safety, creates a SCI. To ensure readiness and prompt response to potential emergencies, a smart and secure city system should possess key
+features, including but not limited to, healthcare systems, intelligent
+traffic systems and routes, smart safety systems for monitoring, search
+and identification, smart crisis management systems for decisionmaking, early warning, monitoring and prediction of emergency and
+environmental conditions, central police units, an integrated rescue
+system (IRS), secure internet connectivity and data protection, data
+processing centers, and cyber security supported by AI. These components can be further divided into interconnected parts, which are connected via the IoTs or other methods, and the system’s level of
+intelligence can be evaluated based on their implementation. With the
+advent of IoT, a smart city encompasses heterogeneous network infrastructures and intelligent information control and processing systems
+that can monitor the physical world in real-time and provide intelligent
+services to residents and travelers in various fields such as transportation, healthcare, environment, entertainment, and energy. However, security and privacy concerns have arisen due to smart city
+applications collecting a broad range of sensitive information on people’s privacy and social gatherings, as well as controlling city facilities
+and impacting people’s lives. This article examines security and privacy
+in urban applications and operations, particularly the characteristics of a
+secure smart city and the challenges of maintaining privacy and security
+with the aid of AI. Some research efforts have been conducted to address
+these privacy and security challenges in smart healthcare, transportation, and smart energy. Ultimately, it is evident that cities across
+the globe are making efforts to transition into smart cities. Safety represents a crucial aspect of urban life quality. Consequently, it can be
+argued that a smart city must also prioritize safety as an integral
+component. Generally, the idea of a smart and safe city involves
+providing a comprehensive platform that supports the implementation
+and integration of surveillance and emergency communication systems.
+However, this concept lacks global acceptance and standardization since
+current approaches vary among cities and offer unique services that
+cannot be readily consolidated at higher levels. Thus, while general
+recommendations can be proposed for cities worldwide, individual
+evaluations and assessments must be conducted for each city based on
+its amenities, lifestyle, climate, urban culture, and citizen
+characteristics.
+7.1. Future perspectives
+The proposed Theory-dependent Innovative Optimization Model
+(TIOM) offers a practical and integrated approach to addressing the
+security and privacy concerns of smart cities. However, there is still
+much work to be done in this area. One important area for future
+research is the development of more effective security measures and
+privacy protection policies that can be implemented by city administrators and policymakers. Additionally, there is a need for further
+research on the potential risks associated with smart city technologies
+and the development of new solutions to address them. Finally, more
+research is needed on the economic and social impacts of smart cities,
+particularly on vulnerable populations.
+Declaration of Competing Interest
+The authors declare that they have no known competing financial
+interests or personal relationships that could have appeared to influence
+the work reported in this paper.
+Data availability
+No data was used for the research described in the article.
+References
+Abadía, J. J. P., Walther, C., Osman, A., & Smarsly, K. (2022). A systematic survey of
+Internet of Things frameworks for smart city applications. Sustainable Cities and
+Society, Article 103949.
+Ackerman, Kubi, et al. (2014). Sustainable food systems for future cities: The potential of
+urban agriculture. The economic and social review, 45(2), 189–206. Summer.
+Adali, E. A., Oztas ¨ ¸, G. Z., Oztas ¨ ¸, T., & Tus¸, A. (2022). Assessment of European cities from
+a smartness perspective: An integrated grey MCDM approach. Sustainable Cities and
+Society, 84, Article 104021.
+Agha, A., Waheed, W., Alamoodi, N., Mathew, B., Alnaimat, F., Abu-Nada, E., …
+Alazzam, A. (2022). A review of cyclic olefin copolymer applications in microfluidics
+and microdevices. Macromolecular Materials and Engineering, 307(8), Article
+2200053.
+Alawadhi, Suha, et al. (2012). Building understanding of smart city initiatives. In
+Electronic government: 11th IFIP WG 8.5 international conference, EGOV 2012,
+Kristiansand, Norway, September 3-6, 2012. Proceedings 11. Berlin Heidelberg:
+Springer.
+AlDairi, Anwaar. (2017). Cyber security attacks on smart cities and associated mobile
+technologies. Procedia Computer Science, 109, 1086–1091.
+Al-Hader, Mahmoud, et al. (2009). Smart city components architicture. In 2009
+international conference on computational intelligence, modelling and simulation. IEEE.
+Al Sharif, R., & Pokharel, S. (2022). Smart city dimensions and associated risks: Review
+of literature. Sustainable Cities and Society, 77, Article 103542.
+Angelidou, Margarita. (2017). The role of smart city characteristics in the plans of fifteen
+cities. Journal of Urban Technology, 24(4), 3–28.
+Anisetti, M., Ardagna, C., Bellandi, V., Cremonini, M., Frati, F., & Damiani, E. (2018).
+Privacy-aware Big Data Analytics as a service for public health policies in smart
+cities. Sustainable cities and society, 39, 68–77.
+Anjum, A., Ahmed, T., Khan, A., Ahmad, N., Ahmad, M., Asif, M., … Farooq, N. (2018).
+Privacy preserving data by conceptualizing smart cities using MIDR-Angelization.
+Sustainable cities and society, 40, 326–334.
+Bacigalupe, Gonzalo. (2011). Is there a role for social technologies in collaborative
+healthcare? Families, Systems, & Health, 29(1), 1.
+Badu-Marfo, G., Farooq, B., Mensah, D. O., & Al Mallah, R. (2023). An ensemble
+federated learning framework for privacy-by-design mobility behaviour inference in
+smart cities. Sustainable Cities and Society, Article 104703.
+Baig, Zubair A., et al. (2017). Future challenges for smart cities: Cyber-security and
+digital forensics. Digital Investigation, 22, 3–13.
+Bakıcı, Tuba, Almirall, Esteve, & Wareham, Jonathan (2013). A smart city initiative: The
+case of Barcelona. Journal of the knowledge economy, 4, 135–148.
+Batty, Michael, et al. (2012). Smart cities of the future. The European Physical Journal
+Special Topics, 214, 481–518.
+Batty, Michael. (2018). Inventing future cities. MIT press.
+Bennett, Sarah, Durana, Pavol, & Konecny, Vladimir (2020). Urban internet of things
+systems and interconnected sensor networks in sustainable smart city governance.
+Geopolitics, History, and International Relations, 12(2), 51–57.
+Bes¸tepe, F., & Yildirim, S.O. ¨ (2022). Acceptance of IoT-based and sustainability-oriented
+smart city services: A mixed methods study. Sustainable Cities and Society, 80, Article
+103794.
+Bicer, Yusuf, & Dincer, Ibrahim (2018). Life cycle assessment of ammonia utilization in
+city transportation and power generation. Journal of cleaner production, 170,
+1594–1601.
+Bowser, Anne, et al. (2014). Sharing data while protecting privacy in citizen science.
+Interactions, 21(1), 70–73.
+Bowser, Anne, et al. (2017). Accounting for privacy in citizen science: Ethical research in
+a context of openness. In Proceedings of the 2017 ACM conference on computer
+supported cooperative work and social computing.
+Braun, T., Fung, B. C., Iqbal, F., & Shah, B. (2018). Security and privacy challenges in
+smart cities. Sustainable cities and society, 39, 499–507.
+Brook, Daniel. (2013). A history of future cities. WW Norton & Company.
+Bughin, Jacques, Byers, Angela Hung, & Chui, Michael (2011). How social technologies
+are extending the organization. McKinsey Quarterly, 20(11), 1–10.
+Burke, Sarah, & Zvarikova, Katarina (2021). Urban Internet of Things systems and data
+monitoring algorithms in smart and environmentally sustainable cities. Geopolitics,
+History & International Relations, 13(2).
+Calzada, Igor, & Cobo, Cristobal (2015). Unplugging: Deconstructing the smart city.
+Journal of Urban Technology, 22(1), 23–43.
+Calzada, Igor. (2022). Citizens’ data privacy in China: The state of the art of the Personal
+Information Protection Law (PIPL). Smart Cities, 5(3), 1129–1150.
+Camero, Andr´es, & Alba, Enrique (2019). Smart City and information technology: A
+review. cities, 93, 84–94.
+Cao, K., Wang, B., Ding, H., Lv, L., Dong, R., Cheng, T., … Gong, F. (2021). Improving
+physical layer security of uplink NOMA via energy harvesting jammers. IEEE
+transactions on information forensics and security, 16, 786–799.
+L. Xia et al. 
+Sustainable Cities and Society 98 (2023) 104771
+17
+Cao, K., Wang, B., Ding, H., Lv, L., Tian, J., Hu, H., … Gong, F. (2021). Achieving reliable
+and secure communications in wireless-powered NOMA systems. IEEE transactions on
+vehicular technology, 70(2), 1978–1983.
+Caragliu, Andrea, & Bo, Chiara F. Del (2019). Smart innovative cities: The impact of
+Smart City policies on urban innovation. Technological Forecasting and Social Change,
+142, 373–383.
+Cardullo, Paolo, Di Feliciantonio, Cesare, & Kitchin, Rob (Eds.). (2019). The right to the
+smart city. Emerald Group Publishing.
+Carley, Kathleen M. (2020). Social cybersecurity: An emerging science. Computational
+and mathematical organization theory, 26(4), 365–381.
+Carrion, ´ Gabriela, Huerta, Monica, & Barzallo, Boris (2018). Internet of Things (IoT)
+applied to an urban garden. In 2018 IEEE 6th international conference on future
+Internet of Things and Cloud (FiCloud). IEEE.
+Cenedese, Angelo, et al. (2014). Padova smart city: An urban internet of things
+experimentation. In Proceeding of IEEE international symposium on a world of wireless,
+mobile and multimedia networks 2014. IEEE.
+Chapman, David. (2021). Environmentally sustainable urban development and internet
+of things connected sensors in cognitive smart cities. Geopolitics, History, and
+International Relations, 13(2), 51–64.
+Chatterjee, Sheshadri, Kumar Kar, Arpan, & Gupta, M. P. (2018). Alignment of IT
+authority and citizens of proposed smart cities in India: System security and privacy
+perspective. Global Journal of Flexible Systems Management, 19, 95–107.
+Chen, Dongliang, Wawrzynski, Paweł, & Lv, Zhihan (2021). Cyber security in smart
+cities: A review of deep learning-based applications and case studies. Sustainable
+Cities and Society, 66, Article 102655.
+Chen, Y., Chen, Z., Guo, D., Zhao, Z., Lin, T., … Zhang, C. (2022). Underground space use
+of urban built-up areas in the central city of Nanjing: Insight based on a dynamic
+population distribution. Underground Space, 7(5), 748–766.
+Cheng, B., Zhu, D., Zhao, S., & Chen, J. (2016). Situation-Aware IoT service coordination
+using the event-driven SOA paradigm. IEEE Transactions on Network and Service
+Management, 13(2), 349–361.
+Cheng, L., Yin, F., Theodoridis, S., Chatzis, S., & Chang, T. (2022). Rethinking Bayesian
+learning for data analysis: The art of prior and inference in sparsity-aware modeling.
+IEEE Signal Processing Magazine, 39(6).
+Chithaluru, P., Al-Turjman, F., Kumar, M., & Stephan, T. (2023). Energy-balanced neurofuzzy dynamic clustering scheme for green & sustainable IoT based smart cities.
+Sustainable Cities and Society, Article 104366.
+Choenni, S., Bargh, M. S., Busker, T., & Netten, N. (2022). Data governance in smart
+cities: Challenges and solution directions. Journal of Smart Cities and Society,
+(Preprint), 1–21.
+Chui, Kwok Tai, Vasant, Pandian, & Liu, Ryan Wen (2019). Smart city is a safe city:
+Information and communication technology–enhanced urban space monitoring and
+surveillance systems: the promise and limitations. Smart cities: Issues and challenges
+(pp. 111–124). Elsevier.
+Craigen, Dan, Diakun-Thibault, Nadia, & Purse, Randy (2014). Defining cybersecurity.
+Technology Innovation Management Review, 4(10).
+Cui, H. Y., & Cao, Y. Q. (2022). Do smart cities have lower particulate matter 2.5 (PM2.
+5)? Evidence from China. Sustainable Cities and Society, 86, Article 104082.
+Dameri, Renata Paola (2017). Smart city implementation. Progress in IS. Genoa, Italy:
+Springer.
+Ding, Lei, et al. (2019). Implementation of the “sponge city” development plan in China:
+An evaluation of public willingness to pay for the life-cycle maintenance of its
+facilities. Cities, 93, 13–30.
+Efthymiopoulos, Marios-Panagiotis. (2016). Cyber-security in smart cities: The case of
+Dubai. Journal of Innovation and Entrepreneurship, 5, 1–16.
+Elmaghraby, Adel S., & Losavio, Michael M. (2014). Cyber security challenges in Smart
+Cities: Safety, security and privacy. Journal of advanced research, 5(4), 491–497.
+Eremia, Mircea, Toma, Lucian, & Sanduleac, Mihai (2017). The smart city concept in the
+21st century. Procedia Engineering, 181, 12–19.
+Evans, Vanessa, & Horak, Jakub (2021). Sustainable urban governance networks, datadriven internet of things systems, and wireless sensor-based applications in smart
+city logistics. Geopolitics, History and International Relations, 13(2), 65–78.
+Falconer, Gordon, & Mitchell, Shane (2012). Smart city framework. Cisco Internet Business
+Solutions Group (IBSG), 12(9), 2–10.
+Fawcett, Stephen B., et al. (1984). Creating and using social technologies for community
+empowerment. Prevention in Human Services, 3(2-3), 145–171.
+Freire, Mila, & Stren, Richard E. (Eds.). (2001). The challenge of urban government: policies
+and practices. World Bank Publications.
+Gaisina, Lyutsiya Mugtabarovna, et al. (2015). Social technologies as an instrument for
+the modernization of social space in the social and labor sphere. Biosciences
+Biotechnology Research Asia, 12(3), 2947–2958.
+Lv, Z., Chen, D., & Lv, H. (2022). Smart City Construction and Management by Digital
+Twins and BIM Big Data in COVID-19 Scenario. ACM Transactions on Multimedia
+Computing, Communications and Applications, 18(2s). doi: 10.1145/3529395.
+Guo, Q., & Zhong, J. (2022). The effect of urban innovation performance of smart city
+construction policies: Evaluate by using a multiple period difference-in-differences
+model. Technological Forecasting and Social Change, 184, 122003. https://doi.org/
+10.1016/j.techfore.2022.122003
+W., Z., Y., S., Y., Z., Q., L., Y., N., T., S.,... L., P. (2022). Limited Sensing and Deep Data
+Mining: A New Exploration of Developing City-Wide Parking Guidance Systems.
+IEEE Intelligent Transportation Systems Magazine, 14(1), 198-215. doi: 10.1109/
+MITS.2020.2970185.
+Giannopoulos, G. A. "Bus planning and operation in urban areas: A practical guide."
+(1989).
+Giannopoulos, Georgios A. (2004). The application of information and communication
+technologies in transport. European journal of operational research, 152(2), 302–320.
+Golding, Peter. (2000). Forthcoming features: Information and communications
+technologies and the sociology of the future. Sociology, 34(1), 165–184.
+Guan, Z., Jing, J., Deng, X., Xu, M., Jiang, L., Zhang, Z., … Li, Y. (2023). DeepMIH: Deep
+invertible network for multiple image hiding. IEEE Transactions on Pattern Analysis
+and Machine Intelligence, 45(1), 372–390.
+Guinan, Patricia J., Parise, Salvatore, & Rollag, Keith (2014). Jumpstarting the use of
+social technologies in your organization. Business Horizons, 57(3), 337–347.
+Guo, L., Cheng, S., Liu, J., Wang, Y., Cai, Y., … Hong, X. (2022). Does social perception
+data express the spatio-temporal pattern of perceived urban noise? A case study
+based on 3,137 noise complaints in Fuzhou, China. Applied Acoustics, 201, Article
+109129.
+Guo, L., Cheng, S., Liu, J., Wang, Y., Cai, Y., … Hong, X. (2022). Does social perception
+data express the spatio-temporal pattern of perceived urban noise? A case study
+based on 3,137 noise complaints in Fuzhou, China. Applied Acoustics, 201, 109129.
+Habibzadeh, H., Nussbaum, B. H., Anjomshoa, F., Kantarci, B., & Soyata, T. (2019).
+A survey on cybersecurity, data privacy, and policy issues in cyber-physical system
+deployments in smart cities. Sustainable Cities and Society, 50, Article 101660.
+Hagen, Penny, & Robertson, Toni (2010). Social technologies: Challenges and
+opportunities for participation. In Proceedings of the 11th biennial participatory design
+conference.
+Hahn, II, Robert, F., & Jezior, Bonnie (1999). Urban warfare and the urban warfighter of
+2025. The US Army War College Quarterly: Parameters, 29(2), 5.
+Hallinan, Dara, Friedewald, Michael, & McCarthy, Paul (2012). Citizens’ perceptions of
+data protection and privacy in Europe. Computer law & security review, 28(3),
+263–272.
+Harris, Barbara. (2021). Data-driven internet of things systems and urban sensing
+technologies in integrated smart city planning and management. Geopolitics, History,
+and International Relations, 13(1), 53–63.
+Hefnawy, Ahmed, Bouras, Abdelaziz, & Cherifi, Chantal (2016). Iot for smart city
+services: Lifecycle approach. In Proceedings of the international conference on internet
+of things and cloud computing.
+Hiller, Janine S., & B´elanger, France (2001). Privacy strategies for electronic
+government. E-government, 200(2001), 162–198.
+Holguín-Veras, Jos´e, et al. (2020). State of the art and practice of urban freight
+management: Part I: Infrastructure, vehicle-related, and traffic operations.
+Transportation Research Part A: Policy and Practice, 137, 360–382.
+Igo, Sarah E. (2018). The known citizen: A history of privacy in modern America. Harvard
+University Press.
+Jameson, Fredric. (2003). Future city. New Left Review, 21, 65.
+Jarrahi, Mohammad Hossein, & Sawyer, Steve (2013). Social technologies, informal
+knowledge practices, and the enterprise. Journal of Organizational Computing and
+Electronic Commerce, 23(1-2), 110–137.
+Kim, Tai-hoon, Ramos, Carlos, & Mohammed, Sabah (2017). Smart city and IoT. Future
+Generation Computer Systems, 76, 159–162.
+Kirimtat, Ayca, et al. (2020). Future trends and current state of smart city concepts: A
+survey. IEEE access, 8, 86448–86467.
+Kirschner, Paul, & Selinger, Michelle (2003). The state of affairs of teacher education
+with respect to information and communications technology. Technology, pedagogy
+and education, 12(1), 5–17.
+Komninos, Nicos. (2007). Intelligent cities. Encyclopedia of digital government (pp.
+1100–1104). IGI Global.
+Kumar, T. V. (2020). Smart living for smart cities. Smart Living for Smart Cities, 3–70.
+Kumar, T. V., & Dahiya, Bharat (2017). Smart economy in smart cities. Smart economy in
+smart cities, 3–76.
+Kutty, A. A., Kucukvar, M., Abdella, G. M., Bulak, M. E., & Onat, N. C. (2022).
+Sustainability performance of European smart cities: A novel DEA approach with
+double frontiers. Sustainable Cities and Society, 81, Article 103777.
+Lai, Yuan, Wesley Yeung, and Leo Anthony Celi. "Urban intelligence for pandemic
+response." JM.
+Law, Kincho H., & Lynch, Jerome P. (2019). Smart city: Technologies and challenges. IT
+Professional, 21(6), 46–51.
+Leibetseder, Bettina. (2011). A critical review on the concept of social technology. Social
+Technologies/Socialines Technologijos, 1(1).
+Leonardi, Paul M., Huysman, Marleen, & Steinfield, Charles (2013). Enterprise social
+media: Definition, history, and prospects for the study of social technologies in
+organizations. Journal of computer-mediated communication, 19(1), 1–19.
+Li, Charlene. (2010). Groundswell. Winning in a world transformed by social
+technologies. Strategic Direction, 26(8).
+Li, X., & Sun, Y. (2020). Stock intelligent investment strategy based on support vector
+machine parameter optimization algorithm. Neural Computing and Applications, 32
+(6), 1765–1775.
+Liu, D., Cao, Z., Jiang, H., Zhou, S., Xiao, Z., … Zeng, F. (2022). Concurrent low-power
+listening: A new design paradigm for duty-cycling communication. ACM Transactions
+on Sensor Networks, 19(1).
+Liu, X., Li, Z., Fu, X., Yin, Z., Liu, M., Yin, L., … Zheng, W. (2023). Monitoring house
+vacancy dynamics in the Pearl River Delta Region: A method based on NPP-VIIRS
+night-time light remote sensing images. Land, 12(4).
+Liu, X., Shi, T., Zhou, G., Liu, M., Yin, Z., Yin, L., … Zheng, W. (2023). Emotion
+classification for short texts: An improved multi-label method. Humanities and Social
+Sciences Communications, 10(1), 306.
+Lnenicka, M., Nikiforova, A., Luterek, M., Azeroual, O., Ukpabi, D., Valtenbergs, V., &
+Machova, R. (2022). Transparency of open data ecosystems in smart cities:
+Definition and assessment of the maturity of transparency in 22 smart cities.
+Sustainable Cities and Society, 82, Article 103906.
+L. Xia et al. 
+Sustainable Cities and Society 98 (2023) 104771
+18
+Lu, S., Liu, M., Yin, L., Yin, Z., Liu, X., Zheng, W., … Kong, X. (2023). The multi-modal
+fusion in visual question answering: A review of attention mechanisms. PeerJ
+Computer Science, 9, e1400.
+Lu, Xiaobiao, Wang, Xiaoran, & Wu, Rong (2020). Urban garden landscape design based
+on VR technology and internet of things system. Microprocessors and Microsystems,
+Article 103432.
+Luan, D., Liu, A., Wang, X., Xie, Y., Wu, Z., … Zhang, W. (2022). Robust two-stage
+location allocation for emergency temporary blood supply in postdisaster. Discrete
+dynamics in nature and society, 2022.
+Maaß, Wiebke. (2011). The elderly and the Internet: How senior citizens deal with online
+privacy. Privacy online: Perspectives on privacy and self-disclosure in the social web,
+235–249.
+Marrone, Mauricio, & Hammerle, Mara (2018). Smart cities: A review and analysis of
+stakeholders’ literature. Business & Information Systems Engineering, 60, 197–213.
+Martínez-Ballest´e, Antoni, P´erez-Martínez, Pablo A., & Solanas, Agusti (2013). The
+pursuit of citizens’ privacy: A privacy-aware smart city is possible. IEEE
+Communications Magazine, 51(6), 136–141.
+McCormick, Robert, & Scrimshaw, Peter (2001). Information and communications
+technology, knowledge and pedagogy. Education, Communication & Information, 1(1),
+37–57.
+Medby, Jamison Jo, & Glenn, Russell W. (2002). Street smart: Intelligence preparation of the
+battlefield for urban operations. Rand Corporation.
+Mohanty, Saraju P., Choppali, Uma, & Kougianos, Elias (2016). Everything you wanted
+to know about smart cities: The Internet of things is the backbone. IEEE Consumer
+Electronics Magazine, 5(3), 60–70.
+Moos, Lejf. (2009). A general context for new social technologies. Nordic Studies in
+Education, 29(1), 79–92.
+Mora, Olga B., et al. (2018). A use case in cybersecurity based in Blockchain to deal with
+the security and privacy of citizens and smart cities cyberinfrastructures. In 2018
+IEEE international smart cities conference (ISC2). IEEE.
+Morozov, Evgeny, & Bria, Francesca (2018). Rethinking the smart city. Democratizing
+Urban Technology, 2.
+Mumtaz, Shazia. (2000). Factors affecting teachers’ use of information and
+communications technology: A review of the literature. Journal of information
+technology for teacher education, 9(3), 319–342.
+Mutikanga, Harrison E., Sharma, Saroj K., & Vairavamoorthy, Kalanithy (2011).
+Assessment of apparent losses in urban water systems. Water and Environment
+Journal, 25(3), 327–335.
+Nam, Taewoo, & Pardo, Theresa A. (2011). Conceptualizing smart city with dimensions
+of technology, people, and institutions. In Proceedings of the 12th annual international
+digital government research conference: Digital government innovation in challenging
+times.
+Neirotti, Paolo, et al. (2014). Current trends in Smart City initiatives: Some stylised facts.
+Cities, 38, 25–36.
+Nordelof, ¨ Anders, Romare, Mia, & Tivander, Johan (2019). Life cycle assessment of city
+buses powered by electricity, hydrogenated vegetable oil or diesel. Transportation
+Research Part D: Transport and Environment, 75, 211–222.
+Parkin, Lianne, & Paul, Charlotte (2011). Public good, personal privacy: A citizens’
+deliberation about using medical information for pharmacoepidemiological
+research. Journal of Epidemiology & Community Health, 65(2), 150–156.
+Parkinson, J., Tayler, K., & Mark, O. (2007). Planning and design of urban drainage
+systems in informal settlements in developing countries. Urban Water Journal, 4(3),
+137–149.
+Pelikan, Pavel. (2003). Bringing institutions into evolutionary economics: Another view
+with links to changes in physical and social technologies. Journal of Evolutionary
+Economics, 13, 237–258.
+Qin, Z., Liang, Y., Yang, C., Fu, Q., Chao, Y., Liu, Z., … Yuan, Q. (2023). Externalities
+from restrictions: Examining the short-run effects of urban core-focused driving
+restriction policies on air quality. Transportation Research Part D: Transport and
+Environment, 119, Article 103723.
+Raper, J., Gartner, G., Karimi, H., & Rizos, C. (2007). Applications of location–based
+services: A selected review. Journal of Location Based Services, 1(2), 89–111.
+Redouane, F., & Aissa, A. (2017). Characterization of gaseous pollutants from the
+fertilizer complex fertial (Arzew-Algeria). Environmental Science: An Indian Journal,
+13(5), 151.
+Reidenberg, Joel R. (2014). Privacy in public. University of Miami Law Review, 69, 141.
+Riffat, Saffa, Powell, Richard, & Aydin, Devrim (2016). Future cities and environmental
+sustainability. Future cities and Environment, 2(1), 1–23.
+Rizi, M. H. P., & Seno, S. A. H. (2022). A systematic review of technologies and solutions
+to improve security and privacy protection of citizens in the smart city. Internet of
+Things, Article 100584.
+Rose, Lars, et al. (2013). A comparative life cycle assessment of diesel and compressed
+natural gas powered refuse collection vehicles in a Canadian city. Energy Policy, 52,
+453–461.
+Sallis, James F., et al. (2016). Use of science to guide city planning policy and practice:
+How to achieve healthy and sustainable future cities. The lancet, 388(10062),
+2936–2947.
+Salman, M. Y., & Hasar, H. (2023). Review on environmental aspects in smart city
+concept: Water, waste, air pollution and transportation smart applications using IoT
+techniques. Sustainable Cities and Society, Article 104567.
+Selwyn, Neil, et al. (2003). Older adults’ use of information and communications
+technology in everyday life. Ageing & Society, 23(5), 561–582.
+Shelton, Taylor, Zook, Matthew, & Wiig, Alan (2015). The ‘actually existing smart city.
+Cambridge journal of regions, economy and society, 8(1), 13–25.
+Siokas, G., Kelaidi, V., & Tsakanikas, A. (2022). The smart city as a hub for nourishing
+public-private partnerships. Sustainable Cities and Society, 76, Article 103466.
+Skouby, Knud Erik, et al. (2014). Smart cities and the ageing population. In The 32nd
+meeting of WWRF.
+Song, T., Dian, J., & Chen, H. (2023). Can smart city construction improve carbon
+productivity?—A quasi-natural experiment based on China’s smart city pilot.
+Sustainable Cities and Society, 92, Article 104478.
+Tan, J., & Li, M. (2022). How to achieve accurate accountability under current
+administrative accountability system for work safety accidents in chemical industry
+in China: A case study on major work safety accidents during 2010-2020. Journal of
+Chinese Human Resources Management, 13(2), 26–40.
+Tortonesi, Mauro, et al. (2016). Leveraging Internet of Things within the military
+network environment—Challenges and solutions. In 2016 IEEE 3rd world forum on
+Internet of Things (WF-IoT). IEEE.
+Uche, J., et al. (2013). Life cycle analysis of urban water cycle in two Spanish areas:
+Inland city and island area. Desalination and Water Treatment, 51(1-3), 280–291.
+van de Pas, John, & van Bussel, Geert-Jan (2015). Privacy Lostand Found? The
+information value chain as a model to meet citizens concerns. Electronic journal of
+information systems evaluation, 18(2), 200–210.
+Van der Meer, Andr´e, & Van Winden, Willem (2003). E-governance in cities: A
+comparison of urban information and communication technology policies. Regional
+Studies, 37(4), 407–419.
+Vanolo, Alberto. (2014). Smartmentality: The smart city as disciplinary strategy. Urban
+studies, 51(5), 883–898.
+Volkov, Andrey, & Kuzina, Olga (2016). Complementary assets in the methodology of
+implementation unified information model of the city environment project life cycle.
+Procedia engineering, 153, 838–843.
+Webb, Mary, & Cox, Margaret (2004). A review of pedagogy related to information and
+communications technology. Technology, pedagogy and education, 13(3), 235–286.
+Wu, D., Xie, Y., & Lyu, S. (2023). Disentangling the complex impacts of urban digital
+transformation and environmental pollution: Evidence from smart city pilots in
+China. Sustainable Cities and Society, 88, Article 104266.
+Wu, Wenqing, et al. (2022). Empirical research on smart city construction and public
+health under information and communications technology. Socio-Economic Planning
+Sciences, 80, Article 100994.
+Xiao, Y., & Konak, A. (2016). The heterogeneous green vehicle routing and scheduling
+problem with time-varying traffic congestion. Transportation Research Part E: Logistics
+and Transportation Review, 88, 146–166.
+Yao, Y., Zhao, J., Li, Z., Cheng, X., & Wu, L. (2023). Jamming and eavesdropping defense
+scheme based on deep reinforcement learning in autonomous vehicle networks. IEEE
+Transactions on Information Forensics and Security, 18, 1211–1224.
+Yeh, Anthony GO (1999). Urban planning and GIS. Geographical information systems, 2
+(877-888), 1.
+Young, William, Thompson, Russell G., & Taylor, Michael AP (1991). A review of urban
+car parking models. Transport reviews, 11(1), 63–84.
+Yu, B., & Zhou, X. (2023). Urban administrative hierarchy and urban land use efficiency:
+Evidence from Chinese cities. International Review of Economics & Finance. https://
+doi.org/10.1016/j.iref.2023.06.033
+Yusuf, Mudasiru Olalere (2005). Information and communication technology and
+education: Analysing the Nigerian national policy for information technology.
+International education journal, 6(3), 316–321.
+Zhang, J., Peng, S., Gao, Y., Zhang, Z., & Hong, Q. (2023). APMSA: Adversarial
+perturbation against model stealing attacks. IEEE Transactions on Information
+Forensics and Security, 18.
+Zhou, Hong, Liu, Bingwu, & Wang, Donghan (2012). Design and research of urban
+intelligent transportation system based on the internet of things. In Internet of Things:
+International Workshop, IOT 2012, Changsha, China, August 17-19, 2012. Proceedings.
+Berlin Heidelberg: Springer.
+Zhou, S. L., et al. (2002). Forecasting operational demand for an urban water supply
+zone. Journal of hydrology, 259(1-4), 189–202.
+Zhu, H., Shen, L., & Ren, Y. (2022). How can smart city shape a happier life? The
+mechanism for developing a Happiness Driven Smart City. Sustainable cities and
+society, 80, Article 103791.
+Zubizarreta, Iker, Seravalli, Alessandro, & Arrizabalaga, Saioa (2016). Smart city
+concept: What it is and what it should be. Journal of Urban Planning and Development,
+142(1), Article 04015005.
+L. Xia et al. 

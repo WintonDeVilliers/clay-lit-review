@@ -1,0 +1,1133 @@
+Heliyon 9 (2023) e17654
+Available online 7 July 2023
+2405-8440/© 2023 Published by Elsevier Ltd. This is an open access article under the CC BY-NC-ND license
+(http://creativecommons.org/licenses/by-nc-nd/4.0/).
+Measuring the impact of the digital economy in developing
+countries: A systematic review and meta- analysis
+Abdulkarim A. Oloyede a,b,*
+, Nasir Faruk c
+, Nasir Noma b
+, Ebinimi Tebepah b
+,
+Augustine K. Nwaulune d
+a Department of Telecommunication Science University of Ilorin, Ilorin, Nigeria b Research and Development Department, Nigerian Communications Commission (NCC), Nigeria c Department of IT, Faculty of Computing and Information Technology, Sule Lamido University, Kaffin Hausa, Nigeria d Digital Economy Department, Nigerian Communications Commission (NCC), Nigeria
+ARTICLE INFO
+Keywords:
+Digital economy
+Digital economy metrics
+Developing countries
+Nigeria
+GDP
+Systematic literature review
+ABSTRACT
+The digital economy, driven by Information and Communication Technology (ICT), has emerged
+as a significant contributor to economies worldwide. However, accurately defining and measuring
+its impact on national economies remains a complex endeavor. This paper explores the definition,
+measurement, role, and impacts of the digital economy across various economies. It also examines
+the involvement of governments and telecommunication regulators in assessing the digital
+economy and identifies future directions for developing countries. A systematic literature review
+utilizing the PRISMA Model is employed to investigate the factors and indices used to measure the
+digital economy. The findings highlight ongoing efforts to harmonize the definition and metrics;
+nonetheless, challenges persist due to the scarcity of appropriate datasets and variations in
+country-specific definitions. Additionally, the effectiveness of existing digital economy indices
+and toolkits in assessing the level of digitalization in developing countries is evaluated. The paper
+concludes that despite ongoing efforts to bridge the gaps, the concept of the digital economy
+remains defined and measured differently, necessitating a new definition that accounts for
+various contextual peculiarities. Furthermore, a roadmap is proposed to develop a toolkit that
+ensures comprehensive measurement, thus preventing an underestimation of the digital economy’s contribution to the Gross Domestic Product (GDP) in developing countries. The paper underscores the need for international and multi-stakeholder dialogue to establish a common
+understanding of the digital economy’s definition and measurement. Developing countries, such
+as Nigeria, are urged to develop or adopt new metrics tailored to their unique circumstances,
+facilitating an accurate and efficient quantification of the digital economy’s impact on crucial
+indicators like GDP. Improved statistical data collection and recording methodologies are recommended for both governments and the private sector. Moreover, the paper advocates for the
+establishment of a Digital Economy Advisory Board (DEAB) in developing countries to maximize
+the benefits of the ongoing global transition to the digital economy.
+* Corresponding author. Department of Telecommunication Science University of Ilorin, Ilorin, Nigeria
+E-mail address: oloyede.aa@unilorin.edu.ng (A.A. Oloyede).
+Contents lists available at ScienceDirect
+Heliyon
+journal homepage: www.cell.com/heliyon
+https://doi.org/10.1016/j.heliyon.2023.e17654
+Received 30 March 2022; Received in revised form 12 June 2023; Accepted 25 June 2023 
+Heliyon 9 (2023) e17654
+2
+1. Introduction
+Digital technologies have advanced rapidly more than any other innovation in the history of man. The rapid and unimaginable
+growth of technologies have led to the concept of digital economy. The word ‘Digital Economy’ was coined around 1996 by Tapscot
+Don, an American businessman [1]. Ever since then, the definition of ‘digital economy’ has been evolving. Early on, the definition and
+analyses were mainly around the adoption and use of the Internet and some of its economic impacts [2]. However, as the internet
+technologies grow, the focus shifted to examining the nature of the growing digital economy. Recently, the focus is now on the
+diffusion of Information and Communication Technologies (ICT) based innovations, services, product and the necessary skills needed
+to run the technologies helping to transit to a digital economy. The definition of Digital Economy has evolved over time to reflect the
+change in technology on how individuals are interacting for improved social welfare, individual interacting with businesses, businesses
+interactions and many more. This change in focus and nature of the digital economy might be because of its importance in measuring
+developmental index of a country or a reflection of the nature of technology which is rapidly changing.
+Digital economy has now become a word widely used in the 21st century to promote economic growth of various countries around
+the world as a result of the improved use of technological and telecommunication infrastructure. It has become an inevitable model for
+the world’s developing and developed economies and a driving force for development and national innovative strategies through the
+use of ICTs. Due to its impending impacts on various sectors of the economy, such as agriculture, commerce, government, education,
+health, transportation and many others, digital economy is now seen as one of the important cardinals for growth, development and
+prosperity of countries, as it aids job creation, entrepreneurship and innovations. Digital economy has transformed many countries and
+it is in the fore front of transforming countries like China to one of the largest economies in the world [3]. According to Ershova et al.
+[4] digital economy depends on public policy, strategic planning, digital transformation monitoring, effective and efficient leadership,
+proper institutions, effective laws, regulations and standards, human capital development, research, development and Innovation,
+enabling business environment, digital Infrastructure and digital transformation of the economic sectors.
+The transition to a digitized economy for developing countries is more challenging than that of developed countries because of the
+level of available infrastructure and financial resources needed for the transition. In addition to this, most developing countries do not
+have the culture of collecting and making publicly available the necessary data set that can be used by measuring organizations to
+measure their transition to a digitized economy. It is therefore imperative to carry out this research, especially for developing countries
+because of the effects of digitalization on economic growth has widely been established by Fernandez-Portillo et al. [5], in contrast,
+Albuman and Sulong, and Hellar and Lyons [6,7] believed that it might have been over emphasized. Hence, calling for metrics to
+measure it to certainty. Currently, the most widely used model are based on monetary value of goods and services however it is also
+widely believed that digital economy should be based on the value derived from digital services and not just the final monetary value.
+Furthermore, telecommunication infrastructure and effective and efficient polices around telecommunications deployment are critical
+in the transition to digital economy.
+Ndubuisi, Otioma, and Tetteh [8] have also showed that there is a direct correlation between digital infrastructure and the
+development of the digital economy. Therefore, it is also important especially for developing economies to establish and define their
+peculiar metrics for measuring and determining the exact and current level of their digital economy, this is to avoid using an incorrect
+benchmark [9].Despite the overwhelming advantages of the digital economy, transiting to it has led to a number of extra ordinary
+challenges such as the Cyber threats, data breaches and other treats are on the rise. Also, it has been seen that the disruption in digital
+services can also lead to significant losses for individual, government, small, medium and large enterprises. The effectiveness and
+efficiency of initiatives that key into the digital economy need to be measured. In developing countries, especially based on the value
+derived from digital services and not just the final monetary value especially in developing countries with lower access to financial
+resources. Furthermore, telecommunication infrastructure and effective and efficient polices around telecommunications deployment
+are critical in the transition to digital economy unfortunately most developing countries are lacking behind in this area Ndubuisi,
+Otioma, and Tetteh [8] have also showed that there is a direct correlation between digital infrastructure and the development of the
+digital economy. Therefore, it is also important especially for developing economies to establish and define their peculiar metrics for
+measuring and determining the exact and current level of their digital economy, this is to avoid using an incorrect benchmark. Liu,
+Yang, Li et al. in Ref. [9] also examined China transition to digital economy by comparing 286 cities in China. The paper shows there
+are regional differences when examining the influence of digital economy across different cities.
+Despite the overwhelming advantages of the digital economy, transiting to it has led to a number of extra ordinary challenges such
+as the Cyber threats, data breaches and other treats are on the rise. Also, it has been seen that the disruption in digital in Africa, there is
+a deficit in knowledge around the exact impact of digital economy or technology on economic growth, employment and trade [5,10].
+This is despite that researchers such as [11] has showed that usage of digital technology yields significant impact on economic growth
+in African countries.
+Therefore, considering the aforementioned and the variabilities in the usage of digital economy models across various countries,
+the transition to digital economy, benchmarking and its measurements can be quite complicated, particularly, in developing countries
+where there is limited data set available on the key indices. Hence, this paper seeks to examine how the digital economy is defined,
+measured, analyzed, its role and impacts across various economies, with emphasis on developing countries. The role of governments
+and telecommunication regulators in measuring the digital economy and the future directions for developing countries were also
+examined. Factors and indices in determining the metrics used to measure the digital economy were explored. Furthermore, the trends
+in measuring the digital economy across various countries, necessary infrastructure, required data set are investigated with the view of
+proposing models that could facilitates government, telecommunication regulators or statistics office in developing countries to
+measure it.
+A.A. Oloyede et al. 
+Heliyon 9 (2023) e17654
+3
+This paper is important because the digital economy has become an increasingly important aspect of economic development
+worldwide, and it has particularly gained momentum in developing countries. However, there is a lack of consensus on the definition
+and measurement of the digital economy, especially in the context of developing nations. Existing knowledge on this topic is fragmented, with varying definitions and metrics being used across different studies. Therefore, there is a need for a comprehensive and
+systematic review of the literature to identify the existing knowledge gaps and provide insights into measuring the digital economy in
+developing countries.
+This paper is unique because to the best knowledge of the authors, it is the first of its kind that seek to examine how digital economy
+should be measured in developing countries like Nigeria and provided a roadmap for its implementation. The rest of the paper is
+structured as follows: Section II provides the objectives of this paper. Section III provides the methodology. The results and discussion
+of the objectives are discussed in section IV. Finally, section V provides a roadmap for developing countries while transiting to a digital
+economy and the last section provides the conclusions.
+2. Objective of the paper
+The main objective of this review is to critically analyze the existing literature on the definition and measurement of the digital
+economy, with a specific focus on developing countries. The review aims to identify and synthesize the different approaches and
+metrics used in measuring the digital economy, assess their applicability in the context of developing nations, and highlight the key
+challenges and gaps in the current understanding. The review addresses the following questions.
+i. How is the digital economy defined in the literature, particularly in relation to developing countries?
+ii. What are the existing metrics and indicators used to measure the digital economy in developing countries?
+iii. How applicable are these metrics in the context of developing nations, and what are the challenges associated with their
+measurement?
+iv. Are there any specific considerations or adjustments needed in measuring the digital economy in developing countries, such as
+Nigeria?
+v. What are the key gaps and areas for further research in understanding and measuring the digital economy in developing
+countries?
+By addressing these questions, the review aims to contribute to the existing knowledge by providing a comprehensive overview of
+the definitions, measurement approaches, and challenges associated with understanding and quantifying the digital economy in
+developing countries. This information can be valuable for policymakers, researchers, and practitioners working in the field of digital
+economy development and can guide future research efforts in this area.
+3. Methodology
+This paper employs a systematic review approach to identify, select, and critically analyze relevant research on the definition and
+measurement of the digital economy worldwide, with a specific focus on developing countries. The methodology follows the guidelines
+proposed in previous studies [12–14] and adheres to the Preferred Reporting Items for Systematic Reviews and Meta-Analyses
+(PRISMA) model. The concept is based on question formulation, study selection, evaluation analyses formulation analysis’s syntheses reporting of results and providing a future direction based on the gap noticed while also arriving at some conclusions and recommendations. In this work, the gaps would focus on the possible metrics that would be useful especially to developing countries like
+Nigeria in measuring its digital economy. A systematic review is used because conducting a systemic review reduces the bias, help to
+summarize and analyze the related work done in order to provide an adequate future direction [15]. In this study, the systematic
+review was done using the preferred reporting items for systematic review and Meta- Analysis (PRISMA) model is used in Refs.
+[15–17]. A comprehensive literature search was conducted to identify papers that are relevant using the Scopus database. The papers
+reviewed covers a period between 2004 and 2021 because the word digital economy can also be seen as relatively a new term as it has
+evolved over time as stated in the introductory section of this paper hence, the aim is to only examine how it is being measured after the
+proliferation of the second-generation telecommunication network in most developing economies.
+The systematic literature review consists of four stages, as depicted in Fig. 1. In Stage 1, a comprehensive literature search was
+conducted using the Scopus database, which offers advantages in terms of search string customization and narrowing down search
+results using Boolean operators (AND OR). The search string was developed based on scoping research and research objectives. Since
+“digital economy” can be referred to as two separate words or as the internet economy, the keywords used were (Digital and Economy)
+or (Internet and economy) and (Statistics or measure or measurement or measuring or GDP). The search was limited to EnglishFig. 1. Stages used in SLR.
+A.A. Oloyede et al. 
+Heliyon 9 (2023) e17654
+4
+language publications, as English has the largest number of relevant papers in the field of digital economy. In Stage 2, the results
+obtained from the search were subjected to inclusion and exclusion criteria, as outlined in Table 2. These criteria were predefined
+based on the research objectives. The selection process involved screening the titles and abstracts of the papers to ensure relevance to
+the research area. To account for the emerging nature of digital economy research, peer-reviewed conference papers were also
+included in addition to journal papers. Stage 3 involved a detailed analysis of the selected papers that met the pre-selection criteria.
+The final set of papers was extracted, and the results were synthesized and analyzed. The aim was to identify gaps in the existing
+literature, particularly regarding metrics that would be applicable to measuring the digital economy in developing countries like
+Nigeria. It is important to note that the systematic review process helps minimize bias and provides a comprehensive overview of the
+related work, enabling the identification of future research directions [15]. The final papers were selected in stage 4.
+In this research, the Scopus database was used because of the advantages of Scopus as stated by Bosman et al. and Burnham in Refs.
+[18,19]. SCOPUS is quite comprehensive to use for search because the search string can be narrowed down using the ‘OR’ and ‘AND’.
+Search engine such as google scholar was not utilized because of its difficulty in extracting the searched literature, and the suitability of
+google scholar for this type of search has also been questioned by Boeker et al. [20]. The literature review protocol is detailed in
+Table 1.
+The systematic literature review process began by identifying relevant keywords to be used as search strings. These keywords were
+developed through a scoping of the research and aligned with the research objective stated earlier. In order to refine the search results,
+Boolean operators “AND” and “OR” were employed to establish logical relationships among the keywords. However, defining the
+precise search string proved challenging due to the varying terminology associated with the concept of the digital economy, which is
+sometimes referred to as the internet economy.
+The selected keywords for the search included combinations such as “Digital and Economy,” “Internet and economy,” and “Statistics or measure or measurement or measuring or GDP.” To ensure a comprehensive search, the search was limited to papers published in the English language, given that English is the most widely used language for publications related to the digital economy, as
+determined through searches conducted on various search engines. This approach aimed to maximize the likelihood of retrieving
+relevant papers. It is crucial to note that utilizing a search string does not guarantee that only papers directly related to the research
+topic will be returned. Therefore, exclusion criteria were established, as outlined in Table 2. These criteria were applied during the
+screening process, which involved reviewing the titles and abstracts of the retrieved papers. The purpose was to exclude any papers
+that did not align with the research area under investigation. The details of the exclusion criteria employed and the corresponding
+number of papers returned are presented in Fig. 2. The initial restriction to journal papers was because experience has shown that high
+quality journals papers which are based on high quality research are peer reviewed [21] however research on digital economy has been
+described as emerging research area therefore peer reviewed conference papers were also included.
+It is an emerging area because only few research papers were published in this area before 2010 as seen in Fig. 2. The criteria used
+for the inclusion and exclusion of papers describes the selection process. According to Ref. [14] it is important to extensively determine
+and choose the inclusion and exclusion criteria to be used such that it goes not bring about bias while focusing of the research objective.
+After the use of the exclusion criteria, the title of the papers were then used to exclude more papers based on the relevance of the
+title to the research objectives. The next criteria used were reading the abstract, before then reading the full papers to determine
+relevant papers as detailed in Table 2. There was no problem of paper duplication because only one database was used and other papers
+and relevant reports from relevant and recognized organizations that cannot be found in conventional academic database were also
+included. There was a high number of results eliminated after the research discipline exclusion because different aspect of digital
+economy can be considered but they are out of scope for this paper. After collecting sufficient relevant literatures based on the criteria
+established, the papers were then analyzed as shown in the result and discussion section.
+4. Research findings
+Based on the search conducted using the key words as detailed in the previous section. The exclusion criteria described in Table 1
+were applied as detailed in Fig. 2. The use of these exclusion criteria led to a 64.78% reduction in the output results. The results were
+extracted and they were further examined as explained in the previous section and in Table 2, leaving only about 6.32% of the
+extracted results. It is also worth mentioning that based on the number of papers returned it was evident that there was no need to
+Table 1
+Protocol used.
+Item Description
+Time period 2004 to 2021
+Boolean
+Operations
+AND OR
+Search field (Digital AND Economy) AND (statistics or measure or measurement or measuring or GDP)
+Type Journals and Peer reviewed Conference
+Language English
+Availability Articles available online as full text
+Research
+discipline
+Engineering, Business, Science, Economics, Social Science excluding medical, population statistics, digital storage trust, embedded systems,
+marketing smart city, nursing, pharmacology, neuroscience, chemistry and dentistry
+Publication type Peer- reviewed academic journal and conference papers
+A.A. Oloyede et al. 
+Heliyon 9 (2023) e17654
+5
+examine papers before year 2004 as only few papers were published in this area before then and most of them are not relevant to the
+objectives of this paper. A total of 44 papers were fully reviewed based on the relevant papers from the data base and from relevant
+organizations. The literature review was able to establish that there is no generalized definition or metrics for measuring the digital
+economy as shown in Table 3 therefore each of the objectives were further analyzed.
+(i) Research Question 1: The definition of digital economy.
+There is a lack of uniformity in measuring digital economy from one organization or country to other. However, there is a general
+understanding from all the papers examined is that in recent times there is a need to measure the contribution of digital economy to
+Table 2
+Selection criteria.
+Selection Criteria Task Performed
+Criterion 1: Emphases on the Title In this phase, the elimination criteria were based reading the titles and this reduced the results to 86
+Criterion 1: Emphases on the Abstract In this phase the elimination criteria used is based on the abstract in the material. This reduced the results 56
+Criterion 2: Emphases on the Paper This papers that focuses on the objective identified while those that are not focused in this area are eliminated.
+This reduced the results to 36
+Criterion 3: Emphases on publication from
+related organizations
+Paper that are not included in the SCOPUS database but which emphases on measurement metric especially those
+written by ITU are other relevant standard organization are included as they can’t be found in any major
+databases Majorly the papers added based on the knowledge of the authors. This increased the results to 44
+Fig. 2. Search flow chart.
+A.A. Oloyede et al. 
+Heliyon 9 (2023) e17654
+6
+developmental indices of a county and there is a need to unify and have a general definition of what digital economy connotes or
+entails. In Ref. [22], it was expressed that digital economy belongs to the category of tangible and intangible goods and retails sales
+which are supported by the use of Information Technology. This is because digital economy is fundamentally driven by the use of ICT.
+According to OECD, digital economy enables the exchange of goods and services through the use of electronic commerce on the
+internet (OECD, 2013: The digital economy). This shows that digital market is an important element of the digital economy. Dehlman
+et al. [23] defined digital economy as “the amalgamation of several General Purpose Technologies (GPTs) and the range of economic and
+social activities carried out by people over the Internet and related technologies. It encompasses the physical infrastructure that digital technologies are based on (broadband lines, routers), the devices that are used for access (computers, smartphones), the applications they power
+(Google, Salesforce) and the functionality they provide (IoT, data analytics, cloud computing)”. According to Гостева [24] digital economy
+is“… the economic activity that results from billions of everyday online connections among people, businesses, devices, data, and processes. The
+backbone of the digital economy is hyper connectivity which means growing interconnectedness of people, organizations, and machines that
+results from the Internet, mobile technology and the internet of things (IoT)”. According to the OCED 2020 “The Digital Economy incorporates all economic activity reliant on, or significantly enhanced by the use of digital inputs, including digital technologies, digital
+infrastructure, digital services and data. It refers to all producers and consumers, including government, that are utilizing these digital
+inputs in their economic activities”. Therefore, from the various definitions it can be seen that digital economy overlaps many areas
+such as services, retail, software, goods production and consumption, content, digital skills infrastructure, innovation, digital
+financing, research and technology among others. This shows that the digital economy is interwoven and there is now a thin line
+between the traditional economy and the digital economy. According to Ref. [25] measuring of the digital economy has a fuzzy
+boundary therefore its measurement is dependent on a wide range of factors among which is the availability of data and infrastructure.
+Based on the above, in Table 3, we provided a summary of some of the definitions of digital economy, taking account the major three
+parameters which are Economy, Social wellbeing and the Government.
+In all these definitions, the use of telecommunication and technology is common but differs as to its extent and composition in terms
+of social, economic and impact on government. Nonetheless, the generality of these definitions revolved around economic impact,
+while, social wellbeing and impact on governance are somewhat relegated. This is perhaps due to the value chain composition demands for various countries that pay more emphasis on the economic development. It is therefore imperative to harmonize these
+Table 3
+Various definitions and concepts of the digital economy.
+SOURCE DEFINITION Definition included the Impact On:
+Economy Social
+wellbeing
+Government and
+Governance
+The Digital Economy: Promise and
+Peril in the Age of Networked
+Intelligence [1].
+No direct definition “rethinking of promise and peril in the age of
+networked intelligence.”
+No No No
+OECD 2013: The Digital Economy
+[26]
+“The digital economy enables and executes the trade of goods and
+services through electronic commerce on the Internet”.
+Yes No No
+Advancing Australia as a Digital
+Economy: An Update to the
+National Digital
+Economy Strategy [27].
+“The global network of economic and social activities that are
+enabled by digital technology, such as the internet and mobile
+networks”.
+Yes No No
+Digitalization and digitization [28]. defined as the transition of businesses through the use of digital
+technologies, products and services
+Yes No No
+Harnessing the Digital Economy for
+Developing Countries [23]
+“the amalgamation of several General Purpose Technologies (GPTs) and
+the range of economic and social activities carried out by people over the
+Internet and related technologies. It encompasses the physical
+infrastructure that digital technologies are based on (broadband lines,
+routers), the devices that are used for access (computers, smartphones),
+the applications they power (Google, Salesforce) and the functionality
+they provide (IoT, data analytics, cloud computing)”.
+Yes Yes No
+Rouse 2016: Digital Economy [29] “The digital economy is the worldwide network of economic
+activities enabled by information and communication technologies
+(ICT). It can also be defined more simply as an economy based on
+digital technologies”.
+Yes No No
+Phenomenon of the Digital Economy:
+Promises and Paradox [24]
+“… the economic activity that results from billions of everyday online
+connections among people, businesses, devices, data, and processes.
+The backbone of the digital economy is hyper connectivity which
+means growing interconnectedness of people, organizations, and
+machines that results from the Internet, mobile technology and the
+internet of things (IoT)”.
+Yes No No
+Digital Economy Outlook 2020 [30] OCED 2020 “The Digital Economy incorporates all economic activity
+reliant on, or significantly enhanced by the use of digital inputs,
+including digital technologies, digital infrastructure, digital services
+and data. It refers to all producers and consumers, including
+government, that are utilizing these digital inputs in their economic
+activities”.
+YES No Yes
+A.A. Oloyede et al. 
+Heliyon 9 (2023) e17654
+7
+Table 4
+Toolkits for measuring Digital Economy.
+Tool Kit (Report Year) Core Measuring Index No of 1st
+Level
+Index
+used
+No of 2nd
+Level
+Index
+Used
+Country/
+organization
+developing the
+tool
+Economy measured
+Digital Economy and Society
+Index (DESI) (2020)
+Human Capital, Connectivity, Integration of
+digital technology and Digital Public Services
+4 33 European Union European Union
+Network Readiness Index (NRI)
+(2020)
+Technology (Access, content and future
+Technologies), People (Individuals Businesses,
+Government), Governance (trust regulation
+inclusion) and Impact (Economy Quality of life
+SDG contribution)
+4 60 Portulans Institute 134 Countries
+Electronic Government
+Development Index (EGDI)
+(2020)
+E-government 3 13 United Nations WorldWide
+ICT Development Index (2017) ICT skills indicators, ICT usage indicators
+(Percentage of individuals using the Internet,
+Fixed-broadband subscriptions per 100
+inhabitants, Active mobile-broadband
+subscriptions per 100 inhabitants) and ICT
+infrastructure and access indicators (Fixedtelephone subscription Mobile-cellular
+telephone subscriptions per 100 inhabitants
+per 100 inhabitants, International Internet
+bandwidth (bit/s) per Internet user, and
+Percentage of households with Internet access)
+3 11 ITU 196 ITU member state
+Measuring digital development:
+facts and figures (2020)
+Mobile population coverage (2G/3G/4G and
+above), Internet access and use estimates,
+Mobile cellular, mobile broadband and fixed
+broadband subscription estimates,
+international bandwidth usage estimates and
+Skills development
+4 0 ITU-D ITU member state
+regions
+Going Digital Toolkit (2020) Access, Use, innovation, Jobs, Society, Trust,
+market Openness, and Growth and wellbeing
+8 42 OCED G20, and BRICS
+economy (Brazil,
+Russia, India, China,
+and South Africa)
+ROAM-X framework (2020) Assesses Internet universality through a set of
+303 indicators covering four categories
+(Rights, Openness, Accessibility, and Multistakeholder).
+5 282 UNESCO Global
+Digital Economy Country
+Assessment (DECA) (2020)
+digital infrastructure, digital public platforms,
+digital financial services, digital businesses,
+and digital skills
+5 0 World Bank Group Africa
+Digital Adoption Index – (2016) Digital Adoption for Business, People and
+Government
+3 9 World Bank Group 180 countries
+Research and Analysis on the
+Index System of Digital
+Economy in Anhui Province
+(2021)
+Digital Industrialisation, Industrial
+digitalization and Infrastructure
+3 20 Research Paper China
+Study on the effect of digital
+economy on high-quality
+economic development in
+China
+Broadband Speed, GDP 3 12 Research paper OECD countries,
+Impact of broadband speed on
+economic outputs: An
+empirical study of OECD
+countries
+2 12
+Impact of ICT development on
+economic growth. A study of
+OECD European union
+countries
+connectivity, human capital, use of the
+internet, technological integration and public
+services
+5 30 Research paper 23 Countries (EU and
+OECD Countries)
+Measuring the efficiency of
+digital convergence (Data
+Envelopment Analysis (DEA)
+and Malmquist productivity
+index)
+Internet Users, International Internet flow per
+Internet user, Number of Fixed Broadband
+subscriber per 100 people, Number of mobile
+cellular subscriber per 100 people, Annual
+Investment In telecommunication serves
+GDP per capital
+2 5 Research paper Central and Eastern
+Europe countries
+A new measure of digital
+economic activity and its
+impact on local opportunity
+Domain Names 1 0 Research paper USA
+(continued on next page)
+A.A. Oloyede et al. 
+Heliyon 9 (2023) e17654
+8
+definitions taking cognisance of the triplets (i.e. economic, social wellbeing and governance impacts). Hence, in this paper, Digital
+Economy is defined as all economic, social and governmental activities that helps to improve the human life that are reliant or
+enhanced by the use of Information and Communication Technologies (ICT).
+Adequately defining the digital economy is a prerequisite for any economic measurement, development of framework and the
+inclusion of relevant indicators. Our proposed definition is similar to that of OECD [24] but with the inclusion of social and government
+components with a view to be more flexible and increase broadness.
+(ii) Research Question II: to examine what makes up the digital economy
+It is important to understand what makes up the digital economy before it can be measured accurately, the cost and benefit of
+digital transformation as this is important to the success of the digital economy’s contribution to the developmental index of a country.
+It is also important because if the proper metrics are not being measured there is a risk of government funding project that would not
+yield adequate results [31]. Adequate measurement should help in defining areas that require digital transformation leading to better
+competitiveness and planning of the economy by both the private and government institutions. However, measuring the effect of the
+digital economy on local economies requires better community level data gathering and processing especially regarding the digital
+economic activities taking place at the local level. Hence, it is important to locally and globally define metric that would adequately
+help in measuring the digital economy. This is because digital economic activities vary from one country to the other, therefore it is
+important to conceptualize what makes up a digital economy and design a model of measuring local activities that falls within it so that
+it can help to seek ways in locally harnessing the opportunities and its gains. This is particularly important for developing countries
+such as Nigeria as the major benefit of digital economy measurement is based on its execution in contextualized environments rather
+than having it help in fulfilling some globally designed index [30].
+Conceptualising what is needed to transit to digital economy is necessary, such that when the indices are measured and factored
+into metrics such as the GDP, there would be less gap between measurements and the local reality. According to a research carried out
+by Chabik in Ref. [32], in Poland, the perception of the decision makes and what matters for improvements of digital economy index of
+Poland has little alignment with the indexes. This was achieved by asking decision makers about the things that matters. The paper also
+concludes that benchmarking are not reliable means of measuring real progress made, rather, it can provide a political focus. It is
+worthy noting that different approaches can also be used to measure the digital economy however the main problem is availability
+detailed statistical data. It is also worth pointing out that there has been a significant number of studies related to the internet connectivity in Nigeria, even though, no attempt to measure the size of the Nigerian digital economy has been thoroughly studied.
+A wide range of components has been used as indicators to measure various aspects of the Digital Economy. For example, the G20
+developed a toolkit for Measuring the Digital Economy using 36 sub indicators across the key areas of Infrastructure; Empowering
+Society; Innovation and Technology Adoption; and Jobs and Growth (G20, 2018). The European Union via the use of DESI for its 2021
+report developed 4 key areas which are Human Capital, connectivity, integration of digital economy and digital public services as
+against the 5 key areas used in the previous report. The model also used 10 sub dimensions and 33 indicators for its measurements. The
+NRI which is now managed by the Portulans Institute developed indices across the globe for measuring how people and technology
+integrate with effective governance in 2020 developed an index against 4 key areas: technology, people, governance and Impact. This
+was further divided into 12 sub categories [5]. used the database of DESI and the Organization for Economic Co-operation and
+Development (OECD) to measure the digital economy of European Union member state of OECD. This was done by giving different
+factors to ICT variables under 4 key areas which are connectivity, human capital, use of internet and technological integration as done
+in the DESI model. The factors used were further broken down into areas such as fixed and mobile broadband speed, affordability, basic
+and advance digital skills, individual use of internet, household internet subscription, e-commerce e-government among others. All the
+breakdown of the existing toolkits are presented in Table 3. According to Ref. [33], there are two major ways to define the indices of
+digital economy narrowly. The first one is to define it in terms of ICT services and manufacturing, while the other, is to define it in
+terms of the retail, the platform economy and the sharing economy which are enabled by ICT. The paper also expressed that the digital
+economy can consist of Internet infrastructure, e-commerce, the digital delivery of goods and services, and the retail sales of tangible
+goods. Therefore it is based on e-business infrastructure, e-business and e-commerce [25]. expressed that the digital economy can be
+divided into 3 layers the core layer, narrow caliber and wide caliber. The core layer comprises of hardware manufacturing, software
+and IT consulting, information services, and telecommunications. The narrow layer comprises e-commerce, digital services, and
+platform economy. The caliber, include e-commerce, Industry 4.0, precision agriculture, and the algorithm economy.
+It can be seen that there are a wide range of indicators that can be used in measuring digital economy. Giving the wide range of
+Table 4 (continued )
+Tool Kit (Report Year) Core Measuring Index No of 1st
+Level
+Index
+used
+No of 2nd
+Level
+Index
+Used
+Country/
+organization
+developing the
+tool
+Economy measured
+Approaches to Defining and
+Measuring Russia’s Internet
+Economy Based on System of
+National Accounts (SNA
+ICT Infrastructure and Maintenance, online
+Business, Online and offline business
+3 29 Russia
+A.A. Oloyede et al. 
+Heliyon 9 (2023) e17654
+9
+indicators as seen in Table 3 it is impossible to narrow it down to specific indicators for a country to measure. As also seen from Table 4
+none of the current toolkit suffice. However, it is important that when measuring digital economy especially in developing countries
+the indicators must seek to measure the impact of Digital economy on social wellbeing, Economy and Governance. This is as established in our definition earlier and it is important to use these three key indicators because all the indices can broadly be classified
+under these classifications. These are also the classifications generally used in measuring quality of life.
+For developing countries like Nigeria, it is also important to examine measure and push for the inclusion of metrics that would help
+in reflecting the local reality such that the welfare brought about by the transition to digital economy can be effectively captured. For
+example, the use of free digital platforms for different thing has improved the social welfare of Nigerians therefore the index developed
+should seek to measure this.
+(iii) Research Question III: to examine how digital economy has been measured in different part of the world
+Measuring the impact (social, economic and governance) of the digital economy is also essential especially in understanding the
+overall economy. This is important as a result of the increased reliance of government services and accountability, people, small,
+medium and large businesses and consumers on digital products and services. It has been established in the previous section, that there
+is no unified definition of what makes up the digital economy. It was not until 1998 that the US government recognized the concept of
+digital economy in a government report “Emerging Digital Economy” which was published by the US Department of Commerce. Since
+then the concept has now been recognized worldwide however, digital economy has been measured differently from one country to the
+other or from one measuring organization to the other [18]. The difficulty in measuring digital economy is because it a value chain and
+each value chain would have to be linked to each other as shown in Ref. [3] The indices used in measuring the digital economy varies
+majorly because the value chain and definition of digital economy varies and the level of data collection and availability varies from
+one country to the other. It is important to accurately measure the digital economy because these days, it is one of the key elements
+than should be used in measuring development and innovation in any country across the world. This section shall examine how various
+country and organizations have measured the digital economy. This is important because research has shown that digital economy is
+expected to contribute about 24% to the global economy by the year 2024 [34]. According to United Nations International Trade,
+digital economy currently accounts for between 4.5% and 15.5% of the world’s GDP therefore the digital economy is now a common
+choice for all countries to reshape their global competitiveness. However, the major challenge would be related to its measurements
+and lack of preparedness or lack of foresight in planning and data collection, storage and availability processes of data. Table 3
+provides a breakdown of the toolkits considered in this work.
+There is a need to also harmonies the indices to be able to compare the most important element needed for the measurement is
+having the necessary data available. Therefore, the major focus of this paper would not be on the harmonisation efforts as there are
+ongoing efforts in this regard. For example the OECD is working hard to harmonizing these factors as emphasized in its report in
+Ref. [30] also [35] showed how the United States Bureau of Economic Analysis developed preliminary statistics for the digital economy
+for the US by relying on other international working groups who are aimed at ensuring that digital economy metrics are comparable as
+a result of the need to ensure harmonisation of the metrics.
+Furthermore, some of the existing traditional models of measuring indices might not be sufficient in measuring the digital economy
+of developing countries. This can be seen in Table 4 that none of the existing toolkit can adequately measure especially for developing
+countries. There are a number of reasons for this some of the tool kits only measures few indicators, some do not take the peculiarities
+of developing countries into consideration, while some are not suitable because the dataset is just not available. Therefore there is a
+need to have a robust measuring indicators that would take care of most peculiarities especially that of developing countries. According to Ref. [36] measuring of digital economy is an important foundation for the development, management and promoting of the
+digital economy itself. The paper established the need to measure the digital economy scientifically using statistical index system that
+adapts the characteristics of digital economy needs. The paper conducted research on measurements of digital economy in China and
+showed that the adopted general models are mainly focused on qualitative description. Which are mostly limited to using simple
+descriptive statistical analysis or the structural equation model. The paper also establish that quantitative analysis is sometimes not
+objective or comprehensive enough therefore, the paper developed an index system to measure digital economy in Anhui province of
+China. The paper used a 3 first level indexes (Digital Industrialisation, Industrialisation and Infrastructure) and 20 s level indexes using
+different weights for each of the components. The indexes used in the second level electronic information, software industry, telecommunication and broadcasting, investment in ICT and among other indexes [33].measures the developmental index of the digital
+economy in thirty cities in China. The model adopted was the use of proportional indexes to measure China’s province digital
+development. The measurement was carried out using a three-dimensional model comprising of the digital infrastructure, digital
+industry, and digital integration and application of the 30 cities from 2015 to 2019. This was used to design an econometric model of
+digital economy. The paper developed the measuring metrics for development of the digital economy using 3 s-level indicators and 12
+third-level indicators. This was done to evaluate the development level of China’s interprovincial digital economy. The paper showed
+that China is obviously having an increasing digital economy year by year however the development of the digital industry is relatively
+slow.
+The level and use of ICT has also been an indicate measure of the digital economy, as it has been showed that improvements in the
+use of ICT has corresponding increase the digital economy [37,38]. [5], conducted a study and analyzed the impact of ICT on economic
+growth. The research showed the impact of ICT on economic performance is not same between countries as it differs based on the
+economic level. Therefore, this shows an advantage of developed countries over developing countries when using metrics like ICT
+penetration as a major index. The paper also highlighted that the number of Internet users from a country is one of the highest
+A.A. Oloyede et al. 
+Heliyon 9 (2023) e17654
+10
+performance indicators used in measuring the digital economy. This is then followed by the percentage of the population reading the
+news and social networks, e-commerce by SMEs, and the use of e-government by public administrations. Mitrovic [39] measured the
+trends in effectiveness of digital economy development in 40 countries in Europe which are categorized as European Union (EU)
+Central and Eastern Europe (CEE) and Western Balkans (WB) countries. This was conducted for the period between 2002 and 2017.
+The evaluation was conducted using the Data Envelopment Analyses (DEA) and Malmquist productivity index. The method used was
+able to demonstrate the strengths and challenges of the national strategy adopted by these countries towards the realization of a digital
+economy. The metric used was able to identify the gap which was as a result of inadequate expenditure on the part of government and
+private research and development expenditures in relation to the GDP. The metric also showed a very low level of investments in
+human capital development more especially in areas of ICT skills development and in the use of ICT. The paper showed that eastern
+and central European countries converges around the EU average when it comes to the development around the digital economy
+although, there is a digital divide between EU and western Balkan [40]. used a method that takes into consideration the revenues
+generated by internet service providers, IT consultants, search engines and software distributors, new media data storage and processing systems, computer hardware dealers and podcasters, advertising agencies and web developers, and providers of public online
+services in estimating the volume of the digital economy. This is done using the value-added mechanism. This showed that measuring
+the internet connectivity level of a country is also another method of measuring the digital economy. Mossberger et al. [41] measured
+the impact of the digital economy using their domain sites. The paper argues that domain names provide commercial data therefore, it
+can provide information that are necessary for measuring the digital economy. This is because the local economy is important element
+that should be measure as a metric in digital economy. The paper argued that domain name can be used by business in a wide verity of
+ways. The use of domain names also has the advantage of helping to lower the communication and transaction costs for
+brick-and-mortar businesses, gig workers, and online entrepreneurs. It can also help improve the communications between businesses
+and connect niche businesses with consumers. The other advantage of domain name is that it helps in expand the visibility of businesses beyond their neighborhood while also helping to link commercial activities in areas that are sparsely populated to the broader
+markets. Therefore, measuring economic activities via the domain name provides an insight into how well the domain name is
+contributing to the digital economy of the nation.
+The income from the use of ICT has also been a method of measuring the digital economy. For example the BEA identified goods and
+services that should be included in the digital economy estimate [42]. identified different approaches to measuring digital economy
+using statistical analysis, sociological research, and institutional design techniques by taking into account international experience that
+meets scientific validity and practical applicability. The paper expressed that internet has a way of affecting the economy directly and
+indirectly however, there is no acceptable universal way of measuring the digital economy despite the efforts of ECD, McKenzie and
+BCG Deloitte etc. The paper stated that most researcher in Russia measure the digital economy by measuring the internet economy and
+its share on the GDP by calculating expenditures of economic agents in order to measure their effect of digital economy. The paper
+argues that this can be by measuring the income from the digital platform and the loss from the conventional platform. The paper
+expressed that the internet economy can be measured by System of National Account (SNA) based on official statistics calculated as
+Internet economy = Consumption + Investment + Public Spending + Net Exports (1)
+It can be seen from equation (1) that all the components used in measuring the impact depends on payments as the consumption
+was defined as “expenditures on buying products and services on the internet; ” The approach used by the authors of this paper
+emphasized that the prices approach would useful as it can help trace data collection and processing mechanism.
+Another major index used in measuring the digital economy is in the labour productivity by using the skill level of the labour force,
+access to market, ease of using technology, social success, innovation, employment and technological interactions [43]. examined the
+influence of digitalization on labour productivity using the empirical econometric framework of endogenous-growth model. The paper
+used an innovative way of analysing the data set from the Conference Board’s Total Economy Database using the Brazil, Russia India,
+China and South Africa (BRICS) as the case study. The paper showed that digital economy has a measurement problem, also as there
+are different ways of aggregating or measuring its indices and that which the digital economy feeds into such the gross national product
+(GNP), or the gross domestic product (GDP). Numerically the different national accounting identities are not able to reconcile back and
+forth effortlessly. The paper indicated that the problem of choosing the appropriate metrics also has to do with the fact that national
+accounting system such as GDP were not originally meant to measure things like the digital economy rather there were meant for
+commerce measurement. The paper also concludes that the challenge in measuring labour productivity has an inherent weakness in
+measuring the GDP accurately but and concluded that a 1% increase in labour digitalization would lead to about 17% increase in
+productivity. The paper also expressed that fact that new economic and labour activity should be adequately fed into measurements
+like the GDP. While using the digital economy as an input into the GDP is a useful way to get a sense of the state of an economy, it is by
+no means a perfect approach. One criticism is that it would not allow to account for activities that are not part of the legalized
+economy. This is because some labour activities and cash transactions can’t be factored into GDP. Therefore, there is a need to factor all
+ICT related activities that provide value into the measurements.
+Various organizations has also measured the digital economy indexes differently coming up with indexes like Network Readiness
+Index (NRI), Electronic Government Development Index (EGDI) and Digital Economy, Society Index (DESI) among others [44].
+examined how United Nations conference on trade and development (UNCTAD), the Bureau of Economic Analysis (BEA) which is a
+unit in the US department of ecommerce. European Union (EU), the digital economy task force (DETF) of the G20 and Vietnam
+measure the digital economy as all shown in Table 3. The paper showed that UNCTDA divided the digital economy into 3 main
+components looking at the core aspect which is ICT product and infrastructure, the digital and information sector whose key product
+A.A. Oloyede et al. 
+Heliyon 9 (2023) e17654
+11
+are based on digital gods and services and the broader sector. It also showed that BEA uses 3 components in measuring its digital
+economy just like UNCTAD however the measured metrics are different such as in the media measurements and some aspect of the
+ecommerce. The BEA identified about 250 goods and services classified under the digital economy, measure the hardware, software
+and structural infrastructure that supports ICT, e-commerce based on total revenue for online sales by taking into account
+business-to-business and business to consumer sales, priced digital services including cloud services, digital intermediary services and
+other purchased digital services however free digital services were not taking into consideration. Furthermore, according to the paper,
+the EU uses DESI which as at then has 5 main components while the G20 has a broader definition than others mentioned earlier. The
+author as suggested that Vietnam should use the Digital adoption model (DIA) which has 6 components the paper showed that there is
+a lack of uniformity between organizations or countries measuring the digital economy. The paper showed that the differences was
+brought to fore because of the approach and perspective used in determining the narrow or broad definition as well as the components
+of the digital economy such as determining which goods and services has a direct link to the digital economy. The paper concludes that
+measuring originations and countries need to agreed set of criteria in order to be able to compare across different countries or compare
+different measurements form various orgnisations. Generally, each measuring organization collects its data set from various sources
+depending on the country, the data are analyzed and verified using some internally defined mechanism and each of the indicators are
+nomalised against some redefined weighing scale based some defined level of importance. These are now aggregated into the overall
+index for example equation (2) gives the formula used by DESI, where c is the Connectivity the score obtained by country in the
+Connectivity dimension.
+DESI(C) = Human capital(C) × 0.25 + Connectivity(C) × 0.25 + Integration of Digital Technology(C) × 0.25
++ Digital Public Services(C) × 0.25 (2)
+Some indicators can be missing for some countries meaning the index is calculated based on the dataset available. Therefore it is
+important for countries to be proactive in making necessary data available [39]. showed that the ability of countries to enforce and
+adopt national strategies and action plans in the areas of development of ICT corruption, inadequately developed traditional physical
+infrastructure among others are factors affecting the indices used in measuring the digital economy. The paper also suggested that the
+countries should use case studies and need to choose a larger number of indicators as inputs such that it would allow them to identify
+areas in the digital economy measurements that should be improved upon.
+(V) Research Question IV: to examine the need and role of Government and its regulatory agent in measuring the digital economy in
+developing countries like Nigeria
+He digital economy has ushered in the fifth technological revolution, distinguished from previous revolutions by its reliance on
+large-scale digital data and telecommunication infrastructure. In this context, the role of governments and regulatory agencies is
+crucial in facilitating a smooth transition to the digital economy. Visionary leadership and the implementation of appropriate policies
+are key ingredients for an effective transition. Additionally, governments play a critical role in establishing digital infrastructure
+supported by big data, artificial intelligence, mobile Internet, and cloud computing.
+To address the evolving landscape of the digital economy, it is imperative for governments and regulatory agencies to promote
+universal access to the internet, regardless of geographical location. They should also foster unhindered collaboration, trade, and
+services within and beyond national boundaries. In regulating the use of various platforms and technologies, particularly those
+developed locally, the regulatory agency should avoid unnecessary restrictions that could stifle innovation. Furthermore, ensuring the
+security and stability of the internet and encouraging technology adoption, especially among technology-wary demographics such as
+the elderly, are vital tasks for the agency. Equipping citizens with the necessary skills to participate in the digital economy is also an
+important responsibility.
+In the Nigerian context, the Nigeria Communications Commission (NCC), as a government agency, must embrace and adapt to the
+changes brought about by the digital economy. It should not only approach these changes in an innovative manner but also prepare
+Nigerian citizens to succeed in the digital era. The NCC should prioritize the expansion of Internet connectivity, recognizing it as a
+catalyst for growth, innovation, and freedom of expression. Collecting relevant information and statistics on internet usage, establishing mechanisms for continuous improvement and adoption of new technologies, and empowering the digital economy department
+within the regulatory agency are all critical steps.
+Furthermore, the digital economy department should focus on utilizing the digital economy to enhance domestic prosperity,
+improve digital skills and education, and facilitate participation in cultural and political spheres by expanding the digital space.
+Emphasizing e-government initiatives, where government services are accessible digitally, can enhance transparency and efficiency in
+public service and governance. It is important for the regulatory agency to develop metrics that accurately measure the digital
+economy’s contribution to metrics like GDP, enabling policymakers and stakeholders to make informed decisions.
+By adopting these strategies, the regulatory agency can better understand the size and economic significance of the digital
+economy, enabling the formulation of informed policies and effective governance in this evolving landscape. As a result of the
+importance of the digital economy in measuring developmental index of a country it is now very important for governments to develop
+methods of gathering and making data available for appropriate measurements while coordinating such efforts locally, regionally and
+globally in order to be able see areas of improvements, learn best practices and compare. According to Ref. [36] the EU attach a great
+level of importance when it comes to the gathering statistics needed to accurately measure the digital economy. Therefore, the EU has
+been publishing the EU digital economy and society report and the digital economy and society index (DESI) since 2014. The EU also
+A.A. Oloyede et al. 
+Heliyon 9 (2023) e17654
+12
+provides the necessary coordination across countries on statistical definitions and survey standards by using legislation to ensure that
+countries undertake ICT usage surveys and a well-established the necessary to agree on the specific modules and questions to be
+included on the survey. Also, the United States has also made significant attempt at measuring the digital economy at the national
+level. This has been undertaken by the BEA in the United States, [2]. The G20 also understood the importance of accurate date and
+measuring the right indices for the digital economy hence it encouraged member state to comprehensively reflect the measurement of
+the digital economy in their respective national statistics [45]. Therefore, it is important for developing countries to develop and report
+same as there is a gap in this regard. One major way in which measurement of the Digital Economy can be advanced is by ensuring the
+proliferation surveys and indicators that are necessary for using existing standards and practices. ICT survey should regularly be done
+and categorized as business, households and individuals across the country. This should capture key developments and phenomena
+like the use and proliferation of technologies of data driving business models and other ICT based value chain creation. It should also
+include the ways in which digital technology use interacts with physical and mental health and well-being. New measurement standard
+can also be introduced in measuring the digital economy as international and domestic index systems can have their own strengths and
+characteristics.
+Lobove et al. [46] showed that the digital economy of a country depends on the social and technical progress being made in the
+country. The paper also established that countries have different social and economic advantages over each other, therefore the
+scenario would be different between the developed and the developing economies of the world. The paper went further to establish
+that for developed countries simultaneous social and technical progress is more likely probable than in developing countries.
+Therefore, there would be a disparity on how they measure the digital economy so there is always a room for improvement. In view of
+the importance of having a clear direction for effective transition to digital economy this paper proposes a roadmap.
+5. Research Question V: to examine a roadmap towards developing a framework for measuring digital economy in
+developing countries
+The underling element of the digital economy is fundamentally the telecommunication infrastructure. Therefore, the resilience,
+security, availability of these infrastructure is critical to the transition to digital economy. In most developing countries, the demand
+and supply of digital infrastructure and services is rapidly growing. According to the GSMA report on mobile economy [47], about 46%
+of the Sub-Saharan African population have subscribed to mobile services as mobile service is the primary source of growth in the
+region. The 4G adoption is this region is also expected to double by 2025 to more than 28%. However, there is a need for polices to
+sustain the growth and improve upon existing infrastructure in order to provide an affordable, fast and reliable internet connectivity.
+This is because COVID-19 pandemic lockdown has also shown the world the importance of connectivity more than ever and it has also
+shown that developing economics has in place some level of infrastructure to sustain and enhance its transition to a digital economy.
+There is a need to continue to rapidly innovate and adopt business models using more of digital technology. There is a need for
+developing countries to come together to examine the current indicators for digital economy this is because the current indicators may
+not necessarily adequately reflect the transformation happening in developing countries as a result of the digitalization taking place.
+The current indications might not also reflect the value added to national economies, particularly, the social economic impact of the
+transition to digital economy in developing countries as shown in Table 4. Therefore, there might be a challenge in reporting the
+growth rate of digitalization across the various indicators if the impact of digitalization along its various dimensions are not properly
+highlighted. It can be seen that there is a currently lack of adequate research and coverage of the digitalization of developing countries
+compared to developed countries in the literature. This might be due to differences in statistical capacity of these countries, when
+compared to developed countries or user needs and priorities for statistical collection or timeline set to make the data available.
+Developing countries must develop the culture of access, use and expenditure. This is in terms of ensuring that everyone throughout
+Fig. 3. Roadmap for digital economy plan.
+A.A. Oloyede et al. 
+Heliyon 9 (2023) e17654
+13
+the country have access to broadband services. Solutions must be found to the current digital divide between urban and rural areas as
+highlighted in Ref. [48] in developing countries. It is important to also point out that for developing countries to benefit from digital
+economy such country must foster the provision of affordable ICT infrastructure and services, deploy and invest in fast telecommunication access, provide adequate skills, encourage innovation, offer online and cashless payment solutions, improving trade logistics
+and trade facilitation through the use of ICT, creating appropriate legal and regulatory frameworks, promoting e-commerce skills
+development, facilitating access to financing and provide an enabling environment for growth in the ICT sector. This is necessary
+because providing internet access is not enough without ensuring that majority of the people use the Internet. Government, businesses
+and the vast majority of the people should also be encouraged to use digital services. This is because there is also a need to ensure that
+good and services are provided online to generate online expenditure and providing an alternative which might be more convenient to
+Table 5
+Digital economy toot kit comparison.
+Tool Kit Weighting
+Factor Used
+Takes Into Consideration Most Dataset
+Publicly
+Available in
+Nigeria
+Currently
+Feasible for
+Developing
+Countries
+Economy Government Social
+Wellbeing
+Free
+services
+Peculiarities of
+Developing
+Economies
+Digital Economy and
+Society Index (DESI)
+(2020)
+No Free Yes No Yes No No No No
+Network Readiness Index
+(NRI) (2020)
+Yes Yes Yes Yes No No No Yes
+Electronic Government
+Development Index
+(EGDI) (2020)
+Yes No Yes No No No No Yes
+ICT Development Index
+(2017)
+Yes No No Yes Yes No No Yes
+Measuring digital
+development: facts and
+figures (2020)
+No Yes No Yes No No Yes Yes (Not
+Extensive
+Enough)
+Going Digital Toolkit (2020) No Yes No Yes Yes No No Yes
+ROAM-X framework (2020) Yes No No Yes No No No Yes
+Digital Economy Country
+Assessment (DECA)
+(2020)
+Yes No Yes No No No Yes
+Digital Adoption Index –
+(2016)
+NO No Yes Yes No Yes Yes
+Research and Analysis on
+the Index System of
+Digital Economy in
+Anhui Province (2021)
+Yes Yes No No Yes No No No
+Study on the effect of digital
+economy on highquality economic
+development in China
+(2021)
+Yes No No No No No No No
+Impact of broadband speed
+on economic outputs:
+An empirical study of
+OECD countries
+Yes No No No Yes
+Impact of ICT development
+on economic growth. A
+study of OECD
+European union
+countries
+Yes Yes No Yes No No No Yes
+Measuring the efficiency of
+digital convergence
+(data envelopment
+analysis (DEA) and
+Malmquist productivity
+index)
+Yes Yes No No No No No No
+A new measure of digital
+economic activity and
+its impact on local
+opportunity
+No No No No No Yes Yes Yes
+Approaches to Defining and
+Measuring Russia’s
+Internet Economy Based
+on System of National
+Accounts (SNA),
+Yes Yes No No No No No NO
+A.A. Oloyede et al. 
+Heliyon 9 (2023) e17654
+14
+some while also showing transparency in governance. The Digital Economy plan of the country must be comprehensive, transformative, inclusive, and collaborative while encouraging local content as shown in Fig. 3. It must be comprehensive enough to include
+digital infrastructure plan, provision of digital platforms, digital financial services, digital enterprise, and digital skills among others.
+There is also the need to ensure that the plan is in alignment with the strategic plan of the country. This plan must be quite ambitious
+and transformative such that it would ensure that it provide the necessary jobs among other things. The digital economy plan must also
+ensure that everyone is carried along. This is in ensuring that both the private and public sectors are carried along. While also ensuring
+that home grown technologies are encouraged to ensure sustainability.
+5.1. Measuring the digital economy in developing countries
+Developing countries face the challenge of establishing robust policies and guidelines concerning data ownership, given the
+strategic importance of digital data sets. It is imperative to clearly identify who has the authority to control access, usage, and deletion
+of data, while also defining the associated rights pertaining to data “ownership” [30]. By doing so, developing countries can ensure a
+proper framework for data governance. Measuring the transition to a digital economy in developing countries requires the implementation of appropriate and effective metrics that allow for flexibility and responsiveness to the rapid changes in the digital era. A
+comprehensive and efficient measurement system is crucial for informing and guiding policymaking, enabling decision-makers to
+make informed choices necessary for development. Furthermore, it assists policymakers in diagnosing specific issues, assessing the
+potential impacts of alternative policy options, monitoring progress, and evaluating the effectiveness and efficiency of implemented
+policies.
+Several approaches and toolkits are available for measuring the digital economy, as illustrated in Tables 4 and 5. Each toolkit has
+defined indexes that can be utilized. Upon evaluating these toolkits, it becomes evident that the Going Digital Toolkit developed by the
+OECD offers significant breadth. However, modifications are necessary to account for the unique characteristics and challenges faced
+by developing countries. Therefore, this roadmap focuses on improving the Going Digital Toolkit to ensure its applicability and
+relevance in developing country contexts.
+Within the digital economy toolkit, data on economic information can be collected through the income, production, or expenditure
+approaches, as depicted in Fig. 4. Ideally, each approach should yield similar results within a well-defined market system. However,
+most developing countries lack a well-defined market system, and the available data varies across countries, each with its own disadvantages. Hence, this paper examines these three approaches, taking into account the specific circumstances of developing countries
+(see Fig. 5).
+The production approach sums up all the economic value derived from the production of good and services related to digital
+economy in the country minus the cost of goods and services input into the production. The Expenditure approach adds up the
+monetary values from all the goods and services from the internet-related spending by consumers, businesses, government and
+overseas resident. This would include the expenditure from households, businesses, government and international consumers on goods
+and services in the country. The income approach is based on the income from jobs related to the internet related services goods and
+services using digital means. In measuring the index relating to social wellbeing, the most appropriate approach is to evaluate this
+using monetary value as suggested in Refs. [49,50]. This is done by asking respondents how much they are ready to pay or would have
+paid for a service that has being digitized and this can help in calculating the marginal utility. In measuring how digital economy is
+relation to governance, this can be measured in terms of measuring services, feedback and government accountability using digital
+platforms. They can be reflected in surveys questions administered within the country. Developing countries needs a hybrid method
+when it comes to measuring its transition to digital economy or take into consideration its peculiarity when adopting a model. This is
+because developing countries cannot effectively compete with developed countries in these three areas.
+5.2. Defining the digital economy index for developing countries
+The objective of this work is to propose a framework for selecting an index that can effectively measure the digital economy in
+developing countries. The aim is to harmonize measurement approaches and indicators to capture the ongoing digital transformation
+within the country. This framework can guide organizations currently measuring these indices to enhance their toolkits by incorporating these indicators. Additionally, it provides policymakers with an understanding that without data availability, measurement
+Fig. 4. Approaches to measuring the Digital economy.
+A.A. Oloyede et al. 
+Heliyon 9 (2023) e17654
+15
+becomes impossible.
+Prior to discussing the index for measuring a country’s digital economy, it is essential to establish national initiatives that drive ICT
+advancements and facilitate the measurement of related indicators. The index should be categorized based on its impact on the digital
+economy, ensuring that each indicator is normalized according to its overall effect. Figgure 54 illustrates the division between direct
+and indirect impact metrics. The direct impact index should encompass workplace digitalization across sectors such as e-health, eeducation, digitalization in construction, accommodation, research and development investment, retail, agriculture, and others. It
+should also capture the transformation occurring in industries and its impact on workplace productivity. This direct impact index
+should be normalized by a factor greater than that of indicators with indirect impact. The indirect impact index should measure the
+societal benefits, including their impact on governmental policies, transparency, and overall social welfare. It is crucial for each
+country to define its own metrics based on its specific digital transformation and adapt existing toolkits for global comparisons. By
+developing a comprehensive digital economy index, developing countries can effectively measure and monitor their progress in the
+digital realm. This will provide valuable insights for policymakers and stakeholders to make informed decisions and foster sustainable
+growth in the digital economy. Roger in Ref. [51] investigated how Cameroon can adequately integrates metrics necessary to measure
+its digital economy adequately by the year 2035. The study also presented a roadmap and necessary measures and actions that should
+be considered to guarantee a successful development of digital economy in Cameroon or similar developing country. The paper
+examined the digital economy factors such as the people, services and goods, the policies, regulations and underlying technological
+infrastructures that are known as salient metrics related to digital economy. These metrics were examined as they are seen at the metric
+that would allow for effective measurements of the transition that is taking place in Cameroon.
+This subsection shall use Nigeria in developing a general roadmap for index selection in developing countries. Nigeria is used as a
+case study here but the framework can be generalized for developing economies. This subsection does des not seek to entirely redefine
+the existing toolkits rather it is a guide seeking to highlight some of the peculiarities that should be taking into consideration in
+developing countries.
+It is not necessary to entirely develop specific toolkits for developing countries because it would unnecessarily add to the lack of a
+generalized definition and toolkit. There are also already developed toolkits for measuring the digital economy around the world by
+different organsations such as OECD who have made efforts to define a generalized model. Rumana and Richard [25] also attempted to
+define and develop a framework for digital economy based on current knowledge. However, these toolkits does not adequately take
+into consideration some peculiarities of developing countries like Nigeria. This subsection also seek to bring together various efforts
+already made by organizations across the world in defining the metrics to be used. Developing such framework is necessary for evidence based public policy making by theses developing countries and partners across the globe while measuring indicators like the
+GDP. As there are few existing literatures on the current model used in developing countries to measure their transition to digital
+economy, some of these indices could already be taking into consideration in developing countries.
+Developing countries have a critical role to play by making available the necessary dataset. For easy harmonisation into global
+efforts by OECD, this paper shall examine ways of taking developing countries into consideration using the Going Digital toolkit. The
+general division of the toolkit are Infrastructure deployment; Empowering Society; job Sills and growth; and Innovation and Technology Adoption. While taking into consideration these areas, this paper shall majorly focus on areas where developing countries can
+improve each indicator, the data collection and data storage and measuring toolkits.
+Fig. 5. Defining the digital economy metrics.
+A.A. Oloyede et al. 
+Heliyon 9 (2023) e17654
+16
+It is also important for developing countries to adequately understand and put in place mechanism that would ensure that they
+understand polices that would make a difference by understanding the core and non-core components of measuring the digital
+economy. In collecting these data there is also a need for developing countries to ensure that the public and private sectors are working
+together while government and the regulators should ensure that these data are publicly available for individual’s and agencies across
+the globe to access them.
+a. Broadband Infrastructure Deployment.
+When measuring broadband infrastructure and deployment in developing countries, it is crucial to consider a comprehensive set of
+indicators and utilize a wide range of data sources. One critical indicator is broadband penetration, which measures the number of
+subscribers for both fixed and mobile broadband services relative to the population of the country. In many developing countries,
+mobile broadband is the primary source of internet connectivity for most people. Although fixed broadband is known to offer faster
+connectivity, advancements in technology, such as the integration of mobile broadband with optic fiber and backhaul, have enabled
+fast internet access via mobile networks. Consequently, it is essential to avoid discrimination between the two types of broadband
+connections when calculating digital economy indicators using certain toolkits.
+Furthermore, it is important to differentiate between home subscribers and business subscribers and consider the varying payment
+structures for different available broadband packages. Different users have distinct requirements in terms of speed and benefits, hence
+telecommunication regulators should collect accurate and comprehensive information from network service operators, including data
+for both prepaid and postpaid customers. Regulators should also gather information about regular offers provided by service providers
+and ensure that these offerings are adequately advertised on their websites, enabling their inclusion in the measurement of affordability. A reliable and fast broadband infrastructure across the country plays a crucial role in facilitating effective communication
+among users and businesses. To capture this aspect, it is imperative to request regular information from educational institutions and
+private sectors regarding their internet access speeds and services offered online. For instance, the increased use of IoT technologies in
+private hospitals and schools in Nigeria, particularly during the COVID-19 pandemic, should be adequately documented and included
+in the digital economy index.
+Additionally, it is important to account for local technological initiatives and initiatives by individuals and private sectors that are
+not currently captured. The Nigerian Telecommunication Regulatory Agency’s unit responsible for local content should collect and
+provide accurate and accessible data to ensure proper reflection in the measurement of the digital economy.
+To fully assess the impact of government incentives on broadband infrastructure, it is necessary to quantify initiatives such as
+providing free or low-cost right-of-way access for telecommunication service providers in certain areas of Nigeria. This information not
+only reveals the cost of investments facilitated by government incentives but also highlights the infrastructural support that would
+typically require significant financial resources. In contrast, such incentives may not be necessary in developed countries where the
+required infrastructure is already in place prior to the transition to a digital economy. Including records of government incentives in
+ICT investment is a key indicator considered by many digital economy toolkits. Regulators should also collect information on
+advertised broadband speeds and utilize this data to establish a theoretical broadband speed for the country. It is important to
+benchmark broadband speeds against industry-specific requirements. For example, certain industries may require fast broadband
+services, while others in the developing world may have different needs. Moreover, connectivity prices should be accurately collected,
+and the downward trend in prices should be documented and benchmarked effectively.
+b. Empowering Society
+Innovation and technology adoption can help in improving the standard of living, offers choices and convenience therefore the
+adoption of technology across services offered by private, civil and governmental organizations is important. It is important to collect
+information about access to these type of services so as to have a good indicator to the number of people online. An adequate and
+frequent national survey to measure ICT usage, e-commerce, e-health, e-education and other wide range of online activities should be
+developed for both individuals and household. For developing countries like Nigeria, it is important to also factor out services that are
+initiated online but not concluded online. For example, a number of online retails as only initiated online and paid for when the goods
+and services are delivered, also government offer services that are initiated online like the voters’ registration exercise but for some
+factors they cannot be completed online. Therefore, such services should also be taking into consideration and they might not be
+reflective if a generalized model is adopted. In addition to this there are a number of traditional jobs peculiar to the developing worlds
+which now use the power technology in making sure they are more efficient such type of jobs should be adequately reflected.
+For developing countries where resources are quite scarce, it is important to measure the access to free online services. For example,
+the use of free digital services has help in a number of ways such as the use of free maps that have replaced having to pay a guide for
+directions or sellers who now use the free social media to advertise and sell their goods and services without necessary having a brickand-mortar shop. These are the effects of digitalization and such activities should be captured appropriately because the transition to
+digital platforms has removed the cost of owning a physical shop and it has also provided access to a large number of customers thereby
+creating an informal sector of the economy. In the developed world, most of such enterprise are registered and would have a website
+however in the developing world like Nigeria most of this enterprise has no website, owned by individual and they only take advantage
+of the social media to register their presence online. Some of these services are offered in a manner that reflect some level of ingenuity
+and skills that should also form parts of the dataset for measuring the digital economy. Therefore, it is important to adequately seek for
+means of measuring the contributions of these free services to the digital economy in the context of developing countries especially in
+A.A. Oloyede et al. 
+Heliyon 9 (2023) e17654
+17
+the informal sectors. This is because the informal sectors are quite significant in developing countries and they are not often taking into
+consideration. It is also important to capture this sector because there is a better tendency for people in developing countries to adopt
+the use of free services than the paid services.
+It is also important for business to provide adequate information about digital services offered electronically using a standard
+reporting tool while regularly conducting survey on its effect on the businesses. Collecting and adequately providing such information
+using a digital platform would also help the private sector to better interact with government agencies online. This should also be
+measure as it is a curtail index used by popular tool kits in measuring the digital economy. Furthermore, there is a need to also measure
+and quantify adequately services offered by government agencies. For example, in Nigeria, all students going into the higher institutions are required to register online for national examination such registration services can only be done online and would require
+some level of digital skills by all applicant such initiative and services should be well documented, recorded and information made
+available publicly so that they can be taking into consideration. This should also include online services offered by the transportation
+industry, educational sector such as the ease of students having internet access in school and at home. It is important to reflect those
+smart phones and handheld devices now has some level of capability of a computer therefore it is important to seek to redefine the
+access to computers used by major toolkit as a major contributing factor n measuring the digital economy.
+c. Jobs skills and growth
+Digital economy has brought about changes in job description while creating new jobs that require different level of skills. It has
+brought about job disruption and innovations that has brought about better efficiency in delivering services. The impact of digital
+economy in the job environment needs to be measured adequately such that the improved skills necessary to operate in a digitalized
+environment is measured adequately while understanding its impact on the digital economy. This would bring about clarity as to the
+gains made as a result of the transition. However, measuring the number of job created as a result of the transition to digital economy
+can be quite complicated because workforce are trained with new skills which would enable them take up new roles or make changes
+to how they previously carry out their roles rather than having to employ new works who already have the skills. Therefore, developing
+countries needs to fashion out models that would adequately give a clear indication to the level of jobs being created or lost as a result
+of the transition. There are different models of measuring this as explained in Ref. [52]. The better model is to look at the overall job
+created by technologically and IT driving industries however this would mean that such industry and sectors are clearly defined and
+classified. In addition, the labor force survey should be periodically carried out with a clear indication to the level of ICT required for
+each category of job. This survey should also take into account age, sex, religion and level of skills acquired previously and recently.
+d. Innovation and technology
+Technological innovations are meant to help in improving productivity thereby contributing to the transition to digital economy. It
+is necessary for policy making to monitor and collect data about the uptake of innovative technological innovations. There is a need to
+ensure that local innovations are well captured while ensuring that they are patented. For example, in Nigeria there are lots of local
+initiatives or technology being developed and deployed but are currently not being captured. It is necessary to ensure the capturing of
+these sector especially the local initiatives on robotics and artificial intelligence. In addition to these the expenditure on research and
+development should also be captured appropriately. For example, in Nigeria, there are different nontraditional governmental agencies
+that provides grant for research and development. There is a need to develop a national framework to adequately measure such
+initiative. Furthermore, developing countries like Nigeria produced locally a huge amount of software for the ICT industry. The
+production and use of such software should also be captured by developing appropriate mechanism such as survey to reflect the
+production of software within the country. Such mechanism should also measure the contributions of the various innovation hubs
+more especially in Nigeria where innovation hobs are scattered over the country without having a proper record for them.
+6. Conclusions and recommendations
+6.1. Conclusions and recommendations
+This paper examined the various definitions and concept of measuring the digital economy using the systematic literature review
+based on the PRISMA model. The various definition and need for sound measurement of the digital economy was developed especially
+for developing countries like Nigeria. This research examines works related to metrics used in measuring the digital economy across
+the globe as well as the model adopted in exploring the gap. This paper also provided trends and future methods in measuring the
+digital economy that can be adopted by developing countries. The paper showed that the concept of digital economy has received
+massive attention by academia, government and also policymakers because of the importance of the digital economy to growth and
+development of the country. The paper showed the lack of a clear, commonly agreed definition of the digital economy as this is a
+challenge to both developed and developing economies. The literature identified the inadequate level of taking into consideration
+some peculiarities of developing economies in defining and measuring the digital economy thereby developed a framework for
+developing countries. The paper identified that countries can only transition to digital economy if every data is collected analaysed and
+used appropriately to reflect the polices put in place. This paper therefore recommends that governments in developing countries
+should not only pay attention on developing consumer internet services but should also on the processes and metrics used in measuring
+digital transformation by various toolkits. The telecommunication and ICT sector should be built adequately while providing other
+A.A. Oloyede et al. 
+Heliyon 9 (2023) e17654
+18
+necessary digital infrastructure in an integrated manner. This paper recommends that.
+i. The definition of the digital economy needs to be flexible enough to accommodate necessary changes while also ensuring that
+the toolkits for measuring digital economy is flexible enough to accommodate developing countries.
+ii. Developing countries needs to ensure that the necessary infrastructure are put in place for easy transition to digital economy
+iii. The measuring metrics should take into consideration some peculiarities of developing countries.
+iv. Governments of developing countries should put in place measures to ensure that adequate data are collected and made
+available.
+v. The paper is also recommending that developing countries like Nigeria should put in place a Digital Economy Advisory Board
+(DEAB) that would be made up of distinguished leaders who would bring a wide range of experience from industry and
+academia on the digital economy, its measurement and development of appropriate metrics and how it relates to businesses and
+economic policies of the nation. The board should also recommend to appropriate arm of government on areas and how to
+develop and put in place measures that can impact on the economy and an impact on the economic indicators such as GDP and
+productivity.
+By implementing these recommendations developing countries can effectively measure and harness the potetil of the digital
+economy for their growth and development.
+Author contribution statement
+All authors listed have significantly contributed to the development and the writing of this article.
+Data availability statement
+No data was used for the research described in the article.
+Additional information
+Supplementary content related to this article has been published online at [URL].
+Declaration of competing interest
+The authors declare that they have no known competing financial interests or personal relationships that could have appeared to
+influence the work reported in this paper
+References
+[1] D. Tapscott, R. McQueen, The Digital Economy: Promise and Peril in the Age of Networked Intelligence, Bambook, 1996.
+[2] K. Barefoot, et al., Defining and Measuring the Digital Economy, vol. 15, US Department of Commerce Bureau of Economic Analysis, Washington, DC, 2018.
+[3] H.X. Wu, C. Yu, The impact of the digital economy on China’s economic growth and productivity performance, China Econ. J. 15 (2) (2022) 153–170.
+[4] T.V. Ershova, Y.E. Hohlov, S.B. Shaposhnik, Methodology for digital economy development assessment as a tool for managing the digital transformation
+processes, in: Eleventh International Conference" Management of Large-Scale System Development"(MLSD. 2018. IEEE), 2018.
+[5] A. Fernandez-Portillo, M. Almodovar-Gonzalez, R. Hernandez-Mogollon, Impact of ICT development on economic growth. A study of OECD European Union
+countries, Technol. Soc. 63 (2020), 101420.
+[6] S.A. Haller, S. Lyons, Broadband adoption and firm productivity: evidence from Irish manufacturing firms, Telecommun. Pol. 39 (1) (2015) 1–13.
+[7] M.M. Albiman, Z. Sulong, The linear and non-linear impacts of ICT on economic growth, of disaggregate income groups within SSA region, Telecommun. Pol. 41
+(7–8) (2017) 555–572.
+[8] G. Ndubuisi, C. Otioma, G.K. Tetteh, Digital Infrastructure and Employment in Services: Evidence from Sub-saharan African Countries, Telecommunications
+Policy, 2021, 102153.
+[9] Y. Liu, et al., Digital economy development, industrial structure upgrading and green total factor productivity: empirical evidence from China’s cities, Int. J.
+Environ. Res. Publ. Health 19 (4) (2022) 2414.
+[10] W. Mayer, G. Madden, C. Wu, Broadband and economic growth: a reassessment, Inf. Technol. Dev. 26 (1) (2020) 128–145.
+[11] D.L. Cogburn, C. Nyaki Adeya, Prospects for the Digital Economy in South Africa: Technology, Policy, People, and Strategies, WIDER Discussion Paper, 2001.
+[12] C. Okoli, K. Schabram, A Guide to Conducting a Systematic Literature Review of Information Systems Research, 2010.
+[13] E.T. Rother, Systematic Literature Review X Narrative Review, SciELO Brasil, 2007.
+[14] Y. Xiao, M. Watson, Guidance on conducting a systematic literature review, J. Plann. Educ. Res. 39 (1) (2019) 93–112.
+[15] L. Shamseer, et al., Preferred reporting items for systematic review and meta-analysis protocols (PRISMA-P) 2015: elaboration and explanation, BMJ (2015)
+349.
+[16] D. Moher, et al., Preferred reporting items for systematic reviews and meta-analyses: the PRISMA statement, Int. J. Surg. 8 (5) (2010) 336–341.
+[17] A.A. Selcuk, A guide for systematic reviews: PRISMA, Turk. Arch. Otolaryngol. 57 (1) (2019) 57.
+[18] J. Bosman, et al., Scopus Reviewed and Compared: the Coverage and Functionality of the Citation Database Scopus, Including Comparisons with Web of Science
+and Google Scholar, 2006.
+[19] J.F. Burnham, Scopus database: a review, Biomed. Digit Libr. 3 (1) (2006) 1–8.
+[20] M. Boeker, W. Vach, E. Motschall, Google Scholar as replacement for systematic literature searches: good relative recall and precision are not enough, BMC Med.
+Res. Methodol. 13 (1) (2013) 1–12.
+[21] P.M. Podsakoff, et al., The influence of management journals in the 1980s and 1990s, Strat. Manag. J. 26 (5) (2005) 473–488.
+[22] G. Valenduc, P. Vendramin, Work in the Digital Economy: Sorting the Old from the New, vol. 3, European Trade Union Institute Brussels, 2016.
+[23] C. Dahlman, S. Mealy, M. Wermelinger, Harnessing the Digital Economy for Developing Countries, 2016.
+A.A. Oloyede et al. 
+Heliyon 9 (2023) e17654
+19
+[24] В. Гостева, Phenomenon of the digital economy: promises and paradoxes, in: Новые направления научной Мысли, 2018.
+[25] R. Bukht, R. Heeks, Defining, Conceptualising and Measuring the Digital Economy, vol. 68, Development Informatics working paper, 2017.
+[26] OECD, Measuring the Digital Economy, 2014.
+[27] Department of Broadband, C. and t.D. Economy, Advancing Australia as a Digital Economy: an Update to the National Digital Economy Strategy, Australian
+Government Canberra, 2013.
+[28] S. Brennen, D. Kreiss, Digitalization and Digitization, Culture digitally, 2014, p. 8.
+[29] M. Rouse, Digital Economy, Techtarget, Newton, MA, 2016.
+[30] OECD, OECD Digital Economy Outlook 2020, 2020.
+[31] Kundelis E., Legenzova R., Equilibrium, Quart. J. Econ. Econ. Policy. 2, 277–293.
+[32] J. Chabik, Digital government measurement and perception–reality check in Poland: measurement and perception–reality check, in: DG. O2021: the 22nd
+Annual International Conference on Digital Government Research, 2021.
+[33] W. Zhang, et al., Study on the effect of digital economy on high-quality economic development in China, PLoS One 16 (9) (2021), e0257365.
+[34] I. Pena-Lopez, Digital Spillover. Measuring the True Impact of the Digital Economy, 2017.
+[35] E.H. Strassner, J.R. Nicholson, Measuring the digital economy in the United States, Stat. J. IAOS 36 (3) (2020) 647–655.
+[36] Z. Wang, P. Shi, Research and analysis on the index system of digital economy in Anhui province, Complexity (2021) 2021.
+[37] C. Kongaut, E. Bohlin, Impact of broadband speed on economic outputs: an empirical study of OECD countries, Econ. Bus. Rev. 3 (2) (2017) 12–32.
+[38] C.Z.-W. Qiang, C.M. Rossotto, K. Kimura, Economic impacts of broadband. Information and communications for development 2009, Extend. Reach and Increas.
+Impact 3 (2009) 35–50.
+[39] Đ. Mitrovic, Measuring the efficiency of digital convergence, Econ. Lett. 188 (2020), 108982.
+[40] D.A. Economics, The Connected Continent: How the Internet Is Transforming the Australian Economy, Report prepared for Google Australia, 2011.
+[41] K. Mossberger, S. LaCombe, C.J. Tolbert, A New Measure of Digital Economic Activity and its Impact on Local Opportunity, Telecommunications Policy, 2021,
+102231.
+[42] S. Plaksin, G. Abdrakhmanova, G. Kovaleva, Approaches to defining and measuring Russia’s internet economy, Форсайт 11 (1) (2017) (eng)).
+[43] T.J. Gopane, Digitalisation, productivity, and measurability of digital economy: evidence from BRICS, in: International Conference on Digital Economy,
+Springer, 2020.
+[44] N.T.T. Van, N.T. Duy, Digital economy: overview of definition and measurement criteria, in: 2020 5th International Conference on Green Technology and
+Sustainable Development (GTSD), IEEE, 2020.
+[45] ITU, Toolkit for measuring the digital economy. https://www.itu.int/en/ITU-D/Statistics/Documents/g20-detf-toolkit_FINAL.pdf, 2020.
+[46] S.V. Lobova, et al., Scenarios of future development of the modern digital economy: technical progress vs. Social distance, in: Institute of Scientific
+Communications Conference, Springer, 2019.
+[47] GSMA, The mobile economy. https://www.gsma.com/mobileeconomy/wp-content/uploads/2021/09/GSMA_ME_SSA_2021_English_Web_Singles.pdf], 2021.
+[48] A.A. Oloyede, D. Grace, N. Faruk, A techno-economic model for future deployment of fixed broadband services to stimulate development across in rural Africa,
+Int. J. Mobile Commun. (2021).
+[49] M.D. Adler, Measuring Social Welfare: an Introduction, Oxford University Press, USA, 2019.
+[50] D.W. Jorgenson, Welfare: Measuring Social Welfare, vol. 2, Mit Press, 1997.
+[51] R.A. Etoundi, et al., Development of the digital economy in Cameroon: challenges and perspectives, Electron. J. Inf. Syst. Dev. Ctries. 76 (1) (2016) 1–24.
+[52] OECD, Going digital toolkit, OECD, 2021. https://goingdigital.oecd.org/.
+A.A. Oloyede et al. 

@@ -1,0 +1,89 @@
+~ Visit AskYourPDF.com ~
+Literature review Generated From AskYourPDF
+
+# Literature Review: The Impact of Artificial Intelligence on Organisational Cyber Security
+
+## Introduction
+
+In today's digital era, organisations are increasingly relying on modern technologies to enhance their
+operations and gain a competitive edge. However, this increased reliance on technology also brings about
+a higher risk of cyber security threats. As a result, organisations are actively seeking ways to mitigate
+these risks and protect their sensitive data and systems from unauthorized access, data breaches, and other
+cyber attacks. One emerging approach that has gained significant attention in recent years is the use of
+artificial intelligence (AI) in cyber security. This literature review aims to explore the impact of AI on
+organisational cyber security by synthesizing key research findings from relevant studies.
+
+## AI-Based Cyber Security Intrusion Detection
+
+One aspect of cyber security where AI has shown promise is in intrusion detection. Intrusion detection
+systems (IDS) play a crucial role in identifying and responding to potential cyber attacks. Traditional IDS
+rely on predefined rules and signatures to detect known attack patterns. However, these systems often
+struggle to keep up with the rapidly evolving nature of cyber threats. To address this limitation, researchers
+have proposed the use of machine learning algorithms in IDS to enhance their effectiveness and accuracy.
+Sarker et al. (2020) conducted a systematic literature review to explore the impact of AI on cyber security
+intrusion detection. They developed a machine learning-based IDS called IntruDTree, which demonstrated
+promising results in detecting cyber security intrusions. IntruDTree utilizes decision tree algorithms
+to analyze network traffic data and identify anomalous patterns associated with potential attacks. The
+researchers found that IntruDTree achieved higher detection rates and lower false positive rates compared
+to traditional rule-based IDS.
+This finding suggests that AI-based intrusion detection systems can significantly enhance an organization's ability to detect and respond to cyber attacks. By leveraging machine learning algorithms, IDS can
+adapt and learn from new attack patterns, thereby improving their effectiveness in detecting previously
+unknown threats. However, further research is needed to evaluate the scalability and performance of
+AI-based IDS in large-scale enterprise environments.
+
+## AI-Powered Chatbots for Enhancing Cyber Security in Healthcare
+
+1 / 3
+~ Visit AskYourPDF.com ~
+Another domain where AI has made significant contributions to cyber security is in the healthcare sector.
+With the increasing digitization of patient records and the adoption of telehealth services, healthcare
+organizations are facing growing challenges in protecting sensitive patient data from cyber threats.
+AI-powered chatbots have emerged as a potential solution to enhance cyber security in healthcare by
+providing real-time support and threat detection.
+Xu et al. (2021) conducted a systematic review to explore the use of AI and machine learning in chatbots
+for healthcare and oncology applications. They found that AI-powered chatbots have the potential to
+improve cyber security in healthcare by offering personalized education and guidance to users, monitoring
+for suspicious activities, and providing real-time alerts in case of potential security breaches. These
+chatbots can also assist healthcare professionals in identifying and responding to cyber threats more
+efficiently.
+The research findings suggest that AI-powered chatbots can serve as an effective tool in enhancing cyber
+security in healthcare organizations. By leveraging AI and machine learning capabilities, these chatbots
+can contribute to the early detection and prevention of cyber attacks, thereby ensuring the privacy and
+confidentiality of patient data. However, further research is needed to evaluate the ethical implications
+and potential biases associated with AI-powered chatbots in healthcare settings.
+
+## Knowledge Gaps and Future Research Directions
+
+While the existing research provides valuable insights into the impact of AI on organisational cyber
+security, there are still several knowledge gaps that need to be addressed. Firstly, most studies focus on
+specific applications of AI in cyber security, such as intrusion detection or chatbots in healthcare. Further
+research is needed to explore the broader implications of AI in different domains and industries.
+Secondly, the scalability and performance of AI-based cyber security solutions in large-scale enterprise
+environments require further investigation. Most studies have evaluated the effectiveness of AI algorithms
+in controlled settings or small-scale deployments. Future research should aim to assess the feasibility and
+practicality of implementing AI-based solutions in complex organizational settings.
+Additionally, the ethical considerations and potential biases associated with AI in cyber security warrant
+further exploration. AI algorithms are susceptible to biases and may inadvertently discriminate against
+certain individuals or groups. Future research should focus on developing robust and unbiased AI models
+that ensure fairness and equality in cyber security practices.
+2 / 3
+~ Visit AskYourPDF.com ~
+Lastly, the evolving nature of cyber threats necessitates continuous research and development in AI-based
+cyber security. As attackers become more sophisticated, it is crucial to stay ahead of emerging threats by
+constantly updating and refining AI algorithms and models.
+In conclusion, the integration of AI in organisational cyber security has the potential to significantly enhance an organization's ability to detect and respond to cyber threats. The research findings highlighted the
+effectiveness of AI-based intrusion detection systems and AI-powered chatbots in healthcare. However,
+there are still knowledge gaps that need to be addressed, including exploring the broader implications of AI
+in different domains, evaluating scalability and performance, addressing ethical considerations and biases,
+and staying ahead of emerging threats through continuous research and development. By addressing these
+gaps, organizations can harness the full potential of AI to strengthen their cyber security posture and
+protect their valuable assets.
+
+## References:
+
+1. Sarker, Iqbal H.., Abushark, Yoosef B.., Alsolami, F.., & Khan, Asif Irshad. (2020). IntruDTree: A
+   Machine Learning Based Cyber Security Intrusion Detection Model. <i>Symmetry</i> , 12 , 754 .
+   http://doi.org/10.20944/preprints202004.0481.v1
+2. Xu, Lu., Sanders, Leslie., Li, Kay., & Chow, J.. (2021). Chatbot for Health Care and Oncology Applications Using Artificial Intelligence and Machine Learning: Systematic Review. <i>JMIR Cancer</i> , 7
+   . http://doi.org/10.2196/27850
+   3 / 3

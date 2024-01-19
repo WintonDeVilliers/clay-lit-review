@@ -1,0 +1,2278 @@
+Information & Management 59 (2022) 103707
+Available online 24 September 2022
+0378-7206/© 2022 Elsevier B.V. All rights reserved.
+Does privacy breach affect firm performance? An analysis incorporating
+event-induced changes and event clustering
+Manas Tripathi a,*
+, Arunabha Mukhopadhyay b
+a Management Information Systems Area, Indian Institute of Management Rohtak, India b Information Technology and Systems Area, Indian Institute of Management Lucknow, India
+ARTICLE INFO
+Keywords:
+Privacy breach
+Event study
+Market model
+IT security
+Seemingly unrelated regression (SUR)
+ABSTRACT
+Previous studies have analyzed the impact of cybersecurity breaches on firm performance, but the impact of the
+privacy breach on firm performance is less explored. Needless to say, the privacy of the individual’s personal
+information has been a rising concern for organizations over the years. Previous studies, primarily focused on
+cybersecurity breaches, have used a simple market model (MM) to observe the impact of these breaches on firm
+performance. Our study has used an advanced market model (AMM), which observes the event-induced changes
+in the variance of stock returns and changes in MM parameters, which are ignored by the MM. The ignorance of
+this may lead to a biased cumulative abnormal return (CAR) computation. We have also included the event
+clustering observation (events that are very close to each other) in our study and evaluated AMM with seemingly
+unrelated regression (SUR), i.e., AMM-SUR. We have used data of 193 privacy breaches related to the US firms
+listed on NYSE (USA), NASDAQ (USA) for the years 2012 (43 breaches), 2013 (37 breaches), 2014 (51 breaches),
+and 2018 (62 breaches). Abnormal returns for the firms are found negative due to these privacy breaches, but
+AMM consistently reports more negative abnormal returns than MM for all the years. The AMM-SUR, observing
+event clustering, consistently reports slightly lower negative abnormal returns than the AMM for all the years.
+We have also calculated the average financial loss due to a privacy breach for these years and for three different
+models, i.e., MM, AMM, and AMM-SUR.
+1. Introduction
+In October 2017, Yahoo reported one of the largest data breaches in
+history. Yahoo revealed that hackers compromised around 3 billion
+customer accounts in a data breach in 2013 [1]. The shares of Yahoo fell
+as much as 3.8% after the day of the announcement of the data breach
+[2]. In 2018, hackers compromised the data of 50 million users of
+Facebook. The stock price of Facebook declined by 3%, and the company
+lost around 13 billion dollars in value after the data breach announcements [3]. In 2019, Brian Krebs, an independent researcher, revealed
+that about 885 million documents of the customers of First American
+Financial were compromised. These documents include sensitive information, such as account numbers, social security numbers, tax documents, bank statements, mortgage records, and photographs of the
+customers [4]. The stock price of First American Financial fell by 6%
+after the announcement of the data breach. A technology research firm
+Comparitech analyzed the impact of data breaches of at least 1 million
+records leaked on stock prices of 28 companies. The analysis suggests
+that the share price falls by 7.27% on average [5]. In 2019, Capital One
+Financial Corporation suffered a data breach that affected the personal
+information of more than 100 million customers. The Financial Times
+stated that the stock price of Capital One dropped by 4% after the data
+breach [6]. The findings of the IBM research suggest that an organization incurs an average of 3.29 million dollars cost of a data breach which
+has increased by 12 percent over the past five years [7]. The data
+breaches have impacted firms and individuals both. Consumers face the
+consequences, such as fraud, identity theft, and the risk of impersonation, following a privacy breach. Even when there is no fraud following a
+privacy breach, customers may be at an increased risk of phishing where
+the attacker intends to gain the customers’ personal information.
+Perceived privacy risk can be as important as the real privacy risk
+because the fear of privacy harm can be counted as the negative
+consequence of the privacy breach [8]. In some cases, organizations
+have compensated to the customers in leu of the loss of the customers. In
+2017, Equifax faced a data breach that put the personal information of
+hundreds of millions of customers at risk. In a settlement, Equifax agreed
+* Corresponding author.
+E-mail address: manas.tripathi@iimrohtak.ac.in (M. Tripathi).
+Contents lists available at ScienceDirect
+Information & Management
+journal homepage: www.elsevier.com/locate/im
+https://doi.org/10.1016/j.im.2022.103707
+Received 23 June 2020; Received in revised form 17 September 2022; Accepted 21 September 2022 
+Information & Management 59 (2022) 103707
+2
+to repay the customers $380 million for loss of time, money, and credit
+monitoring services [9]. In April 2019, the UpGuard Cyber Risk team has
+reported a data breach on Facebook that compromised around 540
+million records of third-party app data sets [10]. According to the Privacy Rights Clearinghouse, a California-based non-profit corporation
+engaged in educating and empowering individuals to protect their privacy, a total of 1476 data breaches have been reported in the USA from
+the year 2013 to 2016 [11].
+Information privacy refers to the concept of controlling how one’s
+personal information is acquired and used [12,13]. With the advent of
+the information age, there have been rising concerns about information
+privacy [14]. Advances in information technology (IT) have often made
+personal information to be accessible to multiple parties, thereby making information privacy a major concern in today’s world [15]. Any
+incident which causes misuse of individuals’ personal information is
+treated as a privacy breach. There are various ways through which one
+can compromise an individual’s privacy. The possible ways are loss or
+stealing of electronic equipment (PORT), loss or stealing of
+non-electronic/physical paper documents (PHYS), misuse of personal
+information by some insider (INSD), mishandling of credit and debit
+cards (CARD), unintentional sharing of confidential information
+through email, fax, or website posting (DISC), and unauthorized access
+by an outside hacker, spyware, and malware by compromising cybersecurity system (HACK). These privacy breaches can involve both the
+firm’s employee and customer data. These breaches affect the performance of the firm. Therefore, our primary focus is to study the impact of
+the privacy breach on firm performance. Previous studies have mostly
+focused on cybersecurity breaches and their impact on firm performance
+[16–21]. But privacy breaches and their impact on firm performance are
+less explored. We have derived the motivation of the study from the
+study of [8], where the authors have focused explicitly on privacy
+breaches as compared to security breaches.
+The terms cybersecurity breach/security breach and privacy breach/
+data breach are sometimes used interchangeably, but they are two
+different things. We have used the terms privacy breach and data breach
+interchangeably in the article as Privacy Right Clearinghouse (PRC), and
+some other studies have used the word data breach for privacy breach
+[8]. A data breach is any breach compromising the confidential data of
+an individual or organization. The confidential data include the personal
+data of various stakeholders of the firm; therefore, compromise of
+confidential personal data is termed as a privacy breach. However, our
+main emphasis is to illustrate the difference between cybersecurity
+breaches and privacy breaches/data breaches. When an attacker attempts to compromise the cybersecurity of the system by exploiting the
+vulnerability in the cybersecurity of the system, but, by any chance, does
+not result in the compromise of personal information, this type of breach
+would be a cybersecurity breach but not the privacy breach. A cybersecurity breach is effectively a break-in, whereas a privacy breach is
+defined as the attacker got away with personal information. Cybersecurity failure often leads to a privacy breach, as any loopholes in
+cybersecurity may cause damage to personal information. Cybersecurity
+breaches take many forms, including computer viruses, distributed
+denial-of-service (DDoS) attacks, and attacks causing unauthorized access to personal information (privacy breach), such as credit card data,
+data stored in electronic devices, and physical paper documents. There
+are types of cybersecurity incidents, such as denial of service (DoS),
+impersonation, and website defacement, that do not involve unauthorized access to sensitive personal data [22]. Thus, privacy breach incidences involving the compromise of personal information can be
+security motivated when a security mechanism designed to protect
+private information fails. [16] have demonstrated that security breaches
+involving unauthorized access to personal information (privacy
+breaches) have a significantly negative market reaction, but no significant market impact is observed when breaches do not involve confidential information. While cybersecurity breaches are expensive, those
+involving personal information may be the most expensive. For
+example, in the case of a DoS security attack, the firm’s resources may
+not be accessible for some period, i.e., the loss is temporary. Once the
+DoS attack ends and necessary system corrections are made, the firm can
+resume its operation, and the value of its systems is not permanently
+damaged. On the other hand, a privacy breach may compromise a firm’s
+customer data list, which is an important proprietary asset. In case of
+unauthorized access to the firm’s customer list, the value of such strategic proprietary asset may be permanently compromised. Apart from
+cybersecurity breaches exploiting the cybersecurity vulnerability of the
+organization, other mechanisms such as loss of physical devices containing personal data, insider attack, intentional but illegal sale of customers’ data, organizations involved in blatant intrusion or violation of
+other parties’ personal data, and loss of non-electronic documents may
+also cause a privacy breach [8]. Amazon was once criticized for offering
+differential prices based on the tracked customer data [8]. Amazon faced
+strong opposition later they backed down, and Jeff Bezos apologized for
+that. Here, the people inherently found it objectionable to use personal
+data for price discrimination. In the example above, Amazon indulged in
+the misuse of personal information (privacy breach), which they saw as
+legitimate, so this incident will not be an example of security failure. The
+privacy breach can be caused due to technical failure (malicious attacker
+accessing the personal data by compromising the cybersecurity system
+of the organization), managerial failure (fail to take proactive actions to
+patch known vulnerabilities in the system), organizational failure
+(inefficient and incomplete protection), or human failure (loss of electronic device and non-electronic documents). Anecdotal evidence suggests that privacy breaches significantly affect the performance of the
+firm. Therefore, it is pertinent to ask: what is the impact of privacy
+breach announcements on the market value of the firm? This is the
+central research question that motivates our study.
+In this paper, we use the event study methodology to understand the
+impact of privacy breach events on firm performance [23]. Most of the
+event studies in the information systems (IS) area have used a simple
+market model (MM) for calculating cumulative abnormal return (CAR).
+They have ignored the fact that often the MM parameter may get
+changed by the event itself. Indeed, when event-induced risk changes
+are significant, ignoring them can result in a biased estimate of abnormal
+returns [24–26]. It is evident that if the event is significant, it may
+induce changes in the variance of stock returns, which, in turn, changes
+the MM parameters [27]. Thus, taking them as a constant can result in
+biased returns. Therefore, we modify the MM and incorporate the
+changes in MM parameters resulting from the event-induced changes in
+the variance of stock returns. In light of event-induced variance changes
+[24,25], it is relevant to inquire about: are there changes in MM parameters are caused by event-induced changes in the variance of stock
+returns in case of privacy breach announcements, and if so, how do the
+changes in MM parameters affect the abnormal returns of the firms? We
+have included the effect of the event clustering problem where the
+correlation of events occurring close to each other is taken into
+consideration. We have observed the impact of event clustering using
+seemingly unrelated regression (SUR). The motivation and scope of this
+study differ from the work of related studies in the following ways. First,
+this study explicitly centers on privacy breach announcements rather
+than the cybersecurity breaches studied mainly in previous studies.
+Privacy and security are partially overlapping sets. In the current study,
+we explicitly focus on the privacy breaches extending outside the conventional cybersecurity breaches to address breaches caused by organizational and human failures. Second, our study uses an advanced
+market model (AMM), which incorporates changes in MM parameters
+caused by event-induced changes in the variance of stock returns. We
+have also observed the impact of event clustering on the market value of
+the firm as most of the privacy breaches is occurring very close to each
+other. Finally, we perform a separate analysis of the data for the years
+2012, 2013, 2014, and 2018 to allow for any transient market instabilities during this period. The world’s largest firms such as Google,
+Microsoft, Facebook, Yahoo, and LinkedIn were affected by major
+M. Tripathi and A. Mukhopadhyay 
+Information & Management 59 (2022) 103707
+3
+privacy breaches during that period. Firms of all types and sizes have
+observed major privacy breaches during that period. The results of the
+study suggest that privacy breach negatively affects firm performance,
+and large firms are less adversely affected by privacy breaches than
+smaller firms. The possible reason could be that large firms absorb the
+negative market reaction of data breaches more easily than small firms
+due to the enough resources required for mitigating the impact of privacy breaches. The results of the study provide an interesting observation that the BSF firms consistently observe negative abnormal returns
+due to privacy breaches, as reported by all the models for all the years.
+The possible explanation could be that financial services firms handle
+highly valuable and personally identifiable information (PII); therefore,
+they are an attractive target for privacy breaches.
+The rest of the paper is structured as follows. The next section illustrates the state of the art of existing literature. Section 3 presents the
+theory and hypotheses development. Section 4 explains the methodology, and Section 5 presents the data. Section 6 reports empirical findings. Section 7 discusses the results and implications of the work.
+Section 8 concludes the paper by providing limitations and the future
+scope of the work.
+2. Literature review
+We describe two streams of literature that inform our empirical examination. Authors have used event study methodology to find the
+impact of event disclosure on firm performance. Therefore, the first
+stream of research throws light on event studies performed in the IS
+area. The second stream takes it further and focuses on only cybersecurity breach events, as cybersecurity breaches may result in a breach of
+privacy. The contribution of our study is the confluence of these streams
+of work, as discussed below.
+2.1. Event studies in IS research
+The event study methodology has been widely used by IS researchers. The type of events and the motivation behind the study
+usually differ from the event study methodology used in the finance and
+accounting literature. Authors have used a variety of events related to
+the IS area and their impacts on the market value of the firms in IS
+research. Most of these studies focus on security breach announcement
+events. Other types of events are IT investment announcements, IT
+outsourcing announcements, chief information officer (CIO) announcements, and enterprise application implementation announcements. One of the first event studies in the IS area is [28], which
+examines the impact of IT outsourcing announcements on the market
+value of the firms. They further demonstrate that announcements of IT
+outsourcing events have a positive effect on the market value of firms.
+[29] have examined the effect of the impact of IT infrastructure and
+application announcements on the market value of the firm. They have
+found out that innovative IT investments lead to a rise in firm value
+while non-innovative investments do not. [30] have found that
+outsourcing announcement of a firm’s IS has a positive effect on the
+market value of the firm. [31] have observed a significant positive CAR
+for 251 electronic commerce initiatives announced by firms between
+October and December 1998. [32] are the first to study the impact of
+enterprise resource planning (ERP) system implementation announcements. They have found an overall positive reaction to initial ERP announcements. [33] have examined that announcements of newly
+created CIO positions provoke a positive market reaction for the firms
+undergoing IT-driven transformation. The authors have also examined
+the impact of IT governance adoption announcements on firm performance [34]. They found that IT governance structural mechanisms have
+a positive impact, whereas IT governance processes and relational
+mechanisms have a negative impact on firm performance. There are a
+sufficient number of studies devoted to examining the impact of announcements of Internet security breaches on the market value of the
+firm [16–18,35–37]. Most of these event studies report that announcements of Internet security breaches lead to negative CAR. [8] have done
+a study on privacy breaches, where they have shown the difference
+between the security breach and privacy breach. Their findings report
+that announcements of privacy breaches have a negative and significant
+impact on the firm’s market value. [38] have examined positive
+abnormal returns for the firms receiving the “Most Admired Knowledge
+Enterprise” (MAKE) award, which recognizes firms that excel in
+knowledge management (KM). Their analysis is consistent with KM
+leading to increased shareholder value. There is a study where authors
+have examined the influence of organizational impression management
+strategies on stock market reactions to IT failures [39]. They have performed an event study on a sample of 214 IT failures for eight years.
+Further, they have found that a firm’s organizational impression management strategy has a significant impact on a firm’s market value. A
+summary of event studies in IS research is shown in Table 1
+2.2. Impact of security breaches on market value
+There are studies that specifically focus on the impact of cybersecurity breaches on the market value of the firms. These studies have
+primarily observed that cybersecurity events have negatively impacted
+the firms’ performance. [16] have done a study on security breaches
+where they have found that security breaches compromising confidentiality have a negative and significant impact. In contrast, events not
+related to confidentiality do not have any significant impact on CAR.
+[17] have done a similar study to observe the impact of cybersecurity
+breaches on the firms’ performance. Interestingly, they have calculated
+the loss of 2.1% of the market value, equivalent to $1.65 billion of
+market capitalization for the firms due to these security breaches.
+Further, their study has shown that firm-specific characteristics such as
+firm type, firm size, and attack-specific characteristics, such as attack
+type and attack severity, also affect the market value of the firm. [36]
+have found that various characteristics, such as the objective of the
+attacker, attacker type, tools used for attack, and result of the attack
+significantly affect the market value of the firms. [40] have categorized
+the security breach data into various dimensions such as victim type (e.
+g., customers, employes, etc.), industry type (e.g., retail, financial, etc.),
+data type (credit card number, social security number, etc.), and breach
+type (hacking, employee access, stolen computer, etc.). [41] have used
+the three-factor model of [42]. Their study reports that firms observe
+about 1% negative returns in their stock prices on the day of the
+announcement of a data security breach. [18] have tried to find the
+impact of DDoS attacks on the market value of the firms. They have
+found that only “Internet-specific” firms relying heavily on the web have
+observed more market penalization than the “non-Internet-specific”
+firms. Similarly, authors have identified that firms have faced the worst
+reputation, higher expenses, lower profits, and lower sales revenues due
+to information security breaches [43]. Another study has examined the
+slower market reactions in the Japanese market than in the US market
+due to a cybersecurity breach [44]. According to their study, it takes 10
+days to observe the statistically significant market reaction due to
+cybersecurity breaches. Announcements of the vulnerabilities of the
+software products also affect the software vendors [21]. [45] have
+studied the impact of cybersecurity breaches on market valuation with
+respect to the timing of corporate crisis response to these breaches. To
+optimize cybersecurity spending, the authors have proposed a list of
+critical controls that help the cybersecurity manager to channel cybersecurity investments [46]. Authors have prioritized the controls based
+on the healthcare data breaches of year 2016.
+The authors have studied mainly the impact of security breaches on
+firm performance. There are very limited studies that focus on the
+impact of privacy breach announcements on firm performance. However, privacy breaches are often followed by the vulnerability exposed in
+the security of IS. [8] have analyzed the impact of exposure of personal
+information (privacy breach) on firm performance. Personal
+M. Tripathi and A. Mukhopadhyay 
+Information & Management 59 (2022) 103707
+4
+information can be compromised by any cybersecurity failure, such as
+hacking and poor data handling processes, or by some other way, such as
+loss of electronic equipment and loss of physical documents containing
+personal information. They found the negative impact of the privacy
+breach on the firm’s market value. [47] have found that the data breach
+has a negative impact on the shareholder’s wealth. A study shows an
+interesting finding that the attacks related to data availability have a
+higher negative impact on the stock market returns than the attacks
+related to integrity and confidentiality of the data [48]. [49] have
+assessed the severity of phishing alerts using risk level and potential loss
+due to these attacks. With the hybrid approach based on supervised
+classification and text phase extraction, they have predicted the severity
+of attacks with up to 89% accuracy. Firms are using various identity
+theft countermeasures (ITC) to combat the impact of identity theft
+crime. Authors have analyzed the impact of ITC adoption announcements on the short-term and long-term market value of the firm [50].
+Authors have revealed that the security breaches negatively hurt the
+focal firm and help the rival firms to compete in the market [51].
+Similarly, authors have examined that, in case of a breach, the competitors of the firm have the opportunity to capture the market power
+[52]. Authors have tried to understand the economics of privacy using
+economic value and the consequences of disclosing and protecting
+personal data [53]. Marketers and managers often try to use the personal
+data of the customers to increase market revenue [54]. However, such
+efforts may create a threat of compromising customers’ personal data.
+Thus, customers’ may express negative reactions to these kinds of privacy practices, which further affect the customers’ spending behavior
+[51]. Authors have revealed that data breaches significantly decrease
+Table 1
+Summary of event studies in IS research.
+Type of events Researchers Number of announcements Date of
+announcements
+Source of announcements
+IT investments
+announcements
+[29] 97 1981–1988 PR Newswire PTS Prompt
+[101] 238 1981–1996 PR Newswire, PTS Prompt and Business,
+and Industry
+IT infrastructure investments
+or IT application investments
+[102] 112 1992–1995 LexisNexis
+[103] 355 1981–1996 IT investments events from all the previous
+studies were added
+[104] 150 1990–1997 Compustat annual database, Newswire
+databases of Dow Jones Interactive
+Information and
+communication technology
+investments
+[105] 217 1996–2006 Signal G (Australia) maintained by the
+Securities Industry Research Centre of AsiaPacific (SIRCA)
+[106] 193 from prior studies and
+158 from their search
+1985–1999 LexisNexis and Prior Studies
+Internet security breach
+announcements
+[16] 43 events affecting 38 firms 1995–2000 Washington Post, Wall Street Journal,
+Financial Times, New York Times, USA
+Today
+Denial of service attacks [18] 23 January 1, 1998–June
+30, 2002
+LexisNexis — Business News
+Denial of service attacks [107] 4,275 February 8–10, 2000 Keynote
+[108] 22 1996-2002 —
+[17] 66 1996–2001 LexisNexis, and the technology portals
+ZDNET and CDNET
+Virus attacks [109] 92 January 1, 1988 to
+June 30, 2002
+Lexis-Nexis database
+[110] 72 1997–2003 New York Times, Wall Street Journal, and
+technology portals ZDNET and CDNET
+[41] 168 2004–2008 Lexis Nexis, PC Week, Wall Street
+Journal, Register, and others
+ourcing announcements [28] 58 LexisNexis
+[111] 76 1990–1997 LexisNexis
+[112] 66 1997–2002 LexisNexis
+E-business outsourcing [113] 96 1999–2002 Business Wire, PR Newswire
+[114] 192 1995–2003 LexisNexis
+[115] 420 1989–1999 LexisNexis
+ICT outsourcing [116] 48 January 1, 2000–July
+1, 2005
+LexisNexis
+E-commerce initiative
+announcements
+[31] 251 October 1, 1998-
+December 31, 1998
+Business Wire, PR Newswire, LexisNexis
+[93] 542 1998, 2000 LexisNexis, Business Wire, PR News Wire
+[117] 349 Announcements of 100
+firms
+1999–2000 PR Newswire, Business Wire
+[118] 232 January 1, 1988, to
+June 30, 2001
+Australian Stock Exchange
+[25] 640 1996, 1998, 2000,
+2002
+PR Newswire and Business Wire in LexisNexis
+ERP implementation
+announcements
+[32] 85 1990–1998 LexisNexis
+[119] 116 1997–2001 LexisNexis Academic Universe database
+CIOs announcements [33] 113 1987–1998 LexisNexis
+[120] 461 1987–2002 LexisNexis Wire Service
+IT Governance adoption
+announcements
+[34] 70 2004-2014 Factiva, Business Wire, China Business
+Newswire, PR Newswire etc.
+Privacy breach
+announcements
+[8] 79 2000–2006 LexisNexis, Proquest as well as various
+online compilations
+IT failures [39] 214 2005-2012 Lexis/Nexis
+M. Tripathi and A. Mukhopadhyay 
+Information & Management 59 (2022) 103707
+5
+customers’ spending. Moreover, customers switch from the breached to
+the un-breached channels of retailers [55]. Authors have studied the
+impact of cyberattacks by malicious hackers on the competition in
+software markets. The findings have revealed that malicious hacker
+activities might alter the structure of the software market [56].
+Most of the event studies in the IS area have used a simple MM for
+calculating the CAR of the firms. They have ignored the fact that MM
+parameters may sometimes get modified by the event itself. When eventinduced risk changes are significant, ignoring them can result in a biased
+estimate of abnormal returns [24–26]. Based on the findings, it is
+essential to look into the changes in MM parameters caused by the privacy breach. Furthermore, we will consider both pre-event and
+post-event data to have a comprehensive analysis of the impact of privacy breaches using the AMM. If the privacy breach events are
+happening very close to each other, it is essential to take into account the
+event clustering phenomena [26]. The clustering of events may affect
+the abnormal returns resulting from privacy breaches.
+3. Theory and hypotheses development
+Event studies follow the theoretical framework of efficient capital
+markets [57]. It is based on the concept that the security prices of firms
+reflect all the information available to the market [58]. Therefore, any
+announcement made by a firm provides information to the market. This
+information is reflected in the stock price of the firm. Various types of
+announcements such as IT investments announcements, IT outsourcing
+announcements, E-commerce initiative announcements, and data
+breach announcements provide information into the market. The expected effect of new information is reflected in the stock price, which in
+turn affects the firm value [59]. Therefore, it is pertinent to explore
+whether an event provides new, incremental information that eventually affects the value of the firm. Various announcements made by firms
+provide information about the strategy and planning and the success and
+failure of the firms to the market. A positive market response is expected
+in case where a newly disclosed announcement sends a signal which is
+seen as beneficial to the firm. Similarly, a negative market response is
+expected when a newly disclosed announcement sends a signal related
+to the loss and failure of the firm. Privacy breaches may send signals to
+the market that the breached firms are not concerned for the privacy of
+the customers and do not have appropriate internal mechanisms and
+resources to protect the privacy of the customers. This may result in the
+investor’s low confidence in the firm’s performance.
+The economic impact of a privacy breach can be better understood
+with the help of various costs associated with these breaches and their
+impact on firm performance under the efficient market hypothesis [8,
+53]. These costs can be short-term costs (temporary costs) or long-term
+costs (permanent costs). The short-term costs are often limited to the
+period in which the privacy breach occurs. However, long-term costs
+may incur over several periods. The immediate short-term impact of the
+privacy breach includes the costs related to unavailability of the
+breached resources, costs required to detect and repair the breached
+resources, cost of evidence collection, cost of prosecuting the attacker,
+and cost of providing information to media, public, and customers.
+These short-term costs may have an immediate impact in the form of
+decreased firm productivity and loss of business. The permanent
+long-term costs are related to costs of compromise of personal confidential information, costs related to loss of trust of stakeholders, legal
+costs arising from privacy breaches, costs related to loss of customers
+switching to competitors, and costs related to challenges in acquiring
+new customers due to loss of reputation. The long-term costs will impact
+the firm’s future cash flow. A privacy breach can permanently damage
+the trust and confidence necessary to build a long-term association with
+the customers and partners. The loss of trust and confidence may create
+the perception of increased business risk in the market that may also
+result in increased insurance costs for the firm and a higher cost of
+capital in the debt and equity market. The privacy breach costs can also
+be classified as tangible or intangible costs. However, most short-term
+costs are tangible in nature, and long-term costs are intangible costs. It
+is easier to estimate the various short-term tangible costs, such as loss of
+productivity, loss of sales and revenue, insurance costs, and cost of
+material and labor, but long-term intangible costs related to trust and
+confidence are difficult to calculate. Privacy has been addressed as a
+fundamental component of trust [60]. The reputational loss due to
+customers’ trust deficit resulting from a privacy breach can have
+measurable ramifications for the company’s market value [61]. The
+customers possess negative attitudes and impressions against firms
+responsible for privacy breaches and change their consumption patterns
+for these firms [62]. Various e-commerce and Internet companies collect
+and transmit the consumers’ personal information for performing their
+business. Researchers have addressed the issue of Internet privacy
+concerns of the customers as Internet technologies pose significant
+challenges to the consumers’ information privacy; therefore, consumers’
+personal information becomes more vulnerable [63]. Privacy breaches
+occur because despite increasing privacy concerns over potential privacy breaches, customers seldom follow activities that protect their
+personal information. Therefore, there is a discrepancy found between
+consumers’ privacy attitude and actual behavior. Consumers often
+involve in activities where they see short-term benefits and allow the
+other party to have access to their personal information. The resource
+dependency theory explains the dependency of the consumers on the
+resources provided by the firms [64,65]. Access to these resources motivates the consumers to share their personal information with the firms.
+Consumers disclose their personal information because it can affect their
+purchase behavior and can be used for personalization and targeted
+marketing [66]. However, personal information disclosure comes with a
+risk of privacy breach as many firms have experienced significant privacy breaches. A study conducted by [67] suggests that chief information security officers (CISOs) of major corporations in the USA strongly
+indicate that privacy breaches, phishing attacks, malware, hacking, and
+insider threats will pose significant management challenges and
+continue to be important concerns over the next 5–7 years. Anecdotal
+evidence suggests that privacy breaches have a significant impact on the
+breached firm. For example, in a report prepared by Ponemon Institute
+and IBM security, the global average total cost of a data breach is reported as $ 3.86 million, with the USA having the highest country
+average cost of $ 8.64 million [68]. The report is prepared based on the
+524 organizations that suffered data breaches between August 2019 and
+April 2020. The report takes into account various types of costs, such as
+detection and escalation costs, costs of lost business, costs of notification, and costs of post-data breach response. The global cost of a data
+breach is expected to reach $6 trillion annually in 2021 [69]. Thus,
+privacy breaches can have a significant financial impact on firms. Privacy breaches may signal to the market that the internal privacy policy
+of the firm is not appropriate, and the firm is not concerned about the
+customers’ privacy. The customers’ negative perception derived from
+the trust deficit can translate into the reduction of firm value. Therefore,
+one may expect a negative abnormal stock return near the privacy
+breach announcement. Thus, we hypothesize the following:
+H1: A firm’s announcement of a privacy breach is negatively associated with its abnormal stock return.
+The variance of stock returns is taken as the measure of the total firm
+risk. Total firm risk consists of systematic risk and unsystematic or
+idiosyncratic risk. Taking the variance of both sides of the MM (Eq. 1: Rit
+= αi + βiRmt + εit), we get Var (Ri) = βi
+2 Var (Rm) + Var (εi), where Var
+(Ri) is the total firm risk, βi is systematic risk, and Var (εi) is an unsystematic or idiosyncratic risk [70]. Suppose the event leads to an increase
+in systematic risk βi. Then, this will tend to raise the expected normal
+return and lower the expected abnormal return. Now, suppose the event
+results in an increase in the unsystematic risk Var (εi), then this will
+reduce the significance of the abnormal return. We now see whether the
+M. Tripathi and A. Mukhopadhyay 
+Information & Management 59 (2022) 103707
+6
+privacy breach impacts the systematic and unsystematic components of
+the total firm risk. Systematic risk is driven by market-specific characteristics, such as natural disasters and exogenous shocks. Thus, systematic risk cannot be avoided through portfolio diversification. In
+contrast, the unsystematic risk is related to the microeconomic risks of
+firms and can be eliminated through portfolio diversification. Evidence
+suggests that privacy breach affects the systematic risk of the firm. [71]
+have observed that privacy breach increases the systematic risk by 4%.
+The privacy breaches create strategic uncertainty specific to individual
+firms or industries. Therefore, the corresponding risk effects of privacy
+breaches are likely to be idiosyncratic or unsystematic in nature. Privacy
+breach affects the volatility of the company’s stock price thus creating
+the unsystematic risk that raises doubts about the company’s future
+performance. Therefore, privacy breaches affect both systematic and
+unsystematic risk, i.e., affect the MM parameters, thereby inducing
+variance change in the returns of the firm. Thus, we hypothesize the
+following:
+H2: Privacy breach affects the MM parameters, thereby inducing
+variance change in the returns
+Firms adopt IT resources that have a larger market share because
+these resources are compatible both internally as well as with their
+business partners. In this way, firms enjoy the benefits of positive
+network effects driven by compatibility and interoperability. We can
+attribute the rise of Microsoft Windows as the most popular choice for
+the operating system to this very fact. However, the negative network
+effects associated with the use of common IT resources by the firms are
+often ignored. Attackers often target the popular and common IT resources being used by many firms and their partners [72]. In the case of
+sensitive information, firms share the correlated risk of privacy breaches
+due to common technology and computer interconnectivity. Privacy
+breaches often exploit the shared vulnerabilities across common IT resources and interconnected networks. Therefore, firms are encouraged
+to share their security information to identify and repair vulnerabilities
+in their systems, which will lead to increased sales revenues resulting
+from effective security products and a better security reputation among
+customers [73]. The sharing of security information may act as a
+deterrent for hackers. The common IT infrastructure, business proximity
+of firms, and relatedness of certain organizational attributes often lead
+to the correlated risk of their being concurrently breached [74]. Firms
+facing close-by privacy breaches may share (i) the same market in which
+they operate, (ii) relatedness of businesses in terms of products or services, or (iii) the underlying IT resources used [75]. Due to business
+relatedness, shared IT resources, and the nature of the privacy breach,
+the firm performance may be affected by a close-by privacy breach
+occurring on some other firm. Empirical evidence suggests that data
+breaches not only influence the stock price of the breached firm but also
+that of the competitors in the same industry [76]. For example, a study
+of the security breaches between 1997 and 2007 has found that these
+incidents not only affect the stock price of breached firms but also that of
+their non-breached competitors [77]. Therefore, we believe that if the
+privacy breach events are happening close to each other, then the impact
+of one privacy breach on firm performance is affected by some close-by
+privacy breach that occurred on some other firm. Thus, we hypothesize
+the following:
+H3: The impact of a privacy breach event on a firm may be affected
+by other close-by privacy breach events
+It is interesting to explore the impact of various firm-specific characteristics, such as firm size and firm type, and attack-specific characteristics, such as attack type and attack damage potency (DP), on
+negative abnormal returns. Anecdotal evidence suggests that 60% of
+small companies go out of business within six months from the incident
+of the data breach [78]. [8] have empirically demonstrated that the
+larger firms are less affected by a data breach than the smaller firms.
+Large firms absorb the negative impact of data privacy breaches easily
+due to diversified product portfolios, various income sources, and easier
+access to the capital markets. Abnormal returns due to an event may
+vary systematically by industry [23]. The threat of a data breach depends on the type of firm and the type of data stored in the organization.
+Retail and finance are some of the sectors that are mostly affected by
+data breaches [79]. These firms rely mainly on IT for doing business, and
+data privacy breaches may lead to lost opportunities and lost revenues
+for these firms. Therefore, data security mechanisms for these firms are
+not just optional but essential ingredients for success. The impact of a
+data breach is driven by the DP of the data breach. [8] have highlighted
+that the data breach of more than 100000 subjects reduces the stock
+returns by 1.2%. There are various types of data breaches such as insider
+(INSD) attack, accidental disclosure (DISC) of information, loss or
+stealing of portable device (PORT), debit or credit card fraud (CARD),
+hacking or malware (HACK) attack, and loss or stealing of
+non-electronic paper documents (PHYS). Each type of these attack may
+compromise the confidentiality of customer information, data integrity,
+and availability of applications and services of the organizations. Privacy breaches that compromise the confidentiality and integrity of
+customers’ data may lead to liability suits and long-term competitive
+disadvantages. These attacks access or modify the confidential information of the organization. In an access attack, the attacker tries to gain
+unauthorized access to personal information without modifying the
+content. However, in case of a modification attack, the attacker tries to
+make unauthorized insertion or deletion of the information. Thus,
+different types of breaches may have a different impact on the firms.
+Therefore, both the firm-specific and attack-specific characteristics
+could affect how investors view the data breach event. Thus, we hypothesize the following:
+H4: Firm-specific and attack-specific characteristics affect the
+magnitude of abnormal returns resulting from privacy breaches
+4. Methodology
+In this section, we describe various mythologies used in the study.
+First, we use a simple MM to observe the impact of privacy breaches on
+firm performance. Second, we develop a multivariate regression model,
+i.e., AMM, to understand the event-induced changes in the variance of
+stock returns and changes in MM parameters, which are ignored by the
+MM. The ignorance of this may lead to biased CAR computation
+[24–26]. To further strengthen our study, we have included the event
+clustering observation (events that are happening very close to each
+other) in our study and evaluated AMM with SUR, i.e., AMM-SUR.
+We have taken stock market returns as the firm performance. However, researchers have also taken other measures to firm performance.
+[80] have conducted an exploratory analysis to evaluate the contribution of IT using Tobin’s q, which is defined as the ratio of the capital
+market value of the firm to the replacement value of assets. [81] have
+reported that the variable for IT expenditure has increased the variance
+explained in q significantly. However, there are a few limitations of
+Tobin’s q. Tobin’s q includes information about various intangibles
+beyond IT, such as advertising, research, and development, etc. Therefore, the model can suffer from measurement error if other intangible
+factors are correlated with the variable under consideration. [82] have
+reported that there is an endogeneity problem associated with q.
+On the other hand, the theory of efficient capital market provides
+strong theoretical support for the use of stock returns as a measure of
+firm performance [57]. [58] highlights that security prices reflect all
+available information. [83] have suggested that the accounting measures such as return on assets (ROA), return on equity (ROE), and return
+on sales (ROS) have often been criticized because they are not adequate
+indicators of firm performance. Accounting-based measures typically
+reflect the historical information and are not forward-looking to observe
+M. Tripathi and A. Mukhopadhyay 
+Information & Management 59 (2022) 103707
+7
+the future cash flows. Managers and executives may manipulate the
+accounting profits as they select the accounting-based procedures [84].
+On the other hand, insiders cannot manipulate the financial
+market-based measures, such as the stock price of the firm. Stock prices
+incorporate all the relevant information and are supposed to reflect the
+true value of the firm. Therefore, event studies based on stock returns
+should measure the financial impact of an event more effectively than a
+methodology based on accounting measures [83].
+4.1. Standard market model
+Previous studies have used the MM or the standard event study
+methodology to examine the abnormal returns (AR) caused by any security breach. In this method, abnormal returns are the difference between actual returns and the expected returns of the stock based on the
+MM. According to MM, the stock returns Rit, and market returns Rmt are
+related as follows:
+Rit = αi + βiRmt + εit (1)
+where i stands for the firm, and t stands for the date of the returns
+relative to the event date. All the firms in our analysis are US firms. Thus,
+we have used the Standard and Poor’s 500 (S&P 500) as the market
+index. We have trained the MM over some days before the event date.
+The training period is called the estimation window for the MM, as
+shown in Fig. 1.
+For example, Citibank was hit by a hacking attack on March 13,
+2012. We can represent that attack by the following Fig. 2
+To train the MM, we have taken an estimation window, which is
+usually taken to be an interval of several days prior to the event. We
+have taken the size of the estimation window as the 120 trading days
+prior to the privacy breach event. We calculate the expected returns
+after training the model and compare it with the actual returns within
+the event window, as shown in Fig. 1. Abnormal returns of stock i are the
+difference between the actual returns and the expected returns from the
+MM. We calculate the AR of stock i for each day k in an event window of
+[t1, t2] days long as shown in the following equation:
+Marketmodel : ARik = Rik − − (αi + βiRmk), fork ∈ [t1, t2] (2)
+where αi and βi are the MM parameters estimated by MM. We have taken
+one short window, i.e., three-day event window [-1, +1], and one
+relatively long window, i.e., 21-day event window [-10, +10]. However,
+the longer window has a few limitations. The longer window may suffer
+from the interference of extraneous confounding events. It is difficult to
+control for the confounding events in a longer event window. [85] have
+illustrated that the longer event window reduces the power of test statistics and may lead to false inferences about the significance of the
+event. On the other hand, a short window limits the impact of events
+other than the event of concern on the market reaction [16]. The short
+window reflects the impact of data breach announcements more accurately than the long window [23]. Short event window tests provide the
+“cleanest evidence on market efficiency” [58,59]. Authors have
+empirically established that a short event window captures the effect of
+the event significantly [86]. However, if the data breach information is
+leaked in advance before the actual event, the longer window will
+address the leaked information in a better way than the short window
+[25]. In the case of complex events such as mergers, acquisitions, alliances, and joint ventures, the short window may exhibit incorrect inferences [87]. These types of strategic organizational events involve
+complex strategic actions that may take an extended period to reflect in
+the firm performance in the form of accounting measures. However,
+event studies are based on the assumption of the efficient market hypothesis that suggests that stock prices incorporate all the relevant information and support the use of a short window. It is true that the
+short-term market reaction of the event may not be an accurate indicator of the long-term performance of the firm. The short-term market
+reactions should be considered as the collective sentiments of the investors regarding the event announcements. Therefore, [87] have suggested the use of a longer event window along with the short event
+window. The event study should use a short event window to limit the
+impact of other events and longer event window to capture the significance of the event of concern [83]. Therefore, we have adopted both the
+windows, i.e., short window and long window to get the better understanding of the impact of the event. Another reason for taking both the
+types of windows is to provide a measure of robustness to the analysis.
+Different types of privacy breach attacks will have different impacts on
+firms that will lead to variance in abnormal returns.
+4.2. Advanced market model
+The common event study methodology fails to account for eventinduced changes in the variance of stock returns and changes in MM
+parameters. However, [27] suggested that “if the event is significant
+enough to change MM parameters then values from before the event are
+not appropriate and situation of changes in MM parameters can be
+handled by using an estimation period as pre-and post-event window to
+test for the MM parameters shifts.” To see this, consider the case where
+systematic risk β (in Eq. 1) increases due to the impact of a significant
+event. This would increase the expected returns (refer to Eq. 1) and
+correspondingly decrease the estimated abnormal return (refer to Eq. 2).
+Thus, a conventional event study methodology based on the standard
+MM (described in Section 4.1) that does not account for the change in
+systematic risk β would result in a biased, exaggerated abnormal return
+[25]. However, innovations in the event study methods have enabled
+the researchers to account for induced variance changes and changes in
+the MM parameters by using pre-and post-event data as in a multivariate
+regression model [88]. These developments in the event study methodology have encouraged the researchers to apply the multivariate
+regression in a variety of contexts, such as electronic commerce announcements [25], banking deregulations [89], and corporate bankruptcy [70]. We have got the motivation to use multivariate models from
+the studies of [25,88,90]. Therefore, we build on and extend the event
+study methods used in prior research to analyze event-induced variance
+changes and changes in MM parameters in the context of privacy
+Fig. 1. Graphical representation of event study methodology.
+M. Tripathi and A. Mukhopadhyay 
+Information & Management 59 (2022) 103707
+8
+breaches.
+We develop a multivariate regression model, i.e., AMM, that takes
+the effect of event-induced variance change in the returns, which in turn
+affects the MM parameters. We will demonstrate that MM is a special
+case of AMM and describe the conditions under which the AMM
+approach is preferred over MM. We build our empirical model using a
+multivariate regression model [88], which allows for the change in MM
+parameters. The important feature of this model is that it extends the
+estimation window to include both pre-event and post-event returns
+data and incorporates the changes in MM parameters α and β following
+the event [90]. The multivariate regression equation of the advanced
+MM is as follows:
+Advancemarketmodel : Rit = αi + α,
+i
+Dt + βi
+Rmt + β,
+iDtRmt + γiD0 + εit (3)
+We can set the value of the dummy variable Dt to zero before the start
+of the event window and one after that. Thus, the parameters α’i and β’i
+will measure the changes in the value of the parameters αi and βi,
+respectively, following the event. Fig. 4 illustrates the AMM for the preevent window, event window, and post-event window. Values of dummy
+variables (i.e., Dt, D0) are mentioned in the bracket against every
+equation. The value of dummy variable D0 is one inside the event window and zero outside it, which allows us to estimate the average daily
+abnormal return, measured by the coefficient γi—in the MM itself. AMM
+uses both pre-event and post-event returns data, which allows us to
+incorporate the changes in MM parameters. To see this, suppose we find
+the case where β’ > 0, which means that the event increases systematic
+risk. This would increase the expected returns and would correspondingly decrease the estimated abnormal returns, perhaps even making it
+insignificant. By contrast, the MM, which takes only pre-event returns,
+does not incorporate the changes in MM parameters and will neglect this
+β’ > 0. This would exaggerate the abnormal returns.
+For example, Citibank faced a hacking attack on March 13, 2012, as
+shown in Fig. 3. It is important to take all the estimation periods around
+the event, i.e., pre-breach, during the breach, and post-breach estimation period, to get a more comprehensive insight into the impact of a
+hacking attack on Citibank.
+In general, we can show the different estimation periods around the
+privacy breach event, as shown in Fig. 4.
+MM is a special case of AMM. By putting α’ = β’ = 0, we can derive
+MM from the AMM. The coefficient γi represents the average daily
+abnormal returns in the standard event study method. We can observe
+that AMM calculates AR using all the estimation periods, i.e., pre-event,
+during the event, and post-event period data. AMM ensures a more
+comprehensive analysis of the impact of the data breach on firm
+performance by incorporating changes in MM parameters.
+4.3. Advanced market model with seemingly unrelated regression
+We enhance our multivariate regression model AMM to understand
+the effect of the event clustering problem [26]. We need to adjust our
+AMM for the event clustering phenomenon, which causes the MM residuals to be correlated across the firms. It is essential to take into account the event clustering phenomena when events are happening very
+close to each other. We have estimated our multivariate regression
+model AMM using SUR for contemporaneous correlation of MM residuals across firms to account for the event clustering phenomenon. The
+estimation of AMM using SUR is reasonable in the case of two events
+happening close to each other because it controls for the impact of the
+nearby event on the abnormal return of the firm under consideration.
+This study is in the context of privacy events to simultaneously handle
+event clustering, event-induced variance change, and changes in MM
+parameters. In our data set, events are happening very close to each
+other, which motivates us to consider event clustering. We have plotted
+some of the significant events in February 2013 in a timeline as shown in
+Fig. 5. It is evident that the events are very close to each other, and a
+privacy breach event may affect the impact on the firms caused by other
+close-by privacy breach events. Apple faced a data breach on February
+19, 2013, and just after two days, Microsoft also faced another data
+breach on February 22, 2013. Apple and Microsoft are firms doing
+similar types of businesses. There is a possibility that the data breach on
+Apple may affect the impact of the data breach on Microsoft.
+Therefore, due to the event clustering phenomenon, there is no
+reason to believe, on a priori grounds, that privacy breaches will have a
+similar effect on all firms. These concerns will violate the ordinary least
+square (OLS) assumptions, and the regression residuals may suffer from
+contemporaneous cross-sectional correlation [91,92]. Therefore, a more
+rigorous approach is required that takes into consideration the possible
+violation of some of OLS assumptions [16]. Thus, to deal with the event
+clustering problem, we have used [92] SUR in AMM. We have performed
+this study with the variant of AMM, i.e., AMM-SUR. We can observe that
+AMM-SUR calculates AR using event clustering and all the estimation
+period, i.e., pre-event, during the event, and post-event period data.
+4.4. Impact of firm-specific and attack-specific characteristics on firm
+performance
+We formulate a regression equation that captures the impact of
+various firm-specific characteristics, such as firm type and firm size, and
+Fig. 2. Hacking attack on Citibank.
+Fig. 3. Advanced estimation of impact of hacking attack on Citibank.
+M. Tripathi and A. Mukhopadhyay 
+Information & Management 59 (2022) 103707
+9
+attack-specific characteristics, such as attack type and DP on firm performance.
+ARi = α + β1Firmsizei + β2Firmtypei + β3Attacktypei + β4DamagePotencyi
++ εit
+(4)
+where ARi represents the negative value of AR for the ith firm. Table 2
+shows the variables, their description, and their theoretical support from
+the literature.
+5. Data
+We have taken the first public disclosure of a privacy breach of a firm
+to the media as an “event” for examining the impact of privacy breaches
+on the market value of firms. We have taken the definition of a privacy
+breach as an instance where data of customers, employees, employers,
+and third-party service providers are compromised through insider attacks, theft of confidential data, loss of electronic equipment, and any
+loopholes in the security system. We have extensively explored the
+various privacy breaches that occurred in the past. We present results by
+year separately for 2012, 2013, 2014, and 2018 because our objective is
+in part to understand the shifting perceptions over the years regarding
+the impact of the privacy breach on firm performance. Firms of all types
+and sizes have observed major privacy breaches during that period.
+Time is an important characteristic of the event studies through issues
+such as stationarity and the importance of a particular time period. Some
+event studies use a long time period with the assumption of stationarity
+of stock market data for that long period. However, the stock market
+data is not likely to be stationary over time. Therefore, it suggested
+breaking the period into different groups [59]. A lack of stationarity in
+data may find the results stronger for one time period and weaker for
+another period. For example, [93] observed that the e-commerce announcements had a significantly greater impact in 1998 than in 2000.
+Thus, the selection of the time periods can be critical. It may be possible
+the market becomes more aware of the impact of privacy breach over
+time as the technology progress on its life cycle, and a “market reaction”
+may turn into a “no market reaction” over time, or vice versa [94].
+Fig. 4. Advanced market model for pre-event, during-event, and post-event window.
+Fig. 5. Event clustering of privacy breaches.
+Table 2
+Firm and attack specific variables.
+Variable Description Theoretical
+support
+Firm size Firm size as market capitalization of firm [8,17,121]
+Firm type Three types of firms, i.e., BSF (banking, finance,
+and insurance domain firms), BSR (retail firms),
+and BSO (other firms including technological
+firms)
+[8,17,121]
+Attack type Various types of attacks such as credit or debit
+card loss, hacking, loss of electronic equipments
+or documents, unintentional disclosure of
+information on public websites, etc. (details are
+given in Data section).
+[8,17,18,48,49,
+121]
+Damage
+potency
+The number of records damaged due to privacy
+breach
+[8,17,121]
+M. Tripathi and A. Mukhopadhyay 
+Information & Management 59 (2022) 103707
+10
+Therefore, we select the data for four different time periods 2012, 2013,
+2014, and 2018 to understand the shifting perceptions regarding the
+impact of privacy breaches over the years (please refer to Appendix 3, 4,
+5, and 6 for the details regarding privacy breaches in 2012, 2013, 2014,
+and 2018). We have done the analysis of these years separately to understand a clear separation between three different periods of privacy
+breach announcements. We have collected the data from Privacy Rights
+Clearinghouse, a non-profit organization in the USA, whose mission is to
+educate and empower individuals to protect their privacy. The reason
+for referring to the data provided by Privacy Rights Clearinghouse is that
+Privacy Rights Clearinghouse, in particular, manages and collects the
+privacy breach data from authentic sources, such as state Attorneys
+General and the US Department of Health and Human Services. Therefore, our privacy breaches are limited to only US firms.
+5.1. Types of privacy breaches
+The study includes the following types of data breaches in the sample, as shown in Table 3.
+5.2. Types of organizations
+We have taken the following types of organizations listed in NYSE
+(US) and NASDAQ (US) to apply the event study methodology as shown
+in Table 4.
+We have also collected the data of the publically non-traded firms.
+However, we have not considered these firms for the final sample
+because information about stock prices is not publically available for
+these firms. Hence, we cannot apply the event study methodology to
+these firms. Following are a few examples of publically non-traded firms:
+1 Nonprofit organizations
+2 Defense organizations
+3 Healthcare service providers
+4 Government organizations
+5 Organizations providing educational services
+We have collected the data of the firm’s stock price and data of the
+American stock market index for 120 days prior to 120 days after the
+announcement of the privacy breach event. We have taken the S&P 500
+as the American stock market index for our study because this index is
+based on the market capitalizations of 500 big firms having common
+stock listed on the NYSE or NASDAQ. We have collected the data of these
+firms from the Bloomberg terminal provided by Bloomberg L.P. We have
+dropped those firms from the list for which we have not found the
+trading history for 120 days prior to 120 days after the privacy event.
+Further, we have also dropped the firms having other multiple confounding privacy breach events within the three-day window around the
+event date.
+After cleaning the data, the final data set consists of 43 breaches, 37
+breaches, 51 breaches, and 62 breaches for 2012, 2013, 2014, and 2018,
+respectively, i.e., 193 breaches for all the years. We have done the study
+separately for these years to understand better the impact of privacy
+breaches in three different years. The following Table 5 presents the
+descriptive statistics of the data.
+We have also reported the descriptive statistics of the stock price data
+used in the study. We have taken stock price data of 43 firms, 37 firms,
+51 firms, and 62 firms for 2012, 2013, 2014, and 2018, respectively. To
+present the descriptive statistics properly, we have reported the average
+of the minimum, maximum, and mean values of 243 stock price data
+points (120 days prior to 120 days after the 3-day event window) of all
+the 43 firms, 37 firms, 51 firms, and 62 firms for the year 2012, 2013,
+2014, and 2018, respectively. The following Table 6 presents the
+descriptive statistics of the stock price data.
+6. Results
+6.1. MM and AMM results
+In this section, we present the result of AMM for all the years, i.e.,
+2012, 2013, 2014, and 2018, together, and we also compare these results with simple MM. We have run AMM for a 3-day event window and
+a 21-day event window. As explained earlier, γ corresponds to the
+average abnormal return (AAR) obtained from AMM, and we compare
+the value of γ with AAR obtained from simple MM. The results are
+presented in Table 7. In the results, we have only included those firms
+for which any of the α’, β’, and γ (%)-AAR (AMM) are found significant.
+Results indicate that some data breaches significantly change the
+MM parameters, and this change is clearly evident. Most of the changes
+in the MM parameters are found significant after the announcement of
+the data breach event. The change in MM parameters affects the overall
+AR of the firms, as explained in the methodology section. Due to changes
+in MM parameters, the difference between AAR obtained by AMM
+(denoted by γ (%)-AAR (AMM)) in Table 7) and AAR obtained by MM
+(denoted by AAR (%) MM in Table 7)) is clearly apparent in the above
+results. This further indicates that ignoring the changes in MM parameters caused by the data breach event results in biased AR. HACK, INSD,
+PORT, CARD, DISC, and PHYS attacks have significantly changed the
+Table 3
+Types of attacks.
+Types of attacks Description
+Insider (INSD) Some insider intentionally accesses and shares the
+confidential information of customers, employees, and
+employers to the wrong party.
+Accidental disclosure
+(DISC)
+Unintentional disclosure of confidential information
+shared through fax, email, or website posting.
+Portable device (PORT) Loss or stealing of electronic devices such as smartphones,
+laptops, hard disks, portable hard disks, pen drives, etc.
+Debit or Credit Card
+Fraud (CARD)
+Mishandling of credit and debit cards through skimming
+devices at point-of-service terminals.
+Hacking or malware
+(HACK)
+Unauthorized access by some outside hacker, malware,
+and spyware by compromising cybersecurity system.
+Physical loss (PHYS) Loss or stealing of non-electronic paper documents.
+Unknow breach (UNKN) Not enough information about the privacy breach is
+known
+Table 4
+Types of organizations
+Types of organizations Description
+Businesses – Banking and Financial
+Services (BSF)
+Firms in the banking, financial, and
+insurance domain
+Businesses - Retail (BSR) Firms having businesses in the retail
+industry
+Businesses – Other (BSO) Other firms, mostly technological firms
+Table 5
+Descriptive statistics based on the firm type
+Firm type 2012 2013 2014 2108 Total
+BSF 14 9 12 27 62
+BSO 12 13 27 14 66
+BSR 17 15 12 21 65
+Total 43 37 51 62 193
+Descriptive statistics based on the attack type
+Attack type 2012 2013 2014 2108 Total
+CARD 3 3 2 8
+DISC 3 9 5 8 25
+HACK 17 16 36 11 80
+INSD 11 4 5 2 22
+PHYS 3 1 2 6
+PORT 4 5 2 11
+STAT 1 1
+UNKN 1 39 40
+Total 43 37 51 62 193
+M. Tripathi and A. Mukhopadhyay 
+Information & Management 59 (2022) 103707
+11
+MM parameters that affect the AR. All types of firms, i.e., BSF, BSR, and
+BSO, experience the change in AR caused by a data breach event. In
+2012, firms F10 (McDonald), F13 (Global Payment Inc.), F16 (The Home
+Depot), and F17 (Rent-A-Center Inc.) have significant AAR obtained by
+AMM for a 3-day event window. F10, F16, and F17 are BSR firms, while
+F13 is a BSF firm. INSD attack hits F10 and F16, while CARD and PHYS
+attacks hit F13 and F17, respectively. In 2013, firm F31 (Republic Services), a BSO firm, has a significant AAR obtained by AMM for a 3-day
+event window due to a PORT attack. Similarly, in 2014, firms F11
+(Sears), F15 (American Express Company), F38 (The Home Depot), and
+F40 (Pulte Mortgage) have significant AAR obtained by AMM for a 3-day
+event window. F11 and F38 are BSR firms, while F15 and F40 are BSF
+firms. HACK attack hits F11, F38, and F40, while the CARD attack hits
+F15. In 2018, the results present significant AAR by AMM for a 3-day
+event window for firms F2 (Rite Aid Corporation), F11 (Marriott International Inc), F24 (Pershing Llc), F47 (Dollar Shave Club Inc), F49
+(Chegg Inc), F53 (Brinker International Inc), F56 (Marriott International), F57 (Goldman Sachs & Co Llc), F59 (Health Equity Inc), and F61
+(Liquidity Services). F2, F11, F47, F49, F53, F56, and F61 are BSR firms,
+while F24, F57, and F59 are BSF firms. UNKN attacks hit F2, F24, F49,
+F53, F59, and F61, while HACK attacks hit F11, F47, F56, and F57. We
+have also presented the results of Table 7 in the following Fig. 6 to increase visualization and understanding. It is evident from the figure that
+the abnormal returns due to privacy breaches are largely reported as
+negative by all the models for all the firms. However, BSF and BSR firms
+have reported higher negative abnormal returns calculated by all the
+models due to privacy breaches for all the years than BSO firms. Fig. 6
+The following Table 8 illustrates the difference in ARs obtained by
+MM and AMM. Table 8 illustrates that AAR obtained from AMM is more
+negative as compared to AAR obtained from MM consistently for the all
+years 2012, 2013, 2014, and 2018. The abnormal return reported by
+AMM is 25%, 50%, 60%, and 14% more negative than MM for 2012,
+2013, 2014, and 2018 respectively, for the 3-day event window. The
+number of firms having negative AR is higher in AMM than MM in 2012,
+2013, and 2104 for the 3-day event window and in 2018 for the 21-day
+event window. It is evident from the results that there is a significant
+improvement in the abnormal returns in AMM after incorporating
+changes in MM parameters that are missing in MM. It is illustrated in
+Table 8 that the BSF firms have consistently reported negative abnormal
+returns for all the years for the 3-day event window.
+6.2. MM, AMM, and AMM-SUR results
+In our data sets, privacy breach events are very similar in nature, and
+their event dates are close to each other. Therefore, it is imperative to
+take into account the event clustering phenomena. The impact of one
+event may affect the abnormal returns caused by a close-by event.
+Therefore, the ignorance of event clustering may lead to a biased estimation of abnormal returns. The event clustering problem causes the
+MM errors to be correlated across the firms. The estimation needs to
+adjust for contemporaneous correlation of MM errors. Thus, we estimate
+the model using SUR. SUR is different from OLS. It includes the correlation of error terms of every regression equation into the final model
+(please refer to Appendix 1 for details of SUR). A firm has its error
+correlated with other firms.
+Table 9 illustrates the number of firms having significant error correlation (event correlation) with a given firm (due to space constraints,
+we are not able to show the full error correlation matrix). For example,
+in the year 2012, F14 (Experian) has an error correlation with ten other
+firms. Experian, a BSF sector firm, was hit by the PORT attack. Similarly,
+in the year 2013, F29 (Exelixis) has an error correlation with eight firms.
+Exelixis, a BSR sector firm, was hit by the PORT attack. In the year 2014,
+F27 (Lockheed Martin) has an error correlation with 13 firms. Lockheed
+Martin, a BSO sector firm, was hit by the HACK attack. In 2018, F9
+(Dollar General Corporation) has observed an error correlation with 13
+other firms. Dollar General Corporation, a BSR firm, was hit by a DISC
+attack. Other firms are also showing error correlation with other firms.
+Thus, we account for contemporaneous error correlation and estimate
+the model using SUR.
+In Table 10, we have shown the values of parameters (α’and β’),
+which represent the changes in MM parameters due to the effect of the
+data breach event. We have included the average abnormal return
+(denoted by γ (%)-AAR (AMM-SUR) in Table 10) obtained by applying
+AMM using SUR methodology. We have compared the AAR obtained by
+AMM-SUR to AAR obtained by AMM (denoted by γ (%)-AAR (AMM) in
+Table 10) and AAR obtained by simple MM (denoted by AAR (%) (MM)
+in Table 10). We have included only those observations of results where
+any of the α’, β’, and γ (%)-AAR (AMM-SUR) are significant for both the
+event windows, i.e., 3-day event window and 21-day event window. It is
+apparent from the above results that there is not enough difference between the AAR of AMM and the AAR of AMM-SUR. But there seems to be
+a significant difference between the AAR obtained from AMM or AMMSUR and AAR obtained from simple MM [25]. Interestingly, the results
+show that HACK, INSD, PORT, CARD, DISC, and PHYS attacks have
+significantly changed the MM parameters that affect the AR. All types of
+firms, i.e., BSF, BSR, and BSO, experience the change in AR caused by a
+data breach event. In 2012, all three types of firms, i.e., BSF, BSR, and
+BSO, have seen significant changes in the MM parameters and observed
+significant AAR. However, in 2013, most of the firms are BSR firms. In
+2014, most of the firms belong to the BSO category that also includes
+technological firms. In 2018, all types of firms have observed significant
+changes in MM parameters and significant AAR. In 2012, firms F10
+(McDonald), F13 (Global Payment Inc.), F16 (The Home Depot), and
+F17 (Rent-A-Center Inc.) have significant AAR obtained by AMM-SUR
+for a 3-day event window. F10, F16, and F17 are BSR firms, while F13
+is BSF firm. INSD attacks hit F10 and F16, while CARD and PHYS attacks
+hit F13 and F17, respectively. In 2013, firm F31 (Republic Services), a
+BSO firm, has a significant AAR obtained by AMM-SUR for a 3-day event
+window due to a PORT attack. Similarly, in 2014, firms F11 (Sears), F15
+(American Express Company), F38 (The Home Depot), and F40 (Pulte
+Mortgage) have significant AAR obtained by AMM-SUR for a 3-day
+event window. F11 and F38 are BSR firms, while F15 and F40 are BSF
+firms. The HACK attacks hit F11, F38, and F40, while the CARD attacks
+hit F15. In 2018, the results present significant AAR by AMM-SUR for a
+3-day event window for firms F2 (Rite Aid Corporation), F14 (Walmart
+Inc), F17 (The Ups Store), F21 (First Merchants Bank), F28 (Nordstrom
+Inc), F30 (Intuit Inc), F37 (Cbiz Mhm Llc), F39 (Delta Steel Inc), F41
+(Alphabet Inc), F42 (Mondelez Global Llc), F44 (Humana Inc), F45
+(Intuit Inc), F47 (Dollar Shave Club Inc), and F49 (Chegg Inc). F2, F14,
+F28, F47, and F49 are BSR firms. F17, F39, F41, F42, and F44 are BSO
+firms, whereas F21, F30, F37, and F45 are BSF firms. UNKN attacks hit
+F2, F21, F28, F30, F37, F39, F42, F44, and F49. HACK attacks hit F17,
+F45, and F47, whereas DISC attacks hit F14 and F41. We have also
+presented the results of Table 10 in the following figure to increase
+visualization and understanding. It is evident from Fig. 7 that the
+abnormal returns due to privacy breaches are largely reported as
+negative by all the models for all the firms. However, BSF firms have
+reported higher negative abnormal returns calculated by all the models
+due to privacy breaches in 2102 and 2014 than BSO and BSR firms.
+We have shown in Table 11, the overall mean of all the AARs obtained from the three models, i.e., MM, AMM, and AMM-SUR. From the
+results, it is clear that AAR obtained from all the models is different. We
+have already observed that AAR obtained from AMM is more negative
+than MM consistently for all the years. Interestingly, AAR from AMM
+Table 6
+Descriptive statistics based on the stock price
+Factor 2012 2013 2014 2108
+Average (Min) 24.34 40.31 41.86 84.82
+Average (Max) 36.81 59.21 58.40 124.13
+Average (Mean) 30.37 49.21 49.48 103.93
+M. Tripathi and A. Mukhopadhyay 
+Information & Management 59 (2022) 103707
+12
+Table 7
+Changes in market model parameters and abnormal returns using AMM
+3-day event window 21-day event window Attack type Firm type
+Firm α’ β’ γ (%) -AAR (AMM) AAR (%) (MM) α’ β’ γ (%) - AAR (AMM) AAR (%) (MM)
+2012
+F6 -0.0017 0.21* -0.21 -0.37 -0.0018 0.3*** -0.10 -0.23 HACK BSF
+F7 0.0026 -0.78** -0.37 -0.11 0.0025 -0.71** -0.24 0.01 INSD BSR
+F8 0.0015* 0.07 -0.08 0.08 0.0012 0.07 -0.04 0.08 PORT BSR
+F10 -0.0015 0.04 -0.0136*** 0.46 -0.0009 0 -0.24 -0.29 INSD BSR
+F12 -0.0006 -0.38** 0.25 0.07 0 -0.36** 0.17 0.15 INSD BSF
+F13 -0.0007 -0.07 4.92*** -5.01 -0.0011 -0.06 -0.61** -0.72 CARD BSF
+F16 -0.0011 0.28** 1.15** 1.04 -0.0013 0.28** 0.08 -0.05 INSD BSR
+F17 -0.0004 -0.14 -1.63** -1.79 -0.0008 -0.19 -1.63 -0.42 PHYS BSR
+F20 0.001 -0.39** -0.54 -0.13 0.0015 -0.29* -0.44 -0.21 HACK BSR
+F24 0.0048 -0.8** 0.30 0.76 0.0042 -0.92*** -0.36 0.15 INSD BSR
+F29 -0.0013 -0.23 0.05 -0.15 -0.0013 -0.25* 0.01 -0.18 CARD BSF
+F31 0.0043** 0.17 -0.57 -0.06 0.0034 0.05 0.08 0.43 INSD BSR
+F33 -0.006** 0.43 0.64 0.08 -0.0061*** 0.44 0.66 0.10 HACK BSR
+F35 -0.0003 -0.46*** 0.25 0.44 -0.0005 -0.37*** 0.16 0.14 PORT BSF
+F37 0.0025 -0.61** -0.80 -0.66 0.0015 -0.57** -0.57 -0.36 HACK BSO
+F40 0.0015 -0.43** 0.39 0.82 0.0008 -0.39** -0.07 0.00 HACK BSO
+F43 0.0009 0.34** -0.19 -0.16 0.0009 0.23 0.13 0.28 PHYS BSO
+2013
+F8 0.0035 -0.88*** -1.13 -0.60 0.0036 -0.94*** 0.10 0.01 HACK BSR
+F12 -0.0001 0.28*** -0.10 0.04 0.0002 0.25** -0.12 -0.08 PORT BSF
+F13 0.0028 0.5* -1.07 -0.72 0.0039* 0.41 -1.15 0.33 PORT BSR
+F19 -0.0001 0.3 -0.62 -0.49 0.0002 0.35* -0.66 -0.56 HACK BSO
+F22 0.0071** 0.16 0.20 0.73 0.0075** 0.06 0.14 0.56 DISC BSO
+F25 0.0028 -0.49* -1.22 -0.97 0.0042* -0.39 -1.23 0.63 HACK BSR
+F27 -0.0011 0.17 0.06 -0.07 -0.0012 0.2* 0.06 -0.08 CARD BSR
+F31 -0.0006 -0.23* -0.81* -0.88 -0.0003 -0.21 -0.81* -0.29 PORT BSO
+F33 0.0002 0.41* -0.04 -0.16 -0.0002 0.43* 0.01 -0.06 HACK BSR
+2014
+F1 0.0010 -0.31** -0.49 -0.03 0.0007 -0.26* -0.2 -0.1 PORT BSO
+F4 -0.002* 0.00 0.20 0.00 -0.002* 0.14 0.16 -0.01 INSD BSO
+F7 0.0027 -1.17** -0.19 0.17 0.0019 -1.31** 1.01 0.79 HACK BSR
+F9 0.0016 0.46* -0.29 -0.07 0.0019 0.45* -0.29 -0.01 HACK BSO
+F11 -0.0005 1.12* 0.47** 4.66 -0.0008 1.21* 0.49 0.48 HACK BSR
+F13 -0.0015* 0.07 -0.24 -0.41 -0.0013 0.09 -0.22 -0.36 HACK BSF
+F15 -0.0011 0.09 -0.73* -0.90 -0.0008 0 -0.24 -0.32 CARD BSF
+F16 -0.0011 -0.84* 0.76 0.65 -0.0008 -0.59 -0.79 -0.97 HACK BSO
+F17 0.0001 -0.10 -0.48 -0.47 -0.0002 -0.04 -0.46* -0.48 HACK BSO
+F19 0.0019 0.14 0.50 0.76 0.0032** 0.09 -0.09 0.24 DISC BSR
+F20 -0.0014 0.61** -0.32 -0.21 -0.0008 0.55** 0.02 0.05 HACK BSO
+F24 0.0019** -0.07 -0.16 0.00 0.0015 0 -0.04 0.1 DISC BSF
+F26 0.0013 -0.35** 0.66 0.76 0.0017 -0.32* -0.24 -0.08 HACK BSO
+F27 0.0015 -0.26* 0.62 0.75 0.0006 -0.18 0.07 0.13 HACK BSO
+F33 0.0026 -0.72** -0.69 -0.74 0.0024 -0.78** 0.08 0.28 HACK BSO
+F35 -0.0014 -1.32 2.97 2.23 0.0009 -1.47* 0.09 -0.1 HACK BSO
+F38 0.0011 0.24 -1.37*** -1.24 0.0017 0.32** 0.1 0.3 HACK BSR
+F40 0.0013 -0.04 -1.74** -1.61 0.0024 -0.04 -0.18 0.06 HACK BSF
+F41 0.0019 -1.39** -0.26 -0.07 0.0033 -1.39** -0.3 0.25 PORT BSO
+F43 0.0067 -0.04 -2.66 -1.93 0.0054 -0.93 1.97** 2.52 HACK BSR
+F51 -0.0013 0.51** -0.86 -0.92 -0.0014 0.48** 0.01 -0.12 HACK BSO
+2018
+F2 0.0016 -1.56* 5.68*** 5.46 0.0017 -1.67* 0.51 0.23 UNKN BSR
+F8 -0.0005 -0.13 0.07 -0.11 -0.0012 0.17 -0.42* -0.58 DISC BSF
+F11 -0.0038*** -0.15 -1.16* -1.58 -0.0033** 0.02 -0.09 -0.42 HACK BSR
+F14 -0.0012 -0.23 -0.63 -0.84 -0.0008 -0.17 -0.75** -0.84 DISC BSR
+F17 0.0019 0.38** 0.65 0.68 0.0016 0.22 0.08 0.18 HACK BSO
+F18 0.0035** -0.18 -0.04 0.34 0.0041** -0.31 0.59** 1.04 UNKN BSO
+F19 -0.0023 0.08 -0.17 -0.45 -0.0031 0.13 0.73** 0.39 UNKN BSO
+F21 0.0014 -0.37** -0.15 0.08 -0.0004 -0.06 0.03 0.00 UNKN BSF
+F24 -0.0006 -0.11 2.74*** 2.73 -0.0006 -0.18 0.40* 0.33 UNKN BSF
+F30 -0.0005 0.43*** -0.65 -0.73 -0.001 0.44*** 0.16 0.13 UNKN BSF
+F37 -0.0031** -0.12 -0.64 -0.94 -0.0034** -0.11 -0.44 -0.81 UNKN BSF
+F40 0.0001 -0.18 -0.44 -0.38 -0.0006 -0.27* -0.01 -0.08 UNKN BSF
+F42 0.0017 -0.31** 0.49 0.63 0.0016 -0.29** -0.22 -0.10 UNKN BSO
+F44 -0.0017 0.44*** -0.06 -0.03 -0.0029* 0.46*** 0.15 -0.09 UNKN BSO
+F45 0.0001 0.38** 0.57 0.51 -0.0001 0.28* 0.1 0.11 HACK BSF
+F47 -0.0007 0.1 -1.22** -1.32 -0.0003 0.07 -0.25 -0.28 HACK BSR
+F48 -0.0011 0.26 -0.05 -0.19 -0.001 0.27* -0.11 -0.18 UNKN BSF
+F49 0.0001 0.69* -3.91*** -3.95 -0.0001 0.65** -0.94* -1.07 UNKN BSR
+F53 -0.0014 -0.08 -3.77*** 3.61 -0.002 0.2 0.64 0.42 UNKN BSR
+F55 0.0028 0.05 0.69 0.96 0.0032* 0.04 -0.08 0.24 UNKN BSF
+F56 0.0013 0.11 -1.42* -1.23 0.002 0 -0.12 0.08 HACK BSR
+F57 0.0011 -0.15 -1.75** -1.72 0.0013 -0.15 -0.59** -0.42 HACK BSF
+F59 -0.0021 -0.33 -5.78*** -5.36 -0.0013 -0.2 -0.4 -0.44 UNKN BSF
+F61 -0.0019 -0.05 -5.13*** -5.27 -0.0031 0.27 0.94 0.47 UNKN BSR
+M. Tripathi and A. Mukhopadhyay 
+Information & Management 59 (2022) 103707
+13
+Note:
+* ,
+** , and *** denote 10%, 5%, and 1% level of significance, respectively
+Fig. 6. Abnormal returns using AMM and MM.
+Table 8
+A final comparison of results for AMM and MM
+3-day event window 21-day event window
+AAR (%) NR PR Rsq AAR (%) NR PR Rsq
+BSF BSR BSO Total BSF BSR BSO Total
+2012
+AMM -0.38 -0.41 0.11 -0.25 25 18 0.38 0.04 -0.10 -0.04 -0.04 22 21 0.39
+MM -0.40 -0.20 0.04 -0.20 23 20 0.43 0.01 -0.03 -0.04 -0.02 22 21 0.44
+2013
+AMM -0.08 -0.16 -0.18 -0.15 24 13 0.29 -0.07 -0.17 -0.20 -0.15 23 14 0.29
+MM -0.10 -0.09 -0.10 -0.10 23 14 0.30 -0.11 0.15 -0.10 0.00 17 20 0.29
+2014
+AMM -0.34 0.01 -0.01 -0.08 30 21 0.28 0.12 0.33 -0.04 0.09 21 30 0.28
+MM -0.36 0.15 0.00 -0.05 29 22 0.25 0.10 0.40 -0.01 0.11 19 32 0.25
+2018
+AMM -0.08 -0.34 0.35 -0.07 32 30 0.30 -0.05 -0.07 0.12 -0.02 35 27 0.30
+MM -0.08 -0.36 0.42 -0.06 32 30 0.27 -0.07 -0.08 0.13 -0.02 28 34 0.26
+Abbreviations: NR: Firms having negative returns, PR: Firms having positive returns, Rsq: R-squared
+Table 9
+Number of firms having correlated errors
+F1 F2 F3 F4 F5 F6 F7 F8 F9 F10 F11 F12 F13 F14 F15 F16 F17
+2012 7 4 4 8 5 2 2 6 6 4 5 5 2 10 4 4 5
+2013 5 5 5 2 4 5 2 2 3 1 1 4 1 5 5 3 1
+2014 2 6 7 5 8 4 11 6 4 9 6 4 5 5 6 4 6
+2018 8 6 9 10 6 7 3 11 13 8 7 3 4 5 7 5 6
+F18 F19 F20 F21 F22 F23 F24 F25 F26 F27 F28 F29 F30 F31 F32 F33 F34
+2012 2 7 2 4 3 1 5 4 4 3 3 5 5 2 5 3 4
+2013 3 2 3 1 1 3 2 4 3 5 6 8 6 5 4 6 1
+2014 6 7 6 5 5 2 7 5 4 13 2 3 4 6 6 7 4
+2018 5 6 5 7 3 2 6 9 12 5 5 6 5 8 5 7 4
+F35 F36 F37 F38 F39 F40 F41 F42 F43 F44 F45 F46 F47 F48 F49 F50 F51
+2012 6 4 9 3 3 4 1 5 4
+2013 2 4 3
+2014 4 6 5 2 9 7 8 3 4 5 6 6 7 3 3 9 5
+2018 5 6 7 3 6 5 3 3 7 4 7 4 2 4 8 9 7
+F52 F53 F54 F55 F56 F57 F58 F59 F60 F61 F62
+2018 4 11 3 7 4 6 5 6 9 6 5
+M. Tripathi and A. Mukhopadhyay 
+Information & Management 59 (2022) 103707
+14
+Table 10
+Change in market model parameters and abnormal returns using AMM-SUR
+3-day event window 21-day event window Attack
+type
+Firm
+Firm α’ β’ γ (%) -AAR type
+(AMM-SUR)
+γ (%) -AAR
+(AMM)
+AAR (%)
+(MM)
+α’ β’ γ (%) - AAR
+(AMM-SUR)
+γ (%) -AAR
+(AMM)
+AAR (%)
+(MM)
+2012
+F5 0.0002 -0.26* -0.79 -0.81 -0.57 0.0009 -0.12 -0.15 -0.15 -0.27 HACK BSO
+F6 -0.0017 0.18* -0.21 -0.21 -0.37 -0.0018 0.28*** -0.1 -0.1 -0.23 HACK BSF
+F8 0.0015* 0.11 -0.08 -0.08 0.08 0.0012 0.11 -0.04 -0.04 0.08 PORT BSR
+F10 -0.0015 0.05 -1.36*** -1.36*** 0.46 -0.0009 -0.01 -0.24 -0.24 -0.29 INSD BSR
+F12 -0.0005 -0.42*** 0.25 0.25 0.07 0.0001 -0.36** 0.17 0.17 0.15 INSD BSF
+F13 -0.0007 -0.05 -4.92** -4.92*** -5.01 -0.0011 -0.07 -0.62** -0.61** -0.72 CARD BSF
+F14 -0.0003 -0.27** -0.3 -0.3 -0.16 -0.0007 -0.07 0.17 0.17 0.1 PORT BSF
+F16 -0.0012 0.28** 1.15** 1.15** 1.04 -0.0013 0.29*** 0.08 0.08 -0.05 INSD BSR
+F17 -0.0004 -0.18 -1.59* -1.63** -1.79 -0.0008 -0.2 -0.35 -0.34 -0.42 PHYS BSR
+F20 0.001 -0.38** -0.52 -0.54 -0.13 0.0015 -0.28* -0.44 -0.44 -0.21 HACK BSR
+F24 0.0049 -0.92*** 0.3 0.3 0.76 0.0042 -0.95*** -0.35 -0.36 0.15 INSD BSR
+F26 -0.0017 0.68* -0.4 -0.31 0.03 -0.0032 0.41 0.19 0.2 -0.07 HACK BSO
+F29 -0.0013 -0.25** 0.05 0.05 -0.15 -0.0013 -0.22* 0 0.01 -0.18 CARD BSF
+F31 0.0043** 0.15 -0.6 -0.57 -0.06 0.0034 0.06 0.07 0.08 0.43 INSD BSR
+F32 0.001 -0.26* -0.1 -0.1 0 0.0007 -0.3** -0.15 -0.15 -0.1 PHYS BSF
+F33 -0.006** 0.4 0.63 0.64 0.08 -0.0061*** 0.42 0.66 0.66 0.1 HACK BSR
+F35 -0.0003 -0.45*** 0.27 0.25 0.44 -0.0005 -0.33*** 0.16 0.16 0.14 PORT BSF
+F37 0.0025 -0.61** -0.8 -0.8 -0.66 0.0015 -0.55** -0.58 -0.57 -0.36 HACK BSO
+F39 0.0004 -0.27 0.7 0.7 0.71 0.0004 -0.35* 0.16 0.2 0.3 HACK BSO
+F40 0.0016 -0.45*** 0.32 0.39 0.82 0.0008 -0.34** -0.08 -0.07 0 HACK BSO
+F43 0.0009 0.24* -0.19 -0.19 -0.16 0.0009 0.21 0.12 0.13 0.28 PHYS BSO
+2013
+F1 0.0013 -0.39* -0.28 -0.28 -0.23 0.0019 -0.49** -0.26 -0.26 -0.05 INSD BSR
+F4 -0.0014 -0.12 -0.04 -0.04 -0.19 -0.0017* -0.12 -0.01 -0.01 0.05 CARD BSF
+F8 0.0035 -0.89*** -1.13 -1.13 -0.6 0.0036 -0.97*** -1.22 -1.21 0.01 HACK BSR
+F9 0.002 -0.38* -0.3 -0.27 0.08 0.0021 -0.24 -0.27 -0.24 0.16 HACK BSR
+F12 -0.0001 0.27*** -0.09 -0.1 0.04 0.0002 0.23** -0.12 -0.12 -0.08 PORT BSF
+F13 0.0029 0.39 -1.07 -1.07 -0.72 0.0039** 0.28 -1.14 -1.15 0.33 PORT BSR
+F19 -0.0002 0.39** -0.64 -0.62 -0.49 0.0002 0.41** -0.68 -0.66 -0.56 HACK BSO
+F22 0.0069* 0.39 0.39 0.2 0.73 0.0073** 0.22 0.28 0.14 0.56 DISC BSO
+F25 0.0028 -0.45* -1.22 -1.22 -0.97 0.0043* -0.42 -1.23 -1.23 0.63 HACK BSR
+F27 -0.0012 0.21* 0.06 0.06 -0.07 -0.0012 0.23** 0.06 0.06 -0.08 CARD BSR
+F31 -0.0006 -0.27** -0.81* -0.81* -0.88 -0.0003 -0.22* -0.81* -0.81* -0.29 PORT BSO
+F33 0.0003 0.39* -0.04 -0.04 -0.16 -0.0003 0.45** 0.02 0.01 -0.06 HACK BSR
+2014
+F1 0.001 -0.31** -0.5 -0.49 -0.03 0.0007 -0.23* -0.2 -0.2 -0.10 PORT BSO
+F4 -0.002* 0 0.17 0.2 0.00 -0.002* 0.17 0.16 0.16 -0.01 INSD BSO
+F7 0.0027 -1.09** -0.18 -0.19 0.17 0.0019 -1.2** 0.98 1.01 0.79 HACK BSR
+F9 0.0016 0.46* -0.29 -0.29 -0.07 0.0019 0.45* -0.28 -0.29 -0.01 HACK BSO
+F11 -0.0005 1.03* 4.69** 0.47** 4.66 -0.0007 1.08* 0.49 0.49 0.48 HACK BSR
+F13 -0.0015* 0.12 -0.24 -0.24 -0.41 -0.0014 0.1 -0.22 -0.22 -0.36 HACK BSF
+F15 -0.001 0 -0.77* -00.73* -0.90 -0.0008 -0.05 -0.24 -0.24 -0.32 CARD BSF
+F17 0 -0.04 -0.49 -0.48 -0.47 -0.0003 0.03 -0.46* -0.46* -0.48 HACK BSO
+F19 0.0018 0.21 0.48 0.5 0.76 0.0031** 0.15 -0.09 -0.09 0.24 DISC BSR
+F20 -0.0014 0.7*** -0.31 -0.32 -0.21 -0.0009 0.68*** 0.03 0.02 0.05 HACK BSO
+F22 0.0001 -0.16 -0.16 -0.15 -0.15 -0.0006 -0.27** 0.01 0 -0.08 INSD BSR
+F24 0.0019** -0.06 -0.18 -0.16 0.00 0.0015 0 -0.04 -0.04 0.10 DISC BSF
+F26 0.0013 -0.34** 0.66 0.66 0.76 0.0017 -0.31** -0.24 -0.24 -0.08 HACK BSO
+F27 0.0016 -0.37*** 0.62 0.62 0.75 0.0007 -0.26** 0.07 0.07 0.13 HACK BSO
+F33 0.0025 -0.58** -0.74 -0.69 -0.74 0.0023 -0.63** 0.08 0.08 0.28 HACK BSO
+F35 -0.0015 -1.04 2.98 2.97 2.23 0.0009 -1.45* 0.1 0.09 -0.10 HACK BSO
+F37 -0.0006 0.35* 0.18 0.18 0.14 -0.0004 0.33* -0.03 -0.03 -0.04 HACK BSO
+F38 0.0011 0.21 -1.37*** -1.37*** -1.24 0.0017 0.3** 0.1 0.1 0.30 HACK BSR
+F39 0.0022 -0.56* 0.06 0.07 0.32 0.003 -0.53* 0.1 0.09 0.36 HACK BSO
+F40 0.0012 0.01 -1.76** -1.74** -1.61 0.0023 0.05 -0.2 -0.18 0.06 HACK BSF
+F41 0.002 -1.52*** -0.26 -0.26 -0.07 0.0034 -1.64*** -0.32 -0.3 0.25 PORT BSO
+F42 -0.0005 0.14 0.55 0.54 0.49 -0.0008 0.3** 0.14 0.13 0.00 INSD BSR
+F43 0.0068 -0.24 -2.8 -2.66 -1.93 0.0054 -0.96 1.97** 1.97** 2.52 HACK BSR
+F51 -0.0013 0.52*** -0.86 -0.86 -0.92 -0.0014 0.52*** 0.01 0.01 -0.12 HACK BSO
+2018
+F2 0.002 0.002 -2.07*** 5.69** 5.68*** 0.0021 -2.28*** 0.54 0.51 0.23 UNKN BSR
+F4 -0.0015 -0.0015 0.1 1.23* 1.11 -0.0015 -0.04 0 -0.01 -0.14 UNKN BSF
+F6 0.0001 0.0001 0.01 0.13 0.15 -0.0004 0.36* 0.15 0.15 0.07 UNKN BSF
+F8 -0.0005 -0.0005 -0.15 0.07 0.07 -0.0011 0.06 -0.42* -0.42* -0.58 DISC BSF
+F11 -0.0038*** -0.0038*** -0.07 -1.17** -1.16* -0.0032** -0.07 -0.09 -0.09 -0.42 HACK BSR
+F14 -0.0011 -0.0011 -0.38* -0.63 -0.63 -0.0007 -0.32 -0.75** -0.75** -0.84 DISC BSR
+F17 0.0018 0.0018 0.46*** 0.66 0.65 0.0015 0.37** 0.09 0.08 0.18 HACK BSO
+F18 0.0035** 0.0035** -0.11 -0.03 -0.04 0.0041** -0.34* 0.59** 0.59** 1.04 UNKN BSO
+F19 -0.0022 -0.0022 -0.03 -0.22 -0.17 -0.003 0.03 0.72** 0.73** 0.39 UNKN BSO
+F21 0.0014 0.0014 -0.31** -0.15 -0.15 -0.0003 -0.09 0.01 0.03 0.00 UNKN BSF
+F23 -0.0004 -0.0004 -0.11 -0.11 -0.07 0.0003 -0.4** 0.35 0.35 0.39 UNKN BSO
+(continued on next page)
+M. Tripathi and A. Mukhopadhyay 
+Information & Management 59 (2022) 103707
+15
+(SUR) is less negative than AAR from AMM consistently for all the years.
+The results illustrate that the abnormal returns (AAR from AAM(SUR))
+get inflated after incorporating the error correction factor in the model.
+The amount of inflation is due to the event clustering problem [25]. AAR
+from AMM-SUR is 1%, 7%, 3%, and 8% less negative than AAR from
+AMM in 2012, 2013, 2014, and 2018, respectively. AAR from AMM-SUR
+is less negative than AAR from AAM because AMM-SUR accounts for the
+error correction factor that eliminates the negative effect caused by
+nearby events on abnormal returns of the firm. It is evident from
+Table 11 that the BSF firms have consistently reported negative
+abnormal returns for all the years for the 3-day event window.
+6.3. Impact of firm-specific and attack-specific characteristics on firm
+performance
+The various firm-specific and attack-specific characteristics may
+have an impact on the firm performance. We have run the model
+mentioned in Eq. 4 to understand this relationship. We have taken the
+size of the firm as the natural logarithm of the market capitalization (in
+billion dollars) and DP as the natural logarithm of the total number of
+records breached. We have considered the negative abnormal returns of
+the event of all the years obtained from the AMM-SUR model as the
+dependent variable. We have done the analysis for different types of
+firms (BSF, BSR, and BSO) and various types of data breaches (HACK,
+CARD, DISC, INSD, PHYS, and PORT). We have included only those
+privacy breaches for which we could get the DP data.
+The following Table 12 represents the results of the regression model
+mentioned in Eq. 4. It is evident that the coefficients of SIZE, CARD, BSR,
+and Intercept are found significant. The coefficients of CARD and BSR
+are negative, which suggests CARD attacks have a significant negative
+impact on the abnormal returns of the firms, and BSR firms are negatively impacted by the data breaches. Interestingly, the coefficient of
+Table 10 (continued )
+3-day event window 21-day event window Attack
+type
+Firm
+Firm α’ β’ γ (%) -AAR type
+(AMM-SUR)
+γ (%) -AAR
+(AMM)
+AAR (%)
+(MM)
+α’ β’ γ (%) - AAR
+(AMM-SUR)
+γ (%) -AAR
+(AMM)
+AAR (%)
+(MM)
+F24 -0.0007 -0.0007 0.11 2.82*** 2.74*** -0.0007 -0.02 0.4 0.40* 0.33 UNKN BSF
+F28 0.0008 0.0008 -0.47* -0.43 -0.47 0.0004 -0.52* -0.31 -0.33 -0.32 UNKN BSR
+F30 -0.0004 -0.0004 0.33** -0.65 -0.65 -0.001 0.38*** 0.16 0.16 0.13 UNKN BSF
+F37 -0.0031** -0.0031** -0.2* -0.64 -0.64 -0.0034** -0.2* -0.44 -0.44 -0.81 UNKN BSF
+F39 -0.0012 -0.0012 -0.2* 0.17 0.16 -0.0001 -0.2* -0.09 0.04 -0.11 UNKN BSO
+F41 -0.0009 -0.0009 -0.2* 0.28 0.25 -0.0012 -0.1 -0.23 -0.23 -0.36 DISC BSO
+F42 0.0017 0.0017 -0.32*** 0.5 0.49 0.0016 -0.33*** -0.22 -0.22 -0.10 UNKN BSO
+F44 -0.0017 -0.0017 0.4*** -0.05 -0.06 -0.0028* 0.4*** 0.15 0.15 -0.09 UNKN BSO
+F45 0.0002 0.0002 0.32** 0.57 0.57 -0.0001 0.21 0.11 0.1 0.11 HACK BSF
+F47 -0.0007 -0.0007 0.2* -1.22** -1.22** -0.0003 0.16 -0.25 -0.25 -0.28 HACK BSR
+F49 0.0001 0.0001 0.87*** -3.91*** -3.91*** -0.0002 0.8*** -0.93* -0.94* -1.07 UNKN BSR
+F53 -0.0014 -0.0014 0.05 3.76*** -3.77*** -0.0021 0.49* 0.65 0.64 0.42 UNKN BSR
+F55 0.0028 0.0028 0.08 0.7 0.69 0.0032* 0.04 -0.09 -0.08 0.24 UNKN BSF
+F56 0.0013 0.0013 0.12 -1.44* -1.42* 0.002 -0.05 -0.11 -0.12 0.08 HACK BSR
+F57 0.0011 0.0011 -0.1 -1.72** -1.75** 0.0013 -0.15 -0.62** -0.59 -0.42 HACK BSF
+F59 -0.0022 -0.0022 -0.19 -5.54*** -5.78*** -0.0013 -0.1 -0.39 -0.4 -0.44 UNKN BSF
+F61 -0.0019 -0.0019 -0.19 -5.16*** -5.13*** -0.0032 0.15 0.94 0.94 0.47 UNKN BSR
+Note:
+* ,
+** , and *** denote 10%, 5%, and 1% level of significance, respectively
+Fig. 7. Abnormal returns using AMM (SUR), AMM, and MM.
+M. Tripathi and A. Mukhopadhyay 
+Information & Management 59 (2022) 103707
+16
+SIZE is positive and significant, which suggests SIZE increases the
+abnormal return or reduces the negative value of abnormal returns. That
+provides an interesting insight that the larger firms are less negatively
+affected by privacy breaches than the smaller firms. The coefficients of
+CARD, DISC, PHYS, BSF, BSR, DP, and Intercept are found to be negative, suggesting these factors negatively impact the abnormal returns of
+the firms. For example, the negative coefficient of DP represents that the
+data breaches having a high number of records compromised have a
+more negative impact on the value of the firms.
+6.4. Average financial loss (in USD)
+The results of the present study demonstrate that the privacy breach
+announcement negatively affects the market value of the firm. To
+quantify the impact of the privacy breach on firms, we have calculated
+the average market capitalization loss (in USD) per incident in our data
+set for the years 2012, 2013, 2014, and 2018. We have taken the average
+market capitalization of breached firms (in USD) times the average CAR
+over the event window as the average market capitalization loss (in
+USD) per incident. Fig. 8 explains the process of calculating average
+financial loss (in USD) due to a privacy breach event.
+We have reported the average value of CAR (in %) for all three
+models, i.e., AMM-SUR, AMM, and MM, for 2012, 2013, 2014, and
+2018. In 2012, the average value of CAR of the firms is -0.74%, -0.76%,
+and -0.6 % for AMM-SUR, AMM, and MM for 3-day event window of the
+privacy breach events. The average market capitalization of the firms in
+our data set for 2012 is $ 38 billion. This equals $ 283 million, $ 288
+million, and $ 229 million loss per privacy breach event calculated by
+AMM-SUR, AMM, and MM, respectively, for 2012. Similarly, we have
+calculated the average market loss derived from these models for 2013,
+2014, and 2018. Detailed results are shown in Table 13.
+Table 11
+A final comparison of results for AMM (SUR), AMM, and MM
+3-day event window 21-day event window
+AAR (%) NR PR Rsq AAR (%) NR PR Rsq
+BSF BSR BSO Total BSF BSR BSO Total
+2012
+AMM (SUR) -0.38 -0.40 0.11 -0.24 25 18 0.38 0.04 -0.10 -0.03 -0.03 22 21 0.39
+AMM -0.38 -0.41 0.11 -0.25 25 18 0.38 0.04 -0.10 -0.04 -0.04 22 21 0.39
+MM -0.40 -0.20 0.04 -0.20 23 20 0.43 0.01 -0.03 -0.04 -0.02 22 21 0.44
+2013
+AMM (SUR) -0.08 -0.16 -0.16 -0.14 24 13 0.29 -0.07 -0.16 -0.18 -0.14 23 14 0.29
+AMM -0.08 -0.16 -0.18 -0.15 24 13 0.29 -0.07 -0.17 -0.20 -0.15 23 14 0.29
+MM -0.10 -0.09 -0.10 -0.10 23 14 0.30 -0.11 0.15 -0.10 0.00 17 20 0.29
+2014
+AMM (SUR) -0.35 0.03 -0.01 -0.08 30 21 0.27 0.13 0.33 -0.04 0.09 22 29 0.28
+AMM -0.34 0.01 -0.01 -0.08 30 21 0.28 0.12 0.33 -0.04 0.09 21 30 0.28
+MM -0.36 0.15 0.00 -0.05 29 22 0.25 0.10 0.40 -0.01 0.11 19 32 0.25
+2018
+AMM (SUR) -0.06 -0.34 0.34 -0.06 32 30 0.30 -0.05 -0.06 0.12 -0.01 33 29 0.30
+AMM -0.08 -0.34 0.35 -0.07 32 30 0.30 -0.05 -0.07 0.12 -0.02 35 27 0.30
+MM -0.08 -0.36 0.42 -0.06 32 30 0.27 -0.07 -0.08 0.13 -0.02 28 34 0.26
+Abbreviations: NR: Firms having negative returns, PR: Firms having positive returns, Rsq: R-squared
+Table 12
+Impact of firm-specific and attack-specific parameters on the value of the firms
+Coefficients Standard error t Stat P-value
+Intercept -1.09** 0.52 -2.09 0.04
+Size 0.24** 0.11 2.24 0.03
+HACK 0.17 0.46 0.38 0.71
+CARD -1.64* 0.99 -1.66 0.10
+DISC -0.20 0.63 -0.32 0.75
+INSD 0.27 0.74 0.36 0.72
+PHYS -0.12 0.81 -0.14 0.89
+PORT 0.07 0.76 0.10 0.92
+BSF -0.32 0.44 -0.74 0.46
+BSR -0.69* 0.40 -1.72 0.09
+DP -0.02 0.04 -0.42 0.68
+Note:
+* ,
+** , and *** denote 10%, 5%, and 1% level of significance, respectively
+Fig. 8. Average financial loss (in USD) due to a privacy breach event.
+Table 13
+Loss in market cap. per privacy breach event reported by three models
+Model Average
+CAR 3-day
+(%)
+Average market
+capitalization (in
+billion dollars)
+Corresponding loss in market
+capitalization (due to per
+privacy breach event) (in
+million dollars)
+2012
+AMMSUR
+-0.74 38 283
+AMM -0.76 38 288
+MM -0.60 38 229
+2013
+AMMSUR
+-0.41 86 357
+AMM -0.45 86 386
+MM -0.28 86 241
+2014
+AMMSUR
+-0.24 72 172
+AMM -0.25 72 177
+MM -0.15 72 108
+2018
+AMMSUR
+-0.19 67 205
+AMM -0.21 67 227
+MM -0.18 67 194
+M. Tripathi and A. Mukhopadhyay 
+Information & Management 59 (2022) 103707
+17
+7. Discussion and implications
+This study extends the standard MM approach and uses an AMM
+approach. In the AMM approach, we incorporate the changes in MM
+parameters by the privacy breach event itself. We have found differences
+in the abnormal returns obtained by the MM and AMM. Further, we have
+observed that AMM reports more negative abnormal returns than MM
+for all the years consistently. We have also included the event clustering
+observation in our study. In our data sample, events are happening very
+close to each other, and we have further found that errors corresponding
+to every regression equation of the firms are not independent. Instead,
+the error coefficients are correlated with each other. Hence, we have
+also evaluated AMM-SUR. Abnormal returns reported by AMM are
+slightly more negative than the AMM-SUR consistently for all the years.
+Table 13 reports the average loss in the firm’s market capital due to a
+privacy breach event for all the years by all the models. It is evident from
+the table that the average loss in market capitalization reported by AMM
+and AMM-SUR is more than that of MM. The obvious reason for this is
+that MM does not account for the changes in MM parameters by the
+event itself while calculating the abnormal returns. In our analysis, some
+firms have observed positive abnormal returns due to the privacy
+breach. The possible explanation is that sometimes investors believe that
+the breached firms will start investing in privacy technology after the
+privacy breach event. These sentiments led to the rise of stock prices of
+the breached firms. The investors further believe that the privacy
+breaches act as a stimulator for these firms and provide a strong reason
+to invest in privacy technologies.
+The study examines the impact of the privacy breach on firm performance. The results suggest that firms incur a significant financial loss
+due to the privacy breach. The results of the study reestablish the fact
+that top management of the firm should carefully focus on the privacy of
+data of customers, employees, and other stakeholders. It further highlights the importance of investments in various IT security tools, security
+policies, and training of personnel to mitigate the impact of privacy
+breaches. Any external hacker or disgruntled internal employee may
+exploit the vulnerabilities of the security system, which may lead to
+serious business implications, such as significant loss of revenue and
+reputation. Various financial and retail firms (i.e., BSF and BSR firms in
+our study), which mainly rely on the Internet for doing business, should
+ensure the proper confidentiality, integrity, and availability (CIA) of
+customers’ data. One interesting finding of the study suggests that
+correlated privacy breach events significantly impact the market value
+of the firms. Hence, managers and executives should always be aware of
+similar events in the industry to protect themselves against these
+breaches by patching their systems in advance, as correlated breaches
+are common. Researchers have studied the correlated risk of breaching
+together in the literature[74,98]. These studies have demonstrated that
+correlated failures arise as a result of software vulnerabilities shared
+across organizations [96]. Firms often share correlated risks because
+correlated privacy breaches exploit common vulnerabilities due to the
+usage of common security technologies and the connectivity of computer networks [72]. However, the financial impact of a privacy breach
+on a firm that may be affected by other close-by privacy breach events
+has not been studied by previous studies. Our study helps managers and
+executives to take proactive action to mitigate the impact of correlated
+privacy breaches in advance. From a practical viewpoint, firms can always learn from the failure of other firms. For example, a firm can take
+proactive measures in securing its resources if a similar firm has been
+breached recently. The managers can opt for cybersecurity insurance to
+minimize the losses due to correlated privacy breaches [97]. The
+cybersecurity insurance community in the literature has widely studied
+the impact of correlated breaches [95,98,99]. This study examines the
+financial impact of correlated breaches; therefore, it will help cybersecurity insurers design effective insurance products and premiums for the
+firms with the possibility of correlated breaches.
+The results of the study suggest that large firms are less adversely
+affected by privacy breaches than smaller firms. Large firms can absorb
+the negative market reaction of data breaches more easily than small
+firms due to enough resources required to mitigate the impact of data
+breaches[8,17]. Therefore, managers and executives of small firms have
+to be extra cautious about privacy breaches. The managers of small firms
+should not be misguided by the argument, “we are a small firm, and
+attackers will not target us.” They must understand the consequences of
+privacy breaches and view the privacy mechanism as the key to survival.
+The possible suggestions for the managers of smaller firms could be that
+they can create a diversified product portfolio with different levels of
+risk and yields for better management of risk associated with privacy
+breaches. They should create multiple sources of income and invest in
+the training of employees and adopt a proactive mechanism to deal with
+privacy breaches. The results of the study provide an interesting
+observation that the BSF firms consistently observe negative abnormal
+returns due to privacy breaches, as reported by all the models for all the
+years. The results are consistent with the 2019 financial breach report, i.
+e., The Financial Matrix by Bitglass [100]. The possible explanation
+could be that financial services firms handle highly valuable and PII;
+therefore, they are an attractive target for privacy breaches. The possible
+recommendations for the managers could be that they can focus on
+reducing the risk of privacy breaches through a well-planned, well-defined, and adequately implemented privacy policy. They can identify
+and classify sensitive information and scale down the accessibility of the
+sensitive information using various data monitoring and access management solutions. They should have a clear data disposal policy in
+place.
+The study contributes to the academic literature in the following
+ways. This study specifically focuses on privacy breaches as against the
+various previous studies that focus on the impact of cybersecurity
+breaches on the market value of the firm [17]. Previous studies have
+primarily used a simple MM to quantify the impact of the cybersecurity
+breach. However, this study uses a multivariate regression approach, i.
+e., the AMM that takes the effect of event-induced variance change in the
+returns, which in turn affects the MM parameters. It is evident that if the
+event is significant, it may induce changes in the variance of stock
+returns, which, in turn, changes the MM parameters [27]. Thus, taking
+them as a constant can result in biased returns. The AMM contributes to
+the risk management theory and presents how the privacy breach can
+affect the components of the risk, i.e., systematic and unsystematic risk
+by studying the changes in MM parameters. We have used the other
+variant of the AMM, where we have taken the effect of the event clustering problem. It is essential to take into account the event clustering
+phenomena when events are happening very close to each other. The
+impact of a privacy breach on a firm may get affected by other close-by
+privacy breach events. This study evaluates the financial loss due to a
+privacy breach, emphasizing the importance of adequate investments in
+information privacy mechanisms. Focusing on the specific context of
+privacy breach announcements, this study provides a theoretical basis
+for understanding the effects of the privacy breach and how these effects
+vary with firm and attack-specific characteristics. This study also provides individual firm-level insights about firms that are significantly
+affected by the privacy breach. This study draws the motivation and
+nicely complements the prior work by [8] that explicitly focuses on
+privacy breaches. This study extends their work [8] to simultaneously
+handle event clustering, event-induced variance change, and changes in
+MM parameters.
+8. Conclusion
+Previous studies have mainly focused on information security
+breaches and their impact on the market value of the firms. Privacy
+breaches and their impact on firms’ performance are less explored. This
+study examines whether a threat to an individual’s personal information
+can impact the overall firm performance. We have extended the MM to
+use the AMM. AMM takes the pre-and post-event data to incorporate
+M. Tripathi and A. Mukhopadhyay 
+Information & Management 59 (2022) 103707
+18
+both the event-induced variance change and changes in MM parameters.
+In addition to this, we have also considered the event clustering of privacy breaches using SUR. This is a novel mechanism for studying the
+impact of the privacy breach on firm performance.
+There are a few limitations to our research. We have used the event
+study methodology to find the impact of announcements of the privacy
+breach on the market value of the firms. The event study methodology
+assumes investors to be rational and markets to be efficient. However,
+real markets differ from the efficient markets approach. Due to the
+limitation of the event study methodology, the study may not have fully
+accounted for periods of acute market instability during the time period
+of our data. Another limitation of our study is that we have taken firm
+value (stock market returns) as a measure for evaluating the impact of a
+privacy breach. The obvious reason for that is the availability of the
+stock market data for publicly traded firms. However, the firm value is
+not the correct measure to evaluate the impact of the privacy breach in
+every case. For example, a privacy breach at company A may compromise customer information that may then negatively impact company B,
+even though company B had no privacy breach. The firm value may not
+be correctly measuring the loss of trust and confidence of stakeholders
+arising due to a privacy breach that is necessary to build a long-term
+relationship with the customers and partners. Apart from firm value as
+a measure, future studies may explore other measures to evaluate the
+impact of the privacy breach. We have taken stock market returns as a
+measure of firm performance in the study. However, future studies may
+consider Tobin’s q and various accounting measures such as ROA, ROE,
+and ROS as a measure of firm performance. Another limitation of our
+research is that though we have tried to remove the known confounding
+privacy breaches from the sample, and an effort has been made to
+eliminate other confounding events; yet, some unknown factors may
+also affect the market value of the firm during the event window, which
+may result in a biased estimate of abnormal returns. However, we have
+used a short-horizon event window that limits the possibility of confounding events [16]. We have taken one short window, i.e., 3-day event
+window [-1, +1], and one relatively long window, i.e., 21-day event
+window [-10, +10]. Future studies may try other combinations such as a
+two-day or a five-day event window. In this study, we have taken three
+types of firms, i.e., BSF (financial firms), BSR (retail firms), and BSO
+(other firms). Future studies may increase the categorization and get
+additional insights regarding other types of firms. We have taken US
+firms for our study, which limits the generalization of the results to other
+countries. Future researchers can perform similar studies in other
+countries to get better insights. Due to data constraints, we could only
+take the data of publicly traded firms of the USA, which also limits the
+generalizability of our results to non-publicly traded firms. We have
+done this study for four years (i.e., 2012, 2013, 2014, and 2018) separately. Future researchers may include other years in their research.
+CRediT authorship contribution statement
+Manas Tripathi: Conceptualization, Methodology, Software, Formal
+analysis, Writing – original draft. Arunabha Mukhopadhyay: Supervision, Writing – review & editing.
+Declaration of Competing Interest
+None.
+Appendix 1. Seemingly unrelated regression (SUR)
+We have used a multivariate regression model in AMM. We have adjusted our AMM for event clustering using Zellner’s seemingly unrelated
+regression (SUR). SUR is applied to the entire system of returns equation for each firm i in a sample of size N.
+In SUR, residuals are not considered independent. Instead, SUR incorporates the effect of error correlation into the estimation of the regression
+coefficients.
+We can represent the above system of returns equation in matrix form as follows:
+R = Xw + ε
+where R is K X 1 dimension matrix for values of stock returns of a firm. X is K X J dimension matrix of independent variables. w is J X 1 dimension
+matrix of estimated coefficients. ε is K X 1 dimension matrix of residuals.
+The variance-covariance matrix of ε is v. In SUR, coefficients are estimated using generalized least square (GLS) by incorporating v in the estimation of coefficients. A best linear unbiased estimator (BLUE) of w is as follows: w* ¼ (X’v¡1
+X)¡1 X’ v¡1
+R
+Appendix 2. Assumptions of OLS and SUR
+We have checked for various OLS and SUR assumptions for our study. Following are the information regarding those assumptions:
+1 The expected value of the error term is zero: In our analysis, the expected value of the error term is zero, i.e., errors on an average are zero. We have
+tested the expected value of the error term for all 193 firms in our study and found the expected value of the error term as zero.
+M. Tripathi and A. Mukhopadhyay 
+Information & Management 59 (2022) 103707
+19
+2 No multicollinearity: In our study, there is only one independent variable, i.e., market returns. Therefore, the case of multicollinearity is not possible
+in our case.
+3 Stationarity assumption of time series data: We have taken the first-order difference of stock price data and calculated the stock returns for all 193
+firms to make the data stationary for time series analysis.
+4 Contemporaneous correlation of residuals across equations: In SUR, residuals are not considered independent. They are correlated across equations
+[91,92]. We have observed a significant contemporaneous correlation of residuals across various firms for the years 2012, 2013, 2014, and 2018 in
+our data (please refer to Table 9 for the detail) that justifies the importance of consideration of event clustering in our data. Therefore, we have
+estimated our multivariate regression model AMM using SUR for contemporaneous correlation of market model residuals across firms to account
+for the event clustering phenomenon.
+5 Feasible estimate under feasible generalized least square method: Feasible generalized least square estimation method (FGLS) is applied to SUR. It is
+required that N<T for producing feasible estimates under GLS estimation [122] that means the data should be long (large T) but not wide (small N).
+Here, N is the number of cross-sections (entities) in the panel data, and T is the time period. In our study, we have taken 243 daily observations (T)
+for the 3-day event window and 261 daily observations (T) for the 21-day event window that is greater than the number of firms in 2012 (43
+breaches), 2013 (37 breaches), 2014 (51 breaches), and 2018 (62 breaches).
+6 No serial autocorrelation: We have checked for serial autocorrelation for residuals value for all 193 firms and found an insignificant correlation.
+Appendix 3. Privacy breach events in the year 2012
+Firm Symbol Event date Entity Breach
+T-Mobile F1 16-01-12 BSR HACK
+Metropolitan Life Insurance Company F2 24-01-12 BSF DISC
+Windstream F3 27-01-12 BSR INSD
+Staples F4 02-02-12 BSR INSD
+Verisign Inc. F5 02-02-12 BSO HACK
+Intel Inc. F6 10-02-12 BSF HACK
+China East F7 21-02-12 BSR INSD
+Coca Cola Company Family Federal Credit Union F8 22-02-12 BSR PORT
+Kelly Services F9 09-03-12 BSO INSD
+McDonald F10 09-03-12 BSR INSD
+Citibank F11 13-03-12 BSF HACK
+HR Block F12 23-03-12 BSF INSD
+Global Payments Inc. F13 30-03-12 BSF CARD
+Experian F14 05-04-12 BSF PORT
+Cisco Systems Inc. F15 09-04-12 BSF PORT
+The Home Depot F16 13-04-12 BSR INSD
+Rent-A-Center Inc. F17 25-04-12 BSR PHYS
+Rackspace Inc. F18 02-05-12 BSO HACK
+Emerson F19 04-05-12 BSR HACK
+Ford Motor Company F20 05-05-12 BSR HACK
+Key Bank F21 09-05-12 BSF INSD
+United Healthcare F22 18-05-12 BSO INSD
+Comcast F23 20-05-12 BSO HACK
+General Communication Inc. F24 24-05-12 BSR INSD
+Direct TV F25 26-05-12 BSR HACK
+LinkedIn Corporation F26 06-06-12 BSO HACK
+Groupon F27 02-07-12 BSR DISC
+Yahoo Voice F28 12-07-12 BSO HACK
+American Express Travel Related Services Company F29 13-07-12 BSF CARD
+Nvidia F30 13-07-12 BSR HACK
+General Motors Co. F31 03-08-12 BSR INSD
+First Republic Bank F32 14-08-12 BSF PHYS
+Apple F33 04-09-12 BSR HACK
+Lincoln Financial Securities Corporation F34 16-09-12 BSF HACK
+TD Bank F35 08-10-12 BSF PORT
+Equifax F36 10-10-12 BSF DISC
+Korn Ferry International F37 12-10-12 BSO HACK
+Barnes & Noble Inc. F38 24-10-12 BSR CARD
+Symantec F39 04-11-12 BSO HACK
+Adobe F40 14-11-12 BSO HACK
+Pulaski Bank F41 27-11-12 BSF PHYS
+Sourcefire F42 27-11-12 BSO PORT
+CVS Caremark F43 04-12-12 BSO PHYS
+Appendix 4. Privacy breach events in the year 2013
+Firm Symbol Event date Entity Breach
+Nvidia F1 13-01-13 BSR INSD
+The New York Times F2 30-01-13 BSO HACK
+McDonald F3 07-02-13 BSR INSD
+JPMorgan Chase F4 12-02-13 BSF CARD
+(continued on next page)
+M. Tripathi and A. Mukhopadhyay 
+Information & Management 59 (2022) 103707
+20
+(continued )
+Firm Symbol Event date Entity Breach
+Walgreens F5 15-02-13 BSR INSD
+Facebook F6 15-02-13 BSO HACK
+Express Scripts F7 18-02-13 BSF DISC
+Apple F8 19-02-13 BSR HACK
+Microsoft F9 22-02-13 BSR HACK
+Information Handling Services F10 27-02-13 BSO HACK
+Bank of Hawaii F11 01-03-13 BSR HACK
+TD Bank F12 04-03-13 BSF PORT
+The Finish Line F13 26-03-13 BSR PORT
+Rollins F14 27-03-13 BSO DISC
+Citi F15 28-03-13 BSF DISC
+JPMorgan Chase F16 28-03-13 BSF HACK
+American Express F17 29-03-13 BSF HACK
+Macy F18 23-04-13 BSR DISC
+Adobe F19 13-05-13 BSO HACK
+Goldman Sachs F20 18-05-13 BSO DISC
+comScore F21 12-06-13 BSR DISC
+Facebook F22 21-06-13 BSO DISC
+Citigroup F23 17-07-13 BSF DISC
+NASDAQ F24 18-07-13 BSO HACK
+Apple F25 22-07-13 BSR HACK
+NASDAQ F26 26-07-13 BSF INSD
+Walmart F27 29-07-13 BSR CARD
+McKesson F28 30-07-13 BSO DISC
+Exelixis F29 16-08-13 BSR PORT
+The New York Times F30 27-08-13 BSO HACK
+Republic Services F31 29-08-13 BSO PORT
+Dun & Bradstreet Inc. F32 26-09-13 BSO HACK
+Adobe F33 04-10-13 BSR HACK
+Nordstrom F34 10-10-13 BSR CARD
+DaVita F35 07-11-13 BSO PORT
+JPMorgan Chase F36 05-12-13 BSF HACK
+Target Corporation F37 13-12-13 BSR HACK
+Appendix 5. Privacy breach events in the year 2014
+Firm Symbol Event date Entity Breach
+Coca Cola Company F1 24-01-14 BSO PORT
+The Timken Company F2 30-01-14 BSO HACK
+Boston Scientific F3 08-02-14 BSO HACK
+Nielsen F4 10-02-14 BSO INSD
+Federal National Mortgage Association F5 14-02-14 BSF HACK
+Experian F6 14-02-14 BSF HACK
+Alaska Communications F7 20-02-14 BSR HACK
+Discover Financial Services F8 21-02-14 BSF CARD
+Apple F9 26-02-14 BSO HACK
+Entercom F10 28-02-14 BSO HACK
+Sears F11 28-02-14 BSR HACK
+Capital One F12 04-03-14 BSF INSD
+American Express F13 25-03-14 BSF HACK
+Monsanto Company F14 27-03-14 BSO HACK
+American Express Company F15 07-04-14 BSF CARD
+AOL F16 28-04-14 BSO HACK
+Iberia Bank Corporation F17 06-05-14 BSO HACK
+Ebay F18 21-05-14 BSO HACK
+Lowes Corporation F19 22-05-14 BSR DISC
+AutoNation F20 26-05-14 BSO HACK
+Walgreens F21 07-06-14 BSR INSD
+AT&T Mobility F22 10-06-14 BSR INSD
+Netflix F23 15-06-14 BSO HACK
+Goldman Sachs F24 02-07-14 BSF DISC
+Aecom F25 08-07-14 BSO HACK
+Boeing F26 11-07-14 BSO HACK
+Lockheed Martin F27 11-07-14 BSO HACK
+CNET F28 14-07-14 BSO HACK
+Bank of America F29 17-07-14 BSF DISC
+Northern Trust Company F30 29-07-14 BSO DISC
+CVS Caremark F31 30-07-14 BSR DISC
+Rite Aid Pharmacy F32 30-07-14 BSR PHYS
+Yahoo Inc. F33 11-08-14 BSO HACK
+Community Health Systems Inc. F34 18-08-14 BSO HACK
+MeetMe Inc. F35 18-08-14 BSO HACK
+(continued on next page)
+M. Tripathi and A. Mukhopadhyay 
+Information & Management 59 (2022) 103707
+21
+(continued )
+Firm Symbol Event date Entity Breach
+JPMorgan Chase F36 28-08-14 BSF HACK
+Apple F37 01-09-14 BSO HACK
+The Home Depot F38 02-09-14 BSR HACK
+Salesforce F39 03-09-14 BSO HACK
+Pulte Mortgage F40 20-09-14 BSF HACK
+Pacific Bio Sciences of California Inc. F41 25-09-14 BSO PORT
+AT&T Inc. F42 06-10-14 BSR INSD
+Kmart Sears Holding Company F43 10-10-14 BSR HACK
+Staples Inc. F44 20-10-14 BSR HACK
+Anthem Blue Cross F45 10-11-14 BSF HACK
+Shutterfly Tiny Prints F46 26-11-14 BSO HACK
+Bebe Retail F47 05-12-14 BSR HACK
+Wells Fargo F48 07-12-14 BSF HACK
+Nvidia F49 01-12-14 BSO HACK
+Sony Corporation F50 26-12-14 BSO HACK
+Microsoft Corporation F51 26-12-14 BSO HACK
+Appendix 6. Privacy breach events in the year 2018
+Firm Symbol Event date Entity Breach
+Lincoln Financial Group F1 05-01-2018 BSF UNKN
+Rite Aid Corporation F2 10-01-2018 BSR UNKN
+Morgan Stanley Smith Barney Llc F3 02-02-2018 BSF UNKN
+The Lincoln National Life Insurance Company F4 04-02-2018 BSF UNKN
+Xpo Logistics Inc F5 04-02-2018 BSO UNKN
+American Express Travel Related Services Company Inc F6 08-02-2018 BSF UNKN
+Bed Bath & Beyond Inc F7 13-02-2018 BSR INSD
+Principal Life Insurance Company F8 13-02-2018 BSF DISC
+Dollar General Corporation F9 15-02-2018 BSR DISC
+Massachusetts Mutual Life Insurance Company F10 15-02-2018 BSF HACK
+Marriott International Inc F11 16-02-2018 BSR HACK
+Navistar Inc F12 16-02-2018 BSR DISC
+Onemain Financial F13 20-02-2018 BSF PHYS
+Walmart Inc F14 22-02-2018 BSR DISC
+Macys Inc F15 07-03-2018 BSR UNKN
+Principal Life Insurance Company F16 14-03-2018 BSF UNKN
+The Ups Store F17 14-03-2018 BSO HACK
+Umh Properties Inc F18 15-03-2018 BSO UNKN
+Dana Incorporated F19 23-03-2018 BSO UNKN
+Walmart Inc F20 26-03-2018 BSR DISC
+First Merchants Bank F21 28-03-2018 BSF UNKN
+Under Armour F22 30-03-2018 BSR HACK
+Humana Inc F23 06-04-2018 BSO UNKN
+Pershing Llc F24 20-04-2018 BSF UNKN
+Tempur Sealy International Inc F25 25-04-2018 BSO UNKN
+One Main Financial F26 27-04-2018 BSF UNKN
+Five Below Inc F27 10-05-2018 BSR UNKN
+Nordstrom Inc F28 11-05-2018 BSR UNKN
+Principal Life Insurance Company F29 11-05-2018 BSF UNKN
+Intuit Inc F30 15-05-2018 BSF UNKN
+Tmobile F31 24-05-2018 BSR DISC
+American National Insurance Company F32 25-05-2018 BSF UNKN
+The Vanguard Group Inc F33 03-06-2018 BSF UNKN
+Delta Air Lines Inc F34 04-06-2018 BSR HACK
+Coty Inc F35 07-06-2018 BSO UNKN
+One Main Financial F36 17-07-2018 BSF UNKN
+Cbiz Mhm Llc F37 19-07-2018 BSF UNKN
+Cvs Health F38 27-07-2018 BSO UNKN
+Delta Steel Inc F39 27-07-2018 BSO UNKN
+Bankof Hope F40 30-07-2018 BSF UNKN
+Alphabet Inc F41 10-08-2018 BSO DISC
+Mondelez Global Llc F42 16-08-2018 BSO UNKN
+Chipotle Mexican Grill Inc F43 22-08-2018 BSR UNKN
+Humana Inc F44 28-08-2018 BSO UNKN
+Intuit Inc F45 02-09-2018 BSF HACK
+Onemain Financial F46 02-09-2018 BSF HACK
+Dollar Shave Club Inc F47 05-09-2018 BSR HACK
+Fidelity National Financial F48 07-09-2018 BSF UNKN
+Chegg Inc F49 26-09-2018 BSR UNKN
+Facebook Inc F50 28-09-2018 BSO HACK
+Lpl Financial Llc F51 04-10-2018 BSF UNKN
+JPMorgan Chase Bank F52 08-10-2018 BSF UNKN
+(continued on next page)
+M. Tripathi and A. Mukhopadhyay 
+Information & Management 59 (2022) 103707
+22
+(continued )
+Firm Symbol Event date Entity Breach
+Brinker International Inc F53 05-11-2018 BSR UNKN
+Old Second National Bank F54 06-11-2018 BSF UNKN
+Lpl Financial Llc F55 17-11-2018 BSF UNKN
+Marriott International F56 30-11-2018 BSR HACK
+Goldman Sachs & Co Llc F57 02-12-2018 BSF HACK
+Facebook Inc F58 06-12-2018 BSR DISC
+Health Equity Inc F59 06-12-2018 BSF UNKN
+Nuance Communications F60 06-12-2018 BSO INSD
+Liquidity Services F61 10-12-2018 BSR UNKN
+Humana Inc F62 31-12-2018 BSO PHYS
+References
+[1] J. Johnson, U.S. data breaches and exposed records 2020, Statista (2021).
+https://www.statista.com/statistics/273550/data-breaches-recorded-in-th
+e-united-states-by-number-of-breaches-and-records-exposed/(accessed. April 16,
+2021).
+[2] Reuters, Yahoo shares fall after latest security breach, Reuters (2016). https
+://www.reuters.com/article/us-yahoo-stocks-idUSKBN144238. accessed April
+16, 2021.
+[3] K. Kelleher, Facebook loses around $13 billion in value after data breach affects
+50 million of its users, Fortune (2018). https://fortune.
+com/2018/09/28/facebook-stock-falls-after-security-breach/(accessed. April 16,
+2021).
+[4] KrebsOnSecurity, NY charges first american financial for massive data leak, Krebs
+on Security (2020). https://krebsonsecurity.com/2020/07/ny-ch
+arges-first-american-financial-for-massive-data-leak/(accessed. April 16, 2021).
+[5] S. Klebnikov, Companies with security fails don’t see their stocks drop as much,
+according to report, Forbes (2019). https://www.forbes.
+com/sites/sergeiklebnikov/2019/11/06/companies-with
+-security-fails-dont-see-their-stocks-drop-as-much-according-to-report/(accessed.
+April 16, 2021).
+[6] R. Islam, The impact of data breaches on stock performance, (2020).
+[7] C. Osborne, This is the impact of a data breach on enterprise share prices, ZDNet
+(2019). https://www.zdnet.com/article/this-is-how-a-data-breach
+-at-your-company-can-hit-share-prices/(accessed. April 16, 2021).
+[8] A. Acquisti, A. Friedman, R. Telang, Is there a cost to privacy breaches? An event
+study. ICIS 2006 Proc, 2006, p. 94.
+[9] Ramsey Solutions, How a data breach can impact you, Ramsey Solut. (2021). htt
+ps://www.ramseysolutions.com/insurance/data-breach-impacts. accessed April
+20, 2021.
+[10] A.T. Tunggal, The 52 biggest data breaches, (2021). https://www.upguard.
+com/blog/biggest-data-breaches (accessed April 16, 2021).
+[11] Chronology of Data Breaches, Priv, Rights Clgh. (2016). https://www.privacyrigh
+ts.org/data-breach/new. accessed August 8, 2016.
+[12] D.J. Solove, A taxonomy of privacy, U Pa Rev. 154 (2005) 477.
+[13] E.F. Stone, H.G. Gueutal, D.G. Gardner, S. McClure, A field experiment comparing
+information-privacy values, beliefs, and attitudes across several types of
+organizations, J. Appl. Psychol. 68 (1983) 459–468, https://doi.org/10.1037/
+0021-9010.68.3.459.
+[14] S.G. Davies, Re-engineering the right to privacy: how privacy has been
+transformed from a right to a commodity, Technol. Priv., MIT Press (1997)
+143–165. http://dl.acm.org/citation.cfm?id=275289. accessed August 6, 2016.
+[15] H.J. Smith, T. Dinev, H. Xu, Information privacy research: an interdisciplinary
+review, MIS Q. 35 (2011) 980. A27.
+[16] K. Campbell, L.A. Gordon, M.P. Loeb, L. Zhou, The economic cost of publicly
+announced information security breaches: empirical evidence from the stock
+market, J. Comput. Secur. 11 (2003) 431–448.
+[17] H. Cavusoglu, B. Mishra, S. Raghunathan, The effect of internet security breach
+announcements on market value: capital market reactions for breached firms and
+internet security developers, Int. J. Electron. Commer. 9 (2004) 70–104.
+[18] A. Hovav, J. D’Arcy, The impact of denial-of-service attack announcements on the
+market value of firms, Risk Manag. Insur. Rev. 6 (2003) 97–121.
+[19] A. Leung, I. Bose, Indirect financial loss of phishing to global market, ICIS 2008
+Proc. (2008) 5.
+[20] G. Spanos, L. Angelis, The impact of information security events to the stock
+market: a systematic literature review, Comput. Secur. 58 (2016) 216–229,
+https://doi.org/10.1016/j.cose.2015.12.006.
+[21] R. Telang, S. Wattal, Impact of software vulnerability announcements on the
+market value of software vendors-an empirical investigation, Available SSRN
+677427 (2005). http://papers.ssrn.com/sol3/papers.cfm?abstract_id=677427.
+accessed June 2, 2016.
+[22] D. Johns, Difference between data breach & security incident, ASI Solut. (2018).
+https://www.asi.com.au/blog/difference-data-breach
+-security-incident/(accessed. July 3, 2021).
+[23] S.P. Kothari, J.B. Warner, Econometrics of event studies, Handb. Empir. Corp.
+Finance, Elsevier (2007) 3–36.
+[24] E. Boehmer, J. Masumeci, A.B. Poulsen, Event-study methodology under
+conditions of event-induced variance, J. Financ. Econ. 30 (1991) 253–272.
+[25] S. Dewan, F. Ren, Risk and return of information technology initiatives: evidence
+from electronic commerce announcements, Inf. Syst. Res. 18 (2007) 370–394.
+[26] A.C. MacKinlay, Event studies in economics and finance, J. Econ. Lit. 35 (1997)
+13–39.
+[27] G.V. Henderson Jr, Problems and solutions in conducting event studies, J. Risk
+Insur. (1990) 282–306.
+[28] L. Loh, N. Venkatraman, Stock market reaction to information technology
+outsourcing, An Event Study (1992). http://dspace.mit.edu/handle/1721.1/
+48992. accessed August 7, 2016.
+[29] B.L. Dos Santos, K. Peffers, D.C. Mauer, The impact of information technology
+investment announcements on the market value of the firm, Inf. Syst. Res. 4
+(1993) 1–23.
+[30] J. Hunton, J. Reck, D. Hayes, The market’s reaction to information systems
+outsourcing announcements, AMCIS 1999 Proc. (1999) 283.
+[31] M. Subramani, E. Walden, The impact of e-commerce announcements on the
+market value of firms, Inf. Syst. Res. 12 (2001) 135–154.
+[32] D.C. Hayes, J.E. Hunton, J.L. Reck, Market reaction to ERP implementation
+announcements, J. Inf. Syst. 15 (2001) 3–18, https://doi.org/10.2308/
+jis.2001.15.1.3.
+[33] D. Chatterjee, V.J. Richardson, R.W. Zmud, Examining the shareholder wealth
+effects of announcements of newly created CIO positions, Mis Q (2001) 43–70.
+[34] J.L.L. Chong, L.N.K. Duong, Understanding IT governance effectiveness in asia: an
+event study, Pac. Asia J. Assoc. Inf. Syst. (2017) 9. https://journal.ecrc.nsysu.edu.
+tw/index.php/pajais/article/view/397. accessed October 8, 2019.
+[35] M.C. Arcuri, M. Brogi, G. Gandolfi, The effect of information security breaches on
+stock returns: Is the cyber crime a threat to firms? Citeseer (2014). http://citesee
+rx.ist.psu.edu/viewdoc/download?doi=10.1.1.587.9991&rep=rep1&type=pdf.
+accessed June 2, 2016.
+[36] A. Hovav, F.K. Andoh-Baidoo, G. Dhillon, Classification of security breaches and
+their impact on the market value of firms, in: Proc. 6th Annu. Secur. Conf, 2007.
+http://www.isy.vcu.edu/~gdhillon/Old2/secconf/secconf07/PDFs/14.pdf.
+accessed June 2, 2016.
+[37] A. Hovav, J. D’Arcy, The impact of virus attack announcements on the market
+value of firms, Inf. Syst. Secur. 13 (2004) 32–40.
+[38] M.L. DeFond, Y. Konchitchki, J.L. McMullin, D.E. O’Leary, Does superior
+knowledge management increase shareholder value, Am. Account. Assoc. Annu.
+Meet. San Franc. (2010). https://msbfile03.usc.edu/digitalmeasures/def
+ond/intellcont/KM%20paper%20SSRN%20version-1.pdf. accessed August 21,
+2016.
+[39] J.H. Triche, E. Walden, The use of impression management strategies to manage
+stock market reactions to IT failures, J. Assoc. Inf. Syst. 19 (2018) 1.
+[40] M. Gupta, R. Sharman, Determinants of data breaches: a categorization-based
+empirical investigation, J. Appl. Secur. Res. 7 (2012) 375–395.
+[41] S. Goel, H.A. Shawky, Estimating the market impact of security breach
+announcements on firm values, Inf. Manag. 46 (2009) 404–410, https://doi.org/
+10.1016/j.im.2009.06.005.
+[42] E.F. Fama, K.R. French, Common risk factors in the returns on stocks and bonds,
+J. Financ. Econ. 33 (1993) 3–56.
+[43] L.A. Gordon, M.P. Loeb, W. Lucyshyn, Sharing information on computer systems
+security: An economic analysis, J. Account. Public Policy. 22 (2003) 461–485.
+[44] M. Ishiguro, H. Tanaka, K. Matsuura, I. Murase, The effect of information security
+incidents on corporate values in the Japanese stock market, in: Int. Workshop
+Econ. Secur. Inf. Infrastruct. WESII, Citeseer (2006). http://citeseerx.ist.psu.edu/
+viewdoc/download?doi=10.1.1.212.4556&rep=rep1&type=pdf. accessed June
+2, 2016.
+[45] M. Gupta, R. Sharman, H.R. Rao, Timing of corporate crisis response to security
+breaches: impact on market valuation, in: Workshop Inf. Syst. Secur. WISP-2010,
+St. Louis, 2010.
+[46] N.V. Vasishta, M. Gupta, S.K. Misra, P. Mulgund, R. Sharman, Optimizing
+cybersecurity program—evidence from data breaches in healthcare, in: 13th
+Annu. Symp. Inf. Assur. ASIA’ 18, 2018.
+[47] K.M. Gatzlaff, K.A. McCullough, The effect of data breaches on shareholder
+wealth, Risk Manag. Insur. Rev. 13 (2010) 61–83, https://doi.org/10.1111/
+j.1540-6296.2010.01178.x.
+M. Tripathi and A. Mukhopadhyay 
+Information & Management 59 (2022) 103707
+23
+[48] L.A. Gordon, M.P. Loeb, L. Zhou, The impact of information security breaches: has
+there been a downward shift in costs? J. Comput. Secur. 19 (2011) 33–56.
+[49] X. Chen, I. Bose, A.C.M. Leung, C. Guo, Assessing the severity of phishing attacks:
+a hybrid data mining approach, Decis. Support Syst. 50 (2011) 662–672, https://
+doi.org/10.1016/j.dss.2010.08.020.
+[50] B. Indranil, A.C.M. Leung, Adoption of identity theft countermeasures and its
+short- and long-term impact on firm value, MIS Q. 43 (2019) 313–327, https://
+doi.org/10.25300/MISQ/2019/14192.
+[51] K.D. Martin, A. Borah, R.W. Palmatier, Data privacy: effects on customer and firm
+performance, J. Mark. 81 (2017) 36–58, https://doi.org/10.1509/jm.15.0497.
+[52] C.Y. Jeong, S.-Y.T. Lee, J.-H. Lim, Information security breaches and IT security
+investments: impacts on competitors, Inf. Manag. 56 (2019) 681–695.
+[53] A. Acquisti, C. Taylor, L. Wagman, The economics of privacy, J. Econ. Lit. 54
+(2016) 442–492.
+[54] K.D. Martin, P.E. Murphy, The role of data privacy in marketing, J. Acad. Mark.
+Sci. 45 (2017) 135–155.
+[55] R. Janakiraman, J.H. Lim, R. Rishika, The effect of a data breach announcement
+on customer behavior: Evidence from a multichannel retailer, J. Mark. 82 (2018)
+85–105.
+[56] R. Sen, A. Verma, G.R. Heim, Impact of cyberattacks by malicious hackers on the
+competition in software markets, J. Manag. Inf. Syst. 37 (2020) 191–216, https://
+doi.org/10.1080/07421222.2019.1705511.
+[57] E.F. Fama, Efficient capital markets: a review of theory and empirical work,
+J. Finance. 25 (1970) 383–417.
+[58] E.F. Fama, Efficient capital markets: II, J. Financ. 46 (1991) 1575–1617.
+[59] Y. Konchitchki, D.E. O’Leary, Event study methodologies in information systems
+research, Int. J. Account. Inf. Syst. 12 (2011) 99–115.
+[60] L.J. Camp, Designing for trust, in: R. Falcone, S. Barber, L. Korba, M. Singh (Eds.),
+Trust Reput. Secur. Theor. Pract., Springer, Berlin, Heidelberg, 2003, pp. 15–29,
+https://doi.org/10.1007/3-540-36609-1_3.
+[61] M. Rhee, P.R. Haunschild, The liability of good reputation: a study of product
+recalls in the US automobile industry, Organ. Sci. 17 (2006) 101–117.
+[62] L. Ponemon, What does a data breach cost companies, Ponemon Inst. LLC. (2005).
+[63] W. Hong, J.Y. Thong, Internet Privacy Concerns: An Integrated Conceptualization
+and Four Empirical Studies, Mis Q, 2013, pp. 275–298.
+[64] J. Pfeffer, G.R. Salancik, The External Control of Organizations: A Resource
+Dependence Perspective, Stanford University Press, 2003.
+[65] R.M. Emerson, Power-dependence relations, Am. Sociol. Rev. (1962) 31–41.
+[66] M. Kolotylo-Kulkarni, W. Xia, G. Dhillon, Information disclosure in e-commerce: a
+systematic review and agenda for future research, J. Bus. Res. 126 (2021)
+221–238.
+[67] G. Dhillon, K. Smith, I. Dissanayaka, Information systems security research
+agenda: exploring the gap between research and practice, J. Strateg. Inf. Syst. 30
+(2021), 101693, https://doi.org/10.1016/j.jsis.2021.101693.
+[68] IBM Security, Cost of a data breach report 2020, IBM (2020). https://www.ibm.
+com/security/digital-assets/cost-data-breach-report/(accessed. May 31, 2021).
+[69] A.T. Tunggal, What is the cost of a data breach in 2021? UpGuard (2021).
+https://www.upguard.com/blog/cost-of-data-breach. accessed May 31, 2021.
+[70] J. Aharony, C.P. Jones, I. Swary, An analysis of risk and return characteristics of
+corporate bankruptcy using capital market data, J. Financ. 35 (1980) 1001–1016.
+[71] A. Nicholas-Donald, J. Matus, S. Ryu, A. Mahmood, The economic effect of
+privacy breach announcements on stocks: a comprehensive empirical
+investigation, in: AMCIS 2011 Proc. - Submiss, 2011. https://aisel.aisnet.
+org/amcis2011_submissions/341.
+[72] P. Chen, G. Kataria, R. Krishnan, Correlated Failures, Diversification, and
+Information Security Risk Management, MIS Q, 2011, pp. 397–422.
+[73] E. Gal-Or, A. Ghose, The economic incentives for sharing security information,
+Inf. Syst. Res. 16 (2005) 186–208, https://doi.org/10.1287/isre.1050.0053.
+[74] R. Dwivedi, S.P. Nerur, J. Wang, Breaching together: a data science approach on
+firms’ correlated risk in information security, in: Proc. 2018 Pre-ICIS SIGDSA
+Symp, 2018, p. 11.
+[75] Z. Shi, G.M. Lee, A.B. Whinston, Toward a better measure of business proximity,
+MIS Q. 40 (2016) 1035–1056.
+[76] O. Hinz, M. Nofer, D. Schiereck, J. Trillig, The influence of data theft on the share
+prices and systematic risk of consumer electronics companies, Inf. Manag. 52
+(2015) 337–347, https://doi.org/10.1016/j.im.2014.12.006.
+[77] H. Zafar, M. Ko, K.-M. Osei-Bryson, Financial impact of information security
+breaches on breached firms and their non-breached competitors, Inf. Resour.
+Manag. J. IRMJ 25 (2012) 21–37, https://doi.org/10.4018/irmj.2012010102.
+[78] R. Johnson III, 60 percent of small companies close within 6 months of being
+hacked, Cybercrime Mag (2018). https://cybersecurityventures.
+com/60-percent-of-small-companies-close-within-6-months-of-being-h
+acked/(accessed. June 1, 2021).
+[79] EKRAN, 5 Industries most at risk of data breaches, (2019). https://www.ekra
+nsystem.com/en/blog/5-industries-most-risk-of-data-breaches (accessed June 1,
+2021).
+[80] L.M. Hitt, E. Brynjolfsson, Productivity, business profitability, and consumer
+surplus: three different measures of information technology value, MIS Q. 20
+(1996) 121–142, https://doi.org/10.2307/249475.
+[81] A.S. Bharadwaj, S.G. Bharadwaj, B.R. Konsynski, Information technology effects
+on firm performance as measured by Tobin’s q, Manag. Sci. 45 (1999)
+1008–1024.
+[82] P.H. Dybvig, M. Warachka, Tobin’s Q does not measure firm performance: theory,
+empirics, and alternative measures, SSRN ELibrary Httppapers Ssrn
+Comsol3papers Cfm (2012).
+[83] A. McWilliams, D. Siegel, Event studies in management research: theoretical and
+empirical issues, Acad. Manag. J. 40 (1997) 626–657.
+[84] G.J. Benston, Accounting numbers and economic values, Antitrust Bull. 27 (1982)
+161.
+[85] S.J. Brown, J.B. Warner, Using daily stock returns: the case of event studies,
+J. Financ. Econ. 14 (1985) 3–31.
+[86] M. Ryngaert, J. Netter, Shareholder wealth effects of the 1986 Ohio antitakeover
+law revisited: its real effects, JL Econ. Org. 6 (1990) 253.
+[87] D.K. Oler, J.S. Harrison, M.R. Allen, The danger of misinterpreting short-window
+event study findings in strategic management research: an empirical illustration
+using horizontal acquisitions, Strateg. Organ. 6 (2008) 151–184.
+[88] J.J. Binder, On the use of the multivariate regression model in event studies,
+J. Account. Res. (1985) 370–383.
+[89] J. Aharony, I. Swary, Effects of the 1970 bank holding company act: evidence
+from capital markets, J. Financ. 36 (1981) 841–853.
+[90] R. Bhargava, D.R. Fraser, On the wealth and risk effects of commercial bank
+expansion into securities underwriting: an analysis of Section 20 subsidiaries,
+J. Bank. Financ. 22 (1998) 447–465.
+[91] D. Conniffe, Testing the assumptions of seemingly unrelated regressions, Rev.
+Econ. Stat. (1982) 172–174.
+[92] A. Zellner, An efficient method of estimating seemingly unrelated regressions and
+tests for aggregation bias, J. Am. Stat. Assoc. 57 (1962) 348–368.
+[93] B. Dehning, V.J. Richardson, A. Urbaczewski, J.D. Wells, Reexamining the value
+relevance of e-commerce initiatives, J. Manag. Inf. Syst. 21 (2004) 55–82.
+[94] D.E. O’Leary, Gartner’s hype cycle and information system research issues, Int. J.
+Account. Inf. Syst. 9 (2008) 240–252.
+[95] A. Mukhopadhyay, S. Chatterjee, D. Saha, A. Mahanti, S.K. Sadhukhan, Cyber-risk
+decision models: to insure IT or not? Decis. Support Syst. 56 (2013) 11–26.
+[96] H. O¨güt, ˘ S. Raghunathan, N. Menon, Cyber security risk management: public
+policy implications of correlated risk, imperfect ability to prove loss, and
+observability of self-protection, Risk Anal. 31 (2011) 497–512.
+[97] P. Prakash, Risk-based valuation of investments in information security-a
+combination approach, J. Inf. Syst. Secur. 8 (2012).
+[98] R. Bohme, ¨ G. Kataria, Models and Measures for Correlation in Cyber-Insurance,
+WEIS, 2006. http://sec2013.crysys.hu/~mfelegyhazi/courses/EconSec/readings
+/09_BohmeK2005insurance_correlation.pdf. accessed September 28, 2015.
+[99] R. Bohme, ¨ G. Schwartz, Modeling Cyber-Insurance: Towards a Unifying
+Framework, WEIS, 2010. http://www.icsi.berkeley.edu/pubs/networking/
+modelingcyber10.pdf. accessed September 28, 2015.
+[100] securitymagazine, More than 60% of all leaked records exposed by financial
+services firms, (2019). https://www.securitymagazine.com/articles/91412-more
+-than-60-of-all-leaked-records-exposed-by-financial-services-firms?v=preview
+(accessed June 27, 2021).
+[101] K.S. Im, K.E. Dow, V. Grover, Research report: A reexamination of IT investment
+and the market value of the firm—an event study methodology, Inf. Syst. Res. 12
+(2001) 103–117.
+[102] D. Chatterjee, V.S. Carl Pacini, The shareholder-wealth and trading-volume
+effects of information-technology infrastructure investments, J. Manag. Inf. Syst.
+19 (2002) 7–42.
+[103] B. Dehning, V.J. Richardson, R.W. Zmud, The Value Relevance of Announcements
+of Transformational Information Technology Investments, MIS Q, 2003,
+pp. 637–656.
+[104] S.D. Hunter, Information technology, organizational learning, and the market
+value of the firm, J. Inf. Technol. Theory Appl. 5 (2003). http://papers.ssrn.co
+m/sol3/papers.cfm?abstract_id=427585. accessed August 21, 2016.
+[105] F. Nagm, K. Kautz, The market value impact of it investment announcements - an
+event study, JITTA J. Inf. Technol. Theory Appl. 9 (2008) 61–79.
+[106] W. Oh, J.W. Ki m, V.J. Richardson, The moderating effect of context on the
+market reaction to IT investments, J. Inf. Syst. 20 (2006) 19–44, https://doi.org/
+10.2308/jis.2006.20.1.19.
+[107] M.L. Ettredge, V.J. Richardson, Information transfer among internet firms: the
+case of hacker attacks, J. Inf. Syst. 17 (2003) 71–82, https://doi.org/10.2308/
+jis.2003.17.2.71.
+[108] A. Garg, J. Curtis, H. Halper, Quantifying the financial impact of IT security
+breaches, Inf. Manag. Comput. Secur. 11 (2003) 74–83, https://doi.org/10.1108/
+09685220310468646.
+[109] A. Hovav, J. D’Arcy, Capital market reaction to defective IT products: the case of
+computer viruses, Comput. Secur. 24 (2005) 409–424, https://doi.org/10.1016/j.
+cose.2005.02.003.
+[110] K. Kannan, J. Rees, S. Sridhar, Market reactions to information security breach
+announcements: an empirical analysis, Int. J. Electron. Commer. 12 (2007)
+69–91.
+[111] D.C. Hayes, J.E. Hunton, J.L. Reck, Information systems outsourcing
+announcements: investigating the impact on the market value of contractgranting firms, J. Inf. Syst. 14 (2000) 109–125.
+[112] J. Florin, M. Bradford, D. Pagach, Information technology outsourcing and
+organizational restructuring: an explanation of their effects on firm value, J. High
+Technol. Manag. Res. 16 (2005) 241–253, https://doi.org/10.1016/j.
+hitech.2005.10.007.
+[113] M. Agrawal, R. Kishore, H.R. Rao, Market reactions to E-business outsourcing
+announcements: an event study, Inf. Manag. 43 (2006) 861–873, https://doi.org/
+10.1016/j.im.2006.08.002.
+[114] W. Oh, M.J. Gallivan, J.W. Kim, The market’s perception of the transactional risks
+of information technology outsourcing announcements, J. Manag. Inf. Syst. 22
+(2006) 271–303.
+M. Tripathi and A. Mukhopadhyay 
+Information & Management 59 (2022) 103707
+24
+[115] C. Koh, S. Ang, G. Yeo, Does IT outsourcing create firm value?, in: Proc. 2007
+ACM SIGMIS CPR Conf. Comput. Pers. Res. Glob. Inf. Technol. Workforce, ACM,
+2007, pp. 87–91. http://dl.acm.org/citation.cfm?id=1235020. accessed August
+7, 2016.
+[116] E. Daniel, D. Kodwani, S. Datta, The impact of ICT-enabled offshoring
+announcements on share prices, J. Enterp. Inf. Manag. 22 (2009) 241–256,
+https://doi.org/10.1108/17410390910949706.
+[117] M. Dardan, A. Stylianou, S. Dardan, The valuation of ecommerce announcements
+during fluctuating financial markets, J. Electron. Commer. Res. 6 (2005)
+312–326.
+[118] C. Ferguson, F. Finn, J. Hall, Electronic commerce investments, the resourcebased view of the firm, and firm market value, Int. J. Account. Inf. Syst. 6 (2005)
+5–29, https://doi.org/10.1016/j.accinf.2004.08.001.
+[119] C. Ranganathan, C.V. Brown, ERP investments and the market value of firms:
+toward an understanding of influential ERP project variables, Inf. Syst. Res. 17
+(2006) 145–161.
+[120] A. Khallaf, T.R. Skantz, The effects of information technology expertise on the
+market value of a firm, J. Inf. Syst. 21 (2007) 83–105, https://doi.org/10.2308/
+jis.2007.21.1.83.
+[121] S. Das, A. Mukhopadhyay, M. Anand, Stock market response to information
+security breach: a study using firm and attack characteristics, J. Inf. Priv. Secur. 8
+(2012) 27–55, https://doi.org/10.1080/15536548.2012.10845665.
+[122] O. Torres-Reyna, Panel data analysis fixed and random effects using Stata (v. 4.2),
+Data Stat. Serv. Priceton Univ. 112 (2007).
+Manas Tripathi: Dr. Manas Tripathi works as an Assistant Professor in the area of Management Information Systems at the Indian Institute of Management (IIM) Rohtak, India.
+Prior to joining IIM Rohtak, he has worked as an Assistant Professor in the Information
+Systems area at Jindal Global Business School, Sonipat, Haryana. He has worked as a
+Software Engineer in a software product-based company. He is a Fellow in Management
+(Doctoral level program) of Indian Institute of Management Lucknow in the Information
+Technology & Systems area. He has obtained a Bachelor of Technology (B.Tech.) degree in
+Information Technology from Harcourt Butler Technological Institute (HBTI) Kanpur. He
+has published articles in journals and conferences of international repute. His research
+interests include; business value of IT, business-focused predictive analytics, IT risk and IT
+governance, IT strategy, and ICT in emerging economies.
+Arunabha Mukhopadhyay: Dr. Arunabha Mukhopadhyay, is a Professor of Information
+Technology & Systems Area at Indian Institute of Management Lucknow (IIM Lucknow).
+He has obtained his Ph.D. and Post Graduate Diploma in Business Management (PGDBM)
+from the Indian Institute of Management Calcutta (IIM Calcutta), in the area of Management Information Systems. He was awarded the Infosys scholarship during his Ph.D. He
+has published in various referred journals and conferences including Decision Support
+Systems (DSS) Information Systems Frontier (ISF), Journal of Global Information Technology Management (JGITM), JIPS, International Journal of Information Systems and
+Change Management (IJISCM), Decision, IIMB Review, Computer Society of
+India–Conference (CSI-C), Hawaii International Conference on System Sciences (HICSS),
+Americas Conference on Information Systems (AMCIS), Pre- International Conference On
+Information Systems (ICIS) workshops, Global Information Technology Management Association (GITMA), Conference of Information Systems and Technology Management
+(CISTM), International Conference on E-Governance (ICEG) etc. He is the recipient of the
+Best Teacher in Information Technology Management in 2013 and 2011, by Star-DNA
+group B-School Award and 19th Dewang Mehta Business School Award, in India respectively. He is also the recipient of the IT & Systems elective for 2017-18 from the student’s
+council of IIM Lucknow. He is a Member of IEEE, AIS, ISACA, DSI, ITS, IFIP WG 11.1 and a
+Life Member of Computer Society of India (CSI), Telemedicine Society of India (TSI), Indian Insurance Institute (III), Actuarial Society of India (ASI), All India Management Association (AIMA), System Dynamics Society of India (SDSI) and, Operations Research
+Society of India (ORSI).
+M. Tripathi and A. Mukhopadhyay 

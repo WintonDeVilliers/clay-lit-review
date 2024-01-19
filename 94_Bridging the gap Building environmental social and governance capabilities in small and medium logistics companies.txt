@@ -1,0 +1,1028 @@
+Journal of Environmental Management 338 (2023) 117758
+Available online 28 March 2023
+0301-4797/© 2023 The Authors. Published by Elsevier Ltd. This is an open access article under the CC BY-NC license (http://creativecommons.org/licenses/bync/4.0/).
+Research article
+Bridging the gap: Building environmental, social and governance
+capabilities in small and medium logistics companies
+Y.P. Tsang a,1
+, Youqing Fan b,*,1
+, Z.P. Feng a
+a Department of Industrial and Systems Engineering, The Hong Kong Polytechnic University, Hong Kong b School of Business, Western Sydney University, Australia
+ARTICLE INFO
+Keywords:
+ESG
+Capabilities
+Logistics
+Supply chain management
+Measurement framework
+Small and medium-sized enterprises
+ABSTRACT
+Nowadays, the popularity of environmental, social, and governance (ESG) performance measurement has
+dramatically increased, particularly to listed companies, for supporting various investment decisions. Companies
+with high ESG scores imply that their ongoing business development is recognised to be economically, socially,
+and environmentally sustainable. From the current ESG measurement practice, the measurement frameworks are
+built on rating schemes, such as KLD and ASSET4, so as to derive the ESG scores for listed companies. However,
+such existing measurement frameworks are difficult to be implemented in small and medium enterprises (SMEs)
+with unstructured and non-standardised business data, especially in logistics and supply chain management
+(LSCM) practice. In addition, it is inevitable for listed companies to work with SMEs, for example logistics service
+providers, but they need a systematic framework to source the responsible SMEs to maintain the ESG performance. To address the above industrial pain-points, this study proposes an ESG development prioritisation and
+performance measurement framework (ESG-DPPMF) by means of the Bayesian best-worst method enabling the
+group decision-making capability to prioritise the ESG development areas and formulate the performance
+measurement scheme. Through consolidating the opinions from logistics practitioners, it is found that fair labour
+practice, reverse logistics and human right in supply chains are the most essential areas to further enhance ESG
+capabilities in the logistics industry. In addition, the viability of the ESG performance measurement has been
+validated, and thus the sustainable and human-centric logistics practice can be developed to achieve business
+sustainability.
+1. Introduction
+In recent years, a series of global supply chain disruptions, including
+the COVID-19 pandemic and the Russo-Ukrainian war, have caused
+significant disruptions to the global economy, leading to highly fluctuated and sensitive stock markets worldwide. In addition to financial
+performance, environmental, social, and governance (ESG) performance
+are increasingly being considered by investors and fund companies as
+part of a sustainable financing strategy (Friede et al., 2015; Klier, 2020).
+This means that companies in which investors are investing are not only
+expected to be profitable but also sustainable and socially responsible.
+According to a market survey by the Royal Bank of Canada (2021), it is
+worth noting that more investors believe that investing in companies
+with good ESG performance can reduce investment risks and increase
+investment returns. In 2018, one of Xiaomi’s suppliers illegally
+discharged sewage, breaching environmental protection regulations
+(Liao, 2018), which affected Xiaomi’s listing plan on the Hong Kong
+stock exchange market. This illustrates that a company’s profitability
+does not guarantee its long-term business sustainability, which can be
+influenced by environmental and social scandals. Therefore, ESG aspects
+are increasingly being considered in business decisions. Listed companies are now eager to develop their own ESG capabilities by following
+well-known ESG measurement frameworks to continuously build a
+sustainable commercial image in the market (Calabrese et al., 2021).
+Regarding the development of ESG capabilities, there are abundant
+resources and talent available from listed companies to structure and
+standardize the business data and operations related to ESG performance measurement criteria (Naffa and Fain, 2020). For general business operations, listed companies need to build a contractual
+relationship with logistics service providers (LSPs) to facilitate freight
+* Corresponding author.
+E-mail address: y.fan@westernsydney.edu.au (Y. Fan). 1 Dr Y.P. Tsang and Dr Youqing Fan contribute equally to the paper.
+Contents lists available at ScienceDirect
+Journal of Environmental Management
+journal homepage: www.elsevier.com/locate/jenvman
+https://doi.org/10.1016/j.jenvman.2023.117758
+Received 31 January 2023; Received in revised form 10 March 2023; Accepted 16 March 2023 
+Journal of Environmental Management 338 (2023) 117758
+2
+operations, warehousing, and transportation management. However,
+some of the LSPs are small and medium enterprises (SMEs) with limited
+capital and human resources to fully comply with the state-of-the-art
+ESG measurement criteria. For instance, in most SMEs, data related to
+carbon and greenhouse gas emissions are not organized in a structured
+format. According to the Trade and Industry Department of Hong Kong,
+over 340,000 SMEs are operating in various business sectors, constituting 98% of the business establishments and employing 45% of the
+total workforce in the private sector (Trade and Industry Department,
+2022). SMEs in the trading and logistics sectors account for one-third of
+all business establishments in Hong Kong (Support and Consultation
+Centre for SMEs, 2021). In view of that, listed companies cannot avoid
+working with LSCM-related SMEs in the market, but it is difficult to
+determine if they satisfy ESG requirements or not using the existing
+measurement frameworks. Therefore, a research gap for enhancing the
+SMEs’ ESG capabilities for LSCM is spotted with the two research
+questions (RQs) in this study. There is an urgent need to prioritise the
+ESG development areas of the SMEs due to the limited resources and
+talents, while a systematic ESG performance measurement should be
+established in an objective and mutually agreed-upon manner.
+RQ1. What are prioritised areas to develop ESG capabilities for SMEs in the
+logistics industry?
+RQ2. How can the ESG performance measurement be measured for SMEs
+in the logistics industry?
+In view of the above research questions, this study proposes an ESG
+development prioritisation and performance measurement framework
+(ESG-DPPMF) for LSCM-related SMEs, in which the of the Bayesian bestworst method (BWM) is applied to analyse the expert opinions in the
+form of pairwise comparisons in a group decision-making process.
+Subsequently, the expert opinions can be systematically aggregated to
+prioritise the ESG development areas and to formulate the ESG performance measurement scheme. Consequently, the SMEs can effectively
+understand their own weaknesses for further improvements, while listed
+companies are convenient to spot the green LSPs to satisfy their own ESG
+implementation policies. Beyond the business perspectives, the advocacy of ESG concepts in the logistics industry can facilitate sustainable
+development and social responsibility in the business environment,
+aligning with the initiatives of corporate social responsibility (CSR) and
+sustainable development goals (SDGs).
+The contribution of this study can be summarised in two-facets.
+Firstly, the viability of the proposed framework has been validated in
+a case study with several logistics practitioners and SMEs to prioritise
+the ESG development areas and performance measurement. Secondly, as
+a highly urbanised city in the case study, it is found that the ESG
+development in logistics industry should focus more on the aspects of
+fair labour practice, reverse logistics and human right in supply chains.
+2. Literature review
+In this section, the concepts and foundation of ESG are firstly discussed to outline its definitions, value, and differences from existing
+initiatives, including CSR and SDGs. Furthermore, in order to develop a
+customised ESG performance measurement framework for SMEs in the
+logistics industry, the existing measurement approaches are secondly
+benchmarked for the research investigation.
+2.1. Overview of ESG principles
+ESG is a conception to further revamp the contemporary business
+environment with enhanced sustainability, initiated in 2004 by the
+United Nations (Billio et al., 2021; Li et al., 2021; Hamzah et al., 2023).
+Furthermore, responsible, sustainable, and green investments are
+advocated along with ESG development. As a result, investors consider
+ESG as a yardstick for assessing corporate behaviour and future financial
+performance. As an investment concept for evaluating enterprises’
+sustainable development, ESG contains three essential elements that
+need to be examined in the process of investment analysis and
+decision-making. Some investors believe that environmental, social, and
+governance standards have practical values that transcend ethical issues
+in recent years (GillanKoch and Starks, 2021). By adhering to ESG
+standards, investors may avoid companies whose practices may be a
+harbinger of risk factors, as evidenced by Volkswagen’s emissions
+scandal in 2010, which influenced the company’s stock price and led to
+billions of dollars in capital losses. Due to the COVID-19 outbreak, the
+global economic fluctuation raises the value of ESG to effectively identify reliable and sustainable companies from the stock market, where
+more and more corporate ESG strategies are implemented to achieve
+business success (Duque-Grisales and Aguilera-Caracuel, 2019; Ferriani
+and Natoli, 2021; Khan et al., 2022). Overall, because of the scrutiny of
+the environment and the impact of the new crown epidemic, ESG has
+become increasingly valuable for investors and has even become an
+additional reference for investors to avoid investment risks.
+Furthermore, when mentioning ESG, CSR and SDGs are also two
+similar initiatives that focus on social responsibility and sustainable
+development, respectively. On one hand, CSR tends to conceptually
+develop responsible companies for environmental and social aspects,
+while ESG is applied to quantify the corresponding concepts into the
+measurement indicators (GillanKoch and Starks, 2021). On the other
+hand, ESG is regarded as the enabler to promote SDGs in the industries,
+in which companies are eager to build their own ESG capabilities to get
+more attention from investors (De Franco et al., 2021). Apart from the
+generalised ESG frameworks, a tailor-made ESG framework is of utmost
+importance to achieve the sustainability goals and objectives in the industries. From the environmental aspect, the overuse, misuse, and
+destruction of natural resources in the supply chain operations should be
+eliminated, for example, fuel, packaging materials, and yield loss. From
+the social aspect, human-centricity is emphasized to assess the impacts
+of organisations and supply chains, and thus a people-oriented atmosphere can be established. From the perspective of governance, ethical
+and resilient policies for supply chain governance should be developed
+to fully comply with business ethical standards and codes of conduct.
+2.2. Existing ESG-related measurement protocols
+Regarding the practical value of ESG, ESG performance measurement is widely explored in the contemporary business sector, as the basis
+for examining the effectiveness of corporate ESG practices and the
+standard for corporate ESG disclosure.
+In this section, two major ESG measurement databases are reviewed,
+namely KLD and ASSET4, which establish the ESG scoring mechanism
+for companies so as to identify industry leaders and laggards (Velte,
+2017; Eccles et al., 2020). On one hand, KLD contains extensive CSR
+ratings, including seven key stakeholder attributes: (i) community; (ii)
+employee relations; (iii) diversity, (iv) environment; (v) human rights;
+(vi) product sustainability; and, (vii) corporate governance. On the other
+hand, ASSET4 is another widely used database that has consistently
+provided comprehensive CSR data for companies in the Russell 1000
+Index. After collecting the annual ESG data, analysts conduct a unified
+quantitative analysis of the qualitative data. In terms of measurement,
+studies measuring ESG typically choose an annual environmental score,
+social score, and governance score to construct a CSR index by equally
+weighting each pillar of the three dimensions. The two ESG measurement methods mentioned above evaluate CSR to derive ESG indices.
+However, the focus and content of ESG and CSR are slightly different.
+The content of ESG is more specific than CSR, and ESG focuses more on
+the joint evaluation of the three factors of environment, society, and
+governance to obtain the ESG index. Therefore, this paper hopes to
+develop a more specific ESG scoring framework for SMEs based on the
+original ESG measurement methods so that SMEs and other stakeholders, such as their service vendors and business partners, can also
+benefit from it to comprehensively understand their ESG performance.
+Y.P. Tsang et al. 
+Journal of Environmental Management 338 (2023) 117758
+3
+In general, commonly used ESG data has two characteristics: First,
+since ESG research is an emerging topic, the data are mainly from the
+KLD and ASSET4 databases. Second, although existing research institutions have formed ESG measurement and evaluation systems, they
+still have limitations in diversity and breadth. In the current study, while
+the ASSET4 database and the KLD database are still mainstream, ESG
+should embed different institutional contexts and industry characteristics to address global sustainability issues more comprehensively. The
+effectiveness and reliability of the KLD and ASSET4 databases in ESG
+measurements for specific SMEs remain questionable (Esposito De Falco
+et al., 2021). Listed companies must work with sustainable companies to
+achieve higher ESG scores, but it is difficult to know whether the SMEs
+they work with are green.
+2.3. Summary of the literature review
+From the extant literature, the research gap in enhancing the ESG
+capabilities of small and medium enterprises (SMEs) in the logistics
+industry is determined, which is essential for listed companies as they
+rely on SMEs for their logistics operations. There is an urgent need to
+evaluate the importance of ESG in assessing corporate behaviour and
+future financial performance, and how investors consider ESG as a
+yardstick for evaluating enterprises’ sustainable development. Additionally, the customisation of ESG development prioritisation and performance measurement for the logistics industry is required as an
+enabler to promote sustainable development goals (SDGs).
+3. Research methodology
+In this section, the research methodology for customising the ESG
+performance measurement framework for SMEs in the logistics industry
+is proposed. Consequently, their ESG performance can be effectively
+quantified to facilitate internal benchmarking so as to spot industry
+leaders and laggards.
+3.2. Overview of the methodological framework
+The research methodology for the LSCM-related ESG performance
+measurement is presented as in Fig. 1. In the first phase, literature reviews, surveys, and expert interview are conducted to determine which
+LSCM-related metrics should be used as measurement criteria. In order
+to establish practical and achievable measurement items, several wellknown standards and protocols adopted by SMEs in the logistics industry are considered, including ISO9001, ISO14001, Transported Asset
+Protection Association (TAPA), Customs Trade Partnership Against
+Terrorism (C-TPAT), Environmental, Health and Safety (EHS), and CSR.
+Accordingly, the appropriate criteria are selected to enrich the ESG
+framework on top of Langley’s ESG criteria as shown in Table 1, where
+the level-2 criteria can thus be derived. The measurement criteria were
+then integrated into a rating checklist to assist the ESG assessment for
+SMEs. In the second phase, the criteria weightings are determined
+through pairwise comparisons by domain experts. It is assumed that the
+criteria weightings in the logistics industry are not equally identical. In
+other words, domain experts in the logistics industry may have their
+own perspective regarding the recent focus from the ESG perspectives.
+To systematically determine the criteria weightings, the group multicriteria decision-making approach, namely Bayesian BWM, is applied.
+A group of qualified experts in the logistics industry are invited to
+participate in these pairwise comparisons. In the third stage, after
+obtaining the pairwise comparison data from a group of domain experts,
+the importance of ESG development areas can be prioritised, while the
+ESG performance measurement scheme can be formulated to evaluate
+the industrial practitioners. Therefore, the resultant ESG scores of SMEs
+are comparable among the peer companies, while all the ESG scores can
+be visualised for further analysis.
+Fig. 1. Overview of the methodological framework.
+Y.P. Tsang et al. 
+Journal of Environmental Management 338 (2023) 117758
+4
+3.3. Tier 1: ESG performance measurement criteria for SMEs in LSCM
+According to Langley’s ESG framework for supply chain focused
+areas (Langley, 2021), the proposed framework is further extended by
+considering the accreditations from ISO 9001, ISO 14001, Transported
+Asset Protection Association (TAPA), Customs Trade Partnership
+Against Terrorism (CTPAT) as well as the protocols of environment,
+health and safety (EHS) and corporate social responsibility (CSR) in the
+context of LSCM. Therefore, practical criteria and sub-criteria can be
+suggested to facilitate the real-life ESG assessment in the logistics industry, as shown in Table 1.
+The ESG framework designed in the study has three hierarchical
+levels. Level-0 the ESG goals, level-1 is the three essential ESG elements,
+and level-2 is the sub-criteria of environmental, social and governance.
+The third level is the sub-criteria of the second level of criteria, namely
+the evaluation metrics, based on the above standards and protocols
+related to real-life LSCM. Based on the defined criteria and sub-criteria,
+the rating checklist can be formulated to assist the ESG performance
+measurement for LSCM-related SMEs, and thus their ESG performance
+can be quantified in a practical manner, as shown in Tables 2–4 for
+environmental, social and governance aspects, respectively. Based on
+the above ESG rating scheme, the targeted SMEs are assessed by qualified experts to obtain the scores of level-3 sub-criteria, where the subcriteria are evaluated as the binary items. In other words, the SMEs
+can be systematically assessed in terms of environmental, social, and
+governance aspects with three rating vectors, namely [rE
+1,…,rE
+7], [rS
+1,…,
+rS
+6], and [rG
+1 , …, rG
+6 ]. The ratings for various aspects are calculated as
+expressed in Equation (1), where i ∈ I denotes the level-1 criteria,
+including E, S, and G; j ∈ J denotes the number of level-2 criteria, and
+k ∈ K denotes the number of level-3 sub-criteria. Since the number of
+binary items at level-3 sub-criteria are inconsistent, the min-max normalisation is performed to generalise the ratings into the range [1, 10],
+as expressed in Equation (2).
+r
+i
+j =
+∑
+k∈K
+πi
+jk (1)
+̂ri
+j = 1 +
+[
+ri
+j − min(
+ri
+j
+)](10 − 1)
+max(
+ri
+j
+)
+− min (
+ri
+j
+) (2)
+3.4. Tier 2: criteria weighting by using bayesian best worst method
+Apart from the above ESG rating checklist, the weightings of criteria
+at levels 1 and 2 are determined in this tier to achieve market-driven ESG
+performance measurement. The best-worst method (BWM) is a vectorbased approach proposed by J. Rezaei in 2015 that derives weights
+based on pairwise comparisons of the best and worst criteria for solving
+multi-criteria decision-making (MCDM) problem (Rezaei, 2015).
+Compared to another method, namely the analytical hierarchy process
+(AHP), BWM has advantages in the number of pairwise comparisons to
+be conducted and result consistency. To further apply the BWM in the
+group-based decision-making process, Bayesian BWM was proposed,
+where probabilistic modelling was used to calculate the aggregated
+distribution and all individual preferences at once (Mohammadi and
+Rezaei, 2020).
+To determine the criteria weightings at levels 1 and 2, a group of
+domain experts in the context of LSCM are invited to complete the
+pairwise comparisons, while the Bayesian BWM is applied to calculate
+the resultant weightings. At the beginning, each domain expert has to
+select the best and worst criteria at levels 1 and 2, while the pairwise
+comparisons in the Bayesian BWM are merely designed for comparing
+Table 1
+Level 1, 2 and 3 ESG criteria for prioritisation and evaluation.
+Level
+1
+Level 2 Level 3
+E Carbon and greenhouse
+gas emissions
+Carbon emission control; GHG emission
+control; Vendor awareness; Non-recycled
+products; Awareness workshop
+Reverse logistics Return and recall policy; Policy of waste
+handling; 3Rs implementation; Packaging
+material recycling
+Packaging Green materials; Reduce the use of
+materials; Pallet management; Waste
+management policy
+Sustainable sourcing Accreditation; Energy-efficient sourcing;
+Green sourcing policy; Green thinking; CSR
+monitoring
+Climate change Low carbon travel; Environmental
+protection facilities; Climate change
+education; Climate change related goals
+Renewable energy Sources for renewable electricity;
+Visualization of energy use; Wastewater
+recycling; Paperless operations
+Product quality Cargo disposal procedures; Product
+handling instructions; Green packaging;
+Quality control and assurance; Storage
+conditions
+S Diversity, equity, and
+inclusion
+Diversity of employees; Equal employment
+policy; Anti-harassment policy; Vulnerable
+group development policy; Antidiscrimination policy
+Fair labour practices Standard job specifications; Structured
+career path; Medical and work insurance;
+Labor law awareness training
+Work-life balance Recreational activities; Flexible working
+policy; Children allowance; Psychological
+counseling service; Work-life balance
+Human rights in supply
+chains
+Human rights awareness training; Human
+rights auditing; Complaint mechanism;
+Human rights due diligence; Code of
+conduct for suppliers
+Workforce health and
+safety
+Standard operating procedures; Escape
+routes and equipment; Employee safety
+policy; Ergonomic workplace design;
+General work from home policy
+Supply chain visibility Traceability system; Inventory audit and
+cycle count; Transportation management
+system; Warehouse management system;
+Information sharing protocols
+G Supplier and customer
+relationships
+Supplier risk management; Regular visits to
+suppliers/customers; Supplier satisfaction
+monitoring; Customer relationship
+management
+Data/cybersecurity and
+transparency
+Genuine antivirus software; Data
+confidentiality policy; Data and network
+recovery plan; Standard data management
+protocols
+Risk management Risk monitoring and remedies; Information
+leakage prevention measures; Crisis
+response plan; Facility security
+Business ethics and
+integrity
+Law compliance; Business ethics reporting
+mechanism; Ethical guidelines; Privacy
+policy; Review on employee values
+Anti-corruption/bribery Fair recruitment and procurement; Antibribery training; Anti-corruption policy;
+Background check for top management;
+Regular audit of financial statements
+ESG metrics, analytics, and
+compensation goals
+Sustainability vision; Sustainable
+development strategy; Sustainabilityrelated certifications; Mitigation action plan
+for ESG; Disclosure of ESG metrics Table 2
+Demographic details of the domain experts.
+Code Relevant experience (in years) Position
+Expert 1 10 to 20 Managing Director
+Expert 2 21 to 30 Chief Executive Officer
+Expert 3 10 to 20 General Manager – Operations
+Expert 4 6 to 10 Senior Operations Manager
+Expert 5 10 to 20 General Manager
+Y.P. Tsang et al. 
+Journal of Environmental Management 338 (2023) 117758
+5
+best-to-others and others-to-worst. In order to aggregate the opinions
+from various domain experts, the group decision-making process is
+modelled by using a Bayesian model where a joint probability distribution is built to estimate the aggregated weight w∗∈ {φi
+, ωi
+} and the
+optimal criterion weights of m decision makers w1:m based on the
+collected pairwise comparison data of best-to-others C1:m
+b− o and others-toworst C1:m
+o− w vectors. The joint probability distribution is mathematically
+expressed as the conditional probability as in Equation (3). In the
+mathematical model, the vectors related to the collected pairwise
+comparison data are the observed variables, namely the inputs, which
+are analysed to estimate the optimal weights w∗ is dependent on the
+optimal weights w1:m. By applying the Bayes theorem, the joint probability distribution in Equation (3) can then be simplified into the hierarchical structure, as in Equation (4).
+P
+(
+w∗
+,w1:m⃒
+⃒C1:m
+b− o,C1:m
+o− w
+) (3)
+P(w∗
+)
+∏m
+i=1
+[
+P
+(
+Ci
+o− w
+⃒
+⃒wi
+)
+• P
+(
+Ci
+b− o
+⃒
+⃒wi
+)
+• P
+(
+wi
+⃒
+⃒w∗
+)
+]
+(4)
+Furthermore, the vector components Ci
+o− w and Ci
+b− o are modelled by
+the multinomial distribution such that Ci
+o− w
+⃒
+⃒wi ∼ multinomial(wi
+) and
+Ci
+b− o
+⃒
+⃒
+⃒wi ∼ multinomial(
+1
+w
+i
+)
+, where ∀i ∈ 1,…, k. In addition, the Dirichlet
+distribution is reparametrized to model wi with respect to the mean of
+the distribution w∗ and a concentration parameter γ, such that
+wi
+|w∗ ∼ Dir(γ • w∗), where the parameter γ is modelled in a gamma
+distribution. Consequently, for computing the posterior distribution, a
+Markov-chain Monte Carlo technique, namely Just Another Gibbs
+Sampler (JAGS), is applied, and thus the posterior distribution of
+weights for decision makers and the aggregated weight can be obtained.
+In addition, credal ranking as a ranking scheme for the decision criteria
+can be constructed to investigate the confidence levels between various
+criteria. It shows the interrelations of the criteria so as to determine the
+superiority of product features in the product innovation process. Based
+on the aggregated weight and credal ranking, the importance of the
+level-1 and level-2 criteria can be prioritised to derive the focal areas for
+contemporary ESG development. In addition, the ESG performance
+measurement can be established through utilising the optimal weights.
+In other words, two vectors are obtained as the input for the Bayesian
+BWM so as to perform the group decision-making process for the
+determination of criteria weightings, namely [φE, φS, φG] for level-1
+criteria and [ωE
+1,…,ωE
+7], [ωS
+1,…,ωS
+6] and [ωG
+1 , …,ωG
+6 ] for level-2 criteria,
+where φi
+, ωi ∈ [0,1].
+3.5. Tier 3: ESG prioritisation and performance aggregation
+Based on the credal ranking from the Bayesian BWM, the prioritisation of the ESG criteria can be derived in which the optimal criterion
+weights are used to evaluate the confidence τ ∈ [0, 1] between criteria.
+Since the company ratings and criteria weightings have been determined in the above two tiers, the aggregation to obtain the ESG performance scores is performed, as expressed in Equations (5)–(7)
+separately, where the value ̂ri
+j represents the normalised ratings by
+means of min-max normalisation as expressed in Equation (2).
+Furthermore, the aggregated ESG performance scores are expressed in
+Equation (8) for overall assessment. As a result, the resultant ESG performance scores for SMEs are ranged between 1 and 10 for effective
+comparison, given that ∑
+i∈I
+φi = 1 and ∑
+j∈J
+ωi
+j = 1,∀i ∈ I.
+θE =∑
+j∈J
+ωE
+j ̂rE
+j (5)
+θS =
+∑
+j∈J
+ωS
+j
+̂rS
+j (6)
+θG =
+∑
+j∈J
+ωG
+j
+̂rG
+j (7)
+θESG =
+∑
+i∈I
+φi
+(∑
+j∈J
+ωi
+j
+̂ri
+j
+)
+(8)
+Table 3
+Demographic detail of the SMEs for the ESG measurement.
+Code Size Service coverage
+SME 1 40 to 50 All ten SMEs provide a wide range of logistics services,
+including:
+• Freight forwarding
+• Storage and warehousing
+• Transportation & last mile delivery
+• End-to-end supply chain solutions
+SME 2 30 to 40
+SME 3 1 to 10
+SME 4 40 to 50
+SME 5 40 to 50
+SME 6 20 to 30
+SME 7 30 to 40
+SME 8 40 to 50
+SME 9 40 to 50
+SME
+10
+20 to 30
+Table 4
+Normalised ESG ratings for SMEs.
+Criteria SME ID
+1 2 3 4 5 6 7 8 9 10
+E1 4.95 3.80 4.82 6.60 4.76 9.44 4.15 5.75 5.16 9.08
+E2 9.51 5.54 7.49 9.36 7.73 9.59 7.16 7.34 3.58 9.43
+E3 5.03 7.30 9.38 4.72 7.69 9.32 6.97 7.54 6.94 4.29
+E4 6.45 4.77 6.30 7.82 9.46 9.70 6.19 8.85 7.76 9.28
+E5 9.11 7.25 9.01 5.05 5.61 9.35 7.74 4.08 5.64 7.27
+E6 5.87 7.39 5.63 9.31 9.26 7.20 4.02 9.42 4.38 4.17
+E7 9.37 4.95 6.30 9.26 6.47 7.06 6.33 3.88 7.35 5.42
+S1 3.17 7.39 9.11 5.93 7.99 7.39 3.29 4.31 4.73 4.79
+S2 6.69 6.96 7.37 3.45 9.32 8.72 8.90 3.95 5.60 5.47
+S3 2.96 1.86 7.64 6.24 6.68 8.85 6.22 1.30 9.32 4.71
+S4 1.37 4.49 2.31 1.70 8.56 3.19 4.56 1.29 9.60 3.09
+S5 2.84 4.68 9.04 4.84 8.43 3.31 9.17 1.45 5.47 8.08
+S6 8.31 5.98 6.15 3.27 9.39 3.29 3.27 4.47 8.24 1.73
+G1 5.92 2.65 5.19 9.51 2.12 8.52 9.20 7.07 3.22 2.47
+G2 7.15 7.03 3.75 7.86 8.96 4.11 5.60 3.57 3.39 5.55
+G3 4.48 5.38 8.77 7.29 5.50 5.71 7.61 4.70 5.44 5.69
+G4 9.41 5.95 4.66 8.29 6.02 7.52 6.46 4.81 5.33 5.26
+G5 4.08 9.05 3.21 9.59 3.39 5.80 8.42 2.36 3.13 8.91
+G6 9.30 4.39 3.23 9.19 4.66 2.40 6.67 6.66 3.52 8.24
+Y.P. Tsang et al. 
+Journal of Environmental Management 338 (2023) 117758
+6
+Considered that a group of SMEs, namely C = {1,…,c}, are assessed
+by the above mechanism, a 4 × c matrix for ESG performance scores is
+established as expressed in Equation (9). Beyond quantifying the ESG
+performance of the SMEs, a benchmarking mechanism between the
+SMEs is also embedded to identify the market leaders and laggards.
+Therefore, the average values of the E, S and G performance scores,
+namely [θE, θS, θG] are used to classify the SMEs in the eight regions as
+shown in Fig. 2. In addition, the eight regions with comparisons to the
+threshold are illustrated, where regions V and III are regarded as the
+market leaders and laggards, respectively.
+τESG =
+⎡
+⎢
+⎢
+⎢
+⎢
+⎢
+⎢
+⎢
+⎣
+θ1
+E ⋯ θc
+E
+θ1
+S ⋯ θc
+S
+θ1
+G
+θ1
+ESG
+⋯
+⋯
+θc
+G
+θc
+ESG
+⎤
+⎥
+⎥
+⎥
+⎥
+⎥
+⎥
+⎥
+⎦
+(9)
+4. Case study
+In order to investigate the viability and performance of the proposed
+framework, a case study in the Hong Kong logistics industry is conducted, where 10 SMEs and 5 domain experts are invited for the
+investigation about the ESG development. The SMEs with logistics
+practice can thus be evaluated using the proposed framework, and
+compared with their peer competitors for continuous improvement in a
+healthy competitive environment.
+4.1. Background of the case study
+From the industrial perspective, the concepts of ESG have been
+widely discussed among industrialists, in particular with large-scale
+enterprises and listed companies. Most of them are eager to be
+assessed by well-known and credible ESG consultants so as to publicise a
+responsible reputation in the market. In the contemporary business
+environment, most enterprises, even listed companies, are inevitable to
+have business collaborations with SMEs for customised services and
+solutions, for example, logistics services. In order to maintain their ESG
+performance, most enterprises tend to collaborate with the service
+vendors that follow the ESG requirements and criteria, but it is difficult
+for SMEs to conduct a formal ESG measurement due to a lack of resources and talents. Consequently, large-scale and listed companies are
+required to assess the vendors by themselves, which is time-consuming
+and lacks a standard assessment protocol. Furthermore, SMEs themselves are challenged to develop their own ESG capabilities, not to
+mention the regular ESG assessment. In view of that, 5 domain experts
+and 10 SMEs are included in this case study to examine focal areas of the
+ESG development in the logistics industry, in which the demographic
+details of the domain experts and SMEs are shown in Tables 2 and 3 For
+the selection of domain experts, the relevant experience and current
+positions are considered, where the top management in the logistics
+companies is preferable to determine the criteria weights.
+4.2. Determination of ESG rating and criteria weightings
+In order to measure the SMEs’ ESG performance, a qualified assessor
+under the proposed framework is assigned to conduct on-site visits for
+all the SMEs listed in Table 2, while the SMEs are required to elaborate
+and provide evidence related to the criteria and sub-criteria. Thus, the
+ESG ratings for all ten SMEs can be collected in this study, in which the
+scores of level-3 criteria are summed together to show the performance
+by level-2 categories. With the min-max normalisation, the normalised
+ESG ratings, as shown in Table 4, for SME are then ready for aggregation
+after the ESG criteria weightings are determined by domain experts.
+Subsequently, the pairwise comparisons for the level-1 and level-2
+criteria are conducted by the invited domain experts. Regarding the
+level-1 criteria, Table 5 shows the data from the pairwise comparisons
+from the domain experts. By using the Bayesian BWM, it is found that the
+criteria weights between three criteria are: [0.3350, 0.3482, 0.3168].
+Regarding the level-2 criteria under the environmental aspect,
+Table 6 shows the data of the pairwise comparisons, and the criteria
+weightings among the seven criteria are: [0.1369, 0.2159, 0.1539,
+0.1352, 0.1071, 0.1299, 0.1210].
+Regarding the level-2 criteria under the social aspect, Table 7 shows
+the data of the pairwise comparisons, and the criteria weightings among
+the six criteria are: [0.1191, 0.2468, 0.1469, 0.1898, 0.1474, 0.1501].
+Regarding the level-2 criteria under the governance aspect, Table 8
+shows the data of the pairwise comparisons, and the criteria weightings
+among the six criteria are: [0.1424, 0.1743, 0.1287, 0.1818, 0.2076,
+0.1653].
+Fig. 2. Classifications of the ESG performance measurement.
+Table 5
+Pairwise comparisons of level-1 criteria.
+B2O O2W
+E S G E S G
+Expert 1 1 9 6 4 1 2
+Expert 2 5 2 1 1 3 6
+Expert 3 8 3 1 1 6 9
+Expert 4 5 1 9 3 8 1
+Expert 5 1 4 5 6 2 1
+Y.P. Tsang et al. 
+Journal of Environmental Management 338 (2023) 117758
+7
+4.3. Prioritisation of ESG criteria
+Further to the optimal criterion weights derived by considering experts’ opinions, four credal ranking diagrams are illustrated in Fig. 3 to
+visualise the importance prioritisation of ESG criteria. From the level-1
+criteria, it is implied that the social aspect is relatively important in the
+logistics industry, compared with the environmental and governance
+aspects. Among the sub-criteria of the social dimension, fair labour
+practice (S2), human rights in supply chains (S4) and supply chain visibility (S6) are the top-three sub-criteria to be focused. Regarding the
+environmental and governance dimensions, reverse logistics (E2) and
+anti-corruption/bribery (G5) are the most essential criteria, respectively. Through aggregating the level-1 and level-2 weights together, it
+is found that the top-three ESG development areas are S2, E2 and S4
+such that the logistics industry should emphasize on the above development areas to further enhance the ESG competitiveness.
+4.4. Feasibility of the ESG performance measurement
+Through combining the results of company ratings and criteria
+weightings, the ESG performance of 10 selected SMEs can be aggregated
+by using Equations (3)–(6) as shown in Table 9. The averages of the E, S,
+and G performance are 6.98, 5.57, and 5.89, respectively. In other
+words, the SMEs can be conveniently classified as the industry leaders
+and laggards, as illustrated in Fig. 3. SME 1, 4 and 10 are classified in
+region 1, while SME 2, 5, and 6 are included in region VI. Moreover, SME
+2, 7, 8, and 9 are classified in regions II, VII, III, and VIII, respectively.
+Table 6
+Pairwise comparisons of level-2 criteria under the environmental aspect.
+B2O O2W
+E1 E2 E3 E4 E5 E6 E7 E1 E2 E3 E4 E5 E6 E7
+Expert 1 4 1 3 3 6 5 9 7 9 2 3 4 5 1
+Expert 2 6 2 1 8 9 5 5 5 9 8 2 1 4 4
+Expert 3 9 5 2 9 6 6 1 1 5 7 2 3 3 9
+Expert 4 4 4 5 1 7 2 7 3 5 1 9 2 9 2
+Expert 5 3 1 7 3 3 9 5 7 4 3 5 5 1 2
+Table 7
+Pairwise comparisons of level-2 criteria under the social aspect.
+B2O O2W
+S1 S2 S3 S4 S5 S6 S1 S2 S3 S4 S5 S6
+Expert 1 7 5 8 6 9 1 1 5 2 4 3 7
+Expert 2 9 3 8 5 1 7 1 5 2 6 1 2
+Expert 3 5 1 8 9 9 6 3 9 4 1 1 4
+Expert 4 4 3 1 2 4 9 6 4 5 9 5 1
+Expert 5 7 2 3 1 3 4 1 6 8 9 9 5
+Table 8
+Pairwise comparisons of level-2 criteria under the governance aspect.
+B2O O2W
+G1 G2 G3 G4 G5 G6 G1 G2 G3 G4 G5 G6
+Expert 1 5 4 8 1 7 5 1 3 2 4 2 4
+Expert 2 6 1 8 5 3 2 4 8 1 4 2 5
+Expert 3 4 8 2 6 3 1 1 2 6 3 5 5
+Expert 4 8 3 4 7 1 7 1 7 5 2 5 3
+Expert 5 2 8 9 1 1 8 8 3 1 8 9 2
+Fig. 3. Classification of the ESG performance of SMEs.
+Y.P. Tsang et al. 
+Journal of Environmental Management 338 (2023) 117758
+8
+5. Results and discussion
+After the case study, it was found that the proposed scheme is
+effective in determining ESP performance of SMEs in the logistics industry, which can be a tool for the ESG analytics to spot weaknesses and
+potential improvements. In view of the integrated ESG performance
+score, SME 5 is the best company in terms of E, S and G in the case study,
+but its performance in the governance aspect is behind the average in the
+pool. Therefore, the proposed measurement framework can spot the
+strengths and weaknesses of SMEs in the logistics industry. Furthermore,
+the discussion on the methodological effectiveness and managerial
+implication is given as follows.
+5.1. Consistency analysis of the pairwise comparisons
+To validate the reliability of the multi-criteria decision-making
+process with the use of Bayesian BWM, the input-based consistency ratio
+(CRI
+) can be evaluated, while the corresponding thresholds are dependent on the number of applied criteria and scales (Liang et al., 2020).
+The value of CRI of each domain expert in the pairwise comparison
+process is obtained by extracting the maximal CRI
+j for j criteria per
+pairwise comparison, while the value CRI
+j is measured as in Equation
+(10) where abj, ajw and abw denote the preferences of best-to-others,
+others-to-worst and best-to-worst scenarios.
+CRI
+j =
+⎧
+⎪⎨
+⎪⎩
+⃒
+⃒abj × ajw − abw
+⃒
+⃒
+abw × abw − abw
+0
+(10)
+Through analysing the pairwise comparison data in Tables 5–8, it is
+found that all the pairwise comparisons conducted in the case study
+have passed the thresholds of input-based consistency ratio as in
+Table 10. Therefore, the reliability of the pairwise comparison can be
+guaranteed to derive the ESG development prioritisation and performance measurement.
+5.2. Strategic recommendations in the ESG-driven logistics management
+According to the above case study, the focal areas for the ESG
+development have been prioritised, namely the fair labour practice,
+reverse logistics and human right in supply chains. By doing so, the
+social and ethical responsibility can be established for better reputation
+in the market, while the companies are not engaged in the violation of
+human rights, towards the responsible and sustainable supply chain
+management strategy (Asif et al., 2020, 2022; Chen et al., 2020; Lau
+et al., 2020; Liu et al., 2021, 2022). Furthermore, the reverse logistics in
+a highly urbanised city are essential to reduce the wastes created from
+the logistics and supply chain management, while customer satisfaction
+could be improved with the ease of product returning and trade-in.
+The proposed ESG scoring framework was applied to ten SMEs,
+excluding regions IV and V. In the post-evaluation discussion with the
+participating companies, strategies were identified to enhance their ESG
+performance in the highly competitive business environment. The
+following strategies were recommended for SMEs with weak environmental performance (i.e., SMEs 2, 7, 8, and 9 in regions II, III, VII, and
+VIII): consideration of the environmental impact from logistics operations, such as the use of eco-friendly pallets and trucks; avoidance of
+unnecessary waste of natural resources and non-biodegradable materials in routine operations, such as the use of styrofoam boxes and
+improper disposal of plastic pallets; and balancing cost-effectiveness in
+operations management with eco-friendliness to achieve eco-innovative
+business strategies.
+For SMEs with weak social performance (i.e., SMEs 1, 2, 4, 8, and 10
+in regions I, II, and III), which comprise the largest number of enterprises
+in this study, demonstrating the social value of logistics companies is the
+most challenging task in the current market. To achieve this, both internal and external strategies can be implemented. For example, standard operating procedures and a code of conduct should be developed to
+ensure employee well-being and enhance the quality of work. Additionally, social connections with the public can be developed to enable
+more external stakeholders, such as customers and the local community,
+to understand the key business developments and future plans.
+For SMEs with weak governance performance (i.e., SMEs 5, 6, 8, and
+9 in regions III, VI, and VIII), appropriate control and monitoring of
+business processes and operations should be considered. In the current
+digital era, enterprise information systems such as enterprise resource
+planning (ERP), warehouse management system (WMS), and transportation management system (TMS) can be employed to facilitate data
+transparency and standardization. This would help to establish an
+effective governance structure to clearly define the business processes,
+roles, and responsibilities of all stakeholders.
+Consequently, the proposed ESG scoring framework provides valuable insights into the ESG performance of SMEs in the logistics industry.
+Recommendations for improving performance in the environmental,
+social, and governance aspects were provided based on the results of the
+evaluation. The ESG values and performance of the SMEs can be gradually improved so as to strengthen their competitiveness in the ESGdriven market nowadays. Apart from creating more business opportunities and collaboration with listed companies, the business practices
+can become more environmentally, socially and structurally
+Table 9
+Results of the ESG performance for the SMEs.
+SME 1 SME 2 SME 3 SME 4 SME 5 SME 6 SME 7 SME 8 SME 9 SME 10
+E 7.25 5.82 7.03 7.58 7.37 8.90 6.14 6.86 5.66 7.17
+S 4.39 5.31 6.72 4.00 8.51 5.92 6.21 2.81 7.18 4.65
+G 6.76 5.98 4.57 8.68 5.14 5.63 7.29 4.70 3.95 6.22
+ESG 6.10 5.69 6.14 6.68 7.06 6.83 6.53 4.77 5.65 5.99
+Region I II VI I VI VI VII III VIII I
+Table 10
+Evaluation of the input-based consistency ratio.
+Level-1 Level-2 (E) Level-2 (S) Level-2 (G)
+CRI
+j Threshold CRI
+j Threshold CRI
+j Threshold CRI
+j Threshold
+Expert 1 0.0694 0.1359 0.2639 0.3517 0.2500 0.3337 0.2143 0.3154
+Expert 2 0.0333 0.1330 0.2917 0.3517 0.2917 0.3337 0.2857 0.3154
+Expert 3 0.1250 0.1359 0.2222 0.3517 0.3194 0.3337 0.1786 0.3154
+Expert 4 0.0833 0.1359 0.1528 0.3517 0.2083 0.3337 0.2321 0.3337
+Expert 5 0.0667 0.1330 0.1667 0.3517 0.2500 0.3337 0.2083 0.3154
+Y.P. Tsang et al. 
+Journal of Environmental Management 338 (2023) 117758
+9
+responsible, aligning to the emerging sustainable development goals
+(SDGs) for the society.
+5.3. Managerial implications
+According to the above methodological design and case study, the
+feasibility and effectiveness of the proposed ESG performance measurement scheme for SMEs in the logistics industry are validated. The
+transformation of the SMEs in the logistics industry can therefore be
+ensured (Anthony Jnr, 2021; Fuka et al., 2022). With the aid of the
+proposed scheme in the logistics industry, the implications for future
+ESG development can be summarised in two facets.
+Firstly, as there is a growing global emphasis on eco-friendly and
+socially responsible initiatives, such as carbon neutrality and sustainable
+development goals (SDGs), companies are increasingly urged to transform themselves to become more environmentally and socially responsible in order to attract investors and investment funds. Large-scale and
+listed companies are eager to develop their own ESG (Environmental,
+Social, and Governance) capabilities, and ESG reporting and measurement are becoming more prevalent. However, SMEs with limited human
+and capital resources find it challenging to do so without a customized
+ESG measurement scheme. Therefore, the proposed scheme has value in
+building ESG capabilities for SMEs. In the past, most SMEs in the logistics industry focused on profitability and operational effectiveness,
+with cost, quality, and speed being the three major elements benchmarked against competitors. However, in the current green and
+responsible business environment, with the aid of the proposed scheme,
+awareness of ESG concepts, reporting, and measurement can be raised to
+start developing ESG capabilities, thereby effectively sustaining the
+businesses.
+Secondly, since most listed companies are measured by well-known
+ESG metrics, such as Bloomberg’s ESG dataset, to obtain disclosure
+scores, they tend to collaborate with ESG-measured vendors and suppliers. In the case of business collaboration between listed companies
+and SMEs, the proposed scheme plays an essential role in disclosing the
+ESG performance of SMEs in a direct and systematic manner for listed
+companies’ selection. As a result, listed companies can conveniently
+collaborate with SMEs to maintain or even improve their ESG performance. Therefore, with the aid of the proposed scheme, a healthy ESG
+development in the contemporary business environment can be
+established.
+6. Conclusion
+In summary, this study focuses on addressing the practicality of
+measuring ESG performance for SMEs in the current business landscape.
+To raise awareness and capabilities of ESG among SMEs in the logistics
+industry, a customized ESG development prioritisation and performance
+measurement framework is proposed, which includes systematic rating
+mechanisms and criteria weightings. The proposed scheme’s feasibility
+and effectiveness are demonstrated through the case study with several
+logistics practitioners. As a result, SMEs can effectively develop their
+ESG capabilities and benchmark their ESG performance against their
+competitors, especially in the areas of fair labour practice, reverse logistics and human right in supply chains.
+For future work, the proposed framework can be further applied in
+various countries and cities so as to formulate the customized strategy
+for boosting the ESG development. For other highly urbanised cities, the
+results of this study can be benchmarked to develop strategic recommendations related to ESG in the logistics industry. In addition, more
+SMEs in the logistics industry could be invited to establish a dataset to
+facilitate the development of ESG analytics and intelligence to meet the
+ongoing SDG requirements.
+Credit author statement
+The research presented in this publication is the result of collaborative work among the authors. Y.P. Tsang contributed to the conceptualization and design of the study, as well as the analysis, interpretation
+of the data, and writing of the manuscript. Youqing Fan contributed to
+the conceptualization, study design, data analysis, writing of the
+manuscript and correspondence with the journal. Z.P. Feng contributed
+to the literature review, analysis, and interpretation of the data, as well
+as the writing of the manuscript.
+All authors have reviewed and approved the final version of the
+manuscript and agree to be accountable for all aspects of the research
+presented herein.
+Declaration of competing interest
+The authors declare the following financial interests/personal relationships which may be considered as potential competing interests:
+Youqing Fan reports administrative support was provided by Western
+Sydney University. Youqing Fan reports a relationship with Western
+Sydney University that includes: employment.
+Data availability
+The data that has been used is confidential.
+Acknowledgement
+The authors would like to thank the Department of ISE, Hong Kong
+Polytechnic University and the Western Sydney University for supporting the research.
+References
+Anthony Jnr, B., 2021. Managing digital transformation of smart cities through
+enterprise architecture–a review and research agenda. Enterprise Inf. Syst. 15 (3),
+299–331.
+Asif, M.S., Lau, H., Nakandala, D., Fan, Y., Hurriyet, H., 2020. Adoption of green supply
+chain management practices through collaboration approach in developing
+countries–From literature review to conceptual framework. J. Clean. Prod. 276,
+124191.
+Asif, M.S., Lau, H., Nakandala, D., Fan, Y., Hurriyet, H., 2022. Case study research of
+green life cycle model for the evaluation and reduction of scope 3 emissions in food
+supply chains. Corp. Soc. Responsib. Environ. Manag. 29 (4), 1050–1066.
+Billio, M., Costola, M., Hristova, I., Latino, C., Pelizzon, L., 2021. Inside the ESG Ratings:
+(Dis) agreement and performance. Corp. Soc. Responsib. Environ. Manag. 28 (5),
+1426–1445.
+Calabrese, A., Ghiron, N.L., Tiburzi, L., 2021. Investigating the relationships between
+service capabilities and financial statements indicators. Int. J. Eng. Bus. Manag. 13,
+18479790211019522.
+Chen, L., Fan, Y., Guo, W., 2020. Relationship of economic development, family income
+and health status in China: the moderating role of environmental pollution
+perception. J. Health Psychol. 25 (13–14), 2499–2510.
+De Franco, C., Nicolle, J., Tran, L.A., 2021. Sustainable investing: ESG versus SDG. The
+Journal of Impact and ESG Investing 1 (4), 45–62.
+Duque-Grisales, Aguilera-Caracuel, J., 2019. Environmental, social and governance
+(ESG) scores and financial performance of multilatinas: moderating effects of
+geographic international diversification and financial slack. J. Bus. Ethics 168 (2),
+315–334. https://doi.org/10.1007/s10551-019-04177-w.
+Eccles, R.G., Lee, L.E., Stroehle, J.C., 2020. The social origins of ESG: an analysis of
+Innovest and KLD. Organ. Environ. 33 (4), 575–596.
+Esposito De Falco, S., Scandurra, G., Thomas, A., 2021. How stakeholders affect the
+pursuit of the Environmental, Social, and Governance. Evidence from innovative
+small and medium enterprises. Corp. Soc. Responsib. Environ. Manag. 28 (5),
+1528–1539.
+Ferriani, F., Natoli, F., 2021. ESG risks in times of Covid-19. Appl. Econ. Lett. 28 (18),
+1537–1541.
+Friede, G., Busch, T., Bassen, A., 2015. ESG and financial performance: aggregated
+evidence from more than 2000 empirical studies. Journal of sustainable finance &
+investment 5 (4), 210–233.
+Fuka, J., Baťa, R., Joskov´
+a, K., Kˇrupka, J., 2022. Study on the impacts of emergency on
+economic, environmental and social areas using mixed methods research. Emerging
+Science Journal 6 (1), 86–105.
+Gillan Koch, A., Starks, L.T., 2021. Firms and social responsibility: a review of ESG and
+CSR research in corporate finance. J. Corp. Finance 66, 101889. https://doi.org/
+10.1016/j.jcorpfin.2021.101889. Amsterdam, Netherlands.
+Y.P. Tsang et al. 
+Journal of Environmental Management 338 (2023) 117758
+10
+Hamzah, S., Pangemanan, D., Aprianti, E., 2023. The environmental and sustainable
+factors on the special economic zones development. Civil Engineering Journal 9 (2),
+334–342.
+Khan, K.I., Mata, M.N., Martins, J., Nasir, A., Dantas, R.M., Correia, A.B., Saghir, U.S.,
+2022. Impediments of green finance adoption system: linking economy and
+environment. Emerging Science Journal 6 (2), 217–237.
+Klier, D., 2020. Sustainable Financing and Investment Survey 2020. October. HSBC
+Centre of Sustainable Finance. Retrieved. https://www.sustainablefinance.hsbc.co
+m/mobilising-finance/sustainable-financing-and-investment-survey-2020.
+(Accessed 20 February 2022).
+Langley, C.J., Thompson, S., 2021. Sustainability, ESG, and 3PL-customer relationships.
+https://www.supplychainquarterly.com/articles/5327-sustainability-esg-and-3plcustomer-relationships.
+Lau, H., Shum, P.K., Nakandala, D., Fan, Y., Lee, C., 2020. A game theoretic decision
+model for organic food supplier evaluation in the global supply chains. J. Clean.
+Prod. 242, 118536.
+Li, T.T., Wang, K., Sueyoshi, T., Wang, D.D., 2021. ESG: research progress and future
+prospects. Sustainability 13 (21), 11663.
+Liang, F., Brunelli, M., Rezaei, J., 2020. Consistency issues in the best worst method:
+measurements and thresholds. Omega 96, 102175.
+Liao, S., 2018. Xiaomi admits claims prospectus failed to disclose polluting supplier June
+Yicai Global Retrieved February 20, 2022. from. https://www.yicaiglobal.com/ne
+ws/xiaomi-admits-claims-prospectus-failed-to-disclose-polluting-supplier.
+Liu, F., Fan, Y., Yang, S., 2022. Environmental benefits of innovation policy: China’s
+national independent innovation demonstration zone policy and haze control.
+J. Environ. Manag. 317, 115465.
+Liu, A., Zhu, Q., Xu, L., Lu, Q., Fan, Y., 2021. Sustainable supply chain management for
+perishable products in emerging markets: An integrated location-inventory-routing
+model. Transport. Res. E Logist. Transport. Rev. 150, 102319.
+Mohammadi, M., Rezaei, J., 2020. Bayesian best-worst method: a probabilistic group
+decision making model. Omega 96, 102075.
+Naffa, H., Fain, M., 2020. Performance measurement of ESG-themed megatrend
+investments in global equity markets using pure factor portfolios methodology. PLoS
+One 15 (12), e0244225.
+Rezaei, J., 2015. Best-worst multi-criteria decision-making method. Omega 53, 49–57.
+Royal Bank of Canada, 2021. ESG in a Pandemic World - RBC Gam. October. www.
+rbcgam.com. (Accessed 20 February 2022). https://www.rbcgam.com/documents/
+en/other/esg-executive-summary.pdf.
+Support, Consultation Centre for SMEs, 2021. Small and medium enterprises (SME).
+SUCCESS - SMEs in HK. March. https://www.success.tid.gov.hk/english/aboutus
+/sme/service_detail_6863.html. (Accessed 28 February 2022).
+Trade and Industry Department, 2022. SMEs & Industry. https://www.tid.gov.hk/engli
+sh/smes_industry/smes/smes_content.html.
+Velte, P., 2017. Does ESG performance have an impact on financial performance?
+Evidence from Germany. Journal of Global Responsibility 8 (2), 169–178.
+Y.P. Tsang et al. 

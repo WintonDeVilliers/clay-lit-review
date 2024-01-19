@@ -1,0 +1,1067 @@
+ORIGINAL ARTICLE
+COVID-19 and the fate of Moroccan female-led
+firms: Regional level evidence
+Imane Elouardighi | Kenza Oubejja
+Faculty of Law and Economics, Department of
+Economics, Lab of Applied Economics,
+Mohammed V University of Rabat, Rabat,
+Morocco
+Correspondence
+Imane Elouardighi, Faculty of Law and
+Economics, Department of Economics, Lab of
+Applied Economics, Mohammed V University
+of Rabat, Rabat, Morocco.
+Email: elouardighi.imanee@gmail.com
+Abstract
+This study examines the effects of the coronavirus disease
+2019 (COVID-19) pandemic on Moroccan female-led firms,
+considering both short-term and long-term impacts. It
+investigates the influence of different pandemic waves on
+these firms, taking into account their size and location, to
+gain valuable insights into their crisis management strategies. Using a micro-level database made up of 1,096 Moroccan firms observed during the initial three waves of the
+pandemic, we extract data from the World Bank ‘Enterprise
+Survey: impact on firms’ database. Our analysis, using a
+logit model, reveals that the impact of the pandemic varied
+by the gender of the firm head and survey period. Femaleled firms were more severely affected by the health crisis
+compared with their male peers. The quick application of
+policy adaptations played a crucial role in reducing the
+impact of the health crisis on male-led enterprises. Small
+firms, particularly those situated in regions such as Beni
+Mellal-Khenifra, Drâa-Tafilalet, Oriental, and MarrakechSafi, have been significantly affected by the COVID-19 crisis. This study makes two key contributions. Firstly, it provides an empirical analysis of the pandemic's impact on
+Moroccan firms using enterprise-level data, which is
+unprecedented in Morocco. Secondly, it investigates the
+repercussions of the pandemic on female-led Moroccan
+firms of varying sizes and regions, acknowledging the disproportionate impact on women during economic crises.
+The study aims to offer valuable insights for supporting the
+Received: 18 January 2023 Revised: 4 July 2023 Accepted: 4 July 2023
+DOI: 10.1111/rsp3.12703
+© 2023 The Authors. Regional Science Policy & Practice © 2023 Regional Science Association International.
+1740 wileyonlinelibrary.com/journal/rsp3 Reg Sci Policy Pract. 2023;15:1740–1767.
+recovery of female-led firms in the future. Our findings
+emphasize the importance of targeted assistance for small
+firms and those located in affected regions to mitigate the
+crisis's consequences and promote economic revival. These
+businesses play a crucial role in the local economy, and
+supporting their survival and resilience in the post-COVID19 era is essential.
+KEYWORDS
+female-led firms, COVID-19, woman, Probit model, Morocco
+JEL CLASSIFICATION
+J16, J54
+1 | INTRODUCTION
+The coronavirus disease 2019 (COVID-19) pandemic, also known as the coronavirus epidemic, has had a profound
+impact on the global economy since its emergence in Wuhan, China in December 2019. It rapidly spread across the
+globe, resulting in widespread disruptions. As of May 31, 2023, the World Health Organization (WHO) has reported
+a total of 767,364,883 confirmed cases of COVID-19, with 6,938,353 deaths. In a connected world, the global implementation of lockdowns and travel restrictions has significantly slowed down economic activity and disrupted production processes. This global turbulence has led to a decline in world stock market indexes and has affected
+businesses of all sizes. Consequently, the world experienced a severe recession in 2020, with a contraction of 3.1%
+in economic growth. Inflation remains persistently high, and commercial activities have slowed down considerably.
+Even the slight recovery observed in 2021 was hindered by the resurgence of COVID-19 cases and supply chain disruptions during the latter months of the year. According to projections from the International Monetary Fund (IMF,
+2022), the global impact of the coronavirus crisis will have a long-lasting effect. Both employment and production
+levels are expected to remain below their pre-pandemic levels until 2026. Overall, the COVID-19 pandemic has left
+a lasting mark on the global economy, with far-reaching consequences that continue to impact various sectors and
+nations worldwide.
+The impact of the coronavirus has extended far beyond being just a disease, intensifying the health issues confronting nations globally (Hafeez et al., 2023) and resulting in the loss of millions of lives in our interconnected world.
+Beyond the health consequences (Iorember et al., 2022), COVID-19 caused public panic and shed light on the shortcomings in both healthcare systems and economies worldwide (Abbas & Al-Sulaiti, 2023). On the healthcare front,
+many systems were unprepared to handle the scale and speed of a pandemic outbreak, revealing issues such as limited infrastructure, inadequate healthcare facilities, and shortages of essential medical supplies and equipment.
+Moreover, the sudden surge in patients overwhelmed healthcare workers, highlighting the need for a properly sized
+and trained workforce. Accessibility to healthcare services also became a concern, as existing disparities were amplified, with marginalized communities facing greater challenges in accessing quality care. Fragile global health systems
+and the interconnectedness of the world amplified the impact of the pandemic. Healthcare systems in developing
+countries struggled with limited resources, exacerbating the global health crisis. It underscored the need for a robust
+global system for pandemic preparedness. In light of these issues, the study of Micah et al. (2023) revealed significant
+disparities in global health spending, with high-income countries investing significantly more than low-income countries. In 2019, high-income countries spent $7.3 trillion on health, while low-income countries spent only $24.8 billion. Nevertheless, considering the historical underfunding of pandemic preparedness, deliberate efforts must be
+ELOUARDIGHI and OUBEJJA 1741
+made to sustain funding for crucial global health functions, including pandemic preparedness. Simultaneously, pandemics brought to light various economic shortcomings. Global supply chains experienced disruptions, impacting
+industries and economies globally (Naeem et al., 2021). The interdependence of countries became apparent as production and distribution networks faltered. Business closures and job losses became widespread due to lockdown
+measures and economic downturns, leading to rising unemployment rates and financial hardships. Furthermore, existing economic inequalities were exacerbated, with vulnerable populations, such as low-income earners and informal
+workers, bearing the brunt of the crisis and facing greater financial instability. As a result, the global economy has
+faced a crisis that affected national economies and highlighted social inequalities in many countries (Baldwin
+et al., 2020). The severity of the crisis differs significantly between developed and developing countries (Egger
+et al., 2021). For instance, implementing social distancing and containment policies imposed by governments were
+hard to apply in developing countries, where a large portion of the population is forced to work to survive severe
+poverty or hunger (Bargain & Aminjonov, 2020). Governments and central banks responded with unprecedented
+levels of fiscal and monetary stimuli to mitigate the economic damage caused by the pandemic. These measures have
+included direct cash transfers to individuals and businesses, loan guarantees, interest rate cuts, and quantitative easing programs. While these interventions have provided short-term support to the global economy, concerns have
+arisen regarding the potential longer-term consequences of such extensive fiscal and monetary support. In particular,
+there are worries about inflation, debt sustainability, and the potential for financial instability in the future.
+The COVID-19 pandemic has caused sudden and drastic changes in people's daily lives (Whitaker et al., 2021),
+resulting in major disruptions to various aspects of society. This includes shifts in how people work, socialize, and shop,
+as well as changes in the operations of companies and industries. Lockdowns, social distancing measures, and other
+containment efforts have forced people to adapt to new ways of living and working, often with minimal notice or preparation. These changes have occurred rapidly and unexpectedly, unlike the changes that would typically happen in normal circumstances. As a result, there have been significant changes in consumer behavior, such as a surge in online
+shopping due to people's inability or unwillingness to visit physical stores (Al Halbusi et al., 2022). Companies have had
+to quickly adapt to these changes, often by implementing new technologies and strategies to support remote work and
+e-commerce. This has led to significant disruptions in many industries, as well as opportunities for new business models
+and innovation (Abbas et al., 2019). During the COVID-19 pandemic, artificial intelligence and technology have played
+a crucial role in various aspects (Shah, Zhang, Abbas, et al., 2023). They have been instrumental in tracking and monitoring the spread of the virus, facilitating the development of vaccines, enabling remote work and education (Kovalska &
+Kovalova, 2021), and promoting sustainable practices such as remote meetings and digital solutions that reduce physical contact. This situation highlights the potential positive effects on the environment that can result from reduced
+human activities and increased reliance on technology. Specifically, the pandemic has revealed the positive contribution
+of information and communication technology (ICT) to reducing CO2 emissions (Lorente et al., 2023; Shah, Zhang,
+Abbas, et al., 2023). The implementation of lockdowns and travel restrictions led to a significant decrease in transportation and industrial activities, resulting in temporary improvements in air quality and reduced carbon emissions. These
+outcomes underscore the potential for technology to contribute to environmental sustainability during times of crisis.
+The COVID-19 pandemic has brought about unprecedented societal changes, with major implications for individuals,
+businesses, and industries. The full extent of these changes is still unfolding, and it is likely that the long-term impacts
+of the pandemic will continue to be felt for many years to come.
+Within the vast tapestry of global ramifications, Morocco is no exception and stands as a testament to the farreaching effects of pandemic. The nation has experienced a seismic disruption in production, as supply chains faltered and businesses grappled with operational challenges. Moreover, healthcare costs increased as the country
+mobilized resources to combat the virus and ensure the well-being of its citizens. In this challenging environment,
+efforts have been made to extend financial support to vulnerable social groups and provide relief to firms striving to
+weather the crisis. Pandemic impacts are reflected in all 12 regions of Morocco, but in each of them differently, considering the diversity of socioeconomic profiles, the leading sectors, and the patterns of virus spreading in the
+regions. The sectors most exposed to economic losses were tourism (hotels and restaurants), metallurgical industry,
+1742 ELOUARDIGHI and OUBEJJA
+textiles and leather, and public works (Ait Ali, Bassou, et al., 2020; Haddad et al., 2020). In their study, Ait Ali, El
+Aynaoui, et al. (2020) anticipated that the social impact of the crisis will push about 1 million people in Morocco into
+poverty and about 900,000 others under the poverty line. Unfortunately, Moroccan women are among the most vulnerable to the social and economic consequences of this crisis. The confinement measures due to the COVID-19
+pandemic resulted in additional domestic work for women. In Morocco, women already carry out the majority of
+unpaid domestic tasks, such as cooking, cleaning, and taking care of children and elderly family members. The burden
+of this work falls disproportionately on women, as indicated by a study that found that 92% of women are involved
+in housework compared with 24% of men (High Commission for Planning [HCP, 2022]). The pandemic exacerbated
+this gender gap by further limiting women's participation in other spheres such as education and employment
+(Whitaker et al., 2021). With the closure of schools, women who are also responsible for their children's education
+may have to devote even more time to domestic work, reducing their opportunities to engage in paid work or pursue
+education or training. Moreover, the isolation at home resulting from the pandemic caused violence against them to
+increase (Ennaji, 2021). With restrictions on movement and social interaction, women who are victims of domestic
+violence may find it more difficult to seek help and escape from their abusers. With their low participation in the
+labor force, which stands at only 21.3% and is primarily concentrated in the agricultural and industrial sectors
+(OECD, 2020), they are disproportionately affected by job loss and reduced economic activity in these sectors.
+According to a study conducted by the national statistics agency, HCP, in 2021, the percentage of women in the
+workforce in Morocco was only 23%, which is a decrease from the 27% reported in 2010. This is in stark contrast to
+the fact that women make up 50.2% of the country's population. Furthermore, approximately 17% (OECD, 2020) of
+women employed outside of agriculture work informally or as unpaid family worker (Mansuy & Werquin, 2018),
+meaning they lack formal contracts or social protections such as sick leave or health insurance. As a result, they are
+particularly vulnerable to the negative impacts of confinement measures and the economic slowdown resulting from
+the pandemic. With the closure of businesses and restrictions on movement, these women are at risk of losing their
+livelihoods and may struggle to provide for themselves and their families. Even in leadership positions, women
+remain underrepresented in top management positions in many countries, including Morocco, where in 2019, only
+13% of Moroccan companies were headed by women, with the highest representation in services at 19%, followed
+by trade at 14% and industry at 13% (Mouline et al., 2022). While studies such as the one carried out by Zhang et al.
+(2022) have shown that the presence of female directors can reduce tax avoidance behavior in prospector companies, this study aims to explore the relationship between different business strategies and corporate tax avoidance
+decisions, while also examining the moderating effect of gender diversity. The study utilizes a sample of non-financial
+sector organizations in Pakistan over a span of 5 years. The issue of corporate tax avoidance has become increasingly
+relevant in developing economies, where taxation plays a critical role in government revenues and public services,
+which underlines the importance of promoting greater gender diversity in management positions.
+It is unfortunate that there have not been studies conducted on the impact of the COVID-19 health crisis on
+female-led firms in Morocco. It is difficult to provide an accurate portrayal of the current economic situation for
+women entrepreneurs in Morocco (Bouzekraoui, 2022). However, even without a formal study, it is still possible to
+gain some insights into the current situation of women entrepreneurs by looking at general trends and observations
+related to the pandemic's impact on businesses and the economy as a whole. We know that the COVID-19 pandemic has had a significant impact on businesses across the globe, with many facing closures, reduced revenue, and
+financial uncertainty (Kaberia & Muathe, 2020). Female entrepreneurs in particular may be more vulnerable, as their
+firms are younger and smaller (Manolova et al., 2020), especially to the effects of the pandemic due to factors such
+as limited access to financing, limited networks, and societal norms that may limit their opportunities. During the
+health crisis, Morocco's economic recovery depended on the speed of national vaccination campaigns and the progression of the epidemic (Ait Ali, Bassou, et al., 2020). In this particular context, firms were exposed to a high level of
+incertitude as to the future (Apedo-Amah et al., 2020) and adopted a ‘wait and see’ approach (Ait Ali, El Aynaoui,
+et al., 2020) before investing. On the basis of the results of the HCP's (High Commission for Planning of Morocco)
+survey on the effects of COVID-19 on firms’ activities in April 2020, more than 57% of Moroccan firms have stopped
+ELOUARDIGHI and OUBEJJA 1743
+their activities permanently or temporarily as a result of the coronavirus crisis. By category of firms, very small firms
+(VSFs) represent 72%, small and medium firms (SMFs) 26%, and large firms (LFs) 2% of all firms that are temporarily or
+permanently closed. However, the national economic structure was composed of 93% of very small and medium firms
+(HCP, national survey of firms 2019) that contribute to the development and creation of the nation's wealth. The
+Casablanca-Settat region predominates as the location of those firms (39%). Morocco adopted several actions to
+reduce the impact on the national economy and on vulnerable social segments of the society. The kingdom was one of
+the first countries to increase health infrastructure provision (Morocco's strategy facing COVID-19, April 2020). The
+country adopted an extensive COVID-19 vaccination program, and even planned to manufacture COVID-19 vaccines.
+On the social level, the country has taken actions to reduce the impact of the crisis through social support in the face
+of a serious situation of job losses, increasing unemployment, and income decline. On the economic level, the government started the ‘Special Fund for managing the coronavirus pandemic’ with subventions to the most damaged firms
+and households, emphasizing the significance of reforms that are crucial for enhancing economic opportunities, boosting income and employment rates, and providing comprehensive social benefits (Hussain et al., 2021).
+The literature shows that the COVID-19 health crisis had a significant impact on the Moroccan economy. It is
+possible that the pandemic has had a disproportionate impact on female-led firms in Morocco, but without a specific
+study on this topic, it is difficult to say for certain. This study intends to examine the impact of the COVID-19 health
+crisis on female-led firms. To conduct our research, we utilized a dataset that focused on the microeconomics of
+Moroccan firms during the initial three waves of the COVID-19 pandemic. This dataset was composed of 1,096
+Moroccan firms and was sourced from the ‘Enterprise Survey: impact on firms’ database, which is maintained by the
+World Bank. To analyze this data and estimate the likelihood of specific outcomes occurring, we employed a statistical model known as the logit model. Through the use of this model, we were able to derive estimates that helped us
+better understand the impact of the pandemic on these firms. This paper will contribute to existing literature in two
+ways. First, we mobilize microeconomic data on indicators quantifying the impact of the COVID-19 health crisis on
+firms as well as on the internal characteristics of 1,096 Moroccan firms. Second, our study aims to analyze the impact
+of the COVID-19 health crisis on female-led firms by size and region. The next sections include a literature review
+(Section 2): in this section, we reviewed and synthesized existing scholarly literature relevant to our research topic.
+Its aim is to provide a comprehensive understanding of the current state of knowledge, identify gaps or controversies
+in the literature, and establish the theoretical framework for our study. Stylized facts (Section 3): in this section, we
+present and discuss the key stylized facts related to our research. Empirical methodology (Section 4): this
+section describes the research design and methodology used to collect and analyze data in the study. It outlines the
+research approach, data sources, sample selection, variables, and the econometric techniques employed. The purpose
+is to provide a clear and transparent explanation of how our study was conducted to ensure the validity and reliability of the results. Reporting and discussion of results (Section 5): in this section, we present our findings on the basis
+of the data analysis. It includes a detailed report of the results, supported by tables. We then interpret and discuss
+those findings in relation to the research question and the existing literature. Concluding notes (Section 6): this final
+section of our paper summarizes our main findings and their implications. It highlights the contributions of the study,
+discusses any limitations, and suggests avenues for future research. This section reiterates the significance of this
+research and offers recommendations and policy implications based on our results.
+2 | LITERATURE REVIEW
+It is evident that the effects of the pandemic were felt by everyone (Goldin, 2022), but some categories of agents
+(individuals, firms, and sectors) suffered the effects of the coronavirus crisis more than others. The profound consequences of global health crises, such as COVID-19, have had a particularly severe impact on vulnerable groups, especially rural households, in which the lockdown had a direct impact on their employment status and income (Ghanbari
+Movahed et al., 2022; Suresh et al., 2022). Women in particular bore a significant burden of the economic impact
+1744 ELOUARDIGHI and OUBEJJA
+and personal hardships (Goldin, 2022), and elderly women were more prone to encountering significant health difficulties. Among these difficulties are intricate care requirements, mental health disorders, and a heightened susceptibility to domestic violence (Su et al., 2022). Unfortunately, lockdown measures implemented to curb the spread of
+the virus further exacerbated these challenges by disrupting or discontinuing essential health services that elderly
+women rely on. A multitude of research studies have delved into the consequences of pandemics and disasters on
+different sectors. In their study, Kumar et al. (2021) examined the impact of the COVID-19 pandemic on various sectors of the Indian economy. The authors mobilized existing data on those sectors and on both the pandemic and
+propagation of COVID-19. Their review revealed that the finance, health, education, industry, energy, petroleum,
+and environment sectors were among the most severely affected. While the study provides a useful overview of the
+pandemic's impact on these sectors, it has limitations in that it only considers a select number of sectors, omitting
+others such as tourism and hospitality, which may also have been severely impacted. Notably, the service industry
+has emerged as highly vulnerable to the disruptive effects of such crises (Abbas & Al-Sulaiti, 2023; Lu et al., 2021).
+Particularly the tourism, travel, leisure industry, and hospitality sectors have been hit the hardest, with over 50% revenue losses (Abbas, Mubeen, et al., 2021). Travel restrictions led to a substantial decrease of 74% in tourist numbers
+across the continent, as estimated by the United Nations World Tourism Organization (UNWTO, 2021). Tourism,
+specifically cultural tourism, holds immense importance as it contributes to various aspects such as social value creation, environmental sustainability, community development, and global cultural understanding (Jawad et al., 2023; Li,
+Abbas, et al., 2022; Shah, Zhang, & Abbas, 2023). It serves as a catalyst for economic development, bringing about
+positive changes in local communities and fostering a sense of appreciation for diverse cultures (Abbas, Mubeen,
+et al., 2021; Mamirkulova et al., 2020). To overcome the challenges brought about by the COVID-19 pandemic, the
+tourism industry requires innovative strategies and adaptive measures. By gaining a thorough understanding of the
+pandemic's impacts and consequences and actively embracing change and innovation, the industry can embark on a
+path toward recovery and successfully establish a new normal in the post-pandemic era (Abbas, Mubeen, et al.,
+2021). To rebuild and revive the service industry, it is essential to consider changes in the fundamental principles,
+main assumptions, and business organizations’ circumstances. In their respective studies, Abbas and Al-Sulaiti (2023)
+and Makoza (2023) investigate different aspects of the tourism industry during the COVID-19 pandemic. Abbas and
+Al-Sulaiti (2023) explored the effects of innovative transformation and corporate social responsibility (CSR) practices
+in the hospitality sector during the pandemic. They investigated how global health emergencies and economic crises
+have affected service firms’ performance worldwide. The authors conclude that innovative business approaches and
+CSR activities depend on firms’ innovativeness, environmental contexts, and the nature of CSR that affects productivity. Meanwhile, the study of Makoza (2023) explores the impact of COVID-19 travel restrictions on South Africa's
+tourism sector and examines the potential of digital nomadism as a recovery strategy. The findings suggest that digital nomadism has the capacity to promote innovation, new work models, and job creation within the tourism industry. However, there are challenges that need to be addressed, such as delays in implementing remote work visas and
+uncertainties surrounding digital taxation. These two studies complement each other in providing insights into different aspects of the tourism industry during the pandemic. Abbas and Al-Sulaiti shed light on the importance of innovative and CSR practices for service firms’ performance, while Makoza highlights the potential of digital nomadism
+as a strategy for recovery in the tourism sector. Together, these studies contribute to a broader understanding of the
+challenges and opportunities faced by the tourism industry and provide valuable insights for industry practitioners
+and policymakers.
+The problems blocking economic activities around the world (Peterson & Thankom, 2020) were primarily caused
+by the speed of the virus’ propagation, which forced many countries to adopt restrictive measures, particularly social
+distancing, causing the closure of financial markets, company offices, businesses, shops, and events. Secondly, the
+uncertain situation about the crisis created a climate full of panic among consumers, investors, and international trading partners, pushing them into less risky investments and changing consuming behaviors, generating market anomalies (Egger et al., 2021; Mckibbin & Fernando, 2020). Khatib and Nour (2021) discovered that the business landscape
+underwent substantial transformations as a result of the COVID-19 pandemic. Notably, various characteristics of
+ELOUARDIGHI and OUBEJJA 1745
+business factors such as performance, governance structure, liquidity, and leverage level were significantly impacted.
+Firms from all sectors faced a severe drop in both supply and demand with negative consequences on both sales and
+employment (Hyland et al., 2021). Apedo-Amah et al. (2020) provide a comprehensive assessment of the short-term
+impact of the COVID-19 pandemic on businesses worldwide, studying 100,000 firms in 51 countries. The use of a
+large sample size, objective measures of impact, and a focus on developing countries are strengths of the study.
+There are also some limitations, such as the lack of a comparison group of businesses not affected by the pandemic,
+which limits the ability to determine the extent to which the observed effects are due to the pandemic or other factors. Nonetheless, the study's findings provide important insights into the ways in which the pandemic has affected
+businesses worldwide. Their results showed that the COVID-19 shock was severe and widespread in all firms, with a
+negative impact on sales. The employment adjustments that firms have made in response, the disproportionate
+financial constraints faced by smaller firms, and the increasing reliance on digital solutions are all effects of the pandemic. Employment adaptation was based primarily on holidays and reducing working hours, with limited lay-off of
+small firms facing higher financial barriers, although access to finance remains one of the principal determinants of
+the viability of any firm category (Elouaourti & Ezzahid, 2022b; Ezzahid & Elouaourti, 2018). Amin and Viganola
+(2021) appear to have found a significant relationship between access to finance and the likelihood of a decline in
+sales during the COVID-19 pandemic. The study used a logit model with binary choice and data from the World
+Bank's Enterprise Survey database, which included 9,432 firms. One potential strength of the study is its use of a
+large dataset, which improves the generalizability of the findings. Additionally, the study appears to have considered
+heterogeneity in the relationship between access to finance and sales decline on the basis of factors such as a firm's
+long-standing relationships with stakeholders and the gender composition of its workforce. However, it is important
+to note that the study is limited by its focus on self-reported data from firms. Despite the fact that the COVID-19
+pandemic has presented unprecedented challenges for businesses worldwide, including those in China, firms have
+struggled to adapt to changing market conditions, and questions have arisen about the role of product market competition in driving firm performance (Li, Al-Sulaiti, et al., 2022). Liu, Qu, et al. (2021) were able to come out with a
+positive impact of the competition on the firms in times of crisis by investigating the impact of product market competition on the performance of Chinese business organizations during the COVID-19 pandemic. Using data from the
+annual reports of firms listed on the A-share stock market and registered with the China Stock Markets and Accounting Research (CSMAR) database, the study employs the generalized method of moments technique to analyze the
+relationship between competition and firm performance in China. The results reveal a positive and significant impact
+of product market competition on firm performance, indicating the importance of competition in promoting healthier
+business performance in the Chinese market. These findings contribute to the ongoing discourse on the role of competition in driving economic growth and development, particularly in times of crisis. However, it is important to note
+that this study is focused on the Chinese market and may not be generalizable to other markets or contexts.
+The COVID-19 pandemic has had a profound impact on public health, and its effects on the economy have been
+equally significant. In addition to government restrictions, a drop of demand and a shortage of raw materials and
+essential inputs left firms facing a series of challenges and with limited alternatives, such as reducing their activities
+or closing their businesses (Ahmed et al., 2020). Small businesses have been particularly hard hit, with many
+experiencing mass layoffs and closures. To gain insight into the impact of COVID-19 on small businesses and to
+assess the likely impact of the recent stimulus bill, a survey of more than 5,800 small businesses was conducted by
+Bartik et al. (2020). The survey found that a large number of small businesses had already experienced mass layoffs
+and closures, with 43% of businesses temporarily closed and a 40% reduction in employee counts on average. The
+study also revealed that many small businesses are financially fragile, with the median business having more than
+$10,000 in monthly expenses and less than 1 month of cash on hand. Furthermore, the study found that businesses
+have varying beliefs about the duration of COVID-related disruptions, and the majority of businesses planned to
+seek funding through the CARES Act. However, many anticipated problems with accessing the aid due to bureaucratic hassles and difficulties establishing eligibility. With the disruptions in economies and societies around the
+world, businesses have had to adapt rapidly to changing circumstances and implement new strategies to sustain their
+1746 ELOUARDIGHI and OUBEJJA
+operations in response to the pandemic. Governments have also had to play a crucial role in providing support and
+resources to businesses to help them navigate the challenges posed by the pandemic. The study conducted by Fakhoury and Fakih (2021) provides valuable insights into the impact of the COVID-19 pandemic on businesses in
+Jordan and Morocco and the role of governments and businesses in responding to pandemics in the Arab region.
+The study uses the COVID-19 World Bank Enterprise Survey, and found that businesses that adopted resilient strategies such as establishing an online presence and converting production are more likely to remain open, while firms
+that adopted remote working are less likely to survive. However, it is important to note that the study does not
+establish causality, and the results may not be generalizable to other countries or regions. The study also found a
+mismatch between government support measures and the needs of businesses during a pandemic, with firms that
+expected future government support more likely to report closure. Furthermore, a more recent study investigates
+the relationship between remote work policies and firm performance during the COVID-19 pandemic, using data
+from the COVID-19 World Bank Enterprise Survey in Jordan and Morocco. By using the propensity score matching
+technique, Boutros et al. (2023) estimate the causal effect of remote work on productivity. The study's findings indicate that remote work policies have a positive impact on firm performance, leading to increased productivity. However, it is important to note that the analysis is restricted to two countries, and the statistical significance of the
+results is observed only in Morocco. Additionally, the study explores the effects of remote work policies on firms of
+different sizes. The results show positive and statistically significant coefficients across all models, suggesting that
+remote work policies have a beneficial effect on firm performance regardless of the company's size.
+The COVID-19 pandemic has had far-reaching effects on businesses worldwide, with many struggling to adapt
+to new restrictions and market conditions. However, the impacts of the pandemic have not been gender neutral.
+Women-led businesses in particular have faced disproportionate challenges during the pandemic. In a recent study
+by Liu, Wei, and Xu (2021), the authors investigate the impact of the COVID-19 pandemic on businesses and how
+gender affects the probability and duration of business closure. The study, which analyzed data from 24 countries,
+revealed that female-led businesses experienced more significant challenges during the pandemic than male-led businesses. In particular, the research found that women-led businesses were more likely to close and experienced longer
+closure periods compared with those led by men. Moreover, female business leaders demonstrated more pessimism
+about the future than their male counterparts. The study also indicated that women-led businesses in economies of
+high gender inequality and developing economies faced more significant disparities. The authors suggested that
+finance and labor-related factors contributed to these inequalities. In light of these findings, the study recommends
+that COVID-19 policy responses should take into account gender disparities to address the disproportionate impact
+of the pandemic on women-led businesses. In another study that highlighted the disparities between men and
+women in terms of corporate performance in times of crisis, Hyland et al. (2021) used firm data from 41 countries
+during 2020–2021 to examine whether gender influences firm performance during the COVID-19 health crisis. They
+found that female-led firms were more likely to have closed temporarily during the crisis and to have been closed for
+a longer period. Even those firms that were able to maintain their activities endured a demand decline in their products or services, downsizing, reduced working hours, and more financial difficulties compared with male-led firms.
+While the study provides important insights into the differential impact of the COVID-19 crisis on male and femaleled firms, it is important to note that the study did not investigate the underlying reasons for the observed differences in performance between them. Moreover, the study did not explore whether the observed differences in performance between male and female-led firms are unique to the COVID-19 crisis or whether they exist during more
+normal times as well. These findings are not specific to the coronavirus crisis: in fact, even during the 2008 crisis,
+female entrepreneurs had a similar experience. The study conducted by Ahmed et al. (2020) provides valuable
+insights into the differential effects of the 2008 financial crisis on male- and female-led firms in six European and
+Asian countries. The study is based on firm-level data, which is a robust and reliable source of information, and from
+multiple countries, which increases the generalizability of the findings. Their results showed that the exit rate for
+female-led firms was higher than for male-led firms, indicating that female-led firms were more vulnerable to the crisis. The study also finds that in the long term, the impact of the crisis was stronger for female-led firms. However,
+ELOUARDIGHI and OUBEJJA 1747
+the study is based on data collected immediately after the crisis, which means that the long-term effects of the crisis
+on female-led firms may be underestimated.
+The COVID-19 pandemic has had a significant impact on global economies, leading to job losses, reduced
+income, and increased poverty rates. In response, policymakers and researchers are exploring ways to promote economic growth (Ezzahid & Elouaourti, 2021a, 2021b) and support vulnerable populations. Inequality in the labor market is a persistent issue that has been further exacerbated by the COVID-19 health crisis. To understand the impact
+of the crisis on various segments of the labor market in Turkey, Aldan et al. (2021) conducted a study utilizing quarterly labor force data from 2005 to 2020. The empirical results revealed that the crisis reduced labor market participation for all population groups in Turkey, but the impact was heterogeneous in size. However, this impact was
+more important on women, older people, and people with low levels of education. Similar results were found in
+Suleiman's (2021) analysis on the effect of the COVID-19 crisis on female employment in North African countries
+(Egypt, Morocco, and Tunisia). The results from the descriptive analysis show that female labor force participation
+has declined since the outbreak of the COVID-19 health crisis, particularly in Egypt and Morocco. Ultimately,
+increasing female participation in the labor market remains a challenge for governments in the North African region
+(Ibourk & Elouaourti, 2023). The findings of both studies demonstrate the unequal impact of the COVID-19 health
+crisis on different segments of the labor market, with vulnerable groups such as women, older individuals, and those
+with lower levels of education being hit harder. One potential solution is to promote entrepreneurship, particularly
+among women who have been disproportionately affected by the pandemic. The study of Ge et al. (2022) aimed to
+examine the role of women's entrepreneurship and innovative use of technology in contributing to household
+income during the pandemic. The study found that women entrepreneurs are adept at innovating, taking risks, and
+combining various factors to cope with the uncertain business environment. To gather data, the study used a selfadministered questionnaire in selected rural and urban areas of Faisalabad district, and an ordered logit model was
+used to estimate the effects of various factors such as age, education, family size, income from other sources, time
+allocated to entrepreneurial activity, firm size, and location on the contribution of entrepreneurial income to household income. The results showed that education, family size, time allocated to entrepreneurial activities, and firm size
+had a positive and significant impact on the contribution of entrepreneurial income to household income. Moreover,
+the study found that the contribution of entrepreneurial income to household income was significantly higher in rural
+areas compared with urban areas. The study concludes that creating an environment that encourages gender equality and entrepreneurial culture among women can help increase family income and contribute to Sustainable Development Goals (SDGs) 5 and 8, which relate to gender equality and decent work and economic growth. Overall, this
+study provides valuable insights into the importance of women's entrepreneurship in promoting economic growth
+and reducing gender inequality.
+3 | STYLIZED FACTS: FEMALE-LED FIRMS IMPACTED THE MOST
+Analysis of the impact of COVID-19 on 12 Moroccan regions showed that the region with the highest number of
+COVID-19 cases is also the most affected in terms of lost economic growth (Figure 1). This correlation is likely due
+to measures taken to curb the spread of the virus, such as closures and restrictions on business activities. These measures resulted in firm closures and job losses, leading to a decline in economic activity.
+A graphical analysis of the principal indicators from the Enterprise Survey: impact on firms (Morocco) database,
+covering the year 2020 and three waves of coronavirus propagation, showed that the impact of the COVID-19
+health crisis was heterogeneous between the gender of the firm's leader as well as between the survey period. At
+the time of the first survey round (after the first wave of COVID-19 occurred after March 2020), the impact of the
+COVID-19 crisis as well as the adjustment measures applied by firms were identical between those directed by men
+and those directed by women. From Figure 2 we can conclude that at the time of the first survey: impact on firms,
+the two categories of firms were at similar levels in the percentage of permanent closures since the COVID-19
+1748 ELOUARDIGHI and OUBEJJA
+pandemic was officially announced, the percentage of temporary closures during the COVID-19 epidemic, and the
+percentage of beneficiaries of government or local support. However, for other indicators, the two categories of
+firms differed in the proportion of the workforce working remotely, the percentage of firms that have adapted or
+changed their production or services, and the percentage of firms that have started or increased their online commercial activity. Male-led firms outperformed female-led firms in the first round of the survey. This shows a speed of
+adaptation to the changes caused by the COVID-19 health crisis by male-led firms.
+FIGURE 1 The regions with the highest number of COVID-19 cases are the most impacted. Source: Author
+creation based on Haut-Commissariat au Plan (HCP) data.
+FIGURE 2 The COVID-19 health crisis and Moroccan firms, by gender: round 1. Source: Author creation.
+ELOUARDIGHI and OUBEJJA 1749
+The dynamic analysis of the same indicators in the second round of the survey shows that for indicators related to
+the situation/performance of firms during the COVID-19 health crisis (percentage of firms that closed definitely or temporarily), female-led firms were more affected in the second wave of the COVID-19 crisis (Figure 3). This may be
+explained by the fast adaptability of male-led firms to the circumstances of the COVID-19 crisis observed in the first
+round of the survey, allowing them to reduce the impact of the health crisis on their activities and their firms. Analysis
+of the same ‘adaptation’ indicators (online sales, home delivery and remote working, etc.) in the second round of the
+survey shows that women-led firms have made significant progress compared with men-led firms. However, in terms
+of indicators referring to the change of business activity and online sales, male-led firms remain in the lead. After the
+second wave of COVID-19, which began in July 2021, the proportion of the workforce working remotely and the percentage of firms that had started home delivery were at the same level for both categories of firms.
+After the second wave of COVID-19, a graphical analysis of the performance indicators and adaptation policies
+implemented at the enterprise level shows that, at the time of the third survey round (after the third wave from
+December 2021 onward), the percentage of enterprises that have definitely or temporarily closed due to the
+COVID-19 health crisis was higher among enterprises headed by women compared with those headed by men. The
+gap in adaptability to the change provoked by this crisis persists at the time of the third round of the survey
+depending on the gender of the leader of the firm, and for the part of firms that have started remote working and
+home delivery, female-led firms are in front of their male-led competitors (Figure 4). Meanwhile, for indicators relating to online sales and the percentage of firms that have adapted or changed their production or services, male-led
+firms are in the lead. The COVID-19 pandemic has presented unprecedented challenges to individuals and businesses. In response, numerous studies have emerged to explore various aspects of the pandemic, including its epidemiology, public health response, economic impact, and social implications. The study of Yu et al. (2022) investigated
+the relationship between knowledge of COVID-19, social distancing behavior, attitudes toward social media use, and
+practices of social media use during the pandemic. The study analyzed data from 348 participants who experienced
+direct or indirect effects of COVID-19. The results confirm the proposed hypotheses and demonstrate significant
+correlations between COVID-19 knowledge, social distancing, attitudes toward social media use, and practices of
+social media use. The study highlights the potential benefits of using social media for businesses, particularly for
+small and medium enterprises, to reach new markets and customers. The study suggests that businesses should
+invest in online training programs and work-from-home opportunities to give employees flexibility.
+FIGURE 3 The COVID-19 health crisis and Moroccan firms, by gender: round 2. Source: Author creation.
+1750 ELOUARDIGHI and OUBEJJA
+This preliminary analysis of the impact of the COVID-19 health crisis on the Moroccan entrepreneurial environment reveals that (1) the impact was heterogeneous by gender of firm head and by survey period, (2) female-led
+firms were more affected by the COVID-19 health crisis than those led by men, and (3) the fast application of policy
+adaptation was one of the determining factors that reduced the impact of the COVID-19 health crisis on men-led
+enterprises.
+4 | EMPIRICAL METHODOLOGY: DATA, VARIABLES, AND EMPIRICAL
+MODEL
+4.1 | Data
+We mobilize a micro-level database for 1,096 firms located in all Moroccan regions. It should be noted that the
+administrative division in Morocco is composed of 12 regions as defined by Dahir no. 2-15-40 of February 20, 2015.
+However, the survey of the firms’ database was limited to only nine regions (Table 1), excluding the three Moroccan
+regions of the south, which are the Guelmim-Oued Noun region, the Laayoune-Saguia El Hamra region, and the
+Dakhla-Oued Eddahab region. Our study will be extended to all 12 Moroccan regions if the data become available
+for the rest of the national regions.
+The cross-tabulation of the 1,096 companies in our sample by firm size and by gender of the leader reveals that
+only 76 firms are led by women, with a percentage of 7% of our sample, a relatively low proportion that reveals the
+low presence of women in leading positions in Moroccan firms of all sizes (Table 2). It is important to note that the
+reasons why women lead only 7% of firms in Morocco may be complex and multifaceted, influenced by a variety of
+social, cultural, economic, and political factors. Following are some potential arguments that may contribute to this
+disparity. Societal norms and expectations: traditional gender roles and societal expectations may discourage women
+from pursuing leadership positions in business (Sahraoui, 2016). Women may be expected to prioritize their family
+responsibilities over their career, limiting their ability to dedicate time and resources to their businesses. Limited
+access to education and resources: women may have limited access to education and resources necessary for
+FIGURE 4 The COVID-19 health crisis and Moroccan firms, by gender: round 3. Source: Author creation.
+ELOUARDIGHI and OUBEJJA 1751
+starting and growing a business. This can include access to capital, networks, mentorship, and training programs.
+Gender bias: in terms of economic participation and opportunity, the kingdom placed 148th out of 156 countries on
+the World Economic Forum's Gender Gap Index for the year 2021. Women may face gender bias and discrimination
+in the business world, such as being overlooked for leadership roles or being offered lower salaries than their male
+counterparts. This can be explained by the glass ceiling hypothesis, a concept defined by the US Department of
+Labor in 1991 as ‘artificial barriers based on organizational attitudes or prejudices that prevent qualified individuals
+from attaining leadership positions in their organizations’ (Grout et al., 2007). Legal barriers: Morocco may have legal
+barriers that limit women's ability to start and grow a business. The question of the legal position of women in
+Morocco has been extensively deliberated, with legal provisions that establish gender disparities considered not only
+legitimate but also revered due to the intimate connection between Moroccan legislation and the Quran (Hilali
+et al., 2020). Lack of support: women may not have the same level of support as men when starting and growing a
+business. This can include lack of access to business incubators, accelerators, and other support programs.
+4.2 | Study variables
+This paper aims to examine the effects of the COVID-19 health crisis on female-led firms, taking into account variations in size and region. Specifically, we seek to explore how the pandemic has influenced the performance and resilience of businesses led by women. In addition, we will test hypotheses related to the differential impacts of the crisis
+on female entrepreneurs on the basis of their firm size and geographic location. Due to missing data on the variable
+TABLE 1 Sample firms by size and region.
+Region Large Medium Small Total
+Béni Mellal-Khénifra et Darra Tafilalt 9 34 79 122
+Casablanca-Settat 43 56 62 161
+Fès-Meknès 43 59 31 133
+Marrakech-Safi 39 48 44 131
+Oriental 17 36 74 127
+Rabat-Salé-Kénitra 54 62 36 152
+Souss-Massa 26 34 65 125
+Tanger-Tétouan-Al Houssaima 72 46 27 145
+Total 303 375 418 1,096
+Source: Author creation.
+TABLE 2 Number of enterprises by size and gender of leader.
+Is the top manager woman?
+No Yes Total
+Firm size
+Large 285 18 303
+Medium 353 22 375
+Small 382 36 418
+Total 1,020 76 1,096
+Source: Author creation.
+1752 ELOUARDIGHI and OUBEJJA
+that informs on the definitive closing of firms, we mobilize the variable ‘Did this firm close temporarily due to the
+COVID-19 outbreak?’ as the dependent variable, while controlling our model by a set of variables that determine
+the performance of the firm including age and whether the firm is a subsidiary, and creating other binary variables by
+firm size, sector of activity, and region (Table 3).
+The high percentage of firms that temporarily closed during the first wave of the COVID-19 health crisis in
+Morocco suggests that this wave had the greatest impact on the country's economic environment. However, the
+proportion of firms that temporarily closed decreased significantly in the second wave, to only 14%, and then slightly
+increased to 17% in the third wave. This could be due to a variety of factors, including increased preparedness of
+firms for the pandemic, better communication and coordination from the government, or simply lower case numbers
+in later waves.
+Despite the challenges faced by firms during the pandemic, many adopted adjustment policies to try and mitigate the impact on their operations. Information technology has been instrumental in helping firms adapt and navigate through the challenges posed by the COVID-19 pandemic (Abbas, Wang, et al., 2021). It enabled remote work,
+virtual communication, e-commerce, data analysis, cybersecurity, and digital transformation, allowing businesses to
+continue their operations and serve their customers in a rapidly changing landscape. The COVID-19 pandemic
+brought about rapid transformations in people's daily lives, prompting unexpected changes in consumer behavior
+and fostering previously unprecedented online buying habits. In their study, Al Halbusi et al. (2022) indicate that several factors positively influence customer satisfaction with online purchasing. These factors include hedonic motivation (the pleasure and enjoyment derived from the online shopping experience), habits (repetitive behavior in using
+online platforms), perceived risk (the perceived level of risk associated with online shopping), and technological
+awareness (knowledge and familiarity with technology). Online commercial activity was the most common policy
+adopted by firms in all three waves, with 28% of firms using this approach in the first and third waves, and 41% in the
+TABLE 3 Descriptive statistics.
+Variable Obs. Mean Std. Dev. Min Max
+1. Dependent variables
+Firms that have closed temporarily (round 1) 715 0.678322 0.467447 0 1
+Firms that have closed temporarily (round 2) 568 0.146127 0.353545 0 1
+Firms that have closed temporarily (round 3) 587 0.172061 0.377756 0 1
+2. Characteristics of the firm
+Age of the firm 1,001 21.07293 14.2367 3 93
+Experience of the leader 970 17.09794 11.2222 1 60
+Top manager is a woman 1,096 0.069343 0.254153 0 1
+Firms located in the kingdom's capital 1,096 0.071168 0.257222 0 1
+Size of the locality 823 3.556501 0.68626 1 4
+3. Crisis adjustment policy COVID-19
+Online commercial activity (round 1) 781 0.277849 0.448226 0 1
+Home delivery (round 1) 781 0.252241 0.434577 0 1
+Telework (round 1) 781 0.224072 0.417237 0 1
+Online commercial activity (round 2) 582 0.407217 0.491738 0 1
+Home delivery (round 2) 582 0.249141 0.432888 0 1
+Online commercial activity (round 3) 591 0.284264 0.451445 0 1
+Home delivery (round 3) 591 0.143824 0.351209 0 1
+Source: Author creation.
+ELOUARDIGHI and OUBEJJA 1753
+second wave. This suggests that firms quickly recognized the importance of transitioning to online sales to maintain their
+revenue streams. Home delivery was also a popular policy, with 25% of firms using this approach in the first and second
+waves, and 14% in the third wave. Telework, on the other hand, was adopted by only 22% of firms in the first wave,
+suggesting that this policy may have been less feasible or acceptable in certain sectors or for certain types of work.
+4.3 | Empirical model
+In the context of our study, where the dependent variable is the binary variable ‘Firms that have closed temporarily’,
+the logit model is a suitable technique because it is specifically designed to model binary outcomes. One of the main
+advantages of the logit model over other techniques is its ability to estimate the probability of an event occurring. In
+this case, the logit model can estimate the probability of a firm closing temporarily on the basis of the independent
+variables included in the analysis.
+Additionally, the logit model allows for the estimation of the marginal effects of the independent variables on
+the dependent variable. These marginal effects can provide insight into the relative importance of each independent
+variable in predicting the outcome of interest. Furthermore, the logit model is a widely used technique in empirical
+research and is well established in the literature (Elouaourti & Ezzahid, 2022a). The econometric specification of our
+model on the 1,096 firm microdata is as follows:
+FTCi,j,s,t ¼ α1 þα2ð Þ The top manager is female i,j,s,t þαk
+X7
+k¼3
+Xi,j,s,t þφj þθs þεi,j,t ð1Þ
+where FTC corresponds to the firms that have temporarily closed due to the COVID-19 health crisis and is a binary
+variable equal to 1 if the firm has closed due to COVID-19 and equal to 0 otherwise. Top manager is a female is a
+binary variable equal to 1 if the gender of the company's manager is female and equal to 0 otherwise. X is a vector of
+control variables (age, experience of the manager, etc.), φj is a dummy variable that indicates the sector fixed effect,
+and i, j, s, and t are indices that refer to the firm, the region, the sector, and the time, respectively.
+5 | EMPIRICAL RESULTS AND DISCUSSION
+The objective of this section is to show the empirical results of the estimations on a binary choice model using logit.
+5.1 | The impact of the COVID-19 health crisis on female-led firms: results by firm size
+and COVID-19 waves
+To evaluate the dynamics of the impact of the different waves of the COVID-19 pandemic on small firms led by
+women, we estimate a COVID-19 wave logit model in which the dependent variable is the binary variable that
+informs whether the firm has temporarily closed due to one of the three waves of COVID-19.
+Table 4 presents the results on the impact of the COVID-19 pandemic on female-led small firms in Morocco.
+The study examines the relationship between several variables, including the age of the firm, manager experience,
+subsidiary, size of the locality, and whether the firm is female-led and small. The data are presented across three
+waves. The regression analysis shows that the age of the firm had a significant negative effect on business operations in the first wave, but this effect was not significant in subsequent waves. Manager experience had a positive
+effect on business operations in the first wave, but this effect was not significant in the second and third waves.
+1754 ELOUARDIGHI and OUBEJJA
+Being a subsidiary had a negative effect on business operations in all three waves. The size of the locality did not
+have a significant effect on the business operations of these firms.
+The empirical results (Table 4) show that the impact of the COVID-19 health crisis on small firms tends to increase
+since the second wave. Female-led firms were less affected by closure due to the COVID-19 crisis, a situation that
+changed from the second wave of COVID-19, during which being a female-led firm increased the probability of being
+closed due to the COVID-19 crisis by 3%. This negative impact of COVID-19 on this category of firms became more
+pronounced in the third wave and thus statistically significant, as being a female-led firm increased the probability of
+being closed due to the COVID-19 crisis by 16% in the third wave. Even in Europe the COVID-19 crisis has had a
+severe impact on the prosperity of small and medium-sized enterprises (SMEs), which have traditionally played a vital
+role in the European economy. These SMEs, constituting more than two-thirds of the workforce and contributing more
+than half of the economic value added, have faced significant challenges, as revealed by a recent McKinsey survey conducted in August 2020 (Dimson et al., 2020). The survey encompassed more than 2,200 SMEs across five European
+countries: France, Germany, Italy, Spain, and the United Kingdom. The survey results highlighted the considerable concerns faced by SMEs as a result of the COVID-19 crisis, including potential loan defaults leading to employee layoffs,
+the need to cancel growth projects, and a decline in revenues. Women entrepreneurs typically run smaller and more
+vulnerable businesses, often in industries most affected by pandemic-related lockdowns. The temporary alterations
+within work environments and permanent shutdowns of services and facilities have resulted in increased difficulties for
+female entrepreneurs, specifically those who lead small and emerging businesses. Women who establish small enterprises to support their families are especially impacted, facing additional mental strain in such situations (Bharadwaj
+et al., 2023). Elam et al. (2022) draw on data from the Global Entrepreneurship Monitor (GEM), the World Bank Enterprise Survey (WBES), and the Facebook Future of Business Survey (FoBS) to investigate the pandemic's impact on
+women entrepreneurs and business owners in emerging economies. The data shows that women were more likely to
+report closing their business due to the pandemic than men globally, with women having an 18% increased likelihood
+of business closure. Similar rates of business closures were reported by women and men in low-income countries.
+However, Angola had an extremely high discontinuance rate for both women (35.5%) and men (23.2%).
+Table 5 presents the estimates for the category of medium-sized firms in our sample. According to the results,
+the age of the firm has a negative impact on the likelihood of temporary closure during the first wave of COVID-19.
+Specifically, an increase in the natural logarithm of the firm's age by one unit is associated with a decrease in the
+TABLE 4 Female-led firms and the COVID-19 health crisis: Morocco, small firms.
+Wave 1 Wave 2 Wave 3
+Variables
+Ln (age of the firm) 0.0820** 0.0181 0.0184
+(0.0334) (0.0293) (0.0297)
+Ln (manager experience) 0.0519* 0.00570 0.000194
+(0.0289) (0.0263) (0.0274)
+Subsidiary 0.0472 0.0946 0.0612
+(0.0666) (0.0729) (0.0662)
+Size of the locality 0.00482 0.0142 0.0149
+(0.0309) (0.0278) (0.0286)
+Female * Small 0.0587 0.0355 0.166**
+(0.115) (0.0884) (0.0766)
+Observations 452 357 363
+***p < 0.01.**p < 0.05.*p < 0.1.
+Source: Author creation, statistical significance of the marginal effects.
+ELOUARDIGHI and OUBEJJA 1755
+temporary closure by 0.0808. However, the age of the firm does not significantly affect the probability of temporary
+closure during the second and third waves. Furthermore, manager experience has a positive impact on the likelihood
+of temporary closure during the first wave of COVID-19. An increase in the natural logarithm of manager experience
+by one unit is associated with an increase in the temporary closure by 0.0521. However, manager experience does
+not significantly affect the probability of temporary closure during the second and third waves. Being a subsidiary
+does not significantly affect the likelihood of temporary closure during any of the three waves. Similarly, the size of
+the locality does not significantly affect the probability of temporary closure during the second and third waves.
+Additionally, the impacts of the COVID-19 health crisis on Moroccan medium-sized firms led by women are more
+pronounced during the third wave of COVID-19. At the beginning of the third wave, being a medium-sized firm led
+by a woman increased the probability of closure due to COVID-19 by 11%, but this result is not significant.
+Overall, the findings indicate that the impact of different factors on the likelihood of temporary closure varies
+across the different waves of COVID-19. The age of the firm and manager experience significantly predict the probability of temporary closure during the first wave, while the interaction between female-led firms and medium-sized
+firms significantly predicts temporary closure during the third wave. Being a subsidiary and the size of the locality do
+not significantly affect the probability of temporary closure during any of the three waves.
+Table 6 presents the estimates of a logit model for large firms headed by women. One of the limits of our database is the relatively small number of large firms headed by women (18 firms) (Table 2) compared with the other categories of firms (small and medium-sized firms), a fact that caused the estimates of our model for the second and
+third waves to be omitted, due to the absence of data on the variable ‘size*Top manager is female’, which led to a
+collinearity problem in the estimates and consequently the variable ‘large firm*Top manager is female’ for the second and third waves was omitted. To overcome this problem, we transformed our database into a dynamic structure
+that takes all three waves at the same time. The estimates of a logit model on the firm-level data for all three waves
+and by firm size are presented in the following table:
+The findings indicate that the age of the firm has a significant negative impact on the probability of temporary closure during all three waves of COVID-19. An increase in the natural logarithm of the age of the firm by one unit is associated with a decrease in the temporary closure by 0.0694. However, manager experience does not have a significant
+effect on the probability of temporary closure during any of the three waves. Similarly, being a subsidiary and the size
+of the locality do not have a significant effect on the probability of temporary closure during the three waves.
+TABLE 5 Female-led firms and the COVID-19 health crisis: Morocco, medium-sized firms.
+Wave 1 Wave 2 Wave 3
+Variables
+Ln (age of the firm) 0.0808** 0.0162 0.0139
+(0.0338) (0.0293) (0.0297)
+Ln (manager experience) 0.0521* 0.00543 0.00147
+(0.0289) (0.0263) (0.0278)
+Subsidiary 0.0480 0.0933 0.0650
+(0.0669) (0.0731) (0.0668)
+Size of the locality 0.00420 0.0133 0.0149
+(0.0310) (0.0278) (0.0287)
+Female * Medium 0.0124 0.0422 0.117
+(0.153) (0.144) (0.125)
+Observations 452 357 363
+***p < 0.01.**p < 0.05.*p < 0.1.
+Source: Author creation, statistical significance of the marginal effects.
+1756 ELOUARDIGHI and OUBEJJA
+The results of our logit model estimations by firm size highlighted that large firms were less affected by the
+COVID-19 health crisis than the other two categories of firms, small and medium. Being a large firm led by a woman
+reduced the probability of closing due to COVID-19 by 27%, which is significant. The results by firm size over the
+three waves of COVID-19 (Table 7) confirm our results found previously, that small firms were the category most
+affected by the COVID-19 crisis. A similar result was found by Boutafrout and Mdarbi (2021), who studied the
+impact of the coronavirus on Moroccan very small and medium-sized enterprises. They used statistics from the High
+Commission for Planning and an empirical study of 54 SMEs. Their results showed that those firms suffered most
+from the fragility of their management system and the lack of financing. This result is consistent for other countries,
+for example, Homayoun et al. (2023) examined the impact of the COVID-19 pandemic on small and medium enterprises (SMEs) in emerging markets such as Iran, Iraq, and Jordan. The researchers used a standard questionnaire to
+collect data from managers, accountants, and auditors in both listed and non-listed companies during the second
+quarter of 2022. The findings indicate that the outbreak of COVID-19 had a significant impact on the performance
+of SMEs in these markets. Despite experiencing decreased financial and communication performance due to pandemic limitations, SMEs have adopted advanced technologies and methods, resulting in substantial changes in internal processes and increased innovation. Given its long-standing recommendation, innovation has been recognized as
+a highly effective strategic response to crises (Wenzel et al., 2020). Markovic et al. (2021) demonstrated in their
+study that the best approach to fostering innovation is by selecting suitable business partners. Through qualitative
+data collected from SMEs in Bosnia and Herzegovina during March–April 2020, the researchers found that SMEs
+have embraced new collaborations with both customers and competitors, adopting a collaborative mindset instead
+of the traditional competitive approach in emerging markets.
+5.2 | The impact of the COVID-19 health crisis on female-led firms: results by region of
+location
+The objective of this subsection is to study the impact of the COVID-19 health crisis on female-led firms in each
+Moroccan region. As noted previously, the administrative division of Morocco is composed of 12 regions, however,
+TABLE 6 Female-led enterprises and the COVID-19 health crisis: Morocco, large firms.
+Variables
+Wave 1
+Model
+Ln (age of the firm) 0.0824**
+(0.0333)
+Ln (manager experience) 0.0548*
+(0.0288)
+Subsidiary 0.0465
+(0.0664)
+Size of the locality 0.00729
+(0.0309)
+Female * Large 0.245
+(0.165)
+Observations 452
+***p < 0.01.**p < 0.05.*p < 0.1.
+Source: Author creation, statistical significance of the marginal effects.
+ELOUARDIGHI and OUBEJJA 1757
+the Enterprise Survey database was limited to surveying only nine regions. Table 8 presents the estimates of a logit
+model incorporating the variables ‘Top manager is female* region of the firm’ to assess the impact of COVID-19 by
+region. Our empirical results show that firms headed by female managers in the regions of Beni Mellal-Khenifra,
+Drâa-Tafilalet, Oriental, and Marrakech-Safi are the firms most affected by the COVID-19 health crisis. It should be
+noted that this result is statistically significant for firms led by women in the Oriental region. Female-led firms
+located in the regions of Casablanca-Settat, Rabat-Salé-Kénitra, and Souss-Massa were less affected by the COVID19 health crisis.
+The COVID-19 pandemic has brought about various challenges globally. These challenges include healthcare
+needs, workplace harassment, economic downturn, energy consumption concerns, and food security issues (Zhuang
+et al., 2022). The disruptions caused by the crisis have led to supply chain disruptions, reduced agricultural production, and difficulties in accessing nutritious food for vulnerable populations, without forgetting the sociocultural risk
+factors that contribute to suicidal behavior emerging with the COVID-19 pandemic in the developing countries. Factors such as the fear of being infected, economic pressure, and lack of resources due to lockdown measures were
+found to be major contributors to the increase in suicides (Shoib et al., 2021). As a low-middle-income and an agricultural country, Morocco has faced significant challenges. The studies that have analyzed the impact of the COVID-19
+crisis on the Moroccan economy have shown that in times of crisis, the size of the informal sector affects the economic environment of the region (Ait Ali, El Aynaoui, et al., 2020; Haddad et al., 2020). Ait Ali, El Aynaoui, et al.
+(2020) used a three-part empirical methodology (descriptive, econometric estimation, and input–output tables). Their
+results found that the regions of Casablanca-Settat, Tangier-Tetouan-Al Hoceima, and Marrakech-Safi contribute the
+most to national production and experienced the highest losses compared with the other regions. Similarly, the
+empirical results obtained by Haddad et al. (2020), who studied the macroeconomic, sectoral, and regional impacts
+of the preventive measures related to the COVID-19 crisis in Morocco, show a decline in GDP reaching 10.13% of
+annual GDP, mainly concentrated in the regions (Casablanca-Settat; Tangier-Tetouan-Al Hoceima; Marrakech-Safi;
+TABLE 7 Female-led firms and the COVID-19 health crisis: Morocco, estimates by firm size.
+(1) (2) (3)
+Variables
+Ln (age of the firm) 0.0694*** 0.0702*** 0.0694***
+(0.0267) (0.0266) (0.0264)
+Ln (manager experience) 0.0287 0.0291 0.0264
+(0.0236) (0.0236) (0.0235)
+Subsidiary 0.0174 0.0153 0.0209
+(0.0504) (0.0506) (0.0500)
+Size of the locality 0.00321 0.00314 0.00511
+(0.0270) (0.0270) (0.0269)
+Female * Small 0.00428
+(0.0761)
+Female * Medium 0.0456
+(0.132)
+Female * Large 0.270*
+(0.146)
+Observations 554
+***p < 0.01.**p < 0.05.*p < 0.1.
+Source: Author creation, statistical significance of the marginal effects.
+1758 ELOUARDIGHI and OUBEJJA
+TABLE 8 Female-led firms and the COVID-19 health crisis: Morocco, by region.
+(1) (2) (3) (4) (5) (6) (7) (8)
+Variables
+Ln (Age of business) 0.0692*** 0.0654** 0.0698*** 0.0712*** 0.0636** 0.0560** 0.110*** 0.0701***
+(0.0263) (0.0264) (0.0266) (0.0266) (0.0265) (0.0272) (0.0285) (0.0266)
+Ln (manager experience) 0.0304 0.0305 0.0288 0.0259 0.0284 0.0302 0.0335 0.0293
+(0.0235) (0.0236) (0.0236) (0.0242) (0.0236) (0.0235) (0.0231) (0.0236)
+Subsidiary 0.0201 0.0233 0.0173 0.0176 0.00773 0.0310 0.00250 0.0182
+(0.0502) (0.0497) (0.0503) (0.0502) (0.0503) (0.0504) (0.0502) (0.0503)
+Size of the locality 0.00730 0.00401 0.00326 0.00147 0.00172 0.000231 0.00951 0.00393
+(0.0269) (0.0268) (0.0270) (0.0284) (0.0272) (0.0267) (0.0273) (0.0270)
+Female top manager (Béni Mellal-Khénifra and DrâaTafilalet) 0.190 (0.170)
+Female top manager (Casablanca-Settat) 0.314**
+(0.137)
+Female top manager (Fès-Meknès) 0.0117
+(0.180)
+Female top manager (Marrakech-Safi) 0.0238
+(0.0463)
+Female top manager (Oriental) 0.105**
+(0.0512)
+Female top manager (Rabat-Salé-Kénitra) 0.0874**
+(0.0422)
+Female top manager (Souss-Massa) 0.249***
+(0.0759)
+Female top manager (Tanger-Tétouan-Al Hoceima) 0.144
+(0.198)
+Number of firms 1,096 1,096 1,096 1,096 1,096 1,096 1,096 1,096
+Observations 554 554 554 554 554 554 554 554
+***p < 0.01.**p < 0.05.*p < 0.1.
+Source: Author creation, statistical significance of the marginal effects.
+ELOUARDIGHI and OUBEJJA 1759
+Souss-Massa) that contribute most to the country's GDP. This study has mobilized the input–output analysis methodology on the basis of the hypothetical extraction approach. The comparison of these results with the results
+obtained in our study leads us to conclude that the firms headed by women in our study, which are mainly part of
+small and medium enterprises concentrated in the regions contributing the most to the national production, have
+succeeded in reducing the impact of the coronavirus crisis by means of the governmental supports dedicated to the
+companies the most exposed to the risks of the COVID-19 crisis. In fact, the policies and measures taken by
+Morocco (payment of allowances to workers in the formal and informal sectors and public spending on health) have
+made it possible to reduce the impact of the COVID-19 crisis on the Moroccan economy by nearly two percentage
+points (Haddad et al., 2020, p.14).
+In sum, this paper aims to investigate the impact of the COVID-19 pandemic on Moroccan firms led by women,
+specifically looking at whether the effects are short or long term, and how the different waves of the pandemic have
+affected firms by size and region. The study uses a microeconomic database consisting of 1,096 Moroccan firms
+observed during the first three waves of the pandemic. The results show that small firms were the most affected by
+the crisis, and firms located in certain regions were also disproportionately affected. This study is unique in that it is
+the first to empirically examine the impact of the health crisis in Morocco at the enterprise level, and it also examines
+the impact on female-led firms by size and region. The study has implications for practice by identifying best practices for mitigating the impact of the crisis on firm sustainability, and for research by filling a gap in the literature by
+investigating the impact of the crisis on firms by gender of the manager and at the meso-economic level.
+In light of the study's results, several policy recommendations can be made with specific action points. Firstly,
+providing targeted support for small firms and firms located in regions most affected by the pandemic is recommended. This support could include financial assistance in the form of grants or low interest loans, as well as
+resources to help these firms adapt and recover. This could help mitigate the negative effects of the crisis on the sustainability of these firms and ensure their continued operation. Secondly, empowering and supporting female entrepreneurs is important. Programs and initiatives providing training, mentorship, access to funding, and networking
+opportunities should be encouraged to create a support system for female entrepreneurs and encourage more
+women to start and grow their businesses. Thirdly, investing in digital infrastructure and supporting the development
+of digital skills is essential to facilitate the digital transition of firms and entrepreneurs. This will help small businesses
+and entrepreneurs adapt to the new norm, increase their competitiveness, and be more resilient in the face of future
+crises. Fourthly, encouraging economic diversification in regions that have been hit hard by the pandemic is recommended. This could include investing in new industries and providing support for businesses to diversify their
+products or services, reducing dependence on certain sectors or industries, and mitigating the impact of future crises.
+Fifthly, fostering collaboration and partnerships between firms, academia, and government is key. Sharing knowledge
+and resources, as well as developing new products and services, will enable firms to better adapt to the new norm
+and be more resilient. Lastly, providing tax relief, subsidies, and other incentives to firms that successfully adapt to
+the new norm and continue to innovate is important. This will encourage innovation and entrepreneurship, allowing
+firms to continue to grow and develop.
+6 | DISCUSSION
+The COVID-19 pandemic has had a profound impact on global economies and financial markets (Chen & ChiaWei, 2021), affecting various sectors and regions differently and leading to severe outcomes in terms of poverty and
+welfare, especially in developing nations (Loayza, 2020). Understanding the heterogeneous nature of this impact is
+crucial for formulating effective policies and interventions. Our analysis reveals a significant correlation between the
+number of COVID-19 cases and lost economic growth across the Moroccan regions. Remarkably, the region with
+the highest number of COVID-19 cases also experienced the most severe economic repercussions. This highlights
+the interconnectedness of public health and economic outcomes during the pandemic, which is why health
+1760 ELOUARDIGHI and OUBEJJA
+containment policies and economic support policies are complementary and highly effective in combating COVID-19
+while preventing long-term economic decline (Leibovici & Famiglietti, 2022). By effectively controlling the virus,
+health containment measures create a safer environment for economic recovery, while economic support policies
+provide necessary financial stability for individuals and businesses, averting prolonged economic contraction. The
+COVID-19 pandemic had a significant impact on various sectors of the economy, with the tourism, hospitality, and
+customer service industries being among the hardest hit (Alsamhi et al., 2022). These sectors rely heavily on travel,
+social interaction, and customer engagement, all of which were severely disrupted by the pandemic. The COVID-19
+pandemic has had a profound effect on various characteristics of businesses, including their performance (Shen
+et al., 2020), governance structure, liquidity, and level of leverage (Khatib & Nour, 2021). Small and medium-sized
+enterprises (SMEs) face heightened vulnerability compared with other types of firms, particularly during times of crisis due to their limited time and resources (Markovic et al., 2021). These constraints significantly impact the operations and performance of these firms (Homayoun et al., 2023; Veselinova & Samonikov, 2021). In the analysis of the
+evolving impact of the health crisis on Moroccan female-led firms, by size in nine regions of Morocco, we find evidence of gender disparities, both in terms of firm closures and adaptability to the crisis. Our study reveals that the
+impact of the COVID-19 health crisis on small firms has been increasing since the second wave, particularly on
+female-led enterprises. This suggests that the challenges faced by these firms have intensified over time, posing a
+growing threat to their survival and operations. Interestingly, female-led firms initially experienced a lower likelihood
+of closure due to the COVID-19 crisis. However, this situation changed during the second wave, when female-led
+firms exhibited a 3% increase in the probability of closure. The negative impact on this category of firms became
+even more pronounced in the third wave, with a statistically significant 16% increase in the probability of closure for
+female-led firms. The significant rise in closure probabilities for female-led firms during the third wave underscores
+the enduring gender disparity in the impact of the health crisis on businesses. Additionally, by examining the genderbased differences in the impact of the health crisis on the effectiveness of adjustment measures employed, we
+observed a heterogeneous impact of the COVID-19 health crisis on the basis of the gender of the firm's leader. This
+suggests that gender may play a role in determining the extent of the economic impact experienced by firms. Furthermore, the impact varied between different survey periods, indicating the evolving nature of the pandemic and its
+effects on businesses. These findings underline the need for timely and context-specific interventions to mitigate
+negative consequences. Initially, the adjustment measures implemented by firms, regardless of the gender of the
+firm's leader, were largely identical. This suggests that in the early stages of the pandemic, the response strategies
+were similar among male- and female-led firms. However, as the crisis progressed, there were differences in the
+impact of the pandemic on female-led firms compared with male-led firms. Indicators related to the situation and
+performance of firms during the health crisis, such as the percentage of firms that closed definitively or temporarily,
+revealed that female-led firms were more affected during the COVID-19 crisis.
+Additionally, the gap in adaptability to the changes brought about by the crisis continued to persist, depending
+on the gender of the firm's leader. This suggests that female-led enterprises faced greater challenges in adapting to
+the evolving circumstances during the pandemic. The rapid implementation of policy adaptation measures emerged
+as a crucial factor in reducing the impact of the health crisis on male-led enterprises. We find that firms headed by
+female managers in the regions of Beni Mellal-Khenifra, Drâa-Tafilalet, Oriental, and Marrakech-Safi are among the
+most affected by the COVID-19 health crisis. Notably, the impact on female-led firms in the Oriental region is statistically significant, emphasizing the severity of the challenges faced by businesses in that area. Conversely, female-led
+firms located in the regions of Casablanca-Settat, Rabat-Salé-Kénitra, and Souss-Massa were relatively less affected
+by the COVID-19 health crisis. These regions exhibited a comparatively lower impact on female-led firms, indicating
+a variation in the level of vulnerability and resilience across different geographic areas. This finding underscores the
+importance of prompt policy responses in mitigating the economic consequences of the pandemic. It further emphasizes the need for gender-sensitive interventions to address the disproportionate impact faced by female-led firms
+and to promote equitable recovery from the COVID-19 crisis.
+ELOUARDIGHI and OUBEJJA 1761
+7 | CONCLUSION
+This study explores the effects of the COVID-19 health crisis on female-led firms in Morocco, categorized by size and
+region. Our preliminary analysis reveals that female-led firms were more severely affected by the crisis than male-led
+firms, largely due to differences in policy adaptation. Specifically, male-led firms were quicker to adapt, thereby minimizing the impact of the crisis on their businesses. To assess the impact of the crisis on firms in Morocco, we used microlevel data from a sample of 1,096 firms from 9 of the country's 12 regions. The Guelmim-Oued Noun region, the
+Laayoune-Saguia El Hamra region, and the Dakhla-Oued Eddahab region were not included in the survey. The findings
+of the research indicate that the COVID-19 pandemic has had a significant impact on small firms, particularly those
+located in the regions of Beni Mellal-Khenifra, Drâa-Tafilalet, Oriental, and Marrakech-Safi. The study used a logit
+model of COVID-19 to estimate the effects on different categories of firms. The results suggest that small firms were
+more severely affected than large firms. The analysis further reveals that the government's support has been directed
+toward firms located in regions that contribute the most to national production and were most affected by the epidemic. This approach has helped to reduce the impact of the pandemic on these firms and their activities.
+Overall, this study fills a gap in the existing literature on the impact of the COVID-19 pandemic on firms. It provides empirical evidence on the challenges that female firm managers have faced during the crisis situation. By
+highlighting the differential impact of the pandemic on small and large firms and on different regions, this study contributes to the development of more targeted policy responses to support firms in these challenging times. Our
+study's implications provide valuable insights to policymakers and useful information for scientific readership.
+The COVID-19 pandemic in Morocco has compelled business leaders and owners to swiftly mobilize and make
+prompt decisions, such as reducing industrial output or temporarily ceasing operations. These decisions may have
+unanticipated long-term consequences. The implementation of government lockdown policies has significantly
+influenced the performance of businesses. Therefore, it is essential for firms to have a scalable and effective emergency plan in place, ready to respond to unexpected events (Alsamhi et al., 2022). Furthermore, this pandemic serves
+as a valuable learning opportunity for businesses, enabling them to better prepare for future similar challenges. Our
+study provides evidence of the challenges that female-led firms faced during the pandemic. Women are the backbone of communities across the globe, and their businesses have a profound impact on uplifting families, communities, and societies as a whole (OECD Network, 2021). They have exhibited their aptitude in not only handling small
+enterprises, but also in turning them into highly profitable large industries (Bharadwaj et al., 2023). Our study reveals
+that small firms have been more severely affected by the pandemic, especially those led by women in some regions.
+It is imperative to prioritize the establishment of a business environment that acknowledges and addresses the
+unique needs and contributions of women. These findings call for targeted policies and interventions that address
+the specific challenges faced by female-led enterprises and promote gender equality in the face of future crises.
+Governments and policymakers have a vital role in securing the long-term presence of women entrepreneurs
+and their businesses. To begin with, it is crucial to ensure the survival and growth of women entrepreneurs during
+the COVID-19 pandemic by implementing targeted fiscal support packages specifically tailored for women-owned
+micro-, small, and medium-sized enterprises (MSMEs). Placing women entrepreneurs at the forefront of economic
+policies and promoting equal access to finance from all available sources necessitates the elimination of discriminatory practices in the loan application process. Additionally, legislators should promptly assess and revoke policies and
+regulations that discriminate against women entrepreneurs or hinder their business achievements. Lastly, we urge
+governments to endorse the collection, analysis, and dissemination of gender-specific data on MSMEs and entrepreneurship. This will enable legislation, policies, support packages, and financial products and services to be developed
+with the consideration of the unique needs of women entrepreneurs.
+COVID-19 has the potential to reshape society beyond the realm of health, and the response from innovation is
+expected to address these transformations. As new challenges arise, the speed at which organizations can introduce
+innovative solutions becomes just as crucial as other managerial actions required during a crisis (Ebersberger &
+Kuckertz, 2021). Furthermore, to adapt to the challenges brought about by the pandemic, firms have increasingly
+1762 ELOUARDIGHI and OUBEJJA
+turned to digital solutions to enable remote work, virtual communication, online transactions, and other essential
+operations. This rapid adoption of digital technologies has allowed businesses to continue functioning amid social
+distancing measures and restrictions on physical interactions. Consequently, it is crucial for policymakers to recognize the importance of investing in digital technologies and infrastructure. By increasing funding in this area,
+policymakers can support businesses in their digital transformation efforts. This includes improving access to highspeed internet, investing in cybersecurity measures, providing resources for digital skills training, and facilitating the
+development and implementation of innovative digital tools and platforms. By enhancing investment in digital technologies, policymakers can help businesses not only navigate the challenges posed by the pandemic, but also build
+resilience for future crises. Embracing digital transformation allows businesses to adapt quickly, operate remotely,
+reach customers through online channels, and maintain business continuity even when faced with disruptions. Overall, increasing investment in digital technologies is a strategic step toward ensuring the long-term success and resilience of businesses in a rapidly evolving digital landscape. These recommendations aim to support the sustainability
+of firms, promote economic recovery, and encourage a more resilient and inclusive economy.
+In terms of limitations, we faced a lack of data availability. The sample size of 1,096 Moroccan firms may not be
+representative of all female-led firms in Morocco, and the data extracted from the ‘Enterprise Survey: impact on
+firms’ database of the World Bank may have limitations in terms of the variables included or the accuracy of the
+data. Future research could explore the impact of COVID-19 on other types of firms in Morocco, such as male-led
+firms or firms in different industries. Further investigation could also be conducted to analyze the long-term impacts
+of the pandemic on female-led firms in Morocco and how they are adapting to the changing business landscape. A
+comparative analysis could also be conducted to examine the impact of the pandemic on female-led firms in
+Morocco compared with other countries in the region or globally. Future studies could investigate the effectiveness
+of different policy interventions aimed at supporting female-led firms during and after the pandemic. Additionally,
+research could explore the impact of other factors, such as access to finance, technology, or government support, on
+the resilience of female-led firms in Morocco.
+ORCID
+Imane Elouardighi https://orcid.org/0000-0002-1785-5609
+REFERENCES
+Abbas, J., Hussain, I., Hussain, S., Akram, S., Shaheen, I., & Niu, B. (2019). The impact of knowledge sharing and innovation
+upon sustainable performance in Islamic banks: A mediation analysis through an SEM approach. Sustainability, 11(15),
+4049. https://doi.org/10.3390/su11154049
+Abbas, J., Wang, D., Su, Z., & Ziapour, A. (2021). The role of social media in the advent of COVID-19 pandemic: Crisis management, mental health challenges and implications. Risk Management and Healthcare Policy, 14, 1917–1932. https://
+doi.org/10.2147/RMHP.S284313
+Abbas, J., & Al-Sulaiti, K. (2023). Reset the industry redux through corporate social responsibility: The COVID-19 tourism
+impact on hospitality firms through business model innovation. In Economic growth and environmental quality in a postpandemic world (400th, Edition: 1st Chapter ed., Vol. 9). Routledge Taylor and Francis. https://doi.org/10.4324/
+9781003336563-9
+Abbas, J., Mubeen, R., Raza, S., & Iorember, P. (2021). Exploring the impact of COVID-19 on tourism: transformational
+potential and implications for a sustainable recovery of the travel and leisure industry. Current Opinion in Behavioral Sciences, 2, 100033. https://doi.org/10.1016/j.crbeha.2021.100033
+Ahmed, T., Muzi, S., Ueda, K. (2020), Do crises hit female-managed and male-managed firms differently? Evidence from the
+2008 financial crisis, World Bank Group, Gender, Enterprise Note No. 39, P. 7, https://doi.org/10.1596/34458
+Ait Ali, A., Bassou, A., Dryef, M., El Aynaoui, K., El Houdaigui, R., El Jai, Y., Hossaini, F., Jaidi, L., Loulichki, M., Rezrazi, E., &
+Saaf, A. (2020). La Stratégie du Maroc Face au COVID-19 (p. 37). Policy Center for the New South, RP 20-07.
+Ait Ali, A., El Aynaoui, K., El Hossaini, F., & Mandri, B. (2020). Impacts de la COVID-19 sur l'économie Marocaine: un premier
+bilan (pp. 20–36). Policy Center for the New South. P. 27.
+Al Halbusi, H., Al-Sulaiti, K., Abbas, J., & Al-Sulaiti, I. (2022). Assessing factors influencing technology adoption for online
+purchasing amid COVID-19 in Qatar: Moderating role of word of mouth. Frontiers in Environmental Science, 10, 942527.
+https://doi.org/10.3389/fenvs.2022.942527
+ELOUARDIGHI and OUBEJJA 1763
+Aldan, A., Cirakli, M. E., & Torun, H. (2021). COVID-19 and the Turkish labor market: Heterogeneous effects across demographic groups. Structural Economic Research Department, Central Bank of the Republic of Turkey, Central Bank Review, 21,
+155–163. https://doi.org/10.1016/j.cbrev.2021.12.003
+Alsamhi, M. H., Al-Ofairi, F. A., Farhan, N. H. S., Al-ahdal, W. M., & Siddiqui, A. (2022). Impact of Covid-19 on firms' performance:
+Empirical evidence from India. Cogent Business & Management, 9(1). https://doi.org/10.1080/23311975.2022.2044593
+Amin, M., & Viganola, D. (2021). Does better access to finance help firms deal with the COVID-19 pandemic? Evidence from
+firm-level survey data, Policy Research Working Paper 9697. Washington, DC: World Bank.
+Apedo-Amah, M. C., Avdiu, B., Cirera, X., Cruz, M., Davies, E., Grover, A., Iacovone, L., Kilinc, U., Medvedev, D.,
+Maduko, F. O., & Poupakis, S. (2020). Unmasking the impact of Covid-19 on businesses: Firm level evidence from across
+the world, Policy Research Working Paper 9434. Washington, DC: World Bank.
+Baldwin, R., Mauro, B., Mauro, D. i., Mariscal, J., & Lustig, N. (2020). Mitigating the COVID economic crisis: Act fast and do
+whatever it takes. A VoxEU.org Book. CEPR Press.
+Bargain, O., & Aminjonov, U. (2020). Poverty and COVID-19 in developing countries (p. 23). IZA Institute of Labor EconomicsNo 13297.
+Bartik, A., Bertrand, M., Cullen, Z., Glaeser, E., Luca, M., & Stanton, C. (2020). How are small businesses adjusting to COVID19? Early evidence from a survey. NBER Working Paper No. 26989. https://doi.org/10.2139/ssrn.3574741
+Bharadwaj, R., Das, R., & Majumdar, A. (2023). The challenges and performance of female-owned entrepreneurial firms and
+management strategies. In K. Tennin (Ed.), Change management during unprecedented times (pp. 43–62). IGI Global.
+https://doi.org/10.4018/978-1-6684-7509-6.ch003
+Boutafrout, F. Z., & Mdarbi, S. (2021). L'impact du COVID-19 sur la très petite et moyenne entreprise Marocaine (p. 14). Revue
+de Management et Cultures. No. 6, ISSN: 2550–6293.
+Boutros, P., Fakih, A., & Tarraf, M. (2023). Adapting to the new normal: The impact of remote work on firm performance in
+Jordan and Morocco. Regional Science Policy & Practice, 1–18. https://doi.org/10.1111/rsp3.12667
+Bouzekraoui, H. (2022). The typical profile of Moroccan women entrepreneurs: Results of a study. IJBTSR International Journal of Business and Technology Studies and Research, [S.l.], 4(1), 17. pages, ISSN 2665–7716.
+Chen, H.-C., & Chia-Wei, Y. (2021). Global financial crisis and COVID-19: Industrial reactions. Finance Research Letters, 42,
+101940. https://doi.org/10.1016/j.frl.2021.101944
+Dimson, J., Mladenov, Z., Sharma, R., Tadjeddine, K., 2020, COVID-19 and European small and medium-size enterprises: How
+they are weathering the storm. McKinsey & Company Report https://www.mckinsey.com/industries/public-and-socialsector/our-insights/covid-19-and-european-small-and-medium-size-enterprises-how-they-are-weathering-the-storm
+Ebersberger, B., & Kuckertz, A. (2021). Hop to it! The impact of organization type on innovation response time to the
+COVID-19 crisis. Journal of Business Research, 124, 126–135. https://doi.org/10.1016/j.jbusres.2020.11.051
+Egger, D., Miguel, E., Warren, S. S., Shenoy, A., Collins, E., Karlan, D., Parkerson, D., Mobarak, A. M., Fink, G., Udry, C.,
+Walker, M., Haushofer, J., Larreboure, M., Athey, S., Lopez-Pena, P., Benhachmi, S., Humphreys, M., Lowe, L.,
+Meriggi, N. F., … Vernot, C. (2021). Falling living standards during the COVID-19 crisis: Quantitative evidence from nine
+developing countries. Science Advances, ISSN 2375-2548, American Association for the Advancement of Science,
+Washington, DC7(6), eabe0997. https://doi.org/10.1126/sciadv.abe0997
+Elam, A., Bosma, N., & Shankar, A. (2022). Covid-19 impacts on women entrepreneurs in emerging economies: Insights and indicators. Global Entrepreneurship Monitor.
+Elouaourti, Z., & Ezzahid, E. (2022a). Factors of regional financial inclusion in Morocco. Regional Science Policy & Practice,
+1-37. https://doi.org/10.1111/rsp3.12516
+Elouaourti, Z., & Ezzahid, E. (2022b). Financial services and firm performance, are there any differences by size? Worldwide
+evidence using firm-level data. Journal of Economic Studies, 50, 858–880. https://doi.org/10.1108/JES-10-2021-0526
+Ennaji, M. (2021). Women and gender relations during the pandemic in Morocco. Gender and Women's Studies, 4(1), 3.
+https://doi.org/10.31532/GendWomensStud.4.1.003
+Ezzahid, E., & Elouaourti, Z. (2018). Financial development and total factors productivity channel: Evidence from Africa.
+Indonesian Capital Market Review, 10(2). https://doi.org/10.21002/icmr.v10i2.10827
+Ezzahid, E., & Elouaourti, Z. (2021a). Financial inclusion, financial frictions and economic growth: Evidence from Africa. Journal of African Business, 23(3), 1926856. https://doi.org/10.1080/15228916.2021.1926856
+Ezzahid, E., & Elouaourti, Z. (2021b). Financial inclusion, mobile banking, informal finance and financial exclusion: Micro-level evidence from Morocco. International Journal of Social Economics, 48, 1060–1086. https://doi.org/10.1108/IJSE-11-2020-0747
+Fakhoury, A., & Fakih, A. (2021). Government intervention and business response as determinants of business continuity
+amid COVID-19: The case of Jordan and Morocco. IZA Institute of Labor Economics. Discussion paper series, IZA
+DPNo. 14583.
+Fonds Monétaire International (International Monetary fund). (2022) “perspectives de l'économie mondiale”, Mise à jour
+augmentation du nombre de cas reprise entravée et inflation en hausse https://www.imf.org/fr/Publications/WEO/
+Issues/2022/01/25/world-economic-outlook-update-january-2022
+1764 ELOUARDIGHI and OUBEJJA
+Ge, T., Abbas, J., Ullah, R., & Abbas, A. (2022). Women's entrepreneurial contribution to family income: Innovative technologies promote females' entrepreneurship amid COVID-19 crisis. Frontiers in Psychology, 13, 828040. https://doi.org/10.
+3389/fpsyg.2022.828040
+Ghanbari Movahed, R., Maleki Fard, F., Gholamrezai, S., & Pakravan-Charvadeh, M. R. (2022). The impact of COVID-19 pandemic on food security and food diversity of Iranian rural households. Frontiers in Public Health, 10, 862043. https://doi.
+org/10.3389/fpubh.2022.862043
+Goldin, C. (2022). Understanding the economic impact of COVID-19 on women. Brookings Papers on Economic Activity,
+2022, 139–165.
+Grout, A. P., Park, I., & Sonderegger, S. (2007). An economic theory of glass ceiling (p. 32). Labor: Personnel Economics.
+Haddad, A. E., El Aynaoui, K., Ait Ali, A., Arbouch, M., & Araujo, F. I. (2020). The impact of COVID-19 in Morocco: Macroeconomic, sectoral and regional effects (p. 24). Policy Center for the New South, RP 20-17.
+Hafeez, A., Dangel, W. J., Ostroff, S. M., Kiani, A. G., Glenn, S. D., Abbas, J., Afzal, M. S., Afzal, S., Ahmad, S., Ahmed, A.,
+Ahmed, H., Ali, L., Ali, M., Ali, Z., Arshad, M., Ashraf, T., Bhutta, Z. A., Bibi, S., Butt, Z. A., … Mokdad, A. H. (2023). The
+state of health in Pakistan and its provinces and territories, 1990–2019: A systematic analysis for the Global Burden of
+Disease Study 2019. The Lancet Global Health, 11(2), e229–e243. https://doi.org/10.1016/S2214-109X(22)00497-1
+Haut-Commissariat au Plan Publie. (2021) “La femme Marocaine en chiffres: 20 ans de progrès”, PP. 181.
+High Commission for Planning. (2022) Results of the third panel on the impact of the COVID-19 pandemic on the economic,
+social and psychological situation of households in Morocco, Reports: Intra-family social relationships Situation in relation to the pre-pandemic.
+Hilali, M., Achour, F. Z., & Dehbi, F. Z. (2020). Factors affecting women entrepreneurship in Morocco: The moderating role
+of public policies and institutional support. International Journal of Accounting, Finance, Auditing, Management and Economics, 1(3), 342–357. https://doi.org/10.5281/zenodo.4282314
+Homayoun, S., Velashani, M. A. B., Alkhafaji, B. K. A., & Mezher, S. J. (2023). The effect of COVID-19 on the performance of
+SMEs in emerging markets in Iran, Iraq and Jordan. Sustainability, 15(10), 7847. https://doi.org/10.3390/su15107847
+Hussain, T., Abbas, J., Wei, Z., Ahmad, S., Xuehao, B., & Gaoli, Z. (2021). Impact of urban village disamenity on neighboring
+residential properties: Empirical evidence from Nanjing through hedonic pricing model appraisal. Journal of Urban Planning and Development, 147(1), 04020055. https://doi.org/10.1061/(asce)up.1943-5444.0000645
+Hyland, M., Karalashvili, N., Muzi, S., & Viganola, D. (2021). Female-owned firms during the COVID-19 crisis (p. 6). World
+Bank Group, Global Indicators Briefs No. 2.
+Ibourk, A., & Elouaourti, Z. (2023). Revitalizing women's labor force participation in North Africa: An exploration of novel
+empowerment pathways. International Economic Journal, 1–23. https://doi.org/10.1080/10168737.2023.2227161
+Iorember, P. T., Iormom, B., & Jato, T. P. (2022). Understanding the bearable link between ecology and health outcomes: The criticality of human capital development and energy use. Heliyon, 8(12), e12611. https://doi.org/10.1016/j.heliyon.2022.e12611
+Jawad, A., Wang, L., Ben Belgacem, S., Pawar, P. S., & Najam, H. (2023). Investment in renewable energy and electricity output: Role of green finance, environmental tax, and geopolitical risk: Empirical evidence from China. Energy, 269, 126683.
+https://doi.org/10.1016/j.energy.2023.126683
+Kaberia, S., & Muathe, S. (2020). Effect of Covid-19 pandemic on performance of women owned micro, small and medium
+enterprises in Kenya. International Journal of Social Science Studies, 9(1), 7. https://doi.org/10.11114/ijsss.v9i1.5089
+Khatib, S. F. A., & Nour, A. (2021). The impact of corporate governance on firm performance during the COVID-19 pandemic: Evidence from Malaysia. Journal of Asian Finance, Economics and Business, 8(2), 0943–0952. Available at SSRN:
+https://ssrn.com/abstract=3762393
+Kovalska, N., & Kovalova, O. (2021). Teaching speaking in the reality of covid-19 impact. Research Trends in Modern Linguistics and Literature, 4, 24–34. https://doi.org/10.29038/2617-6696.4.24.34
+Kumar, S., Viral, R., Deep, V., Sharma, P., Kumar, M., Mahmud, M., & Stephan, T. (2021). Forecasting major impacts of
+COVID-19 pandemic on country-driven sectors: Challenges, lessons and future roadmap. Personal and Ubiquitous Computing, 27(3), 807–830. https://doi.org/10.1007/s00779-021-01530-7
+Leibovici, F., & Famiglietti, M. (2022). The impact of health and economic policies on the spread of COVID-19 and economic
+activity. European Economic Review, 144, 104087. https://doi.org/10.1016/j.euroecorev.2022.104087
+Li, X., Abbas, J., Dongling, W., Baig, N. U. A., & Zhang, R. (2022). From cultural tourism to social entrepreneurship: Role of
+social value creation for environmental sustainability. Frontiers in Psychology, 13, 925768. https://doi.org/10.3389/
+fpsyg.2022.925768
+Li, Y., Al-Sulaiti, K., Dongling, W., & Al-Sulaiti, I. (2022). Tax avoidance culture and employees' behavior affect sustainable
+business performance: The moderating role of corporate social responsibility. Frontiers in Environmental Science, 10,
+964410. https://doi.org/10.3389/fenvs.2022.964410
+Liu, Q., Qu, X., Wang, D., & Mubeen, R. (2021). Product market competition and firm performance: Business survival through
+innovation and entrepreneurial orientation amid COVID-19 financial crisis. Frontiers in Psychology, 12, 790923. https://
+doi.org/10.3389/fpsyg.2021.790923
+ELOUARDIGHI and OUBEJJA 1765
+Liu, Y., Wei, S., & Xu, J. (2021). COVID-19 and women-led businesses around the world. Finance Research Letters, 43,
+102012. https://doi.org/10.1016/j.frl.2021.102012
+Loayza, N.V. (2020). Costs and trade-offs in the fight against the Covid-19 pandemic: A developing country perspective.
+World Bank: Research & Policy Briefs (Topic), https://doi.org/10.1596/33764
+Lorente, D., Abbas, J., Pilaˇr, L., & Shah, S. A. (2023). Tourism, urbanization and natural resources rents matter for environmental sustainability: The leading role of AI and ICT on sustainable development goals in the digital era. Resources Policy,
+82, 103445. https://doi.org/10.1016/j.resourpol.2023.103445
+Lu, L., Peng, J. A., Wu, J., & Lu, Y. (2021). Perceived impact of the Covid-19 crisis on SMEs in different industry sectors: Evidence from Sichuan, China. International Journal of Disaster Risk Reduction, 55, 102085. https://doi.org/10.1016/j.ijdrr.
+2021.102085
+Makoza, F. (2023). The role of digital nomadism in COVID-19 recovery strategy of the tourism sector: Case of Cape Town,
+South Africa, Working paper ICTD, No. 07/23. Kiel, Hamburg: ZBW - Leibniz Information Centre for Economics.
+Mamirkulova, G., Mi, J., Abbas, J., Mahmood, S., Mubeen, R., & Ziapour, A. (2020). New silk road infrastructure opportunities
+in developing tourism environment for residents better quality of life. Global Ecology and Conservation, 24, e01194.
+https://doi.org/10.1016/j.gecco.2020.e01194
+Manolova, T. S., Brush, C. G., Edelman, L. F., & Elam, A. (2020). Pivoting to stay the course: How women entrepreneurs take
+advantage of opportunities created by the COVID-19 pandemic. International Small Business Journal, 38(6), 481–491.
+https://doi.org/10.1177/0266242620949136
+Mansuy, M., & Werquin, P. (2018). Moroccan youth and employment: Gender differences. Journal of Education and Work, 1–
+18, 545–562. https://doi.org/10.1080/13639080.2018.1541504
+Markovic, S., Koporcic, N., Arslanagic-Kalajdzic, M., Kadic-Maglajlic, S., Bagherzadeh, M., & Islam, N. (2021). Business-tobusiness open innovation: COVID-19 lessons for small and medium-sized enterprises from emerging markets. Technological Forecasting and Social Change, Elsevier, 170(C), 120883. https://doi.org/10.1016/j.techfore.2021.120883
+Mckibbin, W., & Fernando, R. (2020). The global macroeconomic impacts of COVID-19: Seven scenarios (p. 45). Centre for
+Applied Macroeconomic Analysis, Australian National University.
+Micah, A., Bhangdia, K., Cogswell, I., Lasher, D., Lidral-Porter, B., Maddison, E., Nguyen, T., Patel, N., Pedroza, P., Solorio, J.,
+Stutzman, H., Tsakalos, G., Wang, Y., Warriner, W., Zhao, Y., Zlavog, B., Cristiana, A., Abbas, J., Abbasi-Kangevari, M., &
+Hlongwa, M. (2023). Global investments in pandemic preparedness and COVID-19: Development assistance and
+domestic spending on health between 1990 and 2026. The Lancet Global Health., 11, e385–e413. https://doi.org/10.
+1016/S2214-109X(23)00007-4
+Mouline, S., Ozlu, O., Herzog, L. 2022, A big step forward for women's leadership in Morocco. World Bank Blogs. Retrieved
+March 23, 2023, from https://blogs.worldbank.org/arabvoices/big-step-forward-womens-leadership-morocco
+Naeem, M. A., Mbarki, I., Alharthi, M. D., Omri, A., & Shahzad, S. J. (2021). Did COVID-19 impact the connectedness
+between green bonds and other financial markets? Evidence from time-frequency domain with portfolio implications.
+Frontiers in Environmental Science, 9, 657533. https://doi.org/10.3389/fenvs.2021.657533
+OECD. (2020) The COVID-19 crisis in Morocco, tackling coronavirus (COVID-19) contributing to a global effort.
+OECD Network. (2021). What impact has COVID-19 had on women entrepreneurs and what can governments and policy
+makers do to put gender equality at the heart of global recovery? The OECD Forum Network. https://www.oecdforum.org/posts/what-impact-has-covid-19-had-on-women-entrepreneurs-and-what-can-governments-and-policymakers-do-to-put-gender-equality-at-the-heart-of-global-recovery
+Peterson, O., Thankom, A. (2020), “Spillover of COVID-19: Impact on the global economy”, Munich Personal Repec Archive,
+No. 99317, P. 24.
+Sahraoui, D. (2016). Getting to the top: Trajectories for breaking through the glass ceiling in Morocco. Question(s) de Management, 15, 57–69. https://doi.org/10.3917/qdm.164.0057
+Shah, S. A. R., Zhang, Q., & Abbas, J. (2023). Waste management, quality of life and natural resources utilization matter for
+renewable electricity generation: The main and moderate role of environmental policy. Utilities Policy, 82, 100021.
+https://doi.org/10.1016/j.jup.2023.0002
+Shah, S. A. R., Zhang, Q., Abbas, J., Lorente, D., & Pilaˇr, L. (2023). Technology, urbanization and natural gas supply matter for
+carbon neutrality: A new evidence of environmental sustainability under the prism of COP26. Resources Policy, 82,
+103465. https://doi.org/10.1016/j.resourpol.2023.103465
+Shen, H., Fu, M., Pan, H., Yu, Z., & Chen, Y. (2020). The impact of the COVID-19 pandemic on firm performance. Emerging
+Markets Finance and Trade, 56, 2213–2230. https://doi.org/10.1080/1540496X.2020.1785863
+Shoib, S., Shuja, K. H., Aqeel, M., Abbas, J., de Filippis, R., & Ullah, I. (2021). Suicidal behavior sociocultural factors in developing countries during COVID-19. L Encéphale, 48(1), 78–82. https://doi.org/10.1016/j.encep.2021.06.011
+Su, Z., Cheshmehzangi, A., Bentley, B. L., McDonnell, D., Segalo, ˇ S., Ahmad, J., Chen, H., Terjesen, L. A., Lopez, E., Wagers, S.,
+Shi, F., Abbas, J., Wang, C., Cai, Y., Xiang, Y. T., & da Veiga, C. P. (2022). Technology-based interventions for health challenges older women face amid COVID-19: A systematic review protocol. Systematic Reviews, 11(1), 271. https://doi.
+org/10.1186/s13643-022-02150-9
+1766 ELOUARDIGHI and OUBEJJA
+Suleiman, H. (2021). “COVID-19 and women employment in Mediterranean countries: Impact and policies for reducing gender inequality in work”, Center for Mediterranean, March. https://www.cmimarseille.org/sites/default/files/newsite/
+brief1_final.pdf
+Suresh, V., Fishman, R., von Lieres, J. S., & Rao, B. R. (2022). Impact of the COVID-19 lockdown on the economic situation and
+food security of rural households in India. Journal of Agribusiness in Developing and Emerging Economies, 12(3), 491–509.
+https://doi.org/10.1108/JADEE-07-2021-0177
+UNWTO. (2021). The economic contribution of tourism and impact of Covid-19. United Nations World Tourism Organisation, Madrid, Spain. https://doi.org/10.18111/9789284423200
+Veselinova, E., & Samonikov, M. G. (2021). The impact of COVID-19 pandemic on firms performance: Analysis of the companies from the MBI10 index. Journal of Econometrics, 6, 174–184. https://doi.org/10.46763/JOE2160174v
+Wenzel, M., Stanske, S., & Lieberman, M. (2020). Strategic responses to crisis. Strategic Management Journal, 42(2). https://
+doi.org/10.1002/smj.3161
+Whitaker, L., Cameron, C., Hauari, H., Hollingworth, K., & O'Brien, M. (2021). What family circumstances, during COVID-19,
+impact on parental mental health in an inner city community in London? Frontiers in Psychiatry, 12, 725823. https://doi.
+org/10.3389/fpsyt.2021.725823
+World Health Organization. (n.d.) WHO coronavirus (COVID-19) dashboard, Retrieved March 23, 2023, from, https://
+covid19.who.int/
+Yu, S., Abbas, J., Draghici, A., Negulescu, O. H., & Ain, N. U. (2022). Social media application as a new paradigm for business
+communication: The role of COVID-19 knowledge, social distancing, and preventive attitudes. Frontiers in Psychology,
+13, 903082. https://doi.org/10.3389/fpsyg.2022.903082
+Zhang, X., Husnain, M., Yang, H., Ullah, S., Abbas, J., & Zhang, R. (2022). Corporate business strategy and tax avoidance culture: Moderating role of gender diversity in an emerging economy. Frontiers in Psychology, 13, 827553. https://doi.org/
+10.3389/fpsyg.2022.827553
+Zhuang, D., Abbas, J., Al-Sulaiti, K., Fahlevi, M., Aljuaid, M., & Saniuk, S. (2022). Land-use and food security in energy transition: Role of food supply. Frontiers in Sustainable Food Systems, 6, 1053031. https://doi.org/10.3389/fsufs.2022.
+1053031
+How to cite this article: Elouardighi, I., & Oubejja, K. (2023). COVID-19 and the fate of Moroccan female-led
+firms: Regional level evidence. Regional Science Policy & Practice, 15(8), 1740–1767. https://doi.org/10.1111/
+rsp3.12703
+ELOUARDIGHI and OUBEJJA 1767
+Resumen. Este estudio examina los efectos de la pandemia causada por el coronavirus 2019 (COVID‐19) en las
+empresas marroquíes dirigidas por mujeres, para lo cual considera tanto las repercusiones a corto como a largo plazo.
+En él se investiga la influencia en estas empresas de las distintas oleadas de la pandemia, teniendo en cuenta su tamaño y ubicación, para obtener valiosas perspectivas sobre sus estrategias de gestión de crisis. Se partió de una base
+de datos a nivel micro constituida por 1.096 empresas marroquíes observadas durante las tres oleadas iniciales de la
+pandemia, y con ella se extrajeron datos de la base de datos ‘Enterprise Survey: impact on firms’ del Banco Mundial.
+El análisis utilizó un modelo logit y mostró que el impacto de la pandemia varió en función del género del jefe de la
+empresa y del periodo de la encuesta. Las empresas dirigidas por mujeres se vieron más afectadas por la crisis sanitaria que las dirigidas por hombres. La rápida aplicación de adaptaciones políticas desempeñó un papel crucial en la
+reducción del impacto de la crisis sanitaria sobre las empresas dirigidas por hombres. Las pequeñas empresas, sobre
+todo las situadas en regiones como Beni Mellal‐Khenifra, Drâa‐Tafilalet, Oriental y Marrakech‐Safi, se vieron muy
+afectadas por la crisis del COVID‐19. Este estudio aporta dos contribuciones clave. En primer lugar, ofrece un análisis
+empírico del impacto de la pandemia en las empresas marroquíes utilizando datos a nivel de empresa, algo sin
+precedentes en Marruecos. En segundo lugar, investiga las repercusiones de la pandemia en las empresas marroquíes
+de distintos tamaños y regiones dirigidas por mujeres, y reconoce el impacto desproporcionado en las mujeres durante las crisis económicas. El estudio trata de ofrecer aportaciones valiosas para apoyar la recuperación de las
+empresas dirigidas por mujeres en el futuro. Los resultados subrayan la importancia de la ayuda específica a las
+pequeñas empresas y a las situadas en las regiones afectadas para mitigar las consecuencias de la crisis y fomentar la
+reactivación económica. Estas empresas desempeñan un papel crucial en la economía local, por lo que es esencial
+apoyar su supervivencia y resiliencia en la era posterior a COVID‐19.
+抄録: 本稿では、新型コロナウイルス感染症(COVID‐19)のパンデミックがモロッコの女性主導の企業に与えた
+影響を、短期的および長期的の両方のインパクトを考慮して検討する。この調査では、これらの企業の規模と立地
+を考慮して、危機管理戦略に関する重要な見識を得るために、パンデミックの波がこれらの企業に与える影響を検
+討する。パンデミックの最初の3つの波の間にモロッコの1,096の企業から得られたデータから成るマイクロレベル
+のデータベースを使用して、World Bank Enterprise SurveyのImpact on firmsデータベースからデータを抽出す
+る。ロジットモデルを用いた我々の分析から、企業トップの性別と調査期間によってパンデミックの影響が異なる
+ことが明らかになった。女性主導の企業は、男性主導の企業と比較して、健康危機の影響がより深刻であった。男
+性主導の企業では、政策の適応を迅速に行うことが、健康危機の影響を減らす上で重要な役割を果たした。特にベ
+ニ・メラル=ヘニフラ、ドラア=タフィラレット、オリアンタル、マラケシュ=サフィなどの地域にある小規模企業
+は、COVID‐19危機の影響を大きく受けている。本研究の主な貢献は2つある。1つは、企業レベルのデータを用い
+てモロッコ企業に対するパンデミックの影響の実証分析を行ったが、これはモロッコでは前例のないことである。2
+つめは、様々な規模または立地が異なる女性主導のモロッコ企業に対するパンデミックの影響の調査から、経済危
+機における女性に対して偏った影響があることが認められた。本研究は、将来の女性主導の企業の回復を支援する
+ための重要な見識を得ることを目的としている。我々の調査結果から、危機の影響を緩和し経済復興を促進するた
+めに、小規模企業や被害を受けた地域に立地する企業を対象とした支援の重要性が強調される。これらの企業は地
+域経済において重要な役割を果たしており、ポストコロナの時代にこれらの企業が存続し回復する支援をすること
+が不可欠である。
+DOI: 10.1111/rsp3.12703
+© 2023 The Authors. Regional Science Policy & Practice © 2023 Regional Science Association International.

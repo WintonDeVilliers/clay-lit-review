@@ -1,0 +1,136 @@
+~ Visit AskYourPDF.com ~
+Literature review Generated From AskYourPDF
+
+# Literature Review: Cyber-insurance in EU policy-making: Regulatory options, the market’s challenges
+
+and the US example
+
+## Introduction
+
+The increasing use of digital technologies in our daily lives has brought about numerous benefits but also
+exposed us to significant cyber risks. As a result, cyber-insurance has emerged as a viable method for
+transferring cyber risks. However, the effectiveness of cyber-insurance in improving network security is
+contingent upon various factors, such as the interdependency of cybersecurity efforts and advances in
+Internet measurement and machine learning techniques (Woods et al., 2017).
+
+## Impact of Security Interdependency on Contract Design
+
+The interdependent nature of cybersecurity poses challenges for insurers and insureds in designing
+effective cyber-insurance contracts. Woods et al. (2017) investigate the impact of security interdependency
+on the contract design problem. They demonstrate that security interdependency creates a "profit opportunity" for insurers by exploiting inefficient effort levels of interdependent agents. Insurers can design
+contracts that incentivize insureds to increase their effort levels, leading to improved network security
+and increased profitability for insurers.
+
+## Role of Pre-Screening and Security Interdependence in Policy Design
+
+Khalili et al. (2018) also explore the role of pre-screening and security interdependence in designing
+cyber insurance policies. They highlight the importance of incorporating risk externalities and risk
+interdependencies into the policy design process. By utilizing security pre-screening, insurers can design
+contracts that encourage insureds to enhance their effort levels, resulting in improved network security
+and increased profitability for insurers.
+
+## Symbiotic Relationship between Security Vendors and Cyber-insurance Agencies
+
+To address the profitability challenges faced by network risk management services, Pal and Golubchik
+(2010) propose a symbiotic relationship between security vendors and cyber-insurance agencies. They
+suggest differentiated security pricing mechanisms that allow security vendors to price differentiate their
+clients based on security investment information from insurance agencies. This approach enables security
+1 / 4
+~ Visit AskYourPDF.com ~
+vendors to increase their profit margins and transfer some of the extra profit to cyber-insurance agencies,
+making cyber-insurance services more viable.
+
+## Overview of Maritime Cyber Security Incidents
+
+The maritime industry has witnessed a rapid evolution with the introduction of new technology and
+digitization. Wang (2017) provides an overview of maritime cyber security incidents from the past decade.
+The study links these incidents to a taxonomy of attack points related to onboard or off-ship systems. The
+analysis reveals that maritime cyber threats typically have low frequency but high impact, making them
+challenging to predict and prepare for. The study emphasizes the diverse nature of attackers and attack
+techniques, indicating the absence of a single solution to mitigate maritime cyber threats.
+
+## Classification of Previous Research in Cyber Insurance
+
+Pal et al. (2016) classify previous research in the area of cyber insurance into four categories: economical
+aspects, mathematical models, risk management methodologies, and predictions of cyber events. The
+authors identify practical research problems where security experts can contribute by developing new
+data-driven methodologies and automated tools to replace existing qualitative approaches in each phase
+of the insurance process. This highlights the need for interdisciplinary collaboration to enhance the
+effectiveness of cyber-insurance policies.
+
+## Knowledge Gaps and Future Research Directions
+
+While the provided research findings shed light on various aspects of cyber-insurance in EU policy-making, several knowledge gaps and potential future research directions can be identified:
+
+1. **Regulatory Options**: The literature review lacks specific insights into the regulatory options
+   available in EU policy-making for cyber-insurance. Future research could explore the existing regulatory
+   frameworks and identify potential gaps or areas for improvement.
+2. **Market Challenges**: Although the research findings discuss the challenges faced by the cyber-insurance market, further investigation is needed to understand the specific market dynamics, barriers to
+   entry, and competitive landscape.
+3. **Comparative Analysis**: The research findings primarily focus on EU policy-making and lack a
+   comparative analysis with the US example. Future research could examine the regulatory approaches and
+   market dynamics in the US to identify transferable lessons or best practices.
+   2 / 4
+   ~ Visit AskYourPDF.com ~
+4. **Cyber Risk Assessment**: The literature review briefly mentions the importance of cyber risk
+   assessment in cyber-insurance policies. However, more in-depth research is needed to develop robust
+   models and frameworks for assessing cyber risks and determining appropriate insurance coverage.
+5. **Integration of Machine Learning Techniques**: The research findings highlight the potential of
+   integrating machine learning techniques in cyber-insurance. Future studies could explore the specific
+   applications of machine learning, such as predictive modeling or anomaly detection, to enhance cyber-insurance policy design and risk management.
+6. **IoT-Enabled Industries**: The literature review touches upon the maritime industry, but other
+   IoT-enabled industries, such as healthcare or transportation, warrant further investigation. Future research
+   could examine the unique cyber risks and insurance challenges associated with these industries.
+   In conclusion, the provided research findings contribute to our understanding of cyber-insurance in
+   EU policy-making. However, further research is needed to address the aforementioned knowledge gaps
+   and pave the way for more effective regulatory options, improved market dynamics, and enhanced risk
+   assessment in the field of cyber-insurance.
+   References:
+
+- Woods, D. W., Agrafiotis, I., Nurse, J. R. C., & Creese, S. (2017). Mapping the coverage of security
+  controls in cyber insurance proposal forms. Journal of Internet Services and Applications, 8, 1-13.
+  http://doi.org/10.1186/s13174-017-0059-y
+- Khalili, M. M., Naghizadeh, P., & Liu, M. (2018). Designing Cyber Insurance Policies: The Role of
+  Pre-Screening and Security Interdependence. IEEE Transactions on Information Forensics and Security,
+  13, 2226-2239. http://doi.org/10.1109/TIFS.2018.2812205
+- Pal, R., & Golubchik, L. (2010). Analyzing Self-Defense Investments in Internet Security under
+  Cyber-Insurance Coverage. 2010 IEEE 30th International Conference on Distributed Computing Systems,
+  339-347. http://doi.org/10.1109/ICDCS.2010.79
+- Wang, S. S. (2017). Integrated Framework for Information Security Investment and Cyber Insurance.
+  Conflict Studies: Inter-State Conflict eJournal. http://doi.org/10.2139/ssrn.2918674
+- Mukhopadhyay, A., Chatterjee, S., Bagchi, K., Kirs, P., & Shukla, G. K. (2019). Cyber Risk Assessment
+  and Mitigation (CRAM) Framework Using Logit and Probit Models for Cyber Insurance. Information
+  Systems Frontiers, 1-22. http://doi.org/10.1007/S10796-017-9808-5
+- Pal, R., Golubchik, L., Psounis, K., & Hui, P. (2016). Security Pricing as Enabler of Cyber-Insurance: A
+  First Look at Differentiated Pricing Markets. IEEE Transactions on Dependable and Secure Computing,
+  16, 358-372. http://doi.org/10.1109/TDSC.2017.2684801
+  3 / 4
+  ~ Visit AskYourPDF.com ~
+- Ashraf, I., Park, Y., Hur, S., Kim, S. W., Alroobaea, R., Zikria, Y. B., & Nosheen, S. (2023). A
+  Survey on Cyber Security Threats in IoT-Enabled Maritime Industry. IEEE Transactions on Intelligent
+  Transportation Systems, 24, 2677-2690. http://doi.org/10.1109/TITS.2022.3164678
+
+## References:
+
+1. Khalili, Mohammad Mahdi., Naghizadeh, Parinaz., & Liu, M.. (2018). Designing Cyber Insurance
+   Policies: The Role of Pre-Screening and Security Interdependence. <i>IEEE Transactions on Information
+   Forensics and Security</i> , 13 , 2226-2239 . http://doi.org/10.1109/TIFS.2018.2812205
+2. Woods, Daniel W.., Agrafiotis, Ioannis., Nurse, Jason R. C.., & Creese, S.. (2017). Mapping the
+   coverage of security controls in cyber insurance proposal forms. <i>Journal of Internet Services and
+   Applications</i> , 8 , 1-13 . http://doi.org/10.1186/s13174-017-0059-y
+3. Yaacoub, Jean-Paul A.., Noura, H.., Salman, O.., & Chehab, A.. (2021). Robotics cyber security:
+   vulnerabilities, attacks, countermeasures, and recommendations. <i>International Journal of Information
+   Security</i> , 21 , 115 - 158 . http://doi.org/10.1007/s10207-021-00545-8
+4. Ashraf, I.., Park, Yongwan., Hur, Soojung., Kim, Sung Won., Alroobaea, Roobaea., Zikria, Yousaf
+   Bin., & Nosheen, Summera. (2023). A Survey on Cyber Security Threats in IoT-Enabled Maritime Industry. <i>IEEE Transactions on Intelligent Transportation Systems</i> , 24 , 2677-2690 .
+   http://doi.org/10.1109/TITS.2022.3164678
+5. Pal, R.., Golubchik, L.., Psounis, K.., & Hui, Pan. (2016). Security Pricing as Enabler of Cyber-Insurance A First Look at Differentiated Pricing Markets. <i>IEEE Transactions on Dependable and Secure
+   Computing</i> , 16 , 358-372 . http://doi.org/10.1109/TDSC.2017.2684801
+6. Pal, R.., & Golubchik, L.. (2010). Analyzing Self-Defense Investments in Internet Security under
+   Cyber-Insurance Coverage. <i>2010 IEEE 30th International Conference on Distributed Computing
+   Systems</i> , 339-347 . http://doi.org/10.1109/ICDCS.2010.79
+7. Wang, Shaun S.. (2017). Integrated Framework for Information Security Investment and Cyber Insurance. <i>Conflict Studies: Inter-State Conflict eJournal</i> . http://doi.org/10.2139/ssrn.2918674
+8. Mukhopadhyay, Arunabha., Chatterjee, S.., Bagchi, K.., Kirs, P.., & Shukla, G. K.. (2019). Cyber Risk
+   Assessment and Mitigation (CRAM) Framework Using Logit and Probit Models for Cyber Insurance.
+   <i>Information Systems Frontiers</i> , 1-22 . http://doi.org/10.1007/S10796-017-9808-5
+   4 / 4

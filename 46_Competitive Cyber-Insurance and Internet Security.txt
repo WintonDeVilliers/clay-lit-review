@@ -1,0 +1,1757 @@
+Competitive Cyber-Insurance and Internet Security
+Article · July 2010
+DOI: 10.1007/978-1-4419-6967-5_12
+CITATIONS
+92
+READS
+744
+4 authors, including:
+Some of the authors of this publication are also working on these related projects:
+Intelligent Vehicle Highway Systems View project
+Nikhil Shetty
+University of California, Berkeley
+15 PUBLICATIONS   410 CITATIONS   
+SEE PROFILE
+Galina Schwartz
+University of California, Berkeley
+47 PUBLICATIONS   1,341 CITATIONS   
+SEE PROFILE
+Jean Walrand
+University of California, Berkeley
+334 PUBLICATIONS   16,083 CITATIONS   
+SEE PROFILE
+All content following this page was uploaded by Nikhil Shetty on 27 May 2014.
+The user has requested enhancement of the downloaded file.
+Competitive Cyber-Insurance
+and Internet Security
+Nikhil Shetty, Galina Schwartz, Mark Felegyhazi, and Jean Walrand
+Abstract This paper investigates how competitive cyber-insurers affect network security and welfare of the networked society. In our model, a user’s probability to
+incur damage (from being attacked) depends on both his security and the network
+security, with the latter taken by individual users as given. First, we consider cyberinsurers who cannot observe (and thus, affect) individual user security. This asymmetric information causes moral hazard. Then, for most parameters, no equilibrium
+exists: the insurance market is missing. Even if an equilibrium exists, the insurance contract covers only a minor fraction of the damage; network security worsens
+relative to the no-insurance equilibrium. Second, we consider insurers with perfect information about their users’ security. Here, user security is perfectly enforceable (zero cost); each insurance contract stipulates the required user security. The
+unique equilibrium contract covers the entire user damage. Still, for most parameters, network security worsens relative to the no-insurance equilibrium. Although
+cyber-insurance improves user welfare, in general, competitive cyber-insurers fail
+to improve network security.
+Nikhil Shetty
+UC Berkeley, Berkeley-94720, e-mail: nikhils@eecs.berkeley.edu
+Galina Schwartz
+UC Berkeley, Berkeley-94720, e-mail: schwartz@eecs.berkeley.edu
+Mark Felegyhazi
+ICSI, Berkeley-94704, e-mail: mark@icsi.berkeley.edu
+Jean Walrand
+UC Berkeley, Berkeley-94720, e-mail: wlr@eecs.berkeley.edu
+1
+2 Nikhil Shetty, Galina Schwartz, Mark Felegyhazi, and Jean Walrand
+1 Introduction
+In this paper,1 we propose a model to study the effects of cyber insurance on user security and their welfare. Our model highlights how network externalities combined
+with information asymmetry lead to a missing market for cyber insurance.
+The Internet serves as a ubiquitous communication platform for both individuals and businesses. Thus, an increasing amount of wealth is accessible online, and
+cyber-crime is becoming one of the most lucrative criminal activities. Cyber-crime
+is lucrative because network vulnerabilities are easy to exploit and persecution of
+cyber-criminals is plagued by enforcement problems. First, and importantly, criminals are relying on the anonymity of the Internet protocols to disguise their traces.
+Second, global Internet connectivity makes it difficult for law enforcement authorities to identify the origin of the attacks. Exploiting national differences in legal systems, criminals often operate safely from countries with the weakest legislations and
+enforcement. Third, criminals quickly adapt their attack strategies as new defenses
+are developed; thus, cyber-crime evolves to minimize the chance of persecution. Altogether, this situation results in formation of highly professional, mafia-style cybercrime establishments, which are rapidly expanding, see [2].
+Technology-based defense and enforcement solutions are available, but there is a
+consensus among security researchers [2] that the existing security problems cannot
+be solved by technological means alone. We concur that these security problems
+primarily result from misaligned incentives of the networked parties with respect to
+their security. Existing research [4, 7, 16, 19, 18] indicates that risk management in
+general and cyber-insurance in particular are potentially valuable tools for security
+management. Still, at present, risk management capabilities are virtually nonexistent
+in the network [2].
+We model the effects of informational asymmetries in the presence of network
+externalities, and study their consequences for network security incentives. We believe that these features of the environment induce socially suboptimal network
+security, and complicate the management of security risks. We build on the seminal ideas of Akerlof [1], Rothschild and Stiglitz [17] and others,2 which we combine with the ideas of interdependent security originated by Heal-Kunreuther [14],
+Gordon-Loeb [8] and Hausken [11].3
+In our model, all users are identical, meaning that their wealth is identical and
+they suffer identical damage if successfully attacked. The user’s probability of being
+attacked depends on both the user security level and the network security level,
+which individual users take as given. Thus, we have an externality. Indeed, due to
+this externality, individually optimal user security level is lower than the socially
+optimal one.
+1 This work was funded in part by the National Science Foundation under grant NSF-0433702.
+Any opinions, findings, conclusions, and recommendations expressed in this material are those of
+the authors and do not necessarily reflect the views of the funding source.
+2 See [20] for the literature review.
+3 See also [7, 9, 21, 5, 10, 3, 6, 13, 12]. This list is by no means exhaustive.
+Competitive Cyber-Insurance and Internet Security 3
+Our setting emphasizes that interdependent security is a focal feature, which
+shapes the incentives for Internet security. Although security interdependence is
+present in other contexts (such as terrorist attacks [15]), network security is especially prone to these effects because everyone is interlinked.
+First, we investigate the effects of information asymmetry in the presence of network effects. Though our model allows to study both moral hazard (when insurers
+are not aware of user security levels) and adverse selection (when insurers cannot
+distinguish different user types), in this paper, we address only moral hazard. We
+demonstrate that for a wide range of parameters, insurance market fails to exist, i.e.,
+we observe a missing market.
+Next, we assume no information asymmetry between the insurers and the insured
+(users). We demonstrate that user utility is higher with insurance, but the network
+security level is not necessarily higher. On reverse, in many cases network security
+worsens with insurers. Indeed, insurers only manage risks, but they do not necessarily reduce them.
+Our homogeneity assumption is simplistic, and does not hold in the actual Internet. But, adding user and insurer heterogeneity to our setting only adds more informational asymmetries. Then, the lemon problem becomes likely, which itself could
+cause missing markets [1]. Thus, with heterogeneity, one expects adverse selection
+problems, which would also contribute to missing markets.
+We make two main contributions to the literature. First, we observe that even
+with no heterogeneity (of users and insurers), information asymmetries complicate
+the formation of viable cyber-insurance markets. Second, we demonstrate that even
+in the absence of informational asymmetries, competitive cyber-insurers fail to improve network security. The significant implication is that in the existing network
+environment, cyber-insurance markets cannot serve as a catalyst for improvement
+of network security.
+The paper is organized as follows. In Section 2, we propose a base model, derive
+its Nash equilibrium, and compare it with socially optimal allocation. In Section 3,
+we add competitive insurers to our base model, analyze the equilibrium with insurers. We consider two cases: when individual security levels are non-contractible and
+when insurers include the requirement about individual security level into the contract. In Section 4, we summarize our findings and conclude. The technical details
+are relegated to Appendix.
+2 Model
+In this section, we present our base model, which highlights the interdependence
+of user and network security. We consider a network populated by identical users.
+Each user i has two choice variables: the convenience level ai > 0 of his network
+activity, and his security level si ∈ [0,1]. The convenience level ai can be, for example, characterized by the number of applications utilized by the user, such as emails,
+Web, IM, P2P, etc. If there are no security problems, the user derives utility from
+4 Nikhil Shetty, Galina Schwartz, Mark Felegyhazi, and Jean Walrand
+his wealth and from network usage. We assume that both these components of user
+utility Ui are additively separable:
+Ui = K1 · f(W)+K2 · g(ai)−K3 · ai
+,
+where K1, K2 and K3 are positive constants, and W > 0 denotes user’s wealth. We
+assume that the functions f and g are increasing and concave, reflecting that user
+wealth W and convenience level ai have a positive but decreasing marginal benefit
+for the user. To increase his convenience level, user incurs a linear cost (cost of
+effort).
+In the presence of network attacks, we assume that, if the attack on the user is
+successful, the user incurs a monetary damage D ∈ (0,W). Let pi be the probability that user i suffers such an attack. This probability depends on two factors: the
+network security level ¯s ∈ [0,1], which determines the probability of a user being
+attacked, and the user security level si
+, which determines the probability of success
+of such an attack. This justifies our expression for pi
+:
+pi = (1−si)·(1−s¯) = vi
+· v¯, (1)
+where for mathematical convenience, we introduce the user vulnerability level vi =
+1 − si and the network vulnerability level ¯v = 1 − s¯. Further, assume that ¯s is equal
+to the average security levels of its users:
+s¯=
+∑
+i=1,...N
+si
+N
+, (2)
+and we let the number of users N be large enough so that a single user has a negligible effect on the network security level. Thus, each user takes the network security
+level as a given parameter.
+We assume that user’s choice of a higher security requires a higher user cost (in
+terms of effort), and this cost is proportional to the convenience level. Again, assuming additive separability, we express the expected utility of user i in the presence of
+network insecurity as:
+E[Ui
+] = K1 {(1− pi)· f(W)+ pi
+· f(W −D)}+K2 · g(ai)−K3 · ai
+·(h(si)+1), (3)
+where the security cost function, h(·) is increasing and convex (h
+′
+,h
+′′ > 0) with
+h(0) = 0 corresponding to zero security level and h(1) = ∞, corresponding to a
+hypothetical “perfectly secure” system. Thus, it becomes increasingly costly to improve the security level at a higher level of security.
+For simplicity, we let f(x) = g(x) = √
+x and h(x) = √
+1
+1−x
+−1 and solve the problem for these specific functions. Then, (3) becomes:
+E[Ui
+] = K1
+n
+(1− pi)
+√
+W + pi
+√
+W −D
+o
++K2
+√
+ai −K3ai
+1
+√
+vi
+). (4)
+Competitive Cyber-Insurance and Internet Security 5
+Since we assume that the convenience level of user i’s network usage ai
+is not affected even when this user is attacked, this model may be more suitable for attacks
+like phishing, eavesdropping, etc. rather than for attacks like denial-of-service.
+2.1 Analysis
+We start by deriving the optimal convenience level a
+∗
+i
+by taking the partial derivative
+of (4) with respect to ai
+:
+∂E[Ui
+]
+∂ai
+= K2
+1
+2
+1
+√
+ai
+−K3
+1
+√
+vi
+,
+from which a
+∗
+i
+is:
+a
+∗
+i =
+1
+4
+K
+2
+2
+K
+2
+3
+vi
+. (5)
+Thus, the user’s a
+∗
+i
+depends only on her choice of vi
+, but not on network vulnerability
+level ¯v. Next, we substitute (5) in (4) to obtain:
+E[Ui
+] = 1
+4
+K
+2
+2
+K3
+[
+√
+vi −vivK¯ (
+√
+W −
+√
+W −D)+K
+√
+W] (6)
+where K =
+4K1K3
+K
+2
+2
+. To simplify, we let 1
+4
+K
+2
+2
+K3
+= 1, and obtain a normalized utility:
+E[Ui
+] = √
+vi −vivK¯ (
+√
+W −
+√
+W −D)+K
+√
+W. (7)
+The constant K characterizes how users value their wealth relative to the utility from
+the network.
+2.1.1 Nash Equilibrium
+To find the user i’s best response v
+∗
+i
+(v¯) to a given network vulnerability ¯v, we optimize (7) with respect to vi (subject to vi ≤ 1) and express v
+∗
+i
+(v¯) as
+v
+∗
+i
+(v¯) = min
+1
+[2 ¯vK(
+√
+W −
+√
+W −D)]2
+,1
+
+. (8)
+From (8), v
+∗
+i
+(v¯) is identical for all users, from which any Nash equilibrium is symmetric, and let v
+∗
+i
+(v¯) = v
+∗
+j
+(v¯) = v
+∗
+for any users i and j. Then, from (2), we have
+v¯= v
+∗
+and hence,
+v
+∗ = min
+1
+[2v
+∗K(
+√
+W −
+√
+W −D)]2
+,1
+
+,
+6 Nikhil Shetty, Galina Schwartz, Mark Felegyhazi, and Jean Walrand
+from which we obtain Nash equilibrium vulnerability v
+∗
+:
+v
+∗ = 1−s
+∗ = min
+1
+[2K(
+√
+W −
+√
+W −D)]2/3
+,1
+
+. (9)
+From (9), v
+∗ < 1 only if √
+W −
+√
+W −D >
+1
+2K
+and thus, all else equal, users invest
+in security only when their damage D or K become sufficiently high, or when user
+wealth W is low.
+2.1.2 Social Optimum
+We assume that a social planner unilaterally dictates user vulnerability, vi = v, and
+maximizes cumulative utility of the users. Since users are identical, this maximization is identical to a representative user utility maximization with ¯v = v. From (7),
+the representative user utility is:
+E[U] = √
+v−v
+2K(
+√
+W −
+√
+W −D)+K
+√
+W. (10)
+Maximizing (10), subject to v ≤ 1, we obtain the socially optimal vulnerability v
+soc
+as:
+v
+soc = 1−s
+soc = min
+1
+[4K(
+√
+W −
+√
+W −D)]2/3
+,1
+
+. (11)
+Thus, v
+soc < 1 only if (
+√
+W −
+√
+W −D) >
+1
+4K
+. As expected, v
+soc ≤ v
+∗
+, which allows
+us to formulate the following proposition:
+Proposition 1. When the socially optimal security level is strictly positive, it is
+strictly higher than the individually optimal one: ssoc > s
+∗
+. Users are strictly better
+off in the social optimum than in the Nash equilibrium.
+In the next section, we extend this model to the presence of competitive insurers.
+We will investigate how insurer information about user security level (or lack of
+such information) impacts network security.
+3 Insurance Model
+We define market equilibrium similar to the model of Rothschild and Stiglitz [17],
+who pioneered the examination of equilibria in insurance markets with information
+asymmetries. We assume that each insurer offers a single insurance contract in a
+class of admissible contracts, or does nothing. A Nash equilibrium is defined as a
+set of admissible contracts such that: i) all contracts result in a non-negative utility
+for the insurers, ii) taking as given the contracts offered by incumbent insurers (those
+offering contracts), there is no additional contract which an entrant-insurer (one not
+offering a contract) can offer and make a strictly positive profit and iii) taking as
+Competitive Cyber-Insurance and Internet Security 7
+given the set of contracts offered by other incumbent insurers, no incumbent can
+increase its profits by altering his offered contract. The literature referred to such
+contracts as “competitive”, because entry and exit are free, and because no barrier
+to entry or scale economies are present.
+We consider risk neutral insurers who compete with each other. Let ρ be the
+premium charged to a user and L > 0 be his loss covered by the insurer. We do not
+consider L < 0 because it is unrealistic to expect a fine when a user suffers a damage.
+Let v and ¯v be the user and network vulnerability. Then, we denote the respective
+user utility by U(v,v¯,ρ,L), and from (7) and (1), we have:
+U(v,v¯,ρ,L) = √
+v+vvK¯
+p
+W −D+L−ρ +(1−vv¯)K
+p
+W −ρ. (12)
+If v,ρ,L are identical for all users, then v = v¯, and we obtain
+U(v,v,ρ,L) = √
+v+v
+2K
+p
+W −D+L−ρ +(1−v
+2
+)K
+p
+W −ρ. (13)
+Additionally, we will assume that insurers take network security ¯v as given. This
+assumption reflects that individual insurers cannot affect v¯on their own.
+3.1 Insurance with Non-Contractible Security
+In this section, we assume that it is impossible (or too costly) for the insurers to
+monitor the users’ security level. Indeed, even if v is included in the contract and
+user compliance is observable by the insurer, but unverifiable in court (due to the
+prohibitively high costs), the insurer would effectively operate as if no requirement
+on v is imposed. Thus, we consider the contracts of the form (ρ,L) only. In addition, we will assume that contracts stipulate that purchase of extra coverage from
+outside parties is prohibited. Further, since the users are homogeneous, we will restrict our attention to a symmetric equilibrium, i.e., the equilibria with identical user
+actions. Henceforth, we will use the superscript ‡ to distinguish the values in such
+an equilibrium.
+Let user i purchase a contract (ρ,L). Then, he will choose his vulnerability vi
+to
+maximize his utility (taking ¯v as given):
+E [Ui
+] = √
+vi −vivK¯ (
+p
+W −ρ −
+p
+W −D+L−ρ)+K
+p
+W −ρ. (14)
+Any contract which improves user utility U(v,v¯,ρ,L) is preferred by users to any
+other contract. Hence, in equilibrium, there should exist no such deviating contract
+that makes non-negative profits for an insurer. Further, the equilibrium contract is
+constrained by user participation - a user must prefer to buy insurance, assuming
+that others already did so, to staying without insurance. In Appendix, we show that
+this participation constraint never binds, and, in equilibrium, due to competition,
+insurers’ profits are zero: ρ
+‡ =
+
+v
+‡
+2
+L
+‡
+. Further, we demonstrate that, in any equilibrium
+8 Nikhil Shetty, Galina Schwartz, Mark Felegyhazi, and Jean Walrand
+L
+‡ < D,
+and from user optimization, we have:
+v
+‡ =
+1
+h
+2K(
+p
+W −ρ
+‡ −
+p
+W −D+(L
+‡ −ρ
+‡)
+i2/3
+. (15)
+Comparing (15) with (9), we infer that in any equilibrium:
+v
+‡ > v
+∗
+. (16)
+Although the availability of insurance may allow users to reach a higher utility,
+the network security is strictly lower with insurance. In Appendix, we prove the
+following proposition:
+Proposition 2. If D < 8
+9W, any insurance contract with security levels unobservable
+by the insurers strictly decreases the utility of the users. Hence, no insurance is
+offered and no insurance market exists. If D > 8
+9W, there could exist an equilibrium
+in which all users purchase insurance contract (ρ
+‡
+,L
+‡
+). This insurance improves
+users’ utility relative to the no insurance case, but decreases their security (i.e.,
+v
+‡ > v
+∗
+is always true).
+From Proposition 2, the presence of insurers negatively affects network security.
+Indeed, here, security is chosen by the users, and insured users have meager incentives to secure themselves. This is a typical manifestation of a moral hazard. In this
+case, the expected per user loss due to network insecurity increases by:
+∆
+‡ =
+
+(v
+‡
+)
+2 −(v
+∗
+)
+2
+
+D.
+3.2 Insurance with Contractible Security
+In this section, we assume that insurers can enforce a desired security level for the
+insured users at zero cost. Thus, we permit contracts (v,ρ,L) to specify a user’s
+required vulnerability v. In reality, this may be achieved, for example, by deploying
+tamper-proof security software that monitors and enforces user security.
+3.2.1 Social Planner
+Next, we derive the social planner choice of contract when security is contractible.
+Let (v
+†
+,ρ
+†
+,L
+†
+)
+soc be the contract chosen by a social planner. The social planner
+objective is to maximize the user utility, subject to the constraint of non-negative
+profits:
+Competitive Cyber-Insurance and Internet Security 9
+maxρ,v,L U(v,v,ρ,L)
+s.t. v
+2
+L ≤ ρ and v ≤ 1.
+In Appendix, we solve this optimization problem, and derive the following social
+planner’s equilibrium:
+ρ
+†soc = (v
+†soc)
+2L
+†soc
+,
+and full coverage will be offered since users prefer it:
+L
+†soc = D.
+If the equilibrium vulnerability v
+†soc < 1, then it must be a solution of:
+v
+3
+W −v
+2D
+=
+1
+(2KD)
+2
+, (17)
+which we have proven to be unique.
+3.2.2 Competitive Insurers
+Any insurance contract(v,ρ,L) that achieves a higher user utility U(v,v¯,ρ,L) would
+be preferred to other contracts. In equilibrium, there should exist no contract that
+permits non-negative insurer profits and yields a higher user utility than the equilibrium contract does. In addition, we modify the definition of insurance market
+equilibrium in Section 3 and assume that no single insurer affects the network vulnerability. This assumption is realistic since competitive insurers lack market power.
+The participation constraint must hold in equilibrium, i.e., insured users must obtain at least the same utility with insurance than by staying uninsured. In Appendix,
+we show that only a unique contract can exist in equilibrium. Let this equilibrium
+contract be denoted by (v
+†
+,ρ
+†
+,L
+†
+).
+In Appendix, we demonstrate that, in equilibrium, insurers make zero profits and
+offer full coverage since users prefer it.
+ρ
+† = (v
+†
+)
+2L
+†
+, and L
+† = D.
+If the equilibrium vulnerability v
+† < 1, then it must be a solution of:
+v
+3
+W −v
+2D
+=
+1
+(KD)
+2
+, (18)
+which we have proven to be unique. From (17) and (18), we conclude that the vulnerability in the competitive insurer equilibrium is higher than that in the social
+optimum: v
+† > v
+†soc
+. In Appendix, we also derive the condition for v
+† < v
+∗
+. We
+find that equilibrium vulnerability only improves (relative to the Nash equilibrium
+without insurance) when D
+W
+is lower than some critical value. This critical value is
+achieved only when v
+∗
+is close to 1, i.e., when user security is close to zero in the
+10 Nikhil Shetty, Galina Schwartz, Mark Felegyhazi, and Jean Walrand
+no-insurance Nash equilibrium. Thus, for a large range of parameters, v
+† > v
+∗
+, i.e.,
+the presence of insurance leads to a higher vulnerability.
+This permits us to formulate the following proposition:
+Proposition 3. With insurers present, and security levels contractible, in any equilibrium, full coverage L† = D is offered. For most parameters, equilibrium network
+security is lower than in the no-insurance equilibrium. Only when user security is
+low in the no-insurance Nash equilibrium (i.e., v∗
+close to 1), the presence of insurers improves network security.
+From Proposition 3, with security levels observable by the insurers, the insurers’ presence allows to improve user welfare, but hardly improves network security.
+When v
+† < v
+∗
+, the insurers’ presence reduces the per user expected loss from network insecurity by ∆
+†
+, where:
+∆
+† =
+
+(v
+∗
+)
+2 −(v
+†
+)
+2
+
+D.
+Else, the per user expected loss increases by
+∆
+† =
+
+(v
+†
+)
+2 −(v
+∗
+)
+2
+
+D.
+Figure 1(a) depicts the equilibrium security level of users (and hence the network
+security level) as a function of the damage D while Figure 1(b) depicts the equilibrium utility of users as a function of D. The parameter values used are K = 1 and
+W = 100.
+0 20 40 60 80 100
+0
+0.1
+0.2
+0.3
+0.4
+0.5
+0.6
+0.7
+0.8
+0.9
+1
+D
+s vs D
+No insurance NE
+No insurance SO
+Insurance − Competition
+Insurance − Social planner
+0 20 40 60 80 100
+10.2
+10.3
+10.4
+10.5
+10.6
+10.7
+10.8
+10.9
+11
+D
+U vs D
+No insurance NE
+No insurance SO
+Insurance − Competition
+Insurance − Social Planner
+(a) (b)
+Fig. 1 (a) Security level and (b) utility of homogeneous users in equilibrium as a function of the
+damage 0 < D < W. Here W = 1000 and K = 1.
+Competitive Cyber-Insurance and Internet Security 11
+4 Conclusion
+In this paper, we investigate the effects of competitive cyber-insurers on network security and welfare. We highlight the impact of asymmetric information in the presence of network externalities and address the effects of interdependent security on
+the market for cyber-risks. The existing literature attributes cyber-insurance a significant role in cyber-risk management; it especially emphasizes positive effects of
+cyber-insurance market on security incentives. We find that, on reverse, the presence
+of competitive cyber-insurers weakens user incentives to improve security.
+First, we consider insurers who cannot observe (and thus, cannot contract) user
+security; here, insurers observe the network security only. Then, the moral hazard
+problem is present, i.e., with more insurance coverage, the users’ incentives to invest
+in security become meager. In this case, for most parameters, the insurance market
+collapses, i.e., no insurance is offered in equilibrium. Even if cyber-insurance exists,
+it covers a minor fraction of damages only. Our findings are in line with the existing
+Internet, where cyber-insurance is scantly observed.
+Second, we consider insurers who observe (and thus, can contract) user security. Here, insurers’ contracts include user security level which insurers enforce at
+zero cost, and thus, no moral hazard is present. Still, in general, competitive insurers fail to improve upon the security level of the no-insurance equilibrium. Though
+insurance improves the utility for risk-averse users, it does not serve as an incentive
+device for improving security practices. Indeed, insurance is a tool for risk management and redistribution, not necessarily a tool for risk reduction.
+To sum up, we argue that a combination of network effects and information asymmetries leads to difficulties in formation of viable insurance markets for cyber risks.
+Thus, our results dash the hopes for both, expectations of development of cyber
+insurance markets under the current network environment, and for the beliefs that
+such markets may serve as a catalyst for improvement of network security.
+5 Appendix
+Proof of Proposition 2
+When the user vulnerability v is non-contractible, the contracts have the form (ρ,L),
+and v is selfishly chosen by the users. Since our users are homogeneous, we will
+restrict our attention to a symmetric equilibrium, i.e., user actions in equilibrium
+are identical. Let (ρ
+⋄
+,L
+⋄
+) be such an equilibrium insurance contract and ¯v
+⋄ be the
+resulting network vulnerability. First, we show that in any equilibrium L
+⋄ < D.
+Assume the reverse and let (ρ
+⋄
+,L
+⋄ = D) be an equilibrium. In this case, it is
+optimal for each user to choose v = 1. Hence, ¯v
+⋄ = 1 and ρ
+⋄ = D for non-negative
+insurer profits. From (13), U(1,1,D,D) = U(1,1,0,0), which implies that the user
+is indifferent between buying and not buying insurance. If the vulnerability in the
+no-insurance Nash equilibrium v
+∗ < 1, then the user’s participation constraint does
+12 Nikhil Shetty, Galina Schwartz, Mark Felegyhazi, and Jean Walrand
+not hold: U(vi
+,1,0,0) > U(1,1,D,D) for some vi < 1. This is a contradiction since
+user i is better off not purchasing such an insurance, and therefore L
+⋄ < D.
+To determine the vulnerability that the insured user chooses selfishly, we differentiate his utility with respect to v, keeping ¯v fixed:
+∂U(v,v¯
+⋄
+,ρ
+⋄
+,L
+⋄
+)
+∂v
+= 0,
+and we have
+v =
+1
+(2 ¯v
+⋄K(
+√
+W −ρ −
+p
+WD +L−ρ))2
+. (19)
+where WD = W − D. In equilibrium, v = v¯
+⋄
+and from (19), we obtain (similar to
+(9)):
+v¯
+⋄ =
+1
+h
+2K(
+√
+W −ρ
+⋄ −
+p
+WD +(L
+⋄ −ρ
+⋄)
+i2/3
+, (20)
+Comparing (20) with (9), we infer that:
+v
+∗ < v¯
+⋄
+, (21)
+because
+p
+W −ρ
+⋄ <
+√
+W and q
+WD +(L
+⋄ −ρ
+⋄) ≥
+√
+WD.
+Next, let us make sure that no user deviates and stays without insurance, that is the
+participation constraint holds. For the uninsured user i, utility is maximized at
+vi =
+1
+(v¯
+⋄)
+2
+
+2K(
+√
+W −
+√
+WD)
+2
+. (22)
+Comparing this with (9), we have
+vi(v¯
+⋄
+)
+2 = (v
+∗
+)
+3
+,
+and from (21),
+vi =
+
+v
+∗
+v¯
+⋄
+2
+v
+∗ < v
+∗
+,
+and his maximum attainable utility is
+Ui =
+√
+vi +viv¯
+⋄
+h
+2K(
+√
+W −
+√
+WD)
+i
++K
+√
+W
+=
+
+v
+∗
+v¯
+⋄
+√
+v
+∗ +
+
+v
+∗
+v¯
+⋄
+
+(v
+∗
+)
+2
+h
+2K(
+√
+W −
+√
+WD)
+i
++K
+√
+W < U
+∗
+. (23)
+Note that U
+∗ = U(v
+∗
+,v
+∗
+,0,0). Hence, for (ρ
+⋄
+,L
+⋄
+) to be an equilibrium contract,
+U(v
+⋄
+,v¯
+⋄
+,ρ
+⋄
+,L
+⋄
+) > U(v
+∗
+,v
+∗
+,0,0) = U
+∗
+. Then, from (23),
+Competitive Cyber-Insurance and Internet Security 13
+Ui < U
+∗ < U(v
+⋄
+,v¯
+⋄
+,ρ
+⋄
+,L
+⋄
+),
+and we infer that the participation constraint does not bind.
+Next, we show that, if D <
+8
+9W, the only equilibrium contract is (0,0). Consider
+a contract (ρ,L) and let ˜v be the vulnerability obtained from (20). Due to insurer
+competition, in any equilibrium
+ρ = v˜
+2L. (24)
+If not, an entrant insurer could design another contract that yields lower profits,
+which users prefer since it maximizes their utility. The user utility is obtained by
+substituting (20) in (12). Then, we have
+U = K
+p
+W −ρ +
+1
+(16K(
+√
+W −ρ −
+p
+WD +L−ρ))1/3
+. (25)
+Using (24), we rewrite (25) as K
+√
+W −v˜
+2L+
+1
+(16K(
+√
+W−v˜
+2L−
+√
+W−D+L−v˜
+2L))1/3
+.
+Let ˙v˜ denote ∂ v˜
+∂L
+, and let W˜ D = WD +(L−ρ) and W˜ = W −ρ. Next, we demonstrate that ˙v˜ > 0. From (20),
+∂v˜
+3
+∂L
+=
+∂
+∂L
+1
+(2K(
+√
+W˜ −
+√
+W˜ D))2
+3 ˜v
+2 ˙v˜ =
+−2
+(2K(
+√
+W˜ −
+√
+W˜ D))3
+
+1
+2
+√
+W˜
+∂W˜
+∂L
+−
+1
+2
+√
+W˜ D
+∂W˜ D
+∂L
+
+=
+−2
+(2K(
+√
+W˜ −
+√
+W˜ D))3
+
+(−v˜
+2 −2 ˜v˙vL˜ )
+2
+√
+W˜
+−
+(1−v˜
+2 −2 ˜v˙vL˜ )
+2
+√
+W˜ D
+
+=
+1
+(2K(
+√
+W˜ −
+√
+W˜ D))3
+
+(v˜
+2 +2 ˜v˙vL˜ )
+√
+W˜
++
+(1−v˜
+2 −2 ˜v˙vL˜ )
+√
+W˜ D
+
+∴ ˙v˜
+
+3 ˜v
+2 +
+2 ˜vL
+(2K(
+√
+W˜ −
+√
+W˜ D))3
+
+1
+√
+W˜ D
+−
+1
+√
+W˜
+
+=
+1
+(2K(
+√
+W˜ −
+√
+W˜ D))3
+
+v˜
+2
+√
+W˜
++
+(1−v˜
+2
+)
+√
+W˜ D
+
+,
+where the last step is obtained by moving all the terms involving ˙v˜ to the LHS. The
+RHS is obviously positive while the coefficient of ˙v˜ on the LHS is also positive
+(since W˜ > W˜ D) and ˙v˜ > 0 is proven.
+Next, we differentiate the utility w.r.t. L,
+14 Nikhil Shetty, Galina Schwartz, Mark Felegyhazi, and Jean Walrand
+∂U
+∂L
+=
+K
+2
+√
+W −v˜
+2L
+(−v˜
+2 −2 ˜v˙vL˜ )+
+−1
+3
+(16K)
+1/3(
+√
+W −v˜
+2L−
+√
+W −D+L−v˜
+2L)
+4/3
+×...
+...
+(−v˜
+2 −2 ˜v˙vL˜ )
+2
+√
+W −v˜
+2L
+−
+((1−v˜
+2
+)−2 ˜v˙vL˜ )
+2
+√
+W −D+L−v˜
+2L
+
+=
+K(−v˜
+2 −2 ˜v˙vL˜ )
+2
+√
+W −v˜
+2L
+−
+Kv˜
+2
+3
+
+(−v˜
+2 −2 ˜v˙vL˜ )
+2
+√
+W −v˜
+2L
+−
+((1−v˜
+2
+)−2 ˜v˙vL˜ )
+2
+√
+W −D+L−v˜
+2L
+
+Collecting the terms and simplifying we obtain:
+2
+K
+∂U
+∂L
+=
+−v˜
+2
+√
+W˜
+−
+2 ˜v ˙ √
+vL˜
+W˜
++
+v˜
+2
+3
+√
+W˜ D −
+v˜
+2
+3
+
+(−v˜
+2−2 ˜v ˙vL˜ )
+√
+W˜
+−
+(−v˜
+2−2 ˜v ˙vL˜ )
+√
+W˜ D
+
+= −v˜
+2
+
+√
+1
+W˜
+− 1
+3
+√
+W˜ D
+
+− 2 ˜v ˙ √
+vL˜
+W˜
++
+v˜
+2
+(v˜
+2+2 ˜v ˙vL˜ )
+3
+
+√
+1
+W˜
+− √
+1
+W˜ D
+
+= −v˜
+2
+
+3
+√
+W˜ D−
+√
+W˜
+3
+√
+W˜
+√
+W˜ D
+
+−
+2 ˜v ˙ √
+vL˜
+W˜
++
+v˜
+2
+(v˜
+2+2 ˜v ˙vL˜ )
+3
+ √
+W˜ D−
+√
+W˜ √
+W˜
+√
+W˜ D
+
+(26)
+Since 2 ˜v ˙vL˜ > 0 and √
+W˜ D <
+√
+W˜ , the last two terms of (26) are strictly negative
+for any L ≥ 0.
+Let D < 8
+9W. Then, W < 9(W −D), and taking the square root we obtain:
+3
+√
+WD −
+√
+W > 0, (27)
+and since W˜ D = WD +(L
+‡ −ρ
+‡
+) > WD and W˜ = W −ρ < W from (27) we have:
+3
+p
+W˜ D −
+p
+W˜ > 3
+√
+WD −
+√
+W > 0.
+Hence, we have proven that if D <
+8
+9W, 3√
+W˜ D −
+√
+W˜ > 0. In this case, the first
+term of (26) is negative as well, which leads to:
+2
+K
+∂U
+∂L
+< 0.
+Thus, we have proven that if D <
+8
+9W, utility is maximized at L = 0. Thus, the only
+equilibrium insurance contract is (0,0).
+If D >
+8
+9W, there could exist an insurance contract, which improves user utility
+relative to U
+∗
+. See Fig. 2(a) for an example which shows how U(ρ,L) is maximized
+at L > 0, and users may reach a higher utility with insurance.
+Proof of Proposition 3
+First, we notice that in any equilibrium, L
+† = D and insurer profit is zero due to
+competition, as in Proposition 2. Hence, we restrict our analysis to full coverage
+only.
+Competitive Cyber-Insurance and Internet Security 15
+2 4 6 8 10 12 14 16 18
+10.184
+10.186
+10.188
+10.19
+10.192
+10.194
+U(ρ,L) vs L
+L
+0 200 400 600 800 1000
+0
+0.05
+0.1
+0.15
+0.2
+0.25
+0.3
+0.35
+0.4
+0.45
+W
+δ = D/W
+δ
+∗
+δ
+1
+(a) (b)
+Fig. 2 (a) Unobservable case: U vs L (L ∈ [0,20], K = 1, W = 100, D = 99) and (b) Observable
+case: δ
+†
+and δ
+1 vs W.
+Second, in any equilibrium, user utility from deviation to no-insurance gives user
+a strictly lower utility. Indeed, assume the reverse. Suppose a user can deviate to vi
+with no insurance and his utility without insurance is equal to his utility with insurance, i.e., U(vi
+,v
+†
+,0,0) ≥U(v
+†
+,v
+†
+,v
+†2D,D). Consider an entrant insurer who offers
+him a contract (vi
+,viv
+†D,D) that offers non-zero coverage at actuarially fair price.
+By adopting this contract, the user improves his utility, which conflicts our assumption about the equilibrium. Therefore, the utility from deviation must be strictly
+lower and all users strictly prefer to buy insurance.
+Lastly, we prove that in any equilibrium, all user contracts are identical. Assume
+the reverse, and let (v1,v1vD¯ ,D) and (v2,v2vD¯ ,D) be two contracts in equilibrium,
+with non-zero fraction of users buying each contract. Without loss of generality, we
+let v1 < v2, and thus v1 < v¯< v2. From Section 3.2.2, we assume that insurers take
+v¯as given. Consider the contract (v˜,v˜vD¯ ,D) offered by an entrant insurer. Suppose
+this contract maximizes U(v˜,v˜vD¯ ,D):
+∂
+∂v˜
+√
+v˜+K
+√
+W −v˜vD¯
+
+= 0.
+∂
+∂v˜
+√
+v˜+K
+√
+W −v˜vD¯
+
+= 0
+1
+2
+√
+v˜
+−
+KvD¯
+2
+√
+W −v˜vD¯
+= 0
+√
+W −v˜vD¯
+√
+v˜
+= KvD¯ (28)
+From (28), there is a unique solution for ˜v since the LHS is monotone decreasing. Hence, ˜v 6= v1 and ˜v 6= v2 since if either were true, then U(v1,v1vD¯ ,D) 6=
+U(v2,v2vD¯ ,D), which is a contradiction. Thus, U(v˜,v˜vD¯ ,D) > U(v1,v1vD¯ ,D) =
+U(v2,v2vD¯ ,D) and insured users will be willing to deviate to this new contrac
+16 Nikhil Shetty, Galina Schwartz, Mark Felegyhazi, and Jean Walrand
+Thus, we have shown that two different contracts cannot be present in equilibrium,
+and we have proven that in any equilibrium, all users buy an identical contract.
+Next, we prove that the equilibrium is unique. From (28), in any equilibrium,
+v˜ = v¯= v
+†
+, and we have
+√
+W −v
+†2D
+√
+v
+†
+= Kv†D
+p
+W −v
+†2D = Kv†
+√
+v
+†D
+v
+†3
+W −v
+†2D
+=
+1
+(KD)
+2
+. (29)
+From (29), there is a unique solution for the equilibrium v
+†
+, since the LHS is monotone decreasing. Thus, the equilibrium is unique.
+Next, we determine how this unique v
+†
+compares to v
+∗
+. When both v
+†
+and v
+∗ < 1,
+we can equate v
+3
+from (9) and (29) to get
+1
+[2K(
+√
+W −
+√
+W −D)]2
+=
+W −v
+2D
+(KD)
+2
+D
+2
+[2(
+√
+W −
+√
+W −D)]2
+= W −v
+2D
+W
+D
+−
+D
+[2(
+√
+W −
+√
+W −D)]2
+= v
+2
+Using (9) for v
+∗ < 1 and denoting D
+W
+by δ, we have
+W
+D
+−
+D
+[2(
+√
+W −
+√
+W −D)]2
+=
+1
+[2K(
+√
+W −
+√
+W −D)]4/3
+1
+D
+W
+−
+D
+W
+[2(1−
+q
+1−
+D
+W
+)]2
+=
+1
+[2K
+√
+W(1−
+q
+1−
+D
+W
+)]4/3
+1
+δ
+−
+δ
+[2(1−
+√
+1−δ)]2
+=
+1
+[2K
+√
+W(1−
+√
+1−δ)]4/3
+.
+Thus, we obtain an equation for δ:
+(1−
+p
+1−δ)
+1/3
+
+(1−
+√
+1−δ)
+δ
+−
+δ
+4(1−
+√
+1−δ)
+
+=
+1
+[2K
+√
+W]
+4/3
+(1−
+p
+1−δ)
+1/3
+
+1
+(1+
+√
+1−δ)
+−
+(1+
+√
+1−δ)
+4
+
+=
+1
+[2K
+√
+W]
+4/3
+(30)
+We observe that the LHS is an increasing function of δ, which gives us a unique
+solution δ
+∗ of (30). For δ ≤ δ
+∗
+, we have v
+† ≤ v
+∗
+, i.e., insurance improves the security level in the no-insurance Nash equilibrium. From (9), we know that when δ is
+Competitive Cyber-Insurance and Internet Security 17
+low, v
+∗
+is high. This implies that insurance improves upon the no-insurance security
+level only when v
+∗
+is high. Let δ
+1 denote the δ at which v
+∗ = 1. Fig. 2 (b) depicts
+δ
+1
+and δ
+∗
+as a function of the wealth W (K = 1).
+Social Planner
+The contract offered by a social planner must be a solution to the following optimization problem:
+maxv,ρ,L U(v,v,ρ,L)
+s.t. v
+2L ≤ ρ and v ≤ 1.
+Next, we write the Lagrangian:
+LAN = U(v,v,ρ,L)−λ1(v
+2
+L−ρ)−λ2(v−1)
+Taking the derivatives of LAN w.r.t. v, L and ρ and equating to 0 gives us the following equations.
+∂LAN
+∂v
+=
+∂U(v,v,ρ,L)
+∂v
+−2λ1vL−λ2 = 0
+(
+1
+2
+√
+v
+−2vK(
+p
+W −ρ −
+p
+W −D+L−ρ))−2λ1vL−λ2 = 0 (31)
+∂LAN
+∂L
+=
+∂U(v,v,ρ,L)
+∂L
+−λ1v
+2 = 0
+Kv2
+2
+√
+W −D+L−ρ
+−λ1v
+2 = 0 (32)
+∂LAN
+∂ρ
+=
+∂U(v,v,ρ,L)
+∂ρ
++λ1 = 0
+−
+Kv2
+2
+√
+W −D+L−ρ
+−
+K(1−v
+2
+)
+2
+√
+W −ρ
++λ1 = 0 (33)
+Further, from complementary slackness, we have
+λ1(v
+2
+L−ρ) = 0, (34)
+and λ2(v−1) = 0 (35)
+Note that v 6= 0, since that would require infinite security costs for the users. From
+(32), we conclude that λ1 > 0 and thus the constraint (34) binds:
+v
+2L = ρ (36)
+18 Nikhil Shetty, Galina Schwartz, Mark Felegyhazi, and Jean Walrand
+Equating λ1 from (32) and (33), we obtain:
+K
+2
+√
+W −D+L−ρ
+=
+Kv2
+2
+√
+W −D+L−ρ
++
+K(1−v
+2
+)
+2
+√
+W −ρ
+Canceling out K/2 > 0, we obtain:
+1
+√
+W −D+L−ρ
+=
+v
+2
+√
+W −D+L−ρ
++
+(1−v
+2
+)
+√
+W −ρ
+,
+or
+(1−v
+2
+)
+√
+W −D+L−ρ
+=
+(1−v
+2
+)
+√
+W −ρ
+,
+which leads to:
+L = D if v < 1. (37)
+Now, if v < 1, we can substitute (36) and (37) into (32) to get λ1 = K
+2
+√
+W−v
+2D
+.
+Substituting this value of λ1, λ2 = 0 (since v < 1) and (37) into (31), we get
+1
+2
+√
+v
+=
+K
+√
+W −v
+2D
+vD
+v
+3
+W −v
+2D
+=
+1
+(2KD)
+2
+(38)
+Thus, if v < 1, it is the unique solution to (38) (since the LHS is monotone increasing).
+References
+1. Akerlof, G.A.: The market for ’lemons’: Quality uncertainty and the market mechanism. The Quarterly Journal of Economics 84(3), 488–500 (1970). URL
+http://ideas.repec.org/a/tpr/qjecon/v84y1970i3p488-500.html
+2. Anderson, R., B¨oehme, R., Clayton, R., Moore, T.: Security economics and european policy.
+In: Proceedings of WEIS’08. Hanover, USA (2008)
+3. Baer, W.S., Parkinson, A.: Cyberinsurance in it security management. IEEE Security and
+Privacy 5(3), 50–56 (2007). DOI http://dx.doi.org/10.1109/MSP.2007.57
+4. B¨ohme, R.: Cyber-insurance revisited. In: Proceedings of WEIS’05. Cambridge, USA (2005)
+5. Bolot, J., Lelarge, M.: A new perspective on internet security using insurance. INFOCOM
+2008. The 27th Conference on Computer Communications. IEEE pp. 1948–1956 (2008). DOI
+10.1109/INFOCOM.2008.259
+6. Fisk, M.: Causes and remedies for social acceptance of network insecurity. In: Proceedings of
+WEIS’02. Berkeley, USA (2002)
+7. Gordon, L.A., Loeb, M., Sohail, T.: A framework for using insurance for cyber-risk management. Communications of the ACM 46(3), 81–85 (2003)
+8. Gordon, L.A., Loeb, M.P.: The economics of information security investment. ACM Trans.
+Inf. Syst. Secur. 5(4), 438–457 (2002). DOI http://doi.acm.org/10.1145/581271.581274
+9. Grossklags, J., Christin, N., Chuang, J.: Secure or insure?: a game-theoretic analysis of
+information security games. In: WWW ’08: Proceeding of the 17th international con-
+Competitive Cyber-Insurance and Internet Security 19
+ference on World Wide Web, pp. 209–218. ACM, New York, NY, USA (2008). DOI
+http://doi.acm.org/10.1145/1367497.1367526
+10. H. Ogut, N.M., Raghunathan, S.: Cyber insurance and it security investment: Impact of interdependent risk. In: Proceedings of WEIS’05. Cambridge, USA (2005)
+11. Hausken, K.: Returns to information security investment: The effect of alternative information
+security breach functions on optimal investment and sensitivity to vulnerability. Information
+Systems Frontiers 8(5), 338–349 (2006). DOI http://dx.doi.org/10.1007/s10796-006-9011-6
+12. Hofmann, A.: Internalizing externalities of loss prevention through insurance monopoly: an
+analysis of interdependent risks. Geneva Risk and Insurance Review 32(1), 91–111 (2007)
+13. Honeyman, P., Schwartz, G., Assche, A.V.: Interdependence of reliability and security. In:
+Proceedings of WEIS’07. Pittsburg, PA (2007)
+14. Kunreuther, H., Heal, G.: Interdependent security. Journal of Risk and Uncertainty 26(2-3),
+231–49 (2003). URL http://ideas.repec.org/a/kap/jrisku/v26y2003i2-3p231-49.html
+15. Kunreuther, H.C., Michel-Kerjan, E.O.: Evaluating the effectiveness of terrorism risk financing solutions. NBER Working Papers 13359, National Bureau of Economic Research, Inc
+(2007). URL http://ideas.repec.org/p/nbr/nberwo/13359.html
+16. Majuca, R.P., Yurcik, W., Kesan, J.P.: The evolution of cyberinsurance. Tech. Rep.
+CR/0601020, ACM Computing Research Repository (2006)
+17. Rothschild, M., Stiglitz, J.E.: Equilibrium in competitive insurance markets: An essay on the
+economics of imperfect information. The Quarterly Journal of Economics 90(4), 630–49
+(1976). URL http://ideas.repec.org/a/tpr/qjecon/v90y1976i4p630-49.html
+18. Schechter, S.E.: Computer security strength and risk: a quantitative approach. Ph.D. thesis,
+Cambridge, MA, USA (2004). Adviser-Smith,, Michael D.
+19. Soohoo, K.: How much is enough? a risk-management approach to computer security. Ph.D.
+thesis, Stanford University
+20. Stiglitz, J.E.: Information and the change in the paradigm in economics. American Economic
+Review 92(3), 460–501 (2002). URL http://ideas.repec.org/a/aea/aecrev/v92y2002i3p460-
+501.html
+21. Varian, H.: System reliability and free riding. In: Workshop on the Economics of Information
+Security, WEIS 2002. Cambridge, USA (2002)

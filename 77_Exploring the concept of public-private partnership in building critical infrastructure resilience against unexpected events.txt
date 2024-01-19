@@ -1,0 +1,1384 @@
+international journal of critical infrastructure protection 39 (2022) 100556
+Available online 18 August 2022
+1874-5482/© 2022 Elsevier B.V. All rights reserved.
+Exploring the concept of public-private partnership in building critical
+infrastructure resilience against unexpected events: A systematic review
+Godslove Ampratwum *
+, Robert Osei-Kyei, Vivian W.Y. Tam
+School of Engineering, Design and Built Environment, Western Sydney University, Australia
+ARTICLE INFO
+Keywords:
+PPP
+CIR
+Critical infrastructure resilience
+Robustness
+Public private partnership
+Reliability
+ABSTRACT
+This study explores the concept of public private partnership (PPP) in building critical infrastructure resilience
+(CIR) by looking at the attributes and objectives of the key stakeholders in PPP; government and private critical
+infrastructure (CI) operators. Although extant studies have been conducted on critical infrastructure resilience,
+the concept of PPP in CIR has not received much attention. This study conducted a systematic review on the
+objectives of the government and private CI operators in PPP to build CIR. A systematic methodology was used to
+retrieve 22 relevant publications that were subjected to content analysis to identify the objectives of PPP in CIR.
+20 set of objectives were derived from the selected publications. In addition, social capital theory was used to
+explore the attributes of PPP in CIR. A conceptual framework was developed with the objectives and attributes of
+PPP in CIR. Some of the objectives included, conducting national risks assessment and vulnerability assessments,
+national critical infrastructure resilience plan and identifying what constitutes CI. In addition, social capital
+theory was used to explore the attributes of PPP in CIR. The findings outline the responsibilities of the government and private CI operators in partnership to build the resilience of critical infrastructure.
+1. Introduction
+Infrastructure systems are large scale man-made systems that operate
+interdependently to produce and distribute goods and services [1]. An
+infrastructure is termed as critical if its incapacity or destruction have
+significant impact on the societal functioning [2]. Critical infrastructure
+are in the form of energy transmission and distribution networks, the
+telephone communication networks, the transportation systems, the
+water and gas distribution systems etc. [1]. Countries may have slight
+differences in what they deem as critical infrastructure, but mostly, they
+are made up of: electric power systems, natural gas and oil, telecommunications, banking and finance, transportation, water supply systems,
+government services and emergency services [3]. The concept of
+building the resilience of critical infrastructure over the last decade has
+been focused on the technical measures in creating robust critical
+infrastructure (CI) with the ability to withstand significant threats [4].
+Critical infrastructure resilience is the ability of the critical infrastructure to provide its functional and operational service delivery when its
+normal functional capabilities are challenged [5,6]. Focusing on only
+the technical aspects of critical infrastructure resilience is not conclusive. The socio-technical aspects which comprises of the social
+dimension and technical dimensions needs to be considered to make CIs
+fully resilient. Public-private partnership (PPP) emerges as a function of
+the socio-technical aspects of critical infrastructure resilience that needs
+to be examined thoroughly. In fact, studies nowadays recognize PPP as a
+mechanism in building critical infrastructure resilience (CIR). However,
+the objectives of PPP in CIR are missing in literature. The objectives of
+PPP in CIR are the responsibilities of government and private CI operators. Effective accountability is ensured in public-private partnership
+when the roles and responsibilities are outlined [7]. It has been advocated by Field and Look [8] that building the resilience of critical
+infrastructure requires breaking down the traditional silos to work
+together around a common goal. Resilience of critical infrastructure is
+directly influenced by the participation and involvement of key stakeholders such as the public sector i.e. government and its associated
+agencies and the private sector i.e. infrastructure owners and operators
+[9]. The collaboration of both government and private CI operators in
+critical infrastructure systems [10] where resources are co-invested is a
+useful tool to achieve critical infrastructure resilience (CIR). Even
+though the government is responsible for protecting critical infrastructure and citizens from disasters, they involve the private infrastructure
+owners in its implementation [11] (European Commission, 2014). The
+* Corresponding author.
+E-mail address: 19618845@student.westernsydney.edu.au (G. Ampratwum).
+Contents lists available at ScienceDirect
+International Journal of Critical Infrastructure Protection
+journal homepage: www.elsevier.com/locate/ijcip
+https://doi.org/10.1016/j.ijcip.2022.100556
+Received 3 March 2022; Received in revised form 1 August 2022; Accepted 12 August 2022 
+International Journal of Critical Infrastructure Protection 39 (2022) 100556
+2
+services and products provided by the private CI operators are key to the
+welfare of the society which makes them also responsible for ensuring
+the resilience of critical infrastructure [12]. Critical Infrastructure
+resilience is a national agenda usually led by the government with the
+support of private infrastructure operators. Hence, the need to have
+assigned responsibilities for the stakeholders involved in CIR.
+Inasmuch as there are some studies that have highlighted public
+private partnership in resilience building [13–23], there is still a paucity
+of research on the objectives of the government and private CI operators
+and attributes of PPP in building CIR.
+To address the current gaps in knowledge and practice, this study
+aims to explore into detail the concept of PPP in CIR by looking at the
+objectives of key stakeholders in PPP; government and private critical
+infrastructure (CI) operators and the attributes that underpins PPP in
+CIR. Considering this, the following objectives were derived with the
+following derived objectives:
+1 To assess the annual publication trend on PPP in CIR.
+2 To identify the countries with the most publications on the objectives
+of PPP in CIR.
+3 To identify the objectives of the government and private CI operators
+in CIR and develop a conceptual framework based on the identified
+list of objectives.
+4 To use social capital theory to identify the attributes that underpins
+PPP in CIR.
+This study distinguishes itself from previous studies by conducting a
+systematic review to derive the objectives of both the government and
+private CI operators in building the resilience of critical infrastructure.
+2. The concept of PPP in CIR
+Resilience of critical infrastructure is directly influenced by the
+participation and involvement of key stakeholders such as public sector
+i.e. government and its associated agencies and the private sector i.e.
+infrastructure operators [9]. The government is legally responsible for
+protecting citizens and critical infrastructures from disruptive events
+even though majority of the CIs are owned by the private sector [11,24].
+The services provided by private infrastructure owners are the lifelines
+of the society and thus their contribution to the technical and operational expertise in required in CIR [12]. The private infrastructure operators are the right personnel to manage the risks that threaten the
+functional performance of CIs and propose the appropriate mitigation
+measures [25]. However, critical infrastructures are extremely delicate
+and interconnected systems that the private CI operators cannot be
+solely responsible for building its resilience even if they have the technical and financial capabilities. PPP in CIR is a comprehensive way of
+proactively managing the risks that impacts CI through an all-hazard
+approach which increases the responsiveness and the timely recovery
+of CIs [18]. For the government, PPP is an instrument that can be used to
+engage the private sector in public affairs in providing standards and
+guidelines without the need to enforce strict regulations.
+The PPP aspect in CIR is distinct from the traditional PPP in the
+engineering, architectural and construction industry. PPP in critical
+infrastructure resilience is more program-oriented which is not
+restrained by time periods but rather, it is aimed at increasing the
+functional performance of critical infrastructure [26]. This study argues
+that the objectives of PPP in CIR will be different from the objectives of
+traditional PPP. The structure and governance of PPP in CIR also requires different approaches from the traditional PPP because of difference in the goal of forming the public-private partnership. PPP in CIR
+requires an approach that maximizes the collaboration between the
+government and private CI operators and does not reduce their
+co-operation to direct partnership as it occurs in traditional PPP [26].
+The government and private infrastructure owners form a network of
+institutions that mutually and collectively contribute resources for the
+building of critical infrastructure resilience [27]. The government
+agencies and institutions from the public sector provide a form of
+oversight responsibility to ensure the compliance of resilience regulations by private CI owners. A study conducted by Provan and Kenis [27]
+distinguished network governance under three categories namely;
+participant governance, governance by lead organization and network
+administration organization. In participant governance, the government
+agencies and institutions and the private CI operators govern themselves
+without a separate and unique governance entity. Every member of the
+participant governance network is involved in the process of decision
+making. This is a decentralized governance where the government’s
+oversight responsibility is diminished. The disadvantage is the lack of
+accountability on the part of the private CI owners. The network governance by lead organization is where major activities of the government
+agencies and institutions and private CI owners are coordinated by a
+single participating member. The advantage of network governance led
+organization is having an oversight responsibility over the operations
+and activities of network monitored. In the network administration organization, a distinct organization is set up to explicitly govern the CI
+network formed and its activities. The difference with network administration organization and network governance led organization is, the former
+is not another network participant organization providing its own services but rather the network is governed externally. Amongst the three
+distinct form of network governance, the most efficient to adapt to build
+the resilience of critical infrastructure is the network governance by lead
+organization.
+The concept of PPP in CIR has received some research attention in
+varying areas but still, little attention has been drawn to the objectives of
+PPP in CIR. For instance, Pursiainen [11] conducted a research on the
+resilience approaches in Denmark, Finland, Norway and Sweden. Pursiainen [11] study identified that the resilience of critical infrastructure
+in these Nordic countries were more oriented towards community
+resilience. It further identified that PPP or corporate social responsibility, state support and regulation remains a weak link in
+achieving critical infrastructure resilience in these Nordic countries
+[11]. Gimenez, Labaka [28] developed a maturity model as a guide for
+local government on how to include city stakeholders in the process of
+resilience building in the city. Their research acknowledges the need for
+partnership and coordination with representatives that operate critical
+infrastructures. However, their study focuses more on the role of the
+local government and how the collaboration between the government
+and private infrastructure owners can be fostered in building CIR.
+Woodruff, Bowman [29] quantified and compared policies and programs that affect resilience in 101 largest cities in the United States.
+Diehl and Hare [30] expanded the public-private-personal (P3) partnership by including the needs of the end-users of critical infrastructure.
+Stewart, Kolluru [31] developed a framework for community resilience
+which integrates the interdependencies amongst public and private
+sector organizations, critical infrastructure and key resources, supply
+chains and local communities. In their study, they considered public
+private partnership as an enabler in the post-disaster response and recovery. Marana ˜ et al. [32] developed a framework for the development
+of an effective public private people partnership (4P) to enhance the
+collaboration among city stakeholders in city resilience building process. Their framework consisted of 16 characteristics needed to be
+implemented to develop 4Ps. Their study was devoid of the objectives of
+each party connected to the 4P collaboration.
+Trucco and Petrenj [18] studied the different approaches to PPP in
+critical infrastructure protection and resilience in seven countries. Their
+study identified the challenges those seven countries face and how they
+overcome those challenges. McCarthy [16] interrogated the separation
+of the political and economic intricacies of public/private and state/market in cyber-security. Givens and Busch [33] analyzed the difficulties in using public private partnership as a mechanism to build
+critical infrastructure protection. In their study, public-private coordination, gaps in information sharing, shortfalls in private sector
+G. Ampratwum et al. 
+International Journal of Critical Infrastructure Protection 39 (2022) 100556
+3
+engagement in critical infrastructure protection and cyber-security were
+the challenges in cyber-security protection. Gabriela and Mircea [23]
+conducted a risk assessment in public private partnership for infrastructure recovery after global crisis. In their study, they identified
+public private partnership as a suitable vehicle for providing financial
+support in critical infrastructure recovery after turbulent periods [23].
+Gim et al. [14] demonstrated the responsibilities of the water-energy
+nexus in Arizona. In their study they grouped the responsibilities
+under operational, regulatory, and constitutional.
+Auzzir et al. [34] explored whether PPP can be used strategically to
+minimize the effects of disasters in developing countries. Their study
+outlined shared risk and benefits, mutual coordination and organizational arrangement as the characteristics that can enhance the collaboration between the government and private CI operators. Auzzir et al.
+[34] study did not show how the partnership can be formed and their
+respective objectives Haraguchi et al. [35] developed a Business Continuity Management based on Public-Private Partnership to address
+SMEs and supply chain resilience. Kruhlov et al. [36] analyzed the
+possibility of providing cybersecurity through the use of public-private
+partnership mechanisms. Kozine et al. [17] developed an approach to
+assessing critical infrastructure resilience which informs the allocation
+of resources and operation in emergency management.
+Carr [37] conducted research on how private CI operators and policy
+makers conceptualize their respective roles in national cyber security.
+The study analyzed public-private partnership from the perspective of
+both the government and private CI operators in cyber security. A study
+conducted by Newlove-Eriksson et al. [38] on critical information infrastructures, used the 2017 Swedish ICT scandal to demonstrate the
+accountability gaps that can occur in public-private governance of
+critical information infrastructure. Trucco et al. [39] tested and
+validated the Resilience Capacities Assessment for Critical Infrastructure
+Disruptions (READ). The READ framework was primarily designed to
+integrate the resilience capabilities of emergency services when emergency services develop a plan to cope with CI disruption. The research
+conducted by Trucco et al. [39] were capabilities-based and does not
+explicitly outline the objectives of the government and the private
+infrastructure operators in building CIR.
+3. Review methodology
+For a comprehensive review Scopus database were searched to
+retrieve publications relevant to PPP research in critical infrastructure
+resilience with the aim of identifying the objectives of PPP in CIR.
+Scopus online database was used to search for relevant literature
+because it covers wide-ranging coverage of academic journals from
+different disciplines [40]. The indexing process for publications are fast
+which increases the likelihood of retrieving ore current publications
+[41]. Fig. 1 outlines the workflow of the study.
+3.1. Identification
+The first step was to use a set of keywords to search for relevant
+publications in Scopus. Finally, the abstract and full-text screening was
+conducted to retain relevant papers that were on PPP in CIR. The keywords used in the search string in Scopus database included "public
+private partnership", "PPP", "critical infrastructure resilience", "resilience
+of critical infrastructu*", "critical infrastructu*", "PPP in CIR", "resilience". These keywords were used in the ‘title, abstract and keywords’
+search for Scopus. The search was also limited to only journals and the
+language selected was English. There was no year limitation.
+Fig. 1. An overview of research process.
+G. Ampratwum et al. 
+International Journal of Critical Infrastructure Protection 39 (2022) 100556
+4
+The full search code used on 10th August 2021 is stated below;
+(TITLE-ABS-KEY ("public private partnership") OR TITLE-ABS-KEY
+("public private collaboration") OR TITLE-ABS-KEY ("PPP") AND
+TITLE-ABS-KEY ("critical infrastructure resilience") OR TITLE-ABS-KEY
+("resilience of critical infrastructu*") OR TITLE-ABS-KEY ("critical
+infrastructu*")) AND (LIMIT-TO (DOCTYPE, "ar") OR LIMIT-TO (DOCTYPE, "re")) AND (LIMIT-TO (LANGUAGE, "English")) AND (LIMIT-TO
+(SRCTYPE, "j"))
+The search code generated 33 publications.
+3.2. Screening stage
+The abstract of the 33 publications were screened to retain publications that were related to PPP in CIR. After the screening of the title
+and abstracts 2 articles were eliminated. This is due to the adoption and
+application of the term ‘resilience’ by research disciplines including
+psychology, organizational, ecology, and management studies [42].
+3.3. Literature selection
+Another round of screening was conducted where a full text reading
+of the remaining 31 publications was done. Publications whose full text
+were not related to PPP in critical infrastructure resilience were eliminated. This exercise rounded up to the number of articles selected to
+only 12 publications. It must be noted that none of the 12 selected
+publication critically examined the objectives of public private partnership in building the critical infrastructure resilience. These selected
+publications rather gave few insights on the objectives of government
+and private critical infrastructure (CI) operators in building the resilience of critical infrastructure. This confirms the limited knowledge on
+PPP in CIR research domain.
+3.4. Analyzing target papers
+The 12 papers were laid open to a thorough content analysis with the
+intent of deriving the objectives of the government and private CI operators in building critical infrastructure resilience. 10 governmental
+and institutional reports from worldwide recognized organizations and
+countries advanced in critical infrastructure resilience were included;
+Organization for Economic Cooperation and development (2019), UN
+Office for Disaster Risk Reduction (2020), United Nations Economic
+Commission for Europe (2020), The World Bank Group (2019), United
+Nations (2018), European Union Circle (2018), Inte-American Development Bank and OECD (2020), National Infrastructure Commission
+Office (2020), Australian Government (2020), United States Homeland
+Security (2012). The significance of including gray literature such as
+research and committee reports and government and institutional reports is the source of evidence they provide in systematic and metaanalysis [43]. gray literature is produced on all levels of government,
+business and industry and government [44–46]. The content analysis
+was conducted through full text reading of the journal articles and
+institutional and governmental literature to retrieve the relevant information needed in this study. Table 1 below details the list of selected
+publication including journal articles and the governmental and institutional literature used for the systematic review in this research.
+4. Results and discussion
+4.1. Annual publication trend
+Analyzing the publication trend allows the researcher to gage the
+number of research attention dedicated to a research domain on a yearly
+basis. Fig. 2 represents the annual publication trend on PPP in critical
+infrastructure resilience. It can be seen in Fig. 2 below that the research
+attention on PPP in CIR began in 2003 with 2 publications. These 2
+publications were from Michel-Kerjan [47,48]. These authors examined
+Table 1
+List of selected publications.
+S/
+N
+Authors Title Year Journal/Publisher
+1 Marana ˜ P.,
+Labaka L.,
+Sarriegi J.M.
+We need them all:
+development of a
+public private people
+partnership to support
+a city resilience
+building process
+2020 Technological
+Forecasting and
+Social Change
+2 Egli D.S.,
+Donohue B.H.,
+Waddell R.L.,
+Contestabile J.M.,
+Cosgrove J.B.
+Operationalizing
+critical infrastructure
+resilience
+2019 Johns Hopkins APL
+Technical Digest
+(Applied Physics
+Laboratory)
+3 Trucco P., Petrenj
+B., Mauro C.D.
+Resilience capacities
+assessment for critical
+infrastructures
+disruption: READ pilot
+applications (part 2)
+2018 International
+Journal of Critical
+Infrastructures
+4 Strandh V. Exploring
+vulnerabilities in
+preparedness – rail
+bound traffic and
+terrorist attacks
+2017 Journal of
+Transportation
+Security
+5 Wrede D., Will A.,
+Linderkamp T.,
+Von Der
+Schulenburg J.-M.
+G.
+An Urban Crisis
+Management System
+for Critical
+Infrastructures:
+Participation
+Possibilities for
+Insurance Companies
+2017 Geneva Papers on
+Risk and Insurance:
+Issues and Practice
+6 van Erp J. New governance of
+corporate
+cybersecurity: a case
+study of the
+petrochemical industry
+in the Port of
+Rotterdam
+2017 Crime, Law and
+Social Change
+7 Cutts M., Wang
+Y., Yu Q.
+New Perspectives on
+Building Resilience
+into Infrastructure
+Systems
+2017 Natural Hazards
+Review
+8 Dunn-Cavelty M.,
+Suter M.
+Public-Private
+Partnerships are no
+silver bullet: An
+expanded governance
+model for Critical
+Infrastructure
+Protection
+2009 International
+Journal of Critical
+Infrastructure
+Protection
+9 Stewart G.T.,
+Kolluru R., Smith
+M.
+Leveraging publicprivate partnerships to
+improve community
+resilience in times of
+disaster
+2009 International
+Journal of Physical
+Distribution &
+Logistics
+Management
+10 Parks R.C., Rogers
+E.
+Vulnerability
+assessment for critical
+infrastructure control
+systems
+2008 IEEE Security and
+Privacy
+11 Michel-Kerjan E. New challenges in
+critical infrastructures:
+A US perspective
+2003 Journal of
+Contingencies and
+Crisis Management
+12 Carr M. Public-private
+partnerships in
+national cyber-security
+strategies
+2016 International
+Affairs
+A Australian
+Government
+Critical Infrastructure
+Resilience Strategy
+2010 Commonwealth of
+Australia
+B EU Circle Impacts of Climate
+Change and Extreme
+Weather Events on
+Critical Infrastructure
+State of the Art Review
+and Taxonomy of
+Existing Knowledge
+EU-CIRCLE
+consortium
+C Teresa Deubelli Towards resilient and
+sustainable
+2019
+(continued on next page)
+G. Ampratwum et al. 
+International Journal of Critical Infrastructure Protection 39 (2022) 100556
+5
+the energy delivery system in the United States. Since then, the
+publication trend has been undulating. The highest number of publications recorded was in 2017 with 4 publications. The number of publications records that public-private partnership has not received the
+needed research attention even though PPP has been recognized as a
+mechanism to build critical infrastructure resilience in literature.
+4.2. Key contributing countries
+Fig. 3 indicates the most productive countries in PPP in CIR research
+domain. United States leads the chart with 9 publications. This is not
+quite surprising because since the terrorist attacks in September 2011,
+the U.S has made great efforts in fostering public-private partnership in
+critical infrastructure protection [49]. Sweden was ranked 2nd with 5
+publications. The Sweden government has a large initiative of establishing the states potential in improving community preparation and
+resilience [50]. In 2013, the Swedish government imposed a comprehensive foreign policy to identify the requirements for a strategy for
+their critical infrastructure protection [50]. Australia and United
+Kingdom were ranked 3rd and 4th with 4 publications each. There is the
+Critical Infrastructure Program for Modeling and Analysis in Australia
+and the Critical Infrastructure Resilience Program in the UK. In
+Australia, there is the Australian Attorney General’s Office and the
+Australian Government’s Resilience Expert Advisory Group in partnership with Resilient Organizations who developed a model and an instrument for the assessment of resilience of critical infrastructure sectors
+[51].
+4.3. Objectives of the government and private critical infrastructure
+operators in building critical infrastructure resilience through PPP
+The “public sector” refers to the government agencies and institutions at the levels of government which is generally; local, state and
+federal [52]. The various government departments and agencies have
+varying roles and oversight responsibilities over infrastructure sectors.
+The private sector in this study refers to private critical infrastructure
+owners. The groups under the private sector are responsible for the daily
+functional performance of critical infrastructure. Table 2 presents a list
+of the objectives of government and private infrastructure owners in PPP
+Table 1 (continued )
+S/
+N
+Authors Title Year Journal/Publisher
+infrastructure: A case
+study of
+Governance of Critical
+Infrastructure
+Resilience in Costa Rica
+Inter-American
+Development Bank
+and OECD
+d organization for
+economic cooperation and
+development
+Good Governance for
+Critical Infrastructure
+Resilience, OECD
+Reviews of Risk
+Management Policies
+2019 organization for
+economic cooperation and
+development
+E National
+Infrastructure
+Commission, UK
+ANTICIPATE, REACT,
+RECOVER
+2020 National
+Infrastructure
+Commission, UK
+F Abhilash Panda,
+Nicholas J. Ramos
+and
+Aleksandrina
+Mavrodieva
+Making Critical
+Infrastructure
+Resilient: Ensuring
+Continuity of Service
+Policy and Regulations
+In Europe And Central
+Asia
+2020 United Nations
+Office for Disaster
+Risk Reduction
+G UNITED
+NATIONS
+ECONOMIC
+COMMISSION
+FOR EUROPE
+Climate Change
+Impacts and
+Adaptation
+for Transport Networks
+and Nodes
+2020 United Nations
+H United Nations Report of the openended
+intergovernmental
+expert working group
+on indicators and
+terminology relating to
+disaster risk reduction
+2016 United Nations
+I St´ephane
+Hallegatte Jun
+Rentschler Julie
+Rozenberg
+The Resilient
+Infrastructure
+Opportunity
+2019 World Bank
+J Office of
+Infrastructure
+Protection
+Office of Infrastructure
+Protection Strategic
+Plan
+2012 Homeland Security,
+United States
+Fig. 2. Annual publication trend.
+G. Ampratwum et al. 
+International Journal of Critical Infrastructure Protection 39 (2022) 100556
+6
+in CIR. In this research, the objectives are the responsibilities of the
+government and private CI owners in building critical infrastructure
+resilience. According to Marana ˜ et al. [32], the effectiveness of partnership is examined through the responsibilities of both the government
+and private CI operators. Undefined responsibilities impede the functioning of the network of government and private CI operators created
+for critical infrastructure resilience [53]. Effective accountability is
+ensured in public-private partnership when responsibilities are outlined
+at the onset of setting up the PPP in CIR networks with goals clearly
+articulated [7]. The success or failure of PPP in CIR is to a great extent
+dependent on the performance of both the government and private CI
+operators.
+The list of objectives was subsequently grouped under three categories; operational, regulatory and constitutional which were adapted
+from Gim et al. [54] study. Table 3 outlines the objectives of the government and private critical infrastructure operators grouped under the
+three categories.
+4.3.1. Operational objectives
+The list of objectives under this category are twelve. The private CI
+operators must identify and evaluate the vulnerabilities within the CI as
+part of their daily operational activities. Sensitizing infrastructure operators on conducting frequent vulnerability and risks assessments helps
+improve the robustness of CIs against disruptive events [55]. Private CI
+operators must also develop functional resilience plan for their CIs to
+reduce and manage the aftermath effects of disasters and keep critical
+infrastructure functioning during the recovery period [56]. Under the
+operational objectives is the investment in emergency preparedness and
+disaster management capacities. Investing in robust and resilience
+enhancement features for critical infrastructures are in the best interest
+of the society and the critical infrastructure owners. However, when the
+likelihood of any disruptive event is considered low, the infrastructure
+operators may be defiant in investing in resilience enhancement measures for critical infrastructure. It is also expected of the government to
+increase the awareness of private CI operators on the dangers and
+threats against their critical infrastructure. Constant communication
+between the government and private CI operators will ensure the exchange of information from both parties. Relevant information
+regarding the interdependencies between the government and infrastructure operators can be shared to improve their performance [28].
+Van Eeten et al. [57] asserts that sharing information about the vulnerabilities of critical infrastructure is important in safeguarding CIs
+against disasters. A collaboration amongst private infrastructure operators is necessary, where they share information beneficial to the
+resilience of their CIs especially since CIs are interconnected. The information shared on vulnerabilities within the CI must be timely and
+relevant. Voluntary information sharing impedes the process of building
+the resilience of critical infrastructure [58]. Hence, private CI operators
+can be mandated to share timely information on the vulnerabilities to
+implement strategies to reduce the impact of the vulnerabilities on CI. It
+has also been acknowledged that the government must lead the plan of
+building the resilience of critical infrastructure. It is expected of the
+government and private infrastructure operators to form collaborative
+engagement with private infrastructure operators by forming a network
+of PPP for CIR. A network for building CIR may be created for different
+infrastructure sectors where private infrastructure operators will be
+invited to join either mandatorily or voluntarily. Government can be
+represented by their respective infrastructure agencies in these networks. Members of the resilience network can share experiences, lessons
+and exchange information in a secured way that will provide assistance
+on CI resistance and absorption of disruptive events [59]. Formation of
+networks with infrastructure operators from different critical infrastructure sectors add additional opportunities for building resilience
+[53]. The cross-sector collaboration must be initiated by the government
+authorities who have the highest level of authority and influence to
+ensure its success [53].
+4.3.2. Regulatory objectives
+The list of objectives under this category are five. It is expected of the
+government to develop a building code to guide private CI owners in the
+design and construction of resilient critical infrastructure. It is recommended that the expertise of the private CI owners is included in
+developing the building code. The government must establish an oversight accountability through sectorial ministries and governmental
+agencies to ensure the compliance of national resilience plans. According to Hallegatte, Rentschler [60] sectoral ministries and agencies are
+typically responsible for the oversight accountability of the delivery of
+infrastructure services and its regulation. These government agencies
+have the responsibility coordinating the management of disaster risks
+and resilience issues concerning the critical infrastructure [60]. In
+France, the General Secretariat for Defense and National Security under
+the prime minister manages the resilience policy for CI across eight-line
+ministries, using a multi-hazard approach. In Australia, there is the
+Australian Attorney General’s Office and the Australian Government’s
+Resilience Expert Advisory Group in collaboration with Resilient Organizations who developed a model of Sector Resilience and an instrument
+which is used for the assessment of resilience of critical infrastructure
+sectors [51]. The National Critical Infrastructure Resilience Committee
+Fig. 3. Key contributing countries.
+G. Ampratwum et al. 
+International Journal of Critical Infrastructure Protection 39 (2022) 100556
+7
+comprising of relevant Australian Government and State and Territory
+(TISN) officials has been established to provide coordination of the national approach to critical infrastructure resilience [25].
+4.3.3. Constitutional objectives
+The list of objectives under this category are three. The foundation
+for building resilience of critical infrastructure is to define what infrastructure systems are the lifeline of the society and what must be protected [61]. In Switzerland, their national infrastructure has been
+divided into critical sectors and has subsequently been divided into
+critical subsectors [62]. The Australian Security of Critical Infrastructure
+Act mandates the creation of a registry of critical infrastructure asset.
+The Act mandates the Department of Home Affairs the right to request
+for information on critical infrastructure assets to determine whether
+Table 2
+Expectations of PPP in CIR.
+S/
+N
+Expectations References Sector
+1 Conducting national risks
+assessment /hazard
+identification/risk and
+vulnerability assessments
+2,3,5,7,
+9,10,11, B, C,
+F
+Government and
+private infrastructure
+owners
+2 National Critical Infrastructure
+Resilience Plan
+B, D, C F, G Government and
+private infrastructure
+owners
+3 Identifying what constitutes
+critical infrastructure
+3, 7, C, D, I Government
+4 Developing disaster loss database
+(creating repositories of
+knowledge)
+6, A, B, H Government
+5 Investments in emergency
+preparedness and disaster
+management capacities
+2, C, F, I Government
+6 Ensure effective incentives for
+investing in ex ante resilience
+measures
+B, C, I Government
+7 Conducting training for different
+infrastructure operators
+1,4,3 Government
+8 Developing Resilience building
+code (resilience standards)
+E, G, J Government and
+private infrastructure
+owners
+9 Develop business continuity plans 9, I Private infrastructure
+owners
+10 Increasing awareness among the
+private infrastructure operators
+2 Government
+11 Develop a functional critical
+infrastructure resilience plan
+2 private infrastructure
+owners
+12 Constant communication between
+government and private
+infrastructure operators
+7 Government and
+private infrastructure
+owners
+13 Inter-operability between
+emergency services and private CI
+owners
+7 Government and
+private infrastructure
+owners
+14 Collaborative engagement with
+private infrastructure operators
+9 Government and
+private CI operators
+15 Provision of timely intelligence on
+critical infrastructure
+vulnerabilities
+12 Government and
+private infrastructure
+owners
+16 Establish accountability
+framework
+C Government
+17 Establish provisions, including
+fees or corrective measures
+applicable in cases of noncompliance with the resilience
+requirements outlined in the
+relevant policies
+C Government
+18 Collaboration amongst Private
+infrastructure operators
+12 Private infrastructure
+owners
+19 Ability to identify and evaluate
+vulnerabilities
+9 Private infrastructure
+owners
+20 Coordinating partnership formed
+between government and private
+infrastructure owners
+8 Government
+Table 3
+Categorized list of expectations of PPP in CIR.
+Code
+(s)
+Resilience Work Sector References
+Operational
+(C1)
+C11 Ability to
+identify and
+evaluate
+vulnerabilities
+Private
+infrastructure
+owners
+9
+C12 Develop a
+functional
+critical
+infrastructure
+resilience plan
+private
+infrastructure
+owners
+2
+C13 Investments in
+emergency
+preparedness
+and disaster
+management
+capacities
+Government 2, C, F, I
+C14 Increasing
+awareness
+among the
+private
+infrastructure
+operators
+Government 2
+C15 Constant
+communication
+between
+government and
+private
+infrastructure
+operators
+Government 7
+C16 Develop
+business
+continuity plans
+Private
+infrastructure
+owners
+9, I
+C17 Collaborative
+engagement
+with private
+infrastructure
+operators
+Government
+and private CI
+operators
+9
+C18 Collaboration
+amongst Private
+infrastructure
+operators
+Private
+infrastructure
+owners
+12
+C19 Ensure effective
+incentives for
+investing in ex
+ante resilience
+measures
+Government B, C, I
+C110 Inter-operability
+between
+emergency
+services and
+private CI
+owners
+Government
+and private
+infrastructure
+owners
+7
+C111 Provision of
+timely
+intelligence on
+critical
+infrastructure
+vulnerabilities
+Government
+and private
+infrastructure
+owners
+12
+C112 Conducting
+training for
+different
+infrastructure
+operators
+Government 1,4,3
+Regulatory
+(C2)
+C21 Developing
+Resilience
+building code
+(resilience
+standards)
+Government
+and private
+infrastructure
+owners
+E, G, J
+C22 Establish
+accountability
+framework
+Government C
+C23 Establish
+provisions,
+Government C
+(continued on next page)
+G. Ampratwum et al. 
+International Journal of Critical Infrastructure Protection 39 (2022) 100556
+8
+any risk to national security is associated with any critical infrastructure.
+Understanding the significance of infrastructure interdependency enables the maximum allocation of resources [63]. The private infrastructure operators may not have adequate resources to identify other
+critical infrastructure whose functioning is connected to the critical infrastructures that they operate. Hence, the government’s involvement is
+significant in identifying all these interdependencies that exist amongst
+critical infrastructure.
+Sun et al. [63] asserts that the information on the effects of critical
+infrastructure interdependency can be quantified by measuring the loss
+of functionalities in critical infrastructure during disasters or disruptive
+events. Resilience standards will help private infrastructure operators to
+equip their critical infrastructure to be robust against stresses and shocks
+(National Infrastructure Commission, 2020). These standards enable
+infrastructure operators to understand what actions needs to be undertaken to ensure their critical infrastructure are resilient. A national
+resilience plan is also needed to reduce manage the aftermath effects of
+disasters and keep critical infrastructure functioning during the recovery
+period [56]. The governments of many countries have initiated plans for
+building the resilience of their critical infrastructure [64]. In developing
+a national critical infrastructure resilience plan, resilience must be
+defined and the parameters for assessing the resilience of critical infrastructure must be outlined [55]. The government cannot define the
+boundaries of resilience without involving the private infrastructure
+owners who are knowledgeable about the operations of the critical infrastructures that they own or manage. This national critical infrastructure resilience plan must detail the interdependencies that exit
+between critical infrastructures and their associated risks. A national
+critical infrastructure resilience plan offers a comprehensive guidance to
+the government agencies and private infrastructure owners and operators. The plan provides the critical infrastructures that require maximum
+attention in addition to estimated restoration timelines for critical infrastructures Cutts et al. [53]. It is also expected that the government
+makes a law where national risks assessment of CI is mandatory. Defaulters of this constitutional provisional must be punished for
+non-compliance.
+4.4. Attributes of PPP in building CIR
+Attributes are the characteristics of a public-private partnership.
+Attributes are needed for an efficient working collaboration between the
+government and private infrastructure operators in building CIR [32]. A
+successful collaboration between government and private infrastructure
+operators positively affects the progress of critical infrastructure resilience [65]. PPP in building CIR is an on-going process [66] that should
+be well orchestrated to ensure a win-win partnership [65]. The collaboration between the government and private CI operators will enhance
+knowledge sharing [67] which will influence the resilience building of
+critical infrastructure. Countries will achieve satisfying performance
+from resources invested in critical infrastructure resilience when their
+government and private infrastructure operators collaborate and interactive effectively [68].
+Social Capital Theory is conceptualized in this study to define the
+attributes that underpins the collaboration between the government and
+private critical infrastructure operators in building CIR. These attributes
+have strong influence on the goals, activities and achievement of resilient critical infrastructure [31]. Social capital gives a theoretical lens
+into the advantages gained by firms or institutions that use social networks [69]. It contributes to the resilience capability of an organization
+[70] by acting as a conduit for information accessibility, access to resources, and efficient diffusion of information [71].
+4.4.1. Conceptualizing social capital theory
+Social capital exist in every relationship that exchange information
+and provide access to resources [72]. A key element in the collaboration
+between the government and private infrastructure owners is to nurture
+the relationship between them before any disruptive event [73]. Social
+capital theory offers illustrative possibilities for the collaboration between the government and private CI operators to reduce critical
+infrastructure vulnerabilities collectively [74]. Any form of collaboration with high levels of social capital relations achieve their goals better
+[74]. The social capital theory is used expound the attributes that underpins the government and private CI operators’ collaboration in
+building the resilience of critical infrastructure. The three combined
+dimensions of social capital theory encourages the parties to the partnership in building CIR to act collectively in with a common goal [75].
+Often, public-private partnership is seen as a transactional approach
+rather than relational approach [76]. The transactional approach has
+high levels of monitoring and tight contracts only [77], whereas the
+relational approach relies on mechanisms such as trust and reciprocity
+[78]. Social capital theory is more relational which makes it useful for
+public-private partnership in critical infrastructure resilience.
+The three dimensions of social capital theory include the following.
+• structural,
+• cognitive and
+• relational capital [72]
+a. Structural Capital
+The goal of structural capital is to establish PPP in CIR networks
+supplemented with defined roles and responsibilities. Collaborations
+must be guided with rules and procedures. The constituents of the
+structural social capital include the following.
+Table 3 (continued )
+Code
+(s)
+Resilience Work Sector References
+including fees or
+corrective
+measures
+applicable in
+cases of noncompliance with
+the resilience
+requirements
+outlined in the
+relevant policies
+C24 Coordinating
+partnership
+formed between
+government and
+private
+infrastructure
+owners
+Government 8
+C25 Disaster loss
+database
+(Develop
+minimum
+standards and
+metadata for
+disaster-related
+data)
+Government 6, A, B, H
+Constitutional
+(C3)
+C31 National Critical
+Infrastructure
+Resilience Plan
+Government
+and private
+infrastructure
+owners
+B, D, C F,
+G
+C32 Identifying what
+constitutes
+critical
+infrastructure
+Public 3, 7, C, D, I
+C33 Conducting
+national risks
+assessment
+/hazard
+identification/
+risk and
+vulnerability
+assessments
+Government
+and private
+infrastructure
+owners
+2,3,5,7,
+9,10,11, B,
+C, F
+G. Ampratwum et al. 
+International Journal of Critical Infrastructure Protection 39 (2022) 100556
+9
+• Defined roles and responsibilities
+• Procedural fairness
+• Frequent Interactions or communication
+• Accountability
+Each actor in the partnership must be aware of their contribution and
+role to the resilience of critical infrastructure. The public private partnership thrives on both formal and informal communication [31].
+Appropriate information channels must be established for safe information sharing, information accessibility and information transparency
+[32]. Developing guidelines for the communication between the government and private CI operators ensure proper oversight and transparency where accountability is ensured [31]. The rules and regulations
+guiding the relationship between the government and private critical
+infrastructure owners must be known to all parties to the partnership.
+This is what we call procedural fairness [52]. These rules must be
+developed in consultations with the private critical infrastructure operators. Accountability will ensure that the parties to the contract are
+accountable to both the success and failure of the strategies implemented ensure the robustness of critical infrastructure [52]. According
+to Medda [79], when there is a breach on the responsibilities, the consequences must be enforced by each party in the public private
+partnership.
+b. Cognitive Capital
+The cognitive social capital represents the shared norms, goals, and
+interests. The constituents of cognitive social capital include the
+following.
+• Common Goal and Shared Understanding
+• Constant learning and monitoring
+• Exchange of information
+Conflicting objectives and divergent agendas between the public and
+private institutions make the relationship unstable for the resilience of
+critical infrastructure [80]. The collaboration between the government
+and private CI operators require a shared understanding on critical
+infrastructure resilience [52]. In the instance where there are divergent
+interests and goals, an agreement must be reached where each party to
+the public-private partnership must need the other to achieve its own
+goals or there must be a financial arrangement to make the partnership
+attractive for both parties [81]. The size and geographic location of
+private sector organizations may influence their decision to collaborate
+with the government. They may also have financial limitation to
+collaborate with the government to build the resilience of critical
+infrastructure. Cognitive capital encourages partners to the partnership
+to work toward taking actions that reduces the occurrence of any
+disruptive event or the impact of any disruptive event on critical infrastructure. Cognitive Capital also encourages the merging of interest
+among public and private institutions. It reflects the coordination and
+integration of adequate procedures and practices that facilitate the
+building of CIR [75]. Differing approaches to critical infrastructure
+resilience creates discord between the parties in the public private
+partnership [82]. While the government and private CI operators agree
+on the importance of infrastructure resilience, the agreement between
+them can be weak which can even threaten their partnership [83]. The
+public and private institutions exchange more diversified resources and
+reliable information [84]. The cognitive social capital ensures the flow
+and exchange of information between the government and private CI
+operators in partnership [75]. The effort and resources invested in
+building the resilience of critical infrastructure will yield positive results
+when the government and private CI owners exchange relevant information on infrastructure vulnerabilities [18]. The Australian government has established the Trusted Information Sharing Network for
+Critical Infrastructure Resilience as its primary mechanism to build
+partnership between infrastructure operators and government for
+building CIR. Members of the TISN raise the awareness of risks to critical
+infrastructure, share information and techniques necessary in assessing
+and mitigating risks and build resilience capacity within organizations
+[25]. Information sharing between the public and private institutions
+help build the resilience of critical infrastructure. However, there is the
+risk of government sharing private infrastructure owners’ vulnerabilities
+to their competitors. This can limit the information shared by the private
+infrastructure owners [81]. The structure of the partnership between the
+government and private infrastructure operators determines how the
+information can be shared.
+c. Relational Capital
+Relational capital thrives on the strength of the relationship between
+the government and private infrastructure operators. The constituents of
+relational capital are as follows.
+• Trust
+• Respect
+• Reciprocity
+• Effective Communication
+The strength of the relationship between the government and private
+CI operators also depends on trust, friendships, respect, and reciprocity.
+A pre-existing relationship prior to the occurrence of any disruptive
+event facilitates the building of critical infrastructure resilience. Longterm relationship between the government and private CI operators
+affect the longevity of their partnership [85]. Trust is an element of
+relational capital. In PPP in CIR, where exchange of information is
+inevitable, trust is very fundamental. A lack of trust can mar the relationship that exist within the public and private institutions in the
+resilience of critical infrastructure. The collaboration between the government and private infrastructure owners require the exchange of some
+extremely sensitive information [86]. The exchange of sensitive information which is inevitable in between the government and private CI
+operators depend on mutual trust between the two parties to the PPP.
+Trust can only be formed when a collaboration is formed between the
+PPP participants [26]. Trust between the government and private CI
+operators can lead to more informal relationships whereas, low levels of
+trust would make these two sectors migrate towards more formal or
+contractual interaction. Trust among parties to the partnership enable a
+cohesive effort in implementing resilience strategies to reduce the vulnerabilities within critical infrastructure [32]. In the instance where the
+PPP in CIR networks consist of competitors from the same sector, trust
+should be a dominant theme running in this collaborative network.
+Where private infrastructure operators have to share the vulnerabilities
+within their critical infrastructure to the government, such information
+must be classified [81]. Classified contextual information may not be
+shared among the public and private agencies or institutions in the PPP
+in CIR network. Information may be shared amongst institutions with
+strong personal or professional bond.
+5. Conceptual framework
+Fig. 4 shows the interactive linkages between the attributes of Attributes of PPP in CIR and the objectives of Public and private sectors in
+building CIR. Attributes are the characteristics of a public-private partnership which makes the PPP in CIR distinct. The relationship between
+the three categories of the objectives; thus, operational work, regulatory
+and constitutional is depicted in the Fig. 4 below. The constitutional
+objectives outline the legal framework that supports both the regulatory
+and operational objectives. The absence of the constitutional objectives
+makes the regulatory and operational objectives almost impossible
+Constitutional objectives entails establishing the legal framework that
+will guide the operational and regulatory objectives of the parties to the
+PPP in building critical infrastructure resilience [54]. The regulatory
+objectives underpin the operational objectives in critical infrastructure.
+The operational objectives include ensuring the daily functional performance of critical infrastructure, implementing routines to monitor,
+G. Ampratwum et al. 
+International Journal of Critical Infrastructure Protection 39 (2022) 100556
+10
+main and repair any identified faults in the critical infrastructure [54].
+Critical infrastructure operators are responsible for maintaining the
+functional and operational performance of critical infrastructure under
+varied conditions. The private critical infrastructure operators collaborate among themselves to share information on the relevant standards
+and protocols [54]. The regulatory objectives set resilience standards for
+the operational performance of critical infrastructure. The critical
+infrastructure operators are monitored and evaluated regularly to
+ensure their compliance to the resilience standard [54]. The operational
+objectives of the private critical infrastructure operators are also subjected to external regulations and oversight responsibility by governmental agencies or sectorial ministries.
+6. Knowledge gaps and future directions
+Critical infrastructure resilience requires the collaboration between
+stakeholders such as the government and private infrastructure operators. Critical infrastructure resilience is not a silo work where organizations and institutions implement their own resilience measures
+independent of each other. In conducting this study some gaps were
+identified. It is not enough to establish the general concept of PPP in CIR,
+which in this study, it has been demonstrated that some studies have
+already done that. Research must orient towards the objectives of the
+parties to the PPP and the attributes of PPP that can make the partnership successful. Some of the gaps identified in this study are as follows.
+1. The research area on PPP in critical infrastructure resilience has not
+received extensive research coverage even though studies have
+stated that it is useful in enhancing resilience of lifeline infrastructure. A more detailed studies needs to be undertaken in the future to
+ascertain the structure and governance of PPP in CIR.
+2. Only few countries have utilized the PPP mechanism in building
+critical infrastructure resilience. It is recommended that more
+detailed studies be undertaken contextually in different countries by
+using mixed approach to examine how they can utilize PPP to build
+the resilience of their critical infrastructure.
+3. The objectives of PPP in CIR are a gray area in resilience research
+domain. Further studies can be conducted to empirically test the
+identified objectives in this study.
+4. There are no known studies that have categorized objectives of PPP
+in CIR. Researchers can formulate hypothesis from the three categories of objectives for further empirical investigations.
+5. Because the concept of PPP is normally context specific in every
+country, PPP attributes may have some slight difference. Qualitative
+studies can be conducted to ascertain the PPP in CIR attributes in
+different regions and countries.
+7. Conclusions and implications
+The traditional concept of PPP has been in existence for decades.
+However, the concept of PPP in CIR is an emerging concept that has not
+Fig. 4. Conceptual framework.
+G. Ampratwum et al. 
+International Journal of Critical Infrastructure Protection 39 (2022) 100556
+11
+received much research attention. The parties to the PPP in this study
+were the government and the private critical infrastructure operators.
+The government of every country have the legal mandate to ensure the
+safety of their critical infrastructure and its citizens. However, the
+government mostly function as the supervisory body over the critical
+infrastructure because they are mostly owned and operated by the private infrastructure operators. The collaboration between the government and private infrastructure owners will ensure that both parties to
+the PPP contribute resources to build the resilience of critical infrastructure. This study presented a systematic review of 22 articles
+including institutional literature to extract the relevant information on
+the objectives of PPP in CIR. The results showed that 2017 recorded the
+highest number of publications. The country with the highest publications was the United States of America and Sweden. The selected publications were subjected to content analysis to retrieve a list of 20
+objectives, thus, the responsibilities of PPP in CIR. The topmost objectives identified in the review were National risks assessment /hazard
+identification/risk and vulnerability assessments/Risks Map, Critical
+infrastructure system identification, setting up resilience network,
+creating a platform for exchange of knowledge, Policies and guidelines
+and Financial Incentives. A conceptual framework was developed by
+grouping the set of objectives under three categories namely, operational, regulatory, and constitutional. The second stage of the conceptual framework was to establish the relationship that exist between the
+three categories of objectives. This comprehensive literature review
+contributes to knowledge by establishing the objectives of PPP in CIR
+which was otherwise missing in literature. The findings on the objectives
+of PPP in CIR are significant because they outline the responsibilities of
+the government and private CI operators in partnership to build the
+resilience of critical infrastructure. It also informs both parties in partnership the objectives of each other in the pursuit of building the
+resilience of critical infrastructure. Social Capital theory was also
+conceptualized in this study to outline the attributes that underpins the
+government and private CI operators’ collaboration in building the
+resilience of critical infrastructure. These attributes inform decision
+makers and policy makers on building a successful relationship between
+the government and private CI owners. The outcome of this study has
+practical implications by clearly outlining the objectives of government
+and private CI operators in building critical infrastructure resilience.
+The two major limitation in this study were the use of only Scopus
+database as a search engine. Secondly, the list of objectives identified in
+this study were based on systematic review methodology only and has
+not been empirically tested. Nevertheless, the findings of this study can
+be considered as reliable and useful for further empirical validation and
+future practice.
+Declaration of Competing Interest
+The authors declare that they have no known competing financial
+interests or personal relationships that could have appeared to influence
+the work reported in this paper.
+Acknowledgment
+This paper constitutes a part of a PhD research project being conducted at the School of Engineering, Design and Built Environment at
+Western Sydney University, Australia. The authors acknowledge Western Sydney University for full funding of research.
+References
+[1] E. Zio, Challenges in the vulnerability and risk analysis of critical infrastructures,
+Reliab. Eng. Syst. Saf. 152 (2016) 137–150.
+[2] S. Bouchon, The Vulnerability of Interdependent Critical Infrastructures Systems:
+Epistemological and Conceptual State of The Art, Institute for the Protection and
+Security of the Citizen, Joint Research Centre, European Commission, 2006, p. 99.
+[3] M. Ouyang, Review on modeling and simulation of interdependent critical
+infrastructure systems, Reliab. Eng. Syst. Saf. 121 (2014) 43–60.
+[4] Moteff, J.D., Critical infrastructure resilience: the evolution of policy and programs
+and issues for congress. 2012, Congressional Research Service Washington, DC.
+[5] Dalziell, E.P. and McManus S.T., Resilience, vulnerability, and adaptive capacity:
+implications for system performance. 2004.
+[6] S. Wang, D. Xuan, W. Zhao, On resilience of structured peer-to-peer systems,
+GLOBECOM’03, in: Proceedings of the IEEE Global Telecommunications
+Conference, IEEE, 2003 (IEEE Cat. No. 03CH37489).
+[7] J.E. Stiglitz, S.J. Wallsten, Public-private technology partnerships: promises and
+pitfalls, Am. Behave. Sci. 43 (1) (1999) 52–73.
+[8] C. Field, R. Look, A value-based approach to infrastructure resilience, Environ.
+Syst. Decis. 38 (3) (2018) 292–305.
+[9] B.D. Trump, et al., Social Resilience and Critical Infrastructure systems, in
+Resilience and Risk, Springer, 2017, pp. 289–299.
+[10] L.E. Brand˜
+ao, et al., Government supports in public–private partnership contracts:
+metro Line 4 of the Sao ˜ Paulo subway system, J. Infrastruct. Syst. 18 (3) (2012)
+218–225.
+[11] C. Pursiainen, Critical infrastructure resilience: a Nordic model in the making? Int.
+J. Disaster Risk Reduct. 27 (2018) 632–641.
+[12] B. McKnight, M.K. Linnenluecke, How firm responses to natural disasters
+strengthen community resilience: a stakeholder-based perspective, Organ. Environ.
+29 (3) (2016) 290–307.
+[13] V. Kruhlov, et al., Public-private partnership in cybersecurity, in: Proceedings of
+the CEUR Workshop, CEUR-WS, 2020.
+[14] Gim, C., et al., The resilience work of institutions. 2019. 97: p. 36–43.
+[15] L. Newlove-Eriksson, G. Giacomello, J. Eriksson, The invisible hand? Critical
+information infrastructures, Commer. Natl. Secur. 53 (2) (2018) 124–140.
+[16] D.R. McCarthy, Privatizing political authority: cybersecurity, public-private
+partnerships, and the reproduction of liberal political order, J. Politics Gov. 6 (2)
+(2018) 5–12.
+[17] I. Kozine, B. Petrenj, P. Trucco, Resilience capacities assessment for critical
+infrastructures disruption: the READ framework (part 1), Int. J. Crit. Infrastruct. 14
+(3) (2018) 199–220.
+[18] P. Trucco, B. Petrenj, Resilience of critical infrastructures: benefits and challenges
+from emerging practices and programmes at local level. Resilience and Risk,
+Springer, 2017, pp. 225–286.
+[19] M. Haraguchi, U. Lall, K. Watanabe, Building private sector resilience: directions
+after the 2015 Sendai framework, J. Disaster Res. 11 (3) (2016) 535–543.
+[20] M. Carr, Public-private partnerships in national cyber-security strategies, Int. Aff.
+92 (1) (2016) 43–62.
+[21] Z.A. Auzzir, R.P. Haigh, D. Amaratunga, Public-private partnerships (PPP) in
+disaster management in developing countries: a conceptual framework, in:
+Proceedings of the 4th International Conference on Building Resilience,
+Incorporating the 3rd Annual Conference of the Android Disaster Resilience
+Network, Amsterdam, Elsevier Science Bv, 2014, pp. 807–814. D. Amaratunga and
+R. Haigh, Eds.
+[22] A.D. Givens, N.E. Busch, Realizing the promise of public-private partnerships in U.
+S. critical infrastructure protection, Int. J. Crit. Infrastruct. Prot. 6 (1) (2013)
+39–50.
+[23] P. Gabriela, B. Mircea, Risk assessment in Public Private Partnerships (PPP) for
+infrastructure in the recovery after the global crisis, in: Proceedings of the
+International Conference on Risk Management, Assessment and Mitigation, RIMA,
+2010.
+[24] D.W. Lee, An exploratory assessment of infrastructure resilience to disasters, Int. J.
+Disaster Resil. Built Environ. 11 (4) (2020) 519–533.
+[25] Australian Government, Critical infrastructure resilience strategy. 2010.
+[26] M. Dunn-Cavelty, M. Suter, Public–private partnerships are no silver bullet: an
+expanded governance model for critical infrastructure protection, Int. J. Crit.
+Infrastruct. Prot. 2 (4) (2009) 179–187.
+[27] K.G. Provan, P. Kenis, Modes of network governance: structure, management, and
+effectiveness, J. Public Admin. Res. Theory 18 (2) (2008) 229–252.
+[28] Gimenez, R., et al., A maturity model for the involvement of stakeholders in the
+city resilience building process. 2017. 121: p. 7–16.
+[29] Woodruff, S., et al., Urban resilience: analyzing the policies of US cities. 2021. 115:
+p. 103239.
+[30] W. Diehl, F. Hare, Achieving security in the internet of things through expansion of
+the partnership model, in: Proceedings of the IEEE International Symposium on
+Technology and Society (ISTAS), IEEE, 2018.
+[31] Stewart, G.T., et al., Leveraging public-private partnerships to improve community
+resilience in times of disaster. 2009.
+[32] P. Marana, ˜ L. Labaka, J.M. Sarriegi, We need them all: development of a public
+private people partnership to support a city resilience building process, J. Int.
+Disaster Resil. Built Environ. 154 (2020), 119954.
+[33] A.D. Givens, N.E. Busch, Realizing the promise of public-private partnerships in US
+critical infrastructure protection, Int. J. Crit. Infrastruct. Prot. 6 (1) (2013) 39–50.
+[34] Auzzir, Z.A., et al., Public-private partnerships (PPP) in disaster management in
+developing countries: a conceptual framework. 2014. 18: p. 807–814.
+[35] M. Haraguchi, U. Lall, K. Watanabe, Building private sector resilience: directions
+after the 2015 Sendai framework, J. Disaster Res. 11 (3) (2016) 535–543.
+[36] V. Kruhlov, et al., Public-private partnership in cybersecurity, in: Proceedings of
+the CEUR Workshop, 2020.
+[37] M. Carr, Public–private partnerships in national cyber-security strategies, Int. J. 92
+(1) (2016) 43–62.
+G. Ampratwum et al. 
+International Journal of Critical Infrastructure Protection 39 (2022) 100556
+12
+[38] L. Newlove-Eriksson, G. Giacomello, J. Eriksson, The invisible hand? Critical
+information infrastructures, commercialisation and national security, Int. Spect. 53
+(2) (2018) 124–140.
+[39] P. Trucco, B. Petrenj, C.D. Mauro, Resilience capacities assessment for critical
+infrastructures disruption: READ pilot applications (part 2), Int. J. Crit. Infrastruct.
+14 (3) (2018) 221–247.
+[40] M.E. Falagas, et al., Comparison of PubMed, Scopus, web of science, and Google
+scholar: strengths and weaknesses, FASEB J. 22 (2) (2008) 338–342.
+[41] L.I. Meho, Y. Rogers, Citation counting, citation ranking, and h-index of humancomputer interaction researchers: a comparison of Scopus and Web of Science,
+J. Am. Soc. Inf. Sci. Technol. 59 (11) (2008) 1711–1726.
+[42] D.E. Alexander, Resilience and disaster risk reduction: an etymological journey,
+Nat. Hazard. Earth Syst. Sci. 13 (11) (2013) 2707–2716.
+[43] A. Paez, Gray literature: an important resource in systematic reviews, J. Evid.
+Based Med. 10 (3) (2017) 233–240.
+[44] Q. Mahood, D. Van Eerd, E. Irvin, Searching for grey literature for systematic
+reviews: challenges and benefits, Res. Synth. Methods 5 (3) (2014) 221–234.
+[45] S.P. Bellefontaine, C.M. Lee, Between black and white: examining grey literature in
+meta-analyses of psychological research, J. Child Fam. Stud. 23 (8) (2014)
+1378–1388.
+[46] C. Pappas, I. Williams, Grey literature: its emerging importance, J. Hosp.
+Librariansh. 11 (3) (2011) 228–234.
+[47] E. Michel-Kerjan, New challenges in critical infrastructures: a US perspective,
+J. Conting. Crisis Manag. 11 (3) (2003) 132–141.
+[48] C.W. Gellings, The power delivery system of the future: a vital part of US energy
+policy, Strateg. Plan. Energy Environ. 23 (3) (2003) 58–76.
+[49] N.E. Busch, A.D. Givens, Achieving resilience in disaster management: the role of
+public-private partnerships, J. Strateg. Secur. 6 (2) (2013) 1–19.
+[50] M.S. Jensen, Cyberresiliens, sektorprincip og ansvarsplacering - nordiske
+erfaringer, Int. Politikk 77 (3) (2019) 266–277.
+[51] Hatton, T., et al., Developing a model and instrument to measure the resilience of
+critical infrastructure sector organisations. 2018. 14(1): p. 59–79.
+[52] J. Egan, T. Anderson, Considerations for a model of public-private sector
+collaboration in the provision of disaster relief: incentives and limits. Emergency
+Management and Disaster Response Utilizing Public-Private Partnerships, IGI
+Global, 2015, pp. 1–15.
+[53] M. Cutts, Y. Wang, Q. Yu, New perspectives on building resilience into
+infrastructure systems, Nat. Hazard. Rev. 18 (1) (2017) B4015004-1–B4015004-7.
+[54] C. Gim, C.A. Miller, P.W. Hirt, The resilience work of institutions, Environ. Sci.
+Policy 97 (2019) 36–43.
+[55] S.V. Croope, S. McNeil, Improving resilience of critical infrastructure systems
+postdisaster: recovery and mitigation, Transp. Res. Record J. Transp. Res. Board
+2234 (1) (2011) 3–13.
+[56] Berkeley, A.R., et al., A framework for establishing critical infrastructure resilience
+goals. 2010: p. 18–21.
+[57] Van Eeten, M., et al., The state and the threat of cascading failure across critical
+infrastructures: the implications of empirical evidence from media incident reports.
+2011. 89(2): p. 381–400.
+[58] J. van Erp, New governance of corporate cybersecurity: a case study of the
+petrochemical industry in the Port of Rotterdam, J. Crime Law Soc. Change 68 (1)
+(2017) 75–93.
+[59] Labaka, L., et al., A holistic framework for building critical infrastructure
+resilience. 2016. 103: p. 21–33.
+[60] S. Hallegatte, J. Rentschler, J. Rozenberg, Lifelines: The Resilient Infrastructure
+Opportunity, World Bank Publications, 2019.
+[61] Palma-Oliveira, J.M., et al., “Modern resilience: Moving without movement”, An
+edited collection of authored pieces comparing, contrasting, and integrating risk
+and resilience with an emphasis on ways to measure resilience. 173 (2016) 173-
+179.
+[62] S. Brem, Critical infrastructure protection from a national perspective, Eur. J. Risk
+Regul. 6 (2) (2015) 191–199.
+[63] J. Sun, Z. Zhang, A post-disaster resource allocation framework for improving
+resilience of interdependent infrastructure networks, Transp. Res. Part D Transp.
+Environ. 85 (2020), 102455.
+[64] Y.P. Fang, E. Zio, An adaptive robust framework for the optimization of the
+resilience of interdependent infrastructures under natural hazards, Eur. J. Oper.
+Res. 276 (3) (2019) 1119–1136.
+[65] C. Cui, et al., Relationships among value-for-money drivers of public–private
+partnership infrastructure projects, J. Infrastruct. Syst. 25 (2) (2019), 04019007.
+[66] C. Field, R. Look, A value-based approach to infrastructure resilience, Environ.
+Syst. Decis. 38 (3) (2018) 292–305.
+[67] H.A. Nissen, M.R. Evald, A.H. Clarke, Knowledge sharing in heterogeneous teams
+through collaboration and cooperation: exemplified through public–privateinnovation partnerships, Ind. Mark. Manag. 43 (3) (2014) 473–482.
+[68] S. Verweij, Producing satisfactory outcomes in the implementation phase of PPP
+infrastructure projects: a fuzzy set qualitative comparative analysis of 27 road
+constructions in the Netherlands, Int. J. Project Manag. 33 (8) (2015) 1877–1887.
+[69] S. Carey, B. Lawson, D.R. Krause, Social capital configuration, legal bonds and
+performance in buyer–supplier relationships, J. Oper. Manag. 29 (4) (2011)
+277–288.
+[70] S. Prasad, et al., Building disaster-resilient micro enterprises in the developing
+world, Disasters 39 (3) (2015) 447–466.
+[71] R.S. Burt, Structural Holes: The Social Structure of Competition, Harvard
+University Press, 2009.
+[72] J. Nahapiet, S. Ghoshal, Social capital, intellectual capital, and the organizational
+advantage, Acad. Manage. Rev. 23 (2) (1998) 242–266.
+[73] X. Jia, et al., The role of social capital on proactive and reactive resilience of
+organizations post-disaster, Int. J. Disaster Risk Reduct. 48 (2020), 101614.
+[74] A. Bahadur, T. Tanner, Transformational resilience thinking: putting people, power
+and politics at the heart of urban climate resilience, Environ. Urban. 26 (1) (2014)
+200–214.
+[75] T. Moon, S. Ko, Compassion organizing for public-private collaboration in disaster
+management. Emergency Management and Disaster Response Utilizing PublicPrivate Partnerships, IGI Global, 2015, pp. 99–120.
+[76] E. Solheim-Kile, A. Wald, Extending the transactional view on public–private
+partnership projects: role of relational and motivational aspects in goal alignment,
+J. Constr. Eng. Manag. 145 (5) (2019), 04019030.
+[77] O. Heino, T.S. Katko, P.E. Pietil¨
+a, Tighter contracts or more trust? Outsourcing in
+finnish water utilities, Public Works Manag. Policy 20 (4) (2015) 360–378.
+[78] G. Weihe, Public-private partnerships and public-private value trade-offs, Public
+Money Manag. 28 (3) (2008) 153–158.
+[79] F. Medda, A game theory approach for the allocation of risks in transport public
+private partnerships, Int. J. Proj. Manag. 25 (3) (2007) 213–218.
+[80] M. Kumaraswamy, W. Zou, J. Zhang, Reinforcing relationships for resilience–by
+embedding end-user ‘people’in public–private partnerships, Civil Eng. Environ.
+Syst. 32 (1–2) (2015) 119–129.
+[81] M. Carr, Public–private partnerships in national cyber-security strategies,
+International Affairs (2016) 43–62.
+[82] N.E. Busch, A.D. Givens, Public-private partnerships in homeland security:
+opportunities and challenges, Homeland Secur. Aff. 8 (1) (2012) 1–24, 18.
+[83] M. De Bruijne, M. Van Eeten, Systems that should have failed: critical
+infrastructure protection in an institutionally fragmented environment, J. Conting.
+Crisis Manag. 15 (1) (2007) 18–29.
+[84] A. Capaldo, Network structure and innovation: the leveraging of a dual network as
+a distinctive relational capability, Strateg. Manag. J. 28 (6) (2007) 585–608.
+[85] R. Osei-Kyei, A.P. Chan, Developing transport infrastructure in Sub-Saharan Africa
+through public–private partnerships: policy practice and implications, Transp. Rev.
+36 (2) (2016) 170–186.
+[86] E. Frye, Information-sharing hangups: is antitrust just a cover, CIP Rep. 1 (2003)
+6–7.
+G. Ampratwum et al. 

@@ -1,0 +1,1129 @@
+computer law & security review 44 (2022) 105657
+Available online at www.sciencedirect.com
+journal homepage: www.elsevier.com/locate/CLSR
+Regulating AI. A label to complete the proposed Act
+on Artificial Intelligence
+Kees Stuurmana
+, Eric Lachaudb,∗
+aKees Stuurman: full professor of Information Technology Regulation at Tilburg Institute for Law, Technology, and
+Society (TILT), Tilburg University, P.O. Box 90153, 5000 LE Tilburg, The Netherlands
+b Eric Lachaud: privacy consultant
+a r t i c l e i n f o
+Keywords:
+AI regulation
+Labels
+Certification
+Self-regulation
+Soft law
+a b s t r a c t
+AI regulation is emerging in the EU. The European authorities, NGOs and academics have
+already issued a series of proposals to accommodate the ‘development and uptake of AI’
+with an ‘appropriate ethical and legal framework’ and promote what the European Commission has called an ‘ecosystem of trust’. In the spring of 2020, the European Commission
+submitted a legislative proposal for public consultation including four options ranging from
+“soft law only” to a broad scope of mandatory requirements and combinations thereof, for
+addressing the risks linked to the development and use of certain AI applications. One year
+later, the Commission unveiled on 21 April 2021 the EU Act on Artificial Intelligence.1 The
+proposal primarily focusses on regulating ’high-risk’ systems through mandatory requirements and prohibition measures. This approach leaves a wide range of AI-systems, with potentially serious impact on fundamental rights, merely unregulated as regards specifically
+AI related risks. This paper explores the boundaries of the impact of the Act for primarily
+non-high-risk systems and discuss the options for introducing a voluntary labelling scheme
+for enhancing protection against the risks of medium and low risk AI systems.
+∗ Corresponding author at: Tilburg University, P.O. Box 90153, 5000 LE Tilburg, The Netherlands
+E-mail addresses: c.stuurman@tilburguniversity.edu (K. Stuurman), eric.lachaud@outlook.com (E. Lachaud). 1 Regulation of the European Parliament and of the Council laying down harmonised rules on artificial intelligence (artificial intelligence
+act) and amending certain union legislative acts, Brussels, 21.4.2021 COM (2021) 206 final.
+https://doi.org/10.1016/j.clsr.2022.105657
+2 computer law & security review 44 (2022) 105657
+
+1. Introduction
+   In 2018, McKinsey2 forecasted that business investments in
+   AI related technologies should raise up to US$40 trillion (33
+   thousand billion EUR) during the next twenty years. The
+   development of Artificial Intelligence (AI) opens undreamt-of
+   opportunities that stimulates the interest of businesses3 but
+   also governments and citizens.4
+   An open letter signed in 2015 by 8,000 AI researchers and
+   policymakers underlined the ‘unprecedented benefits to humanity’ that AI could bring but also emphasized the potential threats for ‘privacy, ethical norms and human control’5
+   this technology could introduce. Nemitz pointed out that the
+   progress of AI introduces a new milestone in the ability of
+   machine to autonomously alter the EU citizens’ destiny and
+   stressed that the situation ‘leads to a massive asymmetry of
+   knowledge and power in the relationship between man and
+   machine.’6
+   To anticipate the challenges ahead,the European Commission has opened the debate on AI and issued a series of proposals to accommodate the ‘development and uptake of AI’
+   with an ‘appropriate ethical and legal framework’ and promote an ‘ecosystem of trust.’7 The Commission seeks to strike
+   the right balance between innovation and trustworthiness to
+   design a regulatory framework that is ‘flexible enough to pro2 ‘Non-tech businesses are beginning to use artificial intelligence at scale’ The Economist, March 31, 2018, 3–5. Available
+   at < https://www.economist.com/special-report/2018/03/28/
+   non-tech-businesses-are-beginning-to-use-artificial-intelligence
+   -at-scale > last accessed 5 January 202 cited in Straus J, ‘Artificial Intelligence–Challenges and Chances for Europe’ (2021) 29
+   European Review 146 cited in Straus J, ‘Artificial Intelligence–
+   Challenges and Chances for Europe’ 29 European Review 142. 3 ‘Google CEO Thinks AI Will Be More Profound Change
+   Than Fire’ Bloomberg, January 22nd, 2020. Available at
+   https://news.bloomberglaw.com/tech-and-telecom-law/
+   google-ceo-thinks-ai-will-be-more-a-profound-change-than-fire
+   > last accessed 5 January 2021‘AI Will Change 100 Percent of Jobs Over the Next Decade’ PC Mag October
+   > 18, 2018. Available at < https://www.pcmag.com/news/
+   > ibms-ginni-rometty-ai-will-change-100-percent-of-jobs > last
+   > accessed 5 January 2021 Cited in Marchant G, Tournas L and
+   > Gutierrez CI, ‘Governing Emerging Technologies Through Soft
+   > Law: Lessons for Artificial Intelligence’ (2020) 61 Jurimetrics. 4 US Executive Order on AI benefits for US Citizens. Exec. Order
+   > No. 13,859, 84 Fed. Reg. 3967, 3967 (Feb. 14, 2019). 5 An Open Letter: Research Priorities for Robust and Beneficial
+   > Artificial Intelligence, Future of Life Institute. Available at < https:
+   > //futureoflife.org/ai-open-letter > last accessed 5 January 2021. 6 ‘Technology and (economic and political) power are entering
+   > into an ever closer symbiosis. A technology that knows more about
+   > man and the world than man knows about himself, and that
+   > is given ever more decision-making powers, leads to a massive
+   > asymmetry of knowledge and power in the relationship between
+   > man and machine.’ In Nemitz, P. Foreword • Power in Times of Artificial Intelligence Delphi - Interdisciplinary Review of Emerging
+   > Technologies Volume 2, Issue 4 (2020) pp. 158 - 160. 7 European Commission, ‘White Paper on Artificial Intelligence
+
+- A European Approach to Excellence and Trust (COM (2020) 65 Final)’.
+  mote innovation while ensuring high levels of protection and
+  safety’8 to the EU citizens.
+  In spring 2020,the Commission submitted a legislative proposal for public consultation including four options ranging
+  from “soft law only” to a broad scope of mandatory requirements and combinations thereof, for addressing the risks
+  linked to the development and use of certain AI applications.
+  One year later, the Commission unveiled on 21 April 2021 the
+  EU Act on Artificial Intelligence9 (hereinafter: “the Act) that
+  primarily focusses on regulating ’high-risk’ systems through
+  mandatory requirements and prohibition measures.
+  In our view, this approach leaves a wide range of AIsystems, with potentially serious impact on fundamental
+  rights, merely unregulated as regards specifically AI related
+  risks. This paper will explore the boundaries of the impact of
+  the new Act which for non-high-risk systems,next to a limited
+  duty to inform for certain systems, only supports the development of voluntary codes of conduct.Remarkably,the European
+  legislator did not seek to introduce voluntary certification or
+  any other form of voluntary labelling schemes for enhancing
+  protection against the risks of medium and low risk AI systems, as was done in the GDPR and the European Cyber Security Act. In this paper, we will explore the options for introducing such a scheme in the context of AI and the conditions
+  that must be met for it to be widely adopted.
+  The paper is organized in four sections. Section 2 provides
+  with an overview of the measures envisaged by the Act and
+  highlights the regulatory gap created by the absence of measures applying to medium and low-risk AI. Section 3 explores
+  the option of a voluntary label and review the key success
+  factors for implementing a voluntary label for regulating AI.
+  Section 4 sketches a few directions that could be further explored if a voluntary label option is retained during the legislative process.
+
+2. The Act hardly protects against low and
+   medium risk AI
+   2.1. Introduction
+   The proposed Act provides for harmonised rules for the development, placement on the market and use of AI systems
+   in the Union following a proportionate risk-based approach.10
+   The Act distinguishes between the following three types
+   of AI systems: (1) AI-systems that are prohibited (art. 5), AI
+   systems that are considered high risk (art. 6) and all other
+   systems (limited or no risk). The prohibition concerns certain
+   8 Coordinated Plan on Artificial Intelligence (COM(2018) 795 final), 3. 9 Regulation of the European Parliament and of the Council laying down harmonised rules on artificial intelligence (artificial intelligence act) and amending certain union legislative acts, Brussels, 21.4.2021 COM (2021) 206 final. 10 Regulation of the European Parliament and of The Council
+   laying down harmonised rules on artificial intelligence (Artificial Intelligence Act) and amending certain Union Legislative Acts
+   {SEC(2021) 167 Final} - {SWD(2021) 84 Final} - {SWD(2021) 85 Final}
+   Explanatory Memorandum, 3.
+   computer law & security review 44 (2022) 105657 3
+   particularly harmful AI practices that are contravening Union
+   values for instance by violating fundamental rights.11 This includes certain use of subliminal techniques or exploitation of
+   vulnerabilities of specific groups (children, disabled persons)
+   likely to cause psychological or physical harm, social scoring
+   for general purposes done by public authorities as well as certain use of ‘real time’ remote biometric identification systems
+   in publicly accessible spaces for the purpose of law enforcement.12
+   Based on the level of risk, specific rules under the Act apply.
+   Most rules are aimed at high-risk AI systems. Below we will
+   provide a brief overview of some ofthe most relevant elements
+   for delineating the risk related scope of the Act.13
+   2.2. AI systems, high risk and some other delineations
+   Under the Act14, an AI-system is defined as: ” (…) software
+   that is developed with one or more of the techniques and approaches listed in Annex I and can, for a given set of humandefined objectives, generate outputs such as content, predictions, recommendations, or decisions influencing the environments they interact with;”.
+   This is a clearly a very broad definition covering a broad
+   range of applications either dedicated or modules (e.g., a
+   safety component or decision module) that are integrated in
+   products or systems offering a broader functionality.
+   The Act identifies two main categories of high-risk AI systems15: (1) AI systems intended to be used as safety component of products that are subject to third party ex-ante
+   conformity assessment and (2) other stand-alone AI systems
+   with mainly fundamental rights implications that are explicitly listed in Annex III.
+   This is further specified on Article 6 paragraph 1 of the Act
+   describing a two-fold test to establish the scope of what constitutes a “high-risk AI system”: (a) the AI system is intended
+   to be used as a safety component of a product, or is itself a
+   product, covered by the Union harmonisation legislation listed
+   in Annex II and (b) the product whose safety component is the
+   AI system, or the AI system itself as a product, is required to
+   undergo a third-party conformity assessment with a view to
+   the placing on the market or putting into service of that product pursuant to the Union harmonisation legislation listed in
+   Annex II. In addition, AI systems referred to in Annex III shall
+   also be considered high-risk (Article 6 paragraph 2).
+   11 Ibid, 12. 12 Ibid, 12/13. 13 For a more overall analysis of the Act, see among others: Veale
+   M and Zuiderveen Borgesius F, ‘Demystifying the Draft EU Artificial
+   Intelligence Act’ (SocArXiv 2021) preprint <https://osf.io/38p5f>
+   ; Ebers M and others, ‘The European Commission’s Proposal for
+   an Artificial Intelligence Act—A Critical Assessment by Members
+   of the Robotics and AI Law Society (RAILS)’ (2021) 4 J 589, available at: https://www.mdpi.com/2571-8800/4/4/43 > Smuha NA and
+   others, ‘How the EU Can Achieve Legally Trustworthy AI: A Response to the European Commission’s Proposal for an Artificial Intelligence Act’ [2021] Available at: < https://papers.ssrn.com/sol3/
+   papers.cfm?abstract_id=3899991.> last accessed 5 January 2021. 14 Article 3(1). 15 Ibid, 13.
+   The underlying definition of ‘AI system’ is intended to be
+   technology neutral.16 Driven by the nature of AI systems this
+   definition is relatively open and can be amended with a view
+   to ongoing technological change (intended ‘future proof’). Under Article 4 of the Act, the Commission is empowered to update the list of techniques and approaches listed in Annex I to
+   market and technological developments.17 Furthermore, the
+   Commission is under Article 7 of the Act empowered to adopt
+   delegated acts to update Annex III by adding high-risk AI systems. The criterium is twofold: (a) the AI systems are intended
+   to be used in any of the areas listed in points 1 to 8 of Annex
+   III, and (b) the AI systems pose a risk of harm to the health
+   and safety, or a risk of adverse impact on fundamental rights,
+   that is, in respect of its severity and probability of occurrence,
+   equivalent to or greater than the risk of harm or of adverse
+   impact posed by the high-risk AI systems already referred to
+   in Annex III.
+   As set out in the Explanatory Memorandum18, the classification ‘high-risk’ is based on the intended purpose of the AI
+   system,in line with existing EU product safety legislation.This
+   classification hence does not only depend on the function of
+   the system, but also on the specific purpose and modalities
+   for which it is being used.
+   Under the Act, systems considered ‘high-risk’ are permitted on the European market subject to compliance with
+   mandatory requirements relating to19 data and data governance, documentation and recording keeping, transparency
+   and provision of information to users, human oversight, robustness, accuracy and security, as well as ex-ante conformity
+   assessment.
+   The scope of the proposal is otherwise significantly shaped
+   by the large number of definitions – over forty-four – set out
+   in Article 3 of the Act. This includes, next to the key element ‘AI system’, important dimensions such as the actors involved (‘provider’, ‘users’, ‘importer’ and ‘distributor’),the various stages of putting systems on the market or use (‘placing
+   on the market’, ‘making available on the market’, ‘putting into
+   service’ and ‘withdrawal of an AI system’) and dimensions of
+   design and use (such as ‘intended purpose’, ‘reasonably foreseeable misuse’ and ‘serious incident’).
+   The proposed Act seeks to protect safety and fundamental rights of citizens by means of a ‘clearly defined’ risk-based
+   approach.20 The Commission considered a number of regulatory options21 and ultimately favoured ‘option 3+’, a regula16 Ibid, 12. 17 The update should however take place “on the basis of characteristics that are similar to the techniques and approaches listed”
+   in Annex I. 18 Ibid, 13. 19 Ibid, 13. 20 Ibid, 11. 21 The following policy options with different degrees of regulatory intervention were considered in the legislative proposal: Option 1: EU legislative instrument setting up a voluntary labelling
+   scheme. Option 2: a sectoral, “ad-hoc” approach. Option 3: Horizontal EU legislative instrument following a proportionate riskbased approach Option 3+: Horizontal EU legislative instrument
+   following a proportionate risk-based approach + codes of conduct
+   for non-high-risk AI systems. Option 4: Horizontal EU legislative
+   instrument establishing mandatory requirements for all AI sys-
+   4 computer law & security review 44 (2022) 105657
+   tory framework for high-risk AI systems only, with the possibility for all providers of non-high-risk AI systems to follow a
+   code of conduct.
+   On the basis thereof, specific obligations and requirements
+   apply mainly for businesses or public authorities that develop
+   or use high-risk AI applications. For a specific subset of systems, that could include high-risk systems as well, additional
+
+- limited - information duties apply under Article 52 of the Act.
+  Furthermore, the Act introduces codes of conduct that can either relate to (1) non-high-risk AI systems (art. 69 par 1) or (2)
+  all types of AI systems (art. 69 par 2). We will discuss these in
+  more detail below.
+  2.3. Information duties and codes of conduct
+  Article 52 (Transparency obligations for certain AI systems)
+  covers systems that (i) interact with humans, (ii) are used to
+  detect emotions or determine association with (social) categories based on biometric data, or (iii) generate or manipulate
+  content (‘deep fakes’).22
+  Depending on the nature of the AI system, the following
+  information duties apply:
+  • AI systems intended to interact with natural persons23:
+  providers shall ensure that these systems are designed and
+  developed in such a way that natural persons are informed
+  that they are interacting with an AI system. This obligation does however not apply in cases where this interaction
+  is obvious from the circumstances and the context of use.
+  Furthermore, this obligation does not apply to AI systems
+  authorised by law to detect, prevent, investigate, and prosecute criminal offences, unless those systems are available
+  for the public to report a criminal offence;
+  • emotion recognition system or a biometric categorisation
+  system24: users shall inform the natural persons exposed
+  thereto of the operation of the system. This obligation shall
+  not apply to AI systems used for biometric categorisation,
+  which are permitted by law to detect, prevent, and investigate criminal offences; and,
+  • ‘deep fake systems’25 (‘deep fake’): users shall disclose
+  that the content has been artificially generated or manipulated.26
+  tems, irrespective of the risk they pose. See section 3.3 of the Proposal for a Regulation of the European Parliament and of the Council laying down harmonised rules on Artificial Intelligence (Artificial Intelligence Act) and amending certain Union legislative acts
+  COM/2021/206 final. 22 Regulation of the European Parliament and of The Council
+  laying down harmonised rules on artificial intelligence (Artificial Intelligence Act) and amending certain Union Legislative Acts
+  {SEC(2021) 167 Final} - {SWD(2021) 84 Final} - {SWD(2021) 85 Final}
+  Explanatory Memorandum, 14/15. 23 Article 52, paragraph 1 of the Act. 24 Article 52, paragraph 2 of the Act. 25 Described in Article 52, paragraph 3 of the Act as ‘AI system that
+  generates or manipulates image, audio or video content that appreciably resembles existing persons, objects, places or other entities or events and would falsely appear to a person to be authentic
+  or truthful”.
+  26 Except where the use is authorised by law to detect, prevent,
+  investigate, and prosecute criminal offences or it is necessary for
+  These information duties should help persons to make informed choices or step back from a given situation. The aforementioned obligations shall not affect the requirements and
+  obligations relating to high-risk systems as set out under set
+  out in Title III of the Act27 and hence apply to the relevant system, whether or not labelled ‘high risk’.
+  2.3.1. Codes of conduct
+  Except for the information duties described above, the only
+  regulatory tool reflected upon in the Act for specifically the
+  entire set of non-high risk systems, is a voluntary code of conduct that could be used to “foster the voluntary application to
+  AI systems other than high-risk AI systems” of the mandatory
+  requirements for high-risk systems as set out in Title III,Chapter 2 of the Act.28 Under Article 69, paragraph 1 of the Act, the
+  Commission and the Member States shall encourage and facilitate the drawing up of such codes of conduct. Application
+  of the codes shall be based on “technical specifications and
+  solutions that are appropriate means of ensuring compliance
+  with such requirements in light of the intended purpose of the
+  systems.”29
+  In Article 69 paragraph 2 of the Act, a second type of code
+  of conduct, focussing on both high-risk as well as non-high
+  risk AI systems, is being distinguished. In this provision, reference is made to codes of conduct fostering compliance with
+  another category of requirements, for example those relating to “environmental sustainability, accessibility for persons
+  with a disability, stakeholder’s participation in the design and
+  development of the AI systems and diversity of development
+  teams”. These codes will be drafted based on clear objectives
+  and key performance indicators to measure achievement of
+  those objectives. Application of these codes shall be voluntary
+  as well.
+  Other than with the first type of code distinguished above,
+  the Commission and the Board shall encourage and facilitate
+  the drawing up of this type codes of conduct. The explicit reference to the role of the Board (instead of the Member States)
+  in drawing up and fostering application of these codes is probably explained by the specific focus of this second type of
+  codes of conduct (additional requirements, other than already
+  set out in the Act in Title III).
+  Providers of AI systems can either drawn up their own code
+  of conduct by individual providers of AI systems or by organisations representing them or by both.30 Users and any interested stakeholders and their representative organisations can
+  participate as well.
+  Codes of conduct can be system specific or cover one or
+  more AI systems taking into account the similarity of the intended purpose of the relevant systems.31 Codes of conduct
+  the exercise of the right to freedom of expression and the right to
+  freedom of the arts and sciences guaranteed in the Charter of Fundamental Rights of the EU, and subject to appropriate safeguards
+  for the rights and freedoms of third parties (Article 52, paragraph
+  3 of the Act). 27 Article 52, paragraph 4 of the Act. 28 Article 69, paragraph 1 of the Act. 29 Article 69 paragraph 1 of the Act. 30 Article 69, paragraph 3 of the Act. 31 Article 69, paragraph 3 of the Act.
+  computer law & security review 44 (2022) 105657 5
+  may cover one or more AI systems taking into account the
+  similarity of the intended purpose of the relevant systems.32
+  It is unclear how the Commission and the Board envisage
+  to “take into account the specific interests and needs of the
+  small-scale providers and start-ups when encouraging and facilitating the drawing up of codes of conduct” as imposed by
+  Article 69 paragraph 4 of the Act.
+  2.4. Shortcomings of the proposed Act and possible
+  solutions
+  Almost four billion people worldwide33 are using social media networks every day. However,the moderation of published
+  content and deep analysis of user’s behaviour remain outside
+  the regulatory scope of the Act. The increasing use of AI technologies in social media monitoring - sometimes performed
+  with good reasons for preventing hate speech and bullying -
+  leaves wide open important and much debated questions with
+  regard fairness and transparency of AI systems that handle
+  these tasks.
+  Gillespie34 points out that the recourse to AI proves to be
+  the only solution to cope with the continuous growth of published content on these platforms. But the accuracy of automatic analysis and moderation is far from perfect according
+  to platform owners.35 The risk of discrimination and infringement of freedom of speech due to misinterpretations by AIs
+  is real but will, based on our current understanding of the interpretation of ‘high-risk’ under the Act, stay basically unregulated by the Act.
+  AI technology is moving fast and could shortly propose
+  new features that could have a deep impact on individuals’ rights. Manufacturers of vocal assistants and surveillance
+  technologies develop technologies36 to infer information from
+  and about the environment in which the users interact with
+  the devices. They plan to determine the user’s mood37 and
+  body conditions38 from users’ behaviour and tone of the voice.
+  To the extent these applications would not be considered as
+  32 Article 69, paragraph 3 of the Act. 33 Digital 2020 reports. Available at < https://wearesocial.com/
+  blog/2020/01/digital-2020-3-8-billion-people-use-social-media >. 34 Gillespie T, ‘Content Moderation, AI, and the Question of Scale’
+  (2020) 7 Big Data & Society 2053951720943234. 35 Ibid p 3. 36 Kephart, Jeffrey O. "Multi-modal Agents for Business Intelligence." In Proceedings of the 20th International Conference on
+  Autonomous Agents and MultiAgent Systems, pp. 17-22. (2021). 37 ‘Time to regulate AI that interprets human emotions’ blog
+  post entry by Kate Crawford in Nature’s World view on
+  6 April 2021. Available at < https://www.nature.com/articles/
+  d41586-021-00868-5 > last accessed 5 January 2021See also Cuzzocrea A and Pilato G, ‘A Composite Framework for Supporting
+  User Emotion Detection Based on Intelligent Taxonomy Handling’
+  (2021) 29 Logic Journal of the IGPL 207 Chaturvedi V and others,
+  ‘Music Mood and Human Emotion Recognition Based on Physiological Signals: A Systematic Review’ (2021) Multimedia Systems 1
+  Barrett LF and others, ‘Emotional Expressions Reconsidered: Challenges to Inferring Emotion from Human Facial Movements’ (2019)
+  20 Psychological science in the public interest 1. 38 Fagherazzi G and others, ‘Voice for Health: The Use of Vocal Biomarkers from Research to Clinical Practice’ (2021) 5 Digital
+  Biomarkers 78.
+  ‘medical devices’ under the EU Medical Device Regulation39,
+  they will fall outside the scope of the Act in terms of material mandatory requirements and — be subject merely to the
+  limited information duties (when in scope of Article 52) and
+  voluntary codes of conduct as referred to above. This might
+  change if the Commission would use its powers under Article
+  7 of the Act by adopting a delegated act to update the list of
+  high-risk AI systems provided in Annex III. But until that moment, potentially only the information duties will apply and
+  (primarily) the providers are encouraged to adopt a code of
+  conduct.
+  The information duties established by Article 52 of the Act
+  (’providers shall ensure that AI systems intended to interact
+  with natural persons are designed and developed in such a
+  way that natural persons are informed that they are interacting with an AI system’) apply to a limited range of AI systems
+  and are not very precise regarding content and form of the
+  information that should be provided. In the absence of clear
+  guidelines, there is a serious risk that the information provided varies from one manufacturer to another. Introducing
+  an information label – as simple as ‘AI inside’ for instance -
+  could clarify the requirements and provide end users with a
+  legible way to identify that they are interacting with an AI.40
+  The voluntary codes of conduct proposed by Article 69 of
+  the Act do not include any verification process to ensure that
+  adhering entities comply with the code. Many experiences
+  of self-regulation based on codes of conduct41 have demonstrated that the lack of enforcement may rapidly undermine
+  confidence in reliability of these programs. Introducing a verification process along with a label could be an option to address the issue. It could give the opportunity to the entities
+  having obtained the label to promote their products and services based on this recognition. Furthermore, the monitoring
+  would be consistent with the processes set out by Article 41
+  GDPR that requires that conformity to the codes of conduct is
+  regularly verified.42
+  Products falling under the European legislation on safety,
+  health and the environment must affix a label, the CE mark
+  (see figure. 1. below), to demonstrate compliance with applicable legislation(s).
+  Under the Act, a compliant product including high-risk AI
+  system will bear the same CE mark than a device embedding
+  low or medium risk AI. Nothing will distinguish compliant
+  high-risk AIs from others. This issue and the mix made by
+  the Act between safety,health, environment, and AI regulation
+  39 Regulation (EU) 2017/745 of the European Parliament and of
+  the Council of 5 April 2017 on medical devices, amending Directive 2001/83/EC, Regulation (EC) No 178/2002 and Regulation (EC)
+  No 1223/2009 and repealing Council Directives 90/385/EEC and
+  93/42/EEC (OJ L 117, 5.5.2017, 1. 40 This approach might however also have a (very) adverse effect
+  in view of consumer expectations. See below section 3.3.1. 41 See below section 3.2.5. 42 Article 41 GDPR. See for details EDPB Guidelines 1/2019
+  on Codes of Conduct and Monitoring Bodies under Regulation
+  2016/679 - version adopted after public consultation. Lachaud, Eric.
+  ‘Adhering to GDPR codes of conduct: A possible option for SMEs to
+  GDPR certification.’ Journal of Data Protection & Privacy 3, no. 1
+  (2019): 48-68.
+  6 computer law & security review 44 (2022) 105657
+  Fig. 1 – CE mark.
+  Fig. 2 – Ecolabel displayed on products and services
+  meeting high environmental standards.
+  Fig. 3 – Geographical Indications displayed on agricultural
+  products having special origin or history.
+  may dilute the meaning of the CE mark and further confuse
+  the end users.
+  Figs. 2–5
+  The reliability of the CE marking process is subject to harsh
+  criticisms for many years.43 Adding an additional layer of
+  complexity could foster fraud opportunities while commentators point out the lack of monitoring as the main issue of
+  the CE marking process.44 The establishment of a label dedicated to AI regulation could contribute to address these risks
+  and provide end users with more clarity on the scope of the
+  conformity assessment covered by the CE mark.
+  The most successful service platforms are located outside
+  the EU while the regulatory approach proposed by the Act is
+  based on mandatory conformity assessment applicable prior
+  to the EU market entry. This approach could be difficult to implement with service providers that continue to operate under foreign legislations when the service is live. The difficulties met by the supervisory authorities to enforce the EU data
+  protection regulation on these platforms give an illustrative
+  example of the limits of the European regulatory power. The
+  introduction of a voluntary labelling solution could be a first
+  43 See below section 3.2.5. 44 Netherlands Court of Audit, ‘Products Sold on the
+  European Market: Unravelling the System of CE Marking’ (2017). Available at < https://english.rekenkamer.nl/
+  binaries/rekenkamer-english/documents/reports/2017/01/
+  19/products-sold-on-the-european-market-unraveling-thesystem-of-ce-marking/17.0017+AR+Rap+Producten+op+de+
+  Europese+markt_Eng-WR.pdf > last accessed 5 January 2021.
+  step to tackle the issue as far as it proposes valuable counterparties to the labelled entities.
+
+3. Voluntary label as a solution to complete
+   the framework
+   3.1. Introduction
+   When it comes down to non-high risk AI systems facilitating manipulative or exploitative practices affecting adults,the
+   protection of persons (potentially) affected should in the view
+   of the Commission come from existing data protection, consumer protection and digital service legislation that “guarantee that natural persons are properly informed and have free
+   choice not to be subject to profiling or other practices that
+   might affecttheir behaviour.”45 Even merely on the basis ofthe
+   experiences with the GDPR so far, this is in our view a highly
+   debatable statement of the Commission ignoring not only the
+   debate concerning the effective level of protection under EU
+   law in the digital era but also ignoring the potential severe impact of non-high risk AIs.
+   We however agree with the Commission that the information position of those (potentially) affected by AI is a key ingredient here and suggest that a voluntary labelling scheme
+   could empower the European citizens, businesses and public
+   administrations when confronted with AI.
+   A voluntary European labelling scheme could make visible
+   which applications are based on secure, responsible, and ethical AI and data and therefore which applications to trust -
+   thus empowering those affected to make an ethical choice.
+   In October 2020, Fourteen EU Member States including the
+   Netherlands and France have strongly advocated the establishment of a voluntary label that would ‘incentivise AI developers and deployers to proactively and systematically promote trustworthy AI.’46 This approach was also supported by
+   certain contributors to the public consultation conducted by
+   the EU Commission prior to the legislative proposal.47
+   45 Regulation of the European Parliament and of The Council
+   laying down harmonised rules on artificial intelligence (Artificial Intelligence Act) and amending certain Union Legislative Acts
+   {SEC(2021) 167 Final} - {SWD(2021) 84 Final} - {SWD(2021) 85 Final}
+   Explanatory Memorandum, 13. 46 ‘Non-paper - Innovative and trustworthy AI: two sides of
+   the same coin’: Position paper on behalf of Denmark, Belgium, the Czech Republic, Finland, France, Estonia, Ireland,
+   Latvia, Luxembourg, the Netherlands, Poland, Portugal, Spain,
+   and Sweden on innovative and trustworthy AI. Available
+   at < https://www.permanentrepresentations.nl/documents/
+   publications/2020/10/8/non-paper—innovative-and-trustworthyai > last accessed 5 January 2021. 47 IKEA / Ingka Group, RELX, Computer & Communications Industry Association (CCIA) (USA), Center for Data
+   Innovation (USA), contributions. See Responses to the EU
+   INCEPTION IMPACT ASSESSMENT regarding the Proposal
+   for a legal act of the European Parliament and the Council laying down requirements for Artificial Intelligence, Ref.
+   Ares (2020)3896535 - 23/07/2020. Available at < https://ec.
+   europa.eu/info/law/better-regulation/have-your-say/initiatives/
+   12527-Artificial-intelligence-ethical-and-legal-requirements/
+   public-consultation_en > last accessed 5 January 2021.
+   computer law & security review 44 (2022) 105657 7
+   Fig. 4 – Front-of-pack nutrition label.
+   Fig. 5 – Mandatory EU nutrition label.
+   As underlined by the contributors and academic literature
+   on labelling, certain conditions must be met for such a voluntary label to be successful. The following section proposes
+   to review the key success factors for introducing a voluntary
+   label in AI regulation and envisages different points of view
+   for implementing this label. Some key success factors relate
+   to the end users (trust and clarity), others focus on businesses
+   (incentive) and authorities (harmonization, monitoring) while
+   a third set (harmonization, collaboration) is of interest for all
+   stakeholders involved.
+   3.2. Key success factors for labels
+   3.2.1. Incentive
+   Some contributors to the public consultation conducted by
+   the EU Commission prior to the legislative proposal48 have
+   pointed out that proposing a label would result in additional costs for businesses - administrative burden, compliance costs,time consuming activity – while others49 underline
+   that a label does not provide per se a competitive advantage
+   without a clear incentive.
+   48 IKEA / Ingka Group, RELX, Computer & Communications Industry Association (CCIA) (USA), Center for Data Innovation (USA),
+   contributions.
+   49 European Association of Communications Agencies (EACA)
+   and Vodafone Group contributions.
+   A label could foster market fragmentation by distorting
+   the internal market as well as reduce the attractiveness of
+   the European Union for AI innovation and development.50 As
+   increased costs would likely lead to price increases, lower
+   income consumers could be disadvantaged. If companies
+   merely leverage their designation as trustworthy as a justification to charge higher prices,51 a label could have even a
+   negative effect for all customers/buyers.
+   The above insights, even limited to a reduced sample of
+   participating entities, indicate nonetheless that trustworthiness does not have (yet) economic value for all businesses.
+   Trustworthiness is at least in the view of some businesses not
+   yet perceived as a selective quality but as a service that should
+   be charged to end users.
+   Evidence pointing in that direction also comes from the
+   field of data protection. The very low uptake of data protection
+   certification before its endorsement in the GDPR52 shows that
+   the prospect to promote compliant products and to enhance
+   brand reputation with the fair management of personal data
+   is insufficient to boost the uptake of certification.
+   A clear and strong incentive playing either on the interest or the fear of candidates seems required to ensure uptake
+   of a label. For example, the strong demand for quality management from clients searching to transfer manufacturing facilities to low wages countries has been instrumental in the
+   strong uptake of certification schemes based on ISO 9001 standard.53 The demand to hire qualified professionals capable of
+   properly implementing the GDPR (and prevent costly fines)
+   has encouraged the DPO certification market.54 The threat of
+   cybercriminals and the fear of being held liable - by authorities and insurance companies - for not having taken steps to
+   protect information systems sustains the 20% annual growth
+   50 IKEA / Ingka Group contribution. 51 Electronic Privacy Information Center (USA) contribution. 52 Lachaud E, ‘What Could Be the Contribution of Certification to
+   Data Protection Regulation?’ [2019] Doctoral dissertation, Tilburg
+   University 68. 53 Certification based on ISO 9001 standard is to date the most
+   successful example of certification with 1.5 million certified entities. See ISO annual survey on ISO’s website. Available at < https:
+   //www.iso.org/the-iso-survey.html > last accessed 5 January 2021. 54 Lachaud, E, ‘DPO Certification: Overview and Challenges in
+   2020’ Presentation to NGFG’s annual event (Oct. 2020).
+   8 computer law & security review 44 (2022) 105657
+   known by certification based on ISO 27001 information security standard.55
+   3.2.2. Clarity
+   However,the ‘success’ in terms of uptake by labels has also resulted in their proliferation. A multitude of labels can be found
+   on fresh food, clothing, electronic devices, and e-commerce to
+   just name a few.
+   Kaczorowska et al. note that ‘the Ipsos report identifies more than 900 food labelling schemes used in the EU
+   Member States, Iceland and Norway. Worldwide the largest
+   eco-labelling catalogue describes 456 labelling schemes
+   available in 199 countries, 148 of which relate to organic
+   food.’56
+   The overwhelming proliferation of labels ‘generate(s) consumer doubts and confusion’57 with regard to the significance
+   and value of labels. The first issue relates to the large number of labels displayed on products and services.58 The commentators underline a risk of information overload59 with a
+   ‘kind of immunisation’60 in front of the labels. Another issue refers to the lack of understanding about the meaning of
+   the labels. Periodical surveys61 show that labels are generally
+   55 The ISO annual survey. Available at < https://www.iso.org/
+   the-iso-survey.html > last accessed 5 January 2021. 56 Kaczorowska J and others, ‘Certification Labels in Shaping Perception of Food Quality—Insights from Polish and Belgian Urban
+   Consumers’ (2021) 13 Sustainability 702Rupprecht CD and others,
+   ‘Trust Me? Consumer Trust in Expert Information on Food Product
+   Labels’ (2020) 137 Food and Chemical Toxicology 111170Schebesta
+   H, ‘Control in the Label: Self-Declared, Certified, Accredited?’,
+   Certification–Trust, Accountability, Liability (Springer 2019) 149. 57 Velcovská, Š.; Del Chiappa, G. The Food Quality Labels: Awareness and Willingness to Pay in the Context of the Czech Republic. Acta Univ. Agric. Silvic. Mendel. Brun. (2015), 63, 647–
+   658.Tschofenig H and others, ‘On the Security, Privacy and Usability of Online Seals’ (2013) European Union Agency for Network and
+   Information Security 7.See CEA contribution. 58 The example of the French wine labelling scheme ‘Appellations d’Origine Contrôlées (AOCs)’ is particularly illustrative of
+   consumer’ confusion created by the 450 labels available. See Shepherd B, Costs and Benefits of Protecting Geographical Indications:
+   Some Lessons from the French Wine Sector (JSTOR 2006). 59 Commission Staff Working Document on KnowledgeEnhancing Aspects of Consumer Empowerment 2012-2014,
+   SWD (2012) Final 27. 60 Tonkin, E.; Wilson, A.; Coveney, J.; Webb, T.; Meyer, S.B. Trust in
+   and through labelling—A systematic review and critique. Br. Food
+   J. (2015) 117, 318–338. See also Sørensen, H.S.; Holm, L.; MøgelvangHansen, P.; Barratt, D.; Qvistgaard, F.; Smith, V. Consumer Understanding of Food Labels: Toward a Generic Tool for Identifying the
+   Average Consumer: Report from a Danish Exploration. Int. Rev. Retail. Distrib. Consum. Res. (2013) 23, 291–304. See also Kalnikaite,
+   V.; Bird, J.; Rogers, Y. Decision-making in the aisles: Informing,
+   overwhelming or nudging supermarket shoppers? Pers. Ubiquitous Comput. (2013)17, 1247–1259. 61 Commission Staff Working Document on KnowledgeEnhancing Aspects of Consumer Empowerment 2012-2014,
+   “Consumer attention and understanding of labels and logos”,
+   2012 (SWD, Final, 19.7.2012 4.1) 26. See Consumer Research
+   Associates Ltd, ‘Certification and Marks in Europe’ (A Study
+   commissioned by EFTA 2008) 40. See also Van der Zeijden P,
+   ‘Keurmerken, Erkenningsregelingen En Certificaten; Klare Wijn of
+   Rookgordijn’ [2002] Zoetermeer: EIM Onderzoek voor Bedrijf en
+   Beleid.
+   recognized by consumers, but their purposes are not always
+   very well understood. Lachaud62 while discussing the CE mark
+   noted that ‘the most common confusion lies in the belief that
+   the CE marking is a certificate of European origin or a European quality mark63 and the ambiguous meaning of the CE
+   abbreviation does not help.64 Indeed, few are aware whether
+   CE means “Conformité Européenne” (European conformity) or
+   “Communauté Européenne” (European Community)” or something
+   else?65
+   Schebesta66 proposes an illustrative example demonstrating the lack of clarity of certain labels. She notes that the EU
+   ecolabel lacks an explanation of the meaning of the label as it
+   could in our view be misinterpreted as a label offering to save
+   money.
+   To Schebesta, the label legibility must follow certain rules
+   such as the ones suggested by Tang et al.67 according to
+   whom a written message should be added explaining the ‘primary attribute’ of the label, something similar to the message displayed on the Geographical Indications labels for instance.
+   3.2.3. Harmonisation
+   Providing harmonized information through labels represents
+   another challenge of which the European ‘front-of-pack nutrition labelling’ scheme (FOP labelling) offers an illustrative
+   example. Article 35 of Regulation (EU) 2017/745 authorizes the
+   producers to display a summary of the required nutrition information on the front of pre-packed food packaging. Up to
+   now, six labels have been designed and deployed in fourteen
+   Member States (see below) but a recent report of the European
+   Commission on the implementation of nutrition labels68 has
+   62 Lachaud E, ‘Could the CE Marking Be Relevant to Enforce Privacy by Design in the Internet of Things?’ in Serge Gutwirth,
+   Ronald Leenes and Paul De Hert (eds.), Data Protection on the
+   Move: Current Developments in ICT and Privacy/Data Protection
+   (Springer Netherlands 2016). 63 Commission Staff Working Document on KnowledgeEnhancing Aspects of Consumer Empowerment 2012-2014,
+   SWD (2012) Final, 19.7.2012 cited in ANEC Position Paper on CE
+   marking, ‘CE Marking “Caveat Emptor – Buyer Beware” (2012). 64 “What does the acronym “CE” represent? Although no explanation is provided in Regulation 765/2008, it is thought to mean
+   “Conformité Européenne”. The absence of clear explanation as to
+   its exact meaning contributes to the confusion around what CE
+   Marking is.” cited in ANEC Position Paper on CE marking, ‘CE Marking “Caveat Emptor – Buyer Beware”’ (2012) 5. 65 The article dedicated to the CE marking in the English edition
+   of Wikipedia underlines that “in former German legislation,the CE
+   marking was called "EG-Zeichen" meaning "European Community
+   mark".
+   66 Schebesta H, ‘Control in the Label: Self-Declared, Certified, Accredited?’, Certification–Trust, Accountability, Liability (Springer
+
+2019) 157. 67 Tang E, Fryxell GE and Chow CS, ‘Visual and Verbal Communication in the Design of Eco-Label for Green Consumer Products’ (2004) 16 Journal of International Consumer Marketing 85 in
+           Schebesta H, ‘Control in the Label: Self-Declared,Certified, Accredited?’, Certification–Trust, Accountability, Liability (Springer 2019)
+
+157.  68 Report to the European Parliament and the Council regarding
+      the use of additional forms of expression and presentation of the
+      nutrition declaration, COM/2020/207 final.
+      computer law & security review 44 (2022) 105657 9
+      concluded that there is a need to harmonize the labels for the
+      sake of clarity of the information provided to the consumers.
+      Overlapping of schemes69 represents another issue of
+      which the provisions on certification in the GDPR give an illustrative example. In the GDPR, the EU lawmakers have not
+      prohibited national and Europe wide certification schemes to
+      compete on a similar functional scope. A mechanism preventing duplicates such as the harmonized standards mechanism
+      in the European new approach policy and/or the one included
+      in the EU cybersecurity act70 requiring of cancelling national
+      schemes duplicating with European one sounds necessary to
+      prevent competition between labels and the harmful effects
+      thereof.
+      3.2.4. Collaboration
+      Experience with certification and labelling in different areas71
+      has shown that the involvement of the widest range of stakeholders in the design and management of the schemes – so
+      called multistakeholder regulation – is a relevant factor for the
+      uptake of the scheme.72
+      In the public consultation on a legal act on AI, one contributor73 underlined the importance of promoting what was called
+      a ‘bottom up’ approach involving manufacturers in the drafting of standards (that could e.g., underlie a labelling scheme).
+      International standardization institutions like ISO and CEN
+      could be an eligible forum to establish a multistakeholder regulation even if the level of access of civil society representa69 Issue highlighted by Philips’s contribution. See Responses
+      to the EU INCEPTION IMPACT ASSESSMENT regarding the
+      Proposal for a legal act of the European Parliament and the
+      Council laying down requirements for Artificial Intelligence,
+      Ref. Ares (2020)3896535 - 23/07/2020. Available at < https://ec.
+      europa.eu/info/law/better-regulation/have-your-say/initiatives/
+      12527-Artificial-intelligence-ethical-and-legal-requirements/
+      public-consultation_en > last accessed 5 January 2021. 70 Article 57 Regulation (EU) 2019/881 of the European Parliament
+      and of the Council of 17 April 2019 on ENISA (the European Union
+      Agency for Cybersecurity) and on information and communications technology cybersecurity certification and repealing Regulation (EU) No 526/2013 (Cybersecurity Act) (Text with EEA relevance).
+      71 Moog S, Spicer A and Böhm S, ‘The Politics of Multi-Stakeholder
+      Initiatives: The Crisis of the Forest Stewardship Council’ (2015) 128
+      Journal of Business Ethics 469. See also Zadek S and Radovich S,
+      ‘Governing Collaborative Governance’ [2006] Enhancing Development Outcomes by Improving Partnership Governance and Accountability and Bernstein S and Cashore B, ‘Can Non-state Global
+      Governance Be Legitimate? An Analytical Framework’ (2007) 1 Regulation & Governance 347 cited in Conroy ME, Branded! How the
+      Certification Revolution Is Transforming Global Corporations (New
+      society publish, 2007). See also Hagemann R, Huddleston Skees
+      J and Thierer A, ‘Soft Law for Hard Problems: The Governance
+      of Emerging Technologies in an Uncertain Future’ (2018) 17 Colo.
+      Tech. LJ 52 cited in Marchant G, Tournas L and Gutierrez CI, ‘Governing Emerging Technologies Through Soft Law: Lessons for Artificial Intelligence’ (2020) 61 Jurimetrics 15. Gispen-de Wied CC and
+      others, ‘Future of the Drug Label: Perspectives from a Multistakeholder Dialogue’ (2019) 85 British journal of clinical pharmacology
+158.  72 Approach shared by some contributors to the public consultation on a legal act on AI. See EnBW Energie Baden -Württemberg
+      AG.
+      73 Philips’s contribution.
+      tives to international standardization committees continues
+      to be problematic.74
+      The GDPR and the Cybersecurity Act have introduced interesting processes to encourage third parties to contribute to the
+      design of labels and certification schemes. Article 42.5 GDPR75
+      entitles any third-party entity or individual to submit certification requirements for approval to the national or the European supervisory authorities. Article 62 of the EU Cybersecurity Act establishes a European Cybersecurity Certification
+      Group (ECCG) ‘composed of representatives of national cybersecurity certification authorities or representatives of other
+      relevant national authorities’ which assists and advises the
+      European Commission in the drafting, the implementation
+      and update of the cybersecurity schemes.
+      3.2.5. Trust
+      The labels awarded to entities having self-declared adherence
+      to a code of conduct or standard frequently face trust issues
+      for various reasons. By design, the information provided by a
+      label remains very limited as it acts as a ‘shortcut’ attesting
+      the conformity without explaining how the conformity has
+      been demonstrated.
+      The self-declaration of conformity does not guarantee the
+      actual compliance of the candidate and the lack of enforcement frequently observed with self-regulation mechanisms
+      like the self-declaration of conformity contributes to challenge their credibility.
+      The recent decision of the CJEU76 invalidating the EU/US
+      Privacy Shield five years after the invalidation of the US Safe
+      Harbour program77 has shed light on the recurring lack of enforcement plaguing self-regulation mechanisms. The Privacy
+      Shield was used by the EU authorities to authorize companies
+      to transfer personal data from the EU to the US. This mechanism required US companies to self-declare78 compliance –
+      self-certify in the US approach - with a set of data protection
+      principles established by the U.S. Department of Commerce.
+      The lack of enforcement with regards to the actual compliance of US companies having self-declared compliance with
+      74 Graz J-C and Hauert C, ‘Translating Technical Diplomacy: The
+      Participation of Civil Society Organisations in International Standardisation’ (2019) 33 Global Society 163. See also Internorm
+      Project ‘aiming to reinforce participatory practices in standardization’. Hauert, C., Audétat, M., Bütschi, D., Kaufmann, A., Graz, J.-C.
+      (2016) Les arènes de la normalisation internationale à l’épreuve de
+      la participation : le projet Internorm. Participations 14, 207. 75 Regulation (EU) 2016/679 of the European Parliament and of the
+      Council of 27 April 2016 on the protection of natural persons with
+      regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data
+      Protection Regulation) (Text with EEA relevance). 76 Case C-311/18 Data Protection Commissioner v Facebook Ireland and Maximillian Schrems. 77 Case C-362/14 Maximillian Schrems v Data Protection Commissioner.
+      78 US practitioners, authorities and academics usually refers to
+      self-certification. The word certification in Europe, especially in
+      ISO’s world only applies to third-party conformity assessment.
+      Self-certification is usually a self-declaration of conformity. The
+      certification issued by a client, or a business partner of the applicant is deemed a declaration of conformity. See section 4 of
+      ISO/IEC 17000:2020 Conformity assessment — Vocabulary and
+      general principles.
+      10 computer law & security review 44 (2022) 105657
+      the Privacy Shield’s principles have attracted recurring criticisms from the EU authorities. The last review jointly conducted by the European Commission and the US Department
+      of Commerce before the invalidation of the Privacy Shield
+      stressed that the ‘Commission would have expected a more
+      vigorous approach regarding enforcement action on substantive violations of the Privacy Shield Principles.’79 The conclusion of the report80 recommended that the Department of
+      Commerce ‘develop tools for detecting false claims of participation in the Privacy Shield from companies that have never
+      applied for certification and use these tools in a regular and
+      systematic manner.’
+      Third-party verification processes like certification theoretically offer a viable solution to the lack of enforcement
+      in self-regulation but certification is having reliability issues
+      as well. The status of a certification candidate that is also
+      a client puts the certifier inan uncomfortable position as he
+      must satisfy a client and assess its processes with impartiality. Thereby, the certifier must constantly arbitrate between
+      the need to maintain sufficiently stringent processes to ensure the quality of the certification and the need to satisfy a
+      client that can change provider anytime. The fierce competition between the schemes may also encourage certifier’s complacency with clients in the aim to protecttheir market shares.
+      Recent scandals like the PIP81 one in France have shown that
+      the balance is not always fully respected by certifiers.
+      The real or perceived lack of reliability undermines trust
+      which is pivotal in a label’s uptake. The value of a label generally depends on the trust granted to the issuer and the
+      trust enjoyed by the scheme among the end users. Trust remains fragile and can instantly be destroyed by any incident
+      involving, whether for good or bad reasons, the reliability of
+      the scheme or its owner. Moreover, trust is a common wealth
+      shared by all the actors operating on the same market and any
+      loss of trust in one of the schemes affects trust throughout the
+      whole activity and may impede sustainability of the activity.
+      The experience with CE marking has also shown that distrust in labels may have paradoxical consequences. Distrust
+      in CE marking pushed certain European manufacturers to affix trusted national labels on products in addition to the CE
+      mark in order to reassure the public of the actual quality of
+      the products.82 Thus, distrust in labels may lead to a prolif79 Report from The Commission to The European Parliament and
+      The Council on the third annual review of the functioning of the
+      EU-U.S. Privacy Shield {SWD (2019) 390 final}, 5. 80 Ibid, 8. 81 The PIP scandal refers to the conviction of negligence pronounced by French courts against the German certification body
+      TUV for certifying the quality of breast implants manufactured by
+      the French company Poly Implant Prothèse (PIP) while the poor
+      quality of the raw materials employed has caused serious health
+      problems to women who received the implants. See for details
+      Rott P, ‘Certification of Medical Devices: Lessons from the PIP Scandal’, Certification–Trust, Accountability, Liability (Springer 2019).
+      See also Verbruggen P and Van Leeuwen B, ‘The Liability of Notified Bodies under the EU’s New Approach: The Implications of
+      the PIP Breast Implants Case.’ (2018) 43 European law review. 394. 82 Consumer Research Associates Ltd, ‘Certification and Marks in
+      Europe’ (A Study commissioned by EFTA 2008) 16.
+      eration of labels which entails the risk to further confuse the
+      public about the meaning and value thereof.
+      Trust in the authority that issues the label is also pivotal
+      and raises the question of the legitimacy of the issuer. There
+      are several types of trust83 but Marchant et al. stress that ‘reputational trust is the most common way a consumer gains sufficient security to engage in trusting behaviour, such as acquiring a so far unfamiliar and unproven product merely because
+      it is offered by a trusted company.
+      3.2.6. Monitoring
+      As discussed above,the proliferation of unmonitored certification schemes may undermine trust in certification when there
+      is no means to guarantee a minimum level of quality and reliability of the schemes.84 But competition also entails a risk
+      of forum shopping when the candidates to a label look after the
+      most lenient issuer to optimize their chances to be awarded a
+      label. The experience with CE marking has demonstrated that
+      the risk of forum shopping proves particularly high when the
+      level of certification requirements varies from one country to
+      another.85 This threat has encouraged the European authorities to harmonize the process to recognize the competences
+      of certifiers – the accreditation86 - and to strengthen the process set out by the European Commission to double-check the
+      competences of certifiers accredited at the national level – the
+      notification.87
+      Christmann et al.88 notice the prevalence of free riding behaviors when businesses provide false labels and certificates,
+      affix genuine labels they have never obtained or leverage a sit83 Marchant GE, Sylvester DJ and Abbott KW, ‘A New Soft Law Approach to Nanotechnology Oversight: A Voluntary Product Certification Scheme’ (2010) 28 UCLA J. Envtl. L. & Pol’y 141. Rousseau D
+      and others, ‘Not So Different After All: A Cross Discipline View of
+      Trust’ (1998) 23, N° 3 Academy of Management Review 393. McKnight DH and Chervany NL, ‘The Meanings of Trust’ [1996] University of Minnesota. Management Information Systems Research
+      Center.
+      84 Graz and Hartman quote about certification of IT skills that
+      the “effort to differentiate their offer from others in a proliferating
+      market has resulted in a highly fragmented and confusing landscape of vendor-independent certifications, often lacking transparency and comparability. The growing confusion makes it difficultfor prospective trainees and employers to distinguish between
+      good offers and mediocre or frankly bad ones”. Graz J-C and Hartmann E, ‘Transnational Authority in the Knowledge- Based Economy: Who Sets the Standards of ICT Training and Certification?’
+      (2012) 6 International Political Sociology 308. 85 Section 2.2.3 of Communication from the Commission to The
+      Council and the European Parliament- Enhancing the Implementation of the New Approach Directives COM (2003) 240 final. 86 Regulation (EC) No 765/2008 of the European Parliament and
+      of the Council of 9 July 2008 setting out the requirements for accreditation and market surveillance relating to the marketing of
+      products and repealing Regulation (EEC) No 339/93 (Text with EEA
+      relevance).
+      87 European Commission, ‘Guide to the Implementation of Directives Based on the New Approach and the Global Approach’ [2014]
+      Chapter 5.3 68. 88 Christmann P and Taylor G, ‘Firm Self-Regulation through International Certifiable Standards: Determinants of Symbolic versus Implementation’ Vol. 37, No. 6. Journal of International Business Studies 863 See also Heras-Saizarbitoria I and Boiral O, ‘Faking
+      ISO 9001 in China: An Exploratory Study’ [2018] Business Horizons.
+      computer law & security review 44 (2022) 105657 11
+      uation in which having a certification or not does not make
+      any difference. Olson89 has shown that the risk of free riding increases with the size of the community because the
+      risk of being discovered decreases with the community size.
+      Havinga and Verbruggen90 have described an interesting use
+      case in which the authorities have unintentionally encouraged free riding behaviors in food supply certification. The
+      case concerned RiskPlaza, a private agrifood certification in
+      the Netherlands operated by accredited third party certification bodies and recognized by the Dutch food safety authority (Nederlandse Voedsel en Warenautoriteit – NVWA). Certified producers under RiskPlaza benefit from a lower number of inspections from the authorities. But in the meantime,
+      the NVWA was unable, due to the lack of resources, to ensure
+      a higher number of inspections on non-certified businesses.
+      Hence, non-certified producers have benefited a similar leniency from the authorities without having to spend time and
+      money to obtain the RiskPlaza certification.
+      Other authors91 stress the risk of regulatory capture92 in case
+      public regulation processes are entrusted to private parties.
+      In a study into the Vernieuwing Rijksdienst experiment93 In
+      the Netherlands it was concluded that certification has to stay
+      under the oversight of the law to prevent the risk of regulatory
+      capture.
+      The labels and certification market remain a free market
+      driven by supply and demand that proves to be difficult if not
+      impossible to fully monitor without conflicting with the freedom of providing services as enshrined in the EU Treaty.94 Incomplete monitoring may have unexpected outcomes as the
+      experience of certification under the GDPR has shown.95 Under the GDPR, the certification scope has been intentionally
+      limited to data processing activities96 and the schemes set out
+      to attest data processing compliance are closely monitored by
+      the supervisory authorities.97 The GDPR does not prohibit certification schemes to thrive outside the legal regime98 such
+      on the basis of the freedom of providing services. This offered the opportunity to private certifiers to develop certifica89 Olson M, ‘Collective Action’, The invisible hand (Springer 1989). 90 Verbruggen P and Havinga H, Hybridization of Food Governance: Trends, Types and Results (Edward Elgar Publishing 2017)
+159.  91 Eijlander, P. and others, ‘De inkadering van certificatie en accreditatie in beleid en wetgeving.’ Schoordijk Instituut, Centrum
+      voor Wetgevingsvraagstukken, (Universiteit van Tilburg 2003). 92 The agency theory sees a regulatory capture when the action
+      of a public agency is captured by regulated interests. See Bernstein MH, Regulating Business by Independent Commission, vol
+      2324 (Princeton University Press 2015). 93 Bokhorst, AM, ‘Effectiveness of Certification and Accreditation
+      as a Public Policy Instrument in the Netherlands’ (2010) 3. Available at < http://www.ecprnet.eu/MyECPR/proposals/reykjavik/
+      uploads/papers/3963.pdf > last accessed 5 January 2021. 94 Articles 26 (internal market), 49 to 55 (establishment) and 56 to
+      62 (services) of Treaty on the Functioning of the European Union
+      (TFEU).
+      95 Lachaud E, ‘What GDPR tells about Certification’ (2020) 38 Computer Law & Security Review. 96 Article 42.1 GDPR. 97 Article 42.5 GDPR. 98 Lachaud E, ‘DPO Certification Should Be Regulated’ (2018)
+      Tilburg University Working paper.
+      tion schemes at the margin of the GDPR outside the monitoring of the supervisory authorities.99 The side-by-side development of monitored and unmonitored schemes might give
+      birth to a dual market bolstering confusion and inconsistencies that could be problematic as the requirements for certification should be derived from the law.
+      3.2.7. Scope
+      A few contributors to the public consultation conducted by the
+      European Commission100 underlined that the extended scope
+      of AI and its intrinsic complexity make a one-size-fits-all labelling scheme illusory.
+      Irion101 identifies many situations that could potentially
+      involve AI components. EU and non-EU manufacturers could
+      supply standalone AI and AI included into a product to private and public customers. AI systems could be part of a digital service provided from the EU and from outside the EU. AI
+      technologies include software components and data processing sometimes with preloaded datasets used to train the AI.
+      The recent Clearview case judged in Sweden102 has demonstrated that the use made of AI technology appears as important as the design of the technology and both must be scrutinized.
+      Reed103 made an interesting remark with regard to the
+      scope of a label scope during the hearings organized by the
+      Select Committee on Artificial Intelligence of the House of
+      Lords. He stressed that ‘there is an important distinction to
+      be made between ex ante transparency, where the decisionmaking process can be explained in advance of the AI being
+      used, and ex post transparency, where the decision-making
+      process is not known in advance but can be discovered by testing the AI’s performance in the same circumstances. Any law
+      mandating transparency needs to make it clear which kind of
+      transparency is required.’ Reeds adds that promoting an exante model could be counterproductive because ‘requiring explanations for all decisions in advance could limit innovation,
+      99 Lachaud, E, ‘DPO Certification: Overview and Challenges in
+      2020’ Presentation to NGFG’s annual event (Oct. 2020). 100 CEA and Microsoft contributions. See Responses to the
+      EU INCEPTION IMPACT ASSESSMENT regarding the Proposal
+      for a legal act of the European Parliament and the Council laying down requirements for Artificial Intelligence, Ref.
+      Ares (2020)3896535 - 23/07/2020. Available at < https://ec.
+      europa.eu/info/law/better-regulation/have-your-say/initiatives/
+      12527-Artificial-intelligence-ethical-and-legal-requirements/
+      public-consultation_en > last accessed 5 January 2021. 101 Irion K, ‘AI Regulation in the European Union and Trade Law:
+      How Can Accountability of AI and a High Level of Consumer Protection Prevail over a Trade Discipline on Source Code?’ (IVIR and
+      Verbraucherzentrale Bundesverband eV 2021). 102 The Swedish police department has been fined 250K EUR
+      by the Swedish DPA for having used Clearview facial recognition software without having informed the data subject and
+      conducted DPIA. ‘Swedish DPA: Police unlawfully used facial
+      recognition app’ EDPB press release February 12th, 2021. Available at < https://edpb.europa.eu/news/national-news/2021/
+      swedish-dpa-police-unlawfully-used-facial-recognition-app_en
+      > last accessed 5 January 2021. 103 Artificial Intelligence Committee AI in the UK: ready, willing
+      > and able? Report of Session 2017-19 - published 16 April 2017 -
+      > HL Paper 100 Artificial Intelligence Committee AI in the UK: ready,
+      > willing and able? Paragraph 97 Chapter 3.
+      > 12 computer law & security review 44 (2022) 105657
+      > as it would limit the capacity for a system to evolve and learn
+      > through its mistakes.’ 104
+      > During the EU public consultation a contributor105 echoed
+      > the European Commission’s concerns about legislation overlap and underlined the need for articulating the future AI
+      > framework with other pieces of EU legislations, especially the
+      > EU rules on safety, health and environment. During the consultation it was also noted that AI components introduce
+      > new sources of risk (biometric surveillance in real time), new
+      > processes (autonomous decision-making processes, Machine
+      > Learning capacities) and new immaterial harms (loss of privacy and unlawful discrimination) while the current legislation still focuses on material harm and ‘safety risks present
+      > at the time of placing the product on the market and presupposes “static” products.’ 106
+      > Another contributor to the EU public consultation107 noticed that the notion of ‘trustworthiness’ introduced by the
+      > European Commission could be difficult to assess. The AI
+      > HLEG commissioned by the European Commission to clarify
+      > the meaning of this notion, identified three components that
+      > should be simultaneously met by any AI system.
+      > (i) it should be lawful, complying with all applicable laws and
+      > regulations.
+      > (ii) it should be ethical, ensuring adherence to ethical principles and values; and
+      > (iii) it should be robust, both from a technical and social perspective, since, even with good intentions, AI systems can
+      > cause unintentional harm.’108
+      > The assessment criteria proposed by the AI HLEG109 covers
+      > consequently a wide range of subjects in different areas (law,
+      > ethics, security) that certain contributors110 consider overdemanding for many low risk uses of AI. Others111 argue that
+      > they could be counterproductive so as they could favour large
+      > corporations at the expense of SMEs.
+      > The approach suggested by the AI HLEG resembles to some
+      > extent to the one adopted by standardization bodies with Corporate Social Responsibility (CSR) standards. CSR standards112
+      > usually propose to cover ‘all aspects of sustainability ranging
+      > 104 Ibid. 105 MedTech Europe contribution. 106 European Commission, Artificial intelligence – ethical and legal requirements. Inception Impact assessment (2020) 2. Available at < https://ec.europa.
+      > eu/info/law/better-regulation/have-your-say/initiatives/
+      > 12527-Artificial-intelligence-ethical-and-legal-requirements>
+      > last accessed 5 January 2021. 107 Association for Financial Markets in Europe (AFME) contribution.
+      > 108 High-Level Expert Group on AI (AI HLEG), ‘Ethics Guidelines for
+      > Trustworthy AI’ (European Commission 2019) 5. 109 High-Level Expert Group on AI (AI HLEG), ‘Trustworthy AI
+      > Assessment List’ (European Commission 2019). Available at
+      > <https://ec.europa.eu/futurium/en/ai-alliance-consultation> last
+      > accessed 5 January 2021. 110 Association for Financial Markets in Europe (AFME) contribution.
+      > 111 VDMA (German Mechanical Engineering Industry Association)
+      > and RELX contributions. 112 See for instance ISO 26000 Social Responsibility standard.
+      > from economic, although in a limited way, to social and environmental topics’113 but the (too) wide scope of the standards
+      > has forced the designers to operate a selection within the criteria.
+      > The criteria dedicated to privacy and data governance in
+      > the AI HLEG’s assessment list114 underwent a similar selection process and included criteria that do not, by far, cover
+      > all the EU data protection principles. For instance, the criteria say nothing about sensitive data management, data subject rights, data retention and the ones selected sometimes
+      > remain debatable (involvement of DPOs for instance).
+      > The AI HLEG’s assessment list does not look workable in
+      > its current state as a set of requirements underlying an AI label. The scope and criteria of the scheme should be reviewed
+      > and certainly reduced if the option of such a label would be
+      > adopted by the European legislator.115
+      > 3.2.8. Auditability
+      > Scholars and conformity assessment professionals116 note
+      > that AI components challenge the current conformity assessment methodologies. AI complexity and the fact that AI outcomes evolve over time require new methods. Mili et al.117
+      > stress that Machine Learning technologies that currently prevail in AI systems require to assess both the software design
+      > and the dataset(s) from which the algorithm is learning. Bhattacharyya et al. add that the ‘current test-based verification
+      > processes will never be sufficient to assess the behaviour of
+      > 113 Gdaniec D, ‘Comparison of Different Certifiable and NonCertifiable Corporate Social Responsibility Standards in the European Telecommunications Industry’ (2012) 24. 114 High-Level Expert Group on AI (AI HLEG), ‘Trustworthy AI Assessment List’ (European Commission 2019) Questions 19 to 21. 115 See the initiative launched by the Fraunhofer - Institut für
+      > intelligente analyse – Und Informations Systeme IAIS. ‘Vertrauenswürdiger Einsatz von Künstlicher Intelligenz Handlungsfelder Aus Philosophischer, Ethischer, Rechtlicher Und Technologischer Sicht Als Grundlage Für Eine Zertifizierung von Künstlicher Intelligenz.’ Available at < https://www.iais.fraunhofer.
+      > de/content/dam/iais/KINRW/Whitepaper*KI-Zertifizierung.pdf>
+      > last accessed 5 January 2021See also the requirements catalogue proposed by the project. (in German only). ‘Leitfaden
+      > zur Gestaltung vertrauenswürdiger Künstlicher Intelligenz -
+      > KI-Prüfkatalog’. Available at < https://www.iais.fraunhofer.de/
+      > content/dam/iais/fb/Kuenstliche_intelligenz/ki-pruefkatalog/
+      > 202107_KI-Pruefkatalog.pdf > last accessed 5 January 2021. 116 Brundage M and others, ‘Toward Trustworthy AI Development: Mechanisms for Supporting Verifiable Claims’ [2020]
+      > arXiv preprint arXiv:2004.07213 3. See also Fisher M and
+      > others, ‘Towards a Framework for Certification of Reliable
+      > Autonomous Systems’ (2021) 35 Autonomous Agents and
+      > Multi-Agent Systems 28. See also Frost L, ‘Artificial Intelligence and Future Directions for ETSI’ [2020]. Available at
+      > <https://www.etsi.org/images/files/ETSIWhitePapers/etsi_wp34*
+      > Artificial*Intellignce_and_future_directions_for_ETSI.pdf> last
+      > accessed 5 January 2021. See also Rieder B and Hofmann J, ‘Towards Platform Observability’ (2020) 9 Internet Policy Review cited
+      > in Irion K, ‘AI Regulation in the European Union and Trade Law:
+      > How Can Accountability of AI and a High Level of Consumer
+      > Protection Prevail over a Trade Discipline on Source Code?’ (IVIR
+      > and Verbraucherzentrale Bundesverband eV 2021) 21. 117 Mili A and others, ‘Towards the Verification and Validation of
+      > Online Learning Adaptive Systems’, Software Engineering with
+      > Computational Intelligence (Springer 2003) 174.
+      > computer law & security review 44 (2022) 105657 13
+      > adaptive systems.’118 They identify a series of methodological
+      > and technical challenges that should be tackled before being
+      > able to accurately assess nondeterministic algorithms.119 But intellectual property rights limit the ability to assess the source
+      > code of algorithms (white box testing). This capacity could be
+      > even more limited if the discussions initiated at the World
+      > Trade Organization (WTO) to protect property rights on source
+      > code resulted in an outright ban of white box testing.120
+      > The unresolved assessment issues raised by AI systems
+      > are basically technical ones that should sooner or later be
+      > addressed by researchers. The future agreement that will be
+      > reached at the WTO level will be pivotal for public liberties in
+      > so far as it will define,for the next decade, what can be audited
+      > or not.
+      > 3.3. A voluntary label for AI?
+      > The section above has demonstrated that many prerequisites
+      > have to be met in order to turn a voluntary label into a successful solution for AI regulation. Labels are multidimensional and
+      > could be arranged in many ways depending on the objectives
+      > pursued by the lawmaker. The experience of labelling in other
+      > areas has shown thatthe balance to strike between private initiative and public oversight is delicate and fragile. Labels can
+      > be challenged at any time and restoring trust requires a great
+      > deal of effort.
+      > In the next section we will, without pretending to cover all
+      > possible solutions, mention a few options that could be further explored when the European legislator would consider
+      > the introduction of a labelling scheme. These options particularly include: an information label, a nutrition like label, a
+      > quality or conformity label and two varieties of an education
+      > label.
+      > 3.3.1. An information label
+      > As set above, Article 52 of the Act provides transparency obligations for certain AI systems covering systems that (i) interact with humans, (ii) are used to detect emotions or determine
+      > association with (social) categories based on biometric data, or
+      > (iii) generate or manipulate content (‘deep fakes’).121
+      > Form emotion recognition system or biometric categorisation systems, the natural persons exposed thereto shall be in118 Bhattacharyya S and others, ‘Certification Considerations for
+      > Adaptive Systems’, 2015 International Conference on Unmanned
+      > Aircraft Systems (ICUAS) (IEEE 2015) 60 See also Koopman P and
+      > Wagner M, ‘Challenges in Autonomous Vehicle Testing and Validation’ (2016) 4 SAE International Journal of Transportation Safety
+      > 15 See also Brundage M and others, ‘Toward Trustworthy AI Development: Mechanisms for Supporting Verifiable Claims’ [2020]
+      > arXiv preprint arXiv:2004.07213, 71. 119 Nondeterministic algorithms oppose to deterministic algorithms in which the end result of a code sequence can be determined before testing this sequence. That is no more the case with
+      > nondeterministic algorithms included in AI systems. 120 Irion K, ‘AI Regulation in the European Union and Trade Law:
+      > How Can Accountability of AI and a High Level of Consumer Protection Prevail over a Trade Discipline on Source Code?’ (IVIR and
+      > Verbraucherzentrale Bundesverband eV 2021) 3-4. 121 Explanatory Memorandum, p. 14/15.
+      > formed (by the users) of the operation of the system.122 It is
+      > yet unclear what this exactly means but a possible interpretation is that the users will be obliged to give some kind of
+      > explanation of the way the system operates.
+      > Much more limited information duties seem to apply in the
+      > other two cases addressed in Article 52 of the Act. In these
+      > cases, the yard stick is either:
+      > (1) the systems are designed and developed in such a way that
+      > natural persons are informed that they are interacting with
+      > an AI system; or
+      > (2) users shall disclose that the content has been artificially
+      > generated or manipulated (in case of ‘deep fake systems’).
+      > The requirement that “natural persons are informed that
+      > they are interacting with an AI system” could, when this is
+      > not clear from the design of the system, be fulfilled by an ‘AI
+      > inside’ type of label or similar. Although the legislator seems
+      > to position this kind of information duties as the basis for individuals to make informed choices or step back from a given
+      > situation, it in our view far from certain that this effect will
+      > be reached. Nowadays the public at large is on the one hand
+      > confronted with all types of ‘smart’ equipment and services
+      > in which AI is presented as a positive quality differentiator,
+      > or AI is used – silently - in the background. Under the new
+      > regulation the ‘invisible’ application of AI is in principle no
+      > longer allowed. Since a lot of marketing power is spent by the
+      > IT-industry on creating a positive image for ‘smart products’,
+      > adding any ‘AI inside’ type of label or (limited) information
+      > to either a product that is marketed as ‘smart’ or any other
+      > product (in which AI was ‘hidden’ so far) will easily be interpreted as (another) positive sign, and not as sign of caution.
+      > For that latter purpose, in our view at least a more extensive
+      > label will be required. In suggesting that, we obviously realise
+      > that recent experiences with e.g. mandatory warnings on tobacco products should make us cautious as to the effects that
+      > can be expected of these types of information labels.
+      > 3.3.2. Nutrition like label
+      > Another option would be a more advanced information label similar to the EU nutrition labels. In the EU, nutrition labels are driven by the EU Food Information Regulation (EU) No
+      > 1169/2011 requiring pre-packed food producers to provide information about the energy value and amounts of fat, saturates, carbohydrate, sugars, protein, and salt contained in the
+      > food product. This information must be presented in a legible
+      > tabular format or in linear format when not enough space is
+      > available on the front or the back of the packaging.
+      > A nutrition like label applied to AI could for instance provide information about:
+      > • the goal of the AI system;
+      > • the data collected and processed;
+      > • the range of decisions that the end user could receive from
+      > the system (i.e., accepted/rejected/pending);
+      > 122 This obligation shall not apply to AI systems used for biometric
+      > categorisation, which are permitted by law to detect, prevent and
+      > investigate criminal offences.
+      > 14 computer law & security review 44 (2022) 105657
+      > Fig. 6 – AI Ethics Label from Irights.lab.
+      > • the contact information to send queries and lodge complaints.
+      > A nutrition-like label for AI could be proposed under four
+      > options depending on the risk carried by the AI system.123 It
+      > could be voluntary or mandatory with or without an ex-ante
+      > audit to validate the information provided.
+      > 123 The German Data Ethics Commission proposes to define 5
+      > levels of criticality. - Level 5 applies applications with an untenable potential for harm - Level 4 to the applications with
+      > serious potential for harm - Level 3 to applications with regular or significant potential for harm - Level 2 to applications
+      > with some potential for harm - Level 1 to applications with
+      > zero or negligible potential for harm The regulatory threshold
+      > is set at level 2 with ex-post controls and ex-ante approval
+      > from level 3 and continuous supervision at level 4 and partial
+      > or complete ban at level 5. See German Daten Ethik Kommission, ‘Opinion of the Data Ethics Commission’ (2018). Available
+      > at <https://datenethikkommission.de/wp-content/uploads/DEK*
+      > Gutachten_engl_bf_200121.pdf > last accessed 5 January 2021.
+      > Another option close to the voluntary labels proposed by
+      > Article 35 of the Food Information Regulation is promoted by
+      > Irights.lab in Germany. Their AI Ethics Label initiative suggests to evaluate six dimensions of AI systems (transparency,
+      > accountability, privacy, justice (non-discrimination), reliability
+      > and sustainability on a scale from A to G under a graphical design similar to the European energy efficiency label. The approach is based on ex ante audits and an evaluation matrix
+      > that aims to determine the ranking for every assessed dimension.124
+      > This nutrition-like label seems relatively easy to understand. However, the label does not actually say whether the
+      > end user can trust a labelled product or service and it provides
+      > possibly confusing information to the public at large. For instance, the reliability indicator provided by the AI Ethics Label does not define which letter/color should be considered as
+      > ‘reliable.’ And the use of the colour ‘green’ for a low score and
+      > ‘red’ for a high(er) score adds to the confusion. The notions
+      > of justice and accountability are also not straightforward to a
+      > layman.
+      > The amount of information presented in the AI Ethics Label above and the EU nutrition label in fig. 6 shows that the
+      > risk of information overload is real. This advocates for a simple and clear message delivered to prevent public misunderstanding. The use of graphics expressing a certain rating could
+      > contribute to providing the desired clarity.
+      > 3.3.3. A quality or conformity label
+      > The fourteen Member States’ position paper125 and to a lesser
+      > extentthe European Commission’s White paper on AI126 advocate for a quality/conformity label based on the AI HLEG Ethics
+      > guidelines for trustworthy AI and leveraging a risk-based approach as the one suggested by the German Data Ethics Commission.127
+      > A stricter option, with assessment on the basis of harmonised European standards, could be to extend the scope
+      > of the proposed draft and extend the CE marking regime to
+      > low and medium risk AI systems as well. The proposal would
+      > be in line with the current functioning of the CE marking process that regulates all the products in scope of the applicable
+      > legislation regardless of the level of risk. Moreover, low and
+      > 124 AI Ethics Impact Group (AIEIG) ‘From Principles to Practice —
+      > An interdisciplinary framework to operationalise AI ethics’ (2020).
+      > Available at < https://irights-lab.de/wp-content/uploads/2020/04/
+      > WKIO_2020_final.pdf > last accessed 5 January 2021. 125 Kingdom of the Netherlands, ‘Position Paper of the Netherlands on the European Commission Proposal Regarding Legislation for a Coordinated European Approach on the Human and Ethical Implications of Artificial Intelligence.’ Available at <https://www.permanentrepresentations.nl/documents/
+      > publications/2019/12/19/position-paper-legislation-ai > last accessed 5 January 2021. 126 EU Commission, ‘White Paper on Artificial Intelligence – a European Approach to Excellence
+      > and Trust’ https://ec.europa.eu/info/sites/info/files/
+      > commission-white-paper-artificial-intelligence-feb2020_en.pdf
+      > last accessed 5 January 2021. 127 German Daten Ethik Kommission, ‘Opinion of the Data Ethics
+      > Commission’ (2018).
+      > computer law & security review 44 (2022) 105657 15
+      > medium risk AIs could potentially benefit from the reform of
+      > the EU conformity assessment processes in progress.128
+      > Next to the proposals of the Member States, in the literature two other options for a quality label were suggested.
+      > Reed129 argues that such a label could be awarded to AI systems able to explain their own decisions. He stresses that the
+      > technology to make this option possible is currently under
+      > development and could be soon available.130 Bhattacharyya,
+      > Fisher et al. propose to submit AI systems like human drivers
+      > and pilots to a licensing procedure regularly renewed to validate their performance.131 These two approaches offer the advantage of validating the outcome of AI systems (black box
+      > testing) without challenging the intellectual property rights
+      > on the source code (white box testing).
+      > Another option, which does not exclude the aforementioned ones, could be to develop a certification mechanism
+      > similar to the one defined in Article 42.2 GDPR. The Article 42.2
+      > mechanism could be included in a wider scheme that could
+      > grant a label with the right to transfer personal data to nonEU service providers when they have demonstrated that the
+      > transfer mechanism including AI system or not is compliant
+      > with the GDPR in terms of appropriate safeguards,132 transparency,133 and non-discrimination.134
+      > 3.3.4. Education label
+      > A third option that is again not exclusive of the previous ones
+      > could be to develop training labels. This option was recommended by the High-Level Expert Group on AI135 as well as
+      > by a contributor to the public consultation136 since it could
+      > help to better prepare AI developers and the EU citizens to understand and tackle the current and future ethical challenges
+      > raised by AI systems.
+      > Training labels could either be issued to training programs
+      > or to schools, universities, or other educational institutions.
+      > 128 Evaluation of certain aspects of the New Legislative Framework (Decision No 768/2008/EC and Regulation (EC) No 765/2008).
+      > Available at < https://ec.europa.eu/growth/single-market/goods/
+      > new-legislative-framework_en > last accessed 5 January 2021. 129 Artificial Intelligence Committee AI in the UK: ready, willing
+      > and able? Report of Session 2017-19 - published 16 April 2017 -
+      > HL Paper 100 Artificial Intelligence Committee AI in the UK: ready,
+      > willing and able? Paragraph 97 Chapter 3. 130 The ‘Glassbox framework for interpretable machine learning’
+      > from Google and the ‘best practices for intelligible AI systems’ developed by Microsoft. Cited in Artificial Intelligence Committee AI
+      > in the UK: ready, willing and able? Report of Session 2017-19 - published 16 April 2017 - HL Paper 100 Artificial Intelligence Committee AI in the UK: ready, willing and able? Paragraph 97 Chapter 3. 131 Bhattacharyya S and others, ‘Certification Considerations for
+      > Adaptive Systems’, 2015 International Conference on Unmanned
+      > Aircraft Systems (ICUAS) (IEEE 2015) 60. See also Fisher M and
+      > others, ‘Towards a Framework for Certification of Reliable Autonomous Systems’ (2021) 35 Autonomous Agents and MultiAgent Systems 28. 132 Article 46 GDPR. 133 Article 12 GDPR. 134 Article 22 GDPR. 135 High-level expert group on artificial intelligence (AI HLEG), Policy and Investment Recommendations for Trustworthy AI (2019)
+160.  136 The Association for Financial Markets in Europe (AFME) promotes an educational approach.
+      A real-life example is the label developed by the CNIL137 (the
+      French data protection authority) for training companies providing CNIL approved training programs. Another (theoretical)
+      example could be a label assigned to higher education institutions providing a training on AI ethics in their in science or
+      humanities curriculum.138
+      3.3.5. Professional label
+      The Act envisages human oversight of high-risk AI systems
+      to prevent or minimise the risks to health, safety or fundamental rights. This oversight shall be ensured through either
+      measures built in the system and/or measures identified by
+      the provider before the system is placed on the market or put
+      into service.139
+      An efficient oversight will require from the human operator, among other things, to ‘fully understand the capacities
+      and limitations of the high-risk AI system and be able to duly
+      monitor its operation.’, ‘to correctly interpret the high-risk
+      AI system’s output and to ‘be able to decide, in any particular situation, not to use the high-risk AI system or otherwise
+      disregard, override or reverse the output of the high-risk AI
+      system.’140
+      These requirements could provide the basis for a professional qualification recognized in the form of a certification
+      issued along with a label. The supervision by the European
+      authorities could prevent a scenario similar to the DPO certification in which the fully private approach has given rise to a
+      myriad of certifications of a very uneven level.141
+      The coordinated plan on AI issued by the European Commission underlines that the ‘Member States are facing shortages of Information and communications technology professionals, and there are currently more than 600 000 vacancies
+      for digital experts.’ The report adds that ‘Europe must be able
+      to train, attract and retain talent of this kind, and encourage entrepreneurship, diversity and gender balance.’142 The
+      European Commission could leverage this current workforce
+      shortage to finance training programs delivering professional
+      certification with the aim to attract non-EU young professionals and train them on the challenges raised by trustworthy
+      AI development. A few programs in the US143 already propose a curriculum dedicated to Ethical AI and deliver a professional certification label at the end of the training session.
+      Also,the Netherlands Scientific Council for Government Policy
+      recommended in its recent report on AI,to: ‘Enhance the skills
+      137 See the presentation of CNIL’s formation label on the CNIL
+      ‘s website. In French only. Available at <https://www.cnil.fr/fr/
+      les-labels-cnil> last accessed 10 November 2021. 138 See for instance the ‘Masterclass Digital Human Rights – Digital Ethics Officer’ training program proposed by EDHEC Augmented Law Institute. In French only. < https://www.edhec.edu/
+      en/agenda/formation-digital-ethics-officer > last accessed 5 January 2021. 139 Articles 14.2 and 14.3 Act. 140 Article 14.4 Act. 141 Lachaud E, DPO Certification Should Be Regulated (2018). 142 European Commission, Coordinated Plan on Artificial Intelligence. COM (2018) 795 final, Section 2.4. 143 Graduate Certificate in Ethical Artificial Intelligence from San
+      Francisco State University. Ethics in AI and Big Data from the Linux
+      foundation.
+      16 computer law & security review 44 (2022) 105657
+      and critical abilities of individuals working with AI and establish educational training and forms of certification to qualify
+      people.”’144
+161.  Conclusion
+      With launching the proposed Act on AI, the European Union
+      is taking an important next step in the process of regulating
+      AI. Amidst strongly diverging views on the level of the Member States, the Commission has chosen for something that
+      could be considered as middle ground by focussing on new
+      rules for high risk AI only and leaving other types of systems
+      open to market forces with merely limited mandatory information duties to be fulfilled and stimulating voluntary codes
+      of conduct that should mirror the high risk regime. ‘Non-high
+      risk’ does however not mean safe or risk-free. In protecting EU
+      citizens, (small) business and public administrations from and
+      against the risk of these type of AI’s,the Commission seems to
+      rely on the existing framework in the field of data protection,
+      cyber security, consumer protection etc. We seriously doubt
+      whether those regimes are sufficientin that regard.In any way,
+      it is key that EU citizens (potentially) confronted with AI’s are
+      adequately being informed about the risks at stake allowing
+      them to make informed choices. This is especially important
+      in case of low and medium risk AI’s since there will be no AI
+      specific oversight when bringing these systems to the market. The exact scope of the information duties laid down in
+      Article 52 of the Act is yet unclear. The wording used by the
+      legislator is relatively open and many dimensions and issues
+      (level of communication, language, presentation etc.) remain
+      144 Opgave AI. De nieuwe systeemtechnologie (Mission AI. The New System Technology), Netherlands Scientific Council for Government Policy (WRR), 2021, p.
+162.  Available at < https://www.wrr.nl/adviesprojecten/
+      artificiele-intelligentie/documenten/rapporten/2021/11/11/
+      opgave-ai-de-nieuwe-systeemtechnologie> last accessed 5
+      January 2021.
+      unclear so far. Some of the information that has to be presented mandatory (like ‘AI inside’ type of messages under Article 51 paragraph 1) might even have an adverse effect and
+      could easily be seen by citizens as something like a quality
+      label setting this type of system positively apart from other
+      similar systems. Considering the huge marketing power traditionally promoting new digital technologies or applications,
+      this concern seems far from theoretical. In our view information labels covering the relevant dimensions of (the effects
+      of) AI’s could prove to be a valuable contribution to better informing those (potentially) affected by AI’s. Next to AI system related labels, the perspective of using labels for fostering education in the field seem particularly interesting as the
+      design, development, production, marketing, implementation
+      and use of AI’s is (at least so far) still largely depending on
+      decisions by human actors. In making these suggestions we
+      realise that such an approach can only be fruitful if a number
+      of key success factors will be met. This even if the label were
+      eventually made mandatory, as the experiences in for example the field of sustainable development, energy consumption
+      and food have shown.
+      Declaration of Competing Interest
+      Kees Stuurman: No conflict of interest.
+      Eric Lachaud: No conflict of interest.
+      Data Availability
+      No data was used for the research described in the article.

@@ -1,0 +1,1164 @@
+Technological Forecasting & Social Change 180 (2022) 121664
+Available online 26 April 2022
+Industry 4.0 in the European union: Policies and national strategies
+Jos´elia Elvira Teixeira, Ph.D. a,1,*
+, Ana Teresa C.P. Tavares-Lehmann, Ph.D. b,2
+a PPGADM-UNICENTRO, Department of Economics-UNICENTRO, Salvatore Renna 875, Guarapuava-PR, Brazil b CEF.UP, FEP-U.Porto, Dr. Roberto Frias 464, Porto, Portugal
+ARTICLE INFO
+JEL:
+L52 (industrial policy)
+L88 (government policy)
+O33 (Technological Change)
+Keywords:
+Industry 4.0
+Government programs
+Industrial policy
+National strategies
+European Union
+ABSTRACT
+All across the European Union (EU), Member States are implementing policies in order to stimulate the adoption
+of technologies associated to Industry 4.0. This paper provides the most comprehensive comparative analysis so
+far done of such EU Government programs. At the supranational level, the EU has adopted policies geared to the
+EU-wide digitalization of industry, aiming also to motivate countries to establish digitalization strategies at the
+national level. National strategies and plans have been the result of multiple actions involving the interaction of
+different stakeholders. We identified 25 national Industry 4.0-focused plans between 2011 and 2020. There was
+considerable asymmetry in the conditions for implementation of policies, and in the assimilation by the market in
+different EU countries.
+1. Introduction and synthesis of the relevant literature
+1.1. Industry 4.0: The concept and a brief presentation of the
+phenomenon
+Industry 4.0 combines the cyber-physical realms and is revolutionizing the production and the supply of goods and services, through the
+interconnection between products, processes and consumers (Lee,
+2015). It is characterized by the use of a host of emerging technologies
+(Zhang and Chen, 2020) such as Internet of Things (IoT), Artificial Intelligence, Cloud Computing, Autonomous Robots, Sensors, among
+others (Xu, 2020). Complementary to those Technologies, Big Data and
+Blockchain are deployed to provide better digital services (Rejikumar
+et al., 2019). That impacts on all the value chain with the association of
+other technologies services in real time (Fuchs, 2018).
+Industry 4.0 has been considered a “Fourth Industrial Revolution”
+(Schwab, 2016; Morrar et al., 2017; Kosacka-Olejnik and Pitakaso,
+2019; Hoyer et al., 2020; Zhang and Chen, 2020), which is a term by no
+means consensual in academia (Liao et al., 2017).
+The three first industrial revolutions emerged, respectively, as a
+result of mechanization, electricity and information technology (IT)
+(Kagermann et al., 2013). The progress in IT, manifested in the use of
+advanced manufacturing technologies, should be emphasized, as such
+technologies are more recent and directly relevant for the industrial
+revolution under way (Agostini and Nosella, 2019). Industry 4.0, hence,
+is the expression used to identify this Fourth Industrial Revolution,
+which combines the advances in the Smart Factory with Cyber-Physical
+Systems, connecting people, machines and other devices simultaneously
+and in real time (Ciffolilli and Muscio, 2018). According to the European Commission, (2018), the Fourth Industrial Revolution involves the
+physical, digital and biological spheres and the new technologies associated in all the value chain. Zhang and Chen (2020) note that Industry
+* Corresponding author.
+E-mail addresses: joseliateixeira@unicentro.br (J.E. Teixeira), atavares@fep.up.pt (A.T.C.P. Tavares-Lehmann). 1 Resum´e: Assistant Professor, Department of Economics of UNICENTRO (Brazil); Professor of the Postgraduate Program in Administration (PPGAdm - UNICENTRO); Postdoctoral Researcher, FEP-Univerty of Porto. Ph.D. in Public Policies by Federal University of Parana ´ (UFPR - Brazil). Worked in several projects in the
+area of innovation for SMEs. Author of publications in peer-reviewed journals. Currently is Visiting Research at School of Economics and Management – University of
+Porto (Portugal) and research about Industry 4.0 and Internationalization. 2 Resum´e: Associate Professor, CEF.UP, FEP-U.Porto. Ph.D in Economics, University of Reading. Former State Secretary of Industry, Portuguese Government, VicePresident of Portugal’s North Regional Development Authority, Pro-Vice Chancellor U.Porto. Consultant to international organizations in the areas of International
+Business, Innovation and Public Policy. Author of numerous publications in peer-reviewed journals. Serves on the Editorial Boards of the Journal of International
+Business Policy and of Competitiveness Review, on the Supervisory Board of EIT Manufacturing, and on the Advisory Boards of Orkestra-Basque Institute of
+Competitiveness and on the Competitiveness Institute of the University of Fribourg.
+Contents lists available at ScienceDirect
+Technological Forecasting & Social Change
+journal homepage: www.elsevier.com/locate/techfore
+https://doi.org/10.1016/j.techfore.2022.121664
+Received 4 August 2021; Received in revised form 15 January 2022; Accepted 2 April 2022 
+Technological Forecasting & Social Change 180 (2022) 121664
+2
+4.0 will be consolidated in the future in a new manufacturing paradigm
+enabling significant improvements in performance and, in particular, in
+productivity.
+Schwab (2016) identifies technologies enabling Industry 4.0,
+dividing them into three categories: i) physical: autonomous vehicles;
+3D printing, advanced robotics and new materials; ii) digital: Internet of
+Things (IoT), data, blockchain, sensors, identification by radiofrequency
+(RFID), digital platforms; and iii) biological: including the evident advances in research in biology, genetics and nanotechnology.
+The combination of these three categories may disrupt an entire industry and its associated production, distribution and consumption
+systems (Schwab, 2016). According to Lepore & Spigarelli (2020), the
+evolution of such Industry 4.0-related technologies is a real challenge to
+industrial policy formulation – notably as it implies the reallocation of
+productive factors and a new dynamic of the workforce; it also creates
+social and economic divisions in regional and international terms. These
+aspects will be explored in the next section.
+1.2. Benefits and concerns/challenges related to industry 4.0
+Industry 4.0 adopts disruptive innovations increasing the efficiency
+and effectiveness of operations in the socioeconomic system (Slusarczyk, 2018). Digitalization affects directly the markets, the labor
+market and the social structures (Kagermann, 2015). Technological
+advances observed in the manufacturing industry and the digitalization
+and reconversion observed in manufacturing towards the smart factory
+has been a growing and undeniable process in the last decades (Madsen,
+2019). Manufacturing industry is at the forefront of transformations
+occurred in the domain of Industry 4.0 - and products, processes and
+supply chains will all be impacted by such technologies (Majstorovic and
+Mitrovic, 2019).
+It is appropriate at this stage to identify the benefits and also the
+challenges and concerns that a complex and dynamic reality such as
+Industry 4.0 may entail.
+Different potential benefits of Industry 4.0 have been identified in
+relevant literature (Fonseca, 2017) - for a good and updated synthesis
+see Table 3 in Fonseca et al. (2021). The new organizational business
+models and practices implied by Industry 4.0 (Mariani and Borghi, 2019;
+Linde et al., 2020; Flor´en et al., 2021); see also Fonseca et al. (2021) on
+the EFQM 2020 model stimulate organizational efficiency, overall productivity and long term competitiveness (Horv´
+ath and Szabo, ´ 2019).
+Moreover, enhanced integration of processes and improved flow of data
+promote agility, flexibility (to adapt to a rapidly changing environment)
+and opportunities to further innovation and more efficient customization (Oesterreich and Teuteberg, 2016), notably taking into account
+customer experience and feedback - fostering knowledge sharing and
+collaboration. This allows also to shorter lead times, and to producing
+goods with increased quality and with no defects (Ferreira et al., 2018).
+A special reference in this regard should be made to the link between
+I4.0 and sustainability (in the “Triple Bottom Line” sense, involving
+economic, social and environmental sustainability) - including the circular economy. Jabbour et al. (2018a), Bigerna et al. (2021), Ford and
+Despeisse, 2016, Horvath ´ and Szabo, ´ 2019) and Olah ´ et al. (2020) assess
+possible links and synergies between I4.0 and sustainable
+manufacturing. It is argued that the new organizational models and
+technologies implied by Industry 4.0 may impact positively on sustainability (environmental and social) (Jabbour et al., 2018a) and on
+promoting the circular economy, e.g. by reducing waste, material and
+energy consumption (World Economic Forum, 2018; Fonseca et al.,
+2021). Hence, costs can be significantly reduced, while Jabbour et al.
+(2018b) propose a research agenda linking those topics. Other studies
+emphasize the sustainability aspects of the implementation of the industry 4.0 are Kiel et al. (2017), Müller et al. (2018).
+On the challenges, Marcucci et al. (2021) note that the implementation level of I4.0-related technologies impacts perceived performance and organizational resilience. I4.0 demands new leadership
+styles, work ethics, and management systems (World Economic Forum,
+2018). A very important and frequently noted challenge is to understand
+and promote the right mix of competencies and skills for the new I4.0
+reality (Sanders et al., 2016). Human resources and social interactions
+are key, as I4.0 is not only a technological phenomenon, but also a
+human and social phenomenon (particularly important in the light of
+the recent Industry 5.0 approach promoted by the European Commission, (2021). This makes the issue of upskilling and reskilling critical,
+given the potential mismatch of qualifications and the difficulties that
+less qualified workers may experience (Horvath ´ and Szabo, ´ 2019),
+which can threaten social cohesion (Vacek, ´ 2017). I4.0 may lead to job
+losses, notably with automation (World Economic Forum, 2016). This
+may cause a resistance to change (Brous et al., 2020). Horvath ´ & Szabo ´
+(2019) note the potential disadvantage of SMEs in the implementation
+of I4.0, and also identify other barriers to I4.0.
+Another very important concern is on legal, privacy and (cyber)security issues associated with the adoption of digital technologies and
+automation, as well as with data ownership and protection (Dwivedi
+et al., 2021). These authors analyze the issue of standards and regulations, in particular when data and information are incomplete.
+Luthra and Mangla (2018) evaluate challenges to I4.0 for supply
+chain sustainability.
+1.3. Industry 4.0 initiatives and the adoption of industry 4.0 as a focus of
+government policies
+The term Industry 4.0 was coined in Germany in 2011, in the most
+important event in industrial technologies worldwide – the Hannover
+Messe (Buchi et al., 2020). Officially, it has been incorporated in the
+strategic plan of the German Government in 2013 (Xu, 2020). Such
+initiative prompted several other governmental plans focused on industry, adopting the same principles and technologies (Mariani and
+Borghi, 2019). Almost simultaneously to the German initiative, the USA
+also launched recommendations contained in a strategic plan (Executive Office of the President National Science, Technology Council USA,
+2012) geared to stimulate the next generation of manufacture, designated Advanced Manufacturing Partnership (AMP) (Liao et al., 2017).
+Other examples of governments that launched such initiatives are:
+Australia (“The Next Wave of Manufacturing”), South Korea
+(“Manufacturing Innovation 3.0 Strategic Action Programme”, 2013),
+India (“Make in India”, 2014), Japan (“Industrial Value Chain Initiative”, 2015), China (“Made-in-China 2025′′, 2015), Singapore
+(“Research, Innovation and Enterprise 2020 Plan”, 2016), Brasil (“Plano
+de CT&I para Manufatura Avançada no Brasil – ProFuturo”, 2017),
+Russia (“Digital Economy 2024, 2017) and South Africa
+(“Manufacturing Indaba”, 2018). As Majstorovic and Mitrovic, (2019)
+argue these plans tend to embrace the same principles and technologies.
+In the EU, aspects related to Industry 4.0 have been already added to
+the objectives of the European Union’s Strategies for Smart
+Specialization-S3, established for the period 2014–2020 – aiming to
+promote innovation and competitiveness of the Member States (Lepore
+and Spigarelli, 2020). However, the promotion of the use of Industry 4.0
+facilitating/enabling technologies has been especially strong from 2016
+onwards, with the digitizing European Industry Initiative of the European Commission (European Commission, 2018). In Europe, Industry
+4.0 gained traction and space as a strategy for the reconversion of
+manufacturing, above all to recover the Jobs lost in the competition with
+countries with lower labor costs and taxes, as well as through the utilization of automation and robotic technologies to replace the less
+qualified tasks. Industry 4.0 is reconfiguring the system as we know it
+and integrating data and manufacturing processes throughout all the
+value chain (Ciffolilli and Muscio, 2018).
+Manufacturing is a nevralgic axis for advanced economies, given its
+relevance in value creation, in innovation and technological development. European countries, in the strategic discussions with the economic
+J.E. Teixeira and A.T.C.P. Tavares-Lehmann 
+Technological Forecasting & Social Change 180 (2022) 121664
+3
+actors concerned, have stressed the relevance of the development and
+deployment of high value added technologies - Industry 4.0 being
+considered in recent years a core element of innovation policy (Ciffolilli
+and Muscio, 2018). Notwithstanding, evident asymmetries persist
+among EU Members regarding the process of digitalization and on the
+implementation of the main pillars of Industry 4.0 (Atik and Unlu,
+2020).
+1.4. The need for further research in public policies focused on industry
+4.0
+Industry 4.0 changes the paradigm of centralized to decentralized
+production, though new technologies that will replace the traditional
+production mode (GTAI, 2014). As mentioned above, the reconfiguration of manufacturing, operated by the incorporation of emerging
+technologies, which characterize Industry 4.0 (Lu, 2017), has been
+accompanied by the formulation and implementation and policies
+directed to this objective (Castelo-Branco et al., 2019). Concomitantly,
+Industry 4.0 started to occupy an increasingly relevant place in academic studies, in Governments’ agendas and in manufacturing-related
+strategic planning – as well as considered of relevant impact on all
+economic and productive sectors (Hoyer et al., 2020). Despite this
+growth in attention and relevance, Industry 4.0 may still be understood
+as a discourse in construction by distinct actors, such as companies,
+governments and universities; such discourse is oriented to innovation
+in manufacturing (Reischauer, 2018). This discourse aims, ultimately, to
+institutionalize innovation involving business, academia and policy integrated in an innovation system in the framework of the Triple Helix
+theory.3 In other words, the discourse on Industry 4.0 incentivizes the
+mobilization of the actors to innovate in a collaborative way. The
+deployment and use of Industry 4.0 technologies are in the process of
+alignment among a multiplicity of actors and, as such, the involved
+actors can shape these changes. Public policy-makers have, thus, an
+important yet not exclusive role in the emergence and development of
+Industry 4.0. They are relevant shapers of this reality. The intensity of
+the focus on this policy area is also contingent on the economic environment in which the actors operate.
+Despite the above documented growth of initiatives in public policy
+related to Industry 4.0, and the growing literature addressing such
+programs and measures, authors such as Nazarov and Klarin (2020)
+argue that there is still a relative scarcity of research related both to the
+formulation of policies and to the results of the investments and of the
+overall implementation of such policies.
+Given this context, this article aims to make a contribution by presenting the EU policies and strategies designated by the EU to stimulate
+Industry 4.0, as well as individual initiatives of EU countries, offering a
+comprehensive comparative analysis which highlights the similarities
+and asymmetries among them along different criteria. To the best of our
+knowledge, this is the most wide-ranging comparative study specifically
+at EU level, with 28 national programs analyzed. Former relevant contributions were Majstorovic and Mitrovic (2019), which studied 18 EU
+countries initiatives (among other non-EU programs) and European
+Commission, (2018a), which mentioned 15 public policy initiatives
+aiming to stimulate the adoption and implementation of Industry 4.0.
+2. Methodology
+This research is exploratory, with a bibliographic and documental
+focus. It does not purport, however, in any way, to represent a bibliometric exercise, with quantitative techniques involved, as the references
+are not in large numbers, and most are contained in national or EU
+reports.
+Fig. 1 below presents the organization / flow of the research supporting the subsequent discussion of the characteristics and results of
+Industry 4.0 focused policies in the EU.
+We started by conducting a search in leading bibliographic databases
+such as Web of Science and Scopus, and also in Google Scholar. After
+reading the titles and abstracts, the main articles were included.
+The most significant part of the data collection in order to discern the
+details on the main policies focused on Industry 4.0 in the EU was performed via the webpage of the European Commission. The Commission
+maintains a webpage specifically dedicated to the monitoring of the
+initiatives of the member countries, and the main strategies are
+compiled in the Digital Transformation Monitor. The EU currently includes 27 member countries, after Brexit. Among these countries, 19
+reports were found, focused on monitoring national strategies for digital
+transformation in the following countries: Germany, Austria, Belgium,
+Czech Republic, Denmark, France, Hungary, Italy, Latvia, Lithuania,
+Luxembourg, Portugal, Slovakia, Slovenia, Spain, Sweden, The
+Netherlands; despite its recent exit from the EU, the monitoring report
+for the United Kingdom was also included, as it was available on the
+referred webpage. For the following other countries: Bulgaria, Cyprus,
+Estonia, Finland, Greece, Ireland, Malta, and Romania we used the
+digital monitoring reports elaborated by Valdani Vicari and Associati –
+Economics & Policy (VVA) and WIC Consult (European Commission,
+2019). For Bulgaria, we analyzed also the digital transformation report
+for the period 2020–2030 (Transformation Bulgaria 2020–2030) authored by the Ministry of Transport, Information, Technology and Communications (Ministry of Transport, Information, Technology and
+Communications, 2021). Ireland also presents a specific government
+report for Industry 4.0 for the period 2020–2025, also included.
+These reports present a synthesis of several relevant aspects about
+the main strategies and initiatives in distinct countries (European
+Commission, 2020a). In order to facilitate a systematic comparison,
+based on non-subjective criteria, we selected and put on a table the
+following data: Country; Name of the Initiative/Policy/Strategy/Plan/
+Program; Year of launching; Entity responsible for launching; Target
+actors; Strategic Axes; Measures; Funding (public, private,
+public-private); Type of policy (bottom up or top down).
+The data collected contribute to answer the following questions:
+Q1: What are the main national initiatives in the EU to stimulate the
+implementation of Industry 4.0 and the digitalization of EU
+economies?
+Q2: What are the main measures considered strategic to promote the
+implementation of Industry 4.0 in EU countries?
+Q3: What is the target public of the EU’s Industry 4.0 policies?
+Q4: What type of funds support these policies?
+Fig. 1. Research flow/scheme.
+3 The Triple Helix concept was developed originally by Henry Etzkowitz and
+Loet Leydesdorf (1995) (Cai, 2020). The approach to innovation by the angle of
+the Triple Helix is centered on the interactions and partnerships between
+universities-governments-companies (Etzkowitz & Leydesdorff, 2000).
+J.E. Teixeira and A.T.C.P. Tavares-Lehmann 
+Technological Forecasting & Social Change 180 (2022) 121664
+4
+For the elaboration/grouping of clusters (in the next section), we
+considered the most recurring axes / dimensions of Industry 4.0
+strategies and policies adopted by countries.
+3. Policies at the EU level and national initiatives for industry
+4.0 in the EU
+3.1. EU-level policies directed at the implementation and strengthening of
+industry 4.0
+This section’s objective is to present, analyze and compare the EU’s
+supranational programs aiming to stimulate the implementation of Industry 4.0. According to the study of the European Parliament (Smit
+et al., 2016), from the EU perspective, Industry 4.0 may be part of a
+defensive strategy (as it may contribute to maintain its manufacturing
+industry), but also of a proactive approach (as it can help Europe to
+increase its productivity and access to new markets).
+The main actors in the manufacturing industry ecosystem and in
+academia agree that, for the successful development of high value added
+technologies, the EU should put Industry 4.0 at the core of its strategic
+documents (such as the Innovation Union. In this way, Industry 4.0 would
+be at the center of Innovation Policy, with a focus in strategic subdomains like sustainable manufacturing (Ciffolilli and Muscio, 2018).
+In the 1990s, the understanding of public policy formulation by
+governments and public policy decision-makers to stimulate innovation
+and enhance technological capacity already considered the importance
+of an integrated vision – like the one implied by the concept of “national
+system of innovation” (Lundvall, 1992). The success of the implementation of advanced manufacturing technologies depends on the
+well-articulated and coherent connection between national policies of
+different types – including industrial policy, development policy and
+others, in such a holistic vision (Park, 2000). In line with the work of
+Hervas-Oliver et al. (2020), the analysis of policies and strategies for the
+transition towards Industry 4.0, in the regional domain, is justified by
+the fact that innovation is an interactive learning process happening in
+the local/regional realm.
+Considering the implementation of programs and public and private
+policies geared to Industry 4.0 in the EU member countries, in 2016 the
+European Commission together with the EU member States sought to
+establish a governance framework in order to stimulate the stakeholders
+and support the coordination of such initiatives, thereby launching the
+Digital Single Market. The main strategy of that package was to conduct
+the EU countries towards the adoption of digitalization of industry
+practices (European Commission, 2018a), this leading to the digitizing
+European Industry initiative, which includes the following pillars
+(identified in Fig. 2 below).
+The “Digital Single Market” refers to the policy framework adopted to
+promote the Digital Agenda established in 2010 by the European
+Commission (at the same time of the launch of the Strategy Europe
+2020). Besides the plan for a Single Digital Market, the strategy included
+the other components, such as Horizon 2020 and Regulatory Fitness and
+Performance Program (REFIT) (Hervas-Oliver et al., 2020).
+One of the most important pillars of the digitizing European Industry
+initiative are the so-called Digital Innovation Hubs (DIH), which are
+one-stop-shops for the digitalization of firms that aim to enhance their
+competitiveness through the use of digital technologies. Those digital
+innovation centers provide local support to firms to digitalize their operations in order to improve their positioning in their value chains. The
+DIH may also act as a broker between users and suppliers of digital innovations in all the value chain, stimulate connection with training
+agents, and facilitate access to funding for digital transformation. The
+Digital Innovation Hub Catalogue is an online tool (European Commission, 2020). DIHs are supported and consistent with the Smart
+Specialization Strategy of the European Commission (European Commission, 2020b). In 2019, there were 519 DIH all over Europe, 483 of
+which in the EU member countries. 360 DIHs were already in operation,
+and 159 were still being prepared. The countries with more DIH
+recognized by the EU were: Spain (68), Germany (55), Italy (51) and
+France (56). That initiative also impacted on the national policies for
+digitalization of countries like the UK, which replicated it in the UK
+Catapult initiative (Hervas-Oliver et al., 2020).
+The results presented by Hervas-Oliver et al. (2020) about the
+implementation of DIH in Spain note that the DIH program constitutes a
+policy model to help regional policy-makers to launch digitalization
+initiatives. DIHs also include crucial elements of the regional innovation
+system, promoting also the incorporation of new elements. These authors recommend that policy-makers take into consideration local needs
+and that they adapt DIH to the local context, as this is a unique program
+that does not see asymmetries among countries, like the regional innovation system (RIS), knowledge produced, among other factors.
+The European Platform of National Initiatives was created in March
+2017 to congregate such national initiatives aiming to stimulate digitalization. Furthermore, in order to attain the objective of a greater
+coordination of the digitizing European Industry process, a forum was
+established (European Stakeholder Forum) in order to promote contact
+between different initiatives, to promote financial support and to
+structure regulation and coordination and, in this way, to create opportunities for new sectoral investments. The European Commission
+suggested countries to try to frame their digitalization policies within
+the opportunities of the European structural and investment funds
+(European Commission, 2018a).
+The strategy of the European Commission also focused on creating
+leadership through large-scale public-private partnerships and through
+digital industrial platforms (European Commission, 2018b). A dynamic
+implementation of Industry 4.0 in the EU implies a policy constructed on
+a strong stakeholder involvement, in the already mentioned Triple Helix
+framework (Lepore and Spigarelli, 2020). The creation of digital platforms to share experiences, research and best practices relies on a
+strategy to provide support and funding to pan-European initiatives, as
+individual member countries’ initiatives may be insufficient (Smit et al.,
+2016).
+Another important pillar refers to regulation, considering the new
+digital technologies and their implications. In the domain of the Digital
+Single Market, the European Commission already proposed several
+measures to update regulation in essential areas, like cybersecurity and
+free flow of data.
+Another crucial topic, as referred in the Introduction to this article, is
+on the qualifications of the workforce, both in terms of upskilling and
+reskilling. The adoption of digital technologies will impact largely the
+Fig. 2. The 5 Main Pillars of the digitizing European Industry initiative (DEI).
+J.E. Teixeira and A.T.C.P. Tavares-Lehmann 
+Technological Forecasting & Social Change 180 (2022) 121664
+5
+workforce. Hence, there is a need to anticipate this impact and to prepare the human resources to the new demands, challenges and opportunities. The reconversion of European industry will largely depend on
+how successful this area will be tackled. Hence, the EU strategy must
+create policies and instruments with a focus on lifelong learning and
+constant update of qualifications (European Commission, 2018b). The
+study of the European Parliament (Smit et al., 2016) cites the results of
+the paper of the European center for International Political Economy
+(ECIPE), which note that the EU industrial policy needs to promote a
+reform in the labor market and strengthening education and training,
+which are key to the successful implementation of Industry 4.0.
+The European Union’s Strategy for Smart Specialization-S3 includes
+these challenges for the European innovation plan for the period
+2014–2020, with the aim to stimulate innovation and increase the
+competitiveness of the EU countries, allocating EU Structural Funds to
+this objective. It is expected that the next revision of this strategy will
+give more importance to Industry 4.0, in order to favor this transition
+(Lepore and Spigarelli, 2020).
+The RIS3 strategy also offered a S3 platform to connect EU countries
+and regions, facilitating the interaction among potential partners and
+the inter-regional cooperation. At the moment, there are 19 countries
+and 178 regions registered in the S3 platform (European Commission,
+2020c). Several tools were created to support RIS3 implementation,
+among which: i) (the already cited) Digital Innovation Hubs; ii) Eye@RIS3: an online database about the RIS3 priorities; iii) ESIF-Viewer: a
+tool identifying investments established by European structural and
+investment funds (ESIF) and containing data on the EU Operational
+Programs; iv) a tool to monitor Information and Communication Technologies (ICT), contributing to search data on Structural Funds and other
+data to favor planning in the area of ICT; v) Regional Benchmarking: an
+interactive tool allowing comparative analysis at the regional level,
+permitting to identify similar cases in the EU; vi) EU Trade: an interactive web-based application to visualize and analyze data on
+inter-regional trade and on Europe’s competitive position; e vii)
+Regional R&D Observatory: this tool allows to visualize and compare the
+investments on R&D financed by different EU funds and programs,
+through different channels, such as Eurostat’s economic indicators, investments on R&D identified by ESIF, as well as Horizon 2020 funds
+competitively awarded to stakeholders (European Commission, 2020b).
+The S3 strategy has innovation at its core, stimulating related public
+policies, programs and instruments, as well as financial support aiming
+to increase the EU’s competitive position, offering solutions to reduce
+competitive asymmetries in the EU countries. Although the digitalization initiatives promoted by the EU have stimulated the implementing of
+Industry 4.0 enabling technologies, it is fair to say that in these plans
+Industry 4.0 was not a critical element in the EU strategy (European
+Commission, 2018c). More recent proposals on digitalization will promote areas such as high performance computing, artificial intelligence,
+cybersecurity and advanced digital competencies, trying to amplify their
+use in the economy and in society at large. The focus will be on
+improving efficiency and the quality of the services in the areas of public
+interest like health, justice, consumers’ rights, public administration and
+support to digital transformation of small and medium enterprises
+(SMEs) (European Commission, 2018c).
+The asymmetries at the level of the digitalization of the economies
+among EU Member States risk to be more evident without public policies
+helping this process. According to the European Commission (European
+Commission, 2020e), European institutions and governments may need
+to contribute approximately € 75.000 million Euro in ICT investment in
+the next decade to reduce these asymmetries and conduct EU member
+States that are less advanced I this area towards the level of the most
+digitally advanced members. This is considered essential to capture the
+potential value of these high impact technologies. According to the same
+source, it has been estimated that education and training (upskilling and
+reskilling) of the workforce due to digital transition may demand investments of about € 42.000 Euro per year.
+Already in 2012, it was defended that a more assertive strategic
+approach of the European Union was needed in order to implement an
+industrial strategy to maximize the impact of 4.0 technologies and to
+prepare the workforce for the new challenges (Foray et al., 2012). The
+proposal of the European Parliament for the EU digitalization program
+has been included in the 2021–2027 Multi-Annual Financial Framework
+(MFF) (European Commission, 2018c), stressing the strategic importance of Industry 4.0 for the competitiveness of European
+manufacturing. According to the European Commission (2020d), the
+European Commission, the European Parliament and the European
+Council signed on November 11th 2020 the agreement on the MFF and
+on the “Next Generation EU” package. The total budget is €1.824,3
+trillion Euro. €100.000 million are allocated to the program to promote
+R&D and innovation, Horizon Europe (the successor of Horizon 2020).
+3.2. Comparison between the national industry 4.0 initiatives in the EU
+This section presents the main national Industry 4.0 and
+digitalization-related policies adopted by member countries. The study
+promoted by the European Parliament on Industry 4.0 (Smit et al., 2016)
+suggests that there are differences in the EU and in individual member
+countries on how the perceived role of Industry 4.0 initiatives. According to Majstorovic and Mitrovic (2019), Industry 4.0 policies in the
+EU tend to be encompassing strategies including R&D, innovation and
+industrial policies focused on manufacture.
+The digital transformation reports of EU countries available on the
+Digital Transformation Monitor webpage (European Commission,
+2021a) and the digital monitoring reports of EU countries authored by
+Valdani Vicari e Associati – Economis & Policy (VVA) e WIC Consult
+(European Commission, 2019) permitted to identify 28 initiatives
+launched by EU member countries with the aim of stimulating the
+digitalization of the economy. Among these, some are more focused on
+Industry 4.0 enabling technologies (like that of Germany) and some are
+less encompassing, more narrowly focused on ICT. Table 1 presents the
+28 above mentioned national strategies.
+Among the 28 reports about EU countries’ digitalization initiatives,
+some only refer isolated initiatives but not national programs to promote
+digitalization of industry – that is the case of Croatia, Bulgaria and
+Latvia. Although the Latvian National Industrial Policy Guideline
+2014–2020 is not a program of digitalization of industry, it aims to
+promote the digitalization of the economy. It aims to improve the
+participation of manufacturing in GDP growth; to increase productivity
+of the manufacturing sector and to increase investment in R&D. Bulgaria
+had a project for a national digitalization strategy, but the prevision was
+to execute it between 2020 and 2030, and an execution report is not yet
+available. Therefore, even if 28 initiatives were proposed, only 25 were
+effectively put into implementation (with the exception of the above
+mentioned initiatives of Croatia, Bulgaria and Latvia).
+According to Smit et al. (2016), besides Germany, other countries
+demonstrated consistent support to Industry 4.0 implementation – such
+as Austria, Belgium, Denmark, Finland, France, Italy, Netherlands,
+Portugal, Spain, Sweden and the UK. However, in some of these countries the approach was not as encompassing as in Germany, pioneer in
+Industry 4.0 which will be given more attention subsequently.
+Germany has one of the most competitive manufacturing industries
+in the world, being a reference supplier of equipment throughout all the
+supply chain. The use of ICT is relevant for the success of manufacturing
+industry - 90% of the production processes being supported by ICT.
+While some firms are introducing Industry 4.0 enabled technologies,
+others are already further ahead, being fully digitalized companies with
+new business models. Industrial policy formulation has to tackle this
+complexity and profound changes under way, with a systemic view on
+the introduction and on the impact of such new technologies (Kagermann, 2015).
+As already noted, the term Industry 4.0 was coined and spread by the
+German Government with its strategy to promote employment in high
+J.E. Teixeira and A.T.C.P. Tavares-Lehmann 
+Technological Forecasting & Social Change 180 (2022) 121664
+6
+tech industry (Lepore and Spigarelli, 2020). That is rooted in the work
+done since 2006 by the Ministry of Education and Research (BMBF), and
+of a consultative group (Industry-Science Research Alliance) which
+congregated experts from science and industry for the elaboration of an
+interministerial innovation policy (called High-Tech Strategy). In 2011,
+the German Government launched the Project of the Future by the group
+Alliance of Promoters of Communication of Research in
+Industry-Science, in collaboration with the National Academy of Science
+and Engineering (ACATECH). A working group Industry 4.0 was
+created, and presented the final report, supported by BMBF, in April
+2013 (GTAI, 2014).
+This report suggests that Germany, when implementing Industry 4.0,
+should take advantage of existing technologies and of their economic
+potential through a systematic innovation process, in synergy with the
+know-how, capabilities and workforce performance. Industry 4.0 should
+focus on the horizontal integration in the value chain, digital integration
+end to end of engineering in the value chain and vertical integration in
+manufacturing network systems (GTAI, 2014). The Industry 4.0 implementation strategy also requires regulation and setting parameters
+aiming to harmonize business processes. The strategy is dual: making
+Germany the market leader, and the leading supplier. At the same time
+that it increases the implementation of cyber-physical systems (CPS),
+increasing production, Germany can benefit from the development of
+CPS technology and become leader in the exports of machinery and
+equipment with such technologies embedded (Kagermann et al., 2013).
+The Action Plan High-Tech Strategy 2020 by the German Federal
+Government incentivized the launch of the Industrie 4.0 Platform in
+2013, articulating with industrial organizations such as BITKOM (digital
+industry), VDMA (manufacturing industry) and ZVEI (electronic industry). Industry 4.0 has been consolidating itself through multiple
+strategic policies and via the update and continuity of such policies,
+including the Digital Agenda launched in 2014. The Digital Agenda was
+centered in three axes: a) growth and employment; b) access and
+participation; and c) trust and security (Horst and Santiago, 2018).
+In 2015, the Industrie 4.0 Platform was broadened with the support
+of the Ministry of Economy and Energy and of the Ministry of Education
+and Research. The strategy consisted in involving various stakeholders,
+both private (entrepreneurial associations, trade unions, research organizations) and public. Until 2017, over 159 organizations were active
+in the Platform (European Commission, 2017).
+The actors involved in the Industrie 4.0 Platform emphasized the
+relevance of international cooperation. The German Ministry of Economy and the Industrie 4.0 Platform supported the European Commission
+to promote the implementation of Industry 4.0 in the EU. The challenges
+for the consolidation of Industry 4.0 cross borders, as digitalization of
+production also occurs across the value chain – hence, international
+cooperation is critical in the areas of standards and regulation (European Commission, 2017).
+The strategic focus of the German Government envisaged the need of
+a global harmonization of the Industry 4.0-related concepts – through
+SCI 4.0, supported from 2017 by the funding project GoGlobal Industrie
+4.0 of the German Federal Ministry of Economy and Energy (BMWi)
+(Federal Ministry Economics For Affairs And Energy, 2019). From that
+initiative resulted bilateral cooperation between the German Government and Japan, China, South Korea and the US. In Europe, cooperation
+to set standards and general patterns for Industry 4.0 representative
+Table 1
+National Strategies for Digital Transformation in the EU Member Countries.
+Country Policy/Program Year Entity Responsible
+Germany Industrie 4.0 2011 Ministry of Education and
+Research (BMBF) / Ministry
+of Economy and Energy
+(BMWI)
+United
+Kingdom
+High Value
+Manufacturing Catapult
+(HVMC)
+2011 Government
+Latvia National Industrial Policy
+Guidelines 2014–2020
+2012 Ministry of Economy / other
+Ministries (Ministry of
+Education and Science,
+Ministry of Environmental
+Protection and Regional
+Development)
+Belgium Made Different –
+Factories of the Future
+2013 Government and industrial
+stakeholders
+Sweden Smart Industry 2013 VINNOVA (Swedish
+Inovation Agency) and
+industrial stakeholders
+Ireland Doing more with Digital;
+Future Jobs Ireland 2019-
+Ireland’s Industry 4.0
+Strategy 2020–2025
+2013 Department of
+Communications, Climate
+Action and Environment
+(DCCAE).
+Austria Industrie 4.0 Oesterreich 2014 Ministry of Transport,
+Innovation and Energy
+Denmark Manufacturing Academy
+of Denmark (MADE)
+2014 MADE (Manufacturing
+Academy of Denmark)
+Netherlands Smart Industry 2014 Government and industrial
+stakeholders
+Estonia Digital Agenda 2020 2014 Government
+Malta Digital Malta Strategy 2014 Parliamentary Secretary of
+Financial Services, Digital
+Economy and Innovation
+(Prime Minister’s Office)
+France Alliance pour l’Industrie
+du Futur
+2015 Government
+Luxembourg Third Industrial
+Revolution strategy (TIR)
+2015 Government
+Finland Digitalisation,
+Experimentation and
+Deregulation (Public
+sector ICT).
+2015 Department of ICT, Ministry
+of Finance
+Cyprus Cyprus Digital Strategy –
+Action Plan 2015 - 2017.
+2015 Minist´erio do Transporte,
+Comunicaçoes ˜ e Trabalho.
+Croatia National Strategy and
+Action Plan for
+Cybersecurity (There is
+no national strategy for
+digitization)
+2015 National Security Office
+Romania Digital Agenda for
+Romania 2020
+2015 Ministry of Communications
+and Information Society
+Slovakia Smart Industry 2016 Ministry of Economy
+Spain Industria Conectada 4.0 2016 General Secretary of Industry
+Hungary IPAR4.0 National
+Technology Initiative
+2016 Ministry of Economy and
+Hungarian Academy of the
+Institute of Computing
+Sciences and Control (MTA
+SZTAKI)
+Lithuania Pramone ˙ 4.0 2016 Government
+Poland Initiative and Platform
+Industry 4.0
+2016 Ministry of Finance and
+Development
+Czech
+Republic
+Průmysl 4.0 2016 Ministry of Industry and
+Trade
+Slovenia Digital Coalition Slovenia
+2020
+2016 Government
+Greece National Digital Policy
+2016- 2021
+2016 Ministry of Digital Policy,
+Telecommunications and
+Media
+Italy Industria 4.0 2017 Minisry of Economic
+Development
+Portugal Indústria 4.0 2017 Ministry of Economy and
+COTEC (private
+entrepreneurial entity)
+Bulgaria Industry 4.0 / National
+Development Program
+2017
+Table 1 (continued )
+Country Policy/Program Year Entity Responsible
+Bulgaria 2030 /National
+Program Digital Bulgaria
+2025
+Ministry of Transport,
+Information Technology and
+Communication
+Source: Own elaboration based country reports, Digital Transformation Monitor
+(European Commission, 2021a) and from Monitoring Progress in National Initiatives on digitizing Industry (VVA & WIC Consult, 2019).
+J.E. Teixeira and A.T.C.P. Tavares-Lehmann 
+Technological Forecasting & Social Change 180 (2022) 121664
+7
+actions was fundamentally trilateral - between Germany, France and
+Italy (DIN and DKE, 2020).
+The target of EU countries’ policies in this domain is primarily the
+manufacturing sector. Among the 28 countries analyzed, 16 direct policies towards implementation focused on manufacturing (Table 2).
+However, with the stimulus to the adoption of emerging technologies
+facilitating Industry 4.0, the digitalized business models are an option
+for the remaining sectors of the economy (Majstorovic and Mitrovic,
+2019). Table 2 stresses the target stakeholders of such policy initiatives
+adopted in the EU.
+In Table 2 we can observe that the main target is manufacturing/
+industry stakeholders. Sectorally, ICT and digital solutions firms are also
+a very important target – which is corroborated by Majstorovic e
+Mitrovic (2019), who refer also policies directed to stimulate the
+adoption of IoT and CPS. Even if digitalization has been adopted first by
+large firms, SMEs, given their importance for all these countries, are a
+strategic target for countries such as Germany, Belgium, Denmark,
+France, Sweden, Portugal, Slovakia, Spain, Cyprus and Greece. The
+majority of country strategies aims at stimulating the private sector to
+implement digitalization measures. Luxembourg, Finland, Slovenia,
+Cyprus and Malta established measures strongly geared to the digitalization of the public sector. It can be observed that such policies have
+been formulated seeking to involve different stakeholders such as entrepreneurs, policy-makers, researchers, workers and civil society.
+Considering that not all EU countries display the same level of
+development of manufacturing industry, Industry 4.0-focused policies
+are also at different stages and paths (Smit et al., 2016). The results of
+the recent Digital Economy and Society Index (DESI), based in 2019
+data, show that EU leaders are Finland, Sweden, Denmark and the
+Netherlands, having as followers Malta, Ireland and Estonia (European
+Commission, 2020a). The countries that stand out as leaders (among the
+27 EU members) with more companies with advanced technologies
+facilitating Industry 4.0 are Germany, France, Spain and the
+Netherlands, (European Commission, 2021).
+In EU member countries, Majstorovic and Mitrovic (2019) note that
+Italy and Sweden have as strategic axis the delivery of last generation
+technologies. Germany and the Netherlands present a greater focus on
+the development of new products and on the improvement of industrial
+processes. Sectorally, the prevalent strategic focus in these countries is
+directed to IoT and CPS. Table 3 highlights the main strategic axes of
+Industry 4.0 policies in EU countries.
+Countries like Germany, Sweden, Czech Republic, Austria, Slovakia,
+France, Ireland, Cyprus and Romania also focused strategically on education. Among the main measures is the implementation of ICT in
+education, like measures stimulating the development of skills for a
+work environment undergoing digital transformation (Table 3 above).
+Fig. 3 below highlights some of the strategic areas of focus of national
+policies for implementation of Industry 4.0 in EU countries. We derived
+six groupings (clusters) of countries based on these areas of focus. One
+country may be represented in more than one cluster, if that territory’s
+government policies emphasize different focal areas for the implementation of Industry 4.0.
+From left to right, top to bottom, the results of this grouping are as
+follows:
+The first cluster has a focus on the deployment of ICT to create the
+infrastructure underlying the digitalization of the economy, and countries privileging that dimension are: Germany, Estonia, Finland, Greece,
+Lithuania, Luxembourg, Malta, Romania, Slovenia and The Netherlands.
+The second cluster has a focus on Research, Development and
+Innovation (RDI) related to Industry 4.0-based products and services,
+and comprise the following countries: Austria, Czech Republic,
+Denmark, Italy, Poland, Slovakia and the United Kingdom.
+The third cluster is centered on the implementation of emerging and
+facilitating technologies related to Industry 4.0, such as IoT, CPS, new
+materials, etc.; countries following this approach are: Belgium, Czech
+Republic, Denmark, France, Germany, Lithuania, Romania, Slovenia
+and Sweden.
+The fourth cluster has at its core the digitalization of SMEs, and
+comprises EU members like Belgium, Cyprus, Denmark, France, Germany, Greece, Slovenia, Poland, Portugal, Slovakia Spain and Sweden.
+The fifth cluster has an emphasis on education and professional
+training, in order to ensure that citizens are endowed with the right skills
+for the work environment implied by Industry 4.0. This cluster includes:
+Belgium, Czech Republic, Germany, Ireland, Italy, Slovakia and Sweden.
+Finally, the sixth cluster has a focus on regulation and on standards
+for the technologies associated to Industry 4.0, comprising countries like
+Austria, Finland, Poland and Sweden.
+Table 4. below highlights the types of policy process approach (top
+down, bottom-up) and the main funding approach. As can be observed,
+most policies are bottom up. Such strategies tend to encompass a holistic
+approach, involving often public-private collaboration, the following
+Table shows.
+Among the EU countries, only Slovenia has a policy framework led
+essentially by private initiative. Other countries, such as France, Germany, Austria, Belgium, Denmark, Spain, Luxembourg, Portugal,
+Poland, the Netherlands, Sweden, Romania and the UK involved several
+actors on the elaboration of such strategies, and include a mix of public
+and private investments and funding sources (Table 4). The main budgets projected for the execution of digitalization-related policies and
+projects are those of France, Italy, UK, Finland and Poland (European
+Commission, 2021a). National strategies predominantly relying on
+public funds are those of Slovakia, Hungary, Italy, Lithuania, Estonia,
+Ireland, Cyprus, Malta, Spain, Finland and the Czech Republic)
+(Table 4). The main national policies depend significantly on public
+Table 2
+Target Stakeholders of Industry 4.0 Policies in EU Countries.
+J.E. Teixeira and A.T.C.P. Tavares-Lehmann 
+Technological Forecasting & Social Change 180 (2022) 121664
+8
+Table 3
+Main Axes of Industry 4.0 Policies in EU Countries.
+Country Strategic areas
+Austria Six thematic working groups: (1) Norms and standards; (2) Research, development and innovation; (3) Qualification and skills for Industry 4.0; (4) Regional strategies; (5) The human in the digital factory; (6) Smart logistics.
+Belgium Emphasis is put on reducing production costs by, inter alia, digitizing operational processes, further integrating cyber-physical systems as well as by upskilling the workforce and lowering energy consumption.
+Cyprus A holistic strategy, including ICT infrastructure, digitization of the public sector, and enhancement of digital skills (e-skills), development of the digital entrepreneurship
+Czech Republic The focus is on building data and communication infrastructure, the adaptation of the education system, introduction of new tools in the labor market, adaptation
+of the social environment and fiscal help for the companies related to the introduction of new technologies and know how.
+Denmark The general focus is on companies, universities and organisations seeking to advance their capabilities and strengthen the Danish manufacturing ecosystem. MADE’s research and innovation themes are focused on developing
+and implementing advanced manufacturing and Industry 4.0 solutions in the Danish manufacturing sector.
+Estonia To create an environment that facilitates the use of ICT and the development of smart solutions in enterprises in general.
+Finland Focus on ICT. Digitalisation of public services. With the help of new operating practices, public services will become user-oriented and primarily digital. Principles for the digitalisation of all public services will also be
+established and a one-stop-shop service system and information management legislation will be developed.
+France IdF’s is structured around five pillars: technological offerings, business transformation, training, international cooperation and IdF promotion. A focus on new and emerging technologies, such as additive manufacturing, IoT,
+new materials, high-performance computing, smart objects and artificial intelligence.
+Germany Digital innovation and ICT market; transformation of business models and product/service delivery, R&D on IoT and system integration; education and vocational training and the changing nature of workplaces in the ICT
+environment;
+Greece Focusing on seven areas, two of which relate to digitizing economy and industry (Area 2: Accelerating the digitization of the economy, Area 3: Promoting the ICT
+industry in order to develop digital economy and employment).
+Hungary The initiative is based on the recent strategy for reindustrialization of Hungary of the Ministry for National Economy. Implementation of the knowledge-economy elements of sectoral industrial strategies.
+Italy Take full advantage of opportunities related to the fourth industrial revolution, promoting investments in innovation, intangible assets and R&D, spreading the culture related to “Industry 4.0′′ and developing skills.
+Ireland The strategy set out a vision and a number of practical actions and steps to encourage and assist more citizens and small businesses to get online. Phase 1 focused on Business & Enterprise, Citizen Training and Schools &
+Education.
+Lithuania Digitization of industry, new technologies and standardization in key strategic sectors of the Lithuanian economy. Re-industrialize the economy; creation of public-private partnerships is essential; emphasis on the
+involvement of key stakeholders is crucial.
+Luxembourg The cross-functional participation was organized across nine working groups, comprised of six sector specific vertical pillars covering energy, mobility, buildings, food,
+industry and finance, and three horizontal axes addressing economy wide considerations known as the Smart Economy, the Circular Economy and the Prosumers and Social Model.
+Malta The drivers of Malta’s digital strategy are the level of Connectivity and the Use of Internet Services by citizens. Focus in ICT.
+Netherlands Focus on high-tech industry, chemical, agro food and logistic sectors.
+Poland Investment for innovation and R&D will be addressed by means of new business models, an amenable legal environment for the establishment of new companies,
+and a review of legislation governing research institutes. Raising awareness, competence building, infrastructure development, SME support, actions focused across multiple industrial sectors (e.g. manufacturing sector or
+technology supplier).
+Portugal Industry 4.0 supports the development of skills, new methods and digital applications in 6 strategic pillars: human capital qualification; technological cooperation; start-up i4.0; financing and investment incentive;
+internationalization; and standards and regulation.
+Romania eGovernment, Interoperability, Cyber Security, Cloud Computing, Open Data, Big Data and Social Media, ICT in education, health, culture and eInclusion, eCommerce, Broadband and Digital Services Infrastructure.
+Slovakia Improving awareness and cooperation; R&D activities; Factories of the Future, access to finance; labor market, education and skills; legislative framework adjustments encouraging innovation.
+Slovenia This strategy lays down Slovenia’s key strategic development goals in this area and merges the Next-Generation Broadband Network Development Plan until 2020 and the Cyber Security Strategy into a unified strategic
+framework.
+Spain Focus on supporting the implementation of digital transformation projects by providing support to SMEs and micro enterprises. Industrial sector.
+Sweden P2030 concentrates on a variety of focus areas: it seeks to support the uptake of innovative technology and advanced manufacturing practices in businesses and to improve production education.
+United
+Kingdom
+Enabling innovation, commercialization and focused across multiple industrial sectors and 27 key technology areas.
+Source: Own elaboration based country reports, Digital Transformation Monitor (European Commission, 2021a) and from Monitoring Progress in National Initiatives on digitizing Industry (VVA & WIC Consult, 2019).
+J.E. Teixeira and A.T.C.P. Tavares-Lehmann 
+Technological Forecasting & Social Change 180 (2022) 121664
+9
+funding. The total budget for all countries, for the period 2014–2019,
+was 34.000 million Euro (Majstorovic and Mitrovic, 2019).
+The existing EU programs for the digitalization of the economy seek
+to establish synergies between the instruments and funds of different
+policies and programs – like Horizon 2020 (now named Horizon
+Europe), Connecting Europe Facility, Creative Europe Program
+(including Media), InvestEU Fund, COSME, Single Market Program,
+European Regional Development Fund-ERDF, European Social Fund
+Plus (including Youth Employment Initiative), European Agricultural
+Fund for Rural Development-EAFRD, Erasmus, European globalization
+Adjustment Fund, Integrated Border Management Fund, Internal Security Fund, Action for the Environment and Climate (including Energy
+Efficiency) and European Maritime and Fisheries Fund (European
+Commission, 2018c).
+The perception by EU member countries of Industry 4.0 policies is
+that the approach should be broader, including taking into account social change and new entrepreneurial paradigms developed under the
+introduction of new, Industry 4.0-related - technologies. Moreover, as
+Industry 4.0 affects potentially all the value chain, firms that own subsidiaries in different EU countries may compensate in their value chains
+the distinct stages of implementation and advances in Industry 4.0-
+related technologies. On the other hand, the change in paradigm in
+the realm of the workforce makes essential to reflect on how more integrated policies may contribute to the education and training of the
+workforce in EU countries (Smit et al., 2016).
+4. Final considerations and future research directions
+The possibility of a reindustrialization of EU countries (emphasized
+in the new EU funds package) has focused the attention of policy-makers
+and relevant stakeholders on the need to create conditions for the
+implementation of Industry 4.0, given the relevance that the
+manufacturing industry has in these economies. Germany assumed the
+leadership on Industry 4.0, being the pioneer in this regard by ensuring a
+convergence between the public and private interests to design and
+promote a technological framework that would not only place EU
+manufacturing industry on the top of global competitiveness, but also
+other economic and productive sectors. On the other hand, the EU also
+presented quickly after policies framing the new concepts of digitalization of the economy and that, more critically, would adapt policies
+and Structural Funds to the needs of a new competitive framework that
+EU member countries were demanding.
+Fig. 3. Clusters of focus strategy.
+Table 4
+Approaches for the Implementation of Policies and Main Origin of Funding.
+J.E. Teixeira and A.T.C.P. Tavares-Lehmann 
+Technological Forecasting & Social Change 180 (2022) 121664
+10
+Among the key policies aligning efforts to meet the needs of the
+implementation of Industry 4.0, are the EU Strategy for Smart Specialization (S3) and the digitizing European Industry Initiative. The
+formulation of plans and strategies for the implementation of Industry
+4.0 in the EU relies on concepts already incorporated in innovation
+models, such as National Innovation Systems (Lundvall, 1992) and
+Triple Helix (Etzkowitz and Leydesdorff, 2000).
+The role of the State in the induction for the elaboration and
+implementation of Industry 4.0 strategies must be emphasized, as well
+as in public funding for the execution of such programs; yet, the majority
+involves both public and private investment. It is expected that the
+process of technological upgrade will spill over to all sectors. However,
+manufacturing has been at the top of priorities of most national programs. Even if large corporations are at the forefront of Industry 4.0,
+many EU countries adopted specific measures to support SMEs in this
+process.
+Nevertheless, this is a process not only implying the technological
+reconversion and deployment of advanced technologies, mentioned in
+this paper, but also a paradigm shift altering the behavior both of supply
+and demand, and productive factors such as technology, capital and,
+very specifically, labor. In order to enable and implement successfully
+digitalization, the upskilling and reskilling of the European workforce is
+a critical factor. However, such policies, even if successfully implemented, take considerable time to generate impact and to spill over
+throughout the economy and society.
+In synthesis, the contribution of this paper consisted of:
+a) Identifying supranational EU policies geared to implement measures
+to strengthen the Industry 4.0 pillars aiming at the technological
+reconversion of the productive system;
+b) Identifying national policy initiatives in the EU aiming at promoting
+digitalization;
+c) Analyzing and comparing such supranational and national policies.
+In terms of new research directions, the COVID-19 pandemic created
+new global demands, creating new challenges for companies, especially
+in the short term. Moreover, the closing of borders as a prophylactic
+measure reinforces the idea of producing more near – i.e. emphasizing
+more regional value chains, which can be promoted by Industry 4.0.
+Even though there was a sudden drop in consumption and income,
+which will certainly reflect on the rhythm of implementation of Industry
+4.0, on the other hand, the implementation of Industry 4.0 is becoming a
+greater and imminent need. Such new demands and challenges, linked
+to locating production closer to customers, embracing more sustainable
+business practices, among other, are very compatible and linked to Industry 4.0. There is, thus, a need for further research relating the impacts
+of the pandemic on the implementation of Industry 4.0, and on global
+value chains. Further, as noted above, there is a need for studies aiming
+to analyze and evaluate the investments projected and effectively undertaken related to public and private policies aimed at the implementation of Industry 4.0. Research is also needed on the outcomes of
+the policies analysed, this requiring a wider chronological horizon as
+most policies are quite recent.
+Last but not least, and even if in many countries the implementation
+of Industry 4.0 is still in an incipient stage, the new orientation encapsulated in the European Commission initiative “Industry 5.0′′ (European
+Commission, 2021b) needs to be taken on board as soon as possible. This
+means focusing on a more sustainable and resilient and human-centric
+perspective of the industry. This means stimulating a better interaction and improved collaborative solutions between humans and technology, the provision of greener solutions, and more synergetic
+factories, taking advantage of the human capital and augmenting it with
+the latest collaborative technologies. Authors such as Maddikunta et al.
+(2021) and Romero and Stahre (2021) are already addressing these
+cutting-edge topics.
+CRediT authorship contribution statement
+Joselia ´ Elvira Teixeira: Conceptualization, Methodology, Validation, Formal analysis, Writing – original draft, Writing – review &
+editing. Ana Teresa C.P. Tavares-Lehmann: Conceptualization,
+Methodology, Validation, Formal analysis, Writing – original draft,
+Writing – review & editing.
+Conflicts of interest
+The Authors declare that there are no conflicts of interest.
+Acknowledgments
+This research has been financed by Portuguese public funds through
+FCT - Fundaç˜
+ao para a Ciˆencia e a Tecnologia, I.P., in the framework of
+the project with reference UIDB/04105/2020.
+References
+Agostini, L., Nosella, A., 2019. The adoption of Industry 4.0 technologies in SMEs: results
+of an international study. Manag. Decis. 58 (4), 625–643. https://doi.org/10.1108/
+md-09-2018-0973.
+Atik, H., Unlu, F., 2020. Industry 4.0-related digital divide in enterprises: an analysis for
+the European union-28. Sosyoekonomi 28 (45), 225–244. Doi:10.17233/
+sosyoekonomi.2020.03.13.
+Bigerna, S., Micheli, S., Polinori, P., 2021. New generation acceptability towards
+durability and repairability of products: circular economy in the era of the 4th
+industrial revolution. Technol. Forecast. Soc. Change 165, 120558. https://doi.org/
+10.1016/j.techfore.2020.120558.
+Brous, P., Janssen, M., Herder, P., 2020. The dual effects of the Internet of Things (IoT): a
+systematic review of the benefits and risks of IoT adoption by organizations. Int. J.
+Inf. Manage. 51, 101952 https://doi.org/10.1016/j.ijinfomgt.2019.05.008.
+Buchi, G., Cugno, M., Castagnoli, R., 2020. Smart factory performance and Industry 4.0.
+Technol. Forecast. Soc. Change 150, 10. https://doi.org/10.1016/j.
+techfore.2019.119790.
+Cai, Y., 2020. Innovation in innovation’: a review of Henry Etzkowitz and Chunyan
+Zhou, The Triple Helix: university–industry–government innovation and
+entrepreneurship (Second Edition). Minerva 58 (4), 651–656. https://doi.org/
+10.1007/s11024-020-09418-1.
+Castelo-Branco, I., Cruz-Jesus, F., Oliveira, T., 2019. Assessing Industry 4.0 readiness in
+manufacturing: evidence for the European Union. Comput. Ind. 107, 2232. https://
+doi.org/10.1016/j.compind.2019.01.007.
+Ciffolilli, A., Muscio, A., 2018. Industry 4.0: national and regional comparative
+advantages in key enabling technologies. Eur. Plan. Stud. 26 (12), 2323–2343.
+https://doi.org/10.1080/09654313.2018.1529145.
+DIN e V & DKE - Deutsche Kommission Elektrotechnik (2020). DIN and DKE ROADMAP
+German standardization roadmap industrie 4.0. standardization council industry
+4.0. version 4, Germany, pp.138. [Retrieved 25 nov. 2021] from: < https://www.
+plattform-i40.de/PI40/Navigation/EN/Home/home.html >.
+Dwivedi, A., Moktadir, M.A., Chiappetta Jabbour, C.J., De Carvalho, D.E., 2021.
+Integrating the circular economy and industry 4.0 for sustainable development:
+implications for responsible footwear production in a big data-driven world.
+Technol. Forecast. Soc. Change, 121335. https://doi.org/10.1016/j.
+techfore.2021.121335.
+Etzkowitz, H., Leydesdorff, L., 2000. The dynamics of innovation: from national systems
+and “Mode 2” to a Triple Helix of university–industry–government relations. Res.
+Policy 29 (2), 109–123. https://doi.org/10.1016/s0048-7333(99)00055-4.
+European Commission (2017). Shaping Europe’s digital future: implementation of an
+industry 4.0 Strategy - The German Plattform Industrie 4.0. [Acesso 25 nov. 2020].
+Disponível em: < https://ec.europa.eu/digital-single-market/en/blog/implementati
+on-industry-40-strategy-german-plattform-industrie-40 >.
+European Commission (2018). Shaping Europe’s digital future: the fourth industrial
+revolution. [Retrieved 25 nov. 2020]. from: < https://ec.europa.eu/digital-single
+-market/en/fourth-industrial-revolution >.
+European Commission (2018a). Shaping Europe’s digital future: POLICY - coordination
+of European, national & regional initiatives. [Retrieved 25 nov. 2020]. from: <
+https://ec.europa.eu/digital-single-market/en/coordination-european-nationalregional-initiative >.
+European Commission (2018b). Shaping Europe’s digital future. POLICY- Pillars of the
+Digitising European industry initiative. [Retrieved 10 jan. 2021]. from: < https://ec.
+europa.eu/digital-single-market/en/pillars-digitising-european-industry-initiative
+>.
+European Commission (2018c). Proposal for a regulayion of the European Parliament
+and of the council establishing the digital Europe programme for the period 2021-
+2027. Brussels. [Retrieved 13 jan. 2021]. from: < https://eur-lex.europa.eu/legal
+-content/EN/TXT/?uri=COM:2018:434:FIN>.
+European Commission (2019). Workshop on monitoring progress of national initiatives
+on digitizing industry. [Retrieved 30 jan. 2021 from: < https://ec.europa.eu/digitalJ.E. Teixeira and A.T.C.P. Tavares-Lehmann 
+Technological Forecasting & Social Change 180 (2022) 121664
+11
+single-market/en/news/workshop-monitoring-progress-national-initiatives-digiti
+sing-industry ≥.
+European Commission (2020). Digital Innovation Hubs. [Retrieved 10 jan. 2021]. from:
+<https://s3platform.jrc.ec.europa.eu/digital-innovation-hubs>.
+European Commission (2020a). Digital economy and society index (DESI) 2020.
+Thematic chapters. [Retrieved 25 jan. 2021] from: < https://ec.europa.eu/digi
+tal-single-market/en/digital-economy-and-society-index-desi >.
+European Commission (2020b). S3 tools and data sources. [Retrieved 16 jan. 2021].
+from: < https://s3platform.jrc.ec.europa.eu/s3-tools >.
+European Commission (2020c). Smart specialization platform. [Retrieved 16 jan. 2021].
+from: < https://s3platform.jrc.ec.europa.eu/ >.
+European Commission (2020d). EU’s next long-term budget & NextGenerationEU: facts
+and figures. [Retrieved 25 nov. 2020] from: < https://ec.europa.eu/info/sites/info/
+files/about_the_european_commission/eu_budget/mff_factsheet_agreement_en_12.
+11_v3.pdf ≥.
+European Commission (2020e). Shaping the digital transformation in Europe. Final
+report. DOI: 10.2759/294260 [Retrieved 25 jan. 2021] from < file:///C:/Users/
+Usuario/Downloads/
+FinalreportofthestudyShapingthedigitaltransformationinEuropepdf%20(1).pdf>.
+European Commission (2021). Data dashboard. [Retrieved 25 jan. 2021] from: < htt
+ps://ati.ec.europa.eu/data-dashboard/country >.
+European Commission (2021a). Digital transformation Monitor. [Retrieved 25 jan.
+2021]. from: https://ec.europa.eu/growth/tools-databases/dem/monitor/cate
+gory/national-initiatives.
+European Commission (2021b). Industry 5.0: towards more sustainable, resilient and
+human-centric industry. [Retrieved 13 jan. 2022] from: < https://ec.europa.eu/in
+fo/news/industry-50-towards-more-sustainable-resilient-and-human-centric-indust
+ry-2021-jan-07_en >.
+Executive Office of the President National Science, Technology Council USA (2012). A
+national strategic plan for advanced manufacturing. United States of America.
+[Retrieved 25 nov. 2020] from: < https://www.energy.gov/sites/prod/files/2013/
+11/f4/nstc_feb2012.pdf >.
+Federal Ministry Economics For Affairs And Energy (2019). Industrie 4.0. Germany.
+[Retrieved 16 nov. 2020] from: < https://www.bmwi.de/Redaktion/EN/Dossier/in
+dustrie-40.html >.
+Ferreira, F., Putnik, G.D., Lopes, N., Garcia, W., Cruz-Cunha, M.M., Castro, H., Varela, M.
+L.R., Moura, J.M., Shaha, V., Alves, C., et al., 2018. Disruptive data visualization
+towards zero-defects diagnostics. Procedia CIRP 67, 374–379, 2018.
+Flor´en, H., Barth, H., Gullbrand, J., Holm´en, M., 2021. Additive manufacturing
+technologies and business models – a systematic literature review. J. Manuf.
+Technol. Manag. 32 (1), 136–155. https://doi.org/10.1108/JMTM-01-2020-0009.
+Fonseca, L., Amaral, A., Oliveira, J., 2021. Quality 4.0: the EFQM 2020 model and
+industry 4.0 relationships and implications. Sustainability 13 (6), 3107. https://doi.
+org/10.3390/su13063107.
+Foray, D., Goddard, J., Beldarrain, X.G., Landabaso, M., McCann, P., Morgan, K.,
+Nauwelaers, C., Ortega-Argil´es, R., 2012. Guide to research and innovation strategies
+for smart specialisations (RIS 3). European Commission [Retrieved 25 nov. 2020]
+from: <. https://ec.europa.eu/regional_policy/sources/docgener/presenta/smart_sp
+ecialisation/smart_ris3_2012.pdf. >.
+Ford, S., Despeisse, M., 2016. Additive manufacturing and sustainability: an exploratory
+study of the advantages and challenges. J. Clean. Prod. 137, 1573–1587. https://doi.
+org/10.1016/j.jclepro.2016.04.150.
+Fuchs, C., 2018. Industry 4.0: the digital German ideology. triple C: communication.
+Capitalism & Critique. Open Access Journal for a Global Sustainable Information
+Society 16 (1), 280–289. https://doi.org/10.31269/triplec.v16i1.1010.
+GTAI-Germany Trade & Investments (2014). Industrie 4.0: smart manufacturing for the
+future. [Retrieved 16 nov. 2020]. from:<
+http://file:///C:/Users/Usuario/Downloads/GTAI%20-%
+20industrie4.0-smart-manufacturing-for-the-future-en%20(1).pdf >.
+Hervas-Oliver, J.-.L., Gonzalez-Alcaide, G., Rojas-Alvarado, R., & Monto-Mompo, S.
+(2020). Emerging regional innovation policies for industry 4.0: analyzing the digital
+innovation hub program in European regions. Competitiveness Review: an
+International Business Journal, ahead-of-print(ahead-of-print). doi:10.1108/cr-12-
+2019-0159.
+Horst, J., Santiago, F., 2018. What Can Policymakers Learn from Germany’s Industrie 4.0
+Development strategy? United Nations Industrial Development Organization.
+Working paper 22.
+Horv´
+ath, D., Szabo, ´ R.Z., 2019. Driving forces and barriers of Industry 4.0: do
+multinational and small and medium-sized companies have equal opportunities?
+Technol. Forecast. Soc. Change 146, 119‑132. https://doi.org/10.1016/j.
+techfore.2019.05.021.
+Hoyer, C., Gunawan, I., Reaiche, C.H., 2020. The implementation of industry 4.0-a
+systematic literature review of the key factors. Syst. Res. Behav. Sci. 37 (4), 557–578.
+https://doi.org/10.1002/sres.2701.
+Jabbour, A.B.L.D.S., Jabbour, C.J.C., Foropon, C., Filho, M.G., 2018a. When titans meet –
+can industry 4.0 revolutionise the environmentally-sustainable manufacturing
+wave? The role of critical success factors. Technol. Forecast. Soc. Change 132,
+18–25. doi.org/10.1016/j.techfore.2018.01.017.
+Jabbour, A.B.L.D.S., Jabbour, C.J.C., Filho, M.G., Roubaud, D., 2018b. Industry 4.0 and
+the circular economy: a proposed research agenda and original roadmap for
+sustainable operations. Ann. Oper. Res. 270 (1–2), 273–286. https://doi.org/
+10.1007/s10479-018-2772-8.
+Kagermann, H., Wahlster, W., Helbig, J. (2013). Recommendations for implementing the
+strategic initiative Industrie 4.0, Securing the future of German manufacturing
+industry, Final report of the Industrie 4.0 Working Group, Acatech - National
+Academy of Science and Engineering. [Retrieved 29 nov. 2020] from: < https://
+www.din.de/blob/76902/e8cac883f42bf28536e7e8165993f1fd/recommendationsfor-implementing-industry-4-0-data.pdf >.
+Kagermann, H., 2015. Change through digitization—value creation in the age of industry
+4.0. In: Albach, H., Meffert, H., Pinkwart, A., Reichwald, R. (Eds.), Management of
+Permanent Change. Springer Gabler, Wiesbaden. https://doi.org/10.1007/978-3-
+658-05014-6_2.
+Kiel, D., Müller, J.M., Arnold, C., Voigt, K.I., 2017. Sustainable industrial value creation:
+benefits and challenges of industry 4.0. Int. J. Innov. Manag. 21 (8), 1740015
+https://doi.org/10.1142/s1363919617400151.
+Kosacka-Olejnik, M., Pitakaso, R., 2019. Industry 4.0: state of the art and research
+implications. Logforum 15 (4), 475–485. https://doi.org/10.17270/j.Log.2019.363.
+Lee, J., 2015. Smart factory systems. Informatik-Spektrum 38 (3), 230–235. https://doi.
+org/10.1007/s00287-015-0891-z.
+Lepore, D., Spigarelli, F., 2020. Integrating Industry 4.0 plans into regional innovation
+strategies. Local Econ. 15. https://doi.org/10.1177/0269094220937452.
+Liao, Y., Deschamps, F., Loures, E.D.F.R., Ramos, L.F.P., 2017. Past, present and future of
+Industry 4.0 - a systematic literature review and research agenda proposal. Int. J.
+Prod. Res. 55 (12), 3609–3629. https://doi.org/10.1080/00207543.2017.1308576.
+Linde, L., Sjodin, ¨ D., Parida, V., Gebauer, H., 2020. Evaluation of digital business model
+opportunities: a framework for avoiding digitalization traps. Res. Technol. Manag.
+64 (1), 43–53. https://doi.org/10.1080/08956308.2021.1842664.
+Lu, Y., 2017. Industry 4.0: a survey on technologies, applications and open research
+issues. J. Ind. Inf. Integr. 6, 1–10. https://doi.org/10.1016/j.jii.2017.04.005.
+Lundvall, B.-.A., 1992. National Systems of Innovation: Towards a Theory of Innovation
+and Interactive Learning. Pinter, London.
+Luthra, S., Mangla, S.K., 2018. Evaluating challenges to Industry 4.0 initiatives for supply
+chain sustainability in emerging economies. Process Saf. Environ. Prot. 117, 168179
+https://doi.org/10.1016/j.psep.2018.04.018.
+Maddikunta, P.K.R., Pham, Q.-.V., B, P., Deepa, N., Dev, K., Gadekallu, T.R., Liyanage, M,
+2021. Industry 5.0: a survey on enabling technologies and potential applications.
+J. Ind. Inf. Integr., 100257 https://doi.org/10.1016/j.jii.2021.100257.
+Madsen, D.O., 2019. The Emergence and Rise of Industry 4.0 Viewed through the Lens of
+Management Fashion Theory. Adm. Sci. 9 (3), 25. https://doi.org/10.3390/
+admsci9030071.
+Majstorovic, V.D., Mitrovic, R., 2019. Industry 4.0 Programs Worldwide. Springer
+International Publishing, pp. 78–79. https://doi.org/10.1007/978-3-030-18180-2_7.
+Marcucci, G., Antomarioni, S., Ciarapica, F.-.E., Bevilacqua, M., 2021. The impact of
+Operations and IT-related Industry 4.0 key technologies on organizational resilience.
+Prod. Plan. Control. https://doi.org/10.1080/09537287.2021.1874702.
+Mariani, M., Borghi, M., 2019. Industry 4.0: a bibliometric review of its managerial
+intellectual structure and potential evolution in the service industries. Technol.
+Forecast. Soc. Change 149, 119752. https://doi.org/10.1016/j.
+techfore.2019.119752.
+Ministry of Transport, Information, Technology and Communications (2021). Digital
+transformation of Bulgaria for the period 2020-2030. [Retrieved 28 jan. 2021] from:
+< https://www.mtitc.government.bg/sites/default/files/digital_transformation_of_
+bulgaria_for_the_period_2020-2030_f.pdf >.
+Morrar, R., Arman, H., Mousa, S., 2017. The 4th industrial revolution (Industry 4.0): a
+social innovation perspective. Technol. Innov. Manag. Rev. 7 (11), 12–20. https://
+doi.org/10.22215/timreview/1117.
+Müller, J.M., Buliga, O., Voigt, K.I., 2018. Fortune favors the prepared: how SMEs
+approach business model innovations in Industry 4.0. Technol. Forecast. Soc. Change
+132, 2–17. https://doi.org/10.1016/j.techfore.2017.12.019.
+Nazarov, D., Klarin, A., 2020. Taxonomy of Industry 4.0 research: mapping scholarship
+and industry insights. Syst. Res. Behav. Sci. 37 (4), 535–556. https://doi.org/
+10.1002/sres.2700.
+Oesterreich, T.D., Teuteberg, F., 2016. Understanding the implications of digitisation and
+automation in the context of Industry 4.0: a triangulation approach and elements of
+a research agenda for the construction industry. Comput. Ind. 83, 121–139. https://
+doi.org/10.1016/j.compind.2016.09.006.
+Ol´
+ah, J., Aburumman, N., Popp, J., Khan, M.A., Haddad, H., Kitukutha, N., 2020. Impact
+of industry 4.0 on environmental. Sustainability. Sustainability 12 (11), 4674.
+https://doi.org/10.3390/su12114674.
+Park, Y.-.T., 2000. National systems of Advanced Manufacturing Technology (AMT):
+hierarchical classification scheme and policy formulation process. Technovation 20
+(3), 151–159. https://doi.org/10.1016/s0166-4972(99)00103-0.
+Reischauer, G., 2018. Industry 4.0 as policy-driven discourse to institutionalize
+innovation systems in manufacturing. Technol. Forecast. Soc. Change 132, 26–33.
+https://doi.org/10.1016/j.techfore.2018.02.012.
+Rejikumar, G., Raja, S.V., Arunprasad, P., Jinil, P.l., Sreeraj, K.M., 2019. Industry 4.0:
+key findings and analysis from the literature arena. Benchmarking: Int. J. 26 (8),
+2514–2542. https://doi.org/10.1108/bij-09-2018-0281.
+Romero, D., Stahre, J., 2021. Towards the resilient operator 5.0: the future of work in
+smart resilient manufacturing systems. Procedia CIRP 104, 1089‑1094. https://doi.
+org/10.1016/j.procir.2021.11.183.
+Sanders, A., Elangeswaran, C., Wulfsberg, J., 2016. Industry 4.0 implies lean
+manufacturing: research activities in industry 4.0 function as enablers for lean
+manufacturing. J. Ind. Eng. Manag. 9 (3), 811. https://doi.org/10.3926/jiem.1940.
+Slusarczyk, B., 2018. Industry 4.0 - Are you ready? Pol. J. Manag. Stud. 17 (1), 232–248.
+https://doi.org/10.17512/pjms.2018.17.1.19.
+Schwab, Klaus, 2016. The Fourth Industrial Revolution, 1 ed. World Economic Forum,
+New York.
+Smit, J., Kreutzer, S., Moeller, C., & Carlberg, M., 2016. Industry 4.0 a study for the
+European Parliament. [Retrieved 13 Jan. 2021] from: < http://www.europarl.eur
+opa.eu/studies >.
+J.E. Teixeira and A.T.C.P. Tavares-Lehmann 
+Technological Forecasting & Social Change 180 (2022) 121664
+12
+World Economic Forum, 2016. The future of jobs report: the future of jobs employment,
+skills and workforce strategy for the fourth industrial revolution. [Retrieved 09 dec.
+2021] from: < http://reports.weforum.org/future-of-jobs-2016/ >.
+Valdani Vicari e Associati – Economis & Policy (VVA); & WIC Consult, 2019. Monitoring
+progress in national initiatives on digitising industry - Country Report. [Retrieved 05
+jan. 2021]. from: < https://ec.europa.eu/digital-single-market/en/news/workshopmonitoring-progress-national-initiatives-digitising-industry >.
+World Economic Forum (2018). Future of Jobs Report 2018. [Retrieved 09 dec. 2021]
+from:<http://www3.weforum.org/docs/WEF_Future_of_Jobs_2018.pdf >.
+Xu, L.D., 2020. The contribution of systems science to Industry 4.0. Syst. Res. Behav. Sci.
+37 (34), 618–631. https://doi.org/10.1002/sres.2705.
+Vacek, ´ J., 2017. On the road: From industry 4.0 to society 4.0. Trendy V
+Podnik´
+aníVolume 7 (4), 43–49.
+Zhang, C.M., Chen, Y., 2020. A review of relevant to the emerging industry trends:
+industry 4.0, IoT, blockchain, and business analytics. Journal of Industrial
+Integration and Management-Innovation and Entrepreneurship 51 (1), 165–180.
+https://doi.org/10.1142/s2424862219500192.
+J.E. Teixeira and A.T.C.P. Tavares-Lehmann 

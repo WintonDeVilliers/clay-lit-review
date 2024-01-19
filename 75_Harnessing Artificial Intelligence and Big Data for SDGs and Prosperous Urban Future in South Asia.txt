@@ -1,0 +1,691 @@
+Environmental and Sustainability Indicators 11 (2021) 100127
+Available online 3 June 2021
+2665-9727/© 2021 Published by Elsevier Inc. This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).
+Harnessing artificial intelligence and big data for SDGs and prosperous
+urban future in South Asia
+Md. Arfanuzzaman
+Food and Agriculture Organization of the United Nations, House # 37, Road #08, Dhanmondi R/A, Dhaka-1205, Bangladesh
+ARTICLE INFO
+Keywords:
+Artificial intelligence
+Big data
+Climate resilience
+Data infrastructure
+South Asia
+SDG
+Technological readiness
+Urban transformation
+ABSTRACT
+Artificial intelligence (AI) and big data solutions are currently being utilized to offer low cost and efficient solutions in solving pressing urban socio-economic and environmental problems globally. The study found big data
+and AI have the potentiality to solve the common urban problems in South Asia and upsurge the efficiency of
+urban industries, increase competitiveness and productivity of the human and natural resources, reduce the cost
+of urban service delivery, and build climate resilience. The study has assessed the current AI and big data initiatives and technologies in mitigating the urban development challenges and their potentiality for scaling up in
+South Asian cities. The study also examined the latest innovations in AI and big data solutions for SDG monitoring and implementation in South Asia and their implication for transformational change. The study suggested
+that South Asia can harness the maximum benefit of AI and big data technologies by building big data and
+associated IT infrastructure, advancing research and innovations with regional cooperation, enhancing technological readiness, and eliminating week enabling conditions.
+1. Introduction
+As a heart of the development activities cities are currently producing 80% of the global GDP, and emit 75% of energy-related greenhouse gas where 70% of city residents live with limited access to at least
+one fundamental service such as housing, water or electricity (WRI,
+2020). It is projected that by 2050, 70% of the world’s population is
+likely to live in the urban areas (UN, 2018a). It is also anticipated that by
+that time, 90 percent of population growth, 80 percent of the increase in
+wealth and approximately 60 percent of energy consumption will be fall
+in the urban areas of the globe which will leave sustainability, environmental protection and natural resource management challenges in
+the developing countries and emerging economies across the world (UN,
+2018b). Though evidence suggests that South Asia is among the rapidly
+rising regions in the world with robust economic growth, falling poverty
+rates, and progressed human development indicators, 40% of the
+world’s poor (399 million people) in the region are still breathing under
+$1.25 per day, living in hardcore poverty (Twining-Ward et al., 2020).
+Climate change-induced disasters such as flood, drought, coastal erosion
+affected nearly 1.7 billion people and caused $127 billion damage from
+1990 to 2017 in South Asia and approximately 800 million people in this
+region are at risk of deteriorating incomes due to climate stress (Mani
+et al., 2018). In addition, due to change in weather, living standards of
+more than 80 percent of the overall population could be adversely
+affected by 2050 (Mani et al., 2018).
+The urbanization in South Asia is considered as an engine of economic growth that supports rapid industrialization, SMEs, employment,
+migration, assorted socio-economic activities, and built up. The urbanization is increasing at an unprecedented speed and through enormous
+social and environmental challenges, such as social vulnerability,
+inequality, pollution, environmental degradation, food-water-energy
+insecurity for growing population, decreased quality of life (Ellis and
+Roberts, 2016). Urban environmental degradation, pollution, poverty,
+high population growth, inequality, poor water and sanitation system,
+deforestation, inappropriate land use, natural disaster, urban heat island
+effect are the common challenges of South Asian cities (Arfanuzzaman
+and Dahiya, 2019; Ellis and Roberts, 2016; Jacobs et al., 2019). In
+addition, South Asia is found to be one of the least economically integrated territories in the world where regional trade accounts only 5% of
+the overall trade (Kathuria, 2018). Due to high population pressure and
+built up, most of the South Asian cities are debasing their tree covers,
+open spaces, water sources, and clean air which significantly demean the
+quality of life of the dwellers. Artificial intelligence (AI) and sustainable
+big data innovation can provide low cost and efficient solutions in
+solving pressing urban environmental problems i.e resource conservation, sustainable consumption and production, energy efficiency,
+E-mail addresses: thisisarfan@gmail.com, md.uzzaman@fao.org.
+Contents lists available at ScienceDirect
+Environmental and Sustainability Indicators
+journal homepage: www.sciencedirect.com/journal/environmental-and-sustainability-indicators
+https://doi.org/10.1016/j.indic.2021.100127
+Received 7 November 2020; Received in revised form 26 April 2021; Accepted 28 May 2021 
+Environmental and Sustainability Indicators 11 (2021) 100127
+2
+ecosystems monitoring, environmental protection, and natural resource
+management in South Asia (Dubey et al., 2017; Graham and Shelton,
+2013; Dumbill, 2013). Besides, digital advances through AI and big data
+solution can help South Asian cities to upsurge the efficiency of its
+traditional industries, increase long-term competitiveness and productivity of the human and natural resources, build climate resilience,
+create decent job opportunities for the young population while helping it
+to develop newer cutting-edge technologies (Sun and Du, 2017; Keeso,
+2014; Mayer-Schonberger ¨ and Cukier, 2013).
+The 3rd Industrial Revolution (I3) ushered in the digital age, marked
+most distinctively perhaps by the proliferation of internet (subsequently,
+the internet of things-IOT), and the extensive utilization of information
+technology to mechanize the production. Currently, the world is at the
+edge of another momentum: a 4th Industrial Revolution (I4), an orderly
+transformation that is discrete in its velocity, opportunity, and systems
+impact, categorized by scientific and technological breakthroughs that
+are disturbing industries and blurring terrestrial borders. It is now
+widely accepted that the major driving force of the I4 Revolution is
+Artificial Intelligence (AI) or software engine supported by the big data
+revolution. Hence, it is very high time for South Asia to harness artificial
+intelligence and big data for urban planning and monitoring, environmental management, smart cities, precision agriculture and food production, socio-economic advancement, effective law and enforcement,
+urban sustainability, and carry out necessary investment on AI and big
+data innovation and associated capacity building. The overarching goal
+of this study is to review and assess the existing AI and big data technologies adopted in different parts of the world and evaluate their potentiality for scaling up in South Asian region. The study further
+examined the potentiality of big data and AI for tracking and monitoring
+the progress of urban related SDGs in South Asia. This contains immense
+importance where the region has relatively less capacity in effectively
+tracking and monitoring the SDG indicators. As technological readiness
+is considered as one of the major perquisites of AI and big data innovation and execution, the study evaluated the technological readiness
+indicators of the South Asian counties and provided evidence based
+suggestions for advancing of AI and big data solutions for prosperous
+urban future. The section 2 of the study systematically assessed the best
+practice AI and big data solutions and their potentiality for scaling up in
+South Asian region. The section 3 concentrated on the potentiality of big
+data and AI solution for urban related SDGs in South Asia and provided
+the real example for tracking the monitoring the advancement of SDG
+indicators. Finally, the section 4 scrutinized the technological readiness
+indicator in South Asia to better understand the overall readiness of this
+region in adopting AI and big data technologies in effective manner. The
+conclusion section of this study provided evidence based recommendation to advance the big data and AI-based sustainable development
+and inclusive growth in South Asian cities.
+2. Current progress on AI and big data and their potentiality for
+scaling up
+The world has made some remarkable progress on big data and AI
+technology in urban and regional development, environmental monitoring, industrial efficiency, early warning, and disaster preparedness,
+natural resource management and agriculture and food system. Nowadays, sensors for monitoring water quality variables (i.e. pH, dissolved
+oxygen, electrical conductivity, and turbidity), tracking crop and soil
+health and AI for predicting irrigation water requirement are commercially available (Illangasekare et al., 2018; Ellis and Roberts, 2016; Fu
+et al., 2016; Bandara et al., 2010). Satellite data can help to track urban
+green space, wetlands, and forests available across the country (Bibri,
+2019a; UN 2015a; Prandi et al., 2021). South Asian cities can adopt and
+upscale such solutions/approaches in addressing their own urban
+socio-economic and environmental challenges. Table 1 presented a
+concrete assessment of best practice AI and big data solutions with their
+methodology, benefits, and potentiality for scaling up in South Asian
+cities. It appears that some organizations including the United Nations
+(UN), Microsoft, World Resources Institute (WRI), and National Oceanic
+and Atmospheric Administration (NOAA) already invented, tested,
+executed and promoted some solutions to tackle a number of pressing
+urban and environmental issues of the world which has a large potential
+for scaling up in South Asian cities.
+It is evident in Table 1 that most of the AI and big data technologies
+have robust potentiality for scaling up in South Asian region with a view
+to eliminating crucial problems like environmental degradation, land
+use change, pollution, extreme weather events, and agriculture and food
+insecurity. However, some of the technologies have medium potentiality
+in solving the problems such as humanitarian crises, urban heat effects,
+inadequate early warning systems, limited disaster preparedness, and
+deforestation, more testing and development is required before scaling
+up. In addition, in the absence of integrated, cross-sectoral, inclusive and
+whole-of-government approach, big data innovation and urban governance will be hampered. It deserves special mention that data-driven
+smart urbanism, urban innovation, big data solutions and computing,
+and underpinning technologies create a number of potential privacy
+harms for several reasons such as i) Datafication, dataveillance and
+geosurveillance; ii) inferencing and predictive privacy harms; iii) anonymization and re-identification; iv) obfuscation and reduced control;
+and v) notice and consent is an empty exercise or is absent which require
+serious attention (Kitchin, 2016; Bibri, 2019c).
+During scaling up of big data solutions it is to be ensured that digital
+technologies does not deepen inequality, digital insecurity and opportunities and challenges of such technologies are largely responded at
+regional, national and local level.
+3. Prospects of AI and big data for SDG monitoring and
+implementation
+Big Data gathers data every second. Currently available technologies
+make it possible not just to obtain huge datasets, but also enables for
+variety. The exercise in capturing and storing the big data and adoption
+of AI have an impact on people’s wellbeing, global prosperity as well as
+attainment of SDGs (UN, 2015a; UN, 2015b). AI and big data solution
+can support to monitor people’s wellbeing, efficient use of urban forest,
+water body, and land, healthcare administration and planning (i.e.
+disease outbreak management and monitoring), contribute to the transition towards zero-emission future, reduce urban environmental
+degradation, promote equity, and ensure aim for public benefits via
+open data (Estoque, 2020; Bibri, 2019b; Pan et al., 2016; Kudva and Ye,
+2017). AI and big data can shed light on discrepancies in society and
+urban development in South Asia that were previously unrevealed and
+urban policy-makers are faced with distinct opportunities to develop,
+test, and advance big data practices related to sustainable development.
+For instance, policymakers and law enforcement agencies can take immediate action against the encroachment based on the satellite
+image-based encroachment tracking on public land and spaces in the
+urban areas. Although AI is in its initial phases of execution, it is poised
+to transform the way we manage and monitor urban issues. At the same
+time, AI is also restricting the industry’s ecological impact at a time
+when demand is progressively increasing, our goods production portfolio is diversifying, and we are observing the implications of fossil fuel
+consumption on biodiversity, air quality, and quality of life (Saheb and
+Saheb, 2020; Dubey et al., 2017; Saheb and Izadi, 2019). AI is improving
+the state of agriculture in both the developing and developed countries
+who currently have a head start. In the context of the SDGs, big data can
+be applied to explore everything from analyzing large volume of data
+collected by mobile phones, websites, apps, sensors, and satellites to
+predict individual poverty, inequality, social welfare, to understand
+gender gaps in urban mobility etc. Fig. 1 demonstrates how AI and big
+data can be utilized in SDG tracking and monitoring which gives a useful
+lesson to the South Asian cities to learn and adopt the modern technologies for prosperous urban future as well as accelerate urban
+Md. Arfanuzzaman 
+Environmental and Sustainability Indicators 11 (2021) 100127
+3
+Table 1
+Best practice AI and big data solution and their potentiality for scaling up.
+Initiative/approach Developer/
+Responsible
+organization
+Solution/benefit Technology/method used Potential
+for scaling
+up*
+Pulse Lab Jakarta (https://www.unglobalpulse.org/) UN Global Pulse,
+United Nations
+i. Identification of Potential
+Positive Deviants (PDs) across
+rice producing areas in
+Indonesia to capture the ecofriendly and high productive
+agricultural practices.
+Merging traditional statistical
+data with Earth Observation big
+data
+High
+MIND (Managing Information for Natural Disasters)
+(https://www.unglobalpulse.org/microsite/mind/)
+Pulse Lab Jakarta i. Support effective logistics
+planning and information
+management following natural
+disasters.
+ii. Stakeholders can get useful,
+accurate, and up to date data to
+carry out humanitarian
+assistance right after the
+disaster.
+The platform is built on an
+automated data pipeline,
+allowing it to stream and analyze
+several non-traditional data sets
+all in one place.
+Medium
+Improved early warning systems for natural hazards monitoring
+(https://opengeospatialdata.springeropen.com/articles/10
+.1186/s40965-016-0010-3)
+Ministry of
+Environment and
+Natural Resources of
+El Salvador
+i. Establish warning and
+management systems for
+natural hazards in El Salvador.
+ii. Disseminate hazard and early
+warning information to people
+in real-time through Mobile
+applications
+Using various spatial data (i.e.
+census data, agro-meteorological
+data, telemetry data, satellite
+imagery data), they produce an
+integrated and widespread
+system and a big database to
+manage and communicate
+information on the extreme
+weather events.
+Medium
+The Central Africa Regional Program for the Environment (htt
+ps://carpe.umd.edu/)
+USAID i. Prediction of future
+deforestation in the Democratic
+Republic of the Congo (DRC).
+It followed the spatial modeling
+approach to identify the most
+important drivers of forest loss
+and predict the likely location of
+future forest loss in DRC.
+Medium
+Aqueduct (https://www.wri.org/aqueduct) World Resources
+Institute (WRI)
+i. Map and analyze present and
+future water risks across regions
+and understand and identify
+associated water risks to
+agriculture and food security;
+and ii. Identify coastal and
+riverine flood risks, and analyze
+the costs and benefits of
+investing in flood protection.
+It’s a comprised of tools which
+integrates higher temporal and
+spatial resolution data,
+indicators, and a holistic
+hydrological model.
+High
+VADER (Visualization and Analytics of Distribution Systems with
+Deep Penetration of Distributed Energy Resources)
+(https://www.energy.gov/eere/solar/project-profile-visual
+ization-and-analytics-distribution-systems-deep-penetration)
+U.S. Department of
+Energy’s Office of
+Energy Efficiency
+and Renewable
+Energy
+i. VADER models electricity
+consumption and behavior of
+distributed energy resources
+such as rooftop or groundmount solar.
+ii. It enables real-time optimization and automation of distribution planning and operation
+decision for utilities.
+Based on machine learning and
+AI-based algorithms; it can model
+potential changes in connectivity
+and the behavior of Distributed
+Energy Resources on the grid.
+Medium
+Big Data for Social Good (https://www.gsma.com/betterfuture
+/aiforimpact)
+GSM Association i. It pulls cellular operators’ big
+data proficiencies to address
+humanitarian crises, including
+epidemics and natural disasters.
+Utilization of mobile operators’
+data
+Medium
+Digitization of healthcare (https://journalofbigdata.
+springeropen.
+com/articles/10.1186/s40537-019-0217-0#Sec39)
+Dash et al. (2019) i. Cost-effective and efficient
+disease treatment
+ii. Early warnings of disease
+conditions
+iii. Discovery of novel biomarkers
+and intelligent therapeutic
+intervention strategies
+Integration of bioinformatics,
+health informatics and analytics
+to provide personalized and more
+effective treatment and
+projection of epidemics
+Medium
+All of Us initiative (https://allofus.nih.gov/) National Institutes
+of Health
+i. Quickly assess patients medical
+history
+ii. Reduce errors in medication
+dose and frequency
+iii. Provide appropriate treatment
+in a shortest time
+Provide effective solution by
+collecting and analyzing medical
+imaging, socio-behavioral, and
+environmental data
+Medium
+IoT in healthcare (https://academic.oup.com/bib/artic
+le/18/1/105/2453255)
+Shameer et al.
+(2017)
+i. Predict patients’ health
+situation and his/her
+progression from subclinical to
+pathological state
+ii. Modelling the spread of a
+disease
+Health-tracking wearable
+devices, biosensors, clinical
+devices collect patients’ health
+data in every second and monitor
+their health status
+High
+Predictive road crash maps (https://www.wired.com/story/waze
+-data-help-predict-car-crashes-cut-response-time/;
+Advanced big data and predictive
+analytics systems can collect
+Medium
+(continued on next page)
+Md. Arfanuzzaman 
+Environmental and Sustainability Indicators 11 (2021) 100127
+4
+transformation. While the advent of urban big data and AI have the
+potential to foster SDG targets and indicators, studies suggested urban
+policy-makers to pinpoint the application of these innovations through
+the development of mayoral institutions for urban big data governance,
+progressing culture and common skill sets, strengthening capacity,
+enabling environment, and dedicated research and learning programs
+(Krishnamurthy et al., 2017; Kharrazi et al., 2016; Fluckiger and Seth,
+2016).
+4. The readiness of South Asia in adopting AI and big data
+technology
+Robust data infrastructure and technological readiness of South Asia
+are the major prerequisites of AI and big data solution against pressing
+urban issues. The readiness and the level of advantage depend on how
+much a country is performing in the technological readiness indicator
+(TRI) produced by the World Economic Forum (WEF). Table 2 presents
+the TRI trend of South Asian countries from 2008 to 2017.
+It appears that in 2017, Bangladesh and Nepal are performing very
+well in the TRI compared to their neighbors signifying a better position
+in adopting AI and big data solutions in addressing urban issues.
+Whereas, as TRI is found to be least in Bhutan and Sri Lanka, they are in
+a worse off situation in harnessing the advantage of AI and big data.
+Though Bangladesh and Nepal are holding relatively higher TRI score in
+South Asia in 2017, their TRI score has reduced by 4.76% and 8.5%
+respectively than in 2008. While Bhutan is receiving TRI since 2014, its
+performance is found to be unchanged. Though the TRI score of India
+and Sri Lanka is not much high in 2017, they have made 55% and
+29.27% progress compared to 2008. Though Pakistan has made 11%
+progress in its TRI in 2017 than 2008, its score was better in 2011 and
+2014. The current situation suggests that there is enough room for South
+Asian countries to advance the data infrastructure and technological
+readiness to seize the optimum benefits of AI and big data.
+5. Conclusion and recommendation
+By sheer weight of numbers, big data and the analytical tools applied
+in its processing can process and analyze enormous past data than ever
+before. The world today faces the multifaceted challenges of unsustainable urbanization can be mitigated to large extend by the AI and big
+data solutions. It is evident in the study that AI and big data have the
+great potential to mobilize integrated and scalable approaches and have
+Table 1 (continued )
+Initiative/approach Developer/
+Responsible
+organization
+Solution/benefit Technology/method used Potential
+for scaling
+up*
+https://www.sciencedirect.com/science/article/abs/pii/S0
+968090X17303315?via%3Dihub)
+University of
+California; Baso
+et al. (2018)
+i. Create predictive road crash
+maps to pinpoint the high-risk
+areas
+ii. Alert warnings to the drivers to
+be extra careful in the
+identified risky areas
+iii. Authorities can take immediate
+measures to ensure road safety
+in the risky areas
+extensive data on car accidents
+and identify the map of risky area
+to car accident
+Mapping urban surfaces and cooling our cities (https://globalcoo
+lcities.org/key-initiatives/)
+WRI and Global
+Cool Cities Alliance
+i. Detect urban surface changes to
+diminish urban heat effects by
+heat mitigation strategies
+ii. Quantify the reflectivity of roof
+and street and tree canopy
+Integration on AI and remote
+sensing
+Medium
+PulseSatellite (https://www.unglobalpulse.org/microsite/pulses
+atellite/)
+UN Global Pulse i. Identify and count structures in
+refugee settlements
+ii. Infer the size and proximity of
+roofs for slum mapping
+iii. Generate real-time maps of
+flooded areas for damage
+assessment
+Analyze satellite imagery assisted
+by neural networks that seeks to
+incorporate humans-in-the-loop
+at different stages in the model
+inference process to enable
+optimal results and expert
+validation
+Medium
+Azure FarmBeats (https://docs.microsoft.com/en-us/azure/i
+ndustry/agriculture/overview-azure-farmbeats)
+Microsoft
+Corporation
+i. Assess farm health using
+vegetation and water index
+based on satellite imagery
+ii. Track farm conditions by
+visualizing ground data
+collected by sensors from
+different vendors
+iii. Generate soil moisture map
+and farm health advisories
+Aggregation of agriculture
+datasets across providers, and
+generation of actionable insights
+by building AI models by fusing
+the datasets
+High
+NOAA Global Hydro Estimator (https://registry.opendata.aws/
+noaa-ghe/)
+Microsoft
+Corporation/NOAA
+i. Provide global rainfall estimates
+in 15-min intervals at ~4 km
+resolution which can be used for
+urban hydrological planning,
+monitoring, and build resilience
+at global, regional, and national
+levels.
+Estimates are derived from
+satellite imagery and data from
+NOAA’s Global Forecast System
+High
+NOAA’s environmental big data (https://www.noaa.gov/org
+anization/information-technology/big-data-program)
+NOAA i. NOAA’s huge collection of
+environmental big data can be
+accessible at no cost from
+Amazon Web Services (AWS),
+Google Cloud, and Microsoft and
+used for urban environmental
+protection, ecosystem
+monitoring, and restoration
+NOAA generates tens of terabytes
+of data each day from satellites,
+radars, ships, weather models,
+and other sources
+High
+Note*: High: Intervention is proved to have a positive result and accepted widely; Medium: Intervention is successfully piloted, generated positive outcome and require
+further fine-tuning; and Low: Intervention is proved useful and require substantial testing and validation at different scales.
+Md. Arfanuzzaman 
+Environmental and Sustainability Indicators 11 (2021) 100127
+5
+a significant positive impact on urban socio-economic and environmental system, SDGs, well-being of population, climate resilience, inclusive development, increase in food production, and better social
+cohesion through cooperation between the various actors in South Asia
+as well as other regions of the world. Appropriate use of AI and big data
+technologies can contribute to improving the performance of urban
+socio-economic and environmental system, smarter exploitation of
+natural resources, better inclusion of the various and particularly the
+most vulnerable, and improved access to public services.
+Scientists and governments of South Asian countries can work
+together more efficiently in the future, not just to react to the urban
+socio-economic and environmental problems of today, but work with
+superior foresight today to make strong decisions for tomorrow. With
+28% of the South Asian population younger than 15, the millions of
+young people who today are growing more and more tech-savvy become
+the consumers, entrepreneurs, and technicians of tomorrow and
+advance the AI and big data revolution for prosperous South Asia. The
+volume of data is increasing swiftly across the world. Studies found 90%
+of the data in the world has been generated in the last two years, and it is
+anticipated to increase by 40% cent annually. A large share of this
+collected data deriving from everyday interactions with digital goods or
+services, including mobile phones, credit cards, internet, and social
+media. Hence, the necessity of utilizing big data and AI is increasing for
+human development in South Asia. As South Asia is far behind the
+developed economies it should take the prompt initiative to harness the
+maximum benefit of big data and AI technologies to advance the SDG
+attainment as well as well being of its population. Considering the poor
+socio-economic condition, low TRI, and unsustainable urbanization, the
+study suggests the following recommendation to advance the big data
+and AI-based development in South Asian cities.
+I. As AI leverages structured data, for instance, machine sensor
+data, and unstructured data such as manuals, maintenance records, weather data, financial transaction, consumption, and
+market/industry data to perform data processing and cuttingedge decision making without human intervention, reliable
+data infrastructure is necessary to build at country level;
+II. Research and innovation need to be promoted in the south Asian
+countries to foster the development of big data solution and AI
+products, startups, etc.;
+III. Much of the big data related to public good is captured by the
+private sector in South Asia. Hence, robust public-private partnerships are crucial to seizing the advantage of big data and AI
+technologies;
+IV. There is a broad range of actions needed, including building the
+capacities of all South Asian countries on big data and AI;
+V. Incentives need to be provided to the SMEs so that they invest in
+big data, AI and associated infrastructure, Big Data Platform
+Services, data and cyber security, and analytical services;
+VI. Attention needs to be provided on data security, data integrity,
+data protection and privacy, dataveillance, data quality and
+ethics social and digital wellbeing;
+VII. South Asian countries need to take measures to attract foreign
+investment in the big data and AI-related services, capacity
+building, IT and data infrastructure and platform services;
+VIII. Removing regulatory and logistical challenges, and non-tariff
+barriers for cross border trade can boost e-commerce and big
+data-based digital services in South Asian countries and enhance
+their regional exports, employment, and productivity as well as
+urban economic development;
+IX. The regional intergovernmental organizations such as South
+Asian Association of Regional Cooperation (SAARC), Bay of
+Bengal Initiative for Multi-Sectoral Technical and Economic
+Cooperation (BIMSTEC), and Association of Southeast Asian
+Nations (ASEAN) need to be better utilized and strengthened for
+AI and big data-based regional and national development;
+Fig. 1. Potential of big data and AI for urban related SDGs in South Asia.
+Source: Adapted from UN Global Pulse.
+Table 2
+Technological readiness indicator in South Asia.
+Country 2017 2014 2011 2008 % change from 2009 to 2017
+Bangladesh 120 120 122 126 -4.76
+Bhutan 105 105 0
+India 107 121 93 69 55
+Nepal 119 128 130 130 -8.5
+Pakistan 111 114 115 100 11
+Sri Lanka 106 94 85 82 29.27
+Average 111 114 109 101 9.9
+Source: World Economic Forum
+Md. Arfanuzzaman 
+Environmental and Sustainability Indicators 11 (2021) 100127
+6
+X. As the South Asian region is resource-poor and lags in the technological advancement a trust fund can be established under
+SAARC to support research, innovation, and start-up in AI and big
+data solution;
+XI. South-South and triangular cooperation can be enhanced and
+framed for solving pressing urban issues of South Asia through AI
+and big data-based innovation, improved IT and data infrastructure, knowledge sharing, technology transfer, and capacity
+building;
+Disclaimer
+The views expressed in this paper are those of the authors alone and
+do not necessarily reflect the views of the Food and Agriculture Organization (FAO) of the United Nations.
+Declaration of competing interest
+The authors declare that they have no known competing financial
+interests or personal relationships that could have appeared to influence
+the work reported in this paper.
+Acknowledgement
+The author thanks the editor of the journal and anonymous reviewers
+for providing useful comments and suggestion to further improve the
+paper.
+References
+Arfanuzzaman, M., Dahiya, B., 2019. Sustainable urbanization in Southeast Asia and
+beyond: challenges of population growth, land use change and environmental
+health. J. Growth Change 50 (2). https://doi.org/10.1111/grow.12297.
+Bandara, V., Jayasumana, A.P., Pezeshki, A., Illangasekare, T.H., Barnhardt, K., 2010.
+Subsurface plume tracking using sparse wireless sensor networks. Int. Electron. J.
+Struct. Eng.
+Basso, F., Basso, L.J., Bravo, F., Pezoa, R., 2018. Real-time crash prediction in an urban
+expressway using disaggregated data. Transport. Res. C Emerg. Technol. 86,
+202–219. https://doi.org/10.1016/j.trc.2017.11.014.
+Bibri, S.E., 2019a. Data-driven smart sustainable urbanism: the intertwined societal
+factors underlying its materialization, success, expansion, and evolution. Geojournal.
+https://doi.org/10.1007/s10708-019-10061-x.
+Bibri, S.E., 2019b. The anatomy of the data-driven smart sustainable city:
+instrumentation, datafication, computerization and related applications. J. Big Data
+6, 59. https://doi.org/10.1186/s40537-019-0221-4.
+Bibri, S.E., 2019c. On the sustainability of smart and smarter cities in the era of big data:
+an interdisciplinary and transdisciplinary literature review. J. Big Data 6, 25.
+https://doi.org/10.1186/s40537-019-0182-7.
+Dash, S., Shakyawar, S.K., Sharma, M., et al., 2019. Big data in healthcare: management,
+analysis and future prospects. J. Big Data 6, 54. https://doi.org/10.1186/s40537-
+019-0217-0.
+Dubey, R., Gunasekaran, A., Childe, S.J., Papadopoulos, T., Luo, Z., Wamba, S.F.,
+Roubaud, D., 2017. Can big data and predictive analytics improve social and
+environmental sustainability? Technol. Forecast. Soc. Change. https://doi.org/
+10.1016/j.techfore.2017.06.020.
+Dumbill, E., 2013. Making sense of big data. Big Data 1 (1). Mary Ann Liebert, Inc.
+Ellis, P., Roberts, M., 2016. Leveraging Urbanization in South Asia: Managing Spatial
+Transformation for Prosperity and Livability. World Bank, Washington, DC.
+Estoque, R.C., 2020. A review of the sustainability concept and the state of SDG
+monitoring using remote sensing. Rem. Sens. 12, 1770.
+Fluckiger, Y., Seth, N., 2016. Sustainable Development Goals: SDG indicators need
+crowdsourcing. Nature 531, 448.
+Fu, L., Dallas, P., Sharma, V.K., Zhang, K., 2016. Sensors for environmental monitoring.
+J. Sensors 2016. https://doi.org/10.1155/2016/4108790, 1–1.
+Graham, M., Shelton, T., 2013. Geography and the future of big data, big data and the
+future of geography. Dialogues Human Geogr. 255–261.
+Illangasekare, T.H., Han, Q., Jayasumana, A.P., 2018. Environmental underground
+sensing and monitoring. Undergr. Sens. 203–246.
+Jacobs, C., Singh, T., Gorti, G., Iftikhar, U., Saeed, S., Syed, A., Siderius, C., 2019.
+Patterns of outdoor exposure to heat in three South Asian cities. Sci. Total Environ.
+https://doi.org/10.1016/j.scitotenv.2019.04.087.
+Kathuria, Sanjay, 2018. A Glass Half Full: the Promise of Regional Trade in South Asia.
+World Bank, Washington, DC. South Asia Development Forum.
+Keeso, A., 2014. Big Data and Environmental Sustainability: A Conversation Starter.
+Oxford University. Smith School Working Paper Series: 14-04.
+Kharrazi, A., Qin, H., Zhang, Y., 2016. Urban big data and sustainable development
+goals: challenges and opportunities. Sustainability 8, 1293.
+Kitchin, R., 2016. The ethics of smart cities and urban science. Philos. Trans. Roy. Soc. A
+374, 20160115.
+Krishnamurthy, R., Smith, K.L., Desouza, C., 2017. Urban informatics: critical data and
+technology considerations. In: Thakuriah, P., Tilahun, N., Zellner, M. (Eds.), Seeing
+Cities through Big Data. Springer International Publishing, Basel, Switzerland,
+pp. 163–188.
+Kudva, S., Ye, X., 2017. Smart cities, big data, and sustainability union. Big Data Cogn.
+Comput. 1 (1), 4. https://doi.org/10.3390/bdcc1010004, 2017.
+Mani, Muthukumara, Bandyopadhyay, Sushenjit, Chonabayashi, Shun, Markandya, Anil,
+Mosier, Thomas, 2018. South Asia’s Hotspots: Impacts of Temperature and
+Precipitation Changes on Living Standards. South Asia Development Matters. World
+Bank, Washington, DC.
+Mayer-Schonberger, ¨ V., Cukier, K., 2013. Big Data: A Revolution that Will Transform
+How We Live, Work and Think”. John Murray, London, UK.
+Pan, Y., Tian, Y., Liu, X., Gu, D., Hua, G., 2016. Urban big data and the development of
+city intelligence. Engineering 2 (2), 171–178, 2016.
+Prandi, C., Nisi, V., Ribeiro, M., et al., 2021. Sensing and making sense of tourism flows
+and urban data to foster sustainability awareness: a real-world experience. J. Big
+Data 8, 51. https://doi.org/10.1186/s40537-021-00442-w.
+Saheb, T., Izadi, L., 2019. Paradigm of IoT big data analytics in the healthcare industry: a
+review of scientific literature and mapping of research trends. Telematics Inf. 41,
+70–85. https://doi.org/10.1016/j.tele.2019.03.005.
+Saheb, T., Saheb, T., 2020. Understanding the development trends of big data
+technologies: an analysis of patents and the cited scholarly works. J Big Data 7, 12.
+https://doi.org/10.1186/s40537-020-00287-9.
+Shameer, K., Badgeley, M.A., Miotto, R., Glicksberg, B.S., Morgan, J.W., Dudley, J.T.,
+2017. Translational bioinformatics in the era of real-time biomedical, health care
+and wellness data streams. Briefings Bioinf. 18 (1), 105–124. https://doi.org/
+10.1093/bib/bbv118.
+Sun, Y., Du, Y., 2017. Big data and sustainable cities: applications of new and emerging
+forms of geospatial data in urban studies. In: Open geospatial data, softw. stand., 2,
+p. 24. https://doi.org/10.1186/s40965-017-0037-0.
+Twining-Ward, Louise, D., Mccomb, Jessie F., De Meneval, Philippe, Abakerli, B.,
+Stefania, B., Simpore, Dahourou, Mansora, Adja, Afzal, Kiran, Canut, Sole, Albert,
+Cerezo, Villascusa, Miguel, Jose, Mathur, Priya, Rabbany, Raihana, 2020. COVID-19
+and Tourism in South Asia: Opportunities for Sustainable Regional Outcomes
+(English). World Bank Group, Washington, D.C.
+UN (United Nations), 2015a. Habitat III issue papers, 21—smart cities (V2.0). New York.
+https://collaboration.worldbank.org/docs/DOC-20778.
+UN (United Nations), 2015b. Big Data and the 2030 agenda for sustainable development.
+Prepared by A. Maaroof. http://www.unescap.org/events/call-participants-bigdata-and-2030-agendasustainable-development-achieving-development.
+UN (United Nations), 2018a. The World’s Cities in 2018: Data Booklet. Department of
+Economic and Social Affairs, United Nations, New York.
+UN (United Nations), 2018b. World Urbanization Prospects 2018. Department of
+Economic and Social Affairs, United Nations, New York.
+WRI, 2020. Making cities work better for everyone. available online at: https://www.
+wri.org/cities.
+Md. Arfanuzzaman 

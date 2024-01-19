@@ -1,0 +1,1559 @@
+Incident-Specific Cyber Insurance
+Wing Fung Chong†
+, Dani¨el Linders‡
+, Zhiyu Quan⋆
+, and Linfeng Zhang∗,⋆,⋄
+†Maxwell Institute for Mathematical Sciences and Department of Actuarial Mathematics and Statistics,
+Heriot-Watt University. Email: alfred.chong@hw.ac.uk.
+‡Faculty of Economics and Business, University of Amsterdam. Email: d.h.linders@uva.nl.
+⋆Department of Mathematics, University of Illinois at Urbana-Champaign. Email: {zquan,
+lzhang18}@illinois.edu.
+⋄School of Actuarial Science & Risk Management, Drake University. Email: linfeng.zhang@drake.edu
+Abstract
+In the current market practice, many cyber insurance products offer a coverage bundle
+for losses arising from various types of incidents, such as data breaches and ransomware
+attacks, and the coverage for each incident type comes with a separate limit and deductible.
+Although this gives prospective cyber insurance buyers more flexibility in customizing the
+coverage and better manages the risk exposures of sellers, it complicates the decision-making
+process in determining the optimal amount of risks to retain and transfer for both parties.
+This paper aims to build an economic foundation for these incident-specific cyber insurance
+products with a focus on how incident-specific indemnities should be designed for achieving
+Pareto optimality for both the insurance seller and buyer. Real data on cyber incidents
+is used to illustrate the feasibility of this approach. Several implementation improvement
+methods for practicality are also discussed.
+Keywords: Risk management, Cyber insurance, Incident specificity, Statistical learning,
+Pareto optimality.
+1 Introduction
+In May 2021, Colonial Pipeline, one of the largest oil pipeline systems in the United States (US),
+was hit by a ransomware attack and had a shutdown for five days; see Office of Cybersecurity,
+Energy Security, and Emergency Response (2021). In November 2020, Amazon Web Services,
+a major cloud service provider that many businesses rely on, had a severe outage triggered by
+an operating system configuration; see Greene (2020). In 2017, Equifax, one of the three largest
+US credit reporting agencies, experienced a major data breach that exposed the private records
+of nearly 150 million American citizens; see Equifax (2017). In 2016, a class action was brought
+against Meta Platforms (formerly known as Facebook) for failing to comply with the Biometric
+Information Privacy Act in Illinois, and the case was settled for $650 million in 2021; see Holland
+(2021). These examples illustrate the extraordinary exposure of modern businesses to cyber risk
+and their possible devastating consequences.
+∗Corresponding author.
+1
+arXiv:2308.00921v1 [q-fin.RM] 2 Aug 2023
+The events listed above represent a wide range of incidents that are considered cyber-related,
+and they are common in this digital world where business operations rely heavily on data and
+cyber systems. To mitigate the aftermath impact of such incidents, cyber insurance products are
+designed for businesses to purchase. The insurability of cyber losses is examined in Dacorogna
+et al. (2023), in which their loss expectations are shown to be finite. These cyber insurance
+products typically cover losses resulting from various perils. As summarized in Romanosky
+et al. (2019), Marotta et al. (2017), and Woods et al. (2017), some cyber insurance policies
+indemnify losses caused by ransomware, and some policies cover liabilities resulting from data
+breaches. It is also not unusual for a single policy to cover multiple types of cyber incidents.
+In this paper, our focus is on those policies that offer coverage for multiple perils, which are
+referred to as incident-specific cyber insurance.
+Need for incident-specific cyber insurance
+Incident-specific cyber insurance products are in line with businesses’ needs for cyber risk management.
+A definition of cyber risk commonly adopted in practice and literature is “cyber risks are
+operational risks to information and technology assets that have consequences affecting the confidentiality, availability, and integrity of information and information systems”; see Cebula and
+Young (2010). Aligning to this idea, the National Institute of Standards and Technology (NIST)
+Cybersecurity Framework, from which many cybersecurity standards for critical infrastructure
+sectors are derived, considers data security from the perspectives of data confidentiality, integrity,
+and availability and proposes a comprehensive set of best practices; see NIST (2018). In Eling
+and Wirfs (2019), the authors argued that cyber risks are subcategories of operational risk and
+used cyber-related data from a database of operational losses to model the loss of four types of
+cyber incidents, including the ones caused by actions of people, system failure, internal process
+failure, and external events. In Amin (2017), the author considered the same four categories of
+cyber risks and used Bayesian networks to model the relationship between risk categories and
+risk factors. In Ghadge et al. (2019), the authors proposed a different set of incident types for
+supply chain cyber risk management, including physical threats, breakdown, indirect attacks,
+direct attacks, and insider threats.
+Provided that cyber risk is a collective term referring to the risks of multiple types of cyber
+incidents, and businesses typically demand a risk management strategy that is holistic and, at
+the same time, can address the subtle differences among various incident types, purchasing an
+incident-specific cyber insurance policy is then a natural choice for businesses to meet such a
+need.
+Existing incident-specific cyber insurance
+To ensure risk exposures are manageable, many incident-specific cyber insurance policies come
+with sublimits and separate deductibles for individual coverages. For example, AIG (2019)
+allows for setting limits and deductibles individually for events such as cyber extortion and
+computer crime. Romanosky et al. (2019) surveyed 67 policies and found many of them use
+sublimits. In this paper, these sublimits and deductibles shall be referred to as incident-specific
+2
+limits, or simply limits, and incident-specific deductibles or deductibles. The scope of this study
+though does not include the cases in which there is a limit or deductible at the aggregate policy
+level, which shall be deferred to future research.
+Although insurers can shield them from excessive exposures using those risk-sharing provisions, such policy designs complicate the process of shopping for cyber insurance coverage for
+prospective buyers. Given that most companies have difficulties in determining the appropriate
+amount of coverage (see Johansmeyer (2021)), this problem will only be more of an obstacle
+that hinders cyber insurance purchases if companies have to impromptu configure the amounts
+of coverage for individual incident types.
+Proposed workflow for determining coverage
+Provided that incident-specific cyber insurance is a norm in practice but lacks a technical foundation that justifies the determination of coverage amounts, it is in the interests of both insurers
+and companies, who seek insurance coverage, to make the process of determining incident-specific
+coverage easy to understand, compatible with the existing underwriting procedures, and mutually beneficial to both parties. To this end, we shall address the aforementioned problem of
+determining incident-specific coverage from a bilateral perspective.
+Drawing inspiration from Asimit et al. (2021), which shows that an environment-specific
+indemnity profile could be Pareto optimal for both the buyer and seller, in this paper, we
+propose an economically sound workflow that determines the appropriate amount of incidentspecific coverage. By doing so, it helps the insured and the insurer reach a Pareto optimality, such
+that the risk taken by either of the two parties cannot be further reduced without increasing the
+other’s risk. How such a problem should be formulated and how both parties’ risks are measured
+are elaborated in Section 2.
+The diagram in Figure 1 illustrates this workflow, which consists of three major parts: (I) the
+incident-specific cyber insurance problem, which serves as the central pillar of this workflow and
+assigns optimal amounts of risk to the policyholder and the insurer; (II) model inputs, in which
+severity and incident type can be estimated and statistically learned based on historical cyber
+incident data and the underwriting process, together with the policyholder’s and insurer’s preferences information for the decision-making part; and (III) the solver for the optimal insurance
+problem, which can be implemented using either an exact method or an approximated but quick
+method depending on whether there is a time constraint. The solver produces specifications of
+the incident-specific insurance coverage, which is the final and desired outcome of this workflow.
+Regarding Part (III), a practical scenario is that the insurer needs to provide a quote and a
+coverage to a prospective customer on-the-fly. We shall show that using the exact method may
+result in a long waiting time, and thus the quick method, which generates the results almost
+instantly, can be a workaround in that situation.
+In this paper, we shall detail the key components of the proposed workflow for designing
+incident-specific cyber insurance coverage, and then demonstrate it with numerical examples.
+3
+Figure 1: Workflow of designing incident-specific cyber insurance coverage
+4
+Findings and contributions
+First, based on the incident-specific insurance design problem, the cyber insurance contract
+supplied by the proposed workflow must be reducing the aggregate cyber risk of a company, as
+an insurance buyer, and the insurer after the risk transfer; the contract must also be mutually
+beneficial to both the insured and the insurer since a paid premium is less than the buyer’s cyber
+risk reduction while is able to cover the risk taken by the insurer. However, their aggregate
+cyber risk reduction is not necessarily effective, in the sense that some insurance buyers might
+pay more premium than their reduction in the aggregate risk with the insurer; this is indeed
+observed from the numerical examples presented in Section 5. Second, the proposed workflow
+is computationally tractable in scenarios that require the specifications of an incident-specific
+policy to be delivered promptly, such as quick quote and coverage services, comparing to other
+conventional methods.
+Therefore, the contributions of this paper are as follows. Firstly, cyber insurance policies
+commonly cover multiple perils, but the determination of incident-specific coverage amounts
+lacks justification in practice and literature. The proposed workflow leads to insurance specifications that are justified and economically sound to both the insured and the insurer. Secondly,
+the proposed workflow is data-driven and compatible with the existing underwriting procedures.
+All the data required by this workflow can be obtained from public or proprietary sources by
+underwriters, which results in no additional work on the frontend. Thirdly, we show that, from
+the numerical examples, while the designed incident-specific cyber insurance contract must be
+mutually beneficial to the insured and the insurer, their aggregate cyber risk reduction might
+not be always effective. Lastly, this paper overcomes the possible computational challenges arising from the implementation of such a workflow, making it versatile and adaptable to different
+scenarios depending on the amount of time permitted to produce results.
+The rest of this paper is organized as follows. Section 2 formulates the problem of designing
+incident-specific cyber insurance as an optimization problem. Section 3 discusses the method
+and the data that we used to obtain the necessary model inputs. Given the model inputs, Section 4 describes the Cross Entropy Method and how it is used to solve the proposed problem
+as well as presents and discusses some numerical results. Section 5 presents the use of function
+approximation to address some computational challenges in the process of solving the optimization problem. We conclude in the last section with discussions of potential applications and
+future works.
+2 Design of Incident-Specific Cyber Insurance
+2.1 Buyer and seller’s Pareto optimality
+Incident-specificity in this study means that although the insurance product is designed as a
+package with coverage for a variety of cyber incident types, the coverage for each incident type
+has its own indemnity function. In addition, a major characteristic of the policy design is that
+different types of cyber incidents are mutually exclusive, i.e., every incident precisely belongs
+to a unique category. Therefore, the occurrence of one incident would only trigger one and
+only one corresponding incident-specific coverage. This point will be further illustrated with
+5
+real data in later sections. Then, the problem of interest in this study is how to determine the
+incident-specific indemnity functions.
+To formulate this problem, let (Ω, F) be a measurable space, let P be a probability measure on
+(Ω, F), and let K = {1, 2, . . . , K} be the set of indices of insurable incident types with cardinality
+K. For a cyber incident of any type, denote the random variable of the realized non-negative
+loss as (X)I{O=k}
+, where X is the loss resulting from a particular cyber event and the indicator
+function I{O=k}
+takes the value of 1 if the Occurred incident type O is k, for any k ∈ K, and
+takes the value of 0 otherwise. Furthermore, let Ik be the incident-specific Indemnity function,
+for incident type k ∈ K; that is, the insurance buyer receives Ik(X)I{O=k} after an incident.
+The amount of loss Retained by the buyer is Rk(X)I{O=k} = (X)I{O=k} − Ik(X)I{O=k}
+, which
+could be non-zero in the scenario that an incident-specific indemnity does not fully cover the
+corresponding loss.
+Acquiring such an incident-specific insurance policy costs the buyer a single premium π. From
+the buyer’s perspective, the total loss at the end of the policy period is, π +
+PK
+k=1 Rk(X)I{O=k}
+,
+where the summation is a result of the mutual exclusivity of incident types. The risk-sharing
+counterparty, i.e., the seller, correspondingly bears the risk of value PK
+k=1 Ik(X)I{O=k}
+in exchange for receiving the premium π, thus making the loss at the end of the policy period,
+−π +
+PK
+k=1 Ik(X)I{O=k}
+. In this study, any potential return generated by the premium during
+the policy period is neglected for simplicity.
+To support the decision-making regarding configurations of the contract consisting of the
+incident-specific indemnity functions and the policy premium, assume that the Buyer and the
+Seller are endowed with risk measures ρB and ρS, respectively, and the Pareto optimality is to be
+achieved with respect to the risk measures on their post-transfer risk positions, so that neither of
+the two parties can attain a lower risk, evaluated by the risk measure, without the other party’s
+risk being increased. Then, as discussed in Asimit et al. (2021) and proved in Theorem 3.1 of
+Asimit and Boonen (2018), if their risk measures are translation invariant (which are satisfied
+by most risk measures), their Pareto optimality is achieved by the contract which minimizes:
+F(I1, I2, . . . , IK, π; X, O) = ρB
+ X
+K
+k=1
+Rk(X)I{O=k} + π
+!
++ ρS
+ X
+K
+k=1
+Ik(X)I{O=k} − π
+!
+.
+With their risk measures being translation invariant and the policy premium π being a
+deterministic variable, the objective function, with a slight abuse of notation, can be simplified
+to
+F(I1, I2, . . . , IK; X, O) = ρB
+ X
+K
+k=1
+Rk(X)I{O=k}
+!
++ ρS
+ X
+K
+k=1
+Ik(X)I{O=k}
+!
+,
+The minimization problem that solves the ex-ante specified Pareto optimal incident-specific
+indemnity functions is then given by:
+min
+(I1,I2,...,IK)∈I
+F(I1, I2, . . . , IK; X, O), (1)
+where, with Id being the identity function, the solution space
+I := {(I1, I2, . . . , IK) : 0 ≤ Ik ≤ Id, Ik and Rk are non-decreasing, ∀k ∈ K}
+6
+adheres to two fundamental principles in insurance, including 1) the buyer is compensated
+partially or fully for a loss, but cannot make a profit from the compensation; and 2) the ex-post
+moral hazard that a falsely larger claim is made to reduce the buyer’s deductible or the seller’s
+indemnity payout should be avoided.
+Finally, the ex-ante specified Pareto optimal policy premium is given by the rationality
+constraints of the buyer and seller:
+ρB
+ X
+K
+k=1
+Rk(X)I{O=k} + π
+!
+≤ ρB (X),
+ρS
+ X
+K
+k=1
+Ik(X)I{O=k} − π
+!
+≤ ρS (0) = 0,
+in which the right-hand-side of the inequalities are the risk measures on both parties’ pre-transfer
+risk positions. By the translational invariance of their risk measures, these can be simplified as:
+ρS
+ X
+K
+k=1
+Ik(X)I{O=k}
+!
+≤ π ≤ ρB (X) − ρB
+ X
+K
+k=1
+Rk(X)I{O=k}
+!
+. (2)
+in which the incident-specific indemnity and retained functions are Pareto optimal being solved
+in (1). Thus, at the Pareto optimality, the policy premium is not disentangled from the respective
+risks taken by the buyer and the seller. Varying the Pareto optimal policy premium choice within
+this interval traces the entire Pareto frontier. Note that, in this paper, the premium is derived
+from an economic perspective; in the insurance practice, an insurer could charge a premium
+based on an actuarial price.
+Therefore, in the remainder of this study, the focus is on the design of the incident-specific
+indemnity functions.
+2.2 Optimal indemnities with Value-at-Risk preferences
+The choice of risk measures, ρB and ρS, depends on the insurance buyer’s and seller’s own
+risk management appetites. Some common choices, which satisfy the translational invariance,
+include Value-at-Risk (VaR) and Tail Value-at-Risk (TVaR).
+It can be verified that if both ρB and ρS are the same type of subadditive risk measures and
+only differ in their parameters (e.g., TVaR with different risk tolerance level parameters), then
+the solution to Problem (1) assigns all risks to the party that has a higher risk tolerance. VaR, on
+the other hand, is not subadditive but is still prevalently adapted in the banking and insurance
+industries; see, for example, the capital requirement in Basel III and Solvency II frameworks.
+Therefore, in this study, we assume that the buyer and the seller both adopt VaR as their risk
+measures. VaR is as follows:
+VaRγ(Y ) = inf{y ∈ R : P(Y ≤ y) ≥ γ}, (3)
+where Y is a random variable and γ ∈ (0, 1) is the risk tolerance level.
+7
+With the VaR risk preferences, Asimit et al. (2021) showed that the indemnity functions in
+the sub-solution space I \ I1 are at least suboptimal for Problem (1), where
+I1 := {(I1, I2, . . . , IK) ∈ I : Ik(X) = (X − dk)+ or Ik(X) = X − (X − dk)+,
+dk ∈ [0, ess sup(X)], for each k ∈ K},
+(4)
+where ess sup(X) is the essential supremum of X under the probability measure P. This implies
+that, for each incident-specific coverage, either a deductible or a policy limit, denoted by dk,
+should be implemented. Within the solution space in (4), solving the infinite-dimensional Problem (1) is thus reduced to solve the following finite-dimensional, but combinatorial, minimization
+problem:
+min
+d∈RK
++ ,
+θ∈{0,1}K
+F(d, θ; X, O) = min
+d∈RK
++ ,
+θ∈{0,1}K
+[VaRα (LS(d, θ; X, O)) + VaRβ (LB(d, θ; X, O))] , (5)
+where
+• θ = (θ1, θ2, . . . , θK), and for each k ∈ K, θk ∈ {0, 1} is the choice between a limit or a
+deductible being implemented. Here, we set θk = 0 if an incident-specific limit is placed,
+and θk = 1 if a deductible is implemented instead;
+• d = (d1, d2, . . . , dK) are the amounts of incident-specific limits or deductibles, depending
+on which of the two is imposed on the coverage for each incident type;
+• α and β are choices of risk tolerance levels of the seller and the buyer, respectively;
+•
+LS(d, θ; X, O) = X
+K
+k=1
+
+θk (X − dk)+ + (1 − θk)
+
+X − (X − dk)+
+
+
+I{O=k}
+, (6)
+and
+LB(d, θ; X, O) = X
+K
+k=1
+
+(1 − θk) (X − dk)+ + θk
+
+X − (X − dk)+
+
+
+I{O=k}
+, (7)
+are the seller’s and the buyer’s loss random variables, respectively, after agreeing with an
+insurance contract.
+To solve Problem (5) for Pareto optimal θ and d, the probability distributions of LS and
+LB in (6) and (7) are necessary model inputs to calculate the VaRs in the objective function;
+these are discussed in Section 3. Though Problem (5) is of finite-dimensional in d, it is also of
+combinatorial type such that the number of combinations in θ grows exponentially in K, making
+the minimization problem not mathematically tractable; see the number of cases to consider in
+Proposition 3.1 of Asimit et al. (2021) which seeks for explicit optimal indemnities even if K = 2.
+Section 4 discusses a numerical method and its algorithm to solve the combinatorial optimization
+problem.
+3 Model Inputs
+The distributions of the seller’s and the buyer’s loss random variables in (6) and (7) belong to the
+mixture class. Therefore, model inputs to solve Problem (5) are (i) the index set K of insurable
+cyber incident types, (ii) the probabilities, p = (p1, p2, . . . , pK), of an incident being in an
+individual category, where pk = P(O = k), for k ∈ K (note that, due to the mutual exclusivity
+of incident types, PK
+k=1 pk = 1), and (iii) the incident-specific severity of the ground-up loss
+(X)I{O=k}
+, for k ∈ K.
+A dataset from Advisen consisting of historical cyber incidents is used to obtain the inputs
+to determine the loss random variables. In the dataset, there are 103,061 historical cyber
+incidents. Its earliest observation dates back to 1987, and the latest observation was recorded
+in September 2018. This dataset has 125 explanatory variables coded for each incident, which
+can generally be categorized into four groups as follows: (i) nature of the incident, (ii) victim
+company information, (iii) consequences of the incident, and (iv) information from any associated
+lawsuits. With the information on incident types and loss amounts, we can build statistical
+models to predict the probability vector p and the conditional severity distribution of (X)I{O=k}
+,
+for k ∈ K. The data and models shall be further elaborated on in the following subsections.
+3.1 Types of cyber incident
+This paper focuses on the cyber incidents that took place in the US, which represent close to
+80% of all observations. Based on the country information provided for each incident in the
+dataset, we extract a sample of all US-based incidents, and the sample size is 84,938.
+The response variable is the cyber incident type. The different incident types are the following: (1) cyber extortion, (2) data - malicious breach, (3) data - physically lost or stolen,
+(4) data - unintentional disclosure, (5) denial of service (DDOS)/system disruption, (6) digital breach/identity thief, (7) identity - fraudulent use/account access, (8) industry controls &
+operations, (9) IT - configuration/implementation errors, (10) IT - processing errors, (11) network/website disruption, (12) phishing, spoofing, social engineering, (13) privacy - unauthorized
+contact or disclosure, (14) privacy - unauthorized data collection, and (15) skimming, physical
+tampering. Similar to Kesan and Zhang (2020), in this paper, these 15 categories are grouped
+into four types, which are (1) data breach, (2) fraud and extortion, (3) IT error, and (4) privacy
+violation. The following provides a brief description of each type of cyber incident classified
+and, together with the “other” level, Table 1 shows the number of observations for each type of
+cyber incident classified. Abbreviations in parentheses will occasionally be adopted throughout
+this paper for clear exposition.
+• Privacy violation (PV) incidents occur when companies collect or disclose individuals’
+sensitive information, such as personally identifiable information and financial information,
+without receiving consent from those individuals.
+• Data breaches (DB) are incidents in which data storage devices are breached, causing
+a possible leakage of confidential information. These incidents can be caused by either
+hacking activities or the loss of physical devices.
+• Cyber incidents in the fraud and extortion (FE) category are similar to traditional
+frauds and extortion events, but take place in cyberspace. Cyber frauds typically have
+forged digital identity involved, such as phishing attacks, and commonly in cyber extortion
+events, information and information systems are held hostage by intruders for financial
+gain.
+• In IT error (ITE) events, there is no malicious intent involved. They are caused by
+incorrectly configured or operating IT systems.
+9
+Incident Categories Number of Observations
+(PV) Privacy Violation 51315
+(DB) Data Breach 26492
+(FE) Fraud and Extortion 4464
+(ITE) IT Error 2102
+Other 565
+Table 1: Number of historical cyber incidents in each category.
+3.2 Incident type occurrence probabilities
+Company-specific information is useful when estimating the occurrence probabilities of different
+incident types. For example, it is reasonable to assume that technology companies with lots
+of customer data are more likely to experience data breaches than manufacturing companies,
+whereas manufacturers with complex industrial control systems are more prone to IT errors that
+cause disruptions than technology companies. Therefore, we use company characteristics such
+as industry as predictors for the occurrence probabilities. In this subsection, we present several
+predictive models that we experimented with for this purpose and make comparisons among
+them. This approach is similar to insurance rate-making which determines insurance premiums
+based on the risk characteristics of the insurance buyers.
+Selected explanatory variables
+Among all explanatory variables available in this dataset, we desire manageable and meaningful
+ones, and thus the variable selection process incorporates the following considerations.
+• The values of some variables can only be observed after the occurrence of an incident, at
+which point the type of incident is already known. For example, the settlement cost of a
+lawsuit associated with an incident is not observable when the incident occurs, and thus
+this cost has no impact on the type of the incident. Such variables are ruled out from the
+models.
+• Categorical explanatory variables which have a large number of levels and are downstream
+in the hierarchy, if any, are removed. For example, among the explanatory variables
+that represent the geographical information of a company, the one that contains city
+information is removed, but the one with state information is kept. Likewise, explanatory
+variables that are more granular industry classification codes, such as Standard Industrial
+Classification (SIC) codes with more than 2 digits, are removed. This helps reduce the
+dimensionality of the explanatory variable space when categorical explanatory variables
+need to be dummified in the modeling process.
+• For each of the remaining categorical explanatory variables, categories that have too few
+observations are combined. For example, for the explanatory variable STATE, which has
+the state information of the victim company, all states that are associated with fewer than
+1,000 observations are combined into one category, named “Other”. This procedure helps
+mitigate the possible problem that those small categories become absent in training set
+after the train-test split. Moreover, with fewer categories, the dimensionality of the sample
+10
+is more manageable after the categorical explanatory variables are dummified.
+• Auxiliary information, such as the IDs of companies and incidents, provides no predictive
+power and thus is removed.
+As a result, there are 8 explanatory variables remaining. Table 2 shows the summary statistics
+of all these explanatory variables; their descriptions are provided in Appendix A.
+To provide an overview, the processed and cleaned sample contains 84,938 observations of
+cyber incidents, with the cyber incident type as the multi-class categorical response variable,
+and 8 explanatory variables, of which 3 are numerical, and 5 are categorical. For categorical
+explanatory variables, since many of them, such as state and industry, have more than two
+levels and are non-ordinal, they are numerically coded by dummification. In addition, the
+three numerical explanatory variables are highly right-skewed, as suggested by their summary
+statistics, which are expected to have a negative impact on the performance of some linear models
+that will be tested. Therefore, each of the numerical explanatory variables is log-transformed.
+For testing and comparing the performance of different models, 30% of all observations are
+selected at random and used as the holdout sample, while the remaining 70% are for training
+classifiers.
+Multi-class classification
+Predicting which type an incident falls into once it occurs is essentially a multi-class classification
+problem. In this study, we explored several commonly used classification models, including
+decision trees, random forests, gradient-boosted trees, linear discriminant analysis, multinomial
+logistic regression, and multi-layer perceptron. In the end, we build a stacking classifier on
+top of these models for any possible performance gains. Because all these methods are well
+established and documented in a broad volume of literature, we shall only provide brief and
+mostly qualitative overviews of them in Appendix B and focus instead on their performance and
+prediction results.
+Model comparisons
+Table 1 suggests that the four incident categories are unbalanced, and a large part of them
+are within the types of data breach and privacy violation types. In this circumstance, several
+metrics, as summarized in Grandini et al. (2020), could be used to evaluate model performance.
+In this paper, we shall report the balanced accuracy of each model as a proxy of its performance.
+The balanced accuracy score is defined as follows:
+Balanced Accuracy = 1
+2K
+ X
+K
+k=1 PN
+i=1 I
+{Oi=Oˆ
+i=k}
+PN
+i=1 I
+{Oi=Oˆ
+i=k} +
+PN
+i=1 I
+{Oi=k̸=Oˆ
+i}
++
+PN
+i=1 I
+{Oi=Oˆ
+i̸=k}
+PN
+i=1 I
+{Oi=Oˆ
+i̸=k} +
+PN
+i=1 I
+{Oˆ
+i=k̸=Oi}
+!!,
+(8)
+where
+• N is the size of the test set;
+11
+Explanatory Variable Summary Statistics
+Numerical Min. 1stQu. Median Mean 3rdQu. Max.
+EMP 0.0 18.0 130.0 14098.0 2120.0 2768886.0
+log(EMP+1) 0.0 2.9 4.9 5.3 7.7 14.8
+NCASE 0.0 0.0 47.0 5338.0 1024.0 242599.0
+log(NACASE+1) 0.0 0.0 3.9 4.0 6.9 12.4
+REV 0.0 3.2 31.2 6629.2 617.5 496785.0
+log(REV+1) 0.0 1.4 3.5 4.2 6.4 13.1
+Categorical Levels
+MON JAN MAR APR FEB (8 other levels) Missing
+count 23101 6182 5856 5788 42592 1419
+STATE CA Other NY MA (20 other levels) Missing
+count 13915 11519 6835 5934 46361 374
+CTYPE PRV PUB OTHER - - Missing
+count 54584 25967 4387 - - 0
+IND I H G E (4 other levels) Missing
+count 43932 22465 5897 4058 8586 0
+YEAR BEFORE2012 AFTER2012 - - - Missing
+count 49282 34237 - - - 1419
+Table 2: Summary statistics of explanatory variables. For each categorical explanatory variable, information is displayed for at most four
+categories with the most number of observations. Other levels are used for modeling, but are truncated in this table for ease of reading.
+12
+• Oi and Oˆ
+i are the observed and the predicted occurring incident types of record i, respectively, for i = 1, 2, . . . , N.
+The one-versus-all metric evaluates the model performance by comparing the predictions
+in one class against those in the combination of all other classes. Specifically, for each
+P
+k ∈ K,
+N
+i=1 I
+{Oi=Oˆ
+i=k}
+is the number of true positives with respect to incident type k,
+PN
+i=1 I
+{Oi=k̸=Oˆ
+i}
+is the false negative count, and PN
+i=1 I
+{Oi=Oˆ
+i̸=k}
+and PN
+i=1 I
+{Oˆ
+i=k̸=Oi}
+correspond to true
+negatives and false positives, respectively. Therefore, 1
+2
+ PN
+i=1 I
+{Oi=Oˆ
+i=k}
+PN
+i=1 I
+{Oi=Oˆ
+i=k}+
+PN
+i=1 I
+{Oi=k̸=Oˆ
+i}
++
+PN
+i=1 I
+{Oi=Oˆ
+i
+̸=k}
+PN
+i=1 I
+{Oi=Oˆ
+i
+̸=k}+
+PN
+i=1 I
+{Oˆ
+i=k̸=Oi}
+!
+represents the k-th class-specific balanced accuracy, and Equation (8) represents the average of these balanced accuracy values across all classes.
+After all the classifiers are tuned and trained, their performance in terms of the balanced
+accuracy of the predictions in the test set (holdout sample) is presented in Table 3. The table
+shows the by-class balanced accuracy of each classifier as well as the average across all classes,
+and the best score is highlighted in each class or among all averages.
+Classifier By-Class Balanced Accuracy Average PV DB FE ITE
+Decision tree 0.8373 0.7827 0.6369 0.6357 0.7231
+Random forest 0.8506 0.7976 0.7151 0.7193 0.7707
+Gradient boosted trees 0.8534 0.7993 0.7270 0.6991 0.7697
+Linear discriminant analysis 0.7005 0.6777 0.5244 0.5746 0.6193
+Multinomial logistic regression 0.7054 0.6817 0.4744 0.4864 0.5870
+Multi-layer perceptron 0.7515 0.7138 0.8571 0.4864 0.7022
+Stack (Trees) 0.8592 0.8021 0.7823 0.7799 0.8059
+Stack (Linear classifiers excluded) 0.8622 0.8030 0.7865 0.7698 0.8054
+Stack (All) 0.8616 0.8032 0.7760 0.7789 0.8049
+Table 3: Comparison of classification models.
+To summarize the performance comparison among different models, it is easy to observe that
+stacking models overall outperform their individual base classifiers. The best by-class accuracy
+scores and the best average accuracy score are all achieved by stacking models. Second, the
+distinction between the three stacking models is small. This suggests that the inclusion of
+classifiers other than tree-based models does not substantially improve the model performance.
+In addition, the by-class accuracy scores and the average balanced accuracy score attained by
+stacking models are generally close to 80%, which is a reasonably large proportion. Based on
+these three observations, the stacking classifier built on top of the three tree-based classifiers is
+adopted to predict incident-type occurrence probabilities.
+The numerical results, in terms of the predicted probabilities of the four incident types given
+different sets of company and incident characteristics, are presented in Table 10 of Section 5.
+13
+3.3 Incident-specific loss severity
+After predicting the occurrence probability of individual incident type, the next step is to model
+the loss severity conditioning on a given incident type. Therefore, another useful attribute of
+the dataset is the loss information on each incident. Excluding observations that belong to
+the “other” category, among all 84,373 incidents that belong to one of the 4 cyber incident
+categories, there are 3,978 observations with known losses. The summary statistics of those
+losses are shown in Table 4.
+Type Count Min. 1st Qu. Median Mean 3rd Qu. Max.
+PV 2,016 30 4,838 28,572 4,606,605 501,556 1,000,000,000
+DB 610 1 18,195 202,500 11,835,168 1,677,500 4,000,000,000
+FE 1,137 180 10,025 137,817 11,884,945 1,700,000 1,750,000,000
+ITE 215 200 20,000 194,850 4,994,540 1,050,000 200,000,000
+All 3,978 1 6,511 60,000 7,112,494 945,287 4,000,000,000
+Table 4: Summary statistics of losses by incident type.
+Prior to fitting any reasonable distributions to each conditional loss, it is essential to realize
+that the conditional loss distributions could be significantly different among cyber incident
+types. Table 5 shows the pairwise two-sample Kolmogorov-Smirnov (KS) tests on empirical loss
+distributions among various incident types. The numbers below the diagonal are the p-values
+of these KS tests. Based on the significance level 0.05, a p-value lower than this level suggests
+that the null hypothesis, that the two empirical samples being compared are from the same
+underlying distribution, should be rejected. Due to symmetry, the statistical decisions are noted
+above the diagonal. The result shows that the difference among the conditional losses of the
+four incident types is statistically significant, and hence there is the necessity of individually
+modeling each incident type’s loss severity, justifying the incident-specific insurance coverage.
+PV DB FE ITE
+PV - reject reject reject
+DB 0.00E+00 - reject reject
+FE 0.00E+00 0.00E+00 - reject
+ITE 2.83E-05 1.70E-06 2.84E-05 -
+Table 5: Pairwise comparison between empirical distributions of different incident types using
+pairwise two-sample Kolmogorov-Smirnov test.
+In addition, to show that loss severity distributions are mainly conditional on incident types
+but not on additional explanatory variables, we performed an ANOVA test with two linear
+regression models. One is a full model with total loss as the response variable, and with incident
+type, as well as all explanatory variables summarized in Table 2. The other model is a simple
+linear regression, and it has the total loss as the response variable, but has incident type as
+its only explanatory variable. The ANOVA test result, presented in Table 6, shows that the
+p-value of the test, 0.1447, is higher than any common choices of significance level, e.g., 0.05,
+0.01, etc. Therefore, we can conclude that the additional explanatory variables in Table 2 for the
+full model contribute little to the explanation of the variance in losses. This lack of explanatory
+14
+power could be an artifact of the limited data size, which makes it infeasible to build companyspecific severity models, but this situation can potentially be improved by a growing number of
+cyber incident records.
+Full Simple
+Residual Degrees of Freedom 2783 2829
+Residual Sum of Squares 2.33 × 1019 2.38 × 1019
+Difference in Degrees of Freedom −46
+Difference in Sum of Squares −4.71 × 1017
+F Statistic 1.2238
+p-value 0.1447
+Table 6: ANOVA test between the full model and the model with only incident type as its
+explanatory variable.
+Figure 2 shows that the majority of the cases realize moderately small losses, and a small
+number of cases realize substantial losses, indicating that the conditional loss distributions of
+all incident types are likely to be right-skewed. Therefore, we explore well-known distributions
+that could capture such a skewness, namely log-normal, exponential, gamma, and Weibull, for
+each cyber incident type.
+The parameters of each distribution are fitted using the maximum likelihood estimation
+method. All fitted distributions for the same cyber incident type are then compared based on
+their Akaike Information Criterion (AIC), which is defined as
+AIC = 2Nˆ − 2 ln(Lˆ),
+where Nˆ is the number of parameters to be estimated, and Lˆ is the maximum likelihood of the
+fitted model; a model with a smaller AIC value is better. Table 7 summarizes the best-fitted
+loss distributions for all cyber incident types. A comparison of the AICs of different fitted
+distributions is presented in Table 13 of Appendix D.1. The distribution fitting results suggest
+that it is most appropriate to treat losses of different incident types as log-normal random
+variables with different log-mean and log-standard-deviation parameters, as given in Table 7.
+Type Distribution µ σ
+PV log-normal -2.5996 3.2798
+DB log-normal -0.7916 3.1122
+FE log-normal -3.4100 2.8577
+ITE log-normal -1.9557 3.3629
+Table 7: Best fitted loss distribution of each incident type.
+3.4 Section summary
+Thus far, all the necessary model inputs for solving Problem (5) are obtained based on a dataset
+of historical cyber incidents. A brief recapitulation of the key findings in this section is as follows:
+15
+0
+500
+1000
+1500
+2000
+0e+00 1e+09 2e+09 3e+09 4e+09
+Loss ($)
+Frequency
+Incident Type
+Privacy Violation
+Data Breach
+Extortion/Fraud
+IT Error
+(a) All losses.
+0
+5
+10
+15
+5e+07 1e+09 2e+09 3e+09 4e+09
+Loss ($)
+Frequency
+Incident Type
+Privacy Violation
+Data Breach
+Extortion/Fraud
+IT Error
+(b) Losses greater than or equal to $10 million.
+Figure 2: Histogram of losses of different incident types.
+• In this study, the incident-specific cyber insurance policy would provide coverage for four
+types of incidents, including privacy violation, data breach, cyber fraud and extortion, and
+IT errors, i.e., K = 4.
+• The occurrence probabilities of individual incident types are specific to each company and
+incident, and the probability vector p = (p1, p2, . . . , pK) is obtained by feeding the selected
+company and incident features into a trained stacking classifier. This classifier achieves a
+balanced accuracy score of around 80%, as defined in Equation (8), for each incident type,
+which is superior to all other predictive models surveyed (see Table 3).
+• Incident-specific losses are statistically significant to be different in terms of severity. Additional explanatory variables, apart from the incident type, do not seem crucial for modeling the loss severity. Log-normal distributions provide the best fit for all conditional loss
+severity with estimated parameters presented in Table 7.
+This section demonstrates the feasibility of obtaining the model inputs necessary to solve Problem (5) from real-world data. With approximately 80% balanced accuracy scores associated
+with predictions of incident types and well-fitted condition loss severity distributions, they are
+expected to be practical and reliable to proceed to the next step.
+16
+4 Solution by Cross-Entropy Method
+As discussed before, even with the necessary model inputs to solve Problem (5), despite the
+minimization problem being finite-dimensional, it is also combinatorial and, therefore, cannot
+be solved analytically to derive the Pareto optimal θ and d, which are denoted as θ
+∗ and d
+∗
+.
+In this paper, we resort to the cross-entropy method (CEM) proposed in Rubinstein (1999) and
+Rubinstein (2001). The following subsection provides a brief review of the CEM adopting our
+own minimization problem in (5).
+4.1 Brief review of cross-entropy method
+To simplify the notations, let z = (d, θ) ∈ Z = R
+4
++ × {0, 1}
+4
+, and simply write the objective
+function in Problem (5) as F (z) (keeping in mind that it depends on the (conditional) distributions of X and O which are model inputs from Section 3). Thus, Problem (5) is minz∈Z F (z). It
+is well-known that an z
+∗ ∈ Z is optimal, if and only if, for any ε > 0, there exists an z ∈ Z such
+that F (z) < F (z
+∗
+) + ε; this is also equivalent with requiring that for any ε > 0, z
+∗ ∈ Zε (z
+∗
+),
+where Zε (z
+∗
+) = {z ∈ Z : F (z) < F (z
+∗
+) + ε}.
+The CEM is a numerical method to solve Problem (5) by adopting a probabilistic approach
+to the characterization for optimality above. To this end, let Z be a random vector with range
+Z. The optimality can then be further characterized by the fact that considering all possible
+distributions of Z, for any ε > 0, P (Z ∈ Zε (z
+∗
+)) = P (F (Z) < F (z
+∗
+) + ε) is maximized by the
+Dirac delta distribution δz
+∗ with the optimal objective value being 1 uniformly for all ε > 0.
+However, to maximize this associated probabilistic objective, z
+∗
+, the unknown to be solved for,
+has to be known ex-ante. Hence, together with considering only parametric distributions of
+Z, the CEM solves the approximation counterpart of z
+∗ as follows: for any τ being larger but
+close enough to F (z
+∗
+), solve an u
+∗
+(τ ) ∈ U which maximizes P (F (Z) ≤ τ ; u), where Z follows
+a distribution with a parametric density function f (z; u), for z ∈ Z and u ∈ U, and U is the
+parameter set for the distributions of Z under consideration. But still, without knowing z
+∗
+, the
+level τ in this approximation counterpart could not be chosen appropriately.
+The CEM proposes a two-phase approach to construct a sequence {(ˆτt
+, uˆt)}
+∞
+t=1 such that it
+will converge to an (ˆτ, uˆ), where (ˆτ, uˆ) is close to (F (z
+∗
+), u
+∗
+), and thus serves as for the unknown
+(F (z
+∗
+), u
+∗
+), and where u
+∗ ∈ U such that f (·; u
+∗
+) is the corresponding Dirac density of the Dirac
+delta distribution δz
+∗ . The main steps of the two-phase construction are as follows. Initialize
+an uˆ0 ∈ U, and let t iterate through 1, 2, . . . with (ˆτt
+, uˆt) being updated in each iteration. The
+τˆt
+, for t = 1, 2, . . . , is defined as the ϱ-th quantile of the sample drawn from the distribution
+f (·; uˆt−1), where ϱ ∈ (0, 1) is close to 0 but is moderately small and uniform for all t = 1, 2, . . . ;
+in turn, the uˆt
+, for t = 1, 2, . . . , is defined as the maximizer of the following problem:
+max
+ut∈U
+Eˆ
+
+I{F(Z)≤τˆt}
+ln f (Z; ut) ; uˆt−1
+
+, (9)
+where Eˆ [·; uˆt−1] represents the estimated mean of the same sample drawn from the distribution
+f (·; uˆt−1). This two-phase update repeats itself until the estimated variance of the next sample
+drawn from the updated distribution f (·; uˆt) is small enough and the ˆτt does not change from
+those in the last few update steps (see Benham et al., 2017). Therefore, the main idea of the
+construction is, first estimating an unknown level ˆτt being larger but close enough to F (z
+∗
+) as
+17
+it is the ϱ-th sample quantile with ϱ being close to 0 using the parameter uˆt−1, and second,
+estimating a parameter uˆt such that the event {F (Z) ≤ τˆt} with Z ∼ f (·; uˆt) is much more
+likely to happen, compared to the case that Z ∼ f (·; uˆt−1) when its likelihood is given by a
+moderately small ϱ, so to sequentially maximize P (F (Z) ≤ τˆt
+; ut). In the second phase, the
+estimated parameter uˆt
+is to minimize the cross-entropy between the unknown optimal density,
+for importance sampling, and a reference density in the same parametric family; this is equivalent
+to maximizing (9).
+Note that in solving (9), only the observations in the sample drawn from the distribution
+f (·; uˆt−1) satisfying the event condition, F (Z) ≤ τˆt
+, are useful to calculate its objective; this
+motivates the introduction of an elite sample consisting of observations in the original sample
+satisfying the condition. Algorithm 1 provides the pseudo-code of the CEM.
+Algorithm 1: Cross-Entropy Method
+Input: ϱ ∈ (0, 1) //Elite sample proportion
+1 f (·; ·) //Parametric distribution of Z
+2 uˆ0 //Initial parameter for f (·; ·)
+3 ν //Variance stopping criterion
+4 l //Lag between iterations in which approximated optimums are compared
+5 N //Sample size
+6 F //Objective function
+Output: Sample from f (·; uˆ) //Approximation of z
+∗
+7 t ← 0
+8 NE ← ⌈ϱN⌉ //Elite sample size
+9 Draw random sample n
+z
+(t)
+1
+, z
+(t)
+2
+, . . . , z
+(t)
+N
+o
+from distribution with density f(·; uˆt)
+10 Calculate element-wise sample variances V
+(t)
+k
+, for k = 1, 2, . . . , 2K
+11 ∆ ← ∞
+12 while max 
+V
+(t)
+1
+, V (t)
+2
+, . . . , V (t)
+2K
+
+> ν or ∆ ̸= 0 do
+13 y
+(t)
+i ← F(z
+(t)
+i
+) for i = 1, 2, . . . , N
+14 Select elite sample E
+(t) =
+n
+z
+(t)
+i
+: F
+
+z
+(t)
+i
+
+= y
+(t)
+(i)
+, i = 1, 2, . . . , NE
+o
+15 τˆt ← y
+(t)
+(NE)
+16 if t ≥ l then
+17 ∆ ← max(|τˆt − τˆt−1|, |τˆt − τˆt−2|, . . . , |τˆt − τˆt−l
+|)
+18 end
+19 Obtain an estimate uˆt+1 using the elite sample E
+(t)
+20 t ← t + 1
+21 Draw random sample n
+z
+(t)
+1
+, z
+(t)
+2
+, . . . , z
+(t)
+N
+o
+from distribution with density f(·; uˆt)
+22 end
+23 T ← t
+24 return z(T)
+1
+//Arbitrarily choosing the first observation because
+observations are similar due to small variance
+18
+4.2 Implementation considerations and results
+The actual implementation of this optimization problem consists of two parts, including computing the objective function and implementing the CEM.
+The objective function is the sum of the VaRs of both parties. As suggested by Equations (6)
+and (7), the distribution of either the buyer’s or the seller’s loss random variable is a mixture of
+distributions of incident-specific losses, and the mixture distribution has no closed-form quantile
+function that returns the Value-at-Risk of concern easily. Therefore, relying on the mixture
+distribution function, we adopted a lookup approach to numerically find a point that satisfies
+Equation (3) on a fine grid. In this study, risk tolerance levels of the seller and the buyer are
+set at α = 0.95 and β = 0.9, respectively.
+Although the CEM has a guaranteed asymptotic convergence (see, for example, Rubinstein
+(2002) and Margolin (2005)), the number of iterations needed to meet the stopping criteria is
+uncertain because of the randomness introduced during the sampling processes. Therefore, a
+common approach to addressing this issue in algorithm implementation is adding additional
+stopping rules to ensure that the running time of optimization tasks is manageable. Typical
+rules may include enforcing a maximum number of iterations and assuming convergence if the
+value of the objective function has not experienced a large enough improvement for a predefined
+number of iterations. These rules, along with the randomness in sampling, cause the algorithm
+in our implementation not always converge timely and not always stop at the same value. As
+suggested by Benham et al. (2017), the optimization process shall be repeated several times
+for quality investigation and assurance. Hence, for each set of incident probabilities predicted
+based on certain company and incident characteristics, we ran 50 trials of the CEM to solve
+the optimization with different random seeds, while holding other specifications constant (see
+Appendix C). Results from all trials are stored for further analysis.
+Table 9 shows the results of five out of those 50 trials. Trial 5 converged to an “optimum”
+larger than that achieved by Trial 1, suggesting that the algorithm could possibly stop at a
+non-optimal point. This highlights the necessity of multiple trials. Another observation is that,
+although most of the trials reach a converging state after a few numbers of iterations (see, e.g.,
+Trials 1, 4, and 5), there exist initial random states that cause the program to fail to meet the
+convergence criteria when the preset maximum number of iterations is reached, e.g., Trials 2
+and 3. Unless reducing the maximum number of iterations at the risk of more non-convergent
+trials, the great gap between numbers of iterations needed by different trials brings the challenge
+that even in a multiprocessing environment, congestion occurs when computational resources are
+occupied by those long-running trials, making solving the optimization problem with repeating
+trials time-consuming.
+Table 8 shows the amount of time spent on finding optimal insurance designs for 5 individual
+organizations using the CEM. The computation is done on 4 IBM POWER9 CPU cores. For
+each company, it takes around 2 minutes to complete each trial. Given that we ran 50 trials for
+each company, the running time generally could easily exceed an hour.
+Other than the long running time problem, the solution to the minimization problem in
+Equation (5) is not unique, as presented in Asimit et al. (2021) for the case of two incident types.
+The value of each element of d
+∗
+could lie in some intervals, composed of points that result in the
+19
+Organization
+1 2 3 4 5
+Count 50 50 50 50 50
+Mean (s) 211.13 108.06 104.13 123.65 125.21
+Standard Deviation (s) 317.31 160.15 162.98 181.67 185.44
+Minimum (s) 24.97 11.68 9.62 15.41 14.84
+25% Quantile (s) 43.58 20.27 22.62 27.85 25.94
+50% Quantile (s) 68.18 34.78 36.63 45.37 40.52
+75% Quantile (s) 155.92 86.31 83.39 99.20 94.85
+Maximum (s) 975.61 538.80 539.01 612.82 542.56
+Sum (s) 10556.59 5402.97 5206.36 6182.30 6260.34
+Table 8: Descriptive statistics on the number of seconds (s) spent on finding the optimal insurance design using the CEM
+same minimum. Table 9 shows that although both Trial 1 and 4 reached the converging state and
+attained the same minimum, their solutions, d
+∗
+in particular, differ. Nevertheless, the results
+provide common ground to insurers and policyholders on the design of an incident-specific cyber
+insurance contract. As shown in Table 9, based on the company’s own characteristics and the
+risk preferences of the company and the insurer, both parties should agree that in comprehensive
+cyber insurance covering PV, DB, FE, and ITE, a policy limit should be implemented for PV,
+whereas deductibles should be applied on other incident-specific coverages, since θ
+∗ = (0, 1, 1, 1).
+While holding the risk of both parties unchanged, deductible and limit amounts can be negotiated
+for other possible considerations, one of which is discussed in the next section.
+Despite the computational challenges and non-unique solutions, the benefit of such an
+incident-specific insurance contract is readily seen from the comparison between the risks taken
+by both parties with and without insurance. In the folloiwng, refer to Trials 1 to 4. If the
+company chooses not to buy an incident-specific policy specified in Table 9, it will take the
+risk of $13.6984 million. If it chooses to get covered, the appropriate amount of premium π (in
+millions) paid by the buyer should satisfy $2.2977 ≤ π ≤ $4.6595 according to Inequality (2),
+and that will yield a risk reduction of $4.6595 million, which is always greater than the paid
+premium. From the insurer’s perspective, the insurance contract will bring a risk of $2.2977 million, but that will be fully compensated by the collected premium. As a result, both parties are
+mutually benefited on their own objectives; their aggregate risk is reduced by $2.3618 million,
+from $13.6984 million to $11.3366 million, which could be effective if the premium is agreed to
+be lower than the reduced aggregate risk in its range. Again, note that the premium discussed
+in this paper is derived economically which could be actuarially priced in the insurance practice.
+5 Function Approximation
+In Section 4.2, two computational challenges are discussed in the implementation of the optimization algorithm, including the numerical evaluation of quantiles of loss random variables
+and random states that lead to non-convergent trials. Both challenges induce long running
+time and could make this policy design less practical in the production environment. To speed
+20
+Trial 1 2 3 4 5
+p
+∗
+1
+(PV) 0.3383
+p
+∗
+2
+(DB) 0.5717
+p
+∗
+3
+(FE) 0.0700
+p
+∗
+4
+(ITE) 0.0200
+Random seed 0 8 13 6 2
+No. of iterations 11 401 401 41 54
+Convergence
+status
+Variance
+converged
+Not
+converge
+Not
+converge
+Variance
+converge
+Variance
+converged
+Optimum (millions) 11.3366 11.3381
+θ
+∗
+1
+(PV) 0 0
+θ
+∗
+2
+(DB) 1 1
+θ
+∗
+3
+(FE) 1 1
+θ
+∗
+4
+(ITE) 1 1
+d
+∗
+1
+(millions, PV) 0.0531 0.0474 0.1074 0.0511 0.0334
+d
+∗
+2
+(millions, DB) 0.1011 0.1153 0.0982 0.1276 0.0941
+d
+∗
+3
+(millions, FE) 0.1167 0.0210 0.0107 0.0979 0.0520
+d
+∗
+4
+(millions, ITE) 0.1151 0.0195 0.0435 0.0314 0.0585
+Buyer’s risk without
+insurance (millions) 13.6984 13.6984
+Buyer’s risk with
+insurance (millions) 9.0389 9.0389
+Buyer’s risk
+reduction (millions) 4.6595 4.6595
+Seller’s risk without
+insurance (millions) 0.0000 0.0000
+Seller’s risk with
+insurance (millions) 2.2977 2.2992
+Seller’s risk
+increase (millions) 2.2977 2.2992
+Aggregate risk without
+insurance (millions) 13.6984 13.6984
+Aggregate risk with
+insurance (millions) 11.3366 11.3381
+Aggregate risk
+reduction (millions) 2.3618 2.3603
+Premium range
+(millions) [2.2977, 4.6595] [2.2992, 4.6595]
+Table 9: Results of five trials of CEM with the same set of predicted incident probabilities.
+21
+up the computation process, we make use of function approximation to find a target function,
+which establishes a more direct mapping between incident properties, including their occurrence probabilities and severities, and the parameters of the eventual indemnity functions in the
+incident-specific policy. Note that in this study, the distribution parameters of incident severities are fixed, and only probabilities vary depending on company characteristics; therefore, more
+precisely speaking, the mapping is only between incident probabilities and indemnity function
+parameters.
+In this section, we distinguish between true solutions, which are obtained by using CEM
+to approximately solve Problem (5), and fitted solutions, which are obtained through function
+approximation. By using fitted solutions to approximate true solutions, such that the fitted
+solutions result in the same optimum in Problem (5) as the true solutions, the end goal is
+that once a company’s characteristics are fed into the trained stacking classifier built in Section
+3.2, the corresponding probability vector can be used as inputs of the approximate function to
+generate the parameters of the optimal incident-specific cyber insurance, i.e., θˆ and dˆ.
+5.1 Sample selection
+Provided that the true solutions to Problem (5) are non-unique, as shown in Section 4, the
+mapping between p and (θ
+∗
+, d
+∗
+) is one-to-many. This could potentially lead to a lack of fit and
+suboptimal fitted solutions. The suboptimality is a result of the fact that the true solutions of
+individual d
+∗
+k
+, for k = 1, . . . , K, are on disjoint intervals on the real line (see Asimit et al., 2021)
+but the function approximation process can easily disregard that premise if, with respect to the
+same set of probabilities, the divergence between the fitted solution and all true solutions, e.g.,
+mean squared error or mean absolute error, is to be minimized because the fitted value could
+plausibly be outside the intervals where the true solutions reside in.
+Therefore, instead of looking for a fitted solution with the smallest average deviation from
+all true solutions, it is more guaranteed to find an optimal fitted solution close to one of the true
+solutions. In this study, to identify a unique true solution, we choose the one that minimizes the
+seller’s expected loss among non-unique true solutions. That is, the solution selected for function
+approximation is, therefore, arg min(d,θ)∈SELs(d, θ; X, O), where S is the set of Pareto optimal
+(θ
+∗
+, d
+∗
+) computed by the CEM. This strategy serves as an illustration of how a unique true
+solution can be chosen based on additional preferences, while in practice, alternative preferences
+can be used to compare among the non-unique solutions to Problem (5) and choose the best
+one.
+5.2 Function approximation procedure
+Because d depends on θ, the function approximation follows a two-step process. The relationship
+between probabilities p and the types of indemnities θ is first approximated, for which p are
+seen as features, and θ are seen as labels. Because each θk, for k = 1, . . . , K, takes the value of
+either 0 or 1 and is not mutually exclusive, predicting θ is a multi-label classification problem.
+Then, conditioning on θ, the mapping between probabilities p and the amounts of incidentspecific deductibles or limits d shall be approximated, and this is a multi-output regression
+problem. Because there are 2K distinct values of θ, the number of regression models to build is
+22
+2
+K. The target function to be approximated then consists of both the classification model and
+the conditional regression models.
+Let G: (0, 1)K → {0, 1}
+K be the classifier and Hθ : (0, 1)K → R
+K
++ be the conditional regression models depending on θ. In addition, the sample created in Section 5.1 is split into a
+training set {(ps; θ
+∗
+s
+, d
+∗
+s
+)}
+S1
+s=1 and a test set {(pS1+s; θ
+∗
+S1+s
+, d
+∗
+S1+s
+)}
+S2
+s=1, where S1 and S2 are the
+sizes of the two sets, respectively. The function approximation procedure can be summarized in
+Algorithm 2.
+Algorithm 2: Function Approximation: Model training and testing
+//Training
+Input: {(ps; θ
+∗
+s
+, d
+∗
+s
+)}
+S1
+s=1, initial classifier G0
+, initial regression models H0
+θ
+Output: Trained classifier G∗
+, trained regression models H∗
+θ
+1 Training the multi-label classifier G0 on the training set with p as features and θ as
+labels
+2 for θ ∈ {0, 1}
+K do
+3 Training the multi-output regression model H0
+θ
+on the training set with p as
+features and d as labels
+4 end
+//Testing
+Input: {(pS1+s; θ
+∗
+S1+s
+, d
+∗
+S1+s
+)}
+S2
+s=1, trained classifier G∗
+, trained regression models H∗
+θ
+Output: Error rate, fitted solutions {(θˆ
+S1+s, dˆ
+S1+s)}
+S2
+s=1
+5 for s = 1, 2, . . . , S2 do
+6 θˆ
+S1+s ← G∗
+(pS1+s)
+7 dˆ
+S1+s ← H∗
+θˆ
+S1+s
+(pS1+s)
+8 ϵS1+s ← F(d
+∗
+S1+s
+, θ
+∗
+S1+s
+; X, O) − F(dˆ
+S1+s, θˆ
+S1+s; X, O)
+9 end
+10 Error rate ←
+PS2
+s=1 I{ϵS1+s̸=0}
+ 
+S2
+For the evaluation of the fitted solutions produced on the test set, error is defined as the
+difference between the values of the objective function in Problem (5) when true solutions and
+fitted solutions are provided, respectively, i.e., ϵs = F(d
+∗
+s
+, θ
+∗
+s
+; X, O) − F(dˆ
+s, θˆ
+s; X, O). The error
+rate is used as a performance measure of the target function, which represents the ratio of
+predictions made on the test set resulting in the same optimums as true solutions.
+5.3 Numerical results
+For each distinct set of probabilities p, 50 corresponding true solutions are computed using the
+CEM, each of which has a different random state, and then among them, a unique true solution,
+which minimizes the seller’s expected loss, is selected for the sample in function approximation.
+The computation of individual optimization tasks with specifications as shown in Appendix
+C is parallelized on 96 CPU cores. During each 24-hour wall-clock time, the average number
+of unique true solutions that can be generated is around 790. This computationally intense
+process highlights the necessity of the use of function approximation in practice. For both the
+23
+classification and regression tasks, we build tree-based models using the LightGBM framework
+(see Ke et al. (2017)), with a training set of size 2,201. Table 10 shows the fitted solutions of
+five organizations, provided their organizational characteristics.
+This table summarizes multiple aspects of the workflow proposed by this paper. First,
+there are indeed different optimal incident-specific insurance designs for organizations of distinct
+characteristics. The presented organizations vary in litigation history, size, ownership, location,
+and industry. These characteristics can be used as rating factors in the underwriting process,
+and the insurer should be able to collect these pieces of information on the insurance buyer
+conveniently. This result validates the practice of coverage being designed in an incident-specific
+manner.
+Second, similar to the results shown in Table 9 of Subsection 4.2, Table 10 demonstrates
+how both the insured and the insurer can be mutually benefited from an incident-specific cyber
+policy. Indeed, Organization 1 is the same organization used to derive the results in Table 9, and
+the numbers regarding risks with and without insurance and the premium range are identical
+in both tables. We shall relegate readers to Subsection 4.2 for a detailed account of the policy
+being mutually beneficial to both parties. In addition, the same conclusion can be drawn from
+the other four organizations presented in Table 10, suggesting that the proposed incident-specific
+policy can offer such a benefit to organizations of different characteristics. However, Table 10
+shows that the effectiveness of aggregate cyber risk reduction does not always hold. Indeed, while
+the premiums to be charged for Organizations 1, 2, and 3 could be lower than their respective
+aggregate cyber risk reductions, the premiums to be charged for Organizations 4 and 5 must be
+larger than their respective aggregate risk reductions.
+Lastly, in most cases, the target function can produce solutions that yield the exact optimum
+as the true solutions generated by the CEM. A small percentage of the fitted solutions are
+non-optimal; see, for example, Organization 2. This problem can potentially be mitigated by
+employing a larger training set to train the target function. Overall, an error rate of 0.22 on
+the test set of size 790 is attained. That is, 78% of the fitted solutions result in the same
+optimal risks as those given by true solutions. The slight compromise in accuracy leads to high
+computational efficiency. For a test set of size 5, the time needed for computing the fitted
+solutions is approximately 0.068 seconds. The running time here and the running time of the
+CEM presented in Table 8 are measured on the same hardware. Compared to the aforementioned
+CEM, which may take hours to solve the problem, the usage of function approximation makes
+it much more feasible to generate policy specifications on the fly in the production environment.
+6 Conclusions and Future Directions
+In this paper, we proposed a workflow for the design of incident-specific cyber insurance. It
+consists of three key components, including the estimation of model inputs using public and
+proprietary data in the underwriting process, the Pareto optimal objective based on the insured’s
+and the insurer’s preference orderings by their risk measures, and solvers for the optimization
+problem. Using real cyber incident data, we showed how this workflow generates incident-specific
+policies that lower the total risk taken by the insured and the insurer. We also demonstrated
+that the proposed workflow can be time efficient with the help of function approximation if there
+is a time constraint on the delivery of results, which is common for insurers that provide quotes
+24
+Organization 1 2 3 4 5
+NCASE 55 652 28 3300 270
+EMP 4500 25105 119 16000 7908
+REV (millions) 461.47 40653.00 0.72 2662.68 1448.391
+CTYPE Private Public Private Public Other
+STATE Other California Arizona Connecticut Florida
+IND Services Services Retail Trade Transportation &
+Public Utilities
+Public
+Administration
+Incident Occurrence
+AFTER2012 Yes Yes Yes Yes Yes
+MON January January January March March
+p1 0.3383 0.4401 0.4700 0.4340 0.2300
+p2 0.5717 0.3340 0.3400 0.4360 0.4800
+p3 0.0700 0.1764 0.1600 0.0600 0.1900
+p4 0.0200 0.0495 0.0300 0.0700 0.1000
+ˆθ1 0 1 1 0 0
+ˆθ2 1 1 1 1 1
+ˆθ3 1 0 0 1 1
+ˆθ4 1 0 0 1 0
+ˆd1 (millions) 0.1430 0.0968 0.0943 0.1318 0.1094
+ˆd2 (millions) 0.1502 0.0901 0.0924 0.1636 0.1852
+ˆd3 (millions) 0.0957 0.0904 0.0781 0.0918 0.1477
+ˆd4 (millions) 0.0768 0.1490 0.1249 0.0974 0.1228
+CEM optimum
+(millions) 11.3366 7.4182 7.7513 9.7930 9.2889
+Function
+approximation
+optimum (millions)
+11.3366 7.4197 7.7513 9.7930 9.2889
+Error
+(millions) 0.0000 0.0015 0.0000 0.0000 0.0000
+Buyer’s risk without
+insurance (millions) 13.6984 8.5989 8.7049 11.4981 11.3691
+Buyer’s risk with
+insurance (millions) 9.0389 6.9697 7.4837 5.9956 6.5337
+Buyer’s risk
+reduction (millions) 4.6595 1.6292 1.2212 5.5025 4.8354
+Seller’s risk without
+insurance (millions) 0.0000 0.0000 0.0000 0.0000 0.0000
+Seller’s risk with
+insurance (millions) 2.2977 0.4500 0.2676 3.7974 2.7552
+Seller’s risk
+increase (millions) 2.2977 0.4500 0.2676 3.7974 2.7552
+Aggregate risk without
+insurance (millions) 13.6984 8.5989 8.7049 11.4981 11.3691
+Aggregate risk with
+insurance (millions) 11.3366 7.4197 7.7513 9.7930 9.2889
+Aggregate risk
+reduction (millions) 2.3618 1.1792 0.9536 1.7051 2.0802
+Premium range
+(millions) [2.2977, 4.6595] [0.4500, 1.6292] [0.2676, 1.2212] [3.7974, 5.5025] [2.7552, 4.8354]
+Table 10: Comparisons between exact solutions solved by the CEM and fitted solutions by
+function approximation.
+25
+and coverages on the fly.
+Despite the time efficiency of using an approximated target function, one limitation is that
+the optimum is not always attained by the fitted solutions generated by the target function.
+Therefore, the benefits and risks of using this approach should be weighed in practice. Another
+limitation of this study is that, because of the scarcity of data on cyber incident losses, it is not
+feasible to model company-specific loss distributions for individual incident types, and therefore we only considered how incident type realizations are related to company characteristics,
+regardless of the relationship between those characteristics and the potential cyber losses. This
+issue could possibly be resolved in future studies if a better quality of cyber loss dataset is available. Lastly, this study assumes that indemnity functions are specific to cyber incident types,
+or equivalently perils, only. In practice, deductibles and limits could also be placed on more
+granular levels like covered assets, such as hardware, data, or business income; see, for example,
+Chong et al. (2022). Depending on the use case, the proposed workflow can easily be adopted
+for policies that offer coverages at such more granular level.
+Acknowledgments
+Wing Fung Chong, Dani¨el Linders, and Linfeng Zhang are supported by a 2018 Ignacio Hernando de Larramendi Research Grant from the Fundaci´on MAPFRE. Wing Fung Chong, Dani¨el
+Linders, Zhiyu Quan, and Linfeng Zhang are supported by a Centers of Actuarial Excellence
+(CAE) Research Grant (2019–2021) from the Society of Actuaries (SOA). Any opinions, findings, conclusions, or recommendations expressed in this material are those of the authors and
+do not necessarily reflect the views of the Fundaci´on MAPFRE and the SOA.
+26
+References
+AIG (2019). CyberEdge® Policy Documentation. url: https://www.aig.co.uk/content/dam/
+aig/emea/united- kingdom/documents/Financial- lines/Cyber/cyberedge- policydocumentation.pdf.
+Amin, Zeinab (2017). “A Practical Road Map for Assessing Cyber Risk”. Journal of Risk Research 22.1, pp. 32–43.
+Asimit, Alexandru V. and Tim J. Boonen (2018). “Insurance with multiple insurers: A gametheoretic approach”. European Journal of Operational Research 267.2, pp. 778–790.
+Asimit, Alexandru V., Tim J. Boonen, Yichun Chi, and Wing Fung Chong (2021). “Risk sharing
+with multiple indemnity environments”. European Journal of Operational Research 295.2,
+pp. 587–603.
+Benham, Tim, Qibin Duan, Dirk P. Kroese, and Benoˆıt Liquet (2017). “CEoptim: Cross-Entropy
+R Package for Optimization”. Journal of Statistical Software 76.8.
+Cebula, James and Lisa Young (2010). A Taxonomy of Operational Cyber Security Risks. Tech.
+rep. CMU/SEI-2010-TN-028. Pittsburgh, PA: Software Engineering Institute, Carnegie Mellon University. url: http : / / resources . sei . cmu . edu / library / asset - view . cfm ?
+AssetID=9395.
+Chong, Wing Fung, Runhuan Feng, Hins Hu, and Linfeng Zhang (2022). Cyber Risk Assessment
+for Capital Management. arXiv: 2205.08435 [q-fin.RM].
+Dacorogna, Michel, Nehla Debbabi, and Marie Kratz (2023). “Building up cyber resilience by
+better grasping cyber risk via a new algorithm for modelling heavy-tailed data”. European
+Journal of Operational Research 311.2, pp. 708–729.
+Eling, Martin and Jan Wirfs (2019). “What Are the Actual Costs of Cyber Risk Events?”
+European Journal of Operational Research 272.3, pp. 1109–1119.
+Equifax (2017). 2017 Cybersecurity Incident & Important Consumer Information. url: https:
+//www.equifaxsecurity2017.com/consumer-notice/.
+Ghadge, Abhijeet, Maximilian Weiß, Nigel D. Caldwell, and Richard Wilding (2019). “Managing
+cyber risk in supply chains: a review and research agenda”. Supply Chain Management: An
+International Journal 25.2, pp. 223–240.
+Grandini, Margherita, Enrico Bagli, and Giorgio Visani (2020). “Metrics for Multi-Class Classification: an Overview”. arXiv: 2008.05756 [stat.ML].
+Greene, Jay (2020). Amazon’s cloud-computing outage on Wednesday was triggered by effort to
+boost system’s capacity. url: https://www.washingtonpost.com/technology/2020/11/
+28/amazon-outage-explained.
+Holland, Jake (2021). Facebook’s $650 Million Privacy Settlement Approved By Judge. url:
+https : / / news . bloomberglaw . com / privacy - and - data - security / 650 - million -
+facebook-privacy-settlement-approved-by-judge.
+Johansmeyer, Tom (2021). “Cybersecurity Insurance Has a Big Problem”. Harvard Business
+Review. url: https : / / hbr . org / 2021 / 01 / cybersecurity - insurance - has - a - big -
+problem (visited on 06/15/2023).
+Ke, Guolin, Qi Meng, Thomas Finley, Taifeng Wang, Wei Chen, Weidong Ma, Qiwei Ye, and
+Tie-Yan Liu (2017). “Lightgbm: A highly efficient gradient boosting decision tree”. Advances
+in neural information processing systems 30, pp. 3146–3154.
+Kesan, Jay P. and Linfeng Zhang (2020). “Analysis of Cyber Incident Categories Based on
+Losses”. ACM Transactions on Management Information Systems 11.4, pp. 1–28.
+Margolin, L. (2005). “On the Convergence of the Cross-Entropy Method”. Annals of Operations
+Research 134.1, pp. 201–214.
+27
+Marotta, Angelica, Fabio Martinelli, Stefano Nanni, Albina Orlando, and Artsiom Yautsiukhin
+(2017). “Cyber-insurance survey”. Computer Science Review 24, pp. 35–61.
+Merz, Christopher J. (1999). “Using Correspondence Analysis to Combine Classifiers”. Machine
+Learning 36.1/2, pp. 33–58.
+NIST (2018). Framework for Improving Critical Infrastructure Cybersecurity. National Institute
+of Standards and Technology. url: https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.
+CSWP.04162018.pdf.
+Office of Cybersecurity, Energy Security, and Emergency Response (2021). Colonial Pipeline
+Cyber Incident. url: https : / / www . energy . gov / ceser / colonial - pipeline - cyber -
+incident.
+Romanosky, Sasha, Lillian Ablon, Andreas Kuehn, and Therese Jones (2019). “Content Analysis
+of Cyber Insurance Policies: How Do Carriers Price Cyber Risk?” Journal of Cybersecurity
+5.1.
+Rubinstein, Reuven (1999). “The Cross-entropy Method for Combinatorial and Continuous Optimization”. Methodology And Computing In Applied Probability 1.2, pp. 127–190.
+Rubinstein, Reuven Y. (2001). “Combinatorial Optimization, Cross-entropy, Ants and Rare
+Events”. Applied Optimization. Springer US, pp. 303–363.
+Rubinstein, Reuven Y. (2002). “Cross-entropy and rare events for maximal cut and partition
+problems”. ACM Transactions on Modeling and Computer Simulation 12.1, pp. 27–53.
+Woods, Daniel, Ioannis Agrafiotis, Jason R. C. Nurse, and Sadie Creese (2017). “Mapping the
+coverage of security controls in cyber insurance proposal forms”. Journal of Internet Services
+and Applications 8.1.
+28
+Appendix A Explanatory Variables and Their Descriptions
+Explanatory Variable Description
+EMP Number of employees
+NCASE Number of Federal Docket cases linked to company
+REV Total revenue (in millions of USD)
+MON Month in which the incident occurs
+STATE State in which the victim company is based
+CTYPE Company type
+* PRV (Private)
+* PUB (Public)
+IND Industy by SIC divisions
+YEAR Whether the incident occurred before 2012 or after 2012
+Table 11: All explanatory variables and their descriptions.
+29
+Appendix B Classification Models
+Decision tree A decision tree (DT) splits the dataset based on the values of explanatory
+variables and attempts to partition the dataset into homogeneous subsets. Each split of a parent
+node is performed with the goal of reducing the Gini impurity of data in child nodes. Decision
+tree is known to have a tendency to overfit, which means that it can fit the training data well by
+growing a complex tree with granular partitions, but its performance can suffer when making
+predictions on new data. To mitigate this issue, three hyperparameters, including the maximum
+depth of the tree, the minimum number of samples required in each leaf, and the complexity
+parameter of the tree pruning process, are tuned by grid search with 5-fold cross validations, to
+improve the out-of-sample prediction performance of the built tree. The hyperparameter tuning
+process of all other classification methods mentioned in this paper are performed in the same
+way.
+Random forest Random Forest (RF) is an ensemble model that employs multiple classification trees, of which each is built based on a bootstrapped sample of the training set and a
+randomly selected subset of all explanatory variables. In the end, the probabilistic predictions
+made by all trees are averaged to give a final prediction. The randomness introduced by bootstrapping and randomly selected explanatory variables help reduce the variance of the model,
+thus mitigating the overfitting issue of a single classification tree, as discussed previously. Hyperparameters including the number of trees to build and the size of the subset of explanatory
+variables are tuned for performance improvement in this study.
+Gradient boosted trees Gradient boosted trees is another type of ensemble model based
+on decision trees. Instead of growing trees independently and then aggregating the results, the
+boosted method iteratively improves the performance of the previous tree-based classifier by
+updating it with a new tree that fits the residual. The updating process is a linear combination
+of the old classifier and the newly built tree, in which the coefficients minimize a certain loss
+function of the true values and the predicted values. Hyperparameters, including the learning
+rate, which governs how much each new tree contribute to the final classifier, and the total
+number of trees to build, are tuned.
+Linear discriminant analysis Linear discriminant analysis (LDA) solves an optimization
+problem, for which a transformation matrix is solved such that after the transformation, the
+ratio between the total between-class variance of data points measured in an Euclidean space
+and the total within-class variance is maximized. That is, data points in the same class are made
+as close to each other as possible, whereas data points belonging to different classes are separated
+to the largest extent. The advantage of this method over the three tree-based models introduced
+earlier is that there is an analytical solution to the transformation matrix, and thus the training
+time is minimal. The drawback, however, is that it imposes relatively strict assumptions on
+the data, such as multivariate normality, independence, and non-collinearity, which can rarely
+be fully satisfied by empirical data, and in that case, the performance can suffer. Given that
+our sample contains many dummy variables, the assumptions are largely violated. Nevertheless,
+this method is tested and compared with other models.
+30
+Multinomial logistic regression For multi-class problems, multinomial logistic regression (MLR) is a generalization of its binary counterpart. Let K denote the number of classes
+and for each class k = 1, 2, . . . , K, the probability pk of an observation with features vector x
+belonging to that class is modeled as follows,
+ln pk = βk · x − lnX
+K
+k=1
+e
+βk·x
+,
+where βk is the coefficient learned from the training set to minimize the cross-entropy loss function, and the term ln PK
+k=1 e
+βk·x is a normalizing factor that ensures PK
+k=1 pk = 1. Equivalently,
+pk =
+e
+βk·x
+PK
+k=1 e
+βk·x
+, for k = 1, 2, . . . , K
+which is the softmax function of βk · x.
+Multi-layer perceptron Multinomial logistic regression can be viewed as a single-layer
+perceptron without hidden layers, of which the activation function in the output layer is softmax,
+as introduced earlier. Thus, it would be interesting to compare multinomial logistic regression
+to multi-layer perceptron (MLP) models with additional hidden layers. Hidden layers enable the
+model to learn non-linear relationships, and thus might provide a better fitting. For experiment
+purposes, an MLP classifier with two hidden layers and ten neurons in each hidden layer is
+trained.
+Stacking classifier Lastly, stacking classifiers are built based on the results output by the
+different algorithms mentioned above. The motivation is that classifiers of different kinds are
+likely to produce errors in different ways, and thus combining their results with proper weights
+may result in reduced errors, as suggested in Merz (1999). To stack the base classifiers as
+introduced previously, their probabilistic predictions are collected and used as new features for
+building meta-classifiers on top of all individual models. The choice of the meta-classifier in this
+study is random forest. To see how different sets of base classifiers can affect the performance of
+the meta-classifier, three stacking classifiers are compared. The first uses only tree-based base
+classifiers, including decision trees, random forests, and gradient-boosted trees. The second
+stacking classifier excludes the two linear methods, which are linear discriminant analysis and
+multinomial logistic regression. The third stacking classifier includes all models mentioned
+previously as base classifiers.
+31
+Appendix C Optimization Parameters
+Model Inputs Value
+Seller’s Risk Level α 0.95
+Buyer’s Risk Level β 0.9
+CEM Specifications Value
+Initial Distribution of d Truncated multivariate normal with
+the mean and standard deviation of
+each marginal distribution to be 0
+and 100,000 respectively
+Initial Distribution of θ Multivariate Bernoulli with the
+success probability of each marginal
+distribution to be 0.5
+Variance threshold of d 0.1
+Variance threshold of θ 0.01
+Sample size N 10
+Elite sample proportion ϱ 0.2
+No-improve iterations before stop l 10
+Maximum Number of iterations 401
+Table 12: Seller’s and buyer’s risk levels and CEM specifications
+32
+Appendix D Severity Distribution Fitting Results
+D.1 Comparison of AICs of fitted distributions
+Privacy Violation Data Breach Extortion/Fraud IT Error
+log-normal 32.82 2154.44 -2135.91 294.72
+exponential 9422.81 5014.21 4259.55 1714.78
+gamma 939.88 2484.55 -1167.95 454.25
+weibull 269.59 2228.09 -1896.31 352.69
+Table 13: AICs of distributions fitted to incident-specific losses. For each incident type, the
+log-normal distribution has the lowest value among all fitted distributions.
+33

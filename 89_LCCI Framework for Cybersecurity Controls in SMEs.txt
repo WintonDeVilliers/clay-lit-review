@@ -1,0 +1,949 @@
+International Journal of Information Management Data Insights 2 (2022) 100080
+Contents lists available at ScienceDirect
+International Journal of Information Management Data
+Insights
+journal homepage: www.elsevier.com/locate/jjimei
+LCCI: A framework for least cybersecurity controls to be implemented for
+small and medium enterprises (SMEs)
+Shekhar Pawar, DBA∗
+, Dr. Hemant Palivela, Ph.D.
+Swiss School of Business and Management School, Geneva Business Center, Avenue des Morgines 12, Genève 1213, Switzerland
+a r t i c l e i n f o
+Keywords:
+Small and medium enterprise (SME)
+Cybersecurity
+Cybersecurity controls
+a b s t r a c t
+Globally Small and Medium Enterprises (SMEs) are the biggest contributors to the economy by providing twothirds of global employment opportunities and more than half the GDP of the developed economies. Regardless
+of many existing cybersecurity standards or frameworks, SMEs are most vulnerable to cyber threats. SMEs face
+serious impacts on their existence if undergo successful cyber-attacks by cybercriminals. There is a need to understand the challenges SMEs are facing especially in the implementation of cybersecurity controls. Through a
+research survey conducted by authors where one hundred and fifteen SMEs voluntarily participated, this research
+paper will throw light on the current cybersecurity controls implementation posture for different SMEs, along
+with the challenges they are facing which are stopping them to decide, plan and implement cybersecurity controls. Further, using an analysis of the inputs and the core concepts of cybersecurity, the authors are also going
+to propose a recommended solution for SMEs.
+List of abbreviations
+BFSI banking, financial services, and insurance
+BYOD bring your own device policy
+CIA triad confidentiality, integrity, and availability triad
+CIS critical infrastructure system
+DCS distributed control systems
+DiD defense in depth
+EMR electronic medical record
+ERP enterprise resource planning
+FMCG fast-moving consumer goods
+GRC governance, risk management, and compliance
+IoT internet of things
+ISO the international organization for standardization
+IT information technology
+MOCCI level minimum overall cybersecurity controls implementation
+level
+LCCI level least cybersecurity controls implementation level
+MCA mission critical asset
+MCAS level mission critical asset security level
+NIST the National Institute of Standards and Technology
+SCADA supervisory control and data acquisition
+SMB small and medium-sized business
+SME small and medium enterprise
+VAPT vulnerability assessment and penetration testing
+∗ Corresponding author.
+E-mail addresses: shekhar.pawar@grassdew.com (S. Pawar), hemant.datascience@gmail.com (Dr.H. Palivela).
+1. Introduction
+As per World Trade Organization, SMEs are representing not only
+more than 90 percent population of the business, 60 to 70 percent of
+employment but also 55 percent of the GDP of the developed economies
+(Globalnaps, 2017; WTO, 2016). There are about 400 million SMEs
+that can be considered the backbone of the worldwide economy. Generally, an SME can be defined as a non-subsidiary, independent firm
+that employs a specific number of employees also based on an annual
+turnover range. This definition varies between countries. The SME definition for the Asian country Malaysia, the enterprise should have an
+annual sales turnover from RM 300,000 to RM 50 million for Manufacturing sector businesses. Also for this sector, SMEs should have a
+minimum of 5 employees to a maximum of 200 employees. Similarly
+for services and other sectors, to fulfill SME criteria in Malaysia, an enterprise must have an annual sales turnover from RM 300,000 to RM
+20 million. Also in this sector, enterprises must have several employees from 5 to a maximum of 75 (Chin & Lim, 2018). For India, reference to Manufacturing Enterprises and Enterprises rendering Services
+according to the new definition of SME published in the year 2020,
+the enterprise should satisfy an annual turnover of more than Rs. 5
+crores till Rs. 250 crore, along with investment in plant and machinery or equipment more than 1 crore till the maximum of 50 crores
+(Ministry of Micro, Small, & Medium Enterprises, 2019). Few countries
+https://doi.org/10.1016/j.jjimei.2022.100080
+Received 16 October 2021; Received in revised form 6 May 2022; Accepted 6 May 2022
+2667-0968/© 2022 The Author(s). Published by Elsevier Ltd. This is an open access article under the CC BY-NC-ND license
+(http://creativecommons.org/licenses/by-nc-nd/4.0/)
+S. Pawar and Dr.H. Palivela International Journal of Information Management Data Insights 2 (2022) 100080
+use the term Small and Medium-Sized Businesses (SMB) as a similar
+word while defining the SME. Businesses having employees between
+100 and 500 are considered as SMBs in North America (Henson et al.,
+2011).
+It simply means that SMEs are very important for employment and
+a growing economy, and if SMEs are in trouble, then it will hamper
+those and GDP as well. Over the last few decades, the overall business
+world had moved into the digital era, but along with this Cyber Threats
+have increased globally. Even nowadays organization is implementing
+software systems with the distributed architecture using blockchain for
+various domains such as government, financial, healthcare, real estate,
+etc. (Mittal et al., 2021).
+Currently, SMEs have a larger attack surface than ever before, as
+with the digital needs for business, many of those are increasingly
+moving from the traditional way towards the high usage of the Internet and cloud. While with growing digitization, cloud computing is
+needed for almost all businesses, security aspects should not be ignored
+(Hemant et al., 2011). According to the NCSC, SMEs have a "one in
+two" chance of experiencing a cyber breach (SENSEON, 2019). According to recent statistics, cybercriminals are targeting 43 percent of small
+businesses, and deeper it is important to know that 60 percent of small
+businesses who happened to be victims of such cyber-attacks close their
+business within the next six months. As per studies, overall cybercrime
+costs more than $2.2 million a year for small and medium businesses
+(Shepherd, 2019). A recent report published by IBM shows the data
+breach cost has increased in the year 2020 as compared to the year
+2019 in SMEs.
+As compared to larger organizations, SMEs had a high average cost
+per employee for the data breach studied (IBM-Security, 2020).
+Referring to an existing broader definition of a cyber threat for
+an organization (NIST, 2018a), authors can trailer the definition
+of cyber threat for an SME as - an event or circumstance on an
+information system of an SME via either of an unauthorised access/destruction/disclosure/modification of information, and/or denial
+of service with the potential to adversely impact on its operations
+can impact either of it mission/functions/reputation/image, its assets/individuals associated with it, other organizations linked to it, or
+even the impact on particular state/country where it resides. Referring to the existing broader definition of cyber risk for an organization
+(NIST, 2018b), authors can trailer the definition of cyber risk for an SME
+as - the risk of depending on cyber re- sources present at SME, which can
+be financial loss, operational disruption, or damage, from the failure of
+the digital technologies employed for informational and/or operational
+functions. In the early digital era, information security was considered
+only for technical areas. Today it is considered also as covering administrative as well as people aspects. In short, it should cover people, processes, and technology areas (Khan et al., 2021). Cybersecurity controls’
+implementation helps as the countermeasures to detect, prevent, reduce,
+or counter-act security risks. If there is a new SME or any traditional
+SME which wants to go on the internet/cloud or say wants to go digital
+- there is no defined minimum or least cybersecurity controls they can
+implement to start with and proceed with maturity with well-known
+matured standards, concepts and frameworks over the time. Depending on the nature of the business domain and assets, prioritization of
+Confidentiality, Integrity, and Availability (popular CIA triads in cybersecurity) changes for any enterprise. This research will try to develop
+some solutions where SMEs can determine “which” security controls are
+more relevant to their domain as a “starting point” and so on. This research project will provide a high-level idea or overview of the Least
+Cybersecurity Controls to be implemented for SMEs to start with. In addition, as part of this research project, it will try to propose a conceptual
+framework of Levels of Cybersecurity Controls where SMEs can keep
+proceeding toward Cybersecurity Maturity - lowering Cyber Risks with
+each level up. The three levels approach for Least Cybersecurity Controls
+Implementation (LCCI) is shared as three LCCI Levels in incremental
+order.
+2. Literature survey
+While referring to existing literature, the authors will refer to
+the inputs from existing research studies focusing on the various
+cybersecurity-related problems faced by SMEs. Readers will also benefit
+by understanding the summary of a few common cyber-threats faced by
+SMEs. Further, the authors try to revisit the high-level understanding
+of the few existing cybersecurity standards, frameworks, and concepts,
+followed by a few concerns about the same which might be impacting
+decisions for implementation of those by SMEs. According to focused
+studies conducted for SMEs in the Middle East, around 56 percent of
+SMEs are at least aware of cybersecurity needs. In this study, researchers
+also found that the majority of SMEs, one out of five, had experienced
+cyber-attacks in the initial five years. Endpoint security solutions are
+used by 12.45 percent of SMEs, and firewalls are used by 10.2 percent
+of SMEs. It was observed that about half of the SMEs are either going to
+utilize cloud computing solutions (Ahmed & Nanath, 2021). According
+to a recent survey of SMEs in the United Kingdom, roughly 73 percent
+of businesses had trouble accessing cybersecurity information to adopt.
+Cyber-attacks and data loss were not considered a significant risk by
+one-third of businesses (Rae & Patel, 2019). According to another study
+conducted for SMEs in Kenya, businesses face two key hurdles when
+it comes to implementing cybersecurity. One was a lack of sufficient
+funds, and another was a lack of leadership support for cybersecurity implementation, which could be because they have other business-related
+issues that are a priority for them (Muhati, 2018). According to the research of SMEs in developing nations such as South Africa, challenges
+to implementing cybersecurity in SMEs include a lack of management
+support owing to other company objectives, a low budget, and a lack of
+resources with technical skills and cybersecurity tools (Armenia et al.,
+2021; Kabanda et al., 2018). Ransomware, data breaches, phishing attacks, smart grid attacks, IoT attacks, and even state-sponsored attacks
+are becoming more common in SMEs (Saleem et al., 2017). IoT devices
+are responsible for huge data generation from various sources, hence it
+is important that those also should get protected against cyber threats
+(Chatterjee et al., 2019b). Malicious HTML emails, web server compromise, data loss on portable devices, poor configuration management,
+insider threats, and a lack of contingency planning are some of the most
+common cyber threats that SMEs face, and cyber-attacks exploiting open
+vulnerabilities, employees’ careless use of the internet, wi-fi, or publicly
+available network. These attacks are carried out using compromised assets such as end-point operating systems, devices used to open emails,
+a website or its server, portable devices, databases at the organization,
+employee-owned devices within an organization, an enterprise’s entire
+network, IT infrastructure, and policies (Amrin, 2014). Also, few studies show that sometimes organizations have a budget limit to fix a few
+known vulnerabilities (Cohen et al., 2022). There are a few important
+cybersecurity standards, frameworks, and concepts helping enterprises.
+ISO 27001 is widely used for the overall cybersecurity of any enterprise,
+which prescribes and helps an enterprise establish and maintain an Information Security Management System (ISMS) (Beckers et al., 2013;
+ISO, 2013). NIST also provides a valuable framework for Cybersecurity
+which has five core functions which start at first with “Identify”, then
+“Protect”, then “Detect”, followed by “Respond” and finally “Recover”
+(Keller, 2019). NIST is also sharing a framework suitable for Small and
+Medium Businesses (SMBs), which is again based on these five functions (Swenson, 2016). NIST framework implementation still requires
+quite more resources to be successful, few areas are yet not properly
+mapped in it. Since smaller organizations are still doubtful about their
+potential as attack targets, they see little point in adopting the Framework in an incident where there is little or no risk of occurrence (Terese
+& Michael, 2018). Still, this framework is having few gaps, and it is yet
+evolving (Alsinawi, 2018). The Zero Trust concept holds that organizations should not automatically trust any outside or inside connections to
+their systems, but rather should verify everything that tries to connect
+(Pratt, 2018). Zero Trust Security protects your enterprise inside and
+2
+S. Pawar and Dr.H. Palivela International Journal of Information Management Data Insights 2 (2022) 100080
+out, but it will need huge investment and requires very good cybersecurity maturity to implement the same. Along with the above, there are
+quite more different standards, concepts, and frameworks for Cybersecurity – if implemented successfully it not only lowers the cyber threat risks
+but also gives recognition as a cyber matured enterprise. Earlier research
+has revealed several issues that SMEs experience while implementing
+information security standards such as Common Criteria (CC), System
+Security Engineering-Capability and Maturity Model (SSE-CMM), and
+ISO/IEC 27001. The identified challenges may act as a roadblock for
+e-SMEs in implementing a proper security strategy to protect their data
+and online services. While Common Criteria can be extremely useful for
+evaluating the security of IT products, the author pointed out that the
+evaluation process takes a long time. Companies do not have time to prepare the CC’s protection profile, wait for vendors to prepare their target
+of evaluation, and then ask a testing laboratory to accredit the product
+in question due to the dynamic nature of e-Business. As a result, the CC’s
+overall process is time-consuming, costly, and burdensome. The study
+discovered that SSE-CMM does not define specific processes; rather, it
+provides guidelines that can be applied regardless of the processes that
+are performed. As a result, it’s possible that a modified version of the
+standard that combines e-Business processes with security engineering
+activities could be a useful tool for assessing the maturity of security
+practices in e-Business organizations. ISO/IEC 27001 was the most recent standard assessed in this research. Because it does not specify any
+particular approach or method for developing ISMS, this standard allows organizations to develop their information security management
+systems (ISMS). However, some organizations may be burdened by this
+because they lack security knowledge and the ability to develop an ISMS.
+Based on existing research inputs, the cost to implement available wellknown cybersecurity frameworks, time to implement those, and lack of
+proper guidelines or security knowledge to understand the roadmap to
+reach maturity as cyber secure enterprise are appeared to be key obstacles that SMEs are facing. Another observation is, that no framework
+talks about any starting point and implementation steps for SMEs to
+decide on initial Cybersecurity controls (Alqatawna, 2014). According
+to one the recent studies, more than 50% of SMEs are lagging far behind to have the latest cyber-risk strategy and the IT leaders don’t know
+starting point to improve cybersecurity posture (Benz & Chatterjee,
+2020).
+3. Methodology
+The authors chose the quantitative method which is a research survey. The suitable participants for this survey were chosen as top management, c-level executives, directors, and similar as it is having few
+insights about the internal cybersecurity posture of the SME. Top management was reached through various ways such as messaging, emails,
+etc. Also, participant SMEs were chosen across various countries and
+various domains. This research survey was created in a more engaging
+approach to get a few important insights about SMEs’ cybersecurity posture as well as the few key problem areas they are encountering while
+planning or implementing cybersecurity controls. This will also allow
+the research study to be more diverse and look at multiple viewpoints
+of the reality of cybersecurity adoption by SMEs, resulting in a better
+knowledge of the issue under study. To understand today’s cybersecurity posture authors conducted a research survey for the SME segment
+with a few key questions like below -
+• "How old is the Small and Medium Enterprise (SME)?"
+• "Does the organization have any of the below standard or framework
+implemented?"
+• "Does the organization have its security control in place?"
+If the answer to the above question is YES, please select PHYSICAL
+Security controls already in place", "If the answer to the above question
+is YES, please select TECHNICAL Security controls already in place", "If
+Fig. 1. Stages of research.
+the answer to the above question is YES, please select ADMINISTRATIVE
+controls already in place"
+• "How frequently is Security awareness training conducted for employees?"
+• "Which is the biggest problem faced while implementing or deciding/planning to implement Cybersecurity Control for an organization?"
+• "Has the organization undergone any cyber-attack?"
+• "Which kind of cyber-attack did the organization face?"
+• "As an SME, what is the expectation from security standard or framework?
+It gave a very good picture when the authors analyzed the result of
+the research survey. After an analysis of the results, the authors will try
+to propose a recommended remedy for the highlighted concerns based
+on existing basic cybersecurity ideas. While a few thousand SMEs’ top
+management was approached, only a few SMEs voluntarily participated
+in this research survey as this survey touches on internal cybersecurity
+posture-related information.
+4. Analysis of survey results and cybersecurity core concepts
+Two stages are considered for this research. In the first stage
+Section 4.1, readers will understand the current state of cybersecurity
+controls implementation in the SME segment through the published result of the research survey. In the second stage Section 4.2, the authors
+will revisit Core Cybersecurity concepts which are going to form the
+base for a solution to problems identified in the research survey. Also,
+readers will get an idea about domain-specific prioritized cybersecurity
+controls reference to CIA Triad for particular SMEs. Fig. 1 shows the
+high-level flow of three stages which the author will elaborate on in the
+coming sections.
+4.1. Understanding the current cybersecurity posture of the SME segment
+Existing literature is already pointing toward cyber threats SMEs,
+still apart from those authors had planned to interact with SMEs through
+a well-designed research survey to understand their current state and
+problems they are facing concerning cybersecurity controls. In the third
+quarter of the year 2021, the authors have conducted a research survey
+among SME segments focusing on different key domains such as BFSI
+(Banking, Financial Services, and Insurance), E-commerce, Finance Services, FMCG (Fast-Moving Consumer Goods), Healthcare, Hospitality,
+Insurance, IT industry, Logistics, Logistics and Supply Chain Management, Manufacturing, MEDIA, Online Services, and marketing, Pharmaceutical, and Telecommunication. Even though the cybersecurity posture of an organization is very crucial, still 115 SMEs voluntarily participated in this survey.
+As shown in Fig. 2, top management of SMEs from India, United
+States, Australia, Russia, United Arab Emirates, Sweden, Bangladesh,
+Cyprus, Ghana, Indonesia, Ireland, Israel, Kenya, Nigeria, Norway, Singapore, South Africa, Sri Lanka, and the United Kingdom had shared
+3
+S. Pawar and Dr.H. Palivela International Journal of Information Management Data Insights 2 (2022) 100080
+Fig. 2. SME Participation.
+Fig. 3. Age of SMEs who participated in the survey.
+Fig. 4. Security standards / frameworks implemented in SMEs.
+valuable inputs. These top management participants were owners, directors, and c-level executives of SMEs.
+As shown in Fig. 3, the maximum (40%) voluntarily participated in
+this crucial survey was from SMEs having more than ten years of existence in business. Followed by that age group of SMEs, more than 18%
+participated SMEs having aged between 5 and 10. It was interesting as
+almost two-thirds of participation was from experienced SMEs. It might
+be showing that SMEs having more years of existence, were willing to
+share more inputs and wanted to dis- cuss more the problems they must
+have faced in their journey.
+There are quite a few matured cybersecurity standards frameworks
+that are already leading the cybersecurity market by providing updated
+cybersecurity control implementations. If such things are not in place,
+it simply means there is no structured protection present against cyber
+threats within the organization. Also, it can cause financial loss or even
+hamper their reputation in the market impacting overall brand value,
+if cybercriminals can take advantage of this major weakness present in
+particular SMEs. As per Fig. 3, it was evident that around 49% of SMEs
+are not having any Cybersecurity standards or frameworks in place, and
+there is no control over exposure to cyber threats. There must be problems that are lagging them behind to adopt those. Only 23% of SMEs
+have ISO 27001, 10% have GDPR in place, and NIST Cybersecurity
+Framework (CSF) is adopted by 8% of SMEs (Fig. 4).
+Referring to Fig. 5, when authors look at SMEs having ages between
+5 and 10 years, more than 32% of them do not have any cybersecurity
+standards or frameworks implemented. Also, in Fig. 6, considering those
+who are aged more than 10 years, 56% of SMEs are not yet having any
+security in place.
+Fig. 5. Security standards / frameworks implemented in SMEs having ages between 5 and 10 years.
+Fig. 6. Security standards / frameworks implemented in SMEs having ages of
+more than 10 years.
+Fig. 7. Any security controls implementation for SME.
+Fig. 8. Physical security controls implementation among SMEs which has implemented some sort of controls.
+Even though any organization has not adopted any existing cybersecurity standard or framework, still there are chances they have implemented some sort of controls to secure themselves. As shared above
+around half of SMEs confirmed they don’t have any standard or framework implemented during the survey, still few more were found to have
+some sort of cybersecurity controls in place on their own. As shown in
+Fig. 7, around 56% of SMEs have security controls implemented either
+as their own or as part of the standard or framework they have adopted.
+Security measures that are deployed in physical structures to prevent or
+deter unauthorised entities from accessing valuable assets of any organization are known as physical security controls. Physical security is very
+important as despite its probable less likelihood, it contributes to high
+damage in many cases. It can be hampered by natural situations, issues
+with the supply system, politically motivated situations, or even manmade problems. Natural disasters such as floods, earthquakes, storms
+or tornadoes, fire, etc. are not in human hands. Manmade issues like
+unauthorised access, explosions, vandalism, fraud, etc. many times can
+be fully or partially insider threats. Power distribution out- ages or communication interruptions kind of issues can be caused by supply systems.
+Even strikes, riots, civil disobedience, terrorist attacks kind of dangerous politically motivated situations can break weak physical security.
+Physical security controls can be either gate, biometrics, motion alarm
+systems, thermal alarm systems, closed-circuit surveillance cameras, security guards, security dogs, photo ID, etc. Among the SMEs who have
+4
+S. Pawar and Dr.H. Palivela International Journal of Information Management Data Insights 2 (2022) 100080
+Fig. 9. Types of physical security controls implementation among SMEs which
+has some controls implemented.
+Fig. 10. Technical security controls implementation among SMEs which has
+implemented some sort of controls.
+Fig. 11. Types of technical security controls implementation among SMEs
+which has some controls implemented.
+some cybersecurity controls as shown in Fig. 8, more than 20% of SMEs
+still do not have any physical controls implemented.
+As shown in Fig. 9, more than 7% of SMEs are not having any mechanism which can be called physical controls. When the authors did further analysis, the most popular physical controls were CCTVs, physical
+gates, and access cards.
+When to fulfill security of information or valuable data throughout
+the physical structure and also over the organization’s network, the controls having technology used as the basis for controlling access or use
+for the same are known as technical or logical controls. Network authentication, antivirus software, file integrity auditing software, encryption
+mechanism, smart cards, and access control lists which are known as
+ACLs are the few most commonly used technical controls. Among the
+SMEs having some cybersecurity controls in place as shown in Fig. 10,
+more than 20% of SMEs still do not have any technical controls implemented. As shown in Fig. 11, more than 7% of SMEs are not having any
+technical or logical controls. It was also evident that the most popular
+technical controls are antivirus software and firewall. People’s involvement is a must to succeed in the implementation of overall cybersecurity
+for any organization, and security controls that define well-defined processes, procedures, and required guidelines for driving all stakeholders
+of the organization come under administrative controls. Disaster preparedness, disaster recovery plan, recruitment till the resignation of personnel, separation of duties, and many such areas are part of this kind
+of control. Training and awareness are some of the most important administrative controls. Administrative controls also provide key plans to
+help organizations. Any organization must have the Incident
+A response (IR) plan is ready, to respond to it and further avoid
+the negative consequences of any successful execution of a cyber threat
+Fig. 12. Administrative security controls implementation among SMEs which
+has implemented some sort of controls.
+Fig. 13. Types of administrative security controls implementation among SMEs
+which has some controls implemented.
+(Naseer et al., 2021). Such incidents must be documented in a suitable
+format by SME, followed by a problem report explaining the exact route
+cause identification and a roadmap towards resolution of the problem.
+Among the SMEs having said they have few controls already in place as
+shown in Fig. 12, more than 30% of them are not having any administrative controls. Security policies help the organization define a set of
+comprehensive principles, whereas standards are used to set minimum
+requirements to fulfill a particular objective. A standard that can be used
+to assess eligibility for security clearance will have the least requirement
+as locking down the operating system of an employee’s laptop or desktop when he or she is away. Guidelines are recommended best practices
+that are not mandatory to be followed as it is, but help employees or any
+stakeholder of the organization to follow the rules for different scenarios. Steps written in clear and logical language along with consideration
+of legal requirements, to enact policies to be implemented in the organization are known as procedures. This helps stakeholders or employees
+to perform the task more securely. As shown in Fig. 13, more than 20%
+of SMEs are not having any security policies, procedures, or guidelines
+as administrative controls. Also, there is a significant number of SMEs
+have security policies in place but security procedures and guidelines
+are lagging to match them. Cybercriminals spend lots of innovative approaches to implement more sophisticated attacks on critical assets of
+organizations, and it is evident with time that the most vulnerable link
+for them is employees or stakeholders associated with it. Even though
+any SME invests in the best technical tools and processes, still those
+need to be driven by human beings. If people working within or for the
+SME are bypassing cybersecurity controls by any means, it is the biggest
+threat to the organization.
+Employees of any SME will play the main role in the successful implementation of cyber-security, hence having security policies and related areas are not sufficient but sowing the importance of it in each
+employee’s behavior and action is more important (Li et al., 2019). Cybersecurity awareness helps any number of audiences and it is the most
+effective way to prevent cyber threats (Chatterjee et al., 2019a). Hence
+cybersecurity awareness training delivering the importance of the subject is required. More cybersecurity awareness training in a year lowers
+the risks for SMEs. According to Figs. 14–16, among all SMEs, around
+34% never had any security awareness training for their employees.
+There are 37% of SMEs have a presence of more than 10 years and 38%
+of SMEs having ages between 5 and 10 years also conveyed that they
+never had any such pieces of training. Even organizations must have a
+policy to have new employees undergo security awareness training and
+5
+S. Pawar and Dr.H. Palivela International Journal of Information Management Data Insights 2 (2022) 100080
+Fig. 14. Frequency security awareness training for employees in SMEs.
+Fig. 15. Frequency security awareness training for employees in SMEs having
+aged between 5 and 10 years.
+Fig. 16. Frequency security awareness training for employees in SMEs having
+age more than 10 years.
+Fig. 17. The biggest problems faced by SMEs while implementing or deciding/planning to implement cybersecurity controls.
+should be aware before even getting access to the organization’s environment and assets.
+For any journey, the first step is always playing much more importance. Cybersecurity is a very wide area for any organization and available matured umbrellas of related controls can help them also demand a
+good budget as investment and lots of resources towards fulfilling it. In
+most of the cybersecurity standards, it works like either you are going to
+adopt it completely or not going for it. There is no step-by-step leveled
+approach that can give confidence to investors. According to Fig. 17, to
+implement and maintain cybersecurity SMEs feel they have a financial
+issues, and a lack of resources followed by other important business priorities as compared to cybersecurity implementation. Looking at these
+top 3 problems, it is evident that SMEs don’t feel an investment in cybersecurity posture will help them to achieve business goals. Also, lack
+of knowledge, inability to find a roadmap to invest step by step in cybersecurity control implementation, and available cybersecurity standards
+or frameworks demanding more investments are a few more obstacles
+that are stopping them to go ahead with the implementation of existing
+cybersecurity controls. As a special note, the time required to implement
+the overall cybersecurity controls is shared as the last concern for SMEs.
+Cyber-attacks that are performed using malicious software are generally known as “Malware Attacks”. Typical computer viruses, worms,
+Fig. 18. Cyber threats faced by SMEs.
+trojans, adware, malvertising, and different Spyware are a few common
+examples of Malware. When cybercriminals intentionally design fraudulent messages which then sent to people of any organization with the
+intent to make them the victim of cyber tricks, is known as a phishing
+attack. In most cases, such a message is sent to the email address with a
+malicious attachment or external URL to malicious websites. Hackers try
+to play the physiological game with the victim showing urgent attention
+towards the action specified in the email. In most cases, malicious files
+such as resumes are even sent to HR management email ids of the organization, which appeared as the weakest window for further hacking activities. Phishing attacks are running as a campaign on leaked databases of
+contact information, but it can be reduced by a cybersecurity awareness
+training culture within the organization and few cybersecurity controls.
+Also, there are various other ways such as algorithms within technical
+having the ability to detect spam emails, which can avoid most phishing attacks (Batra et al., 2021). The insider who can be any employee,
+vendor associated with an organization, or even any stakeholder for it,
+can many times gain access to important assets being part of the environment. Many times, such a person is involved in cybercriminal activities against that organization. Rising in- sider threats are more evident
+in many recent cyber-attacks. Organization owned devices such as laptops or desktops can have necessary controls implemented, but when it
+comes to devices such as smartphones, desktops, or laptops that are privately owned by employees, stakeholders, vendors, guests, or even visitors there is a need for "Bring Your Own Device (BYOD)" policy. Tools
+with these privately owned devices can be a big threat to SMEs. BYOD
+policy also helps in reducing insider threats (Baillette et al., 2018). As
+many businesses moved to a cloud-based environment, web applications
+and their security have been rising in need to perform smoothly. Web
+attacks help cybercriminals to get, disturb or leak information flow that
+is part of an organization’s existence. The basic vulnerabilities such as
+the implementation of authentication and authorization using user credentials flow is one of the important technical areas which should be
+also mentioned in relevant policies adopted by the organization. Basic
+cyber hygiene best practices such as selection of complex passwords,
+using different passwords for different online applications, etc. should
+be enforced during security awareness training (Bang et al., 2012). As
+such web platforms have information about employees and customers,
+if data leakage happens, it directly leads to multiple consequences such
+as will be used for phishing kind of attacks or demand for ransom to
+not leak on black sites. Many SMEs shared their valuable inputs on the
+cyber-attacks they are undergoing.
+Nowadays hackers do target servers of an organization to get a copy
+of data followed by encryption of entire server data. Later they ask for a
+ransom to not leak the data they have with them and/or to get a decryption key to decrypt the server’s data back to normal (Reshmi, 2021). By
+flooding the target organization’s network, a few hackers try to flood the
+network making it inaccessible to authorized users, which is known as
+a denial-of-service attack. If cybercriminals can read and/or manipulate
+information flow references to any organization at a different point, then
+such cybercrime on data in transit is known as a Man-In-Middle attack.
+As per Fig. 18, SMEs who have faced cyber-attacks shared their
+bad experiences which are Malware attacks, Phishing attacks, Insider
+Threats, Web Attacks, and Ransomware as the top five areas of concern. Cyber-attacks like malware, phishing, ransomware, web attack, or
+man-in-middle attacks can be prevented using good technical controls,
+whereas along with technical controls cybersecurity awareness training
+can help in lowering the risks of being the victim of phishing attacks.
+6
+S. Pawar and Dr.H. Palivela International Journal of Information Management Data Insights 2 (2022) 100080
+Fig. 19. Cyber threats landscape faced by SMEs.
+Strong policies, related technical controls along with physical controls
+help in reducing insider threats.
+The effectiveness of technical or physical controls can be improved
+by policies, guidelines, and procedures acting as administrative controls
+to make a firm cybersecurity wall helping critical assets of an organization. These points are explained pictorially in Fig. 19, which is highlighting a few key areas which are responsible for cyber-attacks that SMEs
+are most vulnerable to.
+In random inputs authors received as text during the summary of
+the survey, many SMEs asked for easy steps towards cybersecurity implementation would be their needs of security, safety and avoiding data
+thefts, etc. It was quite surprising but valuable to know the current state
+of cybersecurity control implementation contributing to quite a high
+cyber risk exposure and mainly what problems they are facing while
+planning or implementing cybersecurity controls. The results are more
+important, to understand the gap that exists in available cybersecurity
+standards or frameworks and the adoption of those to implement a good
+cybersecurity posture within SMEs. This identified gap is also providing
+the reason why many SMEs are exposed to various cyber threats. The
+authors will throw more light on how to bridge these gaps in the coming
+sections.
+4.2. Revisiting core cybersecurity concepts
+For more than the last four decades, the CIA triad has always been
+a key contributor to successful security designs. It won’t be surprising
+that it will remain as valuable in the long future.
+Additional tenets of sociotechnical security literature still can be satisfied in the CIA triad. For example - Authenticity, Non-repudiation, Responsibility, Integrity of people and Ethicality can be satisfied with Integrity in the CIA triad. Correctness in the specification is complete using
+Integrity and Availability. Trust is achieved by Confidentiality and Integrity. Also, Identity Management can be achieved by all three in the
+CIA triad. For the past 50 years, there is a strong representation of classic security models such as the Bell-LaPadula, Biba, and Clarke Wilson
+Security Model. Bell-LaPadula security model is focused on maintaining
+the confidentiality and contributing to security, the Biba model is focusing on increasing integrity and Clarke Wilson Security Model is quite an
+advanced one that helps to maintain integrity in a well-formed transaction. All these models are developed with the CIA triad as the base
+(Samonas & Coss, 2014). None of the security models can be fulfilled
+without the CIA triad. Also, if any organization will try to fulfill one of
+the aspects of the CIA triad, it will automatically contribute to at least
+a small part in the rest two – as those are overlapping as shown in the
+Venn diagram of Fig. 20.
+Defense in Depth (DiD) is a conceptual model conceived by the
+United States National Security Agency (NSA). It was more relevant for
+military strategy at the beginning, hence sometimes also called a “castle” approach. It covers people, operations, and technology areas by establishing guidelines and best practices for securing assets like physical
+infrastructure, processes, and IT systems.
+Fig. 20. CIA triad.
+Fig. 21. Different layers considered in defense in depth concept.
+Later this conceptual model was adopted by various industries and
+even adopted by Cybersecurity layered approach. In the digital era,
+DiD which is sometimes referred to as the "Security in Depth" strategy,
+refers to a conceptual holistic protection approach for cybersecurity implementation of multiple layers as shown in Fig. 21. These are layers
+through which data or information might be in different states which
+can be termed as data at rest, data in transit, or data in use. The objective of each layer is to help in the security of an organization by reducing vulnerabilities that may lead to cyber threats. It reduces the risk
+of successful cyber-attack implementation (Paloma, 2008). If a cybercriminal successfully breaks the security of one layer, it would increase
+difficulties in unethical practices as breaking its next layer will be another challenge and so on.
+As shown in Fig. 22, MCA is at the center of all security layers. Data
+Layer Security can be improved by encrypting important information in
+the database and by taking regular backup of the crucial database. Laptops, desktops, Server machines, or even mobile phones are considered
+endpoints. These should have protection using network-level devices
+and endpoint protection software. To increase Application Layer Security, it must have been designed using the best security coding practices
+from start. Unauthorised access to an organization’s network should be
+avoided to safeguard network security. Both physical and digital perimeter security should be protected using appropriate controls as it stops
+maximum risks. It is always observed that human beings are the weakest link that helps in successful cyber-attacks, it might be in the form
+of Insider threats or lack of awareness. Whatever technology or process your organization has implemented successfully, its failure can be
+7
+S. Pawar and Dr.H. Palivela International Journal of Information Management Data Insights 2 (2022) 100080
+Table 1
+SME key asset prioritization reference to CIA triad.
+Fig. 22. Defense in depth (DiD) approach.
+caused by employees or other stakeholders. Hence, the security layer
+which drives humans to reduce risks is of high importance.
+For any SME, it should have certain cybersecurity controls strengthening People, Processes, and Technology areas. Any security framework
+or standard is incomplete if it fails to address maximum issues in these
+three. The minimum Cybersecurity controls for SMEs should provide at
+least some level of possible protection at each layer shown in Fig. 22.
+It will help in defense-in-depth, but the authors will propose instead of
+having all layers prioritized at the start, any SME should have the first
+level of layers prioritized, followed by increased coverage of layers with
+time. Most of the time mission-critical assets are information-related.
+There are few studies done recently for "Information Assets" areas and
+improving its effective management in different environments and systems can be managed mostly through awareness among human beings
+part of it (Evans & Price, 2020).
+4.2.1. Identifying SME’s domain specific security demand in CIA triad
+Further, when authors will have closer look at each SME’s domain –
+it will be visible that each domain has at least one key valuable asset on
+which its existence depends. If authors evaluate that asset area reference
+to a particular domain of SME, it will be observed that each one of those
+has different priorities about CIA Triad, which is changing the reference
+to the most damage they should be afraid of in their particular domain.
+Let’s take an example of three domains of SMEs as shown in Table 1.
+There are three different domains authors have considered here,
+along with the key asset on which SME is executing its business. As
+shown in the table of examples, if authors consider SMEs from the BSFI
+domain, the important asset will be financial transactions and related
+stuff on their net banking kind of portal. Here the highest priority for
+them will be so on. If say transaction facility is not available for a while,
+that Confidentiality. Elaborating more in this area, if the confidentiality
+is hampered, this kind of SME will have a serious impact on their customer, and their reputation, and is also tolerable than losing the confidentiality. In BSFI, if confidentiality is not maintained it will open a
+window for alteration of transaction impacting Integrity of the same
+(Al-Alawi & Al-Bassam, 2020). Similarly, for the E-commerce domain
+or similar kinds of SMEs, it will be more concerned about Availability, followed by priority fulfillments for Confidentiality and Integrity.
+This domain has more focus on providing consumers with what they
+want and whenever they want. Other than specific compliance needs,
+Fig. 23. MCA & CIA Priority Mapping in Manufacturing Domain.
+if authors see the broader picture, then this domain is not more concerned about the damage they can cause by dis- closure or alteration
+(Guynes et al., 2011; Sutton et al., 2008). For pharmaceutical SMEs, Integrity might be most important than Confidentiality and Availability if
+authors compare areas of CIA Triad in the broader sense. It is because
+the information on drugs or other products is very sensitive. Such sensitive information should be captured and kept away from alteration by
+unauthorised entities (Arden et al., 2021).
+As further recommended solution by the authors is based on prioritized controls in alignment with the either-or many areas of confidentiality, integrity, and availability – research interviews conducted
+among various domains of the SME segment. One hundred and nine top
+management of different SMEs having roles like c-level executives and
+directors participated in this research interview, from the countries like
+India, Dubai, Iran, China, Russia, and the USA. As shown in Fig. 23,
+which is showing some portion of the inputs gathered from research interviews – specifically for the manufacturing domain. The Design Drawings, Innovative Technology Design, Own Chipset, and Technical Knowledge are a few of the mission-critical assets for this domain. For these
+8
+S. Pawar and Dr.H. Palivela International Journal of Information Management Data Insights 2 (2022) 100080
+Table 2
+Few Cybersecurity control key categorization.
+mission-critical assets, according to top management, confidentiality is
+most important for these BDCAs, followed by integrity and availability.
+Similarly, the algorithm of Robot, Medicine Formulae, Software Technology Server, and Supply Chain Network are a few other MCAs whereas
+per top management integrity is the top priority, followed by confidentiality and availability.
+For a few manufacturing domains, SME’s top management conveyed
+their automated machines Palivela, 2021, and tools are MCA. Also, for
+this MCA availability was considered the highest priority for those followed by confidentiality and integrity. Quite a few top management of
+this domain also said that quality control, line operation, and software
+of detector tolerance range were BDCA for their SME. Also, integrity
+was considered the highest priority followed by availability and confidentiality for the same.
+4.2.2. Identifying control types fulfilling prioritized CIA triad
+There are three major categories of cybersecurity controls Physical,
+Technical/Logical, and Administrative controls. Each category has many
+different controls and with a specific purpose towards satisfying either
+or multiple purposes of Prevention, Detection, Deterrence, Recovering,
+and Correction (Kim, 2011). For defense in depth of selected layers
+wherever there is relevance, SMEs need to map minimum cybersecurity controls to get a satisfactory level lowering the risk. For MCA to
+fulfill the prioritized area of CIA Triad, SMEs need to map maximum
+controls and its functions with the same. SMEs can even find overlap of
+controls in a few functions, which will help them to achieve multiple
+objectives in one control implementation. For example, nowadays End
+Point Protection software has built-in Anti-Virus, Anti-Spyware, AntiRansomware, a Data Loss Prevention, Device Control, Full Disk Encryption, etc. It can fulfill the requirement of multiple technical controls
+required for preventing a wide range of risks. If an SME is doing vulnerability assessment and penetration testing (VAPT) as detective control
+to identify open issues in its assets, followed by fixation of those open
+issues – it will help in detective, preventive and corrective functions.
+SMEs need to invest in minimum physical, logical/technical, and administrative controls to safeguard the prioritized area of CIA Triad for
+maximum risk coverage of MCA. Table 2, shares a few of the key security control types. Preventive controls help in preventing cyber threat
+problems, detective controls help in finding problems or malicious activities, and corrective controls help in repair steps to overcome irregulates
+or issues detected (Cannon et al., 2016). Deterrent controls avoid a few
+threats by discouraging attackers with their visible presence in the system, whereas recovery controls help to reach back to normal after an
+incident (Harris & Maymi, 2016).
+4.2.3. Prerequisite before controls’ implementation for mission critical asset
+(MCA)
+After identifying relevant controls, three important areas need to be
+considered before actual implementation. Fail-Safe and Fail Secure: Unavoidable Consideration for Controls’ Implementation Along with Cybersecurity, human safety is most important and cannot be ignored
+in any case. In the improved cybersecurity standards, implementation
+of controls is done taking into consideration of “Fail-Safe” and “FailSecure” concepts. The term fail-safe encourages avoiding any scenario
+where any human being’s life or property is not in danger when it fails.
+Fail-Secure which is sometimes called “Fail-Closed”, is implemented to
+avoid any data or critical device not being in hands of an unauthorised
+person (Siewert et al., 2019). For example, a server room where all important data is stored is always having the best physical controls like
+access controls implemented for doors. These doors with proper access
+control or process of allowing the specific authorized person in and out,
+are increasing physical perimeter cybersecurity levels.
+Say, if that server room catches fire by any accident or other possible
+valid reasons, the fail-safe concept will unlock the doors of that room to
+ensure quick escape for any possible person working inside it and also
+allow firefighters to get inside the room to save other’s lives. In such
+cases, fail-secure is on second priority as a fail-safe has to be considered
+as the priority. Also, IoT devices plays important role in many SMEs,
+where it contributes more to safety and security (Riahi et al., 2014).
+There are multiple technical ways of designing security layers that
+can help in making sure that fail-secure will be auto-triggered during the
+situations like this, without impacting fail-safe. Minimum Level of Governance, Risk Management, and Compliance for Mission Critical Asset
+(MCA) In any level of implementation of controls for mission-critical
+as- sets, minimum possible Governance, Risk Management, and Compliance (GRC) should be deployed to make cybersecurity more perfect.
+For MCA, Governance will provide the overall system of rules, practices,
+and standards which will be a guide for SMEs. Risk Management will
+be the process of identifying potential hazards to the MCA of SME and
+acting to reduce or eliminate the cyber threats reference to it. Compliance will be the set of processes and procedures that an SME should
+have in place making it certain that it is meeting all legal and regulatory requirements (Asnar & Massacci, 2011). Control Implementation by
+either Self, Cloud, or Vendor SME’s MCA can be partially or fully managed
+9
+S. Pawar and Dr.H. Palivela International Journal of Information Management Data Insights 2 (2022) 100080
+Fig. 24. Seven steps of least cybersecurity control implementation (LCCI).
+and hosted within SME’s premise, or it can be on Cloud or outsourced
+to an external Vendor. This will have an impact on the efforts required
+for achieving the required cybersecurity controls implementation. Also,
+if SME has its infrastructure on a physical premise or cloud or is not
+needed due to outsourcing – will have an impact on LC Level. It does
+not mean that risk is reduced for SMEs, it simply means that risk should
+be properly maintained to low in any case.
+5. LCCI framework
+The least Cybersecurity Control Implementation (LCCI) will be based
+on the implementation of the least cybersecurity controls reference to
+DiD and least cybersecurity controls for mission-critical assets reference
+to CIA Triad priorities. It is having three stages for effective implementation. LCCI is divided into seven steps as shown in Fig. 24, explained
+in further sections.
+5.1. Identify mission‐critical asset (MCA)
+MCA for an SME can be information or similar very critical assets
+having the greatest value with direct or indirect relationship for the existence of its major business. If it will get compromised by cybercriminals
+may cause a high impact on SMEs. Any cybercriminal or their groups,
+keep analyzing such MCAs to perform sophisticated cyber-attacks with
+an intention of financial gains, information leakage till even cyber terrorism. In information security, information asset value can be decided
+through consideration of loss which may cause through the exploitation
+of confidentiality, integrity, and availability (Tatar & Karabacak, 2012).
+The same applies to any MCA. The direct or indirect monetary value
+which will be required to restore loss in the respective CIA triad can be
+considered as an impact. To identify risk assessment SMEs can use quantitative or qualitative analysis methodologies which may differ domainwise or based on the criticality of the asset. For example, risk assessment
+methods for Critical Infrastructure Systems (CIS), Supervisory Control,
+And Data Acquisition (SCADA) Distributed Control Systems (DCS) will
+differ compared to e-commerce websites (Patel et al., 2008). For ERP,
+E-commerce, or similar critical as- sets cybersecurity risk analysis model
+can even use fuzzy decision theory for evaluation of each available alternative in related criteria, and fault tree analysis focusing on safety
+conducts and reliability (Henriques de Gusmão et al., 2018). Maximum
+value, highest risks, and big impact help in identifying MCA within all
+critical assets.
+Fig. 25. Step 1 - identify mission critical asset (MCA).
+Table 3
+SME’s mission critical asset security level (MCAS Level) for least cybersecurity
+controls.
+SMEs need to list down all valuable assets to identify the Mission
+Critical Asset among those. They can use different methodologies to relate assets with key business functions for them (Figs. 25–31).
+5.2. Assess priority of CIA triad for mission critical asset (MCA)
+Once the SME has got clarity about that one (or few) MCA, the next
+step is to identify what should be the focus of the cybersecurity area
+among CIA Triad for it. As discussed in the above sections, it will differ
+for a particular domain of SME. Even SMEs can choose multiple areas
+of CIA Triad if the chosen MCA has demand for it.
+Fig. 26. Step 2 - assess priority of CIA triad for mission critical asset (MCA).
+5.3. Implement prioritized cybersecurity controls for mission critical asset
+security (MCAS)
+SMEs need to start soon planning on how to proceed with prioritized cybersecurity controls for MCA as it is no less than a jewel for it.
+Apart from that, the involvement of all relevant stakeholders should be
+mapped for a detailed plan. Necessary actions should be taken for the
+flaw-free implementation of chosen niche areas of security controls.
+Fig. 27. Step 3 - implement prioritized cybersecurity controls for mission critical asset security (MCAS).
+5.4. Calculate SME’s mission critical asset security (MCAS) level
+Considering the above sections, SMEs need to implement cybersecurity controls for MCAS. Based on increasing cybersecurity controls implementation considering incremental order in CIA Triad, levels of least
+Cybersecurity controls for SME can be calculated as Mission Critical Asset Security Level (MCAS Level).
+Refer to Table 3, if only one aspect of CIA Triad is implemented,
+then it will be MCAS Level 1 if two aspects of it are implemented then
+10
+S. Pawar and Dr.H. Palivela International Journal of Information Management Data Insights 2 (2022) 100080
+at MCAS Level 2 and if all aspects of it are implemented then will be
+considered as MCAS Level 3.
+Fig. 28. Step 4 - calculate SME’s mission critical asset security (MCAS) level.
+5.5. Minimum overall cybersecurity controls implementation (MOCCI) for
+SME
+As explained in the results shared above sections, the authors got
+insights into the key problems SMEs are facing. Firstly, SMEs must
+consider the security of three layers which are human layer security,
+physical and digital perimeter layer security, and host/endpoint layer
+security. The topmost cyber-threats identified in this research study
+that SMEs are facing will be prioritized first. Human layer security is
+very important, which can be enhanced to avoid insider threats and
+phishing attacks (Rivner, 2012). Also, the physical and logical perimeter such as stateful firewall filtering network traffic and IPDS system can prevent malware. The perimeter layer will also avoid insider
+threats (Odom, 2010; Rajaratnam et al., 2012; Stallings & Brown, 2012).
+Host/endpoint layer security will avoid most of the malware attacks,
+ransomware, and web attacks (Weaver, 2007). Apart from that in case,
+the SME has public-facing network devices, then particular network security controls must be in place.
+Also, if it has public-facing applications such as API, Web Portals, or
+Mobile Apps accessing data or information then that particular application and data layer security must be implemented on priority. Later
+SMEs must focus on securing the internal network layer and internal application layer, followed by more focus on internal data layer security.
+Fig. 29. Step 5 - minimum overall cybersecurity controls implementation
+(MOCCI) for SME.
+5.6. Calculate SME’s minimum overall cybersecurity controls
+implementation (MOCCI) level
+As shown in Table 4, at the first stage which can be defined as
+“MOCCI Level 1”, SMEs must satisfactorily implement cybersecurity
+controls for the human layer, physical and digital perimeter layer, and
+host/endpoint layer security. When applicable, if the SME has publicfacing network devices, then particular network security controls must
+be in place.
+Also, if it has public-facing applications such as API Web Portals, or
+Mobile Apps accessing data or information hen that particular application and data layer security must be implemented on priority.
+At MOCCI Level 2, SMEs must focus on securing the internal network
+layer and internal application layer. Further MOCCI Level 3, can be more
+focused on internal data layer security.
+Table 4
+SME’s minimum overall cybersecurity controls implementation level (MOCCI
+level).
+Table 5
+SME’s least cybersecurity controls implementation level (LCCI level) for least
+cybersecurity controls.
+Fig. 30. Step 6 - calculate SME’s minimum overall cybersecurity controls implementation (MOCCI) level.
+5.7. Calculate SME’s least cybersecurity controls implementation (LCCI)
+level
+In this seventh stage, authors are attempting to give the solution with
+pointed Cybersecurity controls which will reduce the pain areas of SMEs
+along with reducing risk as low as possible for cyber threats they are facing. While providing an individual contribution towards cybersecurity
+for an organization or its valuable assets each one of the CIA triads –
+are also interrelated and has some overlap.
+If Confidentiality is lagging it will cause “Disclosure” as a negative
+impact if Integrity is lagging it will increase the risk of “Alteration” as
+result and if Availability is not taken care it will contribute to “Destruction”. Hence all three aspects of the CIA cannot be ignored at all, but
+those can be prioritized based on the demand of SME’s domain.
+Depending on the achieved MOCCI Level and MCAS Level, Least Cybersecurity Controls Implementation Level (LCCI Level) can be calculated. Refer to Table 5 showing the same. Only if SME has implemented
+MOCCI Level 1 and MCAS Level 1, then only LCCI Level will be considered as a Level If any of MOCCI or MCAS Level has not satisfied to
+respective Level 1, then LCCI will not be at Level 1. Same way, for LCCI
+Level 2, both MOCCI and MCAS Levels must be at Level 2. Also, for LCCI
+Level 3, both MOCCI and MCAS Levels must be at Level 3.
+11
+S. Pawar and Dr.H. Palivela International Journal of Information Management Data Insights 2 (2022) 100080
+Fig. 31. Step 7 - calculate SME’s least cybersecurity controls implementation
+(LCCI) level.
+6. Discussion
+SMEs are one of the leading contributors to the global economy if
+those will undergo any threat it’s a threat to the economy as well. During the analysis of the research survey, it was evident that there is a
+gap in the cybersecurity controls implementation for the SME segment.
+There are various challenges that they are undergoing when it comes
+to the cybersecurity implementation. Lack of finance, not being able
+to find which cybersecurity controls are suitable for them and lack of
+skilled resources are the few key problems identified during research.
+Also, SMEs are not able to relate the cybersecurity implementation with
+the business priorities is one of the identified issues, which shows the
+importance of the solution for protecting the domain-specific missioncritical asset. Also, during the interview participant by the top management, they were able to identify mission-critical assets for their SME
+along with the prioritization in the CIA triad. Further, along with the
+least cybersecurity controls to provide DiD for the SME, mapping the
+CIA prioritization with the cybersecurity controls can help SMEs to get
+a good cybersecurity posture for safeguarding their business. This is one
+of the recommendations which is an outcome of this research.
+7. Conclusion and future work
+There is truly a need for at least minimum and stepwise cybersecurity implementation recommendations for SMEs to overcome the risk of
+getting hacked. There are few schools of practical thought to overcome
+existing problems faced by SMEs with ease of solution. Instead of “no” or
+“random” cybersecurity controls implemented, any SME can prioritize
+the implementation of controls based on discussed areas in this paper.
+To conclude the discussion, below are the key points.
+• Identify MCA for SME’s Domain
+• Implementing SME’s Domain Specific Security Demand considering all important factors specified
+• Must-Have Minimum Baseline Controls should be implemented
+for the entire SME
+• Calculating LCCI Level
+• Keep on improving LCCI Level
+The above discussion is providing recommendations on the prioritization of Cybersecurity controls to be adopted by SMEs. Repeating
+the fact, that rest two components in the CIA are also important but
+can be strengthened in later stages of cybersecurity controls planning
+and investments. Also, specific compliance needs for the particular domain where SME is working, should not be ignored. LCCI Level 1 is
+having good cyber-threat protection against maximum threats identified for SMEs which reduces malware, phishing, insider threat, web attack, ransomware attack, and a few more at a certain level. Further, LCCI
+Level 2 gives better cybersecurity as compared to LCCI Level 1 and LCCI
+Level 3 it can be considered as the best minimum Cybersecurity controls
+satisfactory implemented for SMEs. Further, SMEs can identify another
+mission-critical asset and keep on implementing controls for each one
+of them.
+Supplementary materials
+Supplementary material associated with this article can be found, in
+the online version, at doi:10.1016/j.jjimei.2022.100080.
+References
+Ahmed, N. N., & Nanath, K. (2021). Exploring cybersecurity ecosystem in the middle east:
+Towards an SME recommender system. Journal of Cyber Security and Mobility, 13.
+10.13052/jcsm2245-1439.1032.
+Al-Alawi, P. A. I., & Al-Bassam, M. S. A. (2020). The significance of cybersecurity
+system in helping managing risk in banking and financial sector. Journal
+of Xidian Uni- versity, 14(7), 1524–1529 URL: https://www.researchgate.
+net/profile/Adel-Al-Alawi/publication/337086201_The_Significance_of_ Cybersecu
+rity_System_in_Helping_Managing_Risk_in_Banking_ and_Financial_Sector/links/5f288
+580299bf134049ebe88/The-Significance-of-Cybersecurity-System-in-Helping-Manag
+ing- Risk-in-Banking-and-Financial-Sector.pdf.
+Alqatawna, J. (2014). The challenge of implementing information se- curity standards
+in small and medium e-business enterprises. Journal of Software Engineering and
+Applications, 07, 883–890 URL: https://www.scirp.org/html/7-9301952_49991.htm,.
+10.4236/jsea.2014.710079.
+Alsinawi, B. (2018). Is the NIST cybersecurity frame- work enough to protect your organization?.
+Amrin, N. (2014). The impact of cyber security on SMEs (pp. 8–19). Netherlands: University
+of Twente. URL: https://essay.utwente.nl/65851/1/Amrin_MA_EEMCS.pdf.
+Arden, N. S., Fisher, A. C., Tyner, K., Yu, L. X., Lee, S. L., & Kopcha, M. (2021).
+Industry 4.0 for pharmaceutical manufacturing: Preparing for the smart factories of the future. International Journal of Pharmaceutics, 602, Article 120554
+URL: https://www.sciencedirect.com/science/article/pii/S0378517321003598.
+10.1016/j.ijpharm.2021.120554.
+Armenia, S., Angelini, M., Nonino, F., Palombi, G., & Schlitzer, M. F. (2021). A dynamic
+simulation approach to support the evaluation of cyber risks and security investments
+in SMEs. Decision Support Systems, 147, Article 113580. 10.1016/j.dss.2021.113580.
+Asnar, Y., & Massacci, F. (2011). A method for security governance, risk, and compliance
+(GRC): A goal-process approach. Springer.
+Baillette, P., Barlette, Y., & Leclercq-Vandelannoitte, A. (2018). Bring your own device
+in organizations: Extending the reversed it adoption logic to security paradoxes
+for ceos and end users. International Journal of Information Management, 43, 76–
+84 URL: https://www.sciencedirect.com/science/article/pii/S0268401218305966.
+10.1016/j.ijinfomgt.2018.07.007.
+Bang, Y., Lee, D. J., Bae, Y. S., & Ahn, J. H. (2012). Improving information security management: An analysis of id–password usage and a new login vulnerability measure. International Journal of Information Management, 32, 409–418.
+10.1016/j.ijinfomgt.2012.01.001.
+Batra, J., Jain, R., Tikkiwal, V. A., & Chakraborty, A. (2021). A comprehensive study
+of spam detection in e-mails using bio-inspired optimization techniques. International Journal of Information Management Data Insights, [Online], 1(1), Article 100006.
+10.1016/j.jjimei.2020.100006.
+Beckers, K., Heisel, M., Solhaug, B., & Stølen, K. (2013). Isms- coras: A
+structured method for establishing an ISO 27001 compliant information security management system. URL: https://sintef.brage.unit.no/sintefxmlui/bitstream/handle/11250/2432316/SINTEF+A25626.pdf
+Benz, M., & Chatterjee, D. (2020). Calculated risk? A cybersecurity evaluation tool for
+SMEs. Business Horizons, 63(4), 531–540. 10.1016/j.bushor.2020.03.010.
+Cannon, D. L., O’Hara, B. T., & Keele, A. (2016). CISA: Certified information systems auditor
+study guide (4th edition (SYBEX)). Wiley.
+Chatterjee, S., Kar, A. K., Dwivedi, Y. K., & Kizgin, H. (2019a). Prevention of cybercrimes
+in smart cities of India: From a citizen’s perspective. Information Technology & People,
+32(5), 1153–1183. 10.1108/itp-05-2018-0251.
+Chatterjee, S., Kar, A. K., & Mustafa, S. Z. (2019b). Securing IoT devices in smart cities
+of India: From ethical and enterprise information system management perspective.
+Enterprise Information Systems, 1–31. 10.1080/17517575.2019.1654617.
+Chin, Y. W., & Lim, E. S. (2018). SME policies and performance in Malaysia SME
+policies and performance in Malaysia (pp. 2–7). Malaysia: ISEAS YUSOF ISHAK
+INSTITUTE URL: https://think-asia.org/bitstream/handle/11540/8598/ISEAS_EWP_
+2018-3_ChinLim.pdf.
+Cohen, D., Elalouf, A., & Zeev, R. (2022). Collaboration or separation maximizing the
+partnership between a ‘Gray hat’ hacker and an organization in a two-stage cybersecurity game. International Journal of Information Management Data Insights, 2(1), Article
+100073. 10.1016/j.jjimei.2022.100073.
+Evans, N., & Price, J. (2020). Development of a holistic model for the management of an
+enterprise’s information assets. International Journal of Information Management, 54,
+Article 102193. 10.1016/j.ijinfomgt.2020.102193.
+Terese, R. and Michael D., F. (2018). GAO Reports Challenges and Successes in Cybersecurity Framework Adoption. [online] www.vnf.com. Available at: https://
+www.vnf.com/gao-reports-challenges-and-successes-in-cybersecurity-framework.
+Globalnaps (2017). Small medium-sized enterprises. URL:
+https://globalnaps.org/issue/small-medium-enterprises-smes/
+Guynes, C. S., Wu, Y. A., & Windsor, J. (2011). E-commerce/network security considerations. International Journal of Management Information Systems – Second Quarter, 2011,
+15 URL: https://clutejournals.com/index.php/IJMIS/article/download/4147/4202.
+Harris, S., & Maymi, F. (2016). Chapter 1: Security and Risk Management. In CISSP all-in-one exam guide, seventh edition hardcover (pp. 10–13). McGraw-Hill Education.
+12
+S. Pawar and Dr.H. Palivela International Journal of Information Management Data Insights 2 (2022) 100080
+Hemant, P., Chawande, N. P., Sonule, A., & Wani, H. (2011). Development of servers in
+cloud computing to solve issues related to security and backup. [Online]. IEEE Xplore.
+10.1109/CCIS.2011.6045052.
+Henriques de Gusmão, A. P., Mendonça Silva, M., Poleto, T., Ca-mara e
+Silva, L., & Cabral Seixas Costa, A. P. (2018). Cybersecurity risk analysis model using fault tree analysis and fuzzy decision theory. International Journal of Information Management, 43, 248–260. URL:
+https://www.sciencedirect.com/science/article/pii/S026840121830077X.
+10.1016/j.ijinfomgt.2018.08.008.
+Henson, R., Dresner, D., & Booth, D. (2011). IASME: Information security management evolution for SMEs URL: http://eprints.worc.ac.uk/1600/1/IASMEAtiner11_v2.pdf.
+IBM-Security (2020). Regional and industry differences showed some big swings
+from 2019. URL: https://www.capita.com/sites/g/files/nginej291/files/2020-
+08/Ponemon-Global-Cost-of-Data-Breach-Study-2020.pdf
+ISO (2013). ISO/IEC 27001 information security management. URL: https://www.
+iso.org/isoiec-27001-information-security.html
+Kabanda, S., Tanner, M., & Kent, C. (2018). Exploring SME cybersecurity
+practices in developing countries. Journal of Organizational Computing and
+Electronic Commerce, 28, 269–282 URL: https://www.researchgate.net/profile/SalahKabanda-2/publication/326385562_Exploring_SME_cybersecurity_practices_ in_devel
+oping_countries/links/5cd56c2ea6fdccc9dd9d5ae4/Exploring-SME-cybersecurity-pra
+ctices-in-developing-countries. pdf.
+Keller, N. (2019). Cybersecurity framework. URL: https://www.nist.
+gov/cyberframework.
+Khan, A., Ibrahim, M., & Hussain, A. (2021). An exploratory prioritization of factors
+affecting current state of information security in Pakistani university libraries. International Journal of Information Management Data Insights, 1(2), Article 100015.
+10.1016/j.jjimei.2021.100015.
+Kim, S. (2011). Classification of ISO 27002 controls. URL: http://www.wseas.us/elibrary/conferences/2011/Drobeta/IAASAT/IAASAT-09.pdf
+Li, L., He, W., Xu, L., Ash, I., Anwar, M., & Yuan, X. (2019). Investigating the impact of cybersecurity policy awareness on employees’ cybersecurity behavior. International Jour- nal of Information Management, 45, 13–
+24 URL: https://www.sciencedirect.com/science/article/pii/S0268401218302093.
+10.1016/j.ijinfomgt.2018.10.017.
+Mittal, A., Gupta, M. P., Chaturvedi, M., Chansarkar, S. R., & Gupta, S. (2021). Cybersecurity enhancement through blockchain training (CEBT) – A serious game approach.
+International Journal of Information Management Data Insights, 1(1), Article 100001.
+10.1016/j.jjimei.2020.100001.
+Ministry of Micro, Small and Medium Enterprises, Government of India (2019). What’s
+MSME | Ministry of Micro, Small & Medium Enterprises. [online] Msme.gov.in. Available
+at: https://msme.gov.in/know-about-msme.
+Muhati, E. (2018). Factors affecting cyber-security in Kenya -a case of small
+medium enterprises. URL: https://su-plus.strathmore.edu/bitstream/handle/11071/6
+013/Factors%20affecting%20cyber%20-%20security%20in%20Kenya%20-%20A%
+20Case% 20of%20Small%20Medium%20Enterprises.pdf?sequence=3.
+Naseer, A., Naseer, H., Ahmad, A., Maynard, S. B., & Masood Sid- diqui, A. (2021). Realtime analytics, incident response process agility and enterprise cybersecurity performance: A contingent resource- based analysis. International Journal of Information Management, 59, Article 102334. 10.1016/j.ijinfomgt.2021.102334.
+NIST, C.C. (2018a). Cyber threat - glossary | CSRC. URL: https://csrc.nist.
+gov/glossary/term/Cyber_Threat
+NIST, C.C. (2018b). Cyber risk - glossary | CSRC. URL: https://csrc.nist.
+gov/glossary/term/cyber_risk
+Odom, W. (2010). CCNP route official certification guide. Indianapolis: Cisco Press.
+Paloma, J. (2008). Windows server 2008 in an organization’s defense in
+depth strategy. URL: https://docs.microsoft.com/en-us/previous-versions/tnarchive/cc512681(v=technet.10).
+Palivela (2021). Hemant. Optimization of paraphrase generation and identification using
+language models in natural language processing. International Journal of Information
+Management Data Insights, 1(2), 100025.
+Patel, S. C., Graham, J. H., & Ralston, P. A. S. (2008). Quantitatively assessing the
+vulnerability of critical information systems - A new method for evaluating security enhancements. International Journal of Information Management, 28, 483–491
+URL: https://www. sciencedirect.com/science/article/abs/pii/S0268401208000054.
+10.1016/j.ijinfomgt.2008.01.009.
+Pratt, M.K. (.2018). What is zero trust? A model for more effective security. URL: https://www.csoonline.com/article/3247848/what-is-zero-trust-a-modelfor-more-effective-security.html
+Rae, A., & Patel, A. (2019). Defining a new composite cybersecurity rating scheme for
+SMES in the U.K. URL: http://eprints.staffs.ac. uk/5922/2/ISPEC19V3Comments.pdf.
+Rajaratnam, G., Gnanasundaram, S., & Shrivastava, A. (2012). Information storage and
+management. Indianapolis: John Wiley Sons, Inc..
+Reshmi, T. R. (2021). Information security breaches due to ransomware attacks - A systematic literature review. International Journal of Information Management Data Insights,
+1(2), Article 100013. 10.1016/j.jjimei.2021.100013.
+Riahi, A., Natalizio, E., Challal, Y., Mitton, N., & Iera, A. (2014). A systemic
+and cognitive approach for IoT security. URL: https://ieeexplore.ieee.org/abstract/doc
+ument/6785328, doi: 10.1109/ICCNC. 2014.6785328.
+Rivner, U. (2012). Speaking of security: Uri rivner. http://blogs.rsa.com/author/rivner/
+Saleem, J., Adebisi, B., Ande, R., & Hammoudeh, M. (2017). A state of the art survey -
+impact of cyber attacks on SME’s. In Proceedings of the international conference on future
+networks and distributed systems. 10.1145/3102304.3109812.
+Samonas, S., & Coss, D. (2014). The CIA strikes back: Redefining confidentiality, integrity
+and availability in security. URL: http://www. proso.com/dl/Samonas.pdf.
+SENSEON. (2019). The state of cyber security SME report 2019 URL: https://
+www.cbronline.com/wp-content/uploads/dlm_ uploads/2019/06/Senseon-SME-Repo
+rt-2019-Web.pdf.
+Shepherd, M. (2019). 30 Surprising small business cyber security statistics (2021). URL:
+https://www.fundera.com/resources/small-business-cyber-security-statistics
+Siewert, S., Sampigethaya, K., Buchholz, J., & Rizor, S. (2019). Fail- safe,
+fail-secure experiments for small UAS and UAM traffic in urban airspace.
+URL: https://ieeexplore.ieee.org/abstract/document/9081710, doi:10.1109/DASC4
+3569.2019.9081710
+Stallings, W., & Brown, L. (2012). Computer security principals and practice. Upper Saddle
+River: Prentice Hall.
+Sutton, S., Hampton, C., Khazanchi, D., & Arnold, V. (2008). Risk analysis in extended enterprise environments: Identification of critical risk factors in b2b ecommerce relationships. Journal of the Association for Information Systems, 9, 160–174.
+10.17705/1jais.00155.
+Swenson (2016). New NIST guide helps small businesses improve cybersecurity. URL: https://www.nist.gov/news-events/news/2016/11/new-nist-guide-helpssmall-businesses-improve-cybersecurity
+Tatar, & Karabacak, B. (2012). An hierarchical asset valuation method for information security risk analysis. URL: https://ieeexplore. ieee.org/abstract/document/6284977/.
+Weaver, R. (2007). Guide to network defense and countermeasures. Boston: Course Technology.
+WTO (2016). WTO | world trade report 2016 | Levelling the trading field for SMEs. URL:
+https://www.wto.org/english/res_e/publications_e/wtr16_e.htm
+13

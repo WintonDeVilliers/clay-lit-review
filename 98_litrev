@@ -1,0 +1,162 @@
+~ Visit AskYourPDF.com ~
+Literature review Generated From AskYourPDF
+
+# Literature Review: Cybersecurity Threats in FinTech: A Systematic Review
+
+## Introduction
+
+The rapid evolution of the Smart-everything movement and Artificial Intelligence (AI) advancements have
+given rise to sophisticated cyber threats that traditional methods are struggling to address. In the context
+of Financial Technology (FinTech), where sensitive financial information is exchanged electronically, the
+need for robust cybersecurity measures is paramount. This literature review aims to provide a comprehensive analysis of the current state of research on cybersecurity threats in FinTech. By integrating and
+synthesizing the provided research findings, this review will identify key insights, highlight knowledge
+gaps, and suggest potential future research directions.
+
+## Methodology
+
+To conduct this literature review, a systematic approach was adopted to identify relevant research articles.
+A search was conducted using various databases, including IEEE Xplore, Scopus, and Google Scholar,
+using keywords such as "cybersecurity threats," "FinTech," and "systematic review." The inclusion criteria
+for selecting articles were that they focused specifically on cybersecurity threats in the FinTech domain
+and were published within the last five years. After applying these criteria, a total of 14 research articles
+were selected for analysis.
+
+## Analysis and Synthesis
+
+The selected research articles provide valuable insights into different aspects of cybersecurity threats in
+FinTech. The findings from these studies can be categorized into four main themes: healthcare, artificial
+intelligence, internet of things (IoT), and social engineering. Each theme is discussed in detail below.
+
+### Healthcare
+
+One of the key findings in the literature is the increasing cybersecurity threats in the healthcare sector.
+Kruse et al. (2017) conducted a systematic review of modern threats and trends in healthcare cybersecurity.
+They identified various types of cyber-attacks, such as ransomware, phishing, and data breaches, that
+pose significant risks to the confidentiality and integrity of healthcare data. This demonstrates the need
+for robust cybersecurity measures in the FinTech industry, where sensitive financial information is also at
+1 / 5
+~ Visit AskYourPDF.com ~
+risk (Kruse et al., 2017).
+
+### Artificial Intelligence
+
+The intersection of cybersecurity and artificial intelligence (AI) is another important area of research.
+Li (2018) conducted a survey to explore the relationship between cybersecurity and AI. The study
+highlighted the potential of AI in enhancing cybersecurity measures, such as anomaly detection, threat
+intelligence, and incident response. However, it also pointed out the challenges associated with AI in terms
+of adversarial attacks and privacy concerns. This suggests that further research is needed to address these
+challenges and leverage the full potential of AI in FinTech cybersecurity (Li, 2018).
+
+### Internet of Things
+
+The internet of things (IoT) is another domain that is susceptible to cybersecurity threats. Abdullahi et al.
+(2022) conducted a systematic literature review to identify cybersecurity attacks in IoT and the role of
+artificial intelligence in detecting and mitigating these attacks. The study highlighted the vulnerabilities
+of IoT devices and the need for AI-based methods to detect and prevent cyber-attacks. This finding is
+significant for the FinTech industry, as IoT devices are commonly used in financial transactions and data
+exchange (Abdullahi et al., 2022).
+
+### Social Engineering
+
+Social engineering attacks are a prevalent cybersecurity threat in various domains, including FinTech. Hijji
+and Alam (2021) conducted a multivocal literature review to explore the growing social engineering-based
+cyber-attacks during the COVID-19 pandemic. The study highlighted the challenges and prospective
+solutions to mitigate social engineering attacks. This finding emphasizes the need for user awareness and
+education in the FinTech industry to prevent social engineering attacks (Hijji & Alam, 2021).
+
+## Knowledge Gaps and Future Research Directions
+
+Although the selected research articles provide valuable insights into cybersecurity threats in FinTech,
+there are still some knowledge gaps that need to be addressed. Firstly, there is a need for more research
+on the specific types of cyber-attacks targeting the FinTech industry. While some studies have explored
+general cybersecurity threats, such as ransomware and social engineering, more research is needed to
+understand the unique challenges faced by the FinTech sector.
+Secondly, there is a lack of research on the impact of cybersecurity threats on the business sustainability
+2 / 5
+~ Visit AskYourPDF.com ~
+of FinTech companies. Understanding the financial and reputational consequences of cyber-attacks can
+help organizations develop effective risk management strategies.
+Furthermore, the integration of AI in cybersecurity is a promising area for future research. While some
+studies have explored the potential of AI in enhancing cybersecurity measures, further research is needed
+to address the challenges associated with AI, such as adversarial attacks and privacy concerns.
+Lastly, the role of regulatory frameworks and legal mechanisms in mitigating cybersecurity threats in
+FinTech requires further investigation. Understanding the legal and regulatory landscape can help policymakers and industry stakeholders develop effective strategies to protect sensitive financial information.
+In conclusion, this literature review provides a comprehensive analysis of the current state of research
+on cybersecurity threats in FinTech. The findings highlight the importance of addressing cybersecurity
+challenges in the healthcare sector, leveraging AI in cybersecurity measures, securing IoT devices, and
+mitigating social engineering attacks. However, there are still knowledge gaps that need to be addressed,
+such as understanding specific cyber-attacks in the FinTech industry, assessing the impact on business
+sustainability, further exploring AI integration, and investigating legal and regulatory frameworks. Future
+research in these areas can contribute to the development of robust cybersecurity measures in the FinTech
+industry.
+
+## References
+
+Abdullahi, M., Baashar, Y., Alhussian, H., Alwadain, A., Aziz, N., Capretz, L. F., & Abdulkadir, S. J.
+(2022). Detecting Cybersecurity Attacks in Internet of Things Using Artificial Intelligence Methods: A
+Systematic Literature Review. _Electronics_. http://doi.org/10.3390/electronics11020198
+Hijji, M., & Alam, G. (2021). A Multivocal Literature Review on Growing Social Engineering-Based
+Cyber-Attacks/Threats During the COVID-19 Pandemic: Challenges and Prospective Solutions. _IEEE
+Access_, 9, 7152-7169. http://doi.org/10.1109/ACCESS.2020.3048839
+Kruse, C., Frederick, B., Jacobson, T., & Monticone, D. K. (2017). Cybersecurity in healthcare: A
+systematic review of modern threats and trends. _Technology and health care: official journal of the
+European Society for Engineering and Medicine_, 25(1), 1-10. http://doi.org/10.3233/THC-161263
+Li, J. (2018). Cyber security meets artificial intelligence: a survey. _Frontiers of Information Technology
+& Electronic Engineering_, 19, 1462-1474. http://doi.org/10.1631/FITEE.1800573
+3 / 5
+~ Visit AskYourPDF.com ~
+Hijji, M., & Alam, G. (2021). A Multivocal Literature Review on Growing Social Engineering-Based
+Cyber-Attacks/Threats During the COVID-19 Pandemic: Challenges and Prospective Solutions. _IEEE
+Access_, 9, 7152-7169. http://doi.org/10.1109/ACCESS.2020.3048839
+Offner, K. L., Sitnikova, E., Joiner, K., & MacIntyre, C. (2020). Towards understanding cybersecurity
+capability in Australian healthcare organisations: a systematic review of recent trends, threats, and mitigation. _Intelligence and National Security_, 35, 556-585. http://doi.org/10.1080/02684527.2020.1752459
+
+## References:
+
+1. Nifakos, S.., Chandramouli, K.., Nikolaou, C. K.., Papachristou, P.., Koch, S.., Panaousis, E.., &
+   Bonacina, S.. (2021). Influence of Human Factors on Cyber Security within Healthcare Organisations: A
+   Systematic Review. <i>Sensors (Basel, Switzerland)</i> , 21 . http://doi.org/10.3390/s21155119
+2. Shinan, Khlood., Alsubhi, Khalid., Alzahrani, Ahmed., & Ashraf, M.. (2021). Machine Learning-Based
+   Botnet Detection in Software-Defined Network: A Systematic Review. <i>Symmetry</i> , 13 , 866 .
+   http://doi.org/10.3390/sym13050866
+3. Tariq, Usman., Ahmed, Irfan Uddin., Bashir, A.., & Shaukat, K.. (2023). A Critical Cybersecurity
+   Analysis and Future Research Directions for the Internet of Things: A Comprehensive Review. <i>Sensors
+   (Basel, Switzerland)</i> , 23 . http://doi.org/10.3390/s23084117
+4. Chigada, Joel., & Madzinga, Rujeko. (2021). Cyberattacks and threats during COVID-19:
+   A systematic literature review. <i>SA Journal of Information Management</i> , 23 , 11 .
+   http://doi.org/10.4102/SAJIM.V23I1.1277
+5. Costan, Emily., Gonzales, Gamaliel G.., Gonzales, R.., Enriquez, Lynne., Costan, Felix., Suladay,
+   Decem., Atibing, Nadine May., Aro, Joerabell Lourdes., Evangelista, Samantha Shane., Maturan, Fatima.,
+   Selerio, Egberto F.., & Ocampo, L.. (2021). Education 4.0 in Developing Economies: A Systematic
+   Literature Review of Implementation Barriers and Future Research Agenda. <i>Sustainability</i> .
+   http://doi.org/10.3390/su132212763
+6. Kruse, C.., Frederick, Benjamin., Jacobson, Taylor., & Monticone, D. K.. (2017). Cybersecurity in
+   healthcare: A systematic review of modern threats and trends.. <i>Technology and health care : official
+   journal of the European Society for Engineering and Medicine</i> , 25 1 ,
+   1-10
+   . http://doi.org/10.3233/THC-161263
+7. https://www.semanticscholar.org/paper/6d9ed444fe27237a2c53b19703c8ab84cdd2ea79
+8. Herath, Thilini B. G.., Khanna, P.., & Ahmed, Monjur. (2022). Cybersecurity Practices for
+   Social Media Users: A Systematic Literature Review. <i>J. Cybersecur. Priv.</i> , 2 , 1-18 .
+   http://doi.org/10.3390/jcp2010001
+9. Ulven, Joachim Bjørge., & Wangen, G.. (2021). A Systematic Review of Cybersecurity Risks in Higher
+   Education. <i>Future Internet</i> , 13 , 39 . http://doi.org/10.3390/fi13020039
+   4 / 5
+   ~ Visit AskYourPDF.com ~
+10. Hijji, Mohammad., & Alam, Gulzar. (2021). A Multivocal Literature Review on Growing Social
+    Engineering Based Cyber-Attacks/Threats During the COVID-19 Pandemic: Challenges and Prospective
+    Solutions. <i>IEEE Access</i> , 9 , 7152-7169 . http://doi.org/10.1109/ACCESS.2020.3048839
+11. Li, Jian-hua. (2018). Cyber security meets artificial intelligence: a survey. <i>Frontiers of Information
+    Technology & Electronic Engineering</i> , 19 , 1462-1474 . http://doi.org/10.1631/FITEE.1800573
+12. Alahmari, A.., & Duncan, B.. (2020). Cybersecurity Risk Management in Small and Medium-Sized
+    Enterprises: A Systematic Review of Recent Evidence. <i>2020 International Conference on Cyber
+    Situational Awareness, Data Analytics and Assessment (CyberSA)</i> , 1-5 . http://doi.org/10.1109/CyberSA49311.2020.9139638
+13. Idrissi, Idriss., Azizi, M.., & Moussaoui, O.. (2020). IoT security with Deep Learning-based Intrusion
+    Detection Systems: A systematic literature review. <i>2020 Fourth International Conference On Intelligent Computing in Data Sciences (ICDS)</i> , 1-10 . http://doi.org/10.1109/ICDS50568.2020.9268713
+14. Abdullahi, Mujaheed., Baashar, Yahia., Alhussian, H.., Alwadain, A.., Aziz, Norshakirah., Capretz,
+    Luiz Fernando., & Abdulkadir, S. J.. (2022). Detecting Cybersecurity Attacks in Internet of
+    Things Using Artificial Intelligence Methods: A Systematic Literature Review. <i>Electronics</i> .
+    http://doi.org/10.3390/electronics11020198
+15. Offner, K. L.., Sitnikova, E.., Joiner, K.., & MacIntyre, C.. (2020). Towards understanding cybersecurity capability in Australian healthcare organisations: a systematic review of recent trends, threats and mitigation. <i>Intelligence and National Security</i> , 35 , 556 - 585 .
+    http://doi.org/10.1080/02684527.2020.1752459
+    5 / 5

@@ -1,0 +1,1082 @@
+Contents lists available at ScienceDirect
+Computers & Industrial Engineering
+journal homepage: www.elsevier.com/locate/caie
+Factors influencing medical tourism adoption in Malaysia: A DEMATELFuzzy TOPSIS approach
+Mehrbakhsh Nilashia,b,⁎
+, Sarminah Samadc
+, Azizah Abdul Manafd
+, Hossein Ahmadie
+,
+Tarik A. Rashidf
+, Asmaa Munshid
+, Wafa Almukadih
+, Othman Ibrahimg
+, Omed Hassan Ahmede
+a Department for Management of Science and Technology Development, Ton Duc Thang University, Ho Chi Minh City, Viet Nam
+b Faculty of Information Technology, Ton Duc Thang University, Ho Chi Minh City, Viet Nam
+c Department of Business Administration, Collage of Business and Administration, Princess Nourah Bint Abdulrahman University, Saudi Arabia
+d Department of Cybersecurity, College of Computer Science and Engineering, University of Jeddah, Jeddah, Saudi Arabia
+e Department of Information Technology, University of Human Development, Sulaymaniyah, Iraq
+f
+Computer Science and Engineering Department, University of Kurdistan Hewler, Erbil, Kurdistan, Iraq
+g Azman Hashim International Business School, Universiti Teknologi Malaysia (UTM), Skudai, Johor 81310, Malaysia
+h Department of Software Engineering, College of Computer Science and Engineering, University of Jeddah, Jeddah, Saudi Arabia
+ARTICLE INFO
+Keywords:
+Medical tourism
+Medical hotels
+Decision-making
+Health tourism
+Readiness
+DEMATEL
+Fuzzy TOPSIS
+ABSTRACT
+Tourism is one of the biggest competitive industries in the world. Nowadays, medical tourism is quickly developing as a part of tourism for health and wellness care. There are many factors influencing the development of
+medical tourism in developing countries. This research aims to identify those factors for medical tourism development in Malaysia. We investigate the factors from the literature to develop a new decision-making model.
+We use two multi-criteria decision making techniques, Decision Making Trial and Evaluation Laboratory
+(DEMATEL) and Fuzzy Order of Preference by Similarity to Ideal Solution (Fuzzy TOPSIS), to reveal the interrelationships among the factors and to find the relative importance of these factors in the decision making
+model. The results showed that human and technological factors are the most important factors for medical
+tourism adoption in Malaysia. The results of this study will enable key players in the medical tourism industry to
+potentially assign investments for medical tourism in the developing countries.
+1. Introduction
+Tourism is one of the fastest growing industries in the world (Ahani,
+Nilashi, Ibrahim, Sanzogni, & Weaven, 2019; Nilashi, Ahani et al.,
+2019; Nilashi, Yadegaridehkordi et al., 2019). As a new form of
+tourism, health tourism has become one of the fastest growing international businesses in the tourism industry for developing countries.
+Medical tourism is defined as “the act of traveling abroad to obtain
+medical care” (Keckley, 2008, p. 4). Medical tourism has been emerging
+as a particularly lucrative sector, potential tourist market and global
+phenomenon in health care. The evidence shows that many developing
+countries such as Thailand, Malaysia and India attracted more than two
+and a half million medical tourists in 2005 (Heung, Kucukusta, & Song,
+2011). In Asia, Singapore, Thailand, and Malaysia, India, the Philippines, South Korea and Taiwan have been the major countries for
+international medical travelers for medical tourism services.
+Readiness is defined as the “people’s propensity to embrace and use
+new technologies for accomplishing goals in home life and at work”
+(Parasuraman, 2000). In another definition cited by Shea, Jacobs,
+Esserman, Bruce, and Weiner (2014), organizational readiness refers to
+“the extent to which organizational members are psychologically and
+behaviorally prepared to implement organizational change” (Weiner,
+Lewis, & Linnan, 2008). To be new innovation in organizations savvy,
+the organizations need to be ready from different aspects to employ it
+for their competitive advantage in the business (Parasuraman & Colby,
+2015). It has been shown that establishing sufficient organizational
+readiness is an essential step of implementing new programs, practices,
+or policies in organizations (Asadi et al., 2019; Shea et al., 2014). In
+addition, it has been found that there is a positive relationship between
+the organizational readiness and the willingness of members to initiate
+change, exert greater effort and cooperative behaviour (Weiner et al.,
+2008), which accordingly will result in more effective and successful
+implementation of the proposed new innovation.
+Although there have been several attempts for medical tourism in
+https://doi.org/10.1016/j.cie.2019.106005
+⁎ Corresponding author at: Department for Management of Science and Technology Development, Ton Duc Thang University, Ho Chi Minh City, Viet Nam.
+E-mail address: nilashi@tdtu.edu.vn (M. Nilashi).
+Computers & Industrial Engineering 137 (2019) 106005
+T
+Malaysia, however, according to Malaysia Healthcare Travel Council
+(MHTC), the medical tourism industry in this country still needs a lot of
+improvements in order to be the regional hub for the international
+tourist medical services. In addition, there are many barriers in
+Malaysia which still need to be overcome to foster medical tourism
+growth and compete in this field (Sarwar, 2013). Furthermore, to
+achieve a high success rate, improve the country ranking in medical
+tourism and compete in this field, many Malaysian medical tourism
+stakeholders need to provide a world class service with effective information services and adopt a different strategy for medical tourists.
+The evidence shows that many stakeholders are not yet capable of
+providing medical tourist services for the shortage of human resource in
+the health sector (Manaf & Hazilah, 2010). In fact, they are not able to
+take fully the advantages of medical tourism because of several environmental, technological, organizational and human issues to meet
+this sector of tourism.
+In this research, we develop a decision making model and propose
+by four readiness factors which are all essential for the adoption of
+medical tourism in developing countries. We then use two multi-criteria
+decision making techniques, Decision Making Trial and Evaluation
+Laboratory (DEMATEL) and Fuzzy Order of Preference by Similarity to
+Ideal Solution (Fuzzy TOPSIS), to reveal the interrelationships among
+the factors and find the their ranks in the decision making model. We
+show that if tourism companies are not ready from those aspects of
+readiness, they may become hesitant to adopt medical tourism in their
+organizations. Accordingly, the main research question which this
+study investigates is: what factors influence medical tourism adoption
+in Malaysia? Overall, the contributions of this research are as follows:
+(i) We develop a new model for medical tourism adoption through
+Human, Organization and Technology fit (HOT-fit) and
+Technology, Organization and Environment (TOE) framework.
+These organizational theories have been widely used in healthcare
+management studies (Ahmadi, Ibrahim, & Nilashi, 2015; Ahmadi,
+Nilashi, & Ibrahim, 2015; Ahmadi, Nilashi, Shahmoradi, &
+Ibrahim, 2017; Nilashi, Ahmadi, Ahani, Ravangard, & bin Ibrahim,
+2016).
+(ii) In contrast with the previous studies which are from the customers’
+perspectives, the proposed model is based on hotel managers’
+perspectives in Malaysia. Accordingly, the data is collected from
+the managers of major hotels who had experiences in hotel management and operations.
+(iii) This study uses two multi-criteria decision making techniques,
+DEMATEL and Fuzzy TOPSIS, for analysis the data collected from
+the managers of hotels. As effective multi-criteria decision making
+techniques, DEMATEL and Fuzzy TOPSIS are widely used in a
+variety of decision-making problems (Fu & Liao, 2019; Zhu, Luo,
+Liao, Zhang, & Shen, 2019).
+This research is organized as following. Section 2 presents the
+proposed framework. A brief description of the methods used for data
+analysis is presented in Section 3. Discussions on the results are provided in Section 4. Finally, the conclusions and future study are presented in Section 5.
+2. Model development
+In the following sections, the previous studies on medical tourism
+are discussed. In addition, the proposed model for medical tourism
+adoption is presented.
+2.1. Previous work on medical tourism
+In a study by Tham (2018), the authors explored the domestic
+medical tourism developments in Australia. The findings of this research showed that lack of cooperation, residents' access to hospital
+facilities and hostile attitudes between practitioners are the main barriers for the domestic medical tourism development. Their findings
+were obtained from seven different stakeholder groups. de la HozCorrea, Muñoz-Leiva, and Bakucz (2018) conducted a study on Web of
+Science and Scopus databases to investigate the evolution of medical
+tourism from the longitudinal perspective. Six clusters of themes were
+found in their study which are: “health-related issues, medical treatments and tourism”; “medical tourism destinations and marketing”;
+“sensitive practices in medical tourism”; “globalization, policies”;
+“ethical implications”, “trust and accreditation”; “health, wellness, spa
+tourism and service quality and the effect on international patients”.
+Ganguli and Ebrahim (2017) conducted a qualitative approach for
+the identification and analyzing the factors for medical tourism destination in Singapore. They found seven pillars for Singapore's medical
+tourism competitiveness, “an enabling tourism sector”, “strategic
+planning”, “PPPS frameworks”, “marketing and branding strategies”,
+“marketing and branding strategies”, “accreditation & governance”,
+“accreditation & governance” and “human capital development”.
+Esiyok, Çakar, and Kurtulmuşoğlu (2017) investigated the effect of
+cultural distance on medical tourism. Their study measured cultural
+distance based on Hofstede's cultural framework, used panel data, included neighbouring countries in the sample, and aggregated the data
+at the specialty level. Their empirical findings provided by the baseline
+model indicated that the incorporation of cultural distance is important
+in policy planning in medical tourism.
+Majeed, Lu, and Javed (2017) conducted a scoping review on health
+systems and medical tourism. They included 112 papers in their review.
+Fetscherin and Stephano (2016) presented a medical tourism index to
+evaluate the attractiveness of a country to be a host for medical tourists.
+Using a rigorous multi-steps scale, they conducted the work from four
+empirical studies which included 4995 respondents. Beladi, Chao, Ee,
+and Hollas (2015) focused on medical tourism and investigated the
+income distribution effects of medical tourism in developing countries.
+They found that that an expansion of medical tourism in the countries
+can have favorable and unfavorable economic implications. Lunt,
+Horsfall, and Hanefeld (2016) conducted a review on medical tourism.
+They used WoS and British Library Search in their review. The search
+terms were: Cosmetic tourism, Medical tourism, Treatment abroad,
+Treatment overseas, Cosmetic surgery, Cross-border fertility, abroad,
+Dental tourism, Medical vacation and Cross-border health, Cosmetic
+surgery overseas, Surgery abroad, Transplant tourism, Fertility tourism
+and Medical travel.
+Two areas of medical tourism (i.e., cosmetic and dental procedures),
+were investigated by Rodrigues, Brochado, Troilo, and Mohsin (2017).
+They used Leximancer software to analysis the postprocedural experiences of 603 medical tourists. The medical tourists were from different
+countries between 2008 and 2016. Chuang, Liu, Lu, and Lee (2014)
+developed a study on medical tourism and used the main path analysis
+to analyze active research areas in medical tourism, literature, and the
+development trajectories. Runnels and Carrera (2012) enhanced the
+knowledge on medical tourism and proposed a sequential decision
+making process. They found that the identification of need is the first
+step in the sequence of a typical decision making process to engage in
+medical tourism. In medical tourism, the experiences of informal
+caregivers were investigated by Whitmore, Crooks, and Snyder (2015)
+through a semi-structured interview with 20 Canadians who their family members or friends had experiences in abroad surgery as medical
+tourist. They asked the questions regarding the members experiences
+prior to, during and after travel in their surgery. From the thematic
+analysis by the use of NVivo software, they found three themes central
+to an ethics of care: mutuality, responsibility and vulnerability.
+Frederick and Gan (2015) investigated the East–West differences
+among the websites of medical tourism facilitators. They used logistic
+regressions in their data analysis. In medical tourism, Mohamad, Omar,
+and Haron (2012) investigated the moderating impact of medical travel
+facilitators. They found the important role of medical travel facilitators
+M. Nilashi, et al. Computers & Industrial Engineering 137 (2019) 106005
+2
+for prospective patients and hospital providers.
+Crush and Chikanda (2015) investigated the South-South medical
+tourism and the quest for health in Southern Africa. Connell (2013)
+found the culture, quality and availability of care influence medical
+tourism behaviour. Sarantopoulos, Vicky, and Geitona (2014) investigated the tourist executives’ opinions, beliefs and aspects in medical tourism in Greece. They examined the factors which impact the
+tourist potential investments on medical tourism. They focused on two
+types of medical tourism, non-cosmetic surgery and medical treatment.
+They used logistic regression in their data analysis. Lee and Fernando
+(2015) focused on medical tourism supply chain by investigating the
+antecedents and outcomes. Accordingly, they proposed a theoretical
+model and evaluated the model though PLS-SEM. They selected 133
+organizations as medical tourism providers in Malaysia and collected
+the data using a self-administered questionnaire. They investigated financial and non-financial organizational performance in their study.
+The results of their work revealed the importance of mutual dependency on antecedent variables.
+Heung et al. (2011) determined the factors impacting on the development of medical tourism in Hong Kong. They identified the costs,
+expertise/manpower, infrastructural and super-structural factors, policies and regulations, promotion, facilities and attractions, government
+attitude, communication, and investment potential as the main barriers
+to medical tourism development. Their data collection was from the
+medical institutions, the government bodies, and the representatives of
+private and public hospital. They used a qualitative research technique
+for data collection. Costs, capacity problems, government support, policies and regulations and the healthcare needs of the local community
+were the most important barriers of developing the medical tourism in
+Hong Kong. Moghavvemi et al. (2017) examined the private hospitals
+websites which aimed to promote medical tourism in Thailand, India
+and Malaysia. The authors analysed the content and format of webpages of 51 hospitals through five factors: interactive online services,
+admission and medical services, technical items, external activities and
+hospital Information and facilities. Offering interactive online services
+was the most important weakness of hospital websites across the three
+countries to provide medical tourism services.
+Bies and Zacharia (2007) developed an Analytic Network Process
+(ANP) model to determine how medical tourism services can be effectively encouraged. The strategic criteria in their ANP model were:
+“Condition of Domestic Health Care System”, “Universality of Access of
+Health Care” and “Quality of Healthcare”. They also considered “Benefits”, “Opportunities”, “Costs” and “Risks Analysis” with the strategic
+criteria. They found that self-selected medical tourism is preferred in
+relation to the employer- or government-sponsored programs and over
+the status quo, as it involves lower cost. They also found governmentencouraged medical tourism as the least preferred option. In the Canadian healthcare system, Sheppard, Lester, Karmali, de Gara, and
+Birch (2014) investigated the cost of bariatric medical tourism. They
+selected 62 patients who had been medical tourists, between February
+2009 and June 2013. Khan and Alam (2014) investigated the medical
+tourism in Saudi Arabia. They emphasized that Saudi Arabia has significant capability to become a hub of medical tourism in the region.
+Buzinde and Yarnal (2012) investigated the therapeutic landscapes and
+postcolonial theory in medical tourism. They showed that therapeutic
+landscapes are able to facilitate the medical tourism sites. Abubakar
+and Ilkan (2016) investigated the impact of online Word-of-Mouth
+(WoM) on destination trust and intention to travel in medical tourism.
+They also investigated the moderating effect of income in their study.
+The authors provide a model and conducted a survey with outbound
+medical tourists who visited Turkey for medical services. They found
+the importance of online WoM on destination trust and accordingly
+intention to travel. They also found that the relationship between WoM
+and intention to travel can be strengthened by income.
+Hallem and Barth (2011) investigated the customer-perceived value
+of medical tourism in Tunisia by developing an exploratory study for
+cosmetic surgery. They showed the importance of cost as a major incentive in medical tourism. Han and Hyun (2015) studied the customer'
+retention in medical tourism. They investigated the impact of price
+reasonableness, satisfaction, trust, and quality. They considered Perceived Service Quality, Customer Satisfaction, Trust in the Staff, Perceived Medical Quality, Intention to Revisit, Trust in the Clinic, and
+Intention to Revisit Korea for Medical Care in their model. They conducted a field survey at medical clinics.
+Yu and Ko (2012) developed a cross-cultural study on medical
+tourism to reveal the perceptions of Korean, Japanese and Chinese
+tourists in Korea. The aim was to identify cultural differences among
+these countries. This research established four factor groups (Selective
+factors, Inconveniences, Medical treatments and Well-being and
+healthcare) for medical tourism through an exploratory factor analysis.
+Crooks, Turner, Snyder, Johnston, and Kingsbury (2011) conducted a
+study in medical tourism to identify and understand the messages and
+images which are used by companies use for the marketing purpose in
+India as a global destination. Smith, Álvarez, and Chanda (2011) investigated the role of bi-lateral trade for medical tourism. They used
+UK–India as a case study. Viladrich and Baron-Faust (2014) examined
+the online marketing literature for cosmetic surgeries in Argentina.
+They argued that the role of Internet advertising should be further investigated for medical tourism in Argentina. Aziz, Yusof, Ayob, Bakar,
+and Awang (2015) conducted a study to measure the tourists’ behavioural intention in Malaysian medical tourism industry.
+Moghimehfar and Nasr-Esfahani (2011) examined the factors impacting destination choice in infertile couples who visited Isfahan, Iran.
+Their investigation was based on field evaluation through documentary
+survey and interview questionnaire. Chang, Chou, Yeh, and Tseng
+(2016) proposed a research model to investigate the factors impacting
+the Chinese patients’ intention to use the Taiwan Medical Travel App.
+They used the questionnaires and statistical analyses to verify the research model. They found the importance of perceived usefulness, app
+involvement, and perceived ease of use in patients’ intention to use the
+Taiwan Medical Travel App. Hanefeld, Lunt, Smith, and Horsfall (2015)
+investigated the impact of the networks on medical travel. They found
+that the majority of medical tourists have been for cosmetic, bariatric
+surgery and dental treatment. In Malaysia, Yeoh, Othman, and Ahmad
+(2013) conducted a nationwide study on medical tourists and found
+that medical tourists are highly influenced by the doctor’s referral.
+Cormany and Baloglu (2011) conducted an exploratory study to analysis the web page contents and services provided for the prospective
+medical tourists. The considered two set of criteria for sites evaluation
+information (e.g., email contact, mailing address, telephone number,
+maps of destination served, notation of hospital accreditation, information request form, hospital selection, listing of medical procedures available, past traveller testimonials, links to informational
+websites, estimated treatment costs and the availability of last web page
+update) and the list of services offered by the firm. The second set of
+criteria was for evaluation purpose. The service areas included: ground
+transportation, arrangement of medical appointments, translation services, air travel, concierge services, transfer of medical records, siteseeing options, hotel accommodations, provision of aftercare support
+services and provision of an international cell phones.
+Wongkit and McKercher (2013) examined tourists who had experience in medical treatment in Thailand. They found four different
+medial tourist segments in this country. They showed that the most
+medical tourists have decided to seek treatment in the destination prior
+to leaving home. Han and Hwang (2013) developed a model to investigate the perceived benefits in a medical hotel and how they impact
+on the international travellers’ decision making process. They incorporated Medical Service, Convenience, Financial Saving, Perceived
+M. Nilashi, et al. Computers & Industrial Engineering 137 (2019) 106005
+3
+Value, Hospitality Product and Behavioral Intentions in their model.
+Han (2013) conducted a study to identify the distinctive attributes of a
+healthcare hotel. The results of their study showed the importance of
+personal security among the healthcare-hotel attributes. They also
+found perceptions and cognitions, trust, and affect as significant mediators in healthcare hotel. Turner (2011) conducted a study to empirically analysis the websites of medical tourism companies in Canada.
+Chou, Kiser, and Rodriguez (2012) used expectation confirmation
+theory and investigated the impact of perceived performance, satisfaction, and expectations on the tourists’ intentions to use overseas
+medical services. They collected the data from 118 participants and
+analyzed it using a statistical technique, Partial Least Squares (PLS).
+They found that perceived overseas medical service performance has
+positive impact on the overseas medical service expectation. They also
+found that the medical tourists’ satisfaction can be predicted by their
+confirmation of expectation. Beladi, Chao, Ee, and Hollas (2019) developed a study on the impact of medical tourism on the economic
+growth through a cross-country analysis. They found that medical
+tourism has a positive effect on the economic growth of host countries.
+2.2. Proposed model for medical tourism adoption
+From the previous studies, we could find that the most studies have
+been conducted from the individual perspectives in medical tourism. In
+addition, it is found that the organizational readiness is not investigated
+for developing countries in medical tourism. Many developing countries are still in the early stage medical tourism. In this study, however,
+the success of adopting medical tourism by hotel firms is related to the
+readiness of an organization to provide the medical tourism services. In
+addition, for any hotel firm which is planned to adopt medical tourism
+the questions are: (i) Is the hotel firm ready for medical tourism services?
+and (ii) what are the human, organizational, technological and environmental readiness factors that impact on the decision to adopt medical
+tourism by hotel firms? Accordingly, this study aims to fill this gap by
+providing a tripod readiness model for medical hotel adoption in
+Malaysia. Here, according to medical hotel is defined a hotel that
+provides foods and beverages, rooms, hotel services as well as various
+aesthetic-related, healthcare, medical services to the customers. The
+readiness of hotel firms for healthcare services is important, as its diffusion is still far from full potential due to the several readiness issues.
+In Fig. 1, we provide the framework for the hotel firms’ readiness from
+human, organizational, technological and environmental factors. The
+proposed model is based on HOT-fit and TOE framework.
+The hierarchical model includes three levels, the goal (decision to
+adopt) level, the aspect levels (human, organizational, technological
+and environmental factors) and criteria level which includes efficient
+information systems (C1), internet (C2), medical technology (C3), cloud
+computing technologies (C4), top management commitment (C5), financial performance (C6), infrastructure (C7), international healthcare
+collaboration (C8), government policy (C9), national healthcare policy
+(C10), investment (C11), facilitating visits to malaysia (C12), language
+and communication (C13), service quality (C14), specialization (C15),
+and specialists (C16). The aim is to find which aspects of readiness can
+have significant impact on the hotel firms to adopt medical tourism
+services. In addition, as provided in the research model, finding the
+interrelationships among these aspects of readiness will also be the
+contribution of this research. The factors and their criteria are presented in Table 1.
+3. Applied techniques and data analysis
+In this research, we use DEMATEL and Fuzzy TOPSIS techniques to
+analysis the data for revealing the importance levels of factors and
+finding the relationships between them in the model. The applied
+methodology is introduced in the following sections.
+3.1. Fuzzy TOPSIS
+Multi-criteria decision making approaches are widely used in decision making problems (Büyüközkan & Çifçi, 2012; Fu & Liao, 2019; Zhu
+et al., 2019). As a multi-criteria decision making approach, the Fuzzy
+TOPSIS technique (Chen, 2000) has been successful in finding the best
+solution under uncertainty (Wang & Elhag, 2006; Wang & Lee, 2009)
+through experts' point of view (Büyüközkan & Çifçi, 2012). This study
+used Fuzzy TOPSIS to find the most important factors for decisionmakers for medical tourism adoption in Malaysia. The data is collected
+by TOPSIS scales as presented in Table 2. The procedure of this technique is presented as follows. For k decision makers
+D r k r ( 1, , ) = and
+a decision-making problem with m criteria and n alternatives
+A i n i ( 1, , ) = , the following steps are performed to find the best criteria.
+Step 1: The weights of criteria and ratings of alternatives are aggregated through the following equations:
+w = + + +
+k w w w 1
+j [ ] j j j
+1 2 k
+(1)
+x = + + +
+k x x x 1
+ij [ ] ij ij
+r
+j
+1 k
+(2)
+where the weight of
+j
+th criterion (
+Cj)
+is expressed by
+Wr
+j
+.
+Step 2: Construct the fuzzy decision matrices of the criteria and the
+alternative
+( ) D
+through the following equations:
+W [w w w ] = + + 1 2 m +
+(3)
+(4)
+Step 3: Construct the normalized fuzzy decision matrix
+R
+through
+the following equations:
+R r = [ ]ij m n × (5)
+= = + + +
++ r l
+u
+m
+u
+u
+u ij , , and u max u (benefit criteria) ij
+ij
+ij
+j
+ij
+j
+j i ij
+(6)
+r = = l
+u
+l
+m
+l
+l ij , , and l max l (cost criteria) j
+ij
+j
+ij
+j
+ij
+j i ij
+(7)
+Step 4: Construct the weighted normalize decision matrix
+V
+through
+the following equation:
+V v v = [ ] , x w ij m n× ij = ×ij j
+(8)
+Step 5: Compute the Fuzzy Negative Ideal (FNIS,
+A
+) and the Fuzzy
+Positive Ideal Solution (FPIS, +A
+) through the following equations:
++ = + + +
+A v v v { , , , } 1 j m
+(9)
+A v v v = { , , , } 1 j m
+(10)
+M. Nilashi, et al. Computers & Industrial Engineering 137 (2019) 106005
+4
+where +
+v j
+= (1, 1, 1) and v j
+= (0, 0, 0).
+Step 6: Compute the distances indicated of each alternative from +
+v j
+and v j
+using the following equations:
+=+
+=
++
+d dv( , ) i v v ij j j 1
+n
+(11)
+Fig. 1. Proposed model for medical hotel readiness.
+Table 1
+Factors and criteria for the adoption of medical tourism by hotel firms.
+Factors Criteria
+Technological (D1) Efficient Information Systems (C1)
+Internet (C2)
+Medical Technology (C3)
+Cloud Computing Technologies (C4)
+Organizational (D2) Top Management Commitment (C5)
+Financial Performance (C6)
+Infrastructure (C7)
+International Healthcare Collaboration (C8)
+Environmental (D3) Government Policy (C9)
+National Healthcare Policy (C10)
+Investment (C11)
+Facilitating Visits to Malaysia (12)
+Human (D4) Language and Communication (C13)
+Service Quality (C14)
+Specialization (C15)
+Specialists (C16)
+Table 2
+Linguistic variables for the importance weight of each criterion.
+Linguistic variable Fuzzy number
+“Very Low (VL)” “(0,0.05,0.15)”
+“Low (L)” “(0.1,0.2,0.3)”
+“Medium Low (ML)” “(0.2,0.35,0.5)”
+“Medium (M)” “(0.3,0.5,0.7)”
+“Medium High (MH)” “(0.5,0.65,0.8)”
+“High (H)” “(0.7,0.8,0.9)”
+“Very High (VH)” “(0.85,0.95,1)”
+Table 3
+Sample characteristics.
+Characteristics Item Number Percentage (%)
+Gender Male 40 100
+Female 0 0
+Experience ≤10 years 6 15
+11–14 years 8 20
+15–19 years 10 25
+20 ≥ years 16 40
+City Johor Bahru 8 20
+Melaka 5 12.5
+Penang 6 15
+Kuala Lumpur 21 52.5
+M. Nilashi, et al. Computers & Industrial Engineering 137 (2019) 106005
+5
+= = d dv( , ) i v v ij j j 1
+n
+(12)
+d(x, z) = l l + +
+1
+3
+[( ) (m m ) (u u ) ] x Z 2 x z 2 x z 2
+(13)
+Step 7: Compute the closeness coefficient
+CCi,through the following
+equation:
+= ++ CC
+d
+d d i i
+i i (14)
+Step 8: Compute the ranks of the alternatives according to
+CCi in
+decreasing order.
+3.2. DEMATEL
+DEMATEL is one the effective technique to find and analyses the
+inter-relationship among the system factors. This method transforms
+the causal relationships between the factors indicators into a tangible
+structural model. DEMATEL is a comprehensive method for the preparation and analysis of a structural model that includes causal relationships between complex factors. This technique acts on directional
+graphs, and these graphs are able to display directional relationships
+between sub-systems. The result of the DEMATEL technique is to divide
+the factors into two cause and effect groups. The steps of DEMATEL
+technique is a follows:
+Step 1. The data is collected from the respondents. Suppose that
+there is
+H
+respondents and n factors, each respondent provide the
+effect of the factor
+i
+on factor
+j
+. These effects are presented in a
+matrix
+X X = [ ] × k ij
+k n n(for the
+k
+th respondent). From this matrix, direct relations matrix is formed. The scale ranging is from 0 (No influence) to 4 (Very high influence). All elements aiiin main diameter
+of
+Xk are 0. To have a combined matrix of all respondents’ feedback,
+we use the following formula:
+= = ×
+=
+A A × H [ ] X 1
+ij n n [ ]
+k
+H
+ij
+k n n
+1 (15)
+Step 2: In this step, the normalized primary direct matrix is calculated. We call this matrix as initial influence matrix,
+D
+. To form a
+normalized matrix of direct relations matrix, we use the following
+formulas.
+D = A
+S
+(16)
+=
+= =
+S max a max a max( , )
+j
+n
+ij
+i
+n
+ij
+1 1 (17)
+Step 3: We compute the direct/indirect influence matrix. This matrix reflects the direct and indirect effects that the matrix elements
+(factors) have on each other.
+L
+is an identity matrix. The total relation matrix
+T
+is calculated by:
+T D(L D) = 1 (18)
+Step 4: In this step, two matrices
+C
+and
+R
+are calculated. These
+matrices are constructed to form
+R C +
+(total effects given and received by a factor) and
+R C
+(the net effects that a factor contributes to the system). Accordingly, if
+R C
+is positive, the factor
+is net cause, otherwise the factor is net receiver.
+T [t ] i, j 1, 2, n = ij n n× = (19)
+= =
+=
+C ( t ) i 1, 2, n ×
+j 1
+n
+ij n 1
+(20)
+= =
+=
+R ( t ) j 1, 2, n ×
+i 1
+n
+ij 1 n
+(21)
+3.3. Data collection
+In Malaysia, the Tourism Development Corporation (TDC) was initiated in 1972, which was responsible for the development of domestic
+and international tourism (Ghani, 2016). Nowadays, the tourism sector
+is one of the major national key economic areas in Malaysia. With the
+help of various private and public agencies, the tourism and hospitality
+sector has contributed significantly to this country economic growth. In
+2017, the Malaysia’ investment on Travel & Tourism was MYR23.0
+billion, 6.7% of total investment (USD5.3 billion). In addition, in 2017,
+Table 4
+Average matrix.
+Technological Organizational Environmental Human
+Technological 0.0000 1.5750 1.5250 2.5250
+Organizational 3.8500 0.0000 1.1500 3.0000
+Environmental 2.1000 2.3250 0.0000 2.3000
+Human 3.3750 2.7000 1.4250 0.0000
+Table 5
+The direct influence matrix.
+Technological Organizational Environmental Human
+Technological 0.0000 0.1689 0.1635 0.2708
+Organizational 0.4129 0.0000 0.1233 0.3217
+Environmental 0.2252 0.2493 0.0000 0.2466
+Human 0.3619 0.2895 0.1528 0.0000
+Table 6
+The total relation matrix.
+Technological Organizational Environmental Human
+Technological 0.6197 0.6018 0.4528 0.7439
+Organizational 1.1168 0.5924 0.5232 0.9438
+Environmental 0.9015 0.7274 0.3615 0.8140
+Human 1.0474 0.7900 0.5234 0.6669
+Table 7
+Final results of DEMATEL analysis.
+Factors R C R + C R − C
+Technological 2.4182 3.6854 6.1036 −1.2673
+Organizational 3.1762 2.7117 5.8879 0.4646
+Environmental 2.8045 1.8610 4.6654 0.9435
+Human 3.0277 3.1685 6.1962 −0.1408
+Fig. 2. Interrelationships among four factors of readiness and decision to adopt
+medical tourism by hotel firms.
+M. Nilashi, et al. Computers & Industrial Engineering 137 (2019) 106005
+6
+Malaysia has achieved the GDP around MYR181.4 billion (USD41.9
+billion), 13.4% of GDP, by contributing in the Travel & Tourism. Furthermore, Travel & Tourism in Malaysia has directly supported 670,000
+jobs (4.6% of total employment).
+Established in 2009, Malaysia Healthcare Travel Council (MHTC) as
+an agency under the Health Ministry has been responsible to provide
+world class healthcare services and facilitate the medical tourism development by building Public-Private Partnerships (PPP) and with the
+coordination of industry collaborations. Malaysian government has
+showed high interest towards the medical tourism in recent years. In a
+report by the Malaysian Ministry of Health (MOH), it has been emphasized that the income from foreign patients can significantly enhance the national health services which can bring benefits for the local
+population (Leng, 2010). The report of MOH shows that the number of
+foreign patients to Malaysia has been increased from 393,000 to
+770,000 between 2010 and 2013 with a huge rise in financial receipts
+from RM379 million to RM690 million. Also, the report shows that
+medical tourism will generate RM35.5 billion in Gross National Income
+(GNI) and provide 181,000 new careers to cater to 1.9 million medical
+travellers by 2020. The report of MHTC also demonstrated that the
+income from medical tourism from an estimated 900,000 medical
+tourists was RM1 billion in 2016. Such other countries which have
+contributed to the medical tourism, there have been several hospitals
+and clinics, listed in the Malaysian medical tourism website (www.
+medicaltourism.com.my), to provide the medical treatments for the
+people who come to Malaysia as medical travelers.
+Although, the evidence shows that the medical tourism services in
+Malaysia are growing, these services are only provided in some of the
+public and private clinics and hospitals. In addition, small number of
+major hotels solely provide spa and wellness services and other types of
+medical services are not provided because of several readiness issues.
+This study focused on the four major readiness factors for the implementation of medical services by major hotels in Malaysia which are:
+human readiness, organizational readiness, technological readiness and
+environmental readiness. The target population of this research comprises the managers of hotels in Malaysia. We investigated their perception and attitude toward medical hotels and the problems faced by
+them in adopting this type of services. They were asked to provide their
+difficulties on four factors, human, organizational, technological and
+environmental factors. All details of major Malaysian hotels along with
+their websites were found in www.tripadvisor.com. These hotels provide 5-star accommodations. In addition, we randomly selected those
+hotels which provide Spa services to the customers. The sample characteristics of the hotels managers are provided in Table 3. The data
+collection is conducted in four cities in Malaysia, Johor Bahru, Melaka,
+Penang and Kuala Lumpur. From this table, it is found that the majority
+of respondents (52.5%) have been the hotels’ managers in Kuala
+Lumpur. In addition, this table reveal that 40% of respondents have had
+more than 20 years’ experience in hotel management for top-level
+management responsibilities.
+Fig. 3. The causal diagram for four factors of readiness.
+Table 8
+Average rating for each criteria of technological readiness.
+Criteria Fuzzy rating
+Efficient Information Systems (C1) (0.73,0.83,0.92)
+Internet (C2) (0.65,0.77,0.88)
+Cloud Computing Technologies (C4) (0.42,0.59,0.76)
+Medical Technology (C3) (0.79,0.89,0.96)
+Table 9
+The linguistic terms correspond to the average fuzzy scores of the technological readiness factors.
+Criteria Distance between Linguistic Term and Factors Minimum Distance Linguistic Term
+VL L ML M MH H VH
+C1 0.76 0.627 0.479 0.338 0.182 0.027 0.108 0.027 H
+C2 0.701 0.567 0.418 0.276 0.120 0.036 0.170 0.036 H
+C3 0.814 0.68 0.533 0.391 0.236 0.081 0.054 0.054 VH
+C4 0.529 0.394 0.241 0.093 0.062 0.218 0.352 0.062 MH
+Table 10
+Average rating for each criteria of organizational readiness.
+Criteria Fuzzy Rating
+Top Management Commitment (C5) (0.58,0.71,0.84)
+Financial Performance (C6) (0.65,0.77,0.88)
+Infrastructure (C7) (0.79,0.89,0.96)
+International Healthcare Collaboration (C8) (0.32,0.5,0.68)
+M. Nilashi, et al. Computers & Industrial Engineering 137 (2019) 106005
+7
+3.4. Data analysis and discussion
+In this study, the data was collected form the 40 managers of major
+hotels in Malaysia. An in-depth interview was conducted with each
+manager of hotel before the data collection by a questionnaire survey.
+In addition, to better be familiar with the questionnaire and how to be
+completed, a guideline was prepared and the method of completing the
+questionnaire was explained. In addition, we tried to explain them
+about the methods of data analysis to be more aware about it, which
+helped them in understanding the types of questionnaires used in this
+study.
+In the first step of data analysis, the DEMATEL survey questionnaires were distributed. The aim of this survey was to reveal the
+interrelationships among four factors of readiness and to find the importance level of them with respect to the managers’ decision to adopt
+medical hotels in Malaysia. In this survey, the managers were asked to
+provide their answers to the questions by the following scores: “No
+Influence (0),” “Low Influence (1),” “Medium Influence (2),” “High
+Influence (3),” and “Very High Influence (4)”. To perform the steps of
+DEMATEL presented in the previous section, the data was structured in
+the matrices for all respondents. In the first step of our analysis, the
+combined (average) matrix
+A A = [ ]ij n n× was calculated (see Table 4).
+Then, by calculating the normalized primary direct matrix (see
+Table 5), we could obtain the matrix
+T
+for all relationships (see
+Table 6). After calculating this matrix, we obtained
+C, R, C R +
+and
+C R
+from each matrix
+T
+(see Table 7).
+The results of Table 5 can be depicted in a model which reveals the
+relationships among the main factors according to the T values (see
+Fig. 2). In this model, based on a threshold value which is calculated
+from the average of the values in T matrix, the relationships are constructed. In fact, the significant relationships are presented in the model
+by T values for influence rate. In Fig. 2, it can be seen that the influence
+rates of environmental factor on technological, organizational and
+human factors are respectively, T = 0.9015, T = 0.7274 and
+T = 0.8140. In addition, the influence rates of organizational factor on
+technological and Human factors are respectively, T = 1.1168 and
+T = 0.9438. The results further reveal that the there is a significant
+relationship between technological factor and human factor with the
+influence rate of T = 0.7439. In addition, the outcome of DEMATEL
+analysis showed that Human factor has no impact on the technological,
+environmental and organizational factors for decision to adopt medical
+hotels in Malaysia. In Fig. 3, the causal diagram for four factors of
+readiness is presented. This figure better shows the importance of the
+factors based on the results of Table 6. In fact, this figure show that
+technological, organizational, environmental and human factors are
+respectively net receiver, net causer, net cause and net receiver with
+R − C values of −1.2673, 0.4646, 0.9435 and −0.1408. In addition,
+the result of R + C in this figure shows that technological and human
+factors are more important than organizational and environmental
+factors for decision to adopt medical hotels in Malaysia.
+After data collection through first questionnaire, Fuzzy TOPSIS
+questionnaire was distributed which were designed based on 7 scales,
+“Very Low (VL)”, “Low (L)”, “Medium Low (ML)”, “Medium (M)”,
+“Medium High (MH)”, “High (H)”, and “Very High (VH)”. Based on
+these linguistic scales, the experts provided the importance of each
+factor of the decision making model. In Tables 8–15, we present the
+average scores and the linguistic terms correspond to the average fuzzy
+scores of the technological, environmental, organizational and human
+readiness factors. The results of Fuzzy TOPSIS analysis for final ranking
+are presented in Table 16.
+4. Discussions
+Tourism has been one of the important economic activities in the
+developing and developed countries around the world (Nilashi et al.,
+2018). As a developing country, Malaysia's economic growth has
+caused a rapid rise of tourists’ arrival. Regarding medical hotel development, the evidence shows that the trend of medical hotel in Malaysia
+is still in its early stages compared to the developed countries. In addition, despite a growing body of research in the field of tourism and
+Table 11
+The linguistic terms correspond to the average fuzzy scores of the organizational readiness factors.
+Criteria Distance between Linguistic Term and Factors Minimum Distance Linguistic Term
+VL L ML M MH H VH
+C5 0.645 0.511 0.36 0.218 0.062 0.093 0.228 0.062 MH
+C6 0.701 0.567 0.418 0.276 0.120 0.036 0.170 0.036 H
+C7 0.814 0.68 0.533 0.391 0.236 0.081 0.054 0.054 VH
+C8 0.442 0.307 0.152 0.016 0.152 0.307 0.442 0.016 M
+Table 12
+Average rating for each criteria of environmental readiness.
+Criteria Fuzzy Rating
+Government Policy (C9) (0.65,0.77,0.88)
+National Healthcare Policy (C10) (0.54,0.68,0.82)
+Investment (C11) (0.76,0.86,0.94)
+Facilitating Visits to Malaysia (12) (0.42,0.59,0.76)
+Table 13
+The linguistic terms correspond to the average fuzzy scores of the environmental readiness factors.
+Criteria Distance between Linguistic Term and Factors Minimum Distance Linguistic Term
+VL L ML M MH H VH
+C9 0.701 0.567 0.418 0.276 0.120 0.036 0.170 0.036 H
+C10 0.616 0.481 0.330 0.187 0.031 0.124 0.259 0.031 MH
+C11 0.787 0.653 0.506 0.365 0.209 0.054 0.081 0.054 H
+C12 0.529 0.394 0.241 0.093 0.062 0.218 0.352 0.062 MH
+Table 14
+Average rating for each criteria of human readiness.
+Criteria Fuzzy Rating
+Language and Communication (C13) (0.32,0.5,0.68)
+Service Quality (C14) (0.54,0.68,0.82)
+Specialization (C15) (0.76,0.86,0.94)
+Specialists (C16) (0.82,0.92,0.98)
+M. Nilashi, et al. Computers & Industrial Engineering 137 (2019) 106005
+8
+medical tourism, there is a limited research on the development of
+medical hotels in Malaysia.
+This research has taken an important step toward filling this gap in
+medical hotel by identifying the most important challenges faced by
+hotels’ managers in Malaysia. We found that the most hotels in
+Malaysia are not ready to provide medical hotel services because of
+several issues such as human, environmental, organizational and
+technological challenges. This study found human as one of the most
+critical readiness factor for developing medical hotels in Malaysia.
+Among language and communication, service quality, and specialization and specialists criteria in human factor of readiness, managers of
+hotels are more concerned about the shortage of medical manpower
+(specialists) and specialization (specialized treatments). They believe
+that a shortage of medical manpower has significantly impacted on
+their decision to provide medical hotel services.
+With respect to the environmental factor of readiness, the hotels’
+managers are more concerned about the investment and government
+policy. This indicates that sizeable investments are needed to
+strengthen, upgrade and expand the medical hotel services in Malaysia.
+In addition, more qualified specialists are needed for medical hotels
+services which need partnerships between hotels and hospital investors.
+Furthermore, government policies play an important role in establishing medical hotels in Malaysia. Lack of governments’ involvement
+can be a significant obstacle in developing this type of tourism, indicating that government’s role in establishing the medical hotels
+should be reiterated through new policies to increase the budget for
+medical tourism. In addition, Malaysian Health Ministry supports can
+encourage the private providers of healthcare to invest on medical
+hotels with more motivations. Furthermore, to setting up medical hotels
+by the managers of hotels, policies are needed aimed at decreasing the
+expense of equipment and facilities, and attracting and supporting the
+overseas investmentors in medical tourism to promote medical traveling and tourism.
+With respect to the technological factor of readiness, the hotels’
+managers reveal their concerns on the medical technology and efficient
+information systems. Medical hotel service providers such other
+healthcare service providers need efficient information systems and
+medical technology, as sharing the medical tourist information is performed electronically among the organizations. In addition, collaboration between the healthcare and tourism sectors needs adequate information processing technologies such as electronic medical records
+processing systems and telemedicine for the communication purpose
+(exchanging emails between the specialist and the patients), e-consultations and e-diagnoses.
+With respect to the organizational factor of readiness, financial
+performance and infrastructure are considered as two important enablers of medical hotels. From the financial performance perspective,
+tourism organizations must consider enough budgets to be able to
+provide the medical hotel services in a comprehensive way. In addition,
+medical hotels providers need sufficient infrastructures such as physical
+environment, supportive facilities, and separate private and public
+clinics and hospitals to support medical tourism and provide medical
+hotel services. These infrastructures need huge amount of support from
+the private sectors and government. This indicates that scarcity of land,
+high land costs, limited access to financial facilities and budgetary allocation can significantly influence the managers’ decision to establish
+medical hotels in Malaysia.
+5. Conclusions and future study
+In this research, the attempts have been made to develop a decision
+making model for the adoption of medical tourism in Malaysia. The
+decision making model included several factors and criteria which were
+identified from the literature. We employed two multi-criteria decision
+making model to achieve the objectives of this research, DEMATEL and
+Fuzzy TOPSIS. In the first stage of the data analysis, we employed
+Table 15
+The linguistic terms correspond to the average fuzzy scores of the human readiness factors.
+Criteria Distance between Linguistic Term and Factors Minimum Distance Linguistic Term
+VL L ML M MH H VH
+C13 0.442 0.307 0.152 0.016 0.152 0.307 0.442 0.016 M
+C14 0.616 0.481 0.330 0.187 0.031 0.124 0.259 0.031 MH
+C15 0.787 0.653 0.506 0.365 0.209 0.054 0.081 0.054 H
+C16 0.840 0.707 0.560 0.418 0.263 0.108 0.027 0.027 VH
+Table 16
+Final ranks of criteria of decision making model.
+Factors Criteria
+di +di Closeness Coefficient (CC) Criteria Rank
+Technological (D1) Efficient Information Systems (C1) 0.848 4.156 0.169 2
+Internet (C2) 0.788 4.22 0.157 3
+Cloud Computing Technologies (C4) 0.622 4.398 0.124 4
+Medical Technology (C3) 0.901 4.103 0.180 1
+Organizational (D2) Top Management Commitment (C5) 0.751 4.259 0.150 3
+Financial Performance (C6) 0.806 4.202 0.161 2
+Infrastructure (C7) 0.919 4.085 0.184 1
+International Healthcare Collaboration (C8) 0.542 4.484 0.108 4
+Environmental (D3) Government Policy (C9) 0.821 4.188 0.164 2
+National Healthcare Policy (C10) 0.733 4.282 0.146 3
+Investment (C11) 0.910 4.094 0.182 1
+Facilitating Visits to Malaysia (12) 0.647 4.376 0.129 4
+Human (D4) Language and Communication (C13) 0.534 4.491 0.106 4
+Service Quality (C14) 0.703 4.311 0.140 3
+Specialization (C15) 0.875 4.130 0.175 2
+Specialists (C16) 0.927 4.076 0.185 1
+M. Nilashi, et al. Computers & Industrial Engineering 137 (2019) 106005
+9
+DEMATEL to reveal the interrelationships among the readiness factors.
+In fact, the DEMATEL techniques could effectively reveal the influence
+scores of technological, organizational, environmental and human
+readiness factors. In the next stage of our data analysis, we employed
+Fuzzy TOPSIS to find the importance of each criteria in the decision
+making model. The results from DEMATEL data analysis showed that,
+from the managers’ perspectives, that technological and human factors
+are more important than organizational and environmental factors for
+decision to adopt medical hotels in Malaysia. The results further revealed that human factor significantly received influence (net receiver
+factor) from the technological, organizational, and environmental factors. The results of Fuzzy TOPSIS further revealed the importance of the
+criteria in each factor. The data analysis results indicated that medical
+technology and efficient information systems are more important for
+technological readiness. In addition, infrastructure and financial performance are more significant for the adoption of medical tourism in
+Malaysia. Furthermore, investment and government policy are found to
+be more important in environmental factor. Our results also found that
+specialization and specialists are more important for human readiness.
+This research is not without theoretical and methodological limitations. In this study, a limited number of readiness factors are investigated for the adoption of medical tourism in Malaysia. Future
+studies may further investigate the role of other factors (e.g., culture,
+medical insurance coverage, global competition, transplantation law) in
+this context. In addition, this study was conducted from hotels managers’ perspectives. Other studies can investigate the issue of medical
+tourism adoption from the tourists’ perspectives. Furthermore, this
+study used multi-criteria decision making approaches for factors assessment. The future studies can find the relationships between the
+factor using Partial Least Squares based Structural Equation Modeling
+(PLS-SME) and compare the results with the results of the techniques
+used in this study. Moreover, this study used HOT-fit and TOE framework to develop the adoption model. Other organizational theories are
+suggested to be investigated in the future studies. Finally, the sensitivity
+analysis is suggested for the future studies to show the robustness of
+Fuzzy TOPSIS and its results by changing the criteria weights in different scenarios.
+References
+Abubakar, A. M., & Ilkan, M. (2016). Impact of online WOM on destination trust and
+intention to travel: A medical tourism perspective. Journal of Destination Marketing &
+Management, 5(3), 192–201.
+Ahani, A., Nilashi, M., Ibrahim, O., Sanzogni, L., & Weaven, S. (2019). Market segmentation and travel choice prediction in Spa hotels through TripAdvisor’s online reviews. International Journal of Hospitality Management, 80, 52–77.
+Ahmadi, H., Ibrahim, O., & Nilashi, M. (2015). Investigating a new framework for hospital
+information system adoption: A case on Malaysia. Journal of Soft Computing and
+Decision Support Systems, 2(2), 26–33.
+Ahmadi, H., Nilashi, M., & Ibrahim, O. (2015). Organizational decision to adopt hospital
+information system: An empirical investigation in the case of Malaysian public hospitals. International Journal of Medical Informatics, 84(3), 166–188.
+Ahmadi, H., Nilashi, M., Shahmoradi, L., & Ibrahim, O. (2017). Hospital information
+system adoption: Expert perspectives on an adoption framework for Malaysian public
+hospitals. Computers in Human Behavior, 67, 161–189.
+Asadi, S., Nilashi, M., Safaei, M., Abdullah, R., Saeed, F., Yadegaridehkordi, E., & Samad,
+S. (2019). Investigating factors influencing decision-makers’ intention to adopt Green
+IT in Malaysian manufacturing industry. Resources, Conservation and Recycling, 148,
+36–54.
+Aziz, A., Yusof, R. M., Ayob, M., Bakar, N. T. A., & Awang, A. H. (2015). Measuring tourist
+behavioural intention through quality in Malaysian medical tourism industry.
+Procedia Economics and Finance, 31, 280–285.
+Beladi, H., Chao, C. C., Ee, M. S., & Hollas, D. (2019). Does medical tourism promote
+economic growth? A cross-country analysis. Journal of Travel Research, 58(1),
+121–135.
+Beladi, H., Chao, C.-C., Ee, M. S., & Hollas, D. (2015). Medical tourism and health worker
+migration in developing countries. Economic Modelling, 46, 391–396.
+Bies, W., & Zacharia, L. (2007). Medical tourism: Outsourcing surgery. Mathematical and
+Computer Modelling, 46(7), 1144–1159.
+Büyüközkan, G., & Çifçi, G. (2012). A novel hybrid MCDM approach based on fuzzy
+DEMATEL, fuzzy ANP and fuzzy TOPSIS to evaluate green suppliers. Expert Systems
+with Applications, 39(3), 3000–3011.
+Buzinde, C. N., & Yarnal, C. (2012). Therapeutic landscapes and postcolonial theory: A
+theoretical approach to medical tourism. Social Science & Medicine, 74(5), 783–787.
+Chang, I.-C., Chou, P.-C., Yeh, R. K.-J., & Tseng, H.-T. (2016). Factors influencing Chinese
+tourists’ intentions to use the Taiwan Medical Travel App. Telematics and Informatics,
+33(2), 401–409.
+Chen, C.-T. (2000). Extensions of the TOPSIS for group decision-making under fuzzy
+environment. Fuzzy Sets and Systems, 114(1), 1–9.
+Chou, S. Y., Kiser, A. I., & Rodriguez, E. L. (2012). An expectation confirmation perspective of medical tourism. Journal of Service Science Research, 4(2), 299–318.
+Chuang, T. C., Liu, J. S., Lu, L. Y., & Lee, Y. (2014). The main paths of medical tourism:
+From transplantation to beautification. Tourism Management, 45, 49–58.
+Connell, J. (2013). Contemporary medical tourism: Conceptualisation, culture and commodification. Tourism Management, 34, 1–13.
+Cormany, D., & Baloglu, S. (2011). Medical travel facilitator websites: An exploratory
+study of web page contents and services offered to the prospective medical tourist.
+Tourism Management, 32(4), 709–716.
+Crooks, V. A., Turner, L., Snyder, J., Johnston, R., & Kingsbury, P. (2011). Promoting
+medical tourism to India: Messages, images, and the marketing of international patient travel. Social Science & Medicine, 72(5), 726–732.
+Crush, J., & Chikanda, A. (2015). South-South medical tourism and the quest for health in
+Southern Africa. Social Science & Medicine, 124, 313–320.
+de la Hoz-Correa, A., Muñoz-Leiva, F., & Bakucz, M. (2018). Past themes and future trends
+in medical tourism research: A co-word analysis. Tourism Management, 65, 200–211.
+Esiyok, B., Çakar, M., & Kurtulmuşoğlu, F. B. (2017). The effect of cultural distance on
+medical tourism. Journal of Destination Marketing & Management, 6(1), 66–75.
+Fetscherin, M., & Stephano, R.-M. (2016). The medical tourism index: Scale development
+and validation. Tourism Management, 52, 539–556.
+Frederick, J. R., & Gan, L. L. (2015). East-West differences among medical tourism facilitators’ websites. Journal of Destination Marketing & Management, 4(2), 98–109.
+Fu, Z., & Liao, H. (2019). Unbalanced double hierarchy linguistic term set: The TOPSIS
+method for multi-expert qualitative decision making involving green mine selection.
+Information Fusion, 51, 271–286.
+Ganguli, S., & Ebrahim, A. H. (2017). A qualitative analysis of Singapore's medical
+tourism competitiveness. Tourism Management Perspectives, 21, 74–84.
+Ghani, G. M. (2016). Tourist arrivals to Malaysia from Muslim countries. Tourism
+Management Perspectives, 20, 1–9.
+Hallem, Y., & Barth, I. (2011). Customer-perceived value of medical tourism: An exploratory study—the case of cosmetic surgery in Tunisia. Journal of Hospitality and
+Tourism Management, 18(1), 121–129.
+Han, H. (2013). The healthcare hotel: Distinctive attributes for international medical
+travelers. Tourism Management, 36, 257–268.
+Han, H., & Hwang, J. (2013). Multi-dimensions of the perceived benefits in a medical
+hotel and their roles in international travelers’ decision-making process. International
+Journal of Hospitality Management, 35, 100–108.
+Han, H., & Hyun, S. S. (2015). Customer retention in the medical tourism industry: Impact
+of quality, satisfaction, trust, and price reasonableness. Tourism Management, 46,
+20–29.
+Hanefeld, J., Lunt, N., Smith, R., & Horsfall, D. (2015). Why do medical tourists travel to
+where they do? The role of networks in determining medical travel. Social Science &
+Medicine, 124, 356–363.
+Heung, V. C., Kucukusta, D., & Song, H. (2011). Medical tourism development in Hong
+Kong: An assessment of the barriers. Tourism Management, 32(5), 995–1005.
+Keckley, P. H. (2008). Medical tourism: Consumers in search of value. Washington, DC:
+Deloitte Center for Health Solutions.
+Khan, S., & Alam, M. S. (2014). Kingdom of Saudi Arabia: A potential destination for
+medical tourism. Journal of Taibah University Medical Sciences, 9(4), 257–262.
+Lee, H. K., & Fernando, Y. (2015). The antecedents and outcomes of the medical tourism
+supply chain. Tourism Management, 46, 148–157.
+Leng, C. H. (2010). Medical tourism and the state in Malaysia and Singapore. Global Social
+Policy, 10(3), 336–357.
+Lunt, N., Horsfall, D., & Hanefeld, J. (2016). Medical tourism: A snapshot of evidence on
+treatment abroad. Maturitas, 88, 37–44.
+Majeed, S., Lu, C., & Javed, T. (2017). The journey from an allopathic to natural treatment approach: A scoping review of medical tourism and health systems. European
+Journal of Integrative Medicine.
+Manaf, A., & Hazilah, N. (2010). Health tourism in Malaysia: Prospects and challenges.
+Moghavvemi, S., Ormond, M., Musa, G., Isa, C. R. M., Thirumoorthi, T., Mustapha, M. Z.
+B., & Chandy, J. J. C. (2017). Connecting with prospective medical tourists online: A
+cross-sectional analysis of private hospital websites promoting medical tourism in
+India, Malaysia and Thailand. Tourism Management, 58, 154–163.
+Moghimehfar, F., & Nasr-Esfahani, M. H. (2011). Decisive factors in medical tourism
+destination choice: A case study of Isfahan, Iran and fertility treatments. Tourism
+Management, 32(6), 1431–1434.
+Mohamad, W. N., Omar, A., & Haron, M. S. (2012). The moderating effect of medical
+travel facilitators in medical tourism. Procedia-Social and Behavioral Sciences, 65,
+358–363.
+Nilashi, M., Ahani, A., Esfahani, M. D., Yadegaridehkordi, E., Samad, S., Ibrahim, O., ...
+Akbari, E. (2019). Preference learning for eco-friendly hotels recommendation: A
+multi-criteria collaborative filtering approach. Journal of Cleaner Production, 215,
+767–783.
+Nilashi, M., Ahmadi, H., Ahani, A., Ravangard, R., & bin Ibrahim, O. (2016). Determining
+the importance of hospital information system adoption factors using fuzzy analytic
+network process (ANP). Technological Forecasting and Social Change, 111, 244–264.
+Nilashi, M., Ibrahim, O., Yadegaridehkordi, E., Samad, S., Akbari, E., & Alizadeh, A.
+(2018). Travelers decision making using online review in social network sites: A case
+on TripAdvisor. Journal of Computational Science, 28, 168–179.
+Nilashi, M., Yadegaridehkordi, E., Ibrahim, O., Samad, S., Ahani, A., & Sanzogni, L.
+M. Nilashi, et al. Computers & Industrial Engineering 137 (2019) 106005
+10
+(2019). Analysis of Travellers’ Online Reviews in Social Networking Sites Using Fuzzy
+Logic Approach. International Journal of Fuzzy Systems, 1–12.
+Parasuraman, A. (2000). Technology Readiness Index (TRI) a multiple-item scale to
+measure readiness to embrace new technologies. Journal of Service Research, 2(4),
+307–320.
+Parasuraman, A., & Colby, C. L. (2015). An updated and streamlined technology readiness
+index: TRI 2.0. Journal of Service Research, 18(1), 59–74.
+Rodrigues, H., Brochado, A., Troilo, M., & Mohsin, A. (2017). Mirror, mirror on the wall,
+who's the fairest of them all? A critical content analysis on medical tourism. Tourism
+Management Perspectives, 24, 16–25.
+Runnels, V., & Carrera, P. M. (2012). Why do patients engage in medical tourism?
+Maturitas, 73(4), 300–304.
+Sarantopoulos, I., Vicky, K., & Geitona, M. (2014). A supply side investigation of medical
+tourism and ICT use in Greece. Procedia-Social and Behavioral Sciences, 148, 370–377.
+Sarwar, A. (2013). Medical tourism in malaysia: Prospect and challenges. Iranian Journal
+of Public Health, 42(8), 795.
+Shea, C. M., Jacobs, S. R., Esserman, D. A., Bruce, K., & Weiner, B. J. (2014).
+Organizational readiness for implementing change: A psychometric assessment of a
+new measure. Implementation Science, 9(1), 7.
+Sheppard, C. E., Lester, E. L., Karmali, S., de Gara, C. J., & Birch, D. W. (2014). The cost of
+bariatric medical tourism on the Canadian healthcare system. The American Journal of
+Surgery, 207(5), 743–747.
+Smith, R., Álvarez, M. M., & Chanda, R. (2011). Medical tourism: A review of the literature and analysis of a role for bi-lateral trade. Health Policy, 103(2), 276–282.
+Tham, A. (2018). Sand, surgery and stakeholders: A multi-stakeholder involvement model
+of domestic medical tourism for Australia’s Sunshine Coast. Tourism Management
+Perspectives, 25, 29–40.
+Turner, L. (2011). Canadian medical tourism companies that have exited the marketplace:
+Content analysis of websites used to market transnational medical travel.
+Globalization and health, 7(1), 40.
+Viladrich, A., & Baron-Faust, R. (2014). Medical tourism in tango paradise: The internet
+branding of cosmetic surgery in Argentina. Annals of Tourism Research, 45, 116–131.
+Wang, T.-C., & Lee, H.-D. (2009). Developing a fuzzy TOPSIS approach based on subjective weights and objective weights. Expert Systems with Applications, 36(5),
+8980–8985.
+Wang, Y.-M., & Elhag, T. M. (2006). Fuzzy TOPSIS method based on alpha level sets with
+an application to bridge risk assessment. Expert Systems with Applications, 31(2),
+309–319.
+Weiner, B. J., Lewis, M. A., & Linnan, L. A. (2008). Using organization theory to understand the determinants of effective implementation of worksite health promotion
+programs. Health Education Research, 24(2), 292–305.
+Whitmore, R., Crooks, V. A., & Snyder, J. (2015). Ethics of care in medical tourism:
+Informal caregivers' narratives of responsibility, vulnerability and mutuality. Health
+& Place, 35, 113–118.
+Wongkit, M., & McKercher, B. (2013). Toward a typology of medical tourists: A case study
+of Thailand. Tourism Management, 38, 4–12.
+Yeoh, E., Othman, K., & Ahmad, H. (2013). Understanding medical tourists: Word-ofmouth and viral marketing as potent marketing tools. Tourism Management, 34,
+196–201.
+Yu, J. Y., & Ko, T. G. (2012). A cross-cultural study of perceptions of medical tourism
+among Chinese, Japanese and Korean tourists in Korea. Tourism Management, 33(1),
+80–88.
+Zhu, T., Luo, L., Liao, H., Zhang, X., & Shen, W. (2019). A hybrid multi-criteria decision
+making model for elective admission control in a Chinese public hospital. KnowledgeBased Systems, 173, 37–51.
+M. Nilashi, et al. Computers & Industrial Engineering 137 (2019) 106005
+11

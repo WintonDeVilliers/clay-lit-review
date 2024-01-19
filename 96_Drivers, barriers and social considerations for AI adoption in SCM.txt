@@ -1,0 +1,1043 @@
+Technology in Society 74 (2023) 102299
+Available online 15 June 2023
+0160-791X/© 2023 Published by Elsevier Ltd.
+Drivers, barriers and social considerations for AI adoption in SCM
+Johannes Hangl *
+, Simon Krause, Viktoria Joy Behrens
+Mendel University Brno, Zemˇedˇelska ´ 1665, 613 00, Brno-sever-Cern ˇ a ´ Pole, Czech Republic
+ARTICLE INFO
+Keywords:
+Supply chain management
+SCM
+Artifiicial intelligence
+AI
+ABSTRACT
+This study explored the challenges and recommendations for implementing Artificial Intelligence (AI) in SC
+Management (SCM). The experts identified several drivers for AI adoption in SCM, including increased efficiency,
+improved decision-making, and reduced costs. However, they highlighted several barriers to AI adoption, such as
+data quality and management issues, resistance to change, and lack of understanding and trust in AI. To overcome these barriers and ensure successful AI implementation, companies should involve all stakeholders, focus
+on data quality and management, and ensure the AI solution integrates with existing processes and workflows. In
+addition, companies should also avoid common mistakes when implementing AI, such as neglecting the
+importance of explainability and transparency in AI decision-making, underestimating the importance of
+involving all stakeholders, and rushing into large-scale implementation without conducting small-scale pilot
+projects. By following the recommendations and avoiding common mistakes, companies can harness the benefits
+of AI in SCM while minimizing risks and challenges.
+1. Introduction
+Artificial Intelligence (AI) is a rapidly evolving technology transforming various industries, including SC Management (SCM). The
+integration of AI in SCM offers a range of benefits, such as improved
+decision-making, enhanced automation, and zoptimized operations. As
+a result, many zorganizations are seeking to implement AI in their SC
+operations to gain a competitive advantage. However, adopting AI in
+SCM is challenging, and zorganizations must consider the drivers and
+barriers to AI adoption. [1]
+To gain a deeper understanding of the drivers and barriers of AI in
+SCM, a survey was conducted with twelve experts in the field. The experts were selected based on their extensive experience and knowledge
+of AI in SCM and their ability to provide insightful analysis of the
+challenges and opportunities of AI adoption. The expert interview was
+designed to gather the experts’ opinions on the current state of the art
+and future trends in the field, as well as the drivers and barriers of AI
+adoption in SCM.
+As a starting point, all experts received the paper “A survey of
+drivers, barriers and social considerations for AI adoption in SCM” and a
+PowerPoint presentation with all graphs to consume before the interview. [2]
+The survey results provide valuable insights into the drivers and
+barriers of AI in SCM, and the expert interviews offer a unique
+perspective on the challenges and opportunities of AI adoption in the
+field, including recommendations for companies.
+This paper presents the results of the expert interviews, including a
+discussion of the key drivers and barriers of AI in SCM, the impact of AI
+on SC performance, and the implications for zorganizations considering
+the adoption of AI in their SC operations. The paper also highlights the
+future directions of AI in SCM and the role of AI in shaping the future of
+the field.
+AI has been identified as a critical enabler for transforming SCM,
+providing new opportunities for efficiency, effectiveness, and competitiveness. [3]
+The paper begins with the background of the study, followed by the
+methods and the survey approach, including limitations. The results will
+be presented in different chapters and include a Summary of the conversations, Drivers and Barriers of AI, Recommendations on implementation and traps to avoid. Next, the results are discussed, and
+limitations and implications will be presented. Future research direction
+and conclusion will be discussed in the final section.
+This paper aims to investigate and present the key drivers and barriers to AI adoption in SCM by conducting expert interviews and zanalyzing survey results. By exploring the challenges, opportunities, and
+recommendations for zorganizations considering AI implementation in
+their SCM operations, the paper aims to provide valuable insights and
+guidance for the future directions of AI in SCM, ultimately contributing
+* Corresponding author.
+E-mail address: xhangl1@o365.mendelu.cz (J. Hangl).
+Contents lists available at ScienceDirect
+Technology in Society
+journal homepage: www.elsevier.com/locate/techsoc
+https://doi.org/10.1016/j.techsoc.2023.102299
+Received 27 March 2023; Received in revised form 12 June 2023; Accepted 14 June 2023 
+Technology in Society 74 (2023) 102299
+2
+to a deeper understanding of AI’s role in transforming the field and
+enhancing competitiveness. In addition, should the paper give recommendations on implementing AI solutions and what points to avoid.
+2. Background of the study
+The SC encompasses every aspect of delivering a product or service,
+from sourcing raw materials to delivering to the end customer. SCM is
+the strategic planning and management of the flow of goods, information and money through this process to increase customer satisfaction,
+balance supply and demand, reduce waste, and achieve flexible and
+efficient production and transportation. [4,5]
+AI is a computer system that can perform tasks requiring human-like
+intelligence using machine learning and deep learning algorithms. SCM,
+by its nature, is very complex and has not just internal but also external
+data. AI is a valuable tool in SCM as it can handle large amounts of data
+and variables. The application of AI in SCM spans various areas,
+including planning, robotics, machine learning, natural language processing, speech recognition, computer vision, and expert systems. [6,7]
+Given the labour-intensive nature of SCM and the wealth of information to be processed, AI has become an attractive option. The COVID19 pandemic and the accompanying labour shortage have added to the
+attractiveness of AI. However, the adoption of AI in SC is accompanied
+by both drivers and barriers. Key drivers include cost savings, efficiency
+gains, and reduced time and resources, while barriers include change
+management, technical limitations, human acceptance, usability,
+knowledge, and implementation costs. [8–10]
+In their systematic literature review, Hangl et al. zanalyzed 44 articles on the barriers, drivers, and societal considerations for using AI in
+SCM. The authors identify seven research areas, of which algorithms are
+the most important. Change management, existing technical limitations,
+human acceptance of these techniques, understanding and usability of
+these techniques, existing human knowledge, and high cost are the most
+critical barriers to the adoption of AI in SCM. The key drivers for AI in
+SCM are cost reduction, efficiency, and error reduction. Collaboration
+between humans and robots is a crucial social factor. [11]
+Integrating AI into SCM can transform the field and offer new opportunities for efficiency, effectiveness, and competitiveness. AI can
+enhance decision-making, automate processes, and zoptimize operations. For instance, AI can help zorganizations better predict demand,
+zoptimize inventory levels, and zminimize waste and inefficiencies in
+the SC. AI can also help zorganizations better manage risks and respond
+to changing customer demands and market conditions. [11,12]
+However, companies face several challenges in adopting AI in SCM,
+including technical, organizational, and cultural factors. Lack of data
+quality, inadequate infrastructure, and the need for zspecialized skills
+and expertise can present barriers to AI adoption. When introducing AI
+in SCM, there may also be resistance to change and concerns about job
+losses. [2,13]
+Another study by Hangl et al. aimed to identify the drivers, barriers,
+and social implications of AI adoption in SCM through a survey conducted in 2022. The survey found that only 45% of respondees used AI in
+their organizations, and larger companies were likelier to use it. Robotics and machine learning were the primary AI techniques used in
+SCM, with planning, making, and delivery being the main usage areas.
+The main drivers of AI adoption were efficiency, time reduction, automation, and data-driven decisions, while the main barriers were understanding AI and data availability and high initial investment costs.
+Change management, knowledge of AI, and human acceptance were
+considered critical social considerations, and upskilling employees and
+making AI explainable were necessary. The study found that AI may
+replace human jobs, and there was uncertainty about whether it would
+create more jobs than destroy. Finally, there was identified a need for
+further research on the ethics of AI. [2]
+3. Methods
+This study uses a combined approach of qualitative interviews and
+statistical analysis to explore the topic. Following the guidelines by
+Mayring, the qualitative research method is used to examine social issues in their natural form. [14] This method entails interpreting
+non-numerical data, such as that obtained from expert interviews or
+observations. [15] The research is guided by theory and aims to make
+connections understandable and recognizable. [16]
+The primary qualitative data collection method is a content analysis
+of twelve expert interviews that focus on drivers and barriers of AI in SC.
+This method is commonly used for obtaining subjective experiences and
+opinions and zanalyzing unstructured relationships (see Table 1). [17]
+The participants for this study were experts in AI and, or SC. The
+participants were selected through the following criteria:
+Inclusion Criteria:
+• At least five years working in a company
+• Relevant expertise and experience in the field of study
+• Availability and willingness to participate in the research process
+• No conflicts of interest or prior contribution to related research
+• Sufficient language skills to participate in the study
+• Representation from a variety of zorganizations and industries
+The semi-structured interviews allow for an open discussion,
+explaining the topic or challenge in advance. The interviewer is wellprepared with knowledge of the problem and asks specific questions
+to gain expert knowledge on critical topics. [18]
+The experts received upfront the paper “A survey of drivers, barriers
+and social considerations for AI adoption in SCM”, a PowerPoint presentation with all graphs and the questions of the interview to consume
+Table 1
+Data of experts.
+No. Gender Company
+Industry
+Company
+Size
+Position Years of
+working
+in total
+1 Female Consulting Small and
+midsize
+enterprises
+(SME)
+Lecturer 30
+2 Female Airline Large Scale
+Enterprise
+(LSE)
+Senior
+Manager
+22
+3 Male Food LSE CTO 30
+4 Male IT SME CPO 22
+5 Male IT SME Head of EMEA
+Market
+14
+6 Male IT LSE Head of SC
+Analytics &
+Solution
+25
+7 Male Automotive LSE Head of
+Digital
+Supplier
+12
+8 Male IT SME Industry
+Solutions
+Director
+20
+9 Male Logistics LSE VP, Global
+Head
+Transport
+Management
+25
+10 Male Transportation,
+Logistics
+SME Senior
+Solutions
+Consultant
+30
+11 Male Supply Chain
+Software
+LSE SVP, Global
+Presales
+Solution
+Consulting
+30
+12 Male Machinery
+Manufacturing
+LSE Manager
+Foreign Trade
+Compliance
+20
+J. Hangl et al. 
+Technology in Society 74 (2023) 102299
+3
+before the interview. A standardized interview category guides the experts, and critical questions are asked to gather relevant information.
+The conversational style is designed to be fluid, enabling further questions and a thorough analysis of specific details. (see Table 2) [14]
+The interviews are relaxed and informal to encourage active participation. The interview should last about 1 h.z.z.
+Subsequently, the transcripts underwent several processing steps
+using Microsoft TEAMS and MaxQDA [18]:
+Transcription: The video-recorded interviews were initially converted into a written form using Microsoft TEAMS.
+Coding with MaxQDA: The transcripts were coded using MaxQDA,
+allowing the labelling of text sections representing different themes or
+ideas.
+Categorization: The coded data were then categorized based on
+shared themes or concepts, aiding comparison and analysis by reducing
+the data volume.
+Frequency and Keyword Analysis: The categorized data was then
+subjected to frequency analysis, counting the recurrence of each category or code. Keyword analysis was also conducted, identifying the
+data’s most used words or phrases. Both analyses provided insights into
+prevalent themes and main discussion points.
+These steps contributed to a deeper understanding of the drivers and
+barriers of AI in SC by unveiling significant patterns from the expert
+interviews.
+Ethical Considerations were discussed upfront with the authors, and
+all participants provided written informed consent before participating
+in the interview. The video recordings are kept secured on SharePoint/
+Microsoft Teams.
+The list of interviewees can be found below:
+The interview questions were formulated openly according to the
+principles defined by Glaser ¨ and Laudel to ensure that all relevant data
+was collected. The guidelines also ensured that the study did not harm
+the interview partner by being structured based on these principles and
+the critical question formulated. [14]
+The interview questions were zorganized into five main categories,
+each supported by more specific questions based on the answers. The
+first category focused on the respondent’s background and their company’s overall strategy. The second category delved into the usage of AI
+in the experts company. The third and fourth categories explored the
+barriers and drivers of AI in the SC. The fifth and final category focused
+on the future outlook and recommendations for other companies. Any
+remaining questions were addressed at the end.
+The interview protocol included formal greetings, openings, setting
+the scene, clarifying questions and closings, which were not considered
+part of the interview guide.
+Twelve expert interviews were conducted and zanalyzed using
+Mayring’s qualitative content analysis method, which is well-suited for
+studying social issues, cultures, and circumstances. This method was
+chosen because it is beneficial for investigating unknown phenomena,
+perspectives, and experiences. The analysis involved both a verbal
+communication analysis and a text analysis based on categories. Teams
+were tasked with transcribing the interviews, which were then saved as
+Microsoft Word files with numbered lines for precise referencing during
+the analysis and presentation. This word-processing approach zprioritizes thematic information. [18]
+The analysis considered pauses, filler words, and grammatical errors,
+but they were not used in the final evaluation. [18] Each interview was
+scheduled to last 60 min, with actual times ranging from 31 to 75 min
+due to the flow of conversation and the amount of information shared.
+The total length of all interviews was 512 min.
+The content analysis process followed Mayring’s ten-step model,
+which was applied before the final evaluation.
+In addition to the qualitative interviews and statistical analysis, this
+study employs MAXQDA, a data analysis software, to systematically
+zanalyze the interview transcripts. The analysis comprehensively explains the experts’ perspectives on AI adoption in SCM by identifying
+common words, similar recommendations, and recurring topics. This
+analysis method ensures that the study captures the depth and nuances
+of the expert opinions while maintaining a structured approach to data
+interpretation.
+MAXQDA’s powerful tools for coding and zanalyzing text data allow
+the researchers to identify patterns, trends, and themes within the expert
+interviews, which are then examined in the context of the study’s
+broader objectives. This approach enables the researchers to uncover
+valuable insights into AI drivers, barriers, and implications in SCM and
+identify potential areas for future research and development.
+Combining qualitative interviews, statistical analysis, and MAXQDAassisted transcript analysis, the study offers a full and thorough examination of the topic, effectively addressing the research questions and
+achieving the paper’s objective.
+Table 2
+Interview guide.
+Sector Question
+Company Data 1) What is your specific responsibility in the company?
+2) How long have you been in your current position and
+with the company?
+Usage of AI in your
+company
+3) How important is zdigitalization for your company?
+4) How has the integration of AI changed the traditional SC
+process, and how is AI currently being used in your SC
+operations?
+5) How has AI impacted the day-to-day operations of your
+SC, both positively and negatively?
+6) How has AI impacted the SC industry in recent years?
+7) What is the current spend and budget allocated for AI in
+your SC operations?
+8) What steps are you taking to ensure the ethical usage of
+AI in the SC?
+9) What social considerations should be considered when
+zutilizing AI in the SC?
+Barriers to AI in the
+SC
+10) What do you see as the most significant challenges to the
+adoption of zutilizing AI in SCM?
+11) What concerns do zorganizations have when
+implementing AI in their SCs?
+12) What are the primary technical limitations of AI in
+SCM?
+13) What are typical zorganizational barriers to AI adoption
+in SCM?
+14) How can zorganizations overcome these barriers to AI
+adoption in the SC?
+15) What challenges or barriers have you encountered when
+implementing AI in the SC?
+Drivers of AI in the
+SC
+16) What benefits do zorganizations achieve by
+implementing AI in their SCM processes?
+17) What impact does AI have on the efficiency and
+effectiveness of SC operations?
+18) What role does AI play in reducing costs and increasing
+profitability in the SC?
+19) In your opinion, what are the most significant
+advantages of using AI in SCM?
+20) How do you think AI is transforming the SCM industry?
+21) Can you give some recommendations to other
+companies on how they can use drivers to overcome
+barriers of AI in the SC?
+Outlook/future 22) What are the future hot topics for AI in the SC?
+23) What areas of AI research are currently the most
+relevant for the SC industry?
+24) What change aspects would you recommend to other
+companies if they want to transform themselves?
+25) Do you have any guidelines to recommend to other
+companies if they want to start using AI in their SC?
+26) Is there any specific SCM area you would start using AI?
+27) How do you see the role of AI evolving in the future of
+the SC?
+28) What are the main drivers behind the adoption of AI in
+the SC?
+29) How does AI help zoptimize SC processes and reduce
+costs?
+Closing question Are any aspects that still need to be addressed but are
+essential to you in the digital transformation?
+J. Hangl et al. 
+Technology in Society 74 (2023) 102299
+4
+4. Results
+4.1. Summary of the conversations
+Throughout twelve interviews, experts and industry leaders discussed the opportunities and challenges of implementing AI in SCM. The
+interviews touched on various topics, from data management and algorithm accuracy to cultural differences and ethical considerations.
+The experts illustrate the consensus on AI’s critical role in today’s
+SCs. Digitization was unanimously recognized as a key component of
+their business activities and as a foundation for implementing AI and
+other advanced technologies.
+The integration of AI into traditional SC processes has led to significant changes and offers opportunities for operational optimization and
+efficiency gains. AI is used in various SC operations, such as demand
+forecasting, inventory management, transport tracking, logistics optimization and customer service. The impact on daily operations is significant and mostly positive: it improves decision-making, increases
+productivity and reduces operational costs. However, some negative
+impacts have also been identified, such as the displacement of certain
+roles, the challenge of managing complex AI systems, and the immense
+costs of implementing and maintaining AI solutions.
+In the context of industry-wide impacts, AI has ushered in a new era
+of SC management that promotes innovation and competitiveness. It is
+changing industry standards and expectations, and companies are
+making significant financial commitments to remain competitive. The
+budget allocated to AI varies from company to company, but the overarching trend means an escalation of AI-related investments. The
+respondees agreed that in their company, a lot of the budget is associated with innovative AI projects even though it is often not named as
+such.
+The ethical use of AI has emerged as a priority concern, and
+respondees companies have taken various measures to ensure responsible AI practices. For example, four respondees mentioned that establishing AI ethics policies, investing in employee training and setting up
+oversight committees are action items in their companies. Social considerations were also identified as important elements, particularly
+concerning relocation, privacy issues and the need for transparency in AI
+decision-making processes.
+One common theme that emerged throughout the interviews was the
+importance of zdigitizing the SC to get the data. For SCM, in particular, it
+is crucial not only to know the data within the company’s own four walls
+but also to communicate with all partners in the SC to ensure a transparent exchange of information. However, it’s important to note that
+what may appear to be AI may just be zoptimization through digitization, so transparency about what companies do with their data and algorithms is critical.
+While AI can potentially bring significant value to specific use cases,
+it is not a one-size-fits-all solution. Instead, the experts stressed the need
+to first focus on improving processes and collaboration to ensure that
+technology is supported by people rather than the other way around.
+This includes breaking down silos between company departments to
+improve communication and coordination and working together to find
+solutions that benefit everyone involved. However, do not just break
+down internal silos. Instead, involve all partners along the supply chain
+to collaborate and share information.
+As discussed in an interview, one significant potential use case for AI
+in the SC is zoptimizing cargo loading on aeroplanes, container ships and
+trucks. The interview highlighted the need for IT projects and tools to
+replace manual processes and improve reporting and data management.
+Using AI to zoptimize cargo space on vehicles can increase revenue and
+save on costs. However, ensuring that all relevant factors are considered
+and that the system is designed to allow for some degree of human input
+and oversight is crucial.
+While the potential benefits of AI are significant, the interviews also
+touched on some of the challenges associated with its implementation.
+One common barrier is the immaturity of processes and people and
+insufficient data to zoptimize algorithms. Data quality and availability is
+also key concern, as well as the cost of implementing AI solutions. Other
+concerns, such as job displacement or lacking trust in the technology,
+could also hinder adoption.
+To overcome these barriers, the experts zemphasized the importance
+of stakeholder collaboration. This includes sharing data and information
+openly and transparently and breaking down silos between departments. It is also critical to approach AI implementation carefully,
+focusing on data quality and management, human oversight and
+transparency.
+Throughout the interviews, the importance of zprioritizing people
+over technology was a recurring theme. Rather than just zoptimizing for
+efficiency and cost savings, companies should focus on building resilience and flexibility into the SC, and creating value for people and the
+world. It’s also critical to ensure that AI-based solutions are ethical and
+trustworthy, with control mechanisms to prevent incorrect decisions.
+In conclusion, the interviews highlighted the potential of AI to bring
+significant value to the SC and the importance of taking a structured and
+cautious approach to its implementation. By zprioritizing collaboration,
+data quality, and human oversight, companies can leverage AI to
+improve their operations and create value for all stakeholders.
+4.2. Drivers and barriers of AI
+Based on the interviews, some of the main barriers to implementing
+AI in SCM include:
+One significant barrier to AI adoption in SCM is data quality and
+connectivity. Data is often siloed and not easily accessible or standardized, making it difficult to gather all necessary information for optimal
+decision-making. In addition, companies may face challenges integrating data from different sources, such as suppliers, customers, and
+internal systems.
+Resistance to change is another barrier to AI adoption in SCM.
+Conservative industries and stakeholders may resist change, making
+implementing new technologies and processes challenging. Companies
+must work to overcome resistance by demonstrating the benefits of AI
+and involving stakeholders early, even before the implementation process. The stakeholders should be part of the evaluation process and
+discuss and vote for different solutions.
+Lack of understanding and trust in AI is also a significant barrier to
+adoption. Many people still do not fully understand what AI is and how it
+can be used in SCM, which can lead to a lack of trust and resistance to
+adoption. Companies must work to educate stakeholders on the benefits
+of AI and build trust through transparent communication and explainable algorithms. In addition, AI is still often seen as a black box because
+AI algorithms cannot explain the decision.
+Integrating existing processes and workflows is another challenge in
+implementing AI in SCM. AI needs to be integrated into existing processes and workflows, which can be complex and time-consuming.
+Companies must ensure that the AI solution integrates with existing
+systems and processes and does not disrupt operations.
+Despite these barriers, there are several drivers for implementing AI
+in SCM. One key driver has improved decision-making. AI can help
+zoptimize SC processes and improve decision-making by zanalyzing
+large amounts of data quickly and accurately. This can help companies
+identify inefficiencies and make informed decisions to improve operations and reduce costs. The Interviews all aligned in one point. The
+existing AI in SCM is not ready to decide without human supervision and
+control.
+Increased efficiency and cost savings are significant drivers for AI
+adoption in SCM. By streamlining processes and identifying inefficiencies, AI can help companies save costs and increase efficiency.
+This can also improve customer experience by enabling faster delivery
+times and better product quality.
+Another driver for AI adoption in SCM is a competitive advantage.
+J. Hangl et al. 
+Technology in Society 74 (2023) 102299
+5
+Companies that are early adopters of AI in SCM may gain a competitive
+advantage over those that are slower to adopt. This can be achieved by
+improving operational efficiency, reducing costs, and providing a better
+customer experience. One example here was the shipping industry. One
+interviewee explained that they use an AI algorithm for loading aeroplanes. They use cameras to measure the dimensions of each package,
+and the AI algorithms calculate the best load and load plan. In the past,
+loadmasters had to calculate this with a very high effort because of the
+various factors like dimensions, weights, stacking factors, dangerous
+goods, regulations etc. Using AI makes this a task which will not last
+more than a few minutes. However, again the loadmaster will always
+ensure they select the best scenario.
+In conclusion, companies must overcome several barriers to adoption
+while focusing on the drivers for adoption to integrate AI successfully
+into their SCM processes. By addressing challenges such as data quality
+and connectivity, resistance to change, lack of understanding and trust
+in AI, and integration with existing processes and workflows, companies
+can harness the benefits of AI and gain a competitive advantage in the
+market (see Table 3).
+4.3. Recommendations for companies on how to implement AI in SCM
+The interview explicitly asked for the experts’ recommendations for
+companies implementing AI in SCM. Table 4 shows the recommendations in order of importance and the frequency with which this topic was
+mentioned in a particular interview.
+AI solutions can potentially zrevolutionize the SC by increasing efficiency, reducing costs, and improving decision-making. However, if
+not executed properly, implementing AI solutions can be challenging
+and have negative consequences, such as data breaches, lost revenue,
+and job losses. Therefore, a structured and well-planned approach is
+essential to ensure the successful implementation of AI in the SC. The
+following are 14 steps that companies can take to ensure success when
+implementing AI in the SC.
+First, understand the current processes and identify pain points and
+inefficiencies. This understanding will help identify areas where AI can
+have the most significant impact. Then, once the current state is understood, define the goals and outcomes to be achieved with the new
+solution. This will help measure success and ensure the solution meets
+the company’s needs.
+All stakeholders, including SC leaders, IT personnel, and end-users,
+should be involved from the beginning to ensure that everyone is on
+the same page and that the solution meets the needs of all parties
+involved. Several interviewees mentioned the need to include, besides
+the data scientist also, people who understand ethics and social considerations. There is a more significant need to have social scientists
+included not only on the buying side but also on the software development side. Specific inputs may bias some algorithms.
+All interviewees agreed that data quality and management should be
+a priority, and the data used by the AI solution must be accurate, complete, and timely. Master data management is essential to ensure reliable
+data ingestion, and companies should focus on it when implementing AI
+solutions. Without good data, the AI solution cannot function correctly.
+Table 3
+Experts and no of experts mentioning Drivers and Barriers.
+Drivers: Mentioned
+by experts
+Barriers: Mentioned
+by experts
+1. Increased efficiency
+and productivity
+8 1. Resistance to change
+and lack of awareness
+or understanding of
+AI technology
+9
+2. Improved decisionmaking and
+accuracy
+8 2. Data quality and
+management issues,
+including data
+privacy and security
+concerns
+9
+3. Greater visibility and
+transparency in the
+SC
+7 3. Lack of IT
+infrastructure or
+resources to
+implement and
+maintain AI solutions
+7
+4. Optimization of
+inventory and
+logistics
+management
+7 4. Difficulty in
+integrating AI with
+existing processes
+and workflows
+6
+5. Ability to quickly
+adapt to changing
+customer demands
+and market trends
+6 5. Limited availability
+of AI-ready talent and
+expertise
+5
+6. Reduction in costs
+and waste
+5 6. High initial
+investment costs and
+ROI uncertainty
+4
+7. Enhanced customer
+satisfaction and
+loyalty
+4 7. Legal and regulatory
+challenges, such as
+intellectual property
+rights and liability
+issues
+4
+8. Opportunities for
+innovation and
+competitive
+advantage
+4 8. Ethical concerns
+regarding AI’s impact
+on jobs and human
+decision-making
+3
+9. Ability to process
+and zanalyze large
+amounts of data
+3 9. Dependence on thirdparty AI providers
+and potential vendor
+lock-in
+2
+10. Improved
+collaboration and
+communication
+among SC partners
+3 10. Cultural and
+zorganizational
+barriers, such as
+conflicting goals
+and priorities
+among SC partners.
+2
+Table 4
+Recommendations for companies.
+Recommendation for companies No of experts mention
+the term
+1. Begin by analyzing your current supply chain operations
+and identifying bottlenecks and inefficiencies.
+10
+2. Set clear objectives and desired outcomes for the AIdriven supply chain solution.
+10
+3. Engage all relevant stakeholders from the start,
+including supply chain executives, IT personnel, and
+operational staff.
+9
+4. Prioritise data quality and management, ensuring supply
+chain data is accurate, complete, and current.
+8
+5. Establish a robust data management process to
+safeguard data security and maintain compliance with
+industry regulations.
+8
+6. Routinely monitor and evaluate the AI-driven solution to
+compare performance to predefined goals and
+objectives.
+7
+7. Develop a comprehensive change management plan to
+mitigate resistance to new supply chain processes and
+technologies.
+5
+8. Ensure the AI-driven supply chain solution is transparent, explainable, and reliable to build trust and
+address potential concerns.
+5
+9. Work towards zdemocratizing supply chain data to
+enable informed decision-making across all parties.
+4
+10. Guarantee that the AI-driven solution integrates
+seamlessly with existing supply chain processes and
+workflows.
+4
+11. Assess stakeholders’ expertise and familiarity with AI
+technologies before introducing AI-driven solutions.
+3
+12. Launch small-scale pilot projects to test AI-driven solutions before implementing them on a larger scale.
+3
+13. Consider regional cultural differences and varying risk
+tolerance levels when deploying AI-driven solutions in
+supply chains.
+2
+14. Collaborate with other zorganizations to share
+knowledge and resources related to AI-driven supply
+chain management.
+2
+J. Hangl et al. 
+Technology in Society 74 (2023) 102299
+6
+Therefore, a robust data management process is essential to ensure data
+security and regulation compliance. SCM has a massive amount of data
+through the involved partners like suppliers all the tiers down, transport
+companies inbetween and the amount of transactions inbound and
+outbound. However, this data is often not shared and unavailable in a
+suitable format. Therefore, it is more important these days to think
+about connectivity or using platforms to collaborate and share the data
+in the correct format.
+In addition, the AI solution should be continuously monitored and
+evaluated to compare outcomes to goals and objectives. This will help
+identify areas where the solution can be improved. For example, one
+expert provided an interesting anecdote that illustrates a particular
+challenge when using algorithms in the insurance industry. This
+participant described a problem with an insurance policy calculation
+algorithm where the result was inconsistent when the same person’s
+data was processed multiple times in a single day.
+To elaborate on the example, this participant’s company uses an
+algorithm - a complex set of calculation instructions - to calculate individual insurance rates based on the data they provide. This data can
+include a variety of factors such as age, health status, occupation, lifestyle habits, etc., which are typically used to assess an individual’s risk
+profile and thus determine the cost of their insurance policy.
+However, they discovered an unexpected and problematic behaviour
+in their algorithm. When they used it to calculate the insurance rate for
+the same person several times a day, the algorithm produced different
+results each time. This inconsistency occurred even though the person’s
+data remained the same. Ideally, the algorithm should give the same
+result for the same input data, indicating a stable and reliable calculation. In this case, however, the fluctuating results of the algorithm
+indicated a degree of unpredictability and instability in its calculations.
+This inconsistency in the algorithm’s results poses a major challenge
+for the insurance company. It undermines the fairness and reliability of
+its insurance rate calculations, potentially leading to pricing discrepancies, dissatisfied customers and regulatory problems. Furthermore,
+this sheds light on the broader issue of transparency and reliability of
+algorithms, which is key in industries such as insurance that rely heavily
+on data-driven decision-making.
+Change management is crucial in ensuring the success of the AI solution. Developing a comprehensive change management plan will
+manage resistance to change, which can hinder the success of the AI
+solution.
+Transparency, explainability, and trustworthiness are crucial to
+building trust and addressing AI use concerns. This may also vary from a
+cultural perspective. One interviewee made the experience that
+depending on the region, the adoption of AI algorithms and the trust in
+AI is different. Asian countries, through their extensive usage, do not
+have as many concerns as European countries. American companies are
+often open to new solutions with a failure culture, where trying and
+failing is not a big concern. On the other hand, European companies are
+hammering the fact of data protection and GDPR compliance.
+Furthermore, zdemocratizing SC information can improve decisionmaking across all parties involved. Therefore, it is essential to work
+towards zdemocratizing SC information. As mentioned beforehand, data
+is the key to run the AI. Complex supply chains involve various partners.
+Therefore, working together internally and externally with all chain
+partners is crucial to run successful AI projects.
+The AI solution should integrate with existing processes and workflows to ensure it is easy to use and does not disrupt operations. Several
+interviewees mentioned that integration is very important and thinking
+about platforms which enable internal and external connectivity. Still,
+many big enterprises have a fragmented ERP structure with various
+systems that are not communicating. In addition, the different partners
+do not communicate in real-time. Instead, they still send each other
+emails.
+In addition, understanding the knowledge level of stakeholders
+before proposing AI solutions is essential to ensure the solution is
+appropriate for their level of knowledge. Nine out of twelve interviewees
+mentioned the need to upskill people in the organization. Therefore,
+there is a significant need for training on how to use AI.
+Starting with small pilot projects before scaling up will help identify
+and address issues before scaling up, ensuring the success of the AI solution. AI solutions can be very costly, and they are unsure if they bring
+the success they promise. There is this twofold conversation between the
+answers of the interviewees. Starting small and scaling up reduce the
+initial investment, but on the other hand, there were comments that
+algorithms can’t do the job accordingly without enough data.
+The successful use of AI solutions depends not only on the technical
+aspects but is also significantly influenced by the socio-cultural environment in which these solutions are implemented. Two respondees
+mentioned that they had experienced cultural differences while implementing/selling AI solutions. This includes regional cultural differences
+and the level of risk aversion that prevails in a particular society or
+organization.
+Regional cultural differences can strongly influence AI solutions’
+perception, acceptance and use. For example, societies that value individual privacy are more sceptical of AI systems that require extensive
+personal data. Similarly, there may be resistance to introducing AIdriven processes in cultures where traditional methods and human interactions are highly valued. Understanding and managing these cultural nuances is critical to successfully integrating and adopting AI
+solutions. Risk aversion, another key factor, refers to a company or
+society’s willingness to take risks associated with new technologies such
+as AI. Companies with high-risk aversion may be slower to adopt AI
+solutions because they fear potential negative impacts such as job losses,
+privacy issues or unforeseen consequences of AI decisions.
+Conversely, companies with lower risk aversion may be more likely
+to adopt AI, betting on the potential for significant efficiency gains and
+competitive advantage. In the face of these challenges, collaboration
+between companies can greatly benefit. By sharing knowledge and resources, companies can collectively improve their understanding of AI
+technologies, learn from others’ experiences and mitigate risks. This
+could include sharing best practices for implementing AI solutions,
+collaborating on AI research and development, or pooling resources to
+invest in a common AI infrastructure. In addition, companies can better
+address cultural and risk-related challenges through such collaboration
+and ensure AI solutions’ successful and responsible adoption.
+Implementing AI solutions in the SC can be challenging, but a
+structured, well-planned approach can ensure success. By following the
+14 steps mentioned above, companies can mitigate the risks of AI
+implementation and enjoy the benefits it can bring.
+4.4. Recommendations with points to avoid implementing AI
+Implementing AI in the SC is not simple and requires careful
+consideration to avoid pitfalls. The experts gave comments about
+important points to avoid when implementing AI. The points in Table 5
+are ranked by importance and how often this topic was mentioned by
+experts. Here are some recommendations to avoid common mistakes
+when implementing AI in the SC:
+While AI can automate various tasks, it is essential to remember that
+it is not a replacement for human intelligence. It is crucial to have
+human oversight and intervention to ensure that the AI is making the
+right decisions and to address any unexpected situations that may arise.
+Companies should consider developing processes to enable humans to
+intervene and make decisions based on their judgment and expertise.
+Seven of the twelve experts mentioned that AI in SCM is far from making
+autonomous decisions, and at least for the following years, this will stay
+like this. Humans should be enabled to get options delivered by AI and
+decide on one of them.
+AI solutions rely heavily on data; if the data is of poor quality, the
+results will also be poor. Therefore, companies should have a robust data
+management process to ensure that data is accurate, complete, and
+J. Hangl et al. 
+Technology in Society 74 (2023) 102299
+7
+timely. In addition, establishing procedures to ensure that data is secure
+and compliant with regulations is essential. One expert said that even
+when data is the new gold and selling data is a business model, in SCM
+this is not the appropriate way. All SC contributors should share their
+data transparently for better overall benefits. Companies should not just
+look for their benefits because this can cause disruptions upstream or
+downstream. This is also part of different private and public policies.
+One example is the Nordic national public policy strategies for AI, which
+recommend that sharing data doesn’t reduce its availability but can
+increase its value when combined with other datasets, offering new insights or enabling innovative uses. [19]
+Each SC has unique challenges, so understanding them before
+implementing AI solutions is crucial. In addition, companies should
+evaluate their specific SC processes, identify inefficiencies and pain
+points, and develop AI solutions to address these issues. An example is
+algorithms for business planning. Depending on the industry specifics,
+the algorithms need to be tuned to fulfil the requirements for the specific
+use cases.
+SCM involves various stakeholders, including suppliers, customers,
+and internal teams. It is essential to involve all stakeholders from the
+beginning to ensure that everyone is on board and understands the goals
+and benefits of the new solution. This will also help get the team’s buy-in
+and reduce resistance to change.
+Transparency and explainability are critical components in building
+trust in AI decision-making. Therefore, companies should ensure that AI
+solutions provide clear explanations for their decision-making processes, and they should also provide a transparent view of the data used.
+This will help stakeholders understand how the AI is working and build
+trust in its decision-making capabilities.
+Companies should start with small pilot projects to test the feasibility
+and effectiveness of AI solutions before scaling up. This will help identify
+potential issues and challenges early on and develop solutions to them.
+Companies should ensure that their AI solutions comply with relevant regulations and guidelines. This includes data privacy regulations
+and regulations related to the use of AI in decision-making processes. In
+addition, AI solutions involve processing sensitive data, and ensuring
+that data is secure and protected from cyber threats is essential.
+Therefore, companies should consider implementing cybersecurity
+measures to protect their data and ensure data privacy.
+AI solutions require zspecialized skills, and companies should provide training and upskilling opportunities to employees to ensure they
+have the necessary skills to work with AI tools and solutions. This will
+help ensure that employees can use AI solutions effectively and efficiently. All interviewees stated that educating the employees and
+adopting new skills will be crucial to all companies. Highly educated
+employees will know how to use AI wisely and correctly but still help
+improve the company further. Especially social skills should be trained.
+As AI begins a new technological revolution, companies need to copy
+governments’ efforts during past industrial transformations. Similar to
+how countries like the US, Germany and Sweden have retrained their
+populations, companies should offer their employees AI-specific training
+and development opportunities. The successful integration of AI into
+companies requires a balance between technical training and human
+elements, with both technical and soft skills being important. [20]
+AI solutions have limitations, and companies should not assume that
+AI will solve all SC problems. Therefore, it is essential to consider the
+specific context and limitations of the SC when implementing or utilizing AI.
+5. Discussion
+zzImplementing AI in SCM has proven to be a game changer for the
+industry as it promises improvements in efficiency, decision making and
+cost reduction. These benefits offer businesses a competitive advantage.
+However, a smooth transition to an AI-integrated SCM environment is
+not without significant challenges.
+The research identifies several barriers to successful AI integration:
+data quality and management, resistance to change, and lack of understanding and trust in AI topping the list. These issues require a
+comprehensive and robust AI implementation strategy underlined by
+broad stakeholder engagement throughout the process. In addition,
+active stakeholder engagement can provide valuable insights for companies to align AI adoption with SCM goals and operational realities.
+Resistance to change can be combated by fostering trust in AI
+through education about the technology and its benefits, combined with
+transparent communication strategies. Our study also highlights the
+benefits of pilot projects that demonstrate the effective integration of AI
+in controlled, smaller environments before they are rolled out on a large
+scale. Such projects can dispel misconceptions about the technology,
+reducing fears and misunderstandings.
+The critical role of data quality in AI implementation became clear in
+our research. AI technologies are essentially only as effective as the data
+they process. Therefore, companies must ensure that their AI data is
+accurate, accessible, standardized and comes from various sources,
+including suppliers, customers and internal systems.
+Transparency and explainability of AI decision-making processes are
+other important findings. So often, AI algorithms operate as “black
+boxes”, and their decision-making processes are hidden or ununderstandable. This opacity can lead to trust issues between stakeholders,
+which can hinder AI adoption. Therefore, companies should focus on
+developing AI systems with built-in transparency and explainability to
+circumvent such problems.
+In addition, the ethical aspects of AI in SCM deserve special attention. The displacement of jobs through automation, the need to upskill
+Table 5
+Recommendations for points to avoid.
+Recommendation for companies No of experts
+mention the term
+1. Avoid relying solely on AI and ensure human oversight
+and involvement are maintained.
+9
+2. Do not overlook the significance of data quality and data
+management.
+9
+3. Do not underestimate the necessity of involving all
+stakeholders in the adoption and implementation
+process.
+9
+4. Do not disregard the importance of explainability and
+transparency in AI decision-making to foster trust and
+overcome resistance to change.
+8
+5. Avoid hastily implementing large-scale projects without
+first conducting small-scale pilot tests to assess feasibility
+and effectiveness.
+8
+6. Do not overlook the importance of regulatory
+compliance when incorporating AI
+7
+7. Do not underestimate the significance of cybersecurity
+and data privacy.
+5
+8. Do not neglect the need for employee training and
+upskilling, ensuring that staff possess the required skills
+to work with AI tools and solutions.
+5
+9. Do not presume AI will address all supply chain issues
+without considering the specific context and limitations
+of the supply chain.
+4
+10. Do not dismiss the importance of ethical considerations
+in AI decision-making, ensuring AI solutions do not
+perpetuate biases or discriminate against any groups.
+4
+11. Do not disregard the role of sustainability in supply
+chain management and AI’s potential to facilitate
+sustainable practices.
+3
+12. Do not undervalue the importance of collaboration and
+partnerships with other companies and stakeholders
+within the supply chain ecosystem.
+3
+13. Do not overlook the necessity of continuous monitoring
+and evaluation of AI solutions to identify areas for
+improvement and optimization.
+2
+14. Do not neglect the importance of fostering a culture
+that embraces innovation, experimentation, and the
+potential risks and challenges associated with these
+endeavors.
+2
+J. Hangl et al. 
+Technology in Society 74 (2023) 102299
+8
+employees and the creation of ethical AI policies have emerged as critical issues that require further research and thoughtful policy decisions.
+It is important to acknowledge the inherent limitations of our
+research, as our findings come from a relatively small sample of expert
+interviews. Interpretation of the results should consider the inherent
+biases of the experts interviewed and the potential limitations of selfreporting. Despite these limitations, our study provides a valuable
+foundation for future research on AI implementation in SCM.
+Furthermore, the experts emphasized that AI is a tool, not a substitute for human expertise. While it can automate various tasks, successful
+integration requires processes that allow for human intervention and use
+human judgement.
+Before implementing AI, it is important to understand the specific
+needs and challenges of each SCM. Each SCM has unique characteristics
+that require assessing current processes, identifying inefficiencies and
+developing AI solutions tailored to address these issues.
+Integrating AI into SCM requires careful planning, human oversight,
+comprehensive data management, stakeholder engagement and a
+transparent, ethical approach. By following these expert recommendations, companies can navigate the complex path to AI adoption, overcome resistance and secure a competitive advantage through improved
+operational efficiency and innovative decision-making. Pilot projects,
+regulatory compliance and employee training, are other elements to
+consider for a successful transition.
+In summary, while challenging, the path to AI integration in SCM
+holds great promise for companies seeking greater efficiency and
+competitiveness. A holistic view that includes all stakeholders focuses
+on data quality, ensures transparency and considers ethical considerations is essential for success.
+6. Limitations and implications
+Expert interviews are widely used for collecting qualitative data in
+research studies. However, despite their popularity, it is crucial to
+acknowledge the limitations of this method to ensure the validity and
+reliability of the results.
+One of the main limitations of expert interviews is self-reported data.
+Participants’ responses are based on their perceptions and recollections
+of events and experiences, which may not always be accurate.
+Furthermore, experts may have a biased perspective on their field and
+present information supporting their views.
+Another limitation of expert interviews is the limited sample size.
+The sample size in expert interviews is often small, which can limit the
+generalizability of the results. Additionally, the researcher has limited
+control over variables such as the order in which questions are answered
+and the level of detail the participant provides.
+Expert interviews can also be time-consuming and may restrict the
+number of participants who can be interviewed. Moreover, expert interviews may be limited by the availability of the expert, who may have
+other obligations.
+The unstructured nature of expert interviews can also lead to a lack
+of standardization, which may impact the validity and reliability of the
+results.
+7. Conclusion
+In conclusion, using AI in SCM can zrevolutionize the industry by
+improving efficiency, productivity, decision-making, and customer
+satisfaction while reducing costs and waste. However, the implementation of AI in the SC is not a simple process, and there are several
+challenges and potential pitfalls that companies need to overcome to
+ensure success.
+The experts interviewed in this study highlighted several drivers and
+barriers to adopting AI in SCM, as well as recommendations for companies on implementing AI in SCM and avoiding common mistakes.
+Critical drivers for adoption include improved decision-making,
+increased efficiency and cost savings, and competitive advantage.
+Conversely, key barriers to adoption include resistance to change, data
+quality and management issues, and difficulty integrating AI with
+existing processes and workflows.
+To successfully implement AI in the SC, companies should take a
+structured and well-planned approach that involves all stakeholders
+from the beginning, zprioritizes data quality and management, focuses
+on transparency and explainability, and considers regional cultural
+differences and the importance of ethics and sustainability.
+While challenges and potential pitfalls are associated with implementing AI in the SC, the benefits it can bring are significant. By carefully considering the recommendations and insights from experts,
+companies can successfully adopt and implement AI solutions that can
+transform their SC processes and help them gain a competitive advantage in the market.
+Credit author statement
+Johannes Hangl: Term, Conceptualisation, Methodology, Investigation, Interview Design, Data collection, Writing - Original Draft,
+Reviewing and Editing, Project administration Simon Krause: Interview
+Design, Writing- Reviewing and Editing. Viktoria Joy Behrens.: Interview Design, Writing- Reviewing and Editing.
+Declaration of competing interest
+The authors declare that they have no known competing financial
+interests or personal relationships that could have appeared to influence
+the work reported in this paper.
+Data availability
+The data that has been used is confidential.
+References
+[1] H. Bui Trong, U. Bui Thi Kim, Application of information and technology in supply
+chain management: case study of artificial intelligence – a mini review, EJENG 5
+(12) (2020) 19–23, https://doi.org/10.24018/ejeng.2020.5.12.2254.
+[2] J Hangl, VJ Behrens, S Krause, A Survey of Drivers, Barriers and Social
+Considerations for, AI Adoption in Supply Chain Management.
+[3] J.-E. Chung, S.-G. Oh, H.-C. Moon, What drives SMEs to adopt smart technologies
+in Korea? Focusing on technological factors, Technol. Soc. 71 (2022), 102109,
+https://doi.org/10.1016/j.techsoc.2022.102109.
+[4] K.C. Tan, A framework of supply chain management literature, Eur. J. Purch.
+Supply Manag. 7 (1) (2001) 39–48, https://doi.org/10.1016/S0969-7012(00)
+00020-4.
+[5] B. Hellingrath, A. Kuhn, Supply Chain Management: Optimierte Zusammenarbeit
+in der Wertschopfungskette, ¨ first ed., Springer Berlin Heidelberg; Imprint:
+Springer, Berlin, Heidelberg, 2002.
+[6] S.A. Kalogirou, Artificial intelligence for the modeling and control of combustion
+processes: a review, Prog. Energy Combust. Sci. 29 (6) (2003) 515–566, https://
+doi.org/10.1016/S0360-1285(03)00058-3.
+[7] J. McCarthy, Defending AI Research: A Collection of Essays and Reviews/John
+McCarthy, Center for the Study of Language and Information, Stanford, Calif.,
+1996.
+[8] S. Harapko, How COVID-19 Impacted Supply Chains and what Comes Next. EY
+2023, 1 June, 2023. Available from: https://www.ey.com/en_gl/supply-chain/ho
+w-covid-19-impacted-supply-chains-and-what-comes-next. (Accessed 5 March
+2023).
+[9] L. Njomane, A. Telukdarie, Impact of COVID-19 food supply chain: comparing the
+use of IoT in three South African supermarkets, Technol. Soc. (2022), 102051,
+https://doi.org/10.1016/j.techsoc.2022.102051.
+[10] K.A. Abay, K. Tafere, A. Woldemichael, Winners and Losers from COVID-19: Global
+Evidence from Google Search, World Bank, Washington, DC, 2020.
+[11] J. Hangl, V.J. Behrens, S. Krause, Barriers, drivers, and social considerations for AI
+adoption in supply chain management: a tertiary study, Logistics 6 (3) (2022) 63,
+https://doi.org/10.3390/logistics6030063.
+[12] R. Sharma, A. Shishodia, A. Gunasekaran, H. Min, Z.H. Munim, The role of artificial
+intelligence in supply chain management: mapping the territory, Int. J. Prod. Res.
+(2022) 1–24, https://doi.org/10.1080/00207543.2022.2029611.
+[13] M. Cubric, Drivers, barriers and social considerations for AI adoption in business
+and management: a tertiary study, Technol. Soc. 62 (2020), 101257, https://doi.
+org/10.1016/j.techsoc.2020.101257.
+J. Hangl et al. 
+Technology in Society 74 (2023) 102299
+9
+[14] J. Glaser, ¨ G. Laudel, Experteninterviews und qualitative Inhaltsanalyse: Als
+Instrumente rekonstruierender Untersuchungen, fourth ed., VS Verlag, Wiesbaden,
+2010.
+[15] J. Bortz, N. Doring, ¨ Forschungsmethoden und Evaluation für Human- und
+Sozialwissenschaftler: Limitierte Sonderausgabe, fourth ed., Springer Berlin
+Heidelberg; Imprint: Springer, Berlin, Heidelberg, 2006.
+[16] S.D. Lapan, M.T. Quartaroli, F.J. Riemer, Qualitative Research: an Introduction to
+Methods and Designs/Stephen D. Lapan, MaryLynn T. Quartaroli, Frances Julia
+Riemer, first ed., Jossey-Bass, San Francisco, 2012.
+[17] J. Wittkowski, Das Interview in der Psychologie: Interviewtechnik und Codierung
+von Interviewmaterial, Westdeutscher Verlag, Opladen, 1994.
+[18] P. Mayring, Einführung in die qualitative Sozialforschung: Eine Anleitung zu
+qualitativem Denken, seventh ed., Beltz, Weinheim, 2023.
+[19] S.C. Robinson, Trust, transparency, and openness: how inclusion of cultural values
+shapes Nordic national public policy strategies for artificial intelligence (AI),
+Technol. Soc. 63 (2020), 101421, https://doi.org/10.1016/j.techsoc.2020.101421.
+[20] C.N. Focacci, C. Perez, The importance of education and training policies in
+supporting technological revolutions: a comparative and historical analysis of UK,
+US, Germany, and Sweden (1830–1970), Technol. Soc. 70 (2022), 102000, https://
+doi.org/10.1016/j.techsoc.2022.102000.
+J. Hangl et al. 

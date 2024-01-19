@@ -1,0 +1,540 @@
+Scientific African 19 (2023) e01547
+Contents lists available at ScienceDirect
+Scientific African
+journal homepage: www.elsevier.com/locate/sciaf
+Intelligent manufacturing eco-system: A post COVID-19 recovery and growth opportunity for manufacturing industry in Sub-Saharan countries
+Tsegay T. Mezgebea,∗
+, Mulualem G. Gebreslassie b
+, Hailekiros Sibhatoc
+,
+Solomon T. Bahta b
+a Manufacturing Engineering Chair, Ethiopian Institute of Technology-Mekelle, Mekelle University, P.O.Box 231, Mekelle, Ethiopia b Center of Energy, Ethiopian Institute of Technology-Mekelle, Mekelle University, P.O.Box 231, Mekelle, Ethiopia c Industrial Systems Chair, Ethiopian Institute of Technology-Mekelle, Mekelle University, P.O.Box 231, Mekelle, Ethiopia
+a r t i c l e i n f o
+Article history:
+Received 22 October 2022
+Revised 24 December 2022
+Accepted 7 January 2023
+Editor: Dr A Andrews
+Keywords:
+Academia
+COVID-19 pandemic
+Intelligent manufacturing
+Manufacturing industry
+Recovery
+Sub-Saharan
+a b s t r a c t
+The lagging behind intelligent technologies and the COVID-19 pandemic together have impacted the emerging economy particularly the manufacturing sector in sub-Saharan countries. This paper systematically discusses intelligent manufacturing technologies with an
+aim to map out their importance and industrial applicability and to show their significance
+to contain COVID-19 pandemic. Intelligent Manufacturing Systems (IMS) is then adapted as
+a post COVID-19 recovery and growth opportunity to ensemble to production processes of
+manufacturing industry in the sub-Saharan countries. Proposition of a Triple Helix Collaboration Eco-system that delineate a recursive contribution of Government(s), academia, and
+industry accompanies the IMS adoption. The intention is to shape the existing industrial
+challenges through networking in the area of intelligence technologies. While proposing
+the Eco-system, a post COVID-19 recovery and growth opportunity and intra-Africa scientific collaborations are taken into account.
+© 2023 The Authors. Published by Elsevier B.V. on behalf of African Institute of
+Mathematical Sciences / Next Einstein Initiative.
+This is an open access article under the CC BY-NC-ND license
+(http://creativecommons.org/licenses/by-nc-nd/4.0/)
+Introduction
+Emerging economies like sub-Saharan countries have been using labor intensive manufacturing industry such as textile and garment as starting and transforming point for their socioeconomic development and national security. The sector,
+through its strong supply chain and seized opportunities such as African Growth and Opportunity Act AGOA [1], has brought
+broad linkages with the rest of country’s economy. The availability of low wages and low energy costs also give it a comparative advantage.
+However, the sub-Saharan countries are not among the duly beneficiaries of the globally ever soared trade in manufacturing sector. Many manufacturing factories have been lagging behind emerging technologies such as industry 4.0 and are
+experiencing delays to embrace utilizing intelligent technologies for different reasons. Lack of skilled workforce, expensive-
+∗ Corresponding author.
+E-mail address: tsegay.tesfay@mu.edu.et (T.T. Mezgebe).
+https://doi.org/10.1016/j.sciaf.2023.e01547
+2468-2276/© 2023 The Authors. Published by Elsevier B.V. on behalf of African Institute of Mathematical Sciences / Next Einstein Initiative. This is an
+open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/)
+T.T. Mezgebe, M.G. Gebreslassie, H. Sibhato et al. Scientific African 19 (2023) e01547
+ness and lack of ICT infrastructure, higher capital cost to upgrade industrial computing, lack of awareness about benefits
+of intelligent technologies, academic challenges associated with curriculums and education systems to list some of the reasons. Consequently, the productivity and competitiveness of manufacturing sector in the region and hence their demand and
+supply chain within the dynamic market have been being troubling.
+On the other hand, the outbreak of COVID-19 pandemic at Wuhan city, China, has brought a widespread shock. It created
+sever socioeconomic slowdown and ever-higher health threat to human being in the world [21,34,50]. The shocking impact
+is clearly shown on economic degradation of countries including manufacturing, tourism, aviation, and finance; death of
+millions of peoples; psychological humiliation of peoples; and even it has facilitated political instability in some countries.
+A World Health Organization (WHO) report released on September 2022, for example, quantifies COVID-19 pandemic has
+killed over 6 million people and infected over 600 million people throughout the globe. Production disruptions, unsatisfied
+market demand due to setbacks in logistics, increasing bankruptcy risk for small and medium scale enterprises (SMEs), and
+demand fluctuation enlargement are also the counterpartying impacts of the pandemic on manufacturing supply chain [6].
+As part of the global spread and impact of the pandemic, it has got fertile zone to blowout rapidly in Africa [57] particularly in the sub-Saharan region because of many factors including overwhelmed health system in practice. A report
+by [49] ‘Reuters COVID-19 tracker (July 2022)’ for example shows South Africa, Ethiopia, and Kenya are top sub-Saharan
+countries impacted by the Pandemic until the report date. The economic downturn in Nigeria which was triggered by a
+combination of spillovers from the COVID-19 outbreak and declining oil price [42] is also another evidence of COVID-19
+impact noticed in the sub-Saharan region.
+Acquainted to the socioeconomic impact, the manufacturing sector in the region is among the severely affected sectors
+mainly because of its labor intensive behavior. Stefania et al. [55] validates this position saying “due to high-risk factors,
+Africa’s manufacturing value-added rate grew only 1.5 since 2018. Besides, the impact became more visible in manufacturing systems and its supply chain because factories are forced to lay off their employees and hence to incur severe disruptions within their entire industrial network. In response to these impacts, economically influential countries such as USA and
+China and international institutions such as WHO have been shifting their attention to mostly deal with the pandemic. Researchers are also becoming part of this effort mostly to investigate the response of business organizations to the pandemic
+and rarely to develop new technologies that contain the socioeconomic impact left by the pandemic.
+Cognizant to this, it is now renowned that plenty of opportunities are gushing out to respond to production disruptions in Africa’s manufacturing industry and to economically recover after COVID 19 pandemic. Besides, countries of the
+sub-Saharan are in the era of ambition to undergo a digital transformation by adapting intelligent technologies. The Government(s), academia, and industry of these countries should therefore make collaborative effort to exploit the opportunities
+to respond to the production disruptions and hence to revolutionize their manufacturing system with a goal to pace with
+the digitally dynamic competition. This paper is organized mainly to discuss the importance of intelligent manufacturing
+technologies and to explore the contribution of Government(s), academia, and industry to adapt low-cost Intelligent Manufacturing Systems in manufacturing industry of the sub-Saharan countries.
+Material and methods
+The purpose of this study was achieved through systematic analysis and discussion to adapt intelligent technologies
+within the scope of manufacturing systems (product design, materials requirement planning, production processes, and customer care). It initially explored the socioeconomic impact of COVID-19 pandemic in Africa and in the globe by large. Some
+qualitative and quantitative data surveyed by other researchers were used to validate the impact. It then explored and
+discussed the concept of intelligent technologies including artificial intelligence, Industry 4.0, Intelligent Manufacturing Systems and its sustainability and their influence to realize digital transformation and economic growth of countries. Google
+Scholar, ScienceDirect, Scopus Index, Research Gate were among the databases used to extract published materials and reports for contextual review. Considering the manufacturing industry in sub-Saharan region, role of Intelligent Manufacturing
+Systems for post COVID-19 recovery and growth was then discussed next. The discussion was made concentrating on two
+interchangeable implementation approaches: embracing Intelligent Manufacturing Systems and ensuring its sustainability.
+A Triple Helix Collaboration Eco-system incorporating the contribution of three critical bodies is hence mapped out in the
+next section taking into account three opportunities: Post COVID-19 recovery and growth opportunity, intra-Africa scientific
+collaborations in action, and enabling manufacturing technologies discussed and framed by previous researchers.
+Contextual review: artificial intelligence and intelligent manufacturing systems
+Developed countries are most commonly on the cusp of fourth industrial revolution where smart autonomous systems,
+self-optimization, self-customization, cross-border integration are revolutionizing industrial production and supply chain systems. These countries are top exploiters of digital transformation exacerbated with exponential growth of advanced and
+smart technologies [44]. Subsequently, the differences in the development patterns and technology advancements in the
+industry 4.0 domain is resulting-in heightened and increased regional divisions and marginalizing the most vulnerable societies in the world. This section reviews some intelligent technologies and initiatives that realize digital transformation and
+economic growth considering their industrial applicability in manufacturing domain. It also reason-out why technological
+divisions is counter facing at different regions of the same globe.
+2
+T.T. Mezgebe, M.G. Gebreslassie, H. Sibhato et al. Scientific African 19 (2023) e01547
+Table 1
+Some application areas and exampling organizations using the AI System (adapted from [7,40,51]).
+AI System
+AI applications Examples in each AI application
+Intelligent Manufacturing Systems DFKI’s Multi-Vendor Automation Line
+Autonomous planning and scheduling NASA’s Remote Agent Program
+Logistics planning DART of US force in 1991 Persian Gulf
+Transportation Smart cars
+Robotic vehicles Volkswagen’s STANLEY
+Healthcare Drugs discovery
+Machine translation Computer program that translates language
+Artificial intelligence (AI)
+By citing ISO 2382–28, Rault and Trentesaux [46] defined Artificial Intelligence as the capacity of a functional unit or
+organization to perform functions either same or similar with human intelligence. Russell and Norvig [51] on the other
+hand stated Artificial Intelligence by organizing into four categories: thinking humanly, thinking rationally, acting humanly,
+and acting rationally. This validates the aim of artificial intelligence is to imitate human brain and perform decision-making
+like human beings during various situations and circumstances [13].
+Artificial Intelligence became an industry in 1980 after its birth by John McCarthy [37] and formally publicized at Dartmouth Conference in 1956 [41]. Digital Equipment Corporation is leading industrial organization to begin the first commercial expert system operation as intelligence system [38]. The fifth generation project announced by Japanese Government
+succeeded the effort of Digital Equipment Corporation by building intelligent computers running Prolong. Through such
+technological relay, AI industry is now mobilizing trillions of dollars to keep track of the state of intelligent competitiveness
+in the world by creating $1.2 trillion businesses in 2018 [16] for example. This indicates it has occupied central stage of
+business organizations by knocking-out their doors as an imperative activity to achieve persuasive operational transformations [16]. Within this framework, hundreds of companies in USA, Japan, Britain, and many other developed countries are
+building expert systems, vision systems, robotics, and software under the Artificial Intelligence scheme.
+Marching to its growth in 66 years, today, thousands of AI applications could be listed in the infrastructures of construction, services, and manufacturing industry and in the engineering and many other multi-disciplinary fields. Robotic
+vehicles, transportation, autonomous planning and scheduling, logistics planning, machine translation, Intelligent Manufacturing Systems, Industry4.0, healthcare sector are some of the applications and contributing scopes of AI Systems taking
+place nowadays; Table 1 below. Due to its benefits and performance outcomes, AI has become a strategic system across
+manufacturing industries [53]. Meanwhile, a lot of theoretical and empirical AI researches are conducted and utilized by
+several manufacturing industries in last few years. The work of Bécue et al. [4] is among the acknowledged applicability
+researches. By choosing an application case, Bécue et al. [4] analyzed and proposed AI-based techniques for production
+monitoring, optimization and control. Karlsson [30] said maintaining manufacturing schedules and dispatch commitment in
+times of supply uncertainties can be take cared using AI enablers. The finding of Li et al. [32] has likewise witnessed AI
+facilitates the development of intelligent manufacturing keeping new models, forms, system architecture, and technology
+systems as building units.
+Role of AI to overcome the impact of COVID-19 pandemic is also getting much attention by recent scholars and practitioners. Considering healthcare sector as a case study, Calandra and Favareto [7] for instance have investigated the role of AI
+against the pandemic. In their work, drug discovery, tracking and prediction, clinical decision-making and diagnosis are considered as macro variables. Their finding shows the use of modern technology with AI has improved screening, prediction,
+contact tracing, forecasting, and drug/vaccine development with extreme reliability. This validates AI technologies could be
+employed as post COVID-19 recovery and growth opportunity to help build a collaborative response to the impact of the
+pandemic.
+Industry 4.0
+The world is now on the verge of fifth industrial revolution after spending more than 200 years in the foregoing four
+revolutions, Fig. 1. This has happened with an intact need of industries to meet the ever growing demands of customers
+and handle higher complexities. Through time, with the development of automated machinery that came with the third industrial revolution, manufacturing industries saw a large increase in the production efficiency and an increase in the quality
+of products [35]. After use of water and steam power reins the manufacturing processes of Industry 1.0 and introduction
+of electrical technologies steered the birth of Industry 2.0, “the first computer era; Industry 3.0 had laid a ground for the
+world today.
+The successor Industry 4.0 also called “the era of Cyber Physical Systems (CPS)” is then swamped over the world as
+“Strategy 2020 high tech Action Plan” after it is primarily emerged by German Government as a strategic initiative. ‘Horizon
+2020
+, ‘Made in China 2025
+, ‘National Network for Manufacturing Innovation (USA)’, ‘Industrial Initiative Value chain (Japan)’
+counterparts Industry 4.0 [62,63]. These descriptions confirm whatever the name and/or brand given, many countries are
+utilizing or they are in need to utilize key technologies of the Industry 4.0 paradigm. A study conducted by Reinhard et al.
+3
+T.T. Mezgebe, M.G. Gebreslassie, H. Sibhato et al. Scientific African 19 (2023) e01547
+Fig. 1. Industrial révolutions from Industry 1.0 to Industry 5.0 (adapted from [29,27]).
+[47] validates this hypothesis. In their study, they have surveyed more than 25 countries to know their readiness to implement Industry 4.0 technologies and found that digitalization promotes globalization and the use of intelligent manufacturing
+technologies should not leave for specific countries or region. The evolving wave of the paradigm is expected to reel in the
+entire globe.
+What is Industry 4.0? What are the key enabling technologies that constitute it? How is its applicability progressing in
+the manufacturing industry? What is its relationship and difference with the successor Industry 5.0? The following paragraphs are organized to answer these and other related issues of the paradigm.
+Industry 4.0 comprises smart machines, storage systems and production facilities to autonomously exchange information,
+trigger actions and control each other without human intervention [54]. It focuses more on end-to-end digitization and
+integration of industrial Eco-system by seeking completely integrated solutions [61]. It also addresses smart and intelligent
+technological advancements using smart technologies, smart manufacturing, smart products, and smart services [22,43]. IoT
+CPS, enabled smart facilities, robotics and artificial intelligence, big data, cloud computing, industrial integration are the
+trending technologies that utilize cognitive computing to achieve the mission of the revolution [14,54].
+Though, many manufacturers are still demanding the Industry 4.0 paradigm, the next industrial revolution - Industry 5.0 -
+is bow with us. It has started to surface in the industrial Eco-system since few years. This may be because of either technical
+challenges [61] the Industry 4.0 is facing or tendency to overlook the role of the humans in the production loop [19].
+Industry 5.0 is about robots helping humans work better and faster by leveraging advanced technologies like the IoTs and
+big data [29]. Human works alongside robots and smart machines [14] to find optimal balance of efficiency and productivity.
+It enhances Industry 4.0 for higher resilience and sustainability because of its human-centric approach [2]. As it is offered by
+Jardine [29], Industry 5.0 is aimed at supporting - not superseding - human. However, currently, its industrial applicability
+is less comparable than its predecessor Industry 4.0 since its implementability motivates from a smart society.
+Consequently, the current manufacturing circle is oftenly experiencing the production principles of Industry 4.0. The
+world of production and network connectivity are highly integrated through IoT and CPS [23]. It has broad applications
+in numerous industrial sectors mainly in the field of production, logistics, and supply chain systems. Meanwhile, Industry
+4.0 is among the supporting tools to achieve the Sustainable Development Goals agenda of 2030 [28]. Its significance has
+increased because of economic, environmental, and social benefits it provides [17]. The work of Xu et al. [61], for instance,
+have countersigned that in the global economy and in the global business operations, there has been a need for Industry
+4.0 to dramatically increase the overall level of industrialization and manufacturing digitization.
+On the other hand, many manufacturers are now focusing on survival and on reducing the impact of the COVID-19
+pandemic. The Industry 4.0 paradigm is therefore becoming much more important than before. It is proving to be one of
+the essential initiatives to build coordinated response to the pandemic. Eminent researchers and industrial practitioners are
+working on the way the paradigm would be used for this purpose. Cugno et al. [10], Czifra and Molnár [11], Deshmukh and
+Haleem [15] could be listed among many others. Cugno et al. [10] have analyzed a practical case to verify the role of Industry
+4.0 to fight the pandemic and to use as an opportunity to recover production systems within the domain of manufacturing
+industry. Czifra and Molnár [11] hypothesized the COVID-19 emanated importance of Industry 4.0. From their findings, Czifra
+and Molnár [11] have concluded that the manufacturing world should explore the potential of Industry 4.0 to transform and
+4
+T.T. Mezgebe, M.G. Gebreslassie, H. Sibhato et al. Scientific African 19 (2023) e01547
+Fig. 2. Evolution of Manufacturing paradigms (Source: [31]).
+digitize its industry. Deshmukh and Haleem [15] also concluded that they believe COVID-19 would accelerate the active
+usage of Industry 4.0 considering the Indian manufacturing industry context.
+Intelligent manufacturing systems (IMS): an eco-system for productivity and competitiveness
+The global manufacturing evolution presented in Fig. 2 clearly shows a transition from traditional production via mass
+production towards intelligent production via mass customization. The traditional manufacturing paradigms had been underperforming due to the limitation of human operators’ ability to cope with complexities, uncertainties, big data, and also
+their inability to make time demanding decisions [35].
+However, this trend has been significantly changed since 2000. The developed part of the world is on verge of highly
+personalized production systems characterized by variability, reactivity, adaptability, and agility. To design and implement
+such paradigm, Intelligent Manufacturing Systems Eco-system is among the specific strategies in action. Cardin et al. [8] and
+Thomas and Trentesaux [56] defined Intelligent Manufacturing Systems as an academic and industrial initiative to challenge
+future manufacturing systems. Atieh et al. [3] and He and Bai [25] on the other hand defined Intelligent Manufacturing
+System as human-machine integrated intelligent system composed of intelligent machine and expert to achieve an optimum manufacturing outcome. It is therefore characterized by collaboration, flexibility, cognition, intelligence, higher productivity, autonomous decision-making, execution in a whole manufacturing processes. It uses Intelligent physical objects
+[5,51,60], distributed inside manufacturing cells, to respond to existing industrial constraints. Embedded information technology makes the physical objects to capably decide at the time of unexpected event.
+Intelligent Manufacturing System provides core support to build-up intelligent and next generation factories [45,62]. Intelligent scheduling, intelligent process optimization, intelligent control, and intelligent maintenance are for example the
+recent accomplishments of Intelligent Manufacturing Systems in manufacturing factories [35]. Atieh et al. [3] as well made
+integrative analysis to explore the role of IMS to implement Industry 4.0 in small and medium scale enterprises (SMEs) in
+developing countries. Establishing Research & Development tax credits for companies investing in science and technology to
+help SMEs acquire required infrastructure; and developing training centers for learners to acquire new skills required for the
+ever changing work environment are then proposed as potential solutions next to their integrative analysis. This validates,
+though there are critical barriers that should be eliminated ahead of its implementation, IMS could easily be applied in
+SMEs in addition to its importance in large manufacturing factories.
+IMS is also outlined as a new-generation manufacturing technology that - utilizes results of artificial intelligence research
+- were expected to solve, within certain limits, unprecedented, unforeseen problems on the basis of even incomplete and
+imprecise information [24]. It is promising to create safe working environment by using automated manufacturing assets
+which are monitored by networked sensors and controlled by intelligent decision-making algorithms [33]. Likewise, the
+relief of production disruption by intelligent manufacturing technologies facilitates the reconnection of product and service
+flows in the network, which mitigates the severity of industrial chain disruption.
+To sum-up, technological advancements which lead to the development of intelligent manufacturing, intelligent logistics
+and intelligent supply chain systems have been emerging since the last four decades. And most developed countries have
+been most commonly on the cusp of this revolution and currently they are the top exploiters of existing industrial reform
+and development. The experience of these countries substantiates this reform and development is realized as a result of
+skilled and talented professionals who play their influential role for developing complex set of digitalized systems and
+development of business model innovations.
+5
+T.T. Mezgebe, M.G. Gebreslassie, H. Sibhato et al. Scientific African 19 (2023) e01547
+On the contrary, the emerging economies particularly the sub-Saharan economy is significantly lagging behind these
+advanced and exponentially growing technologies for diverse reasons [44]. Therefore, now is the time to bring sustainable
+solutions by integrating international initiatives such as intra-Africa scientific and business collaborations in action, emerging
+digital technologies, and the post COVID-19 recovery and growth opportunity.
+Role of intelligent manufacturing systems for post COVID-19 recovery and growth in sub-Saharan countries
+As it is stated earlier, the technological lagging and the outbreak of COVID-19 pandemic together have negatively affected
+the productivity, competitiveness, and entire supply chain of the manufacturing sector in the sub-Saharan countries. Likewise, these countries seem wayside from the ongoing industrial revolution and digital transformation. On the other hand,
+the socioeconomic impact of COVID-19 pandemic is now reducing though it is highly practical in the developed countries.
+The speech of Joe Biden, “Covid-19 pandemic ‘is over’ in the US” streamed by BBC world news on September 19, 2022 witnesses the COVID-19 impact reduction truth. This is therefore sending clear message to countries and their economic allies
+to change the way they have been doing businesses prior to the pandemic.
+More particularly, this position shall be used as greatest opportunity by sub-Saharan countries to rethink in investing on
+intelligent technologies and innovation to recover from the impact of the COVID-19 pandemic. Keeping their human resource
+keenly engaged, they must accelerate their game to catch up the digital and intelligent manufacturing technologies so that
+their manufacturing sector will quickly recover and will stay competent in the existing manufacturing value chain. Intelligent Manufacturing Systems is among the intelligent technologies that could effectively be applied to recover manufacturing
+processes from the impacts of COVID-19 pandemic. The experience reviewed in sub-section 3.3 is sufficient to witness its
+importance and industrial applicability. Endurance of manufacturing factories to confront the COVID-19 impact in the developed countries is another witness to the importance of intelligent technologies in the manufacturing sector. The question
+here is how the emerging and COVID-19 impacted economies of sub-Saharan countries shall safely and securely adapt intelligent manufacturing technologies in their manufacturing sector? In the context of Industry 4.0, this section discusses two
+interchangeable approaches namely embracing Intelligent Manufacturing Systems and ensuring its sustainability.
+Embracing intelligent manufacturing systems
+Small and medium scale manufacturing enterprises in sub-Saharan countries are being serving as one of the economic
+anchor. However, as it is said earlier, the switch-over to large and automatic manufacturing factories is deferred while the
+encouragement of installing technologically equipped factories is on board. Though there is no doubt to adopt the high-tech
+and digital technologies, Government policies to bring the manufacturing sector to the level where it could be productive
+and competitive at global level need to be clearly identified, uttered, and embraced. Embracing intelligent manufacturing
+technologies allows firms worldwide to integrate meaningfully into the global Industry 4.0 [3]. This reshapes firm’s management practices and operational activities with multiple new opportunities to perform and grow [26]. Manufacturing factories
+of the region, positioned at any developmental stage, therefore intend to stepwise be transformed into innovation (human
+brain), ICT-enabled automation (cyber space), and I-robotics (physical system). The cyber space, physical system, and human
+brain need to interconnectivity, Fig. 3(A), execute to reach a goal of intelligent, resilient, and self-adaptable factories named
+smart manufacturing.
+Though its involvement is expected to be very intermittent in the production processes, the human resource proceeds
+with lots of brainwork including creativity of hardware and software technologies, giving knowledge and learnings to actuators and sensors, analysis and decision-making. Humans act as an organic part of the overall machine [19]. The physical system in-turn is designed to determine human-machine interface, production scheduling, optimization, expert system,
+product quality, and to the extent to learn machine degradation via actuators and sensors. Once deciding on the appropriate
+physical system, it is now necessary to decide on the physical assets to model and what type of information is of value to
+an end-user. At this stage, we (the ‘human-physical’ oriented manufacturing factories) are at the cyber-physical space, the
+middle column of Fig. 3(B). The control, the analysis & decision, and the sensing in the manual work in Fig. 3(A) are turned
+into intelligent behavior. Self-organizing knowledge base, fusion of expert knowledge and machine intelligence, learning and
+cognitive systems, and optimal decision support analytics (Enterprise Resource Planning in a shop floor for instance) verify such move towards the new-generation Intelligent Manufacturing Systems. The persistent transformation of technology,
+created as a result of the Cyber-Physical analytical interconnection loop, illustrated in Fig. 3(A), shall move ahead of the
+profound impacts on the existing global manufacturing domain.
+After-sales customer service is also another dimension to embrace the digital manufacturing paradigm. As shown in the
+mass customization part of Fig. 2, personalized production, fluctuating market, pull-design business model, and IT enabled
+process are the indicators of the digital manufacturing paradigm. This validates compagnies and production processes need
+to give much attention for after-sale customer care in addition to all the way production of competitive products and services.
+6
+T.T. Mezgebe, M.G. Gebreslassie, H. Sibhato et al. Scientific African 19 (2023) e01547
+Fig. 3. Towards embracing Intelligent Manufacturing Systems (Source: [64])
+(A) Cyber Physical Analytic interconnection loop
+(B) Controlling and monitoring loop.
+Ensuring sustainability of intelligent manufacturing systems
+The current globalization is facing by challenge to meet the continuously growing demand for capital and consumer
+goods by simultaneously ensuring a sustainable evolvement of human existence [62]. Besides, the concept of sustainability is
+receiving increased attention and sustainable manufacturing is evolving [25]. Hence, industrial activists and other responsible
+bodies must be geared towards sustainability.
+The up-to date literatures designate that sustainability (society-aware, environment-aware, and human-oriented) is meeting the needs of the present without compromising the needs of future generations. Sustainable manufacturing hence could
+be defined as the ability to smartly use resources for manufacturing by creating products and solutions that regularly satisfies social, environmental, and economic objectives [20]. Congruent to this definition, IMS is linked to sustainable manufacturing in the work of Thomas and Trentesaux [56]. In this work, IMS is considered as technological way to smartly use
+available resources of industry in conjunction with sustainable consumption and production challenge; one of the challenges
+outlined by French Stratégie Nationale de Dévelopment Durable, 2010–2013. Energy management system in a shop floor is
+considered as an illustrative example in their work justifying intelligent distributed devices auto-manage their energy consumption by switching into a low energy consumption state if currently no task is executed on them.
+In their positive and negative impact analysis of manufacturing digitalization, Chen et al. [9] have also described IMS’s
+positive contribution to environmental sustainability by increasing resource and information efficiency as a result of applying Industry 4.0 technologies. These justifications and the definition given by Garetti and Taisch [20] on sustainability
+thus verifies that adapting Intelligent Manufacturing Systems must be (and of course it is possible to be) compatible with
+manufacturing services and environmental sustainability considerations. The question is “how to ensure this compatibility?”
+7
+T.T. Mezgebe, M.G. Gebreslassie, H. Sibhato et al. Scientific African 19 (2023) e01547
+Bi-directional collaboration among three aspects of sustainable intelligent manufacturing services namely product development service, manufacturing service, and after-sales customer service [63] procures the generic and primary IMS sustainability ensuring compatibility factor in this paper. Resource comprehensiveness, human-machine collaboration, utilizing
+sustainability enabling technologies, AI-driven manufacturing system augments this factor.
+Empowerment of operational level sub-system, for example, Enterprise Resource Planning for monitoring industrial efficiency in a shop floor, to make a decision is conferred as second compatibility factor. The shop floor must be controlled by
+distributed and flat structured decision entities in the manufacturing planning and control Eco-system. Flexibility, empowerment of employee, survival on its own axis are positive indicators of this compatibility factor.
+The current world is invaded by smart objects including smart cities, smart transportation systems, smart homes, smart
+vehicles, smart clothes, smart phones, etc. To ensure the sustainability of these objects, making sustainability assessment
+via automatic identification, tracking, traceability, etc. is important. This is because sustainability assessment undoubtedly
+plays a pivotal role for future development of intelligent manufacturing [33]. If not, cyber security issue may in turn invade
+the world and hence bring disastrous instability. For instance, unless perishable goods in a supply chain are tracked using
+globally controlled intelligent technologies (for example, Radio Frequency Identification), some health problems may follow
+related with the perishability. This confirms that intelligent technologies could also be used at global level (by authorized
+Government’s body of a nation for example) to increase information accuracy and reduce decision loops among hierarchical
+phases of object’s life cycle. Utilizing sustainability assessment tools is therefore another dimension of compatibility factor
+to ensure the sustainable use of Intelligent Manufacturing technologies in the existing and dynamic industrial development.
+Summary and synthesis
+Role of Intelligent Manufacturing Systems is discussed in section 4 with a prospect to recover the disaster left by COVID19 in manufacturing companies and production processes of the sub-Saharan countries and to help stay competent in the
+existing manufacturing value chain. However, as it is presented in UNIDO [58], there is lack of empirical effort relating
+to intelligent Africa mainly in the manufacturing domain from multiple decision directions. The industry itself and the
+academia are among the multiple directions. And so, special effort to adapt emerging intelligent technologies must come
+into action taking into account the Post COVID-19 recovery and growth opportunity and many other intra-African scientific
+collaborations in action.
+Within this framework, a Triple Helix Collaboration Eco-system that integrates a recursive contribution of Government(s),
+academia, and industry is framed as follow. The aim is to systematically present the relevance of collaboration to adapt
+Intelligent Manufacturing Systems in manufacturing industry of the region outlined. Recovered manufacturing companies
+from the COVID-19 pandemic and digitally transformed production processes are then expected to be the outcome of the
+proposition.
+Proposition: contribution of government, academia, and industry to adapt intelligent manufacturing systems into
+manufacturing industry in sub-Saharan countries
+Closure of all level schools, closure of workplaces for some sectors, closure of public transport, etc. have been among
+the stringent measures taken by sub-Saharan Governments following the rapid spread of the COVID-19 pandemic [12,42].
+However, the authors of this paper believe, such measure has been serving as firefighting tool and now is the time for
+technological improvements and advancements. The aim is to stay competent in the existing digital market, to quickly recover from the COVID-19 pandemic impact, and hence to sustainably grow in all economic dimensions. How could this
+be achieved? Through simply stowing new technologies to manufacturers? No! it should not be like that. As it is said by
+John Robinson, a Strategic Client Advisor to Digital Supply Chain at SAP, “the key to successful digital transformation is not
+technology but collaboration” [11].
+As part of this collaborative effort, this paper proposes Triple Helix Collaboration (THC) Eco-system, delineated in Fig. 4.
+It is proposed with aim to create reactive, sociable, adaptable, and low cost IMS throughout the manufacturing companies
+and production processes of the region. Recursive contributions of Government(s), academia, and industry are considered to
+build the Triple Helix Collaboration model (Fig. 4(A)) to strategically, tactically, and operationally contour the technological
+lagging and the impact of the pandemic through networking in the area of intelligence manufacturing technologies. Next to
+the figure is discussed proactive roles of each contributor.
+Contribution of the government(s)
+Introducing and implementing intelligent manufacturing technologies demand large investment cost, strong linkages with
+leading manufacturing industries, sufficient financial resources, commitment to acclimate long-term AI policies, to list a few.
+Meanwhile, the application of intelligent manufacturing technologies to some extent unlocks employment opportunities and
+entrepreneurship skills. However, it is difficult to stay alone in the dynamic world fearing such challenges. The Government(s), designated as white collar entity in Fig. 4(A), of the sub-Saharan countries shall therefore strategically engage to
+invest more in intelligent manufacturing technologies taking the advantage of using promising opportunities, listed out ear8
+T.T. Mezgebe, M.G. Gebreslassie, H. Sibhato et al. Scientific African 19 (2023) e01547
+Fig. 4. Triple Helix Collaboration Eco-system to adapt Intelligent Manufacturing Systems
+(A) Triple Helix collaboration model (adapted from [18])
+(B) Recursive collaboration model (adapted from [39]
+(C) Systematic collaboration approach.
+lier. This is because, though the approach was different, the role of Government(s) at the time of COVID-19 was observed to
+have positive and significant effect on mitigating the economic threat posed by COVID-19 pandemic [52].
+Establishing center of intelligence to acquire new skills on intelligent manufacturing systems, upgrading regulations and
+standards for intelligent technologies, developing ICT infrastructures, providing financial assistances to support digital transformation, tax rebating for intelligent manufacturers, initiating labor reforms are some of the enabling solutions most likely
+anticipated from the governorship of nations. Stimulating intelligent platforms, incubation hubs, and science parks could
+also be additional and ordinary contribution of Government(s) who aspire to adapt intelligent manufacturing technologies.
+They support to access the use of emerging technologies for promoting indigenous knowledge and practice in the region.
+Science and Technology Museum propelled in Addis Ababa, Ethiopia on October 2022 could be virtuous example for this
+contribution.
+On the other hand, both levels of intelligent management systems, the control data marked by a solid line and downward
+arrow and the monitoring data marked by dotted line and upward arrow in Fig. 4(B)), need to be consistently checked to
+ensure the sustainability of the adapted IMS technology. This demands consistent collaboration with the contribution of
+industry, section 5.3. Likewise, governorships should intend to strategically exert on their human resource management
+to compensate probable job losses as a result of adapting the IMS technology and should introduce poverty alleviation
+measures. It is absolutely crucial that government(s) ought to systematically respond to unexpected events (the job loss for
+instance), offer mitigation strategies, and utilize recovery enablers, Fig. 4(C).
+9
+T.T. Mezgebe, M.G. Gebreslassie, H. Sibhato et al. Scientific African 19 (2023) e01547
+Policy makers, who are on the verge of tactical decision within the Government body, on the other hand are required to
+interact with academia and industry to continuously influence the implementation of innovated and developed technology,
+review and overhaul where necessary to ensure that the technology can flourish both in the academia and in the industry.
+Once, intelligent platforms and their control mechanisms are set by the Government(s), the upcoming operational decisions to adapt the IMS into manufacturing companies and production processes are then the practical decision stages
+executed by academia and industry.
+Contribution of academia
+Plenty of studies have shown the causes of unemployment are not only due to lack of available jobs but also due to inadequately and technologically educated workforce. Some studies even say the second reason is the critical and underlying
+challenge. Taking this context, technologically advanced ‘knowledge production and dissemination’ is proposed as primary
+contribution of academia (that comprises researchers, professors, academic associations). It demands transforming and contextualizing conventional engineering curriculums and education systems at high schools, at vocational schools, and at Universities. Development of new modules and programs in additive engineering and short courses and continuing education
+programs accompany the transformation and contextualization of the curriculums. These curriculum oriented variables lead
+to produce quality and well trained workforce who satisfy the needs of manufacturing companies and production processes
+and to catch up the digital advancements. Such curriculums within the context of industry 4.0 and designed based on standardized basements contribute not only to the development of emerging economies but also to the advancement of other
+developed economies.
+Research and development is another annex projected to sub-Saharan academia to adapt Intelligent Manufacturing Systems into manufacturing companies and production processes. Broadening researches and innovations towards intelligent
+environment is essential keeping innovation methods, sustainability values, security and safety technologies, and scalability aspects toned. Formation of national research and innovation institutes is another vital corner expected from the subSaharan academia. Academic test-bed platforms need to be installed in each research institutes to innovate and demonstrate
+how intelligent manufacturing system is working and upon which to explore the feasible scheme for companies and teach
+students about the technology; see the three elements at the bottom of Fig. 4(C).
+The academia-industry
+To enhance human resource development and to utilize technological resources available in partner academic institutions
+and manufacturing companies, synergic Eco-system is required to be established by academia and industry. It strengthens
+research and innovation skills, staff mobility and networking, and management of customer care. This sustainably induces
+capacity building, promote innovation, and easily adapt intelligent components within a shop floor. Industry, industrial associations, and academia shall collaboratively work to ensure each intelligent component need to own recursive control kernel
+and this recursiveness intend to continue until the last execution of the component is completed in a given time horizon.
+Contribution of industry
+The industry, designated as blue collar entity in Fig. 4(A), as primary practitioner and beneficiary of adapting the IMS,
+shall always look to the three sustainable intelligent manufacturing services highlighted in sub-section 4.2 and presented
+in the left and right sides of Fig. 4(C). While collaborative design and product customization [59] constitute the product
+development services, intelligent monitoring, intelligent controlling, and collaborative manufacturing [48] constitutes the
+manufacturing services. And to endure the after-sales customer services, the industry should give utter attention to fault diagnosis and fault maintenance [36]. Upgrading ICT infrastructure; introducing new intelligent manufacturing models, means,
+and forms; investing on processes, peoples and technologies; making collaborative competitions for standards and protocols
+among leading manufacturing industries; and creating cooperative environment with labor intensive industries in neighboring countries are some of the additional variables expected to be facilitated by the industry side of the Collaboration
+Eco-system.
+Discussion of contributions
+The proposition presented in this study is a theoretical framework. Triple Helix Collaboration (THC) Eco-system is used
+to develop the framework by reducing the scope of intelligent technologies into Intelligent Manufacturing Systems. Unlike
+most COVID-19 emanated researches, the intention of the proposition was to shape the existing industrial challenges of the
+sub-Saharan manufacturing industry through networking in the area of intelligence technologies. A proactive role of governorship, policy makers, researchers, professors, academic associations, and industrial practitioners were the collaborative
+factors selected and discussed to leverage the proposition which could also be considered as one of the novelty of this study.
+Prior to this, to the best knowledge and understanding of authors, important and recent materials on artificial intelligence, Industry 4.0, Intelligent Manufacturing Systems, sustainability and resilience were selected and reviewed to draw up
+10
+T.T. Mezgebe, M.G. Gebreslassie, H. Sibhato et al. Scientific African 19 (2023) e01547
+the proposition. The contextual review was also done with postulation to give an insight about intelligent manufacturing
+technologies to other researchers, industrial practitioners, and Government bodies who aspire to utilize the technologies.
+The following points could also to be noticed:
+̶The article investigated COVID-19 pandemic has reduced growth of Africa’s manufacturing value-added rate [55],
+COVID-19 has forced Governments and their economic allies to change the way they have been doing businesses
+prior to the pandemic,
+Most technologies that enable Industry 4.0 have already been practiced and they have been an active area of
+research for almost two decades,
+COVID-19 would accelerate the active usage of Industry 4.0 [15],
+Embracing value-based view of organizational businesses allows to tease out precise mechanisms through which
+intelligent manufacturing approaches affect firm-level productivity (Atieh et al. [3],
+The study brings managerial contributions as it has created fertile ground for governorships and policy makers to
+understand intelligent manufacturing Eco-system.
+Finally, the authors understood from the results obtained and analysis made that if the contributors presented in the
+THC Eco-system worked proactively and collaboratively, the IMS technology could easily be employed as post COVID-19
+recovery and growth opportunity to help build a collaborative response to the impact of the pandemic and hence make the
+manufacturing industry of the sub-Saharan countries to catch up competent in the digital world.
+Conclusion
+The importance and industrial applicability of intelligent manufacturing technologies are presented in this paper. This
+was achieved through in depth analysis and discussion and through adaptation of the intelligent technologies within the
+scope of manufacturing systems (product design, materials requirement planning, production processes, and customer care).
+The aim was to map out the importance and industrial applicability of these technologies and to show their significance to
+contain COVID-19 pandemic. Role of Intelligent Manufacturing Systems for post COVID-19 recovery and growth of manufacturing industry in the sub-Saharan countries is then analyzed concentrating on two interchangeable approaches: embracing
+Intelligent Manufacturing Systems and ensuring its sustainability. Adapting Intelligent Manufacturing Systems to ensemble
+to manufacturing companies and production processes in the sub-Saharan countries accompanies the IMS adoption. A Triple
+Helix Collaboration Eco-system to delineate a recursive contribution of Government(s), academia, and industry is finally
+proposed to ensure the implementability of the IMS embracing. The say of John Robinson, “the key to successful digital
+transformation is not technology but collaboration”, was a spring board to propose the THC Eco-system.
+However, experimental validation of the proposition using either academic test-bed platform or real industrial context
+is not yet touched. Researchers and/or industrial practitioners are therefore recommended to proceed with the validation
+believing that the Triple Helix Collaboration Eco-system proposed could easily be implemented and bring socioeconomic
+transformation in the region specified. Meanwhile, technology means change and change is never constant [16]. Hence, it
+is important to continuously explore, understand and discuss technologies that help manufacturing industries boost their
+production processes better.
+Declaration of Competing Interest
+The authors declare that they have no competing financial interests or personal relationships that could have appeared
+to influence the work reported in this paper.
+Acknowledgments
+The authors gratefully acknowledge a project entitled “CESET Project” for financial support to install internet access
+within the completely sieged Mekelle University, Ethiopia. The authors would also like to thank Mekelle University for its
+administrative contribution to apprehend this paper.
+References
+̶ ̶ ̶ ̶[1]̶R. Abebe, Opportunities and challenges of development for Africa in the global arena, in: Proceedings of the AGOA: The Case of Ethiopian Textile
+Sub-Sector. African Economic Conference, Ethiopia, Addis Ababa, 2007.
+[2] S. Aheleroff, H. Huang, X. Xu, R.Y. Zhong, Toward sustainability and resilience with Industry 4.0 and Industry 5.0, Front. Manuf. Technol. 26 (2022)
+1–20.
+[3] Atieh, A.M., Cooke, K.O., Osiyevskyy, O.O. (2022). The role of intelligent manufacturing systems in the implementation of Industry 4.0 by small and
+medium enterprises in developing countries. Engineering Reports: WILEY. DOI: 10.1002/eng2.12578
+[4] A. Bécue, I. Praça, J. Gama, Artificial intelligence, cyber-threats and Industry 4.0: challenges and opportunities, Artif. Intell. Rev. 54 (5) (2021)
+3849–3886.
+[5] V. Botti, A. Giret, ANEMONA: A Multi-Agent Methodology For Holonic Manufacturing Systems, Springer Science & Business Media, 2008.
+[6] M. Cai, J. Luo, Influence of COVID-19 on Manufacturing Industry and corresponding countermeasures from supply chain perspective, J. Shanghai Jiao
+Tong Univ. (Sci.) 25 (4) (2020) 409–416.
+11
+T.T. Mezgebe, M.G. Gebreslassie, H. Sibhato et al. Scientific African 19 (2023) e01547
+[7] D. Calandra, M. Favareto, Artificial intelligence to fight COVID-19 outbreak impact: an overview, Eur. J. Soc. Impact Circ. Econ. 1 (3) (2020) 84–104.
+[8] O. Cardin, F. Ounnar, A. Thomas, D. Trentesaux, Future industrial systems: best practices of the intelligent manufacturing & services systems (IMS²)
+French Research Group, IEEE Trans. Ind. Inf. 13 (2) (2016) 704–713.
+[9] X. Chen, M. Despeisse, B. Johansson, Environmental sustainability of digitalization in manufacturing: a review, Sustainability 12 (24) (2020) 10298.
+[10] M. Cugno, R. Castagnoli, G. Buchi, M. Pini, Industry 4.0 and production recovery in the covid era, Technovation 114 (2022) 102443.
+[11] Czifra, G., & Molnár, Z. (2020). Covid-19 and Industry 4.0. Research papers faculty of materials science and technology slovak university of technology,
+28(46), pp: 36–45.
+[12] M. Danquah, S. Schotte, K. Sen, Covid-19 and employment: insights from the sub-Saharan African experience, Indian J. Labour Econ. 63 (1) (2020)
+23–30.
+[13] A.B.L. De Sousa Jabbour, C.J.C. Jabbour, M. Godinho Filho, D Roubaud, Industry 4.0 and the circular economy: a proposed research agenda and original
+roadmap for sustainable operations, Ann. Oper. Res. 270 (1–2) (2018) 273–286.
+[14] K.A. Demir, G. Döven, B. Sezen, Industry 5.0 and human-robot co-working, Procedia Comput. Sci. 158 (2019) 688–695.
+[15] S.G. Deshmukh, A. Haleem, Framework for manufacturing in post-COVID-19 world order: an Indian perspective, Int. J. Glob. Bus. Compet. 15 (1) (2020)
+49–60.
+[16] P. Dhamija, S. Bag, Role of artificial intelligence in operations environment: a review and bibliometric analysis, TQM J. (2020).
+[17] A. DURMUS¸ , A DAGLI ˘ , Integration of vocational schools to industry 4.0 by updating curriculum and programs, Int. J. Multidiscip. Stud. Innov. Technol.
+1 (1) (2017) 1–3.
+[18] H. Etzkowitz, The Triple Helix: University–Industry–Government Innovation in Action, Routledge, New York and London, 2008.
+[19] N. Fair, S. Modafferi, Industry5. 0 and sociotechnical theory: theoretical underpinnings, in: Proceedings of the Workshop of I-ESA’22, 1613, ISSN, 2022,
+p. 0073.
+[20] M. Garetti, M. Taisch, Sustainable manufacturing: trends and research challenges, Prod. Plann. Control 23 (2–3) (2012) 83–104.
+[21] M.G. Gebreslassie, COVID-19 and energy access: an opportunity or a challenge for the African continent? Energy Res. Soc. Sci. 68 (2020) 101677.
+[22] P. Gibbon, The African growth and opportunity act and the global commodity chain for clothing, World Dev. 31 (11) (2003) 1809–1827.
+[23] GTAI: Germany Trade & Invest (2014). Industries 4.0-Smart Manufacturing for the Future. Berlin, German.
+[24] Hatvany, J. & Nemes, L. (1978). Intelligent manufacturing systems - a tentative forecast. A link between science and applications of automatic control
+in international federation of automatic control, Helsinki, Finland 895–899
+[25] B. He, K.J. Bai, Digital twin-based sustainable intelligent manufacturing: a review, Adv. Manuf. 9 (1) (2021) 1–21.
+[26] E. Hopali, Ö. Vayvay, Industry 4.0 as the last industrial revolution and its opportunities for developing countries, in: Analyzing the Impacts of Industry
+4.0 in Modern Business Environments, IGI Global, 2018, pp. 65–80.
+[27] ISE: Information Systems Engineering (2022). Industry 4.0 [R]Evolution. https://ise-erp.com/industry-4-0-revolution. [Date accessed: December 19,
+2022]
+[28] M.A. Islam, A.H. Jantan, H. Hashim, C.W. Chong, M.M. Abdullah, Fourth industrial revolution in developing countries: a case on Bangladesh, J. Management Inf. Decis. Sci. 21 (1) (2018).
+[29] Jardine, J. (July 30, 2020). Industry 5.0: top 3 things you need to know. https://www.mastercontrol.com/gxp-lifeline/
+3-things-you-need-to-know-about-industry-5.0# [Date accessed: December 18, 2022]
+[30] C. Karlsson, The development of industrial networks: challenges to operations management in an extraprise, Int. J. Oper. Prod. Manag. 23 (1) (2003)
+44–61.
+[31] Y. Koren, The Global Manufacturing Revolution: Product-Process-Business Integration and Reconfigurable Systems, John Wiley & Sons, 2010.
+[32] B.H. Li, B.C. Hou, W.T. Yu, X.B. Lu, C.W. Yang, Applications of artificial intelligence in intelligent manufacturing: a review, Front. Inf. Technol. Electr.
+Eng. 18 (1) (2017) 86–96.
+[33] L. Li, T. Qu, Y. Liu, R.Y. Zhong, G. Xu, H. Sun, C. Ma, Sustainability assessment of intelligent manufacturing supported by digital twin, IEEE Access 8
+(2020) 174988–175008.
+[34] X. Li, B. Wang, C. Liu, T. Freiheit, B.I. Epureanu, Intelligent manufacturing systems in COVID-19 pandemic and beyond: framework and impact assessment, Chin. J. Mech. Eng. 33 (1) (2020) 1–5.
+[35] S. Liang, M. Rajora, X. Liu, C. Yue, P. Zou, L. Wang, Intelligent manufacturing systems: a review, Int. J. Mech. Eng. Robot. Res. 7 (3) (2018) 324–330.
+[36] Z.W. Liu, X.G. Ming, A framework with revised rough DEMATEL to capture and evaluate requirements for smart industrial product-service system of
+systems, Int. J. Prod. Res. 57 (2019) 7104–7122.
+[37] J. McCarthy, M.L. Minsky, N. Rochester, C.E. Shannon, A proposal for the Dartmouth summer research project on artificial intelligence (August 31,
+1956), AI Mag. 27 (4) (2006).
+[38] J. McDermott, R1: a rule-based configure of computer systems, AIJ 19 (1) (1982) 39–88.
+[39] T. Mezgebe, H.B. El-Haouzi, Recursive hybrid control architecture to deal with reactivity in the context of industry 4.0, in: Proceedings of the Conference Paper, MOSIM’20, Agadir, Morocco, 2020 hal-03083251f.
+[40] L. Monostori, B. Kadar´, T. Bauernhans, S. Kondoh, S. Kumara, G. Reinhart, O. Sauer, G. Schuh, W. Sihn, K. Ueda, Cyber-physical systems in manufacturing,
+CIRP Ann. Manuf. Technol. 65 (2016) 621–641.
+[41] J. Moor, The dartmouth college artificial intelligence conference: the next fifty years, AI Mag. 27 (4) (2006).
+[42] P.K. Ozili, COVID-19 pandemic and economic crisis: the Nigerian experience and structural causes, J. Econ. Adm. Sci. (2020).
+[43] A. Petrillo, F. De Felice, R. Cioffi, F. Zomparelli, Fourth industrial revolution: current practices, challenges, and opportunities, Digit. Transform. Smart
+Manuf. (2018) 1–20.
+[44] Pillay, K., Ori, A., & Merkofer, P. (2017). Industry 4.0: is Africa ready for digital transformation. A Case Study of Deloitte South Africa-White Paper
+Report.
+[45] M. Rajora, P. Zou, S.Y. Liang, Intelligent manufacturing system for next generation factories, in: Proceedings of the International Conference on Mechanical Science and Engineering, Atlantis Press, 2016, pp. 12–19.
+[46] R. Rault, D. Trentesaux, Artificial intelligence, autonomous systems and robotics: legal innovations, in: Book Chapter in Service Orientation in Holonic
+and Multi-Agent Manufacturing, 762, Springer, Cham, 2018, pp. 1–9, doi:10.1007/978-3-319-73751-5. ISBN 978-3-319-73750-8, ISSN 1860-949X.
+[47] G. Reinhard, V. Jesper, S. Stefan, Industry 4.0: building the digital enterprise, in: Proceedings of the Global Industry 4.0 Survey, 2016.
+[48] M. Ren, L. Ren, H. Jain, Manufacturing service composition model based on synergy effect: a social network analysis approach, Appl. Soft Comput. 70
+(2018) 288–300.
+[49] Reuters COVID-19 Tracker (July 2022). Pandemic daily statistics in Africa. https://www.reuterscovid-19tracker. [Date accessed: October 01, 2022]
+[50] Roy, S. (2020). Economic impact of COVID-19 pandemic. A preprint, pp: 1–29
+[51] S.J. Russell, P. Norvig, Artificial Intelligence: A Modern Approach, 3rd Edition, Pearson Education, United States, 2010 ISBN 9780136042594.
+[52] I.E. Salem, A.M. Elbaz, Z. Elkhwesky, K.M. Ghazi, The COVID-19 pandemic: the mitigating role of government and hotel support of hotel employees in
+Egypt, Tourism Manag. 85 (2021) 104305.
+[53] M. Sharma, S. Luthra, S. Joshi, A. Kumar, Implementing challenges of artificial intelligence: evidence from public manufacturing sector of an emerging
+economy, Gov. Inf. Q. 39 (4) (2022) 101624.
+[54] Sheth, J. (2019). The Industrial Revolution–From Industry 1.0 to Industry 5.0. Supply Chain Game Changer, 24.
+[55] B. Stefania, M.L. Serena, M.S. Massimiliano, Multi-criteria decision-making model for supporting manufacturing settlements location in Africa after
+COVID-19, Int. J. Eng. Bus. Manag. 13 (2021) 1–15, doi:10.1177/18479790211023348.
+[56] A. Thomas, D. Trentesaux, Are intelligent manufacturing systems sustainable? in: Service Orientation in Holonic and Multiagent Manufacturing and
+Robotics, Springer, Cham, 2014, pp. 3–14.
+12
+T.T. Mezgebe, M.G. Gebreslassie, H. Sibhato et al. Scientific African 19 (2023) e01547
+[57] Tih, F. (2022). Covid-19 spreading rapidly in Africa. https://www.aa.com.tr/en/africa/covid-19-spreading-rapidly-in-africawho-/1798673. [Date accessed: September 29, 2022]
+[58] UNIDO (2019). Report from the 1st regional conference on industrial development: unlocking the potential of industry 4.0 for developing countries.
+Asia Pacic, Vienna.
+[59] Y. Wang, H.S. Ma, J.H. Yang, et al., Industry 4.0: a way from mass customization to mass personalization production, Adv. Manuf. 5 (4) (2017) 311–320.
+[60] M. Wooldridge, An Introduction to Multiagent Systems, John Wiley & Sons, 2009.
+[61] L.D. Xu, E.L. Xu, L. Li, Industry 4.0: state of the art and future trends, Int. J. Prod. Res. 56 (8) (2018) 2941–2962.
+[62] J. Yang, G. Huang, Q. Hang, The platform of intelligent manufacturing system based on industry 4.0, in: Proceedings of the IFIP International Conference
+on Advances in Production Management Systems, Cham, Springer, 2018, pp. 350–354.
+[63] R.Y. Zhong, X. Xu, E. Klotz, Intelligent manufacturing in the context of industry 4.0: a review, Engineering 3 (5) (2017) 616–630.
+[64] J. Zhou, P. Li, Y. Zhou, B. Wang, J. Zang, L. Meng, Toward new-generation intelligent manufacturing, Engineering 4 (1) (2018) 11–20.
+13

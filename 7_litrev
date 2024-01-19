@@ -1,0 +1,65 @@
+# Literature Review: Cyber-risk Perception and Prioritization for Decision-Making and Threat Intelli- gence
+
+## Introduction
+
+Proactive cyber-risk assessment is becoming increasingly important in various sectors to prevent cyber-in- cidents and enhance the integrity, confidentiality, and availability of data. In this literature review, we explore the topic of cyber-risk perception and prioritization for decision-making and threat intelligence. We aim to understand the current research landscape, identify key findings, and highlight knowledge gaps that need to be addressed in future research.
+
+## Statistical Framework for Prioritization of Cyber-vulnerabilities
+
+One of the key research findings in this domain is the introduction of a statistical framework for the prioritization of cyber-vulnerabilities. This framework utilizes robust and interpretable regression models to support decision-making [Abstract 1]. Traditional black box machine learning models, such as deep neural networks (DNNs), are powerful predictors but lack interpretability [Abstract 4]. Interpretable models provide insights into how decisions are made, which is crucial for understanding cyber-risk perception and prioritization.
+
+## Interpretable Decision Sets for Description and Prediction
+
+The concept of interpretable decision sets has been proposed as a joint framework for description and prediction in the context of cyber-risk perception and prioritization [Abstract 2]. This framework allows decision-makers to understand and interpret the factors influencing cyber-risk perception and prioritize vulnerabilities accordingly. By combining description and prediction, decision-makers can gain valuable insights into the underlying mechanisms of cyber-risk perception.
+
+## Machine Learning and Statistical Modeling for Policy and Decision Making
+
+Machine learning and statistical modeling techniques have been applied to analyze cyber hate speech
+on Twitter and support policy and decision-making processes [Abstract 3]. These techniques enable the identification and classification of cyber hate speech, providing valuable insights for policy-makers. By leveraging machine learning and statistical modeling, decision-makers can make informed decisions and develop effective strategies to mitigate cyber risks.
+
+## Cybersecurity Incident Prediction and Data-driven Approaches
+
+Data-driven approaches, such as predictive modeling, have been widely used for cybersecurity incident
+
+prediction [Abstract 9]. By analyzing network, system, and process data, these approaches can detect and predict cyber-attacks in industrial control systems. However, there is a need for further research to develop more robust and accurate prediction models that can handle the complexity and dynamic nature of cyber threats.
+
+## Challenges of Intelligibility in Black Box Models
+
+While black box models like deep neural networks achieve high accuracy in prediction tasks, they lack intelligibility [Abstract 4]. It is crucial to understand how decisions are made in cyber-risk perception and prioritization to ensure transparency and accountability. Research on interpretable classification models can provide insights into the decision-making process and address the challenges posed by black box models.
+
+## Algorithm-in-the-Loop Decision Making
+
+The principles and limits of algorithm-in-the-loop decision-making have been explored in the context of cyber-risk perception and prioritization [Abstract 8]. Decision-making processes that involve algorithms require careful consideration of the strengths and limitations of the algorithms used. Understanding how algorithms influence decision-making can help in developing more effective and trustworthy decision support systems.
+
+## Trust Computational Model for IoT Services
+
+In the era of the Internet of Things (IoT), trust computational models based on machine learning have been proposed to support decision-making in IoT services [Abstract 12]. These models enable decision-makers to assess the trustworthiness of IoT services and make informed decisions. Further research is needed
+to develop more accurate and robust trust computational models that can handle the complexity and heterogeneity of IoT environments.
+
+## Consensus in Group Decision Making
+
+Large-scale group decision-making in social networks requires consensus among participants. The con- cept of minimum cost model based on robust optimization has been proposed to achieve consensus in group decision-making [Abstract 14]. This model provides a framework for overcoming differences in opinions and achieving agreement among participants. Future research can focus on applying this model to cyber-risk perception and prioritization in social networks.
+
+## Conclusion
+
+This literature review provides an overview of the current research on cyber-risk perception and prioriti- zation for decision-making and threat intelligence. The findings highlight the importance of interpretable models, machine learning, statistical modeling, and data-driven approaches in understanding and addressing cyber risks. However, there are several knowledge gaps that need to be addressed in future research, such as developing more accurate and robust prediction models, understanding the challenges of black box models, and exploring the role of algorithms in decision-making processes. By addressing these gaps, researchers can contribute to the development of effective cyber-risk management strategies and decision support systems.
+
+## References:
+
+1. Zhang, Fan., Kodituwakku, Hansaka Angel Dias Edirisinghe., Hines, J.., & Coble, J.. (2019). Multi- layer Data-Driven Cyber-Attack Detection System for Industrial Control Systems Based on Network, System, and Process Data. <i>IEEE Transactions on Industrial Informatics</i> , 15 , 4362-4369 . http://doi.org/10.1109/TII.2019.2891261
+2. Sun, Nan., Zhang, Jun., Rimba, Paul., Gao, Shang., Zhang, L.., & Xiang, Yang. (2019). Data-Driven Cybersecurity Incident Prediction: A Survey. <i>IEEE Communications Surveys & Tutorials</i> , 21 , 1744-1772 . http://doi.org/10.1109/COMST.2018.2885561
+3. Burnap, P.., & Williams, M.. (2015). Cyber Hate Speech on Twitter: An Application of Machine Classification and Statistical Modeling for Policy and Decision Making. <i>Policy & Internet</i> , 7 , 223-242 . http://doi.org/10.1002/POI3.85
+4. https://www.semanticscholar.org/paper/598658595e887f677967769ed11ba28158f6ea8a
+5. Taghia, Jalil., Cai, Weidong., Ryali, S.., Kochalka, J.., Nicholas, J.., Chen, Tianwen., & Menon, V.. (2018). Uncovering hidden brain state dynamics that regulate performance and decision-making during cognition. <i>Nature Communications</i> , 9 . http://doi.org/10.1038/s41467-018-04723-6
+6. Lu, Yanling., Xu, Yejun., Herrera-Viedma, E.., & Han, Yefan. (2020). Consensus of large-scale group decision making in social network: the minimum cost model based on robust optimization. <i>Information Sciences</i> , 547 , 910 - 930 . http://doi.org/10.1016/j.ins.2020.08.022
+7. Wang, Xiaokang., Yang, L.., Xie, Xia., Jin, Jirong., & Deen, M.. (2017). A Cloud-Edge Computing Framework for Cyber-Physical-Social Services. <i>IEEE Communications Magazine</i> , 55 , 80-85 . http://doi.org/10.1109/MCOM.2017.1700360
+8. Shipe, M.., Deppen, S.., Farjah, F.., & Grogan, E.. (2019). Developing prediction models for clinical use using logistic regression: an overview.. <i>Journal of thoracic disease</i> , 11 Suppl 4 ,
+   S574-S584
+   . http://doi.org/10.21037/JTD.2019.01.25
+9. Forkuor, G.., Hounkpatin, O.., Welp, G.., & Thiel, M.. (2017). High Resolution Mapping of Soil Properties Using Remote Sensing Variables in South-Western Burkina Faso: A Comparison of Machine Learning and Multiple Linear Regression Models. <i>PLoS ONE</i> , 12 . http://doi.org/10.1371/jour- nal.pone.0170478
+10. Green, Ben., & Chen, Yiling. (2019). The Principles and Limits of Algorithm-in-the-Loop De- cision Making. <i>Proceedings of the ACM on Human-Computer Interaction</i> , 3 , 1 - 24 .
+
+http://doi.org/10.1145/3359152 11. Jayasinghe, Upul., Lee, G.., Um, Tai-Won., & Shi, Q.. (2019). Machine Learning Based Trust Computational Model for IoT Services. <i>IEEE Transactions on Sustainable Computing</i> , 4 , 39-52 . http://doi.org/10.1109/TSUSC.2018.2839623 12. Tang, Mingjian., Alazab, M.., & Luo, Yuxiu. (2019). Big Data for Cybersecurity: Vulnerabil-
+ity Disclosure Trends and Dependencies. <i>IEEE Transactions on Big Data</i> , 5 , 317-329 . http://doi.org/10.1109/TBDATA.2017.2723570 13. Rudin, C.. (2018). Stop explaining black box machine learning models for high stakes deci-
+sions and use interpretable models instead. <i>Nature Machine Intelligence</i> , 1 , 206 - 215 . http://doi.org/10.1038/s42256-019-0048-x 14. Ganin, A.., Quach, Phu., Panwar, Mahesh., Collier, Zachary A.., Keisler, J.., Marchese, Dayton., & Linkov, I.. (2020). Multicriteria Decision Framework for Cybersecurity Risk Assessment and Manage- ment. <i>Risk Analysis</i> , 40 . http://doi.org/10.1111/risa.12891 15. Lempert, R.. (2019). Robust Decision Making (RDM). <i>Decision Making under Deep Uncertain- ty</i> . http://doi.org/10.1007/978-3-030-05252-2_2 16. Valdes, G.., Luna, J.., Eaton, Eric., Simone, C.., Ungar, L.., & Solberg, T.. (2016). MediBoost: a Patient Stratification Tool for Interpretable Decision Making in the Era of Precision Medicine. <i>Scientific Reports</i> , 6 . http://doi.org/10.1038/srep37854 17. Zeng, J.., Ustun, Berk., & Rudin, C.. (2015). Interpretable classification models for recidivism prediction. <i>Journal of the Royal Statistical Society: Series A (Statistics in Society)</i> , 180 . http://doi.org/10.1111/rssa.12227 18. Guidotti, Riccardo., Monreale, A.., Giannotti, F.., Pedreschi, D.., Ruggieri, S.., & Turini, F.. (2019). Factual and Counterfactual Explanations for Black Box Decision Making. <i>IEEE Intelligent Sys- tems</i> , 34 , 14-23 . http://doi.org/10.1109/MIS.2019.2957223 19. Lakkaraju, Himabindu., Bach, Stephen H.., & Leskovec, J.. (2016). Interpretable Decision Sets: A Joint Framework for Description and Prediction. <i>Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining</i> . http://doi.org/10.1145/2939672.2939874 20. Moustafa, Nour., Creech, Gideon., & Slay, J.. (2017). Big Data Analytics for Intrusion De-
+tection System: Statistical Decision-Making Using Finite Dirichlet Mixture Models. , 127-156 . http://doi.org/10.1007/978-3-319-59439-2_5

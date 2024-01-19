@@ -1,0 +1,2209 @@
+Index
+Note: ‘Page numbers followed by “f ” indicate figures and “t” indicate tables and “b” indicate
+boxes’.
+Active mobility, 374e375
+Advanced driver assistance
+systems (ADAS), 381
+Affordable Care Act, 176e177
+Aggregation, 258e259, 451
+Algorithms for occupants,
+400e402
+Allianz Smart City Dortmund, 63
+Allied Market Research, 363
+Anthropocene, 595, 598
+Anticipatory paradigm, 597e598
+Anticipatory system, 596e597
+Application programming
+interface (API), 199, 600
+Area of dissatisfaction or critical
+issues, 270e271
+Artificial intelligence (AI), 595
+forms, 598
+Artificial intelligence, 21e22
+Artisanal cobalt, 1e2
+Assessment methods to account
+for multiple benefits of
+building renovation,
+414e415
+Atmospheric heating, 2
+Atmospheric infrared sounder
+(AIRS), 19e20
+Atmospheric pollutants,
+598e599
+Augmented reality (AR), 28e29
+Augmenting human intelligence
+(IA), 595
+Australian Energy Market
+Commission (AEMC), 565
+Australian Energy Market
+Operator (AEMO),
+555e557
+Automated document analysis,
+487
+Automated public
+transportation, 355
+Automated rapid transit (ART),
+335e336
+ART-type metro system, 336
+map, 337e338
+Automated road systems, 352
+Automation, 355
+within context of autonomous
+vehicles, 352e357
+Autonomous mobility in built
+environment
+autonomous vehicle sector,
+352e365
+automation within context
+of autonomous vehicles,
+352e357
+business models for
+supporting AV operations,
+361e362
+commercial opportunities
+and availability of AVs,
+362e364
+customer insights,
+364e365
+operation models for AVs,
+357e361
+autonomous vehicles and
+sustainability, 365e372
+autonomous vehicles
+sustainable mode of
+transport, 370e372
+principles of sustainable
+transport, 365e369
+four urban pillars for defining
+sustainable future with
+autonomous vehicles,
+372e383
+customer, 379e382
+infrastructure, 373e377
+policy, 382e383
+technology, 377e379
+Autonomous system, 614
+Autonomous vehicles (AVs),
+352e353. See also
+Departments of motor
+vehicles (DMVs)
+automation within context of,
+352e357
+business models for
+supporting AV operations,
+361e362
+commercial opportunities and
+availability of, 362e364
+autonomous-ready vehicles
+net additions, 363t
+operation models for,
+357e361
+sector, 352e365
+and sustainability, 365e372
+urban pillars for defining
+sustainable future with,
+372e383
+Balancing Market, 572e574
+Basic mode, 435e436
+Benevolence, 600
+Better Buildings Neighbourhood
+Program (BBNP), 413
+Big data, 9, 292
+Big-data analytics, 195, 485
+Bilateral Contracts, 572e574
+BIM level of development (BIM
+LoD), 434
+Bio-algorithm, 605
+media academic, 8
+Biodiversity issues, 512e513
+Biological structures, 605
+Biomass, 533
+Bionics, 600
+Bisociation, 601e604
+Blockchains, 158e165
+claims and currencies,
+159e161
+Blockchains (Continued)
+connecting currencies,
+163e165
+cryptographically endorsing
+claims, 161e162
+rewarding verified claims,
+162e163
+Body as intelligent environment,
+591e595
+Bolt, 328
+Bottom-up approach, 605e606
+Bottrop (Innovation city), 63e70
+Brainport Navigator, 99
+BREEAM, 410e411
+Building Information Modelling
+(BIM), 403e404, 427, 448
+Building performance
+assessment procedures,
+448e449
+Building performance data
+(BPD), 448e449, 456
+ontological schema for,
+451e453
+Building Performance Indicators
+(BPIs), 449e451
+Building renovations, exploiting
+benefits of multi scale
+considerations in,
+422e427
+Building retrofit challenge,
+zooming-in on, 396e399
+Building users level, benefits of
+renovation at, 410e411
+Buildings, 395e396
+Built environment role in health
+and well-being, 408e413
+benefits of renovation at
+building users’ level,
+410e411
+at district or urban level,
+411e412
+at societal level, 412e413
+Business models for supporting
+AV operations, 361e362
+Business-as-usual scenario, 196,
+542e543
+Business-to-Consumer Service
+model (B2C), 362
+Cambridge Autonomous Metro
+(CAM), 336
+Cambridge CAM system,
+337e338
+Cambridge-Milton
+KeyneseOxford Corridor
+(CAMKOX Corridor),
+211e221
+early adopter scenario,
+221e224
+late adopter scenario,
+224e225
+non-adopter scenario, 226
+Camillo-like memory theatre
+structure, 605
+Capability, 608
+Car-pooling services models, 366
+Car-sharing models, 366
+Carbon dioxide (CO2), 533
+Carbon removal and uptake,
+transformation for,
+26e27
+Catastrophe Theory, 595e596
+Center for Innovation and
+Technology (ZENIT), 42
+Center for Intelligent
+Environments at
+University of Southern
+California (CENTIENTS),
+13
+Center of Energy Information
+and Advice (ZIB), 65e66
+Centers for Medicare and
+Medicaid Services (CMS),
+177
+Central Power and Light
+Company (1956), 352e353
+Centre for Advanced Spatial
+Analysis (CASA), 211e212
+Certification schemes, 508
+Certified green buildings, 506
+China’s national Thirteenth Five
+Year Plan, 405
+Chinese automated rapid transit
+service (Chinese ART
+service), 335e336
+Citation chaining process, 295
+Cities for Climate Protection
+(CCP), 75e76
+Cities’ sustainability and
+resilience, building
+renovation impact on,
+407e415
+City energy transition strategies,
+56e76
+City leaders, 104
+City of Bottrop, 63
+City of Dortmund, 56
+City of Thousand Flames, 70
+“City” Digital City Science, 480
+CityGML level of detail (CityGML
+LOD), 434
+CityScope system, 477
+Civilization approach thinking
+systems, 3
+Claims and currencies, 159e161
+Clean Energy For All Act, 140
+Climate change, 33e35, 76
+Climate defence budgets, 22e23
+climate peace diplomacy,
+23e24
+fossil fuel industry
+restructuring, 24
+regenerative employment
+programs, 24e25
+Climate Emergency movement,
+135
+Climate peace diplomacy, 23e24
+Climate-active agricultural soils,
+rapid development and
+regeneration of, 26
+Climate-positive tool, 518e519
+Closed-loop recycling systems,
+500
+Closed-system models, 503
+Cloud-based BIM, 403e404
+Co-creative processes with
+citizens, 183
+Coal, 371e372
+620 Index
+Coal and Steel Regions Future
+Initiative (ZIM), 42
+“100Cogeneration Systems”
+project, 68
+Cognition, 593e594, 601
+Cognitive behavior, 612
+Cognitive renovation, 404
+Cohesive smart environments,
+socio-cultural
+considerations for, 82e83
+Collaborative Design Platform
+(CDP), 432e433
+Collaborative negotiation,
+199e201, 200f
+technology in support of
+geodesign, 201e202
+Combinatorial shunting, 611
+Combinatoric N-dimensional
+bio-algorithm, 605
+Combined heat and power
+(CHP), 54e55, 59,
+437e438
+Commercial grade autonomous
+vehicles, 9
+Commercial stakeholders,
+374e375
+Committee for Sydney,
+The(2019), 312
+Communication, 508e510
+Community Inclusion
+Currencies (CICs), 4,
+151e155, 160, 165e166
+currencies and blockchains,
+158e165
+currency primer, 152e153
+materials, 166
+methodology, 165e172
+learn by doing, 166e170
+real world applications,
+153e158
+humanitarian aid, 154e155
+municipal currencies and
+basic income, 156e158
+regenerative agriculture,
+153e154
+taxation, 155e156
+Community/communities, 151
+currencies, 156
+engagement, 513e515
+of practice, 487
+Complexity, 481, 592
+Compound-annual-growth-rate
+(CAGR), 363
+Comprehensiveness, 258
+Computation, 481
+Computational intelligence,
+475e476
+Computing power, 202
+Confounding forces, 191
+Connected Autonomous
+Vehicles (CAVs), 354e355
+Consistency, 259
+Consumer energy trading, 565
+Contingent valuation (CV), 414
+Continuity of Operations Plans
+(COOP), 413
+Controlled environment
+agriculture (CEM), 201
+Conventional emissions targets,
+23
+Conventional energy systems,
+110e112
+Conventional-corridor bigvehicle systems, 345
+Convergence with urban
+sustainability, 486e492
+Copenhagen case, 492
+Corporate social responsibility
+(CSR), 157
+Cost of ‘Conserved Energy’
+(CCE), 411
+COVID-19
+emergency, 244
+pandemic, 28, 254e255
+Credit creation system, 151
+Crime mapping, 303e304
+Crime Prevention Through
+Environmental Design
+(CPTED), 286
+Cross scale transition barriers,
+overcoming, 427e440
+Cross scaling, 422e427
+Cryptographically endorsing
+claims, 161e162
+Cultural development, 44e49
+CumulativeSkyMtx output,
+462e465
+Currencies, 158e165
+claims and currencies,
+159e161
+connecting currencies,
+163e165
+cryptographically endorsing
+claims, 161e162
+rewarding verified claims,
+162e163
+Currency creation
+memorandum, 167
+Customer experience, 379
+Customer-centric design, 379
+Customer-centric mobility, 380
+Customers real-time travel
+information, 379e380
+Cyber physical Systems (CPS),
+485
+Dashboards, 487e489
+Data Manager (DM), 432e433
+Data networks, 189
+Data ontologization process,
+466e467
+Data platform, 95
+Data preprocessing, 456e458
+Data quality control, 458
+Data services foster smart
+renovation, 399e407
+Data stories, 487e489
+Data-based decision-making,
+201
+Data-citizen model, 401
+Data-driven urbanism, 477
+Dead-end systems, 2e3
+Decentralising grid, 122e124
+Decentralized Autonomous
+Organization (DAO), 156,
+161
+Decision making, 511e512
+Decision tools, 501
+Decision-making process,
+375e376
+Decoy effect, 518e519
+Dedicated short-range
+communication (DSRC),
+377
+Departments of motor vehicles
+(DMVs), 183e184
+modernization projects, 189
+Index 621
+Design tools, 511e512
+DesignBuilder, 535
+“DesignNet” research project, 62
+Deutsche Mark (DM), 38
+Diffbot, 605
+Digital City Science, 7, 477, 485
+approaches, 484, 493e494
+city science approaches in
+urban research, 475e479
+convergence with urban
+sustainability, 486e492
+group, 487
+new paradigm, 492e495
+principles, methods and
+technologies, 479e482
+key principles, 482e486
+sample studies and projects,
+492e495
+Digital construction of social
+reality, 12e14
+Digital Data Streams (DDS), 400
+Digital democracy, 181
+Digital developments, 182e183
+Digital energy system, 121e122
+Digital government, 181
+infrastructure, 181
+Digital infrastructures, 376
+Digital innovation, 1
+Digital invaders, 342
+Digital salvation, 16e18
+Digital systems, 3, 180
+Digital technologies, 122e124,
+402e403, 406e407
+Digital Twins (DT), 403e404
+Digitalization, 1, 183, 401, 403,
+492e493
+caveats of, 406e407
+command, 15
+empirical and positivist
+sciences, 476e477
+process, 442
+Digitalized OSS services, 403
+Digitalized technologies,
+403e404
+Digitally connected urban
+systems, 480
+Directorates-General (DGs),
+87e89
+Disability-Adjusted Life Years
+(DALY metric), 414
+Dispatch of out-of-merit
+generation, 563
+Dispatchability deficit, 116e120
+Distributed, transactive
+electricity grid, 124e128
+case study, 126be127b
+deregulation in United States,
+139
+emerging roles for
+entrepreneurs in,
+137e139
+EU deregulation, 140e144
+feed in tariffs, 128e130
+FiT and wholesale/retail
+power rates, 130t
+flexibility services, 131e137
+market mechanisms for,
+128e137
+renewable energy certificates,
+130e131
+swapping solar for products,
+138
+Distributed denial of service
+(DDoS), 182
+Distributed Energy Resource
+Management System
+(DERMS), 584
+Distributed energy resources
+(DERs), 109e110, 562
+openness to, 572
+roadmap, 563
+Distributed ledger technology
+(DLT), 158
+Distributing grid, 122e124
+Distribution network, 119
+Distribution systems, 562
+District energy systems, 412
+District information modeling
+server (DIM server), 432
+Dortmund Climate Action
+Program 2020, 58
+Dortmund Energy Transition
+Control Center (LED),
+58e59
+Dortmund Energy Transition
+Master Plan, 58
+Dortmund Technology Center,
+56
+“Dual Demand Site
+Management” project,
+67e68
+Dualistic mindsets, 503
+Durable buildings, 507
+Dynamic driving task (DDT),
+354e355
+Dynamic lane control signs,
+354e355
+Dynamic systems model, 482
+E-governance, 95
+for e-Renovation, 405e406
+E-participation, 95
+e-Renovation, 405e406
+E-tech ecological footprint, 1
+Early Adopter teams, 199,
+221e224
+Ecological base, 504
+Ecological space, 499
+Ecology/biodiversity Leg,
+523e524
+Ecosystems, 512e513. See also
+Innovation ecosystems
+Education networks, 78e80
+Educational blockade, 39
+Eindhoven (case study), 97e99
+Quadruple Helix Model, 98f
+Eindhoven Innovation System,
+99
+ekWateur business model, 135
+Electric vehicles (EV), 327
+Electricity, 1e2. See also
+Transactive electricity
+generation, 555e556
+index, 109
+in Indonesia, 535
+supply, 562
+system, 116
+Electrification of vehicle
+drivetrains, 371e372
+Embodied, embedded, enactive
+and extended
+approaches, 597e599
+Embodied computation,
+599e600
+622 Index
+Emergent economies
+currencies and blockchains,
+158e165
+currency primer, 152e153
+materials, 166
+methodology, 165e172
+learn by doing, 166e170
+real world applications,
+153e158
+humanitarian aid, 154e155
+municipal currencies and
+basic income, 156e158
+regenerative agriculture,
+153e154
+taxation, 155e156
+Emotional mapping, 303e304
+Emscher Park International
+Building Exhibition (IBA
+Emscher Park), 44
+Energy clusters, 50e51
+Energy consumptions, 271e276
+Energy digitalization, 399e407
+Energy efficiency in residential
+buildings, 531
+methodology, 532
+results, 533e545
+cooling energy required in
+residential buildings, 538t
+future energy situation
+scenarios, 540e544
+geography, population, and
+climate of Ambon Island,
+533
+GIS maps for residential
+energy demand and CO2
+emissions, 544e545
+measures, 538e540,
+539te540t
+residential area prototypes
+and building types on
+Ambon, 533e535, 534t
+residential energy
+consumption and CO2
+emissions on Ambon,
+2019, 535e537
+total annual electricity and
+fuel consumption and
+CO2-emissions, 537t
+Energy Performance Certificates
+(EPC), 406, 441e442
+Energy Poverty Observatory, 405
+Energy Region.NRW, 50e51
+Energy Research.NRW, 50e51
+Energy self-sufficiency of
+Maluku archipelago, 532
+Energy trading, 562
+Energy transition, 52e55, 80
+education initiative, 62
+Environmental impact
+assessment (EIA), 506
+Environmental intelligence, 13,
+485
+Environmental policy actions,
+327e328
+Environmental pollution, 40
+Environmental protection,
+483e484
+Environmental remediation,
+44e46
+Environmental sustainability,
+483
+successes in, 18e20
+Environmental
+technologies.NRW, 50e51
+“EnvironmentDiploma”
+program, 76
+Epistemology, 480e481
+Estonia’s digital project, 183
+Estonia’s national culture,
+182e183
+Estonia’s X-road projects, 189
+Ethics and redefining notions of
+bias, 608
+European Building Stock
+Observatory, 405
+European city regions, 3e4
+European Commission (EC),
+87e89, 396e397
+Green Deal, 483
+SIP, 92
+European Council, 254
+European Foundation for the
+Improvement of Living
+and Working Conditions
+(Eurofound), 248, 250
+European Green Deal, 399
+European Innovation
+Partnership for Smart
+Cities and Communities
+(EIP-SCC), 318
+European Joint Research Center
+(European JRC), 399e400
+European Regional
+Development Fund
+(ERDF), 49
+European social cohesion,
+climate, urban innovation
+and industrial
+development aims/H2020
+and green deal, 87e89
+Triangulum logo source, 88f
+European structural funds
+(ERDF), 69
+European Union (EU), 87e89
+deregulation, 140e144
+initiatives on smart cities,
+89e91
+Exclusion criteria, 295e296
+Extended Intelligence (EI),
+594e595
+Facility Management (FM), 404
+Family satisfaction area, 270
+Feed-in tariff (FIT), 119
+to transactive electricity
+storage, 120e122
+First edition of Intelligent
+Environments (IE1), 8e9
+Flexibility services, 131e137
+procurement, 129e130
+Flexipreneurs, 134e135
+Fluid interdependence,
+136e137
+Forests, rapid development and
+regeneration of, 26
+Fossil fuels
+industry restructuring, 24
+source taxation of fossil fuels
+and regulatory phasing
+out, 25e26
+Fourth Industrial Revolution
+(Industry 4.0), 396,
+402e403
+model, 396
+Index 623
+Fourth Industrial Revolution
+(Industry 4.0) (Continued)
+new digital value chain
+prompted by, 402e405
+Freight delivery, 359
+Freo 48 (solar P2P trading trial),
+554, 559e564
+Frequency of negative trading
+intervals, 563
+Frequency sampling method,
+457e458
+Function based business models,
+361e362
+Functional magnetic resonance
+imaging (fMRI), 598e599
+Future electricity system, 565
+Future energy trading platforms,
+566
+G20 countries, 531
+Garbage collection, 359
+Gender inclusive public spaces,
+287e289
+Gender inclusive spaces, 308
+deepening dimensions of,
+308e316
+Gender inclusive urban
+transport options, 289b
+Gender-based violence (GBV),
+296
+Gender-inclusive design, 289b
+Gendered violence, 285
+General Motor (GM), 352e353
+Geodesign, 194
+CAMKOX Corridor, 211e221
+collaboration and negotiation,
+198f
+collaborative negotiation,
+199e201, 200f
+framework for, 197f
+global challenge, 193e194
+in global public practice,
+229e234
+IGC
+conventions, 204e210
+studies, 227e229
+organizing, 197e199
+strategic planning for global
+change, 203e204
+and sustainable development,
+194e195
+strategic planning for
+significant change,
+195e197
+workflow, 205f
+GeodesignHub, 199, 215f
+Geographic Information Systems
+(GIS), 194, 286e287, 292,
+303e304, 427
+maps for residential energy
+demand and CO2
+emissions, 544e545
+Geographic sciences, 195e196
+Geoplanner, 202
+Geospatial analysis approaches,
+312e313
+Geospatial approaches, 314b
+Geospatial data, capturing
+complex nature of
+perception through, 314b
+Geospatial methods, 296e297,
+312
+Geospatial research on women’s
+safety, methodological
+selection of research on,
+295e296
+Geospatial technologies,
+286e287, 308
+integrating gender with
+geospatial technologies
+for inclusive planning
+future, 308e315
+Geovisualisation, 303e304
+Gesellschaft für Internationale
+Zusammenarbeit (GIZ),
+83, 486
+Gesture recognition, 485
+Global financial systems, 159
+Global lethal resource tracking
+systems, 26
+Global Positioning Systems
+(GPS), 201e202, 292,
+378e379
+Grasbrook CityScope, 489e491
+Grasshopper, 460
+Grassroots Economics
+Foundation (GEF),
+151e152, 154
+Green building
+certification and marketing
+schemes, 501
+tools, 501
+Green building XML (gbXML),
+448
+Green New Deal (GND), 201,
+223f
+Green Scaffolding, 519
+Greener elements, 410e411
+Greenhouse gas emissions
+(GHGE), 23, 273e276,
+365e366, 421, 533
+Grid-Wise Architecture Council
+(GWAC), 109e110
+Groundwater purification,
+39e40
+Group Account, 171
+HafenCity University (HCU),
+485e486
+HarassMap approach, 316
+Hard science approaches, 475,
+478e479
+HDF5 file, 460e461
+Health and well-being, role of
+built environment in,
+408e413
+HealthCare.gov, 186e187
+architecture, 177
+story, 177e178
+Heating ventilation and cooling
+(HVAC), 424
+Holistic embodied approach,
+610e611
+Horizon Europe program, 99
+HS2 high-speed train project,
+212e213
+Human capital, 246
+Human cognition, 601
+Human environment, 12
+Human-machine interaction
+(HMI), 485
+Humanitarian aid, 154e155
+Hungarian demo-site,
+428e429
+Hybrid Business/Individuals
+service model, 362
+Hydrogen, 67
+624 Index
+Hyper-monitored data
+harvesting community, 15
+Impact assessments, 201
+In-vehicle
+camera, 378e379
+platforms, 378e379
+Inclusion criteria, 295e296
+Independent communication
+systems approaches,
+377e378
+Indian deregulation, 141
+Indoor environmental quality
+(IEQ), 408e409
+Indoor/outdoor spaces, 508
+Industrial sequestration, 26e27
+Industry clusters and sectoral
+diversification, 77e78
+Industry Foundation Classes
+(IFC), 433, 448
+Information and
+communication
+technologies (ICT), 33,
+175e176, 273e276, 424,
+447e448
+companies, 374e375
+Information city, Japan and,
+10e11
+Information system, 12e13
+Information technology (IT),
+11e12, 19, 56
+industry, 1e2
+IT-based cab services, 328
+IT-savvy millennials, 328
+Infrastructure companies,
+374e375
+Infrastructure networks,
+354e355, 375e376
+Innovation action program (IA
+program), 90
+Innovation City, 63
+Innovation City Management
+(ICM), 65
+Innovation ecosystems, 34e35
+for regional structural change,
+76e83
+advanced education and
+transdisciplinary
+networks, 78e80
+industry clusters and
+sectoral diversification,
+77e78
+Innovations, 34
+“Innovative district heating
+solutions” project, 62
+Innovative-scenario, 543e544
+Insight Engine 1.0, 599e600
+Insight Engine 2.0
+body as intelligent
+environment, 591e595
+embodied, embedded,
+enactive and extended
+approaches, 597e599
+embodied computation,
+599e600
+ethics and redefining notions
+of bias, 608
+holistic embodied approach,
+610e611
+initial research areas, 604e605
+intelligent environments,
+608
+n-dimensional, 607
+neosentient model
+environment, 595e597
+new AI, 612
+new combinatorial
+N-dimensional bioalgorithm, 606e607
+problems, 604
+production of model for
+Neosentience, 600e601
+research, 608e610
+top-down and bottom-up
+approach, 605e606
+visualization strategies in,
+601e602
+World Generator 2.0, 602e604
+Institute for Solar Energy
+Systems (ISE), 72
+Institutional “algorithms”,
+483e484
+Integrated cross scale design
+methodology (IDM), 441
+Integrated Decision Support
+system (IDS), 427e428
+Integrated Energy and Climate
+Program (IEKP), 52e53
+Integrated Energy and Climate
+Protection Concept
+(IEKK), 65
+Integrated retrofit design
+methodology (IDM),
+427e428
+Integrated Transport Systems
+(ITS), 352
+Integrating gender with
+geospatial technologies
+for inclusive planning
+future, 308e315
+Integrative Design, Arts, and
+Technology (IDeATe), 13
+Intelligence, 595
+Intelligence Environments, 13
+Intelligent augmentation,
+338e340
+Intelligent climate-resilient
+infrastructures, 80e82
+Intelligent communities
+aims and scope, 92e93
+cooperation process and
+interaction, 100e102
+Eindhoven, 97e99
+EU initiatives on smart cities,
+89e91
+European social cohesion,
+climate, urban innovation
+and industrial
+development aims /H2020
+and green deal, 87e89
+expected outcomes and
+success measures,
+95e97
+green-delivery vans and
+cargo bikes in Manchester
+source, 96f
+leading technologies and
+purpose, 94e95
+Triangulum project
+timeline, 94f
+learning from Triangulum,
+104e106
+outcomes and legacies of
+project, 103e104
+participating cities and
+expectations, 93
+role of Triangulum, 91
+Index 625
+Intelligent database, 599e600
+Intelligent environments, 3,
+13e14, 175, 323
+biosequestration, 26
+body as, 591e595
+digital construction of social
+reality, 12e14
+digital salvation, 16e18
+digitalization takes command,
+15
+from failure of modeling
+science, 20
+industrial sequestration,
+26e27
+intelligent auto-mobiles, 4
+intelligent building design, 5
+intelligent cities, 2
+intelligent city models, 5
+intelligent design
+collaboration, 3
+tool, 5e6
+intelligent energy, 2e3
+intelligent energy case project,
+6
+intelligent environment par
+excellence, 6e20
+intelligent governance, 3
+intelligent money, 3
+intelligent neighbourhoods, 5
+intelligent regions, 2
+intelligent retrofits, 4e5
+intelligent scenario planning
+tool, 6
+intelligent transport, 4
+intelligent work, 3e4
+intelligently gendered space, 4
+planetary intelligent support
+environment, 27
+planning and utilizing
+regenerative economic
+boosts from migrant
+streams, 27
+RED, 21e22
+regenerative finance
+mechanism, 26e27
+renewable energy risk and
+redemption, 15e16
+rise of, 7e10
+Japan and information city,
+10e11
+liberation and
+empowerment, 11e12
+smart’ responsibility,
+slow and reluctant rise of,
+28e29
+source taxation of fossil fuels
+and regulatory phasing
+out, 25e26
+successes in social justice and
+environmental
+sustainability, 18e20
+in transition, 1e2
+untact or intact, 21e27
+Intelligent governments,
+189e190
+Intelligent integration software,
+6
+Intelligent management centres,
+376
+Intelligent methodologies, 487
+Intelligent mobilities, realising
+potential of, 328e331
+Intelligent mobility
+development, 339b
+innovation, 337e340
+model, 342e343
+paradigm, 5
+regime, 341e345
+exploring and supporting
+transition paths, 345e348
+getting from A to B, 340e341
+key structural trends behind
+travel behaviours,
+327e328
+multi-level perspective
+analysis, 331e333
+niche innovations and
+regime change in public
+transport, 333e337
+realising potential of
+intelligent mobilities,
+328e331
+transport’s sustainability
+challenge, 324e327
+types of intelligent mobility
+innovation, 337e340
+types of product service
+systems for public
+transport, 339b
+service, 340
+systems, 334
+Intelligent product redesign, 340
+Intelligent service redesign, 340
+Intelligent spatial models, 3
+Intelligent spatial technologies
+for gender inclusive urban
+environments
+capturing complex nature of
+perception through
+geospatial data, 314b
+deepening dimensions of
+gender inclusive spaces,
+308e316
+gender inclusive public
+spaces, 287e289
+gender inclusive urban
+transport options, 289b
+integrating gender with
+geospatial technologies
+for inclusive planning
+future, 308e315
+literature-based review,
+295e296
+literature and practicebased, 296e297
+literature based results,
+298e308
+practice-based results,
+298e305
+methodological framework,
+294e297
+perception through spatial
+technologies, 292e294
+relevance of women’s
+perception in
+understanding ‘safety’
+and ‘fear’ in public spaces,
+290e292
+Intelligent systems, 599e600
+Intelligent technologies, 331
+Intelligent transdisciplinary
+database, 600
+Intelligent urban environments,
+5e6
+626 Index
+Interactive mapping, 487
+International Energy Agency
+(IEA), 324e325, 414
+International Geodesign
+Collaboration (IGC),
+203e204
+case studies, 211
+conventions, 204e210
+studies, 227e229
+workflow, 194
+International Labour
+Organisation, 248
+Internet of Things (IoT), 292, 396,
+404, 485
+Interoperability, 119
+Japan and information city,
+10e11
+Job satisfaction, 250e251,
+269e270
+Kapten, 328
+Kaufmann attribute, 264e265
+Kerosene, 533
+Key performance indicators
+(KPIs), 433
+King Abdullah University of
+Science & Technology
+(KAUST), 425e426
+Kite system, 602e603
+Kleiner Grasbrook, 489e491
+Know Your Customer (KYC), 162
+Knowledge economy, 10e11,
+250
+Knowledge graph, 605
+Ladybug Tools, 460
+Landscape architecture, 286
+Language, 594e595
+recognition, 485
+Late Adopter teams, 200,
+224e225
+LCADesign, 519e520
+Leadership, 260
+Learning
+organization, 250
+from Triangulum, 104e106
+LEED, 410e411
+Legislative initiatives in support
+of smart working
+arrangements, 255e271
+Levelized cost of electricity
+(LCOE), 109
+Life Cycle Assessment (LCA), 424
+Life Cycle Cost (LCC), 424
+Lifecycle analyses (LCA), 500
+Light rapid transit (LRT), 334
+Lighting, 424
+Linear planning process,
+422e423
+Load-shedding, 563
+Local administrations, 158
+Local Advisory Teams (LAT),
+429e430
+Local energy markets, 117e120
+Local Expert and Stakeholder
+Communities (LESC),
+487e489
+Local transport services, 343
+Loco 1 trial, 565e566, 572
+Loco 2 trial, 559e560
+LPG fuel, 533
+LUTZ Pathfinder pods, 343e344
+Lyft, 341e342, 352
+Machine-to-machine
+communication (M2M
+communication), 396
+Maluku Archipelago, 531
+Massive smart-work
+deployment, 243e244
+contribution of smart working
+to quality of life, 269e271
+contribution of smart working
+to quality of urban
+environment, 257e260
+ICT and related energy
+consumptions and GHGE,
+273e276
+legislative initiatives in
+support of smart working
+arrangements, 255e271
+perspectives on
+transformative potential
+of smart working,
+273e276
+smart working, urban
+environments and
+territorial development,
+264e267
+smart-working in context of
+pandemic and postpandemic scenarios,
+271e273
+tackling life-work balance
+toward a novel work
+organization, 247e255
+telework and smart working,
+245e246
+urban renovation initiatives,
+269e271
+Materials, 166
+agency, 180
+currency creation
+memorandum, 167
+exercise setup, 167
+set-up, 166e167
+technology, 50
+Mathematical system, 603
+Mathematics, 475
+Meta-regulations, 382
+Methane (CH4), 533
+Metric lexical analysis, 270e271
+Metro-type systems, 334e335
+Metropole Ruhr (MR), 35
+Metros, 355
+Micro-CHP systems, 68
+Microgrids, 133e134
+Micropeers, 614e615
+system, 602
+Microsystems technology, 50
+Migrant Integration Dashboards
+and Cockpits (MICADO),
+487e489
+Milano Concilia 4. 0 Alliance,
+262be263b
+Military concepts, 359e360
+Millennials, 328
+Minimum Energy Efficiency
+Standard (MEES), 406
+Minneapolis, 223e224
+Minneapolis Green New Deal,
+201
+15-minute city, 262be263b
+Index 627
+Mission mystique, 182e183
+MIT Media Lab, 489e491
+Mixed-use developments, 508
+Mobility
+biographies, 412
+culture, 373
+patterns, 261e264
+practices, 265e266
+service providers, 374e375
+Mobility-as-a-Service (MaaS),
+339b, 340, 363, 379e380
+Model-based behavior, 597e598
+Monetary values, 520e521
+Monitoring, 260
+Monopolistic currency systems,
+151
+Motorways, 375e376
+Multi-level perspective (MLP),
+333
+analysis, 331e333
+Multidimensional sustainability
+Research, 483
+Municipal currencies and basic
+income, 156e158
+Municipality, 158
+MySafetiPin (phone based
+platform), 310e311
+n-dimensional, 607
+Nano-technology, 50
+National Currency, 155
+National Electricity Board
+employee, 138
+National Electricity Market
+(NEM), 565
+Natural gas, 109
+Natural Language Processing
+(NLP), 605
+Near-zero energy buildings in
+neighbourhoods, 6
+Nebraska Department of Roads,
+352e353
+Negotiation, 197
+Neighbourhoods, 291
+Neo-industrialisation, 41e42
+phoenix lake urban
+regeneration, 61f
+prosper-haniel colliery in
+Bottrop, 64f
+Science Park Gelsenkirchen
+and interior, 71f
+solar housing estate
+Gelsenkirchen-Bismarck,
+74f
+Neosentience, production of
+model for, 600e601
+Neosentient model
+environment, 595e597
+‘Net Neg-Pos’ diagram, 524e526
+Net-positive buildings, 499
+Net-positive energy, 499
+Net-positive urban design and
+architecture, 499
+Positive Development,
+503e504
+problems and prospects,
+500e503
+STARfish differs from lifecycle
+assessment, 516e521
+STARfish differs from rating
+tools, 504e516
+Net-zero energy buildings
+(NZEB), 421
+Network services procurement,
+129e130
+New combinatorial Ndimensional bioalgorithm, 606e607
+New digital value chain
+prompted by Industry
+4. 0, 402e405
+New integrated methodology
+and Tools for Retrofit
+design (NewTREND),
+427e428
+research, 441
+NewTREND Integrated Decision
+Support system
+(NewTREND IDS), 432
+Niche
+developments, 337e338
+environments, 333
+innovations and regime
+change in public
+transport, 333e337
+seeds of system redesign,
+341e345
+Nitrous oxide (N2O), 533
+Non-Adopter teams, 200, 226
+Non-renewable energy systems,
+2e3
+Non-renewable sources,
+371e372
+North Rhine-Westphalia (NRW),
+35
+Occupants, algorithms for,
+400e402
+Ola, 328, 341e342
+Old Buildings Regenerated
+program (ALTBAUNEU),
+60
+One Laptop Per Child project
+(OLPC project), 12e13
+One size fits all approach,
+314e315, 494
+One-Stop-Shops (OSS), 403
+Ontological schema for building
+performance data,
+451e453
+Ontologically streamlined data
+for building design and
+operation support
+BPD, 448e449
+BPI, 449e451
+from data to application,
+453e459
+data preprocessing,
+456e458
+identification of categories
+and supplementation of
+attributes, 458
+ontologized data deposition,
+458e459
+sources of data, 456
+ontological schema for
+building performance
+data, 451e453
+PBD ontology
+implementation, 459e461
+sustainably technology
+configuration support,
+462e470
+first illustrative use case,
+466e467
+second illustrative use case,
+467e469
+628 Index
+third illustrative use case,
+470
+Ontologies, 448
+Ontologized data deposition,
+458e459
+Ontologized data utilization,
+462e470
+Open access software, 7
+Open City Toolkit, 486
+Open spaces, 508
+Openness to DERs, 572
+Operation models for AVs,
+357e361
+Organisations, 182, 341e342
+Organizational change,
+243e244
+Organon A transdisciplinary
+methodology, 481
+Pan-Canadian Framework on
+Clean Growth and
+Climate Change (PCF),
+413
+Parcel delivery services, 359
+Paris Convention, 483
+Participant motivations,
+567e574
+Participatory management
+processes, 250e251
+Patient Protection and
+Affordable Care Act, 179
+PBD ontology implementation,
+459e461
+Peer electricity trading, loyalty
+peer to, 138
+Peer-to-peer (P2P), 143
+service model, 362
+trading, 565
+Perception, 593e594
+capturing complex nature of
+perception through
+geospatial data, 314b
+of energy use, 571e572
+of P2P trading, 569e571
+of pricing, 567e569
+through spatial technologies,
+292e294
+Performance assessments, 201
+Personal autonomous vehicles,
+357, 361
+Personal satisfaction area, 270
+Photovoltaics (PV), 437e438, 553
+Physical infrastructure,
+375e376
+Pit water management, 39e40
+Place-based planning, 229
+Planet-wide Climate Peace, 24
+Planning Support Systems (PSS),
+202
+Planning team, 434e435
+Platform powers Tools, 493
+Politics, 179
+Poly-association, 601e602
+Population growth, 540e544
+projections, 541t
+Positive Development, 500,
+503e504
+Power Ledger
+platform, 560
+system, 562
+Power purchase agreements
+(PPAs), 126
+Pre-bound effect, 399
+Predictive models, 595e598
+Product based business models,
+361
+Product Service System (PSS),
+338
+model, 361e362
+types of product service
+systems for public
+transport, 339b
+Professional satisfaction area,
+270
+Public estate, 503e504
+Public participation, 201
+Public spaces, relevance of
+women’s perception in
+understanding ‘safety’
+and ‘fear’ in, 290e292
+Public transport
+niche innovations and regime
+change in, 333e337
+service system, 344e345
+types of product service
+systems for, 339b
+Qualitative approach, 532
+Quality design, 503e504
+Quantitative approach, 532
+Radar diagrams
+benefits of, 519e521
+problems with, 521
+Radiation Analysis, 460e461
+Radio Corporation of America,
+352e353
+Ramp signals, 354e355
+Ramping, 563
+RAND Corporation, 359e360
+Re-industrialisation, 38e41
+Reactive paradigm, 597e598
+Real-time metering, 571e572
+Redefinition of Emission Targets,
+22
+Refurbishment, 397
+Regenerative agriculture,
+153e154
+Regenerative Earth Decade
+(RED), 21e22
+climate defence budgets,
+22e23
+RED10, 22e23
+redefinition of emission
+targets, 22
+Regenerative employment
+programs, 24e25
+Regenerative finance
+mechanism, 26e27
+Regime-changing approach,
+345e346
+Regional Association Ruhr (RVR),
+47
+Remote sensing, 195, 292, 485
+Remote working, 271e273
+Remotely-read interval meters,
+571e572
+RENeW Nexus project,
+555e558
+Renewable energy, 6
+generation, 129
+industries, 51
+risk and redemption, 15e16
+sector, 371e372
+Index 629
+Renewable Energy Buyback
+Scheme (REBS), 571e572
+Renewable energy certificates
+(RECs), 126, 130e131
+Renewable Energy Sources Act
+(EEG), 52e53, 72
+Renewable sources, 398
+Renovation, 397
+benefits of renovation at
+building users’ level,
+410e411
+building renovation impact on
+cities’ sustainability and
+resilience, 407e415
+process, 440e441
+Repercussions, 374e375
+Representative Concentration
+Pathway (RCP), 27
+Research and development
+(R&D), 41, 56
+Residential area growth,
+541e542
+projections, 542f
+Residential area prototypes and
+building types on Ambon,
+533e535, 534t
+Residential buildings, 396e397
+Residential energy consumption
+and CO2 emissions on
+Ambon, 2019, 535e537,
+536t
+Residential VPP, 566
+Resilience, 113e114
+building renovation impact on
+cities’ sustainability and,
+407e415
+Responsiveness-by-design, 486
+Restart services, 563
+Retailer’s billing system, 572
+Revolution scenario, 355
+Rewarding verified claims,
+162e163
+Ride-sharing services, 352
+Rolodex/shelving-like wheel
+structure, 604
+Ruhr Action Program (APR), 41
+Ruhr Area Settlement
+Association, 40e41
+Ruhr Development
+Development Program
+(EPR), 38e40
+Ruhr innovation ecosystem, 3
+city energy transition and
+smart specialisation
+strategies, 56e76
+innovation city Bottrop,
+63e70
+smart city Dortmund, 56e63
+solar city Gelsenkirchen,
+70e76
+climate change and urban
+infrastructure
+transformations, 33e35
+location of RM, 35f
+innovation ecosystems for
+regional structural
+change, 76e83
+intelligent climate-resilient
+infrastructures, 80e82
+Ruhr metropolis innovation
+ecosystem, 35e76
+socio-cultural considerations
+for cohesive smart
+environments, 82e83
+Ruhr Metropolis, 33e34
+IBA Emscher park in, 45f
+innovation ecosystem, 35e76
+start-up and research
+institutions in, 43f
+structural phases of, 37e55
+centralised neoindustrialisation, 41e42
+energy transition, 52e55
+environmental remediation,
+urban regeneration and
+cultural development,
+44e49
+fields of competence, 49e52
+integrated reindustrialisation, 38e41
+regionalised economic
+diversification, 42e44
+Ruhr Property Funds, 41
+Rule-based algorithms for
+system analysis and
+synthesis, 481
+Safe cities, 285
+Safe public spaces for women
+and girls, 285
+Safer cities for women, 285
+Safety, 310e311
+Safety first for Automated
+Driving, 355e357
+Sandia National Laboratories
+(SNL), 467e469
+Sarafu Network, 157
+SARS-2 coronavirus pandemic,
+4e5
+Satellite diagrams, 519
+Savings-to-Investment ratio
+(SIR), 411
+Scanning tasks, 598e599
+Science and technology studies
+(STS), 180
+Scientific concepts, 478e479
+Screening process, 296
+Search engine, 600
+Sector coupling mechanism, 395
+Security vehicles, 359
+Seinäjoki University of Applied
+Sciences (SeAMK),
+428e429
+Service vehicles, 359
+Service-based business models,
+361e362
+Service-oriented sectors of
+economy, 401
+Seventh Framework Programme
+(FP7), 99
+Shared autonomous rides, 358
+operational models, 361e362
+Shared autonomous vehicles,
+358
+operational models, 361e362
+‘Shared mobility’ concept, 362
+Shared selection of global
+systems, 195
+Short Term Energy Market
+(STEM), 572e574
+Short-term Economic Return
+Syndrome, 17e18
+Simulation, 482
+and Design Hub, 432
+Sliders, 524
+630 Index
+Small and medium sized
+enterprises (SMEs), 42
+Smart building and district
+retrofitting for intelligent
+urban environments
+building renovation impact on
+cities’ sustainability and
+resilience, 407e415
+assessment methods to
+account for multiple
+benefits of building
+renovation, 414e415
+multiple benefits of building
+renovation and urban
+regeneration, 407e408
+role of built environment in
+health and well-being,
+408e413
+energy digitalization and
+data services foster
+smart renovation,
+399e407
+algorithms for occupants,
+400e402
+caveats of digitalization,
+406e407
+e-Governance for
+e-Renovation, 405e406
+upscaling renovation,
+402e405
+smart retrofitting, 395e399
+zooming-in on building
+retrofit challenge,
+396e399
+Smart building systems
+exchange of information,
+424
+Smart cities, 286e287
+aims and scope, 92e93
+cooperation process and
+interaction, 100e102
+Eindhoven, 97e99
+EU initiatives on, 89e91
+European social cohesion,
+climate, urban innovation
+and industrial
+development aims /H2020
+and green deal, 87e89
+expected outcomes and
+success measures, 95e97
+green-delivery vans and
+cargo bikes in Manchester
+source, 96f
+leading technologies and
+purpose, 94e95
+Triangulum project
+timeline, 94f
+learning from Triangulum,
+104e106
+outcomes and legacies of
+project, 103e104
+participating cities and
+expectations, 93
+role of Triangulum, 91
+Smart Cities and Communities
+Lighthouse (SCC1), 87,
+89
+Smart Cities Dive network, 366
+Smart Citizen App, 63
+Smart city
+Dortmund, 56e63
+process, 104e105
+“Smart Grid Technology Lab”
+project, 62
+Smart retrofitting, 395e399
+Smart specialisation strategies,
+56e76
+Smart working, 249e255
+approach, 243e244
+in context of pandemic and
+post-pandemic scenarios,
+271e273
+contribution of smart working
+to quality of life, 269e271
+contribution of smart working
+to quality of urban
+environment, 257e260
+legislative initiatives in
+support of smart working
+arrangements, 255e271
+and mobility patterns,
+261e264
+perspectives on
+transformative potential
+of, 273e276
+telework and, 245e246
+urban environments and
+territorial development,
+264e267
+Smart Working Maturity Model,
+249
+Social cost of atmospheric
+release (SCAR), 414
+Social cost of carbon (SCC), 414
+Social issues, 513e515
+Social justice, successes in,
+18e20
+Social media, 9
+Social Media Geographic
+Information (SMGI),
+201e202
+Social physics, 477
+Social reality, digital
+construction of, 12e14
+Social sustainability, 483
+Society of Automotive Engineers
+(SAE), 355
+Socio-cultural considerations for
+cohesive smart
+environments, 82e83
+“Solar City Gelsenkirchen” study,
+70e76
+Solar electricity costs, 109
+Solar energy, 398
+Solar farms, 371e372
+Solar panels, 116, 411
+Sonic recognition systems, 605
+South and Southeast Asian
+region (SSEA region),
+275e276
+South West Integrated System
+(SWIS), 126be127b, 563
+Space Syntax movement, 286,
+475e476
+Spatial digitalization, 11e12
+Spatial information, 482
+Spatial resources, 508
+Spatial technologies, perception
+through, 292e294
+Spatial Urban Prototypes (SUPs),
+532
+Standalone Power Systems (SPS),
+564
+STAR model, 532, 535e536
+Index 631
+STARfish, 500
+differs from lifecycle
+assessment, 516e521
+benefits of radar diagrams,
+519e521
+problems with, 516e518
+problems with radar
+diagrams, 521
+problems with simplified
+LCA-based tools, 518e519
+differs from rating tools,
+504e516
+complex systems and total
+impacts, 504e507
+decision making, 511e512
+design tools, 511e512
+ecosystems and biodiversity
+issues, 512e513
+flexible tools and adaptable
+design, 507e508
+social issues and
+community engagement,
+513e515
+transaction costs and
+omissions, 515e516
+visualisation,
+communication, and
+transparency, 508e510
+structure, 522e526
+State Development Company of
+North Rhine-Westphalia
+(LEG NRW), 70
+Statista report, 371e372
+Statistics, 475
+“Stiglitz-Sen-Fitoussi”
+Commission’s proposal,
+275
+Strategic Implementation Plan
+(SIP), 92e93
+Strategic planning
+for global change, 203e204
+for significant change,
+195e197
+Suburbs, 291
+SURE project, 487
+Surface water management,
+39e40
+Surveillance business, 16
+Surveillance Capitalism, 15, 112
+Sustainability, 502
+assessment schemes, 410e411
+autonomous vehicles and,
+365e372
+concept, 422
+dilemmas, 502e503
+issues, 423
+measures, 483
+Sustainable autonomous
+mobility (SAM), 379e380
+Sustainable built environments
+integrated decision support
+for
+cross scaling, 422e427
+finding scale to fit,
+440e442
+overcoming cross scale
+transition barriers,
+427e440
+Sustainable development,
+194e195
+Sustainable Development Goals
+(SDGs), 197
+Sustainable Development of
+Urban Regions, 487
+“Sustainable Urban Truck
+Routing” project, 68e69
+Sustainably technology
+configuration support,
+462e470
+Sustaining infrastructure
+aims and scope, 92e93
+cooperation process and
+interaction, 100e102
+Eindhoven, 97e99
+EU initiatives on smart cities,
+89e91
+European social cohesion,
+climate, urban innovation
+and industrial
+development aims /H2020
+and green deal, 87e89
+expected outcomes and
+success measures, 95e97
+green-delivery vans and
+cargo bikes in Manchester
+source, 96f
+leading technologies and
+purpose, 94e95
+Triangulum project
+timeline, 94f
+learning from Triangulum,
+104e106
+outcomes and legacies of
+project, 103e104
+participating cities and
+expectations, 93
+role of Triangulum, 91
+Swapping solar for products, 138
+“SyncFueL” digital infrastructure
+project, 62
+Synergy workshops, 487
+Systemic transformation,
+framework for, 340e341
+Systems thinking, 194
+framework, 200
+Tactile internet, 485
+Taxi, 341e342
+Tech approaches, 316
+Techno-spatial cyberculture, 2
+Technological innovation,
+189e190
+Technology, 12
+revolution, 566
+Telecom, 374e375
+Telematics, 377
+Telework, 245e249
+Telework and ICT-based mobile
+work (TICTM), 245, 248
+Telework Enhancement Act of
+2010
+Territorial development,
+264e267
+Tesla’s sentry mode, 378e379
+Theoretical and Foundational
+Problems (TFP), 600
+3D
+hologramActive building
+systems, 424, 504e506
+point cloud, 603e604
+tool, 105
+Time-of-Use (ToU), 563e564,
+567
+Top-down approach, 605e606
+Trackless Trams, 358e359
+Traditional planning process
+hinders, 422e423
+632 Index
+Traditional transport policy, 329
+Trains, 355
+Trams, 355
+Transaction costs and omissions,
+515e516
+Transactional processes, 503
+Transactive electricity, 4,
+109e110
+background, 554e555
+decentralisation of price,
+116e117
+decentralising and distributing
+grid, 122e124
+dispatchability deficit and
+transactive energy,
+116e120
+distributed, transactive
+electricity grid, 124e128
+evolution of energy prices,
+111f
+FIT to transactive electricity
+storage, 120e122
+grid, 119, 124e128
+Indian deregulation, 141
+levelized cost of power
+production, 110f
+markets, 7e8, 554e555
+methodology, 559e560
+RENeW Nexus project,
+555e558
+research question, 554
+results, 561e566
+security and resilience
+challenge, 114e115
+Germany’s three-way
+problem, 113b
+survey results, 567e582
+openness to DERs, 572
+participant motivations,
+567e574
+perception of P2P trading,
+569e571
+perception of pricing,
+567e569
+perceptions of energy use,
+571e572
+technical outcomes, 561e564
+recruitment, 565e566
+trading, 566
+variable energy, 116e117
+Transactive energy, 116e120
+trading, 565
+Transdisciplinary database,
+599e600
+Transdisciplinary networks,
+78e80
+Transformative processes, 503
+Transmission, 115
+Transparency, 508e510
+Transparent advisory tools,
+403
+Transport, 326e328
+autonomous vehicles
+sustainable mode of,
+370e372
+planning, 328
+sustainability challenge,
+324e327
+Triangulum
+learning from, 104e106
+role of, 91
+Tukey’s fences test, 458
+Turing Test, 600
+Uber, 328, 341e342, 352
+Uber-style model, 342
+UK National Infrastructure
+Commission (NIC),
+211e212
+Uncertainty, 560
+uncertainty/making miracles
+management
+case studies, 181e186
+lessons, 181e183
+principle, 176e180
+Uniform points and weightings,
+508
+United Nations (UN), 510
+United Nations Conference on
+the Human Environment
+(1972), 421
+United Nations Framework
+Convention’s
+Conferences of Parties
+(UNFCCC COP), 21e22
+United Nations Sustainable
+Development agenda
+(2030), 285
+United Nations Sustainable
+Development Goals, 421
+United States (US), 247
+deregulation in, 139
+Unitization, 520e521
+University Alliance Ruhr
+Metropolis (UAMR), 62
+Unpredictable people, 291
+Upscaling renovation,
+402e405
+Urban age, 482e483
+Urban Agenda for EU, 256
+Urban design standards, 501
+Urban energy system, 395e396
+Urban environments, 264e267
+Urban infrastructure
+transformations, 33e35
+Urban regeneration, 44e49, 412
+multiple benefits of building
+renovation and, 407e408
+Urban renovation initiatives,
+269e271
+energy consumptions and
+remote working, 271e273
+Urban sustainability,
+convergence with,
+486e492
+Uttar Pradesh Electricity
+Regulatory Commission
+(UPERC), 142
+VaMP, 353e354
+Van Doorne’s Aanhangwagen
+Fabriek (DAF), 97
+Variability, 115
+Variable renewable energy
+(VRE), 110, 115, 121
+Variables, 293
+energy, 116e117
+local energy markets,
+117e120
+Vehicle communication data,
+378
+Vehicle-to-grid (V2G), 130e131
+Vehicle-to-Infrastructure (V2I),
+354e355
+Vehicle-to-vehicle (V2V),
+354e355
+Virtual net metering, 123
+Index 633
+Virtual power plant (VPP),
+133e134, 554e555, 562,
+565, 572
+Virtual reality (VR), 28e29
+Virtual sensors, 456
+Vision-based robotic guidance
+system, 353e354
+Visual communication of spatial
+relationships, 201
+Visual pattern recognition, 605
+Visualisation, 482, 508e510
+strategies in Insight Engine
+2. 0, 601e602
+system, 599e600
+VITA-2, 353e354
+Volatile organic compounds,
+409e410
+Volunteered Geographic
+Information (VGI),
+201e202
+Volvo, 359
+Ward and Stapleton enactive
+paradigm, 599
+Waze (mobile applications), 377
+Weak sustainability, 502
+Web-based computational
+platform, 466e467
+West-African ECOWAS
+observatory for
+Renewable Energy and
+Energy Efficiency
+(ECOWREX), 405
+Wetlands, rapid development
+and regeneration of, 26
+White Gum Valley project
+(WGV project), 559e560,
+559f
+Whole of System Plan (WOSP),
+563
+Wholesale energy market
+(WEM), 564e566
+Willingness to accept (WTA),
+414
+Willingness to pay (WTP), 414
+Wind, 371e372
+energy, 398
+Wireless communication, 485
+Women’s perception in
+understanding ‘safety’
+and ‘fear’ in public spaces,
+relevance of, 290e292
+Women’s safety, methodological
+selection of research on
+geospatial research on,
+295e296
+WoonConnect tool, 100e101
+Work organisation, 250
+Work-life balance, 269
+World Bank Group, 285
+World Generator 2.0, 604e605,
+408e409
+World Health Organization
+(WHO), 410, 414
+X-road, 182
+XO-1 project, 12e13
+“Zero Emissions Park” project,
+66
+ZeroCircle, 523
+634 Index

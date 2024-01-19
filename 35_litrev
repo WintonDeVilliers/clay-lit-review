@@ -1,0 +1,116 @@
+~ Visit AskYourPDF.com ~
+Literature review Generated From AskYourPDF
+
+# Literature Review
+
+## Introduction
+
+The advancement and proliferation of information systems among enterprises have led to an increased
+understanding of cybersecurity. Cybersecurity practices encompass a set of techniques and procedures
+aimed at protecting systems, networks, programs, and data from attacks, damage, or unauthorized access.
+These practices vary and are applied differently to different types of enterprises. This literature review aims
+to compare critical cybersecurity threats and practices in the context of cloud computing among micro,
+small, and medium enterprises (MSMEs). By conducting a survey among 289 MSMEs in Australia, the
+study conducted by Tehrani and Shirazi (2014) highlights significant differences in their cloud security
+practices. The findings of this review contribute to the identification of knowledge gaps and suggest
+potential future research directions in the field of cybersecurity in cloud computing among MSMEs.
+
+## Factors Influencing Cloud Computing Adoption
+
+Several factors have been identified as influencing the adoption of cloud computing by MSMEs. Tehrani
+and Shirazi (2014) found that factors related to advantaging organizational capability influence the
+adoption of cloud computing technology by MSMEs. Additionally, Senarathna et al. (2018) highlight that
+IT resources and external pressure significantly influence cloud computing adoption in Malaysian SMEs.
+Hassan et al. (2016) further support these findings by identifying IT resources and external pressure as
+factors influencing cloud computing adoption in Malaysian SMEs.
+In the context of Romanian SMEs, Dinc et al. (2019) found that factors such as competition and
+government, ICT providers and firm departments, employees, managers, and technological factors play
+a significant role in the choice of adopting cloud computing technology. Furthermore, Asiaei and Rahim
+(2019) identify data security, technology readiness, top management support, competitive pressure, and
+innovativeness as the most significant factors in predicting the adoption of cloud computing in Malaysian
+SMEs. Raut et al. (2019) focus specifically on the manufacturing sector and find that factors such as
+hardware scalability and standardization, cost, innovation, installation and upgradation, and quality of
+service significantly influence cloud computing adoption among manufacturing MSMEs.
+
+## Benefits of Cloud Computing for SMEs
+
+Cloud computing offers various benefits for SMEs. Kumar et al. (2017) highlight the following advantages
+of cloud computing for SMEs: cost advantage, easy deployment process, easier access to the latest
+information and communication technologies, automatic updates and upgrades, scalability, flexibility, and
+1 / 4
+~ Visit AskYourPDF.com ~
+improved disaster recovery and backup capabilities. These benefits make cloud computing an attractive
+option for SMEs, as it enables them to access advanced technologies and resources without significant
+upfront investments.
+
+## Factors Affecting Cloud Computing Adoption in SMEs
+
+Several factors have been identified as significant in the adoption of cloud computing by SMEs. Kumar
+et al. (2017) found that perceived benefits, top management support, competitive pressure, and perceived
+concerns play a crucial role in cloud computing adoption. Furthermore, Lutfi (2022) conducted a study
+in Sabah, Malaysia, and identified cost saving, top management support, and technology readiness as
+the main factors affecting cloud computing adoption by SMEs in that region. These findings emphasize
+the importance of organizational support, perceived benefits, and technological readiness in driving the
+adoption of cloud computing among SMEs.
+
+## Knowledge Gaps and Future Research Directions
+
+Despite the growing adoption of cloud computing by MSMEs, there are still knowledge gaps that
+need to be addressed. First, empirical research on cybersecurity risk management in SMEs is needed
+(Semanticscholar.org). This research gap indicates the need for further investigation into cybersecurity
+practices and strategies specifically tailored to the needs and capabilities of MSMEs. Second, while this
+literature review focuses on the comparison of cybersecurity threats and practices in the cloud context
+among MSMEs, there is a need for more in-depth studies examining the specific challenges and best
+practices for cloud security in different industries and sectors.
+Future research should prioritize the investigation of cybersecurity issues and practices in the context of
+cloud computing, taking into account the differences among MSMEs. This includes considering factors
+such as organizational capabilities, IT resources, external pressure, competition and government, ICT
+providers and firm departments, employee and managerial factors, data security, technology readiness,
+top management support, competitive pressure, and innovation. Additionally, research should explore the
+specific benefits of cloud computing for different types of SMEs and industries, as well as the factors
+influencing the adoption of cloud computing in different regions and countries.
+
+## Conclusion
+
+In conclusion, this literature review compared critical cybersecurity threats and practices in the context of
+cloud computing among MSMEs. The findings highlight the importance of organizational capabilities, IT
+resources, external pressure, competition and government, ICT providers and firm departments, employee
+and managerial factors, data security, technology readiness, top management support, competitive pressure, and innovation in driving the adoption of cloud computing among MSMEs. The benefits of cloud
+computing for SMEs include cost advantage, easy deployment process, access to the latest technologies,
+2 / 4
+~ Visit AskYourPDF.com ~
+scalability, flexibility, and improved disaster recovery capabilities. However, there are still knowledge
+gaps in the field, particularly regarding cybersecurity risk management in SMEs. Future research should
+focus on addressing these gaps and further exploring the factors influencing cloud computing adoption
+and cybersecurity practices among MSMEs.
+Keywords: Cybersecurity, Cloud computing, Survey, Micro-Small and Medium Enterprises.
+
+## References:
+
+1. Kumar, Devesh., Samalia, H. V.., & Verma, P.. (2017). Factors Influencing Cloud Computing Adoption
+   by Small and Medium-Sized Enterprises (SMEs) In India. <i>Pac. Asia J. Assoc. Inf. Syst.</i> , 9 , 3 .
+   http://doi.org/10.17705/1PAIS.09302
+2. https://www.semanticscholar.org/paper/c2598341bf1e2786fc12db00fbfd77d4584927d2
+3. Lutfi, Abdalwali. (2022). Understanding the Intention to Adopt Cloud-based Accounting Information System in Jordanian SMEs. <i>The International Journal of Digital Accounting Research</i> .
+   http://doi.org/10.4192/1577-8517-v22_2
+4. Dinc, V.., Dima, A.., & Rózsa, Zoltán. (2019). DETERMINANTS OF CLOUD COMPUTING ADOPTION BY ROMANIAN SMES IN THE DIGITAL ECONOMY. <i>Journal of Business Economics and
+   Management</i> . http://doi.org/10.3846/JBEM.2019.9856
+5. Senarathna, I.., Wilkin, C.., Warren, M.., Yeoh, W.., & Salzman, S.. (2018). Factors That Influence
+   Adoption of Cloud Computing: An Empirical Study of Australian SMEs. <i>Australas. J. Inf. Syst.</i> ,
+   22 . http://doi.org/10.3127/AJIS.V22I0.1603
+6. Hassan, Haslinda., Nasir, M.., Khairudin, N.., & Adon, I.. (2016). FACTORS INFLUENCING CLOUD COMPUTING ADOPTION IN SMALL MEDIUM ENTERPRISES. , 16 .
+   http://doi.org/10.32890/JICT2017.16.1.8216
+7. Tehrani, Shima Ramezani., & Shirazi, F.. (2014). Factors Influencing the Adoption of Cloud Computing
+   by Small and Medium Size Enterprises (SMEs). , 631-642 . http://doi.org/10.1007/978-3-319-07863-2_60
+8. https://www.semanticscholar.org/paper/a846439ee5c2322b1dc910d98774cde422731426
+9. Raut, Rakesh D.., Gardas, Bhaskar B.., Narkhede, B.., & Narwane, V.. (2019). To investigate the
+   determinants of cloud computing adoption in the manufacturing micro, small and medium enterprises.
+   <i>Benchmarking: An International Journal</i> . http://doi.org/10.1108/BIJ-03-2018-0060
+10. Kumar, Devesh., Samalia, H. V.., & Verma, P.. (2017). Exploring suitability of cloud computing for
+    small and medium-sized enterprises in India. <i>Journal of Small Business and Enterprise Development</i> , 24 , 814-832 . http://doi.org/10.1108/JSBED-01-2017-0002
+11. Asiaei, Arash., & Rahim, Nor Zairah Ab.. (2019). A multifaceted framework for adoption of
+    cloud computing in Malaysian SMEs. <i>Journal of Science and Technology Policy Management</i>
+    . http://doi.org/10.1108/JSTPM-05-2018-0053
+    3 / 4
+    ~ Visit AskYourPDF.com ~
+    4 / 4

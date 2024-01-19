@@ -1,0 +1,1194 @@
+computer law & security review 48 (2023) 105802
+Available online at www.sciencedirect.com
+journal homepage: www.elsevier.com/locate/CLSR
+Tell me who your contacts are, or what can we
+learn from standard setting in the context of
+COVID-19 tracing apps
+Olga Kokoulina
+Centre for Information and Innovation Law (CIIR), Faculty of Law, University of Copenhagen, Karen Blixens Plads 16,
+2300 Copenhagen, Denmark
+a r t i c l e i n f o
+Keywords:
+Digital contact tracing
+Standardization
+General data protection regulation
+Legitimacy
+a b s t r a c t
+At the beginning of the pandemic, digital contact tracing was a much-hoped-for initiative
+that spurred a myriad of apps. Despite a great theoretical promise, however, the tool fell
+short of significant impact and, essentially, came to nothing.The technological development
+effort has attracted much scholarly and media attention and coverage. This article seeks to
+contribute to this growing body of knowledge by approaching the topic from a largely unexplored perspective. It examines the emergence of digital contact tracing as a standard
+setting exercise, focusing on key actors, processes of technical specification development
+and data protection assessment of technological choices. It also explores the governance
+attributes of standard settings from the perspective of data protection law. Given a potential of a technical standard to act as a regulatory means, it is proposed that the governance
+and legitimacy issues should receive much more consideration. It is believed that for a technical solution to stand the competition for a regulatory share and succeed in the future, the
+values of inclusiveness, transparency, accountability and openness should be meaningfully
+internalised in the very process of its development.
+© 2023 Published by Elsevier Ltd.
+This is an open access article under the CC BY license
+(http://creativecommons.org/licenses/by/4.0/)
+1. Introduction
+The pandemic redefined our expectations of working, travelling and socializing. This transformative journey had been accompanied by a series of public health measures. From improved personal hygiene requirements and masks wearing to
+social distancing, mandatory quarantine and home confinement – a widely-used arsenal of public health interventions
+bore a striking similarity to the ones employed to fight infectious diseases at times long predating the digital reality.1 That
+E-mail address: olga.kokoulina@jur.ku.dk 1 E.g. Tognotti E, ‘Lessons from the History of Quarantine, from
+Plague to Influenza A’ (2013) 19(2) A. Emerg Infect Dis. 254.
+is not to say that the efforts to tackle the pandemic had not
+benefited from our modern-day access to technology per se.
+The extraordinary work of testing, vaccination development
+and delivery, hospitals management, to name just a few, was,
+in many ways, a result of the application of advanced scientific knowledge in practical ways. However, one cannot help
+but wonder whether some technologies could be used even
+more or somewhat differently to advance the goal of tackling
+the emergency.
+Contact tracing is just that case in point. As a measure, it
+aims at minimizing the risk of transmission of the disease by
+reducing the time needed to identify and treat the cases of infected individuals. The process of manual contact tracing is
+notoriously arduous, often featuring understaffed and overhttps://doi.org/10.1016/j.clsr.2023.105802
+0267-3649/© 2023 Published by Elsevier Ltd. This is an open access article under the CC BY license
+(http://creativecommons.org/licenses/by/4.0/)
+2 computer law & security review 48 (2023) 105802
+worked teams of tracers who are tasked with revealing and
+constructing a network of possible social connections and encounters of the infected individual. The scope of contact tracing has remained essentially the same throughout a multitude of health crises. What is new, however, is the potential
+availability of new digital tools that could and should be used,
+in principle, to aid, unburden, and improve the pertinent processes and results.
+Mobile phone data has shown to be useful for tracking and
+modelling geography and dynamics of the epidemic spread.2
+In the context of contact tracing in particular, the data emitted by mobile phones has an undeniable appeal of painting a
+more accurate picture of a network and clusters of affected individuals. Modern phones also have the needed capacity and
+functionality to swiftly inform concerned individuals about
+their risk of infection based on collected data. Given the appeal, the multitude of initiatives to create and implement a
+tracing “app” in the course of the COVID-19 pandemic was not
+surprising. Nevertheless, the acceptance and penetration rate
+of the apps, by and large, remained below what could be considered as the minimum minimorum needed to make a significant difference.3
+Clearly, what seems to be an unsatisfactory result of app
+acceptance has a variety of underlying causes from a possible lack of awareness and technological literacy to deeprooted concerns over privacy and discrimination. While the
+relevant literature on the topic has been growing,4 the article aims at expanding its bounds by incorporating a largely
+unexplored perspective of the technical standard setting on
+the issue. The approach offers an untapped opportunity for
+learning. Drawing on the narrative and experience of technical standardization allows one to unpack the issue of technological development by focusing on its singular component. It
+offers a vantage point to examine the respective stakeholders,
+their standing and the process by which the technical specification unfolds. Approached from the normative perspective,
+the account of standardization allows one to critically examine some governance attributes of the prevalent specification
+as well.
+The article proceeds in the following way: first, it briefly introduces contact tracing as a public health measure and quantifies the ongoing digital tracing initiatives in terms of standard setting undertakings (2). It then offers an overview of
+2 See, e.g. Amy Wesolowski and others, ‘Quantifying the Impact
+of Human Mobility on Malaria’ (2012) 338 Science 267; Michele Tizzoni and others, ‘On the Use of Human Mobility Proxies for Modeling Epidemics’ (2014) 7 PLoS Computational Biology 10. 3 That is not to say that the app has been of no assistance at all.
+In some jurisdictions the uptake was indeed higher than in others,
+see e,g, Chris Wymant and others, ‘The Epidemiological Impact of
+the NHS Covid-19 App’ (2021) 594 Nature 408; Dyani Lewis, ‘Why
+Many Countries Failed at COVID Contact-Tracing — but Some Got
+It Right’ (2020) 588 Nature 384. However, in most of the cases the
+uptake remained below what could be considered a “moderate”
+threshold needed to reach the app efficiency see, e.g. on a proxy
+at Ahmed Elmokashfi and others, ‘Nationwide Rollout Reveals Efficacy of Epidemic Control through Digital Contact Tracing’ (2021)
+12 Nature Communications 1. 4 E.g. VUB LSTS’s resource depository available at https://lsts.
+research.vub.be/en/contact-tracing-apps
+contact tracing solutions (3) and attends to some of the contentious issues of the regulatory dynamics as seen through
+the lenses of data protection law (4) Finally, it highlights several standardization practices and attributes that could provide for improved governance regime of future standardization undertakings (5).
+2. Digital contact tracing as a standard setting
+example
+The World Health Organization defines contact tracing as a
+‘process of identifying, assessing, and managing people who
+have been exposed to a disease to prevent onward transmission’.5 As a technique, it primarily focuses on the probable
+next-generation cases: it aims at mapping a network of potential transmission and informing individuals of risks and further recommended actions. Аs a public health measure, contact tracing has a long-established place in the medical arsenal for fighting and eradicating infections. It has been widely
+used for controlling sexually transmitted diseases and eliminating insignificant outbreaks in the final stages of disease
+eradication.6 It has also grown to become a standard recommended policy for dealing with severe acute respiratory syndrome infections, of which SARS-CoV-2 (“COVID-19) is the
+latest example.
+Regardless of the disease in question, manual contact tracing is notoriously labour-intensive and usually carried out by
+trained teams of tracers. Above all, it is undeniably expensive:
+the costs of wages, skill training, and insurance should be calculated with the prospect of scaling up at short notice.7 Financing these efforts is not an easy feat, and it is not the only
+outstanding issue either. Besides the monetary resources required for conducting contact identification efficiently, other
+factors can frustrate tracing efforts as well. Those could be,for
+example, potential cultural sensitivities, limited counselling
+capabilities, and an overall lack of proper training of contact
+tracers.8
+5 World Health Organisation, ‘Contact tracing in the context of
+COVID-19. Interim guidance. 10 May 2020’ (2020) <https://www.
+euro.who.int/en/health-topics/health-emergencies/coronaviruscovid-19/publications-and-technical-guidance/epidemiologyand-surveillance/contact-tracing-in-the-context-of-covid-19-
+interim-guidance-10-may-2020> accessed 20 September 2022. 6 Lawrence O. Gostin and Lindsay F. Wiley, Public Health Law:
+Power, Duty, Restraint (3rd edn University of California Press 2016)
+345; World Health Organisation, ‘Encounters with plague: tracing
+and preventing illness’ (7 November 2017) <https://www.who.
+int/news-room/feature-stories/detail/encounters-with-plaguetracing-and-preventing-illness> accessed 20 September 2022. 7 European Centre for disease prevention and control,
+‘Contact tracing for COVID-19: current evidence, options
+for scale-up and an assessment of resources’ (April 2020)
+<https://www.ecdc.europa.eu/sites/default/files/documents/
+COVID-19-Contract-tracing-scale-up.pdf>accessed 20 September 2022. Relatedly, see Agencia Española de Protección de Datos,
+‘El uso de las tecnologías en la lucha contra el covid19. un análisis de costes y beneficios’ (May 2020) <https://www.aepd.es/
+sites/default/files/2020-05/analisis-tecnologias-COVID19.pdf>
+accessed 20 September 2022. 8 Frances Perraudin, ‘No One Had Any Idea’: Contact Tracers Lack Knowledge about Covid-19 Job’ (The Guardian May
+computer law & security review 48 (2023) 105802 3
+On the face of it, a digital alternative appears to be a silver
+bullet. Though upfront costs of setting up the infrastructure
+might be significant, its virtually unlimited capacity for adjustment, expansion, and re-use suggests a great potential for
+cost-efficiency. Furthermore, digital contact tracing, at least in
+principle, should deliver more accurate results. Instead of relying on “imperfect” human memory in the course of manual tracing, relevant data points are collected and retrieved
+automatically. Finally, substituting manual efforts for a digital platform could also help to overcome certain challenges
+of social interactions over one’s contacts and whereabouts.
+The prospects of an open-ended interview in manual tracing might bring on reluctance and unease in some participants.9 When and if properly designed, a digital alternative
+can alleviate and even overcome this emotional sensitivity altogether, thus furthering inclusiveness and increased engagement amongst participants.
+The number of tracking apps aiming at harnessing this
+digital potential throughout the COVID-19 crisis had been
+growing exponentially, reflecting a great interest from governments, private companies, and public-private partnerships.
+Essentially, each one of these undertakings had a singular
+commitment to introduce a technical solution to the aboveidentified problem of insufficiency of manual contact tracing
+in times of the health crisis.In technical terms,these solutionseeking undertakings are nothing short of standardization -
+the efforts by various stakeholders to approve and widely introduce a specification of a limited set of solutions to matching problems (“standard”) to the market.10
+With a range of applications from food, drugs, and clothing, to physical and virtual infrastructure, standards underpin
+practically every dimension of our modern life. Their impact
+is pronounced as they allow us, inter alia,to communicate, feel
+and be safe, qualify and improve our environmental settings,
+create and use technologies. At the same time,their role might
+not be so obvious at first sight. In our daily life, we tend to take
+for granted seamless phone connectivity, working Internet or
+matching plugs and sockets. Naturally, the mere thought of a
+standard might cross one’s mind only as the absence of a standard becomes annoying, uncomfortable or even dangerous.
+This is best demonstrated through a wide variety of functions that standards assume in our lives. Standards are widely
+used for establishing common reference and unit systems
+(e.g., terminology, metric system, international trade data interchange standard ISO 7372:2005). They are also essential
+20, 2020) <https://www.theguardian.com/world/2020/may/20/
+no-one-had-any-idea-contact-tracers-lack-knowledge-aboutcovid-19-job> accessed December 13, 2022. 9 Maryanne Garry and others, ‘Contact Tracing: A Memory Task
+with Consequences for Public Health’ (2020) 16 Perspectives on
+Psychological Science 175. 10 Importantly, the term “standard” does not lend itself to categorical and exhaustive interpretation: e.g. a taxonomy by Henk J.
+de Vries, ‘IT Standards Typology,’ in Kai Jakobs (ed.) Advanced topics in information technology standards and standardization research (IGI
+Global 2006). For the following discussion,the notion of a standard
+largely follows the definition in Henk J. de Vries, ‘Standardization
+— What’s in a Name?’ (1997) 4 Terminology: International Journal of Theoretical and Applied Issues in Specialized Communication 55.
+for setting and defining requirements and permissible deviations (Euro 6/VI vehicle emissions standards), as well as determining the quality (e.g., ISO/IEC 27001 and 27002 standards
+on information security and privacy management) and establishing compatibility requirements (e.g., mobile communication system such as GSM). Thus, to avoid the annoyance, discomfort or danger of goods and services not working, many
+standards of various functions are required to be devised and
+implemented at the same time. In terms of the forums of
+the standards creation, standards might result from either
+committee-based, cooperative standard setting (e.g., IEEE 802.11
+“WiFi” group of standards developed by the Institute of Electrical and Electronics Engineers (“IEEE”)) or as an outcome of
+single vendor-driven standardization (e.g., VHS videotape format). In the former case, the cooperative nature of standardsetting encompasses heterogeneous practices, from the work
+of formal international and national standard setting organizations (“SSOs” such as ISO, ITU, ETSI, etc.) to what is commonly referred to as “consortia”, which is, essentially, coordination amongst industry players beyond the formal settings.
+In the case of a single-vendor standard, in contrast, the standardization work is a result of predominantly internal efforts
+of the undertaking. It might be the only solution on the market.11 It might also be one of a few competing technical specifications.12 Not any technical solution devised in-house, however, is qualified to be a “standard”: to become one,the specification has to transcend the confines of a single company and
+get users’ adoption.
+In the case of digital contact tracing, the public discussion
+is generally centred around an “app”, which is a singular endproduct to be used on mobile phones. However, the app itself
+is built on a set of specifications related to, for example, identification of users, data access, sharing, and storage.13 These
+standards are realised at different technical levels, have various origins and perform distinct functions. For the discussion to follow, however, we focus on just one dimension of
+the standard setting to illustrate this complexity. This dimension is naturally connected to the data protection and privacy
+risks and implications of choosing a certain path of technological trajectory. As a way of framing this example, we draw
+on the often-cited paradigms of “centralised” vis-à-vis “decentralised” architecture as distinct cryptographic models used to
+register the incidence of users’ encounters and employ them
+for contact tracing capability.
+3. Overview of contact tracing digital
+initiatives
+As was explained above, a central technological contribution
+to the manual contact tracing efforts lies in enabling and supporting the identification, assessment and monitoring of the
+11 Case COMP/C-3/37.792 Microsoft [2004], para 697. 12 E.g. Control Program/Monitor (CP/M) and Apple II+ solution. 13 See e.g. a useful analogy to the standards landscape in laptops
+in Brad Biddle, Andrew White, and Sean Woods, ‘How many standards in a laptop? (and other empirical questions)’ (2010) ITU-T
+Kaleidoscope: Beyond the Internet? - Innovations for Future Networks and
+Services.
+4 computer law & security review 48 (2023) 105802
+cases of disease progression. In other words, what the technology is expected to do is to equip health professionals and
+potential patients with the knowledge of the incidents where
+and when an infected individual came in direct contact or
+close proximity with others. In order to infer this by and large
+location data, one can use a variety of access points and technologies. Our digital geographical footprint is continuously
+collected by a wide number of actors, placed at different levels of the supply chain. For instance, mobile service providers
+(e.g., Sprint, Vodafone, Tele2) can locate their users based on
+the affordances of the network infrastructure alone. As the
+handsets are constantly communicating with cell towers, it
+is possible to locate their users by estimating the distance in
+relation to the nearby antenna towers.14 The location data is
+also collected by providers of handsets’ operating systems (e.g.
+Google, Apple) to be used for a wide variety of reasons, from
+personalized services (e.g. traffic predictions for a daily commute) to ensuring safety and security of the devices (e.g. detecting a suspicious activity when logging in from an unusual
+location).15 Finally, there is also a level of third party app developers and partners that have access to the location data
+(e.g. car-sharing app, weather forecast app).
+It is fair to say that the matters of collection, use, and access of the location data in principle have not been uncontroversial. Far from being settled, the issues span anywhere from
+challenging the business practices and lack of transparency
+on the side of market players to scrutinising national data
+retention schemes and appraising the bounds of the Union
+and national competence on related matters in Europe. The
+current pandemic naturally advances and complicates these
+debates by offering yet another – public health – perspective. Testing the remits and forms of data collection, access,
+and sharing, it exposes the still prevalent volatility and uncertainty of the area. While access to location data has been
+used by some countries to grapple with the crisis in principle, the use of “proximity” data has appeared as an overall preferred method to facilitate digital contact tracing in particular.
+To acquire this knowledge of the distance between users, it is
+a long-established technology – Bluetooth – that was found to
+offer an optimal solution.
+3.1. Technology
+The Bluetooth technology itself is an industry standard developed and promoted by the Special Industry Group (SIG), originally comprised of Ericsson, Nokia, Intel, IBM, and Toshiba. Essentially a textbook example of “committee-based” standardization, the standard setting was a work of proof-of-concept
+consortia on establishing an innovative solution for wireless
+connectivity. The end result– Bluetooth wireless technology –
+addressed a problem of the short-range (up to 10 m) personal
+connectivity space (“personal area network”) by allowing devices to communicate by air interface, without the need of
+having a dedicated infrastructure like cables. Nowadays, prac14 Jens Trogh and others, ‘Outdoor location tracking of mobile
+devices in cellular networks’ (2019) EURASIP Journal on Wireless
+Communications and networking 115. 15 Article 29 Working Party, ‘Opinion 13/2011 on Geolocation services on smart mobile devices’ (WP 185, 16 May 2011).
+tically all modern mobile handsets are equipped with this capability through the use of the Bluetooth Low Energy (“BLE”)
+standard, which is a redesigned version of the original specification, done with a particular focus on improved battery life
+and reduced costs.16
+The affordability and wide adoption of the standard, inter
+alia, played an important role in favouring the BLE over other
+alternatives for contact tracing. The way it was adapted to
+serve its newly assigned tracking function is, essentially, the
+following: there is an explicit assumption that a mobile handset is directly equated with its owner. When and if two devices happen to be in close, pre-defined proximity to one another for a set period of time, they both register this incident
+as a “contact”. The distance between two handsets is roughly
+calculated based on the signal strength of the beacons’ transmission. Essentially, when and if this radio signal is weak, it
+suggests that the transmitter power is distributed over a relatively large area. When and if this signal is high, in contrast,
+the devices are deemed to be within set proximity, thus making them “contacts” of each other.17 If, subsequently, one of
+the owners of these handsets is diagnosed with Covid-19, the
+“contacts” are then used to identify people that might be at
+risk of infection.
+As already mentioned, the execution of this capability is
+often conceived in terms of two prevalent architectural approaches commonly referred to as “decentralised” and “centralised” models. Before delving into differences, two observations are due. Firstly, it has to be noted that a “decentralised”/“centralised” dichotomy is somewhat of an oversimplification. Both approaches are based on a combination of
+consolidated (server) and decentralised components that are
+tasked with various roles throughout the process. Secondly,
+the existing standardisation work is not cabined and is limited to two architectural choices only. Rather, the respective
+work is not bright-lined around the two “boxes”: it is continuous and features various hybrid solutions as well as regular
+enhancements and alterations. However, for the sake of clarity, we would proceed with a simplified two-model division
+based on the points of difference identified below.
+Let us consider some common architectural choices made
+in centralised approaches. Firstly, a backend is tasked with
+generating users’ identifiers. That could be done, for instance,
+through a combination of computational methods on a server
+and a user’s sides to validate the fact of registration18 or by
+registration using the user’s phone number.19 Secondly, the
+16 Jaap Haartsen and Sven Mattisson, ‘Bluetooth-a new lowpower radio interface providing short-range connectivity,’ (2000)
+Proc. IEEE 88 1651. 17 Douglas J. Leith and Stephen Farrel, ‘Measurement-Based Evaluation of Google/Apple Exposure Notification API for Proximity
+Detection in a Commuter Bus” (2021) 16 PLOS ONE. 18 E.g. Proof-of-work and Captcha as in the case of Pan-European
+Privacy-Preserving Proximity Tracing (PEPP-PT) initiative. 19 Jason Bay and others, ‘Bluetrace: A Privacy-Preserving Protocol for Community-Driven Contact Tracing across Borders’
+(Government Technology Agency Singapore, 2020) <https://www.
+semanticscholar.org/paper/BlueTrace%3A-A-privacy-preservingprotocol-for-across-Bay-Kek/b460fbaf2041cec41ee1266fcf1b60d
+3683d137b> accessed December 13, 2022.
+computer law & security review 48 (2023) 105802 5
+backend server is ultimately charged with calculating the exposure risk. This assessment is carried out based on the data
+uploaded by the user’s device in cases where the user is confirmed as infected.20 To proceed with the information upload,
+a healthcare authority issues a special authentication number that authorizes this data transfer.21 Once the data is in,
+the risk calculation follows. The relevant algorithm is based
+on pre-set epidemiological factors such as duration and closeness ofthe contact, as well as intensity and strength of BLE signals. Depending on the users’ preference and the actual app
+setup, the calculation might be also aided by additional data
+points such as device information and state, WiFi state and
+display state. Once the risk scoring is done, the apps of potentially infected users then receive a notification about their
+exposure risk.
+In decentralised systems, on the other hand, the role of
+the server is more limited. The users’ ephemeral identifiers
+(EphIDs) are generated and stored on users’ devices, while
+the backend server acts as a mere mediator, “communication
+platform".22 If and when a user diagnosed with COVID-19, the
+protocol-specific representation of her/his EphIDs is uploaded
+to a backed server. This data upload is often assumed to be
+done following the health authorities’ validation.23 Once the
+information is on a server, other users’ phones download it at
+regular intervals in search for a match with the locally stored
+list of “contacts”. If the downloaded and locally reconstructed
+EphIDs are found to correspond to the ones already known to
+the device, the user gets notification about his/her risk of exposure.
+3.2. Contact tracing initiatives
+As evident from various available contact tracing app trackers,24 the health crisis resulted in a plethora of digital con20 PEPP-PT, ‘Data Protection and Information Security Architecture illustrated on German implementation’ (20 April 2020)
+<https://github.com/pepp-pt/pepp-pt-documentation/blob/
+master/10-data-protection/PEPP-PT-data-protection-informationsecurity-architecture-Germany.pdf> accessed December 13, 2022. 21 “TAN” in PEPP-PT project, “PIN” in Blue Trace 22 DP3T, ‘Decentralized Privacy-Preserving Proximity Tracing’ (25
+May 2020) <https://github.com/DP-3T/documents/blob/master/
+DP3T%20White%20Paper.pdf> accessed December 13, 2022. 23 DP3T, ‘Secure Upload Authorisation for Digital Proximity Tracing’ (30 April 2020). However, there are some protocols where the
+involvement by health authorities is explicitly optional (e.g. TCN). 24 Mia Sato, ‘Why some countries suspended, replaced, or
+relaunched their COVID apps’ (MIT Technology Review, December 23, 2020) <https://www.technologyreview.com/2020/12/
+23/1015557/covid-apps-contact-tracing-suspended-replaced-orrelaunched/> accessed December 13, 2022. Council of Europe,
+‘Contact Tracing Apps’ (2020) <https://www.coe.int/en/web/dataprotection/contact-tracing-apps> as well as the overview of
+initiatives prepared by the EU Commission Joint Research center
+available at <https://arxiv.org/abs/2007.11687>, preparatory work
+by the E4P group at the European Telecommunications Standards
+Institute available at <https://www.etsi.org/committee/1769-
+e4p>, tracker of the digital solutions <https://joinup.ec.europa.
+eu/collection/digital-response-covid-19/open-source-solutions#
+Tracking>, APIs tracker at <https://www.programmableweb.com/
+news/apis-to-track-coronavirus-covid-19/review/2020/10/19>
+and an extensive review of tools and sources by VUB, available at
+tact tracing initiatives, with cases of multiple digital solutions
+available in a given country. While some of the apps had been
+developed as a national response, under the control and/or
+active participation of the government authorities,25 other alternatives had been offered void off the official government
+endorsement.26
+The process of app development and employment varied
+greatly throughout the surveyed countries. In some instances,
+the adoption of the app was accompanied by the audit work by
+civil rights and research organizations,27 publication of an extensive information package, with a description of the source
+code and encountered problems. In some countries, the development of a tracing app had been a salient component of
+the national strategy of fighting the virus, based on specially
+introduced legislation and featuring multiple stages of discussions, public hearings, and consultations.
+Overall, the app landscape had been evolving continuously, with apps’ cryptographic modifications being a prominent feature of the ongoing changes. The established preferences – either for centralised or decentralised architecture
+– had been affected by a number of considerations related
+to, for example, technological affordances of handsets,28 expected use of collected data, explicit preferences with regards
+to privacy and data protection,29 and one’s stance over digital
+<https://lsts.research.vub.be/en/contact-tracing-apps#4334fe7b4f6e-48a3-8f2a-507395555ca3> 25 E.g. Denmark’s Smittestop <https://smittestop.dk/>, Austria’s
+Stopp Corona <https://www.austria.info/en/service-and-facts/
+coronavirus-information/app> Italy’s Immuni at Immuni ‘Ripartiamo insieme’ <https://www.immuni.italia.it/> 26 Coronika app in Germany at #WirVsVirus among others ‘Dein
+Corona Kontakttagebuch’ (2020) <https://www.coronika.app/>;
+Covid Community Alert in Italy <https://coronavirus-outbreakcontrol.github.io/web/>; <www.tracesecure.co.uk/>; TraceSafe
+<www.tracesafe.io/contact-tracing> as well as hundreds of potential solutions presented for the Dutch Ministry of Health, Welfare and Sport in the course of the “appathlon” held in April 2020:
+Government of the Netherlands, ‘Health ministry to hold digital
+event to test coronavirus apps’ (15 April 2020) <https://www.
+government.nl/latest/news/2020/04/15/health-ministry-to-holddigital-event-to-test-coronavirus-apps> 27 Austria’s example of Epicenter.works, Noyb and SBA Research
+groups’ technical and legal report available at <https://noyb.eu/
+sites/default/files/2020-04/report_stopp_corona_app_english_v1.
+0_0.pdf>; Switzerland’s National Cyber Security Centre work on
+assessing cybersecurity and privacy of the app <https://www.
+ncsc.admin.ch/ncsc/en/home/dokumentation/covid-publicsecurity-test/infos.html> 28 Laurie Clarke, ‘Australia is set to abandon its centralised
+coronavirus app – will the UK be next?’ New Statesman
+(May 6, 2020) <https://tech.newstatesman.com/coronavirus/
+australia-centralised-app-will-uk-be-next> accessed December 13, 2022.; Rory Cellan-Jones, ‘Coronavirus: Health minister
+says app should roll out by winter’ (BBC News, June 17, 2020)
+<www.bbc.com/news/technology-53083340> accessed December
+13, 2022. 29 Stefan Krempl, ‘Stopp-Corona-App: Österreich will Vorzeigemodell für Europa schaffen’, (Heise online, April, 22, 2020)
+<www.heise.de/newsticker/meldung/Stopp-Corona-AppOesterreich-will-Vorzeigemodell-fuer-Europa-schaffen-4707620.
+html> accessed December 13, 2022.
+6 computer law & security review 48 (2023) 105802
+Table 1 – Standardization landscape.
+Categories of developers Examples of Organizations Examples of protocols
+Government units Government Digital Services team of Singapore BlueTrace protocol
+Standard setting
+organizations
+ETSI Industry Specification Group (ISG), called “Europe for
+Privacy-Preserving Pandemic Protection” (E4P)
+Ongoing standardization work31
+Research
+organizations/Research
+collaborations
+Pan-European Privacy-Preserving Proximity Tracing
+initiative (PEPP-PT)
+PEPP-PT NTK, ROBERT, DESIRE
+Decentralised Privacy-Preserving Proximity Tracing (DP-3T) DP-3T
+TCN Coalition Temporary Contact Numbers Protocol (TCN)
+PACT team Private Automated Contact Tracing (known as PACT
+MIT)
+University of Washington & Microsoft Privacy sensitive protocols And mechanisms for
+mobile C ontact Tracing (known as PACT UW)
+Computer Engineering Department of University of Salerno Pronto B-2, C-2
+Private organizations Coalition Network Whisper Tracing
+Handsets/OS
+(“platform” providers
+Google/Apple
+Huawei
+Exposure Notification Technology
+Contact Shield protocol
+sovereignty.30 Furthermore, several app developers had been
+wavering from one architectural solution to another in the
+course of the crisis in a trend underscoring how dynamic and
+unsettled the area was.
+The relevant protocols ranged in their application and
+prevalence: while some of them were seen as advancing
+into a great number of the actual apps, the employment of
+others remained rather limited, with just a few active apps
+and/or largely theoretical and academic coverage. Generally
+speaking, it is possible to distinguish four key categories of
+protocol developers: handsets/Operating System (“platform”)
+providers, government entities, private organizations, and
+standard-setting organizations: (Table 1)
+Though simplified, this classification offers a springboard
+for a discussion on the type of standard-setting forums, processes and adoption projections. To begin with, it is important to highlight that formal international and regional
+standardisation entities (e.g., International Telecommunication Union (“ITU”), International Electrotechnical Commission
+(“IEC”), and European Telecommunications Standards Institute (“ETSI”) had not been the key actors of the respective
+standardization efforts. That is not to say that their work had
+not been instrumental in developing digital contact tracing
+solutions, in principle. In many ways, some of the already developed specifications and standardized systems features had
+been foundational to the very project of automating manual
+tracing efforts.32 Overall, however, formal standard setting or30 Helene Fouquet, ‘France Says Apple Bluetooth Policy Is Blocking Virus Tracker’, (Bloomberg Technology, April 20, 2020) <www.
+bloomberg.com/news/articles/2020-04-20/france-says-apple-sbluetooth-policy-is-blocking-virus-tracker> accessed December
+13, 2022. 31 Miguel Garcia-Mendez, ‘2020: The year a universe of [COVID19] apps emerged’ (ETSI, December 21, 2020) www.etsi.
+org/newsroom/blogs/entry/2020-the-year-a-universe-of-covid-19-
+apps-emerged accessed December 13, 2022. 32 See e.g. standardization work of the CEN/TC 251, Health informatics; ETSI’s work on eHealth (EP eHEALTH), Smart Cities and
+Communities eHealth requirements (TC ATTM WG SDMC) and Cybersecurity (TC CYBER); see also ETSI “Industry specification group
+(ISG) Europe for privacy-preserving pandemic protection (E4P)” exganizations had not been the central forum of producing respective standards. Neither had they been the lynchpin of the
+concerted efforts to discuss and approve, or reject, the specification developed by ad hoc/consortiums.
+The government entities, too, had been a peripheral force
+of the standardization work overall: even in the case of
+the government-endorsed apps, the underlying protocols had
+been rarely developed “in-house” entirely. Rather, they were
+mainly selected from the already existing solutions.33
+The next, rather prominent standard setting forum, was
+presented by a variety of research efforts, ranging from predominantly academic to various forms of research collaboration within (or between) the private and public sectors.
+Quantitatively, research organizations had been the biggest
+standard-setting force, with a number of standards being proposed and subsequently integrated into a variety of actual
+app solutions. The specifications developed within this group
+make up a spectrum of architectural offerings: from more (e.g.,
+ROBERT, PEPP-PT NTK) and less centralized (DESIRE) to more
+decentralized (e.g., DP-3T, TCN, PACT MIT) and extremely decentralized (Pronto C-2). Importantly, the source codes of the
+respective solutions had been, by and large, made open, inviting public scrutiny, commentary, and press coverage. Furthermore, uploaded specifications were often supplemented with
+considerations related to potential interoperability, privacy
+and security risks as well as ethical dimensions of proposed
+solutions. Given the geographical attribution of respective research groups, some of these discussions bore a strong connection with the legal and societal orders they represented.34
+ploring handset and back-end systems mechanisms, and examining the issues of interoperability of the existing tracing apps 33 With Singapore’s BlueTrace protocol being a rather exception
+to the rule: the specification itself was a task of a specially dedicated government’s unit. Furthermore, the extent and the form of
+the government affiliation can assume different models: cf., e.g.,
+the NCSC/GCHQ engagement with the UK contact tracing undertaking and Swiss research institutes EPFL and ETH participation
+in national COVID taskforce initiatives while working on standard
+setting solution. 34 Cf media input and contributions by US-based PACT team
+available at <https://pact.mit.edu/media/> and considerations
+computer law & security review 48 (2023) 105802 7
+Speaking of the process of standard setting itself, a particular
+narrative is worth highlighting. The work of the Pan-European
+Proximity Tracing (PEPP-PT) project was originally presented
+as a coordinated European effort to introduce a scalable, interoperable and privacy-preserving specification. Comprised
+of a panel of scientists, technologists and experts from wellknown international institutions and organizations, the consortium initially seemed to have committed to an open,transparent and all-inclusive process of standard setting.35 However, what followed relatively soon was a series of shrill denunciations, research teams’ withdrawals, and general uncertainty over the direction of the project as a whole.36 The result of the turbulent developments crystallized in two parallel standardization tracks with one group of standard setting dedicated towards more centralized solutions (e.g. PEPPPT NTK and ROBERT) while another research team proposed
+a more decentralized approach (DP-3T). Though the technical
+specifications of both teams of researchers are openly available, the overall process of standard setting had been a world
+away from a consensus-driven, transparent, impartial and independent review and selection of the technological solution
+for the tracing task.
+As for the adoption rate, it is worth noting that a great
+majority of the protocols produced through the collaborative research efforts had not really made it into the actual
+apps. With a notable exception,37 therefore, the role of respective standard setting initiatives had proven to be more
+of a stimulating, informative and advisory nature. Thus, the
+specification advanced through the Apple-Google collaboration seemed to have embraced, adapted and generally built on
+a number of the above-mentioned standardization research
+initiatives.38 In addition, there is a generally fine line derelated to mass surveillance risk and Snowden’s revelations
+in Europe-based Pronto C-2 protocol group Gennaro Avitabile,
+Vincenzo Botta, Vincenzo Iovino, and Ivan Visconti, ‘Towards
+Defeating Mass Surveillance and SARS-CoV-2: The Pronto-C2
+Fully Decentralized Automatic Contact Tracing System’ (April 27,
+2020) <https://eprint.iacr.org/2020/493.pdf> accessed December
+13, 2022. 35 See, e.g. early reports on the initiative at Natasha Lomas,
+‘An EU coalition of techies is backing a ‘privacy-preserving’
+standard for COVID-19 contacts tracing’ (TechCrunch, April 1,
+2020) <https://techcrunch.com/2020/04/01/an-eu-coalition-oftechies-is-backing-a-privacy-preserving-standard-for-covid-19-
+contacts-tracing/> accessed December 13, 2022. 36 See, Joint Statement from several scientists on contract tracing
+(3 July 2020) available at <www.esat.kuleuven.be/cosic/sites/
+contact-tracing-joint-statement/>; Vincent Manacourt, Laurens Cerulus and Janosh Delcker, ‘Tech feud complicates EU
+search for coronavirus tracking app’ (POLITICO, April 20, 2020)
+<www.politico.eu/article/tech-feud-complicates-eu-searchfor-coronavirus-tracking-app/> accessed December 13, 2022. 37 Romain Dillet, ‘France rebrands contact-tracing app in an effort to boost downloads’, (TechCrunch, October 23, 2020) <https://
+techcrunch.com/2020/10/22/france-rebrands-contact-tracing-app
+-in-an-effort-to-boost-downloads/> accessed December 13,
+2022.
+38 See, e.g a report on Google/Apple being advised in part by
+the MIT-led Private Automated Contact Tracing (PACT project)
+at Megan Scudellari, ‘COVID-19 Digital Contact Tracing: Apple
+and Google Work Together as MIT Tests Validity’ (IEEE Specmarcating forms and status of research initiatives overall.
+Given the fluid and highly dynamic nature of collaborative endeavours in principle, it should not be ruled out that some
+of the developed specifications would be subsequently acquired/sponsored/promoted by governments and private entities, extending the reach and impact of respective standardization undertakings.
+The final observed group of standard setting entities – private undertakings – represents what is commonly referred to
+as a “single-vendor” standard setting effort. In contrast to collaborative, committee-based standardization, neither a result,
+nor a process of standard-setting in the case of a single-vendor
+enterprise is usually completely open to the public. The produced, “proprietary” specification is often a closely guarded
+secret of an intellectual endeavour of the team behind the development. Considered as potentially valuable input, it often
+compliments an existing company’s business portfolio and
+aligns with a company’s strategy. As a standalone product,
+therefore, the specification could be further employed as a basis for the company’s own tracing app or it could be let out
+for use by other entities.39 The specifications developed by
+Google, Apple, Huawei organically belong to this standard setting category. However, for the discussion to follow, the protocols developed by the said entities have been purposefully
+singled out.
+The principal reason lies in the very special position these
+companies have in an evolving system of affordance of digital tracing solutions. In other words, these companies have
+come to act as primary actors defining perceived and actual
+properties of the digital contact tracing function. As the discussed solution relies, by and large, upon the use of smartphones equipped with Bluetooth capabilities, the role of these
+players, providers of operating systems (“OS”), become decisive. Rather simplified, the kernel of their leverage resides in
+their capacity to control access to the hardware. This ability
+varies throughout OS’s, with vertically integrated, proprietary
+models (e.g., Apple iOS) being the most restrictive.40 In technical terms, it means that for the tracing app to work continuously and efficiently, the set of programming with which it
+accesses the operating system layer should be closely aligned
+with identified permissions granted by the OS provider itself.
+In practical terms, it means that the system’s embedded restrictions might have a rather pronounced impact on a way
+the app works. In the case of a contact tracing app, in particular, this risk might be too high to disregard. Aside from
+the bothersome drainage of a user’s battery, the principal concerns lie in a potential communication/data exchange failure.
+trum, 13 May 2020) <https://spectrum.ieee.org/the-human-os/
+biomedical/devices/covid19-digital-contact-tracing-apple-googlemit-tests-validity> accessed December 13, 2022. 39 E.g. Coalition Network, “ABOUT”, 2020 https://www.
+coalitionnetwork.org/about-coalition; Duality Tech “PrivacyPreserving, Large-Scale COVID-19 Contact Tracing” https://
+dualitytech.com/wp-content/uploads/2020/04/Covid19_onepager.
+pdf
+40 Aaditya Jain, Samridha Raj and Bala Buksh, ‘A Comparative
+Study of Mobile Operating Systems with Special Emphasis on Android OS’ (2016) 5 International Journal of Computer & Mathematical Sciences 2347.
+8 computer law & security review 48 (2023) 105802
+In essence, when the installed contact tracing app is not active and is not running in the foreground (i.e., being in a “suspended” state), its ability to discover and communicate with
+other devices becomes impaired, seriously challenging its accuracy and efficiency.41
+In an unprecedented move, Google and Apple announced a
+joint project to overcome the challenge, enable cross-platform
+interoperability, and boost the digital contacts tracing efforts.42 Set to be realized through a number of phases,the first
+deliverable was a release of a standardized protocol (“API”) by
+which public health authorities received a means to fully utilize the platforms’ capabilities of Bluetooth. The use of the
+protocol was conditioned upon complying with the terms of
+service and license agreements of the companies.43 The parts
+of the respective agreements concerning the employment of
+the Exposure Notification APIs set forth the requirements both
+as to the status of the developer of the app (e.g. “government
+health services organization, or a developer who has been endorsed and approved by a government entity...”44), as well as
+to the use of the API and collected data (e.g. exclusive use
+of the API for COVID-19 response; prohibition of the use of
+the service for any other purpose such as law enforcement or
+any punitive action).45 Overall, the implemented protocol, by
+its logic and foundational architectural choices, follows a decentralized approach that has also been principally developed
+and promoted by some of the research projects mentioned
+above.
+Thus, the first joint output of the standard setting effort
+by Apple and Google had been a release of a cross-platform
+interoperability protocol supplemented by conditions and restrictions with regard to its access and use. For the most part,
+the development of the protocol itself conformed to the conventions of a single-vendor standardization pattern outlined
+above. While detailed policies, sample code snippets and user
+interface examples are generally available on platforms’ web41 A high level explanation on OS’s app cycle at Kane, Why
+bespoke Contact Tracing apps don’t work so well on iOS (Medium,
+May 19, 2020) <https://medium.com/kinandcartacreated/whybespoke-contact-tracing-apps-dont-work-so-well-on-ios-df0dab
+d95d42> accessed December 13, 2022; see also users’ test at Nicolas Furno, ‘TousAntiCovid ne fonctionne toujours pas en tâche
+de fond de entre iPhone’ (iGeneration, 28 October 2020) <www.
+igen.fr/app-store/2020/10/iphone-tousanticovid-ne-fonctionnepas-en-tache-de-fond-118569>accessed December 13, 2022. 42 Fred Sainz, ‘Apple and Google partner on COVID-19 contact tracing technology’ (Apple, April 10, 2020) <www.apple.
+com/newsroom/2020/04/apple-and-google-partner-on-covid-19-
+contact-tracing-technology/> accessed December 13, 2022. 43 Apple, ‘Exposure Notification APIs Addendum (to the Apple
+Developer Program License Agreement)’ <https://developer.apple.
+com/contact/request/download/Exposure_Notification_
+Addendum.pdf> supplementing Apple’s terms of the Developer Program License Agreement <https://developer.apple.com/
+terms/>; Google COVID-19 Exposure Notications Service Additional Terms <https://blog.google/documents/72/Exposure_
+Notifications_Service_Additional_Terms.pdf> supplementing
+Google APIs Terms of Service <https://blog.google/documents/72/
+Exposure_Notifications_Service_Additional_Terms.pdf> 44 Apple’s Exposure Notification APIs Addendum, para 2.1 45 Google COVID-19 Exposure Notifications Service Additional
+Terms, para 1d.
+sites, a source code and/or any additional information have
+not been made available for public audit.46
+The second phase of the joint Google-Apple project entailed incorporating the tracing capability into a deeper layer
+of the mobile security stack – the phone’s operating system itself. Conceived as a complementary tool to the API-enabled
+apps by public health authorities, the solution provides for
+the employment of a notification system without building a
+special app, as long as the public health authority supports
+it.47 The newly introduced “app-less” tracing functionality is
+implemented differently on Apple and Google, following the
+platforms’ distinct approaches towards the software updates.
+While Apple pushed it forward as the iOS 13.7 system update,
+Google introduced it within an automatically generated app
+on Android.48
+Not surprisingly, the Google/Apple “decentralized” framework has been much more accepted as a foundation for tracing apps than the other specifications considered above. Thus,
+the Google/Apple private solution has been incorporated in a
+wide range of national and states’ apps in Europe, the. US, and
+beyond.49 While the Google-Apple approach appears to be by
+far the most successful standard setting outcome (given its
+comparatively wide adoption rate at the level of the app), the
+actual process of its development and constituent technical
+attributes of the solution has not been transparent and inclusive overall.
+Having employed a standard setting perspective in a descriptive way to identify a prevailing pattern of standardization, we now move to incorporate these findings in a more
+normative discussion.
+4. Standards as a means of regulation
+The standard setting scholarship, as a whole, places a strong
+focus on the institutional settings of the standards creation.
+Thus, a number of different analytical frameworks have been
+employed to analyse the dynamics of standard creation: from
+a proposition that engineers are “interest-free” actors concerned primarily with the quality of technical contributions
+and procedural efficiency to the acknowledgement of alliances building, interests-driven commitments, and negoti46 Google Apple Exposure Notification Bluetooth Specification v1.2 (April 2020) <https://developers.google.com/android/
+exposure-notifications/exposure-key-file-format> accessed December 13, 2022. 47 Apple, ‘Supporting Exposure Notifications Express’, <https:
+//developer.apple.com/documentation/exposurenotification/
+supporting_exposure_notifications_express>, as well as an
+option for users to opt-in 48 Google, ‘Use the COVID-19 Exposure Notifications System
+on your Android phone’, <https://support.google.com/android/
+answer/9888358?hl=en> accessed December 13, 2022. 49 See e.g. a list of Google, ‘Publicly-available Exposure Notifications apps’ <https://developers.google.com/android/exposurenotifications/apps> and even more complete list at Mishaal Rahman, ‘Here are the countries using Google and Apple’s COVID-19
+Contact Tracing API’ (XDA, February 25, 2021) <https://www.
+xda-developers.com/google-apple-covid-19-contact-tracingexposure-notifications-api-app-list-countries/>
+computer law & security review 48 (2023) 105802 9
+ation elements that alter the standardization projections.50
+The institutional settings have also been examined through
+comparing and contrasting different forums of standards creation, their rules, roles and procedures.51 The link between
+the choice of the standardization forum and the outcome of
+the process has been approached from the viewpoints of economics, political science, and sociology. The findings of the respective research offer valuable insights into the factors impacting the dynamics of standard settings and, ultimately,
+its regulation. For the discussion on contact tracing, however,
+there are three particular points that appear especially relevant. They relate to the (i) de facto status of a standard as a
+regulatory tool; (ii) procedural integrity and rules of standard
+setting; (iii) selected data protection issues in a wider regulatory context. We address these points in turn.
+4.1. Regulatory potential of technological standards
+A fable of European harmonized standards provides a glimpse
+into a political and economic context of the European integration. It also makes a compelling argument for a standard
+being an important economic and regulatory tool in principle. Product technical specifications, adopted and effective in
+national territories of Member states, had long served as natural barriers to intra-state trade and free movement. In the
+course of forging and realizing the idea of the European single market, the Court of Justice – through the emerged case
+law on the mutual recognition principle – had gone to great
+length to alleviate the concern.52 However, it was not until the
+“New Approach” technique and further improvements in its
+implementation, that the system of product technical standards in Europe acquired its distinct logic and intended efficiency gains.
+The example of “New Approach” demonstrates the innate
+ability of a standard to act in place of economic regulation:
+complying with national standards is, in practice and effect,
+an essential requirement of market access. The proposition
+of “New Approach” aims at bringing this trade barrier down by
+formulating “essential legal requirements” in product legislation and offering a presumption of conformity through compliance with harmonized European standards. Furthermore,
+50 i.e. a shift from a more technocratic standpoint to inclusion
+of the perspectives of the social shaping of technological development, see, e.g. George V. Thompson, ‘Intercompany technical
+standardization in the early American automobile industry’ (1954)
+14 The Journal of Economic History, compared to Ian Graham and
+others, ‘The Dynamics of EDI Standard Development(1995) 7 Technology Analysis & Strategic Management 3. 51 E.g. Tineke M. Egyedi, ‘Beyond Consortia, Beyond Standardization? Redefining the Consortium Problem’ in Kai Jakobs (ed) Advanced Topics in Information Technology Standards and Standardization Research 2006 (IGI Global, 2006); Josh Lerner and Jean Tirole,
+‘A Model of Forum Shopping, with Special Reference to Standard
+Setting Organizations’ (2006) 96 American Economic Review 1091;
+Raymund Werle, ‘Institutional aspects of standardization – jurisdictional conflicts and the choice of standardization organizations’ (2001) 8 Journal of European Public Policy 392. 52 Harm Schepel, The Constitution of Private Governance – Product
+Standards in the Regulation of Integrating Markets (Hart Publishing
+2005).
+the “New Approach” technique raises pertinent issues of standards and governance. Formally, standards are, by and large,
+voluntary. In other words, undertakings are free, in principle,
+to have a recourse to alternative means of complying with the
+“essential requirements” to access the European market. In
+practice, however, procuring evidence of compliance through
+other means might prove to be costly and time-consuming,
+providing a significant advantage to harmonized standards
+over other alternatives.53 This economic underpinning of the
+choice of compliance begs a key question of the constitutional
+propriety of a standard as a regulatory tool.54 In particular,
+it opens a door for a discussion on legitimacy, due process
+and privatization of law-making process as seen through the
+standard setting and its deliverables.55 This discourse on the
+nature, role and implications of using standards in the European legal order has been evolving in a distinct political
+and economic and historical context. However, it embodies
+an important overarching point: technical standards have a
+pronounced regulatory potential, and their governance regime
+should be carefully considered.
+4.2. On governance of the standard setting process
+The focus on the governance perspective in standard setting appears especially important for developing digital tools
+that have the potential to be widely utilized as a public policy measure. Proprietary technical solutions are typically not
+subjected to the checks and rules of the established procedure as required for the government standardizing bodies or
+committee-driven standard setting in general.56 For instance,
+in accepting the WTO Technical Barriers to Trade (TBT) Agreement,the WTO Members concede to ensure thattheir national
+standardizing bodies accept and comply with WTO TBT Code
+of Good Practice for the Preparation, Adoption and Application of Standards (Annex III). The Code’s Terms include, inter alia, principles of transparency, openness, impartiality and
+consensus, relevance and effectiveness, coherence and developing country interests.57 These all-embracing governance requirements do not necessarily and/or predominantly derive
+from the economic rationale of standard setting. Rather, they
+53 Harm Schepel, ‘Between standards and regulation: On the concept of ‘de facto mandatory standards’ afterTuna II and Fra.bo’ in
+Panagiotis Delimatsis (ed.) The Law, Economics and Politics of International Standardisation (Cambridge University Press, 2016). 54 Harm Schepel, The Constitution of Private Governance – Product
+Standards in the Regulation of Integrating Markets (Hart Publishing
+2005).
+55 Ibid 56 Having said that, the landscape of standard setting can be very
+complex and present several layers of coordination and interaction see Kai Jakobs, Information communication technology standardization for e-business sectors: integrating supply and demand factors (Information Science Reference, 2009). 57 According to WTO TBT Standards Code Directory,
+CEN–CENELEC and ETSI (as well as most of the national SSOs of the
+EU Member States) have accepted terms of the Code of Good Practice see <https://docs.wto.org/dol2fe/Pages/FE_Search/FE_S_S009-
+DP.aspx?language=E&CatalogueIdList=59988,62637&Current
+CatalogueIdIndex=1&FullTextHash=1&HasEnglishRecord=True
+&HasFrenchRecord=True&HasSpanishRecord=True> accessed
+December 13, 2022.
+10 computer law & security review 48 (2023) 105802
+point to a broader regulatory context and the issue of the legitimacy and integrity of the process.
+Another example of the governance requirements is found
+in the established provisions of the European competition law.
+The said rules largely relate to the economic dimension of
+standard setting. They are naturally connected to the notion
+of market power and the imperative of ensuring unhindered
+competition and realizing innovation potential. Thus, there is
+a special “safe harbour” for horizontal standard setting collaboration in the EU law that requires (I) unrestricted participation with a transparent procedure of standards adoption;
+(ii) no obligation to comply with a standard; (ii) access to the
+standard provided on fair, reasonable and non-discriminatory
+terms (“FRAND”).58 The requirements are seen as essential
+commitments to facilitate collaborative standard setting in
+the least harmful for the market way. The FRAND provision
+warrants special attention in this context. The commitment
+to license IPRs reading on technological standards (what is
+called “Standard Essential Patents”) serves multiple purposes
+in a committee-based governance structure.59 One of the central contributions of the FRAND provision in the process,
+though, is to ensure availability of the relevant IPRs for licensing ex post, thereby removing one of the barriers to standard
+adoption.60
+Thus, when it comes to standard setting governance
+models,there are distinct rules associated with different standardization forums. It is commonplace that if standardization
+occurs within collaborative settings (“committee-based”, “cooperative” standardization as explained in Section 2),the competition rules with regard to horizontal collaboration become
+applicable. Furthermore, depending on a particular forum of
+committee-based standardization, there comes an additional
+layer of internal rules addressing the legitimacy and procedural integrity of the standard setting process. As for a single vendor-driven standard setting, however, the process itself largely escapes the application of a comparable toolkit of
+checks and balances. It is widely accepted that if the standard gains wide acceptance on the market in this case, the
+private entity behind the standardization efforts is entitled to
+reap the benefits accordingly and recoup the costs associated
+with setting a standard.61 There is typically no requirement of
+58 Communication from the Commission – Guidelines on the applicability of Article 101 of the Treaty on the Functioning of the
+European Union to horizontal co-operation agreements (OJ No. C
+11/1, 14 January 2011) para 280. It is worth noting that even when
+standardization agreements do not fulfill any or all of the above
+requirements, there is nevertheless no presumption of restriction
+of competition. In these cases a self-assessment is required to establish whether the agreement falls under 101 (1), and if so, if the
+conditions of Article 101 (3) TFEU are fulfilled. 59 The literature on the topic is abundant: see, e.g. Timothy
+Simcoe, ‘Governing the Anticommons: Institutional Design for
+Standard-Setting Organizations’ (2014) 1 Innovation policy and the
+economy Rudi Bekkers and Andrew S. Updegrove, ‘A Study of IPR
+Policies and Practices of a Representative Group of Standards Setting Organizations Worldwide’ (September 17, 2012) <http://ssrn.
+com/abstract=2333445> accessed December 13, 2022. 60 See, e.g. Jorge L. Contreras, ‘A Market Reliance Theory for
+FRAND commitments and other patent pledges’ (2015) 2 Utah Law
+Review 5 61 Within the boundaries of 102 TFEU
+transparency and “due process”. Potential standard essential
+patents are treated differently as well: as no licensing commitments were given in the course of standard setting,the patent
+holder is not bound by a pledge to make patent rights available
+to others ex post.62
+The context of the pandemic is certainly special. It features an unprecedently short timeline for standard development, a wide variety and geography of stakeholders, and high
+stakes and extreme pressure of delivering technological solutions that, if widely accepted, would help to make a difference in combating the pandemic. At the same time, the
+health crisis highlights a distinctively different concern as
+compared to much-discussed issues of essential IPRs. As the
+focal point of standardization lies around handling the data
+about population, the choice of a technological solution has
+somewhat broader societal implications. It shifts the focus of
+the discussion from the issues of market power and licensing practices towards the effects of “data power”63 and desired data governance. This discussion is long overdue, and
+a perspective of data protection law is particularly helpful to
+illustrate it.
+By approaching the matter of standardization from the
+viewpoints of public health, data controllers and some of their
+obligations, it becomes evident that there are several concerns
+that converge to demand more attention to the issue of governance. Firstly, the digital contact tracing – as a public measure – implies a large-scale data processing that could entail a
+significant risk to the rights and freedoms of natural persons.
+Secondly, the emerged guidance on data controllership does
+not provide much certainty over the roles and obligations in
+a complex app ecosystem. Apple and Google, while simultaneously assuming multiple roles in a supply chain, appear to
+be in a position allowing for leveraging their control much beyond the technical functionality of the app. Using the example
+of data protection by design, it becomes apparent that the control could manifest, for instance, in explicit choices over data
+minimization and security. While the approach proposed by
+Apple and Google promotes placing more trust at the level of
+users and end devices, it also has tradeoffs. For instance, it curtails the ability of a centralized authority to advance its own
+vision of the balance between privacy-related interests and
+other societal objectives. It does not necessarily follow that
+either solution is more optimal or superior. However, it does
+raise a question of legitimacy of vesting the decision-making
+power in hands of corporate entities without having a discussion around the implications, safeguards and possible procedural commitments connected to the standard setting process
+and its outcome.
+62 The issue posing a significant enforcement challenge Contreras, Jorge L., and Meredith Jacob (eds.), Patent pledges: global perspectives on patent law’s private ordering frontier (Edward Elgar Publishing, 2017). 63 See, on the concept, e.g. Orla Lynskey, ‘Grappling with “data
+power”: normative nudges from data protection and privacy’
+(2019) 20 Theoretical Inquiries in Law 189.
+computer law & security review 48 (2023) 105802 11
+4.3. Digital contact tracing as a systematic and
+large-scale monitoring measure
+The European Union is founded on the recognition of the values of respect for human dignity, freedom, democracy, equality, the rule of law, and respect for human rights.64 These values are, in essence, inseparable, and their protection is principal to the very functioning of the Union.65 The right to data
+protection, by being a distinct fundamental right itself, is instrumental for bolstering the Union values in principle.66 By
+setting up a system of required safeguards and checks, it is
+intended to “serve mankind”67 and protect data subjects’ human dignity as a whole.68 By offering the data processing rules
+and demarcating exceptions,69 it is also well positioned to reinforce the rule of law and promote democracy.70 However,
+that is not to say that the right to data protection and privacy is absolute. It should be considered in relation to its function in society, and if and when the public measures or conduct interfere with the right to data protection and privacy, it
+should be assessed whether the intervention is justified.71 To
+carry out the assessment, it is essential to verify whether the
+measure under consideration is provided for by law, respects
+the essence of the right, and is necessary and proportional.72
+The current pandemic certainly tests the limits and substance
+of this checklist, highlighting the differences in opinions over
+whether the digital contact tracing conforms to the requirements at all. As pointed out in a joint statement by the Chair
+of the Committee of 108 Convention and the Data Protection
+Commissioner of the Council of Europe,
+‘large-scale personal data processing can only be performed when, on the basis of scientific evidence, the potential public health benefits of such digital epidemic surveillance
+(e.g., contact tracking), including their accuracy, override the
+benefits of other alternative solutions which would be less intrusive’.73
+64 Art.2 of the Consolidated Version of the Treaty on European
+Union [2012] OJ C 326 – “TEU” 65 E.g. Art 7 TEU setting up the procedure of Member State’s suspension in case of violation 66 Art 8 of the Charter of Fundamental Rights [2012] OJ C 326 –
+“CFR”, Art 16 of the Consolidated version of the Treaty on the Functioning of the European Union [2012] OJ C 326 - “TFEU” 67 Rec.4 Regulation (EU) 2016/679 of the European Parliament and
+of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free
+movement of such data, and repealing Directive 95/46/EC [2016] OJ
+L 119 – “GDPR” 68 Art.88 GDPR 69 See, e. g. the idea of Highway Code in Christopher Docksey,
+‘Four fundamental rights: finding the balance’ (2016) 6 International Data Privacy Law 165 70 See, e.g. Case C-362/14 Schrems EU:C:2015:650 paras 95 on effective legal protection 71 Rec.4 GDPR 72 Art 52 CFR 73 Alessandra Pierucci and Jean-Philippe Walter, Joint Statement
+on the right to data protection in the context of the COVID-19
+pandemic (30 March 2020) <https://www.coe.int/en/web/dataprotection/statement-by-alessandra-pierucci-and-jean-philippewalter> accessed December 13, 2022.
+As the provided quote highlights, the principal concern
+largely relates to the effectiveness and the efficiency of digital
+contact tracing. Provided that some steps of the required assessment – in times of the evident public health crisis - should
+not pose a significant hurdle in principle (e.g., defining the objective of the measure based on the concrete problem of fighting the pandemic),74 the major difficulty lies in the questions
+typically asked in the evaluation of necessity and proportionality of the measure proposed. As for the former, it is fair to
+say that the established EU standard for assessing its effectiveness and intrusiveness is rather high. As the Working Party
+29 pointed out, “not everything that might prove to be useful
+[…] is desirable or can be considered as a necessary measure
+in a democratic society”,75 it has to be “essential for satisfying [the] need rather than being the most convenient or cost
+effective”. Furthermore, in reviewing the availability of a less
+intrusive measure that could equally attain the pursued objective, one is also prompted to reflect on possible evidence
+of why the alternative measure cannot effectively address the
+identified problem.76 The available case law, by and large, conveys a similar message.77 Only when the measure is found to
+be effective, and no less intrusive alternative is deemed to be
+available, the proportionality assessment stricto sensu follows.
+In revisiting the importance and extent to which the digital
+contact tracing fulfills the intended objective, the proportionality tests essentially query whether the advantages of having the measure in place outweigh its disadvantages. The unprecedented nature of the pandemic and the relative novelty
+of mobile-based digital solutions question the ability to form
+an informed and sound judgement. Under the condition of
+uncertainty, the cost-benefit analysis is destined to be incomplete and preliminary.
+74 Though see the report by the Dutch Data protection authority
+pointing to the lack of clarity as regards to the purpose of the app
+and its place in a package pf the measures proposed to combat
+the pandemic, Autoriteit Persoonsgegevens, ‘Onderzoeksrapportage bronen contactopsporingsapps’ (April 20, 2020) <https:
+//autoriteitpersoonsgegevens.nl/sites/default/files/atoms/files/
+onderzoeksrapportage_bron-_en_contactopsporingsapps.pdf>
+accessed December 13, 2022. 75 Article 29 Working Party Opinion 9/2004 on a draft Framework
+Decision on the storage of data processed and retained for the purpose of providing electronic public communications services or
+data available in public communications networks with a view to
+the prevention, investigation, detection and prosecution of criminal acts, including terrorism (WP 99, 9 November 2004) 4 76 See generally the EU Commission, ‘Better regulation Tool #28
+Fundamental Rights & Human Rights’ (September 5, 2017) <https:
+//ec.europa.eu/info/files/better-regulation-toolbox-28_en> as
+well as EDPB, ‘Assessing the necessity of measures that limit
+the fundamental right to the protection of personal data: A
+Toolkit (April 11, 2017) <https://edps.europa.eu/sites/edp/files/
+publication/17-06-01_necessity_toolkit_final_en.pdf> pointing
+to “scientifically verifiable evidence that can genuinely support
+the claim that existing measures and less intrusive alternative
+measures cannot”. 77 See, e.g. Joined Cases C–92/09 and C–93/09 Volker und Markus
+Schecke GbR Volker und Markus Schecke and Eifert, C-92/09 and C93/09, ECLI:EU:C:2010:662 para 81, 83; Opinion of AG Maduro
+in Case C-524/06 Heinz Huber v Bundesrepublik Deutschland
+ECLI:EU:C:2008:194.
+12 computer law & security review 48 (2023) 105802
+As the lowest possible denominator, neither use cases nor
+scientific modelling had revealed that digital contact tracing
+was detrimental.78 Rather, the expected and proposed effect
+appeared to be ranging from neutral to beneficial.79 As for
+potential disadvantages of using a digital solution, they are
+largely and strongly associated with the assessment of the
+risk of the data processing activity. The GDPR, at its very core,
+stresses the importance of considering the nature, context,
+scope and purposes of the processing, as well as the risks of
+varying likelihood and severity for the rights and freedoms of
+natural persons”.80 Following this risk-based approach, digital contact tracing as such suggests a potentially high risk for
+the rights and freedoms of natural persons, not least for the
+reasons of the volume and variety of the data being processed.
+Thus, given the scale of the pandemic and the very objective of
+contact tracing efforts, a digital solution necessarily involves
+large-scale data processing. Furthermore, personal data collected and analysed in the course of this undertaking might
+be rather diverse, naturally encompassing health and other
+special categories of data. As a general rule, special categories
+of data merit a heightened level of protection due to its sensitive nature.81 As for “health data” in particular, the notion
+has been conventionally afforded a rather broad interpretation both in the CJEU jurisprudence, but also in the guidelines
+of data protection authorities.82
+The context of the tracing app further complicates the
+assessment. The application of modern data-intense mining
+techniques, in their effect, has the potential of blurring the
+distinction between ordinary and special data, thus cautioning of the corollary of data aggregation in principle. The more
+data gets to be collected and algorithmically processed, the
+more revealing and precise predictions, including about one’s
+78 Lisa O. Danquah and others, ‘Use of a mobile application for
+Ebola contact tracing and monitoring in northern Sierra Leone:
+a proof-of-concept study’ (2019) 19 BMC 810 <https://doi.org/10.
+1186/s12879-019-4354-z> accessed December 13, 2022. 79 University of Oxford, ‘New research shows tracing apps
+can save lives at all levels of uptake’ (September 3 2020,)
+<www.ox.ac.uk/news/2020-09-03-new-research-shows-tracingapps-can-save-lives-all-levels-uptake> accessed December 13,
+2022; Luca Ferretti and others, ‘Quantifying SARS-CoV-2 transmission suggests epidemic control with digital contact tracing’ (2020)
+368 Science 6491 <https://www.ncbi.nlm.nih.gov/pmc/articles/
+PMC7164555/> accessed December 13, 2022. 80 E.g. obligations of the controller (Art.24 GDPR), as well as other
+GDPR provisions related to, e.g., data protection by design (Art.25
+GDPR), exception to information obligations (Art. 14(5) GDPR), DPIA
+(Art.35 GDPR), Security obligations (Art 32 GDPR). 81 E.g. Rec.52, 92, Article 37 GDPR, Article 29 Working Party ‘Guidelines on Data Protection Officers’ (WP 243, 5 April 2017) as well
+as some national DPAs’ guidelines on large-scale data processing e.g. Dutch Data Protection Authority’s list on DPIA available at https://www.autoriteitpersoonsgegevens.nl/sites/default/
+files/atoms/files/stcrt-2019-64418.pdf 82 C-101/01 Lindquist ECLI:EU:C:2003:596; Article 29 Working Party,
+‘Advice paper on special categories of data (“sensitive data”)’
+(WP29, 4 April 2011) 6; European Data Protection Board, ‘Guidelines 03/2020 on the processing of data concerning health for the
+purpose of scientific research in the context of the COVID-19 outbreak’ (21 April 2021) 5.
+health being, become possible.83Furthermore, the underlying
+technology itself (Bluetooth) is a long-established solution to
+an initial problem that was a world away from pandemic
+tracking. Though it was repurposed to meet the challenges of
+the current public health crisis, it was not developed to accommodate them to a nicety84 There are distinct technical
+limitations. They might not be critical when the technology is
+applied outside of the pandemic context (e.g., using Bluetooth
+to connect one’s phone to a speaker). However, in cases of a
+public health emergency, the same shortcomings might prove
+to be of great consequence. The propagation of the Bluetooth
+signal is highly variable. From the model, position, orientation
+of the handset, to a wide variety of indoor environments (e.g.,
+walls, furniture), the signal strength measurement is prone to
+errors. There are certain technological ways of mitigating inaccuracies.85 However, for a policy-informing discussion, it is
+important to stress that there is an innate and yet not accurately quantified possibility of generating both false positives
+and false negatives notifications that de facto increases the risk
+to rights and freedoms of data subjects.
+So, it follows that while the advantages of digital contact tracing are conceptually compelling and virtually intuitive, they remain to be convincingly supported by real-life
+evidence. On the other hand, the impact such data processing entails – as seen through the notion of the risk to rights
+and freedoms of data subjects - is potentially negative and farreaching.In a declarative way,this inference serves, at the very
+least, a word of caution akin to the above-mentioned statement from the Council of Europe. It also highlights the need
+for an open discussion about data governance, appropriate
+safeguards and the requirements towards the process of standard setting as such.
+A pandemic provides a particular background for the rulemaking and the governance reflection. As a conceptual opposite of normalcy, a crisis condition commonly implies that
+necessary, concrete, and urgent actions are taken under time
+and space constrains.86 Emergency regimes almost invariably
+require a room for adjustment, and, depending on a form of
+government, there are various ways in which the emergency
+pressure is typically accommodated.87 That is not to say, however, that the technical specification developed by the government’s unit passes the test of legitimacy and procedural
+83 See, e.g. Paul De Hert and Vagelis Papakonstantinou, ‘The proposed data protection Regulation replacing Directive 95/46/EC: A
+sound system for the protection of individual’ (2012) 28 Computer
+Law & Security Review 2 133. 84 See a section on technology 3.1. 85 Sam Biddle, ‘The inventors of Bluetooth say there could
+be problems using their tech for coronavirus contact tracing’
+(The Intercept, May 5, 2020) <https://theintercept.com/2020/05/05/
+coronavirus-bluetooth-contact-tracing/> accessed December 13,
+2022.
+86 Andrej Zwitter, ‘The Rule of Law in Times of Crisis: A Legal Theory on the State of Emergency in the Liberal Democracy’ (2012)
+ARSP: Archiv Für Rechts-Und Sozialphilosophie/Archives for Philosophy
+of Law and Social Philosophy 95. 87 E.g. Eric A. Posner and Adrian Verme, ‘Accommodating Emergencies’ (2003) 56 Stanford Law Review 3; see also a global
+academic collaboration mapping legal measures in response to
+Covid-19 available at <https://oxcon.ouplaw.com/home/OCC19>
+accessed December 13, 2022.
+computer law & security review 48 (2023) 105802 13
+integrity by default. Yet, if one accepts that state-sponsored
+standards merit a principal scrutiny around their constitutional and democratic properties, particular attention should
+be paid to standards promoted by private entities. Whereas
+states’ emergency powers often imply little democratic oversight, corporate actors are principally exempt from it for the
+most part.88 However, given a possibly far-reaching risk of the
+measure to the individuals’ rights and freedoms, it appears
+essential to ensure that the standardization does not escape
+a form of a social control and public oversight completely.
+4.4. Data controllership
+The definition of a data controller is grounded on, and determined by, the actual role and activity of the party. The assessment essentially requires a factual analysis that goes beyond a merely formal and/or superficial examination. In other
+words, when identifying a data controller, it is crucial to examine whether the party actually determines the purposes and
+means of the processing of personal data. The context of a
+tracing app is a telling illustration of how complex this task
+could be in practice. As an entry point, controllership might
+be assigned by law.89 In the context of the health crisis, respective national authorities such as Departments/Ministers
+of Health act as rather intuitive and, indeed, commonly appointed entities for the role.
+But it is not only the explicit legal competence that leads
+to the status of a data controller. The status might stem from
+the factual influence exercised over the data processing undertaking. It is important to note that the very functioning of a
+contact tracing app might require the collaboration of various
+stakeholders, with disparate degrees of their engagement and
+contribution. When, and if, this collaboration extends to joint
+decision-making on the means and purposes of data processing, its principal assessment might lead one to a conclusion
+on the presence of joint controllership. Though the notion of
+joint controllership itself is not entirely new,90 the realities of
+the modern networking world has long demanded more clarity and explanation as to how exactly the framework of the
+role assignment and responsibility allocation should apply.
+As discernible from the CJEU case law and EDPB Guidelines, joint controllership covers, in principle, a wide variety
+of cases: from instances where two or more parties decide on
+purposes and means of processing together to cases where
+the decision-making is grounded and contingent on “inextricable link” between processing operations by the parties concerned. The app ecosystem is highly complex and typically accounts for a multitude of entities that are engaged in data pro88 Relatedly, see, e.g. a discussion on “privatization” of public sector and challenges to accountability in Colin Scott, ‘Accountability
+in the Regulatory State’ (2000) 27 Journal of Law and Society 1. 89 E.g. BEK nr 1539 of 29/10/2020 ‘Bekendtgørelse om behandling af oplysninger om elektronisk registrerede kontakter med
+henblik på at forebygge og inddæmme udbredelsen af Coronavirussygdom 2019 (COVID-19)’ <https://www.retsinformation.
+dk/eli/lta/2020/1539> accessed December 13, 2022. 90 See, e.g. a definition in Article 2(d) of Directive 95/46/EC of the
+European Parliament and of the Council of 24 October 1995 on the
+protection of individuals with regard to the processing of personal
+data and on the free movement of such data, OJ 1995 L 281/31.
+cessing. Their interactions could be tangled, their functions -
+often interdependent, and their roles – highly dynamic. Mapping data flow, sharing and controlling arrangements might
+be notoriously difficult, not least due to the pervasive lack of
+transparency.In simple terms,the relevant landscape features
+four main categories of players: (i) the app developers/owners,
+(ii) Operating System (OS) and device manufacturers, (iii) app
+stores/ “platform providers”, (iv) other parties involved.91 As
+elucidated above, in the context of digital contact tracing, a
+primary data controller figure has been commonly identified
+with the figure of an app developer/provider. A majority of
+existing digital contact tracing initiatives are built for Apple/Google OS- powered devices that are typically available
+through respective app platforms. Thus, the figures of “platform providers”, OS and device manufacturers are often represented by the same entities, such as Apple and Google.Naturally, a great number of processing activities for which Google
+and Apple determine “why” and “how” as data controllers,
+are completely separate from and do not relate to any public
+health contact tracing whatsoever.
+However, when closely examining the role of the entities in
+enabling a contact tracing capability, one can ponder the question of whether a demarcation line between data processing
+by app developers and Google/Apple entities is clear-cut. Conceding that the actual app implementation is, again, a decisive
+factor in answering the question, it could not be completely
+excluded that in some instances, the data processing could
+be found to be inextricably linked in a way suggested by the
+EDPB Guidelines. In particular, the “architectural” decisions
+taken by Google/Apple with regard to permissions system and
+later embedment tracing capabilities into the OS itself translate into uncertainty over what the platforms’ actual connection to, role and impact on the determination of the purposes
+and means of the data processing for contact tracing. Furthermore, as the Google Exposure Notification becomes a part of
+Google Play Service, it organically follows the ecosystem’s pattern of telemetry data creation and sharing. The data has the
+potential to generate valuable insights about users’ interactions with the service and, in effect, could be further used to
+alter its functionality, adjust the permissions for, and generally coordinate and organize the contributions of app developers. App developers, in their turn, can also exercise the option
+of inquiring the statistics about the usage of the app thus gaining potentially valuable insights about the users’ behavioural
+patterns.92
+The array of outlined options, when exercised, complicates
+the assessment ofthe status ofthe data controller and cases of
+possible joint controllership. The example of a decentralized
+architectural solution in particular presents a credible challenge as it is not entirely clear what exact role platforms them91 Article 29 Working Party, Opinion 02/2013 on apps on smart devices (WP 202, 27 February 2013); For a more detailed analysis see
+e.g. ENSIA,‘Privacy and data protection in mobile applications. A
+study on the app development ecosystem and the technical implementation of GDPR’ (November 2017). 92 Douglas J. Leith and Stephen Farrell, ‘Contact Tracing App Privacy: What Data Is Shared By Europe’s GAEN Contact Tracing Apps’
+(July 18, 2020) <https://www.scss.tcd.ie/Doug.Leith/pubs/contact_
+tracing_app_traffic.pdf> accessed December 13, 2022.
+14 computer law & security review 48 (2023) 105802
+selves (Google and Apple) play in enabling and complementing the app’s tracing capabilities.
+As a figure defining the purposes and means of data processing, the data controller bears the ultimate responsibility for ensuring conformity with the requirements of the EU
+data protection law. In practical terms, it means that the data
+controller shall take measures to ensure compliance and to
+be ready to demonstrate it.93 The compliance framework essentially embraces several layers of assessment. At the most
+general level, it is critical to ensure a uniform application
+of core principles of data protection law. That is to say that
+a data controller is overall responsible for adherence to the
+requirements of lawfulness, fairness and transparency; purpose limitation; data minimization; accuracy; storage limitation; integrity and confidentiality principles.94 At a more operational level, a data controller has an obligation to implement appropriate technical and organizational measures to
+ensure that data processing is performed in accordance with
+the EU data protection laws. In other words, the data controller has to first carefully examine the data processing activity from the perspective of its nature, scope, context, purpose
+and risks for the rights and freedoms of individuals.95 The
+findings of this analysis should then pave the way for an appropriate framework of accountability-centred practices in a
+form of, for instance, data protection by design and by default
+requirements,96 data protection impact assessment,97 security measures.98 This framework could be seen as the operationalization of the controller’s commitment to ensure compliance with the data protection requirements.
+Accepting that Apple and Google might well be in a position of joint controllership, it is worth reflecting on what the
+compliance perspective looks like and what control leverage
+do the parties actually have in a process. The requirement of
+data protection by design offers a telling example in that regard.
+4.5. Data protection by design and default
+Data protection by design and default (“DPbDD”) forms one
+of the essential commitments of data protection compliance.
+In essence, the DPbDD obligation compels the data controller
+to ensure that data protection considerations have been accounted for and effectively incorporated into the data processing practice. As the EDPB explains, the requirement demands
+a data controller “to have data protection designed into the
+processing of personal data and as a default setting and this
+applies throughout the processing lifecycle”.99 In the context
+of digital contact tracing, a concept of “data protection by design” is of particular interest as a norm especially resonating
+with but not limited to a very process of the system’s creation.
+93 Art 24 GDPR and an overall requirement of accountability (Art
+5 GDPR)
+94 Art 5 GDPR 95 Rec.74,75, Art 24 GDPR 96 Art.25 GDPR 97 Art.35 GDPR 98 Art 32 GDPR 99 European Data Protection Board, ‘Guidelines 4/2019 on Article
+25 Data Protection by Design and by Default’ (EDPB, 20 October
+2020).
+Thus, the provision imposes an obligation to implement appropriate technical and organizational measures and necessary safeguards designed with a view of effective realization of
+data protection principles and protection of data subjects. The
+appropriate measures and safeguards shall be “effective” in
+the sense of being “specific to the implementation of data protection principles into the particular processing”, “robust” and
+accounting for demands of several contextual factors such as
+state of the art, the cost of implementation, the nature, scope,
+context and purposes of processing as well as the risks for
+rights and freedoms of individuals.100 Much promising, the
+essence of the requirement is an undertaking to design a technological solution in a data protection-friendly manner.
+When placed in the context of digital contact tracing,
+though, the potential and actual effect of this commitment
+are truly put to the test. The test is not so much at the conceptual level. The requirement of data protection by design
+contains a powerful message, despite its seemingly succinct
+and complex expression in the GDPR.101 However, in its substance, the requirement offers recognition of a potentially farreaching impact the technical decisions can have as a regulating means.
+What the discussion on contact tracing actually highlights
+is the great difficulty of operationalizing the requirement in
+the context of a health crisis. A seemingly technical decision
+implies distinct tradeoffs and policy considerations much beyond technology. There are various tools, valuable guidance,
+and useful methodologies on how to internalize data protection by design thinking.102 However, they typically do not contain infallible instructions on how to tackle potential frictions
+between privacy-related interests and other objectives that
+the system creators believe are equally important or even preeminent.
+For example, the choice of a decentralized or centralized
+architecture for the tracing app has distinct implications that
+could be recognized as “advantages” and “risks”. In qualifying the implications, the health crisis-related considerations
+might naturally dominate and, to some extent, modulate the
+discussion. To illustrate the point, one can consider the fundamental data protection principles such as data minimization
+and security in light of the data protection by design requirement. The former demands that only adequate personal data,
+relevant and limited to what is necessary for the purpose shall
+be processed.103 The latter, in some ways, internalizes and reinforces this requirement. Thus, conceding that the volume
+and type of processed data are integral features of the secu100 Ibid. 101 The legal requirement is cascaded and reinstated in several
+provisions, encouraging a proactive approach to the matter in
+principle e.g. Rec.78, 87, 88 GDPR. 102 Ann Cavoukian, ‘The 7 Foundational Principles Implementation and Mapping of Fair Information Practices’. (Privacy by Design, May 2010), https://iapp.org/media/pdf/resource_center/pbd_
+implement_7found_principles.pdf For an overview see, e.g. European Union Agency for Cybersecurity, “Privacy and Data Protection by Design – from policy to engineering”, ENISA, 2015;
+Agencia Española de Protección de Datos, “A Guide to Privacy by
+Design” (October 2019) www.aepd.es/sites/default/files/2019-12/
+guia-privacidad-desde-diseno_en.pdf; EDPB (n. 90). 103 Art. 5(1(c)) GDPR
+computer law & security review 48 (2023) 105802 15
+rity risks metric,104 generating and processing less (including
+special category) data shall limit the security risks in principle.
+The context of the health crisis requires the utmost consideration given to what constitutes the “necessary” amount of data
+and what could be appropriate measures to mitigate potential
+risks.
+For instance, the scope of data collected by the digital tracing solution could be,to a great degree, specified by the legislative measure in place. When and if it is a case, the notion of
+the “necessary data” is largely determined from a centralized,
+public health viewpoint,105 naturally reflecting a broader perspective on a health crisis and a state of emergency. Seen from
+this angle, the architecture of a centralized solution allows for
+richer and potentially more beneficial data being collected and
+used for the public good. However, when approached outside
+of the statutory imperative and considered strictly in light of
+the purpose – trace and notify possibly infected individuals –
+it is highly unlikely that the interpretation of “necessary data”
+would hold out against the inclusion of other data points such
+as, for example, the postal address of the place of users’ assembly.106
+As for the security properties, one could distinguish risks
+inherent to digital contact tracing per se, risks stemming from
+the use of BLE, and risks associated with the information exposed by the network.107 Many security concerns are shared
+by both centralized and decentralized solutions.108 The principal (or “main”) point of differentiation, however, lies in the
+assumptions around the level of trust placed in the server and
+in users. In essence, a centralized approach, by its very architecture as explained in Section 3.1., relies more extensively on
+a server as compared to a decentralized solution.This decision
+naturally attracts the risks of reconstructing social interaction
+graphs, revealing the status of at-risk individuals and potential data leaks and breaches.109 The realization of these risks,
+due to a centralized architecture, can potentially affect a large
+number of users, both infected and not. In contrast, though
+similar risks are present in a decentralized solution in case of
+the possible collusion of the server and third parties, they do
+not concern the same (large) base of users. On the other hand,
+the decentralized approach – due to its more pronounced reliance on users as trusted parties – is not shielded well from
+104 See, e.g. European Union Agency for Cybersecurity, ‘Handbook
+on Security of Personal Data Processing’ (ENISA, 2018) 105 See, e.g. the draft of the Decree N 2020-551 of 12 May 2020
+relating to the information systems mentioned in article 11 of
+law N 2020-546 of 11 May 2020 extending the state of health
+emergency and supplementing its provisions available at https:
+//www.legifrance.gouv.fr/loda/id/JORFTEXT000041869923/ and related deliberations available at https://www.legifrance.gouv.fr/
+jorf/id/JORFTEXT000043023857 accessed 14 December 2022. 106 Ibid. 107 See, e.g. DP-3T, ‘Privacy and security risk evaluation of digital
+proximity tracing systems’ (21 April 2020) <https://github.com/
+DP-3T/documents/blob/master/Security%20analysis/Privacy%
+20and%20Security%20Attacks%20on%20Digital%20Proximity%
+20Tracing%20Systems.pdf> accessed 13 December 2022 108 Ibid; see also Antoine Boutet and others, ‘Proximity Tracing Approaches - Comparative Impact Analysis’ (May 15, 2020) INRIA Research Report. 109 Ibid
+possible attacks from “malicious or curious users”.110 Thus,
+the choice of an architecture unavoidably implies distinct data
+minimization and security ramifications and policy tradeoffs.
+Data protection by design contains a requirement to adopt
+appropriate technical and organizational measures to implement the data protection principles and ensure the protection of the rights of individuals. Decentralized and centralized approaches differ greatly on the point of trust placed
+in the server and in users, with distinct ramifications as far
+as, for example, data minimization and security. As affirmed
+by the EDPB, however, both – centralized and decentralized –
+implementations “should be considered viable options, provided that adequate security measures are in place, each being
+accompanied by a set of advantages and disadvantages.”111
+On the one hand, one might advance that placing the trust
+in users of handsets is the enablement of individual control
+as opposed to centralized control over data processing under
+consideration. On the other, the decentralized solution curtails the ability of a centralized authority to advance its own
+vision of the balance between privacy-related interests and
+other societal objectives. It also amplifies an existing concern
+over the special position of Google and Apple in the overall
+data processing ecosystem. The ability of the said entities to
+act as “gatekeepers” and curate data flows in the digital network has long attracted much critical attention.112 In this context, the development and backing of the technical specification could be seen as one of the expressions and extensions
+of their platform capabilities. As shown, the implementation
+of an alternative, “non-platform”, standard has been marred
+with technical constraints, as was discussed in Section 3.2.
+The specifications developed and endorsed by Google and Apple, on the other hand, had been well-positioned to enjoy the
+effects of “increasing returns on adoption” and “externalities”.
+From the governance perspective, this reflection on
+broader societal choices behind the technical solutions poses
+questions over process legitimacy, platforms’ levers of control,
+expected tradeoffs and required level of transparency of the
+standardization process and its outcome.
+5. Concluding thoughts
+The perspective of standard setting appears particularly helpful in examining the development of digital tracing initiatives. Employed in a descriptive way, it brings to the fore
+the figures of respective stakeholders, their standing and the
+process by which the technical specification unfolded. As
+discussed, the Google/Apple “decentralized” framework had
+110 Such as identification of all infected individuals among encounters, linkability of infected identifiers from users, location
+tracing and monitoring attacks. 111 European Data Protection Board, ‘Guidelines 04/2020 on the use
+of location data and contact tracing tools in the context of the
+COVID-19 outbreak’ (April 21, 2020) 9. 112 See, e.g. Emily Laidlaw, ‘A Framework for Identifying Internet Information Gatekeepers’ (2010) 24 International Review of
+Law, Computers & Technology 263; Orla Lynskey, ‘Grappling with
+“Data Power”: Normative Nudges from Data Protection and Privacy’, (2019) 1 Theoretical Inquiries in Law 189.
+16 computer law & security review 48 (2023) 105802
+come to dominate a standardization landscape owing to various reasons. Given a pronounced potential of the standard
+as a regulatory means, however, such prevalence merits a discussion on its governance properties. As an example of a single vendor-driven standardization, the technical solution by
+Google and Apple had not been subject to requirements of
+transparency, openness,inclusiveness, and “due process”. Furthermore, there was no commitment to allow for unhindered
+and indiscriminate access to the OS functionality.113 The path
+to use the required properties had been walled by contractual
+limitations and bridged by the interface access point (“API”).
+The inclusion of the data protection perspective in the
+standard setting context brought additional examples of potentially problematic areas. Unlike much-publicized issues of
+standard essential IPRs, the data protection dimension has
+not been discussed much. What it highlights, however, is the
+data governance attribute of a single-vendor standardization
+undertaking. Digital contact tracing – as a public measure –
+implies a large-scale (“population”-wide) data processing that
+could entail significant risk to the rights and freedoms of individuals. When and if the prevalent standard is a specification sponsored by private entities, a public discussion around
+suitable and effective safeguards as well as data governance
+becomes an important control mechanism. Even more so in a
+situation of pronounced uncertainty over the bounds of joint
+data controllership in various app implementations. The app
+ecosystem features intricate and interrelated stages of data
+processing, with platforms’ decision-making power going far
+beyond the app functionality as such. Through the example of
+data protection by design, this decision power could be traced
+in various choices around the scope of data collection, security
+of personal data, as well as the issue of a balance of privacyrelated interests and other societal objectives. Accepting that
+access to the operating system is essential, and Google and
+Apple actually play an important role in enabling the app’s
+tracing capabilities, it is critical to reflect on the scope of their
+obligations both with respect to data subjects and also to the
+public at large.
+The health crisis presents a challenging environment for
+standard setting and rulemaking, where the ideals of open
+standard settings and consistent adherence to the best practices of good governance are difficult to attain. However, that
+is not to say that they should be disregarded in their entirety.
+Given the regulatory potential of standard setting, the attention to internal rules of governance appears rather beneficial: both as a way of increasing the validity and legitimacy
+of technical rule setting as well as promoting trust in a proposed solution. Distinct legitimacy propositions and claims
+could be placed at different levels. For instance, one can incorporate them into the rules on participation and inclusiveness. By purposefully assigning and distributing the partaking mandates in a diverse and inclusive manner, these rules
+could address, inter alia, the lack of direct democratic representation (“input” attributes of legitimacy).114 Also, the legit113 Cf figure of FRAND and related discussion on SEP licensing in
+the context of standard setting 114 Fritz Scharpf, Governing in Europe: Effective and Democratic? (Oxford Scholarship Online, 1999) 6; Vivien Schmidt, ‘Democracy and
+imacy proposition could be internalised through the principles of relevance and effectiveness of standard settings forums and as a quality of their deliverables (“output” attribute
+of legitimacy).115 Last but not least, there are issues of procedural transparency, accountability and expert engagement
+that play an essential role in conveying a sense of legitimacy of
+the regulatory practice as well. Thus,there is a diverse array of
+options for internalizing legitimacy concerns of “private governance”. When it comes to the technical specification proposed by Google/Apple, however, it is fair to conclude that the
+legitimacy concerns, for various reasons, did not receive the
+consideration they deserve. There are areas of potential improvement around the process of standard setting itself; there
+are legitimacy concerns around the output of this standardization as well (e.g. contractual limitations around the protocol use,the decision to embed tracing functionality within operating systems).
+As a concluding thought, it is apt to refer to the message of
+the European Data Protection Supervisor on the potential of
+digital tools to alleviate the health crisis. In addressing the interplay of big data and responsibility, he stressed that there
+was also “responsibility for not using the tools we have in
+our hands to fight the pandemic.”116 This responsibility plea
+had not diminished in its value as the health crisis deepened
+and progressed. To be fully operational, however, it needed to
+be qualified: the responsibility was meant to be shared. Just
+like communities are expected to engage in acts of solidarity
+in fighting the disease, private companies, too, have a moral
+and normative imperative and means to advance cohesion.No
+matter how altruistic a private offering might appear, it has to
+come with credible propositions of legitimacy to be accepted
+as a potential regulation. As the ongoing pandemic reveals impressive leaps in its scientific understanding, it also reveals remarkable trust gaps in our ability to supplement crisis management with effective digital solutions. To leap across and
+not to fail next time, it is essential that values of inclusiveness,
+transparency, accountability and openness are meaningfully
+internalised in the very process of technology development.
+Declaration of Competing Interest
+The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+Data availability
+No data was used for the research described in the article.
+Legitimacy in the European Union Revisited’ (2010) KFG Working
+Paper 21. 115 Michael Zürn, ‘Democratic Governance Beyond the NationState: The EU and Other International Institutions,’ (2000) 6 European Journal of International Relations 2 183. 116 European Data Protection Supervisor, ‘EU Digital Solidarity: a
+call for a pan-European approach against the pandemic’ (EDPS,
+April, 6, 2020) <https://edps.europa.eu/sites/edp/files/publication/
+2020-04-06_eu_digital_solidarity_covid19_en.pdf> accessed 14
+December 2022.

@@ -1,0 +1,1471 @@
+Technological Forecasting & Social Change 172 (2021) 121039
+Available online 28 July 2021
+0040-1625/© 2021 The Authors. Published by Elsevier Inc. This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).
+Social media users’ online subjective well-being and fatigue: A network
+heterogeneity perspective
+Puneet Kaur a,f
+, Nazrul Islam b
+, Anushree Tandon c
+, Amandeep Dhir d,e,f,*
+a Department of Psychosocial Science, University of Bergen, Norway b Department of Science, Innovation, Technology and Entrepreneurship, University of Exeter Business School, England, UK c Turku School of Economics, University of Turku, Finland d Department of Management, School of Business & Law, University of Agder, Norway e The Norwegian School of Hotel Management, University of Stavanger, Stavanger, Norway f Optentia Research Focus Area, North-West University, Vanderbijlpark, South Africa
+ARTICLE INFO
+Keywords:
+Online subjective well-being
+Social media fatigue
+Social comparison
+Privacy concerns
+Network heterogeneity
+Limited-capacity model
+ABSTRACT
+Scholars have drawn increasing attention to the implications of the dark side of social media for users’ online
+subjective well-being (OSWB). We develop a research framework based on the limited-capacity model to
+examine the relationship between OSWB and social media fatigue. Moreover, we explore the associations between specific aspects related to network heterogeneity and social media fatigue for social media users in the
+United States of America (USA). Further, we examine the mediating effect of network heterogeneity on the
+association between OSWB and social media fatigue. We utilised a cross-sectional research design to collect data
+from Prolific Academic (N = 320) and analysed the data through structural equation modelling. The results
+indicate that OSWB is positively correlated with the network heterogeneity aspect of self-disclosure and negatively correlated with social comparison. OSWB, moreover, is negatively correlated with fatigue, while privacy
+concerns and self-disclosure are positively correlated with fatigue. Further, of the network heterogeneity aspects
+we considered, only social comparison is a partial mediator for the relationship between OSWB and social media
+fatigue. The findings provide insights into the pathways through which social media users’ OSWB and network
+heterogeneity can induce social media fatigue, raising critical implications for theory and practice.
+1. Introduction
+Social media use entails dual implications for individuals. On the one
+hand, social media platforms have helped people widen their social relationships, improve their self-esteem and life satisfaction and enjoy
+ample opportunities for self-presentation (Malik et al., 2020; Talwar
+et al., 2019). On the other hand, existing research has extensively discussed the negative consequences of social media usage for individuals’
+well-being—for instance, the potential for being cyber stalked (Kaur
+et al., 2020), the fear of missing out (FoMO; Tandon et al., 2021a), sleep
+problems induced by social media use (Kaur et al., 2021; Dhir et al.,
+2021) and social media use induced negative emotions, such as jealousy
+(Tandon et al., 2021b) anxiety, depression (Tandon et al., 2020c; Swain
+and Pati, 2019) and even fatigue (Malik et al., 2020; Dhir et al., 2019,
+2018). Users’ online subjective well-being (OSWB) is among the issues
+to which researchers have devoted increasing attention (Chang and
+Hsu, 2016; Huang, 2016; Diener et al., 2015). Scholars have studied
+OSWB extensively in real-life (i.e. offline) contexts as the user’s evaluation of his or her life as a whole, based on criteria determined by the
+user him or herself (Fan et al., 2019; Diener et al., 2015). OSWB refers to
+a broad spectrum of feelings and emotions, such as satisfaction, happiness and negative and positive affect, experienced by individuals using
+the Internet and social media platforms (Fan et al., 2019; Verduyn et al.,
+2017). In essence, OSWB may be understood as individuals’ happiness,
+perceived social support and satisfaction with their digital or social
+media lives (Huang, 2016).
+Scholars argue that OSWB plays a crucial role in determining the
+success of any online platform, including social media (Chang and Hsu,
+2016). This may be attributed to the fact that social media platforms
+facilitate users’ engagement in heterogeneous interactions and communications, also referred to as network heterogeneity (Kim and Kim,
+2017), which produces benefits, such as increasing satisfaction with
+* Corresponding author at: Department of Management, School of Business & Law, University of Agder, Norway
+E-mail address: amandeep.dhir@uia.no (A. Dhir).
+Contents lists available at ScienceDirect
+Technological Forecasting & Social Change
+journal homepage: www.elsevier.com/locate/techfore
+https://doi.org/10.1016/j.techfore.2021.121039
+Received 14 February 2021; Received in revised form 13 July 2021; Accepted 15 July 2021 
+Technological Forecasting & Social Change 172 (2021) 121039
+2
+social media communication (Munzel et al., 2018) and bridging and
+building social capital (e.g. Roberts and David, 2020). Notably, multiple
+studies have examined OSWB as a consequence of social media use (e.g.,
+Wang et al., 2017) in terms of positive aspects, such as social capital (e.
+g., Roberts and David, 2020; Chang and Hsu, 2016), self-disclosure (e.g.
+Huang, 2016) and satisfaction with life (e.g. Chiu et al., 2013), as well as
+negative aspects, such as problematic Internet use (e.g. Mei et al., 2016).
+In comparison, scholars have rarely investigated the role of OSWB as an
+antecedent of network heterogeneity and negative aspects of social
+media use, i.e. the dark side of social media.
+The past decade has produced increasing studies aimed at understanding the dark side of social media, which refers to the phenomena
+associated with social media use that adversely influence users’ wellbeing, including social media fatigue (Dhir et al., 2019; Malik et al.,
+2020) and FoMO (Tandon et al., 2020). For instance, Appel et al. (2020),
+in a meta-analytic review, found a small yet significantly negative association between social media use and various aspects of well-being,
+such as life satisfaction, loneliness and depression. In another study,
+James et al. (2017) discussed both the positive (bright side) and negative
+(dark side) aspects of digital media use for teenagers’ well-being. The
+authors also called for more research to clarify the nuanced associations
+among individual, technological and situational factors that produce
+positive versus negative outcomes. Subsequently, we argue that it would
+be beneficial to understand how OSWB affects users’ network heterogeneity and translates into negative consequences. We contend that
+examining these relationships is especially important in the context of
+the COVID-19 lockdown, which has caused many individuals to turn
+towards social media as a primary channel of communication that enables them to maintain social connectedness.
+We expect the OSWB of social media users to be associated with
+individual differences in the network heterogeneity in which they
+engage. In particular, we focus on three such aspects related to the dark
+side of social media: (a) concerns about the privacy of shared information (or privacy concerns), (b) users’ inclinations towards social comparison and (c) self-disclosure. In short, privacy concerns relate to users’
+apprehensions about their perceived control over the use of and potential misuse of the information they share on social media (Dhir et al.,
+2019), whereas self-disclosure is the act of sharing information on social
+media to seek relatedness. Moreover, social media users may engage in
+social comparison to seek information about others and thereby improve
+themselves or their self-perceptions. We posit that individuals’ OSWB
+and engagement with these three aspects correlate with their experienced social media fatigue (or fatigue), representing the social, information or communication overloads resulting from excessive social
+media use. The literature has shown that these individual-level aspects
+of social media use, i.e. privacy concerns, social comparison and
+self-disclosure, are associated with problematic social media use and,
+subsequently, fatigue (e.g. Dhir et al., 2018, 2019). However, specific
+gaps appear in our existing knowledge about these associations.
+In particular, we delineate three critical gaps in the current literature
+on OSWB. First, we have limited knowledge of whether OSWB, which
+was initially considered a positive motivation for using social media, can
+spiral towards the darker side of social media use due to individual
+differences in network heterogeneity. Second, to the best of our
+knowledge, little prior research has examined the relationship between
+OSWB and the dark side of social media. Social media provides its users
+with various gratifications, including opportunities for information
+sharing and self-expression (Talwar et al., 2019). In turn, these gratifications may be related to OSWB, i.e. the satisfaction individuals derive
+from their social media lives by building a positive self-image, social
+connectedness, etc. Therefore, it is natural to assume that OSWB is one
+of the key reasons for social media use. Whether it leads to a downward
+spiral culminating in users’ experience of the dark side of social media,
+however, remains a pertinent yet underexplored question. Third, the
+literature suggests that individuals’ experiences with the dark side of
+social media are influenced by intervening variables (e.g. Keles et al.,
+2020; Chai et al., 2019), such as self-disclosure and social comparison,
+which may be related to the nature of the activities or interactions in
+which they engage on these platforms, i.e. network heterogeneity.
+However, little research has studied the role of network heterogeneity as
+an intervening variable for OSWB or its association with aspects of the
+dark side of social media, such as fatigue.
+To address these gaps, we raise and answer the following two
+research questions: (a) What are the associations among OSWB, privacy
+concerns, self-disclosure, social comparison and social media fatigue?
+(b) Do privacy concerns, social comparison and self-disclosure exert an
+intervening (mediating) effect on the association between OSWB and
+social media fatigue? We utilise the theoretical lens of the limitedcapacity model (LCM; Lang, 2000) to understand how OSWB and individual differences in network heterogeneity-related aspects of privacy
+concerns, social comparison and self-disclosure may lead to the adverse
+outcome of fatigue. Using the theoretical lens of LCM, we also examine
+how these network heterogeneity aspects mediate the association between OSWB and fatigue. We test the hypothesised associations by
+analysing data on social media users based in the United States of
+America (USA) collected through Prolific Academic.
+Our study presents three contributions to the existing literature.
+First, we study OSWB, which has been a lesser investigated construct in
+social media research. Given that social media has become immensely
+popular among people from varied demographic, geographic and cultural contexts (Dhir et al., 2021), examining the implications of its use
+for individual well-being is imperative, especially in light of the
+COVID-19 pandemic and its consequent lockdown. Second, we examine
+a hitherto unexplored aspect of the relationship between positive and
+negative aspects of social media use by proposing OSWB as an antecedent of individual differences in network heterogeneity (i.e. privacy
+concerns, self-disclosure and social comparison) and fatigue. This is an
+essential contribution because existing research has linked OSWB
+(Chang andHsu, 2016) and fatigue (Malik et al., 2020; Dhir et al., 2019,
+2018) to individuals’ usage and continuance intentions for social media
+platforms. Our study offers information on how social media service
+providers can enhance existing and prospective social media users’
+OSWB and circumvent their experience of fatigue. Third, we study the
+mediating role of individual differences in network heterogeneity for the
+association between OSWB and fatigue, elucidating a pathway through
+which social media use for a positive purpose (i.e. OSWB) can lead to a
+negative outcome (i.e. fatigue). Increasing debate surrounds the dark
+side of social media use (e.g. Talwar et al., 2019), which threatens users’
+OSWB (e.g. Dhir et al., 2018). As such, insights about OSWB’s correlations with the dark side of social media are immensely valuable to
+practitioners (e.g. educators and psychologists) who work with individuals experiencing indicators of diminished well-being and fatigue
+due to social media use.
+The remainder of the article is structured as follows. Section Two
+outlines the theoretical grounding of our study and the arguments for
+the hypothesised associations. Section Three explains the methodological approach of our research, and Section Four presents the results of
+the data analysis. We discuss the findings in Section Five, while the
+concluding remarks, implications and limitations of our study, along
+with the scope for future research, appear in Section Six.
+2. Theory and hypotheses development
+2.1. Limited-capacity model (LCM)
+We employ LCM to develop the research framework of our study. A
+widely accepted theory, LCM makes two broad assumptions applicable
+in the present context (Lang, 2000): (a) social media users are information processors and (b) social media users possess limited cognitive
+capacity and mental resources (i.e. recognition memory, agility to
+allocate, respond or even react) to process new information, such as
+media content. Based on these assumptions, scholars argue that LCM is a
+P. Kaur et al. 
+Technological Forecasting & Social Change 172 (2021) 121039
+3
+suitable theoretical framework for explaining fatigue (Dhir et al., 2018,
+2019), communication (Koltay, 2017) and social overload (Whelan
+et al., 2020; Maier et al., 2015). According to Bright et al. (2015), social
+media users process information in three steps: (a) receiving a stimulus
+(e.g. exposure to online content), (b) analysing or encoding the information and (c) storing the information cognitively for retrieval at a later
+time. However, the cycle of encoding, storage and retrieval is only
+possible if the user has sufficient cognitive space available for processing
+the information or content.
+We utilise LCM as a basis for understanding how a positive motivation, such as OSWB, can translate into a negative aspect, such as fatigue,
+from two perspectives. First, we use LCM to elucidate the association
+among OSWB, aspects of network heterogeneity (privacy concerns, social comparison and self-disclosure) and fatigue. We posit that the
+intrinsic desire to tap sources of well-being causes individuals to seek
+relatedness via social media. Upon experiencing enhanced well-being,
+social media users are initially motivated by perceived gratifications,
+including improving their self-esteem or comparing themselves with
+others. In pursuing such motives, which have been discussed extensively
+in the extant research (e.g. Luo and Hancock, 2020), these individuals
+may seek validation through excessive use of social media platforms,
+which would then be associated with greater privacy concerns, social
+comparison and self-disclosure.
+Second, the propositions of LCM can also explain the association
+between network heterogeneity and fatigue. We argue that the incessant
+information and communication individuals receive due to the network
+heterogeneity aspects of social media use can lead to overload and thus a
+reduction in users’ cognitive capacity to process information (e.g. Dhir
+et al., 2018, 2019). We expect OSWB to be associated with higher aspects of network heterogeneity, wherein each aspect contributes
+uniquely to perceived overloads, both as antecedents and intervening
+(mediating) variables. We argue that greater self-disclosure and social
+comparison causes social media users to increase their content sharing
+activities and review of others’ shared content, leading to information
+and communication overload. Increased use of social media platforms
+can also increase users’ concerns about the security and possible misuse
+of their personal information available online (e.g. Dhir et al., 2019),
+which may cause them to continually track their social media accounts
+to alleviate these concerns and, once again, result in information overload. Based on LCM, we suggest that such overloads reduce users’ ability
+to allocate sufficient cognitive resources to process the information
+generated due to network heterogeneity aspects (i.e. messages and
+content) and thus cause fatigue.
+Based on the tenets of LCM, we propose that OSWB is associated with
+the network heterogeneity aspects of privacy concerns, self-disclosure
+and social comparison as well as with fatigue (Fig. 1). Drawing from
+LCM and the existing research on the dark side of social media, we
+examine whether, in addition to influencing fatigue directly, these
+network heterogeneity aspects mediate the association of OSWB with
+fatigue. Thus, we study how these aspects of network heterogeneity
+interact with OSWB and fatigue as building blocks of the adverse consequences social media users experience.
+2.2. Privacy concerns and fatigue
+Although few studies have examined the correlates of fatigue (e.g.
+Dhir et al., 2019), scholars have found that social media users’ privacy
+concerns share a significant relationship with this outcome (e.g. Fan
+et al., 2020; Zhu and Bao, 2018). For instance, Lee et al. (2019) suggested that users of social media platforms, such as Facebook, can
+exhibit concerns about the impact of their disclosed information on their
+reputation among digital social groups, which can also induce fatigue.
+Dhir et al. (2019) determined further that privacy concerns positively
+influence fatigue, not just on social media but also in mobile messaging
+apps. Moreover, Lee and Hsieh (2013) observed that privacy concerns
+are an integral component of fatigue, and they included privacy in their
+fatigue measurement scale accordingly. Conversely, Malik et al. (2020)
+found that privacy concerns did not influence fatigue for individuals
+using mobile messaging apps, such as WhatsApp (a mobile-based social
+media app). Prior findings on the influence of privacy concerns for fatigue thus exhibit some contradictions. However, Dhir et al. (2019)
+suggested that fatigue results from social media users’ occupation with
+Fig. 1. Hypothesised research framework.
+P. Kaur et al. 
+Technological Forecasting & Social Change 172 (2021) 121039
+4
+multiple concerns that consume their limited cognitive capacities.
+Drawing from LCM, we concur with Dhir et al. (2019) and posit that
+users’ limited cognitive space and information-processing ability may be
+burdened due to increased concerns or anxiety about the privacy of their
+shared content as well as personal information on social media, which
+might translate into fatigue. Hence, we hypothesise as follows:
+H1. Privacy concerns positively correlate with fatigue.
+2.3. Online subjective well-being and privacy concerns
+While multiple studies relate privacy concerns with the activity
+levels of users on social media platforms (Malik et al., 2020; Dhir et al.,
+2019), minimal research examines the direct association of privacy
+concerns and OSWB. For example, Ye and Ho (2019) determined that
+young Internet users’ privacy concerns influenced their privacy protection behaviours, which in turn, along with the time spent on the
+Internet, negatively impacted their subjective well-being. Dhir et al.
+(2019) discussed the active debate surrounding privacy concerns in the
+context of social media use, especially because social media platforms
+are designed to induce users to create and share content actively. On the
+one hand, such active content generation and sharing can produce
+positive benefits, such as building social capital and fulfilling individuals’ needs for belongingness or relatedness (e.g. Bano et al.,
+2019). On the other hand, scholars also assert that increased engagement with online media can also lead users to experience privacy concerns due to increasing data breaches (Choi et al., 2018) and specific
+affordances of social media platforms (Choi and Sung, 2018). For
+instance, Piwek and Joinson (2016) found that some users preferred
+Snapchat due to their perceived satisfaction with its affordances for
+preserving the privacy of shared content, notifying users of content
+duplication (e.g. notices of a screenshot being captured) and allowing
+persistence content.
+Further, existing research has also explored—albeit in a limited
+manner—the influence of emotions and feelings concerning social
+media and other new media platforms on users’ privacy concerns and
+resultant behaviour (e.g. Choi et al., 2018; Cho et al., 2020). For
+example, Li et al. (2017) found that cognitive appraisals and emotions
+towards an online website predominantly determined users’ online
+privacy behaviours. In another study, Choi et al. (2018) reported that
+emotional exhaustion and cynicism related to privacy (which the authors termed ‘privacy fatigue’) positively predicted users’ intention to
+disclose personal information on and disengage from online platforms.
+Users’ satisfaction with their social media platforms’ affordances and
+the positive emotions (e.g. perceived security) associated with their use
+of these platforms may be related to the level of their experienced privacy concerns. To the best of our knowledge, however, no evidence
+exists for the influence of OSWB on users’ privacy concerns. Moreover,
+most existing studies exploring the role of privacy concerns for social
+media use behaviour and associated experiences, including OSWB, have
+utilised cross-sectional surveys (e.g. Malik et al., 2020; Dhir et al., 2019).
+Such surveys do not allow us to determine the causality and directionality of the association between privacy concern and OSWB. However,
+extrapolating from the findings mentioned above, we argue that users
+driven by greater OSWB (e.g. satisfaction with their online lives, emotions and social media platform affordances) to actively use social media
+and participate in network heterogeneity also have greater concerns for
+the privacy of their shared content. Thus, we contend that when a social
+media user decides to share content to derive OSWB-related benefits,
+they are concurrently concerned about preserving OSWB by ensuring
+the privacy of their shared content. Thus, we hypothesise the following:
+H2. OSWB positively correlates with privacy concerns.
+2.4. Social comparison and fatigue
+Social comparison can be understood as the natural tendency of users
+to compare themselves to others if they are unable to formulate opinions
+of their own abilities (Talwar et al., 2019; Festinger, 1954). Social
+comparison usually aims towards self-improvement and enhancing
+one’s own perceptions, for example, in terms of self-esteem and
+impression management (Talwar et al., 2019). In the absence of a specific reference point for comparison, however, individuals are inclined
+to compare themselves to those they consider superior, especially on
+social media (Festinger, 1954). This social comparison can engender
+negative emotions, such as envy (Malik et al., 2020; Talwar et al., 2019).
+Moreover, we argue that social media users who are inclined to engage
+in comparisons with others will continuously review others’ shared
+content to obtain information, or references for comparison, causing
+information overload (Malik et al., 2020; Dhir et al., 2019). We posit
+that this information overload and the negative emotions experienced
+accordingly can burden a social media user’s cognitive capacity, as
+suggested by LCM, thereby resulting in fatigue. Recent studies have
+determined a significant positive association between social comparison
+and fatigue (Malik et al., 2020; Dhir et al., 2019). For instance, Malik
+et al. (2020) suggested that the association between social comparison
+and fatigue may be attributed to users’ continual efforts to craft
+impressive content that enhances their social image. We further argue
+that such fatigue may be attributed to the negative feelings users
+experience due to these comparisons, which can lessen users’ desire and
+motivation to use social media. Thus, based on the prior literature and
+consistent with LCM, we contend that the negative feelings and information overload users experience by engaging in social comparisons
+limit their cognitive ability or capacity to process social media information and thus induce fatigue. Therefore, we propose the following
+hypothesis:
+H3. Social comparison positively correlates with fatigue.
+2.5. Online subjective well-being and social comparison
+The extant literature reports that social comparison correlates with
+subjective well-being (SWB, Park and Baek, 2018; Verduyn et al., 2017),
+but consensus is lacking about whether their relationship is positive or
+negative. For example, Malik et al. (2020) asserted that individuals’
+inclination to engage in comparison is contingent on the positive experiences others share on social media. Conversely, studies have also
+suggested that social comparison can produce adverse effects for SWB by
+evoking envy (e.g. Latif et al., 2020). For instance, Gerson et al. (2016)
+found that SWB was negatively associated with social comparison.
+Verduyn et al. (2020) also suggested that social media users’ tendency to
+participate in social comparison may negatively affect them by causing
+them to experience negative feelings. The authors further posited a
+detrimental cyclical relationship between SWB and social comparison
+(Verduyn et al., 2020). Prior research linking social comparison with
+various facets of SWB supports this supposition. For instance, Park and
+Baek (2018) determined that individuals’ social comparison orientation
+is associated with general life satisfaction via the emotions created due
+to social comparison.
+However, prior research examining the association between social
+comparison and SWB has been primarily cross-sectional and correlational, limiting researchers’ derivation of causal inferences. Thus, an
+opposite relationship may also exist wherein social media users’ belief
+about having an ideal digital life (i.e. their OSWB) causes them to
+disengage from social comparison. For example, Jang et al. (2016) found
+a negative relationship between social comparison and mental health,
+which they attributed to the idea that the content others share on social
+media platforms is less likely to detrimentally affect an individual with
+higher self-esteem.
+While, to the best of our knowledge, no prior study examines our
+proposed directionality of association, we contend that individuals with
+greater OSWB may exhibit a reduced proclivity for social comparison
+due to their resilient belief in having a high satisfaction with their social
+media lives. Our supposition is based on prior research that suggests
+negative emotions may be linked to an increased proclivity towards
+P. Kaur et al. 
+Technological Forecasting & Social Change 172 (2021) 121039
+5
+engaging in social comparison (e.g. Gerson et al., 2016; Latif et al., 2020;
+Verduyn et al., 2020). Extrapolating from previous studies and
+addressing the lack of knowledge about the directionality of the association due to prior correlational research, we posit that individuals with
+greater OSWB may exhibit positive emotions and personal traits (e.g.
+high satisfaction and self-esteem; e.g. Jang et al., 2018) that drive their
+social media use. We anticipate that such individuals will possess greater
+resilience towards affirming their OSWB through comparison with
+others on social media platforms. Thus, we propose the following
+hypothesis:
+H4. OSWB negatively correlates with social comparison.
+2.6. Self-disclosure and fatigue
+The existing literature suggests that self-disclosure on social media
+can expose users to multiple adverse outcomes, such as online harassment, trolling and cyber-bullying (Krasnova et al., 2009). According to
+Talwar et al. (2019), self-disclosure may even result in individuals’
+inclination to share misinformation and fake news. Scholars have suggested that such adverse incidences may translate into stress, anxiety
+and fatigue among social media users (Malik et al., 2020; Dhir et al.,
+2019; Rains et al., 2016). However, we contend that self-disclosure may
+cause fatigue for another reason as well. Because the information or
+content social media users disclose attracts attention from online friends
+and generates a high amount of social media communications, for
+example, through notifications about likes and comments on their posted content, we expect social media users’ efforts to keep up with and
+respond to such notifications to burden their cognitive capacity and
+cause fatigue.
+The findings of recent studies examining fatigue as a correlate of selfdisclosure support our supposition. For instance, Malik et al. (2020)
+found that self-disclosure predicted fatigue for users of mobile
+messaging apps, and they attributed this outcome to users’ concerns
+about revealing sensitive information on social media. Consistent with
+LCM, Dhir et al. (2019) also suggested that self-disclosure on social
+media and mobile messaging apps has a limiting effect on users’
+cognitive space, which contributes to fatigue. Thus, we hypothesise the
+following:
+H5. Self-disclosure positively correlates with fatigue.
+2.7. Online subjective well-being and self-disclosure
+Scholars have posited that multiple gratifications can be derived
+through self-disclosure on social media, including building friendships
+and intimate relationships, engaging in self-expression and developing
+one’s own identity (Kramer ¨ and Schawel, ¨ 2020). Luo and Hancock
+(2020) also observed that self-disclosure allows users to perceivably
+gain increased social connectedness, support and capital. However,
+conspicuously few studies have examined the relationship between
+OSWB and self-disclosure, and those that have present inconsistent information on the association between the two. For example, Huang
+(2016) found a positive association between well-being and
+self-disclosure, while Kim et al. (2014) observed a negative one. A
+possible reason for these inconsistent results may be differences in the
+target population, such as the age groups studied. For example, Huang’s
+(2016) work was based on young adults (below 30 years old), while Kim
+et al. (2014) focused on a population between 30 and 40 years of age. It
+is possible that individuals belonging to different age groups may, in
+fact, have different perspectives regarding the long-term risks associated
+with social media use (Tandon et al., 2020), such as self-disclosure. For
+instance, Richey et al. (2018) found that participants were wary that
+social media could be a form of surveillance for their professional colleagues or seniors, and they were, therefore, more cautious about their
+posts. Contrarily, Throuvala et al. (2019) observed that self-disclosure
+practices were prevalent among adolescents, who utilised these practices to identify common interests among their virtual groups and
+responded to them as an incentive for social media use. Moreover, Dhir
+(2016) suggested that self-disclosure practices are essential for adolescent social media users because such practices are linked to their
+developmental goals.
+While we could not find existing evidence for the influence of OSWB
+on self-disclosure, we argue that if social media users have high OSWB,
+experience positive emotions and are happy with their social media
+lives, they will be more likely to engage in self-disclosure on social
+media platforms. Our supposition is based on prior findings that suggest
+that an individual’s psychological state influences self-disclosure. For
+instance, Jeong et al. (2019) noted a dearth of studies examining how an
+individual’s state of mind influences his or her social media activities.
+However, they also suggested that individuals with an uncomfortable
+psychological state arising from exposure to differing opinions on social
+media may choose to selectively disclose or limit themselves on these
+platforms. Cheung et al. (2015) determined that perceived benefits,
+including enjoyment and relationship building, are strong predictors of
+self-disclosure on social media platforms. In a recent study, Nabity-Grover et al. (2020) suggested that during the COVID-19 pandemic, individuals may have relied on self-disclosure via social media to maintain
+connectedness, and they call for further research to understand the
+mechanisms behind self-disclosures during and related to the pandemic.
+Extrapolating from these studies, we contend that social media users
+with a higher OSWB due to the perceived and derived benefits of social
+media use may engage in more self-disclosure practices to reaffirm their
+well-being (Luo and Hancock, 2020) and derive benefits, such as
+enjoyment (Cheung et al., 2015) and connectedness (Nabity-Grover
+et al., 2020). We expect OSWB to correlate positively with
+self-disclosure in the current scenario as individuals across the globe
+turn to social media to maintain connectivity, relationships and psychological well-being. Thus, we hypothesise as follows:
+H6. OSWB positively correlates with self-disclosure.
+2.8. Online subjective well-being and fatigue
+The existing literature mainly reflects three schools of thought on the
+correlations shared between social media use and SWB. These schools of
+thought showcase extremely divergent views (Webster et al., 2021). The
+first suggests an absence of any significant association between the use
+of social media and its attributes, on one hand, and users’ SWB, on the
+other (Vergeer and Pelzer, 2009). However, an increasing number of
+recent studies have disproved this school of thought by consistently
+revealing a significant association between the two variables. These
+findings have motivated discussions on the remaining two schools of
+thought, which we discuss next.
+The second school of thought reports that users’ SWB may be
+negatively affected by social media usage (Yao and Cao, 2017). Relatively recent literature has observed that expectations of positive benefits, such as building inter-personal relationships and engaging in social
+interactions, may drive individuals’ social media use and the incumbent
+activities they undertake (Kr¨
+amer and Schawel, ¨ 2020, Roberts and
+David, 2020; Cao et al., 2019). Such perceived benefits may increase
+users’ attachment to social media platforms, which may encourage users
+to excessively or compulsively use social media (Oberst et al., 2017),
+thereby producing negative psychosocial outcomes (Roberts and David,
+2020). In fact, compulsive use was found to have a significant positive
+association with fatigue (Dhir et al., 2018).
+On the contrary, the last school of thought posits that high SWB
+could result from social media use (Reinecke and Hofmann, 2016),
+thereby implying a positive effect of using social media on users’ SWB.
+For instance, Satici and Uysal (2015) determined that SWB predictors of
+life satisfaction and subjective happiness were negatively correlated
+with the problematic use of Facebook. We agree with this school of
+thought and also contend that social media users with high OSWB
+experience fewer negative phenomena consistently associated with social media use, including fatigue. We assert that these users’ satisfaction
+P. Kaur et al. 
+Technological Forecasting & Social Change 172 (2021) 121039
+6
+and the higher levels of perceived benefits they derive from social media
+use cause them to allocate greater time and cognitive capacity to process
+the information and content shared on these platforms, which, in turn,
+leads them to experience lower levels of social media fatigue. Our
+contention is also advanced by the fact that the demographic cohort on
+which we focus, i.e. young adults, considers social media to be an integral part of their lives and are highly frequent users of these platforms
+(Statista, 2020).
+Because the prevalent methodologies (e.g. cross-sectional studies)
+used to study the correlation between SWB and social media use hinder
+efforts to ascertain causality, our study achieves an important objective.
+In fact, our efforts to examine whether OSWB and fatigue are negatively
+correlated answer calls from recent studies to better understand the
+factors that protect social media users from the adverse consequences of
+using these platforms (e.g. Webster et al., 2021), especially when those
+users are adolescents and young adults who are particularly vulnerable
+to such consequences. Thus, we posit that OSWB-driven social media
+users allocate greater cognitive processing abilities to process social
+media communique and experience lower levels of fatigue. Based on this
+discussion, we hypothesise the following:
+H7. OSWB negatively correlates with fatigue.
+2.9. The mediating role of network heterogeneity—privacy concerns, selfdisclosure and social comparison
+The prior literature has presented inconsistent findings regarding the
+relationship between well-being and social media use (e.g. Chai et al.,
+2019), suggesting that intervening variables may influence the relationship between OSWB and the psychosocial consequences of social
+media use (Keles et al., 2020), including fatigue. Recent studies examining the negative psychological outcomes associated with social media
+use have reported the complexity of this relationship and the need to
+investigate moderating and mediating variables that might influence it
+(Keles et al., 2020; Chai et al., 2019; Reer et al., 2019). Keles et al.
+(2020) indicated that behaviours and motives related to social media use
+might be more influential as mediators than is the intensity of use. Based
+on these studies, we examine whether, in concurrence with a direct influence, the network heterogeneity aspects—that is, privacy concerns,
+self-disclosure and social comparison—mediate the association between
+OSWB and fatigue. Our supposition finds support in LCM, which contends that privacy concerns, self-disclosure and social comparison can
+adversely influence social media users’ cognitive processing abilities
+(Dhir et al., 2019). This should, in turn, also influence the association
+between OSWB and fatigue. We contend that due to OSWB, social media
+users engage in increased network heterogeneity and exhibit individual
+differences with respect to the degree of this heterogeneity.
+2.9.1. Privacy concerns
+The role of privacy concerns involving the use of social media and its
+behavioural outcomes has also seen limited examination in the context
+of fatigue (Malik et al., 2020; Zhu and Bao, 2018). However, the literature has suggested that privacy concerns have a mediating effect on
+self-disclosure via social media. For instance, Tsay-Vogel et al. (2018)
+determined that privacy-related concerns mediate between Facebook
+use and offline and online disclosures. According to Alashoor et al.
+(2017), privacy concerns mediate the associations between specific
+antecedents (big data-related familiarity, self-efficacy, perceived control
+and vulnerability) and outcomes (self-disclosure concerns and accuracy). Zhu and Bao (2018) also determined that privacy concerns in the
+context of WeChat (a social networking service) mediate the association
+between fatigue, on one hand, and perceived complementarity and
+network size, on the other. To the best of our knowledge, however, no
+existing evidence supports the mediating effect of privacy concern on
+the association between OSWB and fatigue. This represents a key gap in
+the literature because privacy concerns play a significant role in the dark
+side of social media-related issues, such as fatigue (Malik et al., 2020;
+Dhir et al., 2018, 2019; Bright et al., 2015). We argue that such a
+mediating effect may exist as an individual’s level of privacy concerns
+may influence his or her perceived OSWB from social media, ability to
+process social media-related communications and, consequently, fatigue. Thus, we draw upon LCM to propose the following hypothesis:
+H8a. Privacy concerns mediate the association between OSWB and
+fatigue.
+2.9.2. Social comparison
+Scholars have previously studied the mediating role of individuals’
+inclinations to compare themselves while using social media. Rozgonjuk et al. (2019) found that users’ orientation for social comparison
+mediated between their personality traits (neuroticism) and passive use
+of a specific social media platform (i.e. Facebook). Similarly, Reer et al.
+(2019) determined that users’ social comparison orientation mediated
+the relationship between FoMO and psychological well-being. Moreover, scholars have suggested that social media users may engage in
+excessive passive use of these platforms to gain information and thereby
+create a point of reference for social comparison (Malik et al., 2020;
+Talwar et al., 2019). We argue that individuals with enhanced OSWB, i.
+e. those who are happy and satisfied with their social media lives, are
+more motivated to compare themselves with others on these platforms.
+Moreover, we draw from existing literature and the propositions of LCM
+to argue that individuals’ tendencies to compare themselves on social
+media burden their cognitive space and indirectly affect the relationship
+between OSWB and fatigue.
+H8b. Social comparison mediates the association between OSWB and
+fatigue.
+2.9.3. Self-disclosure
+While most of the research on the dark side of social media has
+investigated self-disclosure as an antecedent of social media use-related
+outcomes, such as fatigue (e.g. Malik et al., 2020; Dhir et al., 2019), few
+scholars have investigated the indirect effect of self-disclosure. For
+instance, Varnali and Toker (2015) found that self-disclosure mediated
+between personality traits oriented towards communication and social
+media use. Kim et al. (2014) also examined self-disclosure as a mediator
+between well-being and the positive (communication, entertainment
+and information) and negative (privacy concerns) factors associated
+with social media use. They further determined that self-disclosure
+mediated between well-being and positive factors, whereas privacy
+concerns were insignificantly associated with self-disclosure. Thus,
+limited research supports the role of self-disclosure as a mediator for
+social media-related behaviours. However, we draw from the available
+literature and intuitively argue that self-disclosure indirectly influences
+the associations between OSWB and fatigue by increasing the amount of
+information generated and thus increasing users’ burden of cognitive
+processing. Hence, we hypothesise as follows:
+H8c. Self-disclosure mediates the association between OSWB and fatigue.
+2.10. Control variables
+Individual-level differences may also influence social media-related
+behaviours and outcomes. This is especially true for sociodemographic variables, such as age (Reer et al., 2019). Thus, we
+follow prior studies (e.g. Dhir et al., 2021) in including age and gender
+as control variables. Moreover, since we focus on young adults as the
+respondent group, we also include educational qualification as a control
+variable. Indeed, social media research has indicated that social media
+use and its outcomes may vary with individuals’ academic performance
+and achievement (e.g. Swain and Pati, 2019).
+P. Kaur et al. 
+Technological Forecasting & Social Change 172 (2021) 121039
+7
+3. Research methodology
+3.1. Study instrument
+We developed the instrument for the study by adapting existing scale
+items (see Table 1), which measured responses on a five-point Likert
+scale (wherein 1 = strongly disagree and 5 = strongly agree). To ensure
+that the items and study instruments were appropriate, we conducted a
+pilot study with 12 young adult social media users between 18 and 21
+years of age. Following the pilot study, we made minor modifications in
+the wording of three items to enhance their clarity and suitability in the
+present context. Furthermore, to ensure the content and face validity of
+the adopted items, we followed prior scholars (e.g. Talwar et al., 2019)
+in soliciting the opinions of three expert researchers from the fields of
+psychology, information systems science and marketing. The experts
+suggested further modifications in the wording of four items, which we
+incorporated. Thus, the pilot study and experts’ suggestions confirmed
+that the study’s instrument and items were valid and suitable for further
+use.
+3.2. Sample and data collection
+We utilised a cross-sectional survey, which has been extensively used
+in social media literature (e.g. Dhir et al., 2018, 2019, 2021). In May
+2021, we used Google Forms to collect the data from young adult social
+media users (aged between 18 and 21 years) via Prolific Academic, which
+is an online recruitment platform used extensively by scholars. We
+informed the respondents that their participation in the survey was
+voluntary and anonymised and assured them that we would use their
+responses only for academic purposes. We limited the survey to respondents based in the USA and received 320 valid responses, which we
+subsequently analysed (see Table 2 for a socio-demographic profile of
+the respondents).
+We selected the USA as the study context because it includes over
+223 million active social media users. Approximately 90% of these users
+fall within the ages of 18 to 29 years, and approximately 30% selfreported being addicted to social media platforms (Statista, 2020). We
+chose young adults as our study participants for two key reasons. First,
+social media platforms are extremely popular among this age group,
+especially in the USA (Statista, 2020), to fulfil varied purposes, including
+self-presentation, self-expression and identity building (Malik et al.,
+2020; Dhir et al., 2018). Second, this age group is especially vulnerable
+to the positive and negative attributes of social media use, such as stress
+(Maier et al., 2015), technology overuse (Tarafdar et al., 2015) and
+social overload (Maier et al., 2015). Deeper insights into the correlations
+between young adults’ OSWB and the negative aspects of social media
+use can help guide their safe use of these platforms to avoid these
+negative attributes, which may hinder users’ development.
+3.3. Data analysis
+We analysed the data through SPSS 26 and AMOS 26. We used
+structural equation modelling (SEM) because it is one of the most
+commonly used methods of data analysis in the context of social media.
+Furthermore, our methodology fulfilled the stringent requirements
+required to conduct it (e.g. Tandon et al., 2020; Dhir et al., 2018, 2019).
+4. Results
+4.1. Normality and common method bias
+We tested the assumptions of normality and multicollinearity before
+conducting SEM. The skewness and kurtosis values fell below the recommended thresholds and confirmed that the data met the assumptions
+for normality. Furthermore, the variance inflation factor and tolerance
+values confirmed the absence of multicollinearity issues, which may
+Table 1
+Items and factor loadings for the measurement and structural models.
+Study measures Measurement items CFA SEM
+Privacy concerns (PC)
+(Dhir et al., 2019; Malhotra
+et al., 2004)
+Compared to others, I am more
+sensitive about the way social
+media platforms handle my
+personal information.
+.73 .73
+To me, it is the most important
+thing to keep my privacy intact on
+social media platforms.
+.72 .72
+I am concerned about threats to
+my personal privacy on social
+media platforms today.
+.78 .78
+I am concerned about my privacy
+on social media.
+.88 .88
+I am concerned that the
+information I submit on social
+media platforms could be
+misused.
+.77 .77
+I am concerned that a person can
+find my private information on
+social media.
+.74 .74
+Social comparison (SC)
+(Gibbons & Buunk, 1999;
+Latif et al., 2020; Reer et al.,
+2019; Steers et al., 2014;
+Talwar et al., 2019)
+When I am on social media, I tend
+to compare myself with others.
+.84 .84
+When I am on social media, I
+always pay attention to how I do
+things compared with others.
+.75 .75
+When I am on social media, I often
+check how I am doing socially
+compared with others.
+.81 .81
+When I am on social media, I often
+compare my own
+accomplishments with others.
+.84 .84
+When I am on social media, I often
+compare how others handle the
+same problems that I am facing
+and/or handling.
+.71 .71
+When I am on social media, I
+compare my situation in life with
+that of others.
+.83 .83
+Self-disclosure (SD)
+(Dhir et al., 2019; 2021;
+Gibbs et al., 2006;
+Wheeless, 1978)
+I have a detailed profile on social
+media.
+.80 .80
+My social media profile tells a lot
+about me.
+.85 .85
+I reveal a lot of information about
+myself on social media.
+.84 .84
+Online subjective wellbeing (OSWB)
+(Ahn & Shin, 2013;
+Brunstein, 1993; Chang &
+Hsu, 2016; Diener et al.,
+2015; Suh and Koo, 2011)
+In most respects, my online social
+life is close to my ideal.
+.78 .78
+The conditions of my online social
+life on social media platforms are
+excellent.
+.78 .78
+I am satisfied with my online
+social life on social media
+platforms.
+.88 .88
+So far, I have obtained important
+things I want from my social life
+on social media platforms.
+.71 .71
+At present, I am completely
+satisfied with my life on social
+media.
+.81 .80
+I feel happy about the personal
+aspects (achievements,
+personality, health, etc.) of my life
+on social media.
+.75 .75
+Social media fatigue (SMF)
+(Dhir et al., 2018; Islam
+et al., 2020; Talwar et al.,
+2019; Whelan et al., 2020)
+The amount of information
+available on social media makes
+me tense.
+.71 .71
+Due to using social media, I feel
+rather mentally exhausted.
+.89 .89
+After a session of using social
+media, I feel really fatigued.
+.89 .89
+I find it difficult to relax after
+continually using social media.
+.88 .88
+Due to social media use, I feel
+exhausted.
+.89 .89
+Note: SEM = Factor loadings structural model, CFA = Factor loadings measurement model
+P. Kaur et al. 
+Technological Forecasting & Social Change 172 (2021) 121039
+8
+occur due to inter-associations among independent constructs (O’Brien,
+2007). To assess for common method bias (CMB), we conducted Harman’s single factor test (Harman, 1976). This test produced a CMB value
+of 25.23%, which is less than the recommended threshold (i.e. 50%).
+Thus, CMB did not affect our study (Podsakoff et al., 2003).
+4.2. Measurement model, validity and reliability
+We used confirmatory factor analysis (CFA) to assess the measurement model and factor loadings of the scale items (see Table 1). The CFA
+results helped establish the reliability and validity of the study measures. The measurement model’s fit was good, and the model fit indices
+were as follows: X2
+/df = 2.13; CFI = 0.94, TLI = 0.93, RMSEA = 0.06.
+The study measures possessed sufficient convergent validity because
+the value of the average variance extracted (AVE) for the study constructs satisfied the recommended threshold value of 0.50 (Kline, 2016),
+the values of the loadings of the measurement items exceeded the suggested value of 0.50 (Kline, 2016; see Table 1) and the composite reliability (CR) value of the study constructs exceeded 0.70, as
+recommended in the existing literature (Kline, 2016). These values
+indicate the internal reliability of the considered research constructs.
+The study measures further possessed sufficient discriminant validity
+(Kline, 2016), and the correlation between any two given measures was
+smaller than the square root of the AVE value of a given measure (Kline,
+2016, see Table 3). In addition to CFA (Kline, 2016), we also conducted
+heterotrait-monotrait (HTMT) analysis (Henseler et al., 2015) to confirm
+the validity and reliability of the adopted scales in the current context
+(see Table 4).
+4.3. Structural model
+The structural model exhibited a good fit, and the model fit indices
+were as follows: X2
+/df = 2.10; CFI = 0.93, GFI = 0.85, TLI = 0.92,
+RMSEA = 0.06. The analysis statistically supported five proposed hypotheses (H1, H3, H4, H6 and H7) for the main effects, while the results
+for two hypotheses (H2 and H5) were not statistically significant (H2
+and H5; see Table 5 and Fig. 2). The structural model explained 31% of
+the variance in users’ fatigue, 0.4% of the variance in privacy concerns,
+7% of the variance in social comparison and 2.4% of the variance in selfdisclosure. Moreover, the analysis confirmed that none of the control
+variables had a confounding influence on fatigue.
+4.4. Mediation analysis
+To answer RQ2, which examined the mediating role of network
+heterogeneity, the analysis also employed Hayes’ PROCESS macro to
+test for mediation in the considered relationships (Model 4). The results
+indicate that only social comparison partially mediates the association
+between OSWB and fatigue (See Tables 6 and 7). Thus, the analysis only
+supported H8b, whereas the results for H8a and H8c were not statistically significant.
+5. Discussion
+The results of the data analysis support H1, H3, H4, H6 and H7 and
+thus confirm that OSWB has a viable influence on network heterogeneity
+aspects and fatigue. Our findings suggest that social media fatigue—a
+dark side of social media use—is a viable concern for young adults who
+are actively engaged with network heterogeneity aspects and have a low
+or diminished OSWB.
+The results confirm that privacy concerns positively correlate with
+fatigue; thus, the first hypothesis (H1) is supported. These findings are
+consistent with the existing literature, which has suggested that privacy
+exposure risks are a critical part of social media fatigue (Lee and Hsieh,
+2013) and that privacy concerns are positively associated with fatigue
+Table 2
+Respondents’ profile.
+Socio-demographic
+profile
+Frequency Percentage
+Age 18–19 years 79 24.7%
+19–20 years 98 30.6%
+21–22 years 143 44.7%
+Gender Male 120 37.5%
+Female 200 62.5%
+Educational
+qualification
+Completed high school 82 25.6%
+Completed/pursuing
+professional/vocational
+school
+2 0.6%
+Completed/pursuing
+bachelor’s
+230 71.9%
+Completed/pursuing
+master’s
+6 1.9%
+Average use per day of
+social media in the
+past week
+Up to 30 minutes per day 9 2.8%
+31 minutes–1 hour per
+day
+30 9.4%
+1–3 hours per day 125 39.1%
+3–5 hours per day 105 32.8%
+More than 5–7 hours per
+day
+39 12.2%
+More than 7 hours per
+day
+12 3.8%
+Table 3
+Validity and reliability analysis.
+CR AVE MSV ASV SMF OSWB PC SD SC
+SMF 0.94 0.73 0.22 0.09 0.85
+OSWB 0.91 0.62 0.14 0.06 -0.37 0.79
+PC 0.90 0.60 0.06 0.02 0.08 0.07 0.77
+SD 0.87 0.69 0.12 0.05 0.09 0.16 -0.24 0.83
+SC 0.91 0.64 0.22 0.11 0.47 -0.26 -0.10 0.35 0.80
+Note: SMF = social media fatigue, OSWB = online subjective well-being, PC = privacy concerns, SD = self-disclosure, SC = social comparison
+Table 4
+Results of HTMT analysis.
+OSWB PC SD SOC SMF
+OSWB
+PC 0.08
+SD 0.18 0.25
+SC 0.24 0.08 0.35
+SMF 0.35 0.08 0.11 0.48
+Table 5
+Confirmation of hypothesis.
+Hypothesis Path β Significance Supported
+H1 PC → SMF 0.14 <0.01 Yes
+H2 OSWB → PC 0.06 >0.05 No
+H3 SC → SMF 0.39 <0.001 Yes
+H4 OSWB → SC -0.27 <0.001 Yes
+H5 SD → SMF 0.02 >0.05 No
+H6 OSWB → SD 0.16 <0.05 Yes
+H7 OSWB → SMF -0.28 <0.001 Yes
+P. Kaur et al. 
+Technological Forecasting & Social Change 172 (2021) 121039
+9
+(Malik et al., 2020; Dhir et al., 2019; Bright et al., 2015). The findings
+also confirm the propositions of Malik et al. (2020) and Dhir et al.
+(2019), who contended that high privacy concerns consume social
+media users’ limited cognitive space, which results in fatigue
+The analysis confirms that OSWB is uncorrelated with privacy concerns (H2). The findings suggest that privacy concerns are a network
+heterogeneity aspect that is unaffected by the OSWB of social media
+users in the USA. This may be explained by the fact that consumers in
+this developed economy are distrustful of the data protection afforded
+by social media platforms (eMarketer, 2019). Such consumers may be
+pre-emptive in maintaining privacy controls on these platforms to create
+a perceivably satisfactory and even ideal usage situation and thus proactively ensure their OSWB. However, this finding may be specific to the
+sampled respondents, and further research is required to ascertain its
+generalisability. Moreover, it may be worth examining this association
+in the context of different types of social media platforms and degrees of
+usage or content sharing activities that users may undertake on them.
+Consistent with prior research (e.g. Malik et al., 2020; Dhir et al.,
+2019), our study also finds that social comparison positively correlates
+with fatigue (H3). We attribute this association to the fact that social
+media users who engage in social comparison continually browse
+through social media content. The resultant information overload thus
+burdens their cognitive space and their information-processing abilities,
+translating into fatigue (e.g. Malik et al., 2020; Dhir et al., 2019; Zhang
+et al., 2016). Consistent with the tenets of LCM (Lang, 2000), this further
+suggests that social comparison processes and the consequent emotions
+users experience limit social media users’ cognitive capacity.
+The results show that OSWB shares a significant negative correlation
+with social comparison (H4), thereby supporting our supposition. This
+finding lends credence to prior research (e.g. Gerson et al., 2016), which
+has found a negative correlation between SWB and social comparison. It
+suggests that users who enjoy high satisfaction with their digital lives on
+social media platforms are less likely to engage in social comparisons to
+reinforce their beliefs because they may already believe they have an
+ideal social life on these platforms. Our results thus show that individuals who believe that they derive significant benefits from social
+media platforms—for example, in terms of personal aspects (achievements, personality, health etc.)—may be inured from engaging in some
+perceivably detrimental phenomena associated with using these platforms, which, in our case, involves social comparison.
+We find that self-disclosure is uncorrelated with fatigue (H5). This is
+a surprising finding, which is inconsistent with the prior literature (e.g.
+Malik et al., 2020; Dhir et al., 2019; Rains et al., 2016). Because most
+regions in the USA remain under stay-at-home orders or are only
+beginning to ease the restrictions established to combat the pandemic
+(Wu et al., 2021), we believe that this divergent result may be attributed
+to individuals’ increased use of social media platforms to communicate
+with others during the COVID-19 lockdown (Statista, 2020). Under these
+circumstances, users may prioritise self-disclosure, which leads them to
+devote greater cognitive processing capacity towards subsequently
+generated communications and to discount the experience of fatigue.
+However, this may be a highly context-specific finding contingent on the
+environmental crisis (i.e. the COVID-19 pandemic) our participants
+were experiencing. Any generalisations thus require further
+investigation.
+The findings reveal that OSWB positively correlates with selfdisclosure (H6), consistent with the suggestion that social media
+Fig. 2. Results of the structural model. Note: Solid arrows show significant associations as hypothesised; dashed arrows show non-significant associations.
+Table 6
+Mediation analysis results.
+OSWB → PC /SC/SD → SMF
+β se t p LLCI ULCI
+OSWB → PC .08 .06 1.35 .18 -.0372 .1994
+OSWB → SC -.25 .06 -3.99 .00 -.3802 -.1290
+OSWB → SD .18 .06 2.91 .00 .0586 .3030
+OSWB → SMF -.32 .06 -4.96 .00 -.4487 -.1937
+PC → SMF .16 .06 2.67 .01 .0410 .2710
+SC → SMF .42 .06 7.29 .00 .3051 .5305
+SD → SMF .06 .06 .95 .35 -.0619 .1765
+Total effect of OSWB → SMF -.40 .07 -6.03 .00 -.5366 -.2726
+Table 7
+Indirect effects.
+Effect se LLCI ULCI
+OSWB → PC → SMF .01 .01 -.0054 .0416
+OSWB →SC → SMF -.11 .03 -.1743 -.0493
+OSWB → SD → SMF .01 .01 -.0126 .0405
+P. Kaur et al. 
+Technological Forecasting & Social Change 172 (2021) 121039
+10
+users’ psychological states influence their self-disclosure (e.g. Luo &
+Hancock, 2020; Huang, 2016). Because we focused on adolescents, our
+results indicate that self-disclosure forms a significant part of this population’s developmental goals, as Dhir (2016) suggested. Consequently,
+higher OSWB, or increased satisfaction and happiness with social media
+platforms, is likely to influence users’ network heterogeneity aspects
+and may increase engagement in self-disclosure.
+We also find OSWB to be negatively correlated with fatigue (H7),
+thereby confirming our contention that individuals with a higher
+perceived OSWB may experience lower levels of fatigue due to their
+capacity to appropriately balance and process social media communications. A possible explanation for this finding may be that users’
+attachment to and satisfaction with their social media lives inures them
+to the negative phenomena that usually arise from high levels of social
+media use by increasing their capacity to process the incumbent communications. Considering prior research, which has argued that social
+media use culminates in fatigue, this is a paradoxical finding—although
+one that finds some support in the existing literature (e.g. Satici and
+Uysal, 2015). Our result suggests that individuals who are inherently
+unsatisfied with social media and, therefore, unable to use it appropriately may be more vulnerable to the dark side of social media phenomena, including fatigue. In fact, for those young adults who believe
+that social media makes them happy and enables them to flourish in
+terms of their digital social lives, OSWB acts as a protective factor that
+shields them from fatigue. However, it is also possible that this is a
+finding specific to the COVID-19 pandemic or the USA context. Thus, it,
+too, requires further research.
+Lastly, we find partial support for the mediating role of network
+heterogeneity aspects (H8a–c). In our study, only social comparison
+partially mediated the association between OSWB and fatigue. These
+results lend some credence to our argument that users’ network heterogeneity aspects can facilitate the transformation of a positive motive
+or benefit, such as OSWB, into a negative aspect, such as fatigue, associated with the dark side of social media. However, we do not find any
+support for the mediating effect of self-disclosure and privacy concerns,
+and we attribute these divergent findings to the maturity of the USA
+market in the context of social media use. Since the USA has a high
+penetration and usage rate for social media, our respondents may be
+somewhat inured to the indirect effects of information-related network
+heterogeneity aspects (i.e. self-disclosure and privacy concerns) with
+respect to their OSWB and experiences of fatigue. Contrarily, the social
+comparison we observe may be driven by individual-level characteristics, such as self-esteem and narcissism (James et al., 2017; Jang et al.,
+2018). We contend that the significant mediating effect of social comparison on the association between OSWB and fatigue may be attributed
+to an individual’s problematic personality and traits, which lead them to
+engage in comparisons with other users despite being satisfied with their
+own social media lives. This preoccupation with social comparison may
+cause such social media users to experience fatigue. While these findings
+offer new insights into how entering social media use with positive expectations can lead to negative outcomes due to users’ attitudes and
+behaviour on such platforms, we caution readers that our results may be
+context-specific. More research is needed to examine these mediating
+relationships in diverse contexts, such as developing economies, and
+among other populations, such the employed and/or adults, before
+making any generalisations.
+6. Conclusion, implications, limitations and future scope
+We raised two RQs and tested eight hypotheses for the direct and
+indirect (mediating) relationships between OSWB, fatigue and aspects of
+network heterogeneity associated with the dark side of social
+media—that is, privacy concerns, self-disclosure and social comparison.
+Through the analysis, we found support for five hypotheses regarding
+the direct effects of the examined variables (H1, H3, H4, H6 and H7)
+and partial support for the proposed mediating effect of network
+heterogeneity aspects (i.e. social comparison, H8b) on the relationship
+between OSWB and fatigue. We tested the associations while controlling
+for the effects of socio-demographic differences (i.e. age, gender and
+academic achievement) on fatigue; none of these factors enacted a significant influence as a control variable. Our research is a novel attempt
+to explicate the relationships between well-being and outcomes associated with the dark side of social media, such as fatigue. Moreover, we
+lend contemporary insights into the effect of network heterogeneity
+aspects in inducing fatigue and the potential ability of OSWB to protect
+users from fatigue in the context of the COVID-19 pandemic and
+consequential lockdown. These findings explain the nuances of the
+pathways through which social media use, as well as users’ motives and
+activities in light of environmental situations, can translate into negative
+or positive psychosocial outcomes. Thus, our study offers valuable insights for both theory and practice.
+6.1. Contributions to theory
+The study offers five key contributions and implications for theoretical advancement. First, the findings contribute to the emerging
+literature on OSWB and social media fatigue, which have received
+limited attention in the extant literature. Moreover, unlike other
+scholars, who have focused mostly on OSWB’s antecedents (Wang et al.,
+2017), we focus on its consequences, or outcomes, by using the
+lesser-utilised LCM model. Our findings can guide future work examining OSWB and the dark side of social media issues, including fatigue,
+among young adults from a multi-disciplinary outlook. For this purpose,
+scholars might adopt seminal theories from the fields of psychology,
+information systems science and consumer behaviour, such as the
+stressor-strain-outcome framework (e.g. Dhir et al., 2019),
+protection-motivation theory (Rogers, 1975) and problem behaviour
+theory (Jessor et al., 1994). Moreover, we urge scholars to employ more
+contemporary theoretical frameworks, such as the regulatory focus
+theory (Higgins et al., 2012), to understand how an individual’s regulation focus affects his or her social media use and subsequently experienced phenomena.
+Second, our utilisation of a cross-sectional research design contributes to the literature by allowing us to examine the stability of the
+observed associations at a single point in time. However, deriving a
+generalised understanding of these associations and specific understanding of the impact of temporality on these relationships requires
+additional research examining these associations over a longer time
+period and in diverse contexts. We also call for studies to assess whether
+these associations hold for other user groups besides young adults and
+whether the associations remain significant as this demographic cohort
+transitions into employment and gains additional roles and responsibilities, which may burden their cognitive capacities for processing social media-related information.
+Third, our study contributes to the existing knowledge on social
+media use behaviour and network heterogeneity aspects with regards to
+adverse psychosocial outcomes, such fatigue, for young adults. The wellbeing of this demographic cohort is an important issue for any nation
+because these individuals represent the foundations for a society’s future
+growth. Our findings indicate the need for scholars to focus on other
+network heterogeneity aspects, such as poor sleep hygiene (e.g. Tandon
+et al., 2020) and fake news perpetration (Talwar et al., 2019), as additional antecedents of fatigue among young adults, especially those who
+are employed.
+Fourth, our results highlight the need to examine other dark sides of
+social media consequences for young adults, which, may be influenced
+by OSWB and network heterogeneity aspects. Examples of such consequences include work or academic performance decrements (Dhir et al.,
+2019; Tandon et al., 2021), disturbed sleep (Kaur et al., 2021) and peer
+or familial alienation. Studying these consequences for young adults is
+imperative because deeper insights into the effects of the dark side of
+social media for this user group can help researchers develop and test
+P. Kaur et al. 
+Technological Forecasting & Social Change 172 (2021) 121039
+11
+interventions to positively shape this cohort’s well-being by encouraging appropriate and safe social media use. Furthermore, such examinations have the potential to ascertain how young adults’ satisfaction
+with and belief in the ideal digital life promulgated by social media use
+could act as a protective measure against their experience of the dark
+side of social media phenomena.
+Fifth, based on the percentage of variance in fatigue explained by the
+considered network heterogeneity aspects (social comparison, privacy
+concerns and self-disclosure), we posit the need to examine other aspects
+of network heterogeneity, such as fake news perpetration and social
+media stalking, which may provide more nuanced insights into how
+OSWB-driven social media use can induce fatigue. Furthermore,
+although we examined the hypothesised associations for young adults,
+we urge scholars to explore whether the examined variables exhibit
+similar associations among adolescents and adults (e.g. those aged 25
+years or older), especially those employed in meaningful work.
+6.2. Contributions and implications for practice
+Our results provide five significant implications for practitioners, e.g.
+service providers, parents and educators. First, information about the
+antecedents of fatigue among social media users carries significant implications for service providers because fatigue can prompt individuals’
+to discontinue using a service or to experience dissatisfaction with its use
+(Zhang et al., 2016). Because the findings suggest a significant role for
+some network heterogeneity aspects, service providers can address user
+concerns regarding these aspects to lessen fatigue. For instance, social
+media service providers can take measures to alleviate users’ privacy
+concerns by assuring them of the security of their shared content and
+personal information. Moreover, service providers from networking
+sites, such as Facebook, can reinforce users’ engagement in positive
+interactions and reduce social comparisons on these platforms. Service
+providers may, for example, generate reminders about being respectful
+of other users during incumbent interactions and about the uniqueness
+of each individual’s social media experience, which is contingent on the
+individual’s personal preferences and social media affordances, such as
+number of friends and regularly accessed content. Such efforts may
+reduce negative emotions and the anxiety users experience during their
+participation in social comparison. These initiatives may also enhance
+users’ perceived and derived OSWB and thus fortify their usage of
+continuance behaviours.
+Second, the findings imply that parents and educators must play an
+active role in guiding young adults’ use of social media for positive
+gratifications. We emphasise the influence of parents (e.g. Dhir et al.,
+2019) and educators’ monitoring behaviours on young adults’ social
+media use and network heterogeneity. Such monitoring may also have a
+dampening effect on young adults’ experience of phenomena associated
+with the dark side of social media, including FoMO, compulsive use, fake
+news sharing and fatigue (Malik et al., 2020; Tandon et al., 2020; Talwar et al., 2019; Dhir et al., 2018, 2019). Furthermore, we urge parents
+and educators to undertake a community-oriented approach to educate
+and empower young adults to help their peers engage in appropriate and
+safe social media use. Indeed, peer support or interventions may have a
+similar dampening effect on young adults’ experience of the dark side of
+social media phenomena, such as cyberstalking.
+Third, prior studies have linked fatigue and social media use to
+multiple indicators of negative well-being among both young adults and
+adolescents. These include disturbed sleep, lower academic performance
+and mental health problems. Based on prior research, we highlight the
+need for educators, college psychologists or counsellors and parents to
+increase awareness of these negative outcomes among young adults,
+who may be more vulnerable to the adverse effects of social media (Dhir
+et al., 2018). Moreover, based on our findings, we believe that educators
+and parents should encourage young adults to be satisfied with the
+gratifications and benefits they may derive from appropriate social
+media use; as this satisfaction may improve young adults’ OSWB and
+thereby reduce their fatigue. This is especially critical at the present
+time, which, due to the COVID-19 lockdown, is characterised by
+extremely digitised academic and social communication. It is important
+to recognise that it may take considerable time before human lives
+regain a semblance of normality with regard to real-life (i.e. offline)
+communication.
+Fourth, our findings identify OSWB as an antecedent of network
+heterogeneity (i.e. social comparison and self-disclosure) and fatigue,
+suggesting that educators, parents and psychologists must understand
+how and why young adults derive positive benefits from social media
+use. Insights into the antecedents of OSWB can guide stakeholders (i.e.
+educators and psychologists) in developing interventions to negate the
+dark side of social media experienced by young adults and perhaps even
+adolescents.
+Fifth, we suggest the need for parents and educators to engage in
+community discussions about the roles and responsibilities of service
+providers in protecting the well-being of their users. Such communal
+discussions have the potential to influence the advanced formulation of
+policies for the safe and ethical use of digital platforms, including social
+media. Such policies can also facilitate users’ engagement with social
+media appropriately and perhaps lessen the emergence of incidents
+related to the dark side of social media, such as trolling, active cyberstalking and fake news sharing.
+6.3. Limitations and future research directions
+First, our findings’ generalisability is limited because the study’s
+respondents included only young adults in the USA. Moreover, we
+considered social media as an umbrella term for our study. Future
+scholars should extend the scope of our study to examine these associations in other contexts, such as among middle-aged working professionals, users in developing countries, such as India and Pakistan, and
+users of specific platforms, such as Facebook, Instagram and Snapchat.
+Second, our findings are limited by the biases associated with crosssectional surveys, including the social desirability bias and the
+inability to determine causality. In the future, scholars may consider
+utilising longitudinal, experimental or observation-based research to
+address these concerns. Third, we only considered three aspects of
+network heterogeneity (self-disclosure, privacy concerns and social
+comparison) as mediators. Scholars may examine the moderating and
+mediating effects of other dark side social media-related behaviours,
+such as problematic sleep and negative emotions, including jealousy or
+envy, on the association between OSWB and fatigue.
+Moreover, social media users’ network heterogeneity, such as their
+tendency to engage in social comparison, and its resultant influence may
+be contingent on individual users’ traits, such as self-esteem (Jang et al.,
+2018). Scholars may thus study in greater detail the subtle direct and
+moderating effects of such individual traits, especially darker personality traits, such as narcissism (James et al., 2017), on personal social
+media use and network heterogeneity. We also encourage scholars to
+explore the moderating influence of socio-demographic factors, especially age, for the investigated associations. Such cohort-based and
+longitudinal studies are important because prior research has shown
+that social media use-related practices may differ across age cohorts
+(Richey et al., 2018; Tandon et al., 2020; Throuvala et al., 2019). Despite
+its limitations, the study’s findings offer nuanced and novel insights into
+the pathways and antecedents through which social media users may
+experience the dark side of social media and the associated adverse
+psychosocial outcomes.
+CRediT authorship contribution statement
+Puneet Kaur: Conceptualization, Methodology, Data curation,
+Formal analysis, Writing – original draft. Nazrul Islam: Supervision,
+Writing – review & editing. Anushree Tandon: Writing – review &
+editing. Amandeep Dhir: Supervision, Writing – review & editing.
+P. Kaur et al. 
+Technological Forecasting & Social Change 172 (2021) 121039
+12
+References
+Ahn, D., Shin, D.H., 2013. Is the social use of media for seeking connectedness or for
+avoiding social isolation? Mechanisms underlying media use and subjective wellbeing. Comput. Hum. Behav. 29 (6), 2453–2462.
+Alashoor, T., Han, S., Joseph, R.C., 2017. Familiarity with big data, privacy concerns,
+and self-disclosure accuracy in social networking websites: An APCO model.
+Commun. Assoc. Inf. Syst. 41 (1), 4.
+Bano, S., Cisheng, W., Khan, A.N., Khan, N.A., 2019. WhatsApp use and student’s
+psychological well-being: role of social capital and social integration. Child. Youth.
+Serv. Rev. 103, 200–208.
+Bright, L.F., Kleiser, S.B., Grau, S.L., 2015. Too much Facebook? An exploratory
+examination of social media fatigue. Comput. Hum. Behav. 44 (44), 148–155.
+Brunstein, J.C., 1993. Personal goals and subjective well-being: a longitudinal study.
+J. Pers. Soc. Psychol. 65 (5), 1061–1070. https://doi.org/10.1037/0022-
+3514.65.5.1061.
+Cao, X., Khan, A.N., Zaigham, G.H., Khan, N.A., 2019. The stimulators of social media
+fatigue among students: Role of moral disengagement. J. Educ. Comput. Res. 57 (5),
+1083–1107.
+Chai, H.Y., Niu, G.F., Lian, S.L., Chu, X.W., Sun, X.J., 2019. Why social network site use
+fails to promote well-being? The roles of social overload and fear of missing out.
+Comput. Hum. Behav. 100 (November), 85–92.
+Chang, C.M., Hsu, M.H., 2016. Understanding the determinants of users’ subjective wellbeing in social networking sites: An integration of social capital theory and social
+presence theory. Behav. Inf. Technol. 35 (9), 720–729.
+Cheung, C., Lee, Z.W.Y., Chan, T.K.H., 2015. Self-disclosure in social networking sites:
+the role of perceived cost, perceived benefits and social influence. Internet Res. 25
+(2), 279–299.
+Chiu, C.M., Cheng, H.L., Huang, H.Y., Chen, C.F., 2013. Exploring individuals’ subjective
+well-being and loyalty towards social network sites from the perspective of network
+externalities: the Facebook case. Int. J. Inf. Manag. 33 (3), 539–552.
+Cho, H., Li, P., Goh, Z.H., 2020. Privacy risks, emotions, and social media: a coping
+model of online privacy. ACM Trans. Comput. Hum. Interact. (TOCHI) 27 (6), 1–28.
+Choi, H., Park, J., Jung, Y., 2018. The role of privacy fatigue in online privacy behavior.
+Comput. Hum. Behav. 81, 42–51.
+Choi, T.R., Sung, Y., 2018. Instagram versus Snapchat: Self-expression and privacy
+concern on social media. Telemat. Inf. 35 (8), 2289–2298.
+Dhir, A., 2016. Exploring online self-presentation in computer-mediated environments:
+Motives and reasons for photo-tagging and untagging. Published Doctoral
+dissertation. Aalto University, Finland, p. 241.
+Dhir, A., Kaur, P., Chen, S., Pallesen, S., 2019. Antecedents and consequences of social
+media fatigue. Int. J. Inf. Manag. 48, 193–202. https://doi.org/10.1016/j.
+ijinfomgt.2019.05.021. April 2018.
+Dhir, A., Talwar, S., Kaur, P., Budhiraja, S., Islam, N., 2021. The dark side of social
+media: stalking, online self-disclosure and problematic sleep. Int. J. Consum. Stud.
+00, 1–19.
+Dhir, A., Yossatorn, Y., Kaur, P., Chen, S., 2018. Online social media fatigue and
+psychological well-being—a study of compulsive use, fear of missing out, fatigue,
+anxiety and depression. Int. J. Inf. Manag. 40, 141–152.
+Diener, E., Oishi, S., Lucas, R.E., 2015. National accounts of subjective well-being. Am.
+Psychol. 70, 234–242. https://doi.org/10.1037/a0038899.
+eMarketer, 2019. Share of internet users in the United States who trust Facebook with
+their personal information as of October 2019 [Graph]. Statista. Retrieved June 01,
+2021, from. https://www.statista.com/statistics/562650/trust-with-personal-data
+-among-facebook-users-by-age-us/.
+Fan, X., Deng, N., Dong, X., Lin, Y., Wang, J., 2019. Do others’ self-presentation on social
+media influence individuals’ subjective well-being? A moderated mediation model.
+Telemat. Inf. 41, 86–102.
+Fan, X., Jiang, X., Deng, N., Dong, X., Lin, Y., 2020. Does role conflict influence
+discontinuous usage intentions? Privacy concerns, social media fatigue and selfesteem. Inf. Technol. People 1–23. Ahead of print.
+Festinger, L., 1954. A theory of social comparison processes. Hum. Relat. 7, 117–140.
+Gerson, J., Plagnol, A.C., Corr, P.J., 2016. Subjective well-being and social media use: Do
+personality traits moderate the impact of social comparison on Facebook? Comput.
+Hum. Behav. 63, 813–822.
+Gibbons, F.X., Buunk, B.P., 1999. Individual differences in social comparison:
+development of a scale of social comparison. J. Pers. Soc. Psychol. 76 (1), 129–142.
+Gibbs, J.L., Ellison, N.B., Heino, R.D., 2006. Self-presentation in online personals: the
+role of anticipated future interaction, self-disclosure, and perceived success in
+Internet dating. Commun. Res. 33 (2), 152–177.
+Harman, H.H., 1976. Modern Factor Analysis. University of Chicago Press.
+Henseler, J., Ringle, C.M., Sarstedt, M., 2015. A new criterion for assessing discriminant
+validity in variance-based structural equation modeling. J. Acad. Market. Sci. 43 (1),
+115–135. https://doi.org/10.1007/s11747-014-0403-8.
+Higgins, E.T, 2012. Regulatory focus theory. In: Van Lange, P.A.M., Kruglanski, A.W.,
+Higgins, E.T. (Eds.), Handbook of Theories of Social Psychology. Sage Publications
+Ltd, pp. 483–504. https://doi.org/10.4135/9781446249215.n24.
+Huang, H.Y., 2016. Examining the beneficial effects of individual’s self-disclosure on the
+social network site. Comput. Hum. Behav. 57, 122–132.
+Islam, A.K.M.N., Laato, S., Talukder, S., Sutinen, E., 2020. Misinformation sharing and
+social media fatigue during COVID-19: An affordance and cognitive load perspective.
+Technol. Forecast. Soc. Change 159, 120201.
+James, C., Davis, K., Charmaraman, L., Konrath, S., Slovak, P., Weinstein, E., Yarosh, L.,
+2017. Digital life and youth well-being, social connectedness, empathy, and
+narcissism. Pediatrics 140, S71–S75. Supplement 2.
+Jang, K., Park, N., Song, H., 2016. Social comparison on Facebook: Its antecedents and
+psychological outcomes. Comput. Hum. Behav. 62, 147–154.
+Jang, W.E., Bucy, E.P., Cho, J., 2018. Self-esteem moderates the influence of selfpresentation style on Facebook users’ sense of subjective well-being. Comput. Hum.
+Behav. 85, 190–199.
+Jeong, M., Zo, H., Lee, C.H., Ceran, Y., 2019. Feeling displeasure from online social
+media postings: a study using cognitive dissonance theory. Comput. Hum. Behav. 97,
+231–240.
+Jessor, R., Donovan, J.E., Costa, F.M., 1994. Beyond Adolescence: Problem Behaviour
+and Young Adult Development. Cambridge University Press.
+Kaur, P., Dhir, A., Alkhalifa, A.K., Tandon, A., 2021. Social media platforms and sleep
+problems: A Systematic literature review, synthesis and framework for future
+research. Internet Res. 1–40. Ahead of print.
+Kaur, P., Dhir, A., Tandon, A., Alzeiby, E.A., Abohassan, A.A., 2020. A systematic
+literature review on cyberstalking. An analysis of past achievements and future
+promises. Technol. Forecast. Soc. Change, 120426. https://doi.org/10.1016/j.
+techfore.2020.120426. September.
+Keles, B., McCrae, N., Grealish, A., 2020. A systematic review: The influence of social
+media on depression, anxiety and psychological distress in adolescents. Int. J.
+Adolesc. Youth 25 (1), 79–93.
+Kim, B., Kim, Y., 2017. College students’ social media use and communication network
+heterogeneity: implications for social capital and subjective well-being. Comput.
+Hum. Behav. 73, 620–628.
+Kim, J.Y., Chung, N., Ahn, K.M., 2014. Why people use social networking services in
+Korea: The mediating role of self-disclosure on subjective well-being. Inf. Dev. 30
+(3), 276–287.
+Kline, R.B., 2016. Principles and Practice of Structural Equation Modeling, 4th Ed.
+Guilford.
+Koltay, T., 2017. The bright side of information: Ways of mitigating information
+overload. J. Doc. 73 (4), 767–775. https://doi.org/10.1108/JD-09-2016-0107.
+Kr¨
+amer, N.C., Schawel, ¨ J., 2020. Mastering the challenge of balancing self-disclosure and
+privacy in social media. Curr. Opin. Psychol. 31, 67–71.
+Krasnova, H., Kolesnikova, E., Günther, O., 2009. It won’t happen to me!’: Self-disclosure
+in online social networks. In: Proceedings of the Fifteenth Americas Conference on
+Information System. San Francisco, California, US.
+Lang, A., 2000. The limited capacity model of mediated message processing. J. Commun.
+50 (1), 46–70.
+Latif, K., Weng, Q., Pitafi, A.H., Ali, A., Siddiqui, A.W., Malik, M.Y., Latif, Z., 2020. Social
+comparison as a double-edged sword on social media: The role of envy type and
+online social identity. Telemat. Inf., 101470
+Lee, C.C., Hsieh, M.C., 2013. Development of a social media fatigue scale. in Proc. 6th
+International Colloquium on Business & Management, Bangkok, Thailand.
+Lee, E., Lee, K.Y., Sung, Y., Song, Y.A., 2019. #DeleteFacebook: antecedents of facebook
+fatigue. Cyberpsychol. Behav. Soc. Netw. 22 (6), 417–422.
+Li, H., Luo, X.R., Zhang, J., Xu, H., 2017. Resolving the privacy paradox: toward a
+cognitive appraisal and emotion approach to online privacy behaviors. Inf. Manag.
+54 (8), 1012–1022.
+Luo, M., Hancock, J.T., 2020. Self-disclosure and social media: motivations, mechanisms
+and psychological well-being. Curr. Opin. Psychol. 31, 110–115.
+Maier, C., Laumer, S., Eckhardt, A., Weitzel, T., 2015. Giving too much social support:
+Social overload on social networking sites. Eur. J. Inf. Syst. 24 (5), 447–464.
+Maier, C., Laumer, S., Weinert, C., Weitzel, T., 2015. The effects of technostress and
+switching stress on discontinued use of social networking services: a study of
+Facebook use. Inf. Syst. J. 25 (3), 275–308.
+Malhotra, N.K., Kim, S.S., Agarwal, J., 2004. Internet users’ information privacy
+concerns (IUIPC): The construct, the scale, and a causal model. Inf. Syst. Res. 15 (4),
+336–355.
+Malik, A., Dhir, A., Kaur, P., Johri, A., 2020. Correlates of social media fatigue and
+academic performance decrement: a large cross-sectional study. Information
+Technology and People 1–24. https://doi.org/10.1108/ITP-06-2019-0289. Ahead of
+print.
+Mei, S., Yau, Y.H.C., Chai, J., Guo, J., Potenza, M.N., 2016. Problematic Internet use,
+well-being, self-esteem and self-control: data from a high school survey in China.
+Addict. Behav. 61, 74–79.
+Munzel, A., Meyer-Waarden, L., Galan, J.P., 2018. The social side of sustainability: Wellbeing as a driver and an outcome of social relationships and interactions on social
+networking sites. Technol. Forecast. Soc. Change 130, 14–27.
+Nabity-Grover, T., Cheung, C.M., Thatcher, J.B., 2020. Inside out and outside in: how the
+COVID-19 pandemic affects self-disclosure on social media. Int. J. Inf. Manag. 55,
+102188.
+Oberst, U., Wegmann, E., Stodt, B., Brand, M., Chamarro, A., 2017. Negative
+consequences from heavy social networking in adolescents: The mediating role of
+fear of missing out. J. Adolesc. 55, 51–60.
+O’Brien, R.M., 2007. A caution regarding rules of thumb for variance inflation factors.
+Qual. Quant. 41, 673–690.
+Park, S.Y., Baek, Y.M., 2018. Two faces of social comparison on Facebook: The interplay
+between social comparison orientation, emotions, and psychological well-being.
+Comput. Hum. Behav. 79, 83–93.
+Piwek, L., Joinson, A., 2016. What do they Snapchat about?’ Patterns of use in timelimited instant messaging service. Comput. Hum. Behav. 54, 358–367.
+Podsakoff, P.M., MacKenzie, S.B., Lee, J.Y., Podsakoff, N.P., 2003. Common method
+biases in behavioral research: A critical review of the literature and recommended
+remedies. J. Appl. Psychol. 88 (5), 879–903.
+Rains, S.A., Brunner, S.R., Oman, K., 2016. Self-disclosure and new communication
+technologies: the implications of receiving superficial self-disclosures from friends.
+J. Soc. Pers. Relationsh. 33 (1), 42–61.
+P. Kaur et al. 
+Technological Forecasting & Social Change 172 (2021) 121039
+13
+Reer, F., Tang, W.Y., Quandt, T., 2019. Psychosocial well-being and social media
+engagement: the mediating roles of social comparison orientation and fear of missing
+out. New Media Soc. 21 (7), 1486–1505. https://doi.org/10.1177/
+1461444818823719.
+Reinecke, L., Hofmann, W., 2016. Slacking off or winding down? An experience sampling
+study on the drivers and consequences of media use for recovery versus
+procrastination. Hum. Commun. Res. 42 (3), 441–461.
+Richey, M., Gonibeed, A., Ravishankar, M.N., 2018. The perils and promises of selfdisclosure on social media. Inf. Syst. Front. 20 (3), 425–437.
+Roberts, J.A., David, M.E., 2020. The social media party: fear of missing out (FoMO),
+social media intensity, connection, and well-being. Int. J. Hum. Comput. Interact. 36
+(4), 386–392. https://doi.org/10.1080/10447318.2019.1646517.
+Rogers, R.W., 1975. A protection motivation theory of fear appeals and attitude change1.
+J. Psychol. 91 (1), 93–114.
+Rozgonjuk, D., Ryan, T., Kuljus, J.K., T¨
+aht, K., Scott, G.G., 2019. Social comparison
+orientation mediates the relationship between neuroticism and passive Facebook
+use. Cyberpsychology 13 (1). https://doi.org/10.5817/CP2019-1-2.
+Satici, S.A., Uysal, R., 2015. Well-being and problematic Facebook use. Comput. Hum.
+Behav. 49, 185–190.
+Statista, 2020. Social media usage in the United States. Retrieved May 29, 2021, from. htt
+ps://www.statista.com/study/40227/social-social-media-usage-in-the-united-state
+s-statista-dossier/.
+Steers, M.L.N., Wickham, R.E., Acitelli, L.K., 2014. Seeing everyone else’s highlight reels:
+how Facebook usage is linked to depressive symptoms. J. Soc. Clin. Psychol. 33 (8),
+701–731.
+Suh, E.K., Koo, J.S., 2011. A concise measure of subjective well-being (COMOSWB): scale
+development and validation. Korean J. Soc. Pers. Psychol. 25 (1), 95–113.
+Swain, R.K., Pati, A.K., 2019. Use of social networking sites (SNSs) and its repercussions
+on sleep quality, psychosocial behavior, academic performance and circadian
+rhythm of humans—a brief review. Biol. Rhythm Res. 00 (00), 1–40. https://doi.
+org/10.1080/09291016.2019.1620487.
+Talwar, S., Dhir, A., Kaur, P., Zafar, N., Alrasheedy, M., 2019. Why do people share fake
+news? Associations between the dark side of social media use and fake news sharing
+behavior. J. Retail. Consum. Serv. 51, 72–82. https://doi.org/10.1016/j.
+jretconser.2019.05.026.
+Tandon, A., Dhir, A., Almugren, I., AlNemer, G.N., Mantym ¨ ¨
+aki, M., 2021a. Fear of
+missing out (FoMO) among social media users: a systematic literature review,
+synthesis and framework for future research. Internet Res. 1–45. Ahead of print.
+Tandon, A., Dhir, A., Mantym ¨ ¨
+aki, M., 2021b. Jealousy due to social media? A systematic
+literature review and framework of social media-induced jealousy. Internet Res.
+1–45. Ahead of print.
+Tandon, A., Kaur, P., Dhir, A., Mantym ¨ ¨
+aki, M., 2020c. Sleepless due to social media?
+Investigating problematic sleep due to social media and social media sleep hygiene.
+Comput. Hum. Behav. 113 (July), 106487 https://doi.org/10.1016/j.
+chb.2020.106487.
+Tarafdar, M., D’Arcy, J., Turel, O., Gupta, A., 2015. The dark side of information
+technology: Is overuse of information technology sapping your employees’
+productivity, innovation, and well-being? MIT Sloan Manag. Rev. 56 (2), 60–70.
+Throuvala, M.A., Griffiths, M.D., Rennoldson, M., Kuss, D.J., 2019. Motivational
+processes and dysfunctional mechanisms of social media use among adolescents: A
+qualitative focus group study. Comput. Hum. Behav. 93, 164–175.
+Tsay-Vogel, M., Shanahan, J., Signorielli, N., 2018. Social media cultivating perceptions
+of privacy: A 5-year analysis of privacy attitudes and self-disclosure behaviors among
+Facebook users. New Media Soc. 20 (1), 141–161.
+Varnali, K., Toker, A., 2015. Self-disclosure on social networking sites. Soc. Behav. Pers.
+Int. J. 43 (1), 1–13.
+Verduyn, P., Gugushvili, N., Massar, K., Taht, ¨ K., Kross, E., 2020. Social comparison on
+social networking sites. Curr. Opin. Psychol. 36 (December), 32–37. https://doi.org/
+10.1016/j.copsyc.2020.04.002.
+Verduyn, P., Ybarra, O., Resibois, M., Jonides, J., Kross, E., 2017. Do social network sites
+enhance or undermine subjective well-being? A critical review. Soc. Issues Policy
+Rev. 11 (1), 274–302.
+Vergeer, M., Pelzer, B., 2009. Consequences of media and internet use for offline and
+online network capital and well-being. A causal model approach. J. Comput. Mediat.
+Commun. 15 (1), 189–210.
+Wang, J.L., Gaskin, J., Rost, D.H., Gentile, D.A., 2017. The reciprocal relationship
+between passive social networking site (SNS) usage and users’ subjective well-being.
+Soc. Sci. Comput. Rev. 1–12.
+Webster, D., Dunne, L., Hunter, R., 2021. Association between social networks and
+subjective well-being in adolescents: a systematic review. Youth Soc. 53 (2),
+175–210.
+Wheeless, L.R., 1978. A follow-up study of the relationships among trust, disclosure, and
+interpersonal solidarity. Hum. Commun. Res. 4 (2), 143–157.
+Whelan, E., Islam, Najmul, A., K.M., Brooks, S, 2020. Is boredom proneness related to
+social media overload and fatigue? A stress–strain–outcome approach. Internet Res.
+30 (3), 869–887. https://doi.org/10.1108/INTR-03-2019-0112.
+Wu, J., Smith, S., Khurana, M., Siemaszko, C. & DeJesus-Banos, B. (2021). Stay-at-home
+orders across the country: What each state is doing—or not doing—amid widespread
+coronavirus lockdowns. NBC News. https://www.nbcnews.com/health/healthnews/here-are-stay-home-orders-across-country-n1168736.
+Yao, J., Cao, X., 2017. The balancing mechanisms of social networking overuse and
+rational usage. Comput. Hum. Behav. 75, 415–422.
+Ye, S., Ho, K.K., 2019. Would you feel happier if you have more protection behaviour? A
+panel survey of university students in Japan. Behav. Inf. Technol. 38 (4), 422–434.
+Zhang, S., Zhao, L., Lu, Y., Yang, J., 2016. Do you get tired of socializing? An empirical
+explanation of discontinuous usage behavior in social network services. Inf. Manag.
+53 (7), 904–914.
+Zhu, Y., Bao, Z., 2018. The role of negative network externalities in SNS fatigue. Data
+Technol. Appl. 52 (3), 313–328.
+Puneet Kaur is currently a postdoctoral researcher at Department of Psychosocial Science, University of Bergen, Norway.
+Her research appears in Journal of Retailing and Consumer Services, International Journal of Information Management, Computers in Human Behaviour, International Journal of Hospitality
+Management, and Information Technology & People among
+others.
+Nazrul Islam is Associate Professor of Innovation/Entrepreneurship and an Interdisciplinary Pathway Lead for global
+political economy at the University of Exeter Business School,
+England, UK. He holds a PhD in innovation management. His
+research interest focuses on interdisciplinary fields: the management of technology and strategy; innovation and entrepreneurship; the emergence and growth of disruptive and
+digital technology-based innovation; SMEs business sustainability. His research was published in the leading international
+journals and he has complemented his peer reviewed journal
+efforts with three books. Prof Islam’s research received awards
+including the ‘Brad Hosler Award for Outstanding Paper’ from
+USA; and the ‘Pratt & Whitney Canada Best Paper Award’ from Canada. Prof Islam serves
+on the board of directors for Business and Applied Sciences Academy of North America. He
+currently serves as an Associate Editor of Technological Forecasting & Social Change and
+Editor-in-Chief of International Journal of Technology Intelligence and Planning.
+Anushree Tandon (PhD) is currently a postdoctoral researcher
+at Turku School of Economics, University of Turku. Her
+research appears in Computers in Human Behaviour, Computers in Industry, Technological Forecasting and Social
+Change, Food Quality & Preference, Journal of Cleaner Production, Technology in Society, Journal of Retailing and Consumer Services, Internet Research and Appetite among others.
+Amandeep Dhir is a Professor of Research Methods at University
+of Agder, Norway. He is also a visiting professor at Norwegian
+School of Hotel Management, University of Stavanger, Norway.
+His research appears in Technological Forecasting and Social
+Change, Journal of Retailing and Consumer Services, International
+Journal of Information Management, Computers in Human
+Behaviour, Computers in Industry, International Journal of Hospitality Management, Journal of Cleaner Production, Food quality
+and preferences, Appetite, Information Technology & People,
+Australasian Marketing Journal, and Enterprise Information Systems among others.
+P. Kaur et al. 

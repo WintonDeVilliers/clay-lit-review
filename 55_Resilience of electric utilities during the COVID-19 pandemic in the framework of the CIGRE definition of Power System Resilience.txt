@@ -1,0 +1,1587 @@
+Electrical Power and Energy Systems 136 (2022) 107703
+Available online 20 October 2021
+0142-0615/© 2022 Elsevier Ltd. All rights reserved.
+Resilience of electric utilities during the COVID-19 pandemic in the
+framework of the CIGRE definition of Power System Resilience
+Spyros Skarvelis-Kazakos a,*
+, Malcolm Van Harte b
+, Mathaios Panteli c
+, Emanuele Ciapessoni d
+,
+Diego Cirio d
+, Andrea Pitto d
+, Rodrigo Moreno e,f
+, Chandan Kumar g
+, Chris Mak h
+, Ian Dobson i
+,
+Christopher Challen a
+, Milorad Papic j
+, Craig Rieger k
+a School of Engineering and Informatics, University of Sussex, Brighton BN1 9QT, United Kingdom b Eskom Distribution, Cape Town, South Africa c Department of Electrical and Computer Engineering, University of Cyprus, 2109 Aglantzia, Nicosia, Cyprus d Ricerca sul Sistema Energetico – RSE S.p.A., 20134 Milano, Italy e Universidad de Chile and Instituto Sistemas Complejos de Ingeniería, Chile f Imperial College London, United Kingdom g Power System Operation Corporation Ltd. (POSOCO), New Delhi, India h Maxlin Inc, Mississauga, Ontario L5H 1S5, Canada i Electrical and Computer Engineering Department, Iowa State University, Ames, IA 50011, USA j Boise, ID 83706, USA k Idaho National Laboratory, Idaho Falls, ID 83415, USA
+ARTICLE INFO
+Keywords:
+COVID-19
+Power system resilience
+Disaster recovery
+Critical infrastructure
+Organisational resilience
+Graph theory
+ABSTRACT
+Resilience is a vital concept in engineering, business, and natural sciences, and is a measure of the ability of an
+entity to withstand High Impact Low Probability (HILP) events. During the COVID-19 pandemic, which started in
+late 2019/early 2020, power system utilities around the globe have responded in effective and efficient ways to
+enhance the resilience of their organisations, both in terms of real-time operations and prudent management of
+its infrastructure, in order to continue their mandate in providing reliable supply to meet customer demands.
+This paper presents the CIGRE definition for power system resilience, established by the C4.47 Working Group in
+2018, and demonstrates the application of resilience-oriented thinking within the electrical sector. The response
+and recovery efforts are described, with respect to the key actionable measures integral to the power system
+resilience definition, taken before, during and after the COVID-19 pandemic. A practical conceptual framework is
+also presented for thinking about resilience in terms of three key components of resilience strategies: organisational, infrastructure and operational resilience. The paper also discusses the different strategies adopted in
+response to COVID-19, based on the C4.47 members’ experiences during the pandemic. Finally, a case study is
+presented, which proves the effectiveness of a set of response measures, using graph theory and the characteristics of the staff-asset interactions.
+1. Introduction
+In November 2019, the first cases of a new disease, later named
+COVID-19 by the World Health Organisation (WHO), were reported by
+health care workers from Wuhan, China. In December 2019, researchers
+from Wuhan reported a cluster of pneumonia cases caused by a novel
+coronavirus, which has since been named SARS-CoV-2, and declared a
+pandemic. The infection rate of the virus at the time of writing this paper
+is seen in Fig. 1 [1]. The COVID-19 pandemic stretches the capacity of
+emergency response agencies, health care providers, utilities and operators, which sometimes results in an inability to contain the impact of
+the virus and respond in a coordinated manner. It tested existing disaster
+business continuity plans and the ability of utilities, in real time operation, to respond to and contain the impact of otherwise typical disturbances on the interconnected power system by ensuring system
+stability, that voltage, frequency, and harmonic limits are respected, as
+well as to continue to provide the needed maintenance and repair on
+power plants and transmission facilities while seeking to minimise
+* Corresponding author.
+E-mail address: s.skarvelis-kazakos@sussex.ac.uk (S. Skarvelis-Kazakos).
+Contents lists available at ScienceDirect
+International Journal of Electrical Power and Energy Systems
+journal homepage: www.elsevier.com/locate/ijepes
+https://doi.org/10.1016/j.ijepes.2021.107703
+Received 14 July 2021; Received in revised form 11 September 2021; Accepted 14 October 2021 
+International Journal of Electrical Power and Energy Systems 136 (2022) 107703
+2
+employee exposure to COVID-19 infection. The consequences of HighImpact Low-Probability (HILP) events like the COVID-19 pandemic on
+the power system could spread rapidly across all sectors and communities due to the complexity and interdependencies between critical
+infrastructures that are dependent on electricity supply. To improve
+resilience-based planning in the power system, it is important to
+recognise the nature of the COVID-19 pandemic’s potential impact on
+the power system as well as prepare and execute systematic responses to
+minimise disruption.
+At the beginning of the COVID-19 pandemic, there were fears of
+potential widespread blackouts, and network operators warned customers to “keep a torch handy” [2]. This was the first indication that
+organisational resilience was key in a pandemic situation. Thankfully,
+extensive blackouts did not materialise, although it is still unclear if this
+was due to reduced reporting of outages or the effectiveness of network
+operator response [3].
+Since the start of the pandemic, there has been a significant effort in
+documenting its impacts on electric utilities and consumers. Most
+striking is the variation in energy demand, typically an overall reduction, which has shifted from the industry and commercial buildings towards residential premises [4]. This shift was expected, since many
+businesses and manufacturing plants have been prevented from operating or were operating at a much-reduced capacity while many employees continued working from home. Straightforward comparisons of
+energy demand in 2020 against previous years show a significant
+reduction in overall load, which could have potentially challenging
+implications on the operation of the power system, because it requires a
+radical shift in generator dispatch patterns [4,5,6,7,8]. Thus, the energy
+mix has also been impacted significantly, with the positive consequence
+of less utilisation of fossil fuels (e.g. 40% down in the UK) and more
+utilisation of renewables (e.g. more than 30% up in the UK) [5]. The
+reduction in demand and the changing energy mix have pushed the
+market prices to record low levels, sometimes reaching zero. In addition,
+the prices of ancillary services have significantly escalated, due to the
+increased need for the network operator to ensure the reliability of the
+system [9]. More significantly, high renewables and low demand forced
+National Grid (Great Britain’s system operator) to create an entirely new
+ancillary service, called Optional Downward Flexibility Management
+(ODFM).
+From the interactions that the authors have had with the industry
+over the past year, it has become evident that the response of the
+network operators has been systematic in tracking the causal chains that
+may lead to the inability to operate the grid effectively [10,11]. The US
+Electricity Subsector Coordinating Council (ESCC) has developed a
+resource guide for assessing and mitigating the COVID-19 by investorowned electric companies, electric cooperatives, and public power
+utilities [12]. The Resource guide is primarily designed to protect the
+health of workforce employed by utilities and to ensure energy operations and infrastructure are supported properly throughout the
+pandemic emergency. Measures were taken to reduce risk, such as staff
+containment, separation of operational teams and minimisation of
+planned outages, albeit without hard evidence of intervention effectiveness [10].
+Methodologies have been proposed in the literature on how power
+systems should respond under HILP events, and how resilience should be
+measured under HILP events like earthquakes and typhoons [13–16].
+There is limited literature linking COVID-19 to energy infrastructure
+resilience, e.g. through labour shortages [17], as most of the studies
+focus on impacts on demand patterns, as described above. Even though
+COVID-19 can be characterised as a HILP event, it is necessary to ensure
+that resilience to other, potentially co-incident HILP events is not
+compromised [18]. HILP response methodologies have been tested
+throughout the pandemic and have largely been found effective [10,11].
+Operational and policy-oriented recommendations have been proposed
+in the literature, albeit not within an established resilience framework
+[19]. Flexibility plays an important role in the resilience of the energy
+infrastructure [20]. Still, an analysis of why operational and policy interventions have been or will be effective is arduous to do, and in many
+cases, it may not even be possible due to the non-linearity and
+abstractness of the data and organisational structures. People behave in
+very complex ways.
+Staff illness is difficult to predict, but in the literature it has been
+characterised by network theory and models such as SusceptibleInfected-Susceptible (SIS) [21]. There are parallels between epidemics
+and power networks [22] in how a failure or infection of one node can
+spread through a whole system, and similar patterns have been identified in organisational structures [23].
+1.1. Key contributions and outline of the paper
+This paper aims to explore the effects of the COVID-19 pandemic on
+power systems, with a specific focus on resilience. Experts from across
+the world, through the CIGRE C4.47 Working Group, worked together to
+integrate infrastructure, operational and organizational resilience in one
+holistic framework, which is then demonstrated using graph-based
+analysis.
+Electric utility experience throughout the pandemic has been
+captured, and a set of observed measures that have been taken by
+electric utilities is presented. In particular, the authors discuss how the
+CIGRE C4.47 definition for resilience [24] can be applied to the response
+of power system organisations to the pandemic, and the observed
+measures are categorised in accordance with the definition.
+Finally, a graph-based analysis is presented, which validates the
+effectiveness of the two most significant interventions for mitigating the
+impact of COVID-19, using an example organisational structure model of
+an electric utility. This novel approach, which is common in epidemic
+analysis but not in the electric utility context, enables utilities to view
+their staff in a more systematic way. This opens up the possibility of
+using quantitative techniques for safeguarding the resilience of electric
+utility organisations.
+Fig. 1. Total confirmed cases of COVID-19 according to the WHO, correct as of 12 July 2021 [1].
+S. Skarvelis-Kazakos et al. 
+International Journal of Electrical Power and Energy Systems 136 (2022) 107703
+3
+The rest of the paper is structured as follows. Section 2 discusses the
+importance of staff and asset interactions in the context of epidemics,
+Section 3 provides the challenges that electrical utilities across the world
+faced during the COVID-19 pandemic, Section 4 presents a categorisation of the utility response to the pandemic, Sections 5 and 6 briefly
+present the CIGRE C4.47 resilience definition and contextualise it with
+regards to COVID-19, Section 7 presents the lessons learned by electric
+utilities during the pandemic, while Section 8 discusses the implications
+of COVID-19 on interdependent utility infrastructure. Finally, Section 9
+presents a graph-based analysis of COVID-19 counter-measures, and
+conclusions are drawn in Section 10.
+2. The importance of organisational structure
+COVID-19 and other transmissible diseases can adversely impact
+power system resilience in three areas:
+• Organisational resilience, since staff absences inhibit decisionmaking and preparedness, creating practical and logistical
+challenges;
+• Infrastructure resilience, due to lack of preventative or corrective
+maintenance and repair on generation and transmission facilities
+resulting in increasing unavailability of these facilities and ultimately inoperability of the power system; and
+• Operational resilience, since staff absences cause deficiencies in
+essential operation (e.g. network control centre, SCADA, EMS).
+The primary source of fears associated with COVID-19 in the power
+sector was the dependence of the infrastructure on company staff,
+mainly operational and maintenance workers. Real time operation of a
+power system is not fully automated and requires continuous human
+intervention, due to its constant changing conditions, either during
+normal operation or during faults and other emergencies. This is especially important after a contingency has occurred resulting in loss of
+facilities and/or under emergency operations. Just as importantly,
+routine maintenance and repair must be carried out to ensure availability of generation and transmission facilities (e.g. maintenance and
+supply chain staff). During a pandemic, this human intervention may be
+disrupted, or may even be the source of disruption, in the case where
+inadequate maintenance and repair, due to maintenance staff absence,
+could cause a fault or multiple faults to occur more frequently on the
+system. Inadequate system operation staff could also result in disruption
+if the system was not continuously operated in a secure operating state
+in response to changing operating conditions, including faults. Fig. 2
+conceptually illustrates this interconnectedness between staff and assets,
+and how an infection and/or fault can cascade and propagate across
+those physical and conceptual boundaries. The structure of an infrastructure organisation can be adapted to become more resilient to staff
+disruption due to pandemics. Fig. 3 illustrates the difference between (a)
+a less resilient and (b) a more resilient organisational structure. In the
+first case, a fault develops in Asset 1, but the operator is infected and not
+able to return the system to a secure operating state after fault clearance.
+Hence, the insecure operating state cascades further to Assets 2 and 3. In
+the second case, after the fault is cleared the system is re-secured by
+Operator 3, who is not infected, because they were segregated. Hence,
+by placing Operator 3 in a segregated location, they are able to maintain
+secure asset operation after their colleagues are infected. When trying to
+analyse the organisational structure of a network company, such as an
+electric utility, it is important to categorise the key staff and asset attributes that might influence the company’s resilience (e.g. asset operators), as well as the interactions between entities. A high-level list of
+attributes and interactions is presented in Table 1.
+3. Utility experience and challenges during the COVID-19
+pandemic
+The COVID-19 pandemic has placed tremendous pressure on most
+countries’ healthcare systems, economies, general social activities, and
+electricity provision. It has created three major challenges for utilities,
+namely:
+1. Safeguarding employees,
+2. Business continuity - Sustaining critical operations to ensure continuity of electricity provision, and
+3. Power system operational challenges - Providing guidance or support
+to all employees to ensure adherence to preventative measures is
+maintained despite the occurrence of operational challenges.
+These challenges are discussed below.
+3.1. Safeguarding employees
+Safeguarding of employees has been imperative for utilities in order
+not to compromise the health and safety of both the employees and
+public while executing their duties. Several preventative practices have
+been utilised to ensure general hygienic measures, adopted as recommended by the WHO to limit the spread of the virus when essential
+service employees are executing their duties. This also required new
+ways of performing their duties for the critical operations during the
+lockdown period.
+3.2. Business continuity
+Business continuity challenges result from complexities in organisational decision-making and human resources, for instance a shortage
+of qualified staff due to illness or isolation measures. Utilities are
+therefore unable to operate the system or respond to emergencies in the
+same way they would during normal circumstances.
+Fig. 2. Interconnectedness of staff at different levels and physical assets in a power system. The impact of a disease can propagate to physical assets if they are not
+operated or maintained well.
+S. Skarvelis-Kazakos et al. 
+International Journal of Electrical Power and Energy Systems 136 (2022) 107703
+4
+During crises such as the COVID-19 pandemic, one important aspect
+which was observed is the operation of a backup control centre at short
+notice and makeshift arrangement of additional backup centres in case
+of need. The need to have a backup control centre is mainly due to
+singular risks from outside (e.g. terrorist threat or local security issues)
+or risk of major equipment failure rendering the main control centre
+inoperable. However, this pandemic has also provided the opportunity
+to explore the setup of temporary backup control centres in the same
+facility at various other levels and in any other utilities where communication with this control centre is available. In India, the State/
+Regional/National control centre has set up a small backup centre in the
+same building, but on different floor levels to avoid any crosscontamination, using it only if the main centre is contaminated [25].
+In addition, other organisations with similar facilities have been identified and a temporary control centre is also established in the exact
+location. This has provided an added level of local backup during the
+pandemic.
+It was observed that there is a need for identification of Critical Staff
+for Core Functions and reserve manpower readiness to handle such
+events. The role of critical staff is to perform the assigned tasks, while
+reserve manpower can step in, in case of critical staff unavailability. This
+also ensures the functionality of a local temporary backup control centre
+operation if needed. In some cases, manpower in control centres was
+divided among various groups due to movement restrictions. It constitutes critical staff (to attend on regular basis), reserve manpower (to
+attend office on few designated days and the rest of the time Work from
+Home – WfH) and non-critical staff (WfH). In addition, being a 24/7
+operation, to reduce the movement of critical staff, the 3-shift schedule
+has been changed to a 2-shift schedule, for reducing the chances of
+contamination. However, not all network operators chose to adopt such
+measures in their control centre. Some operators chose not to use the
+backup control room in regular business, but to keep it “clean” in case
+there was a need to move there, or decided not to go for 12 h shifts.
+The option of working from home for the control centre staff has also
+highlighted the risks of cyber security. Systems like SCADA and Market
+Management generally have their own dedicated network, but accessing
+such systems from home has increased vulnerability to cybersecurity
+risks.
+Electricity markets are also affected, in terms of the levels of demand
+and prices for energy and ancillary services. Indeed, electricity prices in
+Fig. 3. Comparative example of (a) a less resilient and (b) a more resilient organisational structure. Staff properties are shown in the boxes, which includes if they are
+associated with assets or not.
+Table 1
+Attributes and interactions of the different entities in a network company.
+Staff attributes Asset attributes Interactions
+Level (director, head,
+manager, operator,
+etc.)
+Functionality Organisational structure
+List of staff contacts in
+close proximity
+Interconnections with
+other assets
+Proximity
+Key worker or not Operational
+parameters
+Infectivity dynamics
+Ability to work from
+home or not
+Physical interactions
+(e.g. power flow)
+Contingency and staff
+continuity planning
+Health level or
+susceptibility
+(probability of
+infection)
+Epidemic network
+parameters (degree,
+betweenness centrality, etc.)
+Asset dependency (e.g.
+fault clearing)
+S. Skarvelis-Kazakos et al. 
+International Journal of Electrical Power and Energy Systems 136 (2022) 107703
+5
+wholesale markets have significantly decreased due to a combined effect
+of various factors, notably lower electricity demand and fossil fuel prices. Both lower energy prices and lower demand levels may have severe
+impacts on an energy company. In some countries, for example, some
+generators/suppliers have lost more than 60% of their contracted demand (e.g. Enel Green Power, Chile), which is combined with lower
+power production and/or selling at significantly depressed prices.
+Business continuity has also been challenged by the need to supply even
+when some consumers cannot pay (disconnection bans) [26]. Governments such as Canada, Chile, Italy and Spain have already put in place
+such schemes, especially for consumers under energy poverty programs.
+Some governments have also implemented complementary schemes to
+help companies, particularly electricity companies (suppliers and retailers) and others that provide critical services, that may need financial
+support to survive during this period [27].
+3.3. Power system operational challenges
+Operational challenges result from changes in electricity demand
+and consumption patterns. Data so far indicates that residential demand
+has increased, while industrial demand has decreased in most cases
+[4,28]. During times of low demand like the summer, demand even
+dropped below baseload level, causing significant challenges for
+network operators.
+From a power system operational challenges perspective, the COVID19 pandemic contributed significantly to the reduction of load seen by
+many countries which has created concern for utilities in managing low
+load conditions. Many operating entities such as Transmission System
+Operators (TSO), Independent System Operators (ISO) and Distribution
+Network Operators (DNO) have worked together to ensure that voltage,
+reactive power and system strength can be controlled while the operational demand is reduced, deploying plans based on operational forecasts that recognise the impacts of COVID-19. These plans include
+disconnecting transmission lines with high capacitance, working with
+large industrial customers to ensure they stay connected during critical
+times, working with customers with on-site generation to increase their
+imports from the grid and changing the operational mode of some
+generators that could operate as synchronous condensers. In most cases
+each action has been rehearsed and tuned. In the UK, storage capacity
+such as hydroelectric pumped storage and curtailment of wind generation on short notice are considered as further measures. In South Africa,
+curtailment of wind generation has been experienced only for a few days
+within a week. In addition, demand response programs and underfrequency schemes have been reviewed since the reduction in the load
+has been significant, e.g., 7500–9000 MW. This reduction has also
+triggered an increase in the maintenance of generators. The significantly
+reduced load during the night has resulted in several coal units being
+placed as reserves and caused the disconnection of baseload hydro
+during the minimum load condition.
+Power System Operation Corporation (POSOCO), which operates the
+Indian power system, has observed a reduction in energy supplied in the
+range of 20–30%, when compared to the period before COVID-19. In
+terms of load, it has observed 40–50 GW of load reduction and in percentage terms it represents around 25–30% of their peak demand. Due to
+the lower demand, many plants were shut down, resulting in a reduction
+in system inertia; thus decreasing the stiffness of the system from 10
+GW/Hz to 7.5 GW/Hz (a drop of 25%) for frequency events. With the
+demand reduction, the utilisation of the transmission system was also
+reduced, resulting in higher voltage occurrences in the system. Thus, the
+number of EHV lines kept out on voltage regulation has increased by
+three times at the level of 400 kV and above. In addition, as the lockdown has also impacted the movement of manpower for transmission
+line monitoring, it was observed that the number of faults related to
+vegetation and clearance increased significantly [25]. During this
+pandemic, the Indian power system also faced the extremely severe
+cyclone Amphan on 19–20 May 2020. Due to manpower shortage, the
+restoration and recovery post cyclone was also impacted. However,
+quick deployment and effective strategy has reduced overall restoration
+hours significantly.
+The COVID-19 pandemic also caused a drastic reduction in electricity demand in the Italian system, which significantly increased the
+contribution from renewables to cover the load (on a Sunday, 5 April
+2020, an average hourly production rate of 70% from renewables in
+total, and specifically 59% from solar and wind power generation was
+achieved). At the same time, lower gas prices reduced coal generation to
+a minimum, simulating a situation similar to a “phase out”. This is a
+situation with a similar generation mix to the 2030 electricity system
+designed by the National Integrated Energy and Climate Plan (PNIEC).
+Hence, important lessons can be learnt during this period in light of the
+decarbonisation process. During the COVID-19 pandemic, the operator
+has operated the system in a stable and secure way without curtailing
+renewable production significantly, efficiently managing the flexibility
+from gas, hydro, pumped hydro, and cross-border interconnectors. This,
+however, has been achieved by establishing and managing reserve
+margins, i.e. relying on ancillary services markets, causing extra costs
+associated with security and flexibility.
+From a resilience perspective, the exploitation of flexible systems
+and the utilisation of suitable reserve margins (supplied especially by
+gas and hydro) represent an important preparation measure deployed by
+the Italian Transmission System Operator (TSO), Terna, to maintain
+system resilience against the drastic demand decrease due to the
+pandemic.
+Finally, the Federal Energy Regulatory Commission (FERC) and the
+North American Electric Reliability Corporation (NERC) have provided
+guidance to the industry, to ensure grid reliability amid potential
+COVID-19 impacts [29]. FERC and NERC have also specified the
+necessary steps to ensure that operators of the bulk electric system
+balance the concerns for the health and welfare of their workforce while
+staying focused on the mission of supplying power to consumers across
+North America.
+4. General utility response to the COVID-19 pandemic
+The utility response efforts to pandemics such as COVID-19 can be
+generally categorised into four response and recovery practices adopted
+by utilities namely: (i) emergency response structure, (ii) processes and
+procedures to enable operational response, (iii) business continuity and
+disaster plans, and (iv) stress testing. Table 2 summarises this
+categorisation.
+An emergency response structure requires the adoption of a crisis
+Table 2
+Categorising electric utility response to COVID-19 pandemic.
+Emergency
+Response
+Structure
+Processes and
+Procedures
+Business
+Continuity and
+Disaster Plans
+Stress Testing
+• Invoking crisis
+management
+teams
+• Division and
+operational
+utility
+emergency
+response
+structures
+• Integration of
+country disaster
+structures and
+government
+departments
+• Work from
+home (WfH)
+arrangement
+• Issued
+COVID-19
+guidelines
+• Conducted
+risk
+assessment
+• Test Disaster
+Recovery
+(DR)
+capabilities
+• Situational
+awareness is
+key
+• Business and
+DR plans
+deployed (split
+and WfH)
+• Reduced
+operation and
+maintenance
+• Personal
+Protective
+Equipment
+(PPE)
+requirement is
+assigned to
+employees at
+high risk
+• Weekly
+inspection of
+controls
+effectiveness
+• Continuous
+review of
+measures and
+controls as the
+understanding
+evolves
+S. Skarvelis-Kazakos et al. 
+International Journal of Electrical Power and Energy Systems 136 (2022) 107703
+6
+management team with a mandate to coordinate utility response, and
+which will be collecting information to ensure situational awareness is
+maintained to inform decision making at a strategic, tactical, and
+operational level. This includes:
+• Communicating with employees relevant information to keep them
+safe and guide operational matters.
+• Facilitating awareness and guidelines to inform employees of practices to be adopted.
+• Developing plans to respond to threats and risks exposure during this
+constraint and health concerns when executing their duties.
+• Enable informed decision making to support the response and sustainability of critical operations. This would also require integration
+between utility, state, provincial and country disaster response
+emergency structures due to region-specific impacts.
+Continuous review and development of new processes and procedures to respond to COVID-19 threat and new operating norms were
+essential to support the continuity of electricity provision while ensuring
+the safety of employees. This required coordination of supporting information from a central basis to provide guidelines, processes, and
+procedures based on risk-informed decisions. The level of the utility
+COVID-19 responses was a function of the mature digitalisation of
+business and mission-critical systems that enabled a flexible work
+arrangement. It has been observed that the level of flexible working
+arrangement tested the capability and scalability of ICT infrastructure
+during lockdown.
+Business continuity of critical operations is crucial for the sustainability of utilities during and after the COVID-19 pandemic. Continuity
+of organisational and operational functions required utilities to review
+the adequacy of staffing and segregation of areas to sustain critical operations. In maintaining network integrity and continuity of supply,
+utilities have to ensure sufficient spares and that materials are available
+in order to prevent deterioration to the point where the normal operational N-1/N-2 criteria need to be relaxed. The disaster response efforts
+required continuous communication and coordination with country
+disaster response structures or agencies. This is to ensure that COVID-19
+regulations or legislation do not impede the operations of utility employees to ensure the provision of electricity for essential services and
+critical economic operations. It was essential to maintain situational
+awareness of the effectiveness of the controls or practices, and tracking
+the infection rate within the operating areas and employees, which then
+informed the operational response (e.g. decision on splitting the control
+centre). Reducing the normal business activities to restrict movement
+and interactions required utilities to reduce operation and maintenance
+to only safety and emergency operation activities that sustain the provision of electricity. This required the use of Personal Protective
+Equipment (PPE) by medium or high-risk employees who expose
+themselves to the public and are unable to maintain social distancing
+practices.
+Stress testing the effectiveness of the COVID-19 controls and practices is imperative to assure that outcomes deliver the desired results to
+sustain critical operations and safeguard employees. This requires regular inspections of sites and observing the activities of employees to
+ensure the safe execution of their duties. The lesson learned is to require
+the continuous review of COVID-19 processes and procedures, which
+enriches the decision-making processes.
+5. Definition of power system resilience
+Resilience definitions address a multi-faceted concept that depends
+on the context of the discipline/field [30,31,32]. Resilience is more than
+simply “the ability to bounce back” after a failure – an organisation
+seeking to be highly resilient needs to also continuously focus on aspects
+related to the potential for failure at all levels of the organisation [33].
+Electrical infrastructure is one of the critical infrastructures, which
+influences other essential services, such as telecommunications, water
+supply, etc. [34]. A major electricity-related incident can, therefore,
+have a significant impact on the country [35,36].
+Resilience is a property of a system that complements the traditional
+risk-analysis paradigm of identifying vulnerabilities of specific systems
+and the subsequent risk management of those vulnerabilities. Resilience,
+instead, looks at the “ability to prepare and plan for, absorb, recover
+from, and more successfully adapt to adverse events” especially with
+respect to the fact that (1) interconnections to social, technical, and
+economic networks of large systems that make risk management of individual components cost and time prohibitive, and (2) the vulnerabilities of these systems are uncertain [37]. In the face of COVID-19, the
+importance of building resilience in systems is highlighted strongly by
+the key role the electricity sector plays in healthcare and communications sectors, and the unprecedented vulnerabilities to staffing and operations that COVID-19 has placed on utility systems.
+The CIGRE C4.47 Working Group associates the concept of resilience
+to the system’s ability to limit the extent, severity and duration of system
+degradation following an event. As the criterion of application for this
+property mainly relates to extreme events, the CIGRE C4.47 WG defines
+Power System Resilience as [24]:
+The ability to limit the extent, severity and duration of system
+degradation following an extreme event.
+Power system resilience is achieved through a set of key actionable
+measures to be taken before, during and after extreme events, such as:
+• anticipation,
+• preparation,
+• absorption,
+• sustainment of critical system operations,
+• rapid recovery,
+• adaptation, and
+• application of lessons learnt.
+6. Applying the resilience definition on the COVID-19 pandemic
+The need for power system resilience is highlighted by the COVID-19
+pandemic. In particular, the lockdown period caused significant load
+reduction. This reduction, combined with significant renewable energy
+generation, causes the power system to be operated under large uncertainties. The pandemic, just like any other threat, causes power system operators to deploy all the actionable measures needed to boost
+their system’s resilience. In particular, weather monitoring services
+allow to anticipate critical situations with large coverage of demand
+from renewables (e.g. Sundays during lockdown). Preparation measures
+include (a) improving weather forecasts (to reduce the exchanges on
+ancillary service market), (b) buying a suitable amount of reserve in the
+ancillary services market to cope with critical situations and (c)
+increasing the exploitation of flexible systems. Moreover, advanced
+controls of flexible systems, such as HVDC links and storage, may
+contribute to reducing frequency fluctuation during situations of low
+load and high RES share, which represents an example of an absorption
+measure.
+In the context of the COVID-19 pandemic, a fundamental measure
+consists of assuring the supply of critical loads, with a special reference
+to hospitals that are characterised by extra loads due to the large number
+of patients accessing the health care services. The experience of the
+COVID-19 pandemic also pushes a change in the internal procedures of
+system operators, favouring flexible working and improving safety
+during on-field works.
+The underlying concept of the resilience definition described before
+relies upon the resilience trapezoid. An adapted version is presented in
+Fig. 4. The resilience trapezoid is not necessarily referring to particular
+timescales, but in this case it is adapted to the timescales and relevant
+tasks of a pandemic.
+The CIGRE definition of power system resilience is achieved through
+S. Skarvelis-Kazakos et al. 
+International Journal of Electrical Power and Energy Systems 136 (2022) 107703
+7
+a set of key actionable measures, which can only be achieved by well
+planned, executed human interventions to preserve and enhance power
+system resilience at all phases of extreme events such as the COVID-19
+pandemic. To that end, the CIGRE WG C4.47 proposes to further
+break down the definition in terms applicable to COVID-19. This includes three important resilience aspects, which provide a holistic
+approach to complement the definition, namely: (i) Organisational, (ii)
+Infrastructure and (iii) Operational. It provides a practical conceptual
+framework for thinking about resilience and identifies three key components of resilience strategies as illustrated in Fig. 5 [38]. Balchanos
+et al. [39] demonstrated an assessment technique based on these three
+essential capabilities of a system’s resilient response namely: (i)
+absorptive capacity, (ii) adaptive capacity, and (iii) restorative capacity.
+Therefore, COVID-19 response and recovery efforts would be described
+in terms of resilience capacities regarding strategies against the conceptual framework.
+6.1. Organisational resilience
+Organisational resilience is defined as strategies and mechanisms
+that are an outcome of the effective multi-disciplinary management
+principles and strategic planning to manage disruptive incidents to its
+business operations. It is a product of a wide range of well-established
+processes such as risk-informed decision making, business continuity
+of critical operations, emergency response to sustain and ensure
+appropriate controls are adopted, and crisis management teams to coordinate the response and recovery with well-informed communication
+[40].
+In terms of COVID-19 response efforts, it requires organisations to
+swiftly enact measures to support, protect and empower employees with
+reliable and accurate information to sustain response and recovery and
+limit exposure or spread. It is imperative to secure the health and safety
+of utility employees when executing duties entrusted to them as essential services during operations, maintenance and construction activities
+to sustain electricity provision. There is an increased need to understand
+the factors that will affect the wider energy business (in addition to
+utilities) in both the short and long term, so that energy businesses with
+the foresight and agility can make informed decisions and safeguard
+their assets, as well as to capitalise on those opportunities under a green
+economic recovery.
+6.2. Infrastructure resilience
+Infrastructure resilience refers to the physical robustness and
+redundancy of network assets to external shocks, and the capability to
+maintain and repair them. According to the US National Infrastructure
+Advisory Council [41], infrastructure resilience is the ability of the
+system to reduce the magnitude and/or duration of disruptive events.
+In terms of COVID-19 response efforts, it requires organisations to
+review the existing ICT infrastructure to support working from home.
+This is a function of the maturity of the digitalisation of the Information
+Technology (IT) and Operational Technology (OT) system’s ability to
+absorb working from home for some business and mission-critical operations. Splitting mission-critical operations provides the redundancy
+strategies that enable flexibility to contain an infection (e.g. control, call
+or resource centres). The robustness and redundancy investment in any
+power system is usually conducted in terms of a normal demand and
+supply condition. The lightly loaded conditions associated with COVID19 require a review of the existing reactive management support to
+sustain the security and reliability of a power system (such as deployment of static VAR compensators, capacitors, or reactors, and switching
+Fig. 4. Resilience trapezoid adapted to the CIGRE resilience definition and the tasks relevant to a pandemic.
+Fig. 5. Resilience conceptual framework to inform the utility efforts during the
+COVID-19 pandemic [38].
+S. Skarvelis-Kazakos et al. 
+International Journal of Electrical Power and Energy Systems 136 (2022) 107703
+8
+high voltage lines out of service).
+6.3. Operational resilience
+Operational resilience refers to the secure operational strength of a
+power system to provide uninterrupted supply to customers, as well as
+rapid and flexible restoration. The adaptive capacity of the system requires it to be adjusted to an undesirable situation by undergoing some
+changes to safely operate and maintain the interconnected power
+system.
+In terms of COVID-19 response efforts, it requires operations and
+maintenance teams to review the hazard in terms of severity and
+exposure of operations and maintenance activities. It requires an operational risk assessment to understand the vulnerabilities to safely
+operate a power system and executing duties for electricity provision.
+Furthermore, adopting adequate preventative measures to protect employees exposed to high-risk activities is imperative. This requires flexible resourcing and the creativity of field teams to respond instantly
+from home. Recovery to normal operations must be staged, considering
+the projections to normality (reduction in infection rate or no positive
+cases).
+A special report by the North American Electric Reliability Corporation (NERC) reviewed reliability considerations and operational preparedness during the COVID-19 pandemic [42]. The following section
+unpacks the actions taken by electric utilities against the key measurable
+actions within the time slot before, during and after COVID-19. A set of
+approaches are presented below, which utilities may consider in striving
+towards becoming more resilient during and after the COVID-19
+pandemic.
+7. Lessons learned by COVID-19 response and recovery
+strategies adopted by utilities
+COVID-19 has highlighted vulnerabilities and operational requirements to the electricity sector. Tables 3–6 summarise key lessons
+learned from the different strategies adopted to respond to the COVID19 pandemic. These lessons learned are mapped against two axes: the
+timeline of adverse events (anticipation, preparation, absorption,
+adaptation, rapid recovery, and sustainment) and the relevant resilience
+aspects (Organisational, Infrastructural, Operational). Tables 3–6
+Table 3
+Summary table of practices adopted by utilities.
+Organisational
+resilience
+Infrastructure
+resilience
+Operational
+resilience
+Anticipation Design response
+plans
+Invest in ICT
+infrastructure
+Establish response
+structures
+Preparation Develop more
+detailed plans
+Investigate system
+impacts
+Prepare decisionmaking and
+operational
+structures
+Absorption Activate response
+plans
+Maintain value
+chain and resources
+Maintain critical
+staff activities and
+security of assets
+Adaptation Adjust management
+arrangements and
+sustain maintenance
+capacity
+Split missioncritical operations,
+maintain security
+Cancel planned
+outages, focus on
+operation and
+maintenance,
+undertake risk
+assessments
+Rapid
+Recovery
+Disinfect, educate,
+return to work
+Restore normal
+operation, mitigate
+temporary network
+impacts
+Deactivate
+emergency response
+structures
+Sustainment Adopt new working
+arrangements,
+review and learn
+Disconnect
+temporary
+connections,
+review investment
+decisions
+Staged return to
+normal operations,
+restart planned
+maintenance
+Table 4
+Organisational resilience practices adopted by utilities.
+Organisational resilience practices adopted by utilities
+Anticipation • Develop Business and Disaster management plans to sustain
+mission-critical operations during the pandemic.
+• Develop COVID-19-specific crisis communication protocols.
+• Assign priorities and interactions between response partners.
+• Develop trigger levels to invoke COVID-19 emergency structures.
+Preparation • Promote a resilience culture at all levels of the organisation,
+specific to the COVID-19 pandemic.
+• Identification of lockdown sites for mission-critical operations
+and logistic support required.
+• Develop a phased COVID-19 response and recovery plan.
+• Develop an integrated COVID-19 emergency response structure.
+• Develop plan to protect the control room and critical operations if
+the pandemic situation worsens.
+Absorption • Procure location for disaster response sites.
+• Promote preventative measures to safeguard staff (e.g. wiping of
+all equipment pre- and post-use; deep cleaning of kitchens,
+bathrooms and common areas; maintaining social distancing;
+mask wearing).
+• Establish and communicate staff rules (self-isolation, WfH,
+restrict access, limit travel, no face to face meetings).
+• Distribute regular credible information on COVID-19 status and
+guidance.
+Adaptation • Backup stock of supply food to sustain isolation of critical staff at
+lockdown sites.
+• Establish new management arrangements to maintain
+productivity, while working patterns are disrupted.
+• Ensure procurement and supply chain processes for immediate
+procurement of health and hygiene-related products, including
+related equipment.
+• Develop emotional and psychological support required for staff
+during and after COVID-19.
+• Work with authorities to issue certificates for staff clear of the
+virus after infection period.
+• Obtain legal opinion on the innovative measures adopted to track
+interaction of staff, for contact tracing.
+• Verify spare equipment inventory to sustain repair, maintenance
+and critical capital work.
+Rapid
+Recovery
+• Disinfect work areas, especially during shift changes.
+• Roll out programme to educate staff about the do’s and don’ts, e.
+g. avoiding clustering in one area, maintaining of social
+distancing.
+• Provide individualised equipment and implement procedures to
+keep that equipment sanitised.
+• Enforce screening process of reporting and returning to work -
+staff rotation on alternative days.
+• Plan for introduction of back-office staff returning from home
+(cleaning of work areas).
+• Review operations against risk-adjusted approach to reduce
+mortality and health demand.
+• Establish return to work arrangements, and review and monitor
+its effectiveness.
+• Develop a disposal plan for PPE, sterilisation and review the
+continuation onsite health monitoring and testing after COVID19.
+Sustainment • Phase in staged removal of travel restrictions while continuing to
+prevent non-essential business travel.
+• Implement return to work programme to phase-in normal
+operations.
+• Adopt new working arrangements and rearrangement of seating
+space where reasonably practicable.
+• Limit (eradicate) where possible sharing of desks.
+• Collaborate with national and international utilities to enhance
+pandemic disaster planning required based on lessons learnt.
+• Expand disaster planning to accommodate a fast-evolving
+situation.
+• Review the enhancements in emergency response structures.
+• Review the amendments required to the Human Resources and
+safety operational practices beyond COVID-19.
+• Develop relief packages for sectors impacted significantly by
+reduced economic activities during the pandemic.
+S. Skarvelis-Kazakos et al. 
+International Journal of Electrical Power and Energy Systems 136 (2022) 107703
+9
+describe practices that have improved energy sector resilience to
+COVID-19, specific to the timeline of the pandemic’s impact and the
+relevant resilience domain. While all of these strategies were developed
+as a response to COVID-19, by mapping these strategies to the adverse
+event timeline and their resilience domains, these could be extensible to
+other unforeseeable adverse events. Each cell could also be used to
+create metrics to evaluate resilience of the electricity system in the
+future. Such recommendations are more focused and systematic than the
+ones found in the literature [19], as they will be based on CIGRE’s
+clearly defined resilience framework.
+It is important to note that different system or network operators
+followed different or contrasting strategies, according to their individual
+needs and circumstances. For instance, some network operators chose to
+maintain the backup control centre “clean”, so that it can be used only if
+the need arises. Hence, the below tables should not necessarily be used
+as a best practice guide, but as a starting point for developing possible
+response strategies. It is also important to note that many of these
+actionable measures are not specific to the response to COVID-19, or
+Table 5
+Infrastructure resilience practices adopted by utilities.
+Infrastructure resilience practices adopted by utilities
+Anticipation • Design ICT infrastructure to enable remote working
+arrangements.
+• Invest in infrastructure to enable integration with country
+emergency response structures and sectors.
+Preparation • Conduct simulations to assess the adequacy and security during
+light load conditions and possible generation unit shutdown
+scenarios.
+• Procure appropriate spares and equipment to support the
+response capabilities.
+• Investigate how changes in electricity demand are causing the
+deployment of generating resources and changes in the price of
+energy in the wholesale market.
+Absorption • Apply remote working arrangements to management of meetings
+to sustain operations from home.
+• Partner with key response stakeholders and vendors to maintain
+value chain.
+• Use contractors to supplement the resources when necessary for
+construction and maintenance activities.
+Adaptation • Splitting mission-critical operations or activities to limit infection
+rate.
+• Obtain temporary relief from certain regulatory obligations.
+• Develop infrastructure requirements for permanent preventative
+measures to improve continuous health monitoring, designing for
+social distancing, increased restricted access, quicker alternative
+work arrangements and adequacy of backup centres.
+• Review cybersecurity attack vectors and defence barriers at
+backup sites to ensure protection of critical operational systems
+that may be at higher risk by the pandemic.
+Rapid
+Recovery
+• Increase ICT infrastructure to minimise face-to-face meetings and
+enhance remote operations capability.
+• Review operating measures to support reactive management
+during very lightly loaded conditions resulting in higher than
+normal voltage across the interconnected power system.
+• Reinstate cancelled capital work.
+• Develop plans for bringing back assets where non-critical
+switching impacted the outage planning.
+• Review tools to mitigate low inertia, oscillatory, light load issues
+and reverse power flow, hosting capacity.
+Sustainment • Assess investment decisions to determine the adequacy of the
+backup or lockdown sites.
+• Utilise the Disaster Recovery Site as a Distribution Management
+System (DMS) hot standby site, i.e. continuously kept in sync with
+the main Operations Centre, to prevent loss of data.
+• Review contractual arrangements and infrastructure
+requirements for the sequestration plans or enhancement of
+pandemic response planning.
+• Disconnect temporary supply connections for essential or critical
+loads.
+• Assess ICT considering the increased remote working and
+increased load on data centre infrastructure.
+• Implement cyber-secure solutions to enable remote grid
+operations.
+Table 6
+Operational resilience practices adopted by utilities.
+Operational resilience practices adopted by utilities
+Anticipation • Establish emergency COVID-19 pandemic response structures to
+coordinate and communicate.
+• Activate emergency and contingency plans.
+• Assist ICT infrastructure to maintain mission-critical operations
+remotely.
+• Conduct risk assessment on operations to develop appropriate
+response and recovery efforts.
+Preparation • Initiate commercial procedure to validate the transformer design
+criteria.
+• Conduct operational risk assessment on operations, maintenance
+and constructive activities during the threat of COVID-19.
+• Compile business plan on operational and investment decision
+making required to equip the mission of the utility.
+• Activate the utility emergency response structures and crisis
+management team.
+• Identify critical staff and associated tools needed to enable
+working from home as a first option.
+• Identify and separate critical employees from the general
+population.
+• Identify critical units under possible reduction of operational
+activities.
+• Prepare backup control centre and operational centres.
+Absorption • Maintain vigilance of employees’ ability to adjust to the
+uncertainty and crisis situation (ensure psychosocial support).
+• Maintain power system security and reliability threshold during
+lightly loaded conditions with reduction of baseload.
+• Create situational awareness for the identification of high-risk
+staff.
+• Ensure availability of PPE for high-risk staff.
+• Maintain operational activities for outage and fault management
+criteria.
+• Make available medical testing of infection status and disease
+treatment for staff.
+• Review staff availability and skills levels to limit impact on
+operations (e.g. >60 years and underlying health conditions).
+• Identify and deploy staff who have previously operated in the
+control or dispatching centres, as necessary.
+Adaptation • Develop procedures on good practices of use of PPE, adding
+COVID-19 preventative measures in job planning or work
+instruction.
+• Revise COVID-19 response and recovery plans to guide operation
+and maintenance activities.
+• Conduct regular educational awareness on COVID-19 on exposure threat and preventative measures.
+• Provide accessibility to credible information.
+• Conduct regular testing of preventative measures and new
+operating regime.
+• Review the operation and maintenance response plans as the
+threat to human life is better understood.
+• Cancel all planned outages that do not affect safety and critical
+operations.
+• Conduct risk assessments on all work activities and issue
+necessary PPE for high risk jobs.
+• Re-authorise “storm role” staff.
+• Suspend the disconnection of customers due to lack of payment.
+Rapid
+Recovery
+• Create COVID-19 Dashboard: tracking of key activities per operational region.
+• Deactivate emergency response structures.
+• Demobilise lockdown sites.
+• Restrict access to only designated people.
+• Conduct observations of work sites to ensure social distancing is
+maintained.
+• Develop return to work arrangement for COVID-19 segregation
+efforts (sequestered).
+• Develop plans to reinstate normal maintenance activities,
+electrification connections and construction efforts.
+• Demobilise special contractor emergency teams or cross border
+arrangements.
+• Develop plans to reintegrate vulnerable or infected staff to critical
+operations.
+• Deactivate the use of backup centre after lockdown restrictions
+and determine infection rate trigger.
+• Monitor speed and shape of the recovery and the impact of
+deferred outages and decision on recovery.
+(continued on next page)
+S. Skarvelis-Kazakos et al. 
+International Journal of Electrical Power and Energy Systems 136 (2022) 107703
+10
+other pandemics. Some of these actions are operating procedures and
+processes commonly used by utilities in response to any emergency
+scenario. Still, they are highlighted as relevant considerations during the
+COVID-19 pandemic.
+8. Infrastructure interdependencies in the context of COVID-19
+In recent years, unprecedented and singular extreme events (such as
+the 9/11 terrorist attack and COVID-19 pandemic) have revealed the
+interdependencies of critical infrastructures. These extreme events had
+severe negative consequences across multiple sectors. These consequences can be attributed to complex interrelationships and interdependencies across sectors, due to the interconnected nature of
+critical infrastructures and essential services [43].
+Rinaldi et al. [44] proposed some of the earliest descriptive interdependency types, namely, (i) physical, (ii) cyber, (iii) geographic, and
+(iv) logical. The fundamental definition of infrastructure interdependency and its modelling has led to a further distinction among first-,
+second-, and third-order dependencies. According to [44], there are
+several complex interdependencies between critical infrastructure systems. Power networks, water networks and social networks share similar
+characteristics [22]. These networks are interdependent and they
+interact at particular nodes. The risk becomes more pronounced when
+considering second, third and n-th order effects [44].
+The power system depends on critical personnel to operate and
+maintain the grid, and during pandemics the power system becomes
+critically dependent on keeping those people healthy, non-infectious,
+and available to work [45]. There is a clear dependence on the health
+industry to be able to test for the virus and infectious status, treat the
+virus, and certify recovery. If not isolated at the control centre, the
+critical personnel are vulnerable to infection from family members and
+other social interactions. They also need to travel to work safely. Access
+to medical testing can be a critical factor for good decisions about the
+health and availability of groups of critical workers who must work
+together in the same space.
+In terms of staff sickness that could be caused by COVID-19, the
+interdependency is mainly logical and practical. As shown in an illustrative example in Fig. 6, staff issues have the potential to cascade to
+almost every infrastructure system where human intervention is
+required, such as operation and maintenance.
+Combined resilience models of interdependent infrastructure systems have been considered in the literature, starting with a simplistic
+definition that “loss of resilience, R, can be measured as the expected
+loss in quality (probability of failure) over the time to recovery, t1 - t0”
+[46]. More elaborate models have been considered, but are beyond the
+scope of this paper, such as Agent-Based Modelling (ABM), network
+graph theory and/or Monte Carlo simulations. ABM has been used in
+similar studies before, to simulate the interconnectedness of assets
+[47,48].
+Broader energy systems and socio-economic implications should also
+be considered in the context of pandemics-driven resilience propositions. For example, the potentially higher risk of blackouts due to staff
+shortages could lead to substantial economic damage for a number of
+industries in an already weakened economic context. This may be
+particularly severe for energy-intensive industries such as aluminium
+smelters, for instance, which could lead to prolonged or even permanent
+termination of their activities. Other difficult situations may arise. Many
+small retailers and Small and Medium Enterprises (SME) (e.g., aggregators) may have to deal with insolvent customers who are unable to pay
+their bills due to the pandemic economic crisis. Small suppliers and
+generation companies may be unable to efficiently participate in the
+market and recover investment due to reduced demand. The above issues could lead these companies to bankruptcy, with further knock-on
+effects on (short- to medium-term) system resilience. All these very
+complex aspects incorporate high nonlinearities and nonlinear feedback
+loops between technical power system issues and more general socioeconomic matters. Hence, they should be considered carefully by regulators and policymakers. Thus, the COVID-19 pandemic may be seen as
+an opportunity to further enhance power system resilience for long term
+adaptation besides purely technical or infrastructure considerations.
+Table 6 (continued )
+Operational resilience practices adopted by utilities
+Sustainment • Ensure staged return to normal operations.
+• Provide guidance on the steps to be taken to sustain operations
+and enhance “storm” guidelines.
+• Adopt processes and procedures to contain future pandemics.
+• Partner with key stakeholders internally and external
+stakeholders to strengthen institutional arrangement before,
+during and after an extreme incident.
+• Review enhancement to “storm role”, staffing, processes and
+mutual assistance between response partners.
+• Review shift patterns/cycle management to reduce turnovers and
+length of duty.
+• Review standard operating procedures considering the key
+insights of the system operations and security of supply.
+• Determine the minimum demand and energy reduction during
+the COVID-19 period and economic recovery time.
+• Restore generation units that have been placed in reserve or
+major maintenance activities attempted during this period.
+• Review the recovery time of the reinstatement of ancillary
+services and demand response partnerships.
+Fig. 6. Examples of infrastructure interdependencies, with a focus on staff.
+S. Skarvelis-Kazakos et al. 
+International Journal of Electrical Power and Energy Systems 136 (2022) 107703
+11
+This is especially the case since the electricity infrastructure is playing
+an increasingly important role as the backbone of modern societies.
+9. Case study of a notional network operator organisation
+9.1. Notional network operator
+In order to study the impact of the above measures on the organisational, infrastructural and operational resilience of network operators, an example case study was put together. The case study is based on
+a basic conceptual understanding of the different staff teams within a
+network operator, and also loosely based on concepts from [49,50]. The
+company’s organisational structure is considered a graph, and different
+teams are designated as sub-graphs. The teams that were considered are
+as follows:
+1. Control centre (sub-graph C) – staff who work in the control centre and
+operate the Distribution Management System (DMS).
+2. Technology office (sub-graph T) – staff (e.g. engineers) who work in
+office-based tasks (e.g. planning), as well as managers and team
+leaders in the “field-based” teams.
+3. Maintenance teams (sub-graph M) – staff who maintain the safe and
+proper operation of the assets.
+4. Operations for substation A (sub-graph OA) – staff who operate
+notional substation “A”.
+5. Operations for substation B (sub-graph OB) – staff who operate notional
+substation “B”.
+6. Field manager (node G6) – staff coordinating the “field” teams, i.e.
+operators and maintenance staff.
+7. CEO (node G7) – High-level leadership of the organisation.
+The notional staff organisational structure before any intervention
+related to COVID-19 is shown in Fig. 8. The physical interactions are
+shown with black arrows, and these include interactions between staff
+and assets. Staff interactions are important since they represent a route
+for infection, whereas asset interactions are also important because they
+can cause a staff infection to have an impact on the operation of an asset.
+For instance, if a distribution line is not maintained properly because of
+maintenance staff illness, this could create a fault or outage.
+9.2. The need for probabilistic analysis, and interventions considered in
+the case study
+One effective way of limiting contagion is dividing the organisation
+into isolated groups. Some of these decisions are obvious, such as
+physically isolating the managers, since they normally interact in person
+with many parts of the organisation, but can function quite well
+remotely. Many office staff can also work remotely. More consideration
+can be given to how much to divide the control room and maintenance
+crews into smaller groups, since the smaller groups are less effective,
+there may be difficulties in handing off tasks between groups, and the
+isolation may be costly in both resources and socially, as when workers
+do not live at home with their families. Thus, there is a trade-off between
+the size of the groups and organizational effectiveness and costs.
+The effect of the group size depends on probability [51] and can be
+roughly analysed as follows. Suppose the group has n people, and each
+person in the group has probability p of becoming infected in a specified
+time period. Specifying the time period allows the limited extrapolation
+of the present, often uncertain conditions, and also allows rough estimates of the rate of infection to be multiplied by the time period to
+obtain an estimate of p. Assuming that the number of people infected
+follows the binomial distribution, the average number of people infected
+over the time period is n × p. More to the point, the probability P of
+someone in the group becoming infected is P = 1 − (1 − p)
+n
+, which increases with both n and p. In particular, for small p, we can approximate
+P = 1 − enp, which is further approximated by P = n × p. To minimise P,
+and hence the probability of the entire group becoming infected, one can
+minimise either n or p and get a roughly proportional benefit. Thus,
+halving the infection probability p is comparably effective to halving the
+group size n. Moreover, given an estimate of the infection rate and hence
+p, P can be roughly estimated as n × p for the purpose of deciding the
+group size n. There are many options to reduce p, including masks,
+cleaning, hand washing, and most importantly, as has been known for
+millennia with quarantine, physical isolation. A more detailed probabilistic analysis is undertaken in the following section.
+The criticality of each group; that is, their impact on operations,
+should also be considered. For example, system operators are more
+critical than maintenance workers or cleaning staff in the short term. It is
+also worth considering an investment in frequent testing to detect and
+try to stop the spread of contagion from any infected group member to
+the rest of the group. And access to medical care would cure an infected
+group more quickly and be able to verify their cure. All staff should be
+vaccinated when vaccines are available. Many of these tactics rely on
+access to health care advice, testing, services and supplies, as well as
+working through the arrangements with all the staff and all these are
+best arranged in anticipation of the next pandemic.
+In this study, two interventions were considered, (a) a split control
+centre and (b) remote working for some staff members. Fig. 9 shows the
+same network after these two interventions. In terms of the investigated
+parameters, these were based on graph theory [52], looking at the
+structure of the network through the closeness centrality, as well as a
+probabilistic model of epidemic spread [21]. The implementation of
+these concepts was based on MATLAB. A flowchart of the assessment
+methodology is presented in Fig. 7.
+9.3. Graph structure analysis – closeness centrality
+Graph theory has been used extensively to analyse the resilience and
+robustness of networks [53]. In this case, the network is a human
+epidemic network, rather than an electrical network, but it can still be
+analysed with the same graph theory methodologies. A number of indicators have been considered, such as closeness centrality, degree
+centrality and betweenness centrality [54]. Closeness centrality was
+chosen as the most relevant [52], as it represents the distance from a
+specific node i to all other nodes in a graph. If not all nodes are reachable, then the centrality of node i is:
+Fig. 7. Flowchart of the COVID-19 resilience assessment methodology.
+S. Skarvelis-Kazakos et al. 
+International Journal of Electrical Power and Energy Systems 136 (2022) 107703
+12
+c(i) =
+( Ai
+N − 1
+)2 1
+Ci
+(1)
+Where
+Ai is the number of reachable nodes from node i (not counting i),
+N is the number of nodes in the graph, and
+Ci is the sum of distances from node i to all reachable nodes.
+This effectively represents the distance that the virus must traverse
+Fig. 8. Notional example of the organisational structure of a distribution network operator before any interventions. Nodes are numbered.
+Fig. 9. Notional example of the organisational structure of a power network operator after two interventions. Nodes are numbered.
+S. Skarvelis-Kazakos et al. 
+International Journal of Electrical Power and Energy Systems 136 (2022) 107703
+13
+across the graph, in order to get from one staff member to any other staff
+member. With regards to the assets, their adjacency was only considered
+against each other, but with regards to staff nodes, the adjacency was
+directed. Asset adjacency implies that the disturbance (i.e. COVID-19)
+can transfer from one asset to the other. In practice, this is not
+possible, but in terms of the closeness centrality, this may represent the
+transfer of the disturbance from the human domain to the electrical
+domain, by means of the dependencies of the asset to human intervention (e.g. securing assets after a fault). Figs. 10 and 11 show the closeness
+centrality of the two networks plotted through MATLAB, whereas
+Table 7 shows the values for each node category.
+Each of the two interventions was considered separately, which is
+shown in Table 7, whereas the values in Figs. 10 and 11 are for both
+interventions. It can be seen that splitting the control centre provides
+most of the improvement in the closeness centrality of this particular
+staff group, but has no bearing on the rest, whereas most of the
+improvement in the other groups is gained by the WfH arrangement.
+The above results show that closeness centrality is improved by the
+interventions. In particular, the closeness centrality of the asset nodes is
+reduced by 26%. This implies that their vulnerability to adverse effects
+from the spread of COVID-19 could be reduced by more than a quarter, if
+the two measures are implemented. This is also obvious in the plots in
+Figs. 10 and 11, and the probabilistic analysis in the following section
+confirms this relationship.
+9.4. Epidemic control analysis (ECA) methodology, based on a
+probabilistic SIS model
+A probabilistic analysis of the two organizational structures was also
+performed, based on the methodology presented in [21]. The methodology is called Epidemic Control Analysis (ECA) and uses a SusceptibleInfected-Susceptible (SIS) epidemic spread model to evaluate the impact
+of removing a node on the overall spread of the disease. The SIS probabilistic network model is very useful in analysing epidemic control
+strategies [55]. In this case, the ECA model was used to evaluate the
+criticality of specific people within the organisation, with regards to the
+spread of COVID-19. This provides a very practical assessment of disease
+dynamics.
+More specifically, the ECA model uses an SIS model and graph theory
+to perform a sensitivity analysis of infection dynamics across the nodes
+of an epidemics network, and then derive interventions that have the
+potential to improve these dynamics. This is a probabilistic approach
+and considers the infection probability of nodes, which is calculated
+stochastically. The intervention strategies are derived based on certain
+epidemic control coefficients [21].
+The parameters of COVID-19 spread were considered based on [56],
+and are: timestep of 1 day, infectious transmission rate of 0.5 per day
+and recovery rate of 1/7 per day. It is important to note that the
+“ambient” infections were not considered, i.e. it was assumed that, apart
+from the virus propagating across the organisation, the staff were not
+infected by their external environment.
+Table 8 shows the number of infected individuals once the virus has
+reached a steady state in the population. Note that this study doesn’t
+take into account self-isolation, but this is reasonable given the 5 day
+asymptomatic incubation period. These results show the impact of the
+virus depending on the inception point into the network. Due to the
+segregation of groups, the virus is always contained within each group in
+the post-intervention network. Meanwhile in the pre-intervention
+network the virus achieves a widespread steady-state infection regardless of the inception point. It is observed that the control centre split
+doesn’t make any difference in the ultimate number of infections, since
+there is still a route for the virus to cross to both groups. Hence, unless
+the control centre staff are fully isolated from the rest of the staff, they
+are still vulnerable. The Working from Home measure is the most
+effective in reducing infections, since in this particular case it removed
+the contact points between the individual teams.
+The ECA methodology produces a score for each of the nodes in
+Fig. 9. This score is the value assigned to the benefit of removing a node
+from the system; the higher the value, the more of a hotspot the node is
+for disease transmission. It indicates not only a nodes’ chance of infection but also how much they will infect others.
+The ECA score results are presented in Table 9. The pre-intervention
+score is the ECA score for the original organisational structure, whereas
+the post-intervention score is the ECA score for the organisational
+structure after the split control centre and WfH measures were implemented. Each set of results simulates every point of viral inception into
+the network and takes the average ECA score. This ensures the results
+are robust against different starting points for the virus. However, this
+does limit potential insights such as how to respond if the virus initiates
+in a particular group. The interaction matrix is directed; staff can infect
+anyone they are connected to, whereas assets cannot infect any other
+node. In any case, the asset interconnections do not seem to affect the
+ECA results.
+It can be seen that nodes C8, M1, OA4 and OB4 were originally in
+contact with management (G6 & G7) giving them a high ECA score. Once
+management begin working remotely, the scores for these nodes drop
+significantly, as they are no longer key transmission vectors.
+In the case of splitting control centre, it can be seen that most of the
+nodes actually increase their ECA score, sometimes dramatically, which
+is counter-intuitive. However, this is correct, since with the new control
+centre team arrangement, each node is marginally more important,
+since the ECA value is a score of how much impact a node has on its
+neighbours. If the transmission routes are significantly reduced then
+each remaining route becomes proportionally more significant. This is
+especially prominent in node C7, which now becomes the unique entry
+point for the virus to spread between the two control centre teams. From
+the results in Tables 7–9, it can be concluded that the control centre
+isolation must be complete, in order to bring any benefit, since even one
+contact can invalidate the effectiveness of the measure.
+A key observation is that despite the fact that specific nodes present a
+very high ECA score, they are not necessarily the best ones to be
+removed for safeguarding the rest of the nodes from COVID-19 spread.
+Instead, it is shown that when the control centre teams are split, and
+some managers start to work from home, the ECA score of those nodes
+drops significantly. This shows that the proposed interventions work,
+and that assumptions about the spread of the virus are not
+straightforward.
+Fig. 10. Closeness centrality graph of the example organisational structure of a
+power network operator before any interventions. Node numbering is
+sequential, following the order in Table 9.
+S. Skarvelis-Kazakos et al. 
+International Journal of Electrical Power and Energy Systems 136 (2022) 107703
+14
+10. Conclusions
+In recent decades the world has experienced a number of extreme
+events that disrupted critical infrastructure systems with major economic losses that threatened essential services. These events have
+exposed critical infrastructure systems beyond their design margins,
+thus revealing vulnerabilities regarding the readiness and adaptability
+to such events.
+The COVID-19 pandemic is testing the utility response to an “unknown or non-traditional threat” and an evolving situation to the provision of electricity (in terms of reliability dimensions). Its consequences
+could last longer and present greater difficulties than anyone
+anticipates. This challenge calls for a conscientious, aware and resilient
+leadership to get through the COVID-19 pandemic. Therefore, the safety
+of utility employees, contractors, and the public is paramount during
+this time, while addressing the new power system operating challenges.
+This will be achieved by adopting the following:
+• Safeguard employees in a manner that does not compromise the
+health and safety of both employees and the public;
+• Provide guidance and support to all employees to ensure adhering to
+preventative practices and lockdown regulations;
+Fig. 11. Closeness centrality graph of the example organisational structure of a power network operator after two interventions. Node numbering is sequential,
+following the order in Table 9.
+Table 7
+Closeness centrality of the network.
+Node type Closeness centrality
+Pre-intervention Splitting control centre Working from Home (WfH) Both interventions Improvement with both interventions
+Control centre 0.0051 0.0046 0.0023 0.0017 68%
+Technology office 0.0051 0.0050 0.0000 0.0000 100%
+Maintenance teams 0.0051 0.0050 0.0023 0.0023 56%
+Operations (Subst. A) 0.0040 0.0040 0.0014 0.0014 66%
+Operations (Subst. B) 0.0040 0.0040 0.0014 0.0014 66%
+Field manager 0.0072 0.0069 0.0000 0.0000 100%
+CEO 0.0064 0.0062 0.0000 0.0000 100%
+Assets 0.0050 0.0049 0.0037 0.0037 26%
+Table 8
+Infected individuals when the virus has run its course, before and after the two interventions.
+Node type Infected individuals
+Pre-intervention Splitting control centre Working from Home (WfH) Both interventions Improvement with both interventions
+Control centre 48 48 11 11 76%
+Technology office 48 48 0 0 100%
+Maintenance teams 48 48 11 11 76%
+Operations (Subst. A) 48 48 6 6 88%
+Operations (Subst. B) 48 48 6 6 88%
+Field manager 48 48 0 0 100%
+CEO 48 48 0 0 100%
+Assets 0 0 0 0 0%
+S. Skarvelis-Kazakos et al. 
+International Journal of Electrical Power and Energy Systems 136 (2022) 107703
+15
+• Review and enhance staff continuity plans to ensure critical system
+operation can be maintained in the event of higher than expected
+number of infections on critical staff;
+• Ensure that utility operation (maintain, operate and collect) and
+duties are executed during a lockdown period caused by a pandemic,
+and
+• Integration with provincial/state/national disaster response structures, as appropriate, will be imperative if the infection rate increases
+dramatically.
+This paper presents the experiences of the CIGRE C4.47 Working
+Group in Power System Resilience, with regards to the response of
+electrical utilities during the COVID-19 pandemic. The paper also
+Table 9
+ECA score, as a measure of impact of the two considered changes
+Node type Node ECA score
+Preintervention
+Splitting control
+centre
+Working from Home
+(WfH)
+Both
+interventions
+Improvement with both
+interventions
+Control centre C1 0.0337 0.0412 0.0078 0.0102 70%
+C2 0.0337 0.0412 0.0078 0.0102 70%
+C3 0.0337 0.0749 0.0078 0.0169 50%
+C4 0.0337 0.0749 0.0078 0.0169 50%
+C5 0.0337 0.0749 0.0078 0.0169 50%
+C6 0.0337 0.0749 0.0078 0.0169 50%
+C7 0.0337 5.5551 0.0078 0.8710 ¡2484%
+C8 13.1012 13.9315 0.0184 0.9328 93%
+C9 0.0337 0.0412 0.0078 0.0102 70%
+C10 0.0337 0.0412 0.0078 0.0102 70%
+C11 0.0337 0.0412 0.0078 0.0102 70%
+C12 0.0804 0.0412 0.0184 0.0102 87%
+Technology office T1 0.0337 0.0337 0.0000 0.0000 100%
+T2 0.0337 0.0337 0.0000 0.0000 100%
+T3 0.0337 0.0337 0.0000 0.0000 100%
+T4 0.0337 0.0337 0.0000 0.0000 100%
+T5 0.0804 0.0804 0.0000 0.0000 100%
+T6 0.0337 0.0337 0.0000 0.0000 100%
+T7 0.0337 0.0337 0.0000 0.0000 100%
+T8 0.0337 0.0337 0.0000 0.0000 100%
+T9 0.0337 0.0337 0.0000 0.0000 100%
+T10 0.0337 0.0337 0.0000 0.0000 100%
+T11 13.1012 13.0766 0.0000 0.0000 100%
+T12 0.0337 0.0337 0.0000 0.0000 100%
+Maintenance teams M1 13.1012 13.0766 0.0184 0.0184 100%
+M2 0.0337 0.0337 0.0078 0.0078 77%
+M3 0.0337 0.0337 0.0078 0.0078 77%
+M4 0.0337 0.0337 0.0078 0.0078 77%
+M5 0.0337 0.0337 0.0078 0.0078 77%
+M6 0.0337 0.0337 0.0078 0.0078 77%
+M7 0.0804 0.0804 0.0184 0.0184 77%
+M8 0.0337 0.0337 0.0078 0.0078 77%
+M9 0.0337 0.0337 0.0078 0.0078 77%
+M10 0.0337 0.0337 0.0078 0.0078 77%
+M11 0.0337 0.0337 0.0078 0.0078 77%
+M12 0.0337 0.0337 0.0078 0.0078 77%
+(Asset) OA1 0.0000 0.0000 0.0000 0.0000 N/A
+Operations (Subst.
+A)
+OA2 0.0565 0.0565 0.0063 0.0063 89%
+OA3 0.0565 0.0565 0.0063 0.0063 89%
+OA4 6.8519 6.8403 0.0063 0.0063 100%
+OA5 0.0565 0.0565 0.0063 0.0063 89%
+OA6 0.0565 0.0565 0.0063 0.0063 89%
+(Asset) OA7 0.0000 0.0000 0.0000 0.0000 N/A
+OA8 0.0565 0.0565 0.0063 0.0063 89%
+(Asset) OB1 0.0000 0.0000 0.0000 0.0000 N/A
+Operations (Subst.
+B)
+OB2 0.0565 0.0565 0.0063 0.0063 89%
+OB3 0.0565 0.0565 0.0063 0.0063 89%
+OB4 6.8519 6.8403 0.0063 0.0063 100%
+OB5 0.0565 0.0565 0.0063 0.0063 89%
+OB6 0.0565 0.0565 0.0063 0.0063 89%
+(Asset) OB7 0.0000 0.0000 0.0000 0.0000 N/A
+OB8 0.0565 0.0565 0.0063 0.0063 89%
+Field manager G6 14.9569 14.9299 0.0000 0.0000 100%
+CEO G7 0.0107 0.0117 0.0000 0.0000 100%
+(Asset) A1 0.0000 0.0000 0.0000 0.0000 N/A
+(Asset) A2 0.0000 0.0000 0.0000 0.0000 N/A
+(Asset) A3 0.0000 0.0000 0.0000 0.0000 N/A
+(Asset) A4 0.0000 0.0000 0.0000 0.0000 N/A
+(Asset) A5 0.0000 0.0000 0.0000 0.0000 N/A
+(Asset) A6 0.0000 0.0000 0.0000 0.0000 N/A
+(Asset) A7 0.0000 0.0000 0.0000 0.0000 N/A
+S. Skarvelis-Kazakos et al. 
+International Journal of Electrical Power and Energy Systems 136 (2022) 107703
+16
+explores the different resilience strategies to frame decisions and their
+timing. In particular, the power system resilience definition proposed by
+the WG in [24] has been discussed, and how it can be applied in this
+situation. In addition, different types of resilience thinking adopted
+during the electric utility response to COVID-19 are also discussed, as
+experienced by the WG members.
+Finally, a notional case study is constructed, based on graph theory
+and a probabilistic SIS model, which provides preliminary validation of
+the effectiveness of remote working for some staff and splitting the
+distribution control centre, which were two of the measures adopted by
+these utilities. It is shown that, under the assumed electric utility model,
+these two measures can reduce the spread of COVID-19 amongst company staff by 76%, as well as reduce the chances of staff sickness causing
+disturbances to assets by up to 26%.
+CRediT authorship contribution statement
+Spyros Skarvelis-Kazakos: Conceptualization, Methodology,
+Writing – original draft, Validation, Writing – review & editing. Malcolm Van Harte: Conceptualization, Methodology, Writing – original
+draft. Mathaios Panteli: Conceptualization, Methodology, Writing –
+original draft. Emanuele Ciapessoni: Conceptualization, Methodology,
+Writing – original draft. Diego Cirio: Conceptualization, Methodology,
+Writing – original draft. Andrea Pitto: Conceptualization, Methodology, Writing – original draft. Rodrigo Moreno: Conceptualization,
+Methodology, Writing – original draft. Chandan Kumar: Conceptualization, Methodology, Writing – original draft, Conceptualization,
+Methodology, Writing – original draft. Chris Mak: Conceptualization,
+Methodology, Writing – original draft. Ian Dobson: Conceptualization,
+Methodology, Writing – original draft. Christopher Challen: Conceptualization, Methodology, Writing – original draft, Software, Validation.
+Milorad Papic: Conceptualization, Methodology, Writing – original
+draft. Craig Rieger: Conceptualization, Methodology, Writing – original
+draft.
+Declaration of Competing Interest
+The authors declare that they have no known competing financial
+interests or personal relationships that could have appeared to influence
+the work reported in this paper.
+Acknowledgements
+The CIGRE ´ C4.47 Power System Resilience working group would like
+to thank all members of C4, C2 and C1 WGs for their contributions to the
+present discussion. In particular, the contribution of the following individuals was especially important: Raj Dhrochand, Jens Jacobs,
+Andrew Jin, Igor Linkov, Pierluigi Mancarella, Matthias Noebels, Yutian
+Zhou.
+Support in part from USA NSF grant 1735354 is acknowledged.
+Support is also acknowledged from Chilean National Agency for
+Research and Development (ANID) through FONDECYT grant 1181928
+and Instituto Sistemas Complejos de Ingeniería ANID PIA/APOYO
+AFB180003.
+References
+[1] WHO COVID-19 Dashboard. Geneva: World Health Organization; 2020. Available
+online: https://covid19.who.int/ [last cited: 12 July 2021].
+[2] Noebels M, Peesapati V, Panteli M. How organisational resilience helps in dealing
+with COVID-19 and large-scale crises. https://www.mub.eps.manchester.ac.
+uk/science-engineering/2020/04/28/guest-post-how-organisational-resilience-he
+lps-in-dealing-with-covid-19-and-large-scale-crises/ [accessed 12 July 2021].
+[3] Noebels M, Panteli M. Evaluating the resilience of our electricity network during
+COVID-19. https://www.mub.eps.manchester.ac.uk/science-engineering/2020/1
+2/10/guest-post-update-evaluating-the-resilience-of-our-electricity-network-duri
+ng-covid-19/ [accessed 12 July 2021].
+[4] Krarti M, Aldubyan M. Review analysis of COVID-19 impact on electricity demand
+for residential buildings. Renew Sustain Energy Rev 2021;143.
+[5] Werth A, Gravino P, Prevedello G. Impact analysis of COVID-19 responses on
+energy grid dynamics in Europe. Appl Energy 2021;281.
+[6] Zhang X, Pellegrino F, Shen J, Copertaro B, Huang P. Puneet Kumar Saini, Marco
+Lovati”, A preliminary simulation study about the impact of COVID-19 crisis on
+energy demand of a building mix at a district in Sweden”. Appl Energy 2020;280:
+115954.
+[7] Mofijur M, Rizwanul Fattah IM, Asraful Alam M, Saiful Islam ABM, Chyuan Ong H,
+Ashrafur Rahman SM, et al. Impact of COVID-19 on the social, economic,
+environmental and energy domains: lessons learnt from a global pandemic. Sustain
+Prod Consum 2021;26:343–59.
+[8] Rouleau J, Gosselin L. Impacts of the COVID-19 lockdown on energy consumption
+in a Canadian social housing building. Appl Energy 2021;287:116565.
+[9] Ghiani E, Galici M, Mureddu M, Pilo F. Impact on electricity consumption and
+market pricing of energy and ancillary services during pandemic of COVID-19 in
+Italy. Energies 2020;13:3357. https://doi.org/10.3390/en13133357.
+[10] CIGRE NGN Event “Impact of COVID on electrical power system”, 29 March 2021.
+[11] Espinoza S, Panteli M, Mancarella P, Rudnick H. Multi-phase assessment and
+adaptation of power systems resilience to natural hazards. Electr Power Syst Res
+2016;136:352–61.
+[12] US Electricity Subsector Coordinating Council. Assessing and mitigating the novel
+coronavirus (COVID-19) – a resource guide, Ver. 2; March 2020. https://www.ele
+ctricitysubsector.org/ [accessed 12 July 2021].
+[13] Panteli M, Mancarella P, Trakas DN, Kyriakides E, Hatziargyriou ND. Metrics and
+quantification of operational and infrastructure resilience in power systems. IEEE
+Trans Power Syst Nov. 2017;32(6):4732–42. https://doi.org/10.1109/
+TPWRS.2017.2664141.
+[14] Bhusal N, Abdelmalak M, Kamruzzaman M, Benidris M. Power system resilience:
+current practices, challenges, and future directions. IEEE Access 2020;8:18064–86.
+https://doi.org/10.1109/ACCESS.2020.2968586.
+[15] Johnson B, Chalishazar V, Cotilla-Sanchez E, Brekken TKA. A Monte Carlo
+methodology for earthquake impact analysis on the electrical grid. Electr Power
+Syst Res 2020;184:106332.
+[16] Ahmadi S, Saboohi Y, Vakili A. Frameworks, quantitative indicators, characters,
+and modeling approaches to analysis of energy system resilience: a review. Renew
+Sustain Energy Rev 2021;144:110988.
+[17] Karan E, Asgari S. Resilience of food, energy, and water systems to a sudden labor
+shortage. Environ Syst Decis 2021;41:63–81. https://doi.org/10.1007/s10669-
+020-09793-w.
+[18] Clark-Ginsberg A, Rueda IA, Monken J, et al. Maintaining critical infrastructure
+resilience to natural hazards during the COVID-19 pandemic: hurricane
+preparations by US energy companies. J Infrastruct Preserv Resil 2020;1:10.
+https://doi.org/10.1186/s43065-020-00010-1.
+[19] Elavarasan RM, Shafiullah GM, Raju K, Mudgal V, Arif MT, Jamal T. COVID-19:
+Impact analysis and recommendations for power sector operation. Appl Energy
+2020;279.
+[20] Heffron RJ, Korner ¨ M-F, Schopf ¨ M, Wagner J, Weibelzahl M. The role of flexibility
+in the light of the COVID-19 pandemic and beyond: Contributing to a sustainable
+and resilient energy future in Europe. Renew Sustain Energy Rev 2021;140:
+110743.
+[21] Hadjichrysanthou C, Sharkey KJ. Epidemic control analysis: Designing targeted
+intervention strategies against epidemics propagated on contact networks.
+J Theoretical Biol 2015;365:84–95.
+[22] Liu YY, Slotine JJ, Barab´
+asi AL. Controllability of complex networks. Nature 2011;
+473(7346):167–73.
+[23] Nekovee M, Pinto J. Modeling the impact of organization structure and whistleblowers on intra-organizational corruption contagion. Physica A: Statist Mech Appl
+2019;522:339–49.
+[24] Ciapessoni E, Cirio D, Pitto A, Panteli M, Van Harte M, Mak C. Defining power
+system resilience, Electra; Oct 2019, CIGRE C4.47 reference paper.
+[25] Narasimhan SR. COVID-19 impact on Indian electricity grid operations and the pan
+India lights out event of 5th April 2020. IEEE Webinar; 29 April 2020.
+[26] IEEE Power & Energy Society Industry Technical Support Leadership Committee:
+Sharing Knowledge on Electrical Energy Industry’s First Response to COVID-19,
+May 2020.
+[27] Mastropietro P, Rodilla P, Batlle C. Emergency measures to protect energy
+consumers during the Covid-19 pandemic: a global review and critical analysis.
+Energy Res Social Sci 2020;68:101678.
+[28] Moreno R, Sanchez ´ M, Suazo C, Negrete M, Olivares D, Alvarado D, et al. Impactos
+del COVID-19 en el Consumo El´ectrico Chileno. Revista Ingenierıa de Sistemas, vol.
+XXXIV; 2020.
+[29] FERC. NERC provide industry guidance to ensure grid reliability amid potential
+coronavirus impacts; March 18, 2020. https://www.nerc.com/news/Headlines%
+20DL/FERC%20NERC%20031820%20final.pdf [accessed 12 July 2021].
+[30] Kasthurirangan G, Srinivas P. Sustainable and resilient critical infrastructure
+systems. Scientific Publishing Services Pvt. Ltd; 2010.
+[31] Alexander DE. Resilience and disaster risk reduction: an etymological journey. Nat
+Hazards Earth Syst Sci 2013:2707–16.
+[32] Sanchis R, Poler R. Definition of a framework to support strategic decisions to
+improve Enterprise Resilience, vol. 46, no. 9. IFAC; 2013.
+[33] Van Harte M, Koch R, Rohde G. Building system resilience through multidisciplinary and cross divisional regional resilience teams. CIRED 2011;0594:6–9.
+[34] Stapelberg R. Infrastructure systems interdependencies and risk informed decision
+making (RIDM): impact scenario analysis of infrastructure risks induced by natural,
+technological and intentional hazards. Analysis 2010;6(5):21–7.
+S. Skarvelis-Kazakos et al. 
+International Journal of Electrical Power and Energy Systems 136 (2022) 107703
+17
+[35] Van Harte M, Koch R, Heideman U, Mahomed S, Moganedi T, Correia J. Planning
+for major electricity-related incidents, DMISA – disaster risk reduction 2016; 2016.
+[36] Moreno R, Panteli M, Mancarella P, Rudnick H, Lagos T, Navarro A, et al. From
+reliability to resilience: planning the grid against the extremes. IEEE Power Energ
+Mag 2020;18(4):41–53.
+[37] Linkov I, Bridges T, Creutzig F, Decker J, Fox-Lent C, Kroger ¨ W, et al. Changing the
+resilience paradigm. Nat Clim Change 2014.
+[38] UK Cabinet Office. Keeping the country running: natural hazards and
+infrastructure, UK; 2011.
+[39] Balchanos MG. A probabilistic technique for the assessment of complex dynamic
+system resilience. PhD thesis; 2012.
+[40] Hollnagel E, Woods DD, Leveson N, editors. Resilience engineering: Concepts and
+precepts. Ashgate Publishing Ltd.; 2006.
+[41] Berkeley AR III, Wallace M, NIAC. A framework for establishing critical
+infrastructure resilience goals: final report and recommendations. National
+Infrastructure Advisory Council; 2010.
+[42] NERC. Special report, pandemic preparedness and operational assessment: Spring
+2020. [accessed 12 July 2021]. https://www.nerc.com/pa/rrm/bpsa/Alerts%
+20DL/NERC_Pandemic_Preparedness_and_Op_Assessment_Spring_2020.pdf.
+[43] Dudenhoeffer DD, Manic M, Permann MR. Interdependency modeling and
+emergency response. In: Proceedings of the 2007 summer computer simulation
+conference (SCSC ’07); 2007. p. 1230–37.
+[44] Rinaldi SM, Peerenboom JP, Kelly TK. Identifying, understanding, and analyzing
+critical infrastructure interdependencies. IEEE Control Syst Mag 2001;21(6):11–25.
+[45] Rieger CG, Gertman DI, McQueen MA. Resilient control systems: Next generation
+design research. In: 2009 2nd conference on human system interactions; 2009. p.
+632–6. https://doi.org/10.1109/HSI.2009.5091051.
+[46] O’Rourke TD. Critical infrastructure, interdependencies, and resilience. BRIDGEWashington-Natl Acad Eng 2007;37(1):22.
+[47] Dudenhoeffer DD, Permann MR, Manic M. CIMS: a framework for infrastructure
+interdependency modeling and analysis. In: Proceedings of the 2006 winter
+simulation conference, IEEE; 2006. p. 478–85.
+[48] Ouyang M. Review on modeling and simulation of interdependent critical
+infrastructure systems. Reliab Eng Syst Saf 2014;121:43–60.
+[49] Ibanez M. Staff size evolution at the Spanish nuclear power plants. (IAEATECDOC–1193). International Atomic Energy Agency (IAEA); 2001.
+[50] Japan International Cooperation Agency (JICA). Feasibility study on the
+Sihanoukville combined cycle power development project in The Kingdom of
+Cambodia; January 2002.
+[51] Zhigljavsky A, Whitaker R, Fesenko I, Kremnizer K, Noonan J, Harper P, et al.
+Generic probabilistic modelling and non-homogeneity issues for the UK epidemic
+of COVID-19. arXiv:2004.01991v2.
+[52] Diestel R. Graph theory. Springer; 2012.
+[53] Alenazi MJF, Sterbenz JPG. Comprehensive comparison and accuracy of graph
+metrics in predicting network resilience. In: 2015 11th international conference on
+the design of reliable communication networks (DRCN); 2015. p. 157–64. https://
+doi.org/10.1109/DRCN.2015.7149007.
+[54] Doostmohammadian M, Rabiee HR, Khan UA. Centrality-based epidemic control in
+complex social networks. Soc Netw Anal Min 2020;10:1–11.
+[55] Zhu L, Guan G, Li Y. Nonlinear dynamical analysis and control strategies of a
+network-based SIS epidemic model with time delay. Appl Math Model 2019;70:
+512–31.
+[56] Eikenberry SE, Mancuso M, Iboi E, Phan T, Eikenberry K, Kuang Y, et al. To mask
+or not to mask: Modeling the potential for face mask use by the general public to
+curtail the COVID-19 pandemic. Infect Dis Model 2020;5:293–308.
+S. Skarvelis-Kazakos et al. 
